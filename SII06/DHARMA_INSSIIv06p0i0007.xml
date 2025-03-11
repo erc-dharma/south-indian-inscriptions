@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+			    <title>SII 6.7: original edition by Subrahmanya Aiyer</title>
+			    <title type="alt">No. 7. (<hi rend="italic">A.R. No.</hi> 58 <hi rend="italic">of</hi> 1897). ON A STONE BUILT INTO THE FLOOR OF THE FIRST PRAKARA IN THE SAME TEMPLE.</title>
+			    <respStmt>
+			        <resp>author of digital edition</resp>
+			        <persName ref="part:emfr">
+			            <forename>Emmanuel</forename>
+			            <surname>Francis</surname>
+			        </persName>
+			    </respStmt>	
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv06p0i0007</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+						
+
+</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	    <revisionDesc>
+	        <change who="part:emfr" when="2025-03-11" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-03-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam" rendition="class:tamil maturity:vernacular">
+
+    <ab xml:lang="san-Latn" rendition="class:grantha maturity:regional">
+        <lb n="1"/>svasti śrī
+    </ab>
+    
+    <p>
+        <lb n="2"/>koIrā<hi rend="grantha">ja</hi>ke
+        
+        <lb n="3" break="no"/><hi rend="grantha">sa</hi><unclear>ri</unclear>parmakku
+        
+        <lb n="4"/>yāṇṭu <num value="17"><g type="numeral">10</g> 7</num><g type="dash"/>
+        
+        <lb n="5" break="no"/>Āvatu naṅkai
+        
+        <lb n="6"/>Oḷimatiyār tā
+        
+        <lb n="7" break="no"/>yār nakka ṉili
+        
+        <lb n="8"/>Oru tiruvamitu
+        
+        <lb n="9" break="no"/>kku vaitta po
+        
+        <lb n="10" break="no"/><unclear>ṉ</unclear> <num value="10"><g type="numeral">10</g></num> <g type="poṉ"/> Ip
+        
+        <lb n="11" break="no"/>poṉ koṇ
+        
+        <lb n="12" break="no"/>ṭu kaṭavom va
+        
+        <lb n="13" break="no"/>ṭavāccālaip
+        
+        <lb n="14"/><unclear>pe</unclear>rumakkaḷ<unclear>o</unclear><!--note-->
+        
+        <lb n="15" break="no"/>m Ippoṉṉu
+        
+        <lb n="16" break="no"/>kkup pali
+        
+        <lb n="17" break="no"/><unclear>cai</unclear> nicati kuṟuṇi
+        
+        <lb n="18"/>nellāl O
+        
+        <lb n="19" break="no"/>ru tiruvamitu
+        
+        <lb n="20"/>Itu celut
+    </p>
+
+</div>
+
+<div type="apparatus">
+    
+    <listApp>
+        
+        <app loc="20">
+            <lem>Itu celut</lem>
+            <note>The last two or three lines of the inscription are much damaged.</note>
+        </app>
+        
+    </listApp>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 6.7 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis. ARIE/1896-1897/B/1897/58.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SubrahmanyaAiyer1928_01"/>
+			<citedRange unit="page">3</citedRange>
+			<citedRange unit="item">7</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl n="ARIE">
+         			<ptr target="bib:ARIE1896-1897"/>
+         			<citedRange unit="page">7</citedRange>
+         			<citedRange unit="appendix">B/1897</citedRange>
+         			<citedRange unit="item">58</citedRange>
+         		</bibl>
+	    
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

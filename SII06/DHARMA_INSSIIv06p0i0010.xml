@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+			    <title>SII 6.10: original edition by Subrahmanya Aiyer</title>
+			    <title type="alt">No. 10. (<hi rend="italic">A.R. No.</hi> 61 <hi rend="italic">of</hi> 1897). IN THE SAME PLACE.</title>
+			    <respStmt>
+			        <resp>author of digital edition</resp>
+			        <persName ref="part:emfr">
+			            <forename>Emmanuel</forename>
+			            <surname>Francis</surname>
+			        </persName>
+			    </respStmt>	
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv06p0i0010</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+						
+
+</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	    <revisionDesc>
+	        <change who="part:emfr" when="2025-03-11" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-03-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam" rendition="class:tamil maturity:vernacular">
+
+    <ab xml:lang="san-Latn" rendition="class:grantha maturity:regional">
+        <lb n="1"/>svasti śrī
+    </ab>
+    
+    <p>
+        
+        ko<hi rend="grantha">rāja</hi>ke<hi rend="grantha">sa</hi>riva<hi rend="grantha">nma</hi>kku yāṇṭu 2<g type="dash"/>Āvatu Āṟkāṭṭukkū<supplied reason="omitted">ṟ</supplied>ṟattu
+        
+        <lb n="2"/><hi rend="grantha">brahmadē</hi>yam <hi rend="grantha">cantra</hi>lekaicatu<hi rend="grantha">rvvē</hi>timaṅkalattu tirupperumtuṟai <hi rend="grantha">mahādē</hi>varkku
+        
+        <lb n="3"/>Eyṉāṭṭu kaṭampūrUṭai<surplus>y</surplus>yāṉ kāḷikeca<surplus>ṉ</surplus>num kāḷimāṟa<surplus>ṉ</surplus>num kāri tiruveṇ
+        
+        <lb n="4" break="no"/>kāṭ<unclear>ṭa</unclear>ṭika<unclear>ḷ</unclear>ḷum I<supplied reason="omitted">v</supplied>vaṉaivom kaṭampūruṭai<surplus>y</surplus>yāṉ kāḷi kārik=ku Āka vaitta viḷa[*]kku 1
+        
+        <lb n="5"/>Oṉṟuk=ku vacca poṉ <num value="15"><g type="numeral">10</g> 5</num> <g type="poṉ"/> Ippoṉ pati<supplied reason="omitted">ṉ</supplied>Aiṅkaḻaiñciṉ palicaiyāl nicatam Uḻa
+        
+        <lb n="6" break="no"/>k=ku ne<supplied reason="omitted">y</supplied>yāl Oru nontāviḷak=ku <hi rend="grantha">candrādi</hi>ttaval Erippo<surplus>m</surplus>mā<surplus>ṉ</surplus>nom It-tiru<unclear>koyi</unclear>
+        
+        <lb n="7" break="no"/><surplus>l</surplus><unclear>lu</unclear>ṭaiyom Eṅkaḷ muṟaināḷāl Erippomā<surplus>ṉ</surplus>nom <hi rend="grantha">sabhai</hi>yum <hi rend="grantha">panm<choice><sic>a</sic><corr>ā</corr></choice>śva</hi>hera <hi rend="grantha">ra<unclear>kṣ</unclear>ai</hi>
+    </p>
+    
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 6.10 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis. ARIE/1896-1897/B/1897/561.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SubrahmanyaAiyer1928_01"/>
+			<citedRange unit="page">4</citedRange>
+			<citedRange unit="item">10</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl n="ARIE">
+         			<ptr target="bib:ARIE1896-1897"/>
+         			<citedRange unit="page">8</citedRange>
+         			<citedRange unit="appendix">B/1897</citedRange>
+         			<citedRange unit="item">56</citedRange>
+         		</bibl>
+	    
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

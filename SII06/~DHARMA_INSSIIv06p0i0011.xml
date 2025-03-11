@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+			    <title>SII 6.11: original edition by Subrahmanya Aiyer</title>
+			    <title type="alt">No. 11. (<hi rend="italic">A.R. No.</hi> 62 <hi rend="italic">of</hi> 1897). IN THE SAME PLACE.</title>
+				<respStmt>
+					<resp>intellectual authorship of edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv06p0i0011</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+						
+
+</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2025-03-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam" rendition="class:tamil maturity:vernacular">
+    
+    <ab xml:lang="san-Latn" rendition="class:grantha maturity:regional">
+        <lb n="1"/>svasti śrī
+    </ab>
+    
+    <p>
+        korājake <hi rend="grantha">sa</hi> riva <hi rend="grantha">tma</hi> kku yā<supplied reason="omitted">ṇ</supplied>ṭu <hi rend="grantha">3</hi><g type="dash"/>Āvatu ārkkāṭṭukkūṟṟa<unclear>t</unclear>
+
+<lb n="2" break="no"/>tu <hi rend="grantha">brahmadē</hi> yam cā <hi rend="grantha">tra</hi> lekaicatu <hi rend="grantha">rvvē</hi> timaṅkalattu tirupperu <hi rend="grantha">n</hi> tuṟai <hi rend="grantha">ma</hi> h<choice><sic>a</sic><corr>ā</corr></choice> <hi rend="grantha">dē</hi>
+
+<lb n="3" break="no"/>varkku tirumaṅkalattu kālāvaṉ centaṉ ṉantiyeṉ uṭai
+
+<lb n="4" break="no"/>maiyar pakavaṉ catti perālum muṉnūṟṟuvaṉ <unclear>t</unclear>ecaviṭaṅkan perālu
+
+<lb n="5" break="no"/>m kiṭakkum kaiyeḻuttolaiyāl kaṭava poṉṉālum nellālum
+
+<lb n="6"/>eṟṟivanta pon mutal <num value="30">3 <g type="numeral">10</g></num> <g type="poṉ"/> ippoṉ muppatinkaḻaiñcin pali
+
+<lb n="7" break="no"/>caiyāl nicatam uḻakku ne<supplied reason="omitted">y</supplied>yāl oru no <hi rend="grantha"><unclear>ndā</unclear></hi> viḷakku <hi rend="grantha">candrādi</hi> ttaval e
+
+<lb n="8" break="no"/>rippomān<unclear>o</unclear>m ivviruvom <hi rend="grantha">sabhai</hi> yu[ m <hi rend="grantha">panm</hi>] <hi rend="grantha">ā</hi> he <hi rend="grantha">śva</hi> ra <hi rend="grantha">rakṣai</hi>
+    </p>
+    
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 6.11 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by John Doe.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SubrahmanyaAiyer1928_01"/>
+			<citedRange unit="page">4</citedRange>
+			<citedRange unit="item">11</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+			    <title>SII 6.6: original edition by Subrahmanya Aiyer</title>
+			    <title type="alt">No. 6. (<hi rend="italic">A.R. No.</hi> 57 <hi rend="italic">of</hi> 1897). IN THE SAME PLACE.</title>
+			    <respStmt>
+			        <resp>author of digital edition</resp>
+			        <persName ref="part:emfr">
+			            <forename>Emmanuel</forename>
+			            <surname>Francis</surname>
+			        </persName>
+			    </respStmt>	
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv06p0i0006</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary/>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+		    <change who="part:emfr" when="2025-03-11" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		    <change who="part:mime" when="2025-03-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+    
+<text xml:space="preserve">
+<body>
+
+<div type="edition" xml:lang="tam" rendition="class:tamil maturity:vernacular">
+
+    <ab xml:lang="san-Latn" rendition="class:grantha maturity:regional">
+        <lb n="1"/>svasti śrī
+    </ab>
+    
+    <p>
+        <gap reason="lost" quantity="10" unit="character"/> ttikaḷ <hi rend="grantha">śrī</hi>pocaḷa vīra<hi rend="grantha">rā</hi>manāta<hi rend="grantha">dē</hi>varkku yāṇṭu <num value="10"><g type="numeral">10</g></num><g type="dash"/>vatu kaṟkaṭakanā<unclear>yaṟṟu</unclear> <gap reason="lost" quantity="4" unit="character"/>
+        
+        <lb n="2"/>ttu <unclear>Ē</unclear>kā<hi rend="grantha">da</hi>ci <gap reason="lost" quantity="8" unit="character"/> yum peṟṟa Urocaṇināḷ pāṇṭikulācaṉivaḷanāṭṭu viḷānāṭṭu Uṭai <gap reason="lost" quantity="3" unit="character"/>
+        
+        <lb n="3"/>ṉaikkāvu<seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ai</seg> <gap reason="lost" quantity="7" unit="character"/> <unclear>tiru</unclear>veṇṇāval<unclear>ki</unclear>ḻ Iṉitamarntaruḷiya <hi rend="grantha">tribhu</hi>vaṉapatikku mūla<hi rend="grantha">bradhyarā</hi>kiya Ā <gap reason="lost" quantity="3" unit="character"/>
+        
+        <lb n="4"/>ratevarkan<unclear>mikaḷu</unclear> <gap reason="lost" quantity="6" unit="character"/> tevatānam iṉṉāṭṭu ār<unclear>kā</unclear>ṭṭukkūṟṟattu <gap reason="lost" quantity="5" unit="character"/> Āḻiṅkuṭiyil Āḻiṅkuṭaiyā <gap reason="lost" quantity="3" unit="character"/>
+        
+        <lb n="5"/>vāyiluṭaiyārkkum palakaiyil Arici viṭu<gap reason="lost" quantity="2" unit="character"/> nāyamāril taṅkaḷūril Uṭaiyār kākku nāyaka<hi rend="grantha">r</hi> <gap reason="lost" quantity="3" unit="character"/>
+    </p>
+        
+</div>
+
+<div type="apparatus">
+    
+    <listApp>
+        
+        <app loc="2">
+            <lem><gap reason="lost" quantity="8" unit="character"/> yum</lem>
+            <note>The traces here would admit of the reading <foreign>yum putankiḻamai</foreign>.</note>
+        </app>
+        
+        <app loc="5">
+            <lem>nāyaka<hi rend="grantha">r</hi></lem>
+            <note> The inscription is damaged and mutilated on the right side.</note>
+        </app>
+        
+    </listApp>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 6.6 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis. ARIE/1896-1897/B/1897/57.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SubrahmanyaAiyer1928_01"/>
+			<citedRange unit="page">3</citedRange>
+			<citedRange unit="item">6</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl n="ARIE">
+         			<ptr target="bib:ARIE1896-1897"/>
+         			<citedRange unit="page">7</citedRange>
+         			<citedRange unit="appendix">B/1897</citedRange>
+         			<citedRange unit="item">57</citedRange>
+         		</bibl>
+	    
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
