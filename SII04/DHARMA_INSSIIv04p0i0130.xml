@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 4.130: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 130. (A.R. No. 32 of 1888). ROUND THE GARBHAGRIHA OF THE VAIKUNTHA-PERUMAL TEMPLE AT CONJEEVERAM.</title>
+			    <respStmt>
+			        <resp>author of digital edition</resp>
+			        <persName ref="part:emfr">
+			            <forename>Emmanuel</forename>
+			            <surname>Francis</surname>
+			        </persName>
+			    </respStmt>	
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv04p0i0130</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>[<hi rend="italic">Note</hi>.—Letters enclosed in square brackets are doubtful on the stone. Those enclosed in round brackets are superfluous and must be omitted. Those in brackets with asterisks are inserted by the editor. The gaps are represented by dots but not always by as many dots as the number of lost or damaged letters.]</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>		    
+		    <change who="part:emfr" when="2025-03-17" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>            
+		    <change who="part:mime" when="2025-03-13" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="san-Latn" rendition="class:grantha maturity:regional">
+
+    <p>
+        <lb n="1"/>svasti śrīḥ [||*]
+    </p>
+    
+    <p>
+            <gap reason="lost" quantity="2" unit="character"/> takaḥ <gap reason="lost" quantity="3" unit="character"/> yutārbuddaṭha prathito guṇabhūṣaṇa Ityadhipa<unclear>ḥ</unclear> parameśvaraviṣṇugrahe hā
+        <lb n="2" break="no"/><gap reason="lost" quantity="1" unit="character"/> rati <gap reason="lost" quantity="1" unit="character"/> dayaḥ tasya <gap reason="lost" quantity="2" unit="character"/> pramade<unclear>na</unclear>dadau |||-
+    </p>
+    <p>
+        manodhirasyāya<unclear>m</unclear> śloka<unclear>ḥ</unclear> ||-        
+    </p>
+
+</div>
+
+<div type="apparatus"/>
+
+
+
+<div type="commentary">
+    <p>In continuation of this tier, on the proper right side of the entrance there is an inscribed piece of two lines, of which the beginning only is seen <hi rend="italic">viz.</hi> <lb n="1"/><seg xml:lang="tam" rendition="class:tamil maturity:vernacular">koṟṟappa</seg> <lb n="2"/> <seg xml:lang="tam" rendition="class:tamil maturity:vernacular">tāḻirol</seg></p>
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 4.130 by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis. ARIE/1887-1888/I/1887-1888/32</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1923_01"/>
+			<citedRange unit="page">7-8</citedRange>
+			<citedRange unit="item">130</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+                    
+                    <bibl n="ARIE">
+                        <ptr target="bib:ARIE1887-1888_01"/>
+                        <citedRange unit="page">5</citedRange>
+                        <citedRange unit="appendix">I/1887-1888</citedRange>
+                        <citedRange unit="item">32</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
