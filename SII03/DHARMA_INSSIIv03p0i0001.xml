@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 3.1: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">No. 1.—ON THE NORTH WALL OF THE SHRINE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>		
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv03p0i0001</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is dated in the 23rd year of the reign of the ancient <hi rend="bold">Chōḷa</hi> king <hi rend="bold">Rāja-kēsarivarman</hi>.<note n="2-4">To the same reign belong Nos. 84 and 147 of Vol. I.; <hi rend="italic">Ep. Ind</hi>. Vol. III. No. 38, A; and No. 13 below. The king is perhaps identical with Āditya I., the father of Parāntaka I.</note> It records that a certain <hi rend="bold">Brahmādhirāja</hi> (ll. 4 and 11) deposited 200 <hi rend="italic">kaḻañju</hi> of gold with the villagers, and that the latter pledged themselves to apply the interest of this sum to the feeding of twelve learned Brāhmaṇas.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>            
+            <change who="part:emfr" when="2025-03-17" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-03-13" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+<div type="edition" xml:lang="tam" rendition="class:tamil maturity:vernacular">
+    
+    <ab>
+        <lb n="1"/><hi rend="grantha">svasti śrī</hi> ||—
+    </ab>
+    
+    <p>        
+        ko <hi rend="grantha">rāja</hi>ke<hi rend="grantha">sariva<unclear>r</unclear>mma</hi>ṟku yāṇṭu Irupattumuṉṟāvatu <note n="2-5">Read mūṉṟāvatu</note> [|*]
+    </p>
+    <p>
+        kāliyūrkkoṭṭattuppākū
+        <lb n="2" break="no"/>r<unclear>n</unclear>āṭṭuccivacūḷāmaṇimaṅ<unclear>ka</unclear>lamā<unclear>ki</unclear>ya Aparā[<hi rend="grantha">ji</hi>]tacca<hi rend="grantha">tu<unclear>r</unclear>vve</hi>timaṅkalattu <hi rend="grantha">sabhai-yo</hi>
+        <lb n="3" break="no"/>mmeḻuttu [|*]
+    </p>
+    <p>
+        Ikkoṭṭa<unclear>t</unclear>tuttaṉ kūṟṟu Uttaramerucca<hi rend="grantha">tu<unclear>r</unclear>vve</hi>timaṅkala-miyā<note n="2-6">Read mīyā.</note>
+        <lb n="4" break="no"/>ḷuṅkaṇattāruṭceti<unclear>ṟū</unclear>rttiruvi<hi rend="grantha">krama<unclear>bha</unclear>ṭṭa</hi>rākiya <hi rend="grantha">brahmādhi</hi>rā<hi rend="grantha">ja</hi>r pakkal koṇṭa poṉ Irunūṟ
+        <lb n="5" break="no"/>ṟukkaḻañcu [|*]        
+    </p>
+    <p>
+        Ippoṉṉiṉ <note n="3-1">Read <hi rend="grantha">vṛiddhi</hi>.</note><hi rend="grantha">pra<unclear>ddha</unclear></hi>yālu<unclear>me</unclear> <note n="3-2">Read emmūr.</note>Emmurppuvanimāṇikkavi<hi rend="grantha">ṣṇu-gṛi</hi>hattu perumāṉaṭika
+        <lb n="6" break="no"/>ḷ Uccam p<unclear>o</unclear>ḻ<unclear>tu</unclear> tiruvamirtu ceyvataṉ mu<unclear>ṉ</unclear>ṉam nicati paṉṉiruvar <hi rend="grantha">brāhma</hi>ṇar <hi rend="grantha">veda</hi>m vallār Uṇpa<unclear>tā</unclear>
+        <lb n="7" break="no"/>kavum [|*]
+    </p>
+    <p>        
+        <note n="3-3">Read ippaṉṉiru.</note>Ip<unclear>paṉiru</unclear>vaṟkum <hi rend="grantha">śariram</hi><note n="3-4">Read <hi rend="grantha">śarīram</hi>.</note> <hi rend="grantha">prati</hi> <unclear>Āḻā</unclear>kku <unclear>ne</unclear>y<unclear>yu</unclear>m Ain<unclear>tu</unclear> kaṟiyu<unclear>m</unclear> Aivvu<unclear>ḻa</unclear>kkuttayirum Iv<unclear>vi</unclear>raṇṭu kāyumi<unclear>lai</unclear>yum
+        <lb n="8"/>Ivarkaḷukku <hi rend="grantha"><unclear>tṛi</unclear>pti</hi>yāmaḷavum Ipparicu Ā<hi rend="grantha">cantra</hi>tāramum<note n="3-5">Read <hi rend="grantha">candra</hi>.</note><unclear>ū</unclear>ṭṭuvatāka Ippaṉ-ṉiruvar <hi rend="grantha">brāhma</hi>ṇarkkum <unclear>A</unclear>ṭuvārkkum <unclear>vi</unclear>ṟakiṭu
+        <lb n="9" break="no"/>vārk<unclear>ku</unclear>m ma<unclear>ṟ</unclear>ṟum <unclear>E</unclear>pperppaṭṭatum Aṭaṅka Ipparicu Ūṭṭuvatāka Ivvi-runū<unclear>ṟ</unclear>ṟukkaḻañcuṅkoṇṭom [|*] I<unclear>p</unclear>paricu
+        <lb n="10"/>Ūṭṭām<unclear>e</unclear> <hi rend="grantha">vigghnan</hi>tuytār <hi rend="grantha">geṅgai</hi> Iṭaikkumari Iṭaicceytār ceyta pāpamellāṅkoḷ<unclear>v</unclear>ārāka<unclear>vumi</unclear>ppari
+        <lb n="11" break="no"/>cu muṭṭi<unclear>l mu</unclear>n<unclear>t</unclear>ā<hi rend="grantha">n</hi>tu<unclear>y</unclear>ta I<hi rend="grantha">ṣṭāpū<unclear>r</unclear>tta</hi>m <hi rend="grantha">brahmādhirā</hi><hi rend="grantha">ja</hi>nukke Āvatā-kavum [|*]
+    </p>
+    <p>        
+        I<supplied reason="omitted">p</supplied>paricu Oṭṭi <hi rend="grantha">śilālekhai</hi> ceytu <unclear>ku</unclear>ṭut
+        <lb n="12" break="no"/><unclear>tom</unclear> <hi rend="grantha"><unclear>sabhai</unclear></hi>yom ||— 
+    </p>
+    <ab>
+        <hi rend="grantha">svasti śrī</hi> ||—
+    </ab>
+    
+</div>
+            
+<div type="apparatus">
+                
+            </div>
+            
+<div type="translation" source="bib:Hultzsch1899_01">
+                
+    <p>(Line 1.) Hail ! Prosperity ! In the twenty-third year (<hi rend="italic">of the reign</hi>) of king <hi rend="bold">Rāja-kēsarivarman</hi>. The writing of us, the assembly of <hi rend="bold">Śivachūḷāmaṇimaṅgalam</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Aparā[ji]ta-chaturvēdimaṅgalam</hi>, (<hi rend="italic">a village</hi>) in <hi rend="bold">Pāgūr-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Kāli-yūr-kōṭṭam</hi>.</p>
+    
+    <p>(L. 3.) (<hi rend="italic">We</hi>) have received two hundred <hi rend="italic">kaḻañju</hi>) of gold from <hi rend="bold">Tiruvikrama-Bhaṭṭar</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Brahmādhirājar</hi>, of <hi rend="bold">Śedi[ṟū]r</hi>, (<hi rend="italic">one</hi>) among the commissioners (<hi rend="italic">gaṇattār</hi>) ruling over <hi rend="bold">Uttaramēru-chaturvēdimaṅgalam</hi>, <note n="3-6">This is the modern Uttaraṉmērūr in the Madurāntakam tāluka of the Chingleput district.</note> (<hi rend="italic">a village</hi>) in its own subdivision (<hi rend="italic">kūṟu)</hi> <note n="3-7">This expression implies that the village by itself formed an independent subdivision of a district (<hi rend="italic">kōṭṭam</hi>), just as Tiruvottūr in Vol. I. No. 85 (where <ta>taṉ kūṟṟu</ta> must be read instead of <ta>taṉakūṟṟu</ta>), and as Tirukkaḻuk- kuṉṟam in <hi rend="italic">Ep. Ind</hi>. Vol. III. p. 279. The technical designation of such a village was <hi rend="italic">taṉiyūr</hi>, for which see the Index to Vol. II. of the present work.</note> of the same <hi rend="italic">kōṭṭam</hi>.</p>
+    
+    <p>(L. 5.) From the interest of this gold, twelve Brāhmaṇas who know the Vēda, have to be fed daily, before the god (<hi rend="italic">perumāṉ-aḍigaḷ</hi>) of the <hi rend="bold">Puvanimāṇikka-Vishṇugṛiham</hi> in our village receives offerings at noon-time.</p>
+    
+    <p>(L. 7.) We have received these two hundred <hi rend="italic">kaḻañju</hi>, in order to supply, as long as the moon and the stars exist, to each of these twelve (Brāhmaṇas), (one) <hi rend="italic">āḻākku</hi> of ghee, five dishes of curry, five <hi rend="italic">uḻakku</hi> of curds, two areca-nuts, and betel-leaves until they are satisfied, (<hi rend="italic">and</hi>) in order to supply everything else to these twelve Brāhmaṇas, to the cooks, and to those who fetch firewood.</p>
+    
+    <p>(L. 9.) Those who do not feed (<hi rend="italic">them</hi>) thus and cause obstruction, shall incur all the sins committed between the <hi rend="bold">Gaṅgā</hi> and <hi rend="bold">Kumari</hi>. <note n="3-8">Compare <hi rend="italic">Ep. Ind</hi>. Vol. IV. p. 140, note 3.</note></p>
+    
+    <p>(L. 10.) If (<hi rend="italic">any persons</hi>) hinder this, the sacrifices and charitable deeds (<hi rend="italic">ishṭāpūrta</hi>) which they have performed themselves before, shall devolve on <hi rend="bold">Brahmādhirājaṉ</hi>. <note n="3-9">According to line 4 of the text, this was the name of the donor.</note></p>
+    
+    <p>(L. 11.) Having agreed thus, we, the assembly, engraved (<hi rend="italic">this</hi>) on stone. Hail ! Pros-perity !</p>
+    
+</div>
+            
+<div type="commentary">
+                
+            </div>
+            
+<div type="bibliography">
+                
+    <p>Digital edition of SII 3.1 by <bibl><ptr target="bib:Hultzsch1899_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+    
+    <listBibl type="primary">
+        
+        <bibl n="SII">
+            <ptr target="bib:Hultzsch1899_01"/>
+            <citedRange unit="page">2-3</citedRange>
+            <citedRange unit="item">1</citedRange>
+        </bibl>
+        
+    </listBibl>
+    
+    <listBibl type="secondary">
+        
+        <bibl/>
+        
+    </listBibl>
+    
+</div>
+            
+        </body>
+    </text>
+</TEI>
