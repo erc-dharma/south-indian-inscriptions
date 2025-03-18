@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.265: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 265. (A.R. No. 49 of 1906). TIRUKKAḌAIYŪR, MAYAVARAM TALUK, TANJORE DISTRICT. ON THE THIRD GŌPURA OF THE AMṚITAGHAṬĒŚVARA TEMPLE, RIGHT OF ENTRANCE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0265</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription consists of three verses in Tamil in praise of the <hi rend="bold">Kāḍava</hi> chief who made the ruler of the land bordering the river Kāvērī his subordinate, by taking from him the tiger banner.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>           
+            <change who="part:emfr" when="2025-03-17" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-03-13" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+<div type="edition" xml:lang="tam" rendition="class:tamil maturity:vernacular">
+                
+    <ab>
+        <lb n="1"/><hi rend="grantha">svasti śrī</hi> [||*]
+    </ab>
+    <p>
+        vārmaṉṉu velkaḻal māṉa<surplus>ṉa</surplus>vaṉpā luṅkaṉ māmarapiṟ tārma<unclear>ṉ</unclear>ṉar peṟṟa taṉu makkoṭi yittala<unclear>m pura</unclear>
+        <lb n="2" break="no"/>kkuṅ kārmaṉṉu cempoṟ kaṉakoṭai moka teṉkaccinakaṟ pormaṉṉu <unclear>veḷ</unclear>peṟṟa tārum peṟāta pulikkoṭi<unclear>ye</unclear> [|*]
+    </p>
+    <p>
+        <lb n="3"/>civaṉaṉṟu nalkiya ceñciṉa veṟṟukkoṭi yuyartta kavaṉantaru parik kacciyarkoṉ paccai<unclear>ye</unclear> yuyarvitta<unclear>vaṉa</unclear> <gap reason="lost" quantity="2" unit="character"/> kulapati <unclear>taṉ</unclear>ṉuṭaṉ
+        <lb n="4"/>pontu taṇkāviriniṟ puvaṉaṅkoṭuttuk koṇṭā ṉavaṉpāl vempulikkoṭiye [|*]
+    </p>
+    <p>
+        <lb n="5"/>puṭpaci māṟṟiya pormaṉṉark kiṉipuviyilep pakavaṉṉa pakaiyillai rā<hi rend="grantha">jadro <gap reason="lost" quantity="6" unit="character"/></hi>
+        <lb n="6"/>kktāṭava koṉṟu kuvitta taṟaṉuṭ pakaippaṟṟap puṟappakaiyoṭṭuṇṭu veṭṭuṇṭate ||<g type="pc"/>
+    </p>
+    
+</div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary">
+                <p>Ends of lines 1-5 are damaged.</p>
+            </div>
+                
+            
+            
+<div type="bibliography">
+                
+                <p>Digital edition of SII 12.265 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">168</citedRange>
+                        <citedRange unit="item">265</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
