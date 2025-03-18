@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 5, part 1, no. 1357: original edition by H. Krishna Sastri</title>
+                <title type="alt">No. 1357. (A.R. No. 402 of 1896). ON A STONE BUILT INTO THE FLOOR ON THE NORTH SIDE OF THE FIRST PRAKARA OF THE SAME TEMPLE. Puḷḷi is marked in this inscription.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>	
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv05p1i1357</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-03-17" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-03-18" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam" rendition="class:tamil maturity:vernacular">
+                
+                <ab>
+                    <lb n="1"/><hi rend="grantha">svasti śrīḥ</hi> <supplied reason="omitted"><g type="ddanda">.</g></supplied>
+                </ab>
+                
+                <p>
+                   kopparake
+                    <lb n="2" break="no"/><hi rend="grantha">sarivarmma</hi>ṟk=ku yāṇṭu Eḻā
+                    <lb n="3" break="no"/>vatu kā<hi rend="grantha">rā</hi>ṇai viḻuppa<unclear>rai</unclear>
+                    <lb n="4" break="no"/>yar Aṟi<unclear>vā</unclear>ḷaṉ puttaṉ
+                    <lb n="5"/>tiruvoṟṟiyūr <hi rend="grantha">mahāde</hi>var
+                    <lb n="6" break="no"/>kkoru na<hi rend="grantha">ndā</hi>viḷakkerippata
+                    <lb n="7" break="no"/>ṟk=ku vaitta poṉṉūr kā
+                    <lb n="8" break="no"/>ṟccemmai muppatiṉkaḻa
+                    <lb n="9" break="no"/>ñcu Ippoṉ koṇṭu kaṭa
+                    <lb n="10" break="no"/>vom tiruvoṟṟiyūrppuṟat
+                    <lb n="11" break="no"/>tu maṇali <hi rend="grantha">sabhai</hi>yom I
+                    <lb n="12" break="no"/>ppoṉṉā lāṇṭuvarai ka 
+                    <lb n="13" break="no"/>ḻañciṉvāy muṉṟu
+                    <lb n="14"/><gap reason="lost" quantity="6" unit="character"/> palicai <gap reason="lost" quantity="4" unit="character"/>
+                    <lb n="15-17"/><ce>very badly damaged</ce>
+                    <lb n="18"/><gap reason="lost" quantity="5" unit="character"/> lppoṉ <gap reason="lost" quantity="2" unit="character"/>
+                    <lb n="19"/>tiruvoṟṟiyūrāṇikki<unclear>ḻe</unclear>
+                    <lb n="20" break="no"/>y ceṉṟiṭṭuk kuṭuppo mi
+                    <lb n="21" break="no"/><unclear>ta</unclear>ṟṟiṟampi luṇṭikai <gap reason="lost" quantity="2" unit="character"/>
+                    <lb n="22"/>paṭṭikaiyuṅ kāṭṭāte <hi rend="grantha">dha</hi> <gap reason="lost" quantity="2" unit="character"/>
+                    <lb n="23"/>ttu nicati nāle kāl ka <gap reason="lost" quantity="3" unit="character"/>
+                    <lb n="24"/>taṇṭamiṭa voṭṭik=kuṭutto <gap reason="lost" quantity="3" unit="character"/>
+                    <lb n="25"/>ṇṭampaṭṭum Ippoṉ <gap reason="lost" quantity="3" unit="character"/>
+                    <lb n="26"/>poṉ muṭṭāmaik=ku <gap reason="lost" quantity="4" unit="character"/>
+                    <lb n="27"/><unclear>m</unclear>āṉo mippoṉ<gap reason="lost" quantity="3" unit="character"/>
+                    <lb n="28"/><gap reason="lost" quantity="1" unit="character"/> ntārk=ku nicita Ira<gap reason="lost" quantity="4" unit="character"/>
+                    <lb n="29"/>ṭuppomāṉom <gap reason="lost" quantity="5" unit="character"/>
+                    <lb n="30"/>yom <supplied reason="omitted"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 5, part 1, no. 1357 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis. ARIE/1896-1897/A/1896/403.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1925_01"/>
+                        <citedRange unit="page">493-494</citedRange>
+                        <citedRange unit="item">1357</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+
+		<bibl n="ARIE">
+         			<ptr target="bib:ARIE1896-1897"/>
+         			<citedRange unit="page">5</citedRange>
+         			<citedRange unit="appendix">A/1896</citedRange>
+         			<citedRange unit="item">403</citedRange>
+         		</bibl>
+
+	</listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
