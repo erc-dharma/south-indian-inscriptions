@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 5.222: original edition by H. Krishna Sastri</title>
+                <title type="alt">No. 222. (A.R. No. 546 of 1893). ON THE FLOOR OF THE SUNDARARAJA-PERUMAL TEMPLE AT UDAYENDIRAM, GUDIYATAM TALUK, NORTH ARCOT DISTRICT.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>	
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv05p1i0222</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-03-20" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-03-18" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><gap reason="lost" quantity="7" unit="character"/> vira<hi rend="grantha">siṁhāsa</hi>nattu viṟṟirun=taruḷiya ko virā<hi rend="grantha"><unclear>ja</unclear></hi>ke<hi rend="grantha">sari</hi>pa<hi rend="grantha">nma</hi>rāna Uṭai <gap reason="lost" quantity="5" unit="character"/>
+                    <lb n="2"/><gap reason="lost" quantity="7" unit="character"/> <hi rend="grantha">kki</hi>ramavittan pakkal Immaṇṭalattu Aiñ<unclear>puḻakaḷa</unclear>nāṭṭu <hi rend="grantha"><unclear>sa</unclear></hi>paiyom <gap reason="lost" quantity="3" unit="character"/>
+                    <lb n="3"/><gap reason="lost" quantity="7" unit="character"/> Eṅkaḷ Ūrilp pa<unclear>ḷḷappuya</unclear>m <hi rend="grantha">śrī</hi>pātakkolāl <unclear>kuḻi</unclear> Aiññūṟṟu Aṟu <gap reason="lost" quantity="1" unit="character"/>
+                    <lb n="4"/><gap reason="lost" quantity="7" unit="character"/> <hi rend="grantha">sabhai</hi> yom
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary">
+                <p>This inscription is a fragment.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 5.222 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis. ARIE/1893-1894/A/1893/546</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1925_01"/>
+                        <citedRange unit="page">81</citedRange>
+                        <citedRange unit="item">222</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl n="ARIE">
+                        <ptr target="bib:ARIE1893-1894"/>
+                        <citedRange unit="page">24</citedRange>
+                        <citedRange unit="appendix">A/1893</citedRange>
+                        <citedRange unit="item">546</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
