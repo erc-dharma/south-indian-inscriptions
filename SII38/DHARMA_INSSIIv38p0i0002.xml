@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 38.2: original edition by S. Swaminathan</title>
+                <title type="alt">No. 2. (A.R. No. 2 of 1912.) TEṈKĀŚI, TENKASI TALUK, TIRUNELVELI DISTRICT. On the north wall, central shrine, Vīśvanāthaśvāmin temple.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>	
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv38p0i0002</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p><hi rend="bold">King: Parākrama Pāṇḍya Year 31+7 <foreign>siṁha</foreign> 25, ba. di. 10, Friday, Anisha = irregular.</hi></p>						
+                            
+                            <p>The inscription records the gift of land in the village, Ilañjai in Teṉ-vāri-nāḍu made tax-free to the Viśvaṉātha temple in Teṉ-kāsi <foreign>(Dakshiṇa-kāsi).</foreign> The gift was made to the <foreign>tāṉattār</foreign> of the temple. It also describes the boundaries of the above land. One Kiḍārattūr-uḍaiyāṉ figures as a signatory of this record.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-03-14" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-03-18" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam" rendition="class:tamil maturity:vernacular">
+                
+                <ab>
+                    <lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="omitted"><g type="ddanda">.</g></supplied>
+                </ab>
+                <p>
+                    ko<hi rend="grantha">ja</hi><hi rend="grantha">ṭila</hi>va<hi rend="grantha">rmarā</hi>na <hi rend="grantha">tribhu</hi>vana<hi rend="grantha">ccakra</hi>vat=tikaḷ <hi rend="grantha">śrīparā</hi>
+                    <lb n="2" break="no"/><hi rend="grantha">kramapāṇḍyade</hi>varkku yāṇṭu muppattoṉṟāvatiṉ Etir Eḻāvatu <hi rend="grantha">siṁha</hi> ñāyaṟṟu Irupattañcān tiyatiyum <hi rend="grantha">Aparapakṣa</hi>ttu Ē<hi rend="grantha">kādaśi</hi>yum veḷḷikkiḻamaiyum peṟṟa Ani<hi rend="grantha">ṣa</hi>ttu nāḷ <hi rend="grantha">dakṣi</hi>ṇa<hi rend="grantha">kāśi</hi>
+                    <lb n="3" break="no"/>yil Uṭaiyār vi<hi rend="grantha">śva</hi>nā<hi rend="grantha">than·</hi>koyililt tāṉattārkku Uṭaiyār vi<hi rend="grantha">śva</hi>nā<hi rend="grantha">tha</hi>ṉukkut tevatāṉamāka viṭṭa teṉvārināṭṭu Ilañci Uḷḷiṭṭa paṟṟukkup perunāṉkelkaiyāvatu
+                    <lb n="4"/>kiḻ E<seg rend="check">lk</seg>ai Āṟṟukkum Uṭaiyār tirukkuṟṟālamuṭaiya nāyaṉār tevatāṉappaṟṟukkum meṟku teṉ Elkai Iṉṉāyaṉār tevatāṉappaṟṟukku vaṭakku mel Elkai nallūrppaṟṟukkuk kiḻakku 
+                    <lb n="5"/>vaṭavelkai vaṭavāṟṟukkut teṟku Āka Iṉṉāṉ kelkaikkuṭ paṭṭa paṟṟil paḻaiya tevatāṉaṅkaḷum koyilmār civitaṅkaḷum niṅkalāka Uḷḷa paṟṟil nañcey puñcey māvaṭai maravaṭai
+                    <lb n="6"/>paṭṭaṭai koṭikkaṭamai maṟṟumuḷḷa <hi rend="grantha">samastaprāpti</hi>yum muppattoṉṟāvatiṉ Etir Eḻāvatu kār mutalukkut tevatāṉamāka viṭṭa Aḷavukku Immariyātiyile Ivvolai piṭipāṭā
+                    <lb n="7" break="no"/>kak koṇṭu Iṉṉāḷ mutalukku <hi rend="grantha">candrāditya</hi>vatu cellak kalliluñ cempilum veṭṭi Ivvā<surplus>va</surplus>layam Uḷḷa Aḷavum tevatāṉamākak kaiyāṇṭu koṇṭu pūcaiyu<supplied reason="omitted">m</supplied>
+                    <lb n="8"/>tāḻvaṟa naṭattippotavum pāṟka Ivai k<choice><sic>a</sic><corr>i</corr></choice>ṭārattūrUṭaiyāṉ Eḻuttu <g type="pc">.</g></p><p><hi rend="grantha">tulyam·</hi><g type="pc">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 38.2 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis. ARIE/1911-1912/C/1912/2.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Swaminathan2019_01"/>
+                        <citedRange unit="page">2-3</citedRange>
+                        <citedRange unit="item">2</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl n="ARIE">
+                        <ptr target="bib:ARIE1911-1912"/>
+                        <citedRange unit="page">41</citedRange>
+                        <citedRange unit="appendix">C/1912</citedRange>
+                        <citedRange unit="item">2</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
