@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.7: original edition by S. Swaminathan</title>
+				<title type="alt">No. 7. (A.R. No. 7 of 1912.) TEṈKĀŚI, TENKASI TALUK, TIRUNELVELI DISTRICT. On the west and south walls, central shrine, Vīśvanāthaśvāmin temple.</title>
+				<respStmt>
+					<resp>intellectual authorship of edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0007</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">King: Parākrama Pāṇḍya Year 31+2, <hi rend="italic">Vrischika</hi> 9, ba. di. 2, Thursday, <hi rend="italic">Mṛigaśīrisha</hi> = 1455 A.D. Other details are irregular.</hi></p>						
+
+						<p>This incomplete inscription records the provision made for the anointment of the deity, ghee for food offerings <hi rend="italic">(neyamudhu)</hi> and oil to the lamp and some other gifts (details not known) for the god Viśvanātha.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2025-03-18" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="omitted"><g type="ddanda">.</g></supplied></hi> ko<hi rend="grantha">ja</hi><hi rend="grantha">ṭilavarmmarāna tribhuvanaccakravattika</hi>ḷ <hi rend="grantha">śrīparākramapāṇḍya de</hi>vaṟku yāṇṭu <num value="31">3 <g type="numeral">10</g> 1</num>vatiṉ Etir Iraṇṭāvatu <hi rend="grantha">vraścika</hi> ñāyaṟṟu Oṉpatāntiyatiyum <hi rend="grantha">Aparapakṣa</hi>ttu <hi rend="grantha">dvi</hi>tiyaiyum viyāḻakkiḻamaiyum peṟṟa <hi rend="grantha">mragaśirṣa</hi>ttu nāḷ Uṭaiyār <hi rend="grantha">viśvanādha</hi>ṉukkut tirumeṉic celavukkum neyyamutukkum tiruviḷakku Eṇṇaikkum muṉṉāḷ nām viṭṭa pacu niṅkalākak kaṟ <gap reason="lost" quantity="8" unit="character"/> <note n="9-1"> Incomplete.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.7 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> converted to DHARMA conventions by John Doe.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">9</citedRange>
+			<citedRange unit="item">7</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
