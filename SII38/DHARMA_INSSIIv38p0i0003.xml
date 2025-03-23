@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 38.3: original edition by S. Swaminathan</title>
+                <title type="alt">No. 3. (A.R. No. 3 of 1912.) TEṈKĀŚI, TENKASI TALUK, TIRUNELVELI DISTRICT. On the north wall, central shrine, Vīśvanāthaśvāmin temple.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>	
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv38p0i0003</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p><hi rend="bold">King: Parākrama Pāṇḍya Year 31+9, <foreign>Kanni</foreign> 1, ba. di. 10 Sunday, <foreign>Tiruvādirai</foreign> = Sep. 19, 1462 A.D. However, the star was <foreign>Magha.</foreign></hi></p>						
+                            
+                            <p>This records the construction of temple complexes from base to finial <hi rend="italic">(upāṉādi-sthūpi-pariyaṉtam)</hi> such as <foreign>garba-griha, ardhamaṇḍapā, mahāmaṇḍapā</foreign>, and <foreign>sōpānam</foreign>. It also refers to the temple services, processions and festivals and in order to meet the expenditure for the above services the temple was donated the village of Kāśikkuvāyttanallūr, as <foreign>dēvadāna</foreign>. The gift took effect from the 41st regnal year of the king Parākrama Pāṇḍya.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-03-23" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-03-18" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam" rendition="class:tamil maturity:vernacular">
+                
+                <ab>
+                    <lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="omitted"><g type="ddanda">.</g></supplied>
+                </ab>
+                <p>
+                        ko<hi rend="grantha">ja</hi><hi rend="grantha">ṭila</hi>va<hi rend="grantha">rmmarā</hi>na <hi rend="grantha">tribhu</hi>vaṉa<hi rend="grantha">ccakra</hi>vatti<hi rend="grantha">ka</hi>ḷ <hi rend="grantha">śrīparākramapāṇḍya</hi>
+                    <lb n="2"/>tevarkku yāṇṭu muppattoṉṟāvatiṉ Etir Oṉpatāvatu <hi rend="grantha">ka</hi>n=ni nāyaṟṟu mutaṟtiyatiyum Aparapa<hi rend="grantha">kṣa</hi>ttu <hi rend="grantha">daśami</hi>yum nāyaṟṟukkiḻamaiyum peṟṟa tiruvātirainā<supplied reason="omitted">ḷ</supplied> <hi rend="grantha">citri</hi>na<hi rend="grantha">di</hi> Uttara<unclear>ti</unclear>rattu
+                    <lb n="3" break="no"/><gap reason="lost" quantity="6" unit="character"/> Iṉṉāyaṉārkut tirukkoyil U<hi rend="grantha">pā</hi>nā<hi rend="grantha">di stupi</hi> pariyantam <hi rend="grantha">garbhagraham· Arddhamaṇḍapam·</hi> <gap reason="lost" quantity="6" unit="character"/> <hi rend="grantha">mahāmaṇḍapam·</hi> 
+                    <lb n="4"/>copāṉam Ivaiyuṅ kuṟaivaṟat tiruppaṇiyuñ ceyvittu Ut<hi rend="grantha">tyasva</hi>pa<hi rend="grantha">ri</hi>yantamāka Uḷḷa <hi rend="grantha">karmma</hi>ṅ<hi rend="grantha">ka</hi>ḷu naṭatti Āva<hi rend="grantha">ra</hi>ṇa <hi rend="grantha">go</hi>purāti<hi rend="grantha">ka</hi>ḷum Āram<hi rend="grantha">bhi</hi>ttu ni<hi rend="grantha">tya</hi>n<hi rend="grantha">ai</hi>mittikaṅkaḷuṅ kaṟpikkaiyāle
+                    <lb n="5"/>Iṉṉāyaṉā<unclear>r</unclear> tiruppūcaikkut tevatāṉamāka viṭṭa kuṟumaṟai nāṭṭu nām navamākak<unclear>ka</unclear>ṇṭa kācikkuvāyttanallūrkkup peru nāṉkelkaiyāvatu kiḻ El<seg rend="check">k</seg>ai<!--sic in SII--> kāmañcūr kuḷat<unclear>ti</unclear>
+                    <lb n="6" break="no"/>l nir nakkalukku meṟku teṉ Elkai kāmañcūr kuḷat <gap reason="lost" quantity="6" unit="character"/> peruṅkālukku vaṭakku mel Elkai kiṭārakkuḷattilp puravakkuk kiḻakku vaṭavel <space/> kai ceṅkuḷattil Aṇaikku t<add place="below">e</add>ṟku Āka Iṉṉāṉkelkaikkuṭ
+                    <lb n="7" break="no"/>paṭṭa māvaṭai maravaṭai paṭṭaṭai koṭittoṭṭam Uṭpaṭṭa vakaiyum muppattoṉṟāvatiṉ Etir Iraṇṭāvatu mutalukkut tevatāṉamāka viṭṭa <space/> Aḷavukku Immariyātiyile Ivvolai piṭi
+                    <lb n="8" break="no"/>pāṭākak koṇṭu Iṉṉāḷ mutal <hi rend="grantha">candrāditya</hi>va<seg rend="check">]</seg>ṟ<!--sic in SII--> cellak kalliluñ cempilum veṭṭi Ivvāṇaiyumuḷḷa Aḷavun tevatāṉamākak kaiyāṇṭu pūcaiyun tāḻvaṟa naṭattippotavum pāṟka Ivai kiṭārattūr Uṭai<unclear>yāṉ Eḻuttu</unclear> <supplied reason="omitted"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+                <listApp>
+                    <app loc="6">
+                        <lem>vaṭavel <space/> kai</lem>
+                        <note>There is space for three or four letters though the continuity is not lost.</note>
+                    </app>
+                    <app loc="6">
+                        <lem>t<add place="below">e</add>ṟku</lem>
+                        <note>The mediel e sign is engraved below the line.</note>
+                    </app>
+                     <app loc="7">
+                        <lem>viṭṭa <space/></lem>
+                        <note>There is space for three or four letters though the continuity is not lost.</note>
+                    </app>
+                </listApp>
+                
+            </div>
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 38.3 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis. ARIE/1911-1912/C/1912/3.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Swaminathan2019_01"/>
+                        <citedRange unit="page">3-4</citedRange>
+                        <citedRange unit="item">3</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl n="ARIE">
+                        <ptr target="bib:ARIE1911-1912"/>
+                        <citedRange unit="page">41</citedRange>
+                        <citedRange unit="appendix">C/1912</citedRange>
+                        <citedRange unit="item">3</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
