@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 38.13: original edition by S. Swaminathan</title>
+                <title type="alt">No. 13. (A.R. No. 13 of 1912.) TEṈKĀŚI, TENKASI TALUK, TIRUNELVELI DISTRICT. On the west and south walls, the maṇḍapa Viśvanāthaśvāmin temple.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>	
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv38p0i0013</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p><hi rend="bold">King: Jaṭilavarman Tribhuvanachakravartin Parākrama Pāṇḍyadēva Year 39+8 <foreign>Mithuna</foreign> 23; ba. di. 10 Wednesday <foreign>Śōdi</foreign> = 1461 A.D. June 3.</hi></p>						
+                            
+                            <p>This inscription records the construction of the Viśvanātha temple and its complexes, such as <foreign>garbhagṛiha, ardhamaṇḍapā, iḍai-nāḻigai and sōpānam</foreign> i.e. from bottom to top <foreign>(upānādi-stūpi-pariyaṉtham)</foreign>, at Teṉkāśi <foreign>(Dakshiṇa-kāśi)</foreign> north of <foreign>Chitra-nadi</foreign> in Teṉvāri-nāḍu. Besides it also records the usual festivals, the commencement of the construction of the above complexes and the daily offerings to be made in the temple.</p>						
+                            
+                            <p>This record also fixes certain rates and collection of taxes on various services such as ferry-service, plough-service, and taxes from the graded lands at the rate of half a <foreign>koṭṭai</foreign> per <foreign>mā</foreign> for crop, salt quarters, road taxes levied at the rate of one <foreign>mā</foreign> and <foreign>kāṇi</foreign> per annum and taxes on cattle, commencing from the 30th year. The amount thus accrued from the above collections were added to the deposit <foreign>(mudal)</foreign> for the up keep of the temple.</p>						
+                            
+                            <p>One Kiḍārattūr-uḍaiyāṉ, figures as the signatory of this record.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-03-23" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-03-18" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="omitted"><g type="ddanda">.</g></supplied>
+                </p>
+                <p>
+                    ko<hi rend="grantha">jaṭila</hi>va<hi rend="grantha">rmmarā</hi>na <hi rend="grantha">tribhu</hi>vana<hi rend="grantha">ccakra</hi>vat=tikaḷ <hi rend="grantha">śrīparākramapāṇḍyade</hi>vaṟku yāṇṭu muppattoṉṟāvatiṉ Etir Eṭṭāvatu mituna ñāyaṟṟu Irupattu muṉṟān tiyatiyum <hi rend="grantha">pūrvvapakṣa</hi>ttu <hi rend="grantha">daśa</hi>miyum putaṉkiḻamaiyum peṟṟa cotināḷ teṉvārināṭṭu <hi rend="grantha">citra</hi>na<hi rend="grantha">di</hi> Uttaratirattu <hi rend="grantha">dakṣi</hi>ṇa <hi rend="grantha">kā</hi>ciyil Uṭaiyār vi<hi rend="grantha">śva</hi>nā<hi rend="grantha">dhan·</hi> koyilil tāṉattāṟku
+                    <lb n="2" break="no"/>Uṭaiyār vi<hi rend="grantha">śva</hi>nā<hi rend="grantha">tha</hi>ṉukkut tirukkoyil Upāṉāti <hi rend="grantha">sthupi</hi> pariyantamāka <hi rend="grantha"><seg rend="check">rga</seg><!--sic in SII-->bhagraham· Arddhamaṇḍa</hi>pam <gap reason="lost" quantity="7" unit="character"/> kai ma<hi rend="grantha">hā</hi>ma<hi rend="grantha">ṇḍa</hi>pam <hi rend="grantha">so</hi>pānam Ivaiyuṅ kuṟaivarat tiruppaṇiyuñ ceyvittu Ut<hi rend="grantha">sa</hi>vapariyantamāka Uḷḷa <hi rend="grantha">karmma</hi>ṅ<hi rend="grantha">ka</hi>ḷum naṭatti Āvaraṇa<hi rend="grantha">go</hi>purāti<hi rend="grantha">ka</hi>ḷum Āram<hi rend="grantha">bhi</hi>ttu ni<hi rend="grantha">tyanai</hi>mittikaṅkaḷuṅ kaṟpittu Iṉṉāyaṉārkkuṅ kuṇṇūr pākūrkku naṭu
+                    <lb n="3" break="no"/>Uḷḷiṭṭa paṟṟukku mākkalattukkuk kaṇṭuḻavukkum kuṭippaṟṟukkum payiṟ niṉṟa nilattukkum māttāl koṭṭai Araiyākavum Āyavakai tāvāyam Uppāyam pātaiyāyam Uṭpaṭṭa vakaikkup paṇam Oṉṟukkup paṇam mākāṇiyākavum paṭṭaṭaikku Āṇṭu Oṉṟukku per Oṉṟukku paṇam Oṉṟākavum koṭikkaṭamai vaṭṭam Oṉṟukkuk
+                    <lb n="4"/>kuḻi Oṉṟu<add place="below">kku</add>p paṇam Araik kālākavum kaṟavaik kāṇi vakaikkup pacu Oṉṟukkup paṇam Oṉṟākavum muṉṉāḷ muppatāvatu mutalukkup patintu koḷḷum paṭi kaṟpitta Aḷavukku Immariyātiyile Ivvolai piṭipāṭākak koṇṭu Iṉṉāḷ mutalukku Ivvakaippaṭi paṇam Uḷḷatum nelluḷḷatum taṇṭikkoṇṭu <hi rend="grantha">candrāditya</hi>vatu cellak kalliluñ cempilum veṭṭi Ivvālayam
+                    <lb n="5"/>Uḷḷa Aḷavuṅ kaikkoṇṭu pūcaiyun tāḻvara naṭattippotavum pāṟka Ivai kiṭārattūr Uṭaiyāṉ Eḻuttu <hi rend="grantha">tulyam·</hi> <g type="pc">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="2">
+                        <lem><gap reason="lost" quantity="7" unit="character"/> kai</lem>
+                        <note>May by restored as <foreign>Iṭaināḻikai</foreign>.</note>
+                    </app>
+                    <app loc="4">
+                        <lem>Oṉṟu<add place="below">kku</add></lem>
+                        <note>The two letter <foreign>kku</foreign> are engraved below.</note>
+                    </app>   
+                </listApp>
+            </div>
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 38.13 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis. ARIE/1911-1912/C/1912/13.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Swaminathan2019_01"/>
+                        <citedRange unit="page">18-19</citedRange>
+                        <citedRange unit="item">13</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl n="ARIE">
+                        <ptr target="bib:ARIE1911-1912"/>
+                        <citedRange unit="page">42</citedRange>
+                        <citedRange unit="appendix">C/1912</citedRange>
+                        <citedRange unit="item">13</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
