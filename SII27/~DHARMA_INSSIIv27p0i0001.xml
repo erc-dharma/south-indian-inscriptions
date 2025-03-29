@@ -5,103 +5,104 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>SII 27.1: original edition by M. D. Sampath, H. K. Narasimhamurthy, Madhav N. Katti and B. R. Gopal</title>
-				<title type="alt">No. 1. (A.R. No. 165 of 1933-34.) KĀPPALLE, PUNGANUR TALUK, CHITTOOR DISTRICT.</title>
-				<respStmt>
-					<resp>intellectual authorship of edition</resp>
-					<persName>
-						<name>DHARMA team</name>
-					</persName>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<authority>DHARMA</authority>
-				<pubPlace>Paris, CEIAS</pubPlace>
-				<idno type="filename">DHARMA_INSSIIv27p0i0001</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<msDesc>
-					<msIdentifier>
-						<repository>DHARMAbase</repository>
-						<idno/>
-					</msIdentifier>
-					<msContents>
-						<summary>
-
-						<p>Hero-stone (No. 2) lying in a field about two furlongs to the east of Lōkanāthēśvara temple.</p>						
-
-						<p>Pallavarasa (?), circa 9th century.</p>						
-
-						<p>This record, in characters of about the 9th century A.D., states that while <hi rend="bold">Pallō-arasa (Pallavarasa ?)</hi> was ruling the <hi rend="italic">nāḍu</hi> and <hi rend="bold">Śāte-arasa</hi> of the <hi rend="bold">Vaidumba</hi> family was administering this <hi rend="italic">ūr</hi> (i.e., Kāppalle ?) and Kōṇakkī attacked the village in a cattle-raid after collecting <hi rend="italic">mārukoṭṭa,</hi> <hi rend="bold">Pōrighaṭeśūṟe,</hi> son of <hi rend="bold">Vaidumba Śūraparasa,</hi> the chief of Muttukūru, died after gaining victory for the king and for himself and saving the cattle. He was granted some land <hi rend="italic">(maṇṇarasiṁgin-pāḍu ?)</hi> in memory.</p>						
-
-						</summary>
-					</msContents>
-					<physDesc>
-						<handDesc>
-							<p/>
-						</handDesc>
-					</physDesc>
-				</msDesc>
-			</sourceDesc>
-		</fileDesc>
-		<revisionDesc>
-			<change who="part:mime" when="2025-03-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-		</revisionDesc>
-	</teiHeader>
-	<text xml:space="preserve">
-		<body>
-
-<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
-
-<p>
-<lb n="1"/>svastiśrī <hi rend="bold">pa<unclear>llō</unclear> ·arasa</hi> nnāḍāḷe <hi rend="bold">vaidumba kulaṁ śā</hi>
-<lb n="2" break="no"/><hi rend="bold">te ·arasar</hi> ·ī ·ūrāḷe kōṇakkemāṟukoṭṭa muṁne
-<lb n="3" break="no"/>rapi bandūraḻi tuṟukoḷe muttukūroḍeya <hi rend="bold">vaidu</hi>
-<lb n="4" break="no"/><hi rend="bold">mbar śūraparasaṁ</hi> magan <hi rend="bold">pōrighaṭeśū</hi>
-<lb n="5" break="no"/><hi rend="bold">ṟi</hi> ·āḷvarasaṁ
-<lb n="6" break="no"/>gaṁ tanagaṁ jaya
-<lb n="7" break="no"/>māge tuṟu ·ikki
-<lb n="8" break="no"/>śi śattan ·avaṁgge
-<lb n="9"/>koṭṭaṁ maṇṇaraśiṁgi
-<lb n="10" break="no"/>npāḍu ·idanaḻivon
-<lb n="11"/>pañcamahā pātakan <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
-</p>
-
-</div>
-
-<div type="apparatus">
-
-</div>
-
-<div type="commentary">
-
-</div>
-
-<div type="bibliography">
-
-	<p>Digital edition of SII 27.1 by <bibl><ptr target="bib:Sampath+al2001_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
-
-	<listBibl type="primary">
-
-		<bibl n="SII">
-			<ptr target="bib:Sampath+al2001_01"/>
-			<citedRange unit="page">1</citedRange>
-			<citedRange unit="item">1</citedRange>
-		</bibl>
-
-	</listBibl>
-
-	<listBibl type="secondary">
-
-		<bibl/>
-
-	</listBibl>
-
-</div>
-
-	</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 27.1: original edition by M. D. Sampath, H. K. Narasimhamurthy, Madhav N. Katti and B. R. Gopal</title>
+                <title type="alt">No. 1. (A.R. No. 165 of 1933-34.) KĀPPALLE, PUNGANUR TALUK, CHITTOOR DISTRICT.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>		
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv27p0i0001</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>Hero-stone (No. 2) lying in a field about two furlongs to the east of Lōkanāthēśvara temple.</p>						
+                            
+                            <p>Pallavarasa (?), circa 9th century.</p>						
+                            
+                            <p>This record, in characters of about the 9th century A.D., states that while <hi rend="bold">Pallō-arasa (Pallavarasa ?)</hi> was ruling the <hi rend="italic">nāḍu</hi> and <hi rend="bold">Śāte-arasa</hi> of the <hi rend="bold">Vaidumba</hi> family was administering this <hi rend="italic">ūr</hi> (i.e., Kāppalle ?) and Kōṇakkī attacked the village in a cattle-raid after collecting <hi rend="italic">mārukoṭṭa,</hi> <hi rend="bold">Pōrighaṭeśūṟe,</hi> son of <hi rend="bold">Vaidumba Śūraparasa,</hi> the chief of Muttukūru, died after gaining victory for the king and for himself and saving the cattle. He was granted some land <hi rend="italic">(maṇṇarasiṁgin-pāḍu ?)</hi> in memory.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:mime" when="2025-03-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+                
+                <p>
+                    <lb n="1"/>svastiśrī <hi rend="bold">pa<unclear>llō</unclear> ·arasa</hi> nnāḍāḷe <hi rend="bold">vaidumba kulaṁ śā</hi>
+                    <lb n="2" break="no"/><hi rend="bold">te ·arasar</hi> ·ī ·ūrāḷe kōṇakkemāṟukoṭṭa muṁne
+                    <lb n="3" break="no"/>rapi bandūraḻi tuṟukoḷe muttukūroḍeya <hi rend="bold">vaidu</hi>
+                    <lb n="4" break="no"/><hi rend="bold">mbar śūraparasaṁ</hi> magan <hi rend="bold">pōrighaṭeśū</hi>
+                    <lb n="5" break="no"/><hi rend="bold">ṟi</hi> ·āḷvarasaṁ
+                    <lb n="6" break="no"/>gaṁ tanagaṁ jaya
+                    <lb n="7" break="no"/>māge tuṟu ·ikki
+                    <lb n="8" break="no"/>śi śattan ·avaṁgge
+                    <lb n="9"/>koṭṭaṁ maṇṇaraśiṁgi
+                    <lb n="10" break="no"/>npāḍu ·idanaḻivon
+                    <lb n="11"/>pañcamahā pātakan <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 27.1 by <bibl><ptr target="bib:Sampath+al2001_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Sampath+al2001_01"/>
+                        <citedRange unit="page">1</citedRange>
+                        <citedRange unit="item">1</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
 </TEI>

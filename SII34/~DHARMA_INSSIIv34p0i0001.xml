@@ -5,95 +5,96 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>SII 34.1: original edition by Y. Subbarayalu</title>
-				<title type="alt">No. 1. Tirumaṇañjēri, Mayiladuturai Taluk, Thanjavur District. On the north wall of the central shrine in the Udvāhanāthasvāmin temple.</title>
-				<respStmt>
-					<resp>intellectual authorship of edition</resp>
-					<persName>
-						<name>DHARMA team</name>
-					</persName>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<authority>DHARMA</authority>
-				<pubPlace>Paris, CEIAS</pubPlace>
-				<idno type="filename">DHARMA_INSSIIv34p0i0001</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<msDesc>
-					<msIdentifier>
-						<repository>DHARMAbase</repository>
-						<idno/>
-					</msIdentifier>
-					<msContents>
-						<summary>
-
-						<p>Chōḻa, Kulōttuṅga II, 2nd year = A.D. 1135.</p>						
-
-						<p>Gift of an amount of 90 <hi rend="italic">kāsu</hi>, deposited with some Śivabrāhmaṇas, for a lamp to the temple of Tirumaṇañjēri-uḍaiyār, by a native of Gaṅgaikoṇḍa-chōḻapuram.</p>						
-
-						</summary>
-					</msContents>
-					<physDesc>
-						<handDesc>
-							<p/>
-						</handDesc>
-					</physDesc>
-				</msDesc>
-			</sourceDesc>
-		</fileDesc>
-		<revisionDesc>
-			<change who="part:mime" when="2025-03-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-		</revisionDesc>
-	</teiHeader>
-	<text xml:space="preserve">
-		<body>
-
-<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
-
-<p>
-<lb n="1"/>tiripuva<supplied reason="omitted">ṉa</supplied>c cak<unclear>ka</unclear>ravattikaḷ <hi rend="grantha">śrī</hi>kulōttuṅka cōḻatēvaṟku yāṇṭu Iraṇṭāvatu Uṭaiyār tirumaṇañcēri Uṭaiyāṟku kaṅkai koṇṭa cōḻapurattu Iḷaiya tiru Amutu vora <gap reason="lost" quantity="3" unit="character"/>ṭai
-<lb n="2"/>tiruveṇkāṭuṭaiyāṉ periyāḻvān Uṭaiyār tirumaṇañcēri Uṭaiyāṟku tirununtā viḷakku Oṉṟukku Ikkōyil kāṇi Uṭaiya civappirāmaṇar tillai nāyaka paṭṭanum tirucciṟṟampala paṭṭanum
-<lb n="3"/>ceyyapāta paṭṭanum tirumaṇañceri paṭṭanum nāṟpatteṇṇāyira paṭṭanum Ātināyaka paṭṭanum kūttāṭi paṭṭanum Ivvāṭṭai Āvaṇimā<hi rend="grantha">sa</hi> mutal tirununtā viḷakku Onṟukku cantirātittavaṟ Eri
-<lb n="4" break="no"/>kka Āḷōkariyāl kaikkoṇṭa kācu toṇṇūṟu Ikkācu toṇṇūṟum kaikkoṇṭu cantirāti
-<lb n="5" break="no"/>ttavaṟ Erikkak kaṭavōmāṉōm Ivvaṉaivōm Itu <hi rend="grantha">pa</hi>ṉmāye<hi rend="grantha">sura</hi> I<hi rend="grantha">ra</hi><unclear>kṣ</unclear>ai<gap reason="lost" quantity="1" unit="character"/>
-</p>
-
-</div>
-
-<div type="apparatus">
-
-</div>
-
-<div type="commentary">
-
-</div>
-
-<div type="bibliography">
-
-	<p>Digital edition of SII 34.1 by <bibl><ptr target="bib:Subbarayalu2015_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
-
-	<listBibl type="primary">
-
-		<bibl n="SII">
-			<ptr target="bib:Subbarayalu2015_01"/>
-			<citedRange unit="page">1</citedRange>
-			<citedRange unit="item">1</citedRange>
-		</bibl>
-
-	</listBibl>
-
-	<listBibl type="secondary">
-
-		<bibl/>
-
-	</listBibl>
-
-</div>
-
-	</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 34.1: original edition by Y. Subbarayalu</title>
+                <title type="alt">No. 1. Tirumaṇañjēri, Mayiladuturai Taluk, Thanjavur District. On the north wall of the central shrine in the Udvāhanāthasvāmin temple.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>		
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv34p0i0001</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>Chōḻa, Kulōttuṅga II, 2nd year = A.D. 1135.</p>						
+                            
+                            <p>Gift of an amount of 90 <hi rend="italic">kāsu</hi>, deposited with some Śivabrāhmaṇas, for a lamp to the temple of Tirumaṇañjēri-uḍaiyār, by a native of Gaṅgaikoṇḍa-chōḻapuram.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:mime" when="2025-03-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/>tiripuva<supplied reason="omitted">ṉa</supplied>c cak<unclear>ka</unclear>ravattikaḷ <hi rend="grantha">śrī</hi>kulōttuṅka cōḻatēvaṟku yāṇṭu Iraṇṭāvatu Uṭaiyār tirumaṇañcēri Uṭaiyāṟku kaṅkai koṇṭa cōḻapurattu Iḷaiya tiru Amutu vora <gap reason="lost" quantity="3" unit="character"/> ṭai
+                    <lb n="2"/>tiruveṇkāṭuṭaiyāṉ periyāḻvān Uṭaiyār tirumaṇañcēri Uṭaiyāṟku tirununtā viḷakku Oṉṟukku Ikkōyil kāṇi Uṭaiya civappirāmaṇar tillai nāyaka paṭṭanum tirucciṟṟampala paṭṭanum
+                    <lb n="3"/>ceyyapāta paṭṭanum tirumaṇañceri paṭṭanum nāṟpatteṇṇāyira paṭṭanum Ātināyaka paṭṭanum kūttāṭi paṭṭanum Ivvāṭṭai Āvaṇimā<hi rend="grantha">sa</hi> mutal tirununtā viḷakku Onṟukku cantirātittavaṟ Eri
+                    <lb n="4" break="no"/>kka Āḷōkariyāl kaikkoṇṭa kācu toṇṇūṟu Ikkācu toṇṇūṟum kaikkoṇṭu cantirāti
+                    <lb n="5" break="no"/>ttavaṟ Erikkak kaṭavōmāṉōm Ivvaṉaivōm Itu <hi rend="grantha">pa</hi>ṉmāye<hi rend="grantha">sura</hi> I<hi rend="grantha">ra</hi>kṣ<unclear>ai</unclear>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 34.1 by <bibl><ptr target="bib:Subbarayalu2015_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Subbarayalu2015_01"/>
+                        <citedRange unit="page">1</citedRange>
+                        <citedRange unit="item">1</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
 </TEI>

@@ -5,107 +5,108 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>SII 32, part 1, no. 1: original edition by S. Swaminathan</title>
-				<title type="alt">No. 1. (A.R. No. 51 of 1936.) VĪRACHŌL6APURAM, TIRUKKOYILUR TALUK, SOUTH ARCOT DISTRICT.</title>
-				<respStmt>
-					<resp>intellectual authorship of edition</resp>
-					<persName>
-						<name>DHARMA team</name>
-					</persName>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<authority>DHARMA</authority>
-				<pubPlace>Paris, CEIAS</pubPlace>
-				<idno type="filename">DHARMA_INSSIIv32p1i0001</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<msDesc>
-					<msIdentifier>
-						<repository>DHARMAbase</repository>
-						<idno/>
-					</msIdentifier>
-					<msContents>
-						<summary>
-
-						<p>On a hero-stone now preserved in Madras Museum.</p>						
-
-						<p><hi rend="bold">Parakēsarivarmaṉ, who took Tañjai (Vijayālaya) Year 3: C. 853 A.D.</hi></p>						
-
-						<p>Records that a certain Karambai Kalituḍaṉ Mukkaṉ of Attiyūr in Kaṟpūṇḍi-nāḍu died while rescuing cattle from a raid launched by Aṇiyaṉ. The figure of a warrior aiming an arrow from a bow is carved in relief on the slab.</p>						
-
-						<p>Published in <hi rend="italic">A.R.Ep.,</hi> 1935-36. Part II, Page 72. para 34.</p>						
-
-						</summary>
-					</msContents>
-					<physDesc>
-						<handDesc>
-							<p/>
-						</handDesc>
-					</physDesc>
-				</msDesc>
-			</sourceDesc>
-		</fileDesc>
-		<revisionDesc>
-			<change who="part:mime" when="2025-03-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-		</revisionDesc>
-	</teiHeader>
-	<text xml:space="preserve">
-		<body>
-
-<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
-
-<p>
-<lb n="1"/>ta<unclear>ñ</unclear>cai koṭṭa kopparake
-<lb n="2" break="no"/>cari <note n="1-1"> Read tañcai koṇṭa kopparakecari </note> pa<unclear>n</unclear>ma<supplied reason="omitted">r</supplied>k
-<lb n="3" break="no"/>ku yāṇṭu
-<lb n="4"/>3vatu kaṟpū
-<lb n="5" break="no"/>ṇṭi nāṭṭu A
-<lb n="6" break="no"/>ttiyū<unclear>r</unclear> karam
-<lb n="7" break="no"/>pai kali
-<lb n="8" break="no"/>tuṭaṉ mu
-<lb n="9" break="no"/>kkaṉ Aṇiya
-<lb n="10" break="no"/>ṉ toṟu
-<lb n="11"/>koḷa
-<lb n="12" break="no"/>toṟu mīṭ
-<lb n="13" break="no"/>ṭu paṭṭāṉ <supplied reason="subaudible"><g type="ddanda">.</g></supplied> 
-</p>
-
-</div>
-
-<div type="apparatus">
-
-</div>
-
-<div type="commentary">
-
-</div>
-
-<div type="bibliography">
-
-	<p>Digital edition of SII 32, part 1, no. 1 by <bibl><ptr target="bib:Swaminathan2012_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
-
-	<listBibl type="primary">
-
-		<bibl n="SII">
-			<ptr target="bib:Swaminathan2012_01"/>
-			<citedRange unit="page">1</citedRange>
-			<citedRange unit="item">1</citedRange>
-		</bibl>
-
-	</listBibl>
-
-	<listBibl type="secondary">
-
-		<bibl/>
-
-	</listBibl>
-
-</div>
-
-	</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 32, part 1, no. 1: original edition by S. Swaminathan</title>
+                <title type="alt">No. 1. (A.R. No. 51 of 1936.) VĪRACHŌḺAPURAM, TIRUKKOYILUR TALUK, SOUTH ARCOT DISTRICT.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>		
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv32p1i0001</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>On a hero-stone now preserved in Madras Museum.</p>						
+                            
+                            <p><hi rend="bold">Parakēsarivarmaṉ, who took Tañjai (Vijayālaya) Year 3: C. 853 A.D.</hi></p>						
+                            
+                            <p>Records that a certain Karambai Kalituḍaṉ Mukkaṉ of Attiyūr in Kaṟpūṇḍi-nāḍu died while rescuing cattle from a raid launched by Aṇiyaṉ. The figure of a warrior aiming an arrow from a bow is carved in relief on the slab.</p>						
+                            
+                            <p>Published in <hi rend="italic">A.R.Ep.,</hi> 1935-36. Part II, Page 72. para 34.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:mime" when="2025-03-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/>ta<unclear>ñ</unclear>cai koṭṭa kopparake
+                    <lb n="2" break="no"/>cari <note n="1-1"> Read tañcai koṇṭa kopparakecari </note> pa<unclear>n</unclear>ma<supplied reason="omitted">r</supplied>k
+                    <lb n="3" break="no"/>ku yāṇṭu
+                    <lb n="4"/>3vatu kaṟpū
+                    <lb n="5" break="no"/>ṇṭi nāṭṭu A
+                    <lb n="6" break="no"/>ttiyū<unclear>r</unclear> karam
+                    <lb n="7" break="no"/>pai kali
+                    <lb n="8" break="no"/>tuṭaṉ mu
+                    <lb n="9" break="no"/>kkaṉ Aṇiya
+                    <lb n="10" break="no"/>ṉ toṟu
+                    <lb n="11"/>koḷa
+                    <lb n="12" break="no"/>toṟu mīṭ
+                    <lb n="13" break="no"/>ṭu paṭṭāṉ <supplied reason="subaudible"><g type="ddanda">.</g></supplied> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 32, part 1, no. 1 by <bibl><ptr target="bib:Swaminathan2012_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Swaminathan2012_01"/>
+                        <citedRange unit="page">1</citedRange>
+                        <citedRange unit="item">1</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
 </TEI>
