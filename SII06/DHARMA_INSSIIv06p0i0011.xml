@@ -5,108 +5,110 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-			    <title>SII 6.11: original edition by K. V. Subrahmanya Aiyer</title>
-			    <title type="alt">No. 11. (<hi rend="italic">A.R. No.</hi> 62 <hi rend="italic">of</hi> 1897). IN THE SAME PLACE.</title>
-				<respStmt>
-					<resp>intellectual authorship of edition</resp>
-					<persName>
-						<name>DHARMA team</name>
-					</persName>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<authority>DHARMA</authority>
-				<pubPlace>Paris, CEIAS</pubPlace>
-				<idno type="filename">DHARMA_INSSIIv06p0i0011</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<msDesc>
-					<msIdentifier>
-						<repository>DHARMAbase</repository>
-						<idno/>
-					</msIdentifier>
-					<msContents>
-						<summary/>
-					</msContents>
-					<physDesc>
-						<handDesc>
-							<p/>
-						</handDesc>
-					</physDesc>
-				</msDesc>
-			</sourceDesc>
-		</fileDesc>
-		<revisionDesc>
-			<change who="part:mime" when="2025-03-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-		</revisionDesc>
-	</teiHeader>
-	<text xml:space="preserve">
-		<body>
-
-<div type="edition" xml:lang="tam" rendition="class:tamil maturity:vernacular">
-    
-    <ab>
-        <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
-    </ab>
-    
-    <p>
-        korā<hi rend="grantha">ja</hi>ke<hi rend="grantha">sa</hi>riva<hi rend="grantha">tma</hi>kku yā<supplied reason="omitted">ṇ</supplied>ṭu <hi rend="grantha">3</hi><g type="dash"/>Āvatu Ārkkāṭṭukkūṟṟa<unclear>t</unclear>
-        
-        <lb n="2" break="no"/>tu <hi rend="grantha">brahmade</hi>yam ca<hi rend="grantha">ntra</hi>lekaicatu<hi rend="grantha">rvve</hi>timaṅkalattu tirupperun=tuṟai <hi rend="grantha">mah<choice><sic>a</sic><corr>ā</corr></choice>de</hi>
-        
-        <lb n="3" break="no"/>varkku tirumaṅkalattu kālāvaṉ centaṉ ṉantiyeṉ Uṭai
-        
-        <lb n="4" break="no"/>maiyar pakavaṉ catti perālum muṉnūṟṟuvaṉ t<unclear>e</unclear>caviṭaṅkan perālu
-        
-        <lb n="5" break="no"/>m kiṭakkum kaiyeḻuttolaiyāl kaṭava poṉṉālum nellālum
-        
-        <lb n="6"/>Eṟṟivanta pon mutal <num value="30">3 <g type="numeral">10</g></num> <g type="poṉ"/> Ippoṉ muppatinkaḻaiñcin pali
-        
-        <lb n="7" break="no"/>caiyāl nicatam Uḻakku ne<supplied reason="omitted">y</supplied>yāl Oru no<hi rend="grantha"><unclear>ndā</unclear></hi>viḷakku <hi rend="grantha">candrādi</hi>ttaval E
-        
-        <lb n="8" break="no"/>rippomān<unclear>o</unclear>m<!--note: only the kāl is unclear--> Ivviruvom <hi rend="grantha">sabhai</hi>yu<unclear>m</unclear> <hi rend="grantha"><unclear>panm</unclear>ā</hi>he<hi rend="grantha">śva</hi>ra <hi rend="grantha">rakṣai</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
-    </p>
-    
-</div>
-
-<div type="apparatus"/>
-
-
-
-<div type="commentary"/>
-
-
-
-<div type="bibliography">
-
-	<p>Digital edition of SII 6.11 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis. ARIE/1896-1897/B/1897/62.</p>
-
-	<listBibl type="primary">
-
-		<bibl n="SII">
-			<ptr target="bib:SubrahmanyaAiyer1928_01"/>
-			<citedRange unit="page">4</citedRange>
-			<citedRange unit="item">11</citedRange>
-		</bibl>
-
-	</listBibl>
-
-	<listBibl type="secondary">
-
-		<bibl n="ARIE">
-         			<ptr target="bib:ARIE1896-1897"/>
-         			<citedRange unit="page">8</citedRange>
-         			<citedRange unit="appendix">B/1897</citedRange>
-         			<citedRange unit="item">62</citedRange>
-         		</bibl>
-	    
-	</listBibl>
-
-</div>
-
-	</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 6.11: original edition by K. V. Subrahmanya Aiyer</title>
+                <title type="alt">No. 11. (A.R. No. 62 of 1897). IN THE SAME PLACE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv06p0i0011</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary/>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>            
+            <change who="part:emfr" when="2025-03-09" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-03-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam" rendition="class:tamil maturity:vernacular">
+                
+                <ab>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+                </ab>
+                
+                <p>
+                    korā<hi rend="grantha">ja</hi>ke<hi rend="grantha">sa</hi>riva<hi rend="grantha">tma</hi>kku yā<supplied reason="omitted">ṇ</supplied>ṭu <hi rend="grantha">3</hi><g type="dash"/>Āvatu Ārkkāṭṭukkūṟṟa<unclear>t</unclear>
+                    
+                    <lb n="2" break="no"/>tu <hi rend="grantha">brahmade</hi>yam ca<hi rend="grantha">ntra</hi>lekaicatu<hi rend="grantha">rvve</hi>timaṅkalattu tirupperun=tuṟai <hi rend="grantha">mah<choice><sic>a</sic><corr>ā</corr></choice>de</hi>
+                    
+                    <lb n="3" break="no"/>varkku tirumaṅkalattu kālāvaṉ centaṉ ṉantiyeṉ Uṭai
+                    
+                    <lb n="4" break="no"/>maiyar pakavaṉ catti perālum muṉnūṟṟuvaṉ t<unclear>e</unclear>caviṭaṅkan perālu
+                    
+                    <lb n="5" break="no"/>m kiṭakkum kaiyeḻuttolaiyāl kaṭava poṉṉālum nellālum
+                    
+                    <lb n="6"/>Eṟṟivanta pon mutal <num value="30">3 <g type="numeral">10</g></num> <g type="poṉ"/> Ippoṉ muppatinkaḻaiñcin pali
+                    
+                    <lb n="7" break="no"/>caiyāl nicatam Uḻakku ne<supplied reason="omitted">y</supplied>yāl Oru no<hi rend="grantha"><unclear>ndā</unclear></hi>viḷakku <hi rend="grantha">candrādi</hi>ttaval E
+                    
+                    <lb n="8" break="no"/>rippomān<unclear>o</unclear>m<!--note: only the kāl is unclear--> Ivviruvom <hi rend="grantha">sabhai</hi>yu<unclear>m</unclear> <hi rend="grantha"><unclear>panm</unclear>ā</hi>he<hi rend="grantha">śva</hi>ra <hi rend="grantha">rakṣai</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+            
+            
+            
+            <div type="commentary"/>
+            
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 6.11 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis. ARIE/1896-1897/B/1897/62.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SubrahmanyaAiyer1928_01"/>
+                        <citedRange unit="page">4</citedRange>
+                        <citedRange unit="item">11</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl n="ARIE">
+                        <ptr target="bib:ARIE1896-1897"/>
+                        <citedRange unit="page">8</citedRange>
+                        <citedRange unit="appendix">B/1897</citedRange>
+                        <citedRange unit="item">62</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
 </TEI>

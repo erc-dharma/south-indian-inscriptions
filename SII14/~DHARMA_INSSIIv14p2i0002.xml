@@ -5,93 +5,95 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>SII 14, appendix, no. 2: original edition by A. S. Ramanatha Ayyar</title>
-				<title type="alt">No. 2. (A.R. No. 29 of 1930-31.) TIRUKKŌḌIKĀVAL, KUMBAKONAM TALUK, TANJORE DISTRICT. On the south wall of the Tirukkōṭīśvara temple.</title>
-				<respStmt>
-					<resp>intellectual authorship of edition</resp>
-					<persName>
-						<name>DHARMA team</name>
-					</persName>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<authority>DHARMA</authority>
-				<pubPlace>Paris, CEIAS</pubPlace>
-				<idno type="filename">DHARMA_INSSIIv14p2i0002</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<msDesc>
-					<msIdentifier>
-						<repository>DHARMAbase</repository>
-						<idno/>
-					</msIdentifier>
-					<msContents>
-						<summary>
-
-						<p>This epigraph, dated in the <hi rend="bold">eleventh year of Māṟañjaḍaiyaṉ</hi> records a gift of 30 <hi rend="italic">kaḻañju</hi> of gold for a lamp in the temple.</p>						
-
-						<p>It is stated that the original stray stone on which this inscription was engraved, became useless and that this is a copy of the old record (Vide No. 36 of 1930-31)</p>						
-
-						</summary>
-					</msContents>
-					<physDesc>
-						<handDesc>
-							<p/>
-						</handDesc>
-					</physDesc>
-				</msDesc>
-			</sourceDesc>
-		</fileDesc>
-		<revisionDesc>
-			<change who="part:mime" when="2025-03-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-		</revisionDesc>
-	</teiHeader>
-	<text xml:space="preserve">
-		<body>
-
-<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
-
-<p>
-<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="subaudible"><g type="ddanda">.</g></supplied></hi> Ituvum moru paḻaṅkal paṭi <supplied reason="subaudible"><g type="ddanda">.</g></supplied> komāṟa<supplied reason="omitted">ñ</supplied>caṭaiyaṟku yā<unclear>ṇṭu pa</unclear>tiṉṉo <note n="167-1">This portion of the inscription is built into the DakshiṇAmUrthi shrine.</note> <gap reason="lost" quantity="5" unit="character"/> l <hi rend="grantha">ma</hi>hā<hi rend="grantha">de</hi>vaṟkku tiruviḷakkiṉukku kuṭutta tippokkuc cempoṉ muppatiṉ kaḻañcu Itaṉ palicaiyāl nāluḻakkum piḻaiyā nāḻiyoṭo
-<lb n="2" break="no"/>kkum muḻaiyāl na<gap reason="lost" quantity="2" unit="character"/> ṭi Uḻakku<gap reason="lost" quantity="4" unit="character"/>y taḷi Aṟcippāṟ kaḷa<unclear>ntu</unclear> nontāvi <note n="167-1">This portion of the inscription is built into the DakshiṇAmUrthi shrine.</note> paḻaya kalpaṭi Inta<hi rend="grantha">śrī</hi>vimānattile Eṟa veṭṭinamaiyil muṉ ṉivvā<hi rend="grantha">jaga</hi>m veṭṭikkiṭanta taṉik kallāl U<hi rend="grantha">bhaiyoga</hi>m Illāmaiyil Atu tavit<supplied reason="omitted">ta</supplied>tu
-<lb n="3"/>Itu muṭṭiṟ paṉmāye<hi rend="grantha">śva</hi>varar<unclear>e kaṭai</unclear>k kūṭṭappeṟṟār <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
-</p>
-
-</div>
-
-<div type="apparatus">
-
-</div>
-
-<div type="commentary">
-
-</div>
-
-<div type="bibliography">
-
-	<p>Digital edition of SII 14, appendix, no. 2 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by John Doe.</p>
-
-	<listBibl type="primary">
-
-		<bibl n="SII">
-			<ptr target="bib:RamanathaAyyar1962_01"/>
-			<citedRange unit="page">167</citedRange>
-			<citedRange unit="item">2</citedRange>
-		</bibl>
-
-	</listBibl>
-
-	<listBibl type="secondary">
-
-		<bibl/>
-
-	</listBibl>
-
-</div>
-
-	</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14, appendix, no. 2: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 2. (A.R. No. 29 of 1930-31.) TIRUKKŌḌIKĀVAL, KUMBAKONAM TALUK, TANJORE DISTRICT. On the south wall of the Tirukkōṭīśvara temple.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p2i0002</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This epigraph, dated in the <hi rend="bold">eleventh year of Māṟañjaḍaiyaṉ</hi> records a gift of 30 <hi rend="italic">kaḻañju</hi> of gold for a lamp in the temple.</p>						
+                            
+                            <p>It is stated that the original stray stone on which this inscription was engraved, became useless and that this is a copy of the old record (Vide No. 36 of 1930-31)</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-03-29" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-03-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="subaudible"><g type="ddanda">.</g></supplied></hi> Ituvum moru paḻaṅkal paṭi <supplied reason="subaudible"><g type="ddanda">.</g></supplied> komāṟa<supplied reason="omitted">ñ</supplied>caṭaiyaṟku yā<unclear>ṇṭu pa</unclear>tiṉṉo <note n="167-1">This portion of the inscription is built into the DakshiṇAmUrthi shrine.</note> <gap reason="lost" quantity="5" unit="character"/> l <hi rend="grantha">ma</hi>hā<hi rend="grantha">de</hi>vaṟkku tiruviḷakkiṉukku kuṭutta tippokkuc cempoṉ muppatiṉ kaḻañcu Itaṉ palicaiyāl nāluḻakkum piḻaiyā nāḻiyoṭo
+                    <lb n="2" break="no"/>kkum muḻaiyāl na<gap reason="lost" quantity="2" unit="character"/> ṭi Uḻakku<gap reason="lost" quantity="4" unit="character"/>y taḷi Aṟcippāṟ kaḷa<unclear>ntu</unclear> nontāvi <note n="167-1">This portion of the inscription is built into the DakshiṇAmUrthi shrine.</note> paḻaya kalpaṭi Inta<hi rend="grantha">śrī</hi>vimānattile Eṟa veṭṭinamaiyil muṉ ṉivvā<hi rend="grantha">jaga</hi>m veṭṭikkiṭanta taṉik kallāl U<hi rend="grantha">bhaiyoga</hi>m Illāmaiyil Atu tavit<supplied reason="omitted">ta</supplied>tu
+                    <lb n="3"/>Itu muṭṭiṟ paṉmāye<hi rend="grantha">śva</hi>varar<unclear>e kaṭai</unclear>k kūṭṭappeṟṟār <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14, appendix, no. 2 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">167</citedRange>
+                        <citedRange unit="item">2</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
 </TEI>

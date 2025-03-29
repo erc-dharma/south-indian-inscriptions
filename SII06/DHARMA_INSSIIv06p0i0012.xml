@@ -5,108 +5,110 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-			    <title>SII 6.12: original edition by K. V. Subrahmanya Aiyer</title>
-			    <title type="alt">No. 12. (<hi rend="italic">A.R. No.</hi> 63 <hi rend="italic">of</hi> 1897). ON THE WEST WALL OF THE SAME SHRINE.</title>
-				<respStmt>
-					<resp>intellectual authorship of edition</resp>
-					<persName>
-						<name>DHARMA team</name>
-					</persName>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<authority>DHARMA</authority>
-				<pubPlace>Paris, CEIAS</pubPlace>
-				<idno type="filename">DHARMA_INSSIIv06p0i0012</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<msDesc>
-					<msIdentifier>
-						<repository>DHARMAbase</repository>
-						<idno/>
-					</msIdentifier>
-					<msContents>
-						<summary/>
-					</msContents>
-					<physDesc>
-						<handDesc>
-							<p/>
-						</handDesc>
-					</physDesc>
-				</msDesc>
-			</sourceDesc>
-		</fileDesc>
-		<revisionDesc>
-			<change who="part:mime" when="2025-03-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-		</revisionDesc>
-	</teiHeader>
-	<text xml:space="preserve">
-		<body>
-
-<div type="edition" xml:lang="tam" rendition="class:tamil maturity:vernacular">
-
-    <p>
-        <lb n="1"/>korā<hi rend="grantha">ja</hi>ke<hi rend="grantha">sa</hi>riva<hi rend="grantha">nma</hi>kku yāṇṭu 9<g type="dash"/><unclear>Āva</unclear>tu Ār<supplied reason="omitted">k</supplied>kāṭṭukkūṟṟattu <hi rend="grantha">brahade</hi>yam
-        
-        <lb n="2"/><hi rend="grantha">cantralekhai</hi> catu<hi rend="grantha">rvve</hi>timaṅkalattu peruṅkuṟi <hi rend="grantha">sabhai</hi>yom Ivvūr Ai
-        
-        <lb n="3" break="no"/>mpattu munṟāṅ kuṭumpil <hi rend="grantha">bhā</hi>ratapaṅku koyilān nākaṉan=ti viṟṟa paṅku 1 I
-        
-        <lb n="4" break="no"/>vvorupaṅkum Ivvūr <hi rend="grantha">brahmasthā</hi>nattu miyceṅkiḷināṭṭu veṇṇāyiluṭai
-        
-        <lb n="5" break="no"/>yāṉ vayira<surplus>m</surplus>meka<surplus>m</surplus>paṭāraṉ Eṭuppitta Ampalattu Iruntu nicatiyum <hi rend="grantha">śrī</hi>
-        
-        <lb n="6" break="no"/><hi rend="grantha">bhā</hi>ratam vācikka perumpuliyūr Ā<hi rend="grantha">trai</hi>ya<hi rend="grantha">gottra</hi>ttu vai<hi rend="grantha">khānasasūtra</hi>ttu <hi rend="grantha">śi</hi><unclear>ṅki</unclear>
-        
-        <lb n="7" break="no"/><unclear>nan=til</unclear> <hi rend="grantha">śvarū</hi>pa<hi rend="grantha">bhaṭṭa</hi>nukku IṟaiI<surplus>l</surplus>liyāka kuṭuttom <hi rend="grantha">sabhai</hi>yom Ivanilp pi
-        
-        <lb n="8" break="no"/>ṉpu Ippaṅkuṇpār Ivvūr <hi rend="grantha">brahmasthā</hi>natte Iruntu nicatiyum <hi rend="grantha">śrībhā</hi>ratam vāci
-        
-        <lb n="9" break="no"/>ttuṇpatāka Ippaṅkoṉṟum <hi rend="grantha">candrādi</hi>t=tavat IṟaiIliyāka paṇittu kalmel
-        
-        <lb n="10"/>veṭṭi kuṭutto<unclear>m</unclear> peruṅkuṟi <hi rend="grantha">sabhai</hi>yom <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
-    </p>
-    
-</div>
-
-<div type="apparatus"/>
-
-
-
-<div type="commentary"/>
-
-
-
-<div type="bibliography">
-
-	<p>Digital edition of SII 6.12 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis. ARIE/1896-1897/B/1897/63.</p>
-
-	<listBibl type="primary">
-
-		<bibl n="SII">
-			<ptr target="bib:SubrahmanyaAiyer1928_01"/>
-			<citedRange unit="page">4-5</citedRange>
-			<citedRange unit="item">12</citedRange>
-		</bibl>
-
-	</listBibl>
-
-	<listBibl type="secondary">
-
-		<bibl n="ARIE">
-         			<ptr target="bib:ARIE1896-1897"/>
-         			<citedRange unit="page">8</citedRange>
-         			<citedRange unit="appendix">B/1897</citedRange>
-         			<citedRange unit="item">63</citedRange>
-         		</bibl>
-	    
-	</listBibl>
-
-</div>
-
-	</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 6.12: original edition by K. V. Subrahmanya Aiyer</title>
+                <title type="alt">No. 12. (A.R. No. 63 of 1897). ON THE WEST WALL OF THE SAME SHRINE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv06p0i0012</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary/>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-03-09" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-03-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/>korā<hi rend="grantha">ja</hi>ke<hi rend="grantha">sa</hi>riva<hi rend="grantha">nma</hi>kku yāṇṭu 9<g type="dash"/><unclear>Āva</unclear>tu Ār<supplied reason="omitted">k</supplied>kāṭṭukkūṟṟattu <hi rend="grantha">brahade</hi>yam
+                    
+                    <lb n="2"/><hi rend="grantha">cantralekhai</hi> catu<hi rend="grantha">rvve</hi>timaṅkalattu peruṅkuṟi <hi rend="grantha">sabhai</hi>yom Ivvūr Ai
+                    
+                    <lb n="3" break="no"/>mpattu munṟāṅ kuṭumpil <hi rend="grantha">bhā</hi>ratapaṅku koyilān nākaṉan=ti viṟṟa paṅku 1 I
+                    
+                    <lb n="4" break="no"/>vvorupaṅkum Ivvūr <hi rend="grantha">brahmasthā</hi>nattu miyceṅkiḷināṭṭu veṇṇāyiluṭai
+                    
+                    <lb n="5" break="no"/>yāṉ vayira<surplus>m</surplus>meka<surplus>m</surplus>paṭāraṉ Eṭuppitta Ampalattu Iruntu nicatiyum <hi rend="grantha">śrī</hi>
+                    
+                    <lb n="6" break="no"/><hi rend="grantha">bhā</hi>ratam vācikka perumpuliyūr Ā<hi rend="grantha">trai</hi>ya<hi rend="grantha">gottra</hi>ttu vai<hi rend="grantha">khānasasūtra</hi>ttu <hi rend="grantha">śi</hi><unclear>ṅki</unclear>
+                    
+                    <lb n="7" break="no"/><unclear>nan=til</unclear> <hi rend="grantha">śvarū</hi>pa<hi rend="grantha">bhaṭṭa</hi>nukku IṟaiI<surplus>l</surplus>liyāka kuṭuttom <hi rend="grantha">sabhai</hi>yom Ivanilp pi
+                    
+                    <lb n="8" break="no"/>ṉpu Ippaṅkuṇpār Ivvūr <hi rend="grantha">brahmasthā</hi>natte Iruntu nicatiyum <hi rend="grantha">śrībhā</hi>ratam vāci
+                    
+                    <lb n="9" break="no"/>ttuṇpatāka Ippaṅkoṉṟum <hi rend="grantha">candrādi</hi>t=tavat IṟaiIliyāka paṇittu kalmel
+                    
+                    <lb n="10"/>veṭṭi kuṭutto<unclear>m</unclear> peruṅkuṟi <hi rend="grantha">sabhai</hi>yom <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+            
+            
+            
+            <div type="commentary"/>
+            
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 6.12 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis. ARIE/1896-1897/B/1897/63.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SubrahmanyaAiyer1928_01"/>
+                        <citedRange unit="page">4-5</citedRange>
+                        <citedRange unit="item">12</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl n="ARIE">
+                        <ptr target="bib:ARIE1896-1897"/>
+                        <citedRange unit="page">8</citedRange>
+                        <citedRange unit="appendix">B/1897</citedRange>
+                        <citedRange unit="item">63</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
 </TEI>
