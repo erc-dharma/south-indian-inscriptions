@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.267: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 267. (A.R. No. 393 of 1917.) KĪḺAPPĀVŪR, TENKASI TALUK, TIRUNELVELI DISTRICT. ON THE WEST AND SOUTH WALLS OF THE CENTRAL SHRINE IN THE TIRUVĀLĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0267</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription commences with the <hi rend="italic">praśasti</hi> of <hi rend="italic">Tirumaḍandaiyum Jayamaḍan-daiyum</hi>, etc., of <hi rend="bold">Jaṭāvarmaṉ Śrīvallabha</hi> and records the gift of land made tax free in Paṭṭamaṅgalam separated from Kuṟuṅgāṉam <hi rend="italic">alias</hi> Teliṅgakulakāla-chaturvēdimaṅgalam to the god of the temple of Tirukkapālīśvaram in Pāgūr <hi rend="italic">alias</hi> Kshatrīyaśikhāmaṇi-nallūr in Kuṟumaṟai-nāḍu. The king whose name and regnal year are lost is stated to have issued the order from the throne called Kaliṅgattaraiyaṉ in his palace at Madurai. The 55th day is however mentioned in the body. The gift land is stated to have been renamed as Sundarapāṇḍiyaṉ-viḷāgam.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-03-29" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-03-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> tirumaṭantaiyum ceyamaṭantaiyum tiruppuyattu kaṉṉaṟāḷitiruppa yirunilam perumai Eyta Eṇṭicaiyuṅ kuṭainiḻaṟṟa maṉṉavarkaṉ vantiṟaiñca maravil varum muṭicūṭi teṉkumariyum vaṭakeṅkai tiraik kaṭalellai <gap reason="lost" extent="unknown" unit="character"/> ṅkoluṭaṉ vaḷara maṉṉiya vira <hi rend="grantha">si</hi>ṅ<hi rend="grantha">hāsa</hi>nattu Ulakamuḻutuṭaiyāroṭum māmutal matikkulam viḷaṅ<!--<note n="165-2">The inscription is built in at this and the corresponding section of the other lines.</note> EF: this seems to be a misplaced footnote in SII-->
+                    <lb n="2"/>ku māṭakkuḷakkiḻ maturaikkoyilu Uḷālai Aḻakiya pāṇṭiyaṉ kūṭattup paḷḷippiṭaṅ kaliṅkattaraiyaṉileḻuntaruḷiyiruttu nāḷaimpattañciṉāl kuṟumaṟai nāṭṭup pākūrā<supplied reason="omitted">ṉa</supplied> kṣattiriy<choice><sic>ā</sic><corr>a</corr></choice>cikāmaṇinallūr UṭaiĀr tirukkavālicura muṭai <gap reason="lost" extent="unknown" unit="character"/> ttukku Ikkoyilil tevakaṉmikaḷum cirimāyecura<supplied reason="omitted">r</supplied>kaḷum viṇṇappañceyya tiruvāḻa mala<supplied reason="omitted">r</supplied>ntaruḷiṉa 
+                    <lb n="3"/>nitta ṉamantaṅkaḷukku<!--<note n="166-1"/> EF: this is an empty note in SII.--> Iṭṭa tevatāṉaṅ kuṟuṅkāṉamāṉ teliṅkkulakālac catuṟveti maṅkalattu teṉpāl piṟinta paṭṭamaṅkalattu nālveliyeṉṟu per kūvappaṭṭa nilattu peruṉāṉkellai yāvatu kiḻak <gap reason="lost" extent="unknown" unit="character"/> kum teṟkellaivaṭaveḷḷaikālukku vaṭakkum meṟkellai Ikkālil Aṇaikkuk kiḻakkum
+                    <lb n="4"/>paṭṭa ṉilam Iṟai curukki paḻam per tavi<supplied reason="omitted">r</supplied>ttu Iṉṉāyaṉāṟku kārāṇmai meyyācci Aṉ<seg rend="check">�������</seg><!--Illegible in SII--> Iṟaiyili tevatāna<surplus>ma</surplus>mākki cuntarapāṇṭiyaṉ viḷāka<surplus>m</surplus> meṉṉum tirunāmattāl veṟumutalākki Ikko<supplied reason="omitted">yi</supplied>li<supplied reason="omitted">l</supplied> paḷḷikoṇṭāḷvārukku Inilat til Aiñcumāvum Iṟai <gap reason="lost" quantity="4" unit="character"/> I <gap reason="lost" quantity="1" unit="character"/> yili tevatāṉamāka maṟṟum Epper<supplied reason="omitted">p</supplied>paṭṭaṉavum ta<seg rend="check">virt=t</seg>u kuṭuttom Ippaṭikku <gap reason="lost" extent="unknown" unit="character"/> kaliṅkarāyan Eḻuttu <g type="pc"/> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="1">
+                        <lem>kaṉṉaṟāḷitiruppa</lem>
+                        <note>Read <foreign>tiruppuyaṅkaḷiliṉitiruppa</foreign>.</note>
+                    </app>
+                    <app loc="1">
+                        <lem>kaṭalellai <gap reason="lost" extent="unknown" unit="character"/></lem>
+                        <note>The inscription is built in at this and the corresponding section of the other lines.</note>
+                    </app>                    
+                </listApp>
+            </div>
+            
+            <div type="commentary"/> 
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.267 (ARIE/1917-1918/B/1917/393) by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">165-166</citedRange>
+                        <citedRange unit="item">267</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
