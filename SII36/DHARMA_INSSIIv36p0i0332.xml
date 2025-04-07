@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 36.332: original edition by P Shanmugam</title>
+				<title type="alt">No. 332. (A.R. No. 332 of 1910.) TIRUMEYÑĀNAM, KUMBAKONAM TALUK, TANJORE DISTRICT. On the south wall of the maṇḍapa in front of the central shrine in the Jñānaparamēśvara temple. </title>
+				<respStmt>
+				<resp>author of digital edition</resp>
+				<persName ref="part:doop">
+					<forename>Dorotea</forename>
+					<surname>Operato</surname>
+				</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv36p0i0332</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Rājarāja III. Year 16+1: A.D. 1233.</hi></p>						
+
+						<p>Registers the resolution of the assembly of Nālūr <hi rend="italic">alias</hi> Vānavaṇmādēvi-chaturvēdimaṅgalam not to engage certain persons for doing the temple services. It further declared that those persons who act against the resolution are enemies of the village <supplied reason="explanation"><foreign>grāmadrōhin</foreign></supplied>.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-04-07" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-04-03" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> tiripuvaṉac cakkaravattikaḷ <hi rend="grantha">śrī</hi> rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>⌈
+<lb n="2" break="no"/><hi rend="grantha">de</hi>vaṟkku yāṇṭu <num value="16"><g type="numeral">10</g> 6</num> vataṉ Etirāmāṇṭu Āvaṇi
+<lb n="3"/>mātatoru nāḷ nālūrāna vānavanmātevi carupe
+<lb n="4" break="no"/>timaṅkala peruṅkuṟi ma<hi rend="grantha">hāsabhai</hi>yo<hi rend="grantha"/> namūr pā
+<lb n="5" break="no"/>⌉ṇṭaneri puḷi aṭiyile kuṟaivaṟak kūṭi Iruntu <unclear>vi</unclear>
+<lb n="6" break="no"/>yava<hi rend="grantha">st</hi>ai paṇṇinapaṭi nammūril Ūrār na<unclear>m</unclear>mūrkkum nam
+<lb n="7"/>mūril Uṭaiyār tirumayānamuṭaiyār ko
+<lb n="8" break="no"/>yil Uḷḷuṭṭa <unclear>ko</unclear>yilkaḷukkum tirumuṟṟaṅkaḷu
+<lb n="9" break="no"/>kkum kāriyatevaik kūṟuvakaikku koyiṟṟa
+<lb n="10" break="no"/><gap reason="lost" quantity="2" unit="character"/> ṭṭa <gap reason="lost" quantity="10" unit="character"/> tavarai ceyāto
+<lb n="11" break="no"/>ḻiyavum kāriyañ cetāruṇṭākil kirāma<hi rend="grantha">trohi</hi>
+<lb n="12"/>kaḷ paṭṭatu pa<hi rend="grantha">ṭu</hi>tta<unclear>vu</unclear>m nammūr Āṇṭutoṟum
+<lb n="13"/>Āṭṭaivāṇamāka niṟka kaṭavomākavu
+<lb n="14" break="no"/>m Ippaṭikaḷ tavira ceytāruṇṭākil Ivar
+<lb n="15"/>kaḷuṭaṉ <hi rend="grantha">śi</hi>va<hi rend="grantha">śdāśādi</hi>kaḷ tavirak kaṭavatākavu
+<lb n="16" break="no"/>m <hi rend="grantha">sarvva</hi>rum Eḻuttiṭṭa ma<hi rend="grantha">hāsa</hi>pā niyokam
+<lb n="17"/>Ivarkaḷ Aruḷi ceyya Eḻutiṉen Ūṟ kaṇakku
+<lb n="18"/>nālūruṭaiyāṉ tevarāna tirucciṟṟampalamu⌈
+<lb n="19" break="no"/>ṭaiyān Uttamappiriyaṉ Eḻuttu
+</p>
+
+</div>
+
+<div type="apparatus"/>
+
+
+
+<div type="commentary"/>
+
+
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 36.332 by <bibl><ptr target="bib:Shanmugam2018_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shanmugam2018_01"/>
+			<citedRange unit="page">287-288</citedRange>
+			<citedRange unit="item">332</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
