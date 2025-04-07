@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 38.195: original edition by S. Swaminathan</title>
+                <title type="alt">No. 195. (A.R. No. 195 of 1912.) TIRUVOṞṞIYŪR, SAIDAPET TALUK, CHINGLEPUT DISTRICT. On the west wall, first prākāra, Ādhipurīśvara temple.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:reda">
+                        <forename>Renato</forename>
+                        <surname>Davalos</surname>
+                    </persName>
+                </respStmt>	
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv38p0i0195</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p><hi rend="bold">King: Kumāra Kampaṇṇa Year: <hi rend="italic">Sādāraṇa, Aṟpasi</hi>, 24th day.</hi></p>						
+                            
+                            <p>This incomplete inscription begins with the order of the ruler, Kumāra Kampaṇṇa. It records that various temple personnel, <hi rend="italic">śrī-rudra, śrī māhēśvara, tāṉattār</hi>, and <hi rend="italic">nāṭṭār</hi> and also the higher official Tuṇaiyirundān Nambi assembled at <hi rend="italic">Vyakaraṇadānattirukāvaṇam</hi> at Tiruvoṟṟiyūr to settle the disputes, between the <hi rend="italic">ishabat-taḷiyilār</hi> also called <hi rend="italic">sokkat-taḷiyilār</hi>, and <hi rend="italic">dēvaraḍiyār</hi>, pertaining to the order of precedance in the matter of discharging their services on various occasions and obtaining privileges and honour. It also records the regulation of various services to be discharged by them in the order of precedance ie. <hi rend="italic">ishabattaḷiyilār</hi> were to serve in the shrine of the god and <hi rend="italic">dēvaraḍiyār</hi> in that of the goddess. Further the record stipulates that <hi rend="italic">ishabattaḷiyilār</hi> were to perform dance, <hi rend="italic">agamāṟkam</hi> and <hi rend="italic">sindhu</hi> at the <hi rend="italic">Nāyanār-tirumaṇḍapa</hi> while the <hi rend="italic">dēvaraḍiyār</hi> were to perform the same at <hi rend="italic">Nāchchiyār-tirumaṇḍapa.</hi> The record also refers to certain dances and modes of singing and the recital of the <hi rend="italic">Tiruppadiyam</hi> and <hi rend="italic">Tiruvembāvai</hi> hymns and <hi rend="italic">Tiruppallāṇḍu</hi> by the <hi rend="italic">dēvaraḍiyār.</hi> The record also mentions the hymns <hi rend="italic">Tiruchchāḻal</hi> (composed by saint Māṇikkavāsagar) were to be recited both by the <hi rend="italic">ishabattaḷiyilār</hi> and <hi rend="italic">dēvaraḍiyār</hi> in turn. This inscription also lays down the honour to be received by various groups of persons, <hi rend="italic">vīraṇukkar, kaikkōḷar</hi> and <hi rend="italic">muṭṭukkārar.</hi></p>						
+                            
+                            <p>Tiruñānasambandan, a supervisory official <hi rend="italic">(māhēśvarakkaṇkāṇi)</hi> and others figure as signatories.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            
+            <change who="part:reda" when="2025-04-07" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-03" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">sva</hi>ṟttatiṟi <note n="223-1">Read <hi rend="grantha">svastiśrī</hi></note> <supplied reason="undefined"><g type="ddanda">.</g></supplied> makāmaṇṭalītara <note n="223-2">Read makāmaṇṭalicura</note> vīrapokkaṇar kumāra kampaṇa<unclear>vu</unclear>ṭaiy<choice><sic>a</sic><corr>ā</corr></choice>r Aruḷicceyalpaṭikku cātāraṇavaruḻucam <note n="223-3">Read varu<hi rend="grantha">ṣa</hi>m</note> Aṟpaci mātam Irupattu nālāntiyati nāḷ viyākaraṇatāṉa<unclear>n ti</unclear>ruk kāvaṇattil niṟaivaṟa niṟaintu
+                    <lb n="2"/>kuṟaivaṟakkūṭi ciuruttira cimākecura<choice><sic>na</sic><corr>ru</corr></choice>m tāṉattārum nāṭṭārum Ikkoyil Atikāramāṉa tuṇaiyiruntāṉampi koṅkarāyaru muṉpāka Iraṇṭu niyāyattārum porutta Iḻapattaḷiyilār
+                    <lb n="3"/>tevaraṭiyār muṟaimaik kāriyattukkup pūṟuvamakkāri Ivarkaḷ cevikkumpaṭikku nāṅkaḷ Aṟutiyiṭṭapaṭi cokkattaḷiyilār cevittup potummuṟaimaikaḷil
+                    <lb n="4"/>cokkamum tirukāppunāṇum tirukkaḷapamum tiruccāntum muttirāmaṇṭapattiṟ ceyappāvai tarippāvaiyum cokkattaḷiyilār cevittup potavum Itu Oḻinta cevik<supplied reason="omitted">ku</supplied> muṟaimaikaḷ Ellām cevikkum
+                    <lb n="5"/>Iṭattu perumāḷmutaliyār tirukkalliyāṇa cunt<choice><sic>i</sic><corr>a</corr></choice>ritevar muṟṟum Eḻuntaruḷum nāyaṉmāṟkum I<hi rend="grantha">ṣa</hi>(ca)pattaḷiyilār muṟkeṭatta Ikkuṭiyilum Ivaḷukku piṉpāka taivittāri
+                    <lb n="6"/>kuṟalliyal paṇimāṟak kaṭavarkaḷākavum Ivarkaḷ piṉpākat tirumaruṅkile tevaraṭiyār tiruveṇcāmaram paṇiyāṟavum I(ḻa)<hi rend="grantha">ṣa</hi>pat taḷiyilār tiruvantikkāppum tevaraṭiyār pu<hi rend="grantha">ṣpa</hi>(p)pattaḷikaiyum tiruniṟṟukkāppum 
+                    <lb n="7"/>I<hi rend="grantha">ṣa</hi>pa<unclear>t</unclear> taḷiyilār muṉṉum tevaraṭiyār piṉṉum <unclear>Atu</unclear> Eṭukka kaṭavarka<unclear>ḷ</unclear>ākavum pu<unclear>ṣ</unclear>pattaḷikai Eṭukka tevaraṭiyār niṟkum paṭi mutaliyārcaṉṉatiyil munnil kāṇale niṟka
+                    <lb n="8"/><unclear>k</unclear> katavu Arukil tūṇile niṟkavum periya tirumaṇṭapattil melaippattiyil Iraṇṭām tūṇile niṟkavum I<hi rend="grantha">ṣa</hi>pattaḷiyilār nāyiṉārcaṉṉatiyilum tevaraṭiyār nācciyārcaṉṉatiyilum cantik ku
+                    <lb n="9" break="no"/>ṉippam Iṭavum malaippum Ippaṭi Āṭavum cipalikkup pāṭumatum tiruppavaṉikkup pāṭumatum I<hi rend="grantha">ṣa</hi>pattaḷiyilār pāṭavum Iraṇṭu tirumaṇṭapattilum Iraṇṭu vakaiyāka muṭṭukkāṟar cevikkavum Uḷḷup paṇimāṟa paṇṇiṉa Aḷavile nācciyārkku vantu paṇṭamāṟappaṇṇavum tiruviticevikkumpaṭi nāyaṉār caṉṉatiyilum nācciyārcaṉṉatiyilum Iraṇṭu vakaiyāka
+                    <lb n="10"/>muṭṭukkāṟar cevikkavum Uḷḷu I<choice><sic>ḻ</sic><corr>c</corr></choice>apattaḷiyilār Akamāṟkamum cintukkumāṭavum tevaraṭiyār nācciyārtirumaṇṭapattile Akamāṟkamum cintukkum variyumāṭavum tiruttoppukaḷile tevaraṭiyār Iṭappāri cukattile tiruvolakkattile cevittu Irukka I<hi rend="grantha">ṣa</hi><surplus>ca</surplus>pat taḷiyilār varipāṭavum kūttapperumāḷmaṇṭapattile taḷiyilār Āṭakkaṭavarkaḷ Allāvākavum tiruccāḻalukku I<hi rend="grantha">ṣa</hi>(ca)patta
+                    <lb n="11" break="no"/>taḷiyilār muṟpāṭu pāṭit tevaraṭiyār piṉpupāṭi I<hi rend="grantha">ṣa</hi>(ca)pat taḷiyilār muṉṉum muṭṭukkāṟar naṭuvum tevaraṭiyār piṉṉumākap puṟappaṭṭut taṅkaḷ Ellaikaḷile pāṭippotavum Uṭaiyār kalcatakāpaṉam tirumañcaṉattukku ce<unclear>p</unclear>puvā<unclear>ca</unclear>lukkum tuvāravācalukkun <supplied reason="omitted">na</supplied>ṭuve tiruppatiyam viṇṇappamceyvārum tevaraṭiyārum tiruppallāṇṭu cevikkavum tiruyeṇṇaikkāppum tiruccuṇṇattukkum muṉpilāṇṭu matikāri tevaraṭi
+                    <lb n="12" break="no"/>yār cevikkavum Ippaṭikku Ūrile cevikkum matikārikaḷum cevittup payaṇamum I<hi rend="grantha">ṣa</hi>pattaḷiyilārum tevaraṭiyārum cevikkavum Aricippaṭi Iraṇṭu tiṟavarum peṟavum veṟṟilai cokkattaḷiyilār peṟṟāl tevaraṭiyār peṟavum cokkattaḷiyilāraiye Eḻuntu veṟṟilai peṟum Iṭattu Iraṇṭutiṟavarum mokkappeṟavum viraṇukkarum kaikkoḷarum veṟṟilaipeṟum Iṭattu muṉṉum piṉṉumākap peṟavum kaikkoḷarum I<hi rend="grantha">ṣa</hi><surplus>ca</surplus>pattaḷiyilār makkaḷum veṟṟilai peṟumiṭattu Okkappeṟak ka
+                    <lb n="13" break="no"/>ṭavarkaḷ Ākavum perumāḷukkup paṇimāṟap paṇṇiṉāl I<hi rend="grantha">ṣa</hi>pat taḷiyilār Āṭippāṭavum nācciyārkkup paṇimā<unclear>ra</unclear>p <unclear>pa</unclear>ṇṇiṉāl tevaraṭiyār Āṭippāṭavu<unclear>n</unclear> perumāḷ tirumaṇṭapam tiruttoppu Eṟi Aruḷum poḻutu co <gap reason="lost" quantity="3" unit="character"/>kkuṟaṭṭu Aḷavu Ākat tiruveṇcāmaram paṇimāṟi Iraṇṭu tiṟavarum paṇṭārattile kuṭukkavum tiruvātavūrnāyaṉār Eḻuntaruḷina tiru<unclear>v</unclear>empāvai tiruvitiyum tirumāḷikaiyum cevittuc ceppuvācalukkum tuvāravācalukkum naṭuttirupāṭṭu <unclear>O</unclear>
+                    <lb n="14" break="no"/>tuvaruṭaṉe paṟṟum pāṭit tiruniṟṟum tevaraṭiyār peṟavum <unclear>ti</unclear>ruvātiraikku Aṟaikaṭṭum Iṭattup perumāḷ tirumaṇṭapattile I<hi rend="grantha">ṣa</hi>(ca)pattaḷiyilār Aṟaikaṭṭippāṭi Āṭavum nācciyār tirumaṇṭapattile tevaraṭiyār Aṟaikaṭṭi pāṭi Āṭavum nāyiṉār koyile I<hi rend="grantha">ṣa</hi>pattaḷiyilār coṟu peṟavum ta <gap reason="lost" quantity="10" unit="character"/> peṟavum Ippaṭi <gap reason="lost" quantity="4" unit="character"/> c cevittup potavum I <gap reason="lost" quantity="5" unit="character"/> ṭi Imantu kalaintavarkaḷ civatturoki Irā
+                    <lb n="15" break="no"/><unclear>ca</unclear>tturoki Ākak kaṭavatākavum Ippaṭikku Ivai <hi rend="grantha">śrī</hi>māhe<hi rend="grantha">śvara</hi>k kaṇkāṇi tiruñāṉacampantaṉ Eḻuttu Ivai <hi rend="grantha">vāgiśvarapaṇḍi</hi>ta<hi rend="grantha">sya</hi> Ivai <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻamaṇṭala miṭarkaṉ Eḻuttu Ivai tavaneṟi peṟṟāṉ Eḻuttu Ivai Iṇaittavitavaneṟi peṟṟāṉ Eḻuttu Ivai Ilaikkāṭṭuruṭaiyāṉ nāṟpatteṇṇāyira muṭaiyār koyilile <unclear>matuvāṭiyār</unclear> <gap reason="lost" quantity="10" unit="character"/>
+                    <lb n="16"/>veḷḷāḷa Eḻu <gap reason="lost" quantity="8" unit="character"/>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 38.195 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> converted to DHARMA conventions by Renato Davalos.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Swaminathan2019_01"/>
+                        <citedRange unit="page">222-225</citedRange>
+                        <citedRange unit="item">195</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
