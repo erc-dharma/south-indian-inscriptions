@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 5.226: original edition by H. Krishna Sastri</title>
+                <title type="alt">No. 226. (A.R. No. 550 of 1893). ON THE SAME TIER.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>	
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv05p1i0226</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc><change who="part:emfr" when="2025-04-08" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svastiśrī<supplied reason="undefined">ḥ</supplied></hi> <supplied reason="undefined">||</supplied> <hi rend="grantha">tri</hi>puvanacca<supplied reason="omitted">k</supplied>karavat
+                    <lb n="2" break="no"/>tikaḷ <hi rend="grantha">śrī</hi>vikkiramacoḻatevaṟku
+                    <lb n="3"/>yāṇṭu <num value="27">2 <g type="numeral">10</g> 7</num><g type="dash"/>vatu perurnāṭṭu ko
+                    <lb n="4" break="no"/>rappāṭiyāna Amma<unclear>ṭi</unclear>caturvetimaṅkalattu
+                    <lb n="5"/>Āḷuṭaiyā<supplied reason="omitted">r</supplied> <hi rend="grantha">śrī</hi>karaṇicuramuṭaiyār ko
+                    <lb n="6" break="no"/>yiṟkāṇiyuṭaiya civa<hi rend="grantha">br<unclear>ā</unclear>hma</hi>ṇan Ā
+                    <lb n="7" break="no"/>ṇṭān māmuniyāna tillaināyakapaṭṭanen peruri
+                    <lb n="8" break="no"/>lirukku<unclear>ṅ</unclear> kaikoḷaril kulaiyan pottiyan celvañ
+                    <lb n="9" break="no"/>ānacampantan pakkal nān koṇṭu kaṭava Āṉai yaccu [<hi rend="grantha">śrī</hi>]
+                    <lb n="10" break="no"/>ya<supplied reason="omitted">k</supplied>kiyiṭaiccalākai nālum koṇṭu yinnāyanār
+                    <lb n="11"/>koyili lennopāti kāṇiyil nitta mirunāḻi ya
+                    <lb n="12" break="no"/>rici coṟu yiraṇṭu caṭṭi yiṭṭu varuvenāka
+                    <lb n="13" break="no"/>vu mināyanār koyiliṟ kuṭaṅ
+                    <lb n="14" break="no"/>koṭu kucci pu<supplied reason="omitted">ku</supplied>varkkuc caṭṭi yiraṇṭu miṭṭu 
+                    <lb n="15"/>varuvānākavu mittanmam canti<unclear>r</unclear>ātittarva
+                    <lb n="16" break="no"/>rai celvatāka kal veṭṭikkuṭutte
+                    <lb n="17" break="no"/>n tillaināyakapaṭṭane nittanmam panmā
+                    <lb n="18" break="no"/>kecura <hi rend="grantha">ri</hi>ra<hi rend="grantha">kṣa</hi>i <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 5.226 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1925_01"/>
+                        <citedRange unit="page">83-84</citedRange>
+                        <citedRange unit="item">226</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
