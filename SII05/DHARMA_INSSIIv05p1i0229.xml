@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 5.229: original edition by H. Krishna Sastri</title>
+                <title type="alt">No. 229. (A.R. No. 553 of 1893). ON THE SAME WALL, SECOND TIER.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>	
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv05p1i0229</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc><change who="part:emfr" when="2025-04-08" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svastiśrī<supplied reason="undefined">ḥ</supplied></hi> <supplied reason="undefined">||</supplied> koIrā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja śrī</hi>karikālacoḻa<hi rend="grantha">de</hi>vaṟkku tiruveḻuttiṭṭuccellāniṉṟa tirunalliyāṇṭu Iraṇṭāvatu perurnāṭṭu perur Āḷḷuṭaiyār tiruvānpaṭṭiy Uṭaiyāṟkku perurnāṭṭu veḷḷalūr tiruAticeyacoḻan cen=tāmaraikkaṇṇanen vaicca tirunun=tāviḷakku Oṉṟu Ivvonṟukkum Ittevar <hi rend="grantha">śrī</hi>paṇṭārattil Oṭukkina pon parakecarik kallāl tuḷainiṟai cempon patinkaḻañcu Ippon patinkaḻañcu koṇṭu Ittiruviḷakku Onṟum can=tirāti<hi rend="grantha">tya</hi> <gap reason="lost" quantity="4" unit="character"/> vo<surplus>m</surplus>māno <seg rend="check"><hi rend="grantha">I</hi>tā</seg><hi rend="grantha">śyapa</hi>kottirattu can=tiracekaran ca<hi rend="grantha">n=ti</hi>racekaranāna can=tiracekarapaṭṭanum Ikkottirattu tirumakaḷpāṭi tiruvālan=tuṟai Uṭaiyāṉāna kumara<unclear>ṅ</unclear>ka vimapaṭṭanum Ivviruvom Ittirunu<supplied reason="omitted">n=tā</supplied>viḷakku Onṟum Ikkoyili<supplied reason="omitted">l</supplied> kuṭamuṅkucciyum <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="1">
+                        <lem>can=tirāti<hi rend="grantha">tya</hi></lem>
+                        <note>A portion is built in after this.</note>
+                    </app>
+                </listApp>
+                
+            </div>
+            
+            <div type="commentary">
+                <p>Built in at the end.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 5.229 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1925_01"/>
+                        <citedRange unit="page">85</citedRange>
+                        <citedRange unit="item">229</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
