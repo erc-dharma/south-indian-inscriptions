@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 5.224: original edition by H. Krishna Sastri</title>
+                <title type="alt">No. 224. (A.R. No. 548 of 1893). ON THE NORTH WALL OF THE MANDAPA IN FRONT OF THE SAME SHRINE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>	
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv05p1i0224</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-08" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p xml:lang="san-Latn" rendition="class:grantha maturity:vernacular">
+                    <lb n="1"/><gap reason="lost" quantity="5" unit="character"/> kroḍā<surplus>ḥ</surplus><unclear>kṛtiryuṣmān viṣṇuḥ</unclear> puṣṇā<seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tu</seg> <unclear>sarvad</unclear>ā <supplied reason="undefined"><g type="danda">.</g></supplied> dhatte viśvaṃbharā yasya daṃṣṭrāgre narttakiva yā <supplied reason="undefined"><g type="ddanda">.</g></supplied> tatokhilajagaTpatma <gap reason="lost" quantity="5" unit="character"/> cu<unclear>ri</unclear>tabhānu 
+                    <lb n="2"/><gap reason="lost" quantity="3" unit="character"/> sandhyāyāM <gap reason="lost" quantity="2" unit="character"/> <unclear>dbhu</unclear>taM <supplied reason="undefined"><g type="danda">.</g></supplied> mahātmanāṃ <gap reason="lost" quantity="2" unit="character"/> nīlācalādhipagrām<choice><sic>ā</sic><corr>a</corr></choice>nāthamādhavaśāsanaM <supplied reason="undefined"><g type="ddanda">.</g></supplied> EtaT trailokyavāstavyaśirobhiśśekharīkṛtaM <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    
+                </p>
+                <p>
+                    <hi rend="grantha">sva</hi>
+                    <lb n="3" break="no"/><hi rend="grantha"><gap reason="lost" quantity="4" unit="character"/> bhuvanāśraya śrīpṛthvīvallabha<surplus>M</surplus> mahārājādhirāja rājaparameśvara paramabhaṭṭāraka dvārāvatīpuravarādhīśvara śrīviṣṇuvarddhanacakravartti yādavaku</hi>
+                    <lb n="4" break="no"/><hi rend="grantha"><gap reason="lost" quantity="4" unit="character"/> rvvajñacūḍāmaṇi malairājarāja malaiparo</hi>ḻu<hi rend="grantha">gaṇḍa kadanapracaṇḍa rāyahulirāya gaṁḍabheruṇḍaśanivārasiddhi giridurgamalla chaladaṃkarāma Ekāṃgavīra raṇara</hi>
+                    <lb n="5" break="no"/><hi rend="grantha"><gap reason="lost" quantity="2" unit="character"/> <unclear>śūra</unclear> vairībhakaṁṭhīrava kañcigoṇḍagaṇḍa Aṃbadevagarvasarvasvāpahāra koṭībhaṭaprāṇāpahāra magadharājyanirmūlana co</hi>ḻa<hi rend="grantha">rājyapratiṣṭhācāryapā</hi>
+                    <lb n="6" break="no"/><hi rend="grantha"><gap reason="lost" quantity="3" unit="character"/> raṇapallavāditya pallavatrinetra teṅkaṇāditya teṅkaṇacakravartti ja<unclear>va</unclear>nikenārāyaṇa vāsaṁtikādevilabdhavaraprasāda śrīviśvanāthadivya</hi>
+                    <lb n="7" break="no"/><hi rend="grantha"><gap reason="lost" quantity="3" unit="character"/> dhaka bhujabalaniśśaṅkapratāpacakravarti hoysaḷa śrīvīra</hi>vallāḷatevar Uṇṇāmulaippaṭṭaṇam<unclear>ā</unclear>ṉa <hi rend="grantha">sthirarājadhāni</hi>yile yeḻuntaruḷiyiruntu <hi rend="grantha">pṛū</hi>
+                    <lb n="8" break="no"/><gap reason="lost" quantity="3" unit="character"/> ṇiyaruḷāniṉṟa <hi rend="grantha">śakavarṣaM</hi> Āyirattirunūṟṟu nāṟpattañciṉ meṟ-cellāniṉṟa <hi rend="grantha">rudhiroTkāri saṁvatsara</hi>ttu <hi rend="grantha">mi</hi>ṉṉāyaṟṟu <hi rend="grantha">pūrvapakṣa</hi>ttu <hi rend="grantha">prathamai</hi>yum nā
+                    <lb n="9" break="no"/><gap reason="lost" quantity="3" unit="character"/> peṟṟa Uttiraṭṭā<hi rend="grantha">ti nā</hi>ḷil <hi rend="grantha"><g type="pc"/> svasti śrī muḍhikulayakulakamalamārtāṇḍa sitakaragaṇḍa kadanapracaṇḍa Immaḍhirāgu</hi>tta<hi rend="grantha">rāya koṅga<supplied reason="omitted">ra</supplied>māri koṅgadiśābhaṭṭa nīlagirisādha</hi>
+                    <lb n="10" break="no"/><hi rend="grantha"><gap reason="lost" quantity="3" unit="character"/> maṇḍalikahṛdayaśalya ho</hi> y<hi rend="grantha">saḷa rājyalakṣmīrakṣā<unclear>prā</unclear>kāra Abhinavamadanāvatāra pāṇḍyavāṭīmukhavighaṭṭa<supplied reason="omitted">na</supplied> pāṇḍyabalakamala [vanaku</hi> ñ<hi rend="grantha">jara] śaraṇāgatavajra</hi>
+                    <lb n="11" break="no"/><hi rend="grantha"><gap reason="lost" quantity="3" unit="character"/> ṇḍaḷikamānamarddana vairimaṇḍaḷikasamkrāmarāma Arasugaṇḍarāman beṅkoṇḍagaṇḍasālama</hi> ṉṉaya<hi rend="grantha">beṭekā</hi> ṟa <hi rend="grantha">biśāla mudragarvasarvasvāpahā</hi>
+                    <lb n="12" break="no"/><hi rend="grantha"><gap reason="lost" quantity="3" unit="character"/> bha duṣṭajanadurlabha śiṣṭajanapratipālaka Allāḷanāthadivyaśrīpādapatmārādhaka parāśaraparamabhaṭṭārakalabdhavaraprasāda Ēkādaśivratanirata Ēkāṅgavīra vi</hi>
+                    <lb n="13" break="no"/><hi rend="grantha"><gap reason="lost" quantity="2" unit="character"/> navaratakanakakarpūradhārāpravāha gobrāhmaṇapriya paranārīsahodara svastipuravarādhiśvara śrīviramādhavadaṇḍa</hi> nāyakkar kumāraṉ viracik
+                    <lb n="14" break="no"/><gap reason="lost" quantity="2" unit="character"/> kkar Uṭuvakkānāṭṭi<supplied reason="omitted">l</supplied> <hi rend="grantha">ni</hi>la<hi rend="grantha">girisādhā</hi>raṉkoṭṭaiyil Eṟiyaruḷappaṇṇiṉa <hi rend="grantha">śrīmādhava</hi>perumāḷ Eḻukaraināṭṭil nāṭṭavarom <hi rend="grantha">lokarakṣārttha</hi>māka Iṉṉāṭ
+                    <lb n="15" break="no"/><gap reason="lost" quantity="2" unit="character"/> tuppaṭi <hi rend="grantha">viṣuvāya</hi> na<hi rend="grantha">samkrama Amāvāsyai caitrapavitra</hi>ṅkaḷum tirunāḷ<gap reason="lost" quantity="2" unit="character"/> pala <hi rend="grantha">Utsa</hi>vaṅkaḷ<gap reason="lost" quantity="2" unit="character"/> ḷ viṭṭatiruviṭaiyāṭṭaṅkaḷāvaṉa vaṭaparicāraṉāṭṭi
+                    <lb n="16" break="no"/><gap reason="lost" quantity="2" unit="character"/> kaḷaṉāṭṭil nāṅkaḷ viṭṭa tiruviṭaiyāṭṭam<gap reason="lost" quantity="2" unit="character"/> ṟaiyum teṟkāla <gap reason="lost" quantity="2" unit="character"/> karum Uṭu<gap reason="lost" quantity="3" unit="character"/> ṭavarom Eṅkaḷ ṉāṭṭil ṉāṅ<supplied reason="omitted">ka</supplied>ḷ viṭṭaka<gap reason="lost" quantity="1" unit="character"/> taiyum kālaperum
+                    <lb n="17"/><gap reason="lost" quantity="2" unit="character"/> ṉāṭṭavarom Eṅkaḷ ṉāṭṭil ṉāṅkaḷ viṭṭa tirukkātirukkampūrum kāñcikkūvaṉāṭṭil ṉāṭṭavarom<gap reason="lost" quantity="3" unit="character"/> ṭṭup puliyūrum pūntuṟaiṉāṭṭil ṉāṭṭavarom Eṅkaḷ ṉāṭ
+                    <lb n="18" break="no"/><gap reason="lost" quantity="2" unit="character"/> kaiyūrum kuṟuppuṉāṭṭil ṉāṭṭavarom Eṅkaḷ ṉāṭṭil ṉāṅ<supplied reason="omitted">ka</supplied>ḷ viṭṭa pālaitoḻu<gap reason="lost" quantity="2" unit="character"/> raima<gap reason="lost" quantity="3" unit="character"/> <unclear>ṭi</unclear>l ṉāṅkaḷ viṭṭa kontaḷamum kāṅkeyarṉāṭ
+                    <lb n="19" break="no"/><gap reason="lost" quantity="3" unit="character"/> kaḷaṉāṭṭil nāṅkaḷ viṭṭa pāṟpaḷiyum kālpāṭum poṉka<unclear>lū</unclear>kkāṉāṭṭil<gap reason="lost" quantity="2" unit="character"/> ma<gap reason="lost" quantity="2" unit="character"/> ṭil<gap reason="lost" quantity="3" unit="character"/> ṭārum viracoḻava<unclear>ḷai ṉā</unclear>ṭṭil ṉāṭṭavarom<gap reason="lost" quantity="2" unit="character"/> ṉāṭṭi<gap reason="lost" quantity="2" unit="character"/>
+                    <lb n="20"/><gap reason="lost" quantity="3" unit="character"/> ṇalum vāykaraikkāṉāṭṭil ṉāṭṭavarom Eṅkaḷṉāṭṭil ṉāṅkaḷ viṭṭa<gap reason="lost" quantity="2" unit="character"/> ṉāṭṭil ṉāṅkaḷ viṭṭa pu<unclear>t</unclear>tūrum nālūṟppaṟṟu Ūravarom
+                    <lb n="21"/><gap reason="lost" quantity="2" unit="character"/> viṭṭa Iṭikaraiyum Āka Ivvūr patimuṉṟukaḷukkum Ivvūrkaḷāl varum kālpā<gap reason="lost" quantity="2" unit="character"/> naṉcey puṉcey kuḷam kuḷak<unclear>karaiyum</unclear> meṉo<gap reason="lost" quantity="3" unit="character"/> m kiṇo 
+                    <lb n="22" break="no"/><gap reason="lost" quantity="3" unit="character"/> perppaṭṭa <hi rend="grantha">samastaprāpti</hi>kaḷum U<hi rend="grantha">da</hi>kam paṇṇikkuṭutta Ivvūrkaḷukku varum ka <gap reason="lost" quantity="5" unit="character"/> teṇṭam maṟṟumepperpaṭṭa <gap reason="lost" quantity="4" unit="character"/> kaṅkaḷum <gap reason="lost" quantity="3" unit="character"/> <hi rend="grantha"><unclear>sa</unclear></hi><unclear>rva</unclear><hi rend="grantha"><unclear>mā</unclear></hi>
+                    <lb n="23" break="no"/><hi rend="grantha">nya</hi>māka U<hi rend="grantha">dakam pa</hi>ṇṇikkuṭuttom Ivvūrkaḷukku varum<gap reason="lost" quantity="2" unit="character"/> kaṭa
+                    <lb n="24" break="no"/>maiyāl varum kaṭamai kuṭimai viṉiyokam maṟṟum Eppeṟppaṭṭaṉavu
+                    <lb n="25" break="no"/>m Eṅkaḷ ṉāṭukaḷil viṭṭa Ūrāl varumavai <unclear>nāṅ</unclear>kaḷe yeṅkaḷ ṉāṭṭil
+                    <lb n="26"/>vaittiṟuttup potuvomākavum Ippaṭi I<hi rend="grantha">ddhanma</hi>m <hi rend="grantha">candrāditya</hi>varai naṭappatāka
+                    <lb n="27" break="no"/>vum cempilum cilaiyilum veṭṭikkoḷvatāka U<hi rend="grantha">da</hi>kampaṇṇikkuṭut
+                    <lb n="28" break="no"/>tom Eḻukarai ṉāṭṭavarom <hi rend="grantha">śrīmādha</hi> vapperumāḷukku Ippaṭikku I<hi rend="grantha">ddharmma<surplus>M</surplus></hi>
+                    <lb n="29" break="no"/>maḻivu ceyvāṉ vaḻiyeccamaṟuvāṉ Ippaṭikku Eḻukarainā<unclear>ṭ</unclear>ṭil nā
+                    <lb n="30" break="no"/>ṭṭavarom Eṅkaḷ kaiyyeḻuttu <g type="pc">.</g>
+                </p>
+                <lg met="anuṣṭubh" xml:lang="san-Latn" rendition="class:grantha maturity:vernacular">
+                    <l n="a">svadatt<choice><sic>a</sic><corr>ā</corr></choice>ṃ paradattāṃ vā</l>
+                    <l n="b">yo hareti va<lb n="31" break="no"/>sundharāṁ ||</l>
+                    <l n="c">ṣaṣṭhirvarsaṣahasrāṇi</l>
+                    <l n="d">viṣṭhāyāñjāyate krimiḥ ||</l>
+                </lg>
+                <lg met="anuṣṭubh" xml:lang="san-Latn" rendition="class:grantha maturity:vernacular">
+                    <l n="a">dānapālanayormma<lb n="32" break="no"/>ddhye</l>
+                    <l n="b">dānācśreyonupālanaM ||</l>
+                    <l n="c">dānāT svargamavāpnoti</l>
+                    <l n="d">pālanādacyutaM pa<lb n="33" break="no"/>daM ||</l>
+                </lg>
+                <lg met="anuṣṭubh" xml:lang="san-Latn" rendition="class:grantha maturity:vernacular">
+                    <l n="a">sāmānyoyandharmmasetunnṛpāṇāṁ</l>
+                    <l n="b">kāle kāle pālaniyo bhavatbhiḥ ||</l>
+                    <l n="c"><lb n="34"/>sarvānetāN bhāvinaḥ pārtdhivendrāN</l>
+                    <l n="d">bhūyo bhūyo yācate rāmabhadraḥ <g type="pc">.</g>
+                    </l>
+                </lg>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="1">
+                        <lem><hi rend="grantha">narttakiva yā</hi></lem>
+                        <note ><hi rend="grantha">narttakī śriyaM</hi> is the reading in Gu. 69.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="commentary"/>
+            
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 5.224 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1925_01"/>
+                        <citedRange unit="page">81-83</citedRange>
+                        <citedRange unit="item">224</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
