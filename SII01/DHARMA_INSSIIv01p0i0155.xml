@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 1.155: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">No. 155. AN INSCRIPTION OF KULOTTUṄGA-CHOḶA AT CHIDAMBARAM.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>	
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv01p0i0155</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The subjoined Grantha inscription is engraved on the outside of the east wall of the innermost <hi rend="italic">prākāra</hi> of the great temple at <hi rend="bold">Chidambaram</hi> in the South Arcot District. It consists of two verses in the <hi rend="italic">Sragdharā</hi> metre, each of which eulogises the victories of <hi rend="bold">Kulottuṅga-Choḷa</hi> over the five <hi rend="bold">Pāṇḍyas</hi>. The first verse further states, that the king burnt the fort of <hi rend="bold">Korgāra</hi> (<hi rend="italic">Korgāra-durga</hi>) and defeated the <hi rend="bold">Keraḷas</hi>. Korgāra is probably a Sanskritised form of <hi rend="bold">Koṟkai</hi> in the Tinnevelly District, the ancient capital of the <hi rend="bold">Pāṇḍyas</hi>.<note>For references on Koṟkai, see Mr. Sewell's <hi rend="italic">Lists of Antiquities</hi>, Vol. I, p. 312.</note> The second verse records, that <hi rend="bold">Kulottuṅga-Choḷa</hi> placed a pillar of victory on the <hi rend="bold">Sahyādri</hi> mountain, <hi rend="italic">i.e.</hi>, the Western Ghāṭs. This he must have done after his conquest of the <hi rend="bold">Keraḷas</hi>, which is mentioned in the first verse.</p>						
+                            
+                            <p>According to a grant published by Mr. Fleet,<note><hi rend="italic">Ind. Ant</hi>. Vol. XIV, p. 55.</note> <hi rend="bold">Kulottuṅga-Choḍa-deva</hi> was the name of two of the Eastern <hi rend="bold">Chalukyan</hi> successors of the <hi rend="bold">Choḷa</hi> kings. Of the first of these, who was also called <hi rend="bold">Rājendra-Choḍa</hi> and ruled from Śaka 985 to 1034, the <hi rend="bold">Chellūr</hi> grant reports that he conquered the <hi rend="bold">Kerala</hi> and <hi rend="bold">Pāṇḍya</hi> countries.<note>See No. 39, verse 10, p. 59, above.</note> From an unpublished <hi rend="bold">Chidambaram</hi> inscription<note>See paragraph 5 of my <hi rend="italic">Progress Report for February, March and April</hi> 1888, Madras G.O., 27th July 1888, No. 745, Public.</note> it appears, that the surname <hi rend="bold">Kulottuṅga-Choḷadeva</hi> was also borne by the maternal grandfather of the last-mentioned king, the <hi rend="bold">Choḷa</hi> king <hi rend="bold">Rājendra-Choḷa-deva</hi>, among whose conquests we find both the <hi rend="bold">Keraḷa</hi> and <hi rend="bold">Pāṇḍya</hi> countries.<note>See p. 97, above.</note> Consequently, it is impossible to say to which <hi rend="bold">Kulottuṅga-Choḷa</hi> the subjoined inscription has to be referred.<note>This remark applies also to the various kings of the same name, who are mentioned in other inscriptions of this volume. These are:—Kulottuṅga-Choḷa-deva in No. 86; Ko-Rājakesarivarman, <hi rend="italic">alias</hi> Kulottuṅga-Choḷa-deva in Nos. 89, 96 and 130; and Koṉeri Meṉ-koṇḍa Kulottuṅga-Choḷa-deva in No. 132.</note></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>            
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="san-Latn" rendition="class:grantha maturity:regional">
+                
+                <p>
+                    <lb n="1"/>svasti śrī <g type="ddanda">.</g> pāṇḍyāndaṇḍena jitvā pracuraśaramucā pañca pañcānanaśrīḥ dagdhvā korggāradurggantṛiṇamiva sa yathā
+                    <lb n="2"/>khāṇḍavam pāṇḍusūnuḥ <supplied reason="undefined"><g type="danda">.</g></supplied> piṣṭvā tat keraḷānām balamatibahaḷam śrīkulottu<del>ṁ</del>gacoḷaścakre śakrapratāpastribhuvanavijayastambhamambhodhitīre <supplied reason="undefined"><g type="ddanda">.</g> 1</supplied>
+                    <lb n="3"/>puṇye sa<surplus>ṁ</surplus>hyādriśṛiṁge tribhuvanavijayastambhamambhodhipāre svacchandam pārasīnāntaruṇayuvatibhirggīyate yasya kīrttiḥ <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    <lb n="4"/>sa śrīmānastaśatruḥ prabalabalabharaiḥ pañca pāṇḍyānvijitya kṣubhyat kṣmāpālacakram savidhikamakarocchrīkulottuṁgacoḷaḥ <g type="ddanda">.</g> <supplied reason="omitted">2</supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="2">
+                        <lem>śrīkulottu<del>ṁ</del>ga°</lem>
+                        <note>The <hi rend="italic">anusvāra</hi> is obliterated.</note>
+                    </app>
+                    <app loc="4">
+                        <lem>°śatruḥ</lem>
+                        <note><foreign>śatruḥ</foreign> seems to be corrected from <foreign>śastraḥ</foreign>.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:Hultzsch1890_01">
+                
+                <p>Hail! Prosperity! (<hi rend="italic">Verse</hi> 1.) Having defeated the five <hi rend="bold">Pāṇḍyas</hi> by an army, which discharged numerous arrows, having burnt, like straw, the fort of <hi rend="bold">Korgāra</hi>, just as (<hi rend="italic">Arjuna</hi>) the son of <hi rend="bold">Pāṇḍu</hi> burnt the <hi rend="bold">Khāṇḍava</hi> (<hi rend="italic">forest</hi>),<note>Compare No. 39, verse 3, p. 57, above.</note> and having crushed the extremely dense army of the <hi rend="bold">Keraḷas</hi>,—the illustrious <hi rend="bold">Kulottuṅga-Choḷa</hi>, who resembled Siva in splendour and Indra in might, placed a pillar (<hi rend="italic">commemorative of his</hi>) conquest of the three worlds on the shore of the ocean.</p>
+                
+                <p>(<hi rend="italic">Verse</hi> 2.) (<hi rend="italic">Having placed</hi><note>One would expect a gerund conveying this meaning instead of <hi rend="italic">ambodhipāre</hi>, which seems to have crept into the text through the influence of <hi rend="italic">ambodhitīre</hi> in verse 1.</note>) a pillar (<hi rend="italic">commemorative of his</hi>) conquest of the three worlds on the sacred peak of the <hi rend="bold">Sahyādri</hi> (<hi rend="italic">mountain</hi>), and having defeated the five <hi rend="bold">Pāṇḍyas</hi> by masses of powerful armies,—the illustrious <hi rend="bold">Kulottuṅga-Choḷa</hi>, whose fame is voluntarily sung by the tender women of the <hi rend="bold">Pārasis</hi>,<note>The composer of the inscription mentions the Persians (Tamil <foreign>pāraci</foreign>, Sanskrit <foreign>pārasīka</foreign>) merely as the representatives of the most distant nations which were known to him.</note> and who has driven away his enemies, made the trembling crowd of kings subject to his orders.<note><hi rend="italic">Savidhika</hi> seems to be used in the sense of <hi rend="italic">ājñāvidheya</hi>.</note></p>
+                
+            </div>
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 1.155 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Hultzsch1890_01"/>
+                        <citedRange unit="page">168-169</citedRange>
+                        <citedRange unit="item">155</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
