@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.125: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 125. (A.R. No. 296 of 1912). ATTI, CHEYYAR TALUK, NORTH ARCOT DISTRICT. ON THE SOUTH WALL OF THE AGASTĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0125</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This is a set of six verses in Tamil in the <hi rend="italic">Kaṭṭaḷaikkalittuṟai</hi> metre praising the greatness of <hi rend="bold">Pallavāṇḍār</hi> <hi rend="italic">alias</hi> <hi rend="bold">Kāḍavarāyar ‘who conquered Toṇḍai-maṇḍalam’</hi> and who was the son of <hi rend="bold">Kūḍal Āḷappiṟandāṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Kāḍavarāyar.</hi> He is called <hi rend="italic">Pallavaṉ, Kāḍavar-kōṉ, Kūḍal-maṉṉavar</hi> and one of the verses alludes to the battle at <hi rend="bold">Śēvūr,</hi> probably identical with Mēl-Śēvūr in the Tindivanam taluk of the South Arcot district, where he slew a large number of his enemies and ‘created mountains of dead bodies and swelling rivers of blood’. His opponent on the battle-field at Śēvūr is not specified, but the result was the conquest of Toṇḍai-nāḍu which included Peṇṇai-nāḍu, Vaḍa-Vēṅgaḍam and Kachchi ‘surrounded by the sea’. That Pallavāṇḍār also defeated the northern powers is indicated by a verse stating that the ‘northern kings who did not come and make obeisance to the Kāḍava, could not find even a hill or a forest to which they could flee for refuge’.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>           
+            <change who="part:emfr" when="2025-04-11" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kūṭal Āḷappiṟantāṉāṉa kāṭavarāyar makaṉār toṇṭaimaṇṭalaṅ
+                    <lb n="2"/>koṇṭa pallavāṇṭārāṉa kāṭavarāyar kalveṭṭu <supplied reason="undefined"><g type="ddanda">.</g></supplied> taṅko nakarpeṟat tampulitāmpeṟat tāḷ
+                    <lb n="3"/>vaṇaṅkiya ceṅkol vaḷaikkai yarivaiyaroṭum <unclear>A</unclear>ṭiyuṅ kaiyum paṅkeruka maṉṉa pallavaṉ kāṭava
+                    <lb n="4" break="no"/>ṉ pārmuḻutā ḷeṅkoṉṉu<unclear>m</unclear> tan toḷiliṭa maṉṉarem maṉṉare <g type="ddanda">.</g><g type="dashLong">.</g> <supplied reason="omitted">1</supplied> porutikki luñ ceṉṟu por
+                    <lb n="5" break="no"/>veṉṟa pallavaṉ kāṭavarkoṉ karutip <unclear>p</unclear>orc ceṉṟu cevūriṉiṟ tirukkaṇ civakkap parutikku melu muyar piṇakkuṉ
+                    <lb n="6" break="no"/>ṟiṟ parantiḻinta kurutip puṉaltoṇṭai naṉṉāṭṭaṅkaluṅ koṇṭatuve <g type="ddanda">.</g><g type="dashLong">.</g> <supplied reason="omitted">2</supplied> kūrāḻi yentiya pallavaṟkuk
+                    <lb n="7"/>kūṭal maṉṉavaṟkup pārāḻi cūḻnticaiparikku<unclear>p</unclear> panti paṇṭaṭaitta nirāḻi veḻaṅkaṇīrāṭu māmaṭuniṉṟa
+                    <lb n="8"/>k<unclear>oṟṟap</unclear> perāḻi veṟpivaṉ ceṅkol naṭakkum peruvaḻiye <g type="ddanda">.</g><g type="dashLong">.</g> <supplied reason="omitted">3</supplied> toḻu<unclear>ti</unclear>yalā maṉṉar
+                    <lb n="9"/>toṇṭait tirunāṭu koṇṭavarur kaḻutiyalakkaṇṭa kāṭavaṉ pallavaṉ kāciṉi
+                    <lb n="10" break="no"/>meṟ paḻutiyalāt taṉicceṅkol naṭāttip parā<hi rend="grantha">kra</hi>mañ ceṉṟeḻutiya tūṇa
+                    <lb n="11" break="no"/>ṅka ḷeṇṭicai cūḻnta veḻakiriye <g type="ddanda">.</g><g type="dash">.</g> <supplied reason="omitted">4</supplied> kaimmalai veḷḷak kaṭaṟpaṭaip pallava
+                    <lb n="12" break="no"/>ṉ kāṭavar tañcemmalai vantu paṇiyā vaṭamaṉṉar ceṉaiviṭṭut tammalai viṭṭup puṟama
+                    <lb n="13" break="no"/>lai velittalattuḷañcā temmalaiyeccurattup pukuvār pukkiruppataṟke <g type="ddanda">.</g><g type="dashLong">.</g> <supplied reason="omitted">5</supplied> vaṇṭaṟ puṉaṟ
+                    <lb n="14"/>peṇṇaināṭuṭaiyāṉ vaṭaveṅkaṭaveṟpa<unclear>ṉ</unclear> toṇṭaittirunāṭu toḷvaliyāṟ koṇ
+                    <lb n="15" break="no"/>ṭa toṇṭai maṉṉaṉ kaṇṭaṟa kaṭaṟkaccip pallavaṉ kāṭa<add place="below"><unclear>va</unclear></add><note n="62-2">The letter <foreign>va</foreign> is engraved below the line.</note>ṉ kāriruḷiṟ paṇṭappiramavark kaṉpilā<supplied reason="omitted">p</supplied> po
+                    <lb n="16" break="no"/><choice><orig><unclear>ṉ</unclear></orig><reg>ṟ</reg></choice>patāmpuyaṉe <g type="ddanda">.</g><g type="dashLong">.</g> <supplied reason="omitted">6</supplied> Ik kalveṭ ṭaḻippāṉ taṉ vaṅ<hi rend="grantha">śa</hi>ttut taṉ pitāvukkup piṟavātāṉ <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.125 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">62</citedRange>
+                        <citedRange unit="item">125</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

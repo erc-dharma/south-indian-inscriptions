@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.123: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 123. (A.R. No. 94 of 1934-35). VṚIDDHĀCHALAM, VRIDDHACHALAM TALUK, SOUTH ARCOT DISTRICT. ON THE WEST WALL OF THE MAṆḌAPA IN FRONT OF THE CENTRAL SHRINE IN THE VṚIDDHAGIRĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0123</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This is dated in the <hi rend="bold">8th year of Sakalabhuvanachakravartin Kōpperuñjiṅgadēva</hi> and records a gift of 128 cows by <hi rend="bold">Śeṅganivā[yaṉ] Śōḻakōn</hi> of <hi rend="bold">Araśūr</hi> and a <hi rend="italic">mudali</hi> of <hi rend="bold">Āḷappiṟa[ndān] Āḻagiyaśīyaṉ Kōpperuñjiṅga,</hi> for burning 4 perpetual lamps before the god at Tirumudukuṉṟam in Paruvūr-kūṟṟam, a subdivision of Mēṟkā-nāḍu Iruṅgōḷappāḍi-nāḍu in Vaḍagarai Virudarājabhayaṅkara-vaḷanāḍu.</p>						
+                            
+                            <p>The date of the record, according to the astronomical details given, was either A.D. 1240, Jan. 11, Wednesday, or A.D. 1251, January 11, Wednesday. In both cases the nakshtra was Makhā, not Punarpūśam as quoted in the inscription. Since the donor is stated to have been a <hi rend="italic">mudali</hi> of <hi rend="bold">Aḻagiyaśīyaṉ</hi> Kōpperuñjiṅga, the date of the inscription was probably A.D. 1240.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>           
+            <change who="part:emfr" when="2025-04-11" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">ḷa svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">sakalabhu</hi>vaṉa<hi rend="grantha">ccakra</hi>va<hi rend="grantha">tti</hi>kaḷ <hi rend="grantha">śrī</hi>kopperuñciṅkatevaṟku yāṇṭu 8- vatu
+                    <lb n="2"/>makaranāyaṟṟu Aparapa<hi rend="grantha">kṣa</hi>ttu <hi rend="grantha">dvi</hi>tiyaiyum putaṉkiḻamaiyum peṟṟa puṇarpūca
+                    <lb n="3" break="no"/>ttunāḷ vaṭakarai virutarā<hi rend="grantha">jabha</hi> yaṅkaravaḷanāṭṭu meṟkānāṭṭu Iruṅko 
+                    <lb n="4" break="no"/>ḷappāṭināṭṭup paruvūṟkūṟṟattu Uṭaiyār tirumutukunṟamuṭaiyanāya
+                    <lb n="5" break="no"/>ṉāṟku Āḷappiṟa <gap reason="lost" quantity="4" unit="character"/> Aḻakiyaciyaṉ kopperuñciṅkan mutalikaḷil Aracūruṭai
+                    <lb n="6" break="no"/>yāṉ ceṅkanivā <gap reason="lost" quantity="2" unit="character"/><note n="61-1">Inscribed slab containing this portion is missing.</note> coḻakon vaitta tirununtāviḷakku nālukku viṭṭa pa
+                    <lb n="7" break="no"/>cu <num value="128"><g type="numeral">100</g> 2 <g type="numeral">10</g> 8</num> Ippacu <gap reason="lost" quantity="2" unit="character"/><note n="61-1">Inscribed slab containing this portion is missing.</note> ṟu Irupatteṭṭum kaikkoṇṭa kaṇṇikkon Ammaiyā
+                    <lb n="8" break="no"/>ḻvānāṉa Iraṇ<unclear>ṭa</unclear> <gap reason="lost" quantity="3" unit="character"/> <note n="61-1">Inscribed slab containing this portion is missing.</note> kkon kaikkoṇṭa pacu muppattiraṇṭum kuṉṟan
+                    <lb n="9"/>viḷakka<unclear>n</unclear> kaikko <gap reason="lost" quantity="2" unit="character"/> <note n="61-1">Inscribed slab containing this portion is missing.</note> pacu muppattiraṇṭum Uṭaiyān maiñcan kaikkoṇṭa pa
+                    <lb n="10" break="no"/>cu muppattiraṇṭum <unclear>ma</unclear>llan Āḷappiṟanti kaikkoṇṭa pacu muppattiraṇṭum Ākap pacu <num value="128"><g type="numeral">100</g> 2 <g type="numeral">10</g> 8</num>
+                    <lb n="11"/>Ippacu nūṟṟuirupatteṭṭum kaikkoṇṭu nāḷ Oṉṟukkut tirununtāviḷakku Oṉṟuk
+                    <lb n="12" break="no"/>kut tevāciriyanāl Aḷakkum ney Uḻakkākat tirununtāviḷakku nālukku Aḷakkum ney nā
+                    <lb n="13" break="no"/>ḻi Inney nāḻiyum cantirātittavarai Aḷakkakkaṭavom Itu paṉmā<hi rend="grantha">heśvara rakṣai U</hi>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="5">
+                        <lem>Āḷappiṟa <gap reason="lost" quantity="4" unit="character"/></lem>
+                        <note>Inscribed slab containing this portion is missing.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.123 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">60-61</citedRange>
+                        <citedRange unit="item">123</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
