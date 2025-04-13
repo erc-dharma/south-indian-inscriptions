@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.136: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 136. (A.R. No. 53 of 1930-31). TIRUKKŌḌIKĀVAL, KUMBAKONAM TALUK, TANJORE DISTRICT. ON THE EAST WALL OF THE FIRST PRĀKĀRA (OUTSIDE) OF THE TIRUKKŌḌĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0136</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription, dated in the <hi rend="bold">3rd year,</hi> registers a gift of 1(1/2) <hi rend="italic">mā</hi> of land as <hi rend="italic">tirunāmattukkāṇi</hi> to the god at Tirukkōḍikā in Nallāṟṟūr-nāḍu, a subdivision of Virudarājabhayaṅkara-vaḷanāḍu by Pākkamuḍaiyāṉ Pañchaṉ Uḍaiyapiḷḷai of Iḷamaṅgalam in Jayaṅgoṇḍaśōḻa-maṇḍalam <hi rend="italic">alias</hi> Śiṅgapura-nāḍu, after purchasing it from Kautsaṉ Tribhuvanasundaraṉ Dekkaṇāmūtti-Bhaṭṭaṉ who had the <hi rend="italic">Śaivāchārya</hi>-right in the temple and his younger brother Kaṟpagar <hi rend="italic">alias</hi> Tribhuvanasundara-Bhaṭṭaṉ.</p>						
+                            
+                            <p>The details of date given in the inscription correspond to A.D. 1244, May 17, Tuesday, which, however, did not fall in the 3rd year of the chief. The details are also regular for A.D. 1234, May 9, Tuesday which would fall in the reign of the elder chief.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-13" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>            
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> cakalapuvaṉa<supplied reason="omitted">c</supplied>cakkaravattikaḷ <hi rend="grantha">śrī</hi>kopperuñciṅkatevarkku yāṇṭu 3<g type="dash"/>ṟāvatu I<hi rend="grantha">ṣabha</hi>nāyaṟṟu pū<hi rend="grantha">rva</hi>pa<hi rend="grantha">kṣa</hi>ttu <hi rend="grantha">daśami</hi>miyum cevvāykkiḻamaiyum peṟṟa Attattunāḷ virutarācapayaṅkaravaḷanāṭṭu
+                    <lb n="2"/>nallāṟṟūrnāṭṭu Uṭaiyār tirukkoṭikāvuṭaiyār koyilil Āticaṇṭe<hi rend="grantha">śva</hi>ratevar kaṉmikaḷukku <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻamaṇṭalamāṉa ciṅkapuranāṭṭu Iḷamaṅkalattuk kāṇiyuṭaiya pāk
+                    <lb n="3" break="no"/>kamuṭaiyāṉ pañcaṉ Uṭaiyapiḷḷaiyeṉ Iṉṉāyaṉārkku tirunāmattukkāṇiyāka nirvārttuk kuṭutta nilattukku piramāṇaicaivutiṭṭuk kuṭutta paricāvatu <supplied reason="undefined"><g type="danda">.</g></supplied> Iṉṉāyaṉār tevatāṉam tirukkoṭi<supplied reason="omitted">k</supplied>kā
+                    <lb n="4" break="no"/>k kiḻaittiruvīti vālnīḷattu Ikkoyil caivācāriyam <hi rend="grantha">kauTsa</hi>ṉ tiripuvaṉacuntaraṉ tekkaṇāmuttipaṭṭaṉum Ivaṉtampi kaṟpakarāṉa tiripuvaṉacuntarapaṭṭaṉum pakkal vilai koṇṭuṭaiyeṉāy Eṉ
+                    <lb n="5" break="no"/>ṉutāyirunta nilamāy Iṉṉāyaṉārkku tirunāmattukkāṇiyākak kuṭut<supplied reason="omitted">ta</supplied> nilattukkuk kiḻpāṟ kellai tiṉacintāmaṇipurattu viyāpārikaḷ nilattukku meṟkkum teṉpāṟkellai Ālā
+                    <lb n="6" break="no"/>lalacuntaraṉ tirunantavaṉattukku vaṭakkum melpāṟkellai tiruvīti vālnīḷattukkuk kiḻakkum vaṭa pāṟkellai Āṉāṅkūruṭaiyāṉ kollai nilattukkuk teṟkku<supplied reason="omitted">m</supplied> Iṉṉāṉkellaiyuḷ naṭuvu 
+                    <lb n="7" break="no"/>paṭṭa mikutikkuṟai vuṭpaṭa <g type="nilam"/> <seg rend="check">�</seg> Iṉilam Orumāvaraiyum tirunāmattukkāṇiyāka nīrvārttuk kuṭutteṉ Aticaṇṭe<hi rend="grantha">śva</hi>ratevakaṉmikaḷukku pākkamuṭaiyāṉ pañcaṉ Uṭaiya piḷḷaiyeṉ Iṉṉi
+                    <lb n="8" break="no"/>lattu melnokkiṉa maramum kiḻṉokkiṉa kiṇaṟum potuvum potāriyum Epperpaṭṭa Uri maika ḷakappa<surplus>t</surplus>ṭa tiruṉāmattukkāṇi<unclear>yākak</unclear> kuṭutteṉ <supplied reason="undefined"><g type="danda">.</g></supplied> Iṉṉilattukku Ikkoyil tāṉattār veṇṭiṉapote
+                    <lb n="9"/>piramāṇam paṇṇikkuṭukka kaṭaveṉākavum kuṭuttileṉākil Ippiramāṇaicaivutiṭṭe piramāṇa māvatākavum Ippaṭi cammatittu piramāṇaicaivutiṭṭuk kuṭutteṉ Uṭaiyār tirukkoṭi kāvuṭaiyārkoyil Āti
+                    <lb n="10" break="no"/>caṇṭe<hi rend="grantha">śva</hi>ratevakaṉmikaḷukku pākkamuṭaiyāṉ pañcaṉ Uṭaiyapiḷḷaiyeṉ <supplied reason="undefined"><g type="danda">.</g></supplied> Itu pākkamuṭaiyāṉ pañcaṉ Uṭaiyapiḷḷai <hi rend="grantha">sajñai</hi>yāṉamaikku Ivar marumakaṉ kuḻalūruṭaiyāṉ Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭi Aṟiveṉ ṉittavinota
+                    <lb n="11" break="no"/>vaḷanāṭṭu Āvūrkūṟṟattu neṭuvāyiluṭaiyāṉ civalokaṉ Āḷavaṉtāṉen <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dash">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.136 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">69-70</citedRange>
+                        <citedRange unit="item">136</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
