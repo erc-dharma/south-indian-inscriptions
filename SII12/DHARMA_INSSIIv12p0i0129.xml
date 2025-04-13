@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.129: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 129. (A.R. No. 229 of 1925). ĀKKŪR, MAYAVARAM TALUK, TANJORE DISTRICT. ON THE EAST SIDE OF THE BASE OF THE MAṆḌAPA IN FRONT OF THE TĀNTŌ ṞĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0129</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription states that Kōpperuñjiṅgadēva who is called <hi rend="bold">Aḻagiya-Pallavar</hi> <hi rend="italic">alias</hi> <hi rend="bold">Vīrapratāpar,</hi> after imprisoning the Hoysaḷas and levying tribute from the Pāṇḍyas, proceeded to the Chōḷa country along the southern bank of the Kāvērī. Proceeding due east, he worshipped at all the sacred shrines, repaired temples and remitted all the taxes on temple lands. While camping during this march at a village, probably Ākkūr itself, in Jayaṅgoṇḍaśōḻa-vaḷanāḍu, he found that the tenants had ‘migrated as far as the Ganges’ leaving the lands waste. Sympathising with their position, he remitted the arrears of taxes due from them, restored their original holdings and invited the emigrants to settle on their original lands.</p>						
+                            
+                            <p>The present inscription is probably connected with No. 124 above. Since the defeat of the Hoysaḷas is also referred to here, this record may be assigned to Kōpperuñjiṅga 1. The defeat of the Pāṇḍyas claimed in this record could not have taken place after the accession of the powerful Pāṇḍya sovereign Jaṭāvarman Sundara-Pāṇḍya I in A.D. 1251.</p>						
+                            
+                            <p>It may be pointed out here that Kōpperuñjiṅga's fortifications built on the north bank of the river Kāvērī against his enemies the Hoysaḷas are referred to in a record from Tiruveṇkāḍu.<note><hi rend="italic">A.R.</hi> No. 514 of 1918.</note></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-13" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>            
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">sa<unclear>ka</unclear>labhu</hi>vaṉa<hi rend="grantha">cakra</hi>vattikaḷ <hi rend="grantha">śrī</hi> kopperuñciṅkatevar <surplus>kkula</surplus>
+                    <lb n="2"/><unclear>A</unclear>ḻakiyapallavar<unclear>ā</unclear>ṉa vira<hi rend="grantha">pra</hi>tāpar p<unclear>o</unclear>caḷarkaḷaiyum <unclear>ci</unclear>ṟaikoṇṭaruḷip pāṇṭi
+                    <lb n="3" break="no"/>ya<unclear>r</unclear>kaḷait tiṟaikoṇṭa<unclear>ruḷi</unclear> miṇṭu <unclear>E</unclear>ḻuntaruḷic coḻamaṇṭalam pātta<unclear>ruḷi</unclear>k kāveriĀṟ
+                    <lb n="4" break="no"/>ṟukkut teṉkarai<unclear>ye</unclear> kiḻakkunokki <unclear>Eḻu</unclear>ntaru<unclear>ḷi</unclear> tiruppati<unclear>ka</unclear><surplus>ḷ</surplus>ḷellām ku<unclear>m</unclear>piṭṭaruḷi teva
+                    <lb n="5" break="no"/>tāṉaṅkaḷum tiruviṭaiyāṭṭaṅkaḷum Iṟaiyili viṭṭaruḷit tiruppa<unclear>ṇi</unclear>kaḷ Ellām
+                    <lb n="6"/>c<unclear>eyvi</unclear>ttaruḷi <hi rend="grantha">ja</hi>yaṅ<unclear>koṇṭa</unclear>co<unclear>ḻavaḷaṉāṭṭu</unclear> <hi rend="grantha">brahmade</hi> <gap reason="lost" quantity="9" unit="character"/> le Eḻun taruḷi<unclear>p pu</unclear>
+                    <lb n="7" break="no"/>kun<unclear>ta</unclear>ruḷi Immaṇṭala<unclear>m</unclear> paṟṟaṭaitta Ivarkaḷ nāṭu ceytapa<unclear>ṭi</unclear> <gap reason="lost" quantity="2" unit="character"/> pāllā<seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ai</seg> <gap reason="lost" quantity="3" unit="character"/> <unclear>l</unclear>e Aḻintu kiṭanta paṭiyai<unclear>y</unclear>
+                    <lb n="8" break="no"/>kkaṇṭaruḷi Immaṇṭalattukku neṭuṅkoṭi kācu cikai <unclear>Iḻan</unclear>taruḷi Ināṭṭu<unclear>kku</unclear> Irupattu nālukoṭi kācu
+                    <lb n="9"/>cikai Iḻantaruḷi neṭuṅkālaṅ kiṭanta <unclear>ku</unclear>ṟaikaḷai veṭṭivi<unclear>ṭ</unclear>ṭaruḷik kāru<hi rend="grantha"><unclear>ṇya</unclear></hi> m paṇṇi Aruḷi tecā<unclear>n</unclear>tiraṅ
+                    <lb n="10" break="no"/>kaḷiṟ<unclear>p</unclear>oṉa Ivarkaḷ tantām Ūrkaḷu<unclear>m</unclear> kāṇikaḷum maṉaika<unclear>ḷu</unclear>m peṟukave<unclear>ṉṟu</unclear> tiru vuḷḷamāṉapa<unclear>ṭi</unclear>yā
+                    <lb n="11" break="no"/>le k<unclear>e</unclear>ṅkai pariyantamākap poṉa <hi rend="grantha">ja</hi>ṉaṅkaḷ nerākap pukuntu tantām Ūrkaḷum kāṇikaḷu
+                    <lb n="12" break="no"/>m peṟṟu Oru kuṟaikaḷ Aṟa Irukkumpaṭi ceytaruḷiṉār Aḻakiyapallavarā<unclear>ṉa</unclear> vira<hi rend="grantha">pra</hi>tāpar <supplied reason="undefined"><g type="danda">.</g></supplied> Ip
+                    <lb n="13" break="no"/>paṭiy<unclear>e</unclear> <hi rend="grantha">rakṣi</hi>ttaruḷa veṇum <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.129 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">64-65</citedRange>
+                        <citedRange unit="item">129</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
