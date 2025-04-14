@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.255: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 255. (A.R. No. 388 of 1921). TIRUVADI, CUDDALORE TALUK, SOUTH ARCOT DISTRICT. ON THE SOUTH WALL OF THE FIRST PRĀKĀRA IN THE TIRUVĪRAṬṬĀNĒŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0255</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>Only a portion of this inscription is preserved. The date of the epigraph is also lost. It records the provision made by <hi rend="bold">Śūraiṉāyakaṉ Pugalāḻvāṉ</hi> for burning a perpetual lamp in the temple of Tiruvīraṭṭānamuḍaiya-Nāyaṉār at . . . . . [pu]ram in Tirumuṉaippāḍi, situated in Rājādhirāja-vaḷanāḍu.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> cakalapuvaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>koppe <gap reason="lost" quantity="9" unit="character"/>
+                    <lb n="2"/>vatu Irā<hi rend="grantha">jā</hi>tirācavaḷanāṭṭut tirumuṉaippāṭi <gap reason="lost" quantity="9" unit="character"/>
+                    <lb n="3"/>rattu Uṭaiyār tiruviraṭṭāṉamuṭaiya ṉāyaṉāṟku I <gap reason="lost" quantity="9" unit="character"/>
+                    <lb n="4"/>cūraiṉāyakaṉ pukalāḻvā<unclear>ṉ</unclear>ṉeṉ <supplied reason="undefined"><g type="danda">.</g></supplied> Iṉṉāyaṉāṟku ti <gap reason="lost" quantity="9" unit="character"/>
+                    <lb n="5"/>ṭaic cittirai mātam piṟanta <num value="18"><g type="numeral">10</g> 8</num><g type="dash"/>Ān ti<add place="below"><unclear>yati</unclear></add> mutal ṉāṉ viṭ <gap reason="lost" quantity="8" unit="character"/>               
+                    <lb n="6"/>pam 1<g type="dash"/>m kaikkoṇṭu tirununtāviḷakkukku Atikaiṉā <gap reason="lost" quantity="9" unit="character"/>
+                    <lb n="7"/>ney tirumaṭaippaḷḷippaṇṭārattu cantirātittava<seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ai</seg> <gap reason="lost" quantity="9" unit="character"/>
+                    <lb n="8"/>ṉ Iṉṉāyaṉār maṉṟāṭikkuṭimakkaḷil vaṭavāyilāṉ ko <gap reason="lost" quantity="9" unit="character"/>
+                    <lb n="9"/>māhe<hi rend="grantha">śvara rakṣai</hi> <seg rend="check"><g type="pc">.</g></seg>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="5">
+                        <lem>ti<add place="below"><unclear>yati</unclear></add></lem>
+                        <note>The letters <foreign>yati</foreign> in <foreign>tiyati</foreign> are engraved below the line.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="commentary">
+                <p>The inscribed stone containing the ends of lines is lost.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.255 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">160-161</citedRange>
+                        <citedRange unit="item">255</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
