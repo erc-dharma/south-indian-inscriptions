@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 12.258: original edition by V. Venkatasubba Ayyar</title>
+				<title type="alt">No. 258. (A.R. No. 503 of 1926). ŌMĀMPULIYŪR, CHIDAMBARAM TALUK, SOUTH ARCOT DISTRICT. ON THE WEST AND SOUTH WALLS OF THE CENTRAL SHRINE IN THE PRAṆAVA-VYĀGHRAPURĪŚVARA TEMPLE.</title>
+			    <respStmt>
+			        <resp>author of digital edition</resp>
+			        <persName ref="part:emfr">
+			            <forename>Emmanuel</forename>
+			            <surname>Francis</surname>
+			        </persName>
+			    </respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv12p0i0258</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The date of this damaged inscription is lost. It gives an instance of how the temple came to the rescue of persons placed in financial difficulties. The record states that certain Brahmans of Ulagaḷandaśōḻa-chaturvēdimaṅgalam, a <hi rend="italic">brahmadēya</hi> in Mēṟkā-nāḍu, a subdivision of Virudarājabhayaṅkara-vaḷanāḍu ‘on the northern bank’, had stood surety for some tenants who went away without paying the dues on their lands. The duty of paying the arrears of dues devolved upon these persons, who when pressed for payment tried in vain to transfer the lands to others. Finally they requested the trustees of the temple, evidently at Ōmāmpuliyūr, to advance them money by taking at least a portion of the land as <hi rend="italic">tirunāmattukkāṇi.</hi> The trustees thereupon sold some ornaments in the treasury which were perhaps not in use, and with the proceeds, assisted the Brahmans by buying the land for the temple.</p>						
+
+						<p>In this inscription Ōmāmpuliyūr is called Ulagaḷandaśōḻa-chaturvēdimaṅgalam. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	    <revisionDesc>
+	        <change who="part:emfr" when="2025-04-14" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+	        <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha"><unclear>svasti</unclear> śrī <g type="pc"/> sakalabhu</hi> vaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>kopperuñciṅkatevaṟku yāṇṭu<gap reason="lost" quantity="4" unit="character"/> A<hi rend="grantha">pa</hi> rapa<hi rend="grantha">kṣa</hi>ttu pañcamiyum<gap reason="lost" quantity="5" unit="character"/> tināḷ vaṭakarai virutarā<hi rend="grantha">jabha</hi> <supplied reason="omitted">ya</supplied>ṅka<supplied reason="omitted">ra</supplied>vaḷanāṭ
+<lb n="2" break="no"/>ṭu meṟkānāṭṭu <hi rend="grantha">brahmade</hi> yam <hi rend="grantha">śrī</hi>ulakaḷantacoḻacca[ tu <hi rend="grantha">rve</hi>] timaṅkalattu kauṇi<unclear>ya</unclear><gap reason="lost" quantity="4" unit="character"/> kau<unclear>cika</unclear>ṉ pac<supplied reason="omitted">c</supplied>aivāraṇanam<unclear>pi</unclear><gap reason="lost" quantity="5" unit="character"/> kā<hi rend="grantha">śya</hi> paṉ til<gap reason="lost" quantity="3" unit="character"/> nampiyum kā
+<lb n="3" break="no"/><hi rend="grantha">śya</hi> paṉ tevakaṉāyakaṉ Akilanāyakapaṭṭanum Ivaṉaivom puṇai<unclear>vilai</unclear><hi rend="grantha">pra</hi> māṇa Icaivutiṭṭu <supplied reason="undefined"><g type="danda">.</g></supplied> Ivvūr<gap reason="lost" quantity="2" unit="character"/> yuṭaiyār koyil Āticaṇṭecu<unclear>ra</unclear><gap reason="lost" quantity="5" unit="character"/> vilai yāka vi<gap reason="lost" quantity="3" unit="character"/> nilamāvatu <unclear>ciṟu</unclear>
+<lb n="4" break="no"/><gap reason="lost" quantity="5" unit="character"/> ṭaiyāṉ coḻa<hi rend="grantha">brahmā</hi> rāya<gap reason="lost" quantity="2" unit="character"/> <unclear>kuṭa</unclear>ntai <unclear>Ā</unclear>ḷavantāṉ <gap reason="lost" quantity="3" unit="character"/> <unclear>ri</unclear>l payir Eḻuti Ivar Anu<gap reason="lost" quantity="3" unit="character"/> kaṭamai Iṟuttu ponta nilattukku Eṅkaḷai puṇaipaṭutta kaṭamai nerāka Iṟāte pokaiyil Ipperāl <unclear>ci</unclear>kaikku
+<lb n="5"/><gap reason="lost" quantity="5" unit="character"/> ṅkaḷaiyum patinmuṉṟāvatu puṇaippaṭa Akilanāyakapaṭṭaṉai<gap reason="lost" quantity="5" unit="character"/> <unclear>p</unclear>erāl cikaikku <unclear>veṟu</unclear> piṟi<gap reason="lost" quantity="5" unit="character"/> ṅkaḷai vita<unclear>mu</unclear>m paṇ<unclear>ṇi</unclear> kācu taraveṇumeṉṟu collukaiyil nāṅkaḷum pala Iṭaṅkaḷilum koḷvārai
+<lb n="6"/>Ārā<unclear>nta</unclear>ṭuttu puṇaivilaikoḷvārai Oruttaraiyum kāṇām<unclear>aiyāle</unclear> Innāya<unclear>ṉār koyi</unclear>lil tā<unclear>ṉattār</unclear> pakkale vantu tarakka<gap reason="lost" quantity="2" unit="character"/> ṅkaḷai miṟukkappaṇṇā niṉṟārkaḷeṉṟum Ip peril nilattile ciṟutu nilam tirunāmattu
+<lb n="7" break="no"/>kkāṇiyākak koṇṭu kācu taraveṇumeṉṟum nāṅkaḷ veṇṭikkoṇṭamaiyil <unclear>tāṉa</unclear>ttā rum <hi rend="grantha">śrī</hi>pa<unclear>ṇṭāra</unclear>ttu Uṭam<unclear>ai</unclear>yiruppatil <unclear>Innā</unclear>yaṉār cātti yeḻuntaruḷiyirukkiṟa tiruvāpara ṇam ciṟutu Uṇṭu Ittai viṟṟeyākilum nāyaṉāṟku tirunā
+<lb n="8" break="no"/>mattukkāṇiyāka ciṟutu nilaṅ koḷḷaveṇumeṉṟum Uṇṭu Uṅkaḷukku miṟukkāyirukku<gap reason="lost" quantity="2" unit="character"/> l Ittiruvāparaṇattai viṟṟeyākilum Innilaṅ koḷḷukiṟomeṉṟu Ivarkaḷ collu kaiyil
+<lb n="9"/><unclear>Ivar</unclear>kaḷukku puṇaivilaiyā<unclear>ka viṟ</unclear>ṟuk kuṭutta nilamāva<unclear>tu I</unclear>vvūr pavittiramāṇikkavatikkuk kiḻakku ceṉṉātaṉ vāykkālukku vaṭakku mutaṟka<unclear>ṇṇu</unclear>ṟṟu mutaṟ<unclear>catirat</unclear>tu maṉaiyum paṭṭap pāḻum<gap reason="lost" quantity="3" unit="character"/>
+<lb n="10"/><gap reason="lost" quantity="3" unit="character"/> kāṇiyaraikkāṇik kiḻaraiye Orumāvarai muntirikaiyum Innilattu meṉokkina maramum kiḻṉokkiṉa kiṇaṟum Uṭpaṭa Eppeṟpaṭṭa Urimaikaḷum Akappa(ṭ)ṭa puṇaivilaiyāka viṟṟuk kuṭuttom Ā[ ticaṇṭe<hi rend="grantha">śva</hi> ra�]
+<lb n="11" break="no"/><gap reason="lost" quantity="4" unit="character"/> vvaṉaivom Ippiramāṇaṅkaḷ Eḻutiṉa Ivvūr kaṇakku muvalūruṭaiyāṉ muṉṉūṟṟuvappiriyaṉ Eḻutteṉṟum Ivvūr <unclear>ka</unclear>ṇakkuc ceṟṟuṭaiyāṉ paramppiriyaṉ <unclear>kaṇa</unclear> kku Avaḷivaṉanallūruṭaiya
+<lb n="12"/><gap reason="lost" quantity="4" unit="character"/> ki<hi rend="grantha">kṛṣṇa</hi> paṭṭaṉ <unclear>ve</unclear>ḷaippaṉṟi paṭṭaṉ Eḻuttu Eṉṟum Ippaṭikku Ivai kavucikaṉ paccaivāraṇanampi Eḻuttu Eṉṟum Ippaṭikku<gap reason="lost" quantity="3" unit="character"/> <note n="163-1">Left unengraved. Ends of lines 9-13 are not fully engraved.</note>pa<gap reason="lost" quantity="6" unit="character"/> <note n="163-1">Left unengraved. Ends of lines 9-13 are not fully engraved.</note>lai<gap reason="lost" quantity="2" unit="character"/> <note n="163-1">Left unengraved. Ends of lines 9-13 are not fully engraved.</note>�yiranampi<gap reason="lost" quantity="5" unit="character"/> <note n="163-1">Left unengraved. Ends of lines 9-13 are not fully engraved.</note>
+<lb n="13"/>ḻuttu Eṉṟum Ippaṭikku Ivai kā<hi rend="grantha">śya</hi> paṉ tevarkaḷ nāyakaṉ Akilanāyakapaṭṭaṉ Eḻuttu Eṉ ṟum Aṟivukku Iṭṭa kā<hi rend="grantha">śya</hi> paṉ ci <note n="163-2">The inscription is left unfinished.</note> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 12.258 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:VenkatasubbaAyyar1943_01"/>
+			<citedRange unit="page">162-163</citedRange>
+			<citedRange unit="item">258</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
