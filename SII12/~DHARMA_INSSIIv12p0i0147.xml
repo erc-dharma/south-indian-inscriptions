@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 12.147: original edition by V. Venkatasubba Ayyar</title>
+				<title type="alt">No. 147. (A.R. No. 323 of 1921). TIRUKKŌYILŪR, TIRUKKOYILUR TALUK, SOUTH ARCOT DISTRICT. ON THE NORTH WALL OF THE SECOND PRĀKĀRA IN THE TRIVIKRAMA-PERUMĀḶ TEMPLE.</title>
+			    <respStmt>
+			        <resp>author of digital edition</resp>
+			        <persName ref="part:emfr">
+			            <forename>Emmanuel</forename>
+			            <surname>Francis</surname>
+			        </persName>
+			    </respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv12p0i0147</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>It is stated in this record of <hi rend="bold">Sakalabhuvanachakravarttin Avaniāḷappiṟandān</hi> <hi rend="italic">alias</hi> <hi rend="bold">Kōpperuñjiṅgadēva,</hi> dated in the <hi rend="bold">5th year,</hi> that the <hi rend="italic">kāṇiyāḷar</hi> of the temple of Tiruviḍaikaḻi-Emberumān at Tirukkōvalūr agreed to burn a twilight lamp in the temple in return for six cows received by them from certain shepherds residing at Mēlaip-Paṉaippākkam in Iḍaiyāṟṟu-nāḍu, a subdivision of Tirumuṉaippāḍi.</p>						
+
+						<p>For the cows received the <hi rend="italic">kāṇiyāḷar</hi> undertook to supply, by the <hi rend="italic">ulagaḷandānnāḻi,</hi> 1 <hi rend="italic">nāḻi</hi> and 1 <hi rend="italic">uri</hi> of ghee monthly to the temple.</p>						
+
+						<p>The astronomical details given in the record correspond to A.D. 1247, December 29, Sunday.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	    <revisionDesc>
+	        <change who="part:emfr" when="2025-04-15" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>	        
+	        <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>ha<hi rend="grantha">ri<unclear>ḥ</unclear> śvasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> cakalapuvanacca<supplied reason="omitted">k</supplied>karavattikaḷ <hi rend="grantha">śrī</hi> Avaniāḷappiṟaṉtānāna kopperuñci<supplied reason="omitted">ṅ</supplied> kat(o)va<supplied reason="omitted">r</supplied>kku Iyāṇṭu 5<g type="dash"/>Āvatu ma
+<lb n="2" break="no"/>karanāyaṟṟu pū<hi rend="grantha">rva</hi> pa<hi rend="grantha">kṣa</hi>ttu <hi rend="grantha">pradha</hi> maiyum nāyiṟṟu<supplied reason="omitted">k</supplied>kiḻamaiyum peṟṟa Uttirāṭattu nāḷ tiruk kovalūr tiruviṭaikaḻi Emperumānu
+<lb n="3" break="no"/>kku tirumuṉaippāṭi Iṭaiyāṟṟunāṭṭu melaippaṉaippākkattilirukkum maṉṟāṭikaḷil matakaṉ tevanum Ivaṉ<note n="75-2">The letter ṉa is engraved like ṇa in all cases in this record.</note>makkaḷ pūvaṉum cuttaṉum Amuta 
+<lb n="4" break="no"/>ṉum vaṇ<unclear>ṭa</unclear>num Iṟ<supplied reason="omitted">ṟ</supplied>aināḷ mutal vaitta caṉtiviḷakku Oṉṟukku I<supplied reason="omitted">k</supplied>koil kāṇiyāḷar kaikkoṇṭu vaiyirāvaṇakkoṉ Uḷḷiṭṭār pakkal viṭṭa pacu Āṟu
+<lb n="5"/>Ippacu Āṟum kaikkoṇṭu caṉtirātittavarai tiruviḷakku celvatākak kalveṭṭi viṭṭom kāṇiyāḷarom <supplied reason="undefined"><g type="danda">.</g></supplied> Itu <hi rend="grantha">śrī</hi>vai<hi rend="grantha">ṣṇa</hi>va<hi rend="grantha"> rakṣai <supplied reason="undefined"><g type="danda">.</g></supplied></hi> Ippacu Āṟukkum mātam Oṉṟu<supplied reason="omitted">k</supplied>ku Ulakaḷan tā<supplied reason="omitted">n</supplied> nāḻiyāl Aḷa<supplied reason="omitted">k</supplied>kum ney nāḻiuri <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 12.147 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:VenkatasubbaAyyar1943_01"/>
+			<citedRange unit="page">75-76</citedRange>
+			<citedRange unit="item">147</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
