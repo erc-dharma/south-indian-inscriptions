@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.142: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 142. (A.R. No. 51 of 1922). ON THE WEST WALL OF THE SECOND PRĀKĀRA OF THE SAME TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0142</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The title <hi rend="bold">‘Avaṉiyāḷappiṟandāṉ’</hi> is also found in the present record dated in the <hi rend="bold">4th year.</hi> It states that <hi rend="bold">Aṇiyaṉ Mūvēndaraiyaṉ</hi> from whom Kuṉṟameḍuttāṉ Vāṇādhirājaṉ had purchased lands in Kuḷattūr <hi rend="italic">alias</hi> Śōḻagaṅganallūr, Koṟṟavilli and Teṉṉavamahādēvī, for providing worship and offerings to the god Subrahmaṇya-Piḷḷaiyār set up in the temple of Aḻagiya-Nāyaṉār at Tiruvāmāttūr by Uḍaiyāṉ Vairādhirājaṉ, remitted certain taxes such as <hi rend="italic">pāḍi-kāval, kāśāyam</hi> etc., for the welfare of Kōpperuñjiṅga <hi rend="italic">(dēvar).</hi></p>						
+                            
+                            <p>Kuḷattūr and Teṉṉavamahādēvī may be identified with the villages of the same name in the Villupuram taluk. Koṟṟavilli seems to have changed its name and is not easily identifiable.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-15" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>	        
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">sakalabhu</hi>vaṉacca<hi rend="grantha">kra</hi>vattikaḷ Avaṉiyāḷappiṟantāṉ kopperuñciṅka<hi rend="grantha">de</hi>varkku
+                    <lb n="2"/>yāṇṭu 4<g type="dash"/>vatu nāḷ nūṟṟeṭṭiṉāl Aṇiyaṉ muventaraiyaṉeṉ <supplied reason="undefined"><g type="danda">.</g></supplied> tiruvāmāttūruṭaiyār
+                    <lb n="3"/>Aḻakiyanāyaṉār koyilil pātirimarutattūruṭaiyāṉ kuṉṟameṭuttāṉ vāṇā<hi rend="grantha">dhirāja</hi>ṉ Uṭaiyāṉ vairā<hi rend="grantha">dhi</hi>
+                    <lb n="4" break="no"/><hi rend="grantha">rāja</hi>ṉ Eḻuntaruḷivitta <hi rend="grantha">subrahmaṇya</hi>ppiḷḷaiyārkku nam pakkal<surplus>p</surplus> poṉṉiṭṭukkoṇṭa kuḷattūrāṉa coḻakaṅkanallūr nirni
+                    <lb n="5" break="no"/>lam patiṉantumāvum tiruna<hi rend="grantha">nda</hi>vaṉattukkuk koṟṟa<unclear>vi</unclear>lli<supplied reason="omitted">yi</supplied>l kollainilam mukkāṇiyum teṉṉava<hi rend="grantha">mahāde</hi>vi<hi rend="grantha"/> melkoṟṟil <unclear>naraciṅkaṉ tākkil</unclear>
+                    <lb n="6"/>nilam Añcumāvum Āka nilam Irupatu mā<unclear>mu</unclear>kkāṇikkum Oṉṟukāl pāṭikāval kiḻmākkalamaṟṟumuḷḷa kācāya nellāya maṉaittāyaṅkaḷum Iḻi
+                    <lb n="7" break="no"/>ttu <hi rend="grantha">de</hi>var tirumeṉikku naṉṟākap pū<hi rend="grantha">ja</hi>iyun tiruppaṭimāṟṟuñ celuttuvatāka <hi rend="grantha">Uda</hi>kam paṇṇikkuṭutteṉ <supplied reason="undefined"><g type="danda">.</g></supplied> Innilattil nāṟpālellaiyilum tiru
+                    <lb n="8" break="no"/>ccūlakkallu nāṭṭit tirumāḷikaiyile kallum veṭṭik koḷvatu <g type="ddanda">.</g><g type="pc">.</g> Ippaṭikku Ivai muventarayaṉeḻuttu <g type="ddanda">.</g><g type="pc">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+            
+            
+            
+            <div type="commentary"/>
+            
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.142 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">73</citedRange>
+                        <citedRange unit="item">142</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
