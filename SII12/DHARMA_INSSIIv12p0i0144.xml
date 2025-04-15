@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.144: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 144. (A.R. No. 97 of 1934-35). VṚIDDHĀCHALAM, VRIDDHACHALAM TALUK, SOUTH ARCOT DISTRICT. ON THE NORTH WALL OF THE KITCHEN IN THE VṚIDDHAGIRĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0144</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription, dated in the <hi rend="bold">4th year,</hi> registers a gift of 96 sheep by <hi rend="bold">Āḷappiṟandāṉ-kōṉ Śuttāḻvāṉ</hi> for burning a sacred perpetual lamp before the god at Tirumudukuṉṟam in Paruvūr-kūṟṟam, a subdivision of Mēṟkā-nāḍu Iruṅgōḷappāḍi in Virudarājabhayaṅkara-vaḷanāḍu.</p>						
+                            
+                            <p>The astronomical details given point to A.D. 1247, August 26, Monday (not Sunday) as the date of the record.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-15" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>	        
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><g type="pc"/> <hi rend="grantha">svasti śrīḥ</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">sakalabhuvanaccakravatti śrī</hi>kopperuñciṅkatevarkku yāṇṭu nālāvatu <hi rend="grantha">siṁha</hi>nāyaṟṟu Apa<unclear>ra</unclear>
+                    <lb n="2" break="no"/>pa<hi rend="grantha">kṣa</hi>ttu <hi rend="grantha">daśami</hi>yum nāyaṟṟukkiḻamaiyum puṇarpūcamum peṟṟa ṉāḷ vaṭakarai viruta<hi rend="grantha">rāja<supplied reason="omitted">bha</supplied></hi><unclear>ya</unclear>ṅkaravaḷanāṭṭu meṟkāṉāṭṭu
+                    <lb n="3"/>Iruṅkoḷappāṭip paruvūrkkūṟṟattu Uṭaiyār tirumutukuṉṟamuṭaiya nāyanāṟku Āḷappiṟaṉtāṉ koṉ
+                    <lb n="4"/>cuttāḻvāṉ vaitta tirununtāviḷakku Oṉṟukku tevāciriyaṉkālāl Aḷakkum nāḷ Oṉṟukku ney Uḻakkāka vanta
+                    <lb n="5"/><gap reason="lost" quantity="10" unit="character"/> ṭavatāka paccaikkoṉ makaṉ kuṉṟakkoṉ kaikkoṇṭa Āṭu t<unclear>oṇ</unclear>ṇū<unclear>ṟṟu</unclear>Āṟu
+                    <lb n="6"/><gap reason="lost" quantity="10" unit="character"/> t=tava<hi rend="grantha">T</hi> paṉmāhe<hi rend="grantha">heśvara rakṣai</hi> <g type="pc">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary">
+                <p>Some of the inscribed slabs are misplaced in the wall.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.144 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">74</citedRange>
+                        <citedRange unit="item">144</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
