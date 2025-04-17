@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.152: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 152. (A.R. No. 305 of 1913). ON THE SAME WALL.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0152</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The subjoined inscription, dated in the <hi rend="bold">7th year,</hi> also registers an order of <hi rend="bold">Śōḻakōṉ</hi> to engrave on the ‘Vikramaśōḻaṉ-tirumāḷigai’ the deed of a gift of land made as <hi rend="italic">tirunāmattukkāṇi</hi> by a certain Tittikka-Āḍuvāṉ, after purchase from Tiruchchiṟṟambala-Mūvēndavēḷāṉ of Kārikuḍi, for providing five offerings to the image of Dakshiṇāmūrti in addition to three already in vogue so as to correspond with the number of services offered to Mūlasthānam-Uḍaiyār, the principal deity in the temple. The donor mentioned in this record made a further gift of land 10 years later (No. 201 below) for providing offerings to the same image.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-17" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">sakalabhu</hi>vaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>Avaṉiyāḷappiṟantārāṉa kopperuñciṅkatevaṟku yāṇṭu
+                    <lb n="2"/>7<g type="dash"/>vatu coḻakoṉ Olai <supplied reason="undefined"><g type="ddanda">.</g></supplied> teṉṉavaṉ<hi rend="grantha">brahmamārā</hi>yarum <hi rend="grantha">ja</hi>yatuṅkappallavaraiyarum tillaiampa lapallavaraiyarum U
+                    <lb n="3" break="no"/>ṭaiyār tirucciṟṟampalamuṭaiyārkoyil <hi rend="grantha">śrī</hi>māhe<hi rend="grantha">śva</hi>rak kaṇkāṇi ceyvārkaḷum <hi rend="grantha">śrī</hi>kāriyañ ceyvārkaḷum <hi rend="grantha">sā</hi>mutāyañ cey
+                    <lb n="4" break="no"/>vārkaḷum koyilnāyakañ ceyvārkaḷum tirumāḷikaikkūṟu ceyvārkaḷum kaṇakkarum kaṇṭu viṭu tantatāvatu <supplied reason="undefined"><g type="danda">.</g></supplied> Uṭaiyār <hi rend="grantha">śrī</hi>mula 
+                    <lb n="5" break="no"/><hi rend="grantha">sthā</hi>na<hi rend="grantha"/>muṭaiyār Amutu ceytaruḷi varukiṟa canti Eṭṭum Ikkoyil <hi rend="grantha">dakṣi</hi>ṇāmutti<hi rend="grantha">de</hi>var Amutu ceytaruḷavum Itukku muṉpu Amutu ce
+                    <lb n="6" break="no"/>taruḷi varukiṟa <unclear>canti</unclear> munṟu nikki Eṟṟamāka Amutuceytaruḷuñ canti <unclear>Ai</unclear>ñcukkum Appam Aiñcukkum veṇṭu nivantattukku Uṭalāka kū
+                    <lb n="7" break="no"/><gap reason="lost" quantity="3" unit="character"/> Uṭaiyāṉ tittikkaĀṭuvāṉ tiru<unclear>nā</unclear>mattukkāṇiyāka kārikuṭaiyāṉ tirucciṟṟampala muventaveḷāṉ pakkal koṇṭu
+                    <lb n="8"/>viṭṭa <hi rend="grantha">rājādhirāja</hi>vaḷanāṭṭu cemaṅkala<unclear>ttu</unclear> viḷainilam Irupattumuṉṟemukkāle kāṇi<unclear>yum</unclear> Ūrnattattu Iṟaiyili maṉaika
+                    <lb n="9" break="no"/>ḷum Uḷppaṭa tirunāmattukkāṇiyāka Eḻutiṉa <hi rend="grantha">sādha</hi>naṅkaḷ tirukkaiOṭṭip paṇ<unclear>ṭārattu</unclear> Oṭukkavum <supplied reason="undefined"><g type="danda">.</g></supplied> Iṉṉilam t<unclear>evatāṉa</unclear>
+                    <lb n="10"/>Iṟaiyiliyāka tevar ti<supplied reason="omitted">ru</supplied>mukam Eḻutiṉapaṭi <unclear>yāṇṭu</unclear> Eḻāvatu mutal tevatāṉamum tiru nāmattukkāṇiyum Āka kaiykkoṇṭu pala
+                    <lb n="11" break="no"/>paṇinivantakkāṟa<unclear>ru</unclear>kku <hi rend="grantha">ji</hi>vi<seg rend="check">[</seg>tamaṭaikkavum <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭikku vikkiramacoḻaṉ tirumāḷik<unclear>aiyile kal veṭṭa kaṭavatāka pa</unclear>
+                    <lb n="12" break="no"/><unclear>ṇ</unclear>ṇuvate <supplied reason="undefined"><g type="ddanda">.</g></supplied> Ippaṭi coḻakoṉ <unclear>Eḻuttu</unclear> Eṉṟu pukunta Evaṟ<surplus>t</surplus>tiṭṭiṉpaṭi kal veṭṭiyatu <g type="ddanda">.</g><g type="pc">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.152 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">79-80</citedRange>
+                        <citedRange unit="item">152</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
