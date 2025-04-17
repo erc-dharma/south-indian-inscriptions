@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.151: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 151. (A.R. No. 304 of 1913). CHIDAMBARAM, CHIDAMBARAM TALUK, SOUTH ARCOT DISTRICT. ON THE NORTH WALL OF THE THIRD PRĀKĀRA IN THE NAṬARĀJA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0151</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription, dated in the <hi rend="bold">7th year,</hi> contains an order of the officer <hi rend="bold">Śōḻakōṉ</hi> issued to the authorities of the temple at Chidambaram, to engrave on their temple walls, the gift of a flower garden made after purchase by a <hi rend="italic">dēvaraḍiyār</hi> named Piḷḷaiyār Śiṟṟiḍai Arivai and one Iṟaṅgalmīṭṭa-piḷḷaiyār, for providing flowers for the goddess Tirukkāmakkōṭṭamuḍaiya-Periyanāchchiyār and for the maintenance of two servants looking after the garden.</p>						
+                            
+                            <p>It may be mentioned that the officers Jayatuṅga-Pallavaraiyar, Tillaiämbala-Pallavaraiyar and Teṉṉavaṉ-Brahmamārāyan<note>They also figure in the reign of Jaṭāvarman Sundara-Pāṇḍya (<hi rend="italic">A.R.</hi> Nos. 293 and 297 of 1913). It may be mentioned here that ‘Teṉṉavaṉ-Brahmārājaṉ’ was a title conferred on Māṇikkavāchakar by the Pāṇḍya king. It is also possible that the other two names are titles.</note> mentioned here also figure in No. 124 of 1888, a record of the 28th year of Māṟavarman Kulaśēkharadēva (A.D. 1296) from the same temple.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-17" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <seg rend="check"><hi rend="grantha">ḷa</hi></seg> <hi rend="grantha">sa</hi>kalapuvaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi> Avaṉiyāḷappiṟant<unclear>ā</unclear>rāṉa kopperuñciṅkatevaṟku yāṇṭu 7<g type="dash"/>vatu coḻakoṉ Olai <supplied reason="undefined"><g type="danda">.</g></supplied> teṉṉavaṉ<hi rend="grantha">brahma</hi>mārāyarum
+                    <lb n="2"/><hi rend="grantha">ja</hi>yatuṅkapallavaraiyarum tillaiAmpalapallavaraiyarum Uṭaiyār tirucciṟṟampalamuṭaiyār koyil <hi rend="grantha">śrī māheśvara</hi> kaṇkāṇi ceyvārkaḷum <hi rend="grantha">śrī</hi>kāriyañ ceyvārkaḷum 
+                    <lb n="3"/><hi rend="grantha">sā</hi>mutāyañ ceyvārkaḷum koyilnāyakañ ceyvārkaḷum tirumāḷikaikkūṟu ceyvārkaḷum kaṇakkarum kaṇṭu viṭu tantatāvatu <supplied reason="undefined"><g type="danda">.</g></supplied> koyilukku ciṟappākac cāttiAruḷa tevara
+                    <lb n="4" break="no"/>ṭiyāril piḷḷaiyār ciṟṟiṭaiArivai ceyvikkiṟa tiruna<supplied reason="omitted">n</supplied>tavaṉattukku tiruna<supplied reason="omitted">n</supplied>tavaṉa<supplied reason="omitted">t</supplied><unclear>ta</unclear>ṟai yāka perumpaṟṟappuliyūr piṭākai kaṭavācceriyil Uḻaiccāṇaṉ tirunaṭṭapperumāḷ civaṉ
+                    <lb n="5"/>pakkal kavuṇiyaṉ tirucciṟṟampalamuṭaiyāṉ viṉāyaka<supplied reason="omitted">n</supplied> peril vilaikoṇṭa Ūrppaṭi nilam Orumāvum tiruna<supplied reason="omitted">n</supplied>tavaṉañ ceyyavum tirunantavaṉam ceyyum Āḷ Oṉṟukku tiruna<supplied reason="omitted">n</supplied>ta vaṉa<supplied reason="omitted">p</supplied>puṟamāka Ivūr piṭākai caṇṭe
+                    <lb n="6" break="no"/><hi rend="grantha">śu</hi>ranallūril kulottuṅkacoḻapiramārāyaṉ <hi rend="grantha">brāhma</hi>ṇi<hi rend="grantha"/> pakkal koṇṭa civakāmacuntari viḷākam Eṉṟu peruṭaiya Ūrpaṭi nila<supplied reason="omitted">m</supplied> nālumāvum Ivūr piṭākai Iḷanāṅkūril teṉṉavaṉ <hi rend="grantha">brahmamā</hi>rāyar pakkal vilaiko<unclear>ṇṭa</unclear>
+                    <lb n="7"/>cirāviḷākam Eṉṟu peruṭaiya nilattu Ūrppaṭi nilam Oru māvum koṟṟukku Uṭalākavum tirukkāmakkoṭṭamuṭaiya periyaṉācciyārkkuc cāttiaruḷa Iṟaṅkalmiṭṭapiḷḷaiyār ceyvikkiṟa tiruna<supplied reason="omitted">n</supplied>tavaṉattukku Ivūr piṭākai naṭuvilkaraiyil
+                    <lb n="8"/>tirukkaḷiṟṟupaṭit toṇṭaṉ pakkal vilaikoṇṭa kuḻi nūṟum tiruna<supplied reason="omitted">n</supplied>tavaṉañceyavum tiruna<supplied reason="omitted">n</supplied>tavaṉañceyum Āḷ Oṉṟukku tiruna<supplied reason="omitted">n</supplied>tavaṉa<supplied reason="omitted">p</supplied>puṟamāka Ivūr piṭākai Iḷanāṅkūril teṉṉavaṉ <hi rend="grantha">brahma</hi>mārāyar pakkal vilaikoṇṭa cirāviḷākam Eṉṟu peruṭaiya nilattu
+                    <lb n="9"/>Ūrpaṭi nilam Eḻumāvum koṟṟukku Uṭalākavum Āka Āḷ Iraṇṭu Āḷ Oṉṟukku nāḷ Oṉṟukku kuṟuṇi nānāḻiyāka vanta tiruppaḷḷittāmam tiruppūmaṇṭapattu mutalāka Aḷak kavum tiruna<supplied reason="omitted">n</supplied>tavaṉattukkum tiruna<supplied reason="omitted">n</supplied>tavaṉappuṟamāka koṟṟukkum vilaikoṇṭa nilattukku
+                    <lb n="10"/>vilaikoṇṭa cātaṉaṅkaḷum nilaṅkaḷi<supplied reason="omitted">lu</supplied>m paṅku <unclear>vari</unclear> kaḻiya perumpaṟṟappuliyūr mulaparu<hi rend="grantha">ṣa</hi>iyār Eḻutiṉa niyokamum tirukkaiOṭṭi paṇṭārattu Oṭukkavum <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭikku tirumāḷikaiyil kalveṭṭa<supplied reason="omitted">k</supplied>kaṭavatāka paṇṇuvate <supplied reason="undefined"><g type="danda">.</g></supplied> Ivai coḻakoṉ Eḻutteṉṟu pukunta Evaṟ tiṭṭuppaṭi kal
+                    <lb n="11" break="no"/>veṭṭiyatu <seg rend="check"><hi rend="grantha">ḷa</hi></seg>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.151 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">78-79</citedRange>
+                        <citedRange unit="item">151</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
