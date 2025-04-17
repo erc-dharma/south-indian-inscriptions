@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.156: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 156. (A.R. No. 117 of 1904). TĪRTTANAGARI, CUDDALORE TALUK, SOUTH ARCOT DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE IN THE ŚIVĀṄKURĒŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0156</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This incomplete record, dated in the <hi rend="bold">9th year,</hi> registers a gift of 5(3/4) <hi rend="italic">vēli</hi> of land as <hi rend="italic">tirunāmattukkāṇi</hi> to the god at Tiruttiṉainagar. The order making the gift was also directed to be communicated to the officials of the temple at Perumbaṟṟappuliyūr (i.e., Chidambaram). A portion of the land endowed was situated in the hamlet of Poṉmēyndaśōḻach-chaturvēdimaṅgalam, which, as pointed out above, was called so after the surname of Kulōttuṅga-Chōḷa II.<note n="83-3">No. 149 above.</note></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-17" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> cakalapuvaṉaccakkaravarttikaḷ <hi rend="grantha">śrī</hi> kopperuñciṅ
+                    <lb n="2" break="no"/>katevaṟku yāṇṭu Oṉpatāvatu taimmāta<supplied reason="omitted">m</supplied> nāḷ Irunūṟṟo
+                    <lb n="3" break="no"/>rupattoṉpatu mutal perumpaṟṟappuliyūr vāriyaṉu<unclear>kku</unclear>ṅ kara
+                    <lb n="4" break="no"/>ṇattāṉukkuñ collumpaṭi <supplied reason="undefined"><g type="danda">.</g></supplied> taṅkaḷūril Uṭaiyār 
+                    <lb n="5"/>tiruttiṉainakaruṭaiyāṟkut tirunāmattukkāṇiyāṉa Uḷ
+                    <lb n="6" break="no"/>ḷoṭaiyil <hi rend="grantha">ja</hi>ṉanātanallūrk karuttaṭaṅkaṇṇiy<unclear>ā</unclear>r
+                    <lb n="7"/>viḷākam nilam 3 ṟā<hi rend="grantha">sa</hi><g type="dash"/>m nallāliyāṉa tirumālaiceraniṉṟā
+                    <lb n="8" break="no"/>ḷ viḷāka<supplied reason="omitted">m</supplied> nilam <hi rend="grantha">kha 4</hi><g type="dash"/>m pālaṉūrāṉa periyanācciyārviḷāka<unclear>m</unclear> ni
+                    <lb n="9" break="no"/>la<supplied reason="omitted">m</supplied> <num value="14"><g type="numeral">10</g> 4</num><g type="dash"/>m Akaram poṉmeynta coḻaccaruppetimaṅkalattup
+                    <lb n="10" break="no"/>piṭākai kolattuccivapātacekaraviḷākaṅ kamuku nilam <hi rend="grantha">kha</hi><g type="dash"/>m vi
+                    <lb n="11" break="no"/>ḷainilam <hi rend="grantha">kha</hi><g type="dash"/>māka nilam ru<hi rend="grantha">nta</hi><g type="dash"/>Innilam Añcemukkālukkum U
+                    <lb n="12" break="no"/><gap reason="lost" quantity="10" unit="character"/> koyiṟ <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg> <gap reason="lost" quantity="9 " unit="character"/> ṅkoḷ
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary">
+                <p n="12">The inscription is left incomplete and portions in the last line are also left unengraved.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.156 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">83-84</citedRange>
+                        <citedRange unit="item">156</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
