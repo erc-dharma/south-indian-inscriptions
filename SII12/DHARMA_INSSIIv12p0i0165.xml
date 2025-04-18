@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.165: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 165. (A.R. No. 123 of 1906). ON THE SAME GŌPURA.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0165</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This is also a record dated in the <hi rend="bold">11th year</hi> and it registers the agreement made by the Śivabrāhmaṇas to provide paddy for offerings to the god Tiruttāṉtōṉṟīśuramuḍaiya-Nāyaṉār at Śaṇbai on two festival days and also for feeding the <hi rend="italic">māhēśvaras</hi> with the offered food, for the interest on 60 <hi rend="italic">kalam</hi> of paddy, measured by the temple measure <hi rend="italic">‘Tōṉṟi-marakkāl’,</hi> received by them from Araśaṉ Tiruttoṇḍa-Nambi, a <hi rend="italic">dēvakaṉmi</hi> belonging to the temple of Uḍaiyār Tiruvaṇṇāmalai-uḍaiya-Nāyaṉār (i.e. the god at Tiruvaṇṇāmalai). </p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-18" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> ko<supplied reason="omitted">p</supplied>peruñciṅkatevaṟku
+                    <lb n="2"/><unclear>yā</unclear>ṇṭu <num value="11"><g type="numeral">10</g> 1</num><g type="dash"/>vatu Uṭaiyār tiruvaṇ
+                    <lb n="3" break="no"/>ṇāmalaiUṭaiya ṉāyaṉār koyil te
+                    <lb n="4" break="no"/>vakaṉmi Aracaṉ tiruttoṇṭanampikku
+                    <lb n="5"/>caṇpai tiruttāṉtoṉṟicuramuṭaiya
+                    <lb n="6" break="no"/>nāyaṉār <unclear>koyil kāṇiyu</unclear>ṭaiya civappirāmaṇa
+                    <lb n="7" break="no"/>rom <supplied reason="undefined"><g type="danda">.</g></supplied> cantirātittavarai Upaiyañcelut
+                    <lb n="8" break="no"/>tuvomāka kalveṭṭi kuṭuttapaṭi <supplied reason="undefined"><g type="danda">.</g></supplied> Ivar pa
+                    <lb n="9" break="no"/><unclear>k</unclear>kal nāṅkaḷ kaikkoṇ<unclear>ṭa</unclear> toṉṟi marak
+                    <lb n="10" break="no"/><unclear>k</unclear>ālāl nellu <add place="overstrike">Aṟu</add>patinkalattukkum Āṭṭai
+                    <lb n="11" break="no"/><unclear>kku</unclear> <gap reason="lost" quantity="3" unit="character"/> <unclear>kutta</unclear>larici policaiyāy Inṉāyanār ti
+                    <lb n="12" break="no"/>runāḷira<unclear>ṇ</unclear>ṭukkum tiruccāntu cāttiya
+                    <lb n="13" break="no"/>ruḷi tirumantirapoṉakamāka Amutu cey
+                    <lb n="14" break="no"/>vittu tiru<unclear>nā</unclear>ḷāl mākecuraṟku Eṭṭu<unclear>Ūṭ</unclear>
+                    <lb n="15" break="no"/>ṭukkum kuṭuttu <gap reason="lost" quantity="9" unit="character"/> ṟku En
+                    <lb n="16" break="no"/>ṟu Eṭuttu nāṅkaḷ viniyokam paṇṇi
+                    <lb n="17"/>I<unclear>tiru</unclear>amutukku veṇṭum veñcaṉaṅ
+                    <lb n="18" break="no"/>kaḷ pokkaṟuk<supplied reason="omitted">ka</supplied>kaṭavom civappirāma
+                    <lb n="19" break="no"/>ṇarom <supplied reason="undefined"><g type="danda">.</g></supplied> Itu panmākecu<hi rend="grantha">ra rakṣai</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="10">
+                        <lem><add place="overstrike">Aṟu</add>patinkalattukkum</lem>
+                        <note>The letters <foreign>Aṟu</foreign> in <foreign>Aṟupatin</foreign> are engraved over an erasure.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.165 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">91-92</citedRange>
+                        <citedRange unit="item">165</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
