@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 2.71: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">No. 71. ON THE EAST WALL OF THE CENTRAL SHRINE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv02p0i0071</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The beginning of the first five lines of this inscription is hidden by a flight of steps, which has been constructed in front of the shrine after the time when the inscription was engraved. The record is dated in the cyclic year <hi rend="bold">Kshaya</hi> which was current after the expiration of the <hi rend="bold">Śaka</hi> year 1368 (A.D. 1446-47), and during the reign of <hi rend="bold">Dēvar</hi>[<hi rend="bold">āya</hi> II.] (of <hi rend="bold">Vijayanagara</hi>). It describes a few gold and silver ornaments which were presented to the temple by a certain <hi rend="bold">Vallabhadēva</hi>. This person was probably a military officer of Dēvarāya, as he professes to have made the gift with the object of effecting in return the conquest of the world.</p>						
+                            
+                            <p>While, in the Chōḷa inscriptions of the Tanjore temple, the weight of ornaments is given in <hi rend="italic">kaṛañju, mañjāḍi</hi> and <hi rend="italic">kuṉṟi</hi>, the subjoined inscription employs for this purpose the <hi rend="italic">tūkkam</hi> of ten <hi rend="italic">paṇa-iḍai</hi>. From the table of weights, which is contained in Sir Walter Elliot's <hi rend="italic">Coins of Southern India</hi>, p. 47, and which is based on a Malayāḷam work entitled <hi rend="italic">Kaṇakkusāram</hi>, it appears that the <hi rend="italic">tūkkam</hi> and <hi rend="italic">paṇa-iḍai</hi> of the subjoined inscription must be identical with the <hi rend="italic">kaṛañju</hi> and <hi rend="italic">paṇattūkkam (= 2 mañjāḍi</hi>) of the metrical system. Although the <hi rend="italic">paṇa-iḍai</hi> or <hi rend="italic">paṇattūkkam</hi> (=1/10 <hi rend="italic">kaṛañju</hi>) is not mentioned in the Tanjore inscriptions of the Chōḷas, it is there presupposed by the fact that the Tamil term <hi rend="italic">mā</hi> (1/20) is used to denote ‘one tenth whenever it follows the word <hi rend="italic">mañjāḍi</hi> (= 1/2 <hi rend="italic">paṇa-iḍai</hi> or <hi rend="italic">paṇattūkkam</hi>).<note>Compare page 36, note 1, and page 66, note 1.</note></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-19" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><gap reason="lost" quantity="10" unit="character"/> <unclear>yarā</unclear>ya<unclear>vi</unclear>pāṭa<hi rend="grantha">N</hi> <hi rend="grantha"><unclear>bhāṣai</unclear></hi>kku tappu<unclear>va r</unclear>āya<hi rend="grantha">r·</hi><unclear>ka</unclear>ṇṭaṉ muvva<unclear>r</unclear>āya<hi rend="grantha">r</hi> kaṇṭa<unclear>ṉ</unclear> ka<unclear>ṇ</unclear>ṭa nāṭu ke
+                    <lb n="2" break="no"/><gap reason="lost" quantity="10" unit="character"/> <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ā</seg><unclear>ṉ</unclear> pū<hi rend="grantha">rvvadakṣi</hi>ṇapa<hi rend="grantha">ścimau</hi>tta<hi rend="grantha">raca</hi>tu<hi rend="grantha">sa</hi>mu<hi rend="grantha">drādhi</hi>pati<note n="339-4">Read <hi rend="grantha">paścimo</hi>tta<hi rend="grantha">raca</hi>tu<hi rend="grantha">ssamudrā</hi>.</note> <hi rend="grantha">gaja</hi>veṭṭai kaṇṭaruḷiya <hi rend="grantha">de</hi>var<unclear>ā</unclear>
+                    <lb n="3" break="no"/><gap reason="lost" quantity="10" unit="character"/> <hi rend="grantha"><unclear>pṛi</unclear>dhi</hi>virā<hi rend="grantha">jyam</hi> paṇṇi Aruḷāniṉṟa cakā<hi rend="grantha">bdam</hi> <num value="1368"><g type="numeral">1000</g> 3 <g type="numeral">100</g> 6 <g type="numeral">10</g> 8</num> Itaṉ mel cellāniṉṟa <hi rend="grantha">kṣa</hi>ya<hi rend="grantha">saṁvat</hi>
+                    <lb n="4" break="no"/><gap reason="lost" quantity="10" unit="character"/> Āyanapu<hi rend="grantha">ṇya</hi>kālattu pū<hi rend="grantha">rvva</hi>pa<hi rend="grantha">kṣa</hi>ttu pa<hi rend="grantha">ntu</hi>miyum <hi rend="grantha">budha</hi>vāramum peṟṟa pū<hi rend="grantha">rvva</hi>pa<hi rend="grantha">lgu</hi>nina<hi rend="grantha">kṣatra</hi>ttu tañcāvū<unclear>r</unclear>
+                    <lb n="5"/><gap reason="lost" quantity="10" unit="character"/> <hi rend="grantha"><supplied reason="omitted">g</supplied>otra</hi>ttu<note n="339-5">Read <hi rend="grantha">āśvalā</hi>ya<hi rend="grantha">na</hi>.</note> Ā<hi rend="grantha">śśi</hi>lāyana<hi rend="grantha">sūtra</hi>ttu <hi rend="grantha">śauṇḍarasar</hi> pu<hi rend="grantha">tran</hi> valla<hi rend="grantha">bhade</hi>va<hi rend="grantha">r</hi><note n="339-6">After this word is a blank space which might have contained about nine syllables.</note> <hi rend="grantha">ditvija</hi><note n="339-7">Read <hi rend="grantha">digvija</hi>.</note>
+                    <lb n="6" break="no"/>yamāka veṇum Eṉṟu koṭutta periya paṭṭam Oṉṟu Eṭṭarai māṟi po<unclear>ṉ</unclear> tūkkam Oṉṟukku paṇaiṭai pa<unclear>t</unclear>tāka tūkkam Irupatu <supplied reason="undefined"><g type="danda">.</g></supplied> paṭṭam
+                    <lb n="7"/>Oṉṟu Eṭṭu māṟi tūkkam patiṉeḻu paṇa<unclear>i</unclear>ṭai Eṭṭu <supplied reason="undefined"><g type="danda">.</g></supplied> paṭṭam Oṉṟu Eṭṭu māṟi tūkkam Āṟu paṇaiṭai Iraṇṭu <supplied reason="undefined"><g type="danda">.</g></supplied> paṭṭaikkāṟai Oṉṟu Eṭṭu
+                    <lb n="8"/>māṟi tūkkam Iraṇṭu <supplied reason="undefined"><g type="danda">.</g></supplied> cantupaṭṭaikkāṟai Iraṇṭu Eṭṭarai māṟi tūkkam mūṉṟu <supplied reason="undefined"><g type="danda">.</g></supplied> mūkkutti niṟai paṇaiṭai Iraṇṭu <supplied reason="undefined"><g type="danda">.</g></supplied> tirukkaṇmalar Iraṇṭu
+                    <lb n="9"/>Oṉpatu māṟi tūkkam Oṉṟu <supplied reason="undefined"><g type="danda">.</g></supplied> patakkam Oṉṟu Eṭṭu māṟi tūkkam nālu <supplied reason="undefined"><g type="danda">.</g></supplied> <hi rend="grantha">kṣetra</hi>pālaṉukku veḷḷi paṭṭam Oṉṟu tūkkam Oṉṟu paṇaiṭai <supplied reason="undefined"><g type="danda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <!--<app loc="0">
+                        <lem>...</lem>
+                    </app>-->
+                    
+                    <app loc="1">
+                        <lem><unclear>yarā</unclear>ya<unclear>vi</unclear>pāṭa<hi rend="grantha">N</hi></lem>
+                        <note>Read <foreign>ari<surplus>ya</surplus>rāya</foreign>, as in Vol. I, No. 81, text line 2.</note>
+                    </app>
+                    
+                    <app loc="1">
+                        <lem> kaṇṭa<unclear>ṉ</unclear> ka<unclear>ṇ</unclear>ṭa nāṭu ke
+                    <lb n="2" break="no"/><gap reason="lost" quantity="10" unit="character"/> <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ā</seg><unclear>ṉ</unclear></lem>
+                        <note>Read <foreign>kaṇṭa nāṭu koṇṭu koṇṭa nāṭu kuṭātāṉ</foreign>, as in Vol. I, No. 81, text line 5 f.</note>
+                    </app>
+                    
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:Hultzsch1895_01">
+                
+                <p>(<hi rend="italic">On the day</hi>) of the <hi rend="italic">nakshatra</hi> Pūrva-Phalgunī, which corresponded to a Wednesday and to the fifth <hi rend="italic">tithi</hi> of the first fortnight, at the auspicious time of<note>The syllables <foreign>āyana</foreign> which are preserved before <foreign>pu</foreign><hi rend="grantha">ṇya</hi><foreign>kālattu</foreign>, show that either <hi rend="italic">Uttarāyaṇa</hi> or <hi rend="italic">Dakshiṇāyana</hi> has to be supplied.</note> . . . . . . . . . . in the <hi rend="bold">Kshaya</hi> <hi rend="italic">saṁvat[sara]</hi> which was current after the <hi rend="bold">Śaka</hi> year 1368, while . . . . . . . . . . the destroyer of [hostile] kings, the disgracer<note>See <hi rend="italic">Ep. Ind</hi>., Vol. III, p. 40, note 3.</note> of those kings who break their word, the disgracer of the three kings (<hi rend="italic">of the South</hi>), he [who takes] every country which he sees, [but never gives back a country which he has taken], the lord of the four oceans, (<hi rend="italic">viz.</hi>) the eastern, southern, western and northern (<hi rend="italic">oceans</hi>), who was pleased to witness the elephant hunt,<note>This <hi rend="italic">biruda</hi> appears to imply that <hi rend="italic">khēdā</hi> operations were carried on in the time of the Vijayanagara kings.</note> <hi rend="bold">Dēvar[āya]</hi> . . . . . was graciously ruling the earth, —<hi rend="bold">Vallabhadēvar</hi>, the son of <hi rend="bold">Śauṇḍarasar</hi> of the . . . . . <hi rend="italic">gōtra (and</hi>) of the <hi rend="italic">Āśvalāyana-sūtra</hi>, gave [to the god at] <hi rend="bold">Tañjāvūr</hi> (<hi rend="italic">the following presents</hi>), with the desire to accomplish the conquest of the world (<hi rend="italic">dig-vijaya):</hi>—One large diadem (<hi rend="italic">paṭṭa), (containing</hi>) twenty <hi rend="italic">tūkkam</hi> of gold of eight and a half (<hi rend="italic">degrees</hi>) fineness,<note><hi rend="italic">Māṟi</hi> appears to be synonymous with <hi rend="italic">māṟṟu</hi>, which occurs in the inscriptions No. 3 and No. 59.</note>—at the rate of ten <hi rend="italic">paṇa-iḍai</hi> to one <hi rend="italic">tūkkam</hi>; one diadem, (<hi rend="italic">containing</hi>) seventeen <hi rend="italic">tūkkam</hi> and eight <hi rend="italic">paṇa-iḍai (of gold</hi>) of eight (<hi rend="italic">degrees</hi>) fineness; one diadem, (<hi rend="italic">containing</hi>) six <hi rend="italic">tūkkam</hi> and two <hi rend="italic">paṇa-iḍai (of gold</hi>) of eight (<hi rend="italic">degrees</hi>) fineness; one neck-ring (<hi rend="italic">paṭṭaikkāṟai), (containing</hi>) two <hi rend="italic">tūkkam (of gold</hi>) of eight (<hi rend="italic">degrees</hi>) fineness; two joined neck-rings, (<hi rend="italic">containing</hi>) three <hi rend="italic">tūkkam (of gold</hi>) of eight and a half (<hi rend="italic">degrees</hi>) fineness; (<hi rend="italic">one</hi>) nose-ornament (<hi rend="italic">mūkkutti</hi>), weighing two <hi rend="italic">paṇa-iḍai</hi>; two eyes for the idol (<hi rend="italic">tirukkaṇmalar), (containing</hi>) one <hi rend="italic">tūkkam (of gold</hi>) of nine (<hi rend="italic">degrees</hi>) fineness; one breastornament (<hi rend="italic">padakkam), (containing</hi>) four <hi rend="italic">tūkkam (of gold</hi>) of eight (<hi rend="italic">degrees</hi>) fineness. To (<hi rend="italic">the god</hi>) <hi rend="bold">Kshētrapāla</hi><note>The same deity is referred to in No. 1, paragraph 33, and No. 43, paragraph 2.</note> (<hi rend="italic">he gave</hi>) one silver diadem, (<hi rend="italic">weighing</hi>) one <hi rend="italic">tūkkam</hi> and (<hi rend="italic">one) paṇa-iḍai</hi>.</p>
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 2.71 by <bibl><ptr target="bib:Hultzsch1895_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Hultzsch1895_01"/>
+                        <citedRange unit="page">338-340</citedRange>
+                        <citedRange unit="item">71</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
