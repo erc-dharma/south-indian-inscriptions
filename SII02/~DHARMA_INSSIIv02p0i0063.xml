@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 2.63: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">No. 63. ON THE OUTSIDE OF THE NORTH ENCLOSURE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv02p0i0063</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>From the published portion of No. 63, we learn that this inscription consists of a list of shepherds who had to supply ghee for temple lamps from the milk of a number of cattle, which had been presented to the temple before the 29th year of the reign of <hi rend="bold">Rājarājadēva</hi> by the king himself and by others, or bought from the funds of the temple. To each lamp were allotted 96 ewes, <note n="249-1">In No. 6, paragraphs 18 and 21, the same number of ewes are allotted to <hi rend="italic">ten</hi> lamps.</note> or 48 cows, or 16 she-buffaloes. The daily supply for each lamp was one <hi rend="italic">uṛakku</hi> of ghee.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-20" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> ||] tiruma<unclear>ka</unclear>ḷ polapperunilaccelvi<unclear>yu</unclear>ntaṉak<unclear>k</unclear>eyurimai pūṇṭamai <note n="249-2">ī have now changed the transcription of maṉakkoḷa from maṉakkoḷa into maṉakkoḷ, because the <hi rend="italic">saṁdhi</hi> after maṉa shows the whole to be a compound substantive, while the infinitive koḷa would require the accusative maṉam before it. An inscription of the 14th year at Mēlpāḍi near Tiruvallam in the North Arcot district adds karuti after maṉakkoḷ; maṉakkoḷkkaruti means “having formed the belief.”</note>maṉakk<unclear>o</unclear>ḷkk<unclear>ā</unclear>n<unclear>taḷū</unclear>rccālai kalamaṟuttaru<unclear>ḷi</unclear> veṅkaināṭuṅkaṅkapāṭiyunuḷampapāṭiyuntaṭikaipāṭiyuṅkuṭamalaināṭuṅkollamuṅkali<unclear>ṅ</unclear>kamum Eṇṭicai pukaḻ tara Īḻamaṇṭalamum Iraṭṭapāṭi Eḻarai Ilakkamun<unclear>ti</unclear>ṇṭiṟal veṉ<unclear>ṟi</unclear>ttaṇṭāṟkoṇṭa taṉṉe<unclear>ḻi</unclear>l vaḷarūḻiyuḷellāyā<unclear>ṇ</unclear>ṭuntoḻutaka <unclear>vi</unclear>ḷaṅkum yāṇṭe ceḻiyaraitt<unclear>ecu</unclear> koḷ ko <hi rend="grantha">rā<unclear>ja</unclear>kesari</hi>va<hi rend="grantha">rmma</hi>rāṉa <hi rend="grantha"><unclear>śrī</unclear>rājarājade</hi>varkku yāṇṭu Irupat<unclear>t</unclear>oṉpatāvatu varai <unclear>Uṭ</unclear>aiyār <hi rend="grantha">śrīrājarājīśvaram</hi> Uṭaiyārkkut<unclear>ti</unclear>ru<unclear>viḷa</unclear>kku<unclear>k</unclear>ku Uṭaiy<unclear>ār</unclear> <hi rend="grantha">śrīrājarājade</hi>var kuṭutta kālmāṭ<unclear>ṭilu</unclear>ṅkuṭuttā<unclear>r ku</unclear>ṭutta <unclear>k</unclear>ā<unclear>lm</unclear>āṭ<unclear>ṭi</unclear>luṅkā<unclear>cu ku</unclear>ṭuttu mutalāṉa kāl<unclear>mā</unclear>ṭ<unclear>ṭi</unclear>lum <unclear>ti</unclear>ru<unclear>vi</unclear>ḷakkukku ney A<unclear>ḷa</unclear>kkakkaṭava<unclear>r</unclear>kaḷāka Iṭai<unclear>ya</unclear>r va<unclear>ḻi ti</unclear>ru<unclear>vi</unclear>ḷakku Oṉṟiṉukku Āṭu toṇṇūṟṟā<unclear>ṟā</unclear>kavum pacu <unclear>nā</unclear>ṟpatteṭṭākavum Erumai pa<unclear>ti</unclear>nāṟāka<unclear>vum Ivaiyiṟ</unclear>ṟu
+                    <lb n="2" break="no"/>k<unclear>ku pa</unclear>cuviṉ ka<unclear>ṉ</unclear>ṟu<unclear>m</unclear> Erutum <unclear>pa</unclear>cuccārttikkuṭutta<unclear>ṉa pa</unclear>cuvākavum Āṭṭukkuṭṭiyuṅkiṭāyum Āṭu cārttikkuṭuttaṉa Āṭā<unclear>ka</unclear>vum Erumaikkaṉ<unclear>ṟu</unclear>ṅki- ṭāvum Erumai cārttikkuṭuttaṉa Erumaiy<unclear>ā</unclear>kavum māṭaṭuttu māṭu koṇṭa Iṭaiyarum Ivarka<unclear>ḷ</unclear> Uṟavumuṟaiyāy Aṭaikuṭikaḷāṉārum Ivarkaḷ Aṭaikuṭikaḷuntiruviḷakku Oṉṟiṉukku Āṭavallānāl nicatam ney Uḻakkākattāṅkaḷuntaṅkaḷ va[ <hi rend="grantha">rgga</hi>t] tārum <hi rend="grantha">candrāditya</hi>va<hi rend="grantha">t</hi> Uṭaiyār paṇṭāratte ney Aḷa<unclear>k</unclear>kakkaṭavarka<unclear>ḷāka</unclear> kallil v<unclear>e</unclear>ṭṭiṉapaṭi <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">1</supplied></hi> Uṭaiy<unclear>ā</unclear>r <hi rend="grantha">śrīrājarājade</hi>var kuṭutta kālmāṭṭil tiruviḷakkukku Aṭuttapaṭi <hi rend="grantha"><supplied reason="omitted">2</supplied></hi> tañcāvūr<unclear>p</unclear>pu<unclear>ṟa</unclear>mpaṭi <hi rend="grantha"><unclear>gāndha</unclear>rvva</hi>t<unclear>t</unclear>eruvil Irukkum Iṭ<unclear>ai</unclear>yaṉ <unclear>cū</unclear>ṟṟi pākkaranukku Aṭutta <unclear>pacu nā</unclear>ṟpatt<unclear>e</unclear>ṭṭiṉāl tiruviḷakku Oṉṟiṉukku Ivaṉ <unclear>t</unclear>ānum Ivaṉ <unclear>A</unclear>ṭaikuṭi Ivaṉ Uṭaṉ piṟanta <unclear>cūṟṟi</unclear> nāra<unclear>ṇa</unclear>ṉum cūṟṟi <unclear>cīrā</unclear>ḷanum ciṟṟappaṉ ma<unclear>ka</unclear>ṉ c<unclear>o</unclear>lai kurava<unclear>num</unclear> vaṭa<unclear>ka</unclear>raikkuṉṟakkūṟṟamā<unclear>ṉa</unclear> Ut<unclear>tuṅka</unclear>tuṅkavaḷanāṭṭu paḻu<unclear>vūr I</unclear>rukkum Iṭ<unclear>ai</unclear>
+                    <lb n="3" break="no"/><gap reason="lost" quantity="8" unit="character"/>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="translation" source="bib:Hultzsch1895_01">
+                
+                <p>1. Hail ! Prosperity ! Until the twenty-ninth year (<hi rend="italic">of the reign</hi>) of <hi rend="bold">Kō-Rājakēsarivarman</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Śrī-Rājarājadēva</hi>, who, in his life of growing strength, during which,—(<hi rend="italic">in</hi>) the belief that, as well as the goddess of fortune, the goddess of the great earth had become his wife,—he was pleased to destroy the ships (<hi rend="italic">at</hi>) <hi rend="bold">Kāndaḷūr-Śālai</hi>, <note n="250-1">See page 241, note 1.</note> and conquered by his army, which was victorious in great battles, <hi rend="bold">Vēṅgai-nāḍu, Gaṅga-pāḍi, Nuḷamba-pāḍi, Taḍigai-pāḍi, Kuḍamalai-nāḍu, Kollam, Kaliṅgam, Īṛa-maṇḍalam</hi>, (<hi rend="italic">the conquest of which</hi>) made (<hi rend="italic">him</hi>) famous (<hi rend="italic">in</hi>) the eight directions, <note n="250-2">The composer adds this epithet to Īṛamaṇḍalam evidently because the latter is the eighth item in the list of Rājarāja's conquests.</note> and the seven and a half <hi rend="italic">lakshas</hi> of <hi rend="bold">Iraṭṭa-pāḍi</hi>,—deprived the <hi rend="bold">Śeṛiyas</hi> (<hi rend="italic">i.e.</hi>, the Pāṇḍyas) of (<hi rend="italic">their</hi>) splendour at the very moment when (<hi rend="italic">they were</hi>) resplendent (<hi rend="italic">to such a degree</hi>) that (<hi rend="italic">they were</hi>) worthy to be worshipped everywhere; <note n="250-3">The above translation of this passage slightly differs from that which I gave on former occasions. A further change would be necessary, if a various reading, which occurs in an inscription of the 20th year at Sōmūr near Karuvūr in the Coimbatore district, in an inscription of the 29th year at Mēlpāḍi near Tiru- vallam in the North Arcot district, and in three inscriptions of the 1[7]th, 24th and 29th years at Ukkal near Māmaṇḍūr in the same district, should prove correct. These five inscriptions read <ta>toḻutakai</ta> instead of <ta>toḻutaka</ta>. Accepting this, we would have to translate:—“(<hi rend="italic">who</hi>) deprived the <hi rend="bold">Śeṛiyas</hi> of (<hi rend="italic">their</hi>) splendour at the very moment when <hi rend="bold">Udagai</hi>, which is worshipped everywhere, was (<hi rend="italic">most</hi>) resplendent,” and to assume that Udagai was a city which Rājarājadēva took from the Pāṇḍyas. The storming of Udagai is actually mentioned in the <hi rend="italic">Kaliṅgattu-Paraṇi</hi>, canto viii. verse 24; and this verse probably refers to the reign of Rājarāja, because the following verse (25) mentions the invasion of Maṇṇai on the bank of the Gaṅgā, and the annexation of Kaḍāram (by his successor Rājēndra-Chōḷa).</note>—cattle had been given by the lord <hi rend="bold">Śrī-Rājarājadēva</hi> <note n="250-4">In two previously published inscriptions (No. 3, paragraphs 5 and 6, and No. 59, paragraphs 2, 3, 4, 9 and 11), the word <hi rend="italic">māḍu</hi>, ‘cattle,’ was taken in the unusual sense of ‘gold.’ The present inscription shows, however, that Rājarāja actually gave cattle to the temple. Hence the translation has probably to be changed into:—“the cattle which the king had seized,” etc.</note> for (<hi rend="italic">burning</hi>) sacred lamps before the lord of the <hi rend="bold">Śrī-Rājarājēśvara</hi> (<hi rend="italic">temple); (other</hi>) cattle had been given by (<hi rend="italic">other</hi>) donors; and (<hi rend="italic">other</hi>) cattle were represented by funds (<hi rend="italic">mudal),</hi> <note n="250-5">On two former occasions (No. 3, paragraph 1, and No. 59, paragraph 1), the expression <hi rend="italic">mudal-āṉa</hi> was translated by ‘of the first quality,’ which I now consider less probable.</note> as money (<hi rend="italic">kāśu</hi>) had been paid (<hi rend="italic">for their purchase into the temple treasury). (These</hi>) cattle were assigned to shepherds (<hi rend="italic">Iḍaiyar</hi>), who had to supply ghee for the sacred lamps (<hi rend="italic">from their milk</hi>), at the rate of ninety-six ewes, or forty-eight cows, or sixteen she-buffaloes for each sacred lamp. Besides, calves and bulls which were given along with cows, (<hi rend="italic">had to be reckoned</hi>) as cows; lambs and rams which were given along with ewes, as ewes; and buffalo calves and he-buffaloes which were given along with she-buffaloes, as she-buffaloes. The shepherds who had received the cattle, themselves and their people, (<hi rend="italic">viz.</hi>) their relations, and the relations of the latter, had to supply ghee to the treasury of the lord, as long as the moon and the sun endure, at the daily rate of (<hi rend="italic">one) uṛakku</hi> of ghee by the <hi rend="bold">Āḍavallāṉ</hi> (<hi rend="italic">measure</hi>) for each sacred lamp. (<hi rend="italic">The names of these shepherds</hi>) were engraved on stone as follows:—</p>
+                
+                <p>2. The cattle which had been given by the lord <hi rend="bold">Śrī-Rājarājadēva</hi>, were assigned to sacred lamps as follows:—</p>
+                
+                <p>3. From forty-eight cows, which were assigned to the shepherd <hi rend="bold">Śūṟṟi Pākkaraṉ</hi> (<hi rend="italic">i.e.</hi>, Bhāskara), who resides in the <hi rend="bold">[Gāndha]rva</hi> Street within the limits <note n="251-1">See page 124, note 2.</note> of <hi rend="bold">Tañjāvūr</hi>,—he himself and his relations, (<hi rend="italic">viz.</hi>) his uterine brothers <hi rend="bold">[Śūṟṟi] Nāra[ṇ]aṉ</hi> (<hi rend="italic">i.e.</hi>, Nārāyaṇa) and <hi rend="bold">Śūṟṟi [Śīrā]ḷaṉ</hi>, <note n="251-2">This person is evidently called after Śīrāḷadēvar, one of the characters of the <hi rend="italic">Periyapurāṇam</hi>; see page 172, note 2.</note> and (<hi rend="italic">his</hi>) uncle's son <hi rend="bold">[Śō]lai Kuravaṉ</hi>, <note n="251-3">This is the Tamil form of <hi rend="italic">gurava</hi>, which occurs in Sanskrit inscriptions instead of <hi rend="italic">guru</hi>; see <hi rend="italic">Ind. Ant</hi>., Vol. XIV, p. 140, note 4, and Vol. XV, p. 304; <hi rend="italic">Epigraphia Indica</hi>, Vol. II, p. 161. The word <hi rend="italic">gurava</hi> must be derived from <hi rend="italic">guravaḥ</hi>, the honorific plural of <hi rend="italic">guru</hi>, which was popularly mistaken for a singular.</note> [the shepherd]. • • • • • who resides at <hi rend="bold">Paṛu[vūr]</hi> in <hi rend="bold">Vaḍakarai-Kuṉṟa-kūṟṟam</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Ut[tuṅga]tuṅgavaḷanāḍu</hi>, • • • • • [have to supply] for one sacred lamp • • • • • </p>
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 2.63 by <bibl><ptr target="bib:Hultzsch1895_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Hultzsch1895_01"/>
+                        <citedRange unit="page">249-251</citedRange>
+                        <citedRange unit="item">63</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
