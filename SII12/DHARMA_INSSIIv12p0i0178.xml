@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.178: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 178. (A.R. No. 119 of 1906). JAMBAI, TIRUKKOYILUR TALUK, SOUTH ARCOT DISTRICT. ON THE GŌPURA (RIGHT OF ENTRANCE) OF THE JAMBUNĀTHA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0178</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>An instance of voluntary human sacrifice for the successful completion of a building is mentioned in this inscription dated in the <hi rend="bold">13th year.</hi> It registers a tax-free gift of 150 <hi rend="italic">kuḻi</hi> of land by the <hi rend="italic">tānattār</hi> of the temple, according to the order of <hi rend="bold">Gāṅgayar,</hi> to Aṇṇāmalai, the younger brother of Aṭkoṇḍāṉ, who cut off his head so that the <hi rend="italic">nitta (nṛitta)-maṇḍpa</hi> in the temple of Tiruttāntōṉṟi Āḷuḍaiya-Nāyaṉār at Śaṇbai might be completed.<note>Such instances of sacrifice are common. The Rāshṭrakūṭa king Amōghavarsha is said to have cut off and offered a finger of his left hand to the goddess Mahālakshmī in order to ward off a public calamity (<hi rend="italic">Ep. Ind.</hi> Vol. XVIII, p. 241).</note></p>						
+                            
+                            <p>Āṭkoṇḍāṉ is stated to be the younger brother of Peṟṟāḻvi, a <hi rend="italic">dēvaraḍiyāḷ</hi> (temple maid-servant) residing in the village.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-24" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> cakalapuvaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi> kopperuñciṅkatevaṟku y<choice><sic>a</sic><corr>ā</corr></choice>ṇṭu <num value="13"><g type="numeral">10</g> 3</num><g type="dash"/>caṇpaiyil Uṭaiyār
+                    <lb n="2"/>tiruttāntoṉṟi Āḷuṭaiyanāyaṉārkoyil nittamaṇṭapam camai<supplied reason="omitted">k</supplied>kiṟa Itukku Iv<unclear>vū</unclear>ṟ tevaraṭiyāḷ peṟ
+                    <lb n="3" break="no"/>ṟāḻvi tampi Āṭkoṇṭāṉ talai Arintukoṇṭa Itukku Ivūr vaṇṇakkan ceṟu <del><gap reason="illegible" unit="character" quantity="3"></gap></del><!--<note>Three letters after this appear to have been erased.</note>--> Uṭaiyār kāṅkayar
+                    <lb n="4"/>tirumukappaṭikku tānattārom Ā<supplied reason="omitted">ṭ</supplied><surplus>k</surplus>koṇṭān tampi Aṇṇāmalaikku viṭṭa kuḻi nū<supplied reason="omitted">ṟ</supplied> ṟaimpatum pati<unclear>ṉālā</unclear>vatu
+                    <lb n="5"/>mutal cantirātittavarai Iṟaiyiliyāka Aṉupavikkakkaṭavatāka viṭṭom <g type="pc">.</g> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.178 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">105</citedRange>
+                        <citedRange unit="item">178</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
