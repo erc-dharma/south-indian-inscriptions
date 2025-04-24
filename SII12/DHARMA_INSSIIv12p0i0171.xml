@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.171: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 171. (A.R. No. 106 of 1934-35). CHIDAMBARAM, CHIDAMBARAM TALUK, SOUTH ARCOT DISTRICT. ON THE WEST WALL OF THE THIRD PRĀKĀRA (RIGHT OF ENTRANCE) OF THE NAṬARĀJA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0171</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is dated in the <hi rend="bold">11th year</hi> and records an order of the officer <hi rend="bold">Śōḻakōṉ</hi> issued to the authorities of the temple at Chidambaram to engrave on their temple walls a gift of land made, after purchase, by <hi rend="bold">Irāvaḷar Kayilāyadēvar</hi> residing in the <hi rend="italic">maṭha</hi> called Vaḍakkil-maḍam at Tiruvaṇṇāmalai as ‘Kayilāyadēvaṉ-tiruppāvāḍaippuṟam’ for flowers, and for providing offerings to the god on the asterism Pūśam in the month of Tai. A portion of the land presented was situated in Erukkāṭṭichchēri <hi rend="italic">alias</hi> Jayaṅgoṇḍaśōḻanallūr in Kiḍāraṅgoṇḍaśōḻa-pēriḷamaināḍu, the eastern hamlet of Perumbaṟṟapuliyūr and was purchased in the name of Kavuṇiyaṉ Śivaṉ Tiruchchiṟṟambalamuḍaiyāṉ from Mādēvaṉ Śātti, the wife of Uḻaichchāṇaṉ Kūttaṉ Tiruchchiṟṟambalakkūttaṉ.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-24" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <g type="pc">.</g> <hi rend="grantha">sakalabhu</hi>vaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>AvaṉiĀḷappiṟantārāṉa kopperuñciṅkatevaṟku yāṇṭu <num value="11"><g type="numeral">10</g> 1</num><g type="dash"/><unclear>vatu</unclear> coḻakoṉ Olai <supplied reason="undefined"><g type="danda">.</g></supplied> teṉṉavaṉ<hi rend="grantha">brahmamā</hi>rāyarum <hi rend="grantha">ja</hi>yatuṅka
+                    <lb n="2" break="no"/>ppallavaraiyarum tillaiAmpalappallavaraiyarum Uṭaiyār tirucciṟṟampalamuṭaiyār koyil <hi rend="grantha">śrīmāheśva</hi>ra<unclear>k</unclear> kaṇkāṇiceyvārkaḷum <hi rend="grantha">śrī</hi>kāriyañ ceyvārkaḷum <hi rend="grantha">sā</hi>mutāyañ ceyvār
+                    <lb n="3" break="no"/>kaḷum koyilnāyakañ ceyvārkaḷum tirumāḷikaikkūṟu ceyvārkaḷum paṇṭārappottakamuṭai yārkaḷum kaṇakkarum kaṇṭu viṭu tantatāvatu <seg rend="check"><g type="pc">.</g><g type="pc">.</g></seg><!--one above the other--> tiruvaṇṇāmalaiyil vaṭakkil maṭa
+                    <lb n="4" break="no"/>ttil Irukkum Irāvaḷar kayilāyatevar perumpaṟṟapuliyūrk kiḻ<unclear>piṭ</unclear>ākai kiṭāraṅkoṇṭacoḻa periḷamaināṭṭu Erukkāṭṭic<unclear>ceri</unclear>yāṉa <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻanallūrppāl
+                    <lb n="5"/>Uḻaiccāṇaṉ kūttaṉ tirucciṟṟampalakkūttaṉai mutukaṇṇākaUṭaiya Ivaṉ <hi rend="grantha">brāhma</hi>ṇi<hi rend="grantha"/> mātevaṉcātti pakkal kavuṇiyaṉcivaṉ tirucciṟṟampalamuṭaiyāṉ peril vilaikoṇṭa <hi rend="grantha">śrī</hi>
+                    <lb n="6"/>tirucciṟṟampalavatikku kiḻakku <hi rend="grantha">śrīrājarāja</hi>vāykkālukku vaṭakku muṉṟāṅkaṇṇāṟṟu mutaṟ catirattum Iraṇṭāñcatirattum Iṉnilattiṉukku Ellai <hi rend="grantha"><unclear>sa</unclear></hi><unclear>m</unclear>mātavāykkālukku kiḻakkum Uṭaiyār tiru
+                    <lb n="7" break="no"/>cciṟṟampalamuṭaiyār palavaravai nilattukku teṟkkum Uṭaiyār tirucciṟṟampalamuṭaiyār tirappu tirunaṉtavaṉaṅkaḷil kayilāyatevaṉ tiruṉtavaṉattukku meṟkum koḷvāṉ nilattukku vaṭakku
+                    <lb n="8" break="no"/><unclear>māka</unclear> Ivvicainta<surplus>ta</surplus> Iṉṉāṉkellaiyilum Uḷppaṭṭa karuttaḷavil mikutikkuṟai Uḷḷaṭaṅka Ūrkkollaiyuṅ kuḷamum viḷainilamum Uḷpaṭa vanta coḻāṇṭiyeṉṟu perkūva<supplied reason="omitted">p</supplied>paṭṭa viḷai
+                    <lb n="9" break="no"/>nilam kālum kollai<unclear>k</unclear>kuḷattil kiḻkkaṭaiya cempātiyum nilam <unclear>muṉṟu</unclear>mā Āka nilam Eṭṭu māvum Ikkaṇṇāṟṟu Iccatirattu Uḻaicc<unclear>ā</unclear>ṇaṉ kūttaṉ nakkaṉ paṅkil kavuṉiyaṉ <unclear>civaṉ</unclear> tirucciṟṟam pala 
+                    <lb n="10" break="no"/>muṭaiyāṉ peril vilaikoṇṭu muṉṟāṅ kaṇṇāṟṟu mutaṟcatirattum Iraṇṭāñcatirattum coḻāṇṭiyeṉṟu perkūvappaṭṭa nilam kālum kollaiyum kuḷattil cempāti Uḷpaṭa nilam muṉṟumā<unclear>vum</unclear> Āka nilam Eṭṭu<unclear>mā</unclear>
+                    <lb n="11" break="no"/><unclear>vum</unclear> Āka nilam mukkāle Orumāvum civaṉ tirucciṟṟampalamuṭaiyāṉum maṇalū<unclear>r kiḻavaṉ</unclear> kaṟaikkaṇṭaṉ kūttapperumāḷum mullaivāyiluṭaiyāṉ nañcamutuceytāṉum Ivvāṇṭu pacāṉmutal payiṟceyvār ka
+                    <lb n="12" break="no"/>ṭamai koṇṭu ceṉṉa <gap reason="lost" quantity="4" unit="character"/> neṭṭu Ūrmālinta kaṭamai kuṭimai yiṟuttu Iṟai mikutikku Uṭalāka Iṉṉilattil kollaiyile Iraṇṭumā nilam tiruṉantavaṉañceytu tiruppaḷḷit tāmam Ākka Oru Āḷukku nāḷ Oṉṟuk<supplied reason="omitted">ku</supplied> kuṟuṇi
+                    <lb n="13" break="no"/>yāl vanta tiruppaḷḷittāmam koyiṟ tiruppūmaṇṭapattile cittirai mā<hi rend="grantha">sam</hi> mutalaḷakkavum Inta Āḷukku koṟṟukku nāḷ Oṉṟukkuk kuṟuṇi nānāḻiyāka vanta nellu Iṭavum tiruttaippūcat tirunāḷile tiru
+                    <lb n="14" break="no"/>ppāvāṭaic ciṟappāka Amutupaṭikku Ūriḷaṅkālāle patiṉkala<surplus>ma</surplus>ṉukkup poṉakap paḻavariciyum Irukala maṇipparuppum nāluniṟai caṟkaraiyum ṉuṟu teṅkāyum pattup pālākkāyum Ic <gap reason="lost" quantity="5" unit="character"/>
+                    <lb n="15"/>toṟum Irunūṟu vaḻutilaikkāyum kulottuṅkacoḻattirumaṭaippaḷḷi paṇṭārattile mutaliṭavum kayilāyatevaṉ tiruppāvāṭaippuṟameṉṟu tirumāḷikaiyile kalveṭṭivittu <hi rend="grantha">sā</hi>taṉam tiru <gap reason="lost" quantity="8" unit="character"/>
+                    <lb n="16"/><gap reason="lost" quantity="10" unit="character"/> ppāvāṭait ti <gap reason="lost" quantity="5" unit="character"/> ka Amutu ceykai<surplus>y</surplus>yāle <gap reason="lost" quantity="2" unit="character"/> <unclear>potum</unclear> Ivvāṇṭu pacāṉ mutal taṇ <gap reason="lost" quantity="7" unit="character"/> paṇṇuvate <g type="pc">.</g> coḻakoṉ Eḻutteṉ <gap reason="lost" quantity="10" unit="character"/> kal veṭṭiyatu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.171 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">97-98</citedRange>
+                        <citedRange unit="item">171</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
