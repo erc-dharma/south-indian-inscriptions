@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.172: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 172. (A.R. No. 107 of 1934-35). ON THE SAME WALL (LEFT OF ENTRANCE).</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0172</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This is a damaged inscription dated in the <hi rend="bold">11th year.</hi> It registers an order of <hi rend="bold">Śōḻakōṉ</hi> exempting from taxes certain lands presented, after purchase, in Pirāntakanallūr, the southern hamlet of Perumbaṟṟappuliyūr as <hi rend="italic">tiruppāvāḍaippuṟam</hi> by two ladies, for providing offerings to the goddess Tirukkāmakōṭṭamuḍaiya-Periyanāchchiyār. The lands were left in charge of Tiruchchiṟṟambalamuḍaiyāṉ of Paṉaiyūr who undertook to measure out annually 360 <hi rend="italic">kalam</hi> of paddy to the temple.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-24" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <g type="pc">.</g> <hi rend="grantha">sakalabhu</hi>vaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>Ava<unclear>ṉiy</unclear>Āḷappiṟantārāṉa kopperuñciṅkatevaṟku yāṇṭu <num value="11"><g type="numeral">10</g> 1</num><g type="dash"/>vatu coḻakoṉ Olai <supplied reason="undefined"><g type="danda">.</g> </supplied><gap reason="lost" quantity="10" unit="character"/> <hi rend="grantha">ja</hi>yatuṅkappalla varaiyarum
+                    <lb n="2"/>tillaiAmpalapala <gap reason="lost" quantity="7" unit="character"/> ṭaiyār tirucciṟṟampalamuṭaiyār koyil <hi rend="grantha">śrīmāheśvara</hi>kaṇkāṇi ceyvārkaḷum <hi rend="grantha">śrī</hi>kāriyañ ce<unclear>yvārkaḷu</unclear>m cāmutāyañ ceyvārkaḷum
+                    <lb n="3"/>koyilnāyakañ ce<unclear>yvārkaḷum ti</unclear>rumāḷikaikkūṟu ceyvārkaḷum kaṇakkarum kaṇṭu viṭu tanta tāvatu <supplied reason="undefined"><g type="danda">.</g></supplied> tirukkāma<supplied reason="omitted">k</supplied>koṭṭamuṭaiya periyanācci<unclear>yār</unclear> <gap reason="lost" quantity="9" unit="character"/> r Aṭiya <gap reason="lost" quantity="2" unit="character"/> piḷḷaiyāḻvi ciṟṟiṭai
+                    <lb n="4"/>Arivaiyum Iṟaṅka <gap reason="lost" quantity="7" unit="character"/> cciyum tiruppāvaṭaippuṟat tirunāmattukkāṇiyākap perumpaṟṟappuliyūrt teṉpiṭākai pūkalokamāṇikka <gap reason="lost" quantity="2" unit="character"/> nā <gap reason="lost" quantity="4" unit="character"/> lūrāṉa <hi rend="grantha">śrī</hi>pirāntakanallūril
+                    <lb n="5"/>Aṉṉiyanāmat<unclear>tāl</unclear> <gap reason="lost" quantity="5" unit="character"/> ṇṭu Iṉnilattāl vanta maṭaṅkukaḷukku tiruvaraṅkukaḷu maṭaviyañ<supplied reason="omitted">ca</supplied>ṉamum maṭaAriciyum Uḷḷiṭṭa koyil ku <gap reason="lost" quantity="8" unit="character"/> ya maṭaṅku<unclear>ṭiyil va</unclear> <gap reason="lost" quantity="7" unit="character"/> <unclear>ttam</unclear> 
+                    
+                    <lb n="6"/>virivil varukiṟa<gap reason="lost" quantity="3" unit="character"/> maiyum tevaiyum patiṉoṉṟāvatu nāḷa mutal tavintu Ivvūril civanāmattāl Iṟu<gap reason="lost" quantity="3" unit="character"/> ttuṭaṉe kūṭṭikoḷḷakkaṭavatāka<gap reason="lost" quantity="3" unit="character"/> yār Eḻutiṉa ni
+                    <lb n="7" break="no"/>yokappaṭi nilattu<gap reason="lost" quantity="4" unit="character"/> <hi rend="grantha">sādha</hi><unclear>ṉa</unclear>ppaṭi I<gap reason="lost" quantity="4" unit="character"/> lūril pala <unclear>nilaṅkaḷi</unclear>lum<gap reason="lost" quantity="2" unit="character"/> kaṇṭavācciyaṉ caṅkaraṉ tirucciṟṟampalamuṭaiyāṉ pakkal vilai koṇṭa pañcavaṉ
+                    <lb n="8" break="no"/>mātevi vatikku me<gap reason="lost" quantity="4" unit="character"/> ḷantira ciṅkaṉ va<gap reason="lost" quantity="5" unit="character"/> ñcāṅ kaṇṇāṟṟu mutalcatirattum Iraṇṭāñcatirattum Uḻaiccāṇaṉ tevaṉ tirunaṭṭamāṭi nilattukku Attipuliyūrppiḷḷai
+                    <lb n="9" break="no"/><unclear>yār</unclear> ṉilattukkuk kiḻak<unclear>ku maturānta</unclear>kapperāṟṟukkut �<gap reason="lost" quantity="5" unit="character"/> rar nilattukku meṟkum cammātavāykkālukkut teṟkum palavaravai<gap reason="lost" quantity="2" unit="character"/> ṭaiyār nilattukku m<unclear>e</unclear>ṟkum vaikūr Oṭaikku vaṭakkum
+                    <lb n="10"/>naṭuvuḷpaṭṭa Āṇṭati<gap reason="lost" quantity="2" unit="character"/> ruṭaiya nilam Arai<gap reason="lost" quantity="3" unit="character"/> yaṇa<gap reason="lost" quantity="2" unit="character"/> vati vāykkālāka<gap reason="lost" quantity="3" unit="character"/> <unclear>kaṇ</unclear>ṇāṟṟu Iraṇṭāñcatirattum muṉṟāñcatirattum <gap reason="lost" quantity="3" unit="character"/> ṉ Iḷaiyakūttaṉ tirucciṟṟampalamuṭaiyāṉ nila
+                    <lb n="11" break="no"/>ttukkuk kiḻakkum<gap reason="lost" quantity="2" unit="character"/> yāva<gap reason="lost" quantity="3" unit="character"/> kkut teṟkum palavaravai<unclear>k</unclear>kum<gap reason="lost" quantity="4" unit="character"/> lattukku meṟku<gap reason="lost" quantity="2" unit="character"/> kūr Oṭaikku vaṭakkum naṭuvuṭpaṭṭa velippo <gap reason="lost" quantity="3" unit="character"/> ṉṟu peruṭaiya nilattu<unclear>kku</unclear> meṟkaṭaiya nila
+                    <lb n="12" break="no"/><gap reason="lost" quantity="4" unit="character"/> mā nikki nilam<gap reason="lost" quantity="3" unit="character"/> kavum In<gap reason="lost" quantity="5" unit="character"/> � nilattukkuk kiḻakkum ciyāruṭaiyāṉum tirunaṭṭa<gap reason="lost" quantity="4" unit="character"/> kkut teṟkum Aḷappaṉ Āḷkkoṇṭāṉ nilattukku
+                    <lb n="13"/>meṟkum vaiykūr Oṭaikku vaṭakkum naṭuvuḷppaṭa nakkaṉeṉṟu peruṭaiya nilam <unclear>A</unclear>raiyum Ikka <gap reason="lost" quantity="4" unit="character"/> ticai cattu<gap reason="lost" quantity="5" unit="character"/> kiḻakkum vācciyaṉ ve <gap reason="lost" quantity="3" unit="character"/> ttaṉ tirucciṟṟampa
+                    <lb n="14" break="no"/>lamuṭaiyāṉ nilattukkut teṟkum vācciyaṉ<gap reason="lost" quantity="4" unit="character"/> tirunaṭṭapperumāṉ nilat tukku meṟkum vaiykūr Oṭaikku vaṭakku naṭuvuṭppaṭṭa neṟkuppai E<unclear>ṉ</unclear>ṟu peruṭaiya nilamu <gap reason="lost" quantity="4" unit="character"/> k kuḷatti<unclear>le</unclear><gap reason="lost" quantity="1" unit="character"/>
+                    <lb n="15"/>tavum Uṭpaṭa nilam Āṟumāvaraiyum vācciyaṉ tirucciṟṟampalamuṭaiyāṉ kaṉaka<hi rend="grantha">sabhā</hi> pati pakkal vilaikoṇṭa Ivvūril Iv<unclear>vā</unclear>ykkāl Aiñcāṅkaṇṇāṟṟu muṉṟāñcatirattum Āṟāṅ kaṇṇāṟṟu mutaṟcatirattu
+                    <lb n="16" break="no"/>m kiṭā<supplied reason="omitted">ra</supplied>ṅkoṇṭa coḻappiramārāyaṉ tirunaṭṭapperumāḷ nilattukku<gap reason="lost" quantity="4" unit="character"/> karup pūrppiḷḷaiyāṉ nilattukku meṟkum vaiykūr Oṭaikku vaṭakku naṭuvuṭpaṭṭa māmpaṭṭu E<unclear>ṉṟu p</unclear>e ruṭaiya nilam
+                    <lb n="17"/>Eṭṭu māvum vācciyaṉ tirucciṟṟampalamu<gap reason="lost" quantity="5" unit="character"/> ykkāl muṉṟāṅkaṇṉāṟṟu muṉṟāñcati<supplied reason="omitted">ra</supplied>ttu viṟkiṉṟār Uḷḷiṭṭār nilattukku kiḻakkum ci parāntaka<unclear>ppe</unclear>rāṟṟukku <unclear>me</unclear>ṟkum Ātaṉu<supplied reason="omitted">ru</supplied>ṭai
+                    <lb n="18" break="no"/>yā raka<unclear>ra</unclear> nilattukku meṟkkum perariyātār nilattukku vaṭakkum naṭuvuṭpaṭṭa melaittoṭṭa meṉṟu peruṭaiya nilam nālumāvum Aiñcāṅkaṇṇāṟṟu Iraṇṭāñcatirattu meṟka <unclear>ṭaiya</unclear> nilattukkuk kiḻakkum
+                    <lb n="19"/>kempiranampiyār Uḷḷiṭṭār nilattukkut teṟkum Atti<gap reason="lost" quantity="2" unit="character"/> viṇṇa<gap reason="lost" quantity="5" unit="character"/> ttārum<gap reason="lost" quantity="5" unit="character"/>
+                    <lb n="20"/>Eṭṭu māvum Āka nilam muṉṟe Iraṇṭumāvum Eḻutiṉa<gap reason="lost" quantity="5" unit="character"/> Iṉ nilattāl maṭakku nilam<gap reason="lost" quantity="5" unit="character"/> kkāṇikkiḻ<gap reason="lost" quantity="2" unit="character"/> mummāva<gap reason="lost" quantity="1" unit="character"/> 
+                    <lb n="21"/>yenāṉmāvaraikku maṭakkilum virivilum koḷḷum kaṭamai kuṭimaiyu<unclear>n tavirttu pa</unclear> ru<hi rend="grantha">ṣa</hi>iyār Eḻutiṉa niyokamum tirukkaioṭṭip paṇṭārattile Oṭukkavum Innilattukku <unclear>Ū</unclear> riḷaṅkālāl
+                    <lb n="22"/>muṉṉūṟṟu Aṟupatiṉkalap poṉakappaḻanellu Etirāmāṇṭu mutal <unclear>Ā</unclear>ṇṭutoṟum tillai nāyakaṉ perumpaṇṭārattile paṉaiyūruṭaiyāṉ tirucciṟṟampalamuṭaiyāṉ Aḷa
+                    <lb n="23" break="no"/>kka kaṭavaṉākavum Ippaṭiye tirumāḷikai<unclear>yile kal</unclear>veṭṭakkaṭavatākap paṇṇuvate Ivai coḻa koṉ <unclear>Eḻu</unclear>tteṉṟu pukunta Evaṟtiṭṭiṉpaṭi kal <unclear>veṭṭiyatu</unclear> <g type="pc">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.172 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">98-100</citedRange>
+                        <citedRange unit="item">172</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
