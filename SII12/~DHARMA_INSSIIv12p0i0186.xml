@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 12.186: original edition by V. Venkatasubba Ayyar</title>
+				<title type="alt">No. 186. (A.R. No. 505 of 1926). ON THE SAME WALL.</title>
+			    <respStmt>
+			        <resp>author of digital edition</resp>
+			        <persName ref="part:emfr">
+			            <forename>Emmanuel</forename>
+			            <surname>Francis</surname>
+			        </persName>
+			    </respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv12p0i0186</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>In this damaged inscription, the chief's name is lost, but the regnal <hi rend="bold">year 14</hi> is preserved. It registers three transactions, viz., (1) a gift of land by Arasāḻvāṉ Ārāvamudāḻvāṉ to the temple of [Uḍai]yavaṉ Vaḍataḷi-[Uḍaiyār] at Ulagaḷandasōḻa[chaturvēdimaṅgalam] for offerings and worship; (2) a purchase of some land from the same person by the <hi rend="italic">dēvakanmis</hi> of the temple from money realised by the sale of temple jewels; and (3) a gift of another bit of land which was received from a certain brahman to whom this person had given a loan. All these lands were now given for offerings and worship in the temple. Since this inscription appears to be identical with the previous one, the former may be attributed to Kōpperuñjiṅgadēva.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	    <revisionDesc>
+	        <change who="part:emfr" when="2025-04-28" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+	        <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <g type="pc"/></hi> <unclear>cakalapuva</unclear>ṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi><gap reason="lost" quantity="3" unit="character"/> tevaṟku yāṇṭu <num value="14"><g type="numeral">10</g> 4</num><g type="dash"/>vatu I[<hi rend="grantha">ṣa</hi>] <gap reason="lost" quantity="6" unit="character"/> putaṉkiḻamaiyum �<gap reason="lost" quantity="3" unit="character"/>
+<lb n="2"/>ttunāḷ viruta[ rā<hi rend="grantha">jabha</hi>ya<hi rend="grantha"/>] ṅkaravaḷanāṭṭu<gap reason="lost" quantity="5" unit="character"/> <hi rend="grantha">śrī</hi> Ulakaḷantacoḻac<gap reason="lost" quantity="7" unit="character"/> yavaṉ vaṭataḷiyuṭai<gap reason="lost" quantity="5" unit="character"/>
+<lb n="3"/>l Ātica[ ṇṭe<hi rend="grantha">śva</hi> ra] tevakaṉmikaḷukku<gap reason="lost" quantity="5" unit="character"/> cāḻvāṉ Ārāvamutāḻvā ṉeṉ <supplied reason="undefined"><g type="danda">.</g></supplied> Inṉāyaṉārkku pū<hi rend="grantha">ja</hi>ikkum tiruppaṇikkum Uṭalāka nān tiruppa
+<lb n="4" break="no"/>ṭiyil <unclear>nirvārttukkuṭutta</unclear><gap reason="lost" quantity="5" unit="character"/> nāyaṉār tiruvāparaṇam viṟṟu Eṉ pakkal vilaikoṇṭa nilam Orumā varaikkāṇi muntirikaiyum Āka nilam Orumāvarai
+<lb n="5"/>muntirikaiye<gap reason="lost" quantity="5" unit="character"/> lakāle<gap reason="lost" quantity="5" unit="character"/> nampikku taṉicu kuṭutta kācukku taṉ makaṉ Āmaruviniraimeyttāṉ pe<unclear>ri</unclear>l taṉ tampi tirucciṟṟampala nampi pakkalum pā
+<lb n="6" break="no"/>ratāyaṉ veṇṇaik<unclear>kū</unclear><gap reason="lost" quantity="5" unit="character"/> Āmaruviniraimeyttāṉ Eṉ<unclear>ṟu</unclear>t tirivu Iṭṭu tanta tirucciṟṟampa<supplied reason="omitted">la</supplied>vatikku meṟku Irācentiracoḻavāykkālukku teṟku
+<lb n="7"/>mutaṟkaṇṇāṟṟu nālā<unclear>ntu</unclear>ṇṭa<gap reason="lost" quantity="5" unit="character"/> ṅkaṇṇāṟṟu nālāntuṇṭattu nilam mukkāṇiyum Āka nilam Irumāvarai muntirikaiyum Ippaṭikaḷāl kuṭut
+<lb n="8" break="no"/>teṉ Inta Ārāvamutā<unclear>ḻ</unclear>vāṉe<unclear>ṉ</unclear> <supplied reason="undefined"><g type="danda">.</g></supplied><gap reason="lost" quantity="4" unit="character"/> Eḻutiṉamaikkum Ivvārāmu tāḻvāṉ <hi rend="grantha">s</hi> Ai<hi rend="grantha">jñ</hi> Aiyāṉamaikkum Ivvūr Ulakaḷantacoḻaviṇṇakar Emperumā
+<lb n="9" break="no"/>ṉ tirumuṟṟattu kāṇiuṭaiya tiruuṭaiyāril <hi rend="grantha">gau</hi> <gap reason="lost" quantity="4" unit="character"/> kūrnampi Eḻuttu Eṉṟum Innilan tiriviṭṭuk kuṭutta kā<hi rend="grantha">śya</hi> pan Āmaruviniraimeyttāṉ Eḻutteṉṟum kā<hi rend="grantha">śya</hi> pan Aḻaki
+<lb n="10" break="no"/>yatirucciṟṟampalamuṭaiyāṉ paṭṭaṉ Eḻutteṉṟum<gap reason="lost" quantity="2" unit="character"/> Iṭṭa kavuṇiyaṉ ci<hi rend="grantha">kṛṣṇa</hi> paṭṭan peru marutūr karuṇākaranampi ciṟukoṭṭaiyūr cuppirama<hi rend="grantha">ṇya</hi> paṭṭar comayā<hi rend="grantha">ji</hi>yar <note n="111-1">ṣome of the inscribed stones are lost.</note>| <g type="pc"/>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 12.186 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:VenkatasubbaAyyar1943_01"/>
+			<citedRange unit="page">111</citedRange>
+			<citedRange unit="item">186</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

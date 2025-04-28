@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 12.187: original edition by V. Venkatasubba Ayyar</title>
+				<title type="alt">No. 187. (A.R. No. 60 of 1932-33). TIRUKKACHCHIYŪR, CHINGLEPUT TALUK AND DISTRICT. ON THE SOUTH WALL OF THE FIRST PRĀKĀRA IN THE KACHCHAPĒŚVARA TEMPLE.</title>
+			    <respStmt>
+			        <resp>author of digital edition</resp>
+			        <persName ref="part:emfr">
+			            <forename>Emmanuel</forename>
+			            <surname>Francis</surname>
+			        </persName>
+			    </respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv12p0i0187</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription, dated in the <hi rend="bold">14th year,</hi> refers to a sale of 195 <hi rend="italic">kuḻi</hi> of land called ‘Marundan-tirunandavanam’ to the <hi rend="italic">ūravar,</hi> for 7,500 <hi rend="italic">kāśu,</hi> made in the <hi rend="bold">26th year</hi> of <hi rend="bold">Rājarāja III</hi> by <hi rend="bold">Īśāṉadēva,</hi> the manager, and the trustees of the temple of Tiruvālakkōyiluḍaiya-Nāyaṉār at Tirukkachchūr in Śeṅkuṉṟa-nāḍu, a subdivision of Kaḷattūrkōṭṭam, a district of Ja[ya*]ṅgoṇḍaśōḻa-maṇḍalam. <hi rend="bold">Māṅguḍaiyāṉ Tiruvaiyāṟuḍaiyāṉ</hi> <hi rend="bold">Tirumuttīśuramuḍaiyāṉ Amarabuyaṅkarapperumāḷ,</hi> an <hi rend="italic">āṇḍār</hi> and a later manager of this temple in the time of Peruñjiṅgadēva paid back the amount and acquired the 195 <hi rend="italic">kuḻi</hi> to provide a flower-garden for the god.</p>						
+
+						<p>The astronomical details given in the record correspond to A.D. 1256, August 10, Thursday.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	    <revisionDesc>
+	        <change who="part:emfr" when="2025-04-28" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+	        <change who="part:mime" when="2025-04-08" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> tiruvāykkeḻavimuṉ<supplied reason="omitted">ṉā</supplied>kac caka<unclear>la</unclear>puvaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>kopperuñciṅkate
+<lb n="2" break="no"/>vaṟkku yāṇṭu <num value="14"><g type="numeral">10</g> 4</num><g type="dash"/>vatu ciṅkanāyaṟṟu Amarapa<hi rend="grantha">kṣa</hi>ttu Uttiraṭṭātiyum viyāḻakkiḻamaiyum peṟṟa nāḷ
+<lb n="3"/><hi rend="grantha">ja</hi><supplied reason="omitted">ya</supplied>ṅkoṇṭacoḻamaṇṭalattu kaḷattūrkkoṭṭattuc ceṅkuṉṟanāṭṭut tirukkaccūr Uṭaiyā
+<lb n="4" break="no"/>r tiruvālakkoyiluṭaiya nāyaṉāṟku Iṉṉāyaṉār koyil keṭkiṟa Āṇṭār māṅkuṭai
+<lb n="5" break="no"/>yāṉ tiruvaiyāṟuṭaiyāṉ tirumutticuramuṭaiyāṉ Amarapuyaṅkarapperumāḷ <supplied reason="undefined"><g type="danda">.</g></supplied> Irā<hi rend="grantha">ja</hi>rā
+<lb n="6" break="no"/><hi rend="grantha">jade</hi> vaṟku <hi rend="grantha"><unclear>2</unclear>6</hi><g type="dash"/>vatu nāḷil Ikkoyil keṭṭa Īcāṉatevarun tāṉattārumākac cikāriyap peṟṟukku
+<lb n="7" break="no"/>m māṟkamāṭaikkumāka Ivvūri lūravaril noccikkiḻāṉ teṉ<supplied reason="omitted">ṉa</supplied>vaṉ viḻupparaiyaṉukkum kirantai Aru
+<lb n="8" break="no"/>ṇināyakaṉukkum nocci<supplied reason="omitted">k</supplied>kiḻāṉcelvaṉ tevāṇṭaikkum niyā[ya<note n="112-1">The letter ya is engraved below the line.</note>]ttāril murukappiḷḷaik kum Āticaṇṭe
+<lb n="9" break="no"/>cura vilaiyāka viṟṟa maruntaṉ tirunantavaṉam patiṉaṟucāṇkolāl paḻampaṭi kuḻi
+<lb n="10"/><num value="195"><g type="numeral">100</g> 9 <g type="numeral">10</g> 5</num> Ikkuḻi nūṟṟuttoṇṇūṟṟaiñcum Ivarkaḷ vilaikoṇṭuṭai
+<lb n="11" break="no"/>ya putukkācu <num value="7500">7 <g type="numeral">1000</g> 5 <g type="numeral">100</g></num> Ikkācu Eḻāyirattaiññūṟum māṅkuṭaiyāṉ
+<lb n="12"/>tiruvaiyāṟuṭaiyāṉ tirumutticuramuṭaiyāṉ Amar(ā)puyaṅkarapperumā
+<lb n="13" break="no"/>ḷeṉ Ivarkaḷukku kuṭuttu Ivarkaḷ vilaippiramāṇam vāṅki Iṉṉāyaṉā
+<lb n="14" break="no"/>rkku cantirātittavarai tirunantavaṉamāka maruntaṉ tirunantavaṉam tiruppa<supplied reason="omitted">ḷ</supplied>ḷittāma
+<lb n="15" break="no"/>mākka cāttakkaṭavatāka cilālekai paṇṇik kuṭutteṉ Itu <hi rend="grantha">śrīmā</hi> he<hi rend="grantha">śvara ra kṣa</hi>i <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 12.187 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:VenkatasubbaAyyar1943_01"/>
+			<citedRange unit="page">111-112</citedRange>
+			<citedRange unit="item">187</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
