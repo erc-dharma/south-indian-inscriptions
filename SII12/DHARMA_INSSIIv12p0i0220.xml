@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.220: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 220. (A.R. No. 392 of 1928-29). POṈṈŪR, WANDIWASH TALUK, NORTH ARCOT DISTRICT. ON THE DOOR-JAMB (PROPER RIGHT) OF THE CENTRAL SHRINE IN THE AḺAGAPPERUMĀḶ TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0220</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This record is damaged in the middle. It is dated in the <hi rend="bold">21st year</hi> and refers to an endowment made by Aruvandai<note>With ‘Aruvandai’ compare such family names as Kāḍandai, Kumarandai etc.</note> Āṇḍāṉ Tiruchchōṟṟuttuṟaiyuḍaiyāṉ Śōṟappiḷḷai of Poṉṉūr<note>Poṉṉūr or Hemagrāma was the native place of the Jaina teacher Hēḷāchārya who flourished before the 10th century A.D. (<hi rend="italic">Ep. Rep.</hi> for 1928-29, p. 88).</note> <hi rend="italic">alias</hi> Aḻagiyaśōḻanallūr. The document is attested by Villavarāyaṉ, Adiyamāṉ and Śēḻiyadaraiyaṉ, the accountant of the <hi rend="italic">nāḍu.</hi></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-29" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> koppi
+                    <lb n="2" break="no"/><unclear>ru</unclear>ñciṅkatevaṟku
+                    <lb n="3"/>yāṇṭu <num value="21">2 <g type="numeral">10</g> <unclear>1</unclear></num><g type="dash"/>vatu ⌈
+                    <lb n="4" break="no"/>poṉṉūr<unclear>ā</unclear>ṉa Aḻa
+                    <lb n="5" break="no"/>kiyacoḻanallū
+                    <lb n="6" break="no"/>r Aruvantai Āṇ
+                    <lb n="7" break="no"/>ṭāṉ tiruccoṟṟu
+                    <lb n="8" break="no"/>ttuṟaiyuṭaiyāṉ
+                    <lb n="9"/>coṟappiḷḷaiye
+                    <lb n="10" break="no"/>ṉ meṟppaṭiyūr tiru
+                    <lb n="11" break="no"/>vaṭippiṭippāṉ Uṟap
+                    <lb n="12" break="no"/>poṉtāṉ Aḻakapaṭṭa
+                    <lb n="13" break="no"/>ṉuḷḷiṭṭārom Iva
+                    <lb n="14" break="no"/>r pakka livvāṇṭai 
+                    <lb n="15"/>tai māta mivvūr ti<unclear>rumu</unclear>
+                    <lb n="16" break="no"/>ṟṟam <gap reason="lost" quantity="8" unit="character"/> 
+                    <lb n="17-18"/>                    
+                    <lb n="19"/>Ivai villava
+                    <lb n="20" break="no"/>rāyaṉ Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    <lb n="21"/>Ivai Atiya
+                    <lb n="22" break="no"/>māṉ Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    <lb n="23"/>Ivai nāṭṭu
+                    <lb n="24" break="no"/>kkaṇakkuc
+                    <lb n="25"/>ceḻiyatarai
+                    <lb n="26" break="no"/>yaṉ Eḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary">
+                <p n="17-18">Not engraved.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.220 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">134-135</citedRange>
+                        <citedRange unit="item">220</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
