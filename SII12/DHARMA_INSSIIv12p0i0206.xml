@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.206: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 206. (A.R. No. 432 of 1921). TIRUVEṆṆAINALLŪR, TIRUKKOYILUR TALUK, SOUTH ARCOT DISTRICT. ON THE WEST WALL OF THE MAṆḌAPA CONTAINING THE SŌMĀSKANDA IMAGES IN THE KṚIPĀPURĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0206</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription records that the chief exempted, from his <hi rend="bold">18th year,</hi> the garden called ‘Ānaikku-araśu-vaḻaṅgum-perumāḷ<note n="125-3">Cf. the title ‘āṭṭukku-āṉai-vaḻaṅgum-perumāḷ’ (<hi rend="italic">A.R.</hi> No. 146 of 1923).</note>-tiruttōppu’ at Tiruveṇṇainallūr and ‘Kōpperuñjiṅgan-tōppu’ at Śīḻagampaṭṭi which he had presented to the temple and also other <hi rend="italic">dēvadāna</hi> lands from payment of taxes and that he ordered the amount thus remitted to be utilised for rearing gardens <hi rend="italic">(tōppu)</hi> and with the balance, if any, to provide for worship and repairs in the temple of Āṭkoṇḍadēva at Tiruveṇṇainallūr. The epithet <hi rend="italic">Āṉaikku-araśu-vaḻaṅgum-perumāḷ</hi> which means ‘he who gave away the kingdom for an elephant’ has not been met with before, and it is not known what incident it refers to.</p>						
+                            
+                            <p>The document is attested by Kōpperuñjiṅga, Toṇḍaimāṉ, Viḻuppādarāyaṉ and Kurukulattaraiyaṉ.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-29" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-25" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> cakalapuvaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi> Avaṉiyāḷappi
+                    <lb n="2" break="no"/>ṟantāṉ kopperuñciṅkatevarkku yāṇṭu <num value="18"><g type="numeral">10</g> 8</num><g type="dash"/>vatu nāḷil <hi rend="grantha">rāja</hi>
+                    <lb n="3" break="no"/><hi rend="grantha">rāja</hi>vaḷanāṭṭu tirumuṉaippāṭit tiruveṇṇainallūrnāṭṭu <hi rend="grantha">brahma</hi>teyam
+                    <lb n="4"/>tiruveṇṇainallūr Uṭaiyar Āṭkoṇṭatevarkku patiṉeṭṭāvatu A
+                    <lb n="5" break="no"/>ṟpaci māta mutal tirunāmattukkāṇiyum Iṟaiyiliyumāka Iṭṭa tirut
+                    <lb n="6" break="no"/>toppukaḷil nilattukkum tirunāmattukkāṇiyāṉa paḻantevatāṉamā
+                    <lb n="7" break="no"/>ṉa nilattukkum IṟaiIliyāka tantaruḷiṉa tirumukattukku kalveṭṭu <supplied reason="undefined"><g type="danda">.</g></supplied> ko
+                    <lb n="8" break="no"/>pperuñciṅkaṉ Olai <supplied reason="undefined"><g type="danda">.</g></supplied> tiruveṇṇainallūruṭaiyār Āṭkoṇṭa
+                    <lb n="9" break="no"/>tevar koyilil tevarkaṉmi koyilkaṇakkaṉ kaṇṭu viṭai <supplied reason="undefined"><g type="danda">.</g></supplied> Iṉṉāyaṉā
+                    <lb n="10" break="no"/>ṟku Ivvūril tirunāmattukkāṇi Iṟaiyiliyāka Iṭṭu ceyvittu nām kuṭutta
+                    <lb n="11"/>Āṉaikku Aracuvaḻaṅkum perumāḷ tiruttoppu nilam paṉṉiraṇṭu māvum
+                    <lb n="12"/>nām muṉpu viṭṭa ciḻakampaṭṭil kopperuñciṅkaṉ toppukkum
+                    <lb n="13"/>Iṭa niccayitta Āḷ patinālukkum Iṉnāyaṉā<surplus>r</surplus>ruṭaiya tevatāṉa nilaṅkaḷi
+                    <lb n="14" break="no"/>l tāḷamuṟi puñ<unclear>c</unclear>ey puṟavaṭai kācāyamum pacāṉa Uṭalil nimanta miṭṭu me
+                    <lb n="15" break="no"/>leṟṟamāṉa Uṭalum tiruttoppukaḷi luṭalum koyil paṇṭārattukku
+                    <lb n="16"/>Uṭalāka patiṉeḻāvatu tāḷamuṟi mutal kaikkoṇṭu mutaliṭṭuk koḷḷavu
+                    <lb n="17" break="no"/>m <supplied reason="undefined"><g type="danda">.</g></supplied> Ivvuṭalile Ivarkaḷukku Iṭa niccayitta Ilakkai catirappaṭiyāl U
+                    <lb n="18" break="no"/>ḷḷa nellum kācum patiṉeṭṭāvatu Aṟpacimāta mutaliṭṭu toppukka
+                    <lb n="19" break="no"/>ḷ ceyvikkavum <supplied reason="undefined"><g type="danda">.</g></supplied> nikki niṉṟa Uṭalkoṇṭu pūcaiyum tiruppaṇiyun celu
+                    <lb n="20" break="no"/>ttuvatākavum coṉṉom <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭi ceyvate <supplied reason="undefined"><g type="danda">.</g></supplied> Ivai kop
+                    <lb n="21" break="no"/>peruñciṅkaṉ Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ivai toṇṭamāṉ Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ivai <unclear>viḻuppā</unclear>
+                    <lb n="22" break="no"/>tarāyaṉ Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ivai kurukulattaraiyaṉ Eḻuttu <g type="pc">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.206 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">125-126</citedRange>
+                        <citedRange unit="item">206</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
