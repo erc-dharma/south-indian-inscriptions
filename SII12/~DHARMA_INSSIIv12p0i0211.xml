@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.211: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 211. (A.R. No. 395 of 1918). ON THE SAME WALL.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0211</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This is also a damaged record dated in the <hi rend="bold">19th year.</hi> It is connected with the previous inscription and registers a grant of land as <hi rend="italic">tirunāmattukkāṇi</hi> in Ōlaiyāmaṅgalam situated in Veṇṇaiyūr-nāḍu, a subdivision of Rājādhirāja-vaḷanāḍu, by a certain Śiṅgāravaḷamuḍikavittāṉ.</p>						
+                            
+                            <p>Ōlaiyāmaṅgalam may be identified with the village Ōliyāmputtūr in the Shiyali taluk of the Tanjore district.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-29" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> cakalapuvaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi> kopperuñciṅkatevaṟku yāṇṭu <num value="19"><g type="numeral">10</g> 9</num><g type="dash"/> <unclear>Āvatu tai</unclear> mātan tiyati pati<surplus>ṉ</surplus>ṉoṉṟiṉāl Uyyakkoṇṭārvaḷanāṭṭu Ampar <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="2"/>Iḷantevaṉ poṉṉampalakkūttar ciṅkāravaḷamuṭikavittāṉeṉ <supplied reason="undefined"><g type="danda">.</g></supplied> <unclear>Eṉ</unclear> per<unclear>āl</unclear> <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻavaḷanāṭṭut tiruvaḻuṉtūrnāṭṭuk kūṭalūruṭai<unclear>yāṉ</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="3"/>ḷāl nāṉ kuṭutta nilamāvatu <supplied reason="undefined"><g type="danda">.</g></supplied> Iṉṉāyaṉār tevatāṉam <hi rend="grantha">rājādhirāja</hi>vaḷanāṭṭu veṇṇaiyūr nāṭṭu Olaiyāmaṅkalattu Eṅkaḷ mutaliyār pakkal kuṭu<unclear>tta</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="4"/> <gap reason="lost" quantity="2" unit="character"/> pāykiṟa Uṭciṟuvāykkālukkuk kiḻakkum kuñcaramallaviḷākattukkut teṟkum Iṉṉāṉ kellaiyuḷ naṭuvupaṭṭa mikutikkuṟaivu Uḷḷaṭaṅkat ta<unclear>ṭi</unclear> U <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="5"/> <gap reason="lost" quantity="2" unit="character"/> nalliyai mutukaṇṇākakkoṇṭu Ampar Aruvantai Arayaṉ <gap reason="lost" quantity="2" unit="character"/> vvāḻvā <gap reason="lost" quantity="5" unit="character"/> 
+                    <lb n="6"/>Uṭpaṭat tirunāmattukkāṇiyākak kuṭukkak kūṭalūruṭaiyāṉ tevarkaḷteva <gap reason="lost" quantity="5" unit="character"/> 
+                    <lb n="7"/> <gap reason="lost" quantity="2" unit="character"/> ṭattirunāmattukkāṇiyākak kuṭuttamaikku Ivai kūṭalūruṭaiyāṉ tevarka <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="8"/>Ippaṭi Aṟiveṉ p<unclear>erum</unclear>poruṭaiyāṉ <gap reason="lost" quantity="2" unit="character"/> Ā<unclear>ṇṭa</unclear>piḷḷaiye ṉeṉṟum Ippaṭi <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="9"/><gap reason="lost" quantity="2" unit="character"/> <hi rend="grantha">śva</hi>ramuṭaiyār koyiṟ tevarkaṉmi pārattuvāci Aḻakiyacoḻappirama <gap reason="lost" quantity="3" unit="character"/>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                <p>Some of the inscribed slabs are missing.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.211 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">129</citedRange>
+                        <citedRange unit="item">211</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
