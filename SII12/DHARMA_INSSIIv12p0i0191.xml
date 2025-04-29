@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.191: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 191. (A.R. No. 96 of 1906). JAMBAI, TIRUKKOYILUR TALUK, SOUTH ARCOT DISTRICT. ON THE WEST WALL OF THE OUTER MAṆḌAPA IN THE JAMBUNĀTHA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0191</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription, also of the <hi rend="bold">16th year,</hi> registers the agreement made by the <hi rend="italic">nāṭṭavar</hi> of the territory situated to the north of the river Āviṉai and to the south of the Peṇṇai, to conduct, for the welfare of the chief, a festival called <hi rend="bold">Vaṉṉeñjaṉtirunāḷ</hi> in the month of Puraṭṭādi (August-September) in the temple of Tiruttāṉtōṉṟi Āḷuḍaiya-Nāyaṉār at Śaṇbai, from the income in paddy assigned for the purpose by <hi rend="bold">Vaṉṉeñja-Nāyaṉār.</hi> ‘Vaṉṉeñjaṉ’ was evidently identical with the chief Vāṇakōvaraiyaṉ Rājarājadēvaṉ Vaṉṉeñjaṉ of Āṟagaḷūr, a subordinate of Kōpperuñjiṅgadēva.<note n="115-1">No. 164 above; see also No. 234 below.</note></p>						
+                            
+                            <p>The date of this record is A.D. 1258, December 9, Monday.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-04-29" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-25" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <unclear>cakalapu</unclear>vaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>kopperu<unclear>ñ</unclear>ciṅkateva<unclear>ṟ</unclear>ku yāṇṭu <num value="16"><g type="numeral">10</g> 6</num><g type="dash"/>vatu taṉu nāyaṟṟu pū<hi rend="grantha"><unclear>rvva</unclear></hi>pa<hi rend="grantha"><unclear>kṣa</unclear></hi>ttu <hi rend="grantha">tra</hi>yo<hi rend="grantha">daśi</hi>yum tiṅkaṭkiḻamaiyu<supplied reason="omitted">m</supplied> peṟṟa Urocaṇi<surplus>caṇi</surplus>nāḷ caṇpai Uṭaiyār tiruttāṉtoṉṟi Āḷuṭaiyanāyaṉārkku nāyaṉār vaṉṉeñcanāyaṉār <unclear>te</unclear>va<unclear>r</unclear> 
+                    <lb n="2"/>tirumeṉikku naṉṟāka Āviṉaiyāṟṟukku vaṭakku peṇṇaiyāṟṟukku teṟku Uṭpaṭṭa nāṭṭavarom puraṭṭātimātattile vaṉṉeñcaṉ tirunāḷ Eḻuntaruḷuvikka tiruAmutu ka<unclear>ṟi</unclear>Amutu tiru viḷakku tiruppa<supplied reason="omitted">ḷ</supplied>ḷittāma<surplus>m</surplus> muḷḷiṭṭu veñcaṉaṅkaḷukkum Emmilicaintu Āṇṭoṉṟukku nāḷ<choice><sic>e</sic><corr>o</corr></choice><supplied reason="omitted">ṉ</supplied>ṟukku kuṟuṇi nellāka
+                    <lb n="3"/>vanta nellu<supplied reason="omitted">k</supplied>ku ku<supplied reason="omitted">ṟu</supplied>ṇi Iṟuttu koḷḷakkaṭavatāka Icaintom <supplied reason="undefined"><g type="danda">.</g></supplied> nellukkuṭa<unclear>lāka</unclear> Ūrkaḷai Oṭukkiyum piṟittuṅ koḷḷakkaṭavatu Āka cammatittom <supplied reason="undefined"><g type="danda">.</g></supplied> It tirunāḷ muṭṭuppaṭāmal cantirāti<supplied reason="omitted">t</supplied>tavarai cellakkaṭavatākavum <supplied reason="undefined"><g type="danda">.</g></supplied> tirunāḷukku pokkaḻikka Uṭal tiruppaṇikku Iṭakkaṭavatu <unclear>Itu</unclear> māṟu
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary">
+                <p n="3">The inscription stops here.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.191 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">115-116</citedRange>
+                        <citedRange unit="item">191</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
