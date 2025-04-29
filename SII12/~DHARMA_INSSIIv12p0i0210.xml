@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 12.210: original edition by V. Venkatasubba Ayyar</title>
+				<title type="alt">No. 210. (A.R. No. 394 of 1918). SHIYĀLI, SHIYALI TALUK, TANJORE DISTRICT. ON THE EAST WALL OF THE FIRST PRĀKĀRA OF THE BRAHMAPURĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv12p0i0210</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is a damaged inscription dated in the <hi rend="bold">19th year.</hi> It records a grant of land by <hi rend="bold">Dēvargaḷdēvaṉ</hi> of Gūḍalūr in Jayaṅgoṇḍaśōḻa-vaḷanāḍu for providing offerings to the god, evidently at Shiyāli.</p>						
+
+						<p>The astronomical details of date given in the inscription correspond to A.D. 1263, January 24, Wednesday. The regnal year quoted is an expired one.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-04-29" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-04-25" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> sa</hi> kalapuvaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>kopperuñciṅkatevarkku yāṇṭu <num value="19"><g type="numeral">10</g> 9</num><g type="dash"/>tāvatu makara nāyaṟṟu pū<hi rend="grantha">rvvapakṣa</hi> ttu catu<hi rend="grantha">rdaśi</hi> yum <hi rend="grantha">budha</hi> <unclear>ṉ</unclear><gap reason="lost" quantity="3" unit="character"/> <unclear>ṭu</unclear> tiruk<gap reason="lost" quantity="2" unit="character"/>
+<lb n="2"/>ṭu veṇ<unclear>ṇaiyūr</unclear>nāṭṭu Olaiyāmaṅkalattu kāṇiuṭaiya <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻavaḷanāṭṭu kūṭalū ruṭaiyāṉ tevarkaḷ tevaṉ<gap reason="lost" quantity="5" unit="character"/> tanta <unclear>ni</unclear><gap reason="lost" quantity="4" unit="character"/>
+<lb n="3"/>pallavarayar pakkal vilaikoṇṭa kācil veṇkuḻayaṉ Eṉṟu peruṭaiya nilattukku kiḻpāṟ kellai cūḷai Aṭivāy<unclear>k</unclear><gap reason="lost" quantity="3" unit="character"/> varampuk<gap reason="lost" quantity="3" unit="character"/>
+<lb n="4"/>Inta Āṭkoṇṭavilliyeṉ nilattukku teṟkkum Innāṉkellaiuḷ naṭuvupaṭṭa nila<supplied reason="omitted">m</supplied> <hi rend="grantha">2�</hi> Itil kiḻakkaṭaiya taṭi Oṉ<gap reason="lost" quantity="4" unit="character"/> pāḷacca<gap reason="lost" quantity="2" unit="character"/>
+<lb n="5"/>ṅka viṭṭu pukaḻāparaṇaṉ Eṉṟu peruṭaiya nilattukku kiḻpāṟkellai perurkiḻavaṉ periya tevar nilattukku meṟkkum I<gap reason="lost" quantity="3" unit="character"/> ṭakkum<gap reason="lost" quantity="5" unit="character"/>
+<lb n="6"/>pperāṟṟukkum maturāntakapperāṟṟukkut teṟku<unclear>m</unclear> Iṉṉāṉkellaiyuḷ naṭuvupaṭṭa nilam<hi rend="grantha">1�tma</hi> <g type="dash"/>m teṟkilp pukaḻa<gap reason="lost" quantity="3" unit="character"/> ṉeṉṟu pe<gap reason="lost" quantity="3" unit="character"/>
+<lb n="7"/>lukku vaṭakkum melpāṟkellai Uṭciṟuvāykkālukkuk kiḻakkum vaṭapāṟkellai cūralūr kiḻavaṉ vāykkālukkut �<gap reason="lost" quantity="3" unit="character"/>
+<lb n="8"/>Ūr viḻukkāṭṭuppaṭi pottakam Eṟṟivanta nilam Innāyanāṟku tiruppari<gap reason="lost" quantity="2" unit="character"/> Amutu ceytaruḷa tirunāmattukkāṇi Āka kuṭutte(ta)ṉ <unclear>kū</unclear><gap reason="lost" quantity="2" unit="character"/>
+<lb n="9"/>ḻaiyūruṭaiyāṉ tirucciṟṟampalamuṭaiyāṉ Āṭkoṇṭanāyakaṉe<supplied reason="omitted">ṉ</supplied> Eḻu<unclear>tteṉṟum</unclear> In nilam Intak kūṭalūruṭaiyāṉ Āṭkoṇṭavil<gap reason="lost" quantity="3" unit="character"/>
+<lb n="10"/>Akaḷaṅkappallavarayaṉe ṉeṉṟum Ippaṭi Aṟiveṉ <unclear>ku</unclear>ḻaiyūruṭaiyāṉ puli<unclear>yūr</unclear> Uttama coḻaṉe ṉeṉṟum Ippaṭi Aṟiveṉ kuḻaiyūru�<gap reason="lost" quantity="3" unit="character"/>
+<lb n="11"/>ṉātappallavaraiyaṉe ṉeṉṟum Ippaṭi Aṟiveṉ pañcavaṉ māteviyāṉa kulottuṅkacoḻaccaru ppe<hi rend="grantha">ti</hi> maṅkalattu <unclear>Ā</unclear>curi ma<hi rend="grantha">hāde</hi>va<hi rend="grantha">bhaṭṭa</hi> ṉe<gap reason="lost" quantity="4" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+<p>The inscription is built in at the end and some of the inscribed stones are missing.</p>
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 12.210 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:VenkatasubbaAyyar1943_01"/>
+			<citedRange unit="page">128</citedRange>
+			<citedRange unit="item">210</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
