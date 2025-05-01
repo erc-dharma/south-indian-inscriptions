@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.11: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 11. (A.R. No. 413 of 1904.) TIRUCHCHIRĀPPAḶḶĪ, TIRUCHCHIRAPPALLI TALUK, TIRUCHIRAPPALLI DISTRICT. ON A PILLAR IN THE UPPER ROCK-CUT CAVE OF THE HILL.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>	
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0011</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This record engraved in archaic Tamil characters with <hi rend="italic">puḷḷis</hi> marked for basic consonants, is dated in the 9th year opposite to the 4th year of the reign of <hi rend="bold">Māṟañjaḍaiyaṉ</hi>, who is referred to also as <hi rend="bold">Pāṇḍyādhipati-Varaguṇa.</hi> The king is stated to have given 537 <hi rend="italic">kaḻañju</hi> of gold to•••••••••••••••• -nāṭṭu-vēḷāṉ, out of which four gold <hi rend="italic">paṭṭams</hi> and a gold flower were made for decorating the God Tirumalai-Perumāṉaḍigaḷ. The astronomical details contained in the record are unfortunately mutilated.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-01" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="undefined"><g type="danda">.</g></supplied> komāṟañ<note n="7-1">The ends of the lines are completely worn out.</note> <gap reason="lost" quantity="4" unit="character"/> ṇṭu <gap reason="lost" quantity="2" unit="character"/> 
+                    <lb n="2"/>ṉkāvati ṉetir ro<unclear>ṉ</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="3"/>yaṟṟu veḷḷikkiḻa<unclear>mai</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="4"/>malaip perumāṉaṭikaḷu<unclear>kku</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="5"/>ṉa <hi rend="grantha">pāñjyādhi</hi>pati varakuṇa <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="6"/>ṭṭu veḷāṉ kaiyil viṭutan <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="7"/>ñnūṟu I<hi rend="grantha">vai</hi> Oru kācu<unclear>k</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="8"/>m<hi rend="grantha">ai</hi>ñcāṭi Um kuṉṟiyā <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="9"/>ṉ Ainūṟṟu muppatteḻu kaḻai <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="10"/>Ip poṉṉil nānūṟṟu kaḻaiñcu <unclear>po</unclear>
+                    <lb n="11" break="no"/>ṉnūl ce<supplied reason="omitted">y</supplied>tu tirumeṉi cāt <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="12"/><unclear>ṟ</unclear>paṭṭa nāṉku nūṟṟumuppat <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="13"/>carai poṉṉāl ceytu tirum<unclear>e</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="14"/>tta poṟ<unclear>pūvu</unclear> Oṉṟu I<hi rend="grantha">vai <gap reason="lost" quantity="4" unit="character"/> </hi>
+                    <lb n="15"/>yum pātamulamum nakarat <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="16"/>tu <unclear><g type="ddanda">.</g></unclear> Itu <hi rend="grantha">panmāhe</hi> <gap reason="lost" quantity="4" unit="character"/>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.11 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">7</citedRange>
+                        <citedRange unit="item">11</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

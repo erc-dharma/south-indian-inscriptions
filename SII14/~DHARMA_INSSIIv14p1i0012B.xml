@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.12B: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 12B. (A.R. No. 121 of 1928-29.) LĀLGUḌI, LALGUDI TALUK, TIRUCHIRAPPALLI DISTRICT. ON THE NORTH WALL OF THE SAPTAṚISHĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>	
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0012B</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This record of <hi rend="bold">Māṟañjaḍaiyaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Pāṇḍyakulapati Varaguṇa Mahārāja</hi> registers the gift of 120 <hi rend="italic">kāśu</hi> by the king for burning a perpetual lamp in the temple of Mahādēva at Tiruttavattuṟai in uḍaiyāṟṟu-nāḍu. The king is stated to have transmitted the gift through a certain Aṇḍanāṭṭu-Vēḷāṉ and the money was received by the assembly of Iḷamperuṅkāyirukkai in Iḍaiyāṟṟu-nāḍu who agreed to supply one <hi rend="italic">nāḻi</hi> of ghee for burning the lamp.</p>						
+                            
+                            <p>The inscription is dated in the year 4+9 of the king's reign and the details of date, viz., Dhanus, Śadaiyam (Śatabhishaj), and Tuesday have been equated with 824 A. D. November 29, and the king is identified with Varaguṇa I<note n="9-1">[See <hi rend="italic">Ep. Ind.</hi>, Vol. XXVIII, p. 39 where the king is identified with Varaguṇa II and the details are equated with 875 A. D. December 6—Ed. ].</note></p>						
+                            
+                            <p>(Published in <hi rend="italic">Epigraphia Indica</hi>, Vol. XX, pp. 46 ff.)</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-01" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> komāṟañcaṭaiyarkku yāṇṭu 4- vatiṉ Etir 9 Āmāṇṭu <hi rend="grantha">dha</hi>nu<hi rend="grantha"/> nāyiṟṟu cevvā<supplied reason="omitted">y</supplied>kkiḻamai peṟṟa cataya<surplus>ma</surplus>ttu <unclear>nāḷ I</unclear>
+                    <lb n="2" break="no"/>ṭaiyāṟṟu nāṭṭu tiruttavattuṟai <hi rend="grantha">m<choice><sic>ā</sic><corr>a</corr></choice>hā</hi><hi rend="grantha">de</hi>varkku Iravum pakalum cantirātittaval Iraṇṭu no<unclear>ntāttiruviḷakku</unclear>
+                    <lb n="3" break="no"/>erippatāka komāṟañcaṭaiyaṉ<choice><sic>a</sic><corr>ā</corr></choice>yiṉa <hi rend="grantha">pāṇḍya</hi>kulapati varakuṇa<hi rend="grantha">m<choice><sic>ā</sic><corr>a</corr></choice>hā</hi>rāyar Aṇṭanāṭṭu veḷāṉ k<unclear>ai</unclear>yi<unclear>lk kuṭutta pa</unclear>ḻa<unclear>ṅ</unclear>
+                    <lb n="4" break="no"/>kācu <num value="120"><g type="numeral">100</g> 2 <g type="numeral">10</g></num> nūṟṟirupatu kācu<choice><sic>ṅ</sic><corr>m</corr></choice> muta<unclear>l</unclear> ke<unclear>ṭā</unclear>maiy poli<unclear>yū</unclear>ṭṭiṉāl nicati nā <gap reason="lost" quantity="9" unit="character"/> 
+                    <lb n="5"/>Aḷappomāyinom Ippaṭi Oṭ<unclear>ṭi</unclear> Ikkācu koṇṭo<unclear>m</unclear> Iṭaiyāṟṟu nāṭṭu Iḷamperuṅkāy Iruk<unclear>k</unclear>ai <unclear><hi rend="grantha">sabh</hi>aiyo</unclear>
+                    <lb n="6"/>m <supplied reason="undefined"><g type="danda">.</g></supplied> Iññey nicati Irunāḻiyum muṭṭil muṭṭiraṭṭiyum mulap<unclear>pa</unclear>ṭṭa <hi rend="grantha">panmāheśvarare sabhai</hi>yākavum tanittākavum ni <gap reason="lost" quantity="9" unit="character"/> 
+                    <lb n="7" break="no"/>ḷḷiṭṭa tāṉ veṇṭu koviṉukku pukka �ḷ a Aññūṟu kāṇam taṇṭamiṭa Oṭṭikkuṭuttom tiruttavattuṟai <hi rend="grantha">mahāde</hi>varkku <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.12B by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">9</citedRange>
+                        <citedRange unit="item">12B</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

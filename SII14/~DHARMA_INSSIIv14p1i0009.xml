@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.9: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 9. (A.R. No. 136 of 1908.) TIRUPPATTŪR, TIRUPPATTUR TALUK, RAMANATHAPURAM DISTRICT. ON A SLAB IN THE FIRST prākāra OF THE TIRUTTAḶĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>	
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0009</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription of <hi rend="bold">Māṟañjaḍaiyaṉ</hi> is dated in the 4th year opposite to the 6th, which apparently is a wrong citation for 4+6th year. The Sanskrit <hi rend="italic">ślōka</hi> at the beginning states that Paṭṭā, the daughter of Māṟaṉ and the wife of Śaṅkara donated 10 <hi rend="italic">dināra</hi> for a lamp to the god Śrīsthalīśa. The Tamil portion records the same fact in greater detail. The <hi rend="italic">brāhmaṇa</hi> Mōśi Kaṇḍaṉ Śaṅkaraṉ is stated to be the son fo the <hi rend="italic">kiḻār</hi> of Arukandūr and the amount of gift is specified as 10 <hi rend="italic">kāśu.</hi> The endowment was left under the protection of <hi rend="italic">Āyiratteḻunūṟṟuvar.</hi> What exactly is meant by this name is not clear.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-01" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+                
+                <p xml:lang="san-Latn" rendition="class:grantha maturity:vernacular">
+                    <lb n="1"/>svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                <p xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">                    
+                    <lb n="2"/>dīpārttham śrīsthalīśāya
+                    <lb n="3"/>dinārāṇām daśādiśat
+                    <lb n="4"/><unclear>pa</unclear>ṭṭākhya māratanayā śaṅ
+                    <lb n="5" break="no"/>karasya priyā satī <g type="ddanda">.</g><g type="dashLong">.</g>
+                </p>
+                <p>
+                    <lb n="6"/>komāṟañcaṭaiyaṟku yāṇṭu
+                    <lb n="7"/>Āṟu Etir nāṉku Ivvā
+                    <lb n="8"/>ṇṭu <unclear>A</unclear>rukantūr kiḻār makaṉ
+                    <lb n="9"/>moci kaṇṭañ caṅkaraṉ pi
+                    <lb n="10" break="no"/>rāmaṇi māṟam paṭṭattā
+                    <lb n="11" break="no"/>ṉ tirupputtūrt tiru<unclear>t</unclear>
+                    <lb n="12" break="no"/>taḷip perumāṉaṭikaḷu
+                    <lb n="13" break="no"/>kku nontāviḷak keriya <unclear>v</unclear>ai
+                    <lb n="14" break="no"/>tta kācu pattu <supplied reason="undefined"><g type="danda">.</g></supplied> Ivai kātto
+                    <lb n="15" break="no"/>ppā rāyirat teḻunūṟṟu
+                    <lb n="16" break="no"/>varaṭi yeṉa talai mela
+                    <lb n="17" break="no"/><unclear>ṉa</unclear><note n="5-2">The last line is obliterated. It may have contained a few syllables like ‘<hi rend="italic">Svasti Śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied>’.</note> <gap reason="lost" quantity="5" unit="character"/> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.9 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">5</citedRange>
+                        <citedRange unit="item">9</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
