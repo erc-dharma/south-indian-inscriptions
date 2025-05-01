@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.222: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 222. (A.R. No. 54 of 1930-31). TIRUKKŌḌIKĀVAL, KUMBAKONAM TALUK, TANJORE DISTRICT. ON THE EAST WALL (OUTSIDE) OF THE FIRST PRĀKĀRA IN THE TIRUKKŌḌĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0222</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription, also dated in the <hi rend="bold">22nd year,</hi> registers a remission deed <hi rend="italic">(iṟaimuṟaipramāṇa-iśaivu-tīṭṭu)</hi> given by the <hi rend="italic">dēvakaṉmis</hi> of the temple at Tirukkōḍikā in Nallāṟṟūr-nāḍu, a subdivision of Virudarājabhayaṅkara-vaḷanāḍu, to Maṉuvūruḍaiyār Varantarum Kūttapperumāḷ residing at Gaṅgaikoṇḍaśōḻapuram. The latter set up the image of Tirupperunduṟai-Āḷuḍaiyār in the temple and presented 200 <hi rend="italic">kuḻi</hi> of tax-free land and 150 <hi rend="italic">kāśu</hi> for expenses to the temple authorities.</p>						
+                            
+                            <p>The date of the record, according to the details given, is A.D. 1264, October 9, Thursday, the month being Tulā which is damaged in the inscription. </p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-01" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti <unclear>śrī</unclear></hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> cakalapuvaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi> kopperuñciṅkatevarkku yāṇṭu <num value="22">2 <g type="numeral">10</g> 2</num><g type="dash"/><unclear><g type="vatu"/></unclear><!--<note n="136-1">Expressed by symbol.</note>--> Irupattiraṇṭāvatu <gap reason="lost" quantity="5" unit="character"/> <hi rend="grantha">Aparapakṣa</hi>ttu <hi rend="grantha">tri</hi>tiyaiyum viyāḻakkiḻa
+                    <lb n="2" break="no"/>maiyum peṟṟa Urocaṇināḷ virutarā<hi rend="grantha">ja</hi>payaṅkaravaḷanāṭṭu nallāṟṟūrnāṭṭu Uṭaiyār tirukkoṭikāvuṭaiyār k<unclear>o</unclear><!--kāl unclear only--> <gap reason="lost" quantity="8" unit="character"/> var te<unclear>vaka</unclear>ṉmika<unclear>ḷo</unclear>m<!--kompu is clear--> Iṟaimuṟai
+                    <lb n="3" break="no"/>p piramāṇa Icaivutiṭṭu <supplied reason="undefined"><g type="danda">.</g></supplied> <hi rend="grantha">ga</hi>ṅkaikoṇṭacoḻapurattu Irukkum maṉuvūruṭaiyār varantarum kūttapperumāḷukku Iṉṉāyaṉār <unclear>teva</unclear>tāṉam tirukkoṭikāvil <unclear>tiyā</unclear>
+                    <lb n="4" break="no"/>kaviṉotaviḻupparaiyar kāṇiyāṉa Aṟupatu varicaiyum Antar<unclear>ā</unclear>yamum Iṟukkum kollaiyil Ivar pakkal vilaikoṇṭa nilam Araimāvum Ivar taṅkaḷ kurukkaḷ <unclear>varam</unclear>
+                    <lb n="5" break="no"/>tarum kūttapperumāḷukkut <hi rend="grantha">dā</hi>ṉamākak kuṭutta nilam Araimāvum Āka nilam Oru māviṉāl kuḻi nūṟum Ikkuḻi nūṟum Ippaṭiyāl koṇṭu kuru<hi rend="grantha">stā</hi>ṉamākat tiruppe
+                    <lb n="6" break="no"/>runtuṟai Āḷuṭaiyārait tevar <hi rend="grantha">svā</hi>mitevar tirumukamum koṇṭuvantu Iṉṉāyaṉār koyil <hi rend="grantha">stā</hi>ṉattārkkum Ivvūrt tirukkākkaḷḷi niyāyattārkkum kāṭṭi Ivar
+                    <lb n="7" break="no"/>kaḷoṭum kūṭat tirupperuntuṟai Āḷuṭaiyārai <hi rend="grantha">pra</hi>ti<hi rend="grantha">ṣṭi</hi>ttamaiyil Iṉṉilakkuḻi nūṟṟukkum nellu Aṟukalattukkum Iṉṉilakkuḻi nūṟum <hi rend="grantha">śrī</hi> koyilum tirumuṟṟamum Ākaiyi
+                    <lb n="8" break="no"/>l Iṉṉilattāl nellu Iṟaiyili ceyyaveṇṭukaiyil Innellu Aṟukalattukkum Iṉṉā<supplied reason="omitted">ya</supplied>ṉār tevatāṉam kaṇṇamaṅkalam nūṟṟu Aṟupatin kalavaricai Iṟukkum nilattu te
+                    <lb n="9" break="no"/>varkku Iṟaimuṟaimaiyāl varum nellu nikki I<unclear>ṟ</unclear>ai<unclear>mi</unclear>kuti varum nellu Aṟukalattukkum paṟṟi Innilakkuḻi nūṟṟukku koṇṭu viṭṭa nilakkuḻi Irunūṟṟiṉāl <g type="nilam"/> <gap reason="lost" quantity="6" unit="character"/> 
+                    <lb n="10"/>lukku Uṭalāka koṇṭu Ikko<unclear>llai nilak</unclear> kuḻi nūṟum Ivar Eḻuntaruḷuvitta tirupperuntuṟai Āḷuṭaiyār Iṟaiyiliyāka Aṉupavikkakaṭavarākavum Ikko<unclear>llai</unclear> <gap reason="lost" quantity="7" unit="character"/> 
+                    <lb n="11"/>ṉāl Iṟukkum nellu Aṟukalattukku Iṉṉāyaṉār tevatāṉam kaṇṇamaṅkalattuk koṇṭu viṭṭakuḻi Irunūṟṟiṉāl nilam Iraṇṭu māvum tirunāmattukkāṇiyāka Iṉṉāyaṉār Aṉu<unclear>pavikka</unclear>
+                    <lb n="12" break="no"/>kaṭ<unclear>ai</unclear>varākavum cammatittu Iṟaimuṟaimai <hi rend="grantha">pra</hi>māṇam paṇṇiṉamaiyil Iṉṉilam Iraṇṭu māvukkum Uyyakkoṇṭārva<unclear>ḷanāṭṭu</unclear> tirunāki<hi rend="grantha">śva</hi>rattu Irukkum viyāpārikaḷil cirā<supplied reason="omitted">ma</supplied>ṉ <unclear>marutā</unclear>ntu kiḻavaṉ vitiviṭaṅkap
+                    <lb n="13" break="no"/>perumāḷ pakkal vilaikoṇṭa <hi rend="grantha">pra</hi>māṇam Uṭaiyār tirukkoṭikāvuṭaiya nāyaṉār <hi rend="grantha">śrī</hi>paṇṭārattu Oṭukkiṉamaiyil muṉṉāḷil tirupperuntuṟai Āvuṭaiyārai <hi rend="grantha">pra</hi>ti<hi rend="grantha">ṣṭi</hi>kkiṟa Iṭattu Iṉṉāyaṉār tevatāṉam tiru
+                    <lb n="14" break="no"/>kkoṭikāvil kollainilattu vilaikoṇṭa tāṉattālum tiyākaviṉotaviḻupparaiyar pakkal peṟṟa kuḻi nūṟṟiṉāl nellu Aṟukalattukkum nellu Iṟuttal Iṉṉilattukku <unclear>niṅka</unclear>lāka vanta <g type="nilam"/> <seg rend="check"><unclear>2 �</unclear></seg> <unclear>Innila</unclear><supplied reason="omitted">m</supplied>
+                    <lb n="15"/>Iraṇṭumāvum tirunāmattukkāṇiyākak koṇṭu tarutal ceyyaveṇum Eṉṟu Ikkoyil tāṉattārum <hi rend="grantha">śrī</hi>mā<hi rend="grantha">hēśva</hi>rarum co <gap reason="lost" quantity="8" unit="character"/> <unclear>Ippaṭi</unclear>yāka vanta nilam Ira<supplied reason="omitted">ṇ</supplied>ṭu māvum Iṉṉāyaṉār tevatā
+                    <lb n="16" break="no"/>ṉatte tirunāmattukkāṇiyākak koṇṭu viṭuvatākavum Ikkollai nilak kuḻi nūṟṟiṉāl Iṟukkum nellu Ittirupperuntuṟai Āvuṭaiyārkku I <gap reason="lost" quantity="5" unit="character"/> kaṭavutākavum Itti yākaviṉotaviḻupparaiyar <hi rend="grantha">śrī</hi> paṇṭārattukku tiṭṭu
+                    <lb n="17" break="no"/>t tarukaiyil Iṉṉilakkuḻi Irunūṟṟukkum marutāntu kiḻavaṉ vitiviṭaṅkapperumāṉ pakkal koṇṭu tirunāmattukkāṇiyāka viṭṭu vilaikoṇṭa <gap reason="lost" quantity="4" unit="character"/> mum cipaṇṭārattu Oṭukki Ittiyākaviṉotaviḻupparai<unclear>yar</unclear> Iṭṭa tiṭṭum <hi rend="grantha">śrī</hi>pa 
+                    <lb n="18" break="no"/>ṇṭārattiniṉṟum Ivarkkup puṟappiṭukaiyilk kuḻi nūṟṟiṉāl Iṟukkum nellu Aṟukalamum Iṉṉilattāl varuvaṉavum Ittirupperuntuṟai Āvuṭaiyārkku Iṟaiyili ceytu kuṭut tamaikkum Iṟukkum nellukkut talaimāṟu Iraṭṭiyāka
+                    <lb n="19"/>koṇṭu tanta nilakkuḻi Irunūṟum kaiykkoṇṭamaikkum Uṭaiyār tiru<supplied reason="omitted">k</supplied>koṭikāvuṭaiya nāyaṉār tirunaṭaimāḷikaiyile <unclear>kallum</unclear> veṭṭi Ittiru<unclear>pperu</unclear>ntuṟai Āvuṭaiyār <hi rend="grantha">śrī</hi>koyilile Innilak kuḻi nūṟṟiṉāl nellu Aṟukalattu
+                    <lb n="20" break="no"/>kkum Iṟaiyili ceytu kuṭuttamaikkum nellukku Iraṭṭiyāka paṟṟi tirunāmattakāṇiyāka koṇṭu tanta viḷainilak kuḻi Irunūṟum kaikoṇṭamaikkum <unclear>tirupperun</unclear>tuṟai Āvuṭai yār tirumatuḷile kalveṭṭik kuṭukkakkaṭavatākavum cammatittu
+                    <lb n="21"/>Iṟaimuṟaimai tiṭṭuk kuṭut<supplied reason="omitted">ta</supplied>maikku Uṭaiyār tirukkoṭikāvuṭaiyārkku tiruppaṇikku Uṭalāka tanta kācu nūṟṟuAim<supplied reason="omitted">pa</supplied>tu Ikkācu nūṟṟuaimpatum Iṉ<unclear>ṉāyaṉār</unclear> <gap reason="lost" quantity="6" unit="character"/> kak <unclear>koṇṭu</unclear> Iṟaimuṟaimait tiṭṭuk kuṭuttom <supplied reason="undefined"><g type="danda">.</g></supplied> Ittiru
+                    <lb n="22" break="no"/>pperuntuṟai Āvuṭaiyārai Eḻuntaru<supplied reason="omitted">ḷu</supplied>vitta maṉuvuruṭaiyār varantarum kūttapperu māḷukku <supplied reason="undefined"><g type="danda">.</g></supplied> Uṭai<unclear>yār tirukkoṭikā</unclear>vuṭaiyār koyil Āticaṇṭe<hi rend="grantha">śva</hi>ratevar kaṉmikaḷom <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭikku Ivai koyilkaṇakkaṉ kaṇṇama<unclear>ṅ</unclear>kalamuṭaiyāṉ <hi rend="grantha">śrī</hi>mā
+                    <lb n="23" break="no"/><hi rend="grantha">heśva</hi>rappiriyaṉ Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭikku Ivai tevarkaṉmi ko <gap reason="lost" quantity="2" unit="character"/> ppaṭṭaṉ Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ivai tevarkaṉmi tirucciṟṟampalappaṭṭaṉ Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭikku <hi rend="grantha">śrī</hi>kāriyam ka <gap reason="lost" quantity="3" unit="character"/> ṭaiyāṉ Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭikku Ivai Ikkoyil caiyvācāriyam <unclear>t</unclear>e
+                    <lb n="24" break="no"/>varā<hi rend="grantha">ja</hi>paṇṭitaṉ Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭikku Ivai periyanampi paṭṭaṉ Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭikku Ivai tiru ñāṉacampantaṉ Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭikku Ivai ti<supplied reason="omitted">ru</supplied>cciṟṟampalapaṭṭaṉ makaṉ Āvu <gap reason="lost" quantity="4" unit="character"/> yaṉ Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭikku Ivai <hi rend="grantha">śrī</hi>mā<hi rend="grantha">heśva</hi>rakkaṇkāṇi koṭṭāṟu
+                    <lb n="25" break="no"/>ṭaiyāṉ tiruñāṉacampantaṉ Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭikku Ivai tevarkaṉmi Uttamapaṭṭaṉ Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭi Aṟiveṉ kaḷattuṭaiyāṉ puliyūrnāṭṭu viḻupparaiyaṉeṉ <g type="pc">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.222 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">135-137</citedRange>
+                        <citedRange unit="item">222</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
