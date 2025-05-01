@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 12.231: original edition by V. Venkatasubba Ayyar</title>
+				<title type="alt">No. 231. (A.R. No. 431 of 1921). TIRUVEṆṆAINALLŪR, TIRUKKOYILUR TALUK, SOUTH ARCOT DISTRICT. ON THE WEST WALL OF THE MAṆḌAPA CONTAINING THE SŌMĀSKANDA IMAGES IN THE KṚIPĀPURĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv12p0i0231</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription, also of the <hi rend="bold">27th year,</hi> records the gift of a pair of silver trumpets called ‘Pichchaṉeṉṟu-pāḍachchoṉṉāṉ’ weighing 55 <hi rend="italic">kaḻañju</hi> and a gold anklet weighing 2 <hi rend="italic">kaḻañju</hi> to the god Āṭkoṇḍadēva at Tiruveṇṇainallūr by the <hi rend="italic">Madhyastha</hi> Udaiyaṉ Śrī-Kayilāyamuḍaiyāṉ of Śeñji.</p>						
+
+						<p>The astronomical details given are regular for A.D. 1268, March 28, Wednesday; but this date falls in the 25th year of the chief. In the 27th year <hi rend="italic">i.e.,</hi> A.D. 1270, the nearest equivalant is April 6, but the week-day is Sunday, not Wednesday as cited in the record.</p>						
+
+						<p>The name ‘Pichchaṉeṉṟu-pāḍachchoṉṉāṉ’ has reference to the god at this place and to the tradition that saint Sundara was directed by the god to address him as ‘Pittaṉ <hi rend="italic">i.e.,</hi> Pichchaṉ.’</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-01" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-04-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> sakalabhu</hi> vanacca<hi rend="grantha">kra</hi> vattikaḷ <hi rend="grantha">śrī</hi> kopperuñciṅkatevaṟkku yāṇṭu <num value="27">2 <g type="numeral">10</g> 7</num><g type="dash"/>vatu
+<lb n="2"/><hi rend="grantha">meṣa</hi> nāyaṟṟu <hi rend="grantha">pūrvapakṣa</hi> ttu <hi rend="grantha">ca</hi>tu<hi rend="grantha">rddaśi</hi> yu<hi rend="grantha">m</hi> putaṉkiḻamaiyum peṟṟa <hi rend="grantha">A</hi> tta<supplied reason="omitted">t</supplied>tu nāṉ tiruveṇṇai
+<lb n="3" break="no"/>nallūr Uṭaiyār Āṭkoṇṭatevaṟku <hi rend="grantha">madhyasta</hi> ṉ ceñciuṭaiyāṉ Utaiyaṉ <hi rend="grantha">śrī</hi> kaiyi
+<lb n="4" break="no"/>lāyamuṭaiyāṉ Iṭṭa piccaṉ Eṉṟu pāṭa<supplied reason="omitted">c</supplied>coṉṉāṉ tirucciṉṉam Iraṇṭiṉāl veḷḷi
+<lb n="5"/>Eṭai Aimpattu Aiṅkaḻañcum Āvuṭaiyanāyaṉār cipāta<supplied reason="omitted">t</supplied>tu cāttiṉa koṭiuṭaṉko
+<lb n="6" break="no"/>tta kālkāṟaiuṭaṉ Oṉpatu māṟṟil poṉ Irukaḻañcu <supplied reason="undefined"><g type="danda">.</g></supplied> Itu paṉ<hi rend="grantha">māheśara rakṣai <g type="ddanda">.</g><g type="pc"/></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 12.231 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:VenkatasubbaAyyar1943_01"/>
+			<citedRange unit="page">145</citedRange>
+			<citedRange unit="item">231</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

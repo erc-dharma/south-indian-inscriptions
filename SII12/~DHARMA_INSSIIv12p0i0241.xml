@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 12.241: original edition by V. Venkatasubba Ayyar</title>
+				<title type="alt">No. 241. (A.R. No. 300 of 1919). ON THE SOUTH WALL OF THE MAṆḌAPA IN FRONT OF THE CENTRAL SHRINE OF THE SAME TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv12p0i0241</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription of the <hi rend="bold">32nd year</hi> records a gift of land by <hi rend="bold">Vaṉṉiyanāyaṉ Chēdirāyaṉ</hi> to Bhāradvāji Va[ra*]ntandān Dēvaṉ, a Brāhmaṇa of the village, for supplying on festival days, sandal paste, scented powder and incense for the sacred bath of the god Tiruvagattīśuramuḍaiya-Nāyaṉār at Āvūr.</p>						
+
+						<p>The details of date given in the record are not regular. The intended date is probably A.D. 1274, April 8, Sunday.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-01" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-04-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> cakalapuvaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>koppe<supplied reason="omitted">ru</supplied>ñciṅkatevaṟku yāṇṭu <num value="32">3 <g type="numeral">10</g> 2</num><g type="dash"/>Āvatu <hi rend="grantha">meṣa</hi>nā<hi rend="grantha"/>
+<lb n="2" break="no"/>yaṟṟu <hi rend="grantha">pūrvapakṣa</hi> ttu <hi rend="grantha">pradhamai</hi> yum nāyaṟṟukkiḻamaiyum mulamum peṟṟanāḷ Āvūr Uṭaiyār tiruvakatti
+<lb n="3" break="no"/>curamuṭaiya nāyaṉāṟku tirunāḷai<supplied reason="omitted">k</supplied>ku tiruccāntu cā<supplied reason="omitted">t</supplied>tavum tiruvāypaḻavam tirumañcaṉa tiraviyamum
+<lb n="4"/>citāriyum Iṭakkaṭavatāka vaṉṉiyanāyaṉ cetirāyaṉeṉ viṭṭa nilam U� meṟku viḷa<supplied reason="omitted">k</supplied> kueṉ<unclear>ṉai</unclear>
+<lb n="5" break="no"/>paṭṭikku kiḻa<supplied reason="omitted">k</supplied>ku puḷiyañceṟu taṭi 1— ṉṟiṉāl kuḻi<hi rend="grantha"><num value="534">5 <g type="numeral">100</g> 3 <g type="numeral">10</g> 4</num>kha</hi><g type="dash"/>m Ūrpirāmaṇaril pāratuvāci va<supplied reason="omitted">ra</supplied>nta
+<lb n="6" break="no"/>ntāntevaṉukku kāṉiyāka kuṭuttom <supplied reason="undefined"><g type="ddanda">.</g></supplied> Ippaṭi<supplied reason="omitted">k</supplied>ku Itevai muṭṭupaṭāmal ceyakkaṭava tāka <supplied reason="undefined"><g type="danda">.</g></supplied> I<supplied reason="omitted">p</supplied>paṭikku
+<lb n="7"/>cantir<choice><sic>a</sic><corr>ā</corr></choice>tittavarai cellakkaṭavatāka viṭṭom vaṉṉiyanāya(ṉ)neṉ <supplied reason="undefined"><g type="danda">.</g></supplied> Itaṉ<supplied reason="omitted">mam</supplied> māṟuma vaṉ ke
+<lb n="8" break="no"/>ṅkai karaiyil kurālpacuvai koṉṟāṉ <supplied reason="undefined"><g type="danda">.</g></supplied> tāṉṉeṟum kutirai<unclear>k</unclear>ku pu<supplied reason="omitted">l</supplied>lu Iṭukiṟa veṭṭiyā
+<lb n="9" break="no"/>ṉu<supplied reason="omitted">k</supplied>ku<supplied reason="omitted">t</supplied> taṉ miṇāṭṭiyai ku[ṭu<note n="151-1">The letter ṭu is engraved below the line.</note>]<supplied reason="omitted">t</supplied>tiṭuvāṉ <supplied reason="undefined"><g type="danda">.</g></supplied> Itu <hi rend="grantha">śrīmā heśvarar Irakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 12.241 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:VenkatasubbaAyyar1943_01"/>
+			<citedRange unit="page">151</citedRange>
+			<citedRange unit="item">241</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

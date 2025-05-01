@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 12.223: original edition by V. Venkatasubba Ayyar</title>
+				<title type="alt">No. 223. (A.R. No. 192 of 1927-28). TIRUVALAÑJUḺI, KUMBAKONAM TALUK, TANJORE DISTRICT. ON THE BASE OF THE EAST WALL OF THE MAṆḌAPA IN FRONT OF THE CENTRAL SHRINE IN THE KAPARDĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv12p0i0223</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>A gift of land and house-sites in Paḍakkai Koṟṟaṅguḍi <hi rend="italic">alias</hi> Kulōttuṅgaśōḻanallūr, hamlet of Akhilanāyaka-chaturvēdimaṅgalam, made by <hi rend="bold">Sōmaśivaṉ</hi> of <hi rend="bold">Gōmaḍam</hi> to the temple of Tiruvalañjuḻi-Uḍaiyār is recorded in this inscription of the <hi rend="bold">24th year.</hi> The village Koṟṟaṅguḍi may be identified with one of the three villages of the same name in the Kumbakonam taluk.</p>						
+
+						<p>It may be pointed out here that this and the next record come from Tiruvalañjuḻi in the interior of the Tanjore district where inscriptions of Kōpperuñjiṅgadēva are rarely found.</p>						
+
+						<p>The details given for calculating the date of this inscription are not regular.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-01" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-04-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="danda">.</g></supplied> cakalapuvaṉa<unclear>cca</unclear>kkaravattikaḷ <hi rend="grantha">śrī</hi> ko<unclear>pperu</unclear>ñciṅkatevarkku yāṇṭu <num value="24">2 <g type="numeral">10</g> 4</num><g type="dash"/>vatu kumpanāyaṟṟu pū<hi rend="grantha">rvapakṣa</hi>
+<lb n="2" break="no"/>ttu catutte<hi rend="grantha">śi</hi> yu<unclear>m tiṅkaḷ</unclear><unclear>ki</unclear>ḻamaiyum <unclear>peṟṟa</unclear> mulattunāḷ māḷikaitiru<unclear>ma</unclear>ṭattil mutali yār piḷḷaikaḷil ko
+<lb n="3" break="no"/><hi rend="grantha">ma</hi> ṭattu <hi rend="grantha">somaśi</hi> vaṉeṉ <supplied reason="undefined"><g type="danda">.</g></supplied> muta(l)liyār tiru <gap reason="lost" quantity="4" unit="character"/> ka muṉṉāḷ <unclear>kaik</unclear>koṇṭu Uṭaiyeṉāy <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="4"/>ṉutāy Uṭaiyār tiruvalañcuḻiuṭaiyārkku tirunāmattukkāṇi <gap reason="lost" quantity="2" unit="character"/> tirumuṉpu nirvārttu kuṭutta A(ka)kilanāyakaccaru
+<lb n="5" break="no"/><supplied reason="omitted">p</supplied>petimaṅkalattu piṭākai paṭakkai koṟṟaṅkuṭiyāṉa kulottuṅkacoḻanallūr pāṟuvati vatikku kiḻakku ku
+<lb n="6" break="no"/>lottuṅkacoḻavāykkālukku vaṭakku <hi rend="grantha">2-<num value="92">9 <g type="numeral">10</g> 2</num>-</hi><note n="138-1">This symbol stands for kaṇṇāṟu.</note> catirattu nilam<note n="138-2">This symbol stands for nilam.</note> 6<g type="dash"/> mā Itil meṟkkaṭaiya nilam 3 māvum kiḻkkaṭaiya nilam 3
+<lb n="7" break="no"/>mā Itil teṟkkaṭaiya maṉai Uḻpaṭa nilam Araimā Itaṉ vaṭakku taṭi 4 viṟā Itaṉ vaṭakku nilam � yum Āka nilam 4<g type="dash"/> mā kiḻa<unclear>raiyum</unclear>
+<lb n="8"/>Ivatikku mekku <unclear>I</unclear>vāykkālukku vaṭakku 2<g type="dash"/> kuḻi 1<g type="dash"/> catirattu meṟkkuṭaiya nilam <gap reason="lost" quantity="3" unit="character"/> kuṭaiya nilam
+<lb n="9"/><hi rend="grantha">tma</hi><g type="dash"/> yum Ivākkālukku vaṭakku kiḻakkuṭaiya nilam 3<g type="dash"/> mā Itil vaṭakkuṭaiya māṅkaḷūr ma <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="10"/> <gap reason="lost" quantity="1" unit="character"/> vā <gap reason="lost" quantity="1" unit="character"/> nirumāvum pā<hi rend="grantha">rva<supplied reason="omitted">ti</supplied></hi> vatikku kiḻakku kulottuṅkacoḻavatikku vaṭakku nilam 6 mā Itil kiḻkkaṭaiya nilam
+<lb n="11"/>3<g type="dash"/> mā Itil vaṭakkaṭaiya nilam 1<g type="dash"/> mā <gap reason="lost" quantity="4" unit="character"/> Iṅke pā<hi rend="grantha">rva</hi> tivatikku meṟkku kulottuṅ
+<lb n="12" break="no"/>kacoḻavā <gap reason="lost" quantity="4" unit="character"/> 2<g type="dash"/> kuḻi 2<g type="dash"/> catirattu <gap reason="lost" quantity="3" unit="character"/> m Ivatikku kiḻakku Ivāyk kālukku vaṭakku 2<g type="dash"/> kiḻakku<note n="138-1">This symbol stands for kaṇṇāṟu.</note>
+<lb n="13"/><hi rend="grantha"><unclear>2</unclear></hi><g type="dash"/> catirattu ma <gap reason="lost" quantity="2" unit="character"/> nilam <hi rend="grantha">kha</hi> Āka nilam 2<g type="dash"/> māvi <gap reason="lost" quantity="5" unit="character"/> nilam 5<g type="dash"/> yum Ip paṭi <gap reason="lost" quantity="3" unit="character"/> Iṉnilam tirumuṉ
+<lb n="14" break="no"/>pu nirvārttuk kuṭutteṉ <supplied reason="undefined"><g type="danda">.</g></supplied> <hi rend="grantha">śo</hi> ma<hi rend="grantha">śi</hi> vaṉeṉ Ippaṭikku Ivai Eṉ ṉeḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 12.223 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:VenkatasubbaAyyar1943_01"/>
+			<citedRange unit="page">137-138</citedRange>
+			<citedRange unit="item">223</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

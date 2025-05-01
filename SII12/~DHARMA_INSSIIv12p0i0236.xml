@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 12.236: original edition by V. Venkatasubba Ayyar</title>
+				<title type="alt">No. 236. (A.R. No. 291 of 1919). ĀVŪR, TIRUVANNAMALAI TALUK, NORTH ARCOT DISTRICT. ON THE EAST WALL OF THE MAṆḌAPA IN FRONT OF THE CENTRAL SHRINE IN THE RUINED ŚIVA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv12p0i0236</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is an incomplete inscription dated in the <hi rend="bold">30th year</hi><note n="148-1">The regnal year is wrongly given as 3[5] in the <hi rend="italic">Ep. Rep.</hi> for 1919.</note>of the chief. It appears to record the setting up of the image of Astradēva during the administration of <hi rend="bold">Śūrāṇḍār</hi> <hi rend="italic">alias</hi> <hi rend="bold">Jeyaśēvakañ-Chēdiyarāyar</hi> in the temple of Tiruvagattīśvaramuḍaiya-Nāyaṉār at Āvūr in Chēdi-maṇḍalam ‘on the northern bank of the river Peṇṇai’, by the merchants of the Eighteen Divisions, who are introduced with a number of epithets. In other inscriptions this body of merchants is called Tiśai-āyirattu-Aiññūṟṟuvar.<note n="148-2"><hi rend="italic">A.R.</hi> No. 601 of 1902.</note>From the mistakes in the text, the inscription appears to have been engraved by a person not conversant with the matter of the record.</p>						
+
+						<p>Astradēva is a deified weapon which is usually taken out in advance of the processional image during festival days.</p>						
+
+						<p>The astronomical details given in the inscription point to A.D. 1272, September 29, Thursday as its date.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-01" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-04-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> cakalapuvaṉacakkaravattikaḷ <hi rend="grantha">śrī</hi> kop<supplied reason="omitted">p</supplied>eruñci<supplied reason="omitted">ṅka</supplied>teva<supplied reason="omitted">r</supplied>kku yāṇṭu <num value="30">3 <g type="numeral">10</g></num><g type="dash"/>Āvatu nāya(ṉ)ṉār cū
+<lb n="2" break="no"/>r<unclear>ā</unclear>ṇṭārāṉa ce<unclear>ya</unclear>cevakañcetiyarāyar nāḷil <hi rend="grantha">śrī</hi>maṟceṉa(ma)<hi rend="grantha">mahā</hi> poti[naṉta<note n="148-3">ēngraved below the line.</note>]pattaṉ meva<unclear>ṇi</unclear>
+<lb n="3" break="no"/>ka<supplied reason="omitted">r</supplied><unclear>o</unclear>m nāmavaiciya taṉmatāvaḷa <hi rend="grantha">sa haja</hi>ṉa<hi rend="grantha">tā</hi> ri<hi rend="grantha">tri</hi>ya<hi rend="grantha"/> niṟkaṇṭa <hi rend="grantha">sarvagu</hi>ṇa<hi rend="grantha">sam</hi> paṉṉa Ālaṅ
+<lb n="4" break="no"/>keṉapaṟamarāpati <hi rend="grantha">bhuja</hi> mikuparā<hi rend="grantha">krama śrīgaruḍatveśa</hi> tarumāpuri vairāvaṇa cā<supplied reason="omitted">k</supplied>kiyaṟvaḷara kalime
+<lb n="5" break="no"/>liyap pukaḻperuka pakaipaṇiya ticai Aṉaittum ceviṭupaṭāmaṟ ceṅkole mu<supplied reason="omitted">ṉ</supplied>ṉākavum ci
+<lb n="6" break="no"/>yācciṉaiye te<supplied reason="omitted">y</supplied>vamākavum yiṉitu nāṭātti nikaḻāniṉṟa patiṉeṇ <hi rend="grantha">bhū</hi> (m)mi ticai viḷaṅku
+<lb n="7"/>tiṟalāyirattu tikaḻvāṇikarom peṇṇaivaṭakarai cetimaṇṭalattu Āvūr Uṭaiyār tiru
+<lb n="8" break="no"/>vakattii<hi rend="grantha">śuram</hi> Uṭaiya nāyaṉāṟkku tul<choice><sic>a</sic><corr>ā</corr></choice>nāyaṟṟu <hi rend="grantha">pūrvapakṣa</hi>ttu<hi rend="grantha"/> pañcamiyum <unclear>viyā</unclear>ḻa<supplied reason="omitted">k</supplied> kiḻamaiyum
+<lb n="9"/>mulamum peṟṟanāḷ Iṉṉāyanā<unclear>r</unclear>kku <hi rend="grantha">Astrade</hi> varai<note n="148-4">The inscription stops here. The epithets <hi rend="italic">mahā-bōdhi</hi> and <hi rend="italic">Śākkiyar</hi> indicate the Buddhistic origin of the trading corporation.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 12.236 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:VenkatasubbaAyyar1943_01"/>
+			<citedRange unit="page">148</citedRange>
+			<citedRange unit="item">236</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
