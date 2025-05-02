@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 7.85: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 85. (A.R. No. 77 of 1900). IN THE SAME PLACE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv07p0i0085</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-05-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-04-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+	<p>
+		<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> pūmevi vaḷart tiruppoṉ mārvu puṇara nāmevu
+		<lb n="2"/>kalaimakaḷ nalamperitu ciṟappa vicaiyamāmakaḷ velpuyat tiruppa I
+		<lb n="3" break="no"/>caiyiṉ celvi Eṇṭicai viḷakka nirupar vaṉtiṟ<choice><sic>e</sic><corr>ai</corr></choice>ñca niṇilamaṭan=tai
+		<lb n="4" break="no"/>yait tirumaṇampuṇa<supplied reason="omitted">r</supplied>ṉtu cīrvaḷar taruma<supplied reason="omitted">m</supplied> Aṇimuṭi kavin=tana maṇimuṭi cūṭi
+		<lb n="5"/>mallaiñālattu maṉ<hi rend="grantha">nu</hi>yiṟk kellām Ellaiyil Iṉpam Elvini leyti ve
+		<lb n="6" break="no"/>ṇkuṭainiḻaṟ ceṅko locci vāḻi pallūḻi Āḻi naṭappa cempoṉ vīra<hi rend="grantha">siṁ</hi>
+		<lb n="7" break="no"/><hi rend="grantha">hāsa</hi>nattu puvanamuḻutumuṭ<supplied reason="omitted">ai</supplied>yāḷoṭum viṟṟiruṉtaruḷiya korā<hi rend="grantha">ja</hi>keca
+		<lb n="8" break="no"/>ripaṟmarāna tiripuvanaccakkaravattikaḷ <hi rend="grantha">śrī</hi>kulottuṅkacoḻatevaṟkku yāṇṭu Ā
+		<lb n="9" break="no"/>ṟāvatu virukaveṭṭai ponaṭattil cūṟṟi makaṉ ko<unclear>ṅ</unclear>kan celvamuttaraiyaṉ Ecaṭattil
+		<lb n="10"/>virukattai tappi puliyaṉai <unclear>paṭa puli</unclear>yaṉ paṭṭavāṟe paṉṉāṭṭār tiraṇṭu tiruvottū
+		<lb n="11" break="no"/>ruṭ<supplied reason="omitted">ai</supplied>yārkku celvamut<unclear>taraiya</unclear>ṉai Iṭuviccu pakaiAṟa viṭuvicca pacu<surplus>p</surplus> patināṟu <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+	</p>
+	
+</div>
+
+<div type="apparatus"/>
+
+
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 7.85 by <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SubrahmanyaAiyer1932_01"/>
+			<citedRange unit="page">36</citedRange>
+			<citedRange unit="item">85</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
