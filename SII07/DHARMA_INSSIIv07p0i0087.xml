@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 7.87: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 87. (A.R. No. 79 of 1900). IN THE SAME PLACE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv07p0i0087</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-05-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-04-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+	
+	<p>
+		<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> <hi rend="grantha">tribhu</hi>vanacca<hi rend="grantha">kra</hi>vattikaḷ <hi rend="grantha">śrī</hi>kulottuṅkaco
+		
+		<lb n="2" break="no"/>ḻa<hi rend="grantha">de</hi>vaṟkku yāṇṭu <num value="11"><g type="numeral">10</g> 1</num><g type="dash"/>Āvatu Āḷuṭaiyār tiruvottūru
+		
+		<lb n="3" break="no"/>ṭaiyanāyanāṟk<unclear>ku</unclear> ceyyūr murivan pallavarāyan vaitta 
+		
+		<lb n="4"/>tirinuntāvi<supplied reason="omitted">ḷa</supplied>kku Onṟu<supplied reason="omitted">k</supplied>ku par<unclear>ā</unclear>cūrnāṭṭu Iruṅkalai Araicū<unclear>ru</unclear>ṭai
+		
+		<lb n="5" break="no"/>yānpakkal koṇṭu viṭṭa nirnilam karuppucceṟuvu<unclear>m</unclear> tiruve
+		
+		<lb n="6" break="no"/>kampamuṭaiyānum toṭṭacceṟuvu<supplied reason="omitted">m</supplied> taṭi 3<g type="dash"/>nāl kuḻi Āyiramu
+		
+		<lb n="7" break="no"/>m <hi rend="grantha">cantrādi</hi>ttavarai cel<unclear>va</unclear>tāka koṇṭu viṭṭamaikku I
+		
+		<lb n="8" break="no"/>vai Araicūruṭaiyān Eḻuttu Itu panm<choice><sic>a</sic><corr>ā</corr></choice><hi rend="grantha">heśvara rakṣai</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+	</p>
+	
+</div>
+
+<div type="apparatus"/>
+
+
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 7.87 by <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SubrahmanyaAiyer1932_01"/>
+			<citedRange unit="page">36-37</citedRange>
+			<citedRange unit="item">87</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
