@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.3: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">PART I. THE PALLAVAS. No. 3. (C.P. No. 4 of 1915-1916). ŌṀGŌḌU GRANT OF SIṀHAVARMAN: 4TH YEAR.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0003</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This is a Sanskrit charter issued by <hi rend="bold">Dharmamahārāja Siṁhavarman</hi><note>[I think there was only one Siṁhavarman—Ed.]</note> of the Bhāradvāja-gōtra, in his <hi rend="bold">4th year,</hi> in the month of Vaiśākha, śukla-paksha, pañchamī, registering a gift of the village <hi rend="bold">Ōṁgōḍu</hi> in Karmmā-rāshṭra to the scholar Dēvaśarman, a resident of Kuṇḍūr, who belonged to the Kāśyapa-gōtra and Chhandōga-sūtra. As the same village was the object of grant in the previous charter of Vijaya-Skandavarman,<note>No. 1 above.</note> it is possible that that donee, Gōlaśarman had probably died without issue and thus necessitated its reconferment on Dēvaśarman of the Kāśyapa-gōtra, who was probably a member of the collateral branch of the original donee's family.</p>						
+                            
+                            <p>The king is stated to have been the son of Yuva-Mahārāja Vishṇugōpa, grandson of Mahārāja Skandavarman and great-grandson of Mahārāja Vīravarman.</p>						
+                            
+                            <p>As the characters in which the record is incised are later, i.e., of about the 7th century A.D., it has been surmised that it is a later copy of an earlier document.</p>					
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-05" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="commentary">
+                <p>Published in <hi rend="italic">Epigraphia Indica,</hi> Vol. XV, pp. 254 ff. </p>	
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.3 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">1</citedRange>
+                        <citedRange unit="item">3</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
