@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.15: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">NARASIMHAVARMAN I. No. 15. (A.R. Nos. 512-528 of 1907). MAHĀBALIPURAM, CHINGLEPUT TALUK, CHINGLEPUT DISTRICT. IN THE DHARMARĀJA-RATHA.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0015</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>Like the Mahēndravāḍi and Śīyamaṅgalam labels of the Pallava king Mahēndravarman I, the <hi rend="italic">birudas</hi> of <hi rend="bold">Narasiṁhavarman I</hi> are engraved in Pallava-Grantha characters on the Dharmarāja-ratha. As usual, the list of surnames commences with the actual name of the king Śrī-Narasiṁha. The <hi rend="italic">birudas</hi> give an indication of the king's power, wealth, valour, personal charm, ambition, liberality etc. As the temple is called ‘Atyantakāma-Pallavēśvaragṛiham’ in a label engraved in florid characters resembling those found in the Gaṇēśa rock-cut temple in the same village attributable to Paramēśvaravarman I, it may be presumed that the work on this ‘ratha’ was continued in the reign of Paramēśvaravarman and also in that of his son Rājasiṁha, considering the architectual evolution noticeable here from the simple rockcut cave temple of Mahēndravarman I's time. This <hi rend="italic">ratha</hi> is described in the <hi rend="italic">Memoir of the Archaeological Survey of India,</hi> No. 33, p. 25 ff.</p>					
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-05" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+           <div type="commentary">
+                            <p>Published in <hi rend="italic">South Indian Inscriptions,</hi> Vol. I, Nos. 1-17 and <hi rend="italic">Epigraphia Indica,</hi> Vol. X, pages 5-8. </p>	
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.15 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">8</citedRange>
+                        <citedRange unit="item">15</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

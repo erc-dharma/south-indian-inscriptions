@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.21: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">PARAMESVARAVARMAN I. No. 21. (A.R. No. 532 of 1907). IN THE ‘DHAMARĀJA-MAṆḌAPA’ IN THE SAME VILLAGE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0021</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is identical in contents with the previous record and proves that the cave temple now called ‘Dharmarāja-maṇḍapa’ was originally a shrine dedicated to Śiva. It was called <hi rend="bold">‘Atyantakāma-Pallavēśvara-gṛiham’,</hi> after one of the surnames of Paramēśvaravarman. As from the style<note>Two other rock-cut temples at Mahābalipuram viz, Kōṭikal-maṇḍapa and the five-celled Śiva temple close to it, are also of the same style.</note> of its architecture, this <hi rend="italic">maṇḍapa</hi> may be assigned to Mahēndravarman I's time, it is probable, as also suggested by Mr. A.H.Longhurst (<hi rend="italic">Memoir of the Archl. Sur.</hi> No. 33, page 10), that the present inscription was incised later by Paramēśvaravarman I who probably completed it.</p>		
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-05" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="commentary">
+                            <p>Published in <hi rend="italic">South Indian Inscriptions,</hi> Vol. I, No. 19, p. 6 and <hi rend="italic">Epigraphia Indica,</hi> Vol. X, No. 21, pages 10 and 11.</p>				
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.21 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">10</citedRange>
+                        <citedRange unit="item">21</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
