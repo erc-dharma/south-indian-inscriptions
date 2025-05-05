@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>PART I. THE PALLAVAS. SII 12.7A: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">No. 7A. (A.R. No. 386 of 1906). TIRUMAYYAM, PUDUKKOTTAI STATE. ON THE NORTH AND SOUTH WALLS OF THE ROCK-CUT ŚIVA. TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0007A</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This is a fragmentary record engraved in Pallava-Grantha characters of the 7th century A.D. A major portion of the inscription is erased, but from the preserved portion, the names of musical notes such as <hi rend="italic">gāndhāram, pañchamam, dhaivatam, nishādam</hi> etc., can be read. A certain order is noticeable in the arrangement of the notes in seven sections with subsections. Unfortunately the subsections have been so erased as to make it impossible to follow the method adopted here. As the palaeography of the inscription resembles that of the Kuḍimiyāmalai epigraph, this record also may be attributed to the time of Mahēndravarman l.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-05" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="und" rendition="class:nāgarī maturity:undetermined">
+                
+                <p>
+                    <lb n="1"/>namaśśivā<unclear>ya</unclear>
+                    <lb n="2"/>ṛṣabham
+                    <lb n="3"/>gāndhāram
+                    <lb n="4"/>pañcamam
+                    <lb n="5"/>ghaivatam
+                    <lb n="6"/><unclear>ni</unclear>ṣādam
+                    <lb n="7"/>madhyamam<note n="3-1">The remaining portion of the inscription is highly damaged; the continuation of lines 2-7 is also damaged. This inscription in ‘unknown language’ was ordered to be erased in the time of Māṟavarman Sundara-Pāṇḍya and his record of the 7th year was incised in its place (<hi rend="italic">Ins. Puduk. State,</hi> No. 340.) The following inscriptions in Pallava-Tamil characters assignable to the 7th Century A.D., are also found in the same temple. (a) <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">[e]ṉṉai</seg><hi rend="grantha">pramā</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṇañceytu</seg> <hi rend="grantha">vidyāparivādini</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">kaṟ[ka*] <supplied reason="undefined"><g type="danda">.</g></supplied></seg> (b) 1 <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">••••••• ñcolliya puki[ṟ]pa[ru]kkum eṉ[ṉai]</seg> 2 <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">••••• mi mukkan tiruvattuk[ku]m</seg> 3 <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">•••••• ppiyam <supplied reason="undefined"><g type="ddanda">.</g></supplied></seg> (c) 1 <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">kaṟkappaṭuvatu kāraṇa</seg> 2 <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ñcolliya pukiṟparukkum timi</seg> 3 <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">mukkaṭtiruvattukkum u</seg><hi rend="grantha">ri</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ttu <supplied reason="undefined"><g type="ddanda">.</g></supplied></seg> (d) parivādini e The same label in Pallava-Grantha characters is also found engraved inside a rectangular mark in the caves at Malayakkōyil Kuḍimiyāmalai and Tirukgōkarṇam in the State.</note>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.7A by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">3</citedRange>
+                        <citedRange unit="item">7A</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
