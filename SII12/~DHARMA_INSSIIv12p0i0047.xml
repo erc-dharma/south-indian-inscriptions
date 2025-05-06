@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.47: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">Nandivarman III. No. 47. (A.R. No. 158 of 1919). KIḶIYAṈŪR, TINDIVANAM TALUK, SOUTH ARCOT DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE IN THE VAIKUṆṬHAVĀSA-PERUMĀḶ TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0047</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is dated in the <hi rend="bold">3rd year</hi> of <hi rend="bold">Vijaya-Nandivikramavarman</hi> who may be identified with Nandivarman III. It states that a resident of the village Tigaittiṟal built the temple of Tigaittiṟal-Vishṇugṛiha at Kiḷiñelūr in Ōymā-nāḍu and gave 300 sheep for maintaining a sacred lamp and 2 pieces of land <hi rend="italic">(śeṟu)</hi> made tax-free, for providing offerings to the god. In later inscriptions the god is called Vīṟṟirunda-Perumāḷ (<hi rend="italic">A.R.</hi> Nos. 163 and 168 of 1919).</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-06" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kovicaiya nantivikkiramapaṟmakki yāṇṭu muṉṟāvatu O
+                    <lb n="2" break="no"/>ymāṉāṭṭu kiḷiñelūr tikaittiṟal <hi rend="grantha">viṣṇu<unclear>gra</unclear> ham</hi> Eṭu
+                    <lb n="3" break="no"/>ppitta tikaittiṟalār tiruviḷakku<unclear>k</unclear>ku vaitta Āṭu mu<unclear>n</unclear>nūṟum Ivare tiruvamu
+                    <lb n="4" break="no"/>tukku vaitta <hi rend="grantha">śrī</hi>koyiliṉ kiḻai ceṟuviraṇṭum Iṟaiyili <supplied reason="undefined"><g type="danda">.</g></supplied> I<hi rend="grantha"><supplied reason="omitted">dha</supplied>nma</hi> m ra<hi rend="grantha">kṣi</hi><supplied reason="omitted">t</supplied>tār <hi rend="grantha">śrī</hi>pātam Eṉ ṟalaiy <unclear>mela</unclear>tu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.47 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">19</citedRange>
+                        <citedRange unit="item">47</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
