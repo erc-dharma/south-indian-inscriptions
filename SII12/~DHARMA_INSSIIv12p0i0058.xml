@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.58: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">Nandivarman III. No. 58. (A.R. No. 48 of 1914). TIRUVAIGĀVŪR, PAPANASAM TALUK, TANJORE DISTRICT. ON THE SOUTH WALL OF THE MAṆḌAPA IN FRONT OF THE CENTRAL SHRINE IN THE BILVANĀTHĒŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0058</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is dated in the <hi rend="bold">22nd year</hi> of <hi rend="bold">Nandivarmarāja.</hi> It registers a purchase of 1(1/2) <hi rend="italic">vēli</hi> of land called Vaṇṇakkaviḷāgam from the assembly of Tribhuvanamādēvi-chaturvēdimaṅgalam by <hi rend="italic">Śandippeliyār</hi> (probably a person in charge of the conduct of ceremonies in the temple), for burning a lamp and for providing offerings to the god Tiruvaigāvuḍaiya-Mahādēva. The mention of Tribhuvanamādēvi-chaturvēdimaṅgalam as the surname of Tiruvaigāvūr, which is only found in later inscriptions clearly indicates that this is not an exact copy of the original record, though in the last line this epigraph is stated to be a copy of a stone inscription. Judging from palaeography, the inscription may be assigned to the 11th century A.D.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-06" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> nanti<hi rend="grantha">pmarāja</hi><note n="24-1">Read nantiva<hi rend="grantha">nma.</hi></note>ṟku yāṇṭu Irupattiraṇṭāvatu tiruvaiykāvu
+                    <lb n="2" break="no"/>ṭaiya <hi rend="grantha">mahāde</hi> vaṟku tirunontāviḷakkum Amutupaṭikkum U<unclear>paiya</unclear>m vai
+                    <lb n="3" break="no"/>ykka ca<unclear>n</unclear>tippeliyār tiripuvaṉamāteviccaruppetimaṅkalat
+                    <lb n="4" break="no"/>tu <hi rend="grantha">sabhai</hi> yār pakkal poṉ kuṭuttup polikūlikkuc cela
+                    <lb n="5" break="no"/>vāka kācukoḷḷā Ūṟkiḻ Iṟaiyiliyāka maṇaliṭil veli
+                    <lb n="6" break="no"/>yākak koṇṭuviṭṭa vaṇṇakkaviḷākam nilam kaṟā Iṉṉilam Oṉṟa
+                    <lb n="7" break="no"/>raiyu<supplied reason="omitted">m</supplied> Iṟakkātān tiruvaṭi Iraṇṭu men talai meliṉa <supplied reason="undefined"><g type="danda">.</g></supplied> Itu Iṟakkuvān taṅka
+                    <lb n="8" break="no"/>ḷammaikkut tāney miṉāḷaṉ <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g>itu kalveṭṭuppaṭi <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.58 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">24</citedRange>
+                        <citedRange unit="item">58</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

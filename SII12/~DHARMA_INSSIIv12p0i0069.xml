@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.69: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">NRIPATUNGAVARMAN. No. 69. (A.R. No. 257 of 1912). ON THE BACK SIDE OF THE SAME WALL.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0069</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This record states that, in the <hi rend="bold">16th year</hi> of <hi rend="bold">Nṛipatuṅgavarman,</hi> the committee <hi rend="italic">(gaṇapperumakkaḷ)</hi> of the temple called Śailēśvaram agreed to provide offerings during the mid-day service of the god Mahādēva at Śailēśvaram in Paramēśvaramaṅgalam in lieu of the interest on 11 <hi rend="italic">kaḻañju</hi> of gold received by them from <hi rend="bold">Nandi-Niṟaimati,</hi> son of <hi rend="bold">Maṟamaḍakki-Viḻuppēraraiyar</hi> of Maṇṇaikuḍi.</p>						
+                            
+                            <p>Udayachandra, the general of the Pallava king Nandivarman Pallavamalla claims to have defeated a Pāṇḍya king at Maṇṇaikkuḍi<note n="29-3"><hi rend="italic">S.I.I.</hi> Vol. II, p. 364.</note>and if ‘Maṇṇaikuḍi Maṟamaḍakki’ is taken as an epithet of Viḻuppēraraiyar in the sense of ‘he who humbled the pride (of the enemy) at Maṇṇaikkuḍi’, it may be presumed that one of the ancestors of Viḻuppēraraiyar had taken some part in the Pallava campaigns. But as there are villages actually known by the names of Maṇṇakkuḍi and Maṟamaḍakki in the Arantangi taluk of the Tanjore district, it is also possible that the native village and hamlet of this Viḻuppēraraiyar are simply mentioned in this inscription (i.e.) Viḻuppēraraiyar of Maṟamaḍakki near Maṇṇaikkuḍi.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-06" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> nṛpa</hi> tuṅkava
+                    <lb n="2" break="no"/><hi rend="grantha">rmma</hi> ṟku yāṇṭu patiṉāṟāvatu <hi rend="grantha">pa</hi>
+                    <lb n="3" break="no"/><hi rend="grantha">rameśvara</hi> maṅkalattu <hi rend="grantha">śaileśva</hi>
+                    <lb n="4" break="no"/><hi rend="grantha">ra</hi> ttu <hi rend="grantha">mah<choice><sic>a</sic><corr>ā</corr></choice>de</hi> varkku <hi rend="grantha">madhyāhna</hi> ve<unclear>ḷai</unclear>
+                    <lb n="5" break="no"/>yiṟ ṟiruvamutukku maṇṇaiku
+                    <lb n="6" break="no"/>ṭi maṟamaṭakki viḻupperaraiyar ma
+                    <lb n="7" break="no"/>ka nnan=ti niṟaimati <hi rend="grantha">śaileśva</hi>
+                    <lb n="8" break="no"/>rattuk kaṇapperumakkaḷ vaḻikuṭut
+                    <lb n="9" break="no"/>ta cempoṉ patiṉoru kaḻañci <supplied reason="undefined"><g type="danda">.</g></supplied> Itaṉ
+                    <lb n="10"/>poliyūṭṭiṉā ṉicati nāṭuri kutta lariciyu
+                    <lb n="11" break="no"/>moru piṭi neyyu mappotu kāṭṭum viḷa
+                    <lb n="12" break="no"/>kkiṉukku Oru piṭi Eṇṇaiyyu muṭṭāmai
+                    <lb n="13" break="no"/>c celuttuvo māṉoṅ kaṇappe
+                    <lb n="14" break="no"/>rumakkaḷom <supplied reason="undefined"><g type="danda">.</g></supplied> Itu <hi rend="grantha">ma</hi> h<choice><sic>a</sic><corr>ā</corr></choice><hi rend="grantha">sabhai rakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi><note n="29-4">On the side of the same slab are engraved the following lines:— 1 ippa[ṭi] 2 <hi rend="grantha">li</hi> vitte- 3 ṉ catturu- 4 ciṅkap- 5 perunta- 6 ccaṉeṉ <supplied reason="undefined"><g type="ddanda">.</g></supplied></note> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.69 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">29</citedRange>
+                        <citedRange unit="item">69</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.90: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">APARAJITAVARMAN. No. 90. (A.R. No. 190 of 1912). TIRUVOṞṞIYŪR, SAIDAPET TALUK, CHINGLEPUT DISTRICT. ON A SLAB BUILT INTO THE FLOOR OF THE MAṆḌAPA IN FRONT OF THE CENTRAL SHRINE IN THE ĀDHIPURĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0090</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>On this slab of stone, three records are engraved one in continuation of another in the same hand. The name of the king in the first record is damaged, the second is dated in the <hi rend="bold">7th year</hi> of <hi rend="bold">Kampavarman</hi><note n="39-2">See No. 99 below.</note>while the third belongs to the <hi rend="bold">6th year</hi> of <hi rend="bold">Aparājita.</hi> They appear, therefore, to have been engraved on the slab in the same time; but what necessitated the procedure is not clear. The last record registers an agreement made in the <hi rend="bold">6th year of Vijaya-Aparājitavikrama-Pōttaraiyar,</hi> by the assembly of Maṇali, hamlet of Tiruvoṟṟiyūr, to burn two perpetual lamps before the god Mahādēva at Tiruvoṟṟiyūr, in lieu of the interest on 60 <hi rend="italic">kaḻañju</hi> of gold received by them from the community of Māhēśvaras.</p>						
+                            
+                            <p>The endowed amount was invested with the assembly as fixed deposit bearing interest at the usual rate of 3 <hi rend="italic">mañjāḍi</hi> per <hi rend="italic">kaḻañju.</hi> The assembly promised also to give two meals daily to the person who came to collect the interest and if they failed in their duty, they agreed to pay a fine of 8(1/2) <hi rend="italic">kāṇam</hi> per day to the court of justice.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-06" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/>kovicaiya <hi rend="grantha">A</hi> parā<hi rend="grantha">ji</hi>tavi<hi rend="grantha"><unclear>kra</unclear></hi> mapo
+                    <lb n="2" break="no"/>ttaraiyarkku yāṇ ṭāṟāvatu <hi rend="grantha">pa</hi>nā <hi rend="grantha">heśva</hi> rar tiruvoṟṟiyūr <hi rend="grantha"><unclear>ma</unclear></hi>
+                    <lb n="3" break="no"/><hi rend="grantha">hāde</hi> vark kiraṇṭu na<hi rend="grantha">ndā</hi> viḷak kerippataṟku vaitta poṉ Ūrkkaṟ <unclear>cem</unclear>
+                    <lb n="4" break="no"/>mai <hi rend="grantha">A</hi> ṟupatin kaḻañcu Ippoṉ koṇṭu kaṭavon tiruvoṟṟi
+                    <lb n="5" break="no"/>yūrppuṟattu maṇali <hi rend="grantha">sabhai</hi>yo mippoṉṉā lāṇṭuvarai kaḻañ
+                    <lb n="6" break="no"/>ciṉvāy muṉṟumañcāṭippoṉ <unclear>palicaiyāka Iv</unclear>vāṭṭaik kār<supplied reason="omitted">t</supplied>
+                    <lb n="7" break="no"/>tikai mutalāṟāṟu tiṅkaḷil nāṟkaḻañcaraicceytu poṉ ṉā[ ca<hi rend="grantha">ndṛ</hi>]
+                    <lb n="8" break="no"/>tāramu nilaippoliyūṭṭākat tiruvoṟṟiyūrāṇik kiḻekoṇṭu
+                    <lb n="9"/>kūṟiṭṭuk kuṭuppomāṉo mippoṉ kaṭaikkūṭṭa vantārkku nica<unclear>ti</unclear>
+                    <lb n="10"/>Iraṇṭu coṟu kuṭuppomāno mitaṟṟirampi luṇṭikaiyum paṭṭi
+                    <lb n="11" break="no"/><unclear>kai</unclear>yuṅ kāṭṭāte <hi rend="grantha">dharmmāsa</hi>na ttu nicati Eṭṭarai kāṇan taṇṭamiṭa
+                    <lb n="12"/><unclear>O</unclear>ṭṭik kuṭutto miṭṭa taṇṭañceṉṟu niṉṟum puḷḷikuttuvikkap
+                    <lb n="13" break="no"/><unclear>pe</unclear>ṟātomāṉo<unclear>m</unclear> maṇali <hi rend="grantha">sabhai</hi> yom <g type="ddanda">.</g><g type="dashLong">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.90 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">39</citedRange>
+                        <citedRange unit="item">90</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

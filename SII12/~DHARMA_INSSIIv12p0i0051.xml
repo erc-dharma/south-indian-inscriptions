@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.51: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">Nandivarman III. No. 51. (A.R. No. 349 of 1911). KAḶATTŪR, CHINGLEPUT TALUK AND DISTRICT. ON A SLAB BUILT INTO THE FLOOR OF THE MUKHA-MAṆḌAPA IN THE MUṈKUḌUMĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0051</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is worn out in the middle and it is dated in the <hi rend="bold">14th year</hi> of <hi rend="bold">Nandivarmma-[Mahārāja].</hi> It seems to assign a third share of the income from the local lake to Paramēśvara, by the assembly <hi rend="italic">(perumakkaḷ)</hi> of Kaḷattūr in Kaḷattūr-kōṭṭam.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-06" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">nandi</hi>va<hi rend="grantha">rmma</hi>
+                    <lb n="2" break="no"/><hi rend="grantha"><surplus>ma</surplus>mahā</hi>rā<hi rend="grantha"><unclear>ja</unclear></hi><unclear>ṟ</unclear>kup
+                    <lb n="3"/>patiṉālāvatu kaḷat
+                    <lb n="4" break="no"/>tūrkkoṭṭattu kaḷa
+                    <lb n="5" break="no"/>ttūr perumakkaḷ <unclear>paṅ</unclear>
+                    <lb n="6" break="no"/><unclear>kāṉāṭṭ</unclear><hi rend="grantha"><unclear>ai</unclear></hi> <unclear>yil</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+                    <lb n="7"/><gap reason="lost" quantity="1" unit="character"/> ttān <unclear>E</unclear>rippāt
+                    <lb n="8" break="no"/>tu koyilāka parame
+                    <lb n="9" break="no"/><hi rend="grantha">śva</hi>ran mu<unclear>ṉpāka</unclear> pe
+                    <lb n="10" break="no"/>rumakkaḷum kaṭava muṉ
+                    <lb n="11" break="no"/>ṟil Oṉṟum parame
+                    <lb n="12" break="no"/><hi rend="grantha">śva</hi>ran <hi rend="grantha">sukṛ</hi>tam <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.51 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">21</citedRange>
+                        <citedRange unit="item">51</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

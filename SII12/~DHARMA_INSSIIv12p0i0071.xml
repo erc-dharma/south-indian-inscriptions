@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.71: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">NRIPATUNGAVARMAN. No. 71. (A.R. No. 360 of 1921). TIRUVADI, CUDDALORE TALUK, SOUTH ARCOT DISTRICT. ON A PILLAR IN THE ARDHA-MAṆḌAPA OF THE TIRUVĪRAṬṬĀNĒŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0071</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This record of <hi rend="bold">Nṛipatuṅgavarman</hi> is dated in his <hi rend="bold">18th year</hi> and registers a gift of 570 <hi rend="italic">kaḻañju</hi> of gold to the <hi rend="italic">Nagarattār</hi> of Adiyaraiyamaṅgalam by the Pāṇḍya king <hi rend="bold">Varaguṇa-Mahārāja,</hi> for providing, with the interest on the amount, certain specified offerings to the god Tiruvīraṭṭānattu-Mahādēva of that village.</p>						
+                            
+                            <p>The importance of the present inscription lies in the fact that the Pāṇḍya king Varaguṇavarman figures as a contemporary of and probably a subordinate under the Pallava king Nṛipatuṅgavarman.<note n="30-3">See also No. 60 above.</note></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-06" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <!--<h4><hi rend="italic">First face.</hi></h4>-->
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> nṛ</hi>pato
+                    <lb n="2" break="no"/>ṅkapa<hi rend="grantha">nma</hi>ṟku <unclear>yāṇṭu</unclear>
+                    <lb n="3"/>patineṭṭāvatu <unclear>A</unclear>
+                    <lb n="4" break="no"/>ti<unclear>ya</unclear>raiyamaṅka
+                    <lb n="5" break="no"/>lattu tiruviraṭṭā
+                    <lb n="6" break="no"/>nattu <hi rend="grantha">mahāde</hi>va<hi rend="grantha"/>
+                    <lb n="7" break="no"/>rkku <unclear>p</unclear>āṇ
+                    <lb n="8"/><unclear>ṭi</unclear> varakuṇa<hi rend="grantha">mahā</hi>rā
+                    <lb n="9" break="no"/><hi rend="grantha">ja</hi>ṉ kuṭutta poṉ
+                    <lb n="10"/>Aññūṟṟeḻupatiṉ ka
+                    <lb n="11" break="no"/>ḻañcu Ippoṉ koṇ
+                    <lb n="12" break="no"/>ṭu kaṭavom Atiyarai
+                    <lb n="13" break="no"/>yamaṅkalattu nakara
+                    <lb n="14" break="no"/>ttom <supplied reason="undefined"><g type="danda">.</g></supplied> Ippoṉni
+                    <lb n="15" break="no"/>l Irunūṟṟuttoṇṇū
+                    <lb n="16" break="no"/>ṟṟuk kaḻañcu poṉnā 
+                    <lb n="17" break="no"/>l palicaiyāl nicati
+                    <lb n="18-19"/><ce>damaged</ce>
+                    <lb n="20"/> <gap reason="lost" quantity="2" unit="character"/> <unclear>mun</unclear>nā<unclear>ḻi Uri</unclear>
+                    <lb n="21" break="no"/>kkum <unclear>me</unclear>ṟṟi pa<unclear>tiṟ</unclear>
+                    <lb n="22"/><unclear>ṟu</unclear>nāḻi Ari<unclear>ciyum</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+                    <lb n="23"/>poḻutukku Uri pacca
+                    <lb n="24" break="no"/>payaṟṟupparuppu kum
+                    <lb n="25" break="no"/>māya muḷḷiṭṭa Añcukā
+                    <lb n="26" break="no"/>yum poḻutu puḷi<unclear>ṅkaṟi</unclear>
+                    <lb n="27" break="no"/>kku Uḻakku tayirum po
+                    <lb n="28" break="no"/>ḻutu kaṟikku kā
+                    <lb n="29" break="no"/>yam mirucce<unclear>vi</unclear>(ṭa)ṭu<supplied reason="omitted">m</supplied>
+                    <lb n="30"/>poḻutu kaṟi tu<unclear>mi</unclear>kka
+                    <lb n="31" break="no"/>c cevi(ṭ)ṭu neyum
+                </p>
+                
+                <!--<h4><hi rend="italic">Second face.</hi></h4>-->
+                
+                <p>
+                    <lb n="32"/>nivetikka naṟune
+                    <lb n="33" break="no"/>y potu Uḻakkā
+                    <lb n="34" break="no"/>ka nālu poḻutukku
+                    <lb n="35" break="no"/>m meṟṟi ney nāḻi
+                    <lb n="36"/>nivetikka poḻutu
+                    <lb n="37" break="no"/>kkuṉ tayir Uri nālu
+                    <lb n="38"/>poḻutume <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.71 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">30-31</citedRange>
+                        <citedRange unit="item">71</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

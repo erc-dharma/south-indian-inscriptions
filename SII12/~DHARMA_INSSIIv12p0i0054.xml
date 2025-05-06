@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.54: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">Nandivarman III. No. 54. (A.R. No. 8 of 1934-35). PAḌŪR, CHINGLEPUT TALUK AND DISTRICT. ON A SLAB SET UP IN THE STREET CALLED ‘MĒṬṬUTTERUVU’.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0054</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The beginning of this inscription is lost, but from palaeography and the letters <hi rend="italic">Nan</hi> traceable in the first line, it may be assigned to <hi rend="bold">Nandivarman III.</hi> It is dated in the <hi rend="bold">18th year</hi> and registers the gift of 96 sheep by the shepherds <hi rend="italic">(kōṭṭamaṉṟāḍis)</hi> of Āmūr-kōṭṭam for burning a perpetual lamp before the god Perumā[ṉa*]ḍigaḷ ‘who was pleased’ to stand at Viḻupperundāya-Vishṇugṛiham in Paḍuvūr.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-06" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/> <gap reason="lost" quantity="4" unit="character"/> nan
+                    <lb n="2" break="no"/> <gap reason="lost" quantity="3" unit="character"/> ṟku yāṇṭu pati
+                    <lb n="3" break="no"/>ṉeṭṭāvatu Āmurkoṭ
+                    <lb n="4" break="no"/>ṭattuk <unclear>ko</unclear>ṭṭamaṉṟāṭi
+                    <lb n="5" break="no"/>kaḷ paṭuvūr viḻuppe
+                    <lb n="6" break="no"/>runtāyavi<hi rend="grantha">ṣṇugraha</hi> ttu
+                    <lb n="7"/>niṉṟa<unclear>ruḷu</unclear>kiṉṟa perumā
+                    <lb n="8" break="no"/><supplied reason="omitted">ṉa</supplied>ṭikaḷukku vaiytta nan
+                    <lb n="9" break="no"/>tāviḷakkoṉṟukku vai
+                    <lb n="10" break="no"/>tta Āṭu cāvāmuvāpperā
+                    <lb n="11" break="no"/>ṭu toṇṇūṟu I<hi rend="grantha">dhanma</hi> m <hi rend="grantha">ra<unclear>kṣi</unclear></hi>
+                    <lb n="12" break="no"/><supplied reason="omitted">p</supplied>pār Aṭipoṭi Eṉ talaimela
+                    <lb n="13" break="no"/>tu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.54 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">22</citedRange>
+                        <citedRange unit="item">54</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

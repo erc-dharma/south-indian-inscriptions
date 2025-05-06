@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.110: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">KAMPAVARMAN. No. 110. (A.R. No. 283 of 1919). MAḌAM, WANDIWASH TALUK, NORTH ARCOT DISTRICT. ON THE SIDE OF A BOULDER CALLED ŚAṞUKKĀMPĀṞAI ABOUT A FURLONG TO THE SOUTH OF THE VILLAGE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0110</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription records that in the <hi rend="bold">26th year</hi> of <hi rend="bold">Vijaya-Kamapavarman, Jayavallavaṉ</hi> (Jayavallabha), a merchant of Kuḷattūr in Teṉṉāṟṟūr-nāḍu, a subdivision of Palkuṉṟak-kōṭṭam purchased land from the <hi rend="italic">ūrār</hi> of the village and presented it as <hi rend="italic">ērippaṭṭi</hi> for the maintenance of a tank, evidently at Maḍam.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-06" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/>kovicaiya kampavikkiramaparumaṟki
+                    <lb n="2"/>yāṇṭu Irupattāṟāvatu pa
+                    <lb n="3" break="no"/>lkuṉṟakkoṭṭattu teṉṉāṟṟū
+                    <lb n="4" break="no"/>rnāṭṭuk kuḷattūr vāṇiyar cayava
+                    <lb n="5" break="no"/>llavaṉ kuḷattūr Ūrār pakkal vi
+                    <lb n="6" break="no"/>ṟṟukkoṇṭu Eri<supplied reason="omitted">p</supplied>paṭṭiceyta caḻai
+                    <lb n="7" break="no"/>yāppāṟaic ceṟuvu Erippaṭṭi ceytatu <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    <lb n="8"/>Itukku Eṉṟu<unclear>m</unclear> kuttukkāl kāttū
+                    <lb n="9" break="no"/>ṭṭiṉṉā<supplied reason="omitted">r</supplied> Aṭi yeṉ muṭi mel <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.110 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">52</citedRange>
+                        <citedRange unit="item">110</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

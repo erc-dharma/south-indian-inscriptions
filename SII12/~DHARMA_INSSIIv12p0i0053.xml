@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.53: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">Nandivarman III. No. 53. (A.R. No. 352 of 1908). MĀṄGĀḌU, SRIPERUMBUDUR TALUK, CHINGLEPUT DISTRICT. ON A SLAB BUILT INTO THE FLOOR OF THE CENTRAL SHRINE IN THE VAḶḶĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0053</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This damaged inscription is dated in the <hi rend="bold">17th year</hi> of <hi rend="bold">Vijaya-Nandivikramavarman</hi> and it mentions the Śēḻiya-Vāṇiyar of Kuṉṟattūr, who evidently made provision for offerings to the god on Tiruvādirai and amāvāsyā days, through the <hi rend="italic">sabhā</hi> of Tiruveḷḷikīḻuḍaiya (Mahādēva). This is the earliest inscription in the temple and it probably belongs to Nandivarman III. In a later inscription of the place the god is called Tiruveḷḷikīḻmēya-Nāyaṉār.<note n="21-2"><hi rend="italic">A.R.</hi> No. 349 of 1908.</note>Chūtavana mentioned in the Udayēndiram plates of Nandivarman is probably identical with Māṅgāḍu.<note n="21-3"><hi rend="italic">S.I.I.</hi> Vol. II, p. 372.</note></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-06" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">śrī</hi> kovicaiya nantivikkiramaparumaṟku yāṇṭu patiṉeḻāvatu puli
+                    <lb n="2" break="no"/><unclear>yūr</unclear>kkuṭikkoṭṭattuk kuṉṟattūrc ceḻiyavāṇiyarkaḷo
+                    <lb n="3" break="no"/><unclear>m ti</unclear>ruvātiraiyun talaiyuvāvum tiṅkaḷ<unclear>ni</unclear>laviyuṅ kāṭṭu<unclear>vo</unclear>
+                    <lb n="4" break="no"/><unclear>mā</unclear>ṉom tiruveḷḷikiḻuṭaiya <unclear>cavaiyom</unclear> <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="pc"/> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.53 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">21</citedRange>
+                        <citedRange unit="item">53</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

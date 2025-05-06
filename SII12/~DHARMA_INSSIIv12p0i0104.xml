@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.104: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">KAMPAVARMAN. No. 104. (A.R. No. 391 of 1905). KĀVĒRIPPĀKKAM, ARKONAM TALUK, NORTH ARCOT DISTRICT. ON A STONE BUILT INTO THE FLOOR CLOSE TO THE SOUTH WALL OF THE CENTRAL SHRINE IN THE VARADARĀJA-PERUMĀḶ TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0104</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The subjoined record is dated in the <hi rend="bold">17th year</hi> of <hi rend="bold">Vijaya-Kampavarman</hi> and in registers a gift of 736 <hi rend="italic">kaḻañju</hi> of gold to the assembly of Chiṟṟambalam in Kāvadippākkam <hi rend="italic">alias</hi> Avaṉinārāyaṇa-chaturvēdimaṅgalam for feeding a person daily, by a lady called Nampirāṭṭi, the elder sister of one Tiruvānaṅgamudi. </p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-06" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kovicaiya kampa<hi rend="grantha"><unclear>va</unclear>rmma</hi> <unclear>k</unclear>ku yāṇṭu patiṉeḻ<unclear>āvatu paṭuvūrko</unclear>ṭṭattuk kāvatip pāk
+                    <lb n="2" break="no"/>kamākiya Avaṉinārāyaṇaccatu<hi rend="grantha">rvve</hi> timaṅkalattuc ciṟṟampalattup perumakkaḷ kaṭai
+                    <lb n="3" break="no"/>kāṭciyākat tiru<unclear>vā</unclear>naṅkamuti tamakkai nampirāṭṭi viruttū<unclear>ṇar</unclear>kku vaitta poṉ �<note n="48-1">This symbol probably standds for the figure 736.</note> Eḻu<supplied reason="omitted">nū</supplied>ttu mup
+                    <lb n="4" break="no"/>pat<unclear>taṟu</unclear>kaḻañcu Ippoṉṉāl vanta viruttiyāl nicati Oru viruttūṇa ruṇpatāka vaittāḷ <supplied reason="undefined"><g type="danda">.</g></supplied> Itu
+                    <lb n="5"/><hi rend="grantha"><unclear>Ā</unclear>candra</hi> kālamum muṭṭāmai Ūṭṭuvippatāka <unclear>yi</unclear>pperumakka<unclear>ḷ ka</unclear>ṭaikkāṇpārāṉār Itta<hi rend="grantha">rmma</hi> muṭṭil keṅkaiyi
+                    <lb n="6" break="no"/>ṭaik kumariyiṭaic ceytār ceyta pāvam pa<unclear>ṭu</unclear>vārāṉār I<hi rend="grantha">ddharmma</hi> <supplied reason="omitted">m</supplied> <hi rend="grantha">rakṣi</hi> <supplied reason="omitted">t</supplied>tār kāl Eṉ muṭi melaṉa <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.104 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">47-48</citedRange>
+                        <citedRange unit="item">104</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

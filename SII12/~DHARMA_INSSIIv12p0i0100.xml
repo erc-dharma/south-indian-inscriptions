@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.100: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">KAMPAVARMAN. No. 100. (A.R. No. 188 of 1912). ON ANOTHER SLAB IN THE SAME PLACE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0100</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This is a highly damaged record of <hi rend="bold">Vijaya-Kampavikramavarman</hi> dated in his <hi rend="bold">9th year.</hi> It registers a gift of 30 <hi rend="italic">kaḻañju</hi> of gold by <hi rend="bold">Amarnidi</hi> <hi rend="italic">alias</hi> <hi rend="bold">Pallavadiyaraiyar of Kañjanūr</hi> in Indaḷūr-nāḍu which was a subdivision of Śōḻa-nāḍu and another gift of a similar amount by a person whose name is lost, for burning two perpetual lamps in the temple at Tiruvoṟṟiyūr. It may be noted that Kañjanūr which may be identified with the village of the same name in the Kumbakonam taluk of the Tanjore district is not herein called Siṁhavishṇu-chaturvēdimaṅgalam, as is done in a record from Tiruviḍaimarudūr.<note n="45-1"><hi rend="italic">A.R.</hi> No. 265 of 1907.</note></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-06" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha"><unclear>svasti śrī</unclear></hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kovic<unclear>aiya</unclear> ka<unclear>m</unclear>pa<unclear>vikkira</unclear>mapa
+                    <lb n="2" break="no"/>ṟmaṟku yāṇ <unclear>ṭo</unclear>ṉpatāvatu coḻanāṭ ṭintaḷūr
+                    <lb n="3" break="no"/>nāṭṭuk ka<unclear>ñ</unclear>ca<unclear>nūr</unclear>k kañcanūrā ṉamarnitiāi
+                    <lb n="4" break="no"/>ṉa pallavatiyaraiyar tiruvoṟṟiyūr <hi rend="grantha">mahāde</hi>
+                    <lb n="5" break="no"/>varkku Orunantāviḷak kerippataṟku vai<unclear>cca poṉ Ū</unclear>
+                    <lb n="6" break="no"/>rkaṟcemmai muppatiṉ kaḻañcum puliyūrkko<unclear>ṭṭa</unclear>
+                    <lb n="7" break="no"/>ttuk ka<unclear>l</unclear>māynāṭṭu pu<unclear>ḷimā</unclear>ṟṟu <gap reason="lost" quantity="2" unit="character"/> <unclear>muṭaiyāṉ</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+                    <lb n="8"/>tiruvoṟṟiyūr <hi rend="grantha">mahāde</hi> vaṟkku Oru nantāviḷak kerippa
+                    <lb n="9" break="no"/>taṟku vaicca poṉ Ūrkkaṟcemmai muppatiṉ ka<unclear>ḻañcu</unclear>
+                    <lb n="10" break="no"/>māka Iv <hi rend="grantha">A</hi> ṟupatiṉ kaḻañcu poṉṉuṅ <unclear>koṇ</unclear>ṭu <gap reason="lost" quantity="1" unit="character"/> 
+                    <lb n="11"/><unclear>m</unclear> puḻaṟkoṭṭattu nā<unclear>yaṟu</unclear>nāṭṭup <unclear>pūtūrilum</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+                    <lb n="12"/>m Iv <hi rend="grantha">A</hi> ṟupatiṉ kaḻañcu poṉṉālum kaḻañci
+                    <lb n="13" break="no"/>ṉvāy muṉṟu mañcāṭip poṉ palicaiāka Ā
+                    <lb n="14" break="no"/>ṇṭuvarai Oṉpatiṉ kaḻañcu poṉṉāka <unclear>Ivvā</unclear>
+                    <lb n="15" break="no"/>ṭṭai tirumutalāka <hi rend="grantha">A</hi> ṟāṟu tiṅkaṇāḷāl nāṟka
+                    <lb n="16" break="no"/>ḻañcarai ponṉum tiruvoṟṟiyū rāṇik kiḻai
+                    <lb n="17"/>koṇṭu ceṉṟu tiruviḷakku neykku Iṭak kuṭuppo
+                    <lb n="18" break="no"/>māṉom <gap reason="lost" quantity="3" unit="character"/> ttanmam <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="19"/><ce>damaged</ce>
+                    <lb n="20"/><unclear>ṭaraikaḷom</unclear> Ippaṭi Oṭṭikkuṭuttom muṉpu ni
+                    <lb n="21" break="no"/>ṉṟum puḷḷikkuttuvikkap peṟā<unclear>tomāṉom</unclear> It
+                    <lb n="22" break="no"/>taṇṭappaṭṭum Ivvolai meṟppaṭṭa palicai va
+                    <lb n="23" break="no"/>ḻuvāme celuttuvomāṉom Ippoṉ kaṭaik
+                    <lb n="24" break="no"/>kūṭṭavantāṟku nicati nālu coṟu kuṭuppomāṉom
+                    <lb n="25"/>Ippoṉ <gap reason="lost" quantity="2" unit="character"/> Āṭṭai nāḷāl <unclear>policai</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+                    <lb n="26"/><ce>damaged</ce>
+                    <lb n="27"/> <gap reason="lost" quantity="6" unit="character"/> kuṭuppo
+                    <lb n="28" break="no"/>māṉom <gap reason="lost" quantity="5" unit="character"/> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.100 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">45</citedRange>
+                        <citedRange unit="item">100</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

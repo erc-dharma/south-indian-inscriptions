@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.75: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">NRIPATUNGAVARMAN. No. 75. (A.R. No. 179 of 1915). TIRUMUKKŪḌAL, CONJEEVERAM TALUK, CHINGLEPUT DISTRICT. ON A SLAB SUPPORTING A BEAM SET UP IN THE INNER ENCLOSURE OF THE VEṄKAṬĒŚA-PERUMĀḶ TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0075</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This record states that, in the <hi rend="bold">24th year</hi> of <hi rend="bold">Vijaya-Nṛipatuṅgavikramavarman,</hi> the assembly of Śīyapuram in Ūṟṟukkāṭṭuk-kōṭṭam agreed to maintain a perpetual lamp in the temple of Vishṇu-Bhaṭāra at Tirumukkūḍal for the interest on 30 <hi rend="italic">kaḻañju</hi> of gold received by them from <hi rend="bold">Arigaṇḍa-Perumāṉār,</hi><note n="32-2">See No. 66 above.</note>son of <hi rend="bold">Kāḍupaṭṭi-Muttaraiyar.</hi> The interest on 30 <hi rend="italic">kaḻañju</hi> came to 4(1/2) <hi rend="italic">kaḻañju,</hi> calculating at the rate of 3 <hi rend="italic">mañjāḍi</hi> per <hi rend="italic">kaḻañju.</hi> For this 4(1/2) <hi rend="italic">kaḻañju</hi> the assembly of Śīyapuram agreed to supply oil at a uniform rate of 40 <hi rend="italic">nāḻi</hi> per <hi rend="italic">kaḻañju</hi> for maintaining the lamp. Paḻaiyaśivaram near Tirumukkūḍal is called Śīyapuram in inscriptions.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-06" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="danda">.</g></supplied> kovi
+                    <lb n="2" break="no"/>caiya <hi rend="grantha">nṛpa</hi>toṅkavi
+                    <lb n="3" break="no"/><hi rend="grantha">kki</hi>ramaparuma<supplied reason="omitted">r</supplied>kku yāṇṭu Iru
+                    <lb n="4" break="no"/>pattunālāvatu kāṭupaṭṭi
+                    <lb n="5"/>muttaraiyar makaṉār Ari
+                    <lb n="6" break="no"/>kaṇṭaperumāṉārkku Ūṟṟu
+                    <lb n="7" break="no"/>kkāṭṭukko<supplied reason="omitted">ṭ</supplied>ṭattu ciyapu
+                    <lb n="8" break="no"/>rattu <hi rend="grantha">sabhai</hi>yo<surplus>m</surplus> moṭ
+                    <lb n="9" break="no"/>ṭik kuṭutta paricāvatu <supplied reason="undefined"><g type="danda">.</g></supplied> tirumu
+                    <lb n="10" break="no"/>kkūṭal vi<hi rend="grantha">ṣṇubha</hi>ṭā ra<supplied reason="omitted">r</supplied>kku nun=tā<hi rend="grantha"/>
+                    <lb n="11" break="no"/>viḷa<supplied reason="omitted">k</supplied> kerippataṟku Eṅka
+                    <lb n="12" break="no"/>ḷ kaiyi(l)ṟ ṟanta poṉ 
+                    <lb n="13"/>muppatiṉ kaḻañciṉā
+                    <lb n="14" break="no"/>lum poliyūṭṭu Āṇṭu
+                    <lb n="15" break="no"/>varaiy kaḻañciṉvāy
+                    <lb n="16"/>muṉṟu mañcāṭi poṉ
+                    <lb n="17"/>Āyaṉpaṭiyāl nāṟka
+                    <lb n="18" break="no"/>ḻañcaraiyālum Eṟilu
+                    <lb n="19" break="no"/>ñ curuṅkiluṅ kaḻañcu
+                    <lb n="20" break="no"/>kku nāṟpatiṉāḻippaṭi E
+                    <lb n="21" break="no"/>ṇṇai nūṟṟeṇpatinā
+                    <lb n="22" break="no"/>ḻiyālum Iravum pakalu<note n="33-1">The other face of the slab containing the remaining portion of the inscription is obstructed by a wall.</note>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.75 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">32-33</citedRange>
+                        <citedRange unit="item">75</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
