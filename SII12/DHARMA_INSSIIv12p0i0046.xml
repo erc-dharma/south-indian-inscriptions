@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.46: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">Nandivarman III. No. 46. (A.R. No. 347 of 1914). KUNNĀṆḌĀRKŌYIL, PUDUKKOTTAI STATE. AT THE SOUTH END OF THE ROCK-CUT SHRINE IN THE PARVATAGIRĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0046</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription dated in the <hi rend="bold">3rd year</hi> of <hi rend="bold">Nandippōttaraiyar</hi> may be assigned to Nandivarman III. It registers a gift of 200 <hi rend="italic">nāḻi</hi> of rice for feeding 100 persons on the day of Tiruvādirai, by <hi rend="bold">Gaṇavatimāṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Pagaichchandira Viśaiaraiyaṉ</hi> of Vaḍuvūr in Mīpuḻai-nāḍu. This inscription indicates that the limits of the Pallava empire still continued to extend as far south as the Pudukkottai State.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-06" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-04-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> konantippotta
+                    <lb n="2" break="no"/>raiyarkku yāṇṭu 3<g type="dash"/>Āvatu mi
+                    <lb n="3" break="no"/>puḻaināṭṭu vaṭuvūrk kaṇavatimā
+                    <lb n="4" break="no"/>ṉṉāyiṉa pakaiccantira vicaiA
+                    <lb n="5" break="no"/>raiyaṉ ṟiruvātiraināṉṟu A
+                    <lb n="6" break="no"/>ṭṭaḻiya vaitta Arici <num value="200">2 <g type="numeral">100</g></num><g type="dash"/>† Iru
+                    <lb n="7" break="no"/>nūṟṟunāḻi nūṟṟuvarkku <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.46 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">19</citedRange>
+                        <citedRange unit="item">46</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
