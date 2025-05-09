@@ -53,7 +53,7 @@
     </teiHeader>
     <text xml:space="preserve">
         <body>
-            
+            <!--Add language and script to all <p>-->
             <div type="edition">
                 <p>
                     <lb n="1"/>śrī
@@ -100,7 +100,7 @@
                 <p>
                     <unclear>mayamakkāru</unclear> <g type="danda">.</g>
                 </p>
-                <p>
+                <p xml:lang="tam-Latn" rendition="class:grantha maturity:vernacular">
                     citrakārappuli <g type="danda">.</g>
                 </p>
                 <p>
@@ -277,7 +277,7 @@
                     lakṣitaḥ
                 </p>
                 <p>                    
-                    Iiṣṭaduṣṭabhṛṣṭacaritaḥ
+                    Iṣṭaduṣṭabhṛṣṭacaritaḥ
                 </p>
                 <p>
                     naihikāmutrikaḥ
@@ -367,7 +367,10 @@
                     Āhāryyabuddhiḥ
                 </p>
                 <p>
-                    Āyata <gap reason="lost" quantity="7" unit="character"/>
+                    Āyata
+                </p>
+                <p>
+                    <gap reason="lost" quantity="7" unit="character"/>
                 </p>		
             </div>
             

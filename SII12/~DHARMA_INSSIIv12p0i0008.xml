@@ -58,13 +58,14 @@
     <text xml:space="preserve">
         <body>
             
+            <!--Add language and script to all <p>-->
             <div type="edition">
                 
                 <div n="A" type="textpart">
                     <head>Outer row of pillars in the Upper Cave.</head>
                     
                     <milestone n="A1" unit="zone" type="pagelike"/><label>right pilaster</label>
-                    <p xml:lang="san-Latn" rendition="class:grantha maturity:vernacular">
+                    <p xml:lang="tam-Latn" rendition="class:grantha maturity:vernacular">
                         <lb n="A1.1"/>vañjavalava
                     </p>                   
                     
@@ -74,7 +75,7 @@
                     </p>
                     
                     <milestone n="A3" unit="zone" type="pagelike"/><label>first pillar, middle</label>                                
-                    <p>                         
+                    <p xml:lang="tel-Latn" rendition="class:grantha maturity:vernacular">                         
                         <lb n="A3.1"/>ta<seg rendition="class:telugu maturity:vernacular">ṟu</seg>daṇḍa
                     </p>
                     <p>
@@ -98,10 +99,10 @@
                     <p xml:lang="san-Latn" rendition="class:grantha maturity:vernacular">
                         <lb n="A3.8"/>naihikāmutrikaḥ
                     </p>
-                    <p>
+                    <p xml:lang="tel-Latn" rendition="class:grantha maturity:regional">
                         <lb n="A3.9"/>nivambu
                     </p>
-                    <p>
+                    <p xml:lang="tel-Latn" rendition="class:grantha maturity:regional">
                         <lb n="A3.10"/>nayambu
                     </p>
                     <p>
@@ -260,7 +261,7 @@
                     
                 </div>
                 <div n="B" type="textpart">
-                    <head>Inner row Of pillars In the Upper cave.</head>                    
+                    <head>Inner row of pillars in the Upper cave.</head>                    
                     
                     <milestone n="B1" unit="zone" type="pagelike"/><label>right pilaster</label>
                     
@@ -306,7 +307,7 @@
                     
                     <milestone n="B8" unit="zone" type="pagelike"/><label>fourth pillar, top</label>
                     
-                    <p>
+                    <p xml:lang="san-Latn" rendition="class:grantha maturity:vernacular">
                         <lb n="B8.1"/><unclear>Āhāryyabuddhi</unclear>ḥ
                     </p>
                     
@@ -324,7 +325,7 @@
                     
                 </div>
                 <div n="C" type="textpart">
-                    <head>ON THE INNER FACE OF THE SAME PILASTER.</head>
+                    <head>On the inner face of the same pilaster [[inner row, left pilaster]].</head>
                     
                     <p xml:lang="san-Latn" rendition="class:grantha maturity:vernacular">
                         <lb n="C1"/>svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied>
@@ -362,10 +363,20 @@
                     </p>
                     <p>
                         <lb n="C7"/> <gap reason="lost" quantity="1" unit="character"/> <unclear>panda</unclear> ca <gap reason="lost" quantity="2" unit="character"/> <unclear>ce</unclear>mu
+                    </p>
+                    <p>
                         <lb n="C8"/>cu<seg rendition="class:telugu maturity:vernacular"><unclear>ṟi</unclear></seg> <gap reason="lost" quantity="3" unit="character"/> sā<unclear>rththaḥ</unclear>
+                    </p>
+                    <p>
                         <lb n="C9"/> <gap reason="lost" quantity="3" unit="character"/> <unclear>samba</unclear>ruṭu
+                    </p>
+                    <p>
                         <lb n="C10"/><unclear>viḍe</unclear> <gap reason="lost" quantity="3" unit="character"/> nvu
+                    </p>
+                    <p>
                         <lb n="C11"/><gap reason="lost" quantity="1" unit="line"/><!--damaged-->
+                    </p>
+                    <p>
                         <lb n="C12"/><gap reason="lost" quantity="5" unit="character"/> ṇāḷa
                     </p>
                 </div>
