@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 12.103: original edition by V. Venkatasubba Ayyar</title>
+                <title type="alt">KAMPAVARMAN. No. 103. (A.R. No. 174 of 1912). TIRUVOṞṞIYŪR, SAIDAPET TALUK, CHINGLEPUT DISTRICT. ON A SLAB BUILT INTO THE FLOOR OF THE VERANDAH ROUND THE CENTRAL SHRINE IN THE ĀDHIPURĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv12p0i0103</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The date of this record of <hi rend="bold">Vijaya-Kampavarman</hi> is not clear. It might be <hi rend="bold">11, 13</hi> or <hi rend="bold">16.</hi> The inscription records an agreement made by the assembly <hi rend="italic">(ūr)</hi> of Vaikkāṭṭūr to provide offerings to the god Mahādēva at Tiruvoṟṟiyūr, on the day of <hi rend="italic">saṅkrānti,</hi> for the interest on 27 <hi rend="italic">kaḻañju</hi> of gold received by them from <hi rend="bold">Pūdi Aṟindigai,</hi> wife of <hi rend="bold">Viḍēlviḍugu [Iḷaṅkōvē]ḷār</hi> of Koḍumbāḷūr<note>For a genealogy of the Koḍumbāḷur chiefs, see <hi rend="italic">Ep. Rep.</hi> for 1908, p. 87.</note> in Kō-nāḍu. The chiefs of Koḍumbāḷūr (in the Pudukkottai state) figure largely in inscriptions as subordinates of the Chōḷas, but their connection with the Pallavas is not so well known. A chief of this family is also mentioned in a mutilated record from Kīḻūr,<note>No. 295 of 1902 (<hi rend="italic">S.I.I.</hi> Vol. VII, No. 924).</note> dated in the 11th year of Vijaya-Nandivikramavarman, where the donor is stated to be the wife of Śāttaṉ Maṟavaṉ and the daughter of Vikrama-Pūdi who is probably identical with Viḍēlviḍugu Iḷaṅkō-Adiaraiyaṉ mentioned in the same record.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-06" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha"><unclear>svasti</unclear> śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <unclear>kovic</unclear>ai<unclear>ya</unclear> ka<unclear>mpava</unclear><hi rend="grantha">rmma</hi>ṟku yāṇṭu pa
+                    <lb n="2" break="no"/><gap reason="lost" quantity="4" unit="character"/> <unclear>ṟā</unclear>vatu puḻaṟkoṭṭattup puḻaṉāṭṭut tiruv<unclear>o</unclear>
+                    <lb n="3" break="no"/><gap reason="lost" quantity="4" unit="character"/> puṟattu vaikkāṭṭuroṅ kaiyyeḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> <unclear>muka</unclear>
+                    <lb n="4" break="no"/><gap reason="lost" quantity="4" unit="character"/> r makaḷ konāṭṭuk koṭumpāḷūr viṭelviṭuku I
+                    <lb n="5" break="no"/><gap reason="lost" quantity="4" unit="character"/> <unclear>ḷār</unclear>tevi pūti<hi rend="grantha">A</hi>ṟintikai tiruvoṟṟiyūr <hi rend="grantha">mahāde</hi>
+                    <lb n="6" break="no"/><gap reason="lost" quantity="4" unit="character"/> caṅkirāntitoṟum patteṭṭākak kuttal paḻa
+                    <lb n="7" break="no"/><gap reason="lost" quantity="5" unit="character"/> <unclear>ḷum</unclear>māvukku <hi rend="grantha">A</hi>ñpatiṉāḻiyum <hi rend="grantha">A</hi>ñpatu vāḻai
+                    <lb n="8" break="no"/><gap reason="lost" quantity="5" unit="character"/> mpatiṉpalac carkkaraiyum <hi rend="grantha">A</hi>ṭaikkāyami
+                    <lb n="9" break="no"/><gap reason="lost" quantity="5" unit="character"/> <unclear>kku ve</unclear>ṟṟilaiyuṅ kāyu mittaṉaikkumāka vai
+                    <lb n="10" break="no"/><gap reason="lost" quantity="3" unit="character"/> Ūrkkaṟ cempoṉ Irupatteḻu kaḻañcu Iv
+                    <lb n="11" break="no"/><gap reason="lost" quantity="3" unit="character"/> tteḻu kaḻañcuṅ koṇṭu kaṭavom vaiyk<unclear>ka</unclear>
+                    <lb n="12" break="no"/><gap reason="lost" quantity="3" unit="character"/> <unclear>ro mi</unclear>ppoṉṉukkuk kaḻañciṉvāy muṉṟu
+                    <lb n="13"/><gap reason="lost" quantity="2" unit="character"/> cāṭippoṉ palicaiyā lāṇṭuvar<hi rend="grantha">ai</hi> nāṟ
+                    <lb n="14" break="no"/><gap reason="lost" quantity="2" unit="character"/> ñce yorumañcāṭip poṉṉāka Ivvāṭṭaiv
+                    <lb n="15" break="no"/><gap reason="lost" quantity="1" unit="character"/> yyācit tiṅkaḷ mutalāka <hi rend="grantha">Ā</hi>ṟāṟu tiṅka
+                    <lb n="16" break="no"/>ḷil Irukaḻañcey<surplus>yā</surplus>yum māppoṉ
+                    <lb n="17" break="no"/><unclear>ṉu</unclear>ṅ koṇṭu ceṉṟu tiruvoṟṟiyū rāṇikkiḻe
+                    <lb n="18" break="no"/><gap reason="lost" quantity="2" unit="character"/> ṭṭuk kuṭuppomāṉo miṭṭuk kuṭomāyi lip
+                    <lb n="19" break="no"/><gap reason="lost" quantity="1" unit="character"/> ṉṉukkut talaiccemāṭu comatevaṉ pira
+                    <lb n="20" break="no"/><gap reason="lost" quantity="2" unit="character"/> tāyap pāṭṭanel nāṟpatiṉ kāṭiyu muṭi cūṭṭup
+                    <lb n="21" break="no"/><gap reason="lost" quantity="1" unit="character"/> ṭṭa nel lirupatiṉ kāṭiyu muḻapaṭṭip pāṭṭa ne
+                    <lb n="22" break="no"/><unclear>l</unclear> lirupatiṉ kāṭiyum vaikkāṭu kiḻā<supplied reason="omitted">r</supplied>e<surplus>r</surplus> <add place="above"><unclear>Ī</unclear></add><!--<note n="47-4">Engraved above the line.</note>-->y Et
+                    <lb n="23" break="no"/><gap reason="lost" quantity="2" unit="character"/> pulattiṉ nel nūṟṟirupatiṉ kāṭiyu mā
+                    <lb n="24" break="no"/><gap reason="lost" quantity="3" unit="character"/> nūṟṟuk kāṭi nellilum <hi rend="grantha">Ā</hi>ṟāṟutiṅ
+                    <lb n="25" break="no"/><gap reason="lost" quantity="7" unit="character"/> cey <hi rend="grantha">A</hi>yntu mā
+                    <lb n="26" break="no"/><gap reason="lost" quantity="10" unit="character"/> <unclear>paṭṭa</unclear> <hi rend="grantha">Ā</hi>kattā
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="16">
+                        <lem>Irukaḻañcey<surplus>yā</surplus>yum māppoṉ</lem>
+                        <note>Read <foreign>Irukaḻañceyaraimāppoṉ</foreign>.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="commentary">
+                <p n="26">Continuation of the inscription is lost.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 12.103 by <bibl><ptr target="bib:VenkatasubbaAyyar1943_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:VenkatasubbaAyyar1943_01"/>
+                        <citedRange unit="page">46-47</citedRange>
+                        <citedRange unit="item">103</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
