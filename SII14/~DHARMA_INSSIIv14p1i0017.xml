@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 14.17: original edition by A. S. Ramanatha Ayyar</title>
+				<title type="alt">No. 17. (A.R. No. 10 of 1927). VIJAYANĀRĀYAṆAM, NANGUNERI TALUK, TIRUNELVELI DISTRICT. ON THE SOUTH WALL OF THE MANŌNMAṆĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv14p1i0017</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The subjoined inscription is dated in the 2nd year of <hi rend="bold">Māṟañjaḍaiyaṉ</hi> and registers that Pañchavaṉ-Pallavaraiyaṉ <hi rend="italic">alias</hi> Vēḷ-Śendil of Koṟṟampullaṉkuḍi in Mudukuḍināḍu purchased some lands from the <hi rend="italic">sabhā</hi> of Vijayanārāyaṇa-chaturvēdimaṅgalam, a <hi rend="italic">brahmadēya</hi> in NAṭṭāṟṟuppōkku and gave them to the temples of <hi rend="bold">RAghava-Perumāṉaḍigaḷ</hi><note n="17-1">The reference to a temple of RAghava-Perumāṉaḍigaḷ is note worthy.</note>and <hi rend="bold">MaṉōmayaṉIchchurattu-Perumāṉaḍigaḷ.</hi> The names of another god TAṉtōṉṟipperumāṉaḍigaḷ and of a channel Paramēchchuvara-vāykkāl are mentioned while describing the boundaries of the land in question.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-09" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> komāṟañcaṭaiyaṟku yāṇṭu Iraṇṭu
+<lb n="2"/>(iraṇṭu) Ivvāṇṭu nāṭṭāṟṟuppokkup pi
+<lb n="3" break="no"/>ramateyam vicaiyanārāyaṇac caruppetimaṅka
+<lb n="4" break="no"/>lattu maṉomayaṉīccurattup perumāṉaṭika
+<lb n="5" break="no"/>ḷukku mutukuṭi nāṭṭu koṟṟampullaṉkuṭip pa
+<lb n="6" break="no"/>ñcavaṉ pallavaraiyaṉāyiṉa veḷ centil vaitta ti
+<lb n="7" break="no"/>runontāviḷakku Oṉṟuñ cantirāticcavar Eri 
+<lb n="8" break="no"/>vatākac cavaiyāriṭai nāṉ vilaikoṇṭu Uṭaiya O
+<lb n="9"/>ṉṟarai veli nilamāvatu <supplied reason="undefined"><g type="danda">.</g></supplied> parameccuvara vāyk<unclear>kā</unclear>
+<lb n="10" break="no"/>lukku mekkum tāṉtoṉṟip perumāṉaṭika
+<lb n="11" break="no"/>ḷ Arccaṉāpokattukkut teṟkum Ippū
+<lb n="12" break="no"/>miyi naṭuvey teṟku nokkip poyiṉa kālu
+<lb n="13" break="no"/>kkuk kiḻakku maṭaiñciliyaṭaiya Ivvo
+<lb n="14" break="no"/>ṉṟarai veli nilamuṅ kaṇikkūṟṟoṭu nir pe
+<lb n="15" break="no"/>ṟuvatākavum <supplied reason="undefined"><g type="danda">.</g></supplied> Innilam Iṟaiyiliyāvatākavu[m <g type="danda">.</g>*]
+<lb n="16"/>Ipparicu vilai Uṭai<supplied reason="omitted">y</supplied>eṉāyirunta Immup
+<lb n="17" break="no"/>patumā ni<supplied reason="omitted">la</supplied>ttilum ci<unclear>ri</unclear>rākavapperumā
+<lb n="18" break="no"/>ṉaṭikaḷukku vaitta pattu m<unclear>ā ni</unclear>
+<lb n="19" break="no"/>lamu nīkki Itaṉuk<unclear>ku</unclear>p
+<lb n="20" break="no"/>pattu mā nilamuñ canti<unclear>rāti</unclear>
+<lb n="21" break="no"/>ttavaṟ tiruna<supplied reason="omitted">n</supplied>tā viḷakku Eri<unclear>kka</unclear>
+<lb n="22" break="no"/>vaitta<note n="18-1">Read vaitteṉ</note>pañcavaṉ pallavarai<unclear>yaṉāyi</unclear>
+<lb n="23" break="no"/>ṉa veḷ centileṉ maṉoma<unclear>yaṉī</unclear>
+<lb n="24" break="no"/>ccurattup peru<unclear>māṉaṭikaḷukku</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 14.17 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamanathaAyyar1962_01"/>
+			<citedRange unit="page">17-18</citedRange>
+			<citedRange unit="item">17</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

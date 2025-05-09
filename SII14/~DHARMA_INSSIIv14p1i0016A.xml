@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.16A: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 16A. (A.R. No. 26 of 1912.) TIRUCHCHENDŪR, TIRUCHCHENDUR TALUK, TIRUNELVELI DISTRICT. ON TWO SLABS SEUPP IN THE SUBRAHMAṆYASVĀMIN TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0016A</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription of <hi rend="bold">Varaguṇa-Mahārāja</hi> registers the gift by the king, of 1,400 <hi rend="italic">kāśu</hi> for meeting the various annual requirements of the temple of Subrahmaṇyabhaṭārar. The money was invested by the king's three officers <hi rend="italic">Iruppaikkuḍikiḻavaṉ</hi>, Śāttamperumāṉ and Aḷaṟṟūrnāṭṭukkōṉ with the administrative bodies of various villages which were required to pay annually interest in grain to the temple at two <hi rend="italic">kalam</hi> per <hi rend="italic">kāśu</hi> per year.</p>						
+                            
+                            <p>The record is dated in the <hi rend="bold">year 13 opposite to a certain year</hi> (lost), of the king's reign. The amount of 1,400 <hi rend="italic">kāśu</hi> is stated to have been made over on the 5001st day (line 7).</p>						
+                            
+                            <p>Published in <hi rend="italic">Epigraphia Indica</hi>, Vol. XXI, pp. 101 ff.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-09" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:vaṭṭeḻuttu maturity:vernacular">
+                
+                <!--<h4>First slab, first face.</h4>-->
+                
+                <p>
+                    <lb n="1"/> <gap reason="lost" quantity="6" unit="character"/> <hi rend="grantha">śrī</hi> ko varakuṇa mārāyaṟku yāṇṭu
+                    <lb n="2"/> <gap reason="lost" quantity="4" unit="character"/> taṉetir patiṉmuṉṟu Ivvāṇṭu tiru
+                    <lb n="3" break="no"/> <gap reason="lost" quantity="5" unit="character"/> cuppirama(ṇ)ṇiya paṭārar Upā<hi rend="grantha">sai</hi>yā 
+                    <lb n="4" break="no"/> <gap reason="lost" quantity="1" unit="character"/> ṉa tirumūlattāṉattup paṭārarkku mutal keṭāmaip poli Ūṭṭā
+                    <lb n="5" break="no"/>ka koṇṭu celuttuvatāka Uṭaiyāraṭiyārāiṉa varakuṇamārāyar po
+                    <lb n="6" break="no"/>ttara Iruppaikkuṭi kiḻavaṉum cāttam perumāṉum Aḷaṟṟū<supplied reason="omitted">r</supplied> nā
+                    <lb n="7" break="no"/>ṭṭukkoṉum Aiyāirattoṉṟā nāḷāṟ koṇṭu vanta niṟai kuṟaiyāppa
+                    <lb n="8" break="no"/>ḻaṅkācu Āirattu nāṉūṟu <supplied reason="undefined"><g type="ddanda">.</g></supplied> Ikkāciṟ kuṭanāṭṭuk koṟkai Ūrār kaiiṉ
+                    <lb n="9"/>mutal keṭāmaip poliūṭṭuk koṇṭu celuttuvatāka vaitta niṟai
+                    <lb n="10" break="no"/>kuṟaiyāp paḻaṅkācu toṇṇūṟṟāṟu poṉṉeṭṭu <supplied reason="undefined"><g type="danda">.</g></supplied> Ikkācāl Oru kā
+                    <lb n="11" break="no"/>cukku Āṇṭuvarai poli niṟaimati nārāyattāl Irukala nellāka va
+                    <lb n="12" break="no"/>nta nellu nūṟṟut toṇṇūṟṟu mukkalaṉey Oṉpatiṉ kuṟuṇi <supplied reason="undefined"><g type="danda">.</g></supplied> In
+                    <lb n="13" break="no"/>nellāl niyatippaṭi Iva<supplied reason="omitted">r</supplied>kaḷ koṇṭu vantu celuttakkaṭavaṉa <supplied reason="undefined"><g type="danda">.</g></supplied> nāḻi
+                    <lb n="14" break="no"/>aricikku munnāḻi nellākat tiruvamitiṉukku Arici cenneṟṟīṭ
+                    <lb n="15" break="no"/>ṭal Oru potaikku nāṉāḻiyāka nāṉku potaikku Arici cenneṟṟīṭṭa
+                    <lb n="16" break="no"/>l patiṉaṟu nāḻi <supplied reason="undefined"><g type="danda">.</g></supplied> mārkaḻittiruvātiraiu mācimakamum vaiyyāci
+                    <lb n="17" break="no"/>viyākamum paṭi Iraṭṭi celuttuvatu <supplied reason="undefined"><g type="danda">.</g></supplied> Ipparicu celuttātu ku
+                    <lb n="18" break="no"/>ttukkāṟpaṭil Ittevarkkey Irupattaiñcu kācu taṇṭamum pa
+                    <lb n="19" break="no"/>ṭṭuc celuttātu viṭṭa mutaliraṭṭiyuṅ kuṭuppatu <supplied reason="undefined"><g type="danda">.</g></supplied> Innāṭṭunal
+                    <lb n="20" break="no"/>lūr Ūrār kaiil meṟpaṭi poliūṭṭāka vaitta niṟaikuṟaiyāp paḻa
+                    <lb n="21" break="no"/>ṅkācu nūṟṟaṟupatteṭṭum poṉ <unclear>ṉāṟey</unclear> kāl <supplied reason="undefined"><g type="danda">.</g></supplied> Ikkācālāṇṭuvarai poli
+                    <lb n="22" break="no"/>nellu niṟaimati nārāyattāl munnūṟṟu muppatteḻukalaṉey mukku
+                    <lb n="23" break="no"/>ṟuṇi nāṉāḻi Uri <supplied reason="undefined"><g type="danda">.</g></supplied> Innellāl nikatippaṭi tiruvamitiṉukku Iva<supplied reason="omitted">r</supplied> <unclear>ka</unclear>
+                    <lb n="24" break="no"/>ḷ koṇṭuvantu celuttakkaṭavaṉa nāḻi neyyamitiṉukku Irupati
+                    <lb n="25" break="no"/><unclear>nā</unclear>ḻi nellākat tiruvamitu nivetikkap pacuviṉ ṉaṟuney Oru
+                    <lb n="26" break="no"/>potaikku Uḻakkākavum kaṟitumikkavum porikkavum Oru potaikku Ā
+                    <lb n="27" break="no"/>ḻākkākavum nāṉku potaikku neyyamitu nāḻiuri <supplied reason="undefined"><g type="danda">.</g></supplied> nāḻittaira
+                    <lb n="28" break="no"/>mitiṉukku Irunāḻi nellākat tiruvamitu nivetikkat tairamitu
+                    <lb n="29"/>Oru potaikku nāḻiyākavum kūṭṭukkut tairamitu Oru potaikku U
+                    <lb n="30" break="no"/>riyākavum nāṉku potaikkup pacuviṉ ṟoytair Aṟunāḻi <supplied reason="undefined"><g type="danda">.</g></supplied> Oru kācu
+                    <lb n="31" break="no"/>kku niṟaimati nārāyattāṟ patiṉkala nellaaHkamāka Āiram
+                    <lb n="32"/>varaḻaippaḻattiṉukku Oru kācākavum <supplied reason="undefined"><g type="danda">.</g></supplied> Eḻutulāt taṟupattaimpa
+                    <lb n="33" break="no"/>lac carkkaraikku Oru kācākavum <supplied reason="undefined"><g type="danda">.</g></supplied> Irupatiṉtulām kaṟi Amitiṉukku
+                    <lb n="34"/>Oru kācākavum <supplied reason="undefined"><g type="danda">.</g></supplied> Aṟupatiṉāḻi kāyattiṉukku Oru kācākavum
+                    <lb n="35"/>Aḵkamāka <supplied reason="undefined"><g type="danda">.</g></supplied> ttiruvamitu nivetikka vāḻaippaḻa Amitu O
+                    <lb n="36" break="no"/>ru potaikku nāṉkāka nāṉku potaikkuk karuvāḻaippaḻa Amitu pa
+                    <lb n="37" break="no"/>tiṉāṟu <supplied reason="undefined"><g type="danda">.</g></supplied>caṟkkarai Amitu Oru potaikku Oru palamāka nāṉku potai
+                    <lb n="38" break="no"/>kkuc caṟkkarai Amitu nāṟpalam <supplied reason="undefined"><g type="danda">.</g></supplied> kaṟi Amitu kāykkaṟi Oṉṟu pu
+                    <lb n="39" break="no"/>ḷiṅkaṟi Oṉṟu puḻukkuk kaṟi Oṉṟu porikkaṟi Oṉṟu Eṟṟi
+                    <lb n="40" break="no"/>kkaṟi Amitu nāṉkiṉukku Oru potaikku patiṉpalamāka nāṉ
+                    <lb n="41" break="no"/>ku potaikkuk kaṟi Amitu nāṟpatiṉ palam <supplied reason="undefined"><g type="danda">.</g></supplied> kāyam miḷa<unclear>kamitu</unclear>
+                    <lb n="42"/>mañcaḷamitu ciraka Amitu ciṟukaṭukamitu kottampa<unclear>riamitu</unclear>
+                    <lb n="43"/>Eṟṟikkāyam Aintu <supplied reason="undefined"><g type="danda">.</g></supplied> Ivai Oru potaikku mucceviṭṭāka nā<unclear>ṉku po</unclear>
+                    <lb n="44" break="no"/>taikkuk kāyam Uḻakke Iru ceviṭṭu <supplied reason="undefined"><g type="danda">.</g></supplied> mārkaḻit tiruvātiraiu māci maka
+                    <lb n="45" break="no"/>mum vaiyyāci viyākamum paṭi Iraṭṭi celuttuvatu <supplied reason="undefined"><g type="danda">.</g></supplied> Ippa
+                    <lb n="46" break="no"/>ricu celuttātu kuttukkāṟpaṭil Ittevarkkey Aimpatu
+                    <lb n="47"/>kācu taṇṭamum paṭṭuc celuttātu viṭṭa mutaliraṭṭiuṅ ku
+                    <lb n="48"/>ṭuppatu <supplied reason="undefined"><g type="danda">.</g></supplied> In nāṭṭuc cāliyattu Ūrār kaiiṉ meṟpaṭi
+                    <lb n="49"/>poli Ūṭṭāka vaitta niṟai kuṟaiyāp paḻaṅkācu Irupattu nā
+                    <lb n="50" break="no"/>ṉku poṉ Aintey mukkāl <supplied reason="undefined"><g type="danda">.</g></supplied> Ikkācāl Oru kācukku Āṇṭuva
+                    <lb n="51" break="no"/>rai poli niṟaimati nārāyattāl Irukala nellāka vanta nellu 
+                </p>
+                
+                <!--<h4>Second face.</h4>-->
+                
+                <p>
+                    <lb n="52"/>nāṟppattoṉpatiṉ kalaṉey Irukuṟuṇi nāḻi
+                    <lb n="53"/>Uri <supplied reason="undefined"><g type="danda">.</g></supplied> Innellāl niyatippaṭi tiruvamitiṉukku Iva<supplied reason="omitted">r</supplied>ka
+                    <lb n="54" break="no"/>ḷe koṇṭu vantu celuttakkaṭavaṉa <supplied reason="undefined"><g type="danda">.</g></supplied> nāḻipparuppukku nā
+                    <lb n="55" break="no"/>ḻi Uḻakkup payaṟākavum nāḻippayaṟṟukku Irunāḻi nellāka
+                    <lb n="56" break="no"/>vum kummāyattiṉukkup payaṟṟupparuppu Oru potaikku U
+                    <lb n="57" break="no"/>riyāka nāṉku potaikkuc ciṟupayaṟṟupparuppu Iru nāḻi <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    <lb n="58"/>Oru kācukku niṟaimati nārāyattāṟ patiṉ kalanel laḵkamā
+                    <lb n="59" break="no"/>ka <supplied reason="undefined"><g type="danda">.</g></supplied> Āirattirunūṟṟirupatu paṟṟu veṟṟilaikku Oru kācā
+                    <lb n="60" break="no"/>kavum <supplied reason="undefined"><g type="danda">.</g></supplied> patiṉāirattorunūṟaṭaikkāyamitiṉukku Oru kācākavu
+                    <lb n="61" break="no"/>m Aḵkamāka <supplied reason="undefined"><g type="danda">.</g></supplied> Ilai Amitu Oru potaikku muvaṭukkāka nāṉ
+                    <lb n="62" break="no"/>ku potaikku veḷḷilai Amitu mūṉṟu paṟṟu <supplied reason="undefined"><g type="danda">.</g></supplied> Aṭaikkā ya<unclear>mi</unclear>
+                    <lb n="63" break="no"/>tu Oru potaikkup patiṉāṉkāka nāṉku potaikku Aṭaikkāya
+                    <lb n="64" break="no"/>mitu Aimpattāṟu <supplied reason="undefined"><g type="danda">.</g></supplied> nūṟṟamitu veṇṭuvatiṭuvatu <supplied reason="undefined"><g type="danda">.</g></supplied> mā
+                    <lb n="65" break="no"/>rke(a)ḻittiruvātiraiu mācimakamum vaiyyāci viyākamu
+                    <lb n="66" break="no"/>m paṭi Iraṭṭi celuttuvatu <supplied reason="undefined"><g type="danda">.</g></supplied> Ipparicu celu
+                    <lb n="67" break="no"/>ttātu kuttukkāṟpaṭil Itteva<supplied reason="omitted">r</supplied>kkey Aintu kācu
+                    <lb n="68"/>taṇṭamum paṭṭuc celuttātu viṭṭa mutaliraṭṭi
+                    <lb n="69" break="no"/>uṅ <unclear>kuṭu</unclear>p<unclear>patu</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied> vaḻuti vaḷanāṭṭup piramateyam
+                    <lb n="70"/>varakuṇa maṅkalattuc cavaiyā<unclear>r</unclear> kaiiṉ meṟpaṭi po
+                    <lb n="71"/>liū<unclear>ṭṭāka vai</unclear>tta niṟai kuṟaiyāp paḻaṅkācu nuṟṟoru
+                    <lb n="72" break="no"/>patu <supplied reason="undefined"><g type="danda">.</g></supplied> Ikkācāl Oru kācukku Āṇṭuvarai poli niṟaima
+                    <lb n="73" break="no"/>ti nārāyattāl <unclear>Iru kala</unclear> nellāka vanta nellu Irunū
+                    <lb n="74" break="no"/>ṟṟirupatiṉa kalam <supplied reason="undefined"><g type="danda">.</g></supplied> Innellāl niyatippaṭi Iva<supplied reason="omitted">r</supplied>
+                    <lb n="75" break="no"/>kaḷ koṇṭu vantu celuttakkaṭavaṉa <supplied reason="undefined"><g type="danda">.</g></supplied> nāḻi neykku Iru
+                    <lb n="76" break="no"/>patiṉāḻi nellākattirunantāviḷakku Oṉṟiṉukku ni
+                    <lb n="77" break="no"/>yati ney Uriyākattirunant<choice><sic>a</sic><corr>ā</corr></choice> viḷakku Aintiṉukkup pa
+                    <lb n="78" break="no"/><unclear>cu</unclear> viṉṉaṟuney niyati Irunāḻi Uri <supplied reason="undefined"><g type="danda">.</g></supplied> Antiyam potu
+                    <lb n="79"/><unclear>ti</unclear>ruvamitu ceykiṟṟu tīpamālai kāṭṭap pacuviṉ ṉaṟune
+                    <lb n="80" break="no"/>y niyati Uḻakku <supplied reason="undefined"><g type="danda">.</g></supplied> Ipparicu celuttātu kuttukkāṟpaṭi
+                    <lb n="81" break="no"/>l Ittevarkkey panniraṇṭaraikkācu taṇṭamum paṭṭuc celu
+                    <lb n="82" break="no"/>ttātu viṭṭa mutaliraṭṭiuṅkuṭuppatu <supplied reason="undefined"><g type="danda">.</g></supplied> Innāṭṭu
+                    <lb n="83" break="no"/>ttevatāṉap piramateyam tiyampaka maṅkalam Iṟa
+                    <lb n="84" break="no"/><unclear>ṇa</unclear>vāli maṅkalattuc cavaiyār kaiiṉ meṟpaṭi po
+                    <lb n="85" break="no"/>liūṭṭāka vaitta niṟai kuṟaiyāp paḻaṅkācu mu
+                    <lb n="86" break="no"/>ppattiraṇṭu Ikkācāl Oru kācukku Āṇṭuvarai poli niṟai
+                    <lb n="87" break="no"/>mati nārāyattāl Irukala nellāka vanta nellu Aṟupa
+                    <lb n="88" break="no"/>ttunāṟkalam <supplied reason="undefined"><g type="danda">.</g></supplied> Innellāl Iva<unclear>r</unclear>kaḷ niyatippaṭi koṇ
+                    <lb n="89" break="no"/>ṭu vantu celuttakkaṭavaṉa <supplied reason="undefined"><g type="danda">.</g></supplied> nāḻippālukku Irunāḻi ne
+                    <lb n="90" break="no"/>llākat tirumañcaṉam Āṭi Aruḷap pacuviṉ pāl niya
+                    <lb n="91" break="no"/>ti nāṉāḻi <supplied reason="undefined"><g type="danda">.</g></supplied> nāḻittairukku Irunāḻi kellākat ti
+                    <lb n="92" break="no"/>rumañcaṉamum Āṭi Aruḷap pacuviṉ ṟair niyati nā
+                    <lb n="93" break="no"/>ṉāḻi <supplied reason="undefined"><g type="danda">.</g></supplied> Ipparicu celuttātu kuttukkāṟpaṭi
+                    <lb n="94" break="no"/>l Ittevarkkey Aintu kācu taṇṭamum paṭṭuc
+                    <lb n="95" break="no"/>celuttātu viṭṭa mutaliraṭṭiuṅ kuṭuppatu <supplied reason="undefined"><g type="danda">.</g></supplied> 
+                </p>
+                
+                <!--<h4>Second slab; First face.</h4>-->
+                
+                <p>
+                    <lb n="96"/>Innāṭṭuk keṅkaimaṅkalattuppaṭum Ālampaṭṭattu Ū
+                    <lb n="97" break="no"/>rār kaiiṉ meṟpaṭi poliūṭṭāka vaitta niṟaikuṟaiyāppaḻaṅkācu pa
+                    <lb n="98" break="no"/>ti<unclear>ṉā</unclear>ṟu Ikkā<unclear>cāl</unclear> Oru kācukku Āṇṭu varai poli niṟaimati nārāyattāl I
+                    <lb n="99" break="no"/>rukala nellāka vanta nellu muppattiru kalam <supplied reason="undefined"><g type="danda">.</g></supplied> Innellāl Iva<supplied reason="omitted">r</supplied>kaḷ
+                    <lb n="100"/><unclear>niya</unclear>tippaṭi <unclear>koṇ</unclear>ṭuvantu celuttakkaṭavaṉa<supplied reason="undefined"><g type="danda">.</g></supplied> Oriḷani<unclear>ru</unclear>kku nāḻi nellā
+                    <lb n="101" break="no"/>kattirumañcaṉam Āṭiaruḷa Iḷanir vaḻuvai Uṭpaṭa niyati Irunāḻi U
+                    <lb n="102" break="no"/>ḻakku <supplied reason="undefined"><g type="danda">.</g></supplied> nāḻi Iḷanirukku nāliḷanirāka niyati Iṭum Iḷanīr Eṭṭu <supplied reason="undefined"><g type="danda">.</g></supplied> I
+                    <lb n="103" break="no"/>pparicu celuttātu kuttukkāṟpaṭil Ittevarkkey Aintu kācu ta
+                    <lb n="104" break="no"/>ṇṭamum paṭṭuc celuttātu viṭṭa mutaliraṭṭiuṅkuṭuppatu <supplied reason="undefined"><g type="danda">.</g></supplied> Innā
+                    <lb n="105"/>ṭṭu māṉavirapaṭṭinattu nakarattār kaiiṉ meṟpaṭi poliūṭṭāka vai
+                    <lb n="106" break="no"/>tta niṟaikuṟaiyāppaḻaṅkācu nūṟṟirupatu <supplied reason="undefined"><g type="danda">.</g></supplied> Ikkācāl Oru kācuk
+                    <lb n="107" break="no"/>ku Āṇṭuvarai poli niṟaimati nārāyattāl Irukala nellāka vanta ne
+                    <lb n="108" break="no"/>llu Irunūṟṟu nāṟpatiṉkalam <supplied reason="undefined"><g type="danda">.</g></supplied> Innellāl Iva<supplied reason="omitted">r</supplied>kaḷ niyatippa
+                    <lb n="109"/>ṭikoṇṭu vantu celuttakkaṭavaṉa <supplied reason="undefined"><g type="danda">.</g></supplied> Oru kācukku niṟaimati nārāyattāṟ
+                    <lb n="110" break="no"/>patiṉkala nellaḵkamāka <supplied reason="undefined"><g type="danda">.</g></supplied> nūṟṟaimpati nāḻi naṟumpūviṉukku Oru
+                    <lb n="111"/>kācāka <hi rend="grantha">śrī</hi>paḷḷittāmattiṉukku niyati Aḷakkakkaṭava naṟumpūppati
+                    <lb n="112" break="no"/>nāḻi <supplied reason="undefined"><g type="danda">.</g></supplied> Ipparicu celuttātu kuttukkāṟpaṭiṟ Ittevarkkey Irupat
+                    <lb n="113" break="no"/>taintu kācu taṇṭamum paṭṭuc celuttātu viṭṭa mutaliraṭṭiuṅkuṭup
+                    <lb n="114" break="no"/>patu <supplied reason="undefined"><g type="danda">.</g></supplied> cirivallapavaḷanāṭṭup piramateyam kaṭṭāṟaimaṅkalattuc cavaiyā
+                    <lb n="115" break="no"/>r kaiiṉ meṟpaṭi poliūṭṭāka vaitta niṟaikuṟaiyāppaḻaṅkācu toṇṇūṟṟu
+                    <lb n="116"/>nāṉku poṉṉaintu <supplied reason="undefined"><g type="danda">.</g></supplied> Ikkācāl Oru kācukku Āṇṭuvarai poli niṟaimati nārāyattā
+                    <lb n="117" break="no"/>l Irukala nellāka vanta nellu nūṟṟeṇpattoṉpatiṉkalam <supplied reason="undefined"><g type="danda">.</g></supplied> In <unclear>ne</unclear>
+                    <lb n="118" break="no"/>llāl Iva<supplied reason="omitted">r</supplied>kaḷ koṇṭuvantu celuttakkaṭavaṉa <supplied reason="undefined"><g type="danda">.</g></supplied> nāḻicciṟupayaṟṟuppo
+                    <lb n="119" break="no"/>rikku nāḻi Uḻakkup payaṟākavum <supplied reason="undefined"><g type="danda">.</g></supplied> nāḻippayaṟṟukku Iru nāḻi nellā
+                    <lb n="120" break="no"/>kappori Iṭa nicatam ciṟupayaṟṟuppori niyati Uriiṉukku Aḷakkakkaṭava
+                    <lb n="121" break="no"/>ciṟupayaṟu Uri Āḻākku Oru kācukku niṟaimati nārāyattāṟ patiṉkala nel
+                    <lb n="122" break="no"/>laḵkamāka <supplied reason="undefined"><g type="danda">.</g></supplied> Oru kāṇattukkup pati<unclear>ṉo</unclear>ru nāḻi Uḻakku mañcaḷākat tiru
+                    <lb n="123" break="no"/>meṉi pūci Aruḷa meṟṟol ciṟaitta paṟṟumañcaḷ niyati muḻakku <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    <lb n="124"/><unclear>O</unclear>viyalum pāvāṭaiyum Oraṇai Oru kācu peṟṟaṉa Oru muṟai muttiṅ
+                    <lb n="125" break="no"/>kaḷukku nālaṇaiyāka Orāṇṭu nāṉku muṟaikku veṇkūṟai patiṉāṟaṇai <supplied reason="undefined"><g type="danda">.</g></supplied> I
+                    <lb n="126" break="no"/>pparicu celuttātu kuttukkāṟpaṭil Ittevarkkey Irupattaintu
+                    <lb n="127"/>kācu taṇṭamum paṭṭuc celuttātu liṭṭa mutaliraṭṭiuṅkuṭuppatu <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    <lb n="128"/>parāntakavaḷanāṭṭup piramateyam <unclear>parai</unclear>cumaṅkala<unclear>ttutte</unclear>ṉ kiḻakku ti
+                    <lb n="129" break="no"/>ṇṇic cavaiyār kaiiṉ meṟpaṭi poliūṭṭāka vaitta niṟaikuṟaiyāppaḻa
+                    <lb n="130" break="no"/>ṅkācu Irupattaintu <supplied reason="undefined"><g type="danda">.</g></supplied> Ikkācāl Oru kācukku Āṇṭu varai poli niṟaimatinā
+                    <lb n="131" break="no"/>rāyattāl Irukalanellāka vanta nellu Aimpatiṉkalam Innellā
+                    <lb n="132" break="no"/>l Iva<unclear>r</unclear>kaḷ koṇṭu vantu celuttak kaṭavaṉa <supplied reason="undefined"><g type="danda">.</g></supplied> nāḻi Aricikku munnāḻi nel
+                    <lb n="133"/>lākattiruppalikku niyati Arici cen<supplied reason="omitted">n</supplied>eṟṟīṭṭal Oru potaikku nāḻiyāka I
+                    <lb n="134" break="no"/>raṇṭu potaikku Arici cen<supplied reason="omitted">n</supplied>eṟṟīṭṭal Iru nāḻi <supplied reason="undefined"><g type="danda">.</g></supplied> Oru kācukku niṟaimati nārāyattāl
+                    <lb n="135"/>patiṉkalanellaḵkamāka <supplied reason="undefined"><g type="danda">.</g></supplied> <hi rend="grantha">śrī</hi>maṭaippaḷḷikkaṭṭu meṟkaṭṭikkup puṭavai Iṇai I
+                    <lb n="136" break="no"/>raṇṭaraikkāṇam peṟṟaṉa Oru muṟai Aṟu tiṅkaḷukku Īraṇaiyāka Orāṇṭu Iraṇṭu muṟaik
+                    <lb n="137" break="no"/>kup puṭavai nālaṇai <supplied reason="undefined"><g type="danda">.</g></supplied> kalpuṟaikkup puṭavai Iṇai Iraṇṭu kāṇam peṟṟaṉa Oru muṟai muttiṅ
+                    <lb n="138" break="no"/>kaḷukku Īraṇaiyāka Orāṇṭu nāṉku muṟaikkup puṭavai Eṭṭaṇai <supplied reason="undefined"><g type="danda">.</g></supplied> Ipparicu celuttātu kut
+                    <lb n="139" break="no"/>tukkāṟpaṭil Ittevarkkey Aintukācu taṇṭamum paṭṭuc celuttātu viṭṭa muta
+                    <lb n="140" break="no"/>liraṭṭiuṅ kuṭuppatu <supplied reason="undefined"><g type="danda">.</g></supplied> Innāṭṭup piramateya<unclear>m</unclear> māṟamaṅkalattu
+                    <lb n="141" break="no"/>ccavaiyār kaiiṉ meṟpaṭi poliūṭṭāka vaitta niṟaikuṟaiyāppa 
+                    <lb n="142" break="no"/>ḻaṅkācu nūṟṟaimpattiraṇṭarai <supplied reason="undefined"><g type="danda">.</g></supplied> Ikkācāl Oru kācukku Āṇṭu varai
+                    <lb n="143"/>poli niṟaimati nārāyattāl Irukala nellāka vanta nellu munnūṟ
+                    <lb n="144" break="no"/>ṟaiṅkalam <supplied reason="undefined"><g type="danda">.</g></supplied> Innellāl Iva<supplied reason="omitted">r</supplied>kaḷ koṇṭuvantu celuttakkaṭavaṉa <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    <lb n="145"/>Oru kācukku niṟaimati nārāyattāl patiṉakala nellaḵkamāka <supplied reason="undefined"><g type="danda">.</g></supplied> <hi rend="grantha">śrī</hi> tūpam
+                    <lb n="146"/>citāriiṉukku veṇṭum Uṟu<unclear>ppu</unclear> Akiluṭpaṭak kaṟpūramum teṉum ni
+                    <lb n="147" break="no"/>yati Araikkāṇam vilaipeṟa Iṭuvatu <supplied reason="undefined"><g type="danda">.</g></supplied> <hi rend="grantha">śrī</hi>kaṟpakkiraakattukkaṭṭu meṟkaṭ
+                    <lb n="148" break="no"/>ṭikku veṇkūṟai Iṇai Eḻaraikkāṇam peṟṟaṉa Oru muṟai Āṟu tiṅkaḷukku
+                    <lb n="149"/>nālaṇaiyāka Orāṇṭu Iraṇṭu muṟaikku veṇkūṟai Eṭṭaṇai <supplied reason="undefined"><g type="danda">.</g></supplied> nāḻittairamitiṉuk
+                    <lb n="150" break="no"/>ku Irunāḻi nellākat tiruppalikkup pacuviṉṟoytair niyati nāḻi <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    <lb n="151"/>taṭṭaḷi koṭṭikaḷukkuk koṟṟu nellut tiṅkaḷ <unclear>nā</unclear>ṟkala<unclear>ṉe</unclear>y patiṉku
+                    <lb n="152" break="no"/>ṟuṇi nāḻi Uriyāka Orāṇṭu paṉṉiraṇṭu tiṅkaḷukku veṇṭum nellu niṟai
+                    <lb n="153"/>mati nārāyattāl Aimpatteḻu kalam<note n="16-1">Space left unengraved in this line and below. The gap may be filled as follows:— ipparicu celuttātu kuttukkāṟpaṭil ittevarkke aimpatu kācu taṇṭamum paṭṭuc celuttātu viṭṭa mutaliraṭṭiyuṅkuṭuppatu.</note>
+                </p>
+                
+                <!--<h4>Second slab; Second face.</h4>-->
+                
+                <p>
+                    <lb n="154"/>Innāṭṭup piramateyam teṉṟakku <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="155"/>llūrccavaiyār kaiiṉ meṟpaṭi poliūṭṭāka vaitta ni
+                    <lb n="156" break="no"/>ṟaikuṟaiyāp paḻaṅkācu Aṟupatu <supplied reason="undefined"><g type="danda">.</g></supplied> Ikkācāl Oru kācukku Āṇṭu
+                    <lb n="157" break="no"/>varai poli niṟaimati nārāyattāl Irukalanellāka vanta nellu
+                    <lb n="158"/>nūṟṟirupatiṉ kalam <supplied reason="undefined"><g type="danda">.</g></supplied> Innellāl Iva<supplied reason="omitted">r</supplied>kaḷ koṇṭuvantu celutta
+                    <lb n="159" break="no"/>kkaṭavaṉa <supplied reason="undefined"><g type="danda">.</g></supplied> Oru kācukku niṟaimati nārāyattāl patiṉkalanellaḵkamā
+                    <lb n="160" break="no"/>ka <supplied reason="undefined"><g type="danda">.</g></supplied> <hi rend="grantha">śrī</hi> Uṭaiyāṭai Iṇai mūṉṟu kācu peṟṟaṉa Oru muṟai muttiṅkaḷukku
+                    <lb n="161"/>Oraṇaiyāka Orāṇṭu nāṉku muṟaikku <hi rend="grantha">śrī</hi> Uṭaiyāṭai nālaṇai <supplied reason="undefined"><g type="danda">.</g></supplied> Ip
+                    <lb n="162" break="no"/>paricu celuttātu kuttukkāṟpaṭil Ittevarkkey panni
+                    <lb n="163" break="no"/>raṇṭaraikkācu taṇṭamum paṭṭuc celuttātu viṭṭa mutaliraṭṭi
+                    <lb n="164" break="no"/>uṅkuṭuppatu <supplied reason="undefined"><g type="danda">.</g></supplied> Amitakuṇavaḷa nāṭṭup piramateyam Avaṉi
+                    <lb n="165" break="no"/>pacekaramaṅkalattuc cavaiyār kaiiṉ meṟpaṭi poliūṭṭāka vaitta
+                    <lb n="166"/>niṟaikuṟaiyāp paḻaṅkācu Aṟupatu <supplied reason="undefined"><g type="danda">.</g></supplied> Ikkācāl Oru kācukku Āṇṭuva
+                    <lb n="167" break="no"/>rai poli niṟaimati nārāyattāl Irukalanellāka vanta nellu nūṟṟiru
+                    <lb n="168" break="no"/>patiṉkalam <supplied reason="undefined"><g type="danda">.</g></supplied> Innellāl Iva<supplied reason="omitted">r</supplied>kaḷ koṇṭu vantu celuttakka
+                    <lb n="169" break="no"/>ṭavaṉa <supplied reason="undefined"><g type="danda">.</g></supplied> Oru kācukku niṟaimati nārāyattāṟ patiṉkala nellaḵkamāka <supplied reason="undefined"><g type="danda">.</g></supplied> <hi rend="grantha">śrī</hi>
+                    <lb n="170" break="no"/>uṭaiyāṭai Iṇai mūṉṟukācu peṟṟaṉa Oru muṟai muttiṅkaḷukku Oraṇaiyā
+                    <lb n="171" break="no"/>ka Orāṇṭu nāṉku muṟaikku <hi rend="grantha">śrī</hi> Uṭaiyāṭai nālaṇai <supplied reason="undefined"><g type="danda">.</g></supplied> Ipparicu celuttātu kut
+                    <lb n="172" break="no"/>tukkāṟpaṭil Ittevarkkey panniraṇṭaraikkācu taṇṭamum paṭṭuc celuttā
+                    <lb n="173" break="no"/>tu viṭṭa mutaliraṭṭiuṅ kuṭuppatu <supplied reason="undefined"><g type="danda">.</g></supplied> kuṭa nāṭṭup piramateyam puḷii
+                    <lb n="174" break="no"/>ṭaic cavaiyār kaiiṉ meṟpaṭi poliūṭṭāka vaitta niṟaikuṟaiyāppaḻa
+                    <lb n="175" break="no"/>ṅkācu nūṟṟirupatu <supplied reason="undefined"><g type="danda">.</g></supplied> Ikkācāl Oru kācukku Āṇṭuvarai poli niṟaimati nārāya
+                    <lb n="176"/>ttāl Irukala nellāka vanta nellu Irunūṟṟu nāṟpatiṉkalam Inne
+                    <lb n="177" break="no"/>llāl Iva<supplied reason="omitted">r</supplied>kaḷ koṇṭuvantu celuttakkaṭavaṉa <supplied reason="undefined"><g type="danda">.</g></supplied> Oru kācukku niṟaimati nārāya
+                    <lb n="178" break="no"/>ttāl patiṉkala nellāka <hi rend="grantha">śrī</hi> Uṭaiyāṭai Iṇai mūṉṟu kācu peṟṟaṉa Oru
+                    <lb n="179" break="no"/>muṟai muttiṅkaḷukku Īraṇaiyāka Orāṇṭu nāṉku muṟaikku <hi rend="grantha">śrī</hi> Uṭaiyāṭai <unclear>E</unclear>
+                    <lb n="180"/>ṭṭaṇai <supplied reason="undefined"><g type="danda">.</g></supplied> Ipparicu celuttātu kuttukkāṟpaṭil Ittevarkkey Irupat
+                    <lb n="181" break="no"/>taintu kācu taṇṭamum paṭṭuc celuttātu viṭṭa mutaliraṭṭi Uṅ kuṭuppa
+                    <lb n="182" break="no"/>tu <supplied reason="undefined"><g type="danda">.</g></supplied> Innāṭṭup piramateyam kiraṉūrc cavaiyār kaiiṉ meṟpaṭi poli
+                    <lb n="183" break="no"/>ūṭṭāka vaitta niṟaikuṟaiyāp paḻaṅkācu Irunūṟṟorupattu nāṉku <supplied reason="undefined"><g type="danda">.</g></supplied> I
+                    <lb n="184" break="no"/>kkācāl Oru kācukku Āṇṭu varai poli niṟaimati nārāyattāl Irukala nellā
+                    <lb n="185" break="no"/>ka vanta nellu nānūṟṟirupatteṇkalam <supplied reason="undefined"><g type="danda">.</g></supplied> Innellāl Iva<supplied reason="omitted">r</supplied>kaḷ niyati 
+                    <lb n="186" break="no"/>ppaṭi koṇṭuvantu celuttakkaṭavaṉa nāḻi neykku Irupati nāḻi nellāka
+                    <lb n="187"/>tirumañcaṉam Āṭi Aruḷap pacuviṉ ṉaṟuney niyati nānāḻi <supplied reason="undefined"><g type="danda">.</g></supplied> Oru kācukku
+                    <lb n="188"/>niṟaimati nārāyattāṟ patiṉkala nellaḵkamākat tulāccantaṉattu
+                    <lb n="189"/>kku Oru kācākat tirumeṉi pūcum cantaṉakkuḻampuc cantaṉam niyati
+                    <lb n="190"/>muppalam <supplied reason="undefined"><g type="danda">.</g></supplied> Ipparicu celuttātu kuttukkāṟpaṭil Ittevarkke
+                    <lb n="191" break="no"/>y Aimpatu kācu taṇṭamum paṭṭuc celuttātu viṭṭa mutali
+                    <lb n="192" break="no"/>raṭṭiuṅkuṭuppatu <supplied reason="undefined"><g type="danda">.</g></supplied> Innāṭṭup piramateyam caṭaṅkavikuṟic
+                    <lb n="193" break="no"/>ciccavaiyār kaiiṉ meṟpaṭi poliūṭṭāka vaitta niṟaikuṟaiyāp paḻaṅkā
+                    <lb n="194" break="no"/>cu toṇṇūṟu <supplied reason="undefined"><g type="danda">.</g></supplied> Ikkācāl Oru kācukku Āṇṭuvarai poli niṟaimati nārāyattāḷ
+                    <lb n="195"/>Irukala nellāka vanta nellu nūṟṟeṇpatiṉ kalam <supplied reason="undefined"><g type="danda">.</g></supplied> Innellāl niyatip
+                    <lb n="196" break="no"/>paṭi Iva<unclear>r</unclear>kaḷ koṇṭuvantu celuttakkaṭavatu <supplied reason="undefined"><g type="danda">.</g></supplied> Oru kācukku niṟaimatinā<unclear>rā</unclear>,
+                    <lb n="197"/>yattāṟ patiṉkala nellaḵkamākap patiṉaiṅkaḻañcu kaṟpūrattukku O<unclear>ru</unclear>
+                    <lb n="198" break="no"/>kācākattirumeṉi pūcun tiruccantaṉattoṭu kūṭṭi Araikkum kaṟpū
+                    <lb n="199" break="no"/>ram niyati Eḻaraikkāṇam <supplied reason="undefined"><g type="danda">.</g></supplied> Ipparicu celuttātu kuttukkāṟpaṭil
+                    <lb n="200"/>Ittevarkkey Irupattaintu kācu taṇṭamum paṭṭuc celuttātu viṭ
+                    <lb n="201" break="no"/>ṭa mutaliraṭṭiuṅkuṭuppatu <supplied reason="undefined"><g type="danda">.</g></supplied> Innāṭṭuppiramateyam kaṭuṅkomaṅ
+                    <lb n="202" break="no"/>kalattuccavaiyār kaiiṉ meṟpaṭi poliūṭṭāka vaitta niṟaikuṟaiyā
+                    <lb n="203" break="no"/>ppaḻaṅkācu patiṉāṟu <supplied reason="undefined"><g type="danda">.</g></supplied> Ikkācāl Oru kācukku Āṇṭuvarai poli niṟaima
+                    <lb n="204" break="no"/>ti nārāyattāl Irukala nellāka vantanellu muppattirukalam <supplied reason="undefined"><g type="danda">.</g></supplied> Inne
+                    <lb n="205" break="no"/>llāl Iva<unclear>r</unclear>kaḷ niyatippaṭi koṇṭuvantu celuttakkaṭavaṉa Īriḷanīrukku
+                    <lb n="206"/>nāḻi nellākat tirumañcaṉam Āṭi Aruḷa Iḷanīr vaḻuvai Uṭpaṭa niya
+                    <lb n="207" break="no"/>ti Irunāḻiiṉukku nāḻi Iḷanīrukku nāliḷanīrāka niyati Iṭum Iḷa
+                    <lb n="208" break="no"/>nīr Eṭṭu <supplied reason="undefined"><g type="danda">.</g></supplied> Ipparicu celuttātu kuttukkāṟpaṭil Ittevark
+                    <lb n="209" break="no"/>key Aintukācu taṇṭamum paṭṭuc celuttātuviṭṭa mutaliraṭṭiuṅku
+                    <lb n="210" break="no"/>ṭuppatu <supplied reason="undefined"><g type="danda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.16A by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">12-17</citedRange>
+                        <citedRange unit="item">16A</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
