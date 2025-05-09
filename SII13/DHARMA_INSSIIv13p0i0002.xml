@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.2: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 2. (A.R. No. 586 of 1904.) ŚRĪNIVĀSANALLŪR, MUSIRI TALUK, TRICHINOPOLY DISTRICT. ON THE EAST WALL OF THE KORAṄGUNĀTHAṈ TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0002</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This records a gift of 30 sheep and 30 goats to provide ghee for a perpetual lamp in the temple of Tirukurakkutuṟai-Perumāṉaḍigaḷ at Mahēndramaṅgalam, by <hi rend="bold">Kāppiyaṉ Eḻuvaṉ Gaṅgādharaṉ</hi> of the village for the merit of <hi rend="bold">Gaṅgādharaṉ Araṭṭaṉ.</hi> Judging from the writing the inscription may be ascribed to the reign of <hi rend="bold">Gaṇḍarāditya.</hi></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-09" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kovirācakecaripa<supplied reason="omitted">r</supplied>mmaṟku yāṇṭu Ira
+                    <lb n="2" break="no"/>ṇṭāvatu piramateyam <hi rend="grantha">mahendra</hi>maṅkalattu
+                    <lb n="3"/>kāppiyaṉ Eḻuvaṉ <hi rend="grantha">gaṃgādha</hi>raṉeṉ Ivvūr ti
+                    <lb n="4" break="no"/>rukurakkutuṟaiy perumāṉaṭika<surplus>ḷ</surplus>ḷukku tiruṉon
+                    <lb n="5" break="no"/>tāviḷakku ca<hi rend="grantha">ndrādi</hi>tavaṟ Erippatāka Aṭṭi kuṭutta Ā
+                    <lb n="6" break="no"/>ṭu cermari pātiyum veḷḷāṭu pātiyum Āka Āṟupatu
+                    <lb n="7"/>cāvāmuvāperāṭā perumāṉaṭika<surplus>ḷ</surplus>ḷukku Aṭṭi kuṭu<supplied reason="omitted">t</supplied>te
+                    <lb n="8" break="no"/>ṉ Eḻuvaṉ kaṅkātara<seg>ṉ</seg>ṉeṉ Ivvāṭu Aṟupatum Iṭai
+                    <lb n="9" break="no"/>yaṟku Aṭuttu kuṭuttu Ittiruviḷakku I<hi rend="grantha">śrī</hi>koyil
+                    <lb n="10"/><hi rend="grantha"><unclear>d</unclear>e</hi>varka<hi rend="grantha">rmmi</hi>ka<surplus>ḷ</surplus>ḷome Ivāṭu Aṭuttu kuṭuttu
+                    <lb n="11"/>Itiruṉo<supplied reason="omitted">n</supplied>tāviḷakku ca<supplied reason="omitted">n</supplied><hi rend="grantha">drādi</hi>ttavaṟ Eri<supplied reason="omitted">p</supplied>pomāno<supplied reason="omitted">m</supplied>
+                    <lb n="12"/>Itevarka<hi rend="grantha">rmmi</hi>kaḷom patineṭṭunāṭṭu pa<supplied reason="omitted">n</supplied><surplus>m</surplus>mā<hi rend="grantha">heśvara</hi>
+                    <lb n="13" break="no"/><hi rend="grantha"><supplied reason="omitted">ra</supplied>kṣai</hi> <supplied reason="undefined"><g type="danda">.</g></supplied> I<hi rend="grantha">dharmma</hi>m <hi rend="grantha">rakṣi</hi><unclear>t</unclear>tār <hi rend="grantha">śrīpāda</hi>Aṭi yen talai
+                    <lb n="14" break="no"/>melana <g type="ddanda">.</g><g type="pc" >.</g> I<hi rend="grantha">dharmma</hi>m kaṅkātarana Araṭṭanukkāvitu <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.2 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">1</citedRange>
+                        <citedRange unit="item">2</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

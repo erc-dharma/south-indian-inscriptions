@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.4: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 4. (A.R. No. 514 of 1905.) TIRUVEḶḶAṞAI, TRICHINOPOLY TALUK, TRICHINOPOLY DISTRICT. ON THE WEST WALL OF THE CENTRAL SHRINE IN THE JAMBUNĀTHA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0004</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The inscription records an agreement given by the <hi rend="italic">Mūlaparishad</hi> of Tiruveḷḷaṟai to burn a perpetual lamp in the temple of <hi rend="bold">Tiruvāṉaikkallil-Bhaṭṭārakar</hi> with the interest on 25 <hi rend="italic">kaḻañju</hi> of gold endowed by <hi rend="bold">Marudan Āchchan</hi> of Śaṅkarappāḍi, (a hamlet of) Tiruveḷḷaṟai.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-09" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> korācakecarivaṟ<hi rend="grantha">mma</hi><supplied reason="omitted">r</supplied>kku yāṇṭu 2<g type="dash"/> <supplied reason="omitted">I</supplied>raṇṭā<surplus>Ā</surplus>vatu tiruveḷḷaṟai caṅkarappāṭi marutan Āccan tiruvāṉaikkal<unclear>li</unclear>l <hi rend="grantha">bha</hi>ṭṭārakaṟkku vai<supplied reason="omitted">t</supplied>ta no<supplied reason="omitted">n</supplied>tāviḷakku O<surplus>ka</surplus>nṟu Itukku vaitta
+                    <lb n="2"/>poṉ <num value="25">2 <g type="numeral">10</g> <supplied reason="omitted">5</supplied></num> Irupat<unclear>tu</unclear> Aiṅkaḻaiñcu Itu mutal niṟkkap palicaiyāl <hi rend="grantha">cantrādi<supplied reason="omitted">tya</supplied></hi>vaṟ Erip po<surplus>m</surplus>māno mivvūr mulaparu
+                    <lb n="3" break="no"/>ṭaiyom <hi rend="grantha">rakṣai</hi> <g type="ddanda">.</g><g type="dashLong">.</g> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.4 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">2</citedRange>
+                        <citedRange unit="item">4</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
