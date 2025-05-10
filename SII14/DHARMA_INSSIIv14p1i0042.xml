@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.42: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 42. (A.R. No. 863 of 1917.) KAḺUGUMALAI, KOILPATTI TALUK, TIRUNELVELI DISTRICT. ON THE ROCK WITHIN THE AYYAṈĀR TEMPLE ON THE HILL.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0042</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This record dated in the <hi rend="bold">7th year opposite to the 35th year of reign of Māṟañjaḍaiyaṉ</hi> registers a gift of gold by a brāhmaṇa named <hi rend="italic">Māṇi</hi> Śaṅkaranārāyaṇaṉ, a <hi rend="italic">nagarattāṉ</hi> of Tiruchuriyal for burning a lamp during the three services in the shrine of the Dēvar which he had made. This amount was left in the charge of the Pērūrār of Tirunechchuṟam and the charity was left under the protection of the <hi rend="italic">Tirumalaivīrar</hi> and <hi rend="italic">Parāntakavīrar</hi> who were evidently the military guardians of the temple, the latter owing their name to the Pāṇḍya king Parāntaka, the second of that name, to whose time the characters of the present inscription can reasonably be attributed.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:vaṭṭeḻuttu maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> tirumeṉi komāṟañcaṭaiyaṟkku yāṇ
+                    <lb n="2" break="no"/>ṭu muppattaintu Itaṉetir Eḻu Ivvāṇ
+                    <lb n="3" break="no"/>ṭu tiruccuriya lirukkiṉṟa <hi rend="grantha">brāhma</hi>ṇaṉ māṇi ca
+                    <lb n="4" break="no"/>ṅkaranārāyaṇaṉāyiṉa nakarattāṉ ceyvitta
+                    <lb n="5"/>tevarkku mūṉṟu <hi rend="grantha">sandhi</hi>yum tiruviḷakku ney
+                    <lb n="6" break="no"/>yāka tiruneccuṟattu perurār kaiyyil ku
+                    <lb n="7" break="no"/>ṭutta kaḻañciraṇṭiṉā lāṭirupatiṉā lā
+                    <lb n="8" break="no"/>ṭṭaivaṭṭam Irupatiṉāḻi neyyum pe
+                    <lb n="9" break="no"/>rurā raṭṭuvippatu <supplied reason="undefined"><g type="danda">.</g></supplied> Ipparicu celut
+                    <lb n="10" break="no"/>tuvataṉukku tirumalaivirarum parāntaka
+                    <lb n="11"/>virarum <hi rend="grantha">rakṣai <g type="ddanda">.</g><g type="pc"/> <g type="ddanda">.</g><g type="pc"/></hi>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.42 (ARIE/1917-1918/B/1917/863) by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">33</citedRange>
+                        <citedRange unit="item">42</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

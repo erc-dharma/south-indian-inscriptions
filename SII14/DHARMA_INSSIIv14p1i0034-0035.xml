@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.34-35: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 34-35. (A.R. Nos. 428-A and 428-B of 1914.) PAḶḶIMAḌAM, ARUPPUKKOTTAI TALUK, RAMANATHAPURAM DISTRICT. ON STONES IN THE NORTHERN WALL OF THE MAṆḌAPA IN THE KĀLANĀTHASVĀMIN TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0034-0035</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>These inscriptions are engraved on slabs now found embedded in the north wall of the <hi rend="italic">maṇḍapa</hi> in the Śiva temple. The slabs appear to have originally belonged to the Jaina temple named Tirukkāṭṭāmbaḷḷi at Kuṟaṇḍi nearby, and to have been removed thence along with the wing-stones noted above. They register the usual gifts of sheep for lamps to be burnt in the temple of Tirukkāṭṭāmbaḷḷi-Dēvar at Kuṟaṇḍi in Veṇbu-nāḍu.</p>						
+                            
+                            <p>Though the king's name is not specified, these records may be attributed to the time of <hi rend="bold">Māṟañjaḍaiyaṉ.</hi></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:vaṭṭeḻuttu maturity:vernacular"><!--CHECK: ARIE/1914-1915/B/1914/428 is  Vaṭṭeḻuttu, thus 428A and 428B also presumably-->
+                
+                <div n="A" type="textpart"><head>Text A</head>
+                    
+                    <p>
+                        <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="danda">.</g></supplied> veṇpuṉāṭṭuk kuṟaṇṭi tirukkāṭṭāmpaḷḷit tevarkku tiruno
+                        <lb n="2" break="no"/>ntāviḷakkoṉṟiṉukku Ivvūrc cāttaṅkāri Aṭṭiṉa Āṭu Ai
+                        <lb n="3" break="no"/>ympatu <g type="ddanda">.</g><g type="dashLong">.</g> Itu Ivvūr Ūrāruṅ kaṇattārum kāval <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                    </p>
+                </div>
+                
+                <div n="B" type="textpart"><head>Text B</head>
+                    <p>
+                        <lb n="1"/>—ṟaṇṭit tirukkāṭṭāmpaḷḷit tevarkku tirunontā
+                        <lb n="2" break="no"/>—ṇam pūvaṇavaṉ Aṭutta Āṭu Eḻupattaiñcu <supplied reason="undefined"><g type="danda">.</g></supplied> Ivvā
+                        <lb n="3" break="no"/>—vaṇavaṉ paṇi kuṟaṇṭik kaṉṉimāṟiṟ kāṭṭāmpaḷḷikku 
+                    </p>
+                </div>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.34-35 (ARIE/1914-1915/B/1914/428A and ARIE/1914-1915/B/1914/428B) by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">27</citedRange>
+                        <citedRange unit="item">34-35</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

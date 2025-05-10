@@ -5,190 +5,183 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>SII 14.40: original edition by A. S. Ramanatha Ayyar</title>
-				<title type="alt">No. 40. (A.R. No. 12 of 1929.) DAḶAPATISAMUDRAM, NANGUNERI TALUK, TIRUNELVELI DISTRICT. ON A SLAB LYING IN A FIELD IN THE PAṞACHCHĒRI OF THE VILLAGE.</title>
-				<respStmt>
-					<resp>author of digital edition</resp>
-					<persName ref="part:emfr">
-						<forename>Emmanuel</forename>
-						<surname>Francis</surname>
-					</persName>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<authority>DHARMA</authority>
-				<pubPlace>Paris, CEIAS</pubPlace>
-				<idno type="filename">DHARMA_INSSIIv14p1i0040</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<msDesc>
-					<msIdentifier>
-						<repository>DHARMAbase</repository>
-						<idno/>
-					</msIdentifier>
-					<msContents>
-						<summary>
-
-						<p>This long inscription in Vaṭṭeḻuttu characters is dated in the <hi rend="bold">6th year opposite to the 35th year</hi> of the reign of king <hi rend="bold">Māṟāñjaḍaiyaṉ</hi> who appears to be identical with the king figuring in No. 37 above from Māṉūr, dated in the 35th year and 469th day. The record consists of two separate endowments made by a certain <hi rend="bold">Vēḷāṉ of Irambāḍu</hi> in Karaikāṉa-nāḍu. One of them was a gift of 50 sheep to maintain a lamp in the resthouse called Rājakka ttaṇṇīr pperumbandal erected by him at Perumbaḻañji in Nāṭṭāṟṟuppōkku while a gift of land and a well were also made for it. The other gift of sheep was for maintaining a lamp in another rest-house named Muṉṉūṟṟuvapperumbandal instituted by him in the same village; and a gift of land for the care-taker who supplied water to this water-shed was also made.</p>						
-
-						<p>The two rest-houses were apparently erected, one in the name of ‘Rājakkar’ of Tirukkōṭṭāṟu and the other in the name of the Kōyiṟpiḷḷaigaḷ Muṉṉūṟṟuvar whose constitution is not clear. These charities were left under the protection of the Nāyakaṉmār ruling the district. </p>						
-
-						</summary>
-					</msContents>
-					<physDesc>
-						<handDesc>
-							<p/>
-						</handDesc>
-					</physDesc>
-				</msDesc>
-			</sourceDesc>
-		</fileDesc>
-		<revisionDesc>
-			<change who="part:emfr" when="2025-05-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-		</revisionDesc>
-	</teiHeader>
-	<text xml:space="preserve">
-		<body>
-
-<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
-
-<!--<h4><hi rend="italic">First face.</hi></h4>-->
-
-<p>
-<lb n="1"/><hi rend="grantha"> <gap reason="lost" quantity="1" unit="character"/> stiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> komara
-<lb n="2" break="no"/> <gap reason="lost" quantity="2" unit="character"/> caṭaiyaṟku yā
-<lb n="3" break="no"/><hi rend="grantha"> <gap reason="lost" quantity="2" unit="character"/> <num value="35">3 <g type="numeral">10</g> 5</num></hi> Itaṉeti
-<lb n="4" break="no"/><hi rend="grantha"> <gap reason="lost" quantity="1" unit="character"/> 6</hi> Ivvāṇṭu karai
-<lb n="5" break="no"/>kkāṉa nāṭṭu Iram
-<lb n="6" break="no"/><unclear>pāṭṭu</unclear> veḷāṉ cāt
-<lb n="7" break="no"/>taṉ tirukkoṭṭāṟ
-<lb n="8" break="no"/>ṟu Irācakkar perāl
-<lb n="9"/><unclear>nā</unclear>ṭṭāṟṟup pokku
-<lb n="10" break="no"/>p perumpaḻañci
-<lb n="11"/>Eṭuppitta Irācak
-<lb n="12" break="no"/><unclear>ka</unclear>t taṇṇīrp perum
-<lb n="13" break="no"/>pantalukku vaiytta
-<lb n="14"/>viḷakku % Itaṉukku
-<lb n="15"/>nicati Uḻakku ney
-<lb n="16"/>muṭṭāma laṭṭi viḷa
-<lb n="17" break="no"/>kku Erivatāka ciṟup
-<lb n="18" break="no"/>paḻañcic cavaiyār pu
-<lb n="19" break="no"/>ṇaiyākap paṭaittalaiva
-<lb n="20" break="no"/>ṉ ku<unclear>ṇa</unclear>vampalatevaṉ
-<lb n="21"/>vaḻi Aṭutta cāvā muvā
-<lb n="22" break="no"/><unclear>p</unclear>perāṭu <num value="50">5 <g type="numeral">10</g></num> Aiym<unclear>pa</unclear>
-<lb n="23" break="no"/>tu taṇṇipaṭṭuvārkku
-<lb n="24"/><unclear>vi</unclear>rutti perumpaḻa
-<lb n="25" break="no"/>ñcip peruṅkuḷat
-</p>
-
-<!--<h4><hi rend="italic">Second face.</hi></h4>-->
-
-<p>
-<lb n="26" break="no"/>tu veḷḷikkumi<unclear>ḻi</unclear>
-<lb n="27" break="no"/><unclear>yā</unclear>l nirapaṭuvaṉa ka
-<lb n="28" break="no"/><unclear>ru</unclear>mattuṭavai taṭi <unclear>U</unclear>
-<lb n="29" break="no"/><unclear>ru</unclear>mpettuttuṭav<unclear>ai ta</unclear>
-<lb n="30" break="no"/>ṭi 3 Ettittaṭi 5 <unclear>ni</unclear>
-<lb n="31" break="no"/>laṉ 3 mā mūṉṟu mā<unclear>vi</unclear>
-<lb n="32" break="no"/>ṉālum Iṟai kaṭaṉu<unclear>m</unclear>
-<lb n="33"/>vaḻi Iṟai veṭṭi Ev
-<lb n="34" break="no"/>vakaippaṭṭatum peru
-<lb n="35" break="no"/>mpaḻañcip pāp<unclear>pā</unclear>r
-<lb n="36"/>�ṉaṟācey kāttū�
-<lb n="37"/>tāka Ivvūr Ūrā�
-<lb n="38"/>kkal Ipparice vi<unclear>lai</unclear>
-<lb n="39" break="no"/>kkuk koṇṭu Irāca�
-<lb n="40"/>Ilakkippat� pu
-<lb n="41" break="no"/>tuk<unclear>ku</unclear>vippatākavuñ
-<lb n="42"/>ceytāṉ perumpa
-<lb n="43" break="no"/>ḻañci Ūrār makaṉ ve
-<lb n="44" break="no"/>ḷāṉ cāttaṉ perum pa
-<lb n="45" break="no"/>ḻañci Iṇaikaḷ Ore
-<lb n="46" break="no"/>ṭuppar puṟaṅkāttu
-<lb n="47" break="no"/>pputukkuvippatu <supplied reason="undefined"><g type="danda">.</g></supplied>
-<lb n="48"/>Ippantalukku A
-<lb n="49" break="no"/>ṭuppitta kiṇaṟu ku
-<lb n="50" break="no"/>ḻuvāṇai Eṉpatu <g type="ddanda">.</g><g type="pc"/>
-<lb n="51"/><hi rend="grantha">śrī</hi> cilaccikari <g type="ddanda">.</g><g type="pc"/>
-</p>
-
-<!--<h4><hi rend="italic">Third face.</hi></h4>-->
-
-<p>
-<lb n="52"/>Ivaṉey perumpa
-<lb n="53" break="no"/>ḻañci Ūrileṭuppi
-<lb n="54" break="no"/>cca munnūṟṟuvap pe
-<lb n="55" break="no"/>rumpantalukku vait
-<lb n="56" break="no"/>taviḷakku % Itaṉuk
-<lb n="57" break="no"/>ku nicati Uḻakku ne
-<lb n="58" break="no"/>y muṭṭāmavaṭṭi vi
-<lb n="59" break="no"/>ḷakkerivatāka Aṭu
-<lb n="60" break="no"/>tta cāvā muvāp pe
-<lb n="61" break="no"/>rāṭu <num value="50">5 <g type="numeral">10</g></num> Aimpatu <supplied reason="undefined"><g type="danda">.</g></supplied> <unclear>I</unclear>
-<lb n="62" break="no"/>vaiccukku puṇaip
-<lb n="63"/>perumpaḻañci Ū
-<lb n="64" break="no"/>rāre Ivakaḷ pakkal
-<lb n="65"/>Irācakkattaṇṇīr
-<lb n="66" break="no"/>p perumpantaluk
-<lb n="67" break="no"/>kut taṇṇīraṭṭuvā
-<lb n="68" break="no"/>rkku virutti vi
-<lb n="69" break="no"/>laikkuk koṇṭu <unclear>O</unclear>ḷi
-<lb n="70"/>ceyvitāka koṇṭu Iṭai
-<lb n="71" break="no"/>kkuḷattu <unclear>mulai</unclear>vāy
-<lb n="72" break="no"/>kkumiḻi<unclear>yā</unclear>l ni
-<lb n="73" break="no"/>rpaṭuvaṉa ko <gap reason="lost" quantity="2" unit="character"/> yat
-<lb n="74"/>tuṭavai taṭi U nila
-<lb n="75" break="no"/>ṉ pa<hi rend="grantha">ma</hi> taṇṇirttuṭa
-<lb n="76" break="no"/>vai taṭi % nilaṉ <hi rend="grantha">kma</hi>
-<lb n="77"/>Eṟṟittaṭi 3 nila
-<lb n="78" break="no"/>ṉ Iraṇṭumā koi
-<lb n="79" break="no"/>ṟ piḷḷaikaḷ munnūṟṟu
-<lb n="80" break="no"/>var puṟṟu kāval Oreṭu
-<lb n="81" break="no"/>ppar putukkuvatu <supplied reason="undefined"><g type="danda">.</g></supplied> I
-<lb n="82" break="no"/>nnāṭāḷunāṭṭu nāyaka<unclear>ṉa</unclear>
-<lb n="83"/>mār Ivviraṇṭu taṇṇī
-<lb n="84" break="no"/>rppantalum <hi rend="grantha">rakṣi</hi>
-<lb n="85" break="no"/>ttār Avakaḷ kāl E
-<lb n="86" break="no"/>ṉ talai melaṉa <g type="ddanda">.</g><g type="dashLong">.</g>i 
-</p>
-
-</div>
-
-<div type="apparatus">
-
-</div>
-
-<div type="commentary">
-
-</div>
-
-<div type="bibliography">
-
-	<p>Digital edition of SII 14.40 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
-
-	<listBibl type="primary">
-
-		<bibl n="SII">
-			<ptr target="bib:RamanathaAyyar1962_01"/>
-			<citedRange unit="page">30-31</citedRange>
-			<citedRange unit="item">40</citedRange>
-		</bibl>
-
-	</listBibl>
-
-	<listBibl type="secondary">
-
-		<bibl/>
-
-	</listBibl>
-
-</div>
-
-	</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.40: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 40. (A.R. No. 12 of 1929.) DAḶAPATISAMUDRAM, NANGUNERI TALUK, TIRUNELVELI DISTRICT. ON A SLAB LYING IN A FIELD IN THE PAṞACHCHĒRI OF THE VILLAGE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0040</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This long inscription in Vaṭṭeḻuttu characters is dated in the <hi rend="bold">6th year opposite to the 35th year</hi> of the reign of king <hi rend="bold">Māṟāñjaḍaiyaṉ</hi> who appears to be identical with the king figuring in No. 37 above from Māṉūr, dated in the 35th year and 469th day. The record consists of two separate endowments made by a certain <hi rend="bold">Vēḷāṉ of Irambāḍu</hi> in Karaikāṉa-nāḍu. One of them was a gift of 50 sheep to maintain a lamp in the resthouse called Rājakka ttaṇṇīr pperumbandal erected by him at Perumbaḻañji in Nāṭṭāṟṟuppōkku while a gift of land and a well were also made for it. The other gift of sheep was for maintaining a lamp in another rest-house named Muṉṉūṟṟuvapperumbandal instituted by him in the same village; and a gift of land for the care-taker who supplied water to this water-shed was also made.</p>						
+                            
+                            <p>The two rest-houses were apparently erected, one in the name of ‘Rājakkar’ of Tirukkōṭṭāṟu and the other in the name of the Kōyiṟpiḷḷaigaḷ Muṉṉūṟṟuvar whose constitution is not clear. These charities were left under the protection of the Nāyakaṉmār ruling the district. </p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:vaṭṭeḻuttu maturity:vernacular">
+                
+                <p>
+                    <milestone n="A" unit="face" type="pagelike"/><label>first face</label>
+                    <lb n="1"/><gap reason="lost" quantity="1" unit="character"/> <hi rend="grantha">stiśrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> komara
+                    <lb n="2" break="no"/><gap reason="lost" quantity="2" unit="character"/> caṭaiyaṟku yā
+                    <lb n="3" break="no"/><gap reason="lost" quantity="2" unit="character"/> <num value="35">3 <g type="numeral">10</g> 5</num> Itaṉeti
+                    <lb n="4" break="no"/><gap reason="lost" quantity="1" unit="character"/> 6 Ivvāṇṭu karai
+                    <lb n="5" break="no"/>kkāṉa nāṭṭu Iram
+                    <lb n="6" break="no"/><unclear>pāṭṭu</unclear> veḷāṉ cāt
+                    <lb n="7" break="no"/>taṉ tirukkoṭṭāṟ
+                    <lb n="8" break="no"/>ṟu Irācakkar perāl
+                    <lb n="9"/><unclear>nā</unclear>ṭṭāṟṟup pokku
+                    <lb n="10" break="no"/>p perumpaḻañci
+                    <lb n="11"/>Eṭuppitta Irācak
+                    <lb n="12" break="no"/><unclear>ka</unclear>t taṇṇīrp perum
+                    <lb n="13" break="no"/>pantalukku vaiytta
+                    <lb n="14"/>viḷakku <seg rend="check">%</seg> Itaṉukku
+                    <lb n="15"/>nicati Uḻakku ney
+                    <lb n="16"/>muṭṭāma laṭṭi viḷa
+                    <lb n="17" break="no"/>kku Erivatāka ciṟup
+                    <lb n="18" break="no"/>paḻañcic cavaiyār pu
+                    <lb n="19" break="no"/>ṇaiyākap paṭaittalaiva
+                    <lb n="20" break="no"/>ṉ ku<unclear>ṇa</unclear>vampalatevaṉ
+                    <lb n="21"/>vaḻi Aṭutta cāvā muvā
+                    <lb n="22" break="no"/><unclear>p</unclear>perāṭu <num value="50">5 <g type="numeral">10</g></num> Aiym<unclear>pa</unclear>
+                    <lb n="23" break="no"/>tu taṇṇipaṭṭuvārkku
+                    <lb n="24"/><unclear>vi</unclear>rutti perumpaḻa
+                    <lb n="25" break="no"/>ñcip peruṅkuḷat
+                
+                <milestone n="B" unit="face" type="pagelike"/><label>second face</label>
+                    <lb n="26" break="no"/>tu veḷḷikkumi<unclear>ḻi</unclear>
+                    <lb n="27" break="no"/><unclear>yā</unclear>l nirapaṭuvaṉa ka
+                    <lb n="28" break="no"/><unclear>ru</unclear>mattuṭavai taṭi <unclear>U</unclear>
+                    <lb n="29" break="no"/><unclear>ru</unclear>mpettuttuṭav<unclear>ai ta</unclear>
+                    <lb n="30" break="no"/>ṭi 3 Ettittaṭi 5 <unclear>ni</unclear>
+                    <lb n="31" break="no"/>laṉ 3 mā mūṉṟu mā<unclear>vi</unclear>
+                    <lb n="32" break="no"/>ṉālum Iṟai kaṭaṉu<unclear>m</unclear>
+                    <lb n="33"/>vaḻi Iṟai veṭṭi Ev
+                    <lb n="34" break="no"/>vakaippaṭṭatum peru
+                    <lb n="35" break="no"/>mpaḻañcip pāp<unclear>pā</unclear>r
+                    <lb n="36"/>�ṉaṟācey kāttū�
+                    <lb n="37"/>tāka Ivvūr Ūrā�
+                    <lb n="38"/>kkal Ipparice vi<unclear>lai</unclear>
+                    <lb n="39" break="no"/>kkuk koṇṭu Irāca�
+                    <lb n="40"/>Ilakkippat� pu
+                    <lb n="41" break="no"/>tuk<unclear>ku</unclear>vippatākavuñ
+                    <lb n="42"/>ceytāṉ perumpa
+                    <lb n="43" break="no"/>ḻañci Ūrār makaṉ ve
+                    <lb n="44" break="no"/>ḷāṉ cāttaṉ perum pa
+                    <lb n="45" break="no"/>ḻañci Iṇaikaḷ Ore
+                    <lb n="46" break="no"/>ṭuppar puṟaṅkāttu
+                    <lb n="47" break="no"/>pputukkuvippatu <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    <lb n="48"/>Ippantalukku A
+                    <lb n="49" break="no"/>ṭuppitta kiṇaṟu ku
+                    <lb n="50" break="no"/>ḻuvāṇai Eṉpatu <g type="ddanda">.</g><g type="pc"/>
+                    <lb n="51"/><hi rend="grantha">śrī</hi> cilaccikari <g type="ddanda">.</g><g type="pc"/>
+                
+                    <milestone n="C" unit="face" type="pagelike"/><label>third face</label>
+                    <lb n="52"/>Ivaṉey perumpa
+                    <lb n="53" break="no"/>ḻañci Ūrileṭuppi
+                    <lb n="54" break="no"/>cca munnūṟṟuvap pe
+                    <lb n="55" break="no"/>rumpantalukku vait
+                    <lb n="56" break="no"/>taviḷakku % Itaṉuk
+                    <lb n="57" break="no"/>ku nicati Uḻakku ne
+                    <lb n="58" break="no"/>y muṭṭāmavaṭṭi vi
+                    <lb n="59" break="no"/>ḷakkerivatāka Aṭu
+                    <lb n="60" break="no"/>tta cāvā muvāp pe
+                    <lb n="61" break="no"/>rāṭu <num value="50">5 <g type="numeral">10</g></num> Aimpatu <supplied reason="undefined"><g type="danda">.</g></supplied> <unclear>I</unclear>
+                    <lb n="62" break="no"/>vaiccukku puṇaip
+                    <lb n="63"/>perumpaḻañci Ū
+                    <lb n="64" break="no"/>rāre Ivakaḷ pakkal
+                    <lb n="65"/>Irācakkattaṇṇīr
+                    <lb n="66" break="no"/>p perumpantaluk
+                    <lb n="67" break="no"/>kut taṇṇīraṭṭuvā
+                    <lb n="68" break="no"/>rkku virutti vi
+                    <lb n="69" break="no"/>laikkuk koṇṭu <unclear>O</unclear>ḷi
+                    <lb n="70"/>ceyvitāka koṇṭu Iṭai
+                    <lb n="71" break="no"/>kkuḷattu <unclear>mulai</unclear>vāy
+                    <lb n="72" break="no"/>kkumiḻi<unclear>yā</unclear>l ni
+                    <lb n="73" break="no"/>rpaṭuvaṉa ko <gap reason="lost" quantity="2" unit="character"/> yat
+                    <lb n="74"/>tuṭavai taṭi U nila
+                    <lb n="75" break="no"/>ṉ pa<hi rend="grantha">ma</hi> taṇṇirttuṭa
+                    <lb n="76" break="no"/>vai taṭi % nilaṉ <hi rend="grantha">kma</hi>
+                    <lb n="77"/>Eṟṟittaṭi 3 nila
+                    <lb n="78" break="no"/>ṉ Iraṇṭumā koi
+                    <lb n="79" break="no"/>ṟ piḷḷaikaḷ munnūṟṟu
+                    <lb n="80" break="no"/>var puṟṟu kāval Oreṭu
+                    <lb n="81" break="no"/>ppar putukkuvatu <supplied reason="undefined"><g type="danda">.</g></supplied> I
+                    <lb n="82" break="no"/>nnāṭāḷunāṭṭu nāyaka<unclear>ṉa</unclear>
+                    <lb n="83"/>mār Ivviraṇṭu taṇṇī
+                    <lb n="84" break="no"/>rppantalum <hi rend="grantha">rakṣi</hi>
+                    <lb n="85" break="no"/>ttār Avakaḷ kāl E
+                    <lb n="86" break="no"/>ṉ talai melaṉa <g type="ddanda">.</g><g type="dashLong">.</g>i 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.40 (ARIE/1928-1929/B/1928-1929/12) by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">30-31</citedRange>
+                        <citedRange unit="item">40</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
 </TEI>
