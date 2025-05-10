@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.22: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 22. (A.R. No. 705 of 1905.) AYYAMPĀḶAIYAM, PALANI TALUK, MADURAI DISTRICT. ABOVE THE NATURAL CAVE ON THE HILL CALLED AIVARMALAI.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0022</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This Vaṭṭeḻuttu record which couples the <hi rend="bold">8th regnal year</hi> of king <hi rend="bold">Varaguṇa</hi> with <hi rend="bold">Śaka 792</hi> and the Āṉaimalai inscription of Jaṭila-Parāntaka which is dated in the Kali era form the two important landmarks in early Pāṇḍya chrenology. The present epigraph yields A.D. 862-3 as the date of accession of Varaguṇa. It registers a gift of 505 <hi rend="italic">kāṇam</hi> of gold by Śāntivīrakkuravar of Kāḻam, the disciple of Guṇavīrakkuravaḍigaḷ for offerings to the images of Pāriśva-Bhaṭāra, i.e., Pārśvanātha and of the attendant <hi rend="italic">yakshīs</hi> which he had renovated and for the feeding of one ascetic.</p>						
+                            
+                            <p>The images sculptured on the brow of the cavern on this hill, as well as the references in this record indicate that a Jaina colony flourished on this hill in the 9th century A. D. It may be noted that the hill is called <hi rend="italic">Tiruvayirai</hi>, which is the name by which it is referred to in early Tamil literature. </p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:vaṭṭeḻuttu maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/>cakāyāṇṭu Eḻunūṟṟut toṇṇūṟṟiraṇṭu
+                    <lb n="2"/>pontaṉa varakuṇaṟku yāṇṭu Eṭṭu kuṇavirakku
+                    <lb n="3" break="no"/>ravaṭikaḷ māṇākka<unclear>r</unclear> kāḻattu cāntivirak
+                    <lb n="4" break="no"/>kāvar tiruvayirai pāri<hi rend="grantha">śva</hi> paṭāraraiyu miyak
+                    <lb n="5" break="no"/>ki Avvaikaḷaiyum putukki Iraṇṭukku muṭ
+                    <lb n="6" break="no"/>ṭāvaliyu moraṭikaḷukku coṟāka Amaittaṉa
+                    <lb n="7"/>poṉa Ainnūṟṟaintu kāṇam <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.22 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">21-22</citedRange>
+                        <citedRange unit="item">22</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
