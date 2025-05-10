@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.26: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 26. (A.R. No. 690 of 1905.) RĀMANĀTHAPURAM, DINDIGAL TALUK, MADURAI DISTRICT. ON A ROCK IN THE VILLAGE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0026</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This Tamil inscription which does not quote the regnal year of the king states that Nakkaṉ-Puḷḷaṉ who had the other name of Parāntaka-ppaḷḷivēḷāṉ had accompanied king Mārañjaḍaiyaṉ in his campaign (<hi rend="italic">yāttirai</hi>) against Iḍavai in Śōḻa-nāḍu. This Puḷḷaṉ had begun the excavation of an irrigation tank in his name, called it Puḷḷaṉēri, strengthened the banks with stone revetment and fixed the sluice therefore; but he died before the project could be completed. The work is then stated to have been completed by Puḷḷaṉ-Nakkaṉ, evidently his son, with the help of the mason named Vaḍugaṉ-Kūṟṟaṉ and his son; and to the two latter a gift of land in the two <hi rend="italic">kūṟus</hi> of Paḷḷi-nāḍu was made.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">śrī</hi> komāṟañcaṭayaiṉoṭu coḻanāṭṭiṭavaiyāt
+                    <lb n="2" break="no"/>tirai ceyta parāntakappaḷḷiveḷāṉāIṉa nak
+                    <lb n="3" break="no"/>kampuḷḷaṉ ṟaṉperāṟ puḷḷaṉeri Eṉṟu
+                    <lb n="4"/>kuḷamākkik kaṟkotik kumuḻi ceyvittuk kuṟai
+                    <lb n="5" break="no"/>ppaṇi niṉṟatu muṟṟup peṟuttāṉ puḷḷa na
+                    <lb n="6" break="no"/>kkaṉ <supplied reason="undefined"><g type="danda">.</g></supplied> ṉatu ceyta taccaṉ vaṭukaṅ kūṟṟaṉ <supplied reason="undefined"><g type="danda">.</g></supplied> A
+                    <lb n="7" break="no"/>vaṉ makaṉ kuṟaippaṇi muttuvikka puḷḷana
+                    <lb n="8" break="no"/>kkaṉ Avaṉukkuk kāṇiyāka Aṭṭiṉa pūmip paḷ
+                    <lb n="9" break="no"/>ḷināṭṭiraṇṭu kūṟṟilum Ūrkuḷattukkiḻ
+                    <lb n="10"/>talainīr pāṭukāl loro vayal patak
+                    <lb n="11" break="no"/>ku nel <supplied reason="undefined"><g type="danda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary">
+                <p n="11"><foreign>nel</foreign>. The record stops here abruptly and may perhaps be considered to have ended here.</p>
+            </div>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.26 (ARIE/1905-1906/B/1905/690) by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">23</citedRange>
+                        <citedRange unit="item">26</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
