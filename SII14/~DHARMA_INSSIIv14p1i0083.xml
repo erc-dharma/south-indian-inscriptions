@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 14.83: original edition by A. S. Ramanatha Ayyar</title>
+				<title type="alt">No. 83. (A.R. No. 429 of 1914.) PAḶḶIMAḌAM, ARUPPUKKOTTAI TALUK, RAMANATHAPURAM DISTRICT. ON THE BASE OF THE WEST WALL OF THE KĀLANĀTHASVĀMIN TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv14p1i0083</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This record of Vīra-Pāṇḍya is dated in the 5th year opposite to the 4th year of his reign and is damaged and incomplete. It appears to enumerate the <hi rend="italic">dēvaraḍaiyār</hi> who were connected with the temple of Sundara-Pāṇḍya-Īśvaram at Paḷḷipaḍai in Tiruchchuḻiyal, a <hi rend="italic">dēvadāṉa</hi> in Paruttikkuḍi-nāḍu. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+
+<p>
+<lb n="1"/><hi rend="grantha">śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> coḻaṉṟalaikoṇṭa kovirapāṇṭiyarkku yāṇṭu nāṉku Itaṉe<supplied reason="omitted">ti</supplied>rañ<unclear>cu</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="2"/>vāṇṭu paruttikkuṭināṭṭu tevatāṉa(m)n tiruccuḻi<supplied reason="omitted">ya</supplied>l pa<unclear>ḷḷi</unclear>
+<lb n="3"/>paṭaic cuntarapāṇṭiya Ī<hi rend="grantha">śva</hi>rattu tevaraṭiyāḷ tevaṉ karutāccilaikka <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="4"/>ti makaḷ kāviti kaṇaipeṟṟāḷ makaḷ nanti caṭaiyampaṭāri—
+<lb n="5"/>meṟppaṭiyūr nitipeṟṟāḷ Ivaḷ makaḷ kāvititāṅki <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="6"/>makkaḷum meṟpaṭi tevaraṭiyār nakkañ caṭaiyam kulu <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="7"/>Āccaṉ <gap reason="lost" quantity="2" unit="character"/> kuluṅkāvilai nakkaṉ kuluṅkāvilai taṉṉiccai <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="8"/>meṟpaṭi kuluṅkāvilai kuṇacilaṉ kaṇṭaṉ vi<note n="53-1">The record is incomplete and is damaged.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 14.83 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamanathaAyyar1962_01"/>
+			<citedRange unit="page">52-53</citedRange>
+			<citedRange unit="item">83</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

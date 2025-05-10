@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 14.50: original edition by A. S. Ramanatha Ayyar</title>
+				<title type="alt">No. 50. (A.R. No. 323 of 1904.) KUḌUMIYĀMALAI, KULATTUR TALUK, (PUDUKKOTTAI STATE), TIRUCHIRAPPALLI DISTRICT. ON A PILLAR IN THE ROCK-CUT CAVE TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv14p1i0050</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This record (same as <hi rend="italic">A.R. No.</hi> 238 <hi rend="italic">of</hi> 1911), dated in the <hi rend="bold">2+1+1st year</hi> of the reign of <hi rend="bold">Śaḍaiya-Māṟaṉ</hi> registers a gift of gold by <hi rend="bold">Parāntaka-Adaḷaiyūr-nāḍAḷvāṉ</hi> <hi rend="italic">alias</hi> Kaḍambaṉ-ETTi for burning a lamp in the temple of TirumUlaṭṭAṉattu Mahādēva at Tirunilakkuṉṟam, a <hi rend="italic">dēvadāna</hi> in Kuṉṟiyūr-nāḍu. After line 10, there is another inscription which is dated in the 10th year of an unspecified Pāṇḍya king<note n="38-1">These lines read: 1 <ta>yāṇṭu pattāvatu tirumūlaṭṭāṉattu perumā-</ta> 2 <ta>ṉaṭikaḷukku neṉmalināṭṭu nākaṉ kuṭi [kā]-</ta> 3 <ta>ṭṭu cāttaṉunte•• kaṇavatiyum vaitta po-</ta> 4 <ta>ṉ kaḻañcu tiruviḻā eḻu nāḷaikku <supplied reason="undefined"><g type="ddanda">.</g></supplied></ta> 
+
+<h4>A</h4> Two fragmentary records are found near this inscription. They read: 1 <ta>kaṟ</ta> <hi rend="grantha">brahma</hi><ta>teyattup pirāmaṇa[ṉ*] kaviciya-</ta> 2 <ta>ceṭṭi cirikaṇṭar tirumulaṭṭāṉattup perumā-</ta> 3 <ta>ṉaṭikaḷukku nontā viḷakkoṉṟukku vai-</ta> 4 <ta>tta tuḷaippoṉ</ta> <num value="90">9 <g type="numeral">10</g></num> <ta>itu paṉmā<hi rend="grantha">he</hi></ta> 5 <hi rend="grantha">śvarara</hi><ta><hi rend="grantha">kṣai</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied></ta>
+
+<h4>B</h4> 1 <ta>pakal viḷḷkku tirumulaṭṭāṉattu</ta> 2 <ta>pperumāṉaṭikaḷukkut tāḻi yāruraṉ</ta> 3 <ta>vaitta tuḷaippoṉ</ta></note>and reṅisters another ṅift of ṅold by two persons of ṇeṉmali-nāḍu to the same temple for the expenses of conducting a festival therein.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+
+<p>
+<lb n="1"/><hi rend="grantha"><unclear>svastiśrī</unclear> <supplied reason="undefined"><g type="danda">.</g></supplied></hi> koccaṭaiya
+<lb n="2"/>māṟa<unclear>ṟ</unclear>ku yāṇṭu <unclear>U Ita</unclear>ṉeti
+<lb n="3" break="no"/>rāṇṭi ṉetirāṇṭu kuṉṟiyū
+<lb n="4" break="no"/>r nāṭṭut tevatāṉan tirunilak
+<lb n="5" break="no"/>kuṉṟattu tirumulaṭṭāṉattu mātevar
+<lb n="6" break="no"/>kku parāntaka Ataḷaiyūr nāṭā<supplied reason="omitted">ḷ</supplied>vāṉāyiṉa
+<lb n="7"/>kaṭampa ṉeṭṭi nontā viḷakkoṉṟukku
+<lb n="8"/>vaitta tuḷaippoṉ 7�ki Eḻuka<supplied reason="omitted">ḻa</supplied>ñca
+<lb n="9" break="no"/>rai <supplied reason="undefined"><g type="danda">.</g></supplied> puḷḷaṅkuṭi yūrum parampaiyūru<unclear>rā</unclear>rum <hi rend="grantha">rakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+<lb n="10"/>Avaraṭi Eṉ talai melaṉa <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 14.50 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamanathaAyyar1962_01"/>
+			<citedRange unit="page">38</citedRange>
+			<citedRange unit="item">50</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

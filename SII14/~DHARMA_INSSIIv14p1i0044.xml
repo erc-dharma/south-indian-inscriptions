@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 14.44: original edition by A. S. Ramanatha Ayyar</title>
+				<title type="alt">No. 44. (A.R. No. 334 of 1929-30.) ERUKKAṄGUḌI, SATTUR TALUK RAMANATHAPURAM DISTRICT. ON A SLAB ON THE BUND OF THE TANK IN THE VILLAGE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv14p1i0044</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This long Vaṭṭeḻuttu inscription in Tamil verse is stated to have been engraved in the 18th year of the reign of the Pāṇḍya king <hi rend="bold">Śaḍaiya-Māṟaṉ</hi> who has been called also Śrīvallabhaṉ. It records that this king who had conquered his enemies from Kuṇṇūr to Siṁhaḷam bestowed the title of <hi rend="bold">Iruppaikkuḍi-Kiḻavaṉ</hi> on a certain <hi rend="bold">Eṭṭi-Śāttaṉ</hi> and that the latter repaired several tanks in Iruñjōḻa-nāḍu and built some temples and <hi rend="italic">ambalams.</hi> The tank near which the slab is set up was one of the many water reservoirs which benefitted by this chief's philanthropic projects. He dismantled the old earthen bund, and built in its stead a stone-faced new embankment, so that this tank was now called <hi rend="italic">Kiḻavaṉēri</hi>, after his title of ‘Kiḻavaṉ. ’ These activities of this chieftain have been reviewed in the <hi rend="italic">Annual Report on South Indian Epigraphy</hi> for the year 1929-30, part ii, paragraph 2.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+
+<p>
+<lb n="1"/>Antaratti ṉoṭiyaṅkuñ cantirātittar va
+<lb n="2" break="no"/>ḻit toṉṟī ṇṭiya perunteyvat tiṟaṟ pāṇṭiyar palar kaḻi
+<lb n="3" break="no"/>nta piṉṉai maṟṟavar taṅkulam viḷaṅka vantu toṉṟi maṇkāttu
+<lb n="4" break="no"/>kkuṇṇūr mutal ciṅkaḷam varai kūṭāta vayamaṉṉarai viṇṇūr<unclear>p</unclear> puka vekuṇṭu veṉ
+<lb n="5" break="no"/>ṟikaḷey palaviḷaitta teṉṉavarko neṭumāṟaṉ centaṉik koṟ cirivallava ṉiṉṉaruḷāṟ
+<lb n="6"/>pal ciṟappoṭiruppaikkuṭi<supplied reason="omitted">k</supplied> kiḻa<supplied reason="omitted">va</supplied>ṉeṉṉun takkacīr naṉṉāmantāṉ peṟṟa Eṭṭi cāttaṉṟiru
+<lb n="7" break="no"/>makaḷuñ cennaṉmālaiyun tikaḻntilaṅku maṇippūṇu maruviya poṉvaraittoḷva ṉirait teṅku
+<lb n="8" break="no"/>m varaik kamukoṭu karumpuyaruṅ kalikkaḻaṉik katirc cenneṟ kavarikāṭṭu miruñcoḻanāṭṭavar talaivaṉ peruñ
+<lb n="9" break="no"/>cā<unclear>n</unclear>tikkula maṉṉavaṉ kūṭaṟkuṭi nakar taṉṉoṭu kuḷattūravar kulakkuricil viḻāmaliyum liyaṉṟeruviṟ ṟu
+<lb n="10" break="no"/>ḻāyūravar kuṭittoṉṟal poruppait tikaḻ maṇimāḷikai Iruppaikkuṭitaṉak katipati kaḷiyaṉṉaṅ kiḷaipayir puṉal ve
+<lb n="11" break="no"/>ḷiyaṉkuṭi viṟalāṇṭakai ñālaṅkaḷiṟ pukaḻuñ cirālaṅkuṭi Ataṟkiṟaivaṉ coṉmāt taṇṭamiḻk kūṭaṟ kaṉmāttiṇ palakai
+<lb n="12" break="no"/>micai muṉṉeḻutiya kuṭittoṉṟaṉ maṇiyaraṇ malaiccilampa[ṉṉa payatta<note n="34-1">A syallable appears to be missing before “payatta” which may be restored as “ā”</note>pu]ṉaṉ malki nāṭṭavarkku vaḷañciṟakkum <gap reason="lost" quantity="4" unit="character"/> ccā
+<lb n="13" break="no"/>-ṟivai taṉṉoṭu maṇimaṭantait taṭantuṟaivaṉavaṉe yec camaiyattavar tamakku viyalviṉ kaḷavirota miṉmaiyiṉ mūṉṟeṉṉum payaṉ maṟṟu
+<lb n="14" break="no"/>ṇ mutalākiya tāmmattai Eṉṟataṉ cintaiyiṉāliyaviṅkaṭkitu naṉṟeṉa Irukkocai kallimutalū riccuvaraṉ makiḻntuṟaiyun tirukko
+<lb n="15" break="no"/>yileṭuppittun teṉveḷiyaṉkuṭi nakaruṭ kaṟṟūṇ ceytampalattoṭu kaṟaikaṇṭa ṉuṟai koilu maṟai karumpu viḷaivaṟā Aḻakamainta kiḻa
+<lb n="16" break="no"/>vaṉeriyu māṟaṉūrp peruṅkuḷattiḻit teṟuvitta kiḻavaṉeriyum poruppaṉaiya neṭumāṭam polin tilaṅka mukiṟaṇiyu miruppaikkuṭi vaḷanakaru ḷeṭuppi
+<lb n="17" break="no"/>tta perumpaḷḷiyum vaṭivamaittāṅ keṭuppitta maṇṭapatto ṭampalamum vaḷḷaikkuḷattiḻit teṟiya veḷḷappuṉaṟ kiḻavaṉeriyu māṅkataṉ kaṇmaṭaitaṉ
+<lb n="18" break="no"/>ṉoṭu vāṅkamaitta pattaṉ maṭaiyuṅ kaṟpiḷanta kuḷavāyi lamaippitta <unclear>Iṟ</unclear>paṇampu mernūliṭ ṭeṟuvittaṉ cirmevu tirumāleriyu nīriyaṉaṟ pukaḻneṟinaṭai E
+<lb n="19" break="no"/>ritaṉṉoṭa racaṅkuḷamum vaḻuvāmai Iḻitteṟiṉa koḻuvūruṅ kiḻavaṉeriyun tikaḻoli nirppukaḻ maliyeriyoṭu ceṅkuḷamu nāṭiṉer tamakkillā moṭa ṉiyaṅku mā
+<lb n="20" break="no"/>ṟaṉeriyum neṉmalimānakar taṉṉiṟ coṉmali cirampalamum peruṅkuḷaṅkarai Iḻitteṟiya ñeruṅku puṉaṟ kiḻavaṉeriyu maṟṟataṉkaṭ kaṉmaṭaiyu maṇimāṭac ciṟuppu
+<lb n="21" break="no"/>ttūrp pāḻikkuḷattiḻit teṟiya cūḻolinirk kiḻavaṉeriyuñ cāttaṉūrp peruṅkuḷattu veppamaṭai kaṟpaṭuttum poṉṉāṇmaṭai taṉṉoṭu pūṅkuṟimaṭaiya 
+<lb n="22" break="no"/>maittu mālaṅkuṭip peruṅkuḷattu maṭaivaittu mataṉ kuḷavāy nīlapperuṅkaṟpiḷantu cālap puṉal varak kaṇṭu mampalattoṭu kiḻavaṉeriyuṅ kummaṇamaṅ
+<lb n="23" break="no"/>kalattamaittun teṉṉavarkoṉ ceytaruḷiya cirivallavamaṅkalattuk kāṇatti tāṉāki yatu tirutti vaḷam paṭuttuñ cirmevu vaḷaṅ kaḻaṉit tirunāraṇa Eri
+<lb n="24" break="no"/>yeṉ ṟernūliṭ ṭeṟuvittitaṉ kuḷavāy ceyvittu mittiṟattā lāḷ viṉaika ḷiṉṉiruñ coḻa naṉṉāṭṭu ḷettaṉaiyun tiruttuvitto ṉiruppaikkuṭi kiḻavaṉeṉa
+<lb n="25"/>nilavit taṉpiyar niṟpac colmikka perum pukaḻoṭu matiyamu ñāyiṟum polap patitoṟum viḷaṅkuka pāriṉ meley <g type="ddanda">.</g><g type="dashLong">.</g>itu koccaṭaiyamāṟaṟkup pa
+<lb n="26" break="no"/>tiṉeṭṭā māṇṭeḻutuvittatu <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 14.44 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamanathaAyyar1962_01"/>
+			<citedRange unit="page">34-35</citedRange>
+			<citedRange unit="item">44</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
