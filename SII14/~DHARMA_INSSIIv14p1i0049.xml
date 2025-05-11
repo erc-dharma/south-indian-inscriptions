@@ -5,125 +5,120 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>SII 14.49: original edition by A. S. Ramanatha Ayyar</title>
-				<title type="alt">No. 49. (A.R. No. 287 of 1923.) TIRUKKŌṬṬIYŪR, TIRUPPATTUR TALUK, RAMANATHAPURAM DISTRICT. ON A SLAB IN THE STORE-ROOM OF THE SAUMYANĀRĀYAṆA-PERUMĀḶ TEMPLE.</title>
-				<respStmt>
-					<resp>author of digital edition</resp>
-					<persName ref="part:emfr">
-						<forename>Emmanuel</forename>
-						<surname>Francis</surname>
-					</persName>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<authority>DHARMA</authority>
-				<pubPlace>Paris, CEIAS</pubPlace>
-				<idno type="filename">DHARMA_INSSIIv14p1i0049</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<msDesc>
-					<msIdentifier>
-						<repository>DHARMAbase</repository>
-						<idno/>
-					</msIdentifier>
-					<msContents>
-						<summary>
-
-						<p>This Vaṭṭeḻuttu record which is let into the wall of the store-room and is kept bottom up, is dated in the <hi rend="bold">2+1st year of Śaḍaiya-Māṟaṉ.</hi> The secondary i loop is attached to the top of the respective consonants and not to the side. The record which may be assigned to the time of Rājasimha must have belonged to Śiva temple at the village, though it is now found embedded in the wall of the Vishṇu temple. It registers a gift of a perpetual lamp by a certain Aṇukki<note n="37-2"><hi rend="italic">Aṇukki</hi> indicates that the woman was a lady-in-waiting at the royal court.</note>-Sundaravalli of Kaṇṇikuḍi in KIḻ-Iraṇiyamuṭṭam to the god Periya-ŚrIkōyil-BhaTAra of TirukkōTTiyūr.</p>						
-
-						<p>Above this record is another short one registering a gift of cows and sheep for a lamp by a merchant named Kaṇḍaṉ-Śaṅkaranāraṇaṉ, and belonging to about the same period. The damaged portion consisting of a few Sanskrit verses is not decipherable, and as only a few words are legible here and there, such as <hi rend="italic">Śrīgōshṭhinātha</hi> in line 6, no continuous sense can be made out.</p>						
-
-						</summary>
-					</msContents>
-					<physDesc>
-						<handDesc>
-							<p/>
-						</handDesc>
-					</physDesc>
-				</msDesc>
-			</sourceDesc>
-		</fileDesc>
-		<revisionDesc>
-			<change who="part:emfr" when="2025-05-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-		</revisionDesc>
-	</teiHeader>
-	<text xml:space="preserve">
-		<body>
-
-<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
-
-<p>
-<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> koccaṭaiyamāṟa
-<lb n="2" break="no"/>ṟku yāṇṭiraṇṭu Itaṉ <unclear>ṉe</unclear>
-<lb n="3" break="no"/>tirāmāṇṭu tevatāṉan tiru<unclear>k</unclear>
-<lb n="4" break="no"/>koṭṭiyūr periya <hi rend="grantha">śrī</hi>koyi<unclear>l</unclear>
-<lb n="5"/><unclear>pa</unclear>ṭāraṟku ciḻiraṇiyamu<unclear>ṭṭa</unclear>
-<lb n="6" break="no"/>ttu kaṇṇikuṭic <unclear>co</unclear>lama <gap reason="lost" quantity="2" unit="character"/> 
-<lb n="7"/>pir<unclear>ā</unclear>ṭṭiyāṉa Aṇukki cu
-<lb n="8" break="no"/>ntaravalli vaitta tiruno
-<lb n="9" break="no"/>ntā viḷak koṉṟu<g type="ddanda">.</g>
-</p>
-
-<p>3) After line 9, a few damaged letters of a Sanskrit portion are seen—</p>
-
-<p>
-<lb n="1"/>ya<hi rend="grantha">syāsvadhuramathaḥ karo</hi>ti<hi rend="grantha"> va</hi>na<hi rend="grantha"/> 
-<lb n="2" break="no"/><hi rend="grantha">cāru <gap reason="lost" quantity="3" unit="character"/> : vendrāṅga</hi>nā<hi rend="grantha"/> 
-<lb n="3" break="no"/><hi rend="grantha">śām <gap reason="lost" quantity="2" unit="character"/> �nāyakara <gap reason="lost" quantity="4" unit="character"/> vanaḥ <gap reason="lost" quantity="2" unit="character"/> </hi> 
-<lb n="4"/><hi rend="grantha"> <gap reason="lost" quantity="2" unit="character"/> sraṣṭorvadhesā</hi>nā<hi rend="grantha">rā</hi>ya<hi rend="grantha"/> 
-<lb n="5" break="no"/><hi rend="grantha"> <gap reason="lost" quantity="4" unit="character"/> veṣṭhiṣu <gap reason="lost" quantity="2" unit="character"/> �vo <gap reason="lost" quantity="2" unit="character"/> </hi> 
-<lb n="6"/><hi rend="grantha"> <gap reason="lost" quantity="3" unit="character"/> śrīgoṣṭhi</hi>nā<hi rend="grantha">tha <gap reason="lost" quantity="2" unit="character"/> </hi> 
-<lb n="7"/><hi rend="grantha"> <gap reason="lost" quantity="1" unit="character"/> ni</hi>ti<hi rend="grantha"> <gap reason="lost" quantity="3" unit="character"/> ma</hi>ti<hi rend="grantha">kacoḷi <gap reason="lost" quantity="1" unit="character"/> ma <gap reason="lost" quantity="2" unit="character"/> </hi>
-</p>
-
-<p>Above this record is engraved the following:—</p>
-
-<p>
-<lb n="1"/>periya <hi rend="grantha">śrī</hi> koyil paṭā
-<lb n="2" break="no"/>raṟku viyāpāri kaṇṭañ
-<lb n="3"/>caṅkaranāraṇaṉ nicati
-<lb n="4"/>ppaṭi Uriy neyeriva
-<lb n="5" break="no"/>tāka vacca tirunontā
-<lb n="6" break="no"/>viḷak koṉṟu pacu <unclear>paṉ</unclear>
-<lb n="7" break="no"/>ṉiraṇṭu Āṭu Aimpatu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
-</p>
-
-</div>
-
-<div type="apparatus">
-
-</div>
-
-<div type="commentary">
-
-</div>
-
-<div type="bibliography">
-
-	<p>Digital edition of SII 14.49 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
-
-	<listBibl type="primary">
-
-		<bibl n="SII">
-			<ptr target="bib:RamanathaAyyar1962_01"/>
-			<citedRange unit="page">37-38</citedRange>
-			<citedRange unit="item">49</citedRange>
-		</bibl>
-
-	</listBibl>
-
-	<listBibl type="secondary">
-
-		<bibl/>
-
-	</listBibl>
-
-</div>
-
-	</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.49: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 49. (A.R. No. 287 of 1923.) TIRUKKŌṬṬIYŪR, TIRUPPATTUR TALUK, RAMANATHAPURAM DISTRICT. ON A SLAB IN THE STORE-ROOM OF THE SAUMYANĀRĀYAṆA-PERUMĀḶ TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0049</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This Vaṭṭeḻuttu record which is let into the wall of the store-room and is kept bottom up, is dated in the <hi rend="bold">2+1st year of Śaḍaiya-Māṟaṉ.</hi> The secondary i loop is attached to the top of the respective consonants and not to the side. The record which may be assigned to the time of Rājasimha must have belonged to Śiva temple at the village, though it is now found embedded in the wall of the Vishṇu temple. It registers a gift of a perpetual lamp by a certain Aṇukki<note><hi rend="italic">Aṇukki</hi> indicates that the woman was a lady-in-waiting at the royal court.</note>-Sundaravalli of Kaṇṇikuḍi in KIḻ-Iraṇiyamuṭṭam to the god Periya-ŚrIkōyil-BhaTAra of TirukkōTTiyūr.</p>						
+                            
+                            <p>Above this record is another short one registering a gift of cows and sheep for a lamp by a merchant named Kaṇḍaṉ-Śaṅkaranāraṇaṉ, and belonging to about the same period. The damaged portion consisting of a few Sanskrit verses is not decipherable, and as only a few words are legible here and there, such as <hi rend="italic">Śrīgōshṭhinātha</hi> in line 6, no continuous sense can be made out.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:vaṭṭeḻuttu maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> koccaṭaiyamāṟa
+                    <lb n="2" break="no"/>ṟku yāṇṭiraṇṭu Itaṉ <unclear>ṉe</unclear>
+                    <lb n="3" break="no"/>tirāmāṇṭu tevatāṉan tiru<unclear>k</unclear>
+                    <lb n="4" break="no"/>koṭṭiyūr periya <hi rend="grantha">śrī</hi>koyi<unclear>l</unclear>
+                    <lb n="5"/><unclear>pa</unclear>ṭāraṟku ciḻiraṇiyamu<unclear>ṭṭa</unclear>
+                    <lb n="6" break="no"/>ttu kaṇṇikuṭic <unclear>co</unclear>lama <gap reason="lost" quantity="2" unit="character"/> 
+                    <lb n="7"/>pir<unclear>ā</unclear>ṭṭiyāṉa Aṇukki cu
+                    <lb n="8" break="no"/>ntaravalli vaitta tiruno
+                    <lb n="9" break="no"/>ntā viḷak koṉṟu<g type="ddanda">.</g><g type="dashLong">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary">
+                 <p>Above this record is engraved the following:
+                    <foreign><lb n="1"/>periya <hi rend="grantha">śrī</hi> koyil paṭā
+                    <lb n="2" break="no"/>raṟku viyāpāri kaṇṭañ
+                    <lb n="3"/>caṅkaranāraṇaṉ nicati
+                    <lb n="4"/>ppaṭi Uriy neyeriva
+                    <lb n="5" break="no"/>tāka vacca tirunontā
+                    <lb n="6" break="no"/>viḷak koṉṟu pacu <unclear>paṉ</unclear>
+                    <lb n="7" break="no"/>ṉiraṇṭu Āṭu Aimpatu <supplied reason="undefined"><g type="ddanda">.</g></supplied></foreign>
+                </p>
+                <p>After line 9, a few damaged letters of a Sanskrit portion are seen:
+                    <foreign><hi rend="grantha"><lb n="1"/>yasyāsvadhuramathaḥ karoti vana
+                    <lb n="2" break="no"/>cāru <gap reason="lost" quantity="4" unit="character"/> vendrāṅganā 
+                    <lb n="3" break="no"/>śām <gap reason="lost" quantity="2" unit="character"/> �nāyakara <gap reason="lost" quantity="4" unit="character"/> vanaḥ <gap reason="lost" quantity="2" unit="character"/>  
+                    <lb n="4"/><gap reason="lost" quantity="2" unit="character"/> sraṣṭorvadhesānārāya
+                    <lb n="5" break="no"/><gap reason="lost" quantity="4" unit="character"/> veṣṭhiṣu <gap reason="lost" quantity="2" unit="character"/> �vo <gap reason="lost" quantity="2" unit="character"/>  
+                    <lb n="6"/><gap reason="lost" quantity="3" unit="character"/> śrīgoṣṭhinātha <gap reason="lost" quantity="2" unit="character"/>  
+                    <lb n="7"/><gap reason="lost" quantity="1" unit="character"/> niti <gap reason="lost" quantity="3" unit="character"/> matikacoḷi <gap reason="lost" quantity="1" unit="character"/> ma <gap reason="lost" quantity="2" unit="character"/></hi></foreign>
+                </p>
+                
+               
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.49 (ARIE/1923-1924/B/1923/287) by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">37-38</citedRange>
+                        <citedRange unit="item">49</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
 </TEI>
