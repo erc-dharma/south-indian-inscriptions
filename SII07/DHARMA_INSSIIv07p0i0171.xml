@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 7.171: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 171. (A.R. No. 11 of 1901). ON A SLAB IN THE SUBRAHMANYASVAMIN TEMPLE AT PORANGATRI-DESAM, SAME DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv07p0i0171</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-05-12" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+	<milestone n="A" unit="face" type="pagelike"/><label>First Face.</label>
+	
+	<p>
+		<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> ko <gap reason="lost" quantity="4" unit="character"/> 
+		<lb n="2"/>vikkuc cellā
+		<lb n="3" break="no"/>niṉṟa <gap reason="lost" quantity="5" unit="character"/> 
+		<lb n="4"/>patteḻu <unclear>Ivvāṇ</unclear>ṭu
+		<lb n="5"/>poraṅkoṭṭu <unclear>ramaiññā</unclear>
+		<lb n="6" break="no"/>rum Iḷaiyāruṅ koyi
+		<lb n="7" break="no"/>lum Āḷkoyilu
+		<lb n="8" break="no"/>m Iraṇṭu <unclear>kuṭi</unclear>
+		<lb n="9" break="no"/>potuvāḷuṅ kūṭi A
+		<lb n="10" break="no"/>virottāl ceyta
+		<lb n="11"/>tava kāriyamāvatu A
+		<lb n="12" break="no"/>kanāḻikaic celavum
+		<lb n="13"/><hi rend="grantha">brahmasva</hi>mum <hi rend="grantha">de</hi>va<hi rend="grantha">sva</hi>
+		<lb n="14" break="no"/>mum paṟṟuvaḻiyu
+		<lb n="15" break="no"/>m kārāṇmaiyuṅ <unclear>kū</unclear>
+		<lb n="16" break="no"/>ṭa viṭṭār pukku vi
+		<lb n="17" break="no"/>lakkavum poruḷkava
+		<lb n="18" break="no"/>ravum tavaka <unclear>ḷaḻi</unclear>vu
+		<lb n="19" break="no"/>m peṟā rūrāḷar Iv
+		<lb n="20" break="no"/>veḻutiṉa kaccam pi
+		<lb n="21" break="no"/>ḻaikku mūrāḷaṉ peru
+		<lb n="22" break="no"/>māṉaṭikaḷkku nūṟ
+		<lb n="23" break="no"/>ṟuk kaḻaiñcu Āḷ
+		<lb n="24" break="no"/>koyilkku Aimpa
+		<lb n="25" break="no"/>tiṉ kaḻaiñcu tevar
+		<lb n="26" break="no"/>kku Aimpatiṉ ka
+		<lb n="27" break="no"/>ḻaiñcu
+	</p>
+	
+	<milestone n="B" unit="face" type="pagelike"/><label>Second Face.</label>
+	
+	<p>
+		<lb n="28"/>paṇi vaḻi viru
+		<lb n="29" break="no"/>ttiyum Ūrāḷar
+		<lb n="30"/>ḻavun taṭukkavum
+		<lb n="31"/>peṟār Ippaṇ
+		<lb n="32" break="no"/>ṭu piḻaiccavaṉ
+		<lb n="33"/>muḻikkaḷattu ca<unclear>ṭa</unclear>
+		<lb n="34" break="no"/>ttaiyāl keṭṭu Ū
+		<lb n="35" break="no"/>rkku puṟam Ep
+		<lb n="36" break="no"/>piḻai piḻaikki
+		<lb n="37" break="no"/>lum tiruvārātiṉai
+		<lb n="38"/>muṭṭikka peṟār
+		<lb n="39"/> <gap reason="lost" quantity="7" unit="character"/> pe
+		<lb n="40" break="no"/>li mukkalampāṭum
+		<lb n="41"/>puḷi māvu <gap reason="lost" quantity="2" unit="character"/> ṭu
+		<lb n="42" break="no"/>ṅkarum kalappā
+		<lb n="43" break="no"/>ṭum koṭut <gap reason="lost" quantity="2" unit="character"/> 
+		<lb n="44"/>liṉ Eḻutūṇipā
+		<lb n="45" break="no"/>ṭum muṭum
+		<lb n="46"/>kuṇṭiṉiḷ patiṉ
+		<lb n="47"/>ṟūṇippāṭum ma
+		<lb n="48" break="no"/>laikkuṇṭu muppa
+		<lb n="49" break="no"/>tiṉṟūṇippāṭu
+		<lb n="50" break="no"/>m putuvayalil
+		<lb n="51"/>p patiṉ ṟūṇip
+		<lb n="52"/> <gap reason="lost" quantity="6" unit="character"/> pāṭu
+	</p>
+	
+	<milestone n="C" unit="face" type="pagelike"/><label>Third Face.</label>
+	<p>
+		<lb n="53"/><gap reason="lost" quantity="3" unit="character"/> 
+		<lb n="54"/>lum <gap reason="lost" quantity="1" unit="character"/> 
+		<lb n="55"/>kkāṭum
+		<lb n="56"/>mukka
+		<lb n="57" break="no"/>lappā
+		<lb n="58" break="no"/>ṭum
+		<lb n="59"/>vaṭak
+		<lb n="60" break="no"/>kiṉ te
+		<lb n="61" break="no"/>varkku
+		<lb n="62"/>ce <gap reason="lost" quantity="2" unit="character"/> 
+		<lb n="63"/> <gap reason="lost" quantity="4" unit="character"/> 
+		<lb n="64"/>kāṭu ka
+		<lb n="65" break="no"/>lap
+		<lb n="66" break="no"/>pāṭu
+		<lb n="67" break="no"/>m tava
+		<lb n="68" break="no"/>yil mu
+		<lb n="69" break="no"/>ppa
+		<lb n="70" break="no"/>ttaiṉ
+		<lb n="71" break="no"/>tūṇi
+		<lb n="72" break="no"/>ppā
+		<lb n="73" break="no"/>ṭum pa
+		<lb n="74" break="no"/>yaṟu ka
+		<lb n="75" break="no"/>lamum
+	</p>
+	
+	<milestone n="D" unit="face" type="pagelike"/><label>Fourth Face.</label>
+	<p><seg rend="check"><gap reason="lost" quantity="1" unit="page"/></seg></p>
+	
+	
+</div>
+
+<div type="apparatus"/>
+
+
+
+<div type="commentary">
+<p><milestone n="D" unit="face" type="pagelike"/><label>Fourth Face.</label> Much damaged.</p>
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 7.171 by <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SubrahmanyaAiyer1932_01"/>
+			<citedRange unit="page">71</citedRange>
+			<citedRange unit="item">171</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
