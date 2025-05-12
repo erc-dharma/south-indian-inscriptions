@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.89: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 89. (A.R. No. 13 of 1927.) VIJAYANĀRĀYAṆAM, NANGUNERI TALUK, TIRUNELVELI DISTRICT. ON THE SOUTH WALL OF THE MANŌNMAṆĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0089</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This record is dated in the <hi rend="bold">12th year of the king</hi> and refers to a gift of sheep for burning a lamp in the temple, whose name is given, namely, Manōmayaṉīśvaram at Vijayanārāyaṇa-chaturvēdimaṅgalam. It is not known whose title ‘Maṉōmayaṉ was; but it already occurs in the time of Śaḍiaya-Māṟaṉ. It may be remarked that the regnal year which had been cited as some year opposite to the 4th up till the 11th year is now quoted as only one year, as the 12th in this record. This practice was in vogue up till the 15th year, when with that year as constant, the further years are quoted as 15+4 and 15+5. No. 91 below however cites the year 13+1. The significance of this is not clear.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:vaṭṭeḻuttu maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> coḻaṉ talai koṇṭa kovirapāṇṭiyarkku yāṇṭu <num value="12"><g type="numeral">10</g> 2</num> paṉṉiraṇṭu <supplied reason="undefined"><g type="danda">.</g></supplied> Ivvāṇṭu nāṭṭāṟṟup pokku—
+                    <lb n="2"/>caruppetimaṅkalattu maṉomayaṉī<hi rend="grantha">śva</hi>rattup perumāṉaṭikaḷukku Ivvūr <gap reason="lost" quantity="3" unit="character"/> ñcicci caturaṉ pa—
+                    <lb n="3"/>Itaṉukku vaitta cāvā mūvāp perāṭu Irupattaiñcu <supplied reason="undefined"><g type="danda">.</g></supplied> Ivai koṇṭu nicata māḻākku ney yaṭṭu—
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary">
+                <p>The left end of the record is built in.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.89 (ARIE/1926-1927/C/1927/13) by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">57</citedRange>
+                        <citedRange unit="item">89</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

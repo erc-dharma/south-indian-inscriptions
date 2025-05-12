@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.86: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 86. (A.R. No. 624 of 1926.) KĪḺMĀTTŪR, MADURAI TALUK, MADURAI DISTRICT. ON THE WEST WALL OF THE MAṆIKAṆṬHĒŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0086</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This record of Vīra-Pāṇḍya is dated in the <hi rend="bold">5th year opposite to the 5th year</hi> instead of being dated opposite to the 4th year, as in the earlier records. The stones of this record are disarranged, and some portion of the document is lost. It mentions that some lands in the village called Parāntakanallūr <hi rend="italic">alias</hi> Vāmadēvamaṅgalam which was situated in the subdivision Māḍakkuḷakkīḻ and which belonged to the temple were examined by some officer apparently the one figuring in another record<note>No. 84 above.</note> in the same temple, and the paddy derivable from them were fixed for the requirements of worship and offerings to the god Bhaṭāra at Tiruvāmāttūr.</p>
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:vaṭṭeḻuttu maturity:vernacular">
+                
+                <div type="textpart" n='A'>
+                    <head>TEXT</head>
+                <p>
+                    <lb n="A1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="danda">.</g></supplied> coḻaṉṟalai koṇṭa kovirapāṇṭiyaṟku yāṇ nāṉku Itaṉ ṉetir Añcu <supplied reason="undefined"><g type="danda">.</g></supplied> Ivvāṇṭu tirumāttūr <hi rend="grantha">bha</hi>ṭārarkku <hi rend="grantha">śrī</hi>kaṇṭu<hi rend="grantha">ṇṭhaśvara</hi>meṉṟu tirukkaṟṟaḷi Eṭu <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="A2"/>varkku <hi rend="grantha">śrī</hi> kā<hi rend="grantha">ryya</hi>mārāyā niṉṟit tevar tevatāṉa māṭakkuḷakkīḻ <hi rend="grantha">śrī</hi>parāntakanallūrāyiṉa vāmatevamaṅkalaṅ koṉeri Uṭpaṭṭa Ūrā rittevarkku pāṭakkaṭa <gap reason="lost" quantity="8" unit="character"/> 
+                    <lb n="A3"/>rumuṟṟa <gap reason="lost" quantity="8" unit="character"/> ṭi Aḷakka kaṭava nel lannūṟemu<supplied reason="omitted">p</supplied>pattaiṅkalattālum Ivakaḷe yiṭak kaṭava Uruvu poṉ maṉaṟpāri Īḻakkācu muppatiṉālum Itte <gap reason="lost" quantity="6" unit="character"/> 
+                    <lb n="A4"/>ruvamitiṉukkup patteṭṭukkuttal poti ṉāṉāḻi Ariciyāka niyatam Arici panniru nāḻiyum Aṉṉa <hi rend="grantha">bali</hi>kkum meṟpaṭi kuttal niyatam Arici munnāḻi mūḻakkum I <gap reason="lost" quantity="6" unit="character"/> 
+                    <lb n="A5"/>ṟṟi niyatam patteṭṭuk kuttalarici patiṉeḻu nāḻiyiṉāṟ kuttal vāci Eṟṟi Arici Irupatiṉāḻi mūḻakkiṉā liraṭṭi nel loru nāḷaik keṇkuṟuṇi nāḻiya <gap reason="lost" quantity="6" unit="character"/> 
+                    <lb n="A6"/>laṉey mukkuṟuṇiyu mivattukkuk kuṟuvāḷ kūli kalattuvāyk kuṟuṇiyākak kūli nellup patiṉmukkalaṉey nāṟ kuṟuṇi Oru nāḻiyum Eṟṟit tiruvamitu Aṟa nel <gap reason="lost" quantity="4" unit="character"/> 
+                </p>
+                </div>
+                
+                <!--<h4>Further fragmentary portions belonging to this record are:</h4>-->
+                
+              
+                <div type="textpart" n="B">
+                    <head>Fragment A</head>
+                <p>
+                    <lb n="B1"/><hi rend="grantha">ha</hi>ttu tevaramitu ceyyum poḻutuṇṇum <hi rend="grantha">brāhma</hi>ṇar Aivarkku meṟpaṭi kuttalarici Eḻu nāḻi Uriyiṉāṟ kuttal maratam Eṟu marici nāḻi mūḻakke yāḻāk keṟṟic ceralarici Oṉpati ṇuḻi Uḻak kāḻākkināliraṭṭi nel <gap reason="lost" quantity="14" unit="character"/> varkku nellaṟupattāṟu kalamun tirumeyppūccuc cantaṉa niyatam Arai palamāka Orāṭṭai nāḷaikkuc cantaṉa nūṟṟeṇpatiṉ palattiṉukku nellu <gap reason="lost" quantity="14" unit="character"/> 
+                    <lb n="B2"/>k kācu Orāṭṭai nāḷaikku veṇṭu nellut toṇṇūṟṟuk kalamu mivaṟṟukkuk kuṟuvarai nāli nellaṟu kalamu mivakaḷukku niyata ney yuḻakkiṉukkun tayiriru nāḻi <gap reason="lost" quantity="3" unit="character"/> māka Īḻakkācu panniraṇṭum tiruppukaikkuk kuṅkuliya niyatam Oru palavaraiyāka Orāṭṭai nāḷaikkuk kuṅkuliyam Aññūṟṟu nāṟpatiṉ pala <gap reason="lost" quantity="7" unit="character"/> 
+                    <lb n="B3"/>ḻiyāka Eṟṟi Orāṭṭai nāḷaikkunellu nūṟṟu nāṟpattu nāṟkalamum <hi rend="grantha">de</hi>varkkum <hi rend="grantha">brāhma</hi>ṇarkkuma <hi rend="grantha">de</hi>var nantavaṉaṅkaḷil <hi rend="grantha">de</hi>var vārattilaiṅkaṟiyamitu koḷvatākavu mivarkaḷukku viṟaku nīrun tāṉey kuṟai <gap reason="lost" quantity="10" unit="character"/> p patiṉ palamāka Īḻakkā coṉṟaraiyum Aṭaikkāya mitiṉukku niyatam peṟuṅkāy muppatāka Orāṭṭai nāḷaikku peṟuṅkāy patiṉāyirat teṇṇūṟ ṟiṉ <gap reason="lost" quantity="5" unit="character"/> 
+                    <lb n="B4"/>rivaṉukku niyata nel laṟu nāḻiyāka Orāṭṭai nāḷaikkunel lirupatteṇkalaṉey panniru kuṟuṇiyu mivaṉukkup puṭavai mutaluk kāṭṭaivaṭṭa nellu muppatiṉ kalamum Eṟṟi nellaim patteṇ kalaṉey panniru ku <gap reason="lost" quantity="3" unit="character"/> y muvvāyirattaṟu nūṟāka Īḻakkācu muṉṟum Ilaiya mitukkut teriyilai niyatam mūvaṭukkāka Orāṭṭai nāḷaikku veṇṭum Ilaiyami tirunūṟ ṟeḻupa <gap reason="lost" quantity="13" unit="character"/> 
+                    <lb n="B5"/>riva rāṇṭikaṇmārkku niyata nellu mukkuṟuṇiyāka Orāṭṭai nāḷaikku nelleḻupattiru kalamum mivarkaḷiruvarkkum Āṭṭai vaṭṭap puṭavai mutalukku nellaṟupatiṉ kalam meṟṟi Aṭikaṇmāri <gap reason="lost" quantity="5" unit="character"/> kut teriyilai toṇṇuṟṟup paṟṟāka Īḻakkācu muṉṟum nūṟṟamitiṉukku Orāṭṭai nāḷaikku Īḻakkācaraiyum Eṟṟi ni<hi rend="grantha">bandha</hi>m Aṭaitta nel <gap reason="lost" quantity="6" unit="character"/> leḻunāṭuriyāka Orāṭṭai nāḷaikku
+                    <lb n="B6"/>ttirukalamum <hi rend="grantha">śrī</hi> koyil meḻuku <gap reason="lost" quantity="4" unit="character"/> pat taṭikaṇmārkku niyata nellu muppattaṟu kalamum Ivarkaḷiruvarkkum Āṭṭai vaṭṭap puṭavai mutalukku nel <gap reason="lost" quantity="3" unit="character"/> nāḻiyum Īḻaka kācirupatum nikki niṉṟa nellu Aṟupattoru kalaṉe yirutūṇi nāṉāḻiyum Īḻakkācu pattum Ivai Āṭṭai vaṭṭamu <gap reason="lost" quantity="4" unit="character"/> 
+                </p>
+                </div>
+                
+                <div type="textpart" n="C">
+                    <head>Fragment B</head>
+                <p>
+                    <lb n="B1"/>m paṅkuṉi Uttirat tiruviḻāvukkukkaṇṭaḻivākavum Ipparicu ni<hi rend="grantha">bandha</hi>m Aṭaittāṉ teṉṉavaṉ ṟamiḻveḷāyiṉakaṇṭañcāttaṉaṉā <gap reason="lost" quantity="4" unit="character"/> Itu pa<hi rend="grantha">nmāheśvara rakṣai</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                </div>
+                
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.86 (ARIE/1926-1927/B/1926/624) by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">54-55</citedRange>
+                        <citedRange unit="item">86</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

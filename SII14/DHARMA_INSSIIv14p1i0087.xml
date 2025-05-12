@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.87: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 87. (A.R. No. 626 of 1926.) KĪḺMĀTTŪR, MADURAI TALUK, MADURAI DISTRICT. ON THE SOUTH WALL OF THE MAṆIKAṆṬHĒŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0087</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The inscription in Tamil poetry is fragmentary; but from the available portion, it can be inferred that it refers to the building of the temple at TirumāttUr by a certain <hi rend="bold">Tamiḻavēḷ</hi> in about the <hi rend="bold">8th year</hi> of reign of <hi rend="bold">Vira-Pāṇḍya.</hi> This record contains an eulogy of this chieftain. There is a reference to some who was well-versed in Sanskrit and Tamil works, such as the <hi rend="italic">Vēdas</hi>, the <hi rend="italic">Purāṇas, PAtañjala mudar-paṉuval</hi>, etc. As the name Teṉṉavaṉ is mentioned in another record, that word combined with Tamiḻavēḷ seems to give the full title <hi rend="bold">‘Teṉṉavaṉ-Tamiḻavēḷ’</hi> of the chieftain, who erected the ŚrIkaṇThēśvaram temple in stone. This chief figures in a record dated in the 12th year of Vīra-Pāṇḍya at Ambāsamudram in the Tirunelveli district.<note>No. 101 of 1905 published in <hi rend="italic">Epigraphia Indica</hi>, Vol. XXV, p. 35. See No. 95 below.</note></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+                
+                <p>
+                    <lb n="1"/>taṇṭamiḻoṭāri yanūl va—
+                    <lb n="2"/>lla tamiḻaveḷ vaṇṭamaruñ colai cūḻ māttūriṟ caṇṭapaṭi Eṉṟuṅ kuṉṟāmaiy pārttiyaṟ ṟumā <gap reason="lost" quantity="4" unit="character"/> rāṭi Eṉṟum pūmpotavaṟku <g type="ddanda">.</g><g type="dashLong">.</g> pūmicai maṭantaiyum puṉai tamiḻp pula<seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg> <gap reason="lost" quantity="3" unit="character"/> r <gap reason="lost" quantity="2" unit="character"/> nāmicai
+                    <lb n="3"/>maṭantaiyum naṉakiṉi tirukka mārvu mukamu maṟṟavark kaḷitta tāḷkeḻu taṭantoṭ caturācāraṉa <unclear>mai</unclear>ccaṉ Itto <gap reason="lost" quantity="3" unit="character"/> varkkuṅ kacci mūtūrk kāmak kiḻavor paṭuvaṇ kirtti marapuḷāṉ vāṭik kūṭi <gap reason="lost" quantity="4" unit="character"/> mutal van <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="4"/>takoḷari <gap reason="lost" quantity="1" unit="character"/> malart teṉṉar komāṉ kaṉṉi naṉṉāṭṭup puḷaka vācaṟ p<choice><sic>o</sic><corr>e</corr></choice>rarum puricaik kaṉaka māḷkaik kaḷan <gap reason="lost" quantity="4" unit="character"/> malaṉ Iṟaivarai makaḷireṟṟiya viḷakkamaṟurai kaṭaṟ pakkattāriruḷ kaṭiyum pu <gap reason="lost" quantity="4" unit="character"/> ṟai <gap reason="lost" quantity="2" unit="character"/> yūruṭai <gap reason="lost" quantity="6" unit="character"/> 
+                    <lb n="5"/>ya peruḷāṉ maṟai poruṭṭaricaṉa māṟun tamiḻkaḷ mūṉṟum varicaiyilamainta vaṭanūl vakaiyu nīti nūlaiyu metaku purāṇamum pātañcala mutaṟ paṉuvaṟ payaṉkaḷum meymai yuṇarn <gap reason="lost" quantity="2" unit="character"/> ṟu <gap reason="lost" quantity="2" unit="character"/> virapāṇ
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary">
+                <p n="1"><foreign>taṇṭamiḻoṭāri</foreign>. The inscription is fragmentary, the further stones being now missing.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.87 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">56</citedRange>
+                        <citedRange unit="item">87</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
