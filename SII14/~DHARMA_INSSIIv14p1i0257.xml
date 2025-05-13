@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 14.257: original edition by A. S. Ramanatha Ayyar</title>
+				<title type="alt">No. 257. (A.R. No. 555 of 1922.) TIRUTTAṄGAL, SATTUR TALUK, RAMANATHAPURAM DISTRICT. ON THE EAST WALL OF THE maṇḍapa IN THE NINṞANĀRĀYAṆA-PERUMĀḶ TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv14p1i0257</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This record of <hi rend="bold">Śrīvallabha</hi> dated in the <hi rend="bold">year opposite to the 22nd</hi> year of his reign contains the date <hi rend="bold">22nd year</hi> and <hi rend="bold">[5]40th day</hi> at the end. The king while seated on the throne named <hi rend="italic">Kaliṅgattaraiyaṉ</hi> in his palace at Madurai issued this order to the <hi rend="italic">mūlaparishad</hi> of Tiruttaṅgāl to the effect that this village which had originally been a <hi rend="italic">dēvadāna-brahmadēya</hi> of Karunilakkuḍi-nāḍu and had subsequently been made taxpaying was to be restored to its original classification from the 23rd year of the king's reign. The income accruing from the taxes was to be utilised for the expenses in the temple of god Paramasvāmin who was pleased to be stationed on the Tirumalai at the place. The order is signed by Araiyaṉ Śōmaṉ <hi rend="italic">alias</hi> Mīṉavadaraiyaṉ of Koḻuvaṉūr in the eastern portion of the Miḻalai-kūṟṟam.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> dvarddha</hi><note n="158-1">Read u�</note> <hi rend="grantha">kṣetraṅkūpamekamdvijasya dvarddhaprastham vrīhi</hi>ni<hi rend="grantha">tyaṅkarañca <supplied reason="undefined"><g type="danda">.</g></supplied> śrīśā</hi>yaiva<hi rend="grantha">nnārppa</hi>ṇa<hi rend="grantha">m bhūpa</hi>tīnā<hi rend="grantha">m śrī</hi>ta<hi rend="grantha">ṅkālām bodha candrāgra hāre <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+<lb n="2"/><hi rend="grantha">taṅkālaśaila śikharālaya mādhavāya prāgādi yāmyavaruṇāśraya dikṣu sīmā <supplied reason="undefined"><g type="danda">.</g></supplied> kantānyamāni paritaśca catussahasrai dardaṇḍairudīci vihitātranadīha sīmā <g type="pc"/></hi>
+<lb n="3"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tirumaṭantaiyuñ ceyamaṭantaiyun tiruppuyaṅkaḷi liṉitiruppa Irunilamum peru
+<lb n="4" break="no"/>maiyeyti Eṇṭicaiyuṅ kuṭainiḻaṟṟa maṉṉavarellām vantiṟaiñca marapile varu ma
+<lb n="5" break="no"/>ṇimuṭi cūṭit teṉkumariyum vaṭakaṅkaiyun tiraikkaṭale yellaiyākap pārmuḻutuṅ kayalāṇai parantu ceṅkoluṭa
+<lb n="6" break="no"/>ṉ vaḷara maṉṉiya vira<hi rend="grantha">siṁhāsa</hi>ṉat tulakamuḻutuṭaiyāroṭum viṟṟiruntaruḷiya māmutal matikkulam viḷakkiya ko
+<lb n="7" break="no"/>mutaṟa koccaṭaiyavaṉmarāṉa <hi rend="grantha">tribhu</hi>vaṉacca<hi rend="grantha">kra</hi>vattikaḷ <hi rend="grantha">śrī</hi>valla<hi rend="grantha">bhade</hi>vaṟku yāṇṭu <num value="22">2 <g type="numeral">10</g> 2</num>vati ṉetirāmāṇṭu maturo
+<lb n="8" break="no"/>taya vaḷanāṭṭu māṭakkuḷakkiḻ maturaik koyiṟ kaṭṭaṇattup paḷḷiyaṟaiyiṟ kaliṅkat tarayaṉ paḷḷippiṭat
+<lb n="9" break="no"/>tileḻuntaruḷiyiruntu tiruvāymoḻintaruḷiṉapaṭi <supplied reason="undefined"><g type="danda">.</g></supplied> <hi rend="grantha">tribhu</hi>vaṉacca<hi rend="grantha">kra</hi>vatti konerilmai koṇṭāṉ karunilakkuṭi nara
+<lb n="10" break="no"/>ṭṭut tevatāṉa <hi rend="grantha">brahmade</hi>yan tiruttaṅkāl mulaparu<hi rend="grantha">ṣai</hi>yāṟkut taṅkaḷur tirumalaimel niṉṟaruḷiṉa <hi rend="grantha">paramasvā</hi>mikaḷu 
+<lb n="11" break="no"/>kku muṉpu tevatāṉa <hi rend="grantha">brahmade</hi>yamāy vantu piṉpu tiṟappile yiṟuttu varukaiyil yāṇṭu <num value="22">2 <g type="numeral">10</g> 2</num>- vataṉetirāmāṇṭu
+<lb n="12"/>mutal taṅkaḷūr nāṉkellaikkuḷḷu Iṟukkuṅ kācu kaṭamaiyu neṟkaṭamaiyu mittirumalai mel niṉ ṟaruḷiṉa <hi rend="grantha">para</hi>ma<hi rend="grantha">svā</hi>mikaḷu
+<lb n="13" break="no"/>kkut tiruppaṭimāṟṟuḷḷiṭṭu veṇṭu nivantaṅkaḷ cella Ikkoyilil <hi rend="grantha">śrī</hi>vai<hi rend="grantha">ṣṇa</hi>var vaca mum <hi rend="grantha">śrī</hi>paṇṭārikaḷ vacamu mi
+<lb n="14" break="no"/>ṟuttu veṇṭum palapaṭi nivantaṅkaḷ cellappaṇṇi Ippaṭi ca<hi rend="grantha">ndrādi</hi>t<hi rend="grantha">tya</hi>vaṟ celva tākak kalliluñ cempilum ve
+<lb n="15" break="no"/>ṭṭikkoḷka <g type="ddanda">.</g><g type="dashLong">.</g>ivai miḻalaik kūṟṟattuk kiḻkūṟṟuk koḻuvaṉūruṭaiyā ṉarayaṉ comaṉāṉa miṉavata<unclear>ra</unclear>ya ṉeḻuttu <g type="ddanda">.</g><g type="dashLong">.</g>y<unclear>ā</unclear>
+<lb n="16" break="no"/>ṇṭu <num value="22">2 <g type="numeral">10</g> 2</num><g type="dash"/>vatu nāḷ <num value="540">5 <g type="numeral">100</g> 4 <g type="numeral">10</g></num> ṉāl <hi rend="grantha">prasāda</hi>ñ ceytaruḷuttu <g type="ddanda">.</g><g type="dashLong">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 14.257 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamanathaAyyar1962_01"/>
+			<citedRange unit="page">158-159</citedRange>
+			<citedRange unit="item">257</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

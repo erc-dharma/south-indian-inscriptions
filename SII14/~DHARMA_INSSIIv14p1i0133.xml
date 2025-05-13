@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 14.133: original edition by A. S. Ramanatha Ayyar</title>
+				<title type="alt">No. 133. (A.R. No. 108 of 1905.) MAṆṆĀRKŌYIL, AMBASAMUDRAM TALUK, TIRUNELVELI DISTRICT. ON THE NORTH WALL OF THE GŌPĀLASVĀMIN TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv14p1i0133</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This fragmentary<note n="69-2">The record is built in at the beginning of the lines.</note>inscription mentions the <hi rend="bold">6th year</hi> of the reign of a king whose name, which is lost in the missing portion, may be <hi rend="bold">Sundara-Chōḷa-Pāṇḍya.</hi> It is noteworthy that a seat in the <hi rend="italic">kūḍam</hi> or hall of the palace was called <hi rend="italic">Rājēndraśōḻa-KArāṉai-viḻupparaiyaṉ</hi>, evidently after the name of the officer, ‘Tirumandira-ōlaināyakam’ of the same name, who also figures in this record; and that the king was seated on this seat while issuing the order, which in its entirety may have some reference to the gift of the taxes on the lands in a village called Māṉābharaṇa-chaturvēdimaṅgalam, which had been endowed as a <hi rend="italic">dēvadāna</hi> to the temple of Rājēndraśōḻaviṇṇagar-Dēvar. The revenue officers mentioned here figure in other records of this viceroy.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+
+<p>
+<lb n="1"/><hi rend="grantha"> <gap reason="lost" quantity="5" unit="character"/> jentra</hi>coḻa viṇṇakar <hi rend="grantha">de</hi>varkku yāṇṭu Āṟāvatu pacāṉa mutal
+<lb n="2"/> <gap reason="lost" quantity="5" unit="character"/> yiliṉ Uḷḷāl kūṭattu rā<hi rend="grantha">jentra</hi>coḻakārāṉai viḻupparaiyaṉil Eḻu
+<lb n="3" break="no"/> <gap reason="lost" quantity="5" unit="character"/> vatu pacāṉamutal tevatāṉamāy Imāṉāparaṇac caruppetimaṅkalam kāṇikkaṭaṉ nellu
+<lb n="4" break="no"/> <gap reason="lost" quantity="5" unit="character"/> <hi rend="grantha">ha</hi>vāḷakulakālaṉ Eḻuttiṉālum tirumantiravolainācakam rā<hi rend="grantha">jentra</hi>coḻakārāṉai viḻupparaiya
+<lb n="5" break="no"/> <gap reason="lost" quantity="9" unit="character"/> viṭai Atikārikaḷ parakecari muven=taveḷararum(k)koṭṭaiyūruṭaiyārum Evap puravari tiṇaikkaḷa
+<lb n="6" break="no"/> <gap reason="lost" quantity="5" unit="character"/> raṉum paṭṭolai kaṇavati pūvaṉukkāy paṭṭolai Eḻutiṉāṉ kiḻattaravu cāt<unclear>tū</unclear> <supplied reason="omitted">r</supplied> rāmaṉ cūṟṟiyum Iruntu
+<lb n="7"/> <gap reason="lost" quantity="6" unit="character"/> kartevarkku yāṇṭu Āṟāvatu pacāṉa mutal tevatāṉamāy Imāṉāparaṇaccaruppeti maṅkalam karaṇi
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 14.133 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamanathaAyyar1962_01"/>
+			<citedRange unit="page">69</citedRange>
+			<citedRange unit="item">133</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

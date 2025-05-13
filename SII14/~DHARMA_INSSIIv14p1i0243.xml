@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 14.243: original edition by A. S. Ramanatha Ayyar</title>
+				<title type="alt">No. 243. (A.R. No. 39 of 1929.) ŚIVAPURI, TIRUPPATTUR TALUK, RAMANATHAPURAM DISTRICT. ON THE SOUTH WALL OF THE SECOND prākāra IN THE SVAYAMPRAKĀŚA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv14p1i0243</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This record of the <hi rend="bold">18th year</hi> relates to the founding of an <hi rend="italic">agaram</hi> called Śeyyāmaṅgalam with the new name of Ambalattāḍi-chaturvēdimaṅgalam, by Kaṇḍan-Śundaṉ <hi rend="italic">alias</hi> Duvarāpativēḷāṉ, for the merit of Śundan-Kaṇḍan <hi rend="italic">alias</hi> Duvarāpativēḷāṉ, who was presumably his father. The lands in the village were divided into twenty shares and granted to 20 <hi rend="italic">brāhmaṇas</hi> who colonised therein. A tax of one <hi rend="italic">diramam</hi> per <hi rend="italic">mā</hi> of cultivated land, and no other tax was ordered to be levied on these colonies. The document was caused to be engraved in the temple by Sundaṉ Pagaiveṉṟa-Kaṇḍaṉ <hi rend="italic">alias</hi> Duvarāpativēlāṉ. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tirumaṭantaiyum <hi rend="grantha">ja</hi>yamaṭantaiyun tiruppuyaṅkaḷi liṉitiruppa Irunilamum perumai Eyta Eṇṭicaiyuṅ kuṭai niḻaṟṟa maṉṉarellām vantiṟaiñca varumarapil maṇimuṭicūṭi teṉkumariyum vaṭakaṅkaiyun tiraikkaṭale Ellaiyākap pārmuḻutuṅ kayalā<unclear>ṇai</unclear>
+<lb n="2" break="no"/>parantu ceṅkol Uṭaṉ vaḷara maṉṉiya vira<hi rend="grantha">śiṅṅāśa</hi>ṉattu Ulakamuḻutuṭaiyāḷoṭum viṟṟirun taruḷiya māmutal matikkulam viḷakkiya komutaṟ koccaṭaiyapaṟmarāṉa tiri<hi rend="grantha">bhu</hi>vaṉac cakkaravattikaḷ <hi rend="grantha">śrī</hi>vallava<hi rend="grantha">de</hi>vaṟku yāṇṭu patiṉeṭṭāvatu cittirai<supplied reason="omitted">t</supplied> tiṅkaḷ pāṇṭi<unclear>maṇ</unclear>
+<lb n="3" break="no"/>ṭalattuk keraḷaciṅkavaḷanāṭṭu Akara <hi rend="grantha">brahmade</hi>yam ceyyāmaṅkalamāṉa Ampalattāmac catuppetimaṅkala meṉṉum perāl Irupatu <hi rend="grantha">brāhma</hi>ṇaṟku kiḻellai muttāṉ kuḷattu melellai<supplied reason="omitted">k</supplied>ku meṟkum teṉkiḻellai teṟṟiyūr kuḷattuḷvāy periya Ālukku vaṭakkum teṉnellai kāṭṭuruṇṇikku vaṭak<unclear>kum</unclear>
+<lb n="4"/>teṉmelellai malaiyāḻvāṉ t<unclear>o</unclear>ṭṭa makappaṭa mele<supplied reason="omitted">l</supplied>lai tirunāṭuṭaiyāṉ toṭṭattukkum vaṭavāyūruṇikku teṟkum Itaṉ vaṭakarai koṇṭicervvai macciṟup <unclear>pā</unclear>ḷ mel vara<supplied reason="omitted">p</supplied>pu muṭṭa Avvarappukku kiḷakkum ciṟucceyyāmaṅkalattu teṉnel laikku teṟkum Itaṉ kiḻellaikku kiḻakku<unclear>m I</unclear>
+<lb n="5" break="no"/>taṉ vaṭavellaikku vaṭakkum Ikkuḷattu <unclear>va</unclear>ṭakaṭai koṇṭicervai Amartāṅki poyaṉ Ūruṇṇikku kiḻakkum ciṟṟuccatturukālaṉ vacakkal nirkovaiyāka vaṭa Ellai Añcāta kaṇṭaṉ Ūruṇṇikku teṟkum vaṭakiḻellai Aruviyūr ciṟukuḻattu melellaikku meṟkkum Iccuṟṟu muṟṟum Uḷpaṭu
+<lb n="6" break="no"/>kuṭikāṭukaḷum Uṇṇila moḻiviṉṟi tānā<hi rend="grantha">dhama</hi>navini<hi rend="grantha"><supplied reason="omitted">ma</supplied></hi>yaṅkaḷuk kurittāmaṇṇam Irupatu kūṟṟolaiyuṅ kuṭuttu Akkūṟe <hi rend="grantha">dhammadā</hi>nam paṇṇikkuṭuttu Itukku <hi rend="grantha">rakṣārttha</hi> māka Innāṭṭu <hi rend="grantha">brahmade</hi>yam <hi rend="grantha">nṛpa</hi>cekaraccatuppetimaṅkalattu makā<hi rend="grantha">de</hi>var tiruttāṉ toṉṟī<hi rend="grantha">śva</hi>rattu taruṇe<hi rend="grantha">nduśekhara</hi>r ko
+<lb n="7" break="no"/>vilil Āṇṭā<supplied reason="omitted">r</supplied>kaḷum palamaṇṭalattu paṉmā<hi rend="grantha">heśva</hi>rarum paṭṭu keṭṭum Iṭṭu Aṭṭiyum I<supplied reason="omitted">v</supplied>vakarattukku Aḻivuceyvārai kāttum kā<supplied reason="omitted">p</supplied>piccum Ivakaram viḷai nilattukku viḷaiñca nilattāl kol Aruḷnitiyāl Orumā<supplied reason="omitted">ca</supplied> ceykku Āṭṭoru tiramam Ittevaṟkku <hi rend="grantha">śrī</hi>
+<lb n="8" break="no"/>paṇṭāra<supplied reason="omitted">ta</supplied>te Oṭukkiviccu<supplied reason="omitted">k</supplied> koṇṭu I<hi rend="grantha">brāhm(ā)</hi>ṇarai maṟṟepperpaṭṭutu koḷḷa<supplied reason="omitted">p</supplied> peṟātārākavum Ippaṭi cuntaṉ kaṇṭaṉāṉa tuvarāpati veḷāṉ peyarāl Avaṉukku naṉṟāka kaṇṭaṉ cuntaṉāṉa tu<supplied reason="omitted">va</supplied>rāpati veḷāṉ ceyta <hi rend="grantha">dhamma</hi>ttai Ivvirupatu <hi rend="grantha">brāhma</hi>ṇar <hi rend="grantha">sa</hi>mma
+<lb n="9" break="no"/><hi rend="grantha">da</hi> ttoṭum Ikkoyilile Ippaṭi kalveṭṭi kuṭutta cuttaṉ<note n="149-1">Read cuntaṉ.</note>pakaiveṉṟa kaṇṭaṉāṉa tuvarāpati veḷāneṉ <g type="ddanda">.</g><g type="dashLong">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 14.243 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamanathaAyyar1962_01"/>
+			<citedRange unit="page">148-149</citedRange>
+			<citedRange unit="item">243</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

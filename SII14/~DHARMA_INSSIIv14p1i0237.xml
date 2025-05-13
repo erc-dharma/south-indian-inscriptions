@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 14.237: original edition by A. S. Ramanatha Ayyar</title>
+				<title type="alt">No. 237. (A.R. No. 439 of 1929-30.) ĀTTŪR, TIRUCHCHENDUR TALUK, TIRUNELVELI DISTRICT. ON A PILLAR IN THE SOUTH VERANDAH OF THE FIRST prākāra IN THE SŌMANĀTHA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv14p1i0237</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This record of <hi rend="bold">Jaṭāvarmaṉ Śrīvallabha</hi>, which commences with the usual historical introduction is dated in the 16th year of the king. It is much damaged; but from the legible portions it appears to register some gift of land to a certain Sōmaṉ who is described as a <hi rend="italic">Śāntikkūttaṉ</hi> or one who enacted <hi rend="italic">Śāntikkūttus</hi>, a variety of dance and stage-play. This <hi rend="italic">kūttu</hi> is defined in the commentary on the <hi rend="italic">Śiloppadikāram</hi>, the early Tamil epic.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+
+<p>
+<lb n="1"/><hi rend="grantha">śrī</hi> <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g> <hi rend="grantha">śrī</hi> tirumaṭa<note n="143-1">The record is much damaged.</note>
+<lb n="2" break="no"/>ntaiyuñ ceyamaṭantaiyum tiruppuyaṅkaḷi liṉitiruppa <unclear>Iru</unclear>nilamum pe<supplied reason="omitted">ru</supplied>mai
+<lb n="3"/>(perumai) <unclear>Eyata</unclear> Eṇṭicaiyuṅ koṭai ni
+<lb n="4" break="no"/>ḻaṟṟa maṉṉavacellāma vantiṟaiñca marapilvanta maṇimuṭi
+<lb n="5"/><unclear>cūṭi</unclear> teṉkumariyum vaṭakeṅkaiyum <unclear>tirai</unclear>k kaṭale E
+<lb n="6" break="no"/>llaiyāka pārmuḻutuṅ kayalāṇai parantu ceṅkol
+<lb n="7"/>Uṭaṉ vaḻara maṉṉiya vira<hi rend="grantha">siṁ</hi>[ <hi rend="grantha">hāsa</hi>ṉattu Ulakamuḻutu]
+<lb n="8" break="no"/>ṭaiyāroṭum viṟṟiruntaruḷiya māmutal matikkulam
+<lb n="9"/>viḻakkiya komutal koccaṭai<unclear>yapaṉmarā</unclear>ṉa tirupu<unclear>va</unclear>ṉaccakkarava
+<lb n="10" break="no"/>ttikaḷ [<hi rend="grantha">śrī</hi>vallavate] <gap reason="lost" quantity="4" unit="character"/> Aḻakiyapāṇṭiyaṉ kūṭa
+<lb n="11" break="no"/>ttu paḷḷi <gap reason="lost" quantity="6" unit="character"/> l <gap reason="lost" quantity="4" unit="character"/> Eḻuntaruḷi Iruntu kuṭanāṭṭu <unclear>Ā</unclear>
+<lb n="12" break="no"/><unclear>ṟṟūr</unclear> centamaṅkalattu <hi rend="grantha">śrī</hi>comanātatevar koyil civappirāma
+<lb n="13" break="no"/>ṇa<unclear>rkku</unclear>m <hi rend="grantha">śrī</hi>māye<hi rend="grantha">śvara</hi> kaṇkāṇi ceyvārkkum tiruvāymoḻiṉta<unclear>ruḷiṉa</unclear>
+<lb n="14" break="no"/>paṭi <supplied reason="undefined"><g type="danda">.</g></supplied> yittevar <gap reason="lost" quantity="4" unit="character"/> raruḷiya <gap reason="lost" quantity="4" unit="character"/> ccāṟai vaṭakarai nilam kāṇiyum
+<lb n="15"/> <gap reason="lost" quantity="3" unit="character"/> tta paḻantevara <gap reason="lost" quantity="1" unit="character"/> <unclear>kāṇiyāy piḷḷaikku</unclear> <gap reason="lost" quantity="3" unit="character"/> ye Iraṇṭu <unclear>ni</unclear>lam <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="16"/> <gap reason="lost" quantity="7" unit="character"/> kkai kolukkuk
+<lb n="17" break="no"/> <gap reason="lost" quantity="3" unit="character"/> kkūttāṭum pāracivaṉ cānti<supplied reason="omitted">k</supplied>kūttaṉ comaṉ <gap reason="lost" quantity="4" unit="character"/> kūtta <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="18"/>ṉāṉa pāṇṭiya<unclear>n</unclear> nilam ti <gap reason="lost" quantity="3" unit="character"/> tukku kūttum Ikkāṇiyā
+<lb n="19" break="no"/>ka Ittevar kuṭuttu muṉpu Aṉupovittu vantamaiyil Iva
+<lb n="20" break="no"/>nukkum Ivaṉ vaṅ<hi rend="grantha">śa</hi>ttāṟkum cantirātittavar patiṉnāṟā
+<lb n="21" break="no"/>vatu mutal Aṉupovikkap peṟuvānāka nāmum Ivaṉukku kuṭu
+<lb n="22" break="no"/>ttom <supplied reason="undefined"><g type="danda">.</g></supplied> kallu veṭṭik kuṭukka veṉṟu tiruvāymoḻintaruḷa Ip
+<lb n="23" break="no"/>paṭikkivai <gap reason="lost" quantity="3" unit="character"/> Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭik
+<lb n="24" break="no"/>kivai <gap reason="lost" quantity="3" unit="character"/> nāḷ <hi rend="grantha"><num value="50">5 <g type="numeral">10</g></num> <gap reason="lost" quantity="3" unit="character"/> </hi>
+<lb n="25"/>Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭi
+<lb n="26" break="no"/>k kivai vaṉnāṭu
+<lb n="27"/>ṭaiyāṉ Eḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 14.237 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamanathaAyyar1962_01"/>
+			<citedRange unit="page">143</citedRange>
+			<citedRange unit="item">237</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 14.160: original edition by A. S. Ramanatha Ayyar</title>
+				<title type="alt">No. 160. (A.R. No. 327 of 1916.) TIRUVĀLĪŚVARAM, AMBASAMUDRAM TALUK, TIRUNELVELI DISTRICT. ON THE NORTH WALL OF THE VĀLĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv14p1i0160</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This record is connected with No. 161 below to which it is complementary, and was issued while <hi rend="bold">Sundara-Chōḷapāṇḍya</hi> was seated in the western pavilion in the <hi rend="italic">āṭṭattuveḷi</hi> in the palace precincts at Rājēndraśōḻapuram. It relates to a gift of 5 <hi rend="italic">vēli</hi> of land by purchase from the <hi rend="italic">mahāsabhā</hi> of Rājarāja-chaturvēdimaṅgalam for the expenses of conducting festivals in the temple of Tiruvālīśvaram-uḍaiyār and for feeding 25 <hi rend="italic">brāhmaṇas</hi> and for the reading of the <hi rend="italic">Śivadharma.</hi> The income from this land was ordered to be utilised for the above-mentioned items of charity by the king's uncle <hi rend="italic">(ammāṉ)</hi>, as already stated in the other record, from the 16th year of Sundara-Śōḻapāṇḍya's reign.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> muḷḷināṭṭu <hi rend="grantha">bra</hi>
+<lb n="2" break="no"/><hi rend="grantha">hma</hi>teyam <hi rend="grantha">rājarāja</hi>
+<lb n="3" break="no"/><hi rend="grantha">ca</hi>tu<hi rend="grantha">rve</hi>timaṅkalat
+<lb n="4" break="no"/>tu tiruvāli<hi rend="grantha">śva</hi>ramuṭai
+<lb n="5" break="no"/>yār <hi rend="grantha"><unclear>mahā</unclear>de</hi>vaṟ
+<lb n="6" break="no"/>kut tevatāṉamāka vari
+<lb n="7" break="no"/>yiliṭṭa k<unclear>eḻ</unclear>vi <g type="ddanda">.</g> 2
+<lb n="8"/>yāṇṭu <gap reason="lost" quantity="2" unit="character"/> Eṉ 2
+<lb n="9"/>Uṭaiyār <hi rend="grantha">śrīsunda</hi>raco
+<lb n="10" break="no"/>ḻapāṇṭiya<hi rend="grantha">de</hi>var rā<hi rend="grantha">je</hi>
+<lb n="11" break="no"/>n<hi rend="grantha">tra</hi> coḻapurattuk koyili
+<lb n="12" break="no"/>ṉuḷḷāl Āṭṭattuveḷi me
+<lb n="13" break="no"/>laimaṇṭapat teḻuntaruḷi Iru
+<lb n="14" break="no"/>ntu rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>p pāṇṭināṭṭu
+<lb n="15"/>muṭikoṇṭacoḻavaḷanāṭ
+<lb n="16" break="no"/>ṭu muḷḷināṭṭu <hi rend="grantha">brahma</hi>teyam
+<lb n="17"/>rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>c <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="18"/><hi rend="grantha">sabh</hi>aiyāṟku kā<unclear>cu ku</unclear>ṭuttu vilai
+<lb n="19" break="no"/>kkukkoṇṭa Ivvūr nilattil
+<lb n="20"/>kākkalūr melellai peruṅ
+<lb n="21" break="no"/>kāliṉ kiḻkaraikkuk kiḻakkum
+<lb n="22"/>vaṭavellai civācutevavā<supplied reason="omitted">ykkā</supplied>
+<lb n="23" break="no"/>lukku vaṭakkum <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="24"/>ṟu vaṭavācaṟutikkut teṟkum ki
+<lb n="25" break="no"/>ḻellai kaṭiñai Āṟṟukku
+<lb n="26"/>meṟkum teṉṉellai civā
+<lb n="27" break="no"/>cutevavāykkālukku vaṭakku
+<lb n="28" break="no"/>m Āka Ivvicaitta perunāṉ
+<lb n="29" break="no"/>kellaiyuḷ Akappaṭṭa nilam
+<lb n="30"/>Aiveliyum <hi rend="grantha">brahma</hi>teyamāy
+<lb n="31"/>varukiṉṟapaṭi yāṇṭu <num value="16"><g type="numeral">10</g> 6</num>- Ā
+<lb n="32" break="no"/>vatumutal tavirntu veḷḷā
+<lb n="33" break="no"/>ṉ vakaiyil mutalākki I<unclear>nila</unclear>
+<lb n="34" break="no"/>m Ivvūrt tiruvāli
+<lb n="35" break="no"/><hi rend="grantha">śva</hi>ramuṭaiya <hi rend="grantha">ma</hi>
+<lb n="36" break="no"/><hi rend="grantha">hāde</hi>vaṟkkut tiruvi
+<lb n="37" break="no"/>ḻāp po(t)tavum nittam
+<lb n="38"/>Irupattaivar <hi rend="grantha">bra</hi>
+<lb n="39" break="no"/>ra<hi rend="grantha">hma</hi>ṇar Uṇṇavum <hi rend="grantha">śi</hi>va<hi rend="grantha">dha</hi>
+<lb n="40" break="no"/><hi rend="grantha">rmma</hi>m vācippāṉ Oruvaṉuk
+<lb n="41" break="no"/>kum maṟṟum Ittevaṟku
+<lb n="42"/>veṇṭum nivantaṅkaḷukku I
+<lb n="43" break="no"/>ṟuppatākak kuṭukkaveṉṟu
+<lb n="44"/>Ammāṉ Aruḷic ceytamai
+<lb n="45" break="no"/>yil Innilattāl Innāṭu
+<lb n="46"/>veḷḷāṉ vakai varicaikki
+<lb n="47" break="no"/>ḻ Iṟaikkaṭaṉ Aiññāḻi
+<lb n="48" break="no"/>nārāyattāl nellu Aṟu
+<lb n="49" break="no"/>nūṟṟu nāṟppattiru kalaṉe
+<lb n="50"/>Aṟukuṟuṇi yirunāḻimuḻak 
+<lb n="51" break="no"/>key Iruceviṭaraiyum
+<lb n="52"/>U<unclear>ruvukol</unclear> nilaṉ kācu mup
+<lb n="53" break="no"/>pattaiñce kāle mukk<unclear>ā</unclear>
+<lb n="54" break="no"/>ṇiyum kāṭcierutu kācu Ai
+<lb n="55" break="no"/>ñcum Iṟai kaṭṭi Ivviṟ<hi rend="grantha">ai</hi>
+<lb n="56"/>Ivvūr tiruvarali Ī<hi rend="grantha">śva</hi>ramuṭaiya <hi rend="grantha">mahā</hi><unclear>teva</unclear>
+<lb n="57" break="no"/>ṟkkut tiruviḻāp po(t)tavum Ittevar keramili
+<lb n="58" break="no"/>l nittam Irupattaivar <hi rend="grantha">brāhma</hi>ṇaruṇṇavum <hi rend="grantha">śi</hi>vataṉma
+<lb n="59" break="no"/>m vācippāṉ Oruvaṉukkum maṟṟum Ittevaṟku veṇṭu
+<lb n="60" break="no"/>m nivan=taṅkaḷukku yāṇṭu <num value="16"><g type="numeral">10</g> 6</num><g type="dash"/>Āvatu mutal Iṟu<unclear>p</unclear>
+<lb n="61" break="no"/>patākavum Innilattāl vanta Iṟai <hi rend="grantha">rājarāja</hi>ccaruppe
+<lb n="62" break="no"/>timaṅkalattuc curukkavum Innila<unclear>m</unclear> muṉ piyar tavirntu
+<lb n="63"/> <gap reason="lost" quantity="11" unit="character"/> llū<unclear>r</unclear> Eṉṉum <gap reason="lost" quantity="3" unit="character"/> mmākavum <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="64"/>riyiliṭṭuk kuṭukkat tiruvāymoḻintaruḷiṉāreṉṟu tirumanti
+<lb n="65" break="no"/>raolai coḻamaṇṭalattu nittavinerata vaḷanāṭṭu Āvūṟ
+<lb n="66" break="no"/>k kūṟṟattu Ālattūr Uṭaiyāṉ kuvāvaṉ <hi rend="grantha">ja</hi>yaṅkoṇ
+<lb n="67" break="no"/>ṭacoḻaṉ Eḻuttiṉālum tirumantira Olaināyakam rā<hi rend="grantha">je</hi>nti
+<lb n="68" break="no"/>racoḻa Atimurkkac ceṅkiraiyum coḻamaṇṭalattu rā<hi rend="grantha">je</hi>
+<lb n="69" break="no"/>ntiraciṅkavaḷanāṭṭu Iruṅkoḷappāṭit taṉiyūr muṭiko
+<lb n="70" break="no"/>ṇṭacoḻac caruppetimaṅkalattu mātavaṉ maṟavaṭikaḷ maturā
+<lb n="71" break="no"/>ntakaṉāṉa coḻapāṇṭiya <hi rend="grantha">brahma</hi>mārāyaṉum Arumoḻitevavaḷanā
+<lb n="72" break="no"/>ṭṭut takkaḷūr nāṭṭu <hi rend="grantha">brahma</hi>teyam Attikocamaṅkalattu Arumo
+<lb n="73" break="no"/>ḻi Aṉavaratacuntaraṉāṉa vikkiramapāṇṭiya <hi rend="grantha">brahmā</hi>rāyaṉum Op
+<lb n="74" break="no"/>piṉālum pukunta keḻvippaṭiye variyiliṭṭukkoḷka veṉṟu A
+<lb n="75" break="no"/>tikārikaḷ coḻamaṇṭalattu <hi rend="grantha">kṣa</hi>ttiriya<hi rend="grantha">śikhā</hi>maṇivaḷanāṭṭu veḷā
+<lb n="76" break="no"/>nāṭṭu karuṅkūṟṟanallūr kiḻavar kollai puttaṉārāṉa Uttama
+<lb n="77" break="no"/>coḻappallavar<hi rend="grantha">ai</hi>yarum nittavinotavaḷanāṭṭu pa <gap reason="lost" quantity="7" unit="character"/> ttu co
+<lb n="78" break="no"/>ḻaviccaratira nallūruṭaiyā<unclear>ṉ</unclear> centaṉ cūṟṟiyārāṉa <gap reason="lost" quantity="5" unit="character"/> ṉ cikā
+<lb n="79" break="no"/>maṇimuventaveḷārum viṭaiyil Atikārikaḷ rācentiraciṅkavaḷa
+<lb n="80" break="no"/>nāṭṭut tiruvintaḷur nāṭṭu maturāntaka nallūr Uṭaiyā <gap reason="lost" quantity="5" unit="character"/> kaṭavaṉ
+<lb n="81"/>Eṟintoṭiyārāṉa parakecarimuventaveḷārum Arumoḻitevavaḷanā
+<lb n="82" break="no"/>ṭṭu vaṇṭāḻai veḷurk kūṟṟattu paṉaṅkāṭikuṭi Uṭai <gap reason="lost" quantity="5" unit="character"/> ṭaiyāṉ
+<lb n="83"/>puttaṉārāṉa miṉavaṉmuventaveḷararum Arumoḻi<unclear>tevavaḷa</unclear>nāṭṭu
+<lb n="84"/><unclear>ne</unclear>ṉmali nāṭṭu <unclear>mi</unclear>ṉavanallūruṭaiyār puṟampiyaṉ paḷḷikoṇṭāṉā
+<lb n="85" break="no"/>rāṉa Aḻakiya pāṇṭiya muventa veḷārum nittavinota vaḷanāṭṭup pāmpuṇi<unclear>k</unclear>
+<lb n="86"/>kūṟṟattu vaḷavanallūr Uṭaiyār nilaṉ
+<lb n="87"/>kuṭitāṅkiyārāṉa vikkiramaciṅkamuventaveḷā
+<lb n="88" break="no"/>ṉum rā<hi rend="grantha">je</hi>ntiraciṅkavaḷanāṭṭut tiruvintaḷūr nāṭṭuk kaṭuvaṅku
+<lb n="89" break="no"/>ṭaiyār maṉṟaṉ cuntaraṉārāṉa teṉṉavaṉmuve
+<lb n="90" break="no"/>ntaveḷārum naṭuvirukkum <hi rend="grantha">kṣa</hi>ttiriya<hi rend="grantha">śi</hi>kāmaṇiva
+<lb n="91" break="no"/><unclear>ḷanā</unclear>ṭṭu veḷānāṭṭu rā<hi rend="grantha">je</hi>ntiracoḻac caruppetimaṅka
+<lb n="92" break="no"/><unclear>lattuc</unclear> ca<unclear>r</unclear>ṇṭili<supplied reason="omitted">ya</supplied> kottirattu kāttiyarayaṉa cūttirattu
+<lb n="93"/>Uppampirālac caṅkaraṉ colaippirāṉ paṭṭaccomāciyā
+<lb n="94" break="no"/>rum <gap reason="lost" quantity="5" unit="character"/> puravuvari tiṇaikkaḷattukkuk kaṇkāṇi rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>ppā
+<lb n="95" break="no"/> <gap reason="lost" quantity="4" unit="character"/> rā<hi rend="grantha">je</hi>ntira coḻavaḷanāṭṭuk kiḻkuṇṭāṟṟuc coḻa
+<lb n="96" break="no"/>cikāmaṇi nallūr Uṭaiyāṉ cāttaṉ Eṭṭiyum pura<unclear>vu</unclear>vari ti
+<lb n="97"/>ṇaikkaḷam maturāntaka vaḷanāṭṭu Āṇmā nāṭṭu maṇṇai<unclear>kkaṭanta</unclear> coḻa
+<lb n="98"/>nallūr Uṭaiyāṉ virapāṇṭiyaṉ colaiyum rā<hi rend="grantha">je</hi>ntira coḻavaḷanāṭṭu
+<lb n="99"/>miḻalaikkūṟṟattakkiḻkūṟṟuttamacoḻanallūr Uṭaiyāṉ kaṇṭaṉ
+<lb n="100"/>Araṅkaṉum maturāntakavaḷanāṭṭu rā<hi rend="grantha">je</hi>ntira coḻakkuḷakkiḻ kuṟucci U 
+<lb n="101"/>ṭaiyāṉ kaṇavati pūvaṉum rā<hi rend="grantha">je</hi>ntiracoḻavaḷanāṭṭuk kaḷavaḻinā
+<lb n="102" break="no"/>ṭṭu kālāṅkikopanallūr Uṭaiyāṉ kiḻavaṉ <gap reason="lost" quantity="2" unit="character"/> ṉum va
+<lb n="103" break="no"/>ripperattakam coḻamaṇṭalattu Arumoḻiteva vaḷanāṭṭu Āṟvala
+<lb n="104" break="no"/>kkūṟṟattu Uttaraṅkuṭaiyāṉ koḻumāṉ piccaṉum rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>ppāṇ
+<lb n="105" break="no"/>ṭināṭṭu rā<hi rend="grantha">je</hi>ntiracoḻavaḷanāṭṭu miḻalaik kūṟṟattu naṭuviṟkūṟ
+<lb n="106" break="no"/>ṟu <hi rend="grantha">śrī</hi>parāntakanallūrk kaṭṭikuṟicci Uṭaiyāṉ parame<hi rend="grantha">śva</hi>raṉ ka
+<lb n="107" break="no"/>ṇṭaṉum mukaveṭṭi matu<unclear>rān</unclear>taka vaḷanāṭṭu Iruñcoṇāṭṭut tūṟ
+<lb n="108" break="no"/>ṟukkuṭaiyaraṉ pakaiyaṉ <unclear>catturu</unclear> kālaṉum rā<hi rend="grantha">je</hi>ntira coḻavaḷanāṭ
+<lb n="109" break="no"/>ṭu miḻalaik kūṟṟattuk kiḻkūṟṟu rā<hi rend="grantha">ja</hi>kecarinallūr Uṭaiyāṉ
+<lb n="110" break="no"/> <gap reason="lost" quantity="11" unit="character"/> nallūr Uṭai
+<lb n="111" break="no"/>yāṉ paṟpaṉāpaṉ kuvalayacantiraṉum coḻamaṇṭalattup pāṇṭikulā
+<lb n="112" break="no"/>caṉivaḷanāṭṭuk kiḷiyūrnāṭṭuc curaikkuṭaiyāṉ nakkaṉ viraiyāccilaiyu
+<lb n="113" break="no"/>m varippottakak kaṇakku rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>ppāṇṭināṭṭu maturāntaka vaḷanāṭṭup pū
+<lb n="114" break="no"/>ṅkāṉa nāṭṭuk karai Irukkai naraloka<hi rend="grantha">sunda</hi>ranallūr Uṭaiyāṉ centaṉ cātta<note n="88-1">The record stops here.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 14.160 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamanathaAyyar1962_01"/>
+			<citedRange unit="page">85-88</citedRange>
+			<citedRange unit="item">160</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

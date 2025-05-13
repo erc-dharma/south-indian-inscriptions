@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 14.254: original edition by A. S. Ramanatha Ayyar</title>
+				<title type="alt">No. 254. (A.R. No. 322 of 1908.) KURUVITTUṞAI, NILAKKOTTAI TALUK, MADURAI DISTRICT. ON THE NORTH WALL OF THE CHITRARATHA-VALLABHA-PERUMĀḶ TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv14p1i0254</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This record of <hi rend="bold">Jaṭāvarmaṉ Śrīvallabha</hi> dated on the <hi rend="bold">200th day of the 22nd year</hi> of his reign purports to have been issued while the king was seated on the <hi rend="italic">paḷḷikkaṭṭil</hi> called <hi rend="italic">Pāṇḍiyarāyaṉ</hi> in the theatre (<hi rend="italic">nāṭakaśālai</hi>) within the palace at Madurai. It registers the remission of taxes granted by him in 5 <hi rend="italic">vēli</hi> of land for worship, etc., to god Tiruchchakkarattāḻvār at Śōḷāntaka-chaturvēdimaṅgalam in Pāgaṉūrkūṟṟam.</p>						
+
+						<p>The royal order issued under the name of Kōṉēriṉmaikoṇḍāṉ is engraved in continuation of this document and both the records are signed by Parākramapāṇḍya-Uttaramantri.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+
+<!--<h4>(A)</h4>-->
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tirumaṭantaiyuñ <hi rend="grantha">ja</hi>yamaṭantaiyum tiruppuyaṅkaḷil Iṉitiruppa Irunilamum perumaiyeyta Eṇṭicaiyum kuṭainiḻaṟṟa maṉn(ā)varellā<supplied reason="omitted">m</supplied> vantiṟaiñca maravile <unclear>varu</unclear>maṇimuṭi cūṭi teṉkumari mutalāy<unclear>t ti</unclear>raikkaṭale Ellaiyākap pārmuḻutuṅ kayalāṇai parantu ceṅkoluṭan vaḷara maṉṉiya vira<hi rend="grantha">siṅhāsa</hi>ṉattu Ulakamuḻutu
+<lb n="2" break="no"/>ṭaiyā<unclear>ruṭa</unclear>ṉ viṟṟiruntaruḷi māmutal matikkulam vaḷarak komutal koccaṭaiyapaṉ marāṉa <hi rend="grantha">tribhu</hi>vaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>va<hi rend="grantha">lla</hi>va<hi rend="grantha">de</hi>var māṭakkuḷakkiḻ maturaik koyilil Uḷḷālai nāṭakacālaiyil paḷḷikkaṭṭil pāṇṭiyarāyaṉil Eḻuntaruḷi Iruntu Irupattiraṇṭāvatu nāḷ Irunūṟṟiṉāl pākaṉūr<supplied reason="omitted">k</supplied> kūṟṟattu coḻāntaka <hi rend="grantha">ca</hi>tu<hi rend="grantha">rvvedi</hi>ma
+<lb n="3" break="no"/>ṅkalattu tiru<supplied reason="omitted">c</supplied>cakkara<supplied reason="omitted">t</supplied>tāḷvār koilil civai<hi rend="grantha">ṣa</hi>var ceyyat tiruvāymoḻin taruḷiṉapaṭi <supplied reason="undefined"><g type="danda">.</g></supplied> munpivvūril tevatāṉam Iṟaiyiliyāy vanta ṉilattil teṉkarai yil muṉpu tiṟanta ṉilam Aiveliyum paḻampaṭiyey Iṟaiyiliyākavum Ivvūril Ivvāḷvār muṉpu tevatāṉa Iṟaiyiliyāy varu
+<lb n="4" break="no"/>kiṟa ṉilamum Ivvāḻvārkkut tiruppaṭimāṟṟukkum Ikkoyil tiruppaṇikkum Uṭalāka Irupattiraṇṭāvatu mutal Antarāyam Uḷpaṭa tevatāṉa Iṟaiiliyākap peṟa veṇummeṉṟu periyān <unclear>m</unclear>aikkuc coṉṉamaiyil Ivvāḻvārkku muṉpu Ivvūril tevatāṉa Iṟaiyiliyāy varukiṟa ṉilattil tiṟanta
+<lb n="5"/>ṉilam Aiveliyum Antarāyam I Āḻvārkkut tiruppaṭimāṟṟukkum tiruppaṇikkum Uṭalā<unclear>ka</unclear> Irupattiraṇṭāvatu mutal Antarāya muḷppaṭat tevatāṉa Iṟaiyiliyāka Iṭṭu Uḷvariyuṅ kāliṅkarāyan Olaiyum tarac connom tāṅkaḷ Ippaṭi kal lilum cempilum veṭṭik koḷka Eṉṟu tiruvā<supplied reason="omitted">y</supplied> moḻintaruḷiṉār <supplied reason="undefined"><g type="danda">.</g></supplied> I
+<lb n="6" break="no"/>vai Aṇṭanāṭṭu perumaṇalūr māṇi tirumalai Uṭaiyāṉāṉa parākkirama pāṇṭiya Uttara maṉtari Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ivai miḻalaik kūṟṟattuk koḻuvaṉūruṭaiyāṉ Araiyaṉ Ampalakkūttaṉ Eḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+<!--<h4>(B)</h4>-->
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> koneriṉmai koṇṭāṉ tiruccakkaratirtta<supplied reason="omitted">t</supplied> t<choice><sic>a</sic><corr>ā</corr></choice>ḻvār koyiliṟ <hi rend="grantha">śrī</hi>vayi<hi rend="grantha">ṣa</hi>ṇa
+<lb n="2" break="no"/>varkku muṉpu Ivvūril tevartāṉa Iṟaiyiliyāy varukiṟa nilattil parākkirama pāṇṭi yaṉ kaṭṭaḷaiyil tiṟanta nilam Aivveliyum Ittevarkku Iṟaiyiliyākappeṟave<unclear>ṇu</unclear> meṉṟum Ittevar Antarāyam tiruppaṭimāṟṟukkum tiruppaṇikkum Uṭalākat tavira veṇumeṉṟu periyā
+<lb n="3" break="no"/>ṉ namakkuc ceraṉṉamai(li)yil muṉpu Ivvūril Iṟaiyiliyāy varukiṟa nilattāl Antarāyamum Ivvāḻvārkkut tiruppaṭimāṟṟuḷḷiṭṭu veṇṭum nitta<unclear>nimantaṅkaḻuk</unclear> kum tiruppaṇikkum Uṭalāka Irupattiraṇṭāvatu mutal Antarāyam Uṭpaṭa Iṟaiyili yākat tantom tāṅkaḷi
+<lb n="4" break="no"/>tu kaikkoṇṭu tiruppaṭimāṟṟu tiruppaṇi cellap paṇṇuka<supplied reason="undefined"><g type="danda">.</g></supplied> yāṇṭu Irupat tiraṇṭāvatu nāḷ(ṉ) Irunūṟṟañaciṉāl <gap reason="lost" quantity="4" unit="character"/> va<unclear>ṉ</unclear>tañ ceytaruḷi <gap reason="lost" quantity="2" unit="character"/> tu Ivai parākkiramapāṇṭiya Uttara mantiri Eḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 14.254 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamanathaAyyar1962_01"/>
+			<citedRange unit="page">156-157</citedRange>
+			<citedRange unit="item">254</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

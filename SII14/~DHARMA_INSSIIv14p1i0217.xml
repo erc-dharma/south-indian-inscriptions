@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 14.217: original edition by A. S. Ramanatha Ayyar</title>
+				<title type="alt">No. 217. (A.R. No. 38 of 1909.) KUṈṈAKKUḌI, TIRUPPATTUR TALUK, RAMANATHAPURAM DISTRICT. ON THE SOUTH PILLAR IN THE ROCK-CUT CAVE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv14p1i0217</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This record dated in the <hi rend="bold">[8]th year</hi> of the king registers a gift of 1 <hi rend="italic">mā</hi> of land by Ghaṭṭi-araśaṉ of Tirukkuṉṟakkuḍi in Tēṉāṟṟuppōkku for a flower garden to the god Tēṉāṟṟu-Nāyakar and another piece of land to god Piḷḷaiyār, presumably in the same temple.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tiruma
+<lb n="2" break="no"/>ṭantaiyum [<hi rend="grantha">ja</hi>yamaṭa*]<hi rend="grantha">nt*</hi>ai
+<lb n="3" break="no"/>yum tiruppuyaṅka
+<lb n="4" break="no"/>ḷi liṉitiruppa<note n="123-1">One line is omitted here by the engraver.</note>peru
+<lb n="5" break="no"/>maiyeyti Eṇ
+<lb n="6" break="no"/>ṭicaiyuṅ kuṭai
+<lb n="7" break="no"/>niḻaṟṟa maṉṉavarka
+<lb n="8" break="no"/>ḷ vantiṟaiñca varu
+<lb n="9" break="no"/>maravil maṇimuṭi cū
+<lb n="10" break="no"/>ṭit teṉkumariyu
+<lb n="11" break="no"/>m vaṭakeṅkai 
+<lb n="12" break="no"/>yum tiraikkaṭale
+<lb n="13"/>Ellaiyāka
+<lb n="14" break="no"/>p pārmuḻutum
+<lb n="15" break="no"/>kayalāṇai paran
+<lb n="16" break="no"/>tu ceṅkoluṭaṉ vaḷara vira<hi rend="grantha">siṅhāsa</hi>na<hi rend="grantha"/>
+<lb n="17" break="no"/>ttu Ulacamuḻutuṭaiyāḷoṭum viṟṟiru
+<lb n="18" break="no"/>ntaruḷiya māmutal matikkulam viḷakkiya ko
+<lb n="19" break="no"/>mutaṟ koccaṭaiyappaṉmarāna <hi rend="grantha">tribhu</hi>vanac
+<lb n="20" break="no"/>cakkaravattikaḷ <hi rend="grantha">śrī</hi>vallava<hi rend="grantha">de</hi>vaṟku yāṇṭu
+<lb n="21" break="no"/><hi rend="grantha"><unclear>8</unclear></hi><g type="dash"/>Āvatu teṉāṟṟuppokkut tirukkuṉṟa
+<lb n="22" break="no"/>kkuṭik kaṭṭi Aracaṉeṉ teṉāṟṟu nāyakaṟku
+<lb n="23"/>tirunantavanam Aviccuṉaik kiḻkaraiyum te
+<lb n="24" break="no"/>ṉkaraiyum ceykaikku viṭṭa nilam tirukku
+<lb n="25" break="no"/>ṉṟakkuṭikkuḷat tuḷavāyp putukkuḷattil puṟa
+<lb n="26" break="no"/>karaiyilum meṟkkaṇṇamaṅkalattil va
+<lb n="27" break="no"/>ṭavayalil taṭi Iraṇṭum Āka nilam Orumāvu
+<lb n="28" break="no"/>m <unclear>piḷḷai</unclear>yārkku māṟaṉ cātta ṉila <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="29"/>ṭikkāṭṭile kāṇicceyum kuṭutteṉ kaṭṭi
+<lb n="30" break="no"/>aracaṉeṉ <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 14.217 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamanathaAyyar1962_01"/>
+			<citedRange unit="page">123-124</citedRange>
+			<citedRange unit="item">217</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

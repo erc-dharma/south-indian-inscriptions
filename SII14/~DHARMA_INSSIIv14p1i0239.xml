@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 14.239: original edition by A. S. Ramanatha Ayyar</title>
+				<title type="alt">No. 239. (A.R. No. 331 of 1916.) TIRUVĀLĪŚVARAM, ĀMBASAMUDRAM TALUK, TIRUNELVELI DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE IN THE TIRUVĀLĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv14p1i0239</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This damaged record of the king<note n="144-1">�on p. 122 note 1, will apply to this inscription also.</note>is dated in his <hi rend="bold">17th year</hi> and registers the exemption of taxes granted on the <hi rend="italic">dēvadāna</hi> village named ŚivacharaṇaśēkharanallUr belonging to the temple of Tiruvālīśvaram-Uḍaiyār at Rājarāja-chaturvēdimaṅgalam, a <hi rend="italic">brahmadēya</hi> in Muḷḷi-nāḍu. The order was issued by the Sēnāpatigaḷ Rājarāja-Veḷḷappa-Nāḍāḻvār and the document is signed by MAnābharaṇa-Uttaramantrin. The tograver bears the name of Parākramapāṇḍya-perundachchaṉ. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+
+<note n="145-1">The record is damaged at the beginning.</note>
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+<lb n="2"/>ti <gap reason="lost" quantity="4" unit="character"/> yamakaḷ tirup
+<lb n="3"/> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="5" unit="character"/> ciṉa<unclear>p</unclear>
+<lb n="6"/>puli Otuṅka <gap reason="lost" quantity="3" unit="character"/> viṟkayal
+<lb n="7"/>viḷaiyāṭa pārmicai <gap reason="lost" quantity="4" unit="character"/> ṉṉu
+<lb n="8"/>moḻimāṟṟi nāṟticai maṉṉavar tiṟai mu
+<lb n="9" break="no"/>ṟaiyaḷa<unclear>ppa maṉṉi</unclear>ya vira
+<lb n="10" break="no"/> <gap reason="lost" quantity="3" unit="character"/> caṉattu <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="11"/>kkulam viḷakkiya komutal koccaṭai<supplied reason="omitted">ya</supplied> paṉma
+<lb n="12" break="no"/>rāṉa Uṭaiyār <hi rend="grantha">śrī</hi>vallapatevar<supplied reason="omitted">k</supplied>ku yāṇṭu <supplied reason="omitted">patiṉ</supplied>
+<lb n="13"/>Eḻāvatu muḷḷināṭṭu rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>c carup petimaṅ
+<lb n="14" break="no"/>kalattu tiruvāli Ī<hi rend="grantha">śvara</hi>muṭaiyār teva tāṉam
+<lb n="15"/>civacara<unclear>ṇa</unclear>cekaranallūreṉṟu Iṟai Iliyāka y<unclear>ā</unclear>
+<lb n="16" break="no"/><unclear>ṇ</unclear>ṭu patiṉeḻāvatu mutal variyiliṭṭa rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi> ca
+<lb n="17" break="no"/>ruppetimaṅkalattu <hi rend="grantha">śrī</hi>vā<hi rend="grantha">su</hi>teva vāyk kā
+<lb n="18" break="no"/>lukku vaṭakku mutaṟkaṇṇāṟṟu <gap reason="lost" quantity="5" unit="character"/> I<unclear>v</unclear>vāykkālu
+<lb n="19" break="no"/>kku teṟku mutaṟkaṇāṟum Iraṇ ṭāṅkaṇā
+<lb n="20" break="no"/>ṟum munṟāṅkaṇ Āṟum nālāṅkaṇ Āṟum
+<lb n="21"/>Aiñcāṅkaṇ Āṟum Āṟāṅkaṇ Āṟum <unclear>Eḻāṅkaṇ Āṟum</unclear> Eṭ<supplied reason="omitted">ṭā</supplied>
+<lb n="22" break="no"/>ṅkaṇāṟum Āka kaṇāṟu Eṭṭiṉuk kum me
+<lb n="23" break="no"/>lellai <gap reason="lost" quantity="4" unit="character"/> kiḷ karaikku ki
+<lb n="24" break="no"/> <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="25"/><unclear>ṇ</unclear> Āṟu <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="26"/> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="27"/>ṟukku meṟkku
+<lb n="28"/> <gap reason="lost" quantity="2" unit="character"/> ḷ Ellai
+<lb n="29"/>vā<hi rend="grantha">su</hi>teva
+<lb n="30" break="no"/> <gap reason="lost" quantity="2" unit="character"/> kālukku
+<lb n="31"/> <gap reason="lost" quantity="4" unit="character"/> ḻāṅ
+<lb n="32" break="no"/> <gap reason="lost" quantity="3" unit="character"/> ṟṟu te
+<lb n="33" break="no"/> <gap reason="lost" quantity="4" unit="character"/> tikku
+<lb n="34"/> <gap reason="lost" quantity="5" unit="character"/> ṟu
+<lb n="35"/> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="36"/>perunāṉke
+<lb n="37" break="no"/>llaiyuḷa Aka
+<lb n="38" break="no"/>ppaṭṭa nilam
+<lb n="39"/>veliyum yā
+<lb n="40" break="no"/>ṇṭu patiṉe<unclear>ḻā</unclear>
+<lb n="41" break="no"/>vatu mutal te
+<lb n="42" break="no"/>varkku tevatāṉa
+<lb n="43" break="no"/>iṟaiyili Āka va
+<lb n="44" break="no"/>riyiliṭṭu Inni
+<lb n="45" break="no"/>lattukkuk <unclear>k</unclear>āṇi
+<lb n="46"/> <gap reason="lost" quantity="1" unit="character"/> riṉ
+<lb n="47"/>Oṭṭum paṟṟuṅ ko
+<lb n="48" break="no"/>ṇṭu Aṉupa
+<lb n="49" break="no"/>vittu vantamai
+<lb n="50" break="no"/>yil Aṇṭanā
+<lb n="51" break="no"/>ṭṭu paṉai
+<lb n="52"/> <gap reason="lost" quantity="1" unit="character"/> r vaḷava
+<lb n="53" break="no"/>ṉ pallava <gap reason="lost" quantity="2" unit="character"/> ṉukkum
+<lb n="54"/> <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="55"/> <gap reason="lost" quantity="1" unit="character"/> l <hi rend="grantha">janma</hi>ka <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="56"/>Innilattu <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="57"/>virapāṇ<unclear>ṭi</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="58"/>nellum <gap reason="lost" quantity="4" unit="character"/> mum mutal <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="59"/>Araikkācum <gap reason="lost" quantity="3" unit="character"/> ñcum <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="60"/>Āṭṭāṇṭu toṟum pa <gap reason="lost" quantity="1" unit="character"/> mā <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="61"/>Iṟuppāṉāka <gap reason="lost" quantity="5" unit="character"/> ḷḷiyiṭṭa <unclear>ka</unclear>la
+<lb n="62" break="no"/>m Ippaṭi <gap reason="lost" quantity="4" unit="character"/> vaṉṟu <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="63"/>Olai tirumiḻalaik kūṟṟattu U<unclear>m</unclear>pa <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="64"/>koṭṭaiyūruṭaiyāṉ nākaṉ perumāṉā
+<lb n="65" break="no"/>ṉa virapāṇṭiya muventaveḷāṉ <unclear>Eḻu</unclear>
+<lb n="66" break="no"/>ttiṉāṟ <hi rend="grantha">prasā</hi>tañ ceytaruḷiṉa tiru muka
+<lb n="67" break="no"/>m kiḷkuṇṭāṟṟu coḻa cikāmaṇi nallū
+<lb n="68" break="no"/> <gap reason="lost" quantity="5" unit="character"/> <hi rend="grantha">śrī</hi> civacaraṇa <gap reason="lost" quantity="4" unit="character"/> rāṉa <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="69"/> <gap reason="lost" quantity="4" unit="character"/> yum puravuva<unclear>ri</unclear> tiṇaikkaḷattu mu
+<lb n="70" break="no"/>kaveṭṭiyum miḻalaik kūṟṟattu naṭuvil kūṟṟu po
+<lb n="71" break="no"/>tuvak kuṭaiyāṉ kaṭṭi cuntarattoḷa ṉāṉa cun
+<lb n="72" break="no"/>tarapāṇṭiya muventaveḷāṉum kira ṉūr nāṭṭu
+<lb n="73"/>tāmaraikkuṭaiyāṉ caṅkaṉ centaṉāṉa maturo
+<lb n="74" break="no"/>tayappallavarayaṉum kāñaiyirukkai maṇa
+<lb n="75" break="no"/>ūruṭaiyāṉ ma<hi rend="grantha">nni</hi>ripūvaṉāṉa mānāparaṇa U
+<lb n="76" break="no"/>ttaramantiriyum kiḷkuṇṭāṟṟuc co
+<lb n="77" break="no"/>ḻacikāmaṇi
+<lb n="78" break="no"/>nallūruṭaiyā
+<lb n="79" break="no"/>ṉ centaṉ paṭ
+<lb n="80" break="no"/>ṭālakaṉāṉa A
+<lb n="81" break="no"/> <gap reason="lost" quantity="3" unit="character"/> ttaramuventa
+<lb n="82"/>veḷāṉum pura
+<lb n="83" break="no"/>vuvari tiṇaikkaḷanā
+<lb n="84" break="no"/> <gap reason="lost" quantity="2" unit="character"/> m <gap reason="lost" quantity="2" unit="character"/> miḻalaik
+<lb n="85" break="no"/>kūṟṟattu vaṭapām 
+<lb n="86" break="no"/>pāṟṟu Arumoḻi
+<lb n="87" break="no"/>tevanallūruṭai
+<lb n="88" break="no"/>yāṉa tirukkāṉic
+<lb n="89" break="no"/>ṅkoṇṭāṉa
+<lb n="90"/>civapātcekara
+<lb n="91" break="no"/>muventaveḷātu
+<lb n="92"/><unclear>m</unclear> tirukkāṉapper
+<lb n="93"/>kūṟṟattu māṉā
+<lb n="94" break="no"/>paraṇa nallūruṭai
+<lb n="95" break="no"/>yāṉ viṭaṅkaḷ
+<lb n="96"/>kūttaṉāṉa cem
+<lb n="97" break="no"/>piyaṉ tirukkāṉa
+<lb n="98" break="no"/>pper nāṭṭu muve
+<lb n="99" break="no"/>ntaveḷaraṉu
+<lb n="100" break="no"/>m tirumiḻalaik kū
+<lb n="101" break="no"/>ṟṟattu<unclear>mi</unclear>
+<lb n="102"/>ppāmpā
+<lb n="103" break="no"/>ṟṟu kāyā
+<lb n="104" break="no"/>ṅkuṭaiyā
+<lb n="105" break="no"/>ṉ cāttaṉ
+<lb n="106"/>Ātittaṉ
+<lb n="107"/>Āṉa Aḻaki
+<lb n="108" break="no"/>ya pāṇṭi
+<lb n="109" break="no"/>ya muventa
+<lb n="110"/>veḷāṉum
+<lb n="111"/>Eḻuttiṉāl
+<lb n="112"/>E <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="113"/> <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="114"/>cu <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="115"/>ticcuk ku
+<lb n="116" break="no"/>ṭuttamai
+<lb n="117" break="no"/>kku vanta U
+<lb n="118" break="no"/>ḷvarippa
+<lb n="119" break="no"/>ṭiye tiru
+<lb n="120" break="no"/>vāli Ī<hi rend="grantha">śva</hi>
+<lb n="121" break="no"/>ram muṭaiya
+<lb n="122"/>nāyakarukku
+<lb n="123" break="no"/>k kuṭuttu
+<lb n="124" break="no"/>k kuṭutta
+<lb n="125" break="no"/>maikkuk kal
+<lb n="126" break="no"/>veṭṭuka
+<lb n="127"/>veṉṟu A
+<lb n="128" break="no"/>tikārikaḷ
+<lb n="129"/> <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="130"/>me <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="131"/>muṭṭattu <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="132"/>ṉūr kiḻava
+<lb n="133" break="no"/>ṉa cālaitattaṉā
+<lb n="134" break="no"/>rāṉa I<hi rend="grantha">ntṛsa</hi>
+<lb n="135" break="no"/><unclear>m</unclear>āṉa muventave
+<lb n="136" break="no"/>ḷār Eva rā<hi rend="grantha">ja</hi>rā
+<lb n="137" break="no"/><hi rend="grantha">ja</hi>ccatu<hi rend="grantha">rvedi</hi>
+<lb n="138" break="no"/>maṅkalattu nālā
+<lb n="139" break="no"/> <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="140"/> <gap reason="lost" quantity="4" unit="character"/> tūr
+<lb n="141" break="no"/> <gap reason="lost" quantity="1" unit="character"/> ramā <gap reason="lost" quantity="1" unit="character"/> ṉ ca
+<lb n="142" break="no"/>ṅkaranārāya
+<lb n="143" break="no"/>ṇaṉum vaṅki
+<lb n="144" break="no"/>ppuṟattu tiru
+<lb n="145" break="no"/>virāmi<hi rend="grantha">śvara</hi>
+<lb n="146" break="no"/> <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="147"/> <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="148"/> <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="149"/>civatevaṉ
+<lb n="150"/>poṉmeṉi
+<lb n="151"/>comāciyāru
+<lb n="152" break="no"/>m kiḷinalūr
+<lb n="153" break="no"/>c caṅkaranārāya
+<lb n="154" break="no"/>ṇaṉ Iru<hi rend="grantha">ṣi</hi>ke
+<lb n="155" break="no"/>cavac comāciyārum koṟu
+<lb n="156" break="no"/>ttalai <hi rend="grantha">śrī</hi>mātavapaṭṭaṉum
+<lb n="157"/>Ittevarakanāḻikaiyār Irā
+<lb n="158" break="no"/>maṉ tillaikkūttaṉum nakka
+<lb n="159" break="no"/>ṉ toṉṟiyum tiruppatiyam
+<lb n="160"/>viṇṇappañ ceyyum caivaci
+<lb n="161" break="no"/>kāmaṇiyum paṉmāye<hi rend="grantha">śvara</hi>kka
+<lb n="162" break="no"/>ṇkāṇi piḷḷai Aṭiyārum teṉ
+<lb n="163" break="no"/>vāraṇavāci <hi rend="grantha">rājentra</hi>coḻa vi
+<lb n="164" break="no"/> <gap reason="lost" quantity="4" unit="character"/> vaṭṭatu
+<lb n="165"/> <gap reason="lost" quantity="4" unit="character"/> nāṭaṉ tirukkā
+<lb n="166"/>ṉic <gap reason="lost" quantity="3" unit="character"/> ticai Āyiratta
+<lb n="167"/><unclear>ññā</unclear> <gap reason="lost" quantity="4" unit="character"/> kaṇkāṇi Āka I
+<lb n="168" break="no"/> <gap reason="lost" quantity="4" unit="character"/> <unclear>tu</unclear>vvūrk kūṟṟa
+<lb n="169"/>t <gap reason="lost" quantity="3" unit="character"/> <hi rend="grantha">śrīsā</hi>ḷa<hi rend="grantha">grā</hi>ma
+<lb n="170"/>ttu <gap reason="lost" quantity="4" unit="character"/> maṉpaṭṭaṉāṉa
+<lb n="171" break="no"/><unclear>pāṇṭi</unclear> <gap reason="lost" quantity="4" unit="character"/> cāriyaṉ
+<lb n="172"/> <gap reason="lost" quantity="5" unit="character"/> yar kāṇi
+<lb n="173"/>yāṉa civacaraṇacekaranallūr(r) nila
+<lb n="174" break="no"/>m Aivveliyilum tiruviḷakkuppu
+<lb n="175" break="no"/>ṟamāṉa <hi rend="grantha">śrī</hi>vā<hi rend="grantha">sude</hi>va vāykkālukku
+<lb n="176" break="no"/>tteṟku Āṟāṅkaṇṇāṟṟut tiruva
+<lb n="177" break="no"/>raṅkavatikku meṟku nālāñcey
+<lb n="178" break="no"/>yil meṟkaṭaiya nilam Arai<unclear>mā</unclear>
+<lb n="179"/>vum Aiñcāñcey nilam Orumāvum
+<lb n="180"/>Āṟāñcey nilam <unclear>Arai</unclear> māvum Āka nilam Iraṇṭumāvum muṉpu Umai Ammai vaittapaṭiye tevarkkut tiruviḷakkukku nittam Uḻakkāḻāk keṇṇai Aṭṭi Aḷakka<supplied reason="omitted">k</supplied> kaṭavaṉāka yāṇṭu
+<lb n="181"/>Eṭṭāvatu mutal caṅkarappāṭiyāṉ <gap reason="lost" quantity="5" unit="character"/> koṇṭāṉāṉa māṉāparaṇa vaikunta nāṭāḻvāṉukkum Ivaṉ vaṟkattārkkum kāṇiyākak kalve
+<lb n="182" break="no"/>ṭṭik kuṭukkaveṉṟu <hi rend="grantha">se</hi>ṉāpatikaḷ <hi rend="grantha">rāja rāja</hi> veḷḷappanāṭāḻvār niyokap paṭi kalveṭṭiṉamaikku tevar kaṅkāṇi Ira<unclear>vū</unclear>ruṭaiyāṉa Arayaṉ coḻa pāṇṭiya <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="183"/>vaṉ tillaikkūttaṉum nakkan toṉṟi yum pan<hi rend="grantha">mā</hi>ye<hi rend="grantha">śvara</hi>k kaṅkāṇi
+<lb n="184"/>ko <gap reason="lost" quantity="2" unit="character"/> ḻa <gap reason="lost" quantity="2" unit="character"/> taruñ caivacikā maṇiyum piḷḷaiyaṭi
+<lb n="185" break="no"/>yāṉum kaṅkāṇiyākak kalveṭṭi neṉ parāk
+<lb n="186" break="no"/>kirama pāṇṭiyap peruntaccaṉeṉ Eḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 14.239 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamanathaAyyar1962_01"/>
+			<citedRange unit="page">144-146</citedRange>
+			<citedRange unit="item">239</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

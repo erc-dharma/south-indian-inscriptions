@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.132: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">CHOLA-PANDYA VICEROYS. No. 132. (A.R. No. 107 of 1905.) MAṈṈĀRKŌYIL, AMBASAMUDRAM TALUK, TIRUNELVELI DISTRICT. ON THE NORTH WALL OF THE GŌPĀLASVĀMIN TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0132</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This record dated in the <hi rend="bold">4th year</hi> of the reign of <hi rend="bold">Jaṭāvarman Sundara-Chōḷa-Pāṇḍya</hi> states that the assembly having met in a hall of the <hi rend="italic">ambalam</hi>, made some decision about the lands and houses granted to the gardeners, drummers, potters, garlandmakers, torch-bearers and <hi rend="italic">dēvaraḍiyār</hi> of the temple of Śrī-Rājēndraśōḻa-viṇṇagar-Āḻvār at Rājarāja-chaturvēdimaṅgalam, a <hi rend="italic">brahmadēya</hi> in Muḷḷi-nāḍu, a subdivision of Muḍigoṇḍaśōḻa-vaḷanāḍu, a district of Rājarāja-Pāṇḍināḍu. The record is incomplete and so the full details of the transaction are not available.</p>						
+                            
+                            <p>As stated in another inscription,<note><hi rend="italic">Ep. Ind.</hi>, Vol. XI, p. 294.</note>from the same temple, the temple of Rājēndraśōḻa-viṇṇagar-Āḷvār was erected by the Chēra king Rājasimha in the name of Rājēndraśōḻadēvar, the Chōla king who was apparently his overlord.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> koccaṭaya<hi rend="grantha">panma</hi>rāṉa <hi rend="grantha">śrī</hi>cuntaracoḻapāṇṭi<unclear>ya</unclear>tevarkku yāṇṭu nālāvatu Irācarācappāṇṭi nāṭṭu muṭikoṇṭacoḻavaḷa
+                    <lb n="2" break="no"/>nāṭṭu muḷḷināṭṭu <hi rend="grantha">brahmade</hi>yam <hi rend="grantha">śrī</hi> rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>ccatu<hi rend="grantha">rvve</hi>timaṅkalattu <hi rend="grantha">mahāsabhai</hi>yom Ampalam tu<unclear>ṭṭa</unclear>ṭakkiyil kūṭṭak kuṟaivaṟak kūṭiiruntu <hi rend="grantha">śrī</hi>rā<hi rend="grantha">je</hi>
+                    <lb n="3" break="no"/><hi rend="grantha">ntra</hi>coḻa viṇṇakar Āḻvārkku tiruna<hi rend="grantha">nda</hi>vāṉaṅkaḷukku na<hi rend="grantha">nda</hi>vāṉakkuṭikaḷ Irukkavum Uvacca kaḷukkum kucavakaḷukkum tiruviḷakkup piṭiccut tiruppaḷ
+                    <lb n="4" break="no"/>ḷittāman toṭukkun tevaraṭiyār peṇṭukaḷukkum (t) tiruviḷakkukku neyyaṭṭum veṭṭikkuṭi kaḷ Iṭaiyarkkum maṟṟu nivantaṅkaṭavār Eppe
+                    <lb n="5" break="no"/>ṟpaṭṭārkkum Iṭṭa nantavāṉaṅkaḷum maṉaikaḷumāvaṉa <supplied reason="undefined"><g type="danda">.</g></supplied> melaippuṟa maṅkalaviti melai vācalukku vaṭakku cikoyilukkun tirumuṟṟattukkum
+                    <lb n="6"/>vaṭakku vaṭameṉmulaikkut teṟkkum matiḷukkuk kiḻakkum matiḷukku mekku kūṟiṭṭukkuk kiḻakku melai vācalukku vaṭakku vaṭamelmulai<note n="69-1">The continuation is not traceable now.</note>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.132 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">68-69</citedRange>
+                        <citedRange unit="item">132</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

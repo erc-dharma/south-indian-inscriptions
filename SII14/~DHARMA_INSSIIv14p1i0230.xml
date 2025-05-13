@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 14.230: original edition by A. S. Ramanatha Ayyar</title>
+				<title type="alt">No. 230. (A.R. No. 423 of 1929-30.) ĀTTŪR, TIRUCHCHENDUR TALUK, TIRUNELVELI DISTRICT. ON A PILLAR IN THE antarāḷa OF THE SŌMANĀTHA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv14p1i0230</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Dated in the <hi rend="bold">1[1]th year</hi> of <hi rend="bold">Jaṭāvarmaṉ Śrīvallabha</hi> this record registers a gift of sheep and a lamp-stand by a brāhmaṇa lady named Āṇḍamaichchāṉi, the wife of a certain Sāraṅgapāṇi-Tirunīlakaṇṭhaṉ of Rājarāja-chaturvēdimaṅgalam, a <hi rend="italic">brahmadēya</hi> in Muḷḷi-nāḍu, a subdivision of Pāṇḍi-nāḍu. The same lady also made a gift of money for feeding itinerant pilgrims who came to the village (<hi rend="italic">apūrvigaḷāy vandār</hi>). The lamp-stand is stated to have been cast with a figure of a woman holding a lamp. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="danda">.</g></supplied></hi> tirumaṭantaiyum <hi rend="grantha">ja</hi>yaṭantaiyu<unclear>m</unclear> tiruppuyaṅkaḷi liṉitiruppa Iru
+<lb n="2" break="no"/>nilamum perumai Eyta yeṇṭicaiyum kuṭai niḻaṟṟa maṉṉavarellām vanti
+<lb n="3" break="no"/>ṟaiñca <unclear>ma</unclear>ra<unclear>pi</unclear>le varu<unclear>maṇi</unclear> muṭicūṭit teṉkumariyum vaṭakaṅkaiyam <unclear>ti</unclear>raik
+<lb n="4"/>ṭale Ellaiyākap pārmuḻutuṅ kayalāṇai parantu ceṅkoluṭaṉvaḷara
+<lb n="5"/>maṉṉiya viraciṅkātaṉattu Ulakamuḻutuṭaiyāroṭum viṟṟiruntaruḷiya māmutal
+<lb n="6"/>mati<supplied reason="omitted">k</supplied>kula<supplied reason="omitted">m</supplied> viḷakkiya komutal koccaṭaiyapa<hi rend="grantha">nma</hi>rākiya tiripuvaṉa<supplied reason="omitted">c</supplied>cakkarava
+<lb n="7" break="no"/>ttikaḷ <hi rend="grantha">śrī</hi>vallavatevaṟku yāṇṭu <hi rend="grantha">1<unclear>1</unclear> śrī</hi>pāṇṭināṭṭuk kuṭanāṭṭu Āṟṟūr
+<lb n="8"/>centamaṅkalattu <hi rend="grantha">śrī</hi>comatai tevaṟkku nittam nivantam tirununtāviḷakku
+<lb n="9"/>celvatā<supplied reason="omitted">ka</supplied> Iṉṉāṭṭu muḷḷināṭṭu <hi rend="grantha">śrībrahma</hi>tecam taṉiyūr <hi rend="grantha">śrī</hi>rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>c catu<hi rend="grantha">rve</hi>ti maṅkala
+<lb n="10" break="no"/>ttu <hi rend="grantha">śrī</hi>mummuṭicoḻacceri yiraṇṭāñceri kuṟukkai cāraṅ<supplied reason="omitted">ka</supplied>pāṇi ti<unclear>runi</unclear>la
+<lb n="11"/>kaṇṭaṉ <hi rend="grantha">brāhma</hi>ṇi Āṇṭamaiccāṉi vaitta tirununtāviḷakkoṉṟum tarā Iṭai
+<lb n="12"/>nāṟpatāl taṉiccamākavum taṉṉai Aṇaiñcu niṟka vā<supplied reason="omitted">r</supplied>tta ciṟunilaiviḷakkum Itu
+<lb n="13"/>Erikaikku vaitta Āṭu Aimpatum Ittevar koyilile ko<supplied reason="omitted">ṇ</supplied>ṭuvara Ittevarkaṉ
+<lb n="14" break="no"/>mikaḷum <hi rend="grantha">śrī</hi>māye<hi rend="grantha">śvara</hi><supplied reason="omitted">k</supplied>kaṅkāṇi ce<supplied reason="omitted">y</supplied>vārkaḷum Ittevar veṭṭikkuṭi Iṭaiyarila
+<lb n="15"/>pattaṉ coṟaṉ coṟaṉ nampāṉāṉa virapattara<supplied reason="omitted">ppicca</supplied>ṉai Aḻaittu Inta Āṭu Aimpatu
+<lb n="16" break="no"/>m kaikkoḷḷeṉṟu kāṭṭikkuṭukka nāṉ coṟaṉ nampānāṉa virapattira<supplied reason="omitted">p</supplied>piccaṉ
+<lb n="17" break="no"/>ṉeṉ Ivvāṭu Aimpatum Ivvāṇṭu mutal cāvāmuvāp perāṭāka kai
+<lb n="18" break="no"/>koṇṭu Eṉmakkaḷ makkaḷ Aṉṉuvayamuḷḷataṉaiyum nittam Uḻakku ney Ik
+<lb n="19" break="no"/>koyilil civa<hi rend="grantha">brāhma</hi>ṇaril muṟaiceyvāṉ vacam <hi rend="grantha">śa</hi>ntirātittavaṟ celuttuvārā
+<lb n="20" break="no"/>ka kallil veṭṭikkoḷka veṉṟu <hi rend="grantha">sa</hi>mmati<supplied reason="omitted">t</supplied>tuk kuṭutteṉ coṟaṉ nampānāṉa
+<lb n="21"/>virapattirappiccaṉeṉ <supplied reason="undefined"><g type="ddanda">.</g></supplied> Ikkoyilil tevakaṉmikaḷukkum <hi rend="grantha">śrīmā</hi>ye<hi rend="grantha">śvara</hi>kkaṅkā
+<lb n="22" break="no"/>ṇi ceyvārkaḷukkum Ittirununtā viḷakku vai<unclear>tta</unclear> tirunilakaṇṭaṉ <hi rend="grantha">brāhma</hi>ṇi Ā
+<lb n="23" break="no"/>ṇṭamaiccāṉi Apūrvikaḷāy vantār Uṇṭu taṉakku tākaṅkeṭa vaitta ca
+<lb n="24" break="no"/>ṭṭi Aipvuḻakkāka pālcoṟum Ituṅ<note n="134-1">Read itukku•</note>takka kaṟiyum cantirātittavaṟ celvatākap
+<lb n="25"/>poliyūṭṭu Ikkoyilil toṇ<unclear>ṇū</unclear>ṟuvaṭṭa muṟaiceytu kāṇiyāṉa
+<lb n="26"/>civa<hi rend="grantha">brāhma</hi>ṇarkku <hi rend="grantha">sa</hi>maintu Aṭaivu mutalikaḷ <hi rend="grantha">bhāradvā</hi>caṉ pārkkaraṉ tevaka
+<lb n="27" break="no"/>nāṉa nittakalyāṇapaṭṭaṉum <hi rend="grantha">bhāradvā</hi>caṉ pārkkaraṉ cūriyatevannāṉa
+<lb n="28"/>virapattirapaṭṭaṉum <hi rend="grantha">bhāradvā</hi>caṉ civatevaṉ comaṉum kāṭaṉ ciṅkaṉ Irupat
+<lb n="29" break="no"/>taivaṉum Uḷḷiṭṭa civa<hi rend="grantha">brāhma</hi>ṇarom kaikkoṇṭa kācu Eṭṭekālu
+<lb n="30" break="no"/>m vaitta viḷakku tirikku kā Araiyum nāṅkaḷ toṇ<unclear>ṇū</unclear>ṟu vaṭṭamuṟai kai
+<lb n="31" break="no"/>kkoṇṭu nittalum mattiyāṉa <hi rend="grantha">sa</hi>natimuṟai ceyvārkaḷey Ivaḷ
+<lb n="32"/>vaitta veṇkalam Eḻu <gap reason="lost" quantity="1" unit="character"/> lkaḷil cipā<supplied reason="omitted">ta</supplied>ṅ koṇṭā <gap reason="lost" quantity="3" unit="character"/> ppuṟam I
+<lb n="33" break="no"/>vaḷuka<note n="134-2">The record stops after this.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 14.230 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamanathaAyyar1962_01"/>
+			<citedRange unit="page">133-134</citedRange>
+			<citedRange unit="item">230</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
