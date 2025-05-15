@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.164: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 164. (A.R. No. 630 of 1916.) ŚĒRMĀDĒVI, AMBASAMUDRAM TALUK, TIRUNELVELI DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE IN THE AMMAINĀTHASVĀMIN TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0164</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This record is dated in the <hi rend="bold">19th year</hi> of <hi rend="bold">Jaṭāvarmaṉ Sundara-Chōḷapāṇḍya.</hi> It states that 2 <hi rend="italic">vēli</hi> of land which had been granted as <hi rend="italic">dēvadāna</hi> to the temple of Kayilāsamuḍaivār at Nigariliśōḻa-chaturvēdimaṅgalam by the Chōḷapāṇḍya viceroy and which had been constituted into a separate revenue unit under the name of Śivapādaśēkharanallūr had originally been taken over for cultivation by the <hi rend="italic">ūrār</hi> who had the <hi rend="italic">kāṇi</hi> right over Kallūr in Mēlvēmba-nāḍu, a subdivision of Muḍigoṇḍaśōḻavaḷanāḍu. But as they were unable to pay the taxes thereon, they relinquished their cultivation rights in favour of the <hi rend="italic">dēvakaṉmis</hi> of the temple, who now took over the lands, and gave an undertaking to the <hi rend="italic">Puravari-tiṇaikkaḷattār</hi> and the <hi rend="italic">Varippottagamuḍaiyār</hi>, the revenue officials, not to interfere in any matter whatsoever with the lands in future.</p>						
+                            
+                            <p>The record is connected with No. 157 above in its subject matter.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-13" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> koccaṭaiyavaṉmarāṉa Uṭaiyār <hi rend="grantha">śrī</hi> cuntaracoḻapāṇṭiyatevaṟku yāṇṭu <num value="19"><g type="numeral">10</g> 9</num><g type="dash"/>Āvatu puravuvari tiṇaikkaḷattāṟkum varippottaka muṭaiyārkaḷukkum rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>p pāṇṭi nāṭṭu muṭikoṇṭacoḻavaḷa
+                    <lb n="2" break="no"/>nāṭṭu melvempa nāṭṭuk kallūṟkāṇi Uṭaiya nakkaṉ palatevaṉum mātevaṉ Īcaṉum cuppira maṇiyaṉ karuṇākaraṉum cāttaṉ tevaṉum niṉṟāṉ tevaṉum cāttaṉ tiṭṭaiyum <unclear>na</unclear>kkaṉ peṟṟāṉum nakkaṉ centaṉum tevaṉ tāntoṉ
+                    <lb n="3" break="no"/>ṟiyum tiṭṭai pattaṉum Āka Ivvaṉaivom Uḷḷiṭṭārom Oṭṭi māṉaviraparāntakaṅ kaṭaic ceṟittu<supplied reason="omitted">k</supplied>kuṭutta paricāvatu <supplied reason="undefined"><g type="danda">.</g></supplied> Eṅkaḷur nilamāy Uṭaiyār <hi rend="grantha">śrī</hi>cuntaracoḻapāṇṭiya tevar tiruvāy moḻiñcaruḷa muḷḷināṭṭu nikarili coḻaccaruppetimaṅka
+                    <lb n="4" break="no"/><unclear>lattu</unclear> <hi rend="grantha">śrī</hi> kayilāyamuṭaiyāṟkut tevatāṉa Iṟaiyiliyāka civapātacekaranallūreṉṉum tirunāmattāl variyiliṭṭu Eṅkaḷur niṉṟum veṟu mutalāy niṅkiṉa Iruveliyum nāṅkaḷ payireṟṟi Iṟai yiṟukka māṭṭāmai
+                    <lb n="5" break="no"/><unclear>yi</unclear>l Eṅkaḷālp payireṟṟavum Iṟai yiṟukkavum Uṇṇātu Innilam nāṅkaḷ veṇṭā meṉṟu Atikārikaḷ n<unclear>āḷu</unclear>ntu Uṭaiyār <hi rend="grantha">sa</hi>ṉṉatiyile nāṅkaḷ Innila<unclear>m</unclear> viṭṭam<hi rend="grantha">ai</hi>yil Innilam Ittevakaṉmikaḷ tāṅkaḷe
+                    <lb n="6"/>kuṭikāttu<unclear>kkuṭu</unclear>ttup payireṟṟuviccukkoḷḷappeṟuvārākavum <supplied reason="undefined"><g type="danda">.</g></supplied> Innilam koṇṭu payireṟṟi Iṟai yiṟukkuṅ kuṭikaḷai nāṅka<supplied reason="omitted">ḷe</supplied> melaikkālaṅkaḷil Innilañ cuṭṭittuṭar vomākilum Innilam Eṅkaḷiteṉṟu Aṉṟā
+                    <lb n="7"/>koḷvomākilum Uḻuvārai Uḻāme vik<unclear>kiṉa</unclear>m paṇṇuvomākilum paṇṇuvippo mākilum māṉavirapparāntaka maṟuttār paṭuntaṇṭam paṭuvatāka Oṭṭi māṉavirapparāntakaṅ kaṭaic ceṟittukkuṭut
+                    <lb n="8" break="no"/><unclear>to ma</unclear>ṉaivom Uḷḷiṭṭa Ūrom <supplied reason="undefined"><g type="danda">.</g></supplied> Ivakaḷum colla Ittiṭṭeḻutiṉeṉ Ivvūr veḷḷāḷaṉ nakkaṉ palatevaṉeḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ipparicu tiṭṭiṭṭa cāttaṉ tevaṉeḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ipparicu tiṭṭiṭṭamāteva
+                    <lb n="9"/><unclear>ṉ</unclear>eḻuttu <g type="ddanda">.</g><g type="circle">.</g><g type="dashLong">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.164 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">91-92</citedRange>
+                        <citedRange unit="item">164</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
