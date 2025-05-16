@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.171: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 171. (A.R. No. 99 of 1924.) PERICHCHIKŌYIL, TIRUPPATTUR TALUK, RAMANATHAPURAM DISTRICT. ON THE SOUTH WALL OF THE BHAIRAVA SHRINE IN THE SUGANDHAVANĒŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0171</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This record is dated in the <hi rend="bold">21st year</hi> of the viceroy who is referred to as <hi rend="bold">Jaṭāvarmaṉ</hi> <hi rend="italic">alias</hi> Uḍaiyār <hi rend="bold">[Vi]raśōḻa pāṇḍyadēva</hi> and registers a gift of land by a certain Kuḻāśaṉi Māḷuvamāṇikkam <hi rend="italic">alias</hi> Adhirājarāja-Puṉguṉṟa-nāḍāḻvāṉ for providing offerings to the image of god Kshētrapāla at Mēṉmarudūr <hi rend="italic">alias</hi> Jayaṅgoṇḍa-śōḻanallūr in Gaṅgaikoṇḍaśōḻa-vaḷanāḍu, a division of Rājarāja-Pāṇḍināḍu.</p>						
+                            
+                            <p>This record appears to belong to the first viceroy of the name of Sundara-Chōḷapāṇḍya, as a different viceroy with the high regnal year of 21 cannot be otherwise accounted for.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-13" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> koccaṭaiyapaṉmarāṉa Uṭaiyār <unclear>vi</unclear>ra coḻapāṇṭiyatevaṟku yāṇṭu <num value="21">2 <g type="numeral">10</g> 1</num><g type="dash"/>vatu rā<hi rend="grantha">ja</hi>
+                    <lb n="2" break="no"/><hi rend="grantha">rā</hi><hi rend="grantha"><unclear>ja</unclear></hi>pāṇṭināṭṭu <hi rend="grantha">rājendra</hi>coḻa vaḷanāṭṭu keṅkaikoṇṭacoḻa vaḷanāṭṭu meṉmarutu rāṉa <hi rend="grantha">je</hi>yaṅ
+                    <lb n="3" break="no"/>koṇṭacoḻanallūr maṭṭi <gap reason="lost" quantity="3" unit="character"/> <hi rend="grantha">kṣetra</hi>pāla<hi rend="grantha">de</hi>vaṟku kulācaṉi māḷuvamāṇikkamāṉa A<hi rend="grantha">dhi</hi>rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi> pu
+                    <lb n="4" break="no"/>ṉkuṉṟa nāṭāḻvāṉeṉ Eṉ <unclear>ta</unclear>maiyaṉār kulācaṉi Ampalattāṭiyārāṉa rā<hi rend="grantha">jādhi</hi>rā<hi rend="grantha">ja</hi>p puṉ kuṉṟa nāṭāḻvā
+                    <lb n="5" break="no"/>raic cātti Ittevaṟku canti Oṉṟukku nittiya Arici nāṉāḻiyāka cantirātittaval muṭṭāmal tiruvamutu kā
+                    <lb n="6" break="no"/>ṭṭuvārkaḷāka Ivvūr<supplied reason="omitted">p</supplied>pāṟ meṉmarutur malaiyaṉempaṟ kiḻ Eṉ kāṇiyāṉa poṉaṅkai vayakkal nila mākāṇi 
+                    <lb n="7"/>Araikkaraṇiyum malaiyaṉ vayakkal nilam mākāṇi muntirikaiyum paṭṭattāṉ vayakkal nilam mukkaraṇiyum <hi rend="grantha">bra</hi>
+                    <lb n="8"/><gap reason="lost" quantity="2" unit="character"/> ṅ mukkāṇi muntirikaiyum vaṉṉiyoṭu neṭuṅkaṇ nilam Arai mā muntirikai � poṉaṅkai
+                    <lb n="9" break="no"/><unclear>vaya</unclear>kkal mel nilam Araik<unclear>kāṇi</unclear> muntirikaiyum Āka nilam kālum vaitta <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="10"/><gap reason="lost" quantity="2" unit="character"/> niṟai <unclear>I</unclear>rupatiṉ palamum cantirātittaval nittam Uḻakku <unclear>ney</unclear> māḷuva māṇikkat <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="11"/><gap reason="lost" quantity="2" unit="character"/> kuṉṟāppūr Iṭaiyaṉ nāraṇaṉ kalakkiyāṉa putaḻi—māṇikkaraṭṭikku Aṭutta cāvā muvāpa <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="12"/><gap reason="lost" quantity="3" unit="character"/> patu <supplied reason="undefined"><g type="danda">.</g></supplied> <unclear>pa</unclear><hi rend="grantha">nmāheśvara rakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="1">
+                        <lem><unclear>vi</unclear></lem>
+                        <note>It is possible there is some mistake in engraving <foreign><unclear>cunta</unclear>ra</foreign>.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.171 (ARIE/1923-1924/C/1924/99) by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">95-96</citedRange>
+                        <citedRange unit="item">171</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
