@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.298: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 298. (A.R. No. 360 of 1924.) MĒLAPPAḺUVŪR, UDAIYARPALAIYAM TALUK, TRICHINOPOLY DISTRICT. ON THE SOUTH WALL OF THE AGASTYĒŚVARA SHRINE, AGASTYĒŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0298</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This records a gift of 8 <hi rend="italic">mā</hi> of land in the <hi rend="italic">dēvadāna</hi> village Ūragaṉkuḍi after reclamation from its fallow condition, by Vēṭṭakkuḍāṉ Vaḍugaṉ Mādavaṉ of Poygaikkuṟuviḍam by order of <hi rend="bold">Paḻuvēṭṭaraiyaṉ Kumaraṉ Maṟavaṉ</hi>, for a perpetual lamp in each of the two shrines in the temple of Amanigandarvva-Īśvaragarattu-Mahādēva. The chief is probably identical with Kumaraṉ Kaṇḍaṉ mentioned in No. 352 above [[A.R. No. 352 of 1924]]. The inscription seems to be assignable to <hi rend="bold">Rājarāja I.</hi></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-17" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śri</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">ko</hi>vi<hi rend="grantha">rājakesariparmma</hi><supplied reason="omitted">r</supplied>kku yāṇṭu Irupattiraṇṭāvatu kuṉṟakkūṟṟattu
+                    <lb n="2"/>A<hi rend="grantha">ma</hi>ni<hi rend="grantha">ka</hi>n=ta<hi rend="grantha">rvva</hi>Ī<hi rend="grantha">śvarakara</hi>ttu <hi rend="grantha">mahāde</hi>vaṟku poyk<hi rend="grantha">ai</hi>kkuṟuviṭattu veṭṭakkuṭāṉ
+                    <lb n="3"/>vaṭukaṉ m<choice><sic>a</sic><corr>ā</corr></choice>tavaṉ paḻuveṭṭaraiyaṉ kumaraṉ maṟavaṉ <hi rend="grantha">prasā<surplus>ha</surplus></hi>
+                    <lb n="4" break="no"/><hi rend="grantha">da</hi>ttiṉā laruḷicceyya Ittaḷit tevatāṉam Ūrakaṉkuṭi <hi rend="grantha">Apoha</hi>naṅkiṭan 
+                    <lb n="5" break="no"/>ta <hi rend="grantha">bhūmi</hi>yaik kalli Iraṇṭu pūvum viḷaiya macakkikkuṭutta nirnilam Eṭṭumā Ip
+                    <lb n="6" break="no"/>pūmiyil poṉta pokaṅ koṇṭu Iraṇṭu taḷiIlum Orona<hi rend="grantha">ndā</hi>viḷakku Ira
+                    <lb n="7" break="no"/>vum pakalum Erippomāṉom Ittaḷip paṭṭuṭaiyom Eḻuvom Ivviḷakku
+                    <lb n="8"/>ra<hi rend="grantha">kṣi</hi>ppār Amani<hi rend="grantha">ka</hi>n=ta<hi rend="grantha">rvapura</hi>ttu nakarattāraṭi yeṉ ṟalaimelaṉa <g type="ddanda">.</g><g type="pc">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.298 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                <p>See also edition by Valérie Gillet and Emmanuel Francis (<ref target="DHARMA_INSMelKil00014.xml"/>).</p>
+                
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">158-159</citedRange>
+                        <citedRange unit="item">298</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
