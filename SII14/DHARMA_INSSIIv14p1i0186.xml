@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.186: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 186. (A.R. No. 406 of 1929-30.) ĀTTŪR, TIRUCHCHENDUR TALUK, TIRUNELVELI DISTRICT. ON THE WEST WALL OF THE CENTRAL SHRINE IN THE SŌMANĀTHA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0186</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This record dated in the <hi rend="bold">22nd year</hi> of <hi rend="bold">Māṟavarmaṉ Vikrama-Chōḷapāṇḍya</hi> registers a gift of paddy by a certain Mañjaṉ Śaḍaiyaṉ of Karuppūr in Marugal-nāḍu, a subdivision of Kshatriyaśikhāmaṇi-vaḷanāḍu, a district of Śōḻamaṇḍalam, for the mains tenance of a perpetual lamp in the temple of the Sōmanāthadēva at Āṟṟūr, and for the expenses of feeding some <hi rend="italic">Śrīmāhēśvaras</hi> in the temple. Āṟṟūr is stated to be a hamlet of Rājādhirāja-chaturvēdimaṅgalam, a <hi rend="italic">brahmadēya</hi> in Kuḍa-nāḍu.</p>						
+                            
+                            <p>The fragmentary inscription also engraved on the same wall belongs to this viceroy; but his regnal year is obliterated. It appears to relate to some unspecified gift made to the temple by a servant named Śūṟṟi-Tāḻi of Śāttamaṅgalam.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-13" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> komāṟavaṉmarāṉa Uṭaiyār <hi rend="grantha">śrī</hi> vikkira
+                    <lb n="2" break="no"/>macoḻapāṇṭiyatevaṟku yāṇṭu <num value="22">2 <g type="numeral">10</g> 2</num> Āvatu <hi rend="grantha">rājarāja</hi>ppā
+                    <lb n="3" break="no"/>ṇṭināṭṭu Uttamacoḻavaḷanāṭṭu kuṭanāṭṭu <hi rend="grantha">brahma</hi>teyam
+                    <lb n="4"/><hi rend="grantha">rājādhirāja</hi>ccaruppetimaṅkalattu Āṟṟūr <hi rend="grantha">śrīso</hi>maṉāta
+                    <lb n="5"/>tevaṟku coḻamaṇṭalattu <hi rend="grantha">kṣatri</hi>ya cikāmaṇivaḷanāṭṭu maruka
+                    <lb n="6" break="no"/>lṉāṭṭu karuppūr karuppūruṭaiyāṉ mañcaṉ caṭ<choice><sic>a</sic><corr>ai</corr></choice>yaṉ Ivvā
+                    <lb n="7" break="no"/>ṇṭu cittirai<supplied reason="omitted">t</supplied>tiṅkaḷ Eḻā<hi rend="grantha">nni</hi>yatimutal cantirātittaval Ira
+                    <lb n="8" break="no"/>vum pakalu muṭṭāma lerippatāka vai<supplied reason="omitted">t</supplied>ta tirunun=tāviḷakku Oṉ
+                    <lb n="9" break="no"/>ṟu Oṉṟiṉukku nittam paṇṭāra Uḻakkāle Uḻakku neyyāka Inne
+                    <lb n="10" break="no"/><unclear>y</unclear>kku mutalāka vaitta <unclear>poli</unclear>Ūṭṭu Ittevar marakkālāl comaṉātaṉā 
+                    <lb n="11" break="no"/>l vaitta nel Eḻupatteṇkalam Ikkoyil can=tirātittavala
+                    <lb n="12"/><gap reason="lost" quantity="1" unit="line"/>
+                    <lb n="13"/><gap reason="lost" quantity="16" unit="character"/> yyum kaṇa <gap reason="lost" quantity="9" unit="character"/> 
+                    <lb n="14"/><gap reason="lost" quantity="4" unit="character"/> tamāṉār Aṭṭu Ūṭṭuvatāka meṟpaṭikkālā <gap reason="lost" quantity="8" unit="character"/> 
+                    <lb n="15"/>l toṇṇūṟṟoṉpatiṉ kalamum Āka nelnū <gap reason="lost" quantity="8" unit="character"/> 
+                    <lb n="16"/>ṇṭu nitta muṭṭāmal can=tirātittaval tirununtāviḷa <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="17"/>m <hi rend="grantha">śrī</hi> māye<hi rend="grantha">śvara</hi><supplied reason="omitted">r</supplied>kku Ekāte muṭṭuvatākavum It <gap reason="lost" quantity="6" unit="character"/> 
+                    <lb n="18"/><hi rend="grantha">śi</hi>va<hi rend="grantha">brāhma</hi>ṇan nārāyaṇaṉ piccaṉum pārkkaraṉā <gap reason="lost" quantity="6" unit="character"/> 
+                    <lb n="19"/>taṉum comaṉ kaṇṭiya muḷḷiṭṭu tiruppaṇi <gap reason="lost" quantity="6" unit="character"/> 
+                    <lb n="20"/>paricu vaitta karuppūruṭaiyāṉ mañcaṉ caṭ<choice><sic>a</sic><corr>ai</corr></choice>yaṉu <gap reason="lost" quantity="8" unit="character"/> 
+                    <lb n="21"/>cantirātittavaṟ celuttavatāṉom Ivvakanāḻi <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="22"/>tu Eṟṟil Eṟṟiṉapaṭi ceyyakkaṭavitṉṟākavum <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    <lb n="23"/><gap reason="lost" quantity="4" unit="character"/> 
+                </p>
+                               
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary">
+                <p>A fragment on the same wall reads:
+                
+                <foreign>
+                    <lb n="1"/><hi rend="grantha">śrī</hi> komāṟavarmarāṉa Uṭaiyār <hi rend="grantha">śrī</hi> vikkiramacoḻapāṇṭiya tevaṟku <gap reason="lost" quantity="6" unit="character"/> 
+                    <lb n="2"/>paṇimakaṉ cāttamaṅkala muṭaiyāṉ cūṟṟi tāḻi rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>ppāṇṭināṭṭu <unclear>Uttama coḻava</unclear>
+                    <lb n="3" break="no"/>ḷanāṭṭu kuṭnāṭṭu <hi rend="grantha">brahma</hi>teyam <hi rend="grantha">rājādhirāja</hi>c caru<supplied reason="omitted">p</supplied>petimaṅkalattu <hi rend="grantha">śrīso</hi>maṉātatevar <gap reason="lost" quantity="4" unit="character"/> 
+                </foreign></p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.186 (ARIE/1929-1930/B/1929-1930/406) by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">102-103</citedRange>
+                        <citedRange unit="item">186</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

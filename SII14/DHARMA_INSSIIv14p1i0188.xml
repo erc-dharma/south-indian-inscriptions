@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.188: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 188. (A.R. No. 616 of 1916.) SĒRMĀDĒVI, AMBASAMUDRAM TALUK, TIRUNELVELI DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE, AMMAINĀTHA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0188</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This damaged inscription of the <hi rend="bold">25th year</hi> of <hi rend="bold">Māṟavarmaṉ Vikrama-Chōḷapāṇḍyadēva</hi> registers a gift of 25 sheep, made by a shepherd of the village for burning half a lamp in the Kayilāyamuḍaiya-Mahādēva temple at Nigariliśōḻa-chatur vēdimaṅgalam.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-13" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <unclear>komāṟa</unclear><hi rend="grantha">panmarā</hi>ṉa Uṭaiyār <hi rend="grantha">śrī</hi> vikkirama<unclear>co</unclear>
+                    <lb n="2" break="no"/>⌉<unclear>ḻa</unclear>pāṇṭiyatevaṟku yāṇṭu <num value="25"><unclear>2</unclear> <g type="numeral">10</g> 5</num><g type="dash"/>Āvatu <hi rend="grantha">rājarāja</hi><supplied reason="omitted">p</supplied> pā
+                    <lb n="3" break="no"/><unclear>ṇ</unclear>ṭināṭṭu Uttamacoḻa vaḷanāṭṭu muḷḷināṭṭu <hi rend="grantha">brahma⌈</hi> 
+                    <lb n="4" break="no"/><hi rend="grantha">d<unclear>e</unclear></hi>yam nikarilicoḻaccaruppetimaṅkalattu <hi rend="grantha">śrī</hi> kayilāya
+                    <lb n="5" break="no"/>muṭaiyamaratevaṟku I<unclear>v</unclear>vūrirukkum Iṭaicci <gap reason="lost" quantity="1" unit="character"/> llāṅ<unclear>kuṭi</unclear>
+                    <lb n="6" break="no"/>centaṉ makaṉ <gap reason="lost" quantity="8" unit="character"/> cātti vaicca <unclear>vi</unclear>
+                    <lb n="7" break="no"/>ḷakku Araikku <gap reason="lost" quantity="4" unit="character"/> perāṭu <num value="25">2 <g type="numeral">10</g> 5</num> I<unclear>v</unclear>vā
+                    <lb n="8" break="no"/><unclear>ṭi</unclear>rupat<unclear>t</unclear><hi rend="grantha"><unclear>ai</unclear></hi><unclear>ntum</unclear> kaikkoṇṭu I neyāḻākku
+                    <lb n="9"/><gap reason="lost" quantity="4" unit="character"/> ṭṭuvatā<unclear>ka</unclear> veṭṭikkuṭi Iṭaiyaṉ A
+                    <lb n="10" break="no"/><unclear>ppi</unclear> pulla <gap reason="lost" quantity="1" unit="character"/> ṉaṉ Ivaṉukku Iṟ<hi rend="grantha">ai</hi>ppu<unclear>ṇai</unclear>kkā
+                    <lb n="11" break="no"/><gap reason="lost" quantity="4" unit="character"/> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="6">
+                        <lem>makaṉ <gap reason="lost" quantity="8" unit="character"/></lem>
+                        <note>The record is much damaged at this place.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.188 (ARIE/1916-1917/B/1916/616) by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">103-104</citedRange>
+                        <citedRange unit="item">188</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
