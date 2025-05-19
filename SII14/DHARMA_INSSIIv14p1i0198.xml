@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.198: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 198. (A.R. No. 323 of 1908.) KURUVITTUṞAI, NILAKKOTTAI TALUK, MADURAI DISTRICT. ON THE WEST WALL OF THE CENTRAL SHRINE IN THE CHITRARATHA-VALLABHA-PERUMĀḶ TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0198</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This record of the <hi rend="bold">2nd year</hi> of <hi rend="bold">Jaṭāvarmaṉ Śrīvallabha</hi> commences with the historical introduction, ‘Tirumaḍandaiyum,’ etc., and registers a gift of 100 <hi rend="italic">diramam</hi> by the two widows of a <hi rend="italic">brāhmaṇa</hi> named Tūrppil Śrīdhara-Bhaṭṭa of Chōḷāṅtakachaturvēdimaṅgalam, and both of them sisters of a certain Sundarattōḷ-uḍaiyāṉ-Bhaṭṭaṉ of Gōmapuram, through whom the endowment is stated to have been made. The interest collected on the investment amounted to 2 <hi rend="italic">diramam</hi> per month, i. e., it worked to 24 per cent per annum.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-13" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> tirumaṭantaiyuñ <hi rend="grantha">ja</hi>yamaṭantaiyun=tiruppuyaṅkaḻiliṉitiruppa Eṇṭicaiyuṅ kuṭaiyimuṟṟa Iru nilamum perumai ye<supplied reason="omitted">y</supplied>ta maṉṉavarellā<unclear>m</unclear> vaṉtiṟ<unclear>ai</unclear>ñca parapile varu <unclear>maṇi</unclear>muṭi cūṭi teṉkumariyey mutalāy tiraikkaṭaley Ellaiyākap pārmuḻutuṅ kayalāṇai parantu ceṅkolu ṭaṉ vaḷara vi<unclear>ra</unclear>
+                    <lb n="2" break="no"/>ciṅkācanattu Ulakamuḻutuṭaiyāroṭum viṟṟiruntaruḷiya māmutal matikkula<supplied reason="omitted">m</supplied> viḷakkiya komutal koccaṭaiyapanmarāṉa tiripuvaṉacak<hi rend="grantha">kra</hi>vattikaḷ <hi rend="grantha">śrī</hi> vallapa<hi rend="grantha">de</hi>varkku yāṇṭu 2<g type="dash"/>vatu pākaṉūr kūṟṟattu <hi rend="grantha">brahmade</hi>yam <hi rend="grantha">śrī</hi>coḻān=takaccaruppetimaṅkalattu patt<choice><sic>a</sic><corr>ā</corr></choice>
+                    <lb n="3"/>ñceri tūrppil citara<hi rend="grantha">bha</hi>ṭṭaṉ <hi rend="grantha">brāhma</hi>ṇi<hi rend="grantha">ma</hi>rar <hi rend="grantha">śrīde</hi>viccāṉiyum <hi rend="grantha">śrībhū</hi>miccāṉiyum Ivviruvom Eṅkaḷ tamaiyaṉ komapuṟattu cun=tarattoḻuṭaiyāṉ<hi rend="grantha">bha</hi>ṭṭaṉ Eṅkaḻukku mutukaṇṇāka<supplied reason="omitted">k</supplied> koṇṭu Ivvūr tiruccakkara<hi rend="grantha">dirttha</hi><supplied reason="omitted">t</supplied>temperumāṉukku can=tirātittavaṟ tirunun=tāviḷak keriyak kaṭavatāka Ivvāḷvār <hi rend="grantha">śrī</hi>
+                    <lb n="4" break="no"/>paṇṭārattu Ikkoyilukku tiruppaṇi ceyvikkiṟa Oṉpatāñceri <gap reason="lost" quantity="6" unit="character"/> ṉūr nārāyaṇaṉ niṇṭa poṉmeṉiyāṉa <hi rend="grantha">śrīga</hi>ruṭa<hi rend="grantha">dāsa</hi>r kaṇkāṇippaṭi <hi rend="grantha">śrī</hi>paṇṭārattil Oṭukkiṉa tiramam nūṟu Ittiramam nūṟum mutal mutale mutalukku cetamiṉṟiyey cantirātittavaṟ niṟpatākavum mā<hi rend="grantha">sa</hi>ttiraṇṭu tiramam pali
+                    <lb n="5" break="no"/>cai polivatākavum Ippalicait tiramam Iraṇṭālumey ca<hi rend="grantha">ntrā</hi>tittavaṟ nittam Uḻakkeṇṇai tirununtāviḻak kerivatākavum <supplied reason="undefined"><g type="danda">.</g></supplied> Ipparicu <hi rend="grantha">sa</hi>mmatittu Ittiramam nūṟum Oṭukkuk koṇṭom Ivvāḷvārkaṉmikaḷom <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    <lb n="6"/>Ittirama nūṟum <hi rend="grantha">śrī</hi>paṇṭārattu Oṭukkuviccuk koṇṭa Ivvāḷvār ka<hi rend="grantha">nmi</hi>kaḷil <hi rend="grantha">śrīga</hi>ruṭa<hi rend="grantha">dāsa</hi>ṉeṉ Ivai Eṉṉeḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭi Aṟiveṉ Aṉpil nārāyaṇaṉ cirāmaṉeṉ Ivai Eṉṉeḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭikku mutukaṇ komapuṟattu cun=taratto
+                    <lb n="7" break="no"/>ḻuṭaiyāṉpaṭṭaṉeṉ Ivai Eṉṉeḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭikku Ivai Aṉpil kuloca <gap reason="lost" quantity="4" unit="character"/> <unclear>pic</unclear>caṉ mātavapaṭṭaṉāṉa cikārimāṟa<hi rend="grantha">dāsa</hi>ṉeṉ Ivai E<supplied reason="omitted">ṉ</supplied>ṉeḻuttu <g type="ddanda">.</g><g type="dashLong">.</g> Ippaṭi Ivarkaḷ Aruḷic ceyya Ivveḷuttu veṭṭiṉeṉ Ikko
+                    <lb n="8" break="no"/>yil taccācāriyaṉ can=tiracekaraṉ coṟuṭaiyāṉāṉa <unclear>tiruc</unclear>cakkara Ācāriyaṉeṉ Ivai Eṉṉeḷuttu <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dash">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.198 (ARIE/1908-1909/B/1908/323) by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">113</citedRange>
+                        <citedRange unit="item">198</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
