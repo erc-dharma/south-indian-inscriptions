@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 14.228: original edition by A. S. Ramanatha Ayyar</title>
+                <title type="alt">No. 228. (A.R. No. 111 of 1908.) TIRUPPATTŪR, TIRUPPATTUR TALUK, RAMANATHAPURAM DISTRICT. ON THE NORTH WALL OF THE maṇḍapa IN THE TIRUTTAḶĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv14p1i0228</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This epigraph dated in the <hi rend="bold">tenth year</hi> and <hi rend="bold">205th day</hi> of the king registers remission of taxes amounting to 43(2/20) <hi rend="italic">māḍai</hi> on two hamlets for providing worship to the god Tiruttaḷi-Mahādēva at Tiruppattūr a <hi rend="italic">brahmadēya</hi> in Kēraḷaśiṅga-vaḷanāḍu. At the request of Kāliṅgarāyaṉ the king is stated to have issued this order while he was seated in the <hi rend="italic">paḷḷikkaṭṭil</hi> called <hi rend="italic">Pāṇḍiyaṉ</hi> in the hall <hi rend="italic">Aḷagiyapāṇḍiyaṉ</hi> in the inner precincts of the palace at Madurai.</p>						
+                            
+                            <p>An officer named Parākramapāṇḍiya-Uttaramantri figures in the record and so a <seg rend="check">certain</seg> Parākrama-Pāṇḍya must have been a predecessor or at least a contemporary of this Śrīvallabhadēva. </p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-13" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><!--Check script: Vaṭṭeḻuttu?-->
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> tirumaṭa<hi rend="grantha">nt</hi>aiyu<hi rend="grantha">ñja</hi>yamaṭa
+                    <lb n="2" break="no"/>n=taiyun tiruppuyaṅkaḷi ṉiṉitiruppa Iruni
+                    <lb n="3"/>lamum perumai ye<supplied reason="omitted">y</supplied>ta veṇṭicaiyuṅ ku
+                    <lb n="4" break="no"/>ṭainiḻaṟṟa maṉṉavarellām van=tiṟaiñca varu
+                    <lb n="5" break="no"/>marapil muṭicūṭi teṉ<surplus>ṅ</surplus>kumariyum vaṭakeṅkaiyu
+                    <lb n="6" break="no"/>n=tiraikkaṭalume yellaiyākap pārmuḻutuṅ kayalā
+                    <lb n="7" break="no"/>ṇai parantu ceṅkoluṭaṉ vaḷara maṉṉiya vira<hi rend="grantha">siṁhāsa</hi>ṉat
+                    <lb n="8" break="no"/>tu Ulakamuḻutuṭaiyāroṭum viṟṟiruntaruḷiya māmutal mati
+                    <lb n="9" break="no"/>kkulam viḷakkiya komutaṟk koccaṭaiyapa<hi rend="grantha">nma</hi>rāṉa <hi rend="grantha">tribhu</hi>vaṉa
+                    <lb n="10" break="no"/>cca<hi rend="grantha">kra</hi>vattikaḷ <hi rend="grantha">śrī</hi>valla<hi rend="grantha">bhade</hi>vaṟkku yāṇṭu pattāvatu nāḷiru
+                    <lb n="11" break="no"/>nūṟṟaiñciṉāl māṭakkuḷakkiḻ maturai yuḷḷālai Aḻaki
+                    <lb n="12" break="no"/>ya pāṇṭiyaṉ kūṭattiṟ paḷḷikkaṭṭil pāṇṭiyaṉi leḻunta
+                    <lb n="13" break="no"/>ruḷiyiruntu ceyyat tiruvāy moḻintaruḷiṉapaṭi <supplied reason="undefined"><g type="danda">.</g></supplied> keraḷaciṅ
+                    <lb n="14" break="no"/>kavaḷanāṭṭu <hi rend="grantha">brahmade</hi>yan tirupputtūrt tiruttaḷi ma<hi rend="grantha">hā⌈</hi>
+                    <lb n="15" break="no"/><hi rend="grantha">de</hi> vaṟkkut tiruppaṭimāṟ ṟuḷḷiṭṭ<choice><sic>a</sic><corr>u</corr></choice> veṇṭu nimantaṅkaḷukku I
+                    <lb n="16" break="no"/>ṟuppatāka Iṉṉāṭṭu maṇṇāṇimaṅkalamāṉa meṟtiru
+                    <lb n="17" break="no"/>maṅkalam māṭai patiṉeḻaraiye Orumāvum kiḻmuḷ
+                    <lb n="18" break="no"/>ḷivayal māṭai Irupattaiñce mukkāle muṉṟumā
+                    <lb n="19" break="no"/>vum Āka māṭai nāṟpattu muṉṟe yoṉpatu māvum
+                    <lb n="20" break="no"/>yāṇṭu pattāvatu mutal <hi rend="grantha">de</hi>va<hi rend="grantha">dā</hi>ṉam Iṟaiyiliyā<supplied reason="omitted">y</supplied>
+                    <lb n="21"/>Iṟuppatākap peṟaveṇṭumeṉṟu kāliṅkarāya
+                    <lb n="22" break="no"/>ṉ namakkuc coṉṉamaiyil keraḷaciṅkavaḷanāṭṭu <hi rend="grantha">bra</hi>
+                    <lb n="23" break="no"/><hi rend="grantha">hmade</hi>yan tirupputtūrt tiruttaḷi ma<hi rend="grantha">hā</hi>tevaṟkkut tiruppa
+                    <lb n="24" break="no"/>ṭimāṟ ṟuḷḷiṭṭu veṇṭu nimantaṅkaḷukku Iṟuppa
+                    <lb n="25" break="no"/>tāka Iṉṉāṭṭu maṇṇāṇimaṅkalamā
+                    <lb n="26" break="no"/>ṉa meṟttirumaṅkala māḷaṭa patiṉeḻa⌈
+                    <lb n="27" break="no"/>raiye yorumāvum kiḻmuḷḷivayal māṭai
+                    <lb n="28"/>Irupattaiñce mukkāle muṉṟumāvum Āka
+                    <lb n="29"/>māṭaiya nāṟppattu muṉṟeyoṉ<surplus>m</surplus>patu
+                    <lb n="30" break="no"/>māvum yāṇṭu pattāvutu mutal Iṟaiyiliyākak kuṭu
+                    <lb n="31" break="no"/>ttomeṉṟu tiruvāymoḻintaruḷinār <supplied reason="undefined"><g type="danda">.</g></supplied> Ivai parā
+                    <lb n="32"/><hi rend="grantha">kra</hi>mapāṇṭiya Utta<surplus>manti</surplus>ramantiri yeḻuttiṉāl muṭittu
+                    <lb n="33"/>Ivvūrkaḷukkup perunāṉṅkellai kiḻellai Āṟṟu
+                    <lb n="34" break="no"/>kku meṟkkum teṉṉellai cuvaramaṅkalattukkum po
+                    <lb n="35" break="no"/>ttikuṭik kaṟkuḷattukkum peruṅkuḷattukkum vaṭak
+                    <lb n="36" break="no"/>kum mele<supplied reason="omitted">l</supplied>lai melmuḷḷi vayalukkum tulaiyāni
+                    <lb n="37" break="no"/>lai vayakkal varampu vaṭakku nokkippoṉa cev⌈
+                    <lb n="38" break="no"/>vaikkuk kiḻakkum vaṭavellai miṟai vayalukkum U
+                    <lb n="39" break="no"/>ḷaikkuṭikkum Āṟṟukkut teṟkum Āka Illi⌈
+                    <lb n="40" break="no"/>caitta perunāṉa<unclear>ṅ</unclear>kellaik kakappaṭṭa Ivvūrira
+                    <lb n="41" break="no"/>ṇṭum vaḷaiyiṟ<surplus>c</surplus> cuṟṟumuṟṟum Uṇṇila ⌈
+                    <lb n="42" break="no"/>moḻiviṉṟi tiruttaḷi <hi rend="grantha">mahāde</hi>vaṟkku Iṟaiyili
+                    <lb n="43" break="no"/>yākak kuṭuttom <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary">
+                <p n="43"><foreign>kuṭuttom <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg></foreign>. The inscription stops here.</p> 
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 14.228 by <bibl><ptr target="bib:RamanathaAyyar1962_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:RamanathaAyyar1962_01"/>
+                        <citedRange unit="page">130-131</citedRange>
+                        <citedRange unit="item">228</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
