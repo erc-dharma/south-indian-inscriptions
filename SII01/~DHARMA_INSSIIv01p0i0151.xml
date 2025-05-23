@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 1.151: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">PART IV. ADDENDA. No. 151. A PALLAVA GRANT FROM KŪRAM.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv01p0i0151</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The original of the subjoined grant was bought for Government from the <hi rend="italic">Dharmakartā</hi> of <hi rend="bold">Kūram</hi>, a village near <hi rend="bold">Kāñchīpuram</hi>.<note>Sewell's <hi rend="italic">Lists of Antiquities</hi>, Vol. I, p. 187.</note> It is engraved on seven thin copper-plates, each of which measures 10(1/8) by 3(1/4) inches. As the plates are in very bad preservation, the work of deciphering them was somewhat difficult. Of the seventh plate about one half is completely lost. Next to it, the first, fifth and sixth plates have suffered most. An elliptic ring, which is about (3/8) inch thick and measures 4 by 4(3/4) inches in diameter, is passed through a hole on the left side of each plate. The seal is about 2(1/2) inches in diameter and bears a bull, which is seated on a pedestal, faces the left and is surmounted by the moon and a <hi rend="italic">liṅga</hi>. Farther up, there are a few much obliterated syllables. A legend of many letters passes round the whole seal. Unfortunately it is so much worn, that I have failed to decipher it.</p>						
+                            
+                            <p>The language of the first 4(1/2) plates of the inscription is Sanskrit,—verse and prose; the remainder is written in Tamil. The Sanskrit portion opens with three benedictory verses, of which the two first are addressed to <hi rend="bold">Śiva</hi> and the third mentions the race of the <hi rend="bold">Pallavas</hi>. Then follows, as usual,<note>Compare the pedigrees on pages 9 and 25, above, and <hi rend="italic">Ind. Ant</hi>. Vol. VIII, p. 277.</note> a mythical genealogy of <hi rend="bold">Pallava</hi>, the supposed founder of the Pallava race:—</p>						
+                            
+                            <p>[[genealogical table:]] Brahman. Aṅgiras. Bṛihaspati. Bharadvāja. Droṇa. Aśvatthāman. Pallava.</p>						
+                            
+                            <p>The historical part of the inscription describes three kings, <hi rend="italic">viz.</hi>, <hi rend="bold">Parameśvaravarman</hi>, his father <hi rend="bold">Mahendravarman</hi> and his grandfather <hi rend="bold">Narasiṁhavarman</hi>. Of <hi rend="bold">Narasiṁhavarman</hi> it says, that he “repeatedly defeated the <hi rend="bold">Choḷas, Keraḷas, Kaḷabhras</hi> and <hi rend="bold">Pāṇḍyas</hi>,” that he “wrote the (<hi rend="italic">three</hi>) syllables of (<hi rend="italic">the word) vijaya</hi> (i.e., <hi rend="italic">victory</hi>), as on a plate, on <hi rend="bold">Pulakeśin's</hi> back, which was caused to be visible (i.e., <hi rend="italic">whom he caused to turn his back</hi>) in the battles of <hi rend="bold">Pariyaḷa, Maṇimaṅgala, Śūramāra</hi>, <hi rend="italic">etc</hi>.,” and that he “destroyed (<hi rend="italic">the city of</hi>) <hi rend="bold">Vātāpi</hi>.” No historical information is given about <hi rend="bold">Mahendravarman</hi>, who, accordingly, seems to have been an insignificant ruler. A laudatory description of the virtues and deeds of his son <hi rend="bold">Parameśvaravarman</hi> fills two plates of the inscription. The only historical fact contained in this long and difficult passage is that, in a terrible battle, he “made <hi rend="bold">Vikramāditya</hi>,—whose army consisted of several <hi rend="italic">lakshas</hi>,—take to flight, covered only by a rag.”</p>						
+                            
+                            <p>The three kings who are mentioned in the Kūram grant, <hi rend="italic">viz.</hi>, <hi rend="bold">Narasiṁhavarman, Mahendravarman</hi> and <hi rend="bold">Parameśvaravarman</hi>, are identical with three Pallava kings described in Mr. Foulkes' grant of <hi rend="bold">Nandivarman Pallavamalla</hi>,<note><hi rend="italic">Ind. Ant</hi>. Vol. VIII, p. 275; <hi rend="italic">Salem Manual</hi>, Vol. II, p. 356. The following corrections have to be made in the transcript:—Line 13, read <hi rend="italic">Siṁhavishṇor api</hi>; line 14, <hi rend="italic">Pariyaḷa-Maṇiº</hi>; line 16, <hi rend="italic">Peruvaḷanallū[r]yyuddhe</hi>.</note> <hi rend="italic">viz.</hi>, Narasiṁhavarman I., Mahendravarman II. and Parameśvaravarman I. Of <hi rend="bold">Narasiṁhavarman</hi> I. the lastmentioned grant likewise states, that he “destroyed <hi rend="bold">Vātāpi</hi>” and that he “frequently defeated <hi rend="bold">Vallabharāja</hi> at <hi rend="bold">Pariyaḷa, Maṇimaṅgala, Śūramāra</hi>, and other (<hi rend="italic">places</hi>).” Here Vallabharāja corresponds to the <hi rend="bold">Pulakeśin</hi> of the Kūram grant. If Mr. Foulkes' grant further reports, that <hi rend="bold">Parameśvaravarman</hi> I. “defeated the army of <hi rend="bold">Vallabha</hi> in the battle of <hi rend="bold">Peruvaḷanallūr</hi>,” it is evident that it alludes to the same fight as is described in the Kūram grant.</p>						
+                            
+                            <p>If we combine the historical information contained in both grants, it appears—1. that the <hi rend="bold">Pallava</hi> king <hi rend="bold">Narasiṁhavarman</hi> I. defeated <hi rend="bold">Pulakeśin</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Vallabharāja</hi>, at <hi rend="bold">Pariyaḷa, Maṇimaṅgala, Śūramāra</hi>, and other places, and destroyed <hi rend="bold">Vātāpi</hi>, the capital of the Western <hi rend="bold">Chalukyas</hi>, and—2. that his grandson <hi rend="bold">Parameśvaravarman</hi> I. defeated <hi rend="bold">Vikramāditya</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Vallabha</hi>, at <hi rend="bold">Peruvaḷanallūr</hi>. As stated above (p. 11), Pulakeśin and Vikramāditya, the opponents of the two Pallava kings, must have been the Western <hi rend="bold">Chalukya</hi> kings <hi rend="bold">Pulikeśin</hi> II. (Śaka 532 and 556) and his son <hi rend="bold">Vikramāditya</hi> I. (Śaka 592 (?) to 602 (?)), who, <hi rend="italic">more indico</hi>, likewise boast of having conquered their antagonists.<note>Similarly, Rājendra-Choḷa and Jayasiṁha III. claim to have conquered each other (see page 96, above). And, in a Mahobā inscription (<hi rend="italic">Journal of the German Oriental Society</hi>, Vol. XL, p. 50) and in the prologue of the drama <hi rend="italic">Prabodhachandrodaya</hi> the Chandella king Kīrtivarman and his general Gopāla are said to have completely defeated Karṇa of Chedi or Ḍāhāla, who, in the <hi rend="italic">Vikramāṅkacharita</hi> (sarga xviii, verse 93), is called “the death to the lord of the Kālañjara mountain” (<hi rend="italic">i.e.</hi>, to the Chandella king).</note> Thus, a grant of <hi rend="bold">Pulikeśin</hi> II. says, that “he caused the leader of the <hi rend="bold">Pallavas</hi> to hide his prowess behind the ramparts of <hi rend="bold">Kāñchīpura</hi>;”<note><hi rend="italic">Ind. Ant</hi>. Vol. VIII, p. 245.</note> and, in a grant of <hi rend="bold">Vikramāditya</hi> I., it is said that “this lord of the earth, conquering <hi rend="bold">Īśvarapotarāja</hi> (<hi rend="italic">i.e.</hi>, Parameśvaravarman I.), took <hi rend="bold">Kāñchī</hi>, whose huge walls were insurmountable and hard to be broken, which was surrounded by a large moat that was unfathomable and hard to be crossed, and which resembled the girdle (<hi rend="italic">kāñchī</hi>) of the southern region (read <hi rend="italic">dakshiṇadiśaḥ</hi>).”<note><hi rend="italic">Ind. Ant</hi>. Vol. VI, p. 77. The corrupt passage, which precedes the sentence quoted in the text, mentions a “<hi rend="bold">Śrīvallabha</hi>, who had crushed the fame of <hi rend="bold">Narasiṁha</hi>, destroyed the power of <hi rend="bold">Mahendra</hi> and surpassed <hi rend="bold">Īśvara</hi> by his polity.” In whatever way the next following lines have to emended, there is, I think, little doubt, that Śrīvallabha must refer to either <hi rend="bold">Pulikeśin</hi> II. or <hi rend="bold">Vikramāditya</hi> I., and Narasiṁha, Mahendra and Īśvara to the three consecutive <hi rend="bold">Pallava</hi> kings <hi rend="bold">Narasiṁhavarman</hi> I., <hi rend="bold">Mahendravarman</hi> II. and <hi rend="bold">Parameśvaravarman</hi> I.</note></p>						
+                            
+                            <p>Another <hi rend="bold">Pallava</hi> king, <hi rend="italic">viz.</hi>, <hi rend="bold">Nandipotavarman</hi>, is mentioned as the opponent of the Western <hi rend="bold">Chalukya</hi> king <hi rend="bold">Vikramāditya</hi> II. (Śaka 655 to 669) in the <hi rend="bold">Vakkaleri</hi> grant, which was published by Mr. Rice.<note><hi rend="italic">Ind. Ant</hi>. Vol. VIII, pp. 23 ff.</note> The table inserted on p. 11, above, shows that this Nandipotavarman must be identical with the Pallava king <hi rend="bold">Nandivarman Pallavamalla</hi>, who is mentioned in Mr. Foulkes' grant. Though digressing from my subject, I now sub- join a transcript from the facsimile and a translation of that part of the Vakkaleri grant, which describes the reign of <hi rend="bold">Vikramāditya</hi> II.</p>						                            
+                            <p>
+                                <foreign>
+                                    
+                                    <lb n="36"/>sakalabhuvanasāmrājyalakṣmīsvayaṁvarābhiṣekasamayānanta-
+                                    
+                                    <lb n="37"/>rasamupajātamahotsāhaḥ ātmavaṁśajapūrvvanṛpaticchāyā-				
+                                    
+                                    <lb n="38"/>pahāriṇaḥ prakṛtyamitrasya pallavasya samūlonmūla-
+                                    
+                                    <lb n="39"/>nāya kṛtamatiratitvarayā tuṁḍākaviṣayaṁ prāpyābhimusā<note n="146-1">Read <foreign>ºmukhāº</foreign>.</note>gatannandipotava-						
+                                    
+                                    <lb n="40"/>rmmābhidhānampallavaṁ raṇamukhe saṁprahṛtya prapalāsya<note n="146-2">Read <foreign>prapalāyya</foreign>.</note>kaṭumukhavādi-						
+                                    
+                                    <lb n="41"/>trasamudraghoṣābhidhānavādyaviśeṣānkhaṭvāṁgadhvaja<note n="146-3">Read <foreign>ºviśeṣau khaṭvāṅgadhvajaṁ</foreign>.</note>prabhūtaprakhyāta-						
+                                    
+                                    <lb n="42"/>hastivarānsvakiraṇanikaravikāsanirākṛtatimirammāṇikyarāśi-
+                                    
+                                    <lb n="43"/>ñca hastekṛtya kalaśabhavanilayaharidaṁganāṁcitakāṁcīya-
+                                    
+                                    <lb n="44"/>mānāṁ kāṁcīmavināśya praviśya satatapravṛttadānāna(ā)nditadvijja-<note n="146-4">Read <foreign>ºdvijaº</foreign>.</note>						
+                                    
+                                    <lb n="45"/>dīnānāthajano narasiṁhapotavarmmanirmmāpitaśilāmayarāja-
+                                    
+                                    <lb n="46"/>siṁheśvarādidevakulasuvarṇarāśipratyarppaṇopārjitorjitapuṇyaḥ a-
+                                    
+                                    <lb n="47"/>nivāritapratāpaprasarapratāpitapāṇḍyacoḷakeraḷakaḷabhrapra-
+                                    
+                                    <lb n="48"/>bhṛtirājanyakaḥ kṣubhitakarimakarakarahatadalitaśuktimuktamuktāphala-
+                                    
+                                    <lb n="49"/>prakaramarīcijālavilasitavelākule<note n="146-5">Read <foreign>ºkūle</foreign>.</note><foreign>ghūrṇamānārṇobhidhāne dakṣi[ṇā]-</foreign>						
+                                    
+                                    <lb n="50"/>rṇave śaradamalaśaśadharaviśadayaśorāśimayaṁ jayastambha-
+                                    
+                                    <lb n="51"/>matiṣṭhipadvikramādityasatyāśrayaśrīpṛthivīvallabhamahārājādhirā-
+                                    
+                                    <lb n="52"/>japarameśvarabhaṭṭāraka[ḥ]</foreign></p>						
+                            
+                            <p>“<hi rend="bold">Vikramāditya Satyāśraya Śrī-Pṛithivī-vallabha</hi>, the king of great kings, the supreme ruler, the lord,—to whom arose great energy immediately after the time of his anointment at the self-choice of the goddess of the sovereignty of the whole world, and who resolved to uproot completely his natural enemy, the <hi rend="bold">Pallava</hi>, who had robbed of their splendour the previous kings born from his race,—reached with great speed the <hi rend="bold">Tuṇḍākavishaya</hi> (<hi rend="italic">i.e.</hi>, the <hi rend="bold">Toṇḍai-maṇḍalam</hi><note>See page 106, note 3.</note>), attacked at the head of a battle and put to flight the <hi rend="bold">Pallava</hi>, called <hi rend="bold">Nandipotavarman</hi>, who had come to meet him, took possession of the musical instrument (<hi rend="italic">called</hi>) “harsh-sounding” and of the excellent musical instrument called “roar of the sea,” of the banner (<hi rend="italic">marked with</hi> Śiva's) club, of many renowned and excellent elephants, and of a heap of rubies, which drove away darkness by the light of the multitude of their rays, and entered (<hi rend="italic">the city of</hi>) <hi rend="bold">Kāñchī</hi>,—which seemed to be the handsome girdle (<hi rend="italic">kāñchī</hi>) of the nymph of the southern region,—without destroying it. Having made the twice-born, the distressed and the helpless rejoice by continual gifts, having acquired great merit by granting heaps of gold to (<hi rend="italic">the temple</hi>) of stone (<hi rend="italic">called</hi>) <hi rend="bold">Rājasiṁheśvara</hi>, which <hi rend="bold">Narasiṁhapotavarman</hi> had caused to be built,<note n="146-7">See page 11, above.</note>and to other temples, and having burnt by the unimpeded progress of his power the <hi rend="bold">Pāṇḍya, Choḷa, Keraḷa, Kaḷabhra</hi> and other princes, he placed a pillar of victory (<hi rend="italic">jayastambha</hi>), which consisted (<hi rend="italic">as it were</hi>) of the mass of his fame that was as pure as the bright moon in autumn, on the Southern Ocean, which was called <hi rend="bold">Ghūrṇamānārṇas</hi> (i.e., <hi rend="italic">that whose waves are rolling</hi>) and whose shore glittered with the rays of the pearls, which had dropped from the shells, that were beaten and split by the trunks of the frightened elephants (<hi rend="italic">of his enemies</hi>), which resembled sea-monsters.”</p>						
+                            
+                            <p>That <hi rend="bold">Vikramāditya</hi> II. really entered <hi rend="bold">Kāñchī</hi> and visited the <hi rend="bold">Rājasiṁheśvara</hi> Temple, is proved by a much obliterated Kanarese inscription in the <hi rend="bold">Kailāsanātha</hi> Temple at <hi rend="bold">Kāñchīpuram</hi>. This inscription is engraved on the back of a pillar in the <hi rend="italic">maṇḍapa</hi> in front of the <hi rend="bold">Rājasiṁheśvara</hi> Shrine, close to the east wall of that <hi rend="italic">maṇḍapa</hi>, which at a later time was erected between the front <hi rend="italic">maṇḍapa</hi> and Rājasiṁheśvara. It begins with the name of “<hi rend="bold">Vikramāditya Satyāśraya Śrī-Pṛithivī-vallabha</hi>, the king of great kings, the supreme ruler, the lord” and mentions the temple of <hi rend="bold">Rājasiṁheśvara</hi> (<foreign>rājasiṁgheśvara,</foreign> line 4).</p>						
+                            
+                            <p>I now return to the <hi rend="bold">Kūram</hi> plates. The three last of them contain the grant proper, and record in Sanskrit and Tamil, that <hi rend="bold">Parameśvara</hi> (<hi rend="italic">i.e.</hi>, Parameśvaravarman I.) gave away the village of <hi rend="bold">Parameśvara-maṅgalam</hi>,—which was evidently named after the king himself,—in twenty-five parts. Of these, three were enjoyed by two <hi rend="italic">Brāhmaṇas</hi>, <hi rend="bold">Anantaśivāchārya</hi> and <hi rend="bold">Phullaśarman</hi>, who performed the divine rites and looked after the repairs of the <hi rend="bold">Śiva</hi> temple at <hi rend="bold">Kūram</hi>, which was called <hi rend="bold">Vidyāvinīta-Pallava-Parameśvara</hi>, and which had been built by <hi rend="bold">Vidyāvinīta-Pallava</hi>, probably a relative of the king. The fourth part was set aside for the cost of providing water and fire for the <hi rend="italic">maṇḍapa</hi> at <hi rend="bold">Kūram</hi>, and the fifth for reciting the <hi rend="italic">Bhārata</hi> in this <hi rend="italic">maṇḍapa</hi>. The remaining twenty parts were given to twenty <hi rend="italic">Chaturvedins</hi>.</p>						
+                            
+                            <p>At the time of the grant, the village of <hi rend="bold">Kūram</hi> belonged to the <hi rend="italic">nāḍu</hi> (country) or, in Sanskrit, <hi rend="italic">manyavāntara-rāshṭra</hi> of <hi rend="bold">Nīrveḷūr</hi>, a division of <hi rend="bold">Ūṟṟukkāṭṭukkoṭṭam</hi> (lines 49 and 57 f.), and the village of <hi rend="bold">Parameśvaramaṅgalam</hi> belonged to the <hi rend="bold">Paṉmā-nāḍu</hi> or <hi rend="bold">Patmā-manyavāntara-rāshṭra</hi>, a division of <hi rend="bold">Maṇayiṟkoṭṭam</hi> (lines 53 and 71). As, in numerous Tamil inscriptions, <foreign>paṉma</foreign> corresponds to the Sanskrit <foreign>varman,</foreign>—the form <hi rend="bold">Paṉmānāḍu</hi>, which occurs also in No. 86, might mean the country of the <hi rend="bold">Varmās</hi>, <hi rend="italic">i.e.</hi>, of the <hi rend="bold">Pallavas</hi>, whose names end in <hi rend="italic">varman</hi>, the nominative case of which is <hi rend="italic">varmā</hi>. There is, however, a possibility of <foreign>patmā</foreign> being a mistake for, and <foreign>paṉmā</foreign> a Tamil form of, <hi rend="bold">Padmā</hi>,<note>The usual Tamil form of <foreign>padmā</foreign> is <foreign>patumai</foreign>. But compare <foreign>āttumā</foreign> and <foreign>āṉmā</foreign>, both of which correspond to the Sanskrit <foreign>ātmā</foreign>.</note> one of the names of the goddess <hi rend="bold">Lakshmī</hi>. With <hi rend="bold">Maṇayiṟkoṭṭam</hi> compare <hi rend="bold">Maṇaviṟkoṭṭam</hi> in No. 86 and <hi rend="bold">Eyiṟkoṭṭam</hi> in No. 88. Possibly Maṇaviṟkoṭṭam is a mere corruption of Maṇayiṟkoṭṭam, and Maṇayil stands for Maṇ-eyil, “mud-fort,” which might be a fuller form of <hi rend="bold">Eyil</hi>, a village in the South Arcot District, which seems to have given its name to Eyiṟkoṭṭam.<note>See page 123, note 5.</note></p>						
+                            
+                            <p>In conclusion, an important palaeographical peculiarity of the Tamil portion of the Kūram plates has to be noted. The <hi rend="italic">puḷḷi</hi>, which corresponds to the Nāgarī <hi rend="italic">virāma</hi>, occurs frequently, though not regularly, in combination with seven letters of the Tamil alphabet. In the case of five of these <foreign>(ṅ, m, l, ḷ, ṉ)</foreign> it is represented by a short vertical stroke over the letter, as in the inscription No. 82, above.<note>See page 113, note 6.</note> In the case of the two others (<foreign>n</foreign> and <foreign>r</foreign>) it has a similar shape, but is placed behind the letter and at an angle with it, in such a way that the lower part is nearer to the letter than the upper one.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-23" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="san-Latn" rendition="class:grantha maturity:undetermined">
+                
+                <pb n="1r"/>
+                
+                <p>
+                    <pb n="1v"/>
+                    <lb n="1"/>svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied> pañcā<unclear>syastriṁ</unclear>śada<unclear>rddha</unclear><surplus>ḥ</surplus><unclear>pra</unclear>tibha<unclear>ya</unclear>nayanaścandra<unclear>mauḷi</unclear>striśū<unclear>lī bhī</unclear>ma
+                    <lb n="2" break="no"/>vyāḷopavī<unclear>tī daśabhujaparighastatvamātrātmamūrttiḥ</unclear> <supplied reason="undefined"><g type="danda">.</g></supplied> <unclear>divyovekṣyo mukunda</unclear>pra
+                    <lb n="3" break="no"/><unclear>bhṛ</unclear>ti<unclear>bhi</unclear>ramarai<unclear>ssṛṣṭikṛnmantrasi</unclear>ddhaḥ <unclear>karttā no mūrttavi</unclear>dyā <unclear>vihitaparaya</unclear>ma
+                    <lb n="4" break="no"/>strāyatāṁ viśvamūrtti<supplied reason="omitted">ḥ</supplied> <g type="ddanda">.</g> <supplied reason="omitted">1</supplied> kā<unclear>ryyavyūha</unclear>kalākramasya <unclear>paramavyomā</unclear>mṛta<unclear>jyotiṣo vi</unclear>
+                    <lb n="5" break="no"/>dvanmānasacandrakāntapatitā mūrcchanti yasyāṁśa<unclear>vaḥ</unclear> <supplied reason="undefined"><g type="danda">.</g></supplied> <unclear>bhūtānāṁ hṛ</unclear>daye<unclear>ṣu cāna</unclear>ya
+                    
+                    <pb n="2r"/>
+                    <lb n="6" break="no"/>ti yaḥ śaktiṁ kriyāsādhanīṁ trayātmā<note n="148-1">Read trayyātmā.</note>parameśvarassa jayati trailokyacūḷāmaṇi<unclear>ḥ</unclear> <g type="ddanda">.</g> <supplied reason="omitted">2</supplied> A
+                    <lb n="7" break="no"/>brahmaṇyamasomayāgamayathāprasthānadaṇḍodyamam mithyādāntamadānaśūrama
+                    <lb n="8" break="no"/>nṛtavyāhārajihmānanam <supplied reason="undefined"><g type="danda">.</g></supplied> jātaṁ yatra nareśvaranna śruṇumo<note n="148-2">Read śṛṇumo.</note>yuddheṣu vā vikla<unclear>vam</unclear>
+                    <lb n="9"/>nirvvighnaḥ<note n="148-3">Read ºnirvighnaṁ.</note>pṛthivīnnirītimavatāntatpallavānāṁ kulam <g type="ddanda">.</g> <supplied reason="omitted">3</supplied> brahmaṇoṁgirāsta<unclear>to</unclear> bṛha
+                    <lb n="10" break="no"/>spati<unclear>ḥ</unclear> tasmādbharadvājaḥ tato droṇaḥ <unclear>dro</unclear>ṇādaparimitatejodhāmā<unclear>śvatthā</unclear>mā
+                    <lb n="11"/>tato nirākṛtakulāpallavaḥ pallavaḥ yatassakalabhuvanavallabha(ḥ)pallavakulam <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                    
+                    <pb n="2v"/>
+                    <lb n="12"/>stheyāttatpallavakulam yatra jātañjaneśvaraḥ<note n="148-4">Read ºśvaram.</note><supplied reason="undefined"><g type="danda">.</g></supplied> Abrahmaṇyamma<note n="148-5">Read ma.</note>dātāramma<note n="148-6">Read ma.</note>śūrannānuśuśruma [<g type="ddanda">.</g> 4*] ta
+                    <lb n="13" break="no"/><unclear>du</unclear>daya<note n="148-7">tadudayaº seems to be corrected from tadanvayaº.</note>dharaṇidharasomādityasyāvinatamukha(ḥ)nṛpatimūrddhni cajośane<note n="148-8">Read cūḷāmaṇeḥ ?</note>pratiyanti<note n="148-9">Read pratyarthiº.</note>rājagaja
+                    <lb n="14" break="no"/>yūthasiṁhasya narasiṁhavarmmaṇaḥ svayamiva bhagavato nṛpatirūpāvatīrṇṇasya narasiṁha
+                    <lb n="15" break="no"/>sya muhuravajitacoḷakeraḷakaḷabhrapāṇḍyasya sahasrabāhoriva samaraśatani
+                    <lb n="16" break="no"/>rvviṣṭasahasrabāhu<note n="148-10">The ba of bāhu is corrected from ja.</note>karmmaṇaḥ pariyaḷamaṇimaṁgalaśūramāraprabhṛtiraṇavidaśśita<note n="148-11">Read ºdarśitaº.</note>pula
+                    <lb n="17" break="no"/>keśiṣṭaṣṭhapaṭṭalikhitavijayākṣarasya kalaśayoneriva vimathitavātāpeḥ pautro ma
+                    <lb n="18" break="no"/>hendrasyeva suracitasampado mahendravarmmaṇaḥ supraṇītavarṇṇāśramadharmmasya putra<unclear>ḥ</unclear>
+                    
+                    <pb n="3r"/>
+                    <lb n="19"/>parameśvara Iva sarvvādhikadarśanaḥ<note n="148-12">The rśa of ºdarśanaḥ seems to be corrected from śi.</note>parameśvaravarmmā bharata Iva sarvvadamana<supplied reason="omitted">ḥ</supplied> sagara Iva kṛtā
+                    <lb n="20" break="no"/>samañjasatyāgaḥ karṇṇa Iva puṣkalāṁgo yaḥ priyak<choice><sic>a</sic><corr>ā</corr></choice>vyo yayātiriva Anupanatānāṁ rājñā<note n="148-13">Read rājñāṁ.</note>
+                    <lb n="21"/>yasyājñā bhavati sarvvadā pīḷā saiva suhṛdāmprayacchati mukhaśobhā<note n="148-14">Read ºśobhāṁ.</note>karṇṇapūratayā caturaḥ kalā
+                    <lb n="22" break="no"/>vilā<unclear>se</unclear> niyatam yaścāṁdo<note n="148-15">Read yaścandro ?</note>bhavatyanaṁgasya muktāguṇastu hṛdaye muktāguṇa Eva
+                    <lb n="23"/>vanitā<unclear>nā</unclear>m Agaṇitanarahayakarikulavimarddajanitena reṇutuhinena Āropitaśa
+                    <lb n="24" break="no"/>śimaṇḍalasādṛśyasahasrakarabimbe paṭaharavagarjjitogre vikośanistriṁśa(t)vi
+                    <lb n="25" break="no"/>dyudābhoge pracaritakuñjarajalade vikālavarṣāvatāra Iva tuṁgaturaṁgataraṁge praca
+                    
+                    <pb n="3v"/>
+                    <lb n="26" break="no"/>ratkarimakarajanitaviṣamāvatto<note n="149-1">Read ºvarte.</note>aviraḷamudīrṇṇaśaṁkhe vijṛmbhamāṇe samudra Iva khaḍgala
+                    <lb n="27" break="no"/>tāvaraṇayute saśarāsananāgatilakapunnāgaghane Uddhatakalakalaśabde kānana Iva caṇḍave
+                    <lb n="28" break="no"/>gapavanākulite yodhāpurītadhanuṣu<note n="149-2">Read yodhāpūritadhanuḥṣu.</note>vyatipatitapatatriruddhapavanaphathe<note n="149-3">Read ºpathe.</note>pracaritatomara
+                    <lb n="29" break="no"/>śaktiprāsagadākaṇayakappaṇa<note n="149-4">Read ºkarpaṇaº.</note>cakre Anyonyalīśa<note n="149-5">Read ºliśaº ?</note>radanakulīśa<note n="149-6">Read ºkuliśaº.</note>sthirakilita<note n="149-7">Read ºkīlitaº.</note>vadanama
+                    <lb n="30" break="no"/>ttagajabṛnde Anyonyamūrddhapātitakhaṅgavyatiṣaktaturagasādigaṇe śastrāśastra<note n="149-8">Read śastrāśastriº.</note>kacā
+                    <lb n="31" break="no"/>kacidaṇḍīrkṛiyāpravyaṁkta<note n="149-9">Read ºkacidaṇḍādaṇḍikriyāpravyaktaº.</note>bhaṭajane Anyonyasadṛśagaṇanaparibhavanīryyāta<note n="149-10">Read ºniryātaº.</note>nāmṛśa<note n="149-11">Read ºnāgabhṛśaº ?</note>madamiśrīta<note n="149-12">Read ºmiśritaº.</note>
+                    <lb n="32" break="no"/>śoṁṇitakuṁkumaghana<note n="149-13">The gha of ghana seems to be corrected from sa.</note>lipya<supplied reason="omitted">mā</supplied>nabhūmitale virahitanipatitavā<unclear>hu</unclear>grīvājaṁ<unclear>gho</unclear>rukāṇḍa
+                
+                <pb n="4r"/>
+                    <lb n="33" break="no"/>dantabalauyebhyūha<note n="149-14">Read ºbalaughe vyūhaº.</note>sampātavidīrṇṇaprajavitavidrutabhūmi<supplied reason="omitted">pa</supplied>titobhayapakṣe A<note n="149-15">The whole passage from mpāta to a is engraved over an erasure and partially doubtful.</note>nyonyajaya
+                    <lb n="34" break="no"/>parājayasandehapreṁkhalagnalakṣmīvihite rudhiroghapālikāyīta<note n="149-16">Read rudhiraighapālikāyitaº.</note>patitagajaśreṇi
+                    <lb n="35" break="no"/>pṛṣṭhavicaratmubhaṭe Anyonyaghātarandhrānadhi<unclear>ga</unclear>malaptakṛiyāyata<note n="149-17">Read ºluptakriyāyitaº.</note>sthitayodhe śastro
+                    <lb n="36" break="no"/>dya<note n="149-18">dya looks like nya.</note>tabhu<unclear>ja</unclear>daṇḍaiḥ sārambha<note n="149-19">Read saṁrambhaº.</note>vilohitākṣadaṣṭoṣṭhapuṭai rājanye<supplied reason="omitted">ḥ</supplied> kṛtakṛtyaiḥ nī<note n="149-20">Read niº.</note>ha(ti)
+                    <lb n="37" break="no"/>tā<unclear>rddha</unclear>hatairitasthitaḥ<note n="149-21">Read ºritastataḥ.</note>saṁkīrṇṇe ca śīrṇṇadhvajātapatrai<supplied reason="omitted">ḥ</supplied> patitagajaśca<note n="149-22">Read ºgajaiśca.</note>sitacalita
+                    <lb n="38" break="no"/>cāmaranikare khaṇḍitavimṛditacūrṇṇitamakuṭaṁgada<note n="149-23">Read ºmakuṭāṅgadaº.</note>hārakaṭakakarṇṇābharaṇe rudhiramadhupāna
+                    <lb n="39" break="no"/>mattapragītakūṣmāṇḍa<unclear>rākṣa</unclear>sapiśāce da<unclear>tta</unclear>layatulyakālapratibhayanīnṛrtyamkavandhaśatra<note n="149-24">Read ºnarīnṛtyamānakavandhaśataº.</note>
+                    <lb n="40" break="no"/>yonau <unclear>yone</unclear>kal(ā)kṣasādhanamā<unclear>yodha</unclear>naśirasi vikramāditya kappaṭa<note n="149-25">Read vikramādityaṁ karpaṭaº.</note>mātrapari
+                
+                <pb n="4v"/>
+                    <lb n="41" break="no"/>cchadam Ekākipalāyitam kṛ[ta<note n="149-26">Read ºcchadamekākī palāyitamakṛta.</note><g type="ddanda">.</g>] ranna<note n="149-27">nna is a correction for some other group; read rannaº.</note>prabhākhacitakāñcanaśāribandhasānnāhya nāgamakivā<note n="149-28">Read ºbandhaṁ saṁnāhya nāgamarivāº.</note>
+                    <lb n="42" break="no"/>raṇanāmadheya[m <g type="danda">.</g>*] nityānubandhamadanijaramadrinātha<note n="149-29">Read ºnirjharamadrināthaṁ.</note>sākṣādiva dvipasahasrakṛtāniyātram<note n="149-30">Read ºkṛtānuyānam.</note> [<g type="ddanda">.</g> 5*]
+                    <lb n="43"/>tridaśapatituraṁgasyevamaṣṭamaṁgalayatre varasañcalasam<note n="149-31">The passage from ºmaṣṭaº to ºsam is corrupt and against the metre.</note>pravyaktakalyāṇajātiṁ <supplied reason="undefined"><g type="danda">.</g></supplied> turagama
+                    <lb n="44" break="no"/>tiśayākhyāṁ ranna<note n="149-32">Read ºyākhyaṁ rabaº.</note>palyāṇavantam sa tamapi hayalakṣaiścāmaracchannakarṇṇai[ḥ <g type="ddanda">.</g> 6*] samarapari
+                    <lb n="45" break="no"/>śramasya sadṛtvaśamahapalamalayujavokam rattanakharamanupamamāṇi<note n="149-33">ṇi is corrected from ṇe.</note>kyamarakatani
+                    <lb n="46" break="no"/>veśamaṇḍanam ślakṣṇaguṇaṁ guṇantakaṭisūtram Udīrṇṇam maṇiprabham bhāsurakiraṇamāli
+                    <lb n="47" break="no"/>koṭamāṇikkamanaghamaviśṛtam manasi bhayavirppayanpārtthivānāndiśi diśi caṭitanirtyo
+                    <lb n="48"/>yaśam puṣpamālā Idam maharadaśeṣasaktayā śaktalakṣmyā saha vapuṣī viśeṣālaṁkṛ
+                
+                <pb n="5r"/>
+                    <lb n="49" break="no"/>te vīrakṛtyā tena parameśvareṇa <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">Ūṟṟukkāṭṭukkoṭṭa</seg>maddhye <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">nīrveḷur</seg>nāmamanyavāntararāṣṭre maṣṭaśa
+                    <lb n="50" break="no"/>taccaturvveda<note n="150-1">Read aṣṭaśatacaturvediº.</note>kulasamṛiddhakūragrāmanāmamaddhye<note n="150-2">Read ºkūranāmagrāmamadhye.</note>vidyāvinītapallavaparameśvaragṛhe pratiṣṭhāpi
+                    <lb n="51" break="no"/>tasya bhagavataḥ parameṣṭhina<supplied reason="omitted">ḥ</supplied> pinākapāṇe<unclear>ḥ</unclear> pūjyāsta<unclear>ā</unclear>pana<note n="150-3">Read pūjāsrāpanaº.</note>kumumagandhadhūpadīpahavirupa
+                    <lb n="52" break="no"/>hārabaliśaṁkhapaṭa(ā)hādipravarttanārttham Atraiva Udakamagnibhāratamākhyāna<note n="150-4">Read udakāgnibhāratākhyānaº.</note>nimittārtthañca
+                    <lb n="53"/>maṇayikkoṭṭamaddhye patmānāmamanyavāntararāṣṭre parameśvaramaṁgalanāmagrāma<supplied reason="omitted">ḥ</supplied> devatāna<note n="150-5">Read devadānaº.</note>
+                    <lb n="54" break="no"/>nimitta brahmadeya<note n="150-6">Read ºnimittaṁ brahmadeyaṁ.</note>vidyāvinītapallaṁvādhirājaviiyaptaḥ<note n="150-7">Read ºvijñaptyā ?</note> [ssarvvadattaparihāre datta(ḥ)ssarvvada]<note n="150-8">The passage enclosed in brackets is engraved over an erasure.</note>
+                    <lb n="55" break="no"/>ttaparihāre<note n="150-9">Read sarvakaraparihāreṇa ?</note>datta Iti <supplied reason="undefined"><g type="ddanda">.</g></supplied> Atrāñjñaptiḥ<note n="150-10">Read atrājñaptiḥ.</note>Uttarakāraṇikāmahāsenadatta<supplied reason="omitted">ḥ</supplied> vidyāvinī
+                    <lb n="56" break="no"/>tapallavaparameśvaragṛha Iha ca devakarmma<unclear>na</unclear>varmma<note n="150-11">Read ºnavakarmārthe ?</note>kūrattācāryyaputraananta
+                
+                <pb n="5v"/>
+                    <lb n="57" break="no"/>śivaĀcāryya<supplied reason="omitted">ḥ</supplied> <unclear>datta</unclear> Iti <unclear>rphu</unclear>llaśarmma<choice><sic>a</sic><corr>ā</corr></choice> dvau putra<unclear>pautrā</unclear> Āñjatāḥ<note n="150-12">Read ājñaptāḥ.</note><g type="ddanda">.</g><g type="dashLong">.</g>
+                </p>
+                
+                <p xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                    
+                    Ū<unclear>ṟ</unclear>ṟukkāṭṭukko
+                    <lb n="58" break="no"/>ṭṭattu nīrveḷurnāṭṭukkūramum ñammaṉampākkamu <gap reason="lost" quantity="1" unit="character"/> <unclear>ñaṅkaṇata</unclear> <gap reason="lost" quantity="1" unit="character"/> <unclear>ṭa</unclear> viccāvinī
+                    <lb n="59" break="no"/>tappallavaracaṉ vile<note n="150-13">Read <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">vilai</seg>.</note>kkāṇaṅkeyik<note n="150-14">Read <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">kaiyiṟ</seg>.</note>koṭuttu<unclear>cci</unclear> <gap reason="lost" quantity="1" unit="character"/> <unclear>ṇ</unclear>e ceyitu Āyiratti<unclear>ru</unclear>nū
+                    <lb n="60" break="no"/>ṟṟukkuḻippaṭiyāl viṟṟukkoṇṭa nilam <supplied reason="undefined"><g type="danda">.</g></supplied> ta<unclear>ḷi</unclear> Eṭuppataṟku Oṭu cuṭakkoṇṭa ni
+                    <lb n="61" break="no"/>lam <supplied reason="undefined"><g type="danda">.</g></supplied> tale<note n="150-15">Read <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">talai</seg>.</note>ppāṭakattuḷ cūḷe<note n="150-16">Read <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">cūḷai</seg>.</note>meṭṭuppaṭṭiyum Ūruḷ maṇṭakam Eṭutta nila 
+                    <lb n="62" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ttoṭuṅkūṭa Ayintekāl paṭṭi nilamum viṟṟu koṇṭu viccāvinītapallavaparameccu</seg>
+                    <lb n="63" break="no"/>rakaram Eṭuttu Eri toṇṭi Ittaḷi vaḻipāṭu ceyivārkku Irukkum mane<note n="150-17">Read <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">maṉai</seg>.</note>yum mane<note n="150-18">Read <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">maṉai</seg>.</note>ppa 
+                    <lb n="64" break="no"/>ṭappum vakuttu Itanuḷ mikka nilam Oḻukkavikku viḷe<note n="150-19">Read viḷai.</note>nilamā<unclear>ka</unclear>vum <supplied reason="undefined"><g type="danda">.</g></supplied> Iṉnilattukku
+                
+                <pb n="6r"/>
+                    <lb n="65"/><unclear>kīḻpā</unclear>lellai mūtu<note n="150-20">Read <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">mutu</seg>.</note>kāṭṭu vaḻiyiṉ meṟkum <supplied reason="undefined"><g type="danda">.</g></supplied> teṉpāl<unclear>ellai Ū</unclear>r puku <unclear>vaḻiyiṉ vaṭakku</unclear>
+                    <lb n="66" break="no"/>m <supplied reason="undefined"><g type="danda">.</g></supplied> melpālellai Ūr puku vaḻi niṉṟum vaṭakku nokki nāṭṭukkālu<unclear>k</unclear>ke poṉa va<unclear>ḻi</unclear>
+                    <lb n="67" break="no"/>yiṉ kiḻakkum <supplied reason="undefined"><g type="danda">.</g></supplied> vaṭapālellai nāṭṭukkālin teṟkum <supplied reason="undefined"><g type="danda">.</g></supplied> Iṉnāṉkelle<note n="150-21">Read <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">lai</seg>.</note> Akattu<unclear>m</unclear>
+                    <lb n="68"/>taḷi<unclear>yu</unclear>m Eriyum vaḻipāṭu ceyivār<supplied reason="omitted">k</supplied>ku manaiyum manaippaṭappuṉnīkki mik
+                    <lb n="69" break="no"/>ka nilamum cūḷaimeṭṭuppaṭṭiyum Oḻukkavikku viḷai nilamāka koṭuttu It
+                    <lb n="70" break="no"/>taḷikku veṇṭuntevakarumanavakarumañceyivataṟkum Irupatiṉmar caturppetika
+                    <lb n="71" break="no"/>ḷukkuppiramateyaṅkoṭuppataṟkum maṇayiṟkoṭṭattuppaṉmānāṭṭuppara
+                    <lb n="72" break="no"/>meccuramaṅkalattuḷ Akappaṭṭa vaḷeyil<note n="151-1">Read <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">vaḷaiyattil ?</seg></note>cuṟṟu nilam Attanaiyum Irupa<unclear>t</unclear>
+                
+                    <pb n="6v"/>
+                    <lb n="73" break="no"/>teyintu paṅkāyi <supplied reason="undefined"><g type="danda">.</g></supplied> Itaṉuḷ mūṉṟu paṅkum kūrattuttaḷikku <unclear>te</unclear>va<unclear>karuma</unclear>navakarumañ<unclear>cey</unclear>
+                    <lb n="74" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">vatākavum <supplied reason="undefined"><g type="danda">.</g></supplied> kūrattu maṇṭaka<supplied reason="omitted">ttu</supplied>kku taṇṇīr<supplied reason="omitted">k</supplied>kuntīkkum Oru paṅkākavum <supplied reason="undefined"><g type="danda">.</g></supplied> Immaṇṭakatte pā</seg>
+                    <lb n="75" break="no"/>ratam vācippataṟku Oru paṅkākavum <supplied reason="undefined"><g type="danda">.</g></supplied> niṉṟa Irupatu paṅkum Irupatiṉmar caturppetika
+                    <lb n="76" break="no"/>ḷukku pira<note n="151-2"><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ra</seg> is corrected from <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ma</seg>.</note>mateyamāka koṭututu<note n="151-3">Read <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">koṭuttatu</seg> or <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">koṭuttu</seg>.</note> <supplied reason="undefined"><g type="danda">.</g></supplied> Ivvūr manaiyum manaippaṭappum Ūrāḷcciyum cek
+                    <lb n="77" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">kum taṟi<unclear>yum</unclear> kūlamum tarakum kattikkāṇamum maṟṟum potuvinālluḷḷatellām I<unclear>p</unclear></seg>
+                    <lb n="78" break="no"/>paṅku Irupatteṉtiṉ<note n="151-4">Read <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">irupattaintiṉ</seg>.</note>vaḻiyāle paṅkiṭṭuṇpā(r)rākavum <supplied reason="undefined"><g type="danda">.</g></supplied> Ivvūr parameccurataṭākat
+                    <lb n="79" break="no"/>tukku pālāṟṟu niṉṟum toṇṭiṉa perumpiṭuku kāli<unclear>n pu</unclear>ḻuti pāṭum nī(r)rīṉta vaḻiyā<unclear>le</unclear>
+                    <lb n="80"/><unclear>tale</unclear>vāyum taleppeḻaiyum Ū<supplied reason="omitted">ṟ</supplied>ṟu<supplied reason="omitted">k</supplied>kālum toṇ<note n="151-5"><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">toṇ</seg> is engraved over an erasure.</note><unclear>ṭiṉa nila</unclear>mellām <unclear>paramecu</unclear>
+                
+                <pb n="7r"/>
+                    <lb n="81" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">varamaṅkalattu ni<unclear>la</unclear>māka Ikkāluḷ kuṟṟe<unclear>tta</unclear> <gap reason="lost" quantity="5" unit="character"/> </seg>
+                    <lb n="82"/>maiyum nāṭ<unclear>ā</unclear>ḻcciyu<unclear>ṉ</unclear>nāṭṭuppaṇṇikkeyu<unclear>m</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+                    <lb n="83"/>tāṉaṅkoṭutta muṉṟu paṅkunuḷum <unclear>O</unclear>ṉṟaraippaṅ<unclear>ku</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+                    <lb n="84"/>nār <unclear>A</unclear>ṉantacivaācāriyar makkaḷ makkaḷ ma<unclear>ru</unclear>makka<unclear>ḷ</unclear> <gap reason="lost" quantity="6" unit="character"/> 
+                    <lb n="85"/>ppuṟa<unclear>m</unclear>kkoṇṭu vaḻipāṭu ceyi<unclear>tu pali</unclear>po<unclear>caṉa</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+                    <lb n="86"/>m koṇṭu pu<unclear>lla</unclear>ca<unclear>ru</unclear>mar makka<unclear>ḷ makkaḷ</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+                    <lb n="87"/>vakarumamum Ivviruvar makkaḷ makkaḷ <gap reason="lost" quantity="5" unit="character"/> 
+                    <lb n="88"/><hi rend="grantha">deva</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tamākāniṉṟa</seg> <hi rend="grantha">bappabhaṭṭā</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">rakaruṅkā <gap reason="lost" quantity="5" unit="character"/> </seg>
+                    
+                <pb n="7v"/>
+                    <lb n="89"/>kkāttu koṭukka <g type="ddanda">.</g><g type="dashLong">.</g>
+                </p>
+                
+                <p>                    
+                    Asyā<supplied reason="omitted">ḥ</supplied> praśasterava<unclear>tā</unclear> ⏑ - - - - ⏑ - - ⏑ ⏑ - ⏑ - - <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    <lb n="90"/>somaśca yasyāssahavāsabandhustra<unclear>ya</unclear> ⏑ - - ⏑ ⏑ - ⏑ - - <supplied reason="undefined"><g type="ddanda">.</g></supplied> x x x x
+                    <lb n="91"/>hmadattañca dvidhā bhaktiñca pātu yaḥ <supplied reason="undefined"><g type="danda">.</g></supplied> macchiramma x x x x x x x x ⏑ - ⏑ - <supplied reason="undefined"><g type="ddanda">.</g></supplied> x x x x x
+                    <lb n="92"/>puṣṭā<unclear>ni</unclear> vāhanāni mahīpate <supplied reason="undefined"><g type="danda">.</g></supplied> yuddhakāle x x x x x x x x ⏑ - ⏑ - <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                    <lb n="93"/>devasvambra<choice><sic>a</sic><corr>ā</corr></choice>hmaṇasvañca lobhenopahinasti ya[ḥ <g type="danda">.</g>*] x x x x x x x x x x
+                    <lb n="94"/>cchiṣṭena jīvani <g type="ddanda">.</g><g type="dashLong">.</g> bhūmidānātparandānam na bhūto<note n="152-1">Read bhūtaṁ.</note>na bhavi<supplied reason="undefined">ṣyati</supplied> <supplied reason="subaudible"><g type="danda">.</g></supplied> x x x x x x x x x
+                    <lb n="95"/>bhūto na bhaviṣyati <hi rend="grantha"><g type="ddanda">.</g> la <g type="ddanda">.</g></hi><note n="152-2">There follows an illegible scrawl, which fills the remainder of line 95, and two further lines.</note>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="translation" source="bib:Hultzsch1890_01">
+                
+                <div type="textpart" n="A">
+                <head>A. Sanskrit portion.</head>
+                
+                <p>Hail!<note>Owing to the bad preservation of the first plate, both the reading and the translation of verses 1 and 2 are merely tentative.</note> (<hi rend="italic">Verse</hi> 1.) May (<hi rend="italic">Śiva</hi>) protect us, who has five faces (<hi rend="italic">and</hi>) fifteen fearful eyes, who bears the moon on his crest, who wears the trident, whose sacred thread is a terrible serpent, who possesses ten strong arms, who has the form of the universal soul which consists of truth alone, the divine one, who is to be respected by Mukunda (<hi rend="italic">Vishṇu</hi>) and the other immortals, who produces the creation, who is propitiated by spells, the creator, (<hi rend="italic">who is</hi>) knowledge incarnate, who performs perfect self-restraint, and whose form is the universe!</p>
+                
+                <p>(<hi rend="italic">Verse</hi> 2.) Victorious is that Parameśvara (<hi rend="italic">Śiva</hi>), who consists of the three <hi rend="italic">Vedas</hi>, the crest-jewel of the three worlds, who places in the hearts of beings the power which effects actions, the moon of the highest sky, the succession of whose particles (<hi rend="italic">causes</hi>) a multitude of products, and whose rays crystallize, when they fall, as on a moon-stone, on the mind of the learned!</p>
+                
+                <p>(<hi rend="italic">Verse</hi> 3.) May that race of the <hi rend="bold">Pallavas</hi>,—in which we hear no prince was (<hi rend="italic">ever</hi>) born, who was not pious, who did not perform the <hi rend="italic">soma</hi> sacrifice, who raised the club of war unjustly, who was a sham saint, who did not perform heroic deeds (<hi rend="italic">only for the sake of</hi>) liberality, whose tongue was so false as to speak an untruth, or who was alarmed in battles, —be unobstructed in protecting the earth, which is free from calamities!</p>
+                
+                <p>(<hi rend="italic">Line</hi> 9.) From <hi rend="bold">Brahman</hi> (<hi rend="italic">sprang</hi>) <hi rend="bold">Aṅgiras</hi>; from him, <hi rend="bold">Bṛihaspati</hi>; from him, <hi rend="bold">Bharadvāja</hi>; from him, <hi rend="bold">Droṇa</hi>; from Droṇa, <hi rend="bold">Aśvatthāman</hi>, the splendour of whose power was immeasurable; from him, <hi rend="bold">Pallava</hi>, who drove away (<hi rend="italic">every</hi>) jot of a calamity from his race; from him, the race of the <hi rend="bold">Pallavas</hi>, the favourites of the whole world.</p>
+                
+                <p>(<hi rend="italic">Verse</hi> 4.) May that <hi rend="bold">Pallava</hi> race last (<hi rend="italic">for ever</hi>), in which we have heard no prince was (<hi rend="italic">ever</hi>) born, who was not pious, who was not liberal, (<hi rend="italic">or</hi>) who was not brave!<note>The same sentiment is expressed in different words in verse 3.</note></p>
+                
+                <p>(<hi rend="italic">Line</hi> 12.) The grandson of <hi rend="bold">Narasiṁhavarman</hi>, (<hi rend="italic">who arose</hi>) from the kings of this race, just as the moon and the sun from the eastern mountain; who was the crest-jewel on the head of those princes, who had never bowed their heads (<hi rend="italic">before</hi>); who proved a lion to the elephant-herd of hostile kings; who appeared to be the blessed Narasiṁha himself, who had come down (<hi rend="italic">to earth</hi>) in the shape of a prince; who repeatedly defeated the <hi rend="bold">Choḷas, Keraḷas, Kaḷabhras</hi>, and <hi rend="bold">Pāṇḍyas</hi>; who, like Sahasrabāhu (i.e., <hi rend="italic">the thousand-armed</hi> Kārtavīrya), enjoyed the action of a thousand arms in hundreds of fights; who wrote the (<hi rend="italic">three</hi>) syllables of (<hi rend="italic">the word) vijaya</hi> (i.e., <hi rend="italic">victory</hi>), as on a plate, on <hi rend="bold">Pulakeśin's</hi> back, which was caused to be visible (i.e., <hi rend="italic">whom he caused to turn his back</hi>) in the battles of <hi rend="bold">Pariyaḷa, Maṇimaṅgala, Śūramāra</hi>, <hi rend="italic">etc</hi>.; and who destroyed (<hi rend="italic">the city of</hi>) <hi rend="bold">Vātāpi</hi>, just as the pitcher-born (<hi rend="italic">Agastya) (the demon</hi>) Vātāpi;—</p>
+                
+                <p>(<hi rend="italic">Line</hi> 17.) The son of <hi rend="bold">Mahendravarman</hi>, by whom prosperity was thoroughly produced (<hi rend="italic">su-rachita</hi>), just as prosperity is heaped on the gods (<hi rend="italic">sura-chita</hi>) by Mahendra; and who thoroughly enforced the sacred law of the castes and the orders;—</p>
+                
+                <p>(<hi rend="italic">Line</hi> 19.) (<hi rend="italic">was</hi>) <hi rend="bold">Parameśvaravarman</hi>, whose beauty (<hi rend="italic">darśana</hi>) surpassed (<hi rend="italic">that of</hi>) all (<hi rend="italic">others</hi>), just as Parameśvara (<hi rend="italic">Śiva</hi>) has (<hi rend="italic">one</hi>) eye (<hi rend="italic">darśana</hi>) more than all (<hi rend="italic">others</hi>); who, like Bharata, was a conqueror of all; who avoided improper conduct (<hi rend="italic">asamañjasa</hi>), just as Sagara abandoned (<hi rend="italic">his son</hi>) Asamañjasa<note n="153-1">Elsewhere called Asamañja or Asamañjas.</note>; who possessed a strong body (<hi rend="italic">aṅga</hi>), just as Karṇa was (<hi rend="italic">king</hi>) of the prosperous Aṅgas; who was fond of poems (<hi rend="italic">kāvya</hi>), just as Yayāti of (<hi rend="italic">his father-in-law</hi>) Kāvya (<hi rend="italic">Uśanas</hi>); whose command always caused pain to haughty kings, like a chaplet (<hi rend="italic">forcibly placed on their heads</hi>),<note>The following play on <hi rend="italic">karṇapūra</hi>, “filling the ears” and “an ear-ring,” suggests that the composer intended to make a similar pun on <hi rend="italic">piḍā</hi>, “pain,” and <hi rend="italic">āpiḍā</hi>, “a chaplet.” <hi rend="italic">Āpīḍa</hi> is elsewhere only used as a masculine.</note> but gave splendour to the faces of friends by reaching their ears, like an ear-ring; who was constantly clever in the sport of the fine arts (<hi rend="italic">kalā), (just as</hi>) the moon is charming in the beauty of her digits (<hi rend="italic">kalā); (who resembled</hi>) the string of pearls (<hi rend="italic">muktāguṇa</hi>) on the breast of Cupid, but who, at the same time, avoided unlawful (<hi rend="italic">intercourse</hi>) with women (<hi rend="italic">even</hi>) by thought.<note>The second <hi rend="italic">muktāguṇa</hi> stands for <hi rend="italic">muktaḥ aguṇaḥ yena</hi>, and <hi rend="italic">aguṇa</hi> for <hi rend="italic">adharma</hi>. With the irregular construction <hi rend="italic">vanitānāṁ muktāguṇaḥ</hi> for <hi rend="italic">muktavanitāguṇaḥ</hi>, compare <hi rend="italic">kshatarakshaṇaṁ divaḥ</hi> for <hi rend="italic">kshatadyurakshaṇam</hi> in the <hi rend="italic">Śiśupālavadha</hi>, sarga i, verse 48.</note></p>
+                
+                <p>(<hi rend="italic">Line</hi> 23.) At the head of a battle,—in which the disk of the sun was caused to assume the likeness of the circle of the moon through the mist of the dust, that was produced by the marching of countless troops of men, horses and elephants, which was terrible through the thunder-like sound of drums, which teemed with unsheathed swords that resembled flashes of lightning, in which elephants were moving like clouds, and which (<hi rend="italic">therefore</hi>) resembled an unseasonable appearance of the rainy season; in which tall horses looked like billows, in which elephants caused distress on their path, just as sea-monsters produce whirlpools, in which conches were incessantly blown (<hi rend="italic">or cast up</hi>), and which (<hi rend="italic">therefore</hi>) resembled the gaping ocean; which was full of swords and shields (<hi rend="italic">āvaraṇa</hi>), just as of rhinoceroses, creepers and <hi rend="italic">varaṇa (trees</hi>), which was crowded with heroes who possessed bows and mighty elephants, as if it were crowded with <hi rend="italic">śara (grass</hi>) and with <hi rend="italic">asana, nāga, tilaka</hi> and <hi rend="italic">puṁnāga (trees</hi>), in which confused noises were raised, and which (<hi rend="italic">therefore</hi>) appeared to be a forest; which was agitated by a violent wind, (<hi rend="italic">but</hi>) in which the path of the wind was obstructed by arrows, that flew past each other on the bows (<hi rend="italic">themselves</hi>), while these were bent by the warriors; in which javelins, pikes, darts, clubs, lances, spears and discuses were flying about; in which troops of furious elephants firmly impaled each other's faces with the piercing thunderbolts of their tusks; in which squadrons of horsemen were connected by their swords, that had struck each other's heads; in which there were soldiers who were noted (<hi rend="italic">for their dexterity</hi>) in fighting with sword against sword, (<hi rend="italic">pulling of</hi>) hair against (<hi rend="italic">pulling of</hi>) hair, and club against club; in which the ground was thickly smeared with saffron, as the blood was mixed with the copious rutting-juice of elephants, that issued in consequence of (<hi rend="italic">their</hi>) considering each other as equals (<hi rend="italic">or</hi>) despising each other; in which (<hi rend="italic">both</hi>) large armies had lost and dropped arms, necks, shanks, thighbones and teeth; in which, owing to the encounter of the armies, both sides were broken, urged on, put to flight and prostrated on the ground; which was attended by the goddess of fortune, sitting on the swing of the doubt about mutual victory or defeat; in which brave warriors were marching on the back of lines of fallen elephants, that formed a bridge over the flood of blood; in which soldiers stood motionless,<note>With the denominative <hi rend="italic">luptakriyāyita</hi> compare <hi rend="italic">pālikāyita</hi> in line 34.</note> if their blows did not hit each other's weak parts; which was covered here and there with shattered banners and parasols, with fallen elephants and with dead and half-dead soldiers, who had done their duty, whose strong arms (<hi rend="italic">still</hi>) raised the weapon, whose lips were bitten and whose eyes were deep-red with fury; in which a multitude of white <hi rend="italic">chāmaras</hi> was waving; in which tiaras, armlets, necklaces, bracelets and ear-rings were broken, crushed and pulverized; in which the <hi rend="italic">Kūshmāṇḍas, Rākshasas</hi> and <hi rend="italic">Piśāchas</hi> were singing, intoxicated with drinking the liquor of blood; and which contained hundreds of headless trunks, that were vehemently dancing together in a fearful manner according to the beaten time,—he, unaided, made <hi rend="bold">Vikramāditya</hi>, whose army consisted of several <hi rend="italic">lakshas</hi>, take to flight, covered only by a rag.</p>
+                
+                <p>(<hi rend="italic">Verses</hi> 5 <hi rend="italic">and</hi> 6.) He, having caused to be accoutred the elephant called <hi rend="bold">Arivāraṇa</hi> (i.e., <hi rend="italic">‘warding off enemies’</hi>), whose golden saddle was covered with the splendour of jewels, whose rut was perpetual, who (<hi rend="italic">therefore</hi>) appeared to be the king of mountains himself whose torrents never cease to flow, and who was followed by thousands of (<hi rend="italic">other</hi>) elephants,— and the horse called <hi rend="bold">Atiśaya</hi> (i.e., <hi rend="italic">‘eminence’</hi>), whose noble breed was manifest, and who wore a saddle (<hi rend="italic">set with</hi>) jewels, together with <hi rend="italic">lakshas</hi> of (<hi rend="italic">other</hi>) horses, whose ears were covered with <hi rend="italic">chāmaras</hi>• • • • • •<note n="154-1">Part of verse 6 and the whole of the ensuing prose passage (lines 44 to 49) are corrupt and therefore left untranslated.</note></p>
+                
+                <p>(<hi rend="italic">Line</hi> 49.) This <hi rend="bold">Parameśvara</hi> gave to the blessed lord Pinākapāṇi (<hi rend="italic">Śiva</hi>),—who had been placed in the temple of <hi rend="bold">Vidyāvinīta-Pallava-Parameśvara</hi> in the midst of the village called <hi rend="bold">Kūra</hi>, which possessed one hundred and eight families that studied the four <hi rend="italic">Vedas, (and which was situated</hi>) in the <hi rend="italic">manyavāntara-rāshṭra</hi> called <hi rend="bold">Nīrveḷūr</hi>, in the midst of <hi rend="bold">Ūṟṟukkāṭṭukkoṭṭa</hi>, in order to provide for the worship, the bathing (<hi rend="italic">of the idol</hi>), flowers, perfumes, incense, lamps, oblations (<hi rend="italic">havir-upahāra-bali</hi>), conches, drums, <hi rend="italic">etc</hi>., and for water, fire and the recitation of the <hi rend="italic">Bhārata</hi> at this (<hi rend="italic">temple</hi>),—the village called <hi rend="bold">Parameśvaramaṅgala</hi> in the <hi rend="italic">manyavāntara-rāshṭra</hi> called <hi rend="bold">Patmā</hi>, in the midst of <hi rend="bold">Maṇayi[ṟ]koṭṭa</hi>, as a divine gift (<hi rend="italic">and</hi>) as a gift to <hi rend="italic">Brāhmaṇas</hi>, at the request of <hi rend="bold">Vidyāvinīta</hi>, the lord of the <hi rend="bold">Pallavas</hi>, with exemption from all taxes. The executor (<hi rend="italic">ājñapti</hi><note>See page 33, note 1.</note>) of this (<hi rend="italic">grant was</hi>) <hi rend="bold">Mahāsenadatta</hi> (<hi rend="italic">of</hi>) <hi rend="bold">Uttarakāraṇikā</hi>. And for (<hi rend="italic">performing</hi>) the divine rites and the repairs of this temple of <hi rend="bold">Vidyāvinīta-Pallava-Parameśvara,—Anantaśiva-āchārya</hi>, the son of <hi rend="bold">Kūratt-āchārya</hi>, was given (!), and secondly <hi rend="bold">Phullaśarman</hi>; (<hi rend="italic">their</hi>) sons and grandsons were (<hi rend="italic">also</hi>) appointed.</p>
+                    
+                </div>
+                
+                <div type="textpart" n="B">
+                <head>B. Tamil portion.</head>
+                
+                <p>(<hi rend="italic">Line</hi> 57.) (<hi rend="italic">At</hi>) <hi rend="bold">Kūram</hi> and <hi rend="bold">Ñammaṉambākkam</hi> . . . . . . . . . . in <hi rend="bold">Nīrveḷūrnāḍu</hi>, (<hi rend="italic">a division</hi>) of <hi rend="bold">Ūṟṟukkāṭṭukkoṭṭam,—Vidyāvinīta</hi>, the <hi rend="bold">Pallava</hi> king, bought one thousand and two hundred <hi rend="italic">kuṛis</hi><note>See page 92, note 4.</note> of land, for which he paid the price in gold. (<hi rend="italic">Other</hi>) land was purchased, in order to burn tiles for building a temple. After the <hi rend="italic">paṭṭi</hi><note>See page 91, note 6.</note> of <hi rend="bold">Śūḷaimeḍu</hi> within <hi rend="bold">Talaippāḍagam</hi> and five and a quarter <hi rend="italic">paṭṭis</hi> of land in the village, together with the land on which the <hi rend="italic">maṇḍapa</hi> was built, were bought; after the temple of <hi rend="bold">Vidyāvinīta-Pallava-Parameśvara</hi> was built; after the tank was dug; and after houses and house-gardens were allotted to those, who had to perform the worship at this temple,—the land, which remained, was to be cultivated for (<hi rend="italic">providing</hi>) the customary offerings. The eastern boundary of this land is to the west of the road to the burningground; the southern boundary is to the north of the road, which leads into the village; the western boundary is to the east of the road, which leads to the district-channel (?) (<hi rend="italic">and which is</hi>) on the north of the road, which leads into the village; the northern boundary is to the south of the district-channel. After the land included within these four boundaries,— with the exception of the temple, the tank, and the houses and house-gardens for those, who had to perform the worship,—and the <hi rend="italic">paṭṭi</hi> of <hi rend="bold">Śūḷaimeḍu</hi> had been given as land to be cultivated for (<hi rend="italic">providing</hi>) the customary offerings,—the whole land round the tank (?) in (<hi rend="italic">the village of</hi>) <hi rend="bold">Parameśvaramaṅgalam</hi> in <hi rend="bold">Paṉmā-nāḍu</hi>, (<hi rend="italic">a division</hi>) of <hi rend="bold">Maṇayiṟkoṭṭam</hi>, (<hi rend="italic">was divided</hi>) into twenty-five parts (<hi rend="italic">and set aside</hi>) for performing the divine rites and the repairs necessary for this temple, and in order to grant a <hi rend="italic">brahmadeya</hi> to twenty <hi rend="italic">Chaturvedins</hi>. Of these, three parts shall be (<hi rend="italic">for</hi>) performing the divine rites and the repairs of the temple at <hi rend="bold">Kūram</hi>; one part shall be for water and fire for the <hi rend="italic">maṇḍapa</hi> at <hi rend="bold">Kūram</hi>; one part shall be for reciting the <hi rend="italic">Bhārata</hi> in this <hi rend="italic">maṇḍapa</hi>; the remaining twenty parts were given as a <hi rend="italic">brahmadeya</hi> to twenty <hi rend="italic">Chaturvedins. (The donees</hi>) shall enjoy the houses and house-gardens of this village, the village-property (?), the oil-mills, the looms, the <hi rend="italic">bāzār</hi>, the brokerage, the <hi rend="italic">kattikkāṇam</hi> (?) and all other common (<hi rend="italic">property</hi>), after (<hi rend="italic">the proceeds</hi>) have been divided in the proportion of these twenty-five parts. The dry land (?) (<hi rend="italic">along</hi>) the <hi rend="bold">Perumbiḍugu</hi> channel, which was dug from the <hi rend="bold">Pālāṟu</hi><note>This is the Pālār river, which flows to the south of Little Kāñchī. It is also mentioned in No. 59, line 5.</note> to the tank of <hi rend="bold">Parameśvara</hi> at this village, (<hi rend="italic">and</hi>) all the land, in which . . . . . . . . . . channels (<hi rend="italic">from</hi>) fountains were dug, (<hi rend="italic">shall be</hi>) the land of <hi rend="bold">Parameśvaramaṅgalam</hi> . . . . . . . . . . </p>
+                
+                <p>(<hi rend="italic">Line</hi> 83.) Of the three parts, which were given, <hi rend="bold">Anantaśiva-āchārya</hi> and his sons and further descendants (<hi rend="italic">shall enjoy</hi>) one and a half part . . . . . . . . . . </p>
+                
+                <p>(<hi rend="italic">Line</hi> 86.) <hi rend="bold">Phullaśarman</hi> and his sons and further descendants . . . . . . . . . . </p>
+                </div>
+                
+                <div type="textpart" n="C">
+                <head>[[C.]]</head>
+                
+                <p>[Lines 89 to 95 contain fragments of five Sanskrit verses, in the first of which the inscription is called a <hi rend="italic">praśasti</hi><note>According to Mr. Fleet, <hi rend="italic">Corpus Inscriptionum Indicarum</hi>, Vol. III, p. 87, note 10, the only other instance, in which the term <hi rend="italic">praśasti</hi> is applied to an inscription on copper-plates, is the Chicacole grant of the <hi rend="italic">mahārāja</hi> <hi rend="bold">Indravarman</hi>, <hi rend="italic">Ind. Ant</hi>. Vol. XIII, p. 121.</note> or eulogy; the remaining four were, as usual, imprecatory verses.]</p>
+                </div>
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 1.151 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Hultzsch1890_01"/>
+                        <citedRange unit="page">144-155</citedRange>
+                        <citedRange unit="item">151</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

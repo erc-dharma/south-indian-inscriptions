@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 1.154: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">PART IV. ADDENDA. No. 154. A ROCK-INSCRIPTION AT THE FORT OF GUTTI.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv01p0i0154</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is engraved on a rock not far from the summit of the fort of <hi rend="bold">Gutti</hi> (<hi rend="italic">Gooty</hi>) in the Anantapur District<note>Mr. Sewell's <hi rend="italic">Lists of Antiquities</hi>, Vol. I, p. 115.</note> and consists of one verse in the <hi rend="italic">Sragdharā</hi> metre. At the time of the inscription, the fort of <hi rend="bold">Gutti</hi> (<hi rend="italic">Gutti-durga</hi>) belonged to king <hi rend="bold">Bukka</hi>. By this, the well-known king of the first dynasty of <hi rend="bold">Vijayanagara</hi>, whose inscriptions range between Śaka 1276 [current] and 1290 [expired],<note>See page 161, above.</note> seems to be meant.</p>						
+                            
+                            <p>Besides the subjoined inscription, the fort of <hi rend="bold">Gutti</hi> bears three very rough rock-inscriptions in Kanarese of <hi rend="bold">Tribhuvanamalladeva</hi>, <hi rend="italic">i.e.</hi>, of the Western <hi rend="bold">Chālukya</hi> king <hi rend="bold">Vikramāditya</hi> VI., surnamed <hi rend="bold">Tribhuvanamalla</hi>. The dates of two of them, which I succeeded in making out, are recorded in the new era started by Vikramāditya VI., the <hi rend="italic">Chāḷukya-Vikrama-varsha</hi>, which, according to Mr. Fleet,<note><hi rend="italic">Ind. Ant</hi>. Vol. VIII, pp. 187 ff.</note> began with the king's accession in Śaka 997 [expired]. The two inscriptions are dated in the 46th and 47th years, which corresponded to the cyclic years <hi rend="italic">Plava</hi> and <hi rend="italic">Śubhakṛit, i.e.</hi>, Śaka 1043 and 1044 [expired] or A.D. 1121-22 and 1122-23.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-23" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="san-Latn" rendition="class:undetermined maturity:undetermined">
+                
+                <ab>
+                    <lb n="1"/>śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </ab>
+                
+                <lg n="1" met="sragdharā">
+                    <l n="a">durggāṇāṁ sārvvabhaumo dharaṇitalamahā
+                    <lb n="2" break="no"/>rājyacakrasya nābhiḥ</l> <l n="b">śrībukkakṣoṇībhartturjjaga
+                    <lb n="3" break="no"/>davanak<choice><sic>ru</sic><corr>ṛ</corr></choice>te viṣṇumūrtyaṁtarasya <supplied reason="undefined"><g type="danda">.</g></supplied></l> <l n="c">lakṣmīnātha
+                    <lb n="4" break="no"/>sya saṁpadnurukaraṇacaṇo dakṣiṇāvartta
+                    <lb n="5" break="no"/>śaṁkhaḥ</l> <l n="d">prācīnaḥ pāṁcajaṁnyo jaya
+                    <lb n="6" break="no"/>ti girivaro guttidurggābhidhānaḥ <supplied reason="undefined"><g type="ddanda">.</g></supplied></l>
+                </lg>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="translation" source="bib:Hultzsch1890_01">
+                
+                <p>Prosperity! Victorious is the king of forts, the best of mountains, <hi rend="bold">Gutti-durga</hi> by name! (<hi rend="italic">This mountain is</hi>) the nave of the wheel of the sovereignty over the whole earth of the illustrious king <hi rend="bold">Bukka</hi>, the lord of fortune, who is another form (<hi rend="italic">assumed by</hi>) <hi rend="bold">Vishṇu</hi> for protecting the world, (<hi rend="italic">and it is his</hi>) ancient auspicious<note>Literally: “which is known to increase prosperity.”</note> conch-shell with convolutions from left to right (<hi rend="italic">dakshiṇāvarta-śaṅkha</hi>),—<note>According to Pramadādāsa Mitra's translation of the <hi rend="italic">Sāhityadarpaṇa</hi>, p. 98, note, “such a conch-shell is believed to ensure prosperity to the house in which it remains.” In the present inscription, the simile seems to have been suggested by the shape of the mountain, and by the windings of the road which leads up to the fort.</note> (<hi rend="italic">and thus resembles</hi>) the centre of the discus of (<hi rend="italic">Vishṇu</hi>) the lord of Lakshmī, and his conch-shell <hi rend="italic">Pāñchajanya</hi>.</p>
+                
+            </div>
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 1.154 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Hultzsch1890_01"/>
+                        <citedRange unit="page">167</citedRange>
+                        <citedRange unit="item">154</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
