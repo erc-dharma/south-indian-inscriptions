@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 1.32: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">I. INSCRIPTIONS OF THE PALLAVA DYNASTY. No. 32. A PALLAVA INSCRIPTION FROM AMARĀVATĪ. Reprinted from the Madras Journal of Literature and Science for 1886-87.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv01p0i0032</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The subjoined Sanskrit inscription is engraved on three sides of an octagonal pillar,<note n="25-2">See Dr. Burgess' <hi rend="italic">Notes on the Amarāvatī Stūpa</hi>, p. 49<hi rend="italic">f</hi>.</note> which was excavated at <hi rend="bold">Amarāvatī</hi> by Mr. R.Sewell and sent by Dr. Burgess to the Madras Museum. The top of the pillar and some letters of the uppermost lines of the inscription have been broken off. The inscription has hitherto remained a puzzle, as each line seems to end incomplete. Finding, that the first words of some lines were connected with the last words of the following lines, I was led to suppose that the inscription must begin from the bottom and not from the top. Curiously enough, this is really the case. If the inscription is read upwards, we find that it consists of eleven complete verses and of a prose passage, the end of which is lost through the mutilation of the pillar at the top.</p>						
+                            
+                            <p>The inscription opens with an invocation of <hi rend="bold">Buddha</hi> and with a mythical genealogy of <hi rend="bold">Pallava</hi>, the supposed founder of the Pallava dynasty.</p>						
+                            
+                            <p>Brahman. Bharadvāja. Aṅgiras. Sudhāman. Droṇa. Aśvatthāman, married to the Apsaras Madani. Pallava.</p>						
+                            
+                            <p>Verse 8 gives a popular etymology of the name <hi rend="bold">Pallava</hi>. Then there follow the names of seven Pallava kings:—</p>						
+                            
+                            <p>1. Mahendravarman, son of Pallava.</p>						
+                            
+                            <p>2. Siṁhavarman I., son of 1.</p>						
+                            
+                            <p>3. Arkavarman, son of 2.</p>						
+                            
+                            <p>4. Ugravarman.</p>						
+                            
+                            <p>6. Nandivarman, son of 5, Śrī-Siṁhavishṇu.</p>						
+                            
+                            <p>7. Siṁhavarman II.</p>						
+                            
+                            <p>The inscription contains no information about the relationship, which existed between 3 and 4, 4 and 5, 6 and 7. Neither does the genealogy agree with the lists derived by Mr. Foulkes<note n="25-3"><hi rend="italic">Ind. Ant</hi>. Vol. VIII, pp. 167, 273. <hi rend="italic">Salem Manual</hi>, Vol. II, p. 349.</note>and Mr. Fleet<note n="25-4"><hi rend="italic">Kanarese Dynasties</hi>, p. 16.</note>from other <hi rend="bold">Pallava</hi> inscriptions, although similar names of kings occur in them. For these reasons great care should be taken in using the above list for historical purposes.</p>						
+                            
+                            <p>From the incomplete prose passage at the end of the inscription, we learn that, on his return from an expedition to the north, <hi rend="bold">Siṁhavarman</hi> II. came to a place sacred to <hi rend="bold">Buddha</hi>, which was called <hi rend="bold">Dhānyaghaṭa</hi> (<hi rend="italic">line</hi> 38) or <hi rend="bold">Dhānyaghaṭaka</hi> (<hi rend="italic">line</hi> 47). The lost part of the pillar must have recorded a donation, which the king made to Buddha.</p>						
+                            
+                            <p><hi rend="bold">Dhānyaghaṭa</hi> or <hi rend="bold">Dhānyaghaṭaka</hi> is evidently identical with <hi rend="bold">Dhānyakaṭa</hi> or <hi rend="bold">Dhānyakaṭaka</hi>, “corn-town,” the well-known old name of Amarāvatī. The use of <hi rend="italic">gha</hi> instead of <hi rend="italic">ka</hi> can perhaps be explained by the Tamil habit of softening a single consonant between two vowels.<note n="26-1">See note on the inscription No. 10 of the Dharmarāja Ratha, p. 3, above.</note></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-25" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="san-Latn" rendition="class:00000 maturity:00000"><!--UPDATE script-->
+                
+                <p>
+                    <lb n="1"/>śriyaṁ varāṁ vaściramādiśaṁtu te bhavadviṣa<supplied reason="omitted">ḥ</supplied> śrī
+                    <lb n="2" break="no"/>ghanapādapāṁsavaḥ <supplied reason="undefined"><g type="danda">.</g></supplied> surāsurādhīśaśikhāmaṇi
+                    <lb n="3" break="no"/>tviṣāmanāṁtarayye<note n="26-2">Read ºmanantaraṁ ye.</note>vilasanti saṁcaye <g type="ddanda">.</g> <supplied reason="omitted">1</supplied> babhūva dhā
+                    <lb n="4" break="no"/>tuḥ prathamādakalmaṣo munirbbharadvāja Iti śru
+                    <lb n="5" break="no"/>tīśvaraḥ <supplied reason="undefined"><g type="danda">.</g></supplied> tatoṁgirā nāma girāpagodadhistata
+                    <lb n="6" break="no"/>ssudhāmeti munirvviniśrutaḥ <g type="ddanda">.</g> <supplied reason="omitted">2</supplied> tatassamastā
+                    <lb n="7" break="no"/>gamapāradṛśvā droṇābhidhāno munirugravīryya[ḥ <g type="danda">.</g>*]
+                    <lb n="8"/>Atarppayansoṣṭatanuṁ<note n="26-3">Read atarpayatsoṣṭatanuṁ.</note>tapobhirvvaṁśasya karttusta
+                    <lb n="9" break="no"/>nayasya hetoḥ <g type="ddanda">.</g> <supplied reason="omitted">3</supplied> prasādena tataśśaṁbhoraśvātthā<note n="26-4">Read ºraśvatthāº.</note>
+                    <lb n="10" break="no"/>meti viśrutaḥ <supplied reason="undefined"><g type="danda">.</g></supplied> prādurbbabhūva tejasvī prātarbbhā
+                    <lb n="11" break="no"/>nurivodayāt <g type="ddanda">.</g> <supplied reason="omitted">4</supplied> tapasyatastasya kilāpsarovṛtā
+                    <lb n="12"/>sureṁdrakanyā madanīti viśrutā <supplied reason="undefined"><g type="danda">.</g></supplied> kadācidāraṇya<note n="26-5">The wrong form <hi rend="italic">āraṇya</hi>, instead of <hi rend="italic">araṇya</hi>, is caused by the metre.</note>ni
+                    <lb n="13" break="no"/>vāsimandiraṁ didṛkṣurālokapathaṁ jagāma sā <g type="ddanda">.</g> <supplied reason="omitted">5</supplied>
+                    <lb n="14"/>saraḥpravātāṁbujaviskhalapriyā<note n="26-6">Read ºviṣkhalatpriyāº.</note>viyogabhītaṁ
+                    <lb n="15"/>kalahaṁsamaṇḍalaṁ <g type="danda">.</g> Aśokabhūmāvupaviśya
+                    <lb n="16"/>saspṛhaṁ vilokayantīmupatasthivānṛṣiṁ<note n="26-7">Read ºnṛṣiḥ.</note><g type="ddanda">.</g> <supplied reason="omitted">6</supplied> Ume
+                    <lb n="17" break="no"/>va śarvva prababhūva nātmano nirīkṣitaṁ<note n="26-8">Read nirīkṣya taṁ.</note>kāmamiva
+                    <lb n="18" break="no"/>rṣiveṣinaṁ<note n="26-9">Read ºveṣiṇam.</note><g type="danda">.</g> Athobhayaṁ gāḍhanibaddhabhāvakaṁ
+                    <lb n="19"/>surāṁganāssaṁgamayāṁbabhūvire <g type="ddanda">.</g> <supplied reason="omitted">7</supplied> Asūta kāle sura
+                    <lb n="20" break="no"/>rājakanyā nāthaṁ bhuvassāgarameravalāyāṁ<note n="26-10">Read ºmekhalāyāḥ.</note><supplied reason="undefined"><g type="danda">.</g></supplied> sapallavo<note n="26-11">Read sapallavauº.</note>
+                    <lb n="21" break="no"/>ghāstaraṇe śayānaṁ pitā sutaṁ pallava Ityavādīḥ<note n="26-12">Read ityavādīta.</note>[<g type="ddanda">.</g> 8*]
+                    <lb n="22"/>maheṁdravarmmeti tataḥ kṣitīśaḥ śūrastato jāyati
+                    <lb n="23"/>siṁhavarmmā <g type="ddanda">.</g> tatorkkavarmmā tadanugravarmmā<note n="26-13">Read tadanūgravamī</note>śrī
+                    <lb n="24" break="no"/>siṁhaviṣṇoratha nandivarmmā <g type="ddanda">.</g> <supplied reason="omitted">9</supplied> Anekarājanyaśiro
+                    <lb n="25" break="no"/>maṇiprabhāvibhātakalpāyitaśārvvarāsthitiḥ <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    <lb n="26"/>sa siṁhavarmmā samabhūdya Ucyate hayadvipāṣṭādaśalakṣako
+                    <lb n="27"/>janaiḥ <g type="ddanda">.</g> <supplied reason="omitted">10</supplied> sa sāgarāṁbarāmurvvī gaṁgāmoktika<note n="26-14">Read ºmauktikaº.</note>hāriṇīṁ <supplied reason="undefined"><g type="danda">.</g></supplied> babhāṁ
+                    <lb n="28" break="no"/>ra suciraṁ vīro merumandarakuṇḍalāṁ <g type="ddanda">.</g> <supplied reason="omitted">11</supplied> Atha kadācidama
+                    <lb n="29" break="no"/>ragiriśikharāyamāna<note n="27-1">Read ºśikharāyamāṇaº.</note>karicaraṇanakharavidāritaka
+                    <lb n="30" break="no"/>nakadalacaraturagakhuramukhasamutthitavajastā<note n="27-2">Read ºrajastāº.</note>
+                    <lb n="31" break="no"/>panīyavitānitanabhasthalaḥ<note n="27-3">Read ºnabhastalaḥ.</note>sakalamaṇḍalīkasāma
+                    <lb n="32" break="no"/>ntasamaravīroparacitapārpṇipārśvapuronurakṣokhi
+                    <lb n="33" break="no"/>ladigvijayārjjitayaśāḥ svāpanāya<note n="27-4">Read ºyaśaḥsthāpanāya.</note>sumeruśi
+                    <lb n="34" break="no"/>kharamupātiṣṭhata <g type="ddanda">.</g> tatra kila nikhiladharaṇītalapa
+                    <lb n="35" break="no"/>ryyaṭanajanitaśramamapaninīṣuḥ katipayāni
+                    <lb n="36"/>dināni nītvā kanakataṭaruhaharicandanatarucchāyānandi
+                    <lb n="37" break="no"/>tahṛdayaḥ tato bhāgīrathīmuttīryya tathaiva godāvarīṁ kṛ
+                    <lb n="38" break="no"/>ṣṇaverṇṇaṁ<note n="27-5">Read ºverṇāṁ.</note>ca śrīdhānyaghaṭanagarannāma vītarāgabhaṭṭārakama
+                    <lb n="39" break="no"/>drākṣīt <supplied reason="undefined"><g type="danda">.</g></supplied> dṛṣṭvā sakutūhalamakhilakṣetrarakṣaṇani
+                    <lb n="40" break="no"/><unclear>yu</unclear>ktādhidevatāssavinayamupagamyābhivandyaikānte
+                    <lb n="41"/>* * dharmmadeśānāma<note n="27-6">Read ºdeśanāmaº.</note>śṛṇot <supplied reason="undefined"><g type="danda">.</g></supplied> śrutvā cāparajanmānaṁ
+                    <lb n="42"/>* * <unclear>bhi</unclear>vandyedamuvāca <supplied reason="undefined"><g type="danda">.</g></supplied> Ahamapi bhagavan bhagavato
+                    <lb n="43"/>* * <unclear>di</unclear>kāmihaiva maṇikanakarajatavicitraṁ kalpa
+                    <lb n="44" break="no"/>* * * <unclear>E</unclear>vamukte bhagavānuvāca <g type="danda">.</g> sādhu sādhu<note n="27-7">The letter <hi rend="italic">e</hi> is written over dhu.</note>upā
+                    <lb n="45" break="no"/><unclear>saka siṁha</unclear>varmman Itoparamabuddhakṣe<unclear>traśrī</unclear>
+                    <lb n="46" break="no"/>* * * * * * * ṣveveti <supplied reason="undefined"><g type="danda">.</g></supplied> tato<unclear>bhi</unclear>vandya * * * *
+                    <lb n="47"/>* * * * * * * <unclear>dhānya</unclear>ghaṭake * * * * * * * *
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="translation" source="bib:Hultzsch1890_01">
+                
+                <p>(<hi rend="italic">Verse</hi> 1.) May the dust of the glorious<note n="27-8"><hi rend="italic">With śrīghana</hi> compare Pāli <hi rend="italic">sirīghaṇa</hi> or <hi rend="italic">sirīghana</hi> in the <hi rend="italic">Dīpavaṁsa</hi>, I, 11; II, 1.</note>feet of <hi rend="bold">Bhavadvish</hi>,<note n="27-9">Literally, “the enemy of worldly existence.” The prose passage at the end of the present inscription shows, that Buddha is meant.</note>which thickly covers<note n="27-10">Literally, “which glitters (<hi rend="italic">or plays</hi>) without interstice on,” etc.</note> the multitude of brilliant crest-jewels of the lords of gods and of demons, for a long time show you (<hi rend="italic">the way to</hi>) supreme glory!</p>
+                
+                <p>(2.) From the first creator (<hi rend="italic">Brahman</hi>) there sprang a pure sage, called <hi rend="bold">Bharadvāja</hi>, who mastered the <hi rend="italic">śrutis</hi>; from him an ocean (<hi rend="italic">uniting</hi>) the rivers of speech, <hi rend="bold">Aṅgiras</hi> by name; from him the renowned sage <hi rend="bold">Sudhāman</hi>;</p>
+                
+                <p>(3.) From him a sage called <hi rend="bold">Droṇa</hi>, who thoroughly knew all <hi rend="italic">āgamas</hi> and who possessed terrible might. In order to obtain a son who would found a race, he strove to please the eight-formed (<hi rend="italic">Śiva</hi>) by austerities.</p>
+                
+                <p>(4.) By the favour of <hi rend="bold">Śaṁbhu</hi>, there arose to him a brilliant (<hi rend="italic">son</hi>), famed by the name of <hi rend="bold">Aśvatthāman</hi>, just as at morn the brilliant sun rises over the eastern mountain.</p>
+                
+                <p>(5.) Once, surrounded by (<hi rend="italic">other</hi>) celestial maidens, the famous nymph <hi rend="bold">Madanī</hi>, who wished to see the abode of the hermits, entered the path of sight of that ascetic.</p>
+                
+                <p>(6.) The saint approached her, while, seated amongst a group of <hi rend="italic">aśoka-</hi>trees, she was wistfully regarding the male swans, which were afraid of being separated from their beloved ones, whenever they lost sight of them behind a lotus of the lake, which was agitated by the wind.</p>
+                
+                <p>(7.) Perceiving him who resembled Cupid in the dress of a saint, she lost her selfcontrol, just as Umā on seeing Śarva. Then the nymphs united the couple, which had conceived a deep affection (<hi rend="italic">towards each other</hi>).</p>
+                
+                <p>(8.) In due time, the nymph gave birth to a protector of the earth, which is girt by the ocean. The father called his son <hi rend="bold">Pallava</hi>, as he was lying on a couch (<hi rend="italic">covered</hi>) with a heap of sprouts (<hi rend="italic">pallava</hi>).</p>
+                
+                <p>(9.) From him came the ruler of the earth <hi rend="bold">Mahendravarman</hi>; from him the valiant <hi rend="bold">Siṁhavarman</hi>; from him <hi rend="bold">Arkavarman</hi>; after him <hi rend="bold">Ugravarman</hi>; then <hi rend="bold">Nandivarman</hi> from <hi rend="bold">Śrī-Siṁhavishṇu</hi>.</p>
+                
+                <p>(10.) There arose that <hi rend="bold">Siṁhavarman</hi>, in whose audience-hall darkness is transformed into dawn by the splendour of the jewels on the heads of many princes, and whom people call (<hi rend="italic">the lord</hi>) of eighteen <hi rend="italic">lakshas</hi> of horses and elephants.</p>
+                
+                <p>(11.) This hero for a long time protected the earth, whose garment is the occan, whose pearl-necklace is the Gaṅgā, and whose earrings are Meru and Mandara.</p>
+                
+                <p>(<hi rend="italic">Line</hi> 28.) Once, while his back, his flanks and his front were guarded by all his brave vassals and tributaries (<hi rend="italic">maṇḍalīka-sāmanta</hi>), he marched to the peak of <hi rend="bold">Sumeru</hi>, in order to place (<hi rend="italic">there</hi>) the fame, which he had acquired by conquering all quarters,<note n="28-1"><hi rend="italic">I.e.</hi>, in order to put up a pillar of victory.</note>His elephants, which resembled the peaks of the mountain of the gods (<hi rend="italic">Meru</hi>), tore with the claws (!) of their feet the gold,<note n="28-2"><hi rend="italic">Viz.</hi>, of which Mount Meru consists.</note>and his horses, walking on those pieces (<hi rend="italic">of gold</hi>), made the sky appear like a canopy by the gold-dust rising under their hoofs. There, in order to remove the fatigue caused by wandering over the whole world, he passed a few days, enjoying the shade of the yellow sandal-trees, which grow on the slopes of gold. Then, having crossed the <hi rend="bold">Bhāgīrathī</hi> (<hi rend="italic">Gaṅgā</hi>), the <hi rend="bold">Godāvarī</hi> and the <hi rend="bold">Kṛishṇaverṇā</hi>,<note n="28-3">This is the Kṛishṇā; see Fleet's <hi rend="italic">Kanarese Dynasties</hi>, p. 67, note 2.</note>he perceived (<hi rend="italic">a place sacred to</hi>) the lord <hi rend="bold">Vītarāga</hi> (<hi rend="italic">Buddha</hi>), named the illustrious town of <hi rend="bold">Dhānyaghaṭa</hi>. Having regarded it with curiosity, and having humbly approached and saluted the tutelar deities, which were charged with the protection of the whole sacred place (<hi rend="italic">kshetra</hi>), he listened to a discourse on the law<note n="28-4">See Childers's <hi rend="italic">Pāli Dictionary</hi>, s.v. <hi rend="italic">dhammadesanā</hi>.</note> • • • in a secluded spot. Having heard it, he saluted the highest-born<note n="28-5">With <hi rend="italic">aparajanman</hi> compare <hi rend="italic">aparamabuddha</hi> in line 45 of the present inscription. On <hi rend="italic">apara</hi> as a synonym of <hi rend="italic">anuttama</hi>, see <hi rend="italic">Ind. Ant</hi>. Vol. XIV, p. 201, note 21.</note>• • and spoke thus: “I also, O lord ! (<hi rend="italic">shall erect a statue?</hi>) of the lord at this very place, ornamented with jewels, gold, and silver.” After he had thus spoken, the lord said: “Well, well, layworshipper <hi rend="bold">Siṁhavarman!</hi> Here <hi rend="italic">[at]</hi> the place sacred to the highest <hi rend="bold">Buddha. • • </hi>” Then having saluted.....in <hi rend="bold">Dhānyaghaṭaka</hi>• • • • • </p>
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 1.32 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Hultzsch1890_01"/>
+                        <citedRange unit="page">25-28</citedRange>
+                        <citedRange unit="item">32</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
