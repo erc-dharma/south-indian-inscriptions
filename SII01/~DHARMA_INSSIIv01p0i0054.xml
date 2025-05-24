@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 1.54: original edition by Eugen Julius Theodor Hultzsch</title>
+				<title type="alt">No. 54. ON THE BASE OF THE ĪŚVARA TEMPLE AT TEḶḶŪR NEAR VELŪR. On a stone near this temple there is a fragment of a Choḷa inscription, the first line of which reads: uṭaiyār śrīkulot[tuṅka], Uḍaiyār Śrī-Kulot[tuṅga].</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv01p0i0054</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription is dated in the reign of the <hi rend="italic">mahāmaṇḍaleśvara</hi> <hi rend="bold">Vīrapratāpa-Devarāya-mahārāya</hi> (<hi rend="italic">of</hi> Vijayanagara) and in Śaka 1353, the <hi rend="italic">Sādhāraṇa</hi> year. It records that the family (<hi rend="italic">kuḍi</hi>) of <hi rend="bold">Māraṇaṉ-uḷḷiṭṭār</hi>, which belonged to <hi rend="bold">Pallava-nallūr</hi>, was given to the temple at <hi rend="bold">Teḷḷaiyūr</hi> (<hi rend="italic">the modern</hi> Teḷḷūr), <hi rend="italic">alias</hi> <hi rend="bold">Pukkaḷappuram</hi>, which belonged to <hi rend="bold">Vaḍapuri-Āndi-nāḍu</hi> in <hi rend="bold">Paṅgaḷa-nāḍu</hi>, a division of <hi rend="bold">Paḍuvūr-koṭṭam</hi> in <hi rend="bold">Jayaṅkoṇḍa-Choḷa-maṇḍalam</hi>.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-24" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<!--<h4><hi rend="italic">South</hi>.</h4>-->
+
+<p>
+<lb n="1b"/><hi rend="grantha">svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīmanmahāmaṇḍaleśvaran Arirā</hi>yavi<hi rend="grantha">bhā</hi>ṭaṉ <hi rend="grantha">bhāṣai</hi>kku tappuva rāyar kaṇṭaṉ <hi rend="grantha">pūrvvadakṣa</hi>ṇapaccamottara<hi rend="grantha">samudrādhipa</hi>ti<hi rend="grantha"> śrī</hi>vī<hi rend="grantha">rapra</hi>tā<hi rend="grantha">pade<unclear>va</unclear></hi>rā
+</p>
+
+<!--<h4><hi rend="italic">East</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>ya<hi rend="grantha">mahār<choice><sic>a</sic><corr>ā</corr></choice>ya prathi</hi>vīrā<hi rend="grantha">jyam pa<supplied reason="omitted">ṇ</supplied>ṇi</hi> <unclear>A</unclear>ruḷāniṉṟa <hi rend="grantha">śa</hi>kā<hi rend="grantha">bdam <num value="1353"><g type="numeral">1000</g> 3 <g type="numeral">100</g> 5 <g type="numeral">10</g> 3</num></hi>
+</p>
+
+<!--<h4><hi rend="italic">South</hi>.</h4>-->
+
+<p>
+<lb n="1a"/><hi rend="grantha">sādhā</hi>raṇavaru<hi rend="grantha">ṣa</hi>m kaṟkaṭakanāya<unclear>ṟṟu</unclear> pū<hi rend="grantha">rvva</hi>pa<hi rend="grantha">kṣa</hi>ttu pañcamiyum tiṅ<unclear>kaḷ ki</unclear>ḻamaiyum peṟṟa tiruv<unclear>o</unclear>ṇattu nāḷ <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻamaṇṭalattu paṭuvūrkoṭṭattu paṅkaḷanāṭṭu vaṭapuriāntināṭṭu <unclear>A</unclear>karam teḷḷaiyūrāna pukkaḷappurattu<note n="79-2">After this word there is engraved below the line: ūrāṅkuḷuntanā[ta]yinā[na]r (?).</note>nāyinārukku Āntiṭṭu vaṭuki maṉṟāṭi Atikārikaḷ va <gap reason="lost" quantity="3" unit="character"/> nāyakkatecu <gap reason="lost" quantity="1" unit="character"/> kañcaṉanum taṉmacātanam paṇṇikkuṭuttapaṭi Inta nāyinārukku Āntiṭṭu <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="2"/>pallavanallūrccervaikkuṭi m<unclear>ā</unclear>raṇaṉuḷḷiṭṭārai tirunantāviḷakku kuṭi Āka ca<hi rend="grantha">ndrā</hi>tittavaraiyum cellumpaṭikku <hi rend="grantha">Uda</hi>kapū<hi rend="grantha">rvva dharmmadā</hi>namāka paṇṇikkuṭuttom <supplied reason="undefined"><g type="ddanda">.</g></supplied> Ippaṭi paṇṇikkuṭutta Inta māraṇaṉuḷḷiṭṭār Eṅke Irukkilum Inta nāyinārukku I<unclear>ya</unclear>kka kaṭavanākavum<note n="79-3">Read kaṭavarākavum.</note> <supplied reason="undefined"><g type="ddanda">.</g></supplied> Inta taṉmacātanakkuṭi
+</p>
+
+<!--<h4><hi rend="italic">East</hi>.</h4>-->
+
+<p>
+<lb n="2"/>vaḻi Ellām Inta nāyinār kuṭi vaḻi Ākakkaṭavatākavum <supplied reason="undefined"><g type="ddanda">.</g></supplied> Ippaṭi paṇṇikkuṭutta Inta taṉmacātanattukku Akitam pa<supplied reason="omitted">ṇ</supplied>ṇināruṇṭānāl
+</p>
+
+<!--<h4><hi rend="italic">South</hi>.</h4>-->
+
+<p>
+<lb n="3"/><note n="80-1">The following line is engraved in somewhat smaller letters below the beginning of line 1<hi rend="italic">a</hi>.</note>keṅkaikkarayil<note n="80-2">Read karaiyil.</note>kurāl pacuvai koṉṟa pāvatte poka kaṭavum <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">m(ā)heśvvararakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Hultzsch1890_01">
+
+<p>Hail! On the day of (<hi rend="italic">the nakshatra) Tiruvoṇam,</hi><note n="80-3">Sanskrit <hi rend="italic">Śravaṇa</hi>.</note>which corresponds to Monday, the fifth lunar day of the former half of the month of <hi rend="italic">Karkaṭaka</hi> of the <hi rend="italic">Sādhāraṇa</hi> year (<hi rend="italic">and</hi>) the Śaka year 1353, while the illustrious <hi rend="italic">mahāmaṇḍaleśvara</hi>, the conqueror of hostile kings, the destroyer of those kings who break their word, the lord of the eastern, southern, western and northern occans, the illustrious <hi rend="bold">Vīrapratāpa-Devarāya-mahārāya</hi> was pleased to rule the earth,—Whereas (<hi rend="italic">we),<note n="80-4">The names of the donors seem to have been contained in the break of line 1<hi rend="italic">a</hi> of the south wall.</note>• • • • • </hi> gave a <hi rend="italic">dharmaśāsana</hi> to (<hi rend="italic">the temple of</hi>) the lord of <hi rend="bold">Teḷḷaiyūr</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Pukkaḷappuram</hi>, a village in <hi rend="bold">Vaḍapuri-Āndi-nāḍu</hi>, (<hi rend="italic">which belongs</hi>) to <hi rend="bold">Paṅgaḷa-nāḍu</hi>, (<hi rend="italic">a division</hi>) of <hi rend="bold">Paḍuvūr-koṭṭam</hi> in <hi rend="bold">Jayaṅkoṇḍa-Śoṛa-maṇḍalam</hi>; —We (<hi rend="italic">hereby declare, that we</hi>) gave to this lord the family (<hi rend="italic">called</hi>) <hi rend="bold">Māraṇaṉ-uḷḷiṭṭār</hi>, which belongs to <hi rend="bold">Pallava-nallūr</hi>, as a family (<hi rend="italic">which has to maintain</hi>) a <hi rend="italic">tirunandā</hi> lamp, with a libation of water, as a meritorious gift, to last as long as the moon and the sun. These <hi rend="bold">Māraṇaṉ-uḷḷiṭṭār</hi>, who were thus given, shall attend to (<hi rend="italic">the worship of</hi>) this lord, wherever they are. The whole family (<hi rend="italic">named in</hi>) this <hi rend="italic">dharmaśāsana, (together with</hi>) their descendants, shall be the family of this lord. If there is anybody who injures this <hi rend="italic">dharmaśāsana</hi>, which was thus given, he shall incur the sin of one who has killed a tawny cow on the bank of the <hi rend="bold">Gaṅgā</hi>. Let <hi rend="bold">Maheśvara</hi> be the protector!</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 1.54 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Hultzsch1890_01"/>
+			<citedRange unit="page">79-80</citedRange>
+			<citedRange unit="item">54</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

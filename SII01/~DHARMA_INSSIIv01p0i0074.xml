@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 1.74: original edition by Eugen Julius Theodor Hultzsch</title>
+				<title type="alt">No. 74. ON THE OUTER WALL OF THE DOORWAY, WHICH LEADS TO THE PAINTED CAVE AT TIRUMALAI, TO THE LEFT OF THE ENTRANCE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv01p0i0074</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription is dated in the twentieth year of <hi rend="italic">Tribhuvanachakravartin</hi> <hi rend="bold">Rājarājadeva</hi>, which, according to the <hi rend="bold">Poygai</hi> inscriptions (Nos. 59 to 64), would correspond to the Śaka year 11-57-58. The donor was <hi rend="bold">Rājagambhīra-Śambuvarāyaṉ</hi>, who bore the <hi rend="italic">birudas</hi> <hi rend="bold">Attimallaṉ</hi><note n="105-2">This is probably the Sanskrit <hi rend="bold">Hastimalla</hi>.</note>and <hi rend="bold">Śambukula-Perumāḷ</hi> (i.e., <hi rend="italic">the</hi> Perumāḷ <hi rend="italic">of the</hi> Śambu <hi rend="italic">race</hi>).<note n="105-3">A <hi rend="bold">Śambuvarāyaṉ</hi> with different <hi rend="italic">birudas</hi> occurs in the <hi rend="bold">Poygai</hi> inscriptions (Nos. 59 to 64).</note> The object granted seems to have been the village of <hi rend="bold">Rājagambhīra-nallūr</hi>, which had evidently received its name from that of the donor.<note n="105-4">Compare <hi rend="bold">Śambukūla-Perumāḷ-agaram</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Rājagambhīra-chaturvedi-maṅgalam</hi> in No. 72.</note></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-24" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">sva[sti <g type="ddanda">.</g>* śrī]tribhu</hi>vana<hi rend="grantha">ccakra</hi>va<hi rend="grantha">rtti</hi>kaḷ <hi rend="grantha">śrīrājarāja</hi>teva
+<lb n="2" break="no"/>ṟku yāṇṭu Irupatāvatu mutal ceyaṅkoṇṭa
+<lb n="3" break="no"/>coḻamaṇṭalattuttamaṉūrnāṭṭu <unclear>vi</unclear>raṉpākka
+<lb n="4" break="no"/>ttu Ilā<unclear>lap</unclear>perumāṉ makaṉ Āṇpāṉkaḷ<note n="105-5">Read āṇṭāṉkaḷ.</note>pa
+<lb n="5" break="no"/><unclear>ṅ</unclear>kaḷarāyarkkuppalakuṉṟakkoṭṭattuppaṅ
+<lb n="6" break="no"/>kaḷanāṭṭu naṭu<unclear>vil</unclear> <gap reason="lost" quantity="2" unit="character"/> kkuṉṟattūrāṉa <hi rend="grantha">rājaga</hi>
+<lb n="7" break="no"/>mpīranallūr <unclear>Iva</unclear>rkkukkāṇiyāka kīḻ
+<lb n="8" break="no"/>nokkiṉa kiṇaṟu<unclear>m m</unclear>eṉokkiṉa maramum nā
+<lb n="9" break="no"/>ṟpālellaiyum viṟṟoṟṟipparikkirayat
+<lb n="10" break="no"/>tukku Urittāvatāka kuṭuttom Attimalla
+<lb n="11" break="no"/>ṉ campukulapperumāḷāṉa <hi rend="grantha">rājagambhīra</hi>cca<unclear>m</unclear>
+<lb n="12" break="no"/>puvarāyaṉeṉ <g type="ddanda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Hultzsch1890_01">
+
+<p>Hail! From the twentieth year of the illustrious <hi rend="italic">Tribhuvanachakravartin</hi>, the illustrious <hi rend="bold">Rājarāja-deva</hi>, forward,—I, <hi rend="bold">Attimallaṉ Śambukula-Perumāḷ</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Rājagambhīra-Śambuvarāyaṉ</hi>, gave to <hi rend="bold">Āṇḍāṉgaḷ Paṅgaḷarāyar</hi>, the son of <hi rend="bold">Ilāla-Perumāṉ</hi> of <hi rend="bold">Vīraṉpākkam</hi> in <hi rend="bold">Tamaṉūr-nāḍu</hi>, (<hi rend="italic">a division</hi>) of <hi rend="bold">Jayaṅkoṇḍa-Śora-maṇḍalam</hi>, (<hi rend="italic">the village of). • • , alias</hi> <hi rend="bold">Rājagambhīra-nallūr</hi>, in the middle of <hi rend="bold">Paṅgaḷa-nāḍu</hi>, (<hi rend="italic">a division</hi>) of <hi rend="bold">Palakuṉṟa-koṭṭam</hi>, as his property, (<hi rend="italic">including</hi>) the wells underground, the trees overground and the boundaries in the four directions, with the right to sell, mortgage or exchange it.</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 1.74 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Hultzsch1890_01"/>
+			<citedRange unit="page">105</citedRange>
+			<citedRange unit="item">74</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 1.70: original edition by Eugen Julius Theodor Hultzsch</title>
+				<title type="alt">No. 70. ON THE WALL OF A MAṆḌAPA AT THE BASE OF THE TIRUMALAI ROCK, TO THE RIGHT OF THE ENTRANCE,—FIRST INSCRIPTION.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv01p0i0070</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription is dated in the 12th year of <hi rend="bold">Rājanārāyaṇa Śambuvarāja</hi><note n="101-6">See the introduction of No. 52.</note>and records the setting up of a <hi rend="bold">Jaina</hi> image on <hi rend="bold">Vaigai-Tirumalai</hi>, <hi rend="italic">i.e.</hi>, on the holy mountain of <hi rend="bold">Vaigai</hi>.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-24" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> rāja</hi>nā<hi rend="grantha">rā</hi>yaṇaṉ campuva<hi rend="grantha">rāja</hi>rkku yā
+<lb n="2" break="no"/>ṇṭu <num value="12"><g type="numeral">10</g> 2</num> vatu poṉṉūr maṇṇaipoṉṉāṇṭai
+<lb n="3"/>makaḷ nallāttāḷ vaikaittirumalaikku Eṟiyaruḷa
+<lb n="4" break="no"/>ppaṇṇiṉa <hi rend="grantha">śrī</hi>vi<hi rend="grantha">hāra</hi>nāyaṉār poṉṉeyil
+<lb n="5" break="no"/>nā<hi rend="grantha">thar <supplied reason="undefined"><g type="danda">.</g></supplied> dharmmo</hi>ya<hi rend="grantha">ḷaja</hi>yatu<hi rend="grantha"> U</hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Hultzsch1890_01">
+
+<p>Hail! Prosperity! In the 12th year of <hi rend="bold">Rājanārāyaṇa Śambuvarāja,—Nallāttāḷ</hi>, the daughter of <hi rend="bold">Maṇṇai-Poṉṉāṇḍai</hi>, (<hi rend="italic">an inhabitant</hi>) of <hi rend="bold">Poṉṉūr</hi>, caused the blessed <hi rend="bold">Vihāra-nāyaṉār, Poṉṉeyil-nātha</hi>,<note n="102-1">With <ta>poṉṉeyil</ta>nā<hi rend="grantha">thar</hi>, “the lord of the golden fortress,” compare <ta>poṉṉeyiṟkōṉ</ta>, which, according to Winslow, is the same as <ta>arukaṉ</ta> (<hi rend="italic">Arhat</hi>).</note>to be raised to the holy mountain of <hi rend="bold">Vaigai</hi> (<hi rend="italic">Vaigai-Tirumalai</hi>). Let this pious work be victorious!</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 1.70 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Hultzsch1890_01"/>
+			<citedRange unit="page">101-102</citedRange>
+			<citedRange unit="item">70</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

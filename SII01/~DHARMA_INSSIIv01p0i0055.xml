@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 1.55: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">PART II. TAMIL AND GRANTHA INSCRIPTIONS. II. INSCRIPTIONS IN THE NEIGHBOURHOOD OF VELÛR. No. 55. ON THE WEST AND SOUTH WALLS OF THE VIRŪPĀKSHEŚVARA TEMPLE AT VEPPAMBAṬṬU NEAR VELŪR.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv01p0i0055</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is dated in Śaka 132[8] expired and the <hi rend="italic">Vyaya</hi> year current. It is a deed of sale of the revenue in gold and the revenue in rice of one half of the village of <hi rend="bold">Veppambaṭṭu</hi> and of the village of <hi rend="bold">Śiṟu-Kaḍambūr</hi>. The first-mentioned village belonged to <hi rend="bold">Āndi-nāḍu</hi>, a division of <hi rend="bold">Agara-paṟṟu</hi>. Both villages are stated to have been granted to the temple of <hi rend="bold">Virūpāksha-deva</hi><note n="80-5">The same is the old name of the Pampāpati Temple at Hampi (Vijayanagara).</note>at <hi rend="bold">Veppambaṭṭu</hi> by <hi rend="bold">Vīrapratāpa-Bukka-mahārāyar</hi> (<hi rend="italic">of</hi> Vijayanagara), and the temple itself is said to have been consecrated one year before the date of the inscription in the <hi rend="italic">Pārthiva</hi> year, <hi rend="italic">i.e.</hi>, Śaka 1328 current. This date is puzzling, as it does not agree with other inscriptions, according to which <hi rend="bold">Bukka's</hi> son <hi rend="bold">Harihara</hi> II. was reigning in Śaka 1301 and 1321.<note n="80-6">See Mr. Fleet in <hi rend="italic">Jour. Bo. Br. R. A. S</hi>., Vol. XII. p. 339.</note></p>						
+                            
+                            <p>The cost of one half of the first village and of the second village as well as the total are given in <hi rend="italic">kuḷapramāṇas</hi> or <hi rend="italic">kuḷas</hi> of gold (<hi rend="italic">poṉ</hi>) and in <hi rend="italic">paṇas</hi>. In line 2 of the south wall another gold standard, called <hi rend="italic">kovai</hi>, seems to be mentioned. The numerous signs for fractions, which occur throughout the inscription, are palaeographically interesting.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-24" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <!--<h4><hi rend="italic">West</hi>.</h4>-->
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> vi<hi rend="grantha">ja</hi>yā<hi rend="grantha">tbhuda</hi>ya<note n="81-1">Read vi<hi rend="grantha">ja</hi>yā<hi rend="grantha">bhyuda</hi>ya.</note> <hi rend="grantha"><supplied reason="undefined"><g type="ddanda">.</g></supplied> śakābdam <num value="132"><g type="numeral">100</g> 3 <g type="numeral">10</g> 2</num><unclear>8</unclear></hi> ṉ mel cellāniṉṟa pā<hi rend="grantha">rtti</hi>va<hi rend="grantha">saṁvatsara</hi>ttukkuccellum viya<hi rend="grantha">saṁvatsara</hi>ttu <hi rend="grantha">jeṣṭabahuḷa</hi>
+                </p>
+                
+                <!--<h4><hi rend="italic">South</hi>.</h4>-->
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">Amā</hi>vā<hi rend="grantha">syai</hi>yu<hi rend="grantha">m</hi> viyāḻakkiḻamaiyum peṟṟa nāḷ <supplied reason="undefined"><g type="danda">.</g></supplied> <hi rend="grantha">śrīmanmahārājādhirājarājaparameśvaraśrī</hi>vī<hi rend="grantha">rapra</hi>tāpapukka<hi rend="grantha">mahārā</hi>yar veppampaṭṭu virūpā<hi rend="grantha">kṣa</hi>tevaṟku
+                </p>
+                
+                <!--<h4><hi rend="italic">West</hi>.</h4>-->
+                
+                <p>
+                    <lb n="2"/><hi rend="grantha">Aṅgaraṅgabhoga</hi>amutupaṭikku <hi rend="grantha">dharmmaśāsa</hi>na<hi rend="grantha">m</hi> Āka kuṭutta <hi rend="grantha">sausti</hi><note n="81-2"><hi rend="grantha">sausti</hi> seems to stand for <hi rend="grantha">svasti</hi> and to be inserted as a sort of <hi rend="italic">maṅgala</hi> at the beginning of the mention of the date of the <hi rend="italic">pratishṭhā</hi>.</note>muṉṉāḷ vai<hi rend="grantha">śākaśuddadvādaśi</hi>yum <hi rend="grantha">guru</hi>vārattu nāḷ <hi rend="grantha">pra</hi>ti<hi rend="grantha">ṣṭai</hi>
+                </p>
+                
+                <!--<h4><hi rend="italic">South</hi>.</h4>-->
+                
+                <p>
+                    <lb n="2"/>Ākaiyāl Aṉṉāḷ mutal Ākakkuṭutta Akarappaṟṟu Āṉtināṭu veppampaṭṭu Ūr Oṉṟukku kuḷa<hi rend="grantha">pramā</hi>ṇam poṉ <hi rend="grantha"><num value="242">2 <g type="numeral">100</g> 4 <g type="numeral">10</g> 2</num> � 4</hi>pa<hi rend="grantha">ma</hi> takukkovai
+                </p>
+                
+                <!--<h4><hi rend="italic">West</hi>.</h4>-->
+                
+                <p>
+                    <lb n="3"/>poṉ <hi rend="grantha"><num value="36">3 <g type="numeral">10</g> 6</num> � 5� <supplied reason="undefined"><g type="danda">.</g></supplied></hi> Itil nāyiṉār virūpā<hi rend="grantha">kṣa</hi>tevaṟku <hi rend="grantha">Addhya</hi>yanam paṇṇum <hi rend="grantha">brāmma</hi>ṇarkku <hi rend="grantha">sarvvamānnyam</hi> Āka kuṭutta Ūr pāti
+                </p>
+                
+                <!--<h4><hi rend="italic">South</hi>.</h4>-->
+                
+                <p>
+                    <lb n="3a" break="no"/>kku kuḷa<hi rend="grantha">pramā</hi>ṇam poṉ <hi rend="grantha"><num value="121"><g type="numeral">100</g> 2 <g type="numeral">10</g> 1</num> � 2</hi> nīkkī Ūr pātikku kuḷam poṉ <hi rend="grantha"><num value="121"><g type="numeral">100</g> 2 <g type="numeral">10</g> 1</num> � 2</hi>pa<hi rend="grantha">ma</hi> m <supplied reason="undefined"><g type="danda">.</g></supplied> Irāvutta canti Opuḷi Āy
+                </p>
+                
+                <!--<h4><hi rend="italic">West</hi>.</h4>-->
+                
+                <p>
+                    <lb n="4"/>kaṅki<unclear>n</unclear>ātarkkucceṉṟa <gap reason="lost" quantity="2" unit="character"/> nāṭu ciṟukaṭampūr Ūr 1 kku kuḷa<hi rend="grantha">pramā</hi>ṇa<hi rend="grantha">m</hi> poṉ <hi rend="grantha"><num value="162"><g type="numeral">100</g> 6 <g type="numeral">10</g> 2</num> � 4� <supplied reason="undefined"><g type="danda">.</g></supplied></hi> Āka Ūr <hi rend="grantha">1�</hi> kku (ku)kuḷa
+                </p>
+                
+                <!--<h4><hi rend="italic">South</hi>.</h4>-->
+                
+                <p>
+                    <lb n="4a" break="no"/>m poṉ <hi rend="grantha"><num value="283">2 <g type="numeral">100</g> 8 <g type="numeral">10</g> 3</num> � 6� <supplied reason="undefined"><g type="danda">.</g></supplied> Akṣara</hi>ttāl vi<hi rend="grantha">rūpākṣa</hi>tevar <hi rend="grantha">Aṅgaraṅgabhogam Amṛ</hi>tapaṭikku <hi rend="grantha">pārtthi</hi>vavaru<hi rend="grantha">ṣam</hi>vai<hi rend="grantha">śā</hi>kacu
+                </p>
+                
+                <!--<h4><hi rend="italic">West</hi>.</h4>-->
+                
+                <p>
+                    <lb n="5" break="no"/><hi rend="grantha">ddhadu</hi>vā<hi rend="grantha">daśi</hi>yu<hi rend="grantha">m guru</hi>vāram mutalāka Eṉṟeṉṟaikku <hi rend="grantha">sarvvamānnya</hi><unclear>m</unclear> <hi rend="grantha">dha<unclear>rmmaśā</unclear>sa</hi>na<hi rend="grantha">m</hi> Āka kuṭutta Ūr <unclear>Oṉṟu</unclear> Araikkum kuḷa<hi rend="grantha">pramā</hi>ṇam
+                </p>
+                
+                <!--<h4><hi rend="italic">South</hi>.</h4>-->
+                
+                <p>
+                    <lb n="5a"/>poṉ <unclear>Iru</unclear>nūṟṟueṇpattumūṉṟu paṇam Āṟemukkālemukkāṇikkum cuṅkam <hi rend="grantha"><unclear>U</unclear>bhai</hi>ya<hi rend="grantha">m mā</hi>ma<hi rend="grantha">gam</hi> Iṭattuṟai puṟampu Ā<unclear>ka</unclear> <hi rend="grantha">saka</hi>
+                    <lb n="3b" break="no"/><hi rend="grantha">lasvarnnādā</hi>yamum <hi rend="grantha">sakalabhaktā</hi>tāyamum cekkukaṭamai
+                    <lb n="4b"/>veṭṭivari tirupputiyitu Erimiṉvīṟppaṇam Uvaccavari
+                    <lb n="5b"/>vaṇṇārvari Uṭppaṭa <hi rend="grantha">Āca<supplied reason="omitted">ṁ</supplied>drārkkastā<unclear>hi</unclear></hi><note n="81-3">Read <hi rend="grantha">sthā</hi>yi.</note>āka <hi rend="grantha">sarvvamānnya</hi> Āka kuṭutto<hi rend="grantha">m stā</hi>na<hi rend="grantha">(m)pūrvva(va)m <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> Aṟṟamari Āticiruppaṇaṅkaḷ Eḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="translation" source="bib:Hultzsch1890_01">
+                
+                <p>Hail! Prosperity! Victory! Fortune! On Thursday, the new moon of the dark half of <hi rend="italic">Jyaishṭha</hi> of the <hi rend="italic">Vyaya</hi> year, which follows the <hi rend="italic">Pārthiva</hi> year (<hi rend="italic">and</hi>) which was current after the Śaka year 132[8] (<hi rend="italic">had passed</hi>), after having bathed, we gave as a <hi rend="italic">sarvamānya</hi>, to last as long as the moon and the sun, all the revenue in gold and all the revenue in rice,<note n="82-1">With <hi rend="grantha">sakalasvarṇādā</hi><ta>yamum</ta> <hi rend="grantha">sakalabhaktādā</hi><ta>yamum</ta> compare <ta>aṉaittu nellāyaṅkācāyaṅkaḷum</ta> in line 21 of the Poygai inscription No. 62.</note>excluding tolls, offerings, <hi rend="italic">māmagam</hi><note n="82-2">According to Winslow, the <hi rend="italic">Māmagam, Māmāgam</hi> or <hi rend="italic">Māmāṅgam</hi> (Sanskrit <hi rend="italic">Mahāmagha</hi> or <hi rend="italic">Mahāmāgha</hi>) is a bathing festival, celebrated every twelve years at Kumbhakoṇam. A festival called <hi rend="italic">Mahāmakham</hi> or <hi rend="italic">Māmāṅṅam</hi> used likewise to take place every twelfth year at Tirunāvāyi in Malabar; see Dr. Gundert's <hi rend="italic">Malayāḷam Dictionary</hi>. The meaning of <hi rend="italic">māmagam</hi> and <hi rend="italic">iḍattuṟai</hi> in the present inscription is not apparent.</note> (and) <hi rend="italic">iḍattuṟai</hi>, including the tax on oil-mills, the tax for the <hi rend="italic">Veṭṭi,</hi><note n="82-3">In this and other inscriptions, <ta>veṭṭi</ta> seems to stand for <ta>veṭṭiyāṉ </ta>, the lowest village servant, who is also called <ta>tōṭṭi</ta>.</note>the holy first fruits, the money from the sale of the fish in the tanks, the tax on <hi rend="bold">Uvachchas</hi><note n="82-4">The <hi rend="bold">Uvachchas</hi> or <hi rend="bold">Jonakas</hi> (<hi rend="italic">i.e.</hi>, Yavanas) are a low tribe of Muḥammadans; see Winslow.</note>and the tax for the washermen, against (<hi rend="italic">payment of the sum detailed below):</hi>—(1.) 242 <hi rend="italic">kuḷapramāṇas</hi> of gold and 4(1/16) <hi rend="italic">paṇas</hi>—equal to 36 <hi rend="italic">kovais (?</hi>) of gold and 5(1/8) <hi rend="italic">paṇas</hi>—for one village, (<hi rend="italic">viz.</hi>) <hi rend="bold">Veppambaṭṭu</hi> (<hi rend="italic">in</hi>) <hi rend="bold">Āndi-nāḍu</hi>, (<hi rend="italic">a division of</hi>) <hi rend="bold">Agara-paṟṟu</hi>, which, as the consecration of the temple took place on a former day, (<hi rend="italic">viz.</hi>) on Thursday, the twelfth lunar day of the bright half of <hi rend="italic">Vaiśākha</hi>, was given from that day forward by a <hi rend="italic">dharmaśāsana</hi>, for (<hi rend="italic">providing</hi>) enjoyments of all kinds and rice<note n="82-5"><ta>amutupaṭi</ta> means “raw rice” (Winslow). It is spelt <hi rend="grantha">amṛta</hi><ta>paṭi</ta> in line 4<hi rend="italic">a</hi> of the south wall.</note>to (<hi rend="italic">the temple of</hi>) <hi rend="bold">Virūpāksha-deva</hi> (<hi rend="italic">at</hi>) <hi rend="bold">Veppambaṭṭu</hi> by the illustrious <hi rend="italic">mahārājādhirāja-rājaparameśvara</hi>, the illustrious <hi rend="bold">Vīrapratāpa-Bukka-mahārāyar</hi>; having deducted from this (<hi rend="italic">sum of</hi> 242 <hi rend="italic">kuḷapramāṇas of gold and 4(1/16) paṇas</hi>) 121 <hi rend="italic">kuḷapramāṇas</hi> of gold and 2 <hi rend="italic">paṇas</hi> for the (<hi rend="italic">first</hi>) half of the village, which was given as a <hi rend="italic">sarvamānya</hi> to the <hi rend="italic">Brāhmaṇas</hi> studying the <hi rend="italic">Vedas, (who are connected</hi>) with (<hi rend="italic">the temple of</hi>) the lord <hi rend="bold">Virūpāksha-deva</hi>, (<hi rend="italic">there remain to be paid</hi>) 121 <hi rend="italic">kuḷas</hi> of gold and 2(1/16) <hi rend="italic">paṇas</hi> for the (<hi rend="italic">second</hi>) half of the village; (2.) 162 <hi rend="italic">kuḷapramāṇas</hi> of gold and 4(1/2), (1/5), (1/40) <hi rend="italic">paṇas</hi> for 1 village, (<hi rend="italic">viz.</hi>) <hi rend="bold">Śiṟu-Kaḍambūr • • • • • • </hi>, in all, 283 <hi rend="italic">kuḷas</hi> of gold and 6(3/4), (3/80) <hi rend="italic">paṇas</hi> for the 1(1/2) villages (<hi rend="italic">viz.</hi>, 121 <hi rend="italic">kuḷapramāṇas of gold and</hi> 2(1/16) <hi rend="italic">paṇas for the second half of</hi> Veppambaṭṭu <hi rend="italic">and</hi> 162 <hi rend="italic">kuḷapramāṇas of gold and</hi> 4(1/2), (1/5), (1/40) <hi rend="italic">paṇas for</hi> Śiṟu-Kaḍambūr); in words: two hundred and eighty-three <hi rend="italic">kuḷapramāṇas</hi> of gold and six and three fourths and three eightieths <hi rend="italic">paṇas (were to be paid</hi>) for the one and a half villages, which were given by a <hi rend="italic">dharmaśāsana</hi>, as a <hi rend="italic">sarvamānya</hi>, for ever, from Thursday, the twelfth lunar day of the bright half of <hi rend="italic">Vaiśākha (of</hi>) the <hi rend="italic">Pārthiva</hi> year, for (<hi rend="italic">providing</hi>) enjoyments of all kinds and rice (<hi rend="italic">to the temple of</hi>) <hi rend="bold">Virūpāksha-deva</hi>.</p>
+                
+                <p>The signature of <hi rend="bold">Aṟṟamari Ādi-Śiruppaṇaṅgaḷ</hi>.</p>
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 1.55 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Hultzsch1890_01"/>
+                        <citedRange unit="page">80-82</citedRange>
+                        <citedRange unit="item">55</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

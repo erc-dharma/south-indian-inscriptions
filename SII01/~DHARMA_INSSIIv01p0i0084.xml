@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 1.84: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">PART II. TAMIL AND GRANTHA INSCRIPTIONS. VI. INSCRIPTIONS OF THE KAILÂSANÂTHA AT KÂÑCHÎPURAM. No. 84. ON THE FLOOR OF THE MAHĀMAṆḌAPA OF THE RĀJASIṀHAVARMEŚVARA SHRINE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv01p0i0084</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is dated in the 3rd year of <hi rend="bold">Ko-Rājakesarivarman</hi>. By it, the villagers of <hi rend="bold">Meṉalūr</hi> pledged themselves, to furnish oil for a lamp from the interest of a sum of money, which they had received from the temple-treasury. The inscription mentions <hi rend="bold">Kāñchīpuram. Tirukkaṟṟaḷippuṟam</hi>, “the town of the holy stone-temple,” which occurs in lines 1 f., is evidently derived from <hi rend="bold">Tirukkaṟṟaḷi</hi>, one of the names of the <hi rend="bold">Rājasiṁhavarmeśvara</hi> Temple,<note n="115-5">See page 118, below.</note>and is probably a synonym of <hi rend="bold">Kāñchīpuram</hi>. The town belonged to <hi rend="bold">Kāliyūr-koṭṭam</hi>, a district, which is also mentioned in Nos. 85, 147 and 148.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-24" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><unclear>kovi</unclear>rā<hi rend="grantha">ja</hi>kecaripanmaṟku yāṇṭu 3 <unclear>Āvatu</unclear> kāliyūrkoṭṭat<unclear>tokaḻa</unclear>nāṭṭu tiru<unclear>kka</unclear>
+                    <lb n="2" break="no"/>ṟṟaḷippuṟattu meṉalūr Ūrom kaiyyeḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied> kāñcīypurattu tirukkaṟṟaḷi <hi rend="grantha"><unclear>kku</unclear></hi>
+                    <lb n="3" break="no"/><hi rend="grantha">didāsacaṇḍeśva</hi><unclear>ra</unclear> pakkal yāṅkaḷ koṇṭu kaṭava poṉ patiṉeṇ<unclear>kaḻañcey</unclear>
+                    <lb n="4"/>munṟu mañcāṭiyum kuṉṟiy <supplied reason="undefined"><g type="danda">.</g></supplied> Ippon patiṉneṇkaḻañcey mu<unclear>nṟu mañcā</unclear>
+                    <lb n="5" break="no"/><unclear>ṭi</unclear> kuṉṟikkum palicaiyāṟ<hi rend="grantha">cantrā</hi>tit<unclear>ta</unclear>vaṟa<note n="116-1">Read varai.</note>nicatam Uḻakkeṇṇai Ūraka[muṭaiyār kā<note n="116-2">These letters are supplied from line 11 of the inscription No. 147.</note>] 
+                    <lb n="6" break="no"/>loṭokkum Uḻakkāle Aṭṭuvomānom Oru nan=tāviḷakku Aṭṭuvom<choice><sic>a</sic><corr>ā</corr></choice>no<unclear>m</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="7"/><unclear>Ū</unclear>rār colla Eḻutineṉ Ivvūr vica<unclear>van</unclear> Alappaṭiyeṉ Ivai En Eḻut<unclear>tu</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="translation" source="bib:Hultzsch1890_01">
+                
+                <p>In the 3rd year of <hi rend="bold">Ko-Rājakesarivarman</hi>, we, the villagers of <hi rend="bold">Meṉalūr</hi>, (<hi rend="italic">a quarter</hi>) of <hi rend="bold">Tirukkaṟṟaḷippuṟam</hi> in <hi rend="bold">Ogaṛa-nāḍu (?)</hi>, (<hi rend="italic">a division</hi>) of <hi rend="bold">Kāliyūr-koṭṭam</hi>, (<hi rend="italic">made the following</hi>) written agreement. We have received from <hi rend="bold">Ādidāsa Chaṇḍeśvara</hi><note n="116-3">On Ādidāsa Chaṇḍeśvara see page 92, note 6. According to the Tamil <hi rend="italic">Periya-purāṇam</hi>, Śiva made the pious Vichāraśarman the chief <ta>(talaivaṉ)</ta> of his devotees <ta>(toṇṭar)</ta>, and bestowed on him the title <hi rend="bold">Chaṇḍeśvara</hi>. This legend perhaps explains the designation <hi rend="bold">Ādidāsa</hi>, “the first devotee.”</note> (<hi rend="italic">in</hi>) the holy stone-temple at <hi rend="bold">Kāñchīpuram</hi> eighteen <hi rend="italic">kaṛañjus</hi>, three <hi rend="italic">mañjāḍis</hi> and one <hi rend="italic">kuṉṟi</hi><note n="116-4">1 <hi rend="italic">kaṛañju</hi> contains 20 <hi rend="italic">mañjāḍi</hi> contains 2 <hi rend="italic">kuṉṟis</hi>, and 1 <hi rend="italic">kuṉṟi</hi> is equal to about 2 grains.</note>of gold. From the interest<note n="116-5"><ta>palicai</ta> seems to be the same as <ta>policai</ta>.</note>of these eighteen <hi rend="italic">kaṛañjus</hi>, three <hi rend="italic">mañjāḍis</hi> and one <hi rend="italic">kuṉṟi</hi> of gold, we shall pour out daily,<note n="116-6"><ta>nicatam</ta> seems to be another form of <ta>nicati</ta> (see page 114, note 3).</note>as long as the moon and the sun exist, (<hi rend="italic">for</hi>) one <hi rend="italic">nandā</hi> lamp, one <hi rend="italic">uṛakku</hi> of oil with an <hi rend="italic">uṛakku (measure</hi>), which is equal to a quarter (<hi rend="italic">according to the standard</hi>) of the authorities in the village. As the villagers.....told (<hi rend="italic">me</hi>), I, <hi rend="bold">Alappaḍi</hi>, the headman<note n="116-7"><ta>vicavaṉ </ta>, which occurs also in No. 148, is probably identical with <ta>viyavaṉ</ta>.</note>of this village, wrote (<hi rend="italic">this document</hi>). This is my signature.</p>
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 1.84 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Hultzsch1890_01"/>
+                        <citedRange unit="page">115-116</citedRange>
+                        <citedRange unit="item">84</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

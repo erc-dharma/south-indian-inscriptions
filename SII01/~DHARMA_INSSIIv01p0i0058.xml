@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 1.58: original edition by Eugen Julius Theodor Hultzsch</title>
+				<title type="alt">No. 58. ON A STONE AT THE SOUTH ENTRANCE OF VIRIÑCHIPURAM.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv01p0i0058</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription is dated during the reign of <hi rend="bold">Veṅkaṭapati-deva-mahārāyar</hi><note n="85-1">This is <hi rend="bold">Veṅkaṭa</hi> I. of <hi rend="bold">Karṇāṭa</hi>, whose grants range between Śaka 1508 and 1535; see <hi rend="italic">Indian Antiquary</hi>, Vol. XIII. p. 155.</note>and in the <hi rend="italic">Nandana</hi> year, which was current after the expiration of the Śaka year 1514. It records that <hi rend="bold">Periya-Eṟama-nāyaka</hi> of <hi rend="bold">Puṉṉāṟṟūr</hi> granted a house (<hi rend="italic">maṉai</hi>) and some land for a <hi rend="italic">maṭha</hi> to <hi rend="bold">Ānanda-Namaśivāya-paṇḍāram</hi>. The grant was made at the <hi rend="bold">Mārgasahāyeśvara</hi> Temple of <hi rend="bold">Tiru-Viriñchapuram</hi> (<hi rend="italic">Viriñchipuram</hi>).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-24" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha"><unclear>śvasti</unclear></hi><note n="85-2">Read <hi rend="grantha">svasti</hi>.</note> <hi rend="grantha">śrī</hi>maṉma<unclear>kā</unclear>maṇṭa<unclear>le</unclear>
+<lb n="2" break="no"/><hi rend="grantha">śvara</hi>ṉ kaṇṭa kaṭṭāri <unclear>cā</unclear>
+<lb n="3" break="no"/>ḷuva <hi rend="grantha">śrī</hi>veṅka<unclear>ṭapa</unclear>tite
+<lb n="4" break="no"/>vamakārāyar piṟutivīrā<unclear>c</unclear>
+<lb n="5" break="no"/>ciyam paṇṇi Aruḷāni<unclear>ṉ</unclear>
+<lb n="6" break="no"/>ṟa <hi rend="grantha">saha</hi>tta<hi rend="grantha">m</hi><note n="85-3">Read <hi rend="grantha">śakābdam</hi>.</note> <hi rend="grantha"><num value="1514"><g type="numeral">1000</g> 5 <g type="numeral">100</g> <g type="numeral">10</g> 4</num> kku</hi>
+<lb n="7"/>mel cellāniṉṟa na
+<lb n="8" break="no"/>ntaṉavaru<hi rend="grantha">ṣa</hi>m tai mātam <hi rend="grantha">6 U</hi> tiru
+<lb n="9" break="no"/>viriñcapuram māṟkacakāyīcu<unclear>ra</unclear>
+<lb n="10" break="no"/>ṉ caṉṉatiyil citamparam kuru<unclear>na</unclear>
+<lb n="11" break="no"/>macivāyamuṟtti Aṭiyār Āṉan
+<lb n="12" break="no"/>tanamacivāyapaṇṭā<unclear>ra</unclear>mavar<unclear>kaḷu</unclear>
+<lb n="13" break="no"/><hi rend="grantha">kku</hi> vāṇṭarāyaṉ tiruvitiyil
+<lb n="14"/>vaṭaciṟakil ma<unclear>ṉai</unclear> velūr <unclear>māya</unclear>
+<lb n="15" break="no"/>nāyakkar kumāracaṅkarappan<unclear>ā</unclear>
+<lb n="16" break="no"/>yakkarayaṉavarkaḷu<hi rend="grantha">kku</hi> puṇṇi
+<lb n="17" break="no"/>yamāka puṉṉāṟṟūr periyaeṟa
+<lb n="18" break="no"/>manāyakkar ka<hi rend="grantha">ṭṭa</hi>ḷaiyi<unclear>ṭ</unclear>ṭa maṭam <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+<lb n="19"/>Inta maṭattu maṉai tiṟiyampakama
+<lb n="20" break="no"/>ṉai<hi rend="grantha">kku</hi> kiḻa<hi rend="grantha">kku</hi> muṟtimāṇikkatti<unclear>ṉ</unclear>
+<lb n="21"/>maṉai<hi rend="grantha">kku</hi> meṟku maṉai <g type="danda">.</g>ka<g type="danda">.</g> Aṭi
+<lb n="22"/><num value="41">4 <g type="numeral">10</g> 1</num> maṉai<unclear>p</unclear>paṭa<unclear>p</unclear>paiyuminta
+<lb n="23"/>maṭataṟmattu<hi rend="grantha">kku</hi> nāḷ <hi rend="grantha">1 kku</hi> Oṟṟi <unclear>pi</unclear>
+<lb n="24" break="no"/>ṟa<hi rend="grantha">sā</hi>tam kuṟuṇiyum Ūṟa
+<lb n="25" break="no"/>ṇṭaṉtāṅkal Akkirārattil
+<lb n="26"/>nilaoṟṟicampantamum tārā<note n="85-4">rā looks almost like ṟa.</note>ppū
+<lb n="27" break="no"/>ṟu<unclear>va</unclear>m paṇṇikkuṭuttom <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+<lb n="28"/>yinta maṭam ci<hi rend="grantha">ṣa</hi>paramparai pu
+<lb n="29" break="no"/>ttiṟaparamparaiyum cantirātitta
+<lb n="30" break="no"/>varaiyum Aṉupocittuk
+<lb n="31" break="no"/>koḷḷakkaṭavarākavum <hi rend="grantha">U U</hi>
+<lb n="32"/>yin<unclear>ta</unclear> maṭataṉmattu<hi rend="grantha">kku</hi> yāto
+<lb n="33" break="no"/>ruvar Akutam paṇṇiṉa pe
+<lb n="34" break="no"/>r keṅkai karaiyile kā
+<lb n="35" break="no"/>rām pacuvaikkoṉṟa
+<lb n="36"/>to<hi rend="grantha">ṣa</hi>ttile po
+<lb n="37" break="no"/>ka kaṭavarākavum <hi rend="grantha">U</hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Hultzsch1890_01">
+
+<p>Hail! On the 6th solar day of the month of <hi rend="italic">Tai</hi> of the <hi rend="italic">Nandana</hi> year, which was current after the Śaka year 1514 (<hi rend="italic">had passed</hi>), while the illustrious <hi rend="italic">mahāmaṇḍaleśvara</hi>, the hero (<hi rend="italic">Gaṇḍa</hi>), the dagger (<hi rend="italic">Kaṭṭāri</hi>), the hawk (<hi rend="italic">Sāḷuva</hi>), the illustrious <hi rend="bold">Veṅkaṭapati-devamahārāyar</hi> was pleased to rule the earth,—in the presence of (<hi rend="italic">the god</hi>) <hi rend="bold">Mārgasahāyeśvara</hi> (<hi rend="italic">of</hi>) <hi rend="bold">Tiru-Viriñchapuram,—Periya-Eṟama-nāyaka</hi> (<hi rend="italic">of</hi>) <hi rend="bold">Puṉṉāṟṟūr</hi> ordered a house (<hi rend="italic">maṉai</hi>) on the northern side of the holy street (<hi rend="italic">tiru-vīthi</hi>) of <hi rend="bold">Vāṇḍarāyaṉ</hi> (<hi rend="italic">to be given for</hi>) a <hi rend="italic">maṭha</hi> to <hi rend="bold">Ānanda-Namaśivāya-paṇḍāram</hi>, the worshipper (<hi rend="italic">i.e.</hi>, pupil ?) of the <hi rend="italic">guru</hi> <hi rend="bold">Namaśivāya-mūrti</hi> (<hi rend="italic">of</hi>) <hi rend="bold">Chidambaram</hi>, in order to procure religious merit to <hi rend="bold">Śaṁkarappa-nāyaka Ayaṉ</hi>, the son of <hi rend="bold">Māya (?)-nāyaka</hi> (<hi rend="italic">of</hi>) <hi rend="bold">Velūr</hi>. This house for the <hi rend="italic">maṭha</hi> consists of 1 house to the east of the house of <hi rend="bold">Tryambaka</hi> and to the west of the house of <hi rend="bold">Mūrti-māṇikkam</hi>, and of a house-garden of 41 feet. To this meritorious gift of a <hi rend="italic">maṭha</hi> we gave, with a libation of water, for each day a <hi rend="italic">kuṟuṇi</hi><note n="86-1">A dry-measure equal to a <hi rend="italic">marakkāl</hi>.</note>of rice (<hi rend="italic">? prasāda</hi>) under mortgage,<note n="86-2">It appears that the land mentioned below was mortgaged to the <hi rend="italic">maṭha</hi> as a guarantee for the regular supply of the rice.</note>and the connexion under mortgage with (<hi rend="italic">a piece of</hi>) land in the <hi rend="italic">agrahāra (of</hi>) <hi rend="bold">Ūṟaṇḍaṉ-tāṅgal</hi>. The succession of sons (<hi rend="italic">which consists of</hi>) the succession of pupils<note n="86-3">This clause seems to imply, that the <hi rend="italic">maṭha</hi> was to be inherited by the <hi rend="italic">śishyas</hi> of the donee, just as in other cases a grant to a <hi rend="italic">Brāhmaṇa</hi> is successively enjoyed by his sons, grandsons and further descendants.</note> shall enjoy this <hi rend="italic">maṭha</hi> as long as the moon and the sun endure. Whosoever injures this meritorious gift of a <hi rend="italic">maṭha</hi>, that man shall incur the sin of one who has killed a black cow on the bank of the <hi rend="bold">Gaṅgā</hi>.</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 1.58 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Hultzsch1890_01"/>
+			<citedRange unit="page">85-86</citedRange>
+			<citedRange unit="item">58</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

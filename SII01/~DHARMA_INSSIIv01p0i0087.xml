@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 1.87: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">PART II. TAMIL AND GRANTHA INSCRIPTIONS. VI. INSCRIPTIONS OF THE KAILÂSANÂTHA AT KÂÑCHÎPURAM. No. 87. ON A PILLAR IN THE MAṆḌAPA IN FRONT OF THE RĀJASIṀHAVARMEŚVARA SHRINE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv01p0i0087</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is dated in the same year and month, as No. 86, and during the reign of <hi rend="bold">Kambaṇa-uḍaiyar</hi>, the son of <hi rend="bold">Vīra</hi>. It records that, with the sanction of <hi rend="bold">Kopaṇṇaṅgaḷ,</hi><note n="120-4">See page 118, above.</note> the authorities of the <hi rend="bold">Rājasiṁhavarmeśvara</hi> Temple at <hi rend="bold">Kāñchipuram</hi> sold some houses in the northern row of the <hi rend="italic">saṁnidhi</hi> street to certain <hi rend="italic">Mudalis</hi> at the price of 150 <hi rend="italic">paṇas</hi>.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-24" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <!--<h4><hi rend="italic">West face</hi>.</h4>-->
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">sva<unclear>sti śrī</unclear></hi>maṉu<note n="121-1">Read <hi rend="grantha">śrīman</hi>.</note> <hi rend="grantha">mahā</hi>
+                    <lb n="2" break="no"/>maṇṭalicaraṉ Ariir<unclear>ā</unclear>ya
+                    <lb n="3" break="no"/>vipāṭaṉ pāḻcaikku
+                    <lb n="4"/>tappuva rāyakaṇṭa
+                    <lb n="5" break="no"/>ṉ <hi rend="grantha">pū<unclear>rvva</unclear>paccimasamu</hi>t<unclear>ti</unclear>
+                    <lb n="6" break="no"/>rātipati <hi rend="grantha">śrī</hi>virakumāra
+                    <lb n="7" break="no"/>kampaṇauṭaiyar <hi rend="grantha">pri</hi>
+                    <lb n="8" break="no"/>tuviirācciyam paṇ
+                    <lb n="9" break="no"/>ṇi Aruḷāniṉṟa ca<hi rend="grantha">hā</hi>
+                    <lb n="10" break="no"/>ttam Āyirattuirunū
+                    <lb n="11" break="no"/>ṟṟueṇpattuāṟiṉ
+                    <lb n="12"/>mel cellāniṉṟa
+                    <lb n="13"/>vi<hi rend="grantha">śvā</hi>tivaru<hi rend="grantha">ṣa</hi>m Āṭi
+                    <lb n="14"/>mātam mutal <hi rend="grantha">śrī</hi>matu<note n="121-2">Read <hi rend="grantha">śrīmat</hi>.</note>
+                    <lb n="15" break="no"/>koppaṇṇaṅkaḷ
+                    <lb n="16"/>kāñcipurattil Uṭaiyār
+                    <lb n="17"/>Irā<hi rend="grantha">jasiṁha</hi>paṉmi<hi rend="grantha">śva</hi>ram
+                </p>
+                
+                <!--<h4><hi rend="italic">South face</hi>.</h4>-->
+                
+                <p>
+                    <lb n="18"/>Uṭaiyār Āṉa Eṭu<supplied reason="omitted">ta</supplied>
+                    <lb n="19" break="no"/>ttu Āyiram Uṭaiya
+                    <lb n="20"/>nāyaṉār koyil tā
+                    <lb n="21" break="no"/>ṉattāṟku nirupam <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                    <lb n="22"/>cannatitteru vaṭa<unclear>ciṟa</unclear>
+                    <lb n="23" break="no"/>kil muṉṉāḷ Irukkum
+                    <lb n="24"/>Āṇṭār cuntarapp
+                    <lb n="25" break="no"/>erumāḷ maṭamum tiru
+                    <lb n="26" break="no"/>vakatticuram Uṭai
+                    <lb n="27" break="no"/>ya nāyaṉār koyi
+                    <lb n="28" break="no"/>lukku kiḻakku tirumañ
+                    <lb n="29" break="no"/>caṉapperuvaḻikku
+                    <lb n="30"/>meṟkum Uḷ<unclear>ḷa</unclear> maṉai niṅ
+                    <lb n="31" break="no"/>kalāṉa maṉai Aṭa
+                    <lb n="32" break="no"/>ṅkalum Iṉṉāḷ
+                    <lb n="33"/>mutal E<supplied reason="omitted">ṉ</supplied>ṟum kaikko
+                    <lb n="34" break="no"/>ḷaṟku<unclear>m</unclear> kaikkoḷ mu
+                </p>
+                
+                <!--<h4><hi rend="italic">East face</hi>.</h4>-->
+                
+                <p>
+                    <lb n="35" break="no"/>talikaḷukkum Inta vaṭa
+                    <lb n="36" break="no"/>ciṟakil Uḷḷa maṉai
+                    <lb n="37" break="no"/>yum maṉaippaṭap
+                    <lb n="38" break="no"/>paiyum caṇṭ
+                    <lb n="39" break="no"/>ṭacuravilaiyā
+                    <lb n="40" break="no"/>ka viṟṟu Ivarkaḷ
+                    <lb n="41"/>pakkal vāṅki ko
+                    <lb n="42" break="no"/>yil paṇṭārattil
+                    <lb n="43"/>mutal Iṭṭa <hi rend="grantha">� <num value="150"><g type="numeral">100</g> 5 <g type="numeral">10</g></num></hi> Ippa
+                    <lb n="44" break="no"/>ṇam nūṟṟuaimpatukku
+                    <lb n="45" break="no"/>m Inta maṉaikaḷum ma
+                    <lb n="46" break="no"/>ṉaippaṭappaikaḷum
+                    <lb n="47"/>maṉaippi <gap reason="lost" quantity="1" unit="character"/> ttikaḷu
+                </p>
+                
+                <!--<h4><hi rend="italic">North face</hi>.</h4>-->
+                
+                <p>
+                    <lb n="48" break="no"/>m mutalmaiyum Aṭ<supplied reason="omitted">ai</supplied>
+                    <lb n="49" break="no"/>ppum tevar Aṭimai
+                    <lb n="50" break="no"/>yum kaikkoḷm
+                    <lb n="51" break="no"/>aiyum tāṅkaḷ niṉṟa
+                    <lb n="52"/>Aṭaivukaḷile vi
+                    <lb n="53" break="no"/>ṟṟum Oṟṟivaittu
+                    <lb n="54" break="no"/>m koḷḷakkaṭavar
+                    <lb n="55" break="no"/>kaḷ Ākavum Ūr p
+                    <lb n="56" break="no"/>oruntiṉatu Aṭaippu
+                    <lb n="57"/>Āka kaṭavu<note n="122-1">Read va.</note>tākavum <supplied reason="undefined"><g type="ddanda">.</g></supplied> Ip
+                    <lb n="58" break="no"/>paṭikku Iṉṉāḷ muta
+                    <lb n="59" break="no"/>l cantirātittavarai
+                    <lb n="60" break="no"/>yum cella kallilu
+                    <lb n="61" break="no"/>m cempilum veṭṭik
+                    <lb n="62" break="no"/>koḷḷavum <supplied reason="undefined"><g type="ddanda">.</g></supplied> Ivai koppaṇaṉ Eḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                    <lb n="63"/>Ippaṭikku
+                    <lb n="64"/>kal veṭṭi
+                    <lb n="65"/>kuṭuttom
+                    <lb n="66"/>Ivai kam<unclear>pā</unclear>
+                    <lb n="67" break="no"/>ṇṭāṉ E
+                    <lb n="68" break="no"/>ḻuttu
+                    <lb n="69"/>Ippaṭikku
+                    <lb n="70"/>Ivai Iṟa
+                    <lb n="71" break="no"/>ṅkal miṭṭa
+                    <lb n="72"/>ciyaṉ E
+                    <lb n="73" break="no"/>ḻuttu
+                    <lb n="74"/>Ippaṭik
+                    <lb n="75" break="no"/>ku Ikko
+                    <lb n="76" break="no"/>yil teva
+                    <lb n="77" break="no"/>kaṉmi k
+                    <lb n="78" break="no"/>āṭṭukku
+                    <lb n="79" break="no"/>ṟivaip
+                    <lb n="80" break="no"/>paṉ vira
+                    <lb n="81" break="no"/>campappi
+                    <lb n="82" break="no"/>ramārāya
+                    <lb n="83" break="no"/>ṉ Eḻu
+                    <lb n="84" break="no"/>ttu
+                    <lb n="85"/>Ippaṭikku
+                    <lb n="86"/>Ivai kā
+                    <lb n="87" break="no"/>ñcikkuṟi
+                    <lb n="88" break="no"/>pārattu v
+                    <lb n="89" break="no"/>āci viṭaṅ
+                    <lb n="90" break="no"/>kapaṭṭaṉ
+                    <lb n="91"/>Eḻuttu
+                    <lb n="92"/>Ippaṭikku
+                    <lb n="93"/>Ivai nā
+                    <lb n="94" break="no"/>ṟpatteṇ
+                    <lb n="95" break="no"/>ṇāyirakk
+                    <lb n="96" break="no"/>ālāṉ
+                    <lb n="97"/>Eḻuttu
+                    <lb n="98"/>Ivai Irā
+                    <lb n="99" break="no"/>kuttarāya
+                    <lb n="100" break="no"/>kkālā
+                    <lb n="101" break="no"/>ṉ Eḻu
+                    <lb n="102" break="no"/>ttu
+                    <lb n="103"/>Ippaṭi
+                    <lb n="104" break="no"/>kku Ivai
+                    <lb n="105"/>Ikkoyi
+                    <lb n="106" break="no"/>l kaṇak
+                    <lb n="107" break="no"/>ku Uttara
+                    <lb n="108" break="no"/>ṉmerur
+                    <lb n="109"/>Uṭaiyā
+                    <lb n="110" break="no"/>ṉ tiruve
+                    <lb n="111" break="no"/>kampave
+                    <lb n="112" break="no"/>ḷāṉ Ā
+                    <lb n="113" break="no"/>tittateva
+                    <lb n="114" break="no"/>ṉ Eḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="translation" source="bib:Hultzsch1890_01">
+                
+                <p>Hail! From the month of <hi rend="italic">Āḍi</hi> of the <hi rend="italic">Viśvādi</hi><note n="123-1">I.e., <hi rend="italic">Viśvāvasu</hi>.</note>year, which was current after the Śaka year one thousand two hundred and eighty-six (<hi rend="italic">had passed</hi>), while the illustrious <hi rend="italic">mahāmaṇḍaleśvara</hi>, the conqueror of hostile kings, the destroyer of those kings who break their word, the lord of the eastern and western oceans, <hi rend="bold">Kambaṇa-uḍaiyar</hi>, the son of the illustrious <hi rend="bold">Vīra</hi>, was pleased to rule the earth,—the illustrious <hi rend="bold">Koppaṇṇaṅgaḷ</hi> (<hi rend="italic">addresses the following</hi>) order to the authorities of the temple of the lord <hi rend="bold">Rājasiṁhavarmeśvaram-uḍaiyār</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Eḍudattu-āyiram-uḍaiya-nāyaṉār</hi>, at <hi rend="bold">Kāñchipuram</hi>. Whereas all the houses and the gardens (<hi rend="italic">attached to</hi>) the houses in the northern row of the <hi rend="italic">saṁnidhi</hi> street,— excluding the <hi rend="italic">maṭha</hi> of <hi rend="bold">Āṇḍār Sundara-Perumāḷ</hi>, which exists (<hi rend="italic">from</hi>) old times, (<hi rend="italic">and excluding</hi>) the house, which is to the east of the temple of the lord <hi rend="bold">Tiru-Agastyeśvara</hi> and to the west of the great road of the sacred bath (<hi rend="italic">tiru-mañjaṉa-peru-vaṛi</hi>),—were sold at a price (<hi rend="italic">fixed in the presence of the god</hi>) <hi rend="bold">Chaṇḍeśvara</hi> to the <hi rend="italic">Mudalis</hi>, to be (<hi rend="italic">their</hi>) property, from this day forward, for ever, against (<hi rend="italic">payment of) pa</hi>. 150, (<hi rend="italic">i.e.</hi>) one hundred and fifty <hi rend="italic">paṇas</hi>, which were previously received from these (<hi rend="italic">Mudalis</hi>) and deposited in the templetreasury,—these houses, gardens (<hi rend="italic">attached to</hi>) the houses • • • • • may be sold or mortgaged by them • • • • • This (<hi rend="italic">order</hi>) shall be engraved on stone and copper, in order that it may last from this day forward, as long as the moon and the sun. This is the signature of <hi rend="bold">Koppaṇaṉ</hi>.</p>
+                
+                <p>This we have engraved on stone and given. This is the signature of <hi rend="bold">Kambāṇḍāṉ</hi>. This is the signature of <hi rend="bold">Śīyaṉ</hi> (<hi rend="italic">i.e.</hi>, Siṁha), who made the closing (<hi rend="italic">of the temple</hi>) cease. This is the signature of <hi rend="bold">Kāṭṭukkuṟivaippaṉ Vīra-Śamba-Brahmā-rāyaṉ</hi>, the <hi rend="italic">devakarmin</hi> (i.e., <hi rend="italic">pujārī</hi>) of this temple. This is the signature of <hi rend="bold">Viḍaṅga-bhaṭṭa</hi>, who lives at <hi rend="bold">Kāñchikkuṟipāram (?)</hi>. This is the signature of <hi rend="bold">Nāṟpatteṇṇāyirakkālāṉ</hi>. This is the signature of <hi rend="bold">Irāguttarāyakkālāṉ</hi>. This is the signature of <hi rend="bold">Uttaraṉmerūruḍaiyāṉ Tiruvegamba-veḷāṉ Āditya-deva</hi>, the accountant (<hi rend="italic">kaṇakku</hi>) of this temple.</p>
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 1.87 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Hultzsch1890_01"/>
+                        <citedRange unit="page">120-123</citedRange>
+                        <citedRange unit="item">87</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

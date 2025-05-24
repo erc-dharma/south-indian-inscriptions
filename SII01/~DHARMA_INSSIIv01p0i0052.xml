@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 1.52: original edition by Eugen Julius Theodor Hultzsch</title>
+				<title type="alt">No. 52. ON THE NORTH WALL OF THE PERUMĀḶ TEMPLE AT GĀṄGANŪR NEAR VELŪR.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv01p0i0052</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription is dated in the <hi rend="italic">Pramāthin</hi> year, which was the 17th year of <hi rend="bold">Sakalalokachakravartin Śambuvarāya</hi>. This date is at variance with that of a Kāñchīpuram inscription, according to which the <hi rend="italic">Vyaya</hi> year and the Śaka year 1268 corresponded to the 9th year of <hi rend="bold">Sakalalokachakravartin Rājanārāyaṇa Śambuvarāyar</hi>,<note n="77-5">Sewell's <hi rend="italic">Lists of Antiquities</hi>, Vol. I, p. 180, No. 60.</note>and we must either assume that the 9th year is a misreading for the 24th year, or that the king mentioned at Kāñchīpuram and that of the present inscription are two different persons.</p>						
+
+						<p>The inscription is a receipt for the cost of a <hi rend="italic">kāṇi,</hi><note n="77-6">Equal to 24 <hi rend="italic">maṉais</hi>. 1 <hi rend="italic">maṉai</hi> is 2,400 square feet.</note>which a certain <hi rend="bold">Tiruveṅgaḍamuḍaiyāṉ</hi> seems to have sold<note n="77-7">According to the incomplete line 6, the price of the <hi rend="italic">kāṇi</hi> seems to have been 170 <hi rend="italic">paṇas</hi>.</note>to the villagers of <hi rend="bold">Nīlakaṇṭha-chaturvedi-maṅgalam</hi> and of <hi rend="bold">Śrī-Mallinātha-chaturvedi-maṅgalam</hi>. The first of these two villages was also called <hi rend="bold">Gāṅgeya-nallūr</hi><note n="77-8">In two fragments at the Gaṅgeśvara Temple (Nos. 104 and 105, below), this name is applied to the second of the two villages. Probably both were subdivisions of Gāṅganūr.</note> (<hi rend="italic">the modern</hi> Gāṅganūr) and was situated in <hi rend="bold">Karaivaṛi-Āndi-nāḍu</hi>.<note n="77-9">Compare No. 102, below.</note></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-24" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>cakalalokaccakkaravatti <hi rend="grantha">śrī</hi> veṉṟu maṇ koṇṭa campuvarāyakku yā<unclear>ṇ</unclear>ṭu <num value="17"><g type="numeral">10</g> 7</num> Āvatu <hi rend="grantha">pra</hi>mā<hi rend="grantha">thisaṁvatsara</hi>ttu <hi rend="grantha">ṛṣabha</hi>nāyaṟṟu <hi rend="grantha">pūrvva</hi>[pa<hi rend="grantha">kṣa</hi>ttu]
+<lb n="2"/><hi rend="grantha">prathamai</hi>yum tiṅkaḷ kiḻa<hi rend="grantha">mai</hi>yam<note n="77-10">Read yum.</note>p<unclear>e</unclear>ṟṟa ro<hi rend="grantha">hi</hi>ṇi ṉāḷ ka<hi rend="grantha">rai</hi>va<unclear>ḻi</unclear>āṉtiṉāṭṭu Akaram kāṅkeyanallūrāna nilakaṇṭa[ ccatu <hi rend="grantha">rvve</hi>]
+<lb n="3" break="no"/><hi rend="grantha">di</hi>maṅkalattu <hi rend="grantha">magāja</hi>nattukkum <hi rend="grantha">śrī</hi>mallikā<hi rend="grantha"><unclear>tha</unclear></hi>cca<unclear>tu</unclear><hi rend="grantha">rvvedi</hi>maṅkalattu <hi rend="grantha">mahāja</hi>nattukkum (k)kottaṉpāk<unclear>kamuṭai</unclear>
+<lb n="4" break="no"/>yāṉ tiru<note n="78-1">ru looks like ca.</note>veṅkaṭamuṭaiyāneṉ kāṇi vi<hi rend="grantha">lai pramā</hi>ṇakaccāttu <hi rend="grantha">pa</hi><unclear>ṇ</unclear>ṇi kuṭuttapaṭi vemappa<hi rend="grantha"><unclear>s</unclear>ā</hi>rauṭaiyāṉ viracamapaccetirā <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="5"/><unclear>ṇṭu</unclear> Uṭaiyenāṉ Ivvakaraṅkaḷil kaṇakkakāṇi Iṟ<hi rend="grantha">ṛai</hi> nāḷ I<hi rend="grantha"><unclear>pa</unclear></hi> <gap reason="lost" quantity="2" unit="character"/> <unclear>ku</unclear><note n="78-2">Read ippaṭikku (?).</note>vi<unclear>lai</unclear> kuṭut<unclear>tuk</unclear>koḷ<unclear>ḷu</unclear>vatāṉa Emmil I<unclear>c</unclear>ainta <unclear>vilai pa</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="6"/>nallappaṇam vācipaṭar viracamappaṉ kuḷi<hi rend="grantha">kai [�] <num value="170"><g type="numeral">100</g> 7 <g type="numeral">10</g></num></hi> Ippaṇam ṉūṟṟue<unclear>ḻupatu</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="7a"/>I<supplied reason="omitted">v</supplied>vūrkaḷil kaṇakkakāṇi vi<hi rend="grantha">lai pra</hi>māṇakaccāttu <hi rend="grantha">pa</hi>ṇṇi kuṭu
+<lb n="7b" break="no"/>tteṉ ṉilakaṇ<unclear>ṭa</unclear>ccatu<hi rend="grantha">rvvedi</hi>maṅkalattu <hi rend="grantha">mahāja</hi>nattukkum <hi rend="grantha">śrī</hi>[ mallinā<hi rend="grantha">tha</hi>ccatu<hi rend="grantha">rvvedi</hi>ma]
+<lb n="8a" break="no"/>ṅkalattu <hi rend="grantha">mahāja</hi>nattukkum kottampākkamuṭaiyāṉ tiruve
+<lb n="8b" break="no"/>ṅkaṭamuṭaiyāneṉ <supplied reason="undefined"><g type="danda">.</g></supplied> I<supplied reason="omitted">p</supplied>paṭikku I vai tiruveṅkaṭamuṭaiyā <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Hultzsch1890_01">
+
+<p>On the day of (<hi rend="italic">the nakshatra) Rohiṇi</hi>, which corresponds to Monday, the first lunar day of the former half of the month of <hi rend="italic">Ṛishabha</hi> of the <hi rend="italic">Pramāthin</hi> year, (<hi rend="italic">which was</hi>) the 17th year of (<hi rend="italic">the reign of</hi>) <hi rend="bold">Sakalalokachakravartin</hi>, who, having conquered fortune, took the earth, <hi rend="bold">Śambuvarāya</hi>,—Whereas I, <hi rend="bold">Kottaṉpākkam-uḍaiyāṉ's</hi> (<hi rend="italic">son</hi>) <hi rend="bold">Tiruveṅgaḍamuḍaiyāṉ</hi>, gave to the great people of <hi rend="bold">Gāṅgeya-nallūr</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Nīlakaṇṭha-chaturvedimaṅgalam</hi>, a village in <hi rend="bold">Karaivaṛi-Āndi-nāḍu</hi>, and to the great people of <hi rend="bold">Śrī-Mallinātha-chaturvedi-maṅgalam</hi> a receipt for the cost of a <hi rend="italic">kāṇi; • • • • • </hi> I, <hi rend="bold">Kottambākkam-uḍaiyāṉ's</hi> (<hi rend="italic">son</hi>) <hi rend="bold">Tiruveṅgaḍam-uḍaiyāṉ</hi>, (<hi rend="italic">hereby declare, that I</hi>) gave a receipt for the cost of a <hi rend="italic">kāṇi, (as measured by ?</hi>) the accountant of these villages, to the great people of <hi rend="bold">Nīlakaṇṭha-chaturvedi-maṅgalam</hi> and to the great people of <hi rend="bold">Śrī-Mallinātha-chaturvedi-maṅgalam</hi>. This <hi rend="italic">[is the signature of]</hi> <hi rend="bold">Tiruveṅgaḍam-uḍaiyā[ṉ]</hi>.</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 1.52 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Hultzsch1890_01"/>
+			<citedRange unit="page">77-78</citedRange>
+			<citedRange unit="item">52</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
