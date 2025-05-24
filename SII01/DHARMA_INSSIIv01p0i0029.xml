@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 1.29: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">PART I. SANSKRIT INSCRIPTIONS. I. INSCRIPTIONS OF THE PALLAVA DYNASTY. Nos. 24 TO 30. THE PALLAVA INSCRIPTIONS ON THE KAILÂSANÂTHA TEMPLE AT KÂÑCHÎPURAM. No. 29. THIRD NICHE TO THE RIGHT OF FRONT ENTRANCE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv01p0i0029</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-25" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="san-Latn" rendition="class:grantha maturity:regional">
+                
+                <div n="A" type="textpart">
+                    <head>1. Front, first line.</head>
+                    
+                    <p>
+                        <lb n="A1"/>namaśśivāya <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                    </p>
+                    <lg n="1">
+                        <l n="ab">bharttuḥ puronmathanadṛṣṭadhanurbbalasya śailādhirājatanayeva vṛṣadhvajasya <supplied reason="subaudible"><g type="danda">.</g></supplied></l>
+                        <l n="cd">yā kālakāla Iti viśrutapuṇyakīrtteḥ kāntā nitāntadayitā parameśvarasya<surplus>ḥ</surplus> <g type="ddanda">.</g> <supplied reason="subaudible">1</supplied></l>
+                    </lg>
+                    
+                </div>
+                
+                <div n="B" type="textpart">
+                    <head>2. Back.</head>
+                    
+                    <lg n="2">
+                    <l n="ab"><lb n="B1"/>deve jagadvalayarakṣaṇabaddhadīkṣe nirbbhinnaśatruhṛdaye narasiṁhaviṣṇau <supplied reason="subaudible"><g type="danda">.</g></supplied></l>                        
+                        <l n="cd">vāllabhyamūrjjitamavāpya virājate yā nirjjitya garvvamiva puṣkaradevatāyāḥ <g type="ddanda">.</g> <supplied reason="subaudible">2</supplied></l>
+                    </lg>       
+                    
+                </div>
+                
+                <div n="C" type="textpart">
+                    <head>3. Front, second line.</head>
+                    
+                    <lg n="3">
+                    <l n="ab"><lb n="C1"/>nirmmāpitamidandhāma tayā candra<unclear>śiravā</unclear>maṇeḥ <supplied reason="subaudible"><g type="danda">.</g></supplied></l>
+                       <l n="cd">patā<unclear>kayeva</unclear> nārīṇāṁ ramyaṁ raṁgapatāka<supplied reason="undefined">yā <g type="ddanda">.</g></supplied> <supplied reason="subaudible">3</supplied></l>
+                    </lg>
+                </div>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="translation" source="bib:Hultzsch1890_01">
+                
+                <p>Adoration to Śiva!</p>
+                
+                <p>(<hi rend="italic">Verse</hi> 1.) She, who was the dearly beloved mistress of her husband, the supreme lord, who was famed by the name of <hi rend="bold">Kālakāla</hi>, whose sign was the bull,<note>With Vṛishadhvaja compare the <hi rend="italic">birudas</hi> Ṛishabhadarpa and Ṛishabhalāñchhana in No. 25, 5th niche. The bull is also represented on the Pallava coins (see Sir Walter Elliot's <hi rend="italic">Coins of Southern India</hi>, Nos. 31 to 38, 56, 57) and on the seals of the copper-plate grants of the Pallavas.</note> and the strength of whose bow had become manifest at the destruction of cities, just as the daughter of the king of mountains (<hi rend="italic">Pārvatī</hi>) is the dearly beloved mistress of her husband, the supreme lord (<hi rend="italic">Śiva</hi>), whose sign is the bull, and the strength of whose bow has become manifest at the destruction of (<hi rend="italic">the demon</hi>) Pura;—</p>
+                
+                <p>(2.) She, who is resplendent, as she has attained the mighty position of favourite with king <hi rend="bold">Narasiṁhavishṇu</hi>, who has split the hearts of his foes, and who has devoted himself to the protection of the circle of the world, and as thus she seems to have subdued the pride of Pushkaradevatā (<hi rend="italic">i.e.</hi>, Lakshmī, <hi rend="italic">the wife of the god</hi> Narasiṁha-Vishṇu);—</p>
+                
+                <p>(3.) That <hi rend="bold">Raṅgapatākā</hi>, who was, as it were, the banner (<hi rend="italic">patākā</hi>) of women, caused to be built this lovely dwelling of (<hi rend="italic">Śiva,</hi>) whose crest-jewel is the moon.</p>
+                
+            </div>
+            
+            <div type="commentary"/>
+            
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 1.29 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Hultzsch1890_01"/>
+                        <citedRange unit="page">23-24</citedRange>
+                        <citedRange unit="item">29</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
