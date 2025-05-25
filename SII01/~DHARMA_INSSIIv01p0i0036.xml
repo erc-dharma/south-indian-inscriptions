@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 1.36: original edition by Eugen Julius Theodor Hultzsch</title>
+				<title type="alt">No. 36. A GRANT OF AMMA I.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv01p0i0036</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The original of the subjoined inscription belongs to the Government Central Museum, Madras. According to Mr. Sewell,<note n="36-4"><hi rend="italic">Lists of Antiquities</hi>, Vol. II, p. 25.</note>it “was found at the close of the year 1871 buried in the ground in a field in the village of <hi rend="bold">Eḍeru</hi> near Ākiripalle in the Kistna District, 15 miles north-east of Bezvāḍa, a village belonging to the present Zamīndārī of <hi rend="bold">Nūzivīḍu</hi>. The plates were presented to the Madras Museum by the then Zamīndār.” A rough transcript and paraphrase of the inscription were published by S. M. Naṭeśa Śāstrī.<note n="37-1"><hi rend="italic">Ind. Ant</hi>. Vol. XIII, p. 50; <hi rend="italic">Archaeological Survey of Southern India</hi>, Vol. IV, p. 176. An earlier abstract of the same inscription had been published in the <hi rend="italic">Proceedings of the Madras Government, Public Department</hi>, 7th April 1873, and reprinted with notes in the <hi rend="italic">Indian Antiquary</hi>, Vol. II, p. 175 <hi rend="italic">f</hi>.</note>As the inscription deserves to be published more carefully owing to its bearing on a part of the history of the Eastern <hi rend="bold">Chalukyas</hi>, I now edit it from the original plates, the use of which I owe to the kindness of Dr. E. Thurston, Superintendent, Government Central Museum.</p>						
+
+						<p>The document is engraved on five copper-plates with raised rims, which are not less than (1/4) inch thick. Each plate measures 9(1/4) by 4(1/4) inches. The first and fifth plates are inscribed only on their inner sides, while the three middle ones bear writing on both sides. The characters are extremely elegant and must have been engraved by an accomplished calligraphist. The plates are strung on a slightly elliptic ring, which is (1/2) inch thick and measures about 5 inches in diameter. The well-cut circular seal, which is attached to the ring, rests on an expanded lotus-flower and measures 3(1/4) inches in diameter. It bears, at the top, a recumbent boar, which faces the right and is surmounted by the moon and the sun, two <hi rend="italic">chāmaras</hi>, an elephant-goad and a symbol which I cannot make out; across the centre, the legend <de>śrītribhuvanāṁkuśa;</de> and at the bottom, an expanded lotus-flower (<hi rend="italic">side-view</hi>),—all in relief, on a counter-sunk surface. Both the plates and the seal are in excellent preservation.</p>						
+
+						<p>The inscription opens with a <hi rend="italic">maṅgala</hi>, and then notices in prose and in verse the ancestors of the Eastern <hi rend="bold">Chalukya</hi> king <hi rend="bold">Amma</hi> I. Of the kings from <hi rend="bold">Kubja-Vishṇuvardhana</hi> to <hi rend="bold">Vishṇuvardhana</hi> IV. nothing but the names and the length of reigns is mentioned. The next king was <hi rend="bold">Vijayāditya</hi> II., who is called <hi rend="bold">Narendra-mṛigarāja</hi> in other inscriptions. He fought 108 battles during 12 years with the armies of the <hi rend="bold">Gaṅgas</hi> and <hi rend="bold">Raṭṭas</hi>, built 108 temples of <hi rend="bold">Śiva</hi> in commemoration of his victories and ruled over <hi rend="bold">Veṅgī</hi> for 44 years (<hi rend="italic">verses</hi> 2 <hi rend="italic">to</hi> 4). As Mr. Fleet has pointed out,<note n="37-2"><hi rend="italic">Ind. Ant</hi>. Vol. XII, p. 218.</note> “the <hi rend="bold">Gaṅgas</hi> here referred to were <hi rend="italic">mahāmaṇḍaleśvaras</hi>, feudatories of the <hi rend="bold">Rāshṭrakūṭas</hi>, whose inscriptions are found in the Beḷgaum and Dhārwāḍ Districts.” The <hi rend="bold">Raṭṭas</hi> mentioned in the grant were the <hi rend="bold">Rāshṭrakūṭas</hi> themselves. If we deduct the sum of the reigns of the Eastern <hi rend="bold">Chalukya</hi> kings from <hi rend="bold">Kali-Vishṇuvardhana</hi> to <hi rend="bold">Chālukya-Bhīma</hi> II. from the date of the accession of <hi rend="bold">Amma</hi> II.—<hi rend="italic">Śaka</hi> 867<note n="37-3"><hi rend="italic">Ibid.</hi> VII, 16.</note>—the accession of <hi rend="bold">Kali-Vishṇuvardhana</hi> and the death of his predecessor <hi rend="bold">Vijayāditya</hi> II. would fall in <hi rend="italic">Śaka</hi> 764. Most inscriptions assign to the latter a reign of 48 years, two inscriptions a reign of 40 years,<note n="37-4">See <hi rend="italic">ibid.</hi> VIII, 77, and the inscription No. 37.</note>and the subjoined inscription a reign of 44 years. Accordingly, his accession would fall in <hi rend="italic">Śaka</hi> 716, 724 or 720. Hence the war between <hi rend="bold">Vijayāditya</hi> II. and the <hi rend="bold">Raṭṭas</hi>—as suggested by Mr. Fleet—may have taken place during the reigns of the two <hi rend="bold">Rāshṭrakūṭa</hi> kings <hi rend="bold">Govinda</hi> III. and <hi rend="bold">Śarva Amoghavarsha</hi>, who ruled at least from <hi rend="italic">Śaka</hi> 726<note n="37-5"><hi rend="italic">Ind. Ant</hi>. Vol. XI, p. 126. The original of the inscription is dated in <hi rend="italic">Śaka</hi> 726 expired, the <hi rend="italic">Subhānu</hi> year. The latter corresponds to the current <hi rend="italic">Śaka</hi> year 726.</note>to 737 and from 737<note n="37-6"><hi rend="italic">Ibid.</hi> XII, 219. The current fifty-second year of Amoghavarsha's reign corresponded to <hi rend="italic">Śaka</hi>. 788 expired and the <hi rend="italic">Vyaya</hi> year current.</note> till at least 800<note n="37-7"><hi rend="italic">Ibid.</hi> XIII, 135. The inscription is dated in <hi rend="italic">Śaka</hi> 799 expired.</note>respectively. As, in a grant of <hi rend="italic">Śaka</hi> 730,<note n="37-8"><hi rend="italic">Ibid.</hi> VI, 68. The date in the original is <hi rend="italic">Śaka</hi> 730 expired, the <hi rend="italic">Sarvajit</hi> year. The latter corresponds to the current <hi rend="italic">Śaka</hi> year 730.</note>the lord of <hi rend="bold">Veṅgī</hi> is described as the servant of <hi rend="bold">Govinda</hi> III., and as in a grant of <hi rend="italic">Śaka</hi> 789<note n="38-1"><hi rend="italic">Ind. Ant</hi>. Vol. XII, p. 219.</note>it is stated, that <hi rend="bold">Amoghavarsha</hi> was worshipped by the lord of <hi rend="bold">Veṅgī</hi>, it seems that each party claimed the victory over the other. The fact, that <hi rend="bold">Vijayāditya</hi> II. built 108 temples of <hi rend="bold">Śiva</hi>, is also alluded to in two other inscriptions, where it is said, that he founded 108 temples of <hi rend="bold">Narendreśvara</hi>, <hi rend="italic">i.e.</hi>, temples of <hi rend="bold">Śiva</hi> called after his surname <hi rend="bold">Narendra</hi>.<note n="38-2"><hi rend="italic">Ibid.</hi> VIII, 77: <hi rend="italic">ashṭottara[śata*]-Narendreśvarāyatanānāṁ kartā; ibid.</hi> XIII, 213: <hi rend="italic">ashṭottaraśata-mita- Narendreśvara-karaṇ[aḥ]</hi>.</note></p>						
+
+						<p>Nothing of importance seems to have happened during the short reign of <hi rend="bold">Kali-Vishṇuvardhana</hi>. His successor <hi rend="bold">Vijayāditya</hi> III., who reigned from <hi rend="italic">Śaka</hi> 765-66 to 80910, “having been challenged by the lord of the <hi rend="bold">Raṭṭas</hi>, conquered the unequalled <hi rend="bold">Gaṅgas</hi>, cut off the head of <hi rend="bold">Maṅgi</hi> in battle, frightened the fire-brand <hi rend="bold">Kṛishṇa</hi> and burnt his city completely” (<hi rend="italic">verse</hi> 10.) The killing of <hi rend="bold">Maṅgi</hi> and the burning of the city of <hi rend="bold">Kṛishṇa</hi> is also reported in another inscription.<note n="38-3"><hi rend="italic">Ibid.</hi> XIII, 213: <hi rend="italic">Maṅgi-hanana-Kiraṇa</hi>-(read <hi rend="italic">Kṛishṇa</hi>)-<hi rend="italic">pura-dahana-vikhyāta-kīrtiḥ</hi>.</note>The <hi rend="bold">Kṛishṇa</hi>, whom <hi rend="bold">Vijayāditya</hi> III. defeated, is probably identical with the lord of the <hi rend="bold">Raṭṭas</hi>, who challenged him, and with the <hi rend="bold">Rāshṭrakūṭa</hi> king <hi rend="bold">Kṛishṇa</hi> II., whose earliest known date is <hi rend="italic">Śaka</hi> 825.<note n="38-4"><hi rend="italic">Ibid.</hi> XII, 221. The inscription is dated in <hi rend="italic">Śaka</hi> 822 expired, the <hi rend="italic">Dundubhi</hi> year. The latter corresponds to the current <hi rend="italic">Śaka</hi> year 825.</note></p>						
+
+						<p>After the death of <hi rend="bold">Vijayāditya</hi> III., the <hi rend="bold">Rāshṭrakūṭas</hi>, as noticed by Mr. Fleet, seem to have been victorious; for his nephew <hi rend="bold">Chalukya-Bhīma</hi> I., <hi rend="italic">alias</hi> <hi rend="bold">Drohārjuna</hi>, who ruled from <hi rend="italic">Śaka</hi> 809-10 to 839-40, had to reconquer “the country of <hi rend="bold">Veṅgī</hi>, which had been overrun by the army of the <hi rend="bold">Raṭṭa</hi> claimants” (<hi rend="italic">line</hi> 28<hi rend="italic">f</hi>.) The length of the reign of <hi rend="bold">Vijayāditya</hi> IV., the successor of <hi rend="bold">Chalukya-Bhīma</hi> I., is not mentioned in the subjoined inscription; according to other grants he ruled six months.</p>						
+
+						<p>There followed the king, who issued the grant, <hi rend="bold">Amma</hi> I., <hi rend="italic">alias</hi> <hi rend="bold">Rājamahendra</hi> or <hi rend="bold">Vishṇuvardhana</hi> VI. He, “having drawn his sword, which broke the dishonest hearts of his feudatory relatives, who had joined the party of his natural adversaries, won the affection of the subjects and of the army of his father (<hi rend="italic">Vijayāditya</hi> IV.)” and of his grandfather (<hi rend="italic">Chalukya-Bhīma</hi> I.)” (<hi rend="italic">line</hi> 39 <hi rend="italic">ff</hi>.) The natural adversaries of <hi rend="bold">Amma</hi> I. were probably the <hi rend="bold">Rāshṭrakūṭas</hi> under <hi rend="bold">Prabhūtavarsha</hi> III., whose inscription is dated in <hi rend="italic">Śaka</hi> 842.<note n="38-5"><hi rend="italic">Ibid.</hi> XII, 223. The date of the original is <hi rend="italic">Śaka</hi> 840, the <hi rend="italic">Pramāthin</hi> year. The latter corresponds to the current <hi rend="italic">Śaka</hi> year 842.</note></p>						
+
+						<p>The grant proper, which takes up the remainder of the inscription, is an order, which <hi rend="bold">Amma</hi> I. addressed to the inhabitants of the <hi rend="bold">Kaṇḍeṟuvāḍi-vishaya</hi>, and by which he granted the village of <hi rend="bold">Goṇṭūru</hi><note n="38-6">According to Mr. Sewell (<hi rend="italic">Lists</hi>, Vol. II, p. 26) it remains doubtful, whether the village of Goṇṭūru is identical with the modern town of Guṇṭūr in the Kistna District.</note>together with twelve hamlets to <hi rend="bold">Bhaṇḍanāditya</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Kuntāditya</hi>, one of his military officers. The donee belonged to the <hi rend="bold">Paṭṭavardhinīvaṁśa</hi>. His ancestor <hi rend="bold">Kāḻakampa</hi> had been in the service of <hi rend="bold">Kubja-Vishṇuvardhana</hi>, the first of the Eastern <hi rend="bold">Chalukya</hi> kings, and had killed a certain <hi rend="bold">Daddara</hi> in battle. <hi rend="bold">Bhaṇḍanāditya</hi> himself had already served the donor's father, who is here called <hi rend="bold">Vijayāditya-Kaliyarttyaṅka</hi>. The second part of this name corresponds to the <hi rend="bold">Kollabhigaṇḍa</hi> or <hi rend="bold">Kollabigaṇḍa</hi> of other inscriptions. The grant closes with the enumeration of the four boundaries of the village granted and of the names of the twelve hamlets included in it, and with two of the customary imprecatory verses.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:nāgarī maturity:undetermined">
+
+<!--<h4>PLATE I.</h4>-->
+
+<p>
+<lb n="1"/>sarvvākāramaśeṣasya jagataḥ sarvvadā śivaṁ <supplied reason="undefined"><g type="danda">.</g></supplied> gobrāhmaṇanṛpāṇāṁcca śivaṁ bhavatu sarvvadā <g type="ddanda">.</g> <supplied reason="omitted">1</supplied>
+<lb n="2"/>svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīmatāṁ sakalabhuvanasaṁstūyamānamānavyasagotrāṇāṁ hārītīputrāṇāṁ kau
+<lb n="3" break="no"/>śikīvaraprasādalabdharājyānāṁ mātṛgaṇaparipālitānāṁ svāmimahāsenapādānudhyātā
+<lb n="4" break="no"/>nāṁ bhagavannārāyaṇaprasādasamāsāditavaravarāhalāṁchanekṣaṇakṣaṇava
+<lb n="5" break="no"/>śīkṛtārātimaṇḍalānāṁ Aśvamedhāvabhṛthasnānapavitrīkṛtavapuṣāṁ calukyā
+<lb n="6" break="no"/>nāṁ kulamalaṁkaraṣṇuḥ<note n="39-1">Read ºkariṣṇoḥ.</note>(<g type="ddanda">.</g>) satyāśrayavallabhasya<note n="39-2">bha is a correction for bhe; the writer was probably at first going to write ºvallabhendrasya.</note>bhrātā kubjaviṣṇuvarddhanoṣṭāda
+<lb n="7" break="no"/>śa varṣāṇi <g type="danda">.</g> tatputro jayasiṁhavallabhastrayastriṁśaṁdvarṣāṇi <g type="danda">.</g> taddhrāturindrarājana
+<lb n="8" break="no"/>ndano viṣṇu<note n="39-3">The <hi rend="italic">akshara</hi> ṣṇu is incomplete.</note>varddhanaḥ nava varṣāṇi <g type="danda">.</g> tatputro maṁgiyuvarājaḥ paṁcaviṁśatisaṁvatsarān
+<lb n="9"/>tatsūnurjjayasiṁhastrayodaśa saṁvatsarān <g type="danda">.</g> tadvai<note n="39-4">Read taddvaiº.</note>māturānujaḥ kokkili<supplied reason="omitted">ḥ</supplied>
+</p>
+
+<!--<h4>PLATE II <hi rend="italic">a</hi>.</h4>-->
+
+<p>
+<lb n="10"/>ṣaṇmāsān <g type="danda">.</g> tadagrajo viṣṇurājassvānujamuccāṭy(ā) saptatriṁśatsaṁvatsarān ta
+<lb n="11" break="no"/>tputro vijayādityabhaṭṭārakaḥ Aṣṭādaśābdān <g type="danda">.</g> tannandano viṣṇuvarddhanaḥ ṣaṭtriṁśa
+<lb n="12" break="no"/>dabdān <g type="danda">.</g> tatputraḥ <supplied reason="undefined"><g type="danda">.</g></supplied> gaṁggaraṭṭabalaissārddham dvādaśābdānaha(ā)rnniśam <supplied reason="undefined"><g type="danda">.</g></supplied> bhujārjjitabalaṁ
+<lb n="13"/>khaḍgasahāyo nayavikramaiḥ [<g type="ddanda">.</g> 2*] Aṣṭottaraṁ yuddhaśatam yuddhvā śaṁbhormmahā
+<lb n="14" break="no"/>layān <supplied reason="undefined"><g type="danda">.</g></supplied> tatsaṁkhy(ā)yākarodvīro vijayādityabhūpatiḥ [<g type="ddanda">.</g> 3*] kṛtvā rājyaṁ
+<lb n="15"/>sa veṁggīś(ā)ssacatvāriṁśatassamān <supplied reason="undefined"><g type="danda">.</g></supplied> caturuttarasaṁkhyātān yayau śakhyaṁ sacī<note n="39-5">Read sakhyaṁ śacīº.</note>pa
+<lb n="16" break="no"/>teḥ [<g type="ddanda">.</g> 4*] tatsūnurṇṇaya<note n="39-6">Read tatsūnurnayaº.</note>vi(t)dvīraḥ kallyādirvviṣṇuvarddhano<note n="39-7">Read ºvardhanaḥ.</note><g type="danda">.</g> veṁggīnāthassamastānāmāyudhā
+<lb n="17" break="no"/>nāṁ kaḷau kṛtī [<g type="ddanda">.</g> 5*] varṇṇ<choice><sic>a</sic><corr>ā</corr></choice>śramasthitiniyojanadakṣarakṣāśīkṣā<note n="39-8">Read ºśikṣāṁº.</note>para�parapuraṁjayasa
+</p>
+
+<!--<h4>PLATE II <hi rend="italic">b</hi>.</h4>-->
+
+<p>
+<lb n="18" break="no"/>ktabāhu<supplied reason="omitted">ḥ</supplied> <g type="danda">.</g> nityanvivarggaparipāḷanatantramantrisaṁvvarddhitākhiladharātalala
+<lb n="19" break="no"/>bdhatejāḥ [<g type="ddanda">.</g> 6*] gajavājiyuddhakuśalassārddhasaṁvvatsaraṁppatiḥ <supplied reason="undefined"><g type="danda">.</g></supplied> babhūva rājye <unclear>na</unclear>yavi
+<lb n="20" break="no"/>dabhiṣiktaḥ kulonnateḥ <g type="danda">.</g> <supplied reason="omitted">7</supplied> tatsutojani samastabhūbhṛtāṁ śāsakaḥ sakalasaṁpadāṁ pa
+<lb n="21" break="no"/>tiḥ <supplied reason="undefined"><g type="danda">.</g></supplied> dhairyyadānadhṛtidharmmanirmmalaśrīpratāpadharamūrttiviśrutaḥ <g type="danda">.</g> <supplied reason="omitted">8</supplied> samarani
+<lb n="22" break="no"/>ratārātivrātānanekadhareśvarān (<g type="danda">.</g>) prakṛtibalasaṁpannaḥ tejastatikrama
+<lb n="23" break="no"/>ṇonnatiḥ<note n="39-9">Read ºjonnatiḥ ?</note><g type="danda">.</g> vilasadasinā jitvā sūryya pratāpayaśomayairjjagati vijayādi
+<lb n="24" break="no"/>tyo nityaṁ guṇaiśca jigāya saḥ <g type="danda">.</g> <supplied reason="omitted">9</supplied> gaṁgānaṁgajavairiśaktirasamān (<g type="danda">.</g>) raṭṭeśasaṁcodito
+<lb n="25"/>jitvā maṁgiśiroharat yudhi mahābāhvāptavīryyāryyamā <g type="danda">.</g> kṛṣṇaṁ saṁkilamaṁ<note n="39-10">The <hi rend="italic">anusvāra</hi> is engraved at the beginning of the next plate.</note>
+</p>
+
+<!--<h4>PLATE III <hi rend="italic">a</hi>.</h4>-->
+
+<p>
+<lb n="26" break="no"/>kitākhilabalaprāptorusadvikramo (<g type="danda">.</g>) bhītārttau<note n="39-11">Read bhītyārte.</note>ca vidhāya tatpuramaraṁ yo
+<lb n="27"/>nirddadāha prabhuḥ <g type="danda">.</g> <supplied reason="omitted">10</supplied> sa samastabhuvanāśrayaśrīvijayādityaścatuścatvāriṁ<note n="39-12">The <hi rend="italic">anusvāra</hi> stands at the beginning of the next line.</note>
+<lb n="28" break="no"/>śadvarṣāṇi <g type="danda">.</g> tadanu savitaryyastaṁgate timirapaṭaleneva raṭṭadāyādabale
+<lb n="29" break="no"/>nābhivyāptam veṁgīmaṇḍalam tadanujavikramādityasūnuścalukyabhīmā
+<lb n="30" break="no"/>dhipo drohārjunāparanāmā svavikramaikasahāyataravāriprabhayāvabhā
+<lb n="31" break="no"/>syādhipatirabhūtkiṁ ca <g type="ddanda">.</g> dīnānāthanagranaṭagāyakadharmmadhvajavṛttīnām pitarāvi
+<lb n="32" break="no"/>va sakheva gururivābhilaṣitaṁ vistīryya kalpatarupratimaścetāṁsi dānena saṁta
+<lb n="33" break="no"/>rpya triṁśadvarṣāṇi (<g type="danda">.</g>) pālayitvātmaguṇaiḥ purandaramānandayanniva tatsakhyamagamat <g type="danda">.</g>
+</p>
+
+<!--<h4>PLATE III <hi rend="italic">b</hi>.</h4>-->
+
+<p>
+<lb n="34"/>tatputro vijayādityaḥ śaiśavālabdha<note n="40-1">Read śaiśavāllabdhaº.</note>saṁpadā <supplied reason="undefined"><g type="danda">.</g></supplied> saṁrvvabhogādhirājyāṁgabalaratnai
+<lb n="35" break="no"/>ra<note n="40-2">Read ºratnena?</note>viśrutaḥ <g type="danda">.</g> <supplied reason="omitted">11</supplied> jīvatyeva pratāpāptitari<note n="40-3">Read pratāpātpitari.</note>bhujabaladhvastatadvairivarggaḥ paścājjitvārivargga
+<lb n="36" break="no"/>nnijamajitamahāśaktisaṁpannamantra[ḥ <g type="danda">.</g>*] prajñācakreṇa bāhyāṁ ripusāmitimapi svārttha
+<lb n="37" break="no"/>bhogaiḥ kṛtārttho rājyāśīrllabdhatejāḥ samadalamadhipo jetumindraṁ prayā
+<lb n="38" break="no"/>taḥ <g type="danda">.</g> <supplied reason="omitted">12</supplied> tatsūnurudayāditya Ivāmm<note n="40-4">Read ivāmmo.</note>rājamahendrāparanāmā riputimi
+<lb n="39" break="no"/>ramārānnihatya prakṛtisapatnapakṣanikṣiptasāmantakulyakuṭilamanobhaṁ<note n="40-5">The <hi rend="italic">anusvāra</hi> stands in the next line.</note>
+<lb n="40" break="no"/>gakaraṁ karavālamutkṛtya<note n="40-6">Read ºmutkṛṣy.</note>śaktitrayasaṁpannapratāpāvarjitapitṛpitāmaha
+<lb n="41" break="no"/>prakṛtibalaḥ prajñayā suraguruṁ tejasā bhānumantaṁ kṣamayā kṣamāmama
+</p>
+
+<!--<h4>PLATE IV <hi rend="italic">a</hi>.</h4>-->
+
+<p>
+<lb n="42" break="no"/>ragiriṁ vividhabudhasamāśrayatayānukurvvan sarvvalokāśrayaśrīviṣṇuvarddhanama
+<lb n="43" break="no"/>hārājaḥ svarājyābhiṣekakṛtakalyāṇaḥ siṁhāsanārūḍhaḥ kaṇḍeṟu vāḍiviṣaya
+<lb n="44" break="no"/>nivāsinaḥ sarvvānkuṭuṁbinassamāhūyetthamājñāpayati sma <g type="danda">.</g> Asmatkulakallyāṇapa
+<lb n="45" break="no"/>raṁp(ā)rāniyogādhikṛtapaṭṭavarddhinīvaṁśāgraṇyā <g type="danda">.</g> kāḻa kaṁpa Iti viśrute
+<lb n="46" break="no"/>na <g type="danda">.</g> kuṁbjaviṣṇuvarddhanānucareṇa saṁgrāme tadanujñayā <g type="danda">.</g> durddharṣabalaṁ daddaranā
+<lb n="47" break="no"/>mānaṁ vinihatya taccihrāni <g type="danda">.</g> yena jagṛhire <g type="danda">.</g> tatkulaprasūtasomādityasya sūnura
+<lb n="48" break="no"/>nekayuddhalabdhapratāpaḥ pritiviyarājaḥ <supplied reason="undefined"><g type="danda">.</g></supplied> tatsūnussakalārātimadacchedakarā
+<lb n="49" break="no"/>yudhaḥ <supplied reason="undefined"><g type="danda">.</g></supplied> sevako vijayādityakaliyarttyakabhūbhujaḥ [<g type="ddanda">.</g> 13*] Abhaiṣurbhaṇḍanādityaṁ dṛṣṭvā
+</p>
+
+<!--<h4>PLATE IV <hi rend="italic">b</hi>.</h4>-->
+
+<p>
+<lb n="50"/>pratimukhāṁrjjanam<note n="40-7">Read pratimukhāñjanam.</note><g type="danda">.</g> prāptamujjalagaṇḍākaṁ<note n="40-8">Read ºmujjvalagaṇḍāṅkaṁ.</note>yaṁ pare yamasannibham <g type="danda">.</g> <supplied reason="omitted">14</supplied> yo hi <g type="danda">.</g> śatrūṇāṁ
+<lb n="51"/>tumuleṣu vīrapaṭahaṁ saṁśrāvya jitvā balaṁ kuṁtāditya Iti (<g type="danda">.</g>) śrutāṁkitamahā
+<lb n="52" break="no"/>kīrttipratāpālayaḥ <supplied reason="undefined"><g type="danda">.</g></supplied> maccittaṁ paritoṣya bhṛtyapadavīṁ labdhvā prasādagaṁtaḥ<note n="40-9">Read prasādaṁ gataḥ.</note>sphītā
+<lb n="53" break="no"/>nekabalāribhūpavijayi<note n="40-10">Read ºvijayaº.</note>śrījanmabāhunnatiḥ<note n="40-11">Read ºvāhūnnatiḥ.</note><g type="danda">.</g> <supplied reason="omitted">15</supplied> tasmai <g type="danda">.</g> sadvādaśagrāmaṭiko
+<lb n="54"/>goṁṭūru nāma grāmaḥ sarvvakaraparihārīkṛtyāsmābhirddatta Iti (<g type="danda">.</g>) viditama
+<lb n="55" break="no"/>stu vosmābhiḥ <g type="ddanda">.</g> Asyāvadhayaḥ <g type="danda">.</g> pūrvvataḥ goṁguva <g type="danda">.</g> dakṣiṇataḥ goṇayūru <g type="danda">.</g> paścimata
+<lb n="56" break="no"/>ḥ <g type="danda">.</g> kaluceṟu vulu <g type="danda">.</g> Uttarataḥ maḍapalli <g type="danda">.</g> Eteṣāmmadhyavarttinaḥ kṣetrasīmānaḥ <g type="danda">.</g> pūrvvataḥ <g type="danda">.</g>
+<lb n="57"/>potuṟā yu <g type="danda">.</g> Āgneyataḥ <g type="danda">.</g> peddakoyilamu <g type="danda">.</g> dakṣiṇataḥ kuṟu vapoṭi <g type="danda">.</g> nairititaḥ<note n="41-1">Read nairṛtataḥ.</note>pe
+</p>
+
+<!--<h4>PLATE V.</h4>-->
+
+<p>
+<lb n="58" break="no"/>ruvāti kuṟu va <g type="danda">.</g> paścimataḥ <g type="danda">.</g> pālaguṁṭṭa paḍumaṭikaṭṭa <g type="danda">.</g> vāyavyataḥ <g type="danda">.</g> polakuṁ<note n="41-2">The <hi rend="italic">anusvāra</hi> stands in the next line.</note>
+<lb n="59" break="no"/>goṇḍa monadurgga bhadhavati<note n="41-3">Read bhagavatī ?</note><g type="danda">.</g> Uttarataḥ maḍapallipa� <g type="danda">.</g> Īśānataḥ<note n="41-4">Read aiśānataḥ.</note> <g type="danda">.</g> cāmi� niguṁ<note n="41-5">The <hi rend="italic">anusvāra</hi> stands in the next line.</note>
+<lb n="60" break="no"/>ṭṭa <g type="ddanda">.</g> Asyopari na kenacidbādhā karttavyā yaḥ karoti sa paṁcamahāpātako bhava
+<lb n="61" break="no"/>ti tathā ca vyāsenoktaṁ <supplied reason="undefined"><g type="ddanda">.</g></supplied> bahubhirvvamudhā dattā bahubhiścānupālitā <supplied reason="undefined"><g type="danda">.</g></supplied> yasya
+<lb n="62"/>yasya yadā bhūmistasya tasya tadā phalam <g type="ddanda">.</g> svadattāṁ paradattāṁ vā yo ha
+<lb n="63" break="no"/>rettu vasundharān<note n="41-6">Read vasuṁdharām.</note><supplied reason="undefined"><g type="danda">.</g></supplied> ṣaṣṭiṁ varṣasahasrāṇi viṣṭhāyāṁ jāyate kṛmiḥ <g type="ddanda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Hultzsch1890_01">
+
+<p>(<hi rend="italic">Verse</hi> 1.) Let there be prosperity of all kinds for ever to the whole world, prosperity for ever to cows, brāhmaṇas and princes !</p>
+
+<p>(<hi rend="italic">Line</hi> 2.) Hail ! <hi rend="bold">Kubja-Vishṇuvardhana</hi>,—the brother of <hi rend="bold">Satyāśraya-Vallabha</hi>, who adorned the race of the glorious <hi rend="bold">Chalukyas</hi>, <hi rend="italic">etc.<note n="41-7">The passage, which is omitted in the translation, is identical with the first 4 lines of No. 35.</note>—(ruled</hi>) for eighteen years. His son <hi rend="bold">Jayasiṁha-Vallabha</hi> (<hi rend="italic">ruled</hi>) for thirty-three years. <hi rend="bold">Vishṇuvardhana</hi>, the son of his brother <hi rend="bold">Indra-rāja</hi>, (<hi rend="italic">ruled</hi>) for nine years. His son <hi rend="bold">Maṅgi-yuvarāja</hi> (<hi rend="italic">ruled</hi>) for twentyfive years. His son <hi rend="bold">Jayasiṁha</hi> (<hi rend="italic">ruled</hi>) for thirteen years. <hi rend="bold">Kokkili</hi>, his younger brother from a different mother, (<hi rend="italic">ruled</hi>) for six months. His elder brother <hi rend="bold">Vishṇu-rāja</hi>, having expelled his younger brother, (<hi rend="italic">ruled</hi>) for thirty-seven years. His son <hi rend="bold">Vijayādityabhaṭṭāraka</hi> (<hi rend="italic">ruled</hi>) for eighteen years. His son <hi rend="bold">Vishṇuvardhana</hi> (<hi rend="italic">ruled</hi>) for thirty-six years. His son,—</p>
+
+<p>(<hi rend="italic">Verses</hi> 2 <hi rend="italic">and</hi> 3.) The brave king <hi rend="bold">Vijayāditya</hi>,—having fought 108 battles, in which he acquired power by his arm, with the armies of the <hi rend="bold">Gaṅgas</hi> and <hi rend="bold">Raṭṭas</hi> for twelve years, by day and by night, sword in hand, by means of polity and valour,<note n="41-8">The exigencies of the metre seem to have occasioned the plural <hi rend="italic">nayavikramaiḥ</hi> instead of the dual <hi rend="italic">nayavikramābhyām</hi>.</note>—built the same number (<hi rend="italic">i.e.</hi>, 108) large temples of <hi rend="bold">Śiva</hi>.</p>
+
+<p>(<hi rend="italic">Verse</hi> 4.) Having ruled his kingdom for forty-four years, this lord of <hi rend="bold">Veṅgī</hi> became a companion of Indra.</p>
+
+<p>(<hi rend="italic">Verses</hi> 5 <hi rend="italic">to</hi> 7.) His son. <hi rend="bold">Kali-Vishṇuvardhana</hi>, the brave lord of <hi rend="bold">Veṅgī</hi>,—who knew (<hi rend="italic">the science of</hi>) polity; who was skilled in fighting (<hi rend="italic">kali</hi>) with all weapons;<note n="41-9">This epithet seems to be intended for an etymological explanation of the king's surname Kali.</note>who was devoted to the art of protecting (<hi rend="italic">his subjects</hi>), as he was able to enforce the rules of the castes and orders; whose arms were engaged in the conquest of hostile cities; who acquired glory on the whole earth, which was made prosperous by his ministers, whose chief aim was always to cherish the three objects of life; who was skilled in fighting with elephants and horses; and who know (<hi rend="italic">how to follow the precepts of</hi>) polity in ruling,—was the anointed lord of his prosperous race for one and a half years.</p>
+
+<p>(<hi rend="italic">Verse</hi> 8.) His son was a ruler of all princes and a lord of all wealth, who was renowned for a frame, which possessed the splendour of beauty, (<hi rend="italic">that appeared the more</hi>) spotless on account of his valour, liberality, firmness and justice.</p>
+
+<p>(<hi rend="italic">Verse</hi> 9.) Having conquered by his flashing sword crowds of warlike enemies (<hi rend="italic">and</hi>) many princes, this <hi rend="bold">Vijayāditya</hi> (i.e., <hi rend="italic">the sun of victory</hi>), who possessed natural power, and whose rise was due to an inheritance of abundant majesty, daily conquered the sun in the world by his virtues, which consisted of valour and glory.</p>
+
+<p>(<hi rend="italic">Verse</hi> 10.) Having been challenged by the lord of the <hi rend="bold">Raṭṭas</hi>, this lord,—who possessed the strength of Śiva, (<hi rend="italic">who resembled</hi>) the sun by the power obtained by his strong arm, and who had gained great and excellent might<note n="42-1">By the expression <hi rend="italic">urusadvikrama</hi>, a comparison with Vishṇu (<hi rend="italic">Trivikrama</hi>) is hinted.</note>by his strength, which impressed its mark on the universe,—conquered the unequalled <hi rend="bold">Gaṅgas</hi>, cut off the head of <hi rend="bold">Maṅgi</hi> in battle, frightened the firebrand <hi rend="bold">Kṛishṇa</hi> and burnt his city completely.</p>
+
+<p>(<hi rend="italic">Line</hi> 27.) This asylum of the whole world, the illustrious <hi rend="bold">Vijayāditya</hi> (<hi rend="italic">ruled</hi>) for forty-four years. After him, the son of his younger brother <hi rend="bold">Vikramāditya</hi>, (<hi rend="italic">viz.</hi>) king <hi rend="bold">Cḥalukya-Bhīma</hi>, whose other name was <hi rend="bold">Drohārjuna</hi>, illumined the country of <hi rend="bold">Veṅgī</hi>, —which had been overrun by the army of the <hi rend="bold">Raṭṭa</hi> claimants, just as by dense darkness after sunset,—by the flashing of his sword, the only companion of his valour, and became king. Then, having fulfilled, like parents, like a friend, (<hi rend="italic">or</hi>) like a preceptor, the desires of the distressed, the helpless, the naked, the dancers, the singers and those who gained their livelihood by (<hi rend="italic">carrying</hi>) the banner of virtue, having gratified (<hi rend="italic">their</hi>) minds by gifts, like the tree of paradise, and having ruled for thirty years, he became a companion of Indra, as though he had delighted him by his virtues.</p>
+
+<p>(<hi rend="italic">Verse</hi> 11.) His son <hi rend="bold">Vijayāditya</hi> was famed for his wonderful strength, which was the means of his sway over all enjoyments, and through which he gained prosperity from his infancy.</p>
+
+<p>(<hi rend="italic">Verse</hi> 12.) Having destroyed the crowd of his (viz., <hi rend="italic">his father's</hi>) foes by the strength of his arm (<hi rend="italic">and</hi>) through his valour, while his father was still living, and having conquered after (<hi rend="italic">his father's death</hi>) the crowd of his own enemies<note n="42-2">The six internal enemies of man seem to be intended; see page 35, note 3.</note>and the association of his external foes by his extensive wisdom, (<hi rend="italic">this</hi>) lord,—whose plans were backed up by invincible and great power, who was satisfied by the enjoyment of (<hi rend="italic">all</hi>) his desires, who longed for (<hi rend="italic">another</hi>) kingdom, and who had obtained glory,—went to Indra, in order to conquer one equal half (<hi rend="italic">of Indra's throne</hi>).</p>
+
+<p>(<hi rend="italic">Line</hi> 38.) His son <hi rend="bold">Amma</hi>, whose other name was <hi rend="bold">Rājamahendra</hi>,—having destroyed from afar his enemies, as the rising sun (<hi rend="italic">destroys from afar</hi>) the darkness, and having drawn his sword, which broke the dīshonest hearts of his feudatory relatives, who had joined the party of his natural adversaries,—won the affection of the subjects and of the army of his father and of his grandfather by his might, which was backed up by the three (<hi rend="italic">regal</hi>) powers. (<hi rend="italic">He</hi>) who resembled the teacher of the gods in wisdom, the sun in glory, the earth in patience and the mountain of the immortals through his being the resting-place of many learned men (<hi rend="italic">or gods</hi>), the asylum of the whole world, the illustrious <hi rend="bold">Vishṇuvardhanamahārāja</hi>, who had celebrated the festival of his anointment to the kingdom, and who had ascended the throne, having called together all the householders, who inhabit the district of <hi rend="bold">Kaṇḍeṟuvāḍi</hi>, thus issued his commands:—</p>
+
+<p>(<hi rend="italic">Line</hi> 44.) The chief of the <hi rend="bold">Paṭṭavardhinī</hi> family, which was (<hi rend="italic">always</hi>) charged with appointments by the prosperous succession of our race, he who was famed by the name of <hi rend="bold">Kāḻakampa</hi>, the follower of <hi rend="bold">Kubja-Vishṇuvardhana</hi>, killed in battle with his permission (<hi rend="italic">a king</hi>) called <hi rend="bold">Daddara</hi>, whose army was difficult to be overcome, and seized his banners. The son of <hi rend="bold">Somāditya</hi>, who descended from his race, was <hi rend="bold">Pritiviya-rāja</hi> (!), who acquired glory in many battles.</p>
+
+<p>(<hi rend="italic">Verses</hi> 13 <hi rend="italic">and</hi> 14.) His son, whose weapons destroyed the pride of all enemies, a servant of king <hi rend="bold">Vijayāditya-Kaliyarttyaṅka</hi>, (<hi rend="italic">was</hi>) <hi rend="bold">Bhaṇḍanāditya</hi>, of whom his enemies were afraid, when they perceived him approaching, his face covered with collyrium and his cheeks flushed, as if it were Yama, whose (<hi rend="italic">elephant</hi>) Añjana<note n="43-1">Añjana is generally used as the name of Varuṇa's elephant, while Yama's is called Vāmana.</note>was facing (<hi rend="italic">them</hi>), and the temples (<hi rend="italic">of whose elephant</hi>) were shining (<hi rend="italic">with rutting-juice</hi>).</p>
+
+<p>(<hi rend="italic">Verse</hi> 15.) For, having sounded the drum of heroes in tumultuous conflicts with the enemies and having defeated (<hi rend="italic">their</hi>) army, he,—(<hi rend="italic">who was also called</hi>) <hi rend="bold">Kuntāditya</hi>, and who was the abode of the splendour of great fame combined with sacred knowledge,—pleased my mind, entered my service and obtained my favour; his long arms were the origin of the splendour of victory over hostile kings, whose armies were large and numerous.</p>
+
+<p>(<hi rend="italic">Line</hi> 53.) “To him we gave the village called <hi rend="bold">Goṇṭūru</hi> together with twelve hamlets, having exempted it from all taxes. Thus be it made known to you by us. Its boundaries (<hi rend="italic">are):</hi>—on the east, <hi rend="bold">Goṅguva</hi>; on the south, <hi rend="bold">Goṇayūru</hi>; on the west, <hi rend="bold">Kalucheṟuvulu</hi>; on the north, <hi rend="bold">Maḍapalli</hi>. The hamlets,<note n="43-2"><hi rend="italic">Kshetrasīman</hi> seems to have the same meaning as <hi rend="italic">grāmaṭikā</hi> in line 58.</note>which are situated between these (<hi rend="italic">four villages), (are):</hi>—on the east, <hi rend="bold">Potuṟāyu</hi>; on the south-east, <hi rend="bold">Peddakoyilamu</hi>; on the south, <hi rend="bold">Kuṟuvapoṭi</hi>; on the south-west, <hi rend="bold">Peruvāti</hi> (<hi rend="italic">and</hi>) <hi rend="bold">Kuṟuva</hi>; on the west, <hi rend="bold">Pālaguṇṭa</hi> (<hi rend="italic">and</hi>) <hi rend="bold">Paḍumaṭikaṭṭa</hi>; on the north-west, <hi rend="bold">Polakuṅgoṇḍa, Monadurga</hi> (<hi rend="italic">and</hi>) <hi rend="bold">Bhagavatī</hi>; on the north, <hi rend="bold">Maḍapallipaṟṟu</hi>; on the north-east, <hi rend="bold">Chāmiṟeniguṇṭa</hi>. Nobody shall cause obstruction to this (<hi rend="italic">grant</hi>). He, who does it, becomes (<hi rend="italic">guilty</hi>) of the five great sins. And <hi rend="bold">Vyāsa</hi> has said thus: <hi rend="italic">[Here follow two of the customary imprecatory verses.]</hi>”</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 1.36 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Hultzsch1890_01"/>
+			<citedRange unit="page">36-43</citedRange>
+			<citedRange unit="item">36</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
