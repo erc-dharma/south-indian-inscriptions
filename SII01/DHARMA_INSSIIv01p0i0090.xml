@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 1.90: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">PART III. NOTES AND FRAGMENTS. No. 90. ON THE FRONT WALL OF THE VARĀHASVĀMIN TEMPLE AT MĀMALLAPURAM.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv01p0i0090</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is written on two stones, which fit to each other. It seems to have been dated in the fifth year of the reign of <hi rend="bold">[Rāja]nārāyaṇa Śambuvarāyar</hi><note>See the introduction of No. <ref target="DHARMA_INSSIIv01p0i0052">52</ref>, above.</note> and to have recorded a grant to the temple of <hi rend="bold">Perumāḷ</hi> (<hi rend="italic">i.e.</hi>, Vishṇu) and of <hi rend="bold">Nilamaṅgai-nāchchiyār</hi> (<hi rend="italic">i.e.</hi>, the goddess of the earth) at <hi rend="bold">Māmal[lapuram]</hi>.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-25" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><gap reason="lost" quantity="5" unit="character"/> nārāyaṇaṉ campuvarāyaṟku yāṇ<unclear>ṭu</unclear> <unclear>5</unclear> mutal māmal
+                    <lb n="2" break="no"/><gap reason="lost" quantity="5" unit="character"/> niṉṟa perumāḷukkum nilamaṅkai<unclear>n</unclear>ācciyāṟkum pai
+                    <lb n="3"/><gap reason="lost" quantity="5" unit="character"/> ṉa nilam Uḷḷatu Añcāvatu mutal tiru<unclear>vā</unclear>rātaṉaikkum tiruppaṇi
+                    <lb n="4"/><gap reason="lost" quantity="5" unit="character"/> paṟpaṭṭa Upātikaḷum Uṭpaṭa <hi rend="grantha">sarvva<unclear>m</unclear>ānnya<surplus>ya</surplus>mā</hi>ka naṭakkum pa
+                    <lb n="5"/><gap reason="lost" quantity="5" unit="character"/> ṇa tāḻvaṟa naṭattippotuva <gap reason="lost" quantity="5" unit="character"/> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary">
+                <p><hi rend="italic">Madras Survey Map</hi>, No. 35.</p> 
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 1.90 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Hultzsch1890_01"/>
+                        <citedRange unit="page">126</citedRange>
+                        <citedRange unit="item">90</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

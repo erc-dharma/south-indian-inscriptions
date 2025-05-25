@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 1.148: original edition by Eugen Julius Theodor Hultzsch</title>
+				<title type="alt">PART III. NOTES AND FRAGMENTS. No. 148. ON THE ROOF OF THE MAHĀMAṆḌAPA OF THE RĀJASIṀHAVARMEŚVARA SHRINE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv01p0i0148</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This fragment, which is dated in the fifteenth year of <hi rend="bold">Ko-Parakesarivarman</hi>, contains an agreement made by the inhabitants of some village, who had received a certain sum of money from “the large holy stone-temple (<hi rend="italic">i.e.</hi>, the Rājasiṁhavarmeśvara Temple) at <hi rend="bold">Kachchippeḍu</hi> (<hi rend="italic">i.e.</hi>, Kāñchīpuram).” From the interest of this sum, they pledged themselves to supply ghee for a lamp at the rate of 1 <hi rend="italic">uṛakku</hi> per day or 7 <hi rend="italic">nāṛis</hi> and 1 <hi rend="italic">uri</hi> per mensem.<note n="141-2">As 1 <hi rend="italic">nāṛi</hi> is equal to 4 <hi rend="italic">uṛakkus</hi> or 2 <hi rend="italic">uris</hi>, 30 <hi rend="italic">uṛakkus</hi> are exactly equal to 7 <hi rend="italic">nāṛis</hi> and 1 <hi rend="italic">uri</hi>.</note>The measure to be used was a <hi rend="italic">nāṛi</hi>, which was equal to a <hi rend="italic">rājakesari</hi>.<note n="141-3">The same measure is mentioned in line 4 of the fragment No. 146, and probably in line 13 of No. 150.</note>As the <hi rend="bold">Choḷa</hi> kings alternately bore the surnames <hi rend="bold">Rājakesarin</hi> and <hi rend="bold">Parakesarin</hi>,<note n="141-4">See lines 18 to 20 of the large Leyden grant in Dr. Burgess' <hi rend="italic">Arch. Survey of S. India</hi>, Vol. IV, p. 206. The rule holds good in the case of the two kings <hi rend="bold">Rājarāja-deva</hi> and <hi rend="bold">Rājendra-Choḷa-deva</hi>, Nos. 10 and 11 of the table on page 112, above.</note>it must be assumed, that this measure was called after one of the predecessors of the king, to whose reign the inscription belongs. The writer of the inscription was the village-headman <hi rend="bold">Nāga Alappaḍi</hi>.<note n="141-5">Compare the village-headman <hi rend="bold">Alappaḍi</hi> in No. 84.</note></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-25" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>kopparake<hi rend="grantha">sari</hi>va<hi rend="grantha">rmma</hi>kku yāṇṭu patiṉaiñcāvatu kāliyūrkkoṭṭattu <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="2"/><gap reason="lost" quantity="1" unit="character"/> r Ūrom kaiyyeḻuttukkaccippeṭṭupperiya tirukka<supplied reason="omitted">ṟṟaḷi</supplied> <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="3"/>yāṅkaḷ koṇṭu kaṭava poṉ tuḷai patiṉaṟu kaḻañ<supplied reason="omitted">cu</supplied> <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="4"/>ṉ palicaikkāka Oru <supplied reason="omitted">na</supplied>n=tāviḷakkiṉukku nicatam Uḻakku ṉey <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="5"/>yarkaḷ vaḻi <hi rend="grantha">rāja</hi>kecariyoṭokkunāḻiyāl tiṅkaḷ Eḻu nāḻi Uri ne<supplied reason="omitted">y</supplied> <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="6"/><unclear>Ita</unclear>ṟtiṟampil <hi rend="grantha">dha<unclear>rmm</unclear>āsa</hi>ṉamuḷḷiṭṭa tarmaveṇṭu kovukku nicatam kā <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="7"/>Ūrom Ūr colla Eḻutiṉeṉ Ivūr vicavaṉ nākaṉ Alappa<supplied reason="omitted">ṭi</supplied> <gap reason="lost" quantity="6" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 1.148 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Hultzsch1890_01"/>
+			<citedRange unit="page">141-142</citedRange>
+			<citedRange unit="item">148</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
