@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 1.69: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">PART II. TAMIL AND GRANTHA INSCRIPTIONS. IV. INSCRIPTIONS AT TIRUMALAI NEAR POLÛR. No. 69. ON THE WALL OF A MAṆḌAPA AT THE BASE OF THE TIRUMALAI ROCK, TO THE LEFT OF THE ENTRANCE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv01p0i0069</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is dated in the tenth year of <hi rend="bold">Ko-Māṟavarman<note><foreign>māṟaṉ</foreign> was a title of the Pāṇḍya kings; see Winslow.</note> Tribhuvanachakravartin Vīra-Pāṇḍya-deva</hi> and records the building of a sluice at <hi rend="bold">Vaigai-Tirumalai</hi>.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-24" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> k<unclear>o</unclear><!--kompu unclear-->māṟapaṉma<unclear>r</unclear> <hi rend="grantha">tribhu</hi>vana<hi rend="grantha">cakra</hi>va<hi rend="grantha">rtti <unclear>śrī</unclear>virapāṇ</hi>ṭiyatevarkku
+                    <lb n="2"/>yāṇṭu pattāvatu vaikaittirumalai matakerikku kaliṅku kaṭṭivittāṉ <hi rend="grantha">rā</hi>
+                    <lb n="3" break="no"/><hi rend="grantha">jarāja</hi>vaḷanāṭṭuttirumuṉaippāṭināṭṭu pāṇ<unclear>ṭ</unclear>aiyūrmaṅkalaṅkiḻāṉ
+                    <lb n="4"/>Ampalapperumāḷāṉa ciṉattaraiyaṉ <supplied reason="undefined"><g type="danda">.</g></supplied>
+                </p>
+                <p xml:lang="san-Latn" rendition="class:grantha maturity:undetermined">
+                    dharmmoyañja<unclear>ya</unclear>tu <g type="pc">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="translation" source="bib:Hultzsch1890_01">
+                
+                <p>Hail! Prosperity! In the tenth year of <hi rend="bold">Ko-Māṟavarman Tribhuvanachakravartin</hi>, the illustrious <hi rend="bold">Vīra-Pāṇḍya-deva,—Ambala-Perumāḷ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Śiṉattaraiyaṉ</hi>, the headman (<hi rend="italic">kiṛāṉ) (of</hi>) <hi rend="bold">Pāṇḍaiyūr-maṅgalam</hi> in <hi rend="bold">Tirumuṉaippāḍi-nāḍu</hi>, (<hi rend="italic">a division</hi>) of <hi rend="bold">Rājarāja-vaḷa-nāḍu</hi>, caused to be built a sluice for the <hi rend="bold">Madageri</hi> (<hi rend="italic">tank) (near</hi>) the holy mountain of <hi rend="bold">Vaigai</hi> (<hi rend="italic">Vaigai-Tirumalai</hi>). Let this pious work be victorious!</p>
+                
+            </div>
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 1.69 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Hultzsch1890_01"/>
+                        <citedRange unit="page">101</citedRange>
+                        <citedRange unit="item">69</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
