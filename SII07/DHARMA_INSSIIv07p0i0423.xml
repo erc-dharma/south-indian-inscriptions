@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 7.423: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 423. (A.R. No. 210 of 1901). ON THE NORTH AND WEST WALLS OF THE SAME TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv07p0i0423</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+							
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-05-28" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">sva</hi>
+					
+					<lb n="2" break="no"/><hi rend="grantha">sti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+					
+					<lb n="3"/><hi rend="grantha">lakṣmīryyā</hi>va<hi rend="grantha">nmurāra<unclear>u</unclear></hi> vi<hi rend="grantha">hara</hi>ti vi<hi rend="grantha">kasatpa</hi>ta<hi rend="grantha">śubhrāgrahastā</hi> yāva<hi rend="grantha">jjyo</hi>tī<hi rend="grantha">ṃkṣi candradyuma</hi>ṇivi<hi rend="grantha">raci</hi>tā<hi rend="grantha">nnyucca</hi> <gap reason="lost" quantity="6" unit="character"/> <supplied reason="subaudible"><g type="danda">.</g></supplied> yāva<hi rend="grantha">tpradhy<choice><sic>a</sic><corr>ā</corr></choice>dibhā</hi><unclear>v</unclear>ā ni<hi rend="grantha">jagu</hi>ṇa<hi rend="grantha">sahi</hi>tā na <hi rend="grantha">syuranyonya</hi>yonau tāva<hi rend="grantha">drājendracoḷeśvarakṛ</hi>ta ni<hi rend="grantha">la</hi>yo <hi rend="grantha">dhūrjjaṭiḥ pātuyuṣmān·</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+					
+					<lb n="4"/><hi rend="grantha">Ākāśādāpa</hi>tan=tī<hi rend="grantha">ṃ surasari</hi>ta<hi rend="grantha">mal<choice><sic>a</sic><corr>ā</corr></choice><unclear>M</unclear> pūri</hi>tā<hi rend="grantha">śā</hi>ñ<hi rend="grantha">jalaughairātmī</hi>yo<hi rend="grantha">ttuṅga</hi>vī<hi rend="grantha">cisphuri</hi>ta<hi rend="grantha">makara</hi>na<hi rend="grantha">krol</hi>la<hi rend="grantha">saTkā</hi>n=tunā<hi rend="grantha">b<seg rend="check">da</seg><surplus>M</surplus> </hi><supplied reason="subaudible"><g type="danda">.</g></supplied> <hi rend="grantha">ntūḍā</hi> <gap reason="lost" quantity="2" unit="character"/> <hi rend="grantha">ka</hi>ve<hi rend="grantha">ṇyā himala</hi>va<hi rend="grantha">sadraśīṃ yo babhārā</hi>tita<hi rend="grantha">nvyā sa syādrājendrecoḷeśvarabha</hi>vana<hi rend="grantha">rūciśśaṅkaro vo vibhūtyai</hi> <supplied reason="subaudible"><g type="ddanda">.</g> 2 <g type="ddanda">.</g></supplied> U<hi rend="grantha">ttuṅgabhūpamakuṭa</hi>
+					
+					<lb n="5" break="no"/><hi rend="grantha">sphuradamśura<unclear>tna</unclear>jvālā</hi>va<hi rend="grantha">līḍhakapiśāmgghrisaroja</hi>yu<hi rend="grantha">gmaḥ <supplied reason="subaudible"><g type="danda">.</g></supplied> rājendracoḷanṛpa</hi>ti<hi rend="grantha">śśubharāśibhū</hi>ta<hi rend="grantha">ḥ pā</hi><unclear>y</unclear>ā<hi rend="grantha">daśeṣabhu</hi>vanāni<hi rend="grantha"> cira</hi>n=tana<hi rend="grantha"> śrīḥ</hi> <supplied reason="subaudible"><g type="ddanda">.</g> 3 <g type="ddanda">.</g></supplied> <hi rend="grantha">śrīmadrāj<unclear>e</unclear>ndracoḷeśvarama</hi>vanita<hi rend="grantha">le picci</hi>nā<hi rend="grantha">mā vidhā</hi><unclear>ya</unclear> <hi rend="grantha">grāme vaikūradhīśo bha</hi>vana<hi rend="grantha">ma<unclear>maladhīḥ</unclear> <gap reason="lost" quantity="2" unit="character"/> sthaṇḍilākhcye <supplied reason="subaudible"><g type="danda">.</g></supplied> śambhoḥ <unclear>kailā sa</unclear></hi><unclear>tu</unclear>
+					
+					<lb n="6" break="no"/><hi rend="grantha">lyaṃ sakala</hi>vi<hi rend="grantha">bha</hi>vayu<hi rend="grantha">k· sthā<unclear>sn</unclear>u cācandra</hi>tā<hi rend="grantha">raṃ kīrttiṃ śaddhāma</hi>vā<hi rend="grantha">p<choice><sic>t</sic><corr>n</corr></choice>odadhiga</hi>tavi<hi rend="grantha">bha</hi><choice><sic>t</sic><corr>v</corr></choice>a <hi rend="grantha"> ścoḷarājasya mantrīḥ</hi>  <supplied reason="subaudible"><g type="ddanda">.</g> 4 <g type="ddanda">.</g></supplied> <hi rend="grantha">ḥ</hi> kopparakecari<hi rend="grantha"><unclear>panma</unclear></hi>rā<unclear>n=na</unclear> <hi rend="grantha">śrī</hi>rā<hi rend="grantha">jentra</hi>coḻa<hi rend="grantha">de</hi>vark=ku yāṇṭu 4 ḷ <num value="267">2 <g type="numeral">100</g> 6 <g type="numeral">10</g> 7</num> <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻamaṇṭalattu Ūṟṟukkāṭṭukkoṭṭattut tama<unclear>nū</unclear>rnā<unclear>ṭ</unclear>ṭuk kā<unclear>yv</unclear>āntaṇṭalamāna <hi rend="grantha">catu<unclear>r</unclear>vve</hi>tima<unclear>ṅ</unclear>kalat<unclear>tu</unclear>
+					
+					<lb n="7"/><hi rend="grantha">sabhai</hi>yom Iṟṟaināḷālp pakal Emmur <hi rend="grantha">brahmasthā</hi>natte kūṭṭak=kuṟaivaṟakkūṭi Iruntu Ivvāṇṭu I<supplied reason="omitted">n</supplied>nāṭu vakaic<unclear>e</unclear>ykinṟa vaikūruṭaiyāṉ vallā<unclear>ḷa</unclear>kaṇṭan piccan <hi rend="grantha">śrīrājentra</hi>coḻa<unclear>n</unclear>eṉṉun tirunāmattāl Eṭuppitta <hi rend="grantha">śrīrājentra</hi>coḻa<hi rend="grantha">Ī<unclear>śva</unclear>ra</hi>muṭai<supplied reason="omitted">ya</supplied> <hi rend="grantha">mahāde</hi>va<supplied reason="omitted">r</supplied>kku <hi rend="grantha">sabhai</hi>yom Iṟaiyili tevatānamāka vaitta nilaṅka 
+					
+					<lb n="8" break="no"/>ḷil nilanivantamāka Uṭaiyārait tiruvārātanai ceyyu<supplied reason="omitted">m</supplied> <hi rend="grantha">śi</hi>va<hi rend="grantha">brāhma</hi>ṇan Oruvanukku nellu <g type="kuṟuṇi"/> Āka ḷ <num value="360">3 <g type="numeral">100</g> 6 <g type="numeral">10</g></num><g type="dash"/>nukku <g type="kalam"/> <num value="30">3 <g type="numeral">10</g></num><g type="dash"/> ka<unclear>la</unclear>m paricārakañ ceyyu<supplied reason="omitted">m</supplied> māṇi Oruvanukku <g type="kalam"/> 6<g type="dash"/> <g type="nāḻi"/> Āka ḷ <num value="360">3 <g type="numeral">100</g> 6 <g type="numeral">10</g></num><g type="dash"/>nukku <seg rend="check">�</seg> <num value="22">2 <g type="numeral">10</g> 2</num><g type="dash"/> <g type="kalam"/> <g type="tūṇi"/> <g type="kuṟuṇi"/>m Āka <g type="kalam"/> <num value="52">5 <g type="numeral">10</g> 2</num><g type="dash"/><g type="kalam"/> <g type="tūṇi"/> 2<g type="dash"/> <g type="nāḻi"/> Innellukku Ittevar <hi rend="grantha">de</hi>vatānamāna teṟkilk karupperi kuḻi <num value="400">4 <g type="numeral">100</g></num><g type="dash"/>l teṟkaṭaiyak kuḻi <num value="323">3 <g type="numeral">100</g> 2<unclear><g type="numeral">10</g> 3</unclear></num><g type="dash"/>m ve
+					
+					<lb n="9" break="no"/>ḷārkaḻuval kuḻi <num value="197"><g type="numeral">100</g> 9 <g type="numeral">10</g> 7</num><g type="dash"/>m Araicantai meṭṭuppaṭṭi kuḻi <num value="350">3 <g type="numeral">100</g> 5 <g type="numeral">10</g></num><g type="dash"/>m Āka kuḻi <num value="840">8 <g type="numeral">100</g> 4 <g type="numeral">10</g></num><g type="dash"/>m <hi rend="grantha">A<supplied reason="omitted">r</supplied>cca</hi>nā<hi rend="grantha">bhoga</hi>māvatākavum Uṭaiyārkkuc ciṟukālai Amutuceyya ponakattukku Arici 4<g type="dash"/> <g type="nāḻi"/><g type="dash"/>m Uccampo<unclear>ḻu</unclear>taikkup ponakattukku Arici 4<g type="nāḻi"/><g type="dash"/>m Iravaikku ponakattu Arici 4<g type="dash"/> <g type="nāḻi"/><g type="dash"/>m Āka Arici <g type="kuṟuṇi"/> 4<g type="dash"/> <g type="nāḻi"/>kku <g type="kalam"/> 3<g type="dash"/> <g type="kuṟuṇi"/> 6<g type="dash"/> <g type="nāḻi"/><g type="dash"/>m ciṟukālai<unclear>k ka</unclear>ṟiyamutu pa
+					
+					<lb n="10" break="no"/>ruppamutu Uḻakkāḻākkum puḻukkukkaṟiyamutu Onṟum porikkaṟiamutu Onṟum Ucciya<unclear>mp</unclear>oḻutaikkuk kāykkaṟi<unclear>yamu</unclear>tu Onṟum puḻukkukaṟiyamutu 1<supplied reason="omitted"><g type="dash"/></supplied><unclear>m</unclear> porikkaṟiamutu 1<g type="dash"/>m Ira<unclear>v</unclear>aikkup puḻukkukkaṟiyamutu 1<g type="dash"/>m porikkaṟiamutu 1<g type="dash"/>m Ākakkaṟiamutu Eṭṭinukku nellu 5<g type="dash"/> kuṟuṇi<g type="dash"/>m neyamutu Uṭaiyārk<unclear>ku</unclear> Amutiṟ <unclear>paṭai</unclear>kkavum
+					
+					<lb n="11"/>porikkaṟiamutukkum potu Iruceviṭaraiyāka munṟu potaikkum ne<supplied reason="omitted">y</supplied>yamutu Āḻākkey Iruceviṭaraikkum <gap reason="lost" quantity="3" unit="character"/> <unclear>ta</unclear>yiramutu Uriyāka munṟupoḻutaikkum tayi<unclear>r</unclear>amutu nāḻiurikku <g type="kalam"/> <g type="kuṟuṇi"/><g type="dash"/>m Aṭaikkāy Amutu potu nālu pākkum veṟṟilai <unclear>Eṭ</unclear>ṭumāka munṟu potaikkum Aṭ<unclear>aikk</unclear>āyamutu
+					
+					<lb n="12"/><unclear>pan</unclear>niraṇṭum veṟṟilaiamutu Irupattunālukkumāka <g type="kalam"/> 3<g type="dash"/> <g type="kuṟuṇi"/><g type="dash"/>m Āka ḷ Onṟinukku <g type="kalam"/> <g type="tūṇi"/> <g type="kuṟuṇi"/> 7<g type="dash"/> <g type="nāḻi"/> Āka ḷ <num value="360">3 <g type="numeral">100</g> 6 <g type="numeral">10</g></num><g type="dash"/>nukku <g type="kalam"/> <num value="176"><g type="numeral">100</g> 7 <g type="numeral">10</g> 6</num><g type="dash"/> <g type="kalam"/> 3<g type="kuṟuṇi"/> 1/2 <g type="kalam"/><g type="dash"/>kkut tevatānam periyān muḷḷippaṭṭi kuḻi <num value="337">3 <g type="numeral">100</g> 3 <g type="numeral">10</g> 7</num> 1/2<g type="dash"/>m Āmpalavaneri kiḻcceṟuvu kuḻi <num value="700">7 <g type="numeral">100</g></num><g type="dash"/>m karup<unclear>periyi</unclear>l vaṭakkil<surplus>k</surplus> kuḻi <num value="400">4 <g type="numeral">100</g></num> <unclear>t</unclear>eṟkiṟ karup<unclear>peri</unclear> kuḻi <num value="400">4 <g type="numeral">100</g></num><g type="dash"/>l vaṭakkaṭaiya kuḻi <num value="77"><unclear>7</unclear> <g type="numeral">10</g> 7</num>
+					
+					<lb n="13"/>karupperiyin melatu kuḻi <num value="289">2 <g type="numeral">100</g> 8 <g type="numeral">10</g> 9</num> 1/2 Iraṇṭaraicceṟuvu kīḻitu kuḻi <num value="546">5 <g type="numeral">100</g> 4 <g type="numeral">10</g> 6</num><g type="dash"/> m cevala<unclear>r</unclear>aicu kuḻi <num value="177"><g type="numeral">100</g> 7 <g type="numeral">10</g> 7</num> maruttuvankoṭṭattup paḷḷappaṭṭi kuḻi <num value="351">3 <g type="numeral">100</g> 5 <g type="numeral">10</g> 1</num><g type="dash"/>l vaṭakkaṭaiyak kuḻi <num value="293">2 <g type="numeral">100</g> 9 <g type="numeral">10</g> 3</num><g type="dash"/>m Āka kuḻi <num value="2820">2 <g type="numeral">1000</g> 8 <g type="numeral">100</g> 2 <g type="numeral">10</g></num><g type="dash"/>m tiruvamutukkum ne<supplied reason="omitted">y</supplied>yamutukkum tayiramutukkum kaṟiyamu<unclear>tu</unclear>kkum Aṭaikkāyamutukku<supplied reason="omitted">m</supplied> <hi rend="grantha">bhoga</hi>māvatākavum Uṭaiyārkkut tiru<supplied reason="omitted">p</supplied>paricaṭṭattukku
+					
+					<lb n="14"/>pon kālinukku ne <g type="kalam"/> 3<g type="dash"/> <g type="kalam"/> <g type="tūṇi"/><g type="dash"/>m tiruvārātanaikku Āṭṭaikku can=tanam panniru palattukku pon munṟu mañcāṭikku ne <g type="kalam"/> 2<g type="dash"/> <g type="kalam"/> tiruppukaikkuk kuṅkuliyaṅ koḷḷa pon Iraṇṭu <unclear>ma</unclear>ñcāṭiyu muṉmāvukku ne <g type="kalam"/> 1<g type="dash"/> <g type="kalam"/> <g type="tūṇi"/> 2<g type="kuṟuṇi"/><g type="dash"/>m Āka <g type="kalam"/> 6<g type="dash"/> <surplus><g type="kalam"/></surplus> 2<g type="dash"/> <g type="tūṇi"/> 2<g type="dash"/> <g type="kuṟuṇi"/> 1/2 ne <g type="kalam"/><g type="dash"/>kkut taṇṭalatti<supplied reason="omitted">l</supplied> puḷiyin melatu kuḻi <num value="300">3 <g type="numeral">100</g></num><g type="dash"/>l vaṭakkaṭaiya kuḻi <num value="150"><g type="numeral">100</g> 5 <g type="numeral">10</g></num> tirupparicaṭṭattukkum tirumeyppūccukkum ti
+					
+					<lb n="15" break="no"/><unclear>rup</unclear>pukaikkum pokamāvatākavum Uṭai<unclear>yār</unclear> <gap reason="lost" quantity="2" unit="character"/> kku Uttaramayanamum <hi rend="grantha">dakṣṇa</hi>mayanamum Aippacivi<hi rend="grantha">ṣu</hi> vu<supplied reason="omitted">m</supplied> cittiraivi<hi rend="grantha">ṣu</hi>vum Āka <hi rend="grantha">snapa</hi>nam nālinukku <hi rend="grantha">snapa</hi>nam Onṟu<unclear>kku</unclear> kalacam <num value="25"><unclear>2</unclear> <g type="numeral">10</g> 5</num> Ākak kalacam nūṟinukku ne <g type="kalam"/> 1<g type="dash"/> <g type="kalam"/> 4<g type="dash"/> <g type="kuṟuṇi"/><g type="dash"/>m <hi rend="grantha">snapa</hi>na<hi rend="grantha">dravya</hi>ṅ koḷḷa <hi rend="grantha">snapa</hi>nam Onṟinukku pon Aiñcumāvāka <hi rend="grantha">snapa</hi>nam nālinukku pon Araikkālukku
+					
+					<lb n="16"/>ne <g type="kalam"/> 1<g type="dash"/> <g type="kalam"/> 2<g type="dash"/> tū<unclear>ṇi</unclear><g type="dash"/>m meṟpaṭikkup puṭavai nālukku <gap reason="lost" quantity="3" unit="character"/> nā<unclear>lu mañ</unclear>cāṭikku <g type="kalam"/> 2<g type="dash"/> <g type="kalam"/> 2<g type="dash"/> <g type="tūṇi"/><g type="dash"/>m <hi rend="grantha">snapa</hi>nam Onṟinukkuk kalacattaṭikkiḻ Aṭṭa ne <g type="kalam"/> <g type="kuṟuṇi"/> 4<g type="dash"/> <g type="nāḻi"/> Āka <hi rend="grantha">snapa</hi>nam nālinukku kalacattaṭikkiḻ Aṭṭa ne <g type="kalam"/> <g type="tūṇi"/> 2<g type="dash"/> <g type="kuṟuṇi"/><g type="dash"/>m <hi rend="grantha">snapa</hi>nam Āṭiariḷina Anṟu Uṭaiyārkkup perun=ti ruvamutu ceyya <hi rend="grantha"><unclear>sna</unclear>pa</hi>nam 1<g type="dash"/>kku Arici 2<g type="dash"/> kuṟuṇi Āka <hi rend="grantha">snapa</hi>nam 4<g type="dash"/>nukku Arici 2<g type="dash"/> <g type="tūṇi"/>kku <g type="kalam"/> 1<g type="dash"/> <g type="kalam"/> 2<g type="dash"/> <g type="tūṇi"/><g type="dash"/>m
+					
+					<lb n="17"/>meṟpaṭikkuk <unclear>ka</unclear>ṟiyamitu koḷḷa nālu perun=ti ruvamitukkumāka <g type="kalam"/> <g type="tūṇi"/>m meṟppaṭikku Amutiṟ paṭaikkavum porikkaṟiamutukkum ne<supplied reason="omitted">y</supplied>yamutu Uḻak
+				</p>
+				
+			</div>
+			
+			
+			<div type="commentary">
+				<p n="8">In this inscription the words <foreign>kalam</foreign>, <foreign>tūṇi</foreign>, <foreign>kuṟuṇi</foreign> and <foreign>nāḻi</foreign> which are enclosed in [] brackets in the text are indicated by the symbols <g type="kalam"/>, <g type="tūṇi"/> <g type="kuṟuṇi"/> and <g type="nāḻi"/> respectively.</p>
+				<p n="17">The inscription stops here.</p>
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 7.423 by <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1932_01"/>
+						<citedRange unit="page">266-267</citedRange>
+						<citedRange unit="item">423</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
