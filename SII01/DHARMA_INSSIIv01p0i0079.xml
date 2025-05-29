@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 1.79: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">PART II. TAMIL AND GRANTHA INSCRIPTIONS. V. INSCRIPTIONS AT PAḌAVEḌU. No. 79. ON THE SOUTH WALL OF THE AMMAIAPPEŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv01p0i0079</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is dated during the reign of <hi rend="bold">Vīra-Devarāya-mahārāyar</hi> (<hi rend="italic">of</hi> Vijayanagara) and in the <hi rend="italic">Pramādin</hi> year (<hi rend="italic">i.e.</hi>, Śaka 1356). It records a grant to the <hi rend="bold">Ammaiappa</hi> Temple. The name of the donor is obliterated.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-24" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">śrī</hi>manIracātiIrācaṉ Irā<unclear>ca</unclear>
+                    <lb n="2" break="no"/>parame<hi rend="grantha">śva</hi>ran <hi rend="grantha">śrī</hi>vi<unclear>ra</unclear>tevarāmama<hi rend="grantha">hā</hi>
+                    <lb n="3" break="no"/>Irāyar<unclear>kuc</unclear>cellāniṉṟa piṟamātica
+                    <lb n="4" break="no"/>varu<hi rend="grantha">ṣa</hi>m māci mātam pattāntayati
+                    <lb n="5"/>nāyaṉār AmmaiAppanāyaṉārk<unclear>ku</unclear>
+                    <lb n="6"/>teyavaṅka<unclear>ṇa</unclear>pan mātava<unclear>y</unclear>āvanā<unclear>yar</unclear>
+                    <lb n="7"/>taṉmacātaṉa paṇ<unclear>ṇi ku</unclear>ṭuttapaṭi ma <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="8"/><unclear>koṉ</unclear> periya pekamāvar tiruvira <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="9"/>Āka viṭṭa <gap reason="lost" quantity="1" unit="character"/> vaḷavu <unclear>1</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied> Inta taṉ<unclear>mam</unclear> ca
+                    <lb n="10" break="no"/>ntiṟā<hi rend="grantha">di</hi>ttavarai<unclear>yu</unclear>m naṭakka kaṭa<unclear>vat</unclear>āka
+                    <lb n="11" break="no"/>vum <supplied reason="undefined"><g type="ddanda">.</g></supplied> Inta taṉmattukku Akita paṇ<unclear>ṇu</unclear>vu
+                    <lb n="12" break="no"/>van keṅkai karai<unclear>yi</unclear>l k<choice><sic>a</sic><corr>ā</corr></choice>rām <unclear>pacuv</unclear>ai
+                    <gap reason="lost" extent="unknown" unit="line"/>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="2">
+                        <lem>°rāma°</lem>
+                        <note>The inscription No. <ref target="DHARMA_INSSIIv01p0i0080">80</ref> reads <foreign>°rāya°</foreign> instead of <foreign>°rāma°</foreign>.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:Hultzsch1890_01">
+                
+                <p>Hail! On the tenth day of the month of <hi rend="italic">Māśi</hi> of the <hi rend="italic">Pramādīcha</hi><note>As Dr. Oppert has shown in the <hi rend="italic">Madras Journal of Literature and Science for the year</hi> 1881, p. 276, the erroneous forms <hi rend="italic">Pramodūta</hi> and <hi rend="italic">Pramādicha</hi> for the two cyclic years <hi rend="italic">Pramoda</hi> and <hi rend="italic">Pramādin</hi> owe their origin to some old <hi rend="italic">versus memoriales</hi>, in two of which we find <hi rend="italic">Pramodo 'tha</hi> and <hi rend="italic">Pramādī cha</hi>; in course of time the two particles <hi rend="italic">atha</hi> and <hi rend="italic">cha</hi> were mistaken for portions of the names themselves. In Tamil the two wrong forms have entirely superseded the correct ones.</note> year, which was current (<hi rend="italic">during the reign</hi>) of the illustrious <hi rend="italic">rājādhirāja rājaparameśvara</hi>, the illustrious <hi rend="bold">Vīra-Devarāya-mahārāyar, . . . . . . . . . . </hi> 1 <hi rend="italic">vaḷavu</hi><note><foreign>vaḷavu</foreign> or <foreign>vaḷaivu</foreign> means “a house, household premises” (Winslow).</note> was given by a <hi rend="italic">dharmaśāsana</hi> to the lord <hi rend="bold">Ammaiappa-nāyaṉār</hi>. This meritorious gift shall last as long as the moon and the sun. He who shall injure this meritorious gift, <hi rend="italic">[shall incur the sin of one who has killed]</hi> a black cow on the bank of the <hi rend="bold">Gaṅgā</hi>.</p>
+                
+            </div>
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 1.79 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Hultzsch1890_01"/>
+                        <citedRange unit="page">109</citedRange>
+                        <citedRange unit="item">79</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

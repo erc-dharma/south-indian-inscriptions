@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 1.80: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">PART II. TAMIL AND GRANTHA INSCRIPTIONS. V. INSCRIPTIONS AT PAḌAVEḌU. No. 80. ON THE SOUTH WALL OF THE AMMAIAPPEŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv01p0i0080</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is dated during the reign of <hi rend="bold">Vīra-Devarāya-mahārāyar</hi> (<hi rend="italic">of</hi> Vijayanagara) and in the <hi rend="italic">Ānanda</hi> year (<hi rend="italic">i.e.</hi>, Śaka 1357). It records the gift of a village to the <hi rend="bold">Ammaiappa</hi> Temple. The middle portion is defaced by three cracks.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-24" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">śu</hi>va<hi rend="grantha">sti</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">śrīmaNmahā</hi>
+                    <lb n="2" break="no"/>IrācātiIrāca<hi rend="grantha">n</hi> Ir<unclear>ā</unclear>
+                    <lb n="3" break="no"/>yaparame<hi rend="grantha">śuraN śrī</hi>vīra
+                    <lb n="4" break="no"/>tevarāya<hi rend="grantha">mahā</hi>Irāya<supplied reason="omitted">r</supplied>
+                    <lb n="5" break="no"/>kku cellāniṉṟa
+                    <lb n="6"/>Āṉantavaru<hi rend="grantha">ṣaM</hi> Āṭi
+                    <lb n="7"/><g type="mācam"/> 2 <unclear>ta</unclear>yati nāyaṉā<unclear>r</unclear>
+                    <lb n="8"/>AmmaiAppanāyaṉā<supplied reason="omitted">r</supplied>
+                    <lb n="9" break="no"/>kku <unclear>ca</unclear>lavaippaṟṟu
+                    <lb n="10"/>Ula<unclear>ka</unclear>ḷantaveḷ
+                    <lb n="11"/><unclear>cūriyate</unclear>va<unclear>ṉeṉ</unclear>
+                    <lb n="12"/>taṉmacātaṉam pa
+                    <lb n="13" break="no"/>ṇṇi kuṭuttapaṭi
+                    <lb n="14"/>mullayaIrāyaṉ
+                    <lb n="15"/>veṅkaṭa<unclear>k</unclear>kai<unclear>y</unclear>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="translation" source="bib:Hultzsch1890_01">
+                
+                <p>Hail! On the 2nd day of the month of <hi rend="italic">Āḍi</hi> of the <hi rend="italic">Ānanda</hi> year, which was current (<hi rend="italic">during the reign</hi>) of the illustrious <hi rend="italic">mahārājādhirāja rājaparameśvara</hi>, the illustrious <hi rend="bold">Vīra-Devarāya-mahārāyar</hi>,—I, <hi rend="bold">Ulagaḷanda-Veḷ Sūryadeva</hi>, gave (<hi rend="italic">the village of</hi>) <hi rend="bold"><unclear>Sa</unclear>lavaippaṟṟu</hi> by a <hi rend="italic">dharmaśāsana</hi> to the lord <hi rend="bold">Ammaiappa-nāyaṉār</hi>. Accordingly (<hi rend="italic">there follows</hi>) the signature (?) of <hi rend="bold">Mullaya-rāyaṉ Veṅgaḍa</hi>.</p>
+                
+            </div>
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 1.80 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Hultzsch1890_01"/>
+                        <citedRange unit="page">109-110</citedRange>
+                        <citedRange unit="item">80</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
