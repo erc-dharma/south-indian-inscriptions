@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 1.72: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">PART II. TAMIL AND GRANTHA INSCRIPTIONS. IV. INSCRIPTIONS AT TIRUMALAI NEAR POLŪR. No. 72. ON THE SOUTH WALL OF A MAṆḌAPA AT THE BASE OF THE TIRUMALAI ROCK.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv01p0i0072</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is dated in the <hi rend="italic">Ānanda</hi> year, which was current after the expiration of the Śaka year 1296, and during the reign of <hi rend="bold">Ommaṇa-uḍaiyar</hi>, the son of <hi rend="bold">Kambaṇauḍaiyar</hi> and grandson of <hi rend="bold">Vīra-Kambaṇa-uḍaiyar</hi>.<note>See the introduction of No. <ref target="DHARMA_INSSIIv01p0i0086">86</ref>, below.</note> Like No. <ref target="DHARMA_INSSIIv01p0i0052">52</ref>, above, the inscription is a receipt for the cost of some land, which a certain <hi rend="bold">Vishṇu-Kambuḷi-nāyaka</hi> seems to have bought from the villagers of <hi rend="bold">Śambukula-Perumāḷ-agaram</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Rājagambhīra-chaturvedi-maṅgalam</hi>.<note>These two names of the village are evidently derived from <hi rend="bold">Rājagambhīra-Śambuvarāyaṉ</hi> and his <hi rend="italic">biruda</hi> <hi rend="bold">Śambukula-Perumāḷ</hi>; see No. <ref target="DHARMA_INSSIIv01p0i0074">74</ref>.</note> This village belonged to <hi rend="bold">Murugamaṅgalapaṟṟu</hi><note>The same occurs in No. <ref target="DHARMA_INSSIIv01p0i0081">81</ref>.</note> in <hi rend="bold">Maṇḍaikuḷa-nāḍu</hi>, a division of <hi rend="bold">Palakuṉṟa-koṭṭam</hi>,<note>This is also found in No. <ref target="DHARMA_INSSIIv01p0i0074">74</ref>.</note> which formed part of <hi rend="bold">Jayaṅkoṇḍa-Choḷa-maṇḍalam</hi>. The four last lines, which consist of signatures, have not been transcribed, as they are somewhat obliterated. The following are the readable names of villages, which occur at the beginnings of the different signatures:<note>The last signature is: <foreign>Ivvakarattu Ūrkkaṇakku <hi rend="grantha">ja</hi>yaṅkoṇ<unclear>ṭa</unclear>coḻappiramārāyaṉ Eḻuttu;</foreign> “the signature of <hi rend="bold">Jayaṅkoṇḍa-Śoṛa-Brahmā-rāyaṉ</hi>, the village-accountant of this place.”</note>—<hi rend="bold">Kumāṇḍūr, Murugappāḍi, Periya-Kāṭṭeri, Vaṅgipp[u]ṟam</hi>.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-24" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">śubhamastu svasti</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">śrī</hi>ma<choice><sic>nu</sic><corr><hi rend="grantha">N</hi></corr></choice>ma<hi rend="grantha">h<unclear>ā</unclear></hi>maṇṭavi<unclear>ka</unclear>ṉ Arirāyavipāṭaṉ pā<choice><sic><unclear>ḻa</unclear><seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ai</seg></sic><corr><hi rend="grantha">ṣai</hi></corr></choice>kku tappuva rāyar kaṇṭaṉ pūṟuva<hi rend="grantha">dakṣi</hi>
+                    <lb n="2" break="no"/>ṇa<hi rend="grantha">paścimo</hi>ttara<hi rend="grantha">sa<unclear>mu</unclear>drādhi</hi>pa<unclear>ti</unclear> <hi rend="grantha">śrī</hi>virakampaṇaU<unclear>ṭ</unclear>ai<unclear>y</unclear>ar kumāra<hi rend="grantha">śrī</hi>kampaṇauṭaiyar kumārar <hi rend="grantha">śrī</hi>OmmaṇaUṭai
+                    <lb n="3" break="no"/>yaṟku <hi rend="grantha">p<choice><sic>ri</sic><corr>ṛ</corr></choice><choice><sic>dha</sic><corr>thi</corr></choice></hi>v<choice><sic>i</sic><corr>ī</corr></choice><hi rend="grantha">rājyaM</hi> cell<choice><sic>a</sic><corr>ā</corr></choice>niṉṟa cekā<hi rend="grantha">bdaM</hi> <num value="1296"><g type="numeral">1000</g> 2 <g type="numeral">100</g> <unclear>9 <g type="numeral">10</g></unclear> 6</num> mel cellāniṉṟa Āṉantavaru<hi rend="grantha">ṣaM dha</hi>nunā<supplied reason="omitted">ya</supplied>ṟṟu <hi rend="grantha">pūrvvapakṣa</hi>t
+                    <lb n="4" break="no"/>tu Aṭṭamiyum tiṅkaḷ kiḻamaiyum peṟṟa Uttiraṭṭāti nāḷ ceyaṅkoṇṭacoḻamaṇṭalattuppalakuṉṟakkoṭṭa
+                    <lb n="5" break="no"/>ttu maṇṭaikuḷanāṭṭu murukamaṅkalappaṟṟu campukulapperumāḷ Akara<surplus>m</surplus>māṉa Irācakempiraccaṟu<hi rend="grantha">rvvedi</hi>maṅkalattu
+                    <lb n="6"/><hi rend="grantha">mahi</hi>ra<hi rend="grantha">jya</hi>na<hi rend="grantha">M</hi> tuḷunāṭṭukkuḷḷu Alacunāṭṭu <unclear>Au</unclear><!--partially unclear-->mukaiyamaṉam Okkal vaḻi <unclear>t</unclear>eyavatti Aṭavaḷanar Aḷiya <hi rend="grantha">śrī</hi>viṣṇu                    
+                    <lb n="7" break="no"/>kampuḷināyakkaṟku ṉi<hi rend="grantha">la</hi>vilai <hi rend="grantha">pra</hi>mā<surplus>ma</surplus>ṇam paṇṇikkuṭutta<unclear>paṭi</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <unclear>I</unclear>vvakarattuttenkaḻaṉiyil <hi rend="grantha">rājagaMbhi</hi>ra<hi rend="grantha">N</hi> kaṇṇāṟṟil
+                    <lb n="8"/>kuṭamāvaṭi cūḻnta ciṟuppiḷḷār pāḷ Araimāvil melaivarappukku kiḻakku <supplied reason="undefined"><g type="danda">.</g></supplied> Ikkaṇṇāṟṟukku vaṭakku ciṅkar A<unclear>rai</unclear>
+                    <lb n="9" break="no"/>māvil melaiva<unclear>rap</unclear>pukku kiḻakku <supplied reason="undefined"><g type="danda">.</g></supplied> Ivvaraimāvil varappuccevvaikkutteṟku <supplied reason="undefined"><g type="danda">.</g></supplied> naṟuvili Aṭi Araimāvil ki⌈
+                    <lb n="10" break="no"/><unclear>ḻ</unclear>aivarappuccevvaikku <unclear>meṟ</unclear>ku <supplied reason="undefined"><g type="danda">.</g></supplied> Itaṉ teṉkiḻakku At<unclear>ti</unclear>A<unclear>ppa</unclear>Araimāvil vaṭakku varappukku <gap reason="lost" quantity="5" unit="character"/> kai<unclear>y</unclear>ā<unclear>ṉa</unclear>
+                    <lb n="11"/>melaikkāṇiyil kīḻaivarappuccevvaikku meṟku <supplied reason="undefined"><g type="danda">.</g></supplied> Ikkaṇṇāṟṟukku teṟku poṟkaṭṭi <gap reason="lost" quantity="5" unit="character"/> yil <unclear>kī</unclear>vara
+                    <lb n="12" break="no"/>ppuccevvaikku meṟku <supplied reason="undefined"><g type="danda">.</g></supplied> Iṉṉilattil teṟkil periya mañcu mel talai <unclear>vaṟa</unclear> vaṭakkum <supplied reason="undefined"><g type="danda">.</g></supplied> Itukku Uṭpaṭṭa kāṇi <num value="18"><g type="numeral">10</g> 8</num> <gap reason="lost" quantity="5" unit="character"/>  kaḷum rā
+                    <lb n="13" break="no"/><hi rend="grantha">jagaMbhīraN</hi> vatikku meṟku kaṇṇāṟṟu vaṭakku kāṇi 7 1/2 m <supplied reason="undefined"><g type="danda">.</g></supplied> Ikkaṇṇāṟṟukku teṟku kāṇi 6 1/2 <unclear>m</unclear> <gap reason="lost" quantity="5" unit="character"/> Āka kāṇi
+                    <lb n="14"/><num value="32">3 <g type="numeral">10</g> 2</num> ṉāl kuḻi <num value="4000">4 <g type="numeral">1000</g></num> Ikkuḻi nālāyiramum <supplied reason="undefined"><g type="ddanda">.</g></supplied> kollaiyāvatu vaṭakāṭṭil perumāṅkoṉ kollai cūḻnta kuḻi <num value="1500"><g type="numeral">1000</g> 5 <g type="numeral">100</g></num> m <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    <lb n="15"/>Āṟṟaṅkarai Uṭan <unclear>c</unclear>er velaṅkollaiyi<unclear>l</unclear>e kuḻi <num value="500">5 <g type="numeral">100</g></num> m <supplied reason="undefined"><g type="danda">.</g></supplied> Ikkuḻi <num value="2000">2 <g type="numeral">1000</g></num> m Ikkuḻi Iraṇṭāyiramum <supplied reason="undefined"><g type="ddanda">.</g></supplied> maṉaiyāva<unclear>tu</unclear> teṟkutteru
+                    <lb n="16" break="no"/>vil teṉciṟakil kīḻtalaimaṉaiyiraṇṭu viṭṭu meṟku maṉaiyiraṇṭum <supplied reason="undefined"><g type="danda">.</g></supplied> paḷḷitteruvil kīḻciṟakil teṉtalaimaṉaiyiraṇ
+                    <lb n="17" break="no"/>ṭum <supplied reason="undefined"><g type="danda">.</g></supplied> kuṭamāvukku vaṭakku na <gap reason="lost" quantity="1" unit="character"/> <unclear>k</unclear>kollaiyil Eṟṟiṉa kuṭi Ivarutā<unclear>kavum</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <unclear>Iṉṉi</unclear>lattukkum kollaikkumaṉaikku<unclear>m</unclear> vilai
+                    <lb n="18" break="no"/>yāka kaṟpitta <unclear>po</unclear>ṉ <num value="40">4 <g type="numeral">10</g></num> <supplied reason="undefined"><g type="danda">.</g></supplied> Ippoṉṉāṟpatukkum <unclear>I</unclear>ṉṉilattukku<unclear>m ko</unclear><!--kāl is clear-->llaikkumaṉaikkum Ituve <hi rend="grantha">pramā</hi>ṇa<surplus>māṇa</surplus>m Āva
+                    <lb n="19" break="no"/>tākavum <supplied reason="undefined"><g type="danda">.</g></supplied> Iṉṉilattukku Ivveri nīr <hi rend="grantha">prāpti</hi> Āṟṟukkāl <hi rend="grantha">prāpti</hi> vāykkāl <hi rend="grantha">prāpti</hi> peṟakkaṭavatākavum <supplied reason="undefined"><g type="danda">.</g></supplied> I⌈
+                    <lb n="20" break="no"/>vaiyiṟṟukku Āḷamañci Erikkuḻi veṭṭa Āṟṟukkāl veṭṭa vāykkāl koṇṭam Ivaiyiṟṟukku viḻukkāṭu ni
+                    <lb n="21" break="no"/>ṟka kaṭavatākavumaṟṟu Arici kāṇam Āḷamañ<supplied reason="omitted">ci</supplied> Eṟa coṟu Eṭuttaḷavu viruttuppaṭi<unclear>k</unclear>ai vilai kāṇam maṟṟum Eppe
+                    <lb n="22" break="no"/>ṟpaṭṭa Upātikaḷum Uṭpaṭakkaṭṭukkuttokaiyāka Iṉṉilattukku kollaikku maṉaikkum Āṇṭu O
+                    <lb n="23" break="no"/>ṉṟukku kaṭamaikku poṉ <num value="10"><g type="numeral">10</g></num> <supplied reason="undefined"><g type="danda">.</g></supplied> Ippoṉ pattum muṉṟu kanatāyam Ākattarakkaṭavarākavum <supplied reason="undefined"><g type="danda">.</g></supplied> Itu Oḻiya ⌈
+                    <lb n="24" break="no"/><unclear>v</unclear>eṟu Oṉṟuñcollakkaṭavom Allavākavum <supplied reason="undefined"><g type="danda">.</g></supplied> Iṉṉilaṅkaḷukkum kollaikku maṉaikku
+                    <lb n="25"/>Eppeṟpaṭṭa kalaṉum Illai <supplied reason="undefined"><g type="danda">.</g></supplied> kalanuḷa<unclear>vā</unclear>yttoṟṟuppaṭil nāṅkaḷe tirttu tarakkaṭavom Ākavum <supplied reason="undefined"><g type="danda">.</g></supplied> nāṅ <gap reason="lost" quantity="1" unit="character"/> Oṭippo
+                    <lb n="26" break="no"/><unclear>vo</unclear><!--kompu clear-->m Ākil Ippoṉ ṉāṟpatum tarakkaṭa<choice><sic>O</sic><corr>vo</corr></choice>m Ākavum <supplied reason="undefined"><g type="danda">.</g></supplied> Iṉṉilaṅkaḷukkum kollaikkumaṉaikkum <hi rend="grantha">de</hi>vatāṉam
+                    <lb n="27"/>ti<unclear>ruv</unclear><choice><sic><unclear>u</unclear></sic><corr>i</corr></choice>ṭaiyāṭṭam Oḻiya maṟṟum veṇṭum <unclear>pe</unclear>ṟku viṟṟummoṟṟivaittum koḷḷakkaṭavarākavum <supplied reason="undefined"><g type="ddanda">.</g></supplied> Ippaṭi <hi rend="grantha">saṁvadi</hi>ttu nil<choice><sic>ai</sic><corr>a</corr></choice>vilai <hi rend="grantha">pramā</hi>ṇa<hi rend="grantha">M</hi>
+                    <lb n="28"/>paṇṇikkuṭuttom <hi rend="grantha">śrī</hi>vi<hi rend="grantha">ṣṇukaM</hi>puḷināyakka<unclear>ṟ</unclear>ku <hi rend="grantha">mahāja</hi>ṉa<hi rend="grantha">M</hi> <g type="ddanda">.</g> Inta <hi rend="grantha">mahāja</hi>na<hi rend="grantha">m A</hi>nu<hi rend="grantha">grahi</hi>kka Inta nilavilai <hi rend="grantha">pramā</hi>ṇam Eḻutiṉe<supplied reason="omitted">ṉ</supplied> campukulapperu
+                    <lb n="29" break="no"/>māḷakarattu <hi rend="grantha">Aṃkārai śrīdharabhaṭṭa</hi>ṉen Itu Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> kumāṇṭūr Aruḷāḷapperumāḷ Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied> kantāṭai periyāṇṭāṉ paṭṭar Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    <lb n="30-33"/><gap reason="lost" quantity="4" unit="line"/> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="6">
+                        <lem><hi rend="grantha">mahi</hi>ra<hi rend="grantha">jya</hi>na<hi rend="grantha">M</hi></lem>
+                        <note>Read <foreign><hi rend="grantha">mahāja</hi>na<hi rend="grantha">M</hi></foreign>.</note>
+                    </app>
+                    <app loc="25">
+                        <lem>nāṅ <gap reason="lost" quantity="1" unit="character"/></lem>
+                        <note>Read <foreign>nāṅkaḷ</foreign>.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:Hultzsch1890_01">
+                
+                <p>Let there be prosperity! Hail! On the day of (<hi rend="italic">the nakshatra) Uttiraṭṭādi,</hi><note n="104-5">Sanskrit <hi rend="italic">Uttara-bhadrapadā</hi>.</note>which corresponds to Monday, the eighth lunar day of the former half of the month of <hi rend="italic">Dhanus</hi> of the <hi rend="italic">Ananda</hi> year, which was current after the Śaka year 1296 (<hi rend="italic">had passed</hi>), during the reign of the illustrious <hi rend="italic">mahāmaṇḍalika</hi>, the conqueror of hostile kings, the destroyer of those kings who break their word, the lord of the eastern, southern, western and northern oceans, the illustrious <hi rend="bold">Ommaṇa-uḍaiyar</hi>, the son of the illustrious <hi rend="bold">Kambaṇa-uḍaiyar</hi>, who was the son of the illustrious <hi rend="bold">Vīra-Kambaṇa-uḍaiyar</hi>,—Whereas the great people of <hi rend="bold">Śambukula-Perumāḷ-agaram</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Rājagambhīra-chaturvedi-maṅgalam</hi> (<hi rend="italic">in</hi>) <hi rend="bold">Murugamaṅgala-paṟṟu</hi>, (<hi rend="italic">which belongs</hi>) to <hi rend="bold">Maṇḍaikuḷa-nāḍu</hi>, (<hi rend="italic">a division</hi>) of <hi rend="bold">Palakuṉṟakoṭṭam</hi> in <hi rend="bold">Jayaṅkoṇḍa-Śoṛa-maṇḍalam</hi>, gave to the illustrious <hi rend="bold">Vishṇu-Kambuḷināyaka . . . . . </hi> of <hi rend="bold">Alaśu-nāḍu</hi>, within <hi rend="bold">Tuḷu-nāḍu</hi>,<note>This is Northern <hi rend="bold">Keraḷa</hi>, the country of the <hi rend="bold">Tuḷuvas</hi>.</note> a document (<hi rend="italic">pramāṇa</hi>) about the cost of land . . . . . . . .<note>The passage left out describes in detail the land, which was valued at 40 <hi rend="italic">poṉ</hi>, and which consisted of 32 <hi rend="italic">kāṇis</hi>=4,000 <hi rend="italic">kuṛis</hi> of wet land (<hi rend="italic">nilam</hi>), of 2,000 <hi rend="italic">kuṛis</hi> of dry land (<hi rend="italic">kollai</hi>) and of some houses (<hi rend="italic">maṉai</hi>).</note>—We, the great people, (<hi rend="italic">hereby declare, that we,</hi>) having thus agreed, gave a document about the cost of land to the illustrious <hi rend="bold">Vishṇu-Kambuḷi-nāyaka</hi>. At the pleasure of these great people, I, <hi rend="bold">Aṅkārai Śrīdhara-bhaṭṭa</hi> of <hi rend="bold">Śambukula-Perumāḷagaram</hi> wrote this document about the cost of land; this is (<hi rend="italic">my</hi>) signature.</p>
+                <p>. . . . . . . . . .</p>
+                
+            </div>
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 1.72 by <bibl><ptr target="bib:Hultzsch1890_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Hultzsch1890_01"/>
+                        <citedRange unit="page">102-104</citedRange>
+                        <citedRange unit="item">72</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
