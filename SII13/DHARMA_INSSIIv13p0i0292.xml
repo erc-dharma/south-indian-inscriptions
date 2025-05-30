@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.292: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 292. (A.R. No. 237 of 1915.) BRAHMADĒŚAM, CHEYYAR TALUK, NORTH ARCOT DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, CHANDRAMAUḶĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0292</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This records an endowment of a piece of land under the tank Tigaittiṟal-ēri by <hi rend="bold">Tiruppondai-Sōmāśiyār (Sōmayāji), son of Kumāraḍi-Bhaṭṭa-Vājabhējiyār (Vājapēyayājī)</hi> of Maṇaṟppākkam, a member of the <hi rend="italic">āḷuṅgaṇam</hi> of Rājamalla-chaturvēdimaṅgalam of Tiruvēgambapuram in Dāmar-kōṭṭam, for the daily feeding of a Brahman at mid-day in the temple of Śrīpondai-Perumāṉaḍigaḷ. The gift was entrusted to the <hi rend="italic">gaṇavāriya-perumakkaḷ</hi> of the temple. This is possibly an inscription of <hi rend="bold">Āditya I.</hi> </p>						
+                            
+                            <p>In the <hi rend="italic">M.E.R.</hi> 1916, II, 8, the village has been surmised to owe its origin to one of the Western Gaṅga kings named Rājamalla. No inscriptions of that dynasty have however been found at this place; but there is one actually of a Rājamalla at Vaḷḷimalai in the same district (No. 6 of 1895).</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-30" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha"><g type="danda">.</g><g type="danda">.</g><g type="danda">.</g> svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> ko<hi rend="grantha">rāja</hi>ke<hi rend="grantha">sa</hi>riva<hi rend="grantha">rmma</hi>ṟk
+                    <lb n="2" break="no"/>ku yāṇṭu Irupatāvatu tāmarkoṭṭa
+                    <lb n="3" break="no"/>ttut tiruvekampapuṟattu rā<hi rend="grantha">jama</hi>
+                    <lb n="4" break="no"/><hi rend="grantha">llaścaturvvedi</hi>maṅkalam yāḷumkaṇa
+                    <lb n="5" break="no"/>ttāruḷ maṇaṟppākkattuk kumāraṭi<hi rend="grantha">bha</hi>ṭṭa vā<hi rend="grantha">ja</hi>
+                    <lb n="6" break="no"/><hi rend="grantha">bheji</hi>yār makanār tiruppontaic comā
+                    <lb n="7" break="no"/>ciyār <hi rend="grantha">śrī</hi> poṉtaipperumā<supplied reason="omitted">ṉa</supplied>ṭikaḷ <hi rend="grantha">śrī</hi>koyi
+                    <lb n="8" break="no"/>l nicati Oru <hi rend="grantha">brāhma</hi>ṇaṉ <hi rend="grantha">madhyā</hi>ṉattu A<hi rend="grantha">gra</hi>mu
+                    <lb n="9" break="no"/>ṇpataṟku v<choice><sic>a</sic><corr>ai</corr></choice>tta tikaittiṟal Eriki
+                    <lb n="10" break="no"/> <gap reason="lost" quantity="5" unit="character"/> lūrp pārāyaṇac<seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg> <gap reason="lost" quantity="5" unit="character"/> 
+                    <lb n="11"/> <gap reason="lost" quantity="5" unit="character"/> tiruppon <gap reason="lost" quantity="5" unit="character"/> 
+                    <lb n="12"/> <gap reason="lost" quantity="5" unit="character"/> Irunūṟṟu Aṟupattu Ira
+                    <lb n="13" break="no"/>ṇṭar<unclear>ai</unclear>k kuḻiyālum vanta <hi rend="grantha">bhoga</hi>m ko
+                    <lb n="14" break="no"/>ṇṭu cantirā<hi rend="grantha">di</hi>ttavaṟ Iy<hi rend="grantha">śrī</hi>koyil ka
+                    <lb n="15" break="no"/>ṇavāriyapperumakkaḷe ra<hi rend="grantha">kṣi</hi>ppatāka
+                    <lb n="16"/><choice><sic>a</sic><corr>ai</corr></choice>tteṉ tiruppontaic comāciyeṉ
+                    <lb n="17"/>I<hi rend="grantha">ddharmmaM</hi> ra<hi rend="grantha">kṣi</hi>ppāra<unclear>ṭi Eṉ ṟalaimeliṉa</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.292 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">155-156</citedRange>
+                        <citedRange unit="item">292</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.294: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 294. (A.R. No. 260 of 1921.) TAKKŌLAM, ARKONAM TALUK, NORTH ARCOT DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, JALANĀTHĒŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0294</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The beginnings of lines of this inscription are built in. This records an agreement by the <hi rend="italic">sabhā</hi> of <hi rend="bold">Aparājita-chaturvēdimaṅgalam</hi> (evidently the ancient name of Takkōlam), to burn a perpetual lamp in the temple of Tiruvūṟaṟkaṟṟaḷi-Mahādēva for 30 <hi rend="italic">kaḻañju</hi> received by them. The name of the donor is lost. This seems to be a record of <hi rend="bold">Āditya I</hi> who is known from the <hi rend="italic">Tiruvālaṅgāḍu Plates</hi> to have wrested the Toṇḍai-nāḍu from the Pallava Aparājitavarman (<hi rend="italic">S.I.I.</hi>, III, p. 386). </p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-30" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/> <gap reason="lost" quantity="5" unit="character"/> [rā<hi rend="grantha">ja</hi>]kecaripa<hi rend="grantha">nma</hi><supplied reason="omitted">ṟ</supplied>ku yāṇṭu Irupatto
+                    <lb n="2" break="no"/>n <gap reason="lost" quantity="4" unit="character"/> ṟapuṟattu Aparācitaccatu<hi rend="grantha">rve</hi>
+                    <lb n="3" break="no"/><gap reason="lost" quantity="6" unit="character"/> <hi rend="grantha">bhai</hi>yoṅ kaiyyeḻuttu na
+                    <lb n="4"/> <gap reason="lost" quantity="6" unit="character"/> yār kaiyāli yāṅkaḷ koṇ
+                    <lb n="5" break="no"/> <gap reason="lost" quantity="8" unit="character"/> muppatiṉ kaḻañcu Ippoṉ
+                    <lb n="6" break="no"/> <gap reason="lost" quantity="7" unit="character"/> ruvūṟṟa kaṟṟaḷima<hi rend="grantha">h<choice><sic>a</sic><corr>ā</corr></choice>de</hi>varkku nan=tāvi<hi rend="grantha"/>
+                    <lb n="7" break="no"/> <gap reason="lost" quantity="8" unit="character"/> taruḷḷaḷavum nicati Uḻakkeṇṇai muṭ
+                    <lb n="8" break="no"/> <gap reason="lost" quantity="7" unit="character"/> m Itaṟṟiṟampil <hi rend="grantha">dharmmāsa</hi>ṉattu nica
+                    <lb n="9" break="no"/> <gap reason="lost" quantity="7" unit="character"/> paṭuvomāṉōm Ittaṇṭam paṭ
+                    <lb n="10"/> <gap reason="lost" quantity="7" unit="character"/> ḻak keṇṇaiyu muṭṭā<unclear>m</unclear>e
+                    <lb n="11"/> <gap reason="lost" quantity="7" unit="character"/> m <hi rend="grantha">sabhai</hi>yom <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.294 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">156-157</citedRange>
+                        <citedRange unit="item">294</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

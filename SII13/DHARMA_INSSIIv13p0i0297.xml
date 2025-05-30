@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.297: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 297. (A.R. No. 277 of 1916.) TIRAKKŌL, WANDIWASH TALUK, NORTH ARCOT DISTRICT. ON THE WEST FACE OF THE BOULDER WITH JAINA IMAGES.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0297</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is much damaged. It seems to record an endowment, the nature of which is not clear, to a Jaina shrine called <hi rend="bold">Gaṅgaśūrapperumbaḷḷi</hi> at Rāja[kēsari]puram by Śrī Gaṅgaraiyaṉ. It also mentions another shrine called <hi rend="bold">Maiśuttapperumbaḷḷi</hi> in the same place and a <hi rend="italic">paḷḷichchandam</hi> land situated in Tiruviḍaikkaḻi.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-30" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> ko Irācakecaripaṉmaṟkku yā
+                    <lb n="2" break="no"/>ṇṭu Irupattiraṇṭāvatu <hi rend="grantha">śrī rāja<unclear>kesari</unclear></hi>purattu
+                    <lb n="3"/>maicuttapperumpaḷḷikku micuttap paḷḷic
+                    <lb n="4" break="no"/>cantamāṉavaṟṟukku <hi rend="grantha">śrī</hi>kaṅkaraiyaṉ kaṅkaṉaiccāṉi
+                    <lb n="5"/> <gap reason="lost" quantity="3" unit="character"/> kaṅkacūrapperumpaḷḷikku kuṭutta paricāramāvatu Iruṅ
+                    <lb n="6" break="no"/>kaṇṭaṉ <gap reason="lost" quantity="5" unit="character"/> cittarumpaḷḷi <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="7"/>ṭṭārum kākka <gap reason="lost" quantity="2" unit="character"/> peṟṟā <gap reason="lost" quantity="4" unit="character"/> camme
+                    <lb n="8" break="no"/> <gap reason="lost" quantity="3" unit="character"/> tārkku <gap reason="lost" quantity="4" unit="character"/> tum paricāramāvatu <gap reason="lost" quantity="2" unit="character"/> tiruviṭai
+                    <lb n="9" break="no"/>kkaḻi paḷḷiccantattukkum <gap reason="lost" quantity="2" unit="character"/> It <gap reason="lost" quantity="3" unit="character"/> patiṉ <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="10"/>tiṅku veṇṭiṉār <gap reason="lost" quantity="4" unit="character"/> ṉṉum vāḻvo
+                    <lb n="11" break="no"/>māyil keṅkaiyiṭai kumariyiṭai Eḻunūṟṟukkātattum ceytār
+                    <lb n="12"/>ceyta pāvaṅ koḷvār <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.297 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">158</citedRange>
+                        <citedRange unit="item">297</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
