@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 7.426: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 426. (A.R. No. 213 of 1901). ON THE EAST WALL OF THE MANDAPA IN FRONT OF THE MARUNDISVARA TEMPLE AT THE SAME VILLAGE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv07p0i0426</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+							
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-05-30" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-06" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha"><unclear>svasti</unclear> śrīḥ</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> cāyaṇauṭaiyark yāṇṭu <num value="16"><g type="numeral">10</g> 6</num><g type="dash"/>vatu neyyāṭaṟpākkattut tiṉaiyāṉ tiruvuṭaippiḷḷai <unclear>c</unclear>āmantappiḷḷai pakkal cekkiḻāṉ co<unclear>ma</unclear>ṉātevaṉ vicaiyarāyaṉ yāṉ koṇṭuṭaiya vaṭace<unclear>ri</unclear> Oḻukiṉpaṭi ku<supplied reason="omitted">ḻi</supplied> <unclear>munnū</unclear>ṟṟu Eḻupattunālum Ivvūr kīḻaippaṭṭu
+					<lb n="2"/>Uṭaiyār marunticuramuṭaiya nāyiṉāṟkku tirunāmattukkāṇiĀka Iṉṉilamum tirumaṭaiviḷākattukku Ellai tirumañcaṉavatikku kiḻakkum teruvukku vaṭakkum kiḻaivatikku meṟkum pātiĀṟṟukkut teṟkum nāṉkellaikku naṭuvum tirunāmattukkāṇiĀkac cantirātittavaraiyum cellakkaṭavatākak kuṭuttom Ivai vicaiyarāyaṉ Eḻuttu Ivai cekkiḻāṉ tirukkāḷattiUṭaiyāṉ Eḻut<unclear>tu</unclear> Ivai cekkiḻāṉ kāḷattinātar Eḻuttu Ivai cekkiḻāṉ vicaiyar Eḻuttu <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+				</p>
+				
+			</div>
+			
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 7.426 by <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1932_01"/>
+						<citedRange unit="page">268</citedRange>
+						<citedRange unit="item">426</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
