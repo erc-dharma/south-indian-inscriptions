@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 13.342: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 342. (A.R. No. 55 of 1923.) PUḶḶALŪR, CONJEEVARAM TALUK, CHINGLEPUT DISTRICT. ON OTHER STONES BUILT INTO THE KAILĀSANĀTHA AND VISHṆU TEMPLES.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv13p0i0342</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is an inscription formed by piecing together the stones found in the two temples. It seems to record an agreement by the assembly and the two <hi rend="bold">Pirāṉadhikārigaḷ</hi> who are mentioned in No. 121 above of the 5th year of the king, to maintain two services and to burn a lamp in a temple (name lost) with the income from some land, 3 <hi rend="italic">paṭṭi</hi> in extent (?) of which they are stated to have taken the management. Another fragment dated in the same reign merely gives the names of the <hi rend="bold">Pirāṉadhikārigaḷ Śurāṉkuḍaiyār</hi> and <hi rend="bold">Pirā•••</hi> of whom a third fragment supplies the full name as <hi rend="bold">Pirāyūruḍaiyāṉ.</hi> This makes mention of some messengers (<hi rend="italic">ōlaitūdōḍakkaḍavārgaḷ</hi>). A fourth fragment mentions Mummuḍiśōḻavadi (road) called after <hi rend="bold">Mummuḍi-Chōḷa</hi> which was a surname both of <hi rend="bold">Gaṇḍarāditya</hi> and <hi rend="bold">Rājaraja I.</hi> Still another fragment, the last one mentions an endowment as <hi rend="italic">Mahābhārata-vṛitti.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-31" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> koirā<hi rend="grantha">ja</hi>ke<hi rend="grantha">saripanma <gap reason="lost" quantity="4" unit="character"/> </hi>
+<lb n="2"/>rumakkaḷum pirāṉa<hi rend="grantha">dhi</hi>kārikaḷ curāṉkuṭai <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="3"/>ceytukuṭutta paricāvatu Ivūrt teṉ <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="4"/>yiṉ kiḻpakka<unclear>ttu</unclear> Oṉṟaraiye muṉṟumā <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="5"/>ṉai ceytu <hi rend="grantha">sandhi</hi>viḷa<supplied reason="omitted">k</supplied> keṟṟi ciṟukālaiy Irunāḻi yariciyālum Āka nānā—ṅkāṭṭak kaṭavārkaḷākavum Ivvaṉaittiloṉṟu muṭṭil muṭṭiṉa <hi rend="grantha">sandhi</hi>yāl mañcāṭiyumāṉa <hi rend="grantha">da</hi>ṇṭaṅ koḷvatākiyu muḻunāḷum tiruvārātaṉai
+<lb n="6" break="no"/>yum tiru<supplied reason="omitted">va</supplied>mutu<supplied reason="omitted">m</supplied> mu<supplied reason="omitted">ṭ</supplied>ṭil kāl poṉ <hi rend="grantha">da</hi>ṇṭaṅ koḷvatākavum I<hi rend="grantha">da</hi>ṇṭamum Iruttut tāṅkaḷe <hi rend="grantha">snapa</hi>namu mā <gap reason="lost" quantity="4" unit="character"/> yakkaṭavārkaḷākil Avāṇṭu vāriyañ ceyum perumakkaḷum Ūrāḷvārum Ippaṭi <hi rend="grantha">da</hi>ṇṭi
+<lb n="7"/><hi rend="grantha">de</hi>varkke kuṭuttu Ippaṭi ceyvikkakkaṭavārkaḷākavum Ivarkaḷe Āṟṟaṅkaraip peru <gap reason="lost" quantity="5" unit="character"/> kkaṭavapaṭiyāl Ivūr teṉkarai<unclear>yū</unclear>r <unclear>ka</unclear>c<unclear>ci</unclear>ppeṭṭukke <unclear>poṉa va</unclear>tiyiṉ mel pakkattuc ceralaṅkāliṉ ten
+<lb n="8" break="no"/>pakkattup paṭṭi nilamum kuṭṭattu mukkāley ciṉṉa nilamum karupparaiyū<unclear>r</unclear> Āṟṟaṅkar<unclear>ai</unclear> yumāka Uḷḷa <gap reason="lost" quantity="4" unit="character"/> kappaṭṭi nila<supplied reason="omitted">m</supplied> muṉṟu paṭṭi nilamum Āka Ittaṉaiyuṅ koṇṭu I<hi rend="grantha">de</hi>varkku muṉṟu <hi rend="grantha">sandhi</hi>yum tiruvārātaṉai ceytu <hi rend="grantha">sandhi</hi>vi<hi rend="grantha"/>
+<lb n="9" break="no"/>ḷakkeṟṟi ciṟukālaiy Irunāḻi yariciyālum Uccampoḻutu Irunāḻi yariciyālum <unclear>O</unclear>ṭuk <gap reason="lost" quantity="5" unit="character"/> ṅ koṇṭu kāṭṭakkaṭavārkaḷākavum Ippaṭi Oṉṟu Orupoḻutu muṭṭilu muḻunāḷ mu<supplied reason="omitted">ṭ</supplied>ṭilu meṟpaṭi taṇṭappaṭuvārkaḷāka pa
+</p>
+
+<p>On another fragment.</p>
+
+<p>
+<lb n="1" break="no"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> korājakesaripanma</hi>ṟku <unclear>ya</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="2"/>pirāṉa<hi rend="grantha">dhi</hi>kārikaḷ curāṉkuṭaiyārum pira <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="3"/>tāḻiyāṉa veṇṇai maṉṟāṭiya <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+<p>On another stone lying in the compound of the same temple.</p>
+
+<p>
+<lb n="1"/><gap reason="lost" quantity="3" unit="character"/> ṉ kuṭaiyāṉum pirāyūruṭaiyānu <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="2"/><gap reason="lost" quantity="3" unit="character"/> Olaitūtoṭakkaṭavā<supplied reason="omitted">r</supplied>kaḷai Olaittū <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="3"/><gap reason="lost" quantity="3" unit="character"/> Olaittūtu poṅkaḷeṉṟu col <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="4"/><gap reason="lost" quantity="3" unit="character"/> kuṭuppittum Ina<hi rend="grantha">ndā</hi>viḷakku muṭ<supplied reason="omitted">ṭ</supplied>āmai E <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="5"/><gap reason="lost" quantity="3" unit="character"/> kkumariiṭaic ceytār ceyta pāvattu paṭu <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="6"/><gap reason="lost" quantity="3" unit="character"/> ṟpaka Alaṅkāraneṉ 
+</p>
+
+<p>On a fragment built into the walls of the Perumāḷ temple.</p>
+
+<p>
+<lb n="1"/><gap reason="lost" quantity="3" unit="character"/> ḷum Iruntu Emur <hi rend="grantha">śrī</hi>taṇṭala<supplied reason="omitted">t</supplied>tu<hi rend="grantha">mahā</hi>tevar tirunan=tavāṉamuḻa <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="2"/><gap reason="lost" quantity="2" unit="character"/> ṟṟiyūraṉu<supplied reason="omitted">k</supplied>ku <hi rend="grantha">ś</hi>lālekai ceytukuṭutta paricāvatu Ivva <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="3"/>mummuṭicoḻavatikku <unclear>me</unclear>ṟkku kaṇavativāykkā <gap reason="lost" quantity="4" unit="character"/> 
+</p>
+
+<p>On other stones built into the walls of the Śiva and Vishṇu temples.</p>
+
+<p>
+<lb n="1"/>nan=tāviḷakkukku nāṅkaḷ vaikkiṉṟa Āṭu toṇ<unclear>ṇūṟ</unclear>ṟāṟāṭuṅ koṇṭu ca<hi rend="grantha">ntrā</hi>tit tavar nicatamoru nan=tāviḷakkukku <unclear>nica</unclear>tam Uḻakkeṇṇai<unclear>yum</unclear> Erikkakkaṭavārkaḷāka Ivāṭu to<supplied reason="omitted">ṇ</supplied>ṇūṟṟā<supplied reason="omitted">ṟā</supplied>
+<lb n="2" break="no"/>ṭum cāvāmuvāpperāṭuāka ca<hi rend="grantha">ndrā</hi>titavar Ivāṭu ko <gap reason="lost" quantity="2" unit="character"/> Ipparicu viḷakkerikka kkaṭavārka ḷākavum <unclear>I</unclear>pparicu Oru nā<unclear>ḷ</unclear> mu<supplied reason="omitted">ṭ</supplied>ṭil muṭṭiṉa nāḷāl kāl kāl poṉ taṇ ṭappaṭṭum Iviḷakke
+<lb n="3" break="no"/>ri<supplied reason="omitted">kka</supplied>k kaṭavārkaḷākavum Ipparice Avāṇṭu vāriya <gap reason="lost" quantity="3" unit="character"/> <unclear>yu</unclear>m perumakkaḷum Ūrāḷ vāṉume Ittaṇṭaṅ koṇṭu Ittevarkke kuṭuppārākavum kuṭuppittum Iviḷa
+<lb n="4" break="no"/>kkerippi<supplied reason="omitted">p</supplied>pārākavum Imaṉṟāṭikaḷum Ivakaḷā <gap reason="lost" quantity="3" unit="character"/> kku Iruppataṟku Ivūrt teṉkaraiyk kiḻai veḷḷāṉceri vaṭatalaiyil kiḻakkuno<hi rend="grantha">kki</hi> yiḻitta vaḻikku vaṭakku Ivark <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+<p>On other stones built into the walls of the same temples.</p>
+
+<p>
+<lb n="1"/>ṭṭa Oṉṟe nālumā nilamuṅ <gap reason="lost" quantity="4" unit="character"/> tirunan=tavāṉattukku veṇṭum Uḻappuk kuṟṟap paṭāmai Uḻappā
+<lb n="2" break="no"/>ṉākavum Ivaṉu mivaṉ va<hi rend="grantha">rgga</hi>t <gap reason="lost" quantity="3" unit="character"/> l Oru paṇi Orupoḻutu muṭṭil muṭṭiṉa po
+<lb n="3" break="no"/>ḻtāl mañcāṭip poṉ <hi rend="grantha"><unclear>da</unclear></hi> <gap reason="lost" quantity="3" unit="character"/> ppaṇi muṭṭāmaic ceyvāṉākavum Ivaṉum I
+<lb n="4" break="no"/>vaṉ va<hi rend="grantha">rgga</hi>ttār Ippaṇi <hi rend="grantha">� <gap reason="lost" quantity="4" unit="character"/> rakṣi</hi>ppāṉ va<hi rend="grantha">rgga</hi>m <hi rend="grantha">cantrā</hi>tittavar <hi rend="grantha">dukha</hi>miṉṟi
+<lb n="5"/><hi rend="grantha">ji</hi>vippārākavum I<hi rend="grantha">dhanma</hi> <gap reason="lost" quantity="3" unit="character"/> ytār ceyta pāvattup paṭuvarākavum Ippari
+<lb n="6" break="no"/>cu <hi rend="grantha">ś</hi>lā<hi rend="grantha">le</hi>kai ceytukuṭut<unclear>te</unclear>ṉ Ivūr <hi rend="grantha">maddhyasta</hi>ṉ maṅkala<hi rend="grantha">pri</hi>yaṉeṉ <g type="ddanda">.</g><g type="dashLong">.</g>
+<lb n="7"/>I<hi rend="grantha">mahābhāra</hi>taviruttiyā <gap reason="lost" quantity="4" unit="character"/> kkaḷattār <hi rend="grantha">dha</hi>rmam Imma<hi rend="grantha">hābhāra</hi>ta<hi rend="grantha">vṛ</hi>ttikku nāṅka
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 13.342 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1952_01"/>
+			<citedRange unit="page">182-183</citedRange>
+			<citedRange unit="item">342</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

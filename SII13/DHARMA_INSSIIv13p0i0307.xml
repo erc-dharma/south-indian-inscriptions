@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.307: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 307. (A.R. No. 401 of 1905.) KĀVĒRIPPĀKKAM, ARKONAM TALUK, NORTH ARCOT DISTRICT. ON A PILLAR IN THE MAṆḌAPA IN FRONT OF THE VARADARĀJA-PERUMĀḶ TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0307</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is much damaged. It seems to record a gift of 15 <hi rend="italic">kaḻañju</hi> of gold made for burning a perpetual lamp in the temple at Kāvidippākkam Avaninārāyaṇa-chaturvēdimaṅgalam situated in Paḍuvūr-kōṭṭam. The <hi rend="italic">mahāsabhā</hi> of the village which included members of the several committees such as <hi rend="italic">ūrvāriyam, udāsīnavāriyam, poṉvāriyam, kaḻanivāriyam</hi> and <hi rend="italic">Śrīkōyilvāriyam</hi> as well as the <hi rend="italic">bhaṭṭas</hi> and the <hi rend="italic">visishṭas</hi> seem to have been in charge of the endowment.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-31" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kovi<hi rend="grantha">rāja</hi> <gap reason="lost" quantity="8" unit="character"/> 
+                    <lb n="2"/>Irupattunālā<unclear>va</unclear>tu paṭuvūrkkoṭṭattuk kā<unclear>vitip</unclear>pākkattu
+                    <lb n="3"/><hi rend="grantha">A</hi>vaninā<hi rend="grantha">rā</hi>yaṇa<hi rend="grantha">cca</hi>tu<hi rend="grantha">rvedi</hi>maṅkalattu māṇ <gap reason="lost" quantity="8" unit="character"/> 
+                    <lb n="4"/><unclear>Ū</unclear>rvāriyapperumakka<unclear>ḷu</unclear> U<hi rend="grantha"><unclear>dāsi</unclear></hi> navāriyapperumakkaḷu <gap reason="lost" quantity="8" unit="character"/> yap
+                    <lb n="5" break="no"/>perumakkaḷum poṉvāriyapperumakkaḷuṅ kaḻa<unclear>ṉi</unclear>vāriyapperumakkaḷu
+                    <lb n="6" break="no"/>m <hi rend="grantha">śrī</hi>koyilvāriyapperumakkaḷum <hi rend="grantha"><unclear>bhaṭṭa</unclear></hi><unclear>rkaḷum</unclear> vi<hi rend="grantha">śiṣṭa</hi>rkaḷum Uḷḷiṭṭa
+                    <lb n="7"/>mā<hi rend="grantha">sabhai</hi>yom <gap reason="lost" quantity="10" unit="character"/> 
+                    <lb n="8"/>kkakkaṭava <gap reason="lost" quantity="5" unit="character"/> kai
+                    <lb n="9"/><gap reason="lost" quantity="9" unit="character"/> celva<unclear>tāka</unclear> patiṉaiñkaḻañcu poṉ koṇ <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="10"/><gap reason="lost" quantity="10" unit="character"/> 
+                    <lb n="11"/><gap reason="lost" quantity="6" unit="character"/> peru<unclear>māṉa</unclear>ṭikaḷukku <gap reason="lost" quantity="4" unit="character"/> nontāviḷakku
+                    <lb n="12"/><gap reason="lost" quantity="10" unit="character"/> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.307 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">163</citedRange>
+                        <citedRange unit="item">307</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
