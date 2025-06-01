@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.312: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 312. (A.R. No. 400 of 1905.) KĀVĒRIPĀKKAM, ARKONAM TALUK, NORTH ARCOT DISTRICT. ON A PILLAR IN THE MAṆḌAPA IN FRONT OF THE VARADARĀJA-PERUMĀḶ TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0312</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This is probably an inscription of <hi rend="bold">Rājarāja I.</hi> It records some regulations banning the service of women (for conducting the festivals in the temple) as decided by the <hi rend="italic">mahāsabhā</hi> of Kāvidipākkam <hi rend="italic">alias</hi> Avaninārāyaṇa-chaturvēdimaṅgālam in Paḍuvūr-kōṭṭam, on an order received by them from the king through <hi rend="bold">Veṇbaikuḍināṭṭu-Vēḷār. ‘Avaninārāyaṇa’</hi> is known to have been a <hi rend="italic">biruda</hi> of Pallava Nandivarmān III. We learn that the assembly comprised the committees <hi rend="italic">ūrvāriyam, udasīnavāriyam, ērivāriyam</hi> and the <hi rend="italic">kaḻanivāriyam</hi> and of the <hi rend="italic">bhaṭṭas</hi> and <hi rend="italic">visishṭas</hi> of the village.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-31" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                    <lb n="2"/><unclear>ko</unclear><hi rend="grantha"><unclear>rājakesari</unclear></hi>va<hi rend="grantha">rmma</hi>ṟku yāṇ<unclear>ṭu</unclear>
+                    <lb n="3"/>Irupattañcāvatu paṭuvūrkoṭṭattuk kāvi<unclear>ti</unclear>ppākkamākiya <unclear>A</unclear>
+                    <lb n="4" break="no"/>vaṉinārāyaṇaccatu<hi rend="grantha">rvve</hi>timaṅkalattu Ivvāṭṭai Ū<unclear>r</unclear>
+                    <lb n="5" break="no"/>vāriyapperumakkaḷum <hi rend="grantha">Udāsi</hi>ṉavārikapperumakkaḷum Erivāri
+                    <lb n="6" break="no"/>kapperumakkaḷum kaḻaṉivārikapperumakkaḷum <hi rend="grantha"><unclear>bha</unclear></hi><unclear>ṭṭarka</unclear>ḷum
+                    <lb n="7"/>vi<hi rend="grantha">śiṣṭa</hi>rkaḷum Uḷḷiṭṭa ma<hi rend="grantha">hāsabhai</hi>yom kāma<unclear>kkoṭ</unclear>ṭat<unclear>te</unclear>
+                    <lb n="8"/>kūṭiIrukkap perum<unclear>ā</unclear>ṉaṭikaḷ Ariḷippāṭṭāl veṇpaiykkuṭi<unclear>nā</unclear>
+                    <lb n="9" break="no"/>ṭṭuveḷḷār vantu <supplied reason="undefined"><g type="danda">.</g></supplied> nuṅkaḷukku Epperppaṭṭa karaṇaṅkaḷum <hi rend="grantha">sam<unclear>grā</unclear></hi>
+                    <lb n="10" break="no"/>ntiyum Uvāvum <hi rend="grantha">pra</hi>tipatamum karaṇaṅkaḷum peṟātatākavum maṟṟu
+                    <lb n="11" break="no"/>m Epperpaṭṭaṉa kāṭṭumiṭattum puru<hi rend="grantha">ṣa</hi>raiyum <hi rend="grantha">stri</hi>kaḷaik ko<unclear>ṇṭu</unclear>
+                    <lb n="12"/>pontu Ampalattup peṟātārākavum <hi rend="grantha">strika</hi>ḷaiy koṇṭu
+                    <lb n="13"/>potuvār perumāṉaṭikaḷukkum <hi rend="grantha">sabhai</hi>yārkkum piḻaittārāka
+                    <lb n="14" break="no"/>vum Ipparicu <hi rend="grantha">syakhasthai</hi>yā<hi rend="grantha">ka <unclear>śi</unclear></hi>lāle
+                    <lb n="15" break="no"/><hi rend="grantha">khai</hi> ceykaveṉṟu perumāṉaṭika ḷaruḷucce
+                    <lb n="16" break="no"/>ytār niṅkaḷum Ipparice <hi rend="grantha">śi</hi>lāle<hi rend="grantha">khai</hi>
+                    <lb n="17"/>ce<supplied reason="omitted">y</supplied>ka<!--[*]-->ve<supplied reason="omitted">ṉ</supplied>ṟu Iveṇpaiykkuṭināṭṭuveḷār ma
+                    <lb n="18" break="no"/><hi rend="grantha">hāsabhai</hi>yārkku vantu coṉṉamaiyi<supplied reason="omitted">l</supplied> Ep
+                    <lb n="19" break="no"/>perpaṭṭa karaṇaṅkaḷum <hi rend="grantha">samgrā</hi>ntiyum Uvāvum
+                    <lb n="20"/><hi rend="grantha">pra</hi>tipatamum Innāḷāl kāṇa<unclear>p</unclear>peṟap peṟātatā
+                    <lb n="21" break="no"/>kavum karaṇaṅkaḷ kāṭṭiṉaviṭattum maṟṟu Ep
+                    <lb n="22" break="no"/>perpaṭṭatum kāṭṭumiṭattuṅ <unclear>kā</unclear>ṭṭappaṭṭa puru<hi rend="grantha">ṣa</hi>rai
+                    <lb n="23" break="no"/>y koṇṭu poruvarākavum [puru<hi rend="grantha">ṣa</hi>rai] kāṇāviṭi
+                    <lb n="24" break="no"/>lum <hi rend="grantha">stri</hi>kaḷaik koṇṭu potappeṟātārāka
+                    <lb n="25" break="no"/>vum koṇṭu pontār <hi rend="grantha">sabhai</hi>yomukku<supplied reason="omitted">m</supplied> <unclear>p</unclear>e
+                    <lb n="26" break="no"/>rumānaṭikaḷukkum piḻaittārākavum Ipparicu
+                    <lb n="27"/>Avvavāṭṭai <hi rend="grantha">saṃvatsa</hi>ravārikapperumakka
+                    <lb n="28" break="no"/>ḷum Ūrmel niṟkuṅkovum Ippari<unclear>cu</unclear> <hi rend="grantha">vya</hi>va<hi rend="grantha"/>
+                    <lb n="29" break="no"/><hi rend="grantha">sthai</hi> niṟuttuvārākavum Ipparicu <unclear>E</unclear>mmil I
+                    <lb n="30" break="no"/>rā<hi rend="grantha">jā</hi>vin niyokam pukkum <gap reason="lost" quantity="2" unit="character"/> mā<unclear>vu</unclear>m Irā<hi rend="grantha">ja</hi>
+                    <lb n="31" break="no"/><hi rend="grantha">kāryya</hi>mum <hi rend="grantha">grā</hi>makā<hi rend="grantha">ryya</hi>mum tiruttappeṟā<unclear>tatā</unclear>kavum <unclear>Ivvampala</unclear>
+                    <lb n="32" break="no"/>ttaṟutiṟattu vārikapperumakkaḷum Uḷḷiṭṭa ma<hi rend="grantha"><unclear>hāsabhai</unclear></hi><unclear>yo</unclear>m <unclear>mi</unclear>
+                    <lb n="33" break="no"/>kkuṟiyuḷḷi<unclear>ru</unclear>ntu paṇikka Eḻutiṉeṉ ma<hi rend="grantha">ddhyasta</hi> <gap reason="lost" quantity="7" unit="character"/> ta
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary">
+                <p n="33">The rest of the inscription is badly damaged.</p> 
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.312 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">165-166</citedRange>
+                        <citedRange unit="item">312</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
