@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 13.23: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 23. (A.R. No. 349 of 1904.) KUḌUMIYĀMALAI, PUDUKKOTTAI STATE. ON THE SOUTH WALL OF THE ROCK-CUT SHRINE, MĒLAIKŌYIL TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv13p0i0023</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records a gift of 31 cows for the supply of milk for the early morning bath of the deity, and milk and ghee for offerings in the temple of Tirunīlakkuṉṟattu-Paramēśvara by <hi rend="bold">Sandaiyaṉ</hi>, a <hi rend="bold">cavalier of Mahimālaiya-Irukkuvēḷār.</hi> This Irukkuvēḷār is also called <hi rend="bold">Parāntakaṉ Vīraśōḻaṉ</hi> in No. 117 (published below) dated in the 5th year of the king. This may be a record either of <hi rend="bold">Gaṇḍarāditya</hi> or <hi rend="bold">Parāntaka II Sundara-Chōḷa.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kovi<supplied reason="omitted">rā</supplied>cake
+<lb n="2" break="no"/>caripaṉma<supplied reason="omitted">r</supplied>kku yāṇṭu
+<lb n="3"/>3<g type="dash"/>Āvatu Ivvāṇṭu
+<lb n="4"/>Uṭaiyār ma[<hi rend="grantha">hi</hi>]mālai
+<lb n="5" break="no"/>ya Irukkuveḷār ku
+<lb n="6" break="no"/>tirai Amm<unclear>ā</unclear>n <hi rend="grantha">sa</hi><unclear>n</unclear>
+<lb n="7" break="no"/>taiyaṉ tirunilakku
+<lb n="8" break="no"/>ṉṟattup parame
+<lb n="9" break="no"/><hi rend="grantha">ś</hi>(va)rar<supplied reason="omitted">k</supplied>ku ciṟukā(ṭa)lai
+<lb n="10" break="no"/>ccanti pālāṭi Aruḷa
+<lb n="11" break="no"/>vum Oru po<unclear>t</unclear>aiyi<unclear>ṉ</unclear>
+<lb n="12" break="no"/>koṇṭu muṉṟu can
+<lb n="13" break="no"/>tiyum pālamirtu
+<lb n="14" break="no"/>kkum ṉey<unclear>ya</unclear>mirtu
+<lb n="15" break="no"/>kkum Āka vaicca pa
+<lb n="16" break="no"/>cu muppattoṉṟu I
+<lb n="17" break="no"/>tu paṉ<hi rend="grantha">māhe<unclear>śva</unclear></hi>
+<lb n="18" break="no"/><hi rend="grantha">(śa)ra rakṣai</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 13.23 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1952_01"/>
+			<citedRange unit="page">9</citedRange>
+			<citedRange unit="item">23</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

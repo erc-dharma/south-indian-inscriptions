@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 13.44: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 44. (A.R. No. 227 of 1911.) KUMBHAKŌṆAM, KUMBHAKONAM TALUK, TANJORE DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE, NĀGĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv13p0i0044</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records a sale of a quarter portion (<hi rend="italic">or vēli ?</hi>) of land (<hi rend="italic">kāṟchey</hi>) by the <hi rend="italic">Mūlaparishad</hi> of Tirukkuḍamukkil, a <hi rend="italic">dēvadāna</hi> in Pāmbūr-nāḍu on the northern bank (of the Kāvēri), to a certain <hi rend="bold">Arayaṉ Kalaṅgāmalai</hi>, a <hi rend="italic">Veḷḷāḷa</hi> resident of Tañjāvūr who endowed it to the temple of <hi rend="bold">Tirukkīḻkōṭṭattu-Paramasvāmin</hi> for the daily feeding of a <hi rend="italic">Śivāyōgi</hi> in the temple. The land is said to have formed part of 4 <hi rend="italic">vēli</hi> which the assembly had received as <hi rend="italic">abhishēka-dakshiṇai</hi> (from the king). </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> � <g type="pc"/> kovirā<hi rend="grantha">ja</hi>ke<hi rend="grantha">sa</hi>riva<hi rend="grantha">nma</hi>ṟku yā
+<lb n="2" break="no"/>ṇṭu muṉṟāvatu vaṭakaraip pāmpūr
+<lb n="3" break="no"/>nāṭṭut tevatāṉam tirukkuṭamukki
+<lb n="4" break="no"/>l mulapa<supplied reason="omitted">ru</supplied><hi rend="grantha">ṣa</hi>yom tañcāvūrirukkum
+<lb n="5"/>veḷḷāḷaṉ Arayaṉ kalaṅkāmalaikku viṟṟu
+<lb n="6" break="no"/>kkuṭutta nilamāvatu <supplied reason="undefined"><g type="danda">.</g></supplied> nāṅkaḷ <hi rend="grantha">Abhiṣeka dakṣi</hi>
+<lb n="7" break="no"/>ṇaip peṟṟa Iṉṉamparnāṭṭu <unclear>pa</unclear>ḻa<unclear>ṅ</unclear>kāviri
+<lb n="8"/>tirukkiḻkkoṭṭattup parama<hi rend="grantha">svāmi</hi>kku
+<lb n="9"/>mulaparuṭaiyom viṟṟukkuṭutta miyvā
+<lb n="10" break="no"/>ykkāl nālveliyil vaṭakiḻakkaṭaiya viṟ
+<lb n="11" break="no"/>ṟukkuṭutta kāṟceyyum Ellai kiḻpāṟ kel
+<lb n="12" break="no"/>lai mallivāy Uṇṇilaikku meṟkum
+<lb n="13"/>teṉpāṟkellai tevar nilattuk
+<lb n="14" break="no"/>ku vaṭakkum melpāṟkellai I<hi rend="grantha">dde</hi>var <unclear>ni</unclear>
+<lb n="15" break="no"/>lattukke kiḻakkum vaṭapāṟkel
+<lb n="16" break="no"/>lai Eri<unclear>e</unclear>llai varampukkut teṟk
+<lb n="17" break="no"/>kum Ivvicaitta perunāṉkellaiyi
+<lb n="18" break="no"/>l Akappaṭṭa nilam kāṟceyyum mula
+<lb n="19" break="no"/>pāṭaipperumakkaḷiṭai vilaikoṇṭa pari ce U
+<lb n="20" break="no"/>tta<hi rend="grantha">māgram</hi>orukalam <hi rend="grantha">śi</hi>vayo<hi rend="grantha">gi candrādi</hi>t
+<lb n="21" break="no"/>tavaṟku Oruvaṉ Uṇṇa<hi rend="grantha"><supplied reason="omitted">v</supplied>ai</hi>tteṉ Ara yaṉ
+<lb n="22"/>kalaṅkāmalaiyen Uṇṇumpaṭi kummāyamum kāyka
+<lb n="23" break="no"/>ṟiyum vempuḻakkum puḷiṅkaṟiyum poṟik kaṟiyum tayir Uriyum ney O
+<lb n="24" break="no"/>ru piṭiyum carkkarai vaṭṭu Iraṇṭum vāḻaippaḻam Iraṇṭum pākku <gap reason="lost" quantity="2" unit="character"/> m Ippaṭi va
+<lb n="25" break="no"/>ḻuvāmey Aṭṭuka paṉmā<hi rend="grantha">heśva</hi>rara<hi rend="grantha">kṣai</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 13.44 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1952_01"/>
+			<citedRange unit="page">19-20</citedRange>
+			<citedRange unit="item">44</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

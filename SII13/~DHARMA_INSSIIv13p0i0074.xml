@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 13.74: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 74. (A.R. No. 104 of 1929.) LĀLGUḌI, LALGUDI TALUK, TRICHINOPOLY DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, SAPTAṚISHĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv13p0i0074</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records an additional endowment of a land after its reclamation, to the temple at Tiruttavattuṟai in Iḍaiyāṟu-nāḍu by Śivagōchari-Piḍāraṉ Dēśaviḍaṅgaṉ, a <hi rend="italic">paṭṭuḍaiyāṉ</hi> of the temple, as a previous gift made by him for the maintenance of two hymnists for singing the <hi rend="italic">Tiruppadiyam</hi> was found inadequate. The donees were to receive the <hi rend="italic">śevvāram</hi> share on these lands while the <hi rend="italic">siṟukuḍivāram</hi> was to be paid to the temple in the shape of oil (for lamps). As the previous gift referred to here is evidently the one mentioned in No. 99 of 1929, dated in the 37th year of Parāntaka I, it is probable that this record is one of his successor <hi rend="bold">Gaṇḍarāditya</hi>, though it is attributed to Sundara-Chōḷa for this same reason in <hi rend="italic">M.E.R.</hi> for 1929, Part II, Para 2.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>ko<hi rend="grantha">rāja</hi>ke<hi rend="grantha">sa</hi>ri<hi rend="grantha">panma</hi><supplied reason="omitted">ṟ</supplied>kku
+<lb n="2" break="no"/>yāṇṭu 3<g type="dash"/>Āvatu I<supplied reason="omitted">ṭ</supplied>ai
+<lb n="3" break="no"/>yāṟṟu nāṭṭu tirutta
+<lb n="4" break="no"/>vattuṟai <hi rend="grantha">Īśvarabhaṭṭāra</hi>kaṟ
+<lb n="5" break="no"/>ku Ittaḷip paṭṭuṭaiyā
+<lb n="6" break="no"/>ṉ <hi rend="grantha">śi</hi>va<hi rend="grantha">gocari</hi> piṭāraṉ te
+<lb n="7" break="no"/><hi rend="grantha">śa</hi>viṭaṅkaṉeṉ tiruppatiya
+<lb n="8" break="no"/>m pāṭuvā riruvaṟku muṉṉan nā
+<lb n="9" break="no"/>ṉ koṇṭu kuṭutta nilam Āṇ
+<lb n="10" break="no"/>ṭuvarai <num value="6000">6 <g type="numeral">1000</g></num> nellukkuṅ kap
+<lb n="11" break="no"/>paṭa mutal kaḻaiñcarai poṉṉum
+<lb n="12"/>paṟṟatāka Innilattil puṉcey
+<lb n="13"/>Iraṇṭu maṭṭaṅ kalla nāṉiṭṭa po
+<lb n="14" break="no"/>ṉ <hi rend="grantha"><num value="14"><g type="numeral">10</g> 4</num>�</hi>- m Eṇpiṭikkolā lo
+<lb n="15" break="no"/>ru kolāḻaṉ nāṟkol niḷamuṉ nāṟ
+<lb n="16" break="no"/>kolakalamu morukuḻi Ikkuḻi�-m po
+<lb n="17" break="no"/>ṉṉukku <num value="50">5 <g type="numeral">10</g></num>tāka Ikkuḻi <num value="200">2 <g type="numeral">100</g></num> ko
+<lb n="18" break="no"/>ṇṭatoru mā Itaṉil vanta nirni
+<lb n="19" break="no"/>la morumā mukkāṇi muntirikaiyu
+<lb n="20" break="no"/>m Itaṉ meṟkaṭaiya nāṉ vilaiy
+<lb n="21" break="no"/>koṇṭuṭaiya nilattiṟ me
+<lb n="22" break="no"/>ṟpaṭiye Iṭṭa po
+<lb n="23" break="no"/>ṉ <num value="24">2 <g type="numeral">10</g> 4</num>m Itaṉil van
+<lb n="24" break="no"/>ta nila muṉṟu māvum
+<lb n="25"/>Itaṉ meṟkaṭaiya Eṉ
+<lb n="26" break="no"/>ṉopāti Ittevar nilat
+<lb n="27" break="no"/>tiṟṟiṭal 3 maṭṭaṅkalla Iṭṭa
+<lb n="28"/>poṉ <hi rend="grantha">9�</hi> Itaṉil vanta nila
+<lb n="29" break="no"/>mukkāṇiyum Āka Iṭṭa poṉ
+<lb n="30"/><hi rend="grantha"><num value="47">4 <g type="numeral">10</g> 7</num>�</hi> Immuṉṟu nilattilu
+<lb n="31" break="no"/>mākak kalli vanta nirnilaṅ kā
+<lb n="32" break="no"/>leyaraimā muntirikai Iññi
+<lb n="33" break="no"/>lattāṟ kaṭava Iṟai Eṇṇai
+<lb n="34"/>Iññilattileṉ ciṟukuṭivāra
+<lb n="35" break="no"/>ttile Ittevar koḷvatākavu
+<lb n="36" break="no"/>m Innilattiṟ cevvāramum I
+<lb n="37" break="no"/>ttiruppatiyam pāṭuvār ko
+<lb n="38" break="no"/>ḷvārāka ca<hi rend="grantha">ndrāditya</hi>vaṟ ceytu ku
+<lb n="39" break="no"/>ṭutteṉ piṭāraṉ te<hi rend="grantha">śa</hi>viṭaṅ
+<lb n="40" break="no"/>kaṉeṉ ceyta nivantattiṟ
+<lb n="41"/>naṉku pāṭuvāṉ 3 kūṟu muṭaṉ
+<lb n="42" break="no"/>pāṭuvāṉ 2 kūṟu muṇṇac cey
+<lb n="43"/>ten Itu pa<hi rend="grantha">nmāheśvara rirakṣai <g type="ddanda">.</g></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 13.74 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1952_01"/>
+			<citedRange unit="page">35</citedRange>
+			<citedRange unit="item">74</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

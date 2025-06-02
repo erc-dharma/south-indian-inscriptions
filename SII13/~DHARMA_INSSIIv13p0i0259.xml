@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 13.259: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 259. (A.R. No. 31 of 1931.) TIRUKKŌḌIKĀVAL, KUMBAKONAM TALUK, TANJORE DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, TIRUKKŌṬĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv13p0i0259</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Like the other inscriptions of the place this is said to be a copy of an old document engraved on a loose stone. It records an endowment of 70 <hi rend="italic">kaḻañju</hi> of gold, left in charge of the <hi rend="italic">sabhā</hi> of <hi rend="bold">Tirukkōḍikkā</hi> <hi rend="italic">alias</hi> <hi rend="bold">Kaṇṇamaṅgalam</hi>, for the daily supply of an <hi rend="italic">ulakku</hi> of ghee for a perpetual lamp and of two <hi rend="italic">nāḻi</hi> of rice for offerings in the temple of Mahādēva, by <hi rend="bold">Kumāraṉ Gaṇavadi(pati), a merchant of Nandipuram</hi> in Paḻaiyāṟu. Paḻaiyāṟu was one of the places in the south where Pallava Nandivarman III is said to have fought battles (Sewell's <hi rend="italic">Historical Inscriptions of Southern India</hi>, p. 34). In later times, it is known to have been a Chōḷa capital under the name Muḍigoṇḍaśōḻapuram, and the royal palace therein is referred to in several inscriptions (<hi rend="italic">M.E.R.</hi> 1927, II, 12 and 33). This is distinct from Gaṅgaikoṇḍaśōḻapuram in the Trichinopoly district, the city founded by Rājēndra-Chōḷa I in commemoration of his northern campaign of conquest (<hi rend="italic">S.I.I.</hi> Vol. III, Intr. p. 20).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> Ituvum moru paḻaṅkalpaṭi <supplied reason="undefined"><g type="ddanda">.</g></supplied> kovirā<hi rend="grantha">ja</hi>kecaripa<unclear>ṉ</unclear>ma<supplied reason="omitted">r</supplied>kku yāṇṭu patiṉ Añcāvatu paḻaiyāṟṟu nan=tipurattu viyāpāri kumāraṉ kaṇavati tirukkoṭikāvil <hi rend="grantha">mahāde</hi>va<hi rend="grantha">-</hi> ṟku tiruviḷakkiṉukkum tiruvamitiṉukkum kuṭutta poṉ Eḻupatiṉkaḻañ
+<lb n="2" break="no"/>cu Ippoṉ koṇṭu Ippoṉṉiṉ palicaiyāl non=tāviḷakkukku nicatam Uḻakku neyyum tiruvamirtiṉukku nicatam Irunāḻi Ariciyum ca<hi rend="grantha">ntrā</hi>tittaval Aṭṭuvomāṉom tirukkoṭikāvāṉa kaṇṇamaṅkalattu <hi rend="grantha">sabhai</hi>yom Itu paḻayakalpaṭi In=ta <hi rend="grantha">śrī</hi> vimānattile Ēṟave
+<lb n="3" break="no"/>ṭṭinamaiyil muṉ ṉivvā<hi rend="grantha">ja</hi>kam veṭṭikki(ṭa)ṭan=ta ta(ṉ)ṉikkallāl <hi rend="grantha">Ubhai</hi>yokam Illāmaiyāl Atu tavir<supplied reason="omitted">n</supplied>tatu Itu muṭṭil paṉmāye<hi rend="grantha">sva</hi>ra<supplied reason="omitted">r</supplied> naṭaikūṭṭa peṟṟār <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 13.259 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1952_01"/>
+			<citedRange unit="page">137-138</citedRange>
+			<citedRange unit="item">259</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

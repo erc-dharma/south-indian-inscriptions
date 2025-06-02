@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 13.217: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 217. (A.R. No. 10 of 1931.) TIRUKKŌḌIKKĀVAL, KUMBAKONAM TALUK, TANJORE DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE, TIRUKKŌṬĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv13p0i0217</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is stated to be a copy of an old inscription on a loose stone and hence to cancel that document. It records an endowment in the shape of 360 <hi rend="italic">kalam</hi> of paddy made by <hi rend="bold">Māsēṉaṉ Mādaṉ</hi> of Śiṟukāṭṭūr in Mē[r*]kkā-nāḍu and left in charge of the assembly of Narasiṅgamaṅgalam in Nallāṟṟūṟ-nāḍu for providing, with the interest thereon, daily offerings and a perpetual lamp in the temple of Mahādēva at Tirukkōḍikkā.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> Ituvum moru paḻaṅkalpa(ṭ)ṭi <supplied reason="undefined"><g type="danda">.</g></supplied> kovirā<hi rend="grantha">ja</hi>ke<hi rend="grantha">sa</hi>ri
+<lb n="2" break="no"/>pa<hi rend="grantha">nma</hi><supplied reason="omitted">r</supplied>kku yāṇṭu <num value="11"><g type="numeral">10</g> 1</num>- tirukkoṭikāvil ma<hi rend="grantha">hāde</hi>varkku me<supplied reason="omitted">ṟ</supplied>kkāṉāṭṭuc ciṟukāṭṭuruṭai yāṉ(ā) māceṉaṉ mātaṉ kuṭutta nellu muṉṉūṟṟu Āṟupatiṉkalam Innelluk koṇ ṭom nallāṟṟūrnāṭṭu naraciṅkamaṅkalattu <hi rend="grantha">sabhai</hi>yom Innelli
+<lb n="3" break="no"/>ṉ palicaiyāl tiruvamiḻtu kuttal nicati Irunāḻi Ariciyum tiruviḷakku nicati Uḻakku neyyum non=tāviḷakku m(ā)can<hi rend="grantha">trā<supplied reason="omitted">rka</supplied></hi> kālamum taḷi Arccippāṟkku Okku<unclear>m</unclear> nāḻiyā laḷantu kuṭuppomāṉom naraciṅkamaṅkalattu <hi rend="grantha">sabhai</hi>yom Itu paḻayakalppaṭi In=ta <hi rend="grantha">śrī</hi>vimā
+<lb n="4" break="no"/><hi rend="grantha"> <gap reason="lost" quantity="5" unit="character"/> <unclear>vā</unclear>jaga</hi>m veṭṭikkiṭan=ta taṉikkallāl <hi rend="grantha">Ubhai</hi>yokam Illāmaiyil Atu tavir<hi rend="grantha">nt(ā)</hi>tu Ivai muṭṭil pa <gap reason="lost" quantity="7" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 13.217 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1952_01"/>
+			<citedRange unit="page">117-118</citedRange>
+			<citedRange unit="item">217</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

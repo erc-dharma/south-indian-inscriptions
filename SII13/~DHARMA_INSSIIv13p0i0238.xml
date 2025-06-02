@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 13.238: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 238. (A.R. No. 13 of 1931.) TIRUKŌḌIKĀVAL, KUMBAKONAM TALUK, TANJORE DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE, TIRUKKŌṬĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv13p0i0238</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Like all the other records of this place, this also is stated to be a copy of an old inscription engraved an a loose stone which had become useless, and hence to cancel that record. It registers an endowment of three plots of land after purchase, one for converting it into a flower-garden and the other two for the maintenance of its gardeners, for the benefit of the temple of Tirukkōḍikkā by <hi rend="bold">Perumbiḍigu Viñjavadiyaraiyaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Nakkaṉ Śeruviḍai</hi> of Kīḻandi in Malli-nāḍu. The <hi rend="italic">sabhā</hi> of <hi rend="bold">Kaṇṇamaṅgalam which was the other name of Tirukkōḍikkā</hi>, agreed to make the lands immune from all taxes.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> Ituvum moru paḻaṅkalpaṭi <supplied reason="undefined"><g type="danda">.</g></supplied> kovirā<hi rend="grantha">ja</hi>kecaripa<hi rend="grantha">nma</hi><supplied reason="omitted">r</supplied>kku yāṇṭu <num value="13"><g type="numeral">10</g> 3</num><g type="dash"/>Āvatu mallināṭṭu kiḻanti perumpiṭuku viñcava<unclear>ti</unclear>yaraiyaṉā<supplied reason="omitted">ṉa</supplied> nakkaṉ ceruviṭai tirukkoṭi kā<supplied reason="omitted">va</supplied>l <hi rend="grantha">mahāde</hi>vaṟkku nan=tavaṉat
+<lb n="2" break="no"/>tukku vilai<unclear>koṇ</unclear>ṭu kuṭutta nilam tirukkoyi<unclear>lukku</unclear> vaṭapā<unclear>l</unclear> Araikkāṟ ceyyum nan=ta vāṉam Iṟaippāṟkku nāṉ tirukkoṭikāvāṉa kaṇṇamaṅkalattu tattacaṉmaniṭaiyum tampi <unclear>mā</unclear>riṭaiyum vilaikoṇṭa
+<lb n="3"/>Oru mā<unclear>vu</unclear> <gap reason="lost" quantity="3" unit="character"/> tirukkoṭikāvuṭaiyāṟkku viṟṟu vilaikoṇ<unclear>ṭo</unclear>m <hi rend="grantha">sabhai</hi>yom potuvāṉa Iraṇṭumāvum nan=tavāṉappuṟamākak kuṭu<supplied reason="omitted">t</supplied>teṉ nakkaṉ ceruviṭaiyeṉ Immuṉṟu māvum Eppeṟpaṭṭa Iṟaiyum 
+<lb n="4"/><unclear>ca</unclear><hi rend="grantha">ntrā</hi>tittaval kāttuk kuṭuppomāṉom <unclear>ka</unclear>ṇṇamaṅkalattu <hi rend="grantha">sabhai</hi>yom Itu paḻaya kalpaṭi In=ta <hi rend="grantha">śrī</hi>vimānattile Eṟaveṭṭinamaiyil muṉṉivvā<hi rend="grantha">ja</hi>kam veṭṭikkiṭanta taṉikkallāl <hi rend="grantha">Ubh</hi>aiyokam
+<lb n="5"/>millāmaiyim Atu tavirn=tatu paṉmāye<hi rend="grantha">śva</hi>ra kaṭaikkuṭ<unclear>ṭu</unclear> peṟṟā<supplied reason="omitted">r</supplied> <hi rend="grantha">śrī</hi>pāta meṉ talai melana <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 13.238 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1952_01"/>
+			<citedRange unit="page">127-128</citedRange>
+			<citedRange unit="item">238</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 13.208: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 208. (A.R. No. 365 of 1924.) MĒLAPPAḺUVŪR, UDAIYARPALAIYAM TALUK, TRICHINOPOLY DISTRICT. ON THE NORTH WALL OF THE AGASTYĒŚVARA SHRINE, AGASTYĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv13p0i0208</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This states that at the instance of the chief <hi rend="bold">Paḻuvēṭṭaraiyar Maṟavaṉ Kaṇḍaṉār</hi>, the <hi rend="italic">nagarattār</hi> of Avanigandharvvapuram had it engraved on stone that all the taxes (<hi rend="italic">maṉṟupāḍu</hi>) in this village might be accepted on the model of those prevailing at Nandipuram from olden times (See No. 215 below). This is evidently an inscription of <hi rend="bold">Sundara-Chōḷa.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> ko Irācakecari<hi rend="grantha">panma</hi>ṟku yāṇṭu <num value="10"><g type="numeral">10</g></num><g type="dash"/>Āvatu paḻuveṭṭaraiyar
+<lb n="2"/>maṟavaṉ kaṇṭaṉār Avani<hi rend="grantha">kandha<supplied reason="omitted">r</supplied>vva</hi>purattu maṉṟupāṭu Epperppaṭṭatu paṇ
+<lb n="3" break="no"/>ṭai nan=tipuramaṟṟātiye koḷka Eṉṟaruḷicceyya kalliṉmel ve
+<lb n="4" break="no"/>ṭṭikkoḷḷappeṟṟār Avani<hi rend="grantha">kandha<supplied reason="omitted">r</supplied>vva</hi>purattu nakarattār <g type="ddanda">.</g><g type="pc"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 13.208 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1952_01"/>
+			<citedRange unit="page">113</citedRange>
+			<citedRange unit="item">208</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

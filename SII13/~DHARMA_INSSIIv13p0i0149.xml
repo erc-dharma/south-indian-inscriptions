@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 13.149: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 149. (A.R. No. 79 of 1921.) LITTLE CONJEEVARAM, CONJEEVARAM TALUK, CHINGLEPUT DISTRICT. ON THE WEST WALL OF THE DURGĀ SHRINE, KACHCHĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv13p0i0149</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is evidently an inscription of <hi rend="bold">Rājarāja I.</hi> It records a gift of 900 sheep for the maintenance of ten perpetual lamps to be called <hi rend="bold">‘Rājarājaṉ’</hi> after the name of the king, in the shrine of Aiñjandi-Durgā-Bhaṭṭārakī at Kachchippēḍu. The royal order was communicated by the king's officer <hi rend="bold">Kōṉ Vīdiviḍaṅgaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Villavaṉ-Mūvēndavēḷāṉ</hi> of Uttaraṅguḍi in Ārvala-kūṟṟam of Śōḻa-nāḍu, who arranged for the supply of ghee by certain individuals to whom the sheep were distributed. These sheep are stated to have been captured by <hi rend="bold">Kurukāḍi-Kiḻāṉ Paramaṉ Maḻapāḍi</hi> <hi rend="italic">alias</hi> <hi rend="bold">Mummuḍichchōḻaṉ</hi> on the occasion of his <hi rend="bold">overthrow of Śīppuli-nāḍu</hi> and <hi rend="bold">Pākkai-nāḍu (Pāki-nāḍu).</hi> Of these two regions the former is known to have been subjugated by a general of Parāntaka I (<hi rend="italic">M.E.R.</hi> 1913, II. 8) who is also said to have destroyed Nellore in the course of the same campaign. By Nellore this Pākkai-nāḍu should have been meant in particular. They must have been subsequently lost to the Chōḷas till they were recaptured in the reign of Rājarāja.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="danda">.</g></supplied> kovirā<hi rend="grantha">ja</hi>ke<hi rend="grantha">sa</hi>riva<hi rend="grantha">rmma</hi><supplied reason="omitted">r</supplied>kku yāṇṭu 6<g type="dash"/>Āvatu koneriṉmaikoṇṭāṉ villavamuven=taveḷāṉukku kuḷakāṭi kiḻāṉ <unclear>paramaṉ</unclear> maḻapāṭiyāṉa mummuṭiccoḻañ coḻa coṉ
+<lb n="2" break="no"/>cippulināṭum pākkaināṭum Eṟintu piṭittu koṭuvan=ta Āṭu toḷāyiramum kaccippeṭṭu Aiñcanti <hi rend="grantha">durggābhaṭṭā</hi>rakikku non=tāviḷakku Oṉṟiṉukku Āṭu toṇṇūṟāka namperāl pattu viḷakkukku Ā
+<lb n="3" break="no"/>ṭu toḷḷāyiramum cilālekai ceytu kuṭukkaveṉṟu Aruḷucceytu vanta tirumukappaṭiye kaccippeṭṭu Aiñcanti turkkāpaṭṭārakiyārkku non=tāviḷakkukku Āṭu toṇṇūṟāka rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>
+<lb n="4" break="no"/>ṉeṉṉum tirunāmattiṉāl pattu viḷakkiṉukku Āṭu toḷḷāyiramum <hi rend="grantha">śilā</hi>lekai ceytu kuṭukkaveṉṟu Atikārikaḷ coḻanāṭṭu Ārvalakkūṟṟattu Uttaraṅkuṭaiyāṉ koṉ
+<lb n="5"/>vitiviṭaṅkaṉāṉa villavaṉmuven=taveḷā ṉeva kaccippeṭṭut tirukkaṟṟaḷicceri maṉṟāṭi tāṅki kampaṉ vacaṅ kuṭutta Ā<unclear>ṭu</unclear> viḷakku Iraṇṭiṉukku nūṟṟeṇpatiṉāl Āṇṭuto
+<lb n="6" break="no"/>ṟum Aṭṭakkaṭava ney nūṟṟeṇpatiṉāḻi Ivvūr tirumayā(mayā)ṉattu maṭaviḷākattu maṉṟāṭi Ūruṭaiyāṉ kommaṉ vacam viḷakkiraṉāṭiṉukku kuṭutta Āṭu nūṟṟeṇpatiṉāl
+<lb n="7"/>Āṇṭutoṟu maṭṭakkaṭava ney nūṟṟeṇpatiṉāḻiyum Immaṭaviḷākattu maṉṟāṭi ceruppaṉeṟaṉ vacam viḷakkiraṇṭiṉukku kuṭutta Āṭu nūṟṟeṇpatiṉāl Āṇṭutoṟu maṭṭakkaṭava ney 
+<lb n="8"/>nūṟṟeṇpatu ṉāḻiyum kāmakkoṭṭap puṟattup picca <gap reason="lost" quantity="3" unit="character"/> pāmpaṉ makaṉ tiruvūṟal vacam viḷakkiraṇṭiṉukku kuṭutta Āṭu nūṟṟeṇpatiṉāl Āṇṭu � <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="9"/>rāka Ivvaṉaivar maṉṟāṭikaḷvacamuṅ kuṭutta Āṭu toḷḷāyirattiṉāl Aṭṭakkaṭava <gap reason="lost" quantity="6" unit="character"/> nṟār nārācanāḻiyāl Inney I <gap reason="lost" quantity="5" unit="character"/> yi
+<lb n="10" break="no"/>lukke koṭuvantu tiṅkaḷopāti Aṟa Aṭṭit tāvu koḷvomāṉom <hi rend="grantha">candrādi</hi>ttavat cāvā mūvāpperāṭāka vaitta Āṭu Ittoḷḷāyirattāl
+<lb n="11"/>nontāviḷakkup pattu Ivvaṉaivom maṉṟāṭikaḷaiyum Epperppaṭṭa Iṟaiyum Eccoṟum veṭṭiyuṅ koḷḷappeṟātitāka <hi rend="grantha">sarvvapari�m</hi> I<hi rend="grantha">dha</hi> <gap reason="lost" quantity="6" unit="character"/> ṭaikkumari
+<lb n="12" break="no"/><supplied reason="omitted">yi</supplied>ṭaic ceytār ceyta pāvattiṟ p(ā)ṭuvār <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 13.149 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1952_01"/>
+			<citedRange unit="page">78-79</citedRange>
+			<citedRange unit="item">149</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

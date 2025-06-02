@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 13.169: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 169. (A.R. No. 234 of 1923.) KŌYIL-TĒVARĀYAṈPĒṬṬAI (NEAR PAṆḌĀRAVĀḌAI), PAPANASAM TALUK, TANJORE DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE, MATSYAPURĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv13p0i0169</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is a bilingual record in Sanskrit and Tamil, of which the first portion is in Grantha. It records a gift of six <hi rend="italic">mā</hi> of land for burning two perpetual lamps in the temple of Tiruchchēlūr-Mādēva at Rājakēsari-chaturvēdimaṅgalam, a <hi rend="italic">brahmadēya</hi> on the southern bank, by <hi rend="bold">Śēndaṉ Nakkaṉ of</hi> Kūṟṟamaṅgalam, a resident of the quarter of the village known as <hi rend="bold">Naratoṅgachchēri</hi> evidently after the surname of of a king. This might possibly be a record of <hi rend="bold">Sundara-Chōḷa's</hi> reign.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> Īśā</hi>yā<hi rend="grantha">śeṣa cūḷāma</hi>ṇi<hi rend="grantha">ra</hi>
+<lb n="2" break="no"/>vi<hi rend="grantha">kira</hi>ṇo<hi rend="grantha"> tchullapādāmbujā</hi>ya<hi rend="grantha"> <supplied reason="undefined"><g type="danda">.</g></supplied> kri</hi>
+<lb n="3" break="no"/><hi rend="grantha">sro</hi>ta<hi rend="grantha"> stuṅga vīcī</hi>ni<hi rend="grantha">kara parimiḷaccandra</hi>
+<lb n="4" break="no"/><hi rend="grantha">lekhādharā</hi>ya<hi rend="grantha"> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kālagrāmābhijanmā timira</hi>
+<lb n="5" break="no"/><hi rend="grantha">la</hi>ya<hi rend="grantha">karam prāddannagna</hi>nā<hi rend="grantha">mā <supplied reason="undefined"><g type="danda">.</g></supplied> dīpa[dva</hi>ya<hi rend="grantha">]nja</hi>
+<lb n="6" break="no"/>yan=ta<hi rend="grantha"><unclear>dvi</unclear>ja</hi>va<hi rend="grantha">ra ta</hi>naya<hi rend="grantha">sthā</hi>yi<hi rend="grantha"> śelūradhāmne</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+<lb n="7"/>koirācakecarivarmaṟku yāṇṭu 7<g type="dash"/>Āvatu
+<lb n="8"/>teṉkaraip piramateyam ci Irācakecariccaruppe
+<lb n="9" break="no"/>timaṅkalattu tiruccelūr mātevarkku Ivvūr narat<unclear>o</unclear>
+<lb n="10" break="no"/>ṅkacceri kūṟṟamaṅkalattu pāratāyaṉ paṭṭaṉ cen
+<lb n="11" break="no"/>tanakkaṉ cantirātittavaṟ Irāppakal Iraṇṭu no
+<lb n="12" break="no"/>ntāviḷakku Erivataṟku vaitta ne<supplied reason="omitted">y</supplied>yuri Ivvuriy ne
+<lb n="13" break="no"/>ykkum pokamāka kuṭutta nilamāvaṉa Ivvūr kaṟpakatāṉi
+<lb n="14" break="no"/>vatikku kiḻakku muṉṟāṅkaṇṇāṟṟu Irācakecarivāy
+<lb n="15" break="no"/>kkālukku vaṭakku Iraṇṭāñcaturattu teṟkuniṉṟu mu
+<lb n="16" break="no"/>ṉṟā muṉṟumāvum caṇṭacaṇṭavatikku meṟku Āṟāṅka
+<lb n="17" break="no"/>ṇṇāṟṟu manoramavāykkālukku teṟku muṉṟāñcaturat
+<lb n="18" break="no"/>tuk kiḻakkaṭaiñca muṉṟumāvum Āka Ivvāṟumāc ceyyiṉ
+<lb n="19"/>pokattālu minnilattukku Iṟaiyiṟuttu Ivviraṇṭu vi
+<lb n="20" break="no"/>ḷakku merivatāka vaccaṉa Ivai <hi rend="grantha">mahāsabhai</hi>yārum paṉmā
+<lb n="21" break="no"/><hi rend="grantha">heśvara rakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 13.169 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1952_01"/>
+			<citedRange unit="page">91-92</citedRange>
+			<citedRange unit="item">169</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

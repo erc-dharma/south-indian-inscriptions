@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 13.50: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 50. (A.R. No. 123 of 1914.) TIRUVEṞUMBŪR, TRICHINOPOLY TALUK, TRICHINOPOLY DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, PIPĪLIKĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv13p0i0050</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The middle portion of the inscription is built in. This registers a joint sale of some land by the <hi rend="italic">Peruṅguṟi-sabhā</hi> of Śrīkaṇṭha-chaturvēdimaṅgalam and the <hi rend="italic">Ūrār</hi> of Eṟumbiyūr between whom the boundary of the land is said to have been a matter of dispute, to a certain <hi rend="bold">Vīranārāyaṇaṉ Śembiyaṉ Vēdivēḷār of Śiṟudavūr</hi> in Kiḷiyūr-nāḍu. They agreed to pay the taxes <hi rend="italic">iṟai, echchōṟu</hi> and <hi rend="italic">veṭṭivēdinai</hi> due on the land for a lump sum of gold received by them in addition to the sale amount, and also agreed to give the necessary supply of water for irrigation of the land from the tank at Śrīkaṇṭha-chaturvēdimaṅgalam. The land was endowed to the temple by the purchaser for the maintenance of four persons singing the <hi rend="italic">tiruppadiyam</hi> (before the god). The donor is known from No. 51 below to have built the <hi rend="italic">Śrīvimāna</hi> of this temple.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kovirā<hi rend="grantha">ja</hi>kecarivaṉmaṟkku yāṇṭu 3<g type="dash"/>Āvatu teṉkarai <gap reason="lost" quantity="4" unit="character"/> yomum kaviranāṭṭu Eṟumpiyūr Ūromum viṟṟukkuṭutta nila
+<lb n="2" break="no"/>vilaiyāvaṇam <supplied reason="undefined"><g type="danda">.</g></supplied> kiḷiyūrnāṭṭuc ciṟutavvūruṭaiyāṉ veḷāṉ viranārāyaṇaṉ <gap reason="lost" quantity="4" unit="character"/> kuṭutta nilamāvatu Eṅkaḷil <hi rend="grantha">simā</hi>vivātamāyk kiṭanta nilam Ivarkku
+<lb n="3"/>viṟṟukkuṭutta nilattuk kiḻpāṟkkellai tirumalavāyk kecuva ṉakkaṉum <gap reason="lost" quantity="3" unit="character"/> teṉpāṟ kellai Eṟumpiyūrk kuḷaṅkarai Irukol nikki Itu
+<lb n="4" break="no"/>kku vaṭakku mipāṟkellai I<hi rend="grantha">śrī</hi>kaṇṭa <gap reason="lost" quantity="9" unit="character"/> ḻellaiyāka nāṭṭiṉ cū<unclear>lakka</unclear><supplied reason="omitted">l</supplied>lukkuk ki
+<lb n="5" break="no"/>ḻakkum vaṭapāṟkellai tevatāṉattukkut teṟkku <gap reason="lost" quantity="9" unit="character"/> kellaikku naṭuvupaṭṭa <gap reason="lost" quantity="6" unit="character"/> Emmilicainta vilaipporuḷ vilaiyāvaṇakkaḷiye kaic 
+<lb n="6" break="no"/>cella Aṟakkoṇṭu Ittiruveṟumpiyūrāḷvāṟkkāka Iccempiyaṉ vetiveḷāriṭai vilaiyāvaṇakkaḷiye vilaipporu ḷaṟakkoṇṭu viṟṟu vilaiyāvaṇañ ceytu kuṭuttom cempiya
+<lb n="7" break="no"/>ṉ vetiveḷārkku <hi rend="grantha">śrī</hi>kaṇṭa<hi rend="grantha">śca</hi>tu<hi rend="grantha">rvve</hi>timaṅkalattu peruṅkuṟi [ <hi rend="grantha">sabhai</hi>] yomum Eṟumpiyūr Ūromum Ivviraṇṭu tiṟattom Innilattukku Ituve vilaiyāvaṇamum poruḷ
+<lb n="8" break="no"/>māvaṟutipporuṭcelavolaiyu mituve yākavum Ituvallatu veṟu poruṇmāvaṟutipporuṭ celavu kāṭṭakkaṭava<unclear>ta</unclear>l<unclear>lā</unclear>tatākavum Ipparicoṭṭi viṟṟukkuṭutta Innilattukku
+<lb n="9"/>Iṟaikāvalukku veṇṭum poṉṉum Ivviraṇṭu tiṟattomum koṇṭu Innilattukku Iṟaiyu meccoṟum veṭṭivetiṉaiyuñ cantirātittavaṟ nāṅkaḷe Iṟuppomāṉom Ivariṭ<hi rend="grantha">ai</hi>
+<lb n="10" break="no"/>ye<hi rend="grantha"> dravya</hi>ṅ koṇṭu vilaikkaṟa viṟṟup poruḷaṟak koṇṭu viṟṟu vilaiyāvaṇa<unclear>ñ</unclear> ceytu kuṭuttoñ cempiyaṉ vetiveḷārkku <hi rend="grantha">śrī</hi>kaṇṭaccatu<hi rend="grantha">rvve</hi>timaṅkalattup peruṅkuṟi <hi rend="grantha">sabhai</hi> yomum Eṟumpiyūr
+<lb n="11"/>Ūromum Ivviraṇṭu tiṟattomum Iṉnilattukku <hi rend="grantha">śrī</hi>kaṇṭa<hi rend="grantha">śca</hi>tu<hi rend="grantha">rvve</hi>timaṅkalattu kuḷattāre nirkkintavāṟu kumuḻiya <gap reason="lost" quantity="3" unit="character"/> ttuñcā kumiḻi pāyappeṟuvatākavum Eṟumpiyūrk kaḻaṉi<supplied reason="omitted">k</supplied>
+<lb n="12" break="no"/>key vārappeṟuvatākavum Ivvāvaṇappaṭiye tiruveṟumpiyūrt tirumalaimelāḷvārkku tevatāṉamākak ka<unclear>llilum veṭṭu</unclear>vikkap peṟuvatākavum Ipparicoṭṭi viṟṟukkuṭutto
+<lb n="13" break="no"/>ñ cempiyaṉ vetiveḷārkku <hi rend="grantha">śrī</hi>kaṇṭa<hi rend="grantha">śca</hi>tu<hi rend="grantha">rvve</hi>timaṅkalattup peṟuṅkuṟi <hi rend="grantha">sabhai</hi>yomum Eṟumpiyūr Ūro<unclear>mum Iv</unclear>viraṇṭu tiṟattom perumakkaḷ paṇittaruḷavum vū
+<lb n="14" break="no"/>rār collavum Ivvilaiyāvaṇavolai Eḻutiṉeṉ <hi rend="grantha">śrī</hi>kaṇṭa<hi rend="grantha">śca</hi>tu<hi rend="grantha">rvve</hi>timaṅkalattu <hi rend="grantha">maddhyasta</hi>ṉ <hi rend="grantha">dharmmapri</hi>yaṉāṉa <gap reason="lost" quantity="5" unit="character"/> <unclear>taru</unclear>ṇentucekaraṉeṉ Ivai yeṉ Eḻuttu
+<lb n="15"/>Ippaṭi Aṟiveṉ valavūr māppāni kāri nakkaṉeṉ <g type="danda">.</g> Ippaṭi Aṟiveṉ tirupperp pālāciriyaṉ mā<unclear>ya</unclear>vaṉ cuppirama <gap reason="lost" quantity="5" unit="character"/> Ip<unclear>paṭi Aṟi</unclear>veṉ pavakkuṟit tiruvirāmiccuvara <hi rend="grantha">carmma</hi>ṉe<unclear>ṉ</unclear>
+<lb n="16"/>Ippaṭi Aṟiveṉ vaṅkippuṟattuc cāmi <hi rend="grantha">carmma</hi>ṉeṉ <g type="ddanda">.</g> Ippaṭi Oṭṭi viṟṟukkuṭutteṉ kaṇṭa ṉāka ṉeṉ <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g> Ippaṭi Oṭṭi vi <gap reason="lost" quantity="9" unit="character"/> viṟṟukku <gap reason="lost" quantity="7" unit="character"/> 
+<lb n="17"/>Iṉṉilam Ittuṇaiyum tiruppatiyam pāṭuvā<supplied reason="omitted">r</supplied> nālvarkku paṉmā<hi rend="grantha">heśva</hi>rar ra<hi rend="grantha">kṣai <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 13.50 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1952_01"/>
+			<citedRange unit="page">22-23</citedRange>
+			<citedRange unit="item">50</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 13.55: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 55. (A.R. No. 98 of 1920.) TIRUMAḺAVĀḌI UDAIYARPALAIYAM TALUK, TRICHINOPOLY DISTRICT. ON THE EAST WALL OF THE RUINED MAṆḌAPA TO THE NORTH OF THE SHRINE OF THE GODDESS IN THE VAIDYANĀTHA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv13p0i0055</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records an undertaking backed with a security in land, given by two servants of the temple to make an offering of flaked rice to god Gaṇapati in the temple at Punalvāyil on the day of Ārudrā in Mārgaḻi month, with the money endowed for the purpose and left in their charge by a certain <hi rend="bold">Śēndaṉ Vēḷāḷa-Piḷḷaiyār</hi> of Kumbaḷḷumbūr in Ōymā-nāḍu, a subdivision of Toṇḍai-nāḍu.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kovirā<hi rend="grantha">ja</hi>ke<hi rend="grantha">ca</hi>ripa<hi rend="grantha">nma</hi><supplied reason="omitted">ṟ</supplied>kku yāṇṭu 3<g type="dash"/>Āvatu pu
+<lb n="2" break="no"/>ṉalvāyil <hi rend="grantha">śrī</hi>koyil <hi rend="grantha">ga</hi>ṇa<hi rend="grantha">pa</hi>ti<hi rend="grantha"> bhaṭṭāra</hi>rkku <hi rend="grantha">candrādi</hi>tta
+<lb n="3" break="no"/>val toṇṭaināṭṭu Oymā(ṉ)ṉāṭṭu kumpaḷḷumpūr ce
+<lb n="4" break="no"/><unclear>n</unclear>taṉ veḷāṉ piḷḷaiyār <hi rend="grantha">ga</hi>ṇapatiyārkku mārkaḻit ti
+<lb n="5" break="no"/>ruvātirai nāḷ Aval Amutu ceyya tūṇi nānāḻi Aval 
+<lb n="6"/>Aṭṭuvatāka koṇṭa poṉ Eḻu mañcāṭiyum kuṉṟi Ivvūr kāma
+<lb n="7"/>kkāṇi Aiyāṟaṉ <hi rend="grantha">de</hi>va<hi rend="grantha">svā</hi>miy<unclear>yu</unclear>m Aiyāṟaṉ mā
+<lb n="8" break="no"/><hi rend="grantha"> <gap reason="lost" quantity="3" unit="character"/> de</hi>vaṉum Iviruvom Iv<supplied reason="omitted">va</supplied>va(l)lukku nāṅkaḷ
+<lb n="9"/>Oṟṟivaytta <unclear>nilamāvatu melūr Eṅkaḷ</unclear> <gap reason="lost" quantity="4" unit="character"/> <note n="26-1">The inscription stops here incomplete.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 13.55 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1952_01"/>
+			<citedRange unit="page">25-26</citedRange>
+			<citedRange unit="item">55</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

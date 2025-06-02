@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 13.201: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 201. (A.R. No. 382 of 1924.) MĒLAPPAḺUVŪR, UDAIYARPALAIYAM TALUK, TRICHINOPOLY DISTRICT. ON THE SOUTH WALL OF THE CHŌḶĒŚVARA SHRINE, AGASTYĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv13p0i0201</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records an agreement given by seven temple servants (<hi rend="italic">taḷippaṭṭuḍaiyār</hi>) to burn a perpetual lamp in the shrine on the north side of the temple of Mahādēva of Avanigandharvva-Īśvara-gṛiham, a <hi rend="italic">dēvadāna</hi> in Kuṉṟak-kūṟṟam with the interest on ten <hi rend="italic">kaḻañju</hi> of gold now received by them from the two (classes of) <hi rend="italic">nagarattār</hi> with whom the amount had been originally deposited by the donor, <hi rend="bold">Vīraśōḻa Aṇukkaṉ Śiṟiyappi Maḻapāḍi</hi> of Avanigandarvvapuram in the 1[6]th year of Parakēsarivarman Uttama-Chōḷa in the regime of <hi rend="bold">Aḍigaḷ Paḻuvēṭṭaraiyar Kaṇḍaṉ Maṟavaṉār.</hi> At the time of the transfer of this amount the administration of the temple is said to have been vested with one Kauśikaṉ Nakkaṉ Māṟapirāṉ. The inscription may be assigned to <hi rend="bold">Rājarāja I.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> koirācakecaripaṉmaṟku yāṇṭu 9- Ā
+<lb n="2" break="no"/>vatu kuṉṟakkūṟṟattu <hi rend="grantha">de</hi>vatāṉam Avaṉika<hi rend="grantha">ndharvva</hi>
+<lb n="3" break="no"/><hi rend="grantha">īśva<supplied reason="omitted">ra</supplied> gṛ<supplied reason="omitted">ha</supplied></hi>ttu <hi rend="grantha">mahāde</hi>var vaṭavāy <hi rend="grantha">śrī</hi>koyilukku A
+<lb n="4" break="no"/>vaṉi<hi rend="grantha">kandharvva</hi>purattu viracoḻaaṇukkaṉ ciṟiyappi maḻapā
+<lb n="5" break="no"/>ṭi ca<hi rend="grantha">ntrā</hi>tittavallum vaitta no<supplied reason="omitted">n</supplied>tāviḷakku Oṉṟinik
+<lb n="6" break="no"/>ku paṭiyuḻakkiṉāl nicatamuḻakku ne<supplied reason="omitted">y</supplied>yeriya vaitta poṉ
+<lb n="7"/><num value="10"><g type="numeral">10</g></num> patiṉkaḻañcum <hi rend="grantha">śrī</hi>kopparakecaripaṉmarkku yāṇṭu Uttamacoḻa<supplied reason="omitted">r</supplied>kku <hi rend="grantha">1<unclear>6</unclear></hi><g type="dash"/>Āvatu A
+<lb n="8" break="no"/>ṭikaḷ paḻu
+<lb n="9" break="no"/>veṭṭaraiyar kaṇṭaṉ maṟavaṉār Aru<supplied reason="omitted">ḷi</supplied>ceyya <hi rend="grantha">śrīkāryya</hi>m Ārāyāniṟkka Iraṇṭu nakarattārum ciṟi
+<lb n="10" break="no"/>yappi maḻa
+<lb n="11" break="no"/>vāṭi vaitta poṉ patiṉkaḻañcum koṇṭu Iraṇṭu nakarattārum palicai Iṭṭu vārāniṟkiṉṟa poṉ patiṉkaḻa
+<lb n="12" break="no"/>ñcum <hi rend="grantha">śrīkāryya</hi>m Ārāyāniṉṟa kau<hi rend="grantha">śi</hi>kan nakkan māṟapirāṉ Ārācciyil Ippoṉ patiṉ kaḻañcum vāṅkikoṇṭu
+<lb n="13"/>ca<hi rend="grantha">ntrādi</hi>ttaval Iravum pakalum Oru nontāviḷa
+<lb n="14" break="no"/>kku Erippomānom Ittaḷip pa
+<lb n="15" break="no"/>ṭṭuṭaiyom Eḻuvom Itu <hi rend="grantha">panmāheśvara rakṣai <g type="ddanda">.</g><g type="pc"/></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 13.201 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1952_01"/>
+			<citedRange unit="page">109</citedRange>
+			<citedRange unit="item">201</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
