@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.325: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 325. (A.R. No. 125 of 1929.) LĀLGUḌI, LALGUDI TALUK, TRICHINOPOLY DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE, SAPTAṚISHĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0325</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This records an endowment of land left in charge of the <hi rend="italic">sabhā</hi> of the village <hi rend="bold">Nityavinītamaṅgalam</hi>, after making it free of all taxes by payment of a lump-sum to it, by a certain <hi rend="bold">Brahmādhirāja</hi> for burning a perpetual lamp in the temple of Īśvara-Bhaṭṭāraka at Tiruttavattuṟai in Iḍaiyāṟu-nāḍu. The early characters of the inscription and the high regnal year of the king make the record assignable to <hi rend="bold">Āditya I.</hi></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-31" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha"><unclear>svasti</unclear> śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">korājakesaripanma</hi><supplied reason="omitted">r</supplied>kku yāṇṭu <num value="27">2 <g type="numeral">10</g> 7</num><g type="dash"/>Āvatu Iṭaiyāṟṟu
+                    <lb n="2" break="no"/>nāṭṭut tiruttavattuṟai <hi rend="grantha">Īśvarabha</hi>ṭṭārakaṟkku <hi rend="grantha">brahmādhi</hi>rā<hi rend="grantha">ja</hi>ṉeṉ cantirātitta
+                    <lb n="3" break="no"/>val Iravum pakalum Oru nontāviḷakkeriya vaittaparicāvatu Iñnāṭṭup
+                    <lb n="4"/>piramateya ni<hi rend="grantha">tya</hi><unclear>vini</unclear>tamaṅkalattu nirnilat teṉṉuṭaiya kāṟceykkuk kiḻpāṟ
+                    <lb n="5" break="no"/>kellai Āṉaico<unclear>ḻa</unclear>ṉilattukku meṟkum Uṭciṟuvāykkālukku vaṭakkum
+                    <lb n="6"/><unclear>vaiy</unclear>kuntattupperumāṉaṭikaḷ tevatāṉanilattukkuk kiḻakkum vāykkālu
+                    <lb n="7" break="no"/>kkut teṟku mivvicaitta perunāṉkellaiyuḷakappaṭṭa nilam Uṇṇilamoḻi
+                    <lb n="8" break="no"/>viṉṟi Ikkāṟceyyu meppeṟpaṭṭa Iṟaiyu meccoṟuñ cennirve
+                    <lb n="9" break="no"/><unclear>ṭṭi U</unclear>ṭpaṭṭa veṭṭi yeppeṟpaṭṭatum <hi rend="grantha">sabh</hi>aiyāre poṉ koṇṭu tirttamai
+                    <lb n="10" break="no"/>kku cantirātittaval Oru nontāviḷakkut tiruttavattuṟai Ī<hi rend="grantha">śvarabha</hi>ṭṭārakarkku
+                    <lb n="11"/><unclear>celva</unclear>tāka Innilan tevatāṉañ ceytukuṭutteṉ <hi rend="grantha">brahmādhirāja</hi>ṉeṉ I
+                    <lb n="12" break="no"/>tu paṉmā<hi rend="grantha">heśvara rakṣai</hi> <supplied reason="undefined"><g type="danda">.</g></supplied> Innilañ cuṭṭi yeppeṟpaṭṭa <unclear>I</unclear>ṟaiye kāṭṭilun
+                    <lb n="13"/><unclear>taṉi</unclear>ttākavum <hi rend="grantha">sabh</hi>aiyākavuṅ kāṭṭiṉārai paṉmā<hi rend="grantha">heśva</hi>rare vevveṟṟuvakai nū
+                    <lb n="14" break="no"/>ṟ<unclear>ṟeṭ</unclear>ṭuk kāṇan taṇṭamiṭṭup piṉṉaiyum nontāviḷakku muṭṭā<unclear>mai</unclear> Innilattu po
+                    <lb n="15" break="no"/>kame koṇṭerippippatāka Oṭṭikkuṭuttom ni<hi rend="grantha">tya</hi>viṉitamaṅkalattu <hi rend="grantha">sabhai</hi>yom
+                    <lb n="16" break="no"/>mai <hi rend="grantha">dhanmāsa</hi>namuḷḷiṭṭa tāṉ veṇṭu koviṉukku <hi rend="grantha">daṇḍa</hi>miṭa Oṭṭiṉom <hi rend="grantha">sabhai</hi>yom <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.325 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">173</citedRange>
+                        <citedRange unit="item">325</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
