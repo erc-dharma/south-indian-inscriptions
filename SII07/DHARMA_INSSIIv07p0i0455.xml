@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 7.455: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 455. (A.R. No. 241 of 1901). IN THE SAME PLACE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv07p0i0455</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+							
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-06-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> <hi rend="grantha">tribhu</hi><supplied reason="omitted">va</supplied>nacca<hi rend="grantha">kravva</hi>ttikaḷ <hi rend="grantha">śrīrājarājade</hi>vaṟku yāṇṭu 3<g type="dash"/>Āvatu <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻamaṇṭalattuk kaḷat
+					
+					<lb n="2" break="no"/>tūrkkoṭṭattut taniyūr <hi rend="grantha">śrī</hi>maturāntakaccatuppetimaṅkalattu Āḷuṭaiyār Āṭcikoṇṭaruḷiya<hi rend="grantha">de</hi>var koyiṟ civa<surplus>p</surplus><hi rend="grantha">brā</hi>mmaṇa
+					
+					<lb n="3" break="no"/>ron tirununtāviḷak kupaiyaṅ kaikkoṇṭaparicāvatu Immaṇṭalattu Āmurkkoṭṭattu montūrnāṭṭu veṇkalappā
+					
+					<lb n="4" break="no"/>kkattup pālamuḻān veḷān Ammaiyappan ti<unclear>ru</unclear>vacciṟupākkamuṭaiyāṟku vaitta tirununtāviḷak koṉṟukku viṭṭa Erumai
+					
+					<lb n="5"/><unclear>pa</unclear>ttu Ippattuṅ kaikkoṇ ṭittirununtāviḷakku Oṉṟuñ ca<hi rend="grantha">ntrā</hi>tittavaṟ celuttakkaṭa
+					
+					<lb n="6" break="no"/>vomāka <hi rend="grantha">sa</hi>mmatitto mikkoyilc civa<surplus>p</surplus><hi rend="grantha">brā</hi>maṇarom Itu panmā<hi rend="grantha">heśvara rakṣai</hi>
+					
+					<lb n="7"/>Ivviḷak keriya Iṭṭa kuttuviḷak koṉṟu <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+				</p>
+				
+			</div>
+			
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 7.455 by <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1932_01"/>
+						<citedRange unit="page">284</citedRange>
+						<citedRange unit="item">455</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>

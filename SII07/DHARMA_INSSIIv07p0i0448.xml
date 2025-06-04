@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 7.448: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 448. (A.R. No. 234 of 1901). ON THE EAST WALL OF THE MANDAPA IN FRONT OF THE SAME TEMPLE, RIGHT OF ENTRANCE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv07p0i0448</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+							
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-06-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> tiripuvaṉaccakkiravarttikaḷ <hi rend="grantha">śrī</hi>kulottuṅkacoḻatevaṟku yāṇṭu
+					<lb n="2"/><gap reason="lost" quantity="2" unit="character"/> vatu <hi rend="grantha"><unclear>ja</unclear></hi>yaṅkoṇṭacoḻamaṇṭalattuk kaḷattūrkkoṭṭattut taniyūr <hi rend="grantha">śrī</hi>ma
+					<lb n="3" break="no"/><unclear>turā</unclear>n=takaccatu<hi rend="grantha">rve</hi>timaṅkalattut tiruvacciṟupākkattu Uṭaiyā rāṭcikoṇṭanāyaṉāṟku Ammaiya
+					<lb n="4" break="no"/>ppan <unclear>cam</unclear>puvar<unclear>ā</unclear>yanen tirumeṟpūccukkum tirupparicaṭṭattukkum Innāyaṉār tevatāṉan tiruvacciṟupā
+					<lb n="5" break="no"/>kkattil ta<unclear>ṟi</unclear>yiṟai taṭṭārappāṭṭamum Ācuvikaḷ <unclear>potu</unclear>makkaḷperāl van=ta kaṭamaiyum manṟāṭikaḷperāl <surplus>va</surplus>
+					<lb n="6" break="no"/>van=ta kaṭamaiyum cekkukkaṭamaiyum Innāyaṉāṟkuc ciṟukālaiccan=ti tiruma<unclear>n=ti</unclear>rapoṉakattukku Amutuceytaruḷa Ivvūr
+				</p>
+				
+			</div>
+			
+			
+			<div type="commentary">
+				<p corresp="6">The inscription stops here.</p>
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 7.448 by <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1932_01"/>
+						<citedRange unit="page">281</citedRange>
+						<citedRange unit="item">448</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
