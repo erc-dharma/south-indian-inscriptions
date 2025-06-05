@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.51: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 51. (A.R. No. 129 of 1914.) ON THE SAME WALL.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0051</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The inscription registers another sale of land, made tax-free, at Śrīkaṇṭha-chaturvēdimaṅgalam by the assembly (<hi rend="italic">Peruṅguri-sabhai</hi>) of the village to <hi rend="bold">Vēḷāṉ Vīranāraṇaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Śembiyaṉ Vēdivēḷār of Śīṟudavūr who is stated to have constructed the Śrīvimāna</hi> to (god) Tiruveṟumbiyūr-Āḻvār. This person, after paying the cost of the land as well as a lump sum towards its tax-exemption, and also redeeming it from a certain resident of the village named Māppāni Kāri Nakkaṉ in whose charge the land had been left by the assembly (evidently in mortgage), endowed the land for the maintenance of four persons who were to sing the <hi rend="italic">Tiruppadiyam</hi> hymns to the accompaniment of <hi rend="italic">uḍukkai</hi> and <hi rend="italic">tāḷam</hi> daily during the three services in the temple. The donor is also said to have added to this land, another piece which had been the object of a boundary dispute (<hi rend="italic">sīmā-vivādam</hi>) between the residents of Śrīkaṇṭhachaturvēdimaṅgalam and Tiruveṟumbiyūr, and which he had purchased from both the parties (See No. <ref target="DHARMA_INSSIIv13p0i0050">50</ref> above). The inscription refers to a channel dug by the donor. This is evidently the one mentioned in No. <ref target="DHARMA_INSSIIv13p0i0050">50</ref> above.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kovirā<hi rend="grantha">ja</hi>kecaripaṉmarkku yāṇṭu mūṉṟāvatu teṉ
+                    <lb n="2" break="no"/>karai <hi rend="grantha">brahma</hi>teyam <hi rend="grantha">śrī</hi>kaṇṭa<hi rend="grantha">śca</hi>tu<hi rend="grantha">rvve</hi>timaṅkalattup peruṅkuṟi <hi rend="grantha">ssabhai</hi>yom ci<supplied reason="omitted">ri</supplied>
+                    <lb n="3" break="no"/>tiruveṟumpiyūrāḻvāṟkku <hi rend="grantha">śrī</hi>vimāṉameṭuppitta ciṟutavūruṭaiyāṉ veḷāṉ viranāra
+                    <lb n="4" break="no"/>ṇaṉāṉa cempiyaṉ veytiveḷār tiruveṟumpiyūrāḻvāṟkut tiruppatiyam
+                    <lb n="5"/>pāṭuvāṟku nivan=ta<hi rend="grantha">mā</hi>ka Ivaṟku viṟṟukkuṭutta nilamāvatu Eṅkaḷūriṉ ṟeṉpāṭe 
+                    <lb n="6"/>yeṅkaḷ potunilattukku kiḻpāṟkellai tiruveṟumpiyūrāḷvār nilam
+                    <lb n="7"/>nākarkālukku meṟkum teṉpāṟkellai nā<supplied reason="omitted">kar</supplied>kālukku vaṭakku mipāṟkellai Iccem
+                    <lb n="8" break="no"/>piyaṉ veytiveḷār <hi rend="grantha">śrī</hi>mukaṅ kuṇantu kalli viṭṭa kiḷiyūr vāykkālukku kiḻakkum vaṭa
+                    <lb n="9" break="no"/>pāṟkellai Ivvūr valavūr māppāni kāri nakka ṉilattukkum Ittiruveṟumpiyūrāḷvār nila
+                    <lb n="10" break="no"/>ttukkut te<supplied reason="omitted">ṟ</supplied>kkum Ivvicaitta perunāṉkellaiyu ḷakappaṭṭa ṉilam Attuṇaiyilum
+                    <lb n="11"/>Ittiruveṟumpiyūrāḷvāṟkku Ivvūrt tirukkūr ma<unclear>ṟ</unclear>ṟakkā viṭṭa ṉāraṇaṉ puru<hi rend="grantha">ṣo</hi>
+                    <lb n="12" break="no"/>ttama<supplied reason="omitted">ṉ</supplied> niroṭaṭṭikkuṭutta nilamum muṉ Ittiruveṟumpiyūrāḷvār nilamāṉa nilamu
+                    <lb n="13" break="no"/>m niykki niṉṟa nilam <hi rend="grantha">sabhai</hi>yom <hi rend="grantha">sabhai</hi>ppotuvāy kiṭanta nilam Attuṇaiyu
+                    <lb n="14" break="no"/><unclear>mu</unclear>ṇṇila moḻiviṉṟi cempiyaṉ vetiveḷāṟku viṟṟukkuṭuttu nāṅkaḷ viṟṟukkuṭu
+                    <lb n="15" break="no"/>tta Iṉnilattukku muṉ tevar kuṭiv<unclear>āra</unclear>m peṟṟa Iṉnilattukkum muṉ Ittevar nilattu<unclear>k</unclear>
+                    <lb n="16" break="no"/><unclear>ku</unclear> <hi rend="grantha">candrā</hi>tittavalam Iṟ<hi rend="grantha">ai</hi>kāvalākavum nāṅkaḷ viṟṟa nilattukku <hi rend="grantha">kre</hi>ya<hi rend="grantha">dravya</hi>mum Āka
+                    <lb n="17"/> <gap reason="lost" quantity="2" unit="character"/> Emmilic<hi rend="grantha">ai</hi>nta viṟaikāvaṟpoṉṉum <hi rend="grantha">kre</hi>ya<hi rend="grantha">dravya</hi>mum vilaiyāvaṇakkaḷiye kaic
+                    <lb n="18" break="no"/><unclear>ce</unclear>la Aṟakkoṇṭu Iṉnilattiṉmel <hi rend="grantha">sabhai</hi>yom vaiyppināl valavūr māppāni kā
+                    <lb n="19" break="no"/>ri nakka nilat <gap reason="lost" quantity="7" unit="character"/> ṉai Iccempiyaṉ vetiveḷāre kuṭuttuc co<unclear>ṉ</unclear>
+                    <lb n="20" break="no"/>ṟu koḷḷakkaṭavarāka Ipparicoṭṭic cantirātittavalam Iṟ<hi rend="grantha">ai</hi>kāvalāka vilaikkaṟa viṟṟu
+                    <lb n="21" break="no"/>p poruḷaṟak koṇṭu viṟṟu vilaiyāvaṇañ ceytu kuṭuttom veḷāṉ viranāraṇaṉā
+                    <lb n="22" break="no"/>ṉa cempiyaṉ veytiveḷāṉukku <hi rend="grantha">śrī</hi>kaṇṭaccatu<hi rend="grantha">rve</hi>timaṅkalattup peruṅkuṟi<hi rend="grantha">sabhai</hi>
+                    <lb n="23" break="no"/>yom peruṅkuṟi <hi rend="grantha">sabhai</hi>yār paṇittaruḷa paṇiyāl Ivvilaiyu miṟ<hi rend="grantha">ai</hi>kāvalu meḻutiṉeṉ
+                    <lb n="24"/>Ivvūr <hi rend="grantha">maddhyasta</hi>ṉ <hi rend="grantha">dharmapri</hi>yaṉāṉa kalivicaiyaṉ taruṇentucekaraṉeṉ Ivai ye
+                    <lb n="25" break="no"/>ṉṉeḻuttu <g type="ddanda">.</g><g type="dashLong">.</g> Iṉṉilamum <hi rend="grantha">śrī</hi>kaṇṭa<hi rend="grantha">cca</hi>tu<hi rend="grantha">rve</hi>timaṅkalattārun tiruveṟumpi
+                    <lb n="26" break="no"/>yūrārun taṅkaḷil <hi rend="grantha">sīmā</hi>vivātamāyk kiṭanta nilam Ivviraṇṭu tiṟattāriṭ<hi rend="grantha">ai</hi>
+                    <lb n="27"/>yum nāṉ vilaikkuk koṇṭa nilamuṅ koṇṭu Ivvāḻvār<hi rend="grantha">ai</hi> nāṉ pāṭit tiruppa
+                    <lb n="28" break="no"/>tiyam muṉṟu <hi rend="grantha">sanni</hi>yu mu<hi rend="grantha">ḍ<supplied reason="omitted">u</supplied></hi>kk<hi rend="grantha">ai</hi>yun tāḷamuṅ koṇṭu nālvar Aṭikaḷmār tiruppa
+                    <lb n="29" break="no"/>tiyam pāṭuvatāka <hi rend="grantha">candrādi</hi>ttaval ce<supplied reason="omitted">y</supplied>tu<unclear>kuṭu</unclear><supplied reason="omitted">t</supplied>teṉ cempiyaṉ vetiveḷāneṉ Itu
+                    <lb n="30"/>paṉ<hi rend="grantha">māheśvara rakṣai</hi> <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.51 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">23-24</citedRange>
+                        <citedRange unit="item">51</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
