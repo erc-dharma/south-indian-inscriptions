@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.61: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 61. (A.R. No. 614 of 1920.) ON THE OUTER BASE OF THE SOUTH WALL OF THE MAṆḌAPA IN FRONT OF THE SAME SHRINE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0061</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This records an endowment of 19 <hi rend="italic">vēli</hi> and odd of land for feeding 56 Brahmans in the temple, by <hi rend="bold">Gaṅgaṉ Ambalavaṉ Gaṇḍarādittaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Mummuḍiśōḻa-Viḻupparaiyaṉ</hi> of Kuvaḷālam in Gaṅga Six Thousand (territory), who belonged to the <hi rend="italic">perundaram</hi> of the king, and by two others for the merit of the former. Of this land 12 <hi rend="italic">vēli</hi> is said to have been purchased from a certain . . . Sarvīśara Triṇētra Daśapuriya-Bhaṭṭaṉ who had himself purchased it from Uttama-Chōḷa. The record seems to belong to <hi rend="bold">Rājarāja I.</hi></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="danda">.</g></supplied> kovi<hi rend="grantha">rāja</hi>ke<hi rend="grantha">sari</hi>va<hi rend="grantha">rmma</hi><unclear>ṟ</unclear>k=ku yāṇṭu 3<g type="dash"/>Āvatu Uṭaiyār perun=tarattu <hi rend="grantha">gaṅ<unclear>ga</unclear>rasā</hi>yirattuk kuvaḷālattu <hi rend="grantha">gaṅga</hi>ṉ Ampalavaṉ kaṇṭar<unclear>ā</unclear>tittanākiya mummuṭicoḻa viḻup paraiyaṉ vaṭakarai <hi rend="grantha">brahmade</hi>yam <hi rend="grantha">śrī</hi>vi<hi rend="grantha">ra</hi>nā<hi rend="grantha">rā</hi>yaṇa<hi rend="grantha">cca</hi>tu<hi rend="grantha">rvve</hi>timaṅkalattu tiruvanan=ti<hi rend="grantha">śvara</hi>ttu <hi rend="grantha">paramasvāmi</hi> tirumuṟṟattiley <hi rend="grantha">cantrā</hi>tittavat <hi rend="grantha">brāhma</hi>ṇa<hi rend="grantha">bhoja</hi>ṉañ ceyvataṟkku vaitta ka
+                    <lb n="2" break="no"/>lam <num value="50">5 <g type="numeral">10</g></num> Aimpatu Iv <gap reason="lost" quantity="2" unit="character"/> ci pār veṭṭu varaiyaṉ tanti vaitta kalam Aintum kaṇṭaṉ <gap reason="lost" quantity="1" unit="character"/> n=terumāṉ vaitta kalam Oṉṟum Āka Ivvaimpattāṟu <hi rend="grantha">brāhma</hi>ṇaṟku <hi rend="grantha">cantrādi</hi>ttavaṟ <hi rend="grantha">brāhma</hi>ṇa<hi rend="grantha"> bhoja</hi>nattuk<surplus>ku</surplus>kāka mummuṭicoḻa viḻupparaiyar<supplied reason="omitted">k</supplied>kup parama<hi rend="grantha">svāmi</hi> tirunāmattāl kācu Eḻunūṟṟaimpa<unclear>tu</unclear><supplied reason="omitted">k</supplied>kuk koṇṭu tanta <hi rend="grantha">bhūmi śrī vira</hi>nā<hi rend="grantha">rā</hi>yaṇa<hi rend="grantha">śca</hi>tu<hi rend="grantha">rvve</hi>timaṅkalattu <hi rend="grantha">śrī paṇḍi</hi>tava<hi rend="grantha">tsala</hi>cceri <unclear>kā</unclear>rāmpicceṭṭu <hi rend="grantha">de</hi>vakkan=tāṭai <hi rend="grantha">śrī</hi>vi<hi rend="grantha">ṣṇu</hi> <gap reason="lost" quantity="2" unit="character"/>
+                    <lb n="3"/>ttu kā<hi rend="grantha">ṭha</hi>ka<hi rend="grantha">dhāji</hi> <gap reason="lost" quantity="5" unit="character"/> <hi rend="grantha">parivrāja</hi>kā <gap reason="lost" quantity="2" unit="character"/> ṉ <hi rend="grantha">śarvviśa</hi>rat<hi rend="grantha">tri</hi>ṇe<hi rend="grantha">tradaśapu</hi>riya<hi rend="grantha">bha</hi>ṭṭaṉ <hi rend="grantha">śrī</hi> Uttama coḻaṟkku <hi rend="grantha">śāsa</hi>nam <gap reason="lost" quantity="2" unit="character"/> ñcolli <hi rend="grantha">śrī</hi> Uttamacoḻarpakkal vilaikoṇṭu peṟṟuṭaiya nilam vaṭakarai <gap reason="lost" quantity="4" unit="character"/> ñcaḷā nāṭṭu neṭuñcerikkaḷ teṟkkaṭaiya <hi rend="grantha">śrī</hi> Uttamacoḻa <gap reason="lost" quantity="2" unit="character"/> <hi rend="grantha">sa</hi>ṉ <gap reason="lost" quantity="2" unit="character"/> <hi rend="grantha">rvve</hi>timaṅkala <gap reason="lost" quantity="2" unit="character"/> ṉumpiyarāl Ivar Ēkapokam peṟṟuṭaiya paṉṉiru veliyum kiḻpā<supplied reason="omitted">ṟ</supplied>kkellai koṭṭur Ellaikku meṟkkum teṉ
+                    <lb n="4" break="no"/>pāṟkkellai māṟapa <gap reason="lost" quantity="2" unit="character"/> teviyār <hi rend="grantha">brahmade</hi>yattu Ellaikku vaṭakkum melpāṟkellai maṇalūr Ellaikkuk kiḻakkum vaṭapāṟkellai neṭuñ <gap reason="lost" quantity="2" unit="character"/> ṟai nilattukkut teṟkkum Ivvicaitta perunāṉ kellaiyuḷḷum Akappaṭṭa nilam paṉṉiruveliyum Iṉṉum vaṭakarai veṇṇaiyūrnāṭṭu <hi rend="grantha">brahmade</hi>yam <gap reason="lost" quantity="6" unit="character"/> veli nilattil <gap reason="lost" quantity="8" unit="character"/> vaṭakaraikku <gap reason="lost" quantity="6" unit="character"/> lattukku kiḻpāṟkkel
+                    <lb n="5" break="no"/>lai Utāramaṅkalattellaikku meṟkum teṉpāṟkellai nelūrar <gap reason="lost" quantity="4" unit="character"/> kku vaṭakkum melpāṟ<supplied reason="omitted">k</supplied>ellai koḷḷiṭattukkuk kiḻakkum vaṭapāṟkellai Arai <gap reason="lost" quantity="2" unit="character"/> mulai Ellaikku <gap reason="lost" quantity="4" unit="character"/> kku <gap reason="lost" quantity="2" unit="character"/> laikku teṟkum Ivvicaitta perunāṉkellaiyuḷḷum Akappaṭṭa nilattil koṇṭu kuṭutta nilam Eḻuveliyey nāṉkumā mukkāṇiyum Āka nilam pattoṉpatiṟṟu veliyey nāṉkumā mukkā <gap reason="lost" quantity="8" unit="character"/> Iṟai pokki mikka pokaṅ
+                    <lb n="6" break="no"/>koṇṭu Ivvaimpattāṟu <hi rend="grantha">brāhma</hi>ṇa<hi rend="grantha">rai</hi> Ūṭṭuvatākavum niccaṟpaṭi kaṟi nālum kalattāl Oru muṭṭai neyyum nāḻi <unclear>m</unclear>orum veṟṟilai Aintum pāk <gap reason="lost" quantity="4" unit="character"/> m Iṭṭu maṭṭiyum ca<hi rend="grantha">ntrā</hi>tittavat mummuṭi coḻaviḻupparaiyaṟkkāka Ūṭṭuvippatāka
+                    <lb n="7"/>Ipparicu Ikkācukku Ippūmi koṇṭu kuṭuttuk kallil veṭṭuvicceṉ <hi rend="grantha">śrī</hi> koyil <gap reason="lost" quantity="2" unit="character"/> ceykiṉṟa I<hi rend="grantha">ṣabha</hi>ṉeṉ Itu <hi rend="grantha">māsabhai</hi>yār <hi rend="grantha">rakṣaiyāka</hi> <g type="ddanda">.</g><g type="pc">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.61 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">27-28</citedRange>
+                        <citedRange unit="item">61</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

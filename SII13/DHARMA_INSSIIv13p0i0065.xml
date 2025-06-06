@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.65: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 65. (A.R. No. 494 of 1922.) TIRUKKAṆṆAPURAM, NANNILAM TALUK, TANJORE DISTRICT. ON A PILLAR OF THE NORTH VERANDAH IN THE FIRST PRĀKĀRA, ŚAURIRĀJA-PERUMĀḶ TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0065</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This registers an endowment of 2 plots of land by a certain <hi rend="bold">Āḻchchāṉṟāṉ Munnūṟṟuvapperumāṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Śōḻavēl Ēṉādi</hi>, a resident of Tirukkaṇṇapuram (also called Śrīkṛishṇapuram), a <hi rend="italic">dēvadāna</hi> and <hi rend="italic">brahmadēya</hi> in Marugar-nāḍu, after purchasing them from a private individual and from the <hi rend="italic">sabhā</hi> of the village.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                <div n="A" type="textpart">
+                    <head>A</head>
+                <p>
+                    <lb n="A1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> ko<hi rend="grantha">rāja</hi>ke<hi rend="grantha">sari</hi> <gap reason="lost" quantity="3" unit="character"/> vakku yāṇṭu 2<g type="dash"/>Āvatiṉ Etirām Āṇṭu marukarnāṭṭu <hi rend="grantha">de</hi>vatāṉa
+                    <lb n="A2" break="no"/><hi rend="grantha">brahmade</hi>yam tirukkaṇṇapurattu <hi rend="grantha">sabhai</hi>yom Ivvū rāḻccāṉṟāṉ munnūṟṟuvap ⌈
+                    <lb n="A3"/>perumāṉākiya coḻave<unclear>l Ē</unclear>ṉātikku <gap reason="lost" quantity="4" unit="character"/> vom Ivaṉemperumāṉukku <hi rend="grantha">cantyādi</hi>ttavat tiruviḷakkuc ce<supplied reason="omitted">y</supplied>
+                    <lb n="A4" break="no"/>ta nilam Ūriṉkiḻur ceyta ta <gap reason="lost" quantity="4" unit="character"/> centaṉ caṭakopaṉ pakkal vilai koṇṭuṭaiya vaṭṭakkā
+                    <lb n="A5" break="no"/>leṉṟu perkūṟappaṭum nilattukkuk kiḻpāl <supplied reason="omitted">El</supplied>lai pārāciriyaṉ centa<unclear>p</unclear>paṟpaṉāpa ṉilattuk
+                    <lb n="A6" break="no"/>ku meṟkun teṉpāṟkellai <unclear>coma</unclear><!--kompu clear-->ttampi caṭakopaṉ centa ṉilattukku vaṭakkum melp<unclear>ā</unclear>
+                    <lb n="A7" break="no"/>ṟkellai Uḷciṟuvāykkālu <gap reason="lost" quantity="4" unit="character"/> pārāci <supplied reason="omitted">ri</supplied><unclear>ya</unclear>ṉ centaṉ mālari ke<hi rend="grantha">śa</hi>vaṉ <hi rend="grantha">stridha</hi>ṉam peṟṟa
+                    <lb n="A8"/>nilattukkuk kiḻakku vaṭapā <gap reason="lost" quantity="4" unit="character"/> llai c<choice><sic>e</sic><corr>o</corr></choice>mattampi caṭakopa<surplus>pa</surplus> <hi rend="grantha">kṛṣṇa</hi>ṉilattukkut
+                    <lb n="A9"/>teṟkku mivvicaitta perunāṉkellaiIṉu makappaṭṭa nilam 3 � � 5 Innila mummā
+                    <lb n="A10" break="no"/>var<hi rend="grantha">ai</hi> AraikkāṇiUm Ivaṉe <gap reason="lost" quantity="4" unit="character"/> vilai koṇṭu kalliṉa kuḷattukkum karaikkuṅ kiḻpāṟ
+                    <lb n="A11" break="no"/>kellai vaikāna<hi rend="grantha">sa</hi>ṉ <unclear>va</unclear><hi rend="grantha">rāha</hi> <gap reason="lost" quantity="4" unit="character"/> ṉilattukkum pārāciriyaṉ centa kaṇṇapurattammā ṉi
+                    <lb n="A12" break="no"/>lattukkum pā<supplied reason="omitted">lā</supplied>ciriyaṉ koṟṟa <gap reason="lost" quantity="4" unit="character"/> ṅkara nārāyaṇa ṉilattukkum comattampi nārāya
+                    <lb n="A13" break="no"/>ṇa ṉirāmaṉ kalatti<unclear>ṉ</unclear> ki <gap reason="lost" quantity="4" unit="character"/> lattuk<unclear>ku</unclear>m pālāciriyaṉ centaṉ kaṇṇapurattam<unclear>mā</unclear>
+                    <lb n="A14" break="no"/>ṉilattukku meṟkum teṉ <gap reason="lost" quantity="4" unit="character"/> kallai comattampi Irāmaṉ tirumā<supplied reason="omitted">l</supplied> Iruñcolai ni
+                    <lb n="A15" break="no"/>lattukku vaṭakku melpāṟke<unclear>l</unclear>lai peruvaḻikkuk kiḻakkum vaṭapāṟkellai pārāciriyaṉ Āya
+                    <lb n="A16" break="no"/>rkoḻuntu <hi rend="grantha">śrī kṛṣṇa</hi><unclear>n</unclear> <hi rend="grantha">stridha</hi> <gap reason="lost" quantity="2" unit="character"/> peṟṟa nilattukkut teṟku mivvicaitta perunāṉkel
+                    <lb n="A17" break="no"/>laiyiṉu makappaṭṭa kuḷamuṅ karaika <gap reason="lost" quantity="4" unit="character"/> ttiruvi<unclear>ḷa</unclear>k <gap reason="lost" quantity="10" unit="character"/> Emmilicainta poruḷ koṇṭu <gap reason="lost" quantity="4" unit="character"/> 
+                </p>
+                </div>
+                <div n="B" type="textpart">
+                    <head>B</head>
+                                
+                <p>
+                    <lb n="B1"/>—Emperumā <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="B2"/>—ruk kuḷattiniṉṟu kiḻakku nokkip pontu vāykkāliṉ ṉir I
+                    <lb n="B3"/>—ṉāti kuḷattukkey pāyap peṟuvatākavum maṟṟepperpaṭṭa
+                    <lb n="B4" break="no"/>—pāccavu miṟakkavum peṟātitākavum Ikkuḷatti liṟaittāraiyum
+                    <lb n="B5"/>—Iṉāreyum Ikkuḷattukkum Ittiruviḷakkāṉa nilattukkum
+                    <lb n="B6"/>—kāṭṭiṉomai vevveṟṟu vakai Aimpatu poṉ maṉṟappe
+                    <lb n="B7"/>—patāka Oṭṭi Iṭṭuk kuṭuttom <hi rend="grantha">śrīkṛṣṇapura</hi>ttu <hi rend="grantha">sabhai</hi>Om
+                    <lb n="B8"/>Itu vai<hi rend="grantha">ṣṇa</hi>var <hi rend="grantha">rakṣai</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                </div>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary">
+                <p>The inscription [[A]] is built in below. Above the inscription are the following eight lines [[B]] which may perhaps form part of this record. </p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.65 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">30-31</citedRange>
+                        <citedRange unit="item">65</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
