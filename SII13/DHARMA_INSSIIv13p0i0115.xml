@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.115: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 115. (A.R. No. 359 of 1917.) TIRUVĀṆḌĀRKŌVIL (NEAR PONDICHERRY, FRENCH INDIA). ON THE NORTH WALL OF THE CENTRAL SHRINE, PAÑCHANADĒŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0115</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This registers a sale of some plots of land to the temple of Tiruvāṟai-Nakkaṉkōyil-Paramasvāmin at Tribhuvanamahādēvi-chaturvēdimaṅgalam, by the <hi rend="italic">peruṅguṟiperumakkaḷ</hi> (assembly) of the village, effected in the <hi rend="bold">28th year of Kannaradēva (Rāshṭrakūṭa Kṛishṇa III)</hi> as compensation for the silver and gold vessels and jewels of the temple which had been utilised by them for <hi rend="italic">sabhā-viniyōga</hi> (expenses ?) in former years. The <hi rend="italic">sabhā</hi> refer in this sale transaction to a land endowed by them to the temple as <hi rend="italic">dēvadāna</hi> <hi rend="bold">in the 14th year of king Parāntaka I.</hi> The Rājakēsarivarman of this inscription should evidently refer to the Chōḷa king who reigned after the 28th year of the Rāshtrakūṭa king, <hi rend="italic">i.e.</hi>, A.D. 967 and, as such he can be identified with <hi rend="bold">Rājarāja I.</hi> (<hi rend="italic">M.E.R.</hi> 1918, II. 23). The name of the village seems to indicate its origin to <hi rend="bold">Tribhuvanamahādēvi, a queen of Parāntaka I.</hi></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> ko Irā<hi rend="grantha">ja</hi>ke<hi rend="grantha">sa</hi>ripa<hi rend="grantha">nma</hi><supplied reason="omitted">ṟ</supplied>kku yāṇṭu 5<g type="dash"/>Āvatu vaṭakarai <hi rend="grantha">brahmade</hi>yam <hi rend="grantha">śrītribhu</hi>vaṉa <hi rend="grantha">mahāde</hi>vi catu<hi rend="grantha">rvvedi</hi>maṅkalattu peruṅkuṟi perumakkaḷom I<unclear>vū</unclear>r tiruvāṟai nakkaṉ koyil para<hi rend="grantha">masvā</hi>mikaḷiṭai Ittevaruṭaiya veḷḷittaḷikaiyum veḷḷimuṇṭamum poṟpūkkaḷum paṭṭaṅkaḷum kūttapperumāḷāṉa
+                    <lb n="2"/>kaṇṭanāṇum paṇṭārattu Irunta poṉṉum muṉ <hi rend="grantha">sabhā</hi>viniyo<hi rend="grantha">ga</hi>ttukku Aḻittukkoṇṭa poṉ <num value="105"><g type="numeral">100</g> 5</num> <g type="kaḻañcu"/> nūṟṟu A<supplied reason="omitted">y</supplied>ṅkaḻañcum <hi rend="grantha">sabhā</hi>viniyo<hi rend="grantha">ga</hi>ttukku Aḻittukkoṇṭa<hi rend="grantha">m</hi>aiyāl A<supplied reason="omitted">y</supplied>ṅkaḻañcuvaṇṇam vilaiyāka <hi rend="grantha">śrī</hi> kaṉṉaratevarkku yāṇṭu <num value="28">2 <g type="numeral">10</g> 8</num><g type="dash"/>Āvatil viṟṟukkuṭutta nilam Āvatu <supplied reason="undefined"><g type="danda">.</g></supplied> Ivvūr <hi rend="grantha"><unclear>śrī</unclear></hi> <unclear>viranārā</unclear>
+                    <lb n="3" break="no"/>yaṇapererikiḻ cūracū<hi rend="grantha">ḷā</hi>maṇivatikku kiḻakku viracoḻavā<supplied reason="omitted">y</supplied>kkālukku te<supplied reason="omitted">ṟ</supplied>kku 2<g type="dash"/>kaṇṇāṟṟu 1<g type="dash"/><unclear>ca</unclear>tirattu nilam vaṭakai <num value="24">2 <g type="numeral">10</g> 4</num> mikai <num value="48">4 <g type="numeral">10</g> 8</num> teṉkai <num value="12"><g type="numeral">10</g> 2</num> kaivantavāṟṟāl nilam <unclear>Orumā muntirikai</unclear>yum <unclear>I</unclear>kaṇṇāṟṟe 2<g type="dash"/>catirattu nilam vaṭakai <num value="12"><g type="numeral">10</g> 2</num> mikai <num value="48">4 <g type="numeral">10</g> 8</num> teṉkai 4 kaivanta vāṟṟāl nilam <seg rend="check"><hi rend="grantha">ndha</hi></seg> Ivvatikku kiḻakku Ivvā<supplied reason="omitted">y</supplied>kkālukku teṟku 3<g type="dash"/>catira
+                    <lb n="4" break="no"/>ttu 1<g type="dash"/>kaṇṇāṟṟu<unclear>m</unclear>āka <unclear>va</unclear>ṭakkuccār nilam ��� <unclear>A</unclear>rai m<unclear>ā</unclear>muntirikaiyum Ivvatikku kiḻakku Ivvā<supplied reason="omitted">y</supplied>kkālukku vaṭakku 1<g type="dash"/>kaṇṇāṟṟu vaṭakiḻai <hi rend="grantha">si</hi>vil teṟkkaṭaiya mikai <num value="18"><g type="numeral">10</g> 8</num> teṉkai <num value="16"><g type="numeral">10</g> 6</num> kiḻkai <num value="300">3 <g type="numeral">100</g></num> kaivan=tavā<supplied reason="omitted">ṟ</supplied>ṟāl nilam ��m Ivvatikku kiḻakku Ivvāykkālukku vaṭakku 2<g type="dash"/>kaṇṇāṟṟu 1<g type="dash"/>catirattu mikai <num value="28"><unclear>2</unclear> <g type="numeral">10</g> 8</num> kiḻkai 3 kaivanta<unclear>vā</unclear>ṟṟā
+                    <lb n="5" break="no"/>l <gap reason="lost" quantity="4" unit="character"/> I<unclear>ṉi</unclear>lam <hi rend="grantha"><num value="12"><g type="numeral">10</g> 2</num> n=ta</hi>ram <space/><!--(Uninscribed space for about 2 feet)--> <hi rend="grantha">svasti śrī</hi> muṉ I<hi rend="grantha">de</hi>va<supplied reason="omitted">r</supplied>kke I<hi rend="grantha">sa<unclear>bh</unclear>ai</hi>yār matirai koṇṭa kopparake<hi rend="grantha">sa</hi>ripa<hi rend="grantha">nma</hi>rkki yāṇṭu <num value="40"><unclear>4 <g type="numeral">10</g></unclear></num><g type="dash"/><unclear>Ā</unclear>vatu muṉṉa muṉṉam <unclear>viranārāya</unclear>ṇa<unclear>p</unclear>pererikiḻ <gap reason="lost" quantity="3" unit="character"/> ṭṭu <unclear>kūṭ</unclear>ṭil vaṉta <hi rend="grantha">de</hi>va<unclear>r</unclear><hi rend="grantha">dā</hi><unclear>nam</unclear> m<unclear>ā</unclear>ka <hi rend="grantha">sabhai</hi>yār pirākkaṭamāka kuṭutta <gap reason="lost" quantity="8" unit="character"/> 
+                    <lb n="6"/><gap reason="lost" quantity="8" unit="character"/> kku kiḻakku <gap reason="lost" quantity="3" unit="character"/> ccikai <gap reason="lost" quantity="4" unit="character"/> vā<supplied reason="omitted">y</supplied>kkālukku vaṭakku ṉiṉṟum <gap reason="lost" quantity="3" unit="character"/> ka<unclear>ṇṇā</unclear>ṟṟu<unclear>k</unclear>ku te<supplied reason="omitted">ṟ</supplied>kkuḷḷiṭa mutal catirattu <gap reason="lost" quantity="10" unit="character"/> kuṭuttom tiripuvanamā<hi rend="grantha">de</hi>vi<hi rend="grantha">cca</hi>tu<hi rend="grantha">rvve</hi>ti maṅkalattu <gap reason="lost" quantity="5" unit="character"/> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary">
+                <p n="5">Uninscribed space for about 2 feet.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.115 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">57</citedRange>
+                        <citedRange unit="item">115</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
