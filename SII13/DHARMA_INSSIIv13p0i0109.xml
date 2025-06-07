@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.109: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 109. (A.R. No. 74 of 1914.) KĀMARASAVALLI, UDAYARPALAYAM TALUK, TRICHINOPOLY DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, KĀRKŌṬAKĒŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0109</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This records a gift of two adjoining plots of land measuring together one <hi rend="italic">mā</hi>, after purchasing them from their owners, by <hi rend="bold">Bālāsiṟiyan Bhaṭṭaṉ Śivaṉ Kūttaṉ</hi> of Ādanūr (the donor mentioned in No. <ref target="DHARMA_INSSIIv13p0i0106">106</ref> above) to provide for the supply of <hi rend="italic">śidāri</hi> and other ingredients for fumigation during the daily services in the temple of Tirunallūr-Mahādēva at Kāmaravalli-chaturvēdimaṅgalam, a <hi rend="italic">dēvadāna</hi> and <hi rend="italic">brahmadēya</hi> in Innambar-nāḍu. The inscription also states that the land was made tax-free in consideration of 12 <hi rend="italic">kāśu</hi> received from the donor by the <hi rend="italic">Peruṅguri-Perumakkaḷ</hi> (Elders of the Assembly) of the village, who met for the purpose before the <hi rend="italic">maṇḍapa</hi> heralded by the blowing of a pair of <hi rend="italic">kāḷam.</hi> Among the boundaries are mentioned the channel Kōdaṇḍarāma-vāykkāl and the road Śōḻamahādēvi-vadi. <hi rend="italic">Kōdaṇḍarāma</hi> was a surname of Āditya I (<hi rend="italic">Travancore Archaeological Series</hi>, Vol. III, part I, p, 109), and also of Rājāditya, the son of Parāntaka (No. 318 of 1904). The inscription seems to be assignable to <hi rend="bold">Sundara-Chōḷa Parāntaka II</hi>, and the date corresponds to <hi rend="bold">A.D. 961, January 4.</hi> The details however, viz, Makara, Friday, Punarvasu, are not capable of verification.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="danda">.</g></supplied> korā<hi rend="grantha">ja</hi>ke<hi rend="grantha">sariparnma</hi>ṟku yāṇṭu 5<g type="dash"/>Āvatu vaṭakarai <hi rend="grantha">brahmade</hi>ya<hi rend="grantha">M śrī</hi>kāmara valli<hi rend="grantha">cca</hi>tu<hi rend="grantha">rvve</hi>timaṅkalattu peruṅkuṟiperumakkaḷom Ivvāṭṭai makaranāyaṟṟu veḷḷi<supplied reason="omitted">k</supplied> kiḻamai peṟṟa puṇarpūcatti nāṉṟu Iraṭṭaik kāḷamūti maṇṭakattiṉ muṉpey Eḻuntaruḷi peruṅkuṟi kūṭi Iruntu Ātaṉūr pālāciriyaṉ <hi rend="grantha">bha</hi>ṭṭaṉ civaṉ kūttaṉ Ivvūri
+                    <lb n="2" break="no"/>l tirunallūr <hi rend="grantha">mahāde</hi>varkku citāri Uttamottamapaṭi Akilum cantaṇamum kaṟpūramum neriyā<hi rend="grantha">sa</hi>mum tenum maṟṟum veṇṭuvaṉa Ellām kuṟaivaṟuttu koṇṭu citāri Eppotum muṭṭāme Iṭuvataṟkku vilai<supplied reason="omitted">k</supplied>ku koṇṭu kuṭutta nilam Ivvūr kotaṇṭarāmavāykk<unclear>ā</unclear>liṉ kiḻ coḻa<hi rend="grantha">mahāde</hi>vivatikku kiḻakku tiru
+                    <lb n="3" break="no"/>vārūri vāykkālukku teṟku mutaṟkaṇṇāṟṟu Añcām caturattu teṉ kiḻakku Iraṇṭu māvil kiḻakkaṭaiya Orumāvil me<supplied reason="omitted">ṟ</supplied>kaṭaiya man<hi rend="grantha">tra</hi>ttu Iru<hi rend="grantha">ṣi</hi>keca va<hi rend="grantha">krama</hi>vittaṉ pakkal vilaikoṇṭu Uṭaiya Araimāvum Ivvaraimāviṉoṭu maṭainta Itiṉmelai Araimā kaṭavūr kamutuvaṉ nārāyaṇaṉ kumāraṉ pakkal vilaikoṇṭuṭaiya Araimāvum
+                    <lb n="4"/>Āka Iviraṇṭu kiṭappiṉālumāka vanta Ivvorumāc ceykkum Emmil licainta kācu Ivaṉpakkal <num value="12"><g type="numeral">10</g> 2</num> paṉṉiraṇṭu kācum Aṟa koṇṭu Innilam Orumāvukkum Epper<supplied reason="omitted">p</supplied>paṭṭa Iṟaiyum <hi rend="grantha">cantrā</hi>tittavaṟ Iṟukka<supplied reason="omitted">k</supplied>kaṭavomāy Innilam IṟaiIliyāvatāka Ipparicu Ikkācu koṇṭu Innilam <hi rend="grantha">śāśva</hi>tiyamāka IṟaiIḻicci
+                    <lb n="5"/><hi rend="grantha">śi</hi>lāle<hi rend="grantha">khai</hi> ceytu kuṭu<supplied reason="omitted">t</supplied>tom peruṅkuṟipperumakkaḷom <supplied reason="undefined"><g type="danda">.</g></supplied> Innilam Ivaṉ <hi rend="grantha">de</hi>varkku kuṭuttapaṭi koIrā<hi rend="grantha">ja</hi>ke<hi rend="grantha">sa</hi>ripaṉmarkku yāṇṭu 5<g type="dash"/>Āvatu Iṉṉamparnāṭṭu tevatāṉa <hi rend="grantha">brahmade</hi>yam Ātaṉūr pālāciriyaṉ <hi rend="grantha">bha</hi>ṭṭaṉ civaṉ kūttaṉeṉ Ikkarai <hi rend="grantha">brahmade</hi>yam <hi rend="grantha">śrī</hi>kāmaravallic catu<hi rend="grantha">rvve</hi>timaṅkalattu tirunallūr <hi rend="grantha">śrī</hi>koyil <hi rend="grantha">mahāde</hi>varkku can<hi rend="grantha">trā</hi>tittavaṟ citāri
+                    <lb n="6"/>tiruppukaikkuĀka vilai koṇṭu IṟaiIḻicci kuṭutta nilam kotaṇ<supplied reason="omitted">ṭa</supplied>rāmavāykkā<supplied reason="omitted">li</supplied>ṉ kiḻ coḻamā<hi rend="grantha">de</hi>vivatikkuk kiḻakku tiruvārūri vāykkālukku teṟkku mutal kaṇṇāṟṟu Añcām caturattu teṉkiḻakku Iraṇṭu māvil kiḻakkaṭaiya Oru māvil me<supplied reason="omitted">ṟ</supplied>kkaṭaiya man<hi rend="grantha">tra</hi>ttu Iru<hi rend="grantha">ṣi</hi>kecava<hi rend="grantha">kra</hi>mavittaṉpakkal vilaikku koṇṭuṭaiya Arai māvum Itiṉmelai Araimā kaṭavūr ka<unclear>mu</unclear>tuvaṉ nā <gap reason="lost" quantity="6" unit="character"/> 
+                    <lb n="7"/>māvumāka Ivvorumā ceyyum Ittirunallūr <hi rend="grantha">śrī</hi>koyil <hi rend="grantha">mahāde</hi>varkku <hi rend="grantha">cantrā</hi>tittavaṟ <hi rend="grantha">sandhi</hi>kaṭorum muṭṭāme citārit tiruppukai Iṭuvataṟkāka Iṟaiyumiḻicci Ivvorumā ceyyum kuṭu<supplied reason="omitted">t</supplied>teṉ Ātanūr pālāciriyaṉ <hi rend="grantha">bha</hi>ṭṭaṉ civaṉ kūttaṉ paṇiyāl <hi rend="grantha">madhyasta</hi>ṉ Araṅkaṉ tirumā<supplied reason="omitted">li</supplied>ru<supplied reason="omitted">ñ</supplied>co<surplus>l</surplus>laiyā<surplus>ṉ</surplus>ṉa Eḻunūṟṟu Aimpattu Aṟu<surplus>ra</surplus>va<surplus>ṉ</surplus>ṉeṉ Ivai Eṉ Eḻuttu Itu pa<hi rend="grantha">nmāheśva<unclear>ra rakṣai</unclear></hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.109 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">53</citedRange>
+                        <citedRange unit="item">109</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

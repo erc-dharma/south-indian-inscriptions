@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.103: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 103. (A.R. No. 123 of 1931.) TIRUCHCHATTURAI, TANJORE TALUK, TANJORE DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE, ŌDANAVANĒŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0103</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is damaged and the portion from the 5th line onwards is engraved in smaller characters. It seems to record an endowment in land for feeding two Brahmans, a Brahmaṅ woman and some <hi rend="italic">yōgis</hi> in the temple every day, made by two ladies <hi rend="bold">Nakkaṉ Kavaḍiyakkaṉ</hi> and her sister <hi rend="bold">Nakkaṉ Vichchiyakkaṉ, both daughters of a certain Dēvaṉār</hi> of the village. As both these persons also figure in No. 122 of 1931 of the 23rd year of Parāntaka I, the present record is attributed to Sundara-Chōḷa in the <hi rend="italic">M.E.R.</hi> for 1931, II. 4. But it may with greater possibility, be assigned to Parāntaka's son and nearer successor <hi rend="bold">Gaṇḍarāditya.</hi></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kovirācakecaripa<hi rend="grantha">nma</hi>ṟkku
+                    <lb n="2"/>yāṇṭu 4<g type="dash"/>Āvatu Ivvūr tevaṉā
+                    <lb n="3" break="no"/>r makaḷ nakkaṉ kavaṭiyakkaṉnum I<unclear>va</unclear>
+                    <lb n="4" break="no"/>ḷ taṅkai nakkaṉ vicciyakkaṉ<unclear>nu</unclear>m I
+                    <lb n="5" break="no"/>vviruvarum kavaṭimayakkalum viccimayakkalum Ivar
+                    <lb n="6" break="no"/>kaḷ <unclear>Aṭṭuvicca</unclear> <gap reason="lost" quantity="3" unit="character"/> mayā paṭārikku <unclear>cantirāti</unclear>taval kavaṭi mayakka
+                    <lb n="7"/><gap reason="lost" quantity="8" unit="character"/> paṭārikku <gap reason="lost" quantity="10" unit="character"/> Arici Oru tiru
+                    <lb n="8" break="no"/><gap reason="lost" quantity="8" unit="character"/> mayakkal <gap reason="lost" quantity="8" unit="character"/> Iruvar <hi rend="grantha">brahma</hi>ṇar Uṭai
+                    <lb n="9" break="no"/><gap reason="lost" quantity="8" unit="character"/> <hi rend="grantha">jo</hi>kiyāroṭu Ivare Oru<unclear>varu</unclear> <hi rend="grantha">brāhma</hi>ṇi<hi rend="grantha"/>
+                    <lb n="10" break="no"/><gap reason="lost" quantity="8" unit="character"/> val nicatim munāḻi Arici <gap reason="lost" quantity="2" unit="character"/> <unclear>Ain=tu</unclear> nāḻiya
+                    <lb n="11" break="no"/><gap reason="lost" quantity="8" unit="character"/> l Ivāṇṭu ce <gap reason="lost" quantity="6" unit="character"/> tu <unclear>ko</unclear>ṇṭu ka
+                    <lb n="12" break="no"/><gap reason="lost" quantity="8" unit="character"/> <unclear>t</unclear>ānamākak kāṇi ce<supplied reason="omitted">y</supplied>tu kuṭuttom nakkaṉ
+                    <lb n="13"/><gap reason="lost" quantity="8" unit="character"/> kum <unclear>ka</unclear>mmimarkkum <unclear>nakkaṉ</unclear> kavaṭiyakkanum na
+                    <lb n="14" break="no"/><gap reason="lost" quantity="8" unit="character"/> tum Iviruvom Ippaṭi Icaittom Ivūr
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.103 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">50</citedRange>
+                        <citedRange unit="item">103</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
