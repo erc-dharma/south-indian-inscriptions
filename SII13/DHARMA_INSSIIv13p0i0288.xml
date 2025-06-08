@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.288: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 288. (A.R. No. 314 of 1904.) KUḌUMIYĀMALAI, PUDUKKOTTAI STATE. ON THE EAST FACE OF THE NORTH PILLAR OF THE ROCK-CUT SHRINE, MĒLAIKKŌYIL TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0288</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The inscription registers a gift of 7(1/2) <hi rend="italic">kaḻañju</hi> of gold for a perpetual lamp in the temple of Tirumūlattānattu-Perumānaḍigaḷ at Tirunīlakkuṉṟam by <hi rend="bold">Naṅgaiyār-Naṅgai Dayānidiyār, the wife of (the chief) Perumbiḍugu-Muttaraiyar</hi> on behalf (in memory ?) of <hi rend="bold">Naṅgai Vikkiramakēsariyār, the daughter of Muttaraiyar Nambi Mānatoṅgalār.</hi> This is also evidently a record of <hi rend="bold">Āditya I</hi> like No. 287 above.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> koIrācakecariparuma<supplied reason="omitted">r</supplied>kku
+                    <lb n="2"/>yāṇṭu Irupatāvatu Ivvāṇṭu
+                    <lb n="3"/>tirunilakkuṉṟattu tirumulaṭṭāṉattu
+                    <lb n="4" break="no"/>p perumāṉaṭikaḷukku muttaAraiyar na
+                    <lb n="5" break="no"/>mpi māṉatoṅkalār makaḷār naṅkai vi
+                    <lb n="6" break="no"/>kkir<choice><sic>ā</sic><corr>a</corr></choice>makecariyāraic cā<supplied reason="omitted">rt</supplied>ti perumpiṭuku mu
+                    <lb n="7" break="no"/>ttaraiyar ma<unclear>ṇa</unclear>v<choice><sic>a</sic><corr>ā</corr></choice>ṭṭi naṅkaiyārnaṅ
+                    <lb n="8" break="no"/>kai tayānitiyār nontāviḷakkiṉukku v<choice><sic>a</sic><corr>ai</corr></choice>tta poṉ
+                    <lb n="9"/>Eḻukaḻañcarai paṉmā<hi rend="grantha">heśvara</hi>r I<hi rend="grantha">rakṣai</hi> <g type="ddanda">.</g><g type="dashLong">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.288 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">154</citedRange>
+                        <citedRange unit="item">288</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
