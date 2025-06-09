@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.124: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 124. (A.R. No. 175 of 1929.) GŌVINDAPUTTŪR, UDAIYARPALAIYAM TALUK, TRICHINOPOLY DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, GAṄGĀJAṬĀDHARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0124</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is left unfinished towards the end. It records the endowment of lands got tax-free after purchase in the village Periyavāṉavaṉmādēvichaturvēdimaṅgalam, a <hi rend="italic">brahmadēya</hi> on the northern bank (of the river), by <hi rend="bold">Ambalavaṉ Paḻuvūr Nakkaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Rājarāja-Pallavaraiyaṉ</hi>, to provide for the several requirements in connection with the daily worship and offerings to the deity and on special days of the year, in the temple of Śrī Vijayamaṅgalat[tu*]-Dēvar. The value in paddy of each item of expenditure is given for estimating the total annual requirement of the temple to be met from the produce of the lands. The donor figures largely in the records of Uttama-Chōḷa as an officer of the king with the title <hi rend="bold">Vikramasōḻa;</hi> and he is surmised to have been held in high esteem under Rājarāja I also as evidenced by his new title <hi rend="bold">Rājarāja-Pallavaraiyaṉ</hi> (<hi rend="italic">M.E.R.</hi> 1929, II. 29).</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> korācakecaripaṉmaṟkku yāṇṭu Añcāvatu vaṭakarai <hi rend="grantha">bra<unclear>hma</unclear></hi>teyam
+                    <lb n="2"/>periya<hi rend="grantha">śrī</hi>vāṉavaṉ <hi rend="grantha">mahāde</hi>vi<hi rend="grantha">ca</hi>tu<hi rend="grantha">rvve</hi>timaṅkalattu <hi rend="grantha">śrī</hi> vi<hi rend="grantha">ja</hi>yamaṅ
+                    <lb n="3" break="no"/>kalat tevarkku Ampalavaṉ paḻuvūr nakka<surplus>ṉ</surplus>ṉāṉa Irācairācappallavarai
+                    <lb n="4" break="no"/>yaṉ Ivvāṉavaṉmātevi<hi rend="grantha">ca</hi>tu<hi rend="grantha">rvve</hi>timaṅkalat<supplied reason="omitted">tu</supplied> Ittevarperāl vilaiko
+                    <lb n="5" break="no"/>ṇṭu Iṟaiyiḻicciṉa nilaṅka<surplus>ḷ</surplus>ḷā<supplied reason="omitted">l</supplied> vanta nellukkum Ivvūr <hi rend="grantha">sabhai</hi>yā<hi rend="grantha"/>
+                    <lb n="6" break="no"/>rpakkal vilaikoṇṭu Iṟaiyiḻicciṉa vaṭapiṭākai neṭuvā
+                    <lb n="7" break="no"/>yilum Inneṭuvāyil cuṟṟiṉa piṭākaikaḷum Itevaṟkku
+                    <lb n="8"/>Iṟukkakaṭava nellukkum poṉṉukkum neyyiṇṇaikku
+                    <lb n="9" break="no"/>m taṟippuṭavaikkum Irumpukkum ni<hi rend="grantha">bandha</hi>m ceytapaṭi <supplied reason="undefined"><g type="danda">.</g></supplied> tiruva
+                    <lb n="10" break="no"/>mutu potu nāṉāḻiyāka A<hi rend="grantha">rddha</hi>yāma<supplied reason="omitted">m</supplied> Uḷpaṭa nicatam Arici patakkā
+                    <lb n="11" break="no"/>ka Ain=tiraṇṭuvaṇṇattāl van=ta nellu nicatam nellu Aiykuṟuṇiyāka Orāṭṭai nā
+                    <lb n="12" break="no"/><surplus>ḷ</surplus>ḷaikku vanta nellu nūṟṟuaiypatiṉkalamu<supplied reason="omitted">m</supplied> paruppamutu poturiyāka A<hi rend="grantha">rddha</hi>yāma<supplied reason="omitted">m</supplied>
+                    <lb n="13"/>Uḷppaṭa nālu potaikku nicatam Iru nāḻi paruppukku nellu Orāṭṭai ṉāḷaikku ne
+                    <lb n="14" break="no"/>llu Irupattirukalaṉe tūṇippatakkum porikkaṟiyamutu Oṉṟu puḻukkukaṟiyamutu
+                    <lb n="15"/>Oṉṟum Āka kaṟiyamutu Iraṇṭukku miḷakum kaṭuku cirakam<surplus>mu</surplus> Uḷppaṭa nālu potaik<supplied reason="omitted">kum</supplied>
+                    <lb n="16"/>Orāṭṭai nāḷaikku nellu Irupattirukalaṉe tūṇippatakkum ne<supplied reason="omitted">y</supplied>yamutu
+                    <lb n="17"/>nālu potukku nicatam Urikku ne<supplied reason="omitted">llu</supplied>p patakkāka Orāṭṭai nāḷaikku nellu Aṟupatiṉ kala
+                    <lb n="18" break="no"/>mu<supplied reason="omitted">m</supplied> tayiramutu po<supplied reason="omitted">tu</supplied> Uriyāka A<hi rend="grantha">rddha</hi>yāma<supplied reason="omitted">m</supplied> Uḷppaṭa nā<surplus>l</surplus>lu potaikku Irunāḻikku nicatam Aiñ<unclear>ñāḻi</unclear>
+                    <lb n="19" break="no"/>yāka Orāṭṭai ṉā<surplus>ḷ</surplus>ḷaikku nellu patiṉeṇkalaṉne Irutūṇik kuṟuṇiyum Aṭaikkāyamutu
+                    <lb n="20"/>potu Aiñcu veṟuṅkāy Irupatum veṟṟilaip paṟṟu Oṉṟum nicatam A<hi rend="grantha">rddha</hi>yāma<supplied reason="omitted">m</supplied> U<supplied reason="omitted">ḷ</supplied>ppaṭa nālu potai<unclear>k=ku</unclear> 
+                    <lb n="21" break="no"/>m Aṭaikkāyamutukku nicatam nellu Aiṉāḻiyāka Orāṭṭai nāḷaikku nellu patiṉ Eṇ kalane
+                    <lb n="22"/>Irutūṇik kuṟuṇiyum tirumeypūccu potu Uḻakku canta<supplied reason="omitted">ṇat</supplied>tukku nicatam OrupalaArai yālu<supplied reason="omitted">m</supplied> nica
+                    <lb n="23" break="no"/>tam<surplus>mu</surplus> muḻākku tirucca<supplied reason="omitted">n</supplied>taṇakkuḻampukku Orāṭṭai ṉā<surplus>ḷ</surplus>ḷaikku ṉellu nālppa<supplied reason="omitted">t</supplied>taiṅ kala<surplus>m</surplus>mu<supplied reason="omitted">m</supplied> ci
+                    <lb n="24" break="no"/>tāri Akilum cantaṇa<surplus>m</surplus>mu<supplied reason="omitted">m</supplied> neriyāca<surplus>m</surplus>mu<supplied reason="omitted">m</supplied> kaṟpūrammun Itanum koṇṭu muṉṟu potaikku nellu nicatam
+                    <lb n="25"/>kuṟuṇi Irunāḻiyāka Orāṭṭai nāḷḷaikku nellu muppattu mukkalaṉey Irutūṇik kuṟuṇiyum ci
+                    <lb n="26" break="no"/>kāṭṭi Āvāṟku Āṭiyaru<surplus>ḷ</surplus>ḷap pālu Iruṉāḻikku nicatam ne<supplied reason="omitted">l</supplied>lu Aṟu
+                    <lb n="27" break="no"/>ṉāḻiyāka Orāṭṭai ṉā<surplus>ḷ</surplus>ḷaikku nellu Irupattirukala<surplus>ṉ</surplus>ne tūṇippata <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="28"/>Āvāṟkkup pari<unclear>ca</unclear>ṭṭam Uttaramayaṉattu Oraṇaiyum <hi rend="grantha">dekṣi</hi>ṇamayanat
+                    <lb n="29" break="no"/>tukku Oraṇaiyum Āka viraṇaikkum kācu Iraṇṭāka kācu Oṉṟinukku ne
+                    <lb n="30" break="no"/>llup patiṉkala<surplus>m</surplus>māka Orāṭṭai ṉā<surplus>ḷ</surplus>ḷaikku kācu Iraṇṭukku nel I
+                    <lb n="31" break="no"/>rupatinkala<surplus>m</surplus>mu<supplied reason="omitted">m</supplied> tiruvo <gap reason="lost" quantity="6" unit="character"/> Orāṭṭai nā<surplus>ḷ</surplus>ḷaikku muṉṟāṭai Orāṭṭai nā
+                    <lb n="32" break="no"/><surplus>ḷ</surplus>ḷaikku <gap reason="lost" quantity="7" unit="character"/> Araiyāl nel <gap reason="lost" quantity="3" unit="character"/> kala<surplus>m</surplus>mu<supplied reason="omitted">m</supplied>
+                    <lb n="33"/>tirunamanikai Orāṭṭai ṉā<surplus>ḷ</surplus>ḷaikku Iraṇṭāka Ira<supplied reason="omitted">ṇ</supplied>ṭinukku kācu Onṟiṉukku ne
+                    <lb n="34" break="no"/>llu patiṉkalamum tirumā<surplus>ḷ</surplus>lai kaṭṭa Orāṭṭai nā<surplus>ḷ</surplus>ḷaikku Iraṇṭāka I
+                    <lb n="35" break="no"/>raṇṭinukku kācu Oṉṟāka kācu Oṉṟinukku nellup patiṉkalamum
+                    <lb n="36"/>Orāṭṭai nā<surplus>ḷ</surplus>ḷaikku Iraṇṭāka Iraṇṭinukkuk kācu Oṉṟāka kācu Oṉṟinu
+                    <lb n="37" break="no"/>kku nellup patiṉkala<surplus>m</surplus>mu<supplied reason="omitted">m</supplied> <hi rend="grantha">jalapa</hi>vi<hi rend="grantha">tra</hi>ttukku Orāṭṭai nāḷ <gap reason="lost" quantity="2" unit="character"/> 
+                    <lb n="38"/>puṭavai muṉṟākap puṭavai muṉṟinukkuk kācu Araiyāka Araikkācukku nel
+                    <lb n="39" break="no"/>lu Aiṅkala<surplus>m</surplus>mu<supplied reason="omitted">m</supplied> tirunontāviḷakku Aiñciṉukku viḷakku <gap reason="lost" quantity="2" unit="character"/> Oṉṟu nicatam
+                    <lb n="40"/>neyi Uḻakkāka viḷakku nicatam neyi <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="41"/>m nellu Aiṅkuṟuṇiyāka Orāṭṭai nā<surplus>ḷ</surplus>ḷaikku nellu nūṟṟu Aimpatiṉ kala<surplus>m</surplus>mu<supplied reason="omitted">m</supplied>
+                    <lb n="42" break="no"/><hi rend="grantha">sandhi</hi>viḷakkuc ciṟukālai yeṭṭu Ucciyampotu Eṭṭu Iravaikku patiṉālum Āka
+                    <lb n="43"/>viḷakku muppatiṉukku nicatam Eṇṇai nāḻi muḻakke<note n="64-1">The inscription stops here.</note>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary">
+                <p n="43"><foreign>muḻakke</foreign>. The inscription stops here.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.124 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">63-64</citedRange>
+                        <citedRange unit="item">124</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
