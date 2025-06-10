@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.138: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 138. (A.R. No. 127 of 1914.) TIRUVEṞUMBŪR, TRICHINOPOLY TALUK, TRICHINOPOLY DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, PIPĪLIKĒŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0138</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This records an agreement given, in consideration of a lump amount received from the donor, by the <hi rend="italic">peruṅguṟi-sabhai</hi> of Śrīkaṇṭha-chaturvēdimaṅgalam <hi rend="bold">who had assembled in the (hall called) Tiruchchitrakūḍam</hi> at the village, remitting the payment of the tax due on 4 <hi rend="italic">mā</hi> of land endowed by a resident of the village named <hi rend="bold">Tiruppēr Bālāśiriyaṉ Mādhavaṉ Subrahmaṇyaṉ</hi> for the daily feeding of a Brāhmaṇa versed in the <hi rend="italic">Vēdas</hi> in the feeding-house attached to the temple of Tiruveṟumbiyūr-Āḻvār on the hill. This is one of the 6 inscriptions of the place assigned to <hi rend="bold">Āditya I</hi> on the basis of which the dates have been calculated by the late Mr. L.D.Swamikannu Pillai (<hi rend="italic">M.E.R.</hi> for 1915, Appendix F) with five possible English equivalents in the period of his reign. But it has been shown above under No. 110 that they may, with greater probability, be referred to the reign of <hi rend="bold">Gaṇḍarāditya</hi> of <hi rend="bold">Sundara-Chōḷa.</hi></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kovirā<hi rend="grantha">ja</hi>kecaripaṉmaṟkku yāṇṭu 6<g type="dash"/>Āvatu teṉkarai <hi rend="grantha">brahmade</hi>yam <hi rend="grantha">śrī</hi>kaṇṭa catu<hi rend="grantha">rvvedi</hi>maṅkalattup peruṅkuṟi <hi rend="grantha">sabhai</hi>
+                    <lb n="2" break="no"/>yom Ivvāṇṭu makaranāyaṟṟu cevvāykkiḻamai peṟṟa cotināṉṟu pakal Ivvūr tirucci<hi rend="grantha">tra</hi>kūṭattey <hi rend="grantha">dhanmi</hi> ceytu peruṅ
+                    <lb n="3" break="no"/>kuṟi kūṭṭak<supplied reason="omitted">ku</supplied>ṟaivaṟak kūṭiyiruntu paṇippaṇiyāl paṇittu <hi rend="grantha">vya</hi>va<hi rend="grantha">sthai ce</hi><supplied reason="omitted">y</supplied>taparicāvatu Ivvūrt tirupperp pālāciriyaṉ <hi rend="grantha">mādha</hi>va<hi rend="grantha"/>
+                    <lb n="4" break="no"/>ṉ <hi rend="grantha">subrahmaṇya</hi>ṉ Arici Irunāḻiyum kāykaṟi Oṉṟum ne<supplied reason="omitted">y</supplied>yaraippiṭiyum puḷiṅkaṟiyum puḻuk <supplied reason="omitted">ku</supplied>kkaṟiyum tayir Uriyum
+                    <lb n="5"/>kāyamilaiy pākku Iraṇṭum Ipparicu tiruveṟumpiyūrāḻvār tirumalaimel cattirattil ve<hi rend="grantha">da</hi>m vallāṉoru <hi rend="grantha">brāhma</hi>ṇaṉu
+                    <lb n="6" break="no"/>kku <hi rend="grantha">candrādi</hi>ttavaṟ Uṇṇa Ivaṉ vaitta nilamāvaṉa <supplied reason="undefined"><g type="danda">.</g></supplied> Ivvūrp puṟavāy <hi rend="grantha">śrī</hi>kaṇṭavāykkāluku meṟkku Iraṇṭāṅkaṇṇāṟṟu pā
+                    <lb n="7" break="no"/>lāṟṟukku teṟkku muṉṟām pāṭakam māṟaṅ kaṭampaṉ Uḷḷiṭṭa <hi rend="grantha">dvādaśa</hi>kkattu teṟkkaṭaiya muṉṟu māvum <hi rend="grantha">śrī</hi>kaṇṭavāykkālukku kiḻakku
+                    <lb n="8"/>Eḻāṅkaṇṇāṟṟu palāṟṟukku teṟkku muṉṟām pāṭakam pākaḷūrāṉuḷḷiṭṭa <hi rend="grantha">dvādaśa</hi>kkattu vaṭakkaṭaiya muṉṟu māvilk kiḻakkaṭaiya Oru
+                    <lb n="9" break="no"/>māvum Āka nāṉmā ce<supplied reason="omitted">y</supplied>kkum <hi rend="grantha">candrādi</hi>ttavat Iṟaiyiliyāka Ivaṉiṭai Emmilicainta Iṟai<hi rend="grantha">dravya</hi> maṟakkoṇṭu <hi rend="grantha">candrādi</hi>ttavat I<unclear>ṟai</unclear>kāṭṭapeṟā 
+                    <lb n="10" break="no"/>tomākavum Iṉṉilam Iṟaikāṭṭap paṇittāṉaiyum Iṟ<unclear>ai</unclear>kāṭṭiṉānaiyum Iṟaikāṭṭap paṇitta <hi rend="grantha">sabhai</hi>yiliruntāṉaiyum vev
+                    <lb n="11" break="no"/>veṟṟuvakai tāmeṇṭutaṉai poṉ <hi rend="grantha">panmāheśva</hi>rare maṉṟi Iṟuppikkapeṟuvārākavum piṉṉaiyum Iṉṉila miṟaikāṭṭap
+                    <lb n="12" break="no"/>peṟātomākap paṇippaṇiyāl paṇittu <hi rend="grantha">vya</hi>va<hi rend="grantha">sthai</hi> ce<supplied reason="omitted">y</supplied>tukuṭuttom peruṅkuṟi<hi rend="grantha">sabhai</hi>yom tirupperp pālāciriyaṉ Iḷai<supplied reason="omitted">ya</supplied>nārāya<supplied reason="omitted">ṇa</supplied>ṉārā
+                    <lb n="13" break="no"/>yaṇaṉ paṇiyāl I<hi rend="grantha">vya</hi>va<hi rend="grantha">sthai</hi> Eḻutiṉeṉ Ivvūr <hi rend="grantha">madhyastha</hi>ṉ <hi rend="grantha">dharmmapri</hi>yanāṉa kalivicaiyaṉ taruṇentucekaraṉeṉ Ivai yeṉ
+                    <lb n="14"/>Eḻuttu <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g> Itu <hi rend="grantha">panmāheśva</hi>rar <hi rend="grantha">rakṣai</hi> <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.138 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">70-71</citedRange>
+                        <citedRange unit="item">138</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
