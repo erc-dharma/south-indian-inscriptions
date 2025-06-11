@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 7.491: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 491. (A.R. No. 274 of 1901). ON THE SOUTH WALL OF THE SAME SHRINE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv07p0i0491</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+							
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-06-11" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> vi<hi rend="grantha">jayaśśakābdaM</hi> <num value="1393"><unclear><g type="numeral">1000</g> 3</unclear> <g type="numeral">100</g> 9 <g type="numeral">10</g> 3</num> Itiṉmel cellāniṉṟa karavaru<hi rend="grantha">ṣa</hi>ttu <hi rend="grantha">vṛścika</hi><unclear>n</unclear>āyaṟṟu <hi rend="grantha">pūrvvapakṣa</hi>ttu <hi rend="grantha">pūrṇai</hi>yum <hi rend="grantha">budha</hi>vāramum peṟṟa <hi rend="grantha">mṛgaśirṣa</hi>ttu ṉā<add place="below">ḷ</add> <hi rend="grantha">somagrah<surplus>ā</surplus></hi>ṇa<hi rend="grantha">puṇyak<choice><sic>a</sic><corr>ā</corr></choice><unclear>la</unclear></hi><unclear>ttu va</unclear>ḷampaiŪruṭai<unclear>yā</unclear>ṉ takka<surplus>kkuttakka</surplus>ṇaIrāvuttamiṇṭaṉ tiyākavācāriyaṉ pulikkoṭirāyaṉ pokkaraca cāmaṉtaṉār kumāratevarāya 
+					
+					<lb n="2" break="no"/>ṉcantikku perumāḷ tiruppernakarāṉukku nāḷ Oṉṟukku Amutupaṭi kuṟuṇiĀka varu<hi rend="grantha">ṣa</hi>m Oṉṟukku Amutupaṭikku nellu Apatiṉ kalattukkum ka<add place="below">ṟi</add>Amutu Añcukkum tirumālai tirunaṉtāvi<unclear>ḷakku</unclear> Oṉṟukkum pa<unclear>cu</unclear> Añcum cettukuṭutta nammuṭaiya cīrmaiĀṉa pāṇṭikulācaṉivaḷanāṭṭu vallanāṭu melaimuṟi kaṭampaṅkuṭi Ūr
+					
+					<lb n="3"/>nāṉku Ellaikku Uṇṭāna na<unclear>ṉ</unclear>c<unclear>e</unclear>y puṉcey māvaṭai maravaṭi maṭuvaṭai kuḷavaṭai maṟṟum Epperpaṭṭa<unclear>tu</unclear>m <hi rend="grantha">sarvvamānya</hi>māka Aṉupavittukkoḷḷavum <g type="danda">.</g><g type="pc">.</g> 
+				</p>
+				
+			</div>
+			
+			<div type="apparatus">
+				<listApp>
+					<app loc="2">
+						<lem>Apatiṉ</lem>
+						<note><foreign>A</foreign> has to be taken here as symbol for <foreign>eṇ</foreign>.</note>
+					</app>
+				</listApp>
+			</div>
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 7.491 by <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1932_01"/>
+						<citedRange unit="page">304</citedRange>
+						<citedRange unit="item">491</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
