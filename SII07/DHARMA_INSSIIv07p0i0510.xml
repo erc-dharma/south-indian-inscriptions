@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 7.510: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 510. (A.R. No. 290 of 1901). IN THE SAME PLACE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv07p0i0510</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+							
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-06-12" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha"><unclear>svasti</unclear> śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> mati<unclear>r</unclear><hi rend="grantha">ai</hi>
+					<lb n="2" break="no"/>ko<unclear>ṇ</unclear>ṭa koppara<unclear>k</unclear>e
+					<lb n="3" break="no"/><unclear>ca</unclear>ripaṉmar<supplied reason="omitted">k</supplied>ku yāṇṭu <num value="30">3 <g type="numeral">10</g></num>
+					<lb n="4" break="no"/><gap reason="lost" quantity="4" unit="character"/> Iṭ<hi rend="grantha">ai</hi>yāṟṟunā
+					<lb n="5" break="no"/><gap reason="lost" quantity="6" unit="character"/> <unclear>ca</unclear>ṭ<hi rend="grantha">ai</hi>muṭi ma<hi rend="grantha">hā</hi>
+					<lb n="6" break="no"/><gap reason="lost" quantity="4" unit="character"/> Eyiṉāṭṭut te
+					<lb n="7" break="no"/><unclear>va</unclear>tā <gap reason="lost" quantity="2" unit="character"/> <hi rend="grantha">śrī</hi>kaṇṭapurat
+					<lb n="8" break="no"/>tu <gap reason="lost" quantity="3" unit="character"/> vaṉār makaḷ <unclear>na</unclear>
+					<lb n="9" break="no"/><gap reason="lost" quantity="3" unit="character"/> ca<hi rend="grantha">ndrādi</hi>t=ta<unclear>va</unclear>
+					<lb n="10" break="no"/><unclear>ṟ Iravum</unclear> pakalum Eri
+					<lb n="11" break="no"/>va <gap reason="lost" quantity="4" unit="character"/> ti Uḻa<unclear>kku</unclear> <unclear>n</unclear>e
+					<lb n="12" break="no"/><unclear>yāka va</unclear> <gap reason="lost" quantity="7" unit="character"/> 
+					<lb n="13"/>ṭai <gap reason="lost" quantity="8" unit="character"/> 
+					<lb n="14"/><unclear>k</unclear>ku <hi rend="grantha">ḷa</hi> <gap reason="lost" quantity="7" unit="character"/> 
+					<lb n="15"/><hi rend="grantha">ra</hi>r <hi rend="grantha">ra<seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ai</seg></hi> <gap reason="lost" quantity="7" unit="character"/> 
+					<lb n="16"/><unclear>t</unclear>tār <hi rend="grantha"><unclear>śrī</unclear></hi> <gap reason="lost" quantity="7" unit="character"/> 
+					<lb n="17"/>l<hi rend="grantha">ai <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg> <gap reason="lost" quantity="3" unit="character"/> </hi>
+				</p>
+				
+			</div>
+			
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 7.510 by <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1932_01"/>
+						<citedRange unit="page">314</citedRange>
+						<citedRange unit="item">510</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>

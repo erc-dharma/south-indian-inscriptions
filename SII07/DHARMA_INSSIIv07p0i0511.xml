@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 7.511: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 511. (A.R. No. 291 of 1901). IN THE SAME PLACE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv07p0i0511</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+							
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-06-12" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha"><unclear>svasti śrī</unclear></hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> ma<unclear>tiraikoṇ</unclear>
+					<lb n="2" break="no"/>ṭa kopparakecari<unclear>paṉ</unclear>maṟ
+					<lb n="3" break="no"/>kku yāṇṭu <num value="20">2 <g type="numeral">10</g></num><g type="dash"/>Āvatu
+					<lb n="4"/>teṉkarai Iṭaiyāṟṟu<surplus>ṉ</surplus>
+					<lb n="5" break="no"/>nāṭṭu tirukkaṭaimuṭi <hi rend="grantha">m<surplus>ā</surplus>hā</hi>
+					<lb n="6" break="no"/><hi rend="grantha">de</hi>vaṟku Ār<supplied reason="omitted">k</supplied>kāṭṭukkūṟṟa<unclear>t</unclear>
+					<lb n="7" break="no"/>tu paṭaiEviya tattakuṭi
+					<lb n="8"/>tattakuṭāṉ tāmotiraṉ ṉe
+					<lb n="9" break="no"/>yatiraṉ Oru nontāviḷak
+					<lb n="10" break="no"/><unclear>ku</unclear> <gap reason="lost" quantity="7" unit="character"/> titta
+					<lb n="11" break="no"/>vaṟ<unclear>i</unclear> <gap reason="lost" quantity="5" unit="character"/> lum Eriva
+					<lb n="12" break="no"/>tāka <gap reason="lost" quantity="6" unit="character"/> <unclear>ṉi</unclear>ruka
+					<lb n="13" break="no"/>ḻañ <gap reason="lost" quantity="5" unit="character"/> <hi rend="grantha"><unclear>ra</unclear></hi>
+					<lb n="14" break="no"/><gap reason="lost" quantity="6" unit="character"/> y
+					<lb n="15"/><gap reason="lost" quantity="6" unit="character"/> le
+				</p>
+				
+			</div>
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 7.511 by <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1932_01"/>
+						<citedRange unit="page">314</citedRange>
+						<citedRange unit="item">511</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
