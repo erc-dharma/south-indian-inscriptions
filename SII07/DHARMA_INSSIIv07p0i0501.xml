@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 7.501: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 501. (A.R. No. 281 of 1901). IN THE SAME PLACE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv07p0i0501</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+							
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-06-12" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> kovirācakeca<unclear>ri</unclear>paṉ
+					<lb n="2" break="no"/>maṟ<unclear>ku</unclear> yāṇṭu 3<g type="dash"/>Āvatu Eyināṭṭu
+					<lb n="3"/><hi rend="grantha"><unclear>brahmade</unclear></hi><unclear>yam</unclear> tiru<unclear>p</unclear>per tiru<unclear>ppuṟattuṟai</unclear>
+					<lb n="4" break="no"/>vārk=kut tirukaṟṟaḷi Eṭuppitta cempiyaṉ ve
+					<lb n="5" break="no"/>tiveḷāṉ I<unclear>v</unclear>vūr Ittiruppuṟattuṟaivarkku
+					<lb n="6"/><hi rend="grantha">sabhai</hi>yāriṭai <unclear>vilaikku</unclear> koṇṭa karampaiIl
+					<lb n="7"/><gap reason="lost" quantity="4" unit="character"/> ku Uvaccar kārnilam kālum nikki niṉṟa <gap reason="lost" quantity="2" unit="character"/> 
+					<lb n="8"/><gap reason="lost" quantity="1" unit="character"/> ṟpp<surplus>o</surplus>ṟpaṭ<unclear>ṭa</unclear> nilamum koṇṭu In=ta cikoyi<surplus>l</surplus>luṭaiy<unclear>ā</unclear>rkaḷ nica
+					<lb n="9" break="no"/><unclear>tip</unclear>paṭi celutt<choice><sic>a</sic><corr>u</corr></choice> vitāṉapaṭi tiruvamutuArici potu nāṉāḻiyāka Ari
+					<lb n="10" break="no"/><unclear>ci ku</unclear>ṟuṇi nāṉāḻi<unclear>yu</unclear>m potiraṇṭu kaṟiAmitum neyamitu <unclear>p</unclear>otāḻākk<unclear>ā</unclear>
+					<lb n="11" break="no"/><unclear>ka Uḻa</unclear>kkāḻāk=kum ca<unclear>ṟ</unclear>karaivaṭṭup potoṉṟāka mūṉṟu caṟkaraivaṭṭu<unclear>m</unclear> tayir<unclear>a</unclear>
+					<lb n="12" break="no"/>mitu poturiyāka nāḻi Urit tayiramitum Aṭaikkāyamitu potu
+					<lb n="13"/>n<unclear>ā</unclear>lākap paṉṉi<unclear>ra</unclear>ṇṭum mūvaṭukku veṟṟilaiyum muṉṟu <unclear>can</unclear>tik=ku
+					<lb n="14" break="no"/><unclear>t tirumelppūc</unclear>cuc cantaṉam <gap reason="lost" quantity="3" unit="character"/> nontā
+					<lb n="15" break="no"/>viḷak=ku <unclear>Ira</unclear>ṇṭum muṉṟu cantiyum cantiviḷak=kum <hi rend="grantha">śrī</hi>palik=ku piṭi
+					<lb n="16" break="no"/>viḷak=ku Iraṇṭum A<hi rend="grantha">sta</hi>miccapiṉ tirukkāppuk koḷḷumaḷavum tiru
+					<lb n="17" break="no"/>maṇ<unclear>ṭa</unclear>kattuk=ku viḷa<supplied reason="omitted">k</supplied>koṉṟum Iccuṭṭappaṭṭa Iññilam mittaṉai
+					<lb n="18"/>yum koṇ<unclear>ṭu</unclear> Iññivantañ ceytapaṭi celuttuvitānom In
+					<lb n="19" break="no"/>ta <hi rend="grantha">śrī</hi>ko<unclear>yi</unclear>luṭaiyom Itaṟṟiṟampil paṉmā<hi rend="grantha">heśva</hi>rare taṇṭa
+					<lb n="20" break="no"/>c celutta<unclear>p</unclear>peṟuvarkaḷānār Ivvūr Ittevar paḻantevatānam Et
+					<lb n="21" break="no"/><gap reason="lost" quantity="6" unit="character"/> mur <gap reason="lost" quantity="9" unit="character"/> <hi rend="grantha">brahma</hi> <gap reason="lost" quantity="8" unit="character"/> 
+					<lb n="22"/>yāṟku nivantam Itu paṉmā<hi rend="grantha">heśva</hi>raruṭaiya <supplied reason="omitted">ra</supplied><hi rend="grantha">kṣai</hi> <g type="danda">.</g><g type="pc">.</g> 
+				</p>
+				
+			</div>
+			
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 7.501 by <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1932_01"/>
+						<citedRange unit="page">311</citedRange>
+						<citedRange unit="item">501</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
