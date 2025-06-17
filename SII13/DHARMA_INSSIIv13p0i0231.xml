@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.231: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 231. (A.R. No. 32 of 1931.) TIRUKKŌḌIKĀVAL, KUMBAKONAM TALUK, TANJORE DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, TIRUKKŌṬĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0231</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This is said to be a copy of, and to cancel, an old document engraved on a loose stone now become useless. It records an endowment of 8 <hi rend="italic">mā</hi> of land after purchasing it free of all taxes from the <hi rend="italic">sabhā</hi> of Tirukkōḍikā <hi rend="italic">alias</hi> Kaṇṇamaṅgalam, by <hi rend="bold">Māśēṉaṉ Mādaṉ</hi> of Śiṟukāṭṭūr in Mērkkā-nāḍu, to provide for the supply of 5 pots of water (thrice ?) every day by the temple servants from the river Kāviri for the sacred bath of the god. A <hi rend="italic">kaḻañju</hi> of gold was also separately endowed for the purchase of a (mud) pot of one <hi rend="italic">tūṇi</hi> capacity every month with the interest thereon.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> Ituvum moru paḻaṅkalpaṭi <supplied reason="undefined"><g type="danda">.</g></supplied> kovir<unclear>ā</unclear><hi rend="grantha">ja</hi>kecaripa<hi rend="grantha">nma</hi><supplied reason="omitted">r</supplied>kku yāṇṭu <num value="12"><g type="numeral">10</g> 2</num><g type="dash"/>Āvatu tirukkoṭikāvil <hi rend="grantha">mahāde</hi>varkku meṟkkāṉāṭṭu ciṟukāṭṭur Uṭaiyāṉ <unclear>mā</unclear>
+                    <lb n="2" break="no"/>ceṉaṉ mātaṉ tirukkoṭikāvāṉa kaṇṇamaṅkalattu <hi rend="grantha">sabhai</hi>yāriṭai nāṉ vilaikoṇṭu Uṭaiya kuṟaiyiṉ kiḻa<supplied reason="omitted">k</supplied>kaṭaiya Eṭṭumāvum muṟṟipeṟṟa Iṉnilamum potaiñkuṭam nir kāviri nir Aṭṭuvommāṉom tirukkoṭi<unclear>kālil</unclear> tirukkoyiluṭaiyom Innilam Eppeṟppaṭṭa Iṟaiyum Eccoṟum kāttukuṭu
+                    <lb n="3" break="no"/>ppommāṉom ca<hi rend="grantha">ntrā</hi>ti<supplied reason="omitted">t</supplied>taval kāttukkuṭuppomāṉom kaṇṇamaṅkalattu<hi rend="grantha">sabhai</hi>yom <supplied reason="undefined"><g type="danda">.</g></supplied> kaḻañcu poṉṉum koṇṭu tiṅkaḷ Oru kuṭam tūṇi koḷḷum kuṭattāl potaiṅkuṭa nir Aṭṭuvommāṉom Ippoṉ koṇṭu Itaṉ palicaiyāl kuṭam koṇṭu Aṭṭuvom māṉom tirukkoyilluṭaiyom Itu pa
+                    <lb n="4" break="no"/>ḻayakalpaṭi In=ta <hi rend="grantha">śrī</hi>vimānattile Eṟa veṭṭiṉamaiyil muṉṉivvā<hi rend="grantha"><unclear>ja</unclear></hi><surplus>ka</surplus>kam veṭṭikkiṭan=ta taṉikkallāl u<hi rend="grantha">bhai</hi>yo<hi rend="grantha">ga</hi>m Illāmaiyāl Atu tavirntatu Itu muṭṭil paṉmāye<hi rend="grantha">śva</hi>rar kaṭai kūṭṭa peṟṟār <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.231 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">124</citedRange>
+                        <citedRange unit="item">231</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

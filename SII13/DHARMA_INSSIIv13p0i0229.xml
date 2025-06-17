@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.229: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 229. (A.R. No. 229 of 1926.) KĪḺAPPAḺUVŪR, UDAIYARPALAIYAM TALUK, TRICHINOPOLY DISTRICT. ON THE WEST WALL OF THE CENTRAL SHRINE, VAṬAMŪLĒŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0229</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This records a gift of 90 sheep for the daily supply of an <hi rend="italic">uḻakku</hi> of ghee by the <hi rend="italic">nārāyam</hi> measure, for a perpetual lamp in the temple of Tiruvālanduṟai-Mahādēva at Śiṟupaḻuvūr in Kuṉṟak-kūṟṟam by <hi rend="bold">Aḍigaḷ Paḻuvēṭṭaraiyar Maṟavaṉ Kaṇḍaṉār.</hi> An inscription of <hi rend="bold">Sundara-Chōḷa.</hi> (<hi rend="italic">M.E.R.</hi> 1926. II, 17).</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                    <lb n="2"/>kovirā<hi rend="grantha">ja</hi>ke
+                    <lb n="3" break="no"/><hi rend="grantha">sa</hi>ri<hi rend="grantha">panma</hi>ṟkku y<unclear>ā</unclear>
+                    <lb n="4" break="no"/>ṇṭu <num value="12"><g type="numeral">10</g> 2</num><g type="dash"/>Ā
+                    <lb n="5" break="no"/>vatu kuṉṟakkū<unclear>ṟṟa</unclear>
+                    <lb n="6" break="no"/>ttu <hi rend="grantha">brahmade</hi>yam
+                    <lb n="7"/>ciṟupaḻuvūrt
+                    <lb n="8"/>tiruvālantuṟai <hi rend="grantha">ma</hi>
+                    <lb n="9" break="no"/><hi rend="grantha">h<choice><sic>a</sic><corr>ā</corr></choice>de</hi>varkku Aṭikaḷ
+                    <lb n="10"/>paḻuveṭṭaraiyar maṟava
+                    <lb n="11" break="no"/>ṉ kaṇṭaṉār <hi rend="grantha">candrāditya</hi>va<hi rend="grantha"/>
+                    <lb n="12" break="no"/>l Iravum pakalum Oru ti
+                    <lb n="13" break="no"/>ruviḷakkeriya nicatap
+                    <lb n="14" break="no"/>paṭi nārāyattāl U
+                    <lb n="15" break="no"/>ḻakku neykku vai
+                    <lb n="16" break="no"/>tta cāvāmuvāp pe
+                    <lb n="17" break="no"/>rāṭu <num value="90">9 <g type="numeral">10</g></num> Itu <hi rend="grantha">panmā</hi>
+                    <lb n="18" break="no"/><hi rend="grantha">heśvara rakṣai</hi> <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.229 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">123</citedRange>
+                        <citedRange unit="item">229</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
