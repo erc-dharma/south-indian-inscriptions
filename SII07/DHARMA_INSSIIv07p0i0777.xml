@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 7.777: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 777. (A.R. No. 153 of 1902). IN THE SAME PLACE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv07p0i0777</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+							
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-06-19" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/>ciṟimaṉ Irācarācaṉ Irācaparamecuraṉ kecaveṭṭaik<choice><sic>a</sic><corr>ā</corr></choice>ran ciṟipiṟa <supplied reason="omitted">tāpa</supplied> tevarāyamakārāyaṟ<supplied reason="omitted">k</supplied>ku cellāniṉṟa cakāttam <num value="1357"><g type="numeral">1000</g> <unclear>3</unclear> <g type="numeral">100</g> 5 <g type="numeral">10</g> 7</num><g type="dash"/>ṉmel cellāniṉṟa naḷacaṅ<surplus>k</surplus>vaccarattu mīṉanāya
+					
+					<lb n="2" break="no"/>ṟṟu <unclear>pū</unclear>ṟuvapakkattu viyāḻakkiḻamaiyum cattamiyu<unclear>m</unclear> peṟṟa <gap reason="lost" quantity="6" unit="character"/> kkiḻamai <gap reason="lost" quantity="3" unit="character"/> <hi rend="grantha">śrī</hi>ma <gap reason="lost" quantity="3" unit="character"/> kkaṇataṇṇā <gap reason="lost" quantity="3" unit="character"/> Uṭaiyar <gap reason="lost" quantity="7" unit="character"/> yaracar tirumāṇikuḻi tāṉattāṟku
+					
+					<lb n="3"/>nirupam nāyaṉār Utavināyakaṟku Ālaippākka <gap reason="lost" quantity="10" unit="character"/> raiyum toṇṭaimāṉār ci
+					
+					<lb n="4" break="no"/>vitattukkup patintu naṭantuvanta nilam Uḷḷatum Ūrceṟi Utavināyakarkkut tevatāṉamākat toṇṭaimāṉār camuttiraiyāttirainimittam Āka tāraivāttu<surplus>E</surplus> kuṭuttut taṅkaḷukkum Ālaippā 
+					
+					<lb n="5" break="no"/>kkam Ūravaṟkum kaltaiccaṉukkum Avar Olai<unclear>ka</unclear>ḷum kuṭuttapaṭiĀle AmmariĀtikkut tevatāṉam Āka kallu veṭṭi nāṭṭumpaṭiyum kaṭṭaḷaipaṇṇi Anta Ūra<unclear>va</unclear>ṟku<supplied reason="omitted">m</supplied> kaltaccaṉu
+					
+					<lb n="6" break="no"/>kkum nammuṭaiya Olaiyum pokaviṭṭaAḷavukkuk kaltaccaṉaikoṇṭu kallum veṭṭi naṭuvittu Anta Ūrum nilamum tevatāṉam Āka Aṉupavittukkoḷḷavum <g type="gomutraFinalComplex">.</g>
+				</p>
+				
+			</div>
+			
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 7.777 by <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1932_01"/>
+						<citedRange unit="page">395-396</citedRange>
+						<citedRange unit="item">777</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
