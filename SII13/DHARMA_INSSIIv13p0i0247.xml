@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.247: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 247. (A.R. No. 284 of 1911.) TILLAISTHĀNAM, TANJORE TALUK, TANJORE DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, GHṚITASTHĀNĒŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0247</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription records a gift of thirty <hi rend="italic">kaḻañju</hi> of gold for burning a perpetual lamp in the temple of Mahādēva at Tiruneyttāṉam by <hi rend="bold">Naṅgai Śāttaperumāṉār, the mistress of the king.</hi> The <hi rend="italic">sabhā</hi> and the <hi rend="italic">ūr</hi> of the village who received the endowment utilised the amount for the construction of a bathing <hi rend="italic">maṇṭapa</hi> for the deity, but undertook to maintain the lamp out of the income from some land which had been purchased for the temple from the <hi rend="italic">sabhā</hi> of Perumbuliyūr. This is the same as No. 36 of 1895 published in <hi rend="italic">South Indian Inscriptions (Texts)</hi> Vol. V, No. 593. The early script of the record and the use of <hi rend="italic">puḷḷi</hi> marks over basic consonants make it assignable to king <hi rend="bold">Āditya I.</hi> Naṅgai Śāttaperumāṉār figures as a donatrix in the king's 11th year of reign in No. <ref target="DHARMA_INSSIIv13p0i0219">219</ref> above from Tiruppūndurutti, a neighbouring village.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> korā<hi rend="grantha">ja</hi>ke<hi rend="grantha">sa</hi>riva<hi rend="grantha">ruma</hi>rkku yāṇṭu <num value="14"><g type="numeral">10</g> 4</num><g type="dash"/>Āvatu tirune<supplied reason="omitted">y</supplied>ttāṉattu <hi rend="grantha">mahā</hi>
+                    <lb n="2" break="no"/><hi rend="grantha">de</hi>varkku coḻapperumānaṭikaḷ pokiyār naṅkai cāttaperumāṉār noṉtā
+                    <lb n="3" break="no"/>viḷakkiṉukku kuṭutta poṉ <num value="30">3 <g type="numeral">10</g></num> � Imuppatiṉkaḻañcu poṉṉu
+                    <lb n="4" break="no"/>kkum perumpuliyūr cavaiyāriṭ<hi rend="grantha">ai de</hi>var poṉ kuṭuttu vilaikoṇṭa muṉṟa
+                    <lb n="5" break="no"/>raiyilum <hi rend="grantha">śrī</hi>kaṇṭa mukkāṇi Akappaṭap pattu cey Ippoṉṉukku talaic
+                    <lb n="6" break="no"/>cammāṭāy Oru noṉtāviḷakkerippomāy Ippoṉ muppatiṉ kaḻañcum
+                    <lb n="7"/>I<hi rend="grantha">de</hi>var namanamaṇṭapam ceyyak kuṭuttom tiruneyttānattu <hi rend="grantha">sabha</hi>yomum Ūro<unclear>mu</unclear>
+                    <lb n="8" break="no"/><supplied reason="omitted">m</supplied> <unclear>I</unclear>vviḷakku ca<hi rend="grantha">ndrādi</hi>ttaval Erippippomānom <hi rend="grantha">sabha</hi>yomum Ūromum Itu paṉmā<hi rend="grantha">heśvarar rakṣai</hi>
+                        <g type="danda">.</g><g type="pc">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.247 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">131</citedRange>
+                        <citedRange unit="item">247</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
