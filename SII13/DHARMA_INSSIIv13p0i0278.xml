@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 13.278: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 278. (A.R. No. 237 of 1923.) ON THE SAME WALL.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv13p0i0278</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This records an agreement given by <hi rend="bold">Kāmakkāṇi Nakkaṉ Tri[ya*]mbaka-Bhaṭṭaṉ</hi>, a servant of the temple to supply a certain quantity of oil daily for lamps in the temple of Tiruchchēlūr-Mahādēva, for which he had received money from the temple in the 14th and 15th years of <hi rend="bold">‘Mahārāyar who took Madura’</hi>, and from a person named <hi rend="bold">Mahēśvara-Kramavittaṉ</hi> in the 12th year of the same king, with personal security in each case. ‘Mahārāyar who took Madura’ is evidently the reigning king, and the record is to be referred to <hi rend="bold">Sundara-Chōḷa Parāntaka II.</hi></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-06-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/>kovirā<hi rend="grantha">ja</hi>ke<hi rend="grantha">sa</hi>ripanmaṟkki
+                    <lb n="2"/>yāṇṭu <num value="17"><g type="numeral">10</g> 7</num><g type="dash"/>Āvatu <hi rend="grantha">rā<supplied reason="omitted">jake</supplied><unclear>śa</unclear>ricca</hi>tu<hi rend="grantha">rve</hi>
+                    <lb n="3" break="no"/><hi rend="grantha">di</hi>maṅkalattu tiruccelūr <hi rend="grantha">ma</hi>
+                    <lb n="4" break="no"/><hi rend="grantha">hāde</hi>vaṟkku matiraiko
+                    <lb n="5" break="no"/>⌉ṇṭa <hi rend="grantha">mahārā</hi>yaṟkku
+                    <lb n="6"/><num value="14"><g type="numeral">10</g> 4</num><g type="dash"/>māṇṭu tirukkoyiluṭaiyā
+                    <lb n="7" break="no"/>ṉ kāmakkāṇi nakkaṉ <hi rend="grantha">tri<supplied reason="omitted">ya</supplied>m<unclear>bha</unclear>kabhaṭṭa</hi>ṉ tirucce
+                    <lb n="8" break="no"/>lūrp perumāḷukku nicatam Āḻākkeṇṇai
+                    <lb n="9"/>tiruviḷakkukkaṭṭuvatāka Ipperumāṉiṭaik ko<unclear>ṇṭa</unclear>
+                    <lb n="10"/>poṉ Añkaḻañcu Itukkiṟaippuṇait tarmattan mā
+                    <lb n="11" break="no"/>tevaṉ <supplied reason="undefined"><g type="danda">.</g></supplied> Ivarkke yāṇṭu <num value="12"><g type="numeral">10</g> <unclear>2</unclear></num><g type="dash"/>Āvatu Ivvūrk kalākaracceri nam
+                    <lb n="12" break="no"/>pūrkkāṭṭukai <hi rend="grantha">maheśvarakrama</hi>vittiniṭai Ivaṉe nica
+                    <lb n="13" break="no"/>tam Uḻakkeṇṇai tiruviḷakkukkaṭṭuvatākak ko
+                    <lb n="14" break="no"/>ṇṭa poṉ patinorukaḻañcu Ivaṟkke yāṇṭu <num value="15"><g type="numeral">10</g> 5</num>
+                    <lb n="15" break="no"/><unclear>Ā</unclear>vatu Ittiruccelūrp perumāṉiṭaiyey Iv
+                    <lb n="16" break="no"/>vūr vai<hi rend="grantha">khā</hi>na<hi rend="grantha">sa</hi>n nā<hi rend="grantha">rā</hi>yaṇan paṟppaṉāpan
+                    <lb n="17"/>puṇaiyāka Ivaṉey nicatam Āḻākkeṇṇai A
+                    <lb n="18" break="no"/>ṭṭuvatākak koṇṭa poṉ Añkaḻañcu <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g> yāṇṭu
+                    <lb n="19"/><num value="12"><g type="numeral">10</g> 2</num><g type="dash"/>Āvatu cikaṇṭacceri tāyan māman v<choice><sic>a</sic><corr>ai</corr></choice>tta viḷa<supplied reason="omitted">k</supplied>ku ��
+                    <lb n="20"/>Āḻākku Eṟṟi Uri Āḻākku <g type="ddanda">.</g><g type="dashLong">.</g> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 13.278 by <bibl><ptr target="bib:SrinivasaRao1952_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1952_01"/>
+                        <citedRange unit="page">147</citedRange>
+                        <citedRange unit="item">278</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
