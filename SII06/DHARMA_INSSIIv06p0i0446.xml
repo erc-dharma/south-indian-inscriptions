@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 6.446: original edition by K. V. Subrahmanya Aiyer</title>
+                <title type="alt">No. 446. (A.R. No. 10 of 1899). ON THE FIRST PILLAR IN THE MANDAPA OF THE SAME TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv06p0i0446</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-06-24" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> komāṟa<supplied reason="omitted">ñ</supplied>ca
+                    <lb n="2" break="no"/>ṭaiyaṟku yāṇṭu <num value="10"><g type="numeral">10</g></num> Ā
+                    <lb n="3" break="no"/>vatu viṭelviṭu<supplied reason="omitted">ku</supplied>muttarai
+                    <lb n="4" break="no"/>yan Aṭiyāṉ kiṭ<unclear>kā</unclear>van kāt=tā
+                    <lb n="5" break="no"/>ṉ niyamamākāḷattu piṭāri
+                    <lb n="6" break="no"/>yāṟ koru tiruviḷakkinuk
+                    <lb n="7" break="no"/>kum Oru tiruvamurtukku mu
+                    <lb n="8" break="no"/>talāka Ippiṭāriyār Uḷ
+                    <lb n="9" break="no"/>ḷūr<surplus>k</surplus>kaḷil kallikkuṭutta
+                    <lb n="10"/>nilam Arai kāṇikkaṭaṉ
+                    <lb n="11"/><g type="kaḻam"/> <num value="50">5 <g type="numeral">10</g></num> Itu pa<hi rend="grantha">nmāhēśva</hi>
+                    <lb n="12" break="no"/><hi rend="grantha">ra rakṣai</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 6.446 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                <p>See also edition by Valérie Gillet and Emmanuel Francis (<ref target="DHARMA_INSPandya00335"/>).</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SubrahmanyaAiyer1928_01"/>
+                        <citedRange unit="page">185</citedRange>
+                        <citedRange unit="item">446</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
