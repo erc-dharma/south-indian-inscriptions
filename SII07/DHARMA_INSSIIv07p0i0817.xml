@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 7.817: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 817. (A.R. No. 190 of 1902). ON THE SOUTH WALL OF THE MAHAKALESVARA SHRINE AT IRUMBAI, VILLUPURAM TALUK, SOUTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv07p0i0817</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+							
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-06-26" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/>tiripuvaṉaccakkaravattikaḷ maturaiyum Īḻamuṅ karuvūrum pāṇṭiyaṉ muṭittalaiyuṅ koṇṭaruḷiya <hi rend="grantha">śrī</hi>kulottuṅkacoḻateva<unclear>ṟku</unclear>
+					<lb n="2"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> Iyāṇṭu <num value="29">2 <g type="numeral">10</g> 9</num> ḷ <num value="169"><g type="numeral">100</g> 6 <g type="numeral">10</g> 9</num><g type="dash"/>ṉāl tiripuvaṉaccakkaravatti koneriṉmaikoṇṭāṉ <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻamaṇṭalattu māttūrnāṭṭut tiruviru <gap reason="lost" quantity="7" unit="character"/> 
+					<lb n="3"/>kaṉmikkum <hi rend="grantha">śrī</hi>mā<hi rend="grantha">heśva</hi>rakkaṇkāṇi ceyvāṉaiyum koyiṟkaṇakkaṉaiyum kāṭṭit tirumākāḷamuṭaiya <gap reason="lost" quantity="7" unit="character"/> 
+					<lb n="4"/>ruṟṟa nampaikkaḻaṉi 1 nilam Irupattaiy ve<unclear>li</unclear>yum I<unclear>vvū</unclear>r kollai<unclear>ni</unclear>lam nālveliyum Akaḻkkarai yu<supplied reason="omitted">ṭ</supplied>paṭṭu kollainilam <unclear>Ai</unclear>mpatuṟṟu <gap reason="lost" quantity="7" unit="character"/> 
+					<lb n="5"/>Aṉpa <gap reason="lost" quantity="3" unit="character"/> kap piṉniṟ<surplus>p</surplus> <unclear>piṉpu</unclear>ḷppaṭṭaṉavum Aṉtarāyaṅ koyiṟṟamappeṟu veṭṭi veṭṭittuṇṭam <unclear>p</unclear>oṉvariyum <unclear>E</unclear>riyum Erini<unclear>r</unclear>kovai <gap reason="lost" quantity="5" unit="character"/> 
+				</p>
+				
+			</div>
+
+			<div type="commentary">
+				<p>The inscription is built in.</p>
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 7.817 by <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1932_01"/>
+						<citedRange unit="page">415</citedRange>
+						<citedRange unit="item">817</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
