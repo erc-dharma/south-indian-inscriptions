@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 19.331: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+                <title type="alt">No. 331. (A.R. No. 157 of 1929.) GOVINDAPUTTUR, UDAIYARPALAYAM TALUK, TRICHINOPOLY DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE, GAṄGĀJAṬĀDHARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv19p0i0331</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This registers an agreement given by the <hi rend="italic">Śivabrāhmaṇas</hi> headed by Kāśyapaṉ Kuṉṟaṉ Śiṅga-Bhaṭṭaṉ and Bhāradvāji Koṟṟaṉ Tiruvaraṅga-Bhaṭṭaṉ of Periya Śrī-Vānavanmādēvi-chaturvēdimaṅgalam to <hi rend="bold">Araiyaṉ Śaṅkaranārāyaṇaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Śōḻa-Muttaraiyar</hi>, that they would regularly conduct all the specified worship and offerings in the temple of Kailāsattu-Āḷvār constructed by him in the village, for the endowment of land made by him under the Vaḍaguḍi tank. The services comprised daily worship, special bath, offering and worship on the two <hi rend="italic">Ayana-Saṅkrānti</hi> and two <hi rend="italic">Vishu</hi> days, and also on the day of Viśākhā in Vaigāśi month, and the maintenance of a perpetual lamp. They bound themselves to be supervised by the <hi rend="italic">Māhēśvara-Nāṟpatteṇṇāyiravar</hi> and to pay fines in case of default to the <hi rend="italic">vāriya-perumakkaḷ</hi> of the assembly.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-06-28" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopparakecaripa<hi rend="grantha">nma</hi><supplied reason="omitted">ṟ</supplied>kku yāṇṭu <num value="13"><g type="numeral">10</g> 3</num><g type="dash"/>Āvatu va
+                    <lb n="2" break="no"/>ṭakarai <hi rend="grantha">brahma</hi>teyam periyavāṉavaṉ<hi rend="grantha">mahāde</hi>vi<hi rend="grantha">śca</hi>tu<hi rend="grantha">rvedi</hi>
+                    <lb n="3" break="no"/>maṅkalattu <hi rend="grantha">śi</hi>va<hi rend="grantha">brāhma</hi>ṇar kā<hi rend="grantha">śyapa</hi>ṉ kuṉṟaṉ ciṅkapa
+                    <lb n="4" break="no"/>ṭṭaṉum <hi rend="grantha">bhā</hi>ra<hi rend="grantha">dvā</hi>ci koṟṟaṉ tiruvaraṅkapaṭṭaṉum Uḷḷiṭṭo
+                    <lb n="5" break="no"/>m Araiyaṉ caṅkaranārāyaṇaṉāṉa coḻamuttaraiyark
+                    <lb n="6" break="no"/>kku <unclear>O</unclear>ṭṭik kaittiṭṭu I<supplied reason="omitted">ṭ</supplied>ṭukkuṭutta paricāvatu Ivvūr Ivar Eṭuppitta <hi rend="grantha">śrī</hi>kayilā
+                    <lb n="7" break="no"/>yattu Āḷv<choice><sic>a</sic><corr>ā</corr></choice>rkku vaṭakuṭi Erikkiḻ nilattil nivantam ceytapaṭiyil nāṅka<supplied reason="omitted">ḷ</supplied>
+                    <lb n="8"/>nilam koṇṭu <hi rend="grantha">candrāditya</hi>vaṟ celvomāka nivantam<surplus>tam</surplus> tiruccenṉaṭaippuṟamum
+                    <lb n="9"/>neyyamutum kaṟiyamutum tayiramutum Aṭaikkāyamutum Ayaṉacaṅkirānti Iraṇṭu
+                    <lb n="10" break="no"/>kkum vi<hi rend="grantha">ṣu</hi> Iraṇṭukkum vaiykāci vicākamum <hi rend="grantha">sna</hi>panamāṭiAruḷi peruntiruAmutu cey
+                    <lb n="11" break="no"/><supplied reason="omitted">ya</supplied><unclear>vu</unclear>m tiruppukaiyum tiruccantaṇamum tiruviḷakku Eṇṇai nicatam nāḻikkum It taṉaikkum
+                    <lb n="12"/><unclear>vai</unclear>y<supplied reason="omitted">t</supplied>ta nilaṅ koṇṭu <hi rend="grantha">panmāheśvara</hi> nāṟpatteṇṇāyiravar kaṇkāṇiyākac cey vitākavu
+                    <lb n="13" break="no"/><unclear>m</unclear> tiruamutu Oru nāḷ muṭṭil kalanel taṇṭappaṭuvatākavum maṟṟum niva<supplied reason="omitted">n=ta</supplied>m muṭṭil pa
+                    <lb n="14" break="no"/>ṭiiraṭṭi ceyvitākavum Ittaṉaiyum tiṟampil vāriyapperumakkaḷukku Irukaḻañcu
+                    <lb n="15"/>poṉ maṉṟuvatākavum Ipparicu Oṭṭik kaittiṭṭu
+                    <lb n="16"/>kuṭuttom coḻamuttaraiyarkku kuṉṟaṉ ciṅkapaṭṭaṉum koṟṟaṉ tiruvaraṅkaṉum
+                    <lb n="17"/>Uḷḷiṭṭom maṟṟu<supplied reason="omitted">m</supplied> Ikkoyilli paṇiceytu munpu niṉṟome Ippa
+                    <lb n="18" break="no"/>ṇi cey<supplied reason="omitted">y</supplied>yā viṭil Ittaṇṭappaṭuvatāka Iṭṭu kuṭuttom Ivvaṉaivo
+                    <lb n="19" break="no"/>m Iva<supplied reason="omitted">r</supplied>kaḷ veṇṭa Eḻutiṉe<supplied reason="omitted">ṉ</supplied> kāvirit tenkarai Aḷanāṭṭu variñciyūr <hi rend="grantha">brahma</hi>te
+                    <lb n="20" break="no"/>yattu kā<hi rend="grantha">śyapa</hi>ṉ <hi rend="grantha">śrī</hi>kaṇṭan tā
+                    <lb n="21" break="no"/>motirapaṭṭaneṉ Ivai yeṉ
+                    <lb n="22"/>Eḻuttu Ippaṭi yoṭṭi Ip 
+                    <lb n="23" break="no"/>paṇi ceyvatāka Iṭṭukkuṭutto
+                    <lb n="24" break="no"/>m <hi rend="grantha">bhā</hi>ra<hi rend="grantha">dvā</hi>ci koṟṟaṉ tiruvaraṅ(k)kaṉu<supplied reason="omitted">m</supplied>
+                    <lb n="25"/>kā<hi rend="grantha">śyapa</hi>ṉ kuṉṟaṉ ciṅkapaṭṭaṉum
+                    <lb n="26"/>Uḷḷiṭṭa Ivvaṉaivom Iva<supplied reason="omitted">r</supplied>kaḷ
+                    <lb n="27"/><supplied reason="omitted">k</supplied>aimmāṭṭāṅkiṉāl Eḻutiṉāṉum
+                    <lb n="28"/>Iṭṭukkuṭutteṉ kuṉṟaṉ ciṅ
+                    <lb n="29" break="no"/>kapaṭṭaṉeṉ Ivai yeṉ ṉeḻu
+                    <lb n="30" break="no"/>ttu Ivai <hi rend="grantha">panmāheśvararakṣai</hi> <g type="ddanda">.</g><g type="dashLong">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 19.331 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1967_01"/>
+                        <citedRange unit="page">167-168</citedRange>
+                        <citedRange unit="item">331</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

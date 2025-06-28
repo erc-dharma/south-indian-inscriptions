@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.332: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 332. (A.R. No. 165 of 1929.) ON THE WEST WALL OF THE SAME SHRINE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0332</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This states that <hi rend="bold">Ambalavaṉ Paḻuvūr-Nakkaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Vikramaśōḻa-Mārāyaṉ of Kuvaḷālam</hi> (Kolar) the <hi rend="bold">Perundaram</hi> of <hi rend="bold">Uttama-Chōḷadēva</hi> built of stone the <hi rend="italic">Śrīvimāna</hi> of the temple of Vijayamaṅgalattu-Dēva at Periya Śrī-Vāṉavaṉmādēvi-chaturvēdimaṅgalam.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopparakecaripa<hi rend="grantha">nma</hi>ṟku yāṇṭu <num value="13"><g type="numeral">10</g> 3</num> muṉṟāvatu vaṭakarai <hi rend="grantha">brahmade</hi>yam pe
+<lb n="2" break="no"/>riya <hi rend="grantha">śrī</hi>vāṉavaṉmāteviccatu<hi rend="grantha">rve</hi>timaṅkalattu <hi rend="grantha">śrī</hi>vi<hi rend="grantha">ja</hi>yamaṅkalattu te
+<lb n="3" break="no"/>vaṟ koyi<supplied reason="omitted">l</supplied> <hi rend="grantha">śrī</hi>vi<hi rend="grantha">mā</hi><supplied reason="omitted">ṉam</supplied> kallā<supplied reason="omitted">l</supplied> Eḻu<unclear>n</unclear>taruḷḷuvi<unclear>c</unclear>ceṉ <hi rend="grantha">śrī</hi>uttamaco(ḻ)ḻatevaṟ peru
+<lb n="4" break="no"/><unclear>n</unclear>tiṟattu kuvaḷḷālamuṭaiyāṉ Ampalavaṉ paḻuvūr nakkaṉāna vi<hi rend="grantha">kra</hi>maco(ḻ)ḻa
+<lb n="5" break="no"/>mārāyanne I<hi rend="grantha">śrī</hi>vi<hi rend="grantha">ja</hi>yamaṅkalattu <hi rend="grantha"><unclear>ma</unclear>hāde</hi>vaṟku ṉā<note n="168-1">The inscription stops incomplete in the 5th line.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.332 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">168</citedRange>
+			<citedRange unit="item">332</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
