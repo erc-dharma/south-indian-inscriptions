@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 7.868: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 868. (A.R. No. 240 of 1902). ON THE SAME WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv07p0i0868</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+							
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-07-01" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> kopparake<hi rend="grantha">sa</hi>ripa<hi rend="grantha">nma</hi>kku yāṇṭu patinañcāvatu milāṭṭuk kuṟukkaikūṟṟattu tiru<unclear>k</unclear>
+					<lb n="2" break="no"/>kovalūr ti<unclear>ru</unclear>viraṭṭānattāḻvārkku Uttamacoḻamilāṭuṭaiyār peṇṭāṭṭi kaṇavati mayilāṭi <hi rend="grantha">candrā</hi>tittavaṟ
+					<lb n="3"/>no<hi rend="grantha">ndā</hi>viḷakku Onṟinukku ṉicata<supplied reason="omitted">m</supplied> Uḻakku ney koṇṭu Erikka Īḻaviḷakku Onṟu tirukkovalūr <hi rend="grantha"><unclear>sa</unclear>bh</hi>aiyāriṭai kaḷiyakkaḻanik
+					<lb n="4" break="no"/>kāṇik kolppāṭṭil kiḻkkaṭaiyak kālceyyum vilai <hi rend="grantha">dravya</hi>mum Iṟai<hi rend="grantha">dravya</hi>yamum kuṭuttuk koṇṭu kuṭutteṉ kaṇavati ma
+					<lb n="5" break="no"/>yilāṭiyen Itu pa<hi rend="grantha">nm<unclear>ā</unclear>heśva</hi>ra ra<hi rend="grantha">kṣai <supplied reason="subaudible"><g type="ddanda">.</g></supplied></hi>
+				</p>
+				
+			</div>
+			
+		
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 7.868 by <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1932_01"/>
+						<citedRange unit="page">437</citedRange>
+						<citedRange unit="item">868</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
