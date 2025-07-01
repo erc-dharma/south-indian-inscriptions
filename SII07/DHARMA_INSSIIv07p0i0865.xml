@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 7.865: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 865. (A.R. No. 237 of 1902). ON THE SOUTH WALL OF THE SAME SHRINE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv07p0i0865</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+							
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-07-01" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-05-27" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <div type="textpart" n="A">
+                <head>I</head>	
+                <p>
+					<lb n="1A"/><hi rend="grantha">śrīmaT bhūde</hi>vi<hi rend="grantha">putrasya</hi> <gap reason="lost" quantity="3" unit="character"/> <hi rend="grantha">pannakulotbha</hi>va<hi rend="grantha"><supplied reason="omitted">M</supplied> sa<supplied reason="omitted">rvva</supplied>lokahi</hi>tā<hi rend="grantha">rtthā</hi>ya <hi rend="grantha">śitrameḷasya</hi>
+					<lb n="2A"/><hi rend="grantha">śāsanaM</hi> <g type="pc">.</g> <hi rend="grantha">tribhu</hi>vana<hi rend="grantha">cakra</hi><supplied reason="omitted">va</supplied>tti <hi rend="grantha">śrīrājarājade</hi>vaṟku yāṇṭu Añcāvatu nāṭunakaramuṅ kūṭi
+					<lb n="3A" break="no"/>I<unclear>run</unclear>tu <hi rend="grantha">śrī</hi>kāñcimānakaril ceppeṭṭuppaṭi cekkār ceyyakkaṭava muṟaimai E<unclear>ṇ</unclear>ṇaiyu
+				</p>
+                </div>
+                
+                <div type="textpart" n="B">
+                <head>II</head>
+                <p>
+					<lb n="1B"/><seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ā</seg>ṉavayile <unclear>kūṟi</unclear> viṟkakaṭavan Ivaṉukku Ukaccum paṟaiyum koṭṭakkaṭavatallan Oru tuṟaiyil niruṇṇa
+					<lb n="2B" break="no"/>kkaṭavanallan tan maṉaiyiṟ cetta <unclear>vaṭa</unclear>kkutiruvācalukkup puṟampe <gap reason="lost" quantity="3" unit="character"/> 
+					<lb n="3B"/>tuk kuṭukkakaṭava <gap reason="lost" quantity="10" unit="character"/> llā teṟṟañ ceyyakkaṭavatallan vā<hi rend="grantha">stu</hi>vukkum
+					<lb n="4B"/>mpi <gap reason="lost" quantity="7" unit="character"/> ma veṟṟilaiyum <gap reason="lost" quantity="10" unit="character"/> ntu viṟkakkaṭavan Eṇṇai viṟaku mal<unclear>l</unclear>ātum <gap reason="lost" quantity="6" unit="character"/> kaṭavan
+				 </p>
+                
+                </div>
+            </div>
+			
+
+			<div type="commentary">
+				<p n="3A">The inscription seems to have been chiselled away.</p>
+				<p n="4B">Fragmentary.</p>
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 7.865 by <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1932_01"/>
+						<citedRange unit="page">436</citedRange>
+						<citedRange unit="item">865</citedRange>
+					</bibl>
+					
+				  </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
