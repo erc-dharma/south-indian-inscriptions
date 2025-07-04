@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 7.921: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 921. (A.R. No. 292 of 1902). ON THE NORTH WALL OF THE BRIHANNAYAKI SHRINE IN THE SAME TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv07p0i0921</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+							
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-07-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> tiripuvanacakkaravatti <hi rend="grantha">śrī</hi>kulottuṅkacoḻatevarukku yāṇṭu <num value="28">2 <g type="numeral">10</g> 8</num>āvatu tirukkova<surplus>l</surplus>lūr Uṭaiyā<supplied reason="omitted">r</supplied> tiruviraṭṭāṉamuṭaiya nāyanār koyil periyanācciyārukku tiruppālaippantalirukku<supplied reason="omitted">m</supplied> kai<supplied reason="omitted">k</supplied>koḷan parampan virapa<supplied reason="omitted">t</supplied>tirapiḷḷaiyen vai<supplied reason="omitted">t</supplied>ta cantiviḷakku O<unclear>n</unclear>ṟukku paṇṭārattu Oṭu<supplied reason="omitted">k</supplied>kina kā<supplied reason="omitted">cu</supplied> nūṟṟu muppatukkum paṇṭāra<supplied reason="omitted">t</supplied>te po<supplied reason="omitted">li</supplied>caimāttu nāḻi yeṇṇai
+					<lb n="2"/>viṭṭu cantirātittavarai celvutāka kai<supplied reason="omitted">k</supplied>koṇṭom <hi rend="grantha">śrī</hi>māke<surplus>ya</surplus>curarom Iṟakkuvān keṅkaiiṭai kumari<choice><sic>A</sic><corr>I</corr></choice>ṭai <supplied reason="omitted">ceyta</supplied> pāvaṅ koḷvār panmāke<hi rend="grantha"><unclear>śvara</unclear> rakṣai</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+				</p>
+				
+			</div>
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 7.921 by <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1932_01"/>
+						<citedRange unit="page">454</citedRange>
+						<citedRange unit="item">921</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
