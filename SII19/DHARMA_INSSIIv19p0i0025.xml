@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 19.25: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+                <title type="alt">No. 25. (A.R. No. 135 of 1925.) TIRUVĀḌUTURAI, MAYURAM TALUK, TANJAVUR DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, GŌMUKTĪŚVARA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv19p0i0025</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This records the sale of 4 <hi rend="italic">mā</hi> of tax-free land by the <hi rend="italic">sabhā</hi> of Śāttanūr a <hi rend="italic">brahmadēya</hi> of Tiraimūr-nāḍu on the southern bank, to Śaṅkayaṉ Oṟṟi a member of the regiment <hi rend="bold">Ādityapanma-terinda-Kaikkōḷar</hi> for maintaining a coconut garden (of 1000 trees) belonging to the temple of Tiruvāvaḍutuṟai-Mahādēva and for growing a flower-garden. The yield of 100 palms is said to have been his share for the former work. This might be assigned to <hi rend="bold">Parāntaka I.</hi></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-07-11" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kopparake<hi rend="grantha">sa</hi>ripa<hi rend="grantha">nma</hi>ṟku yāṇṭu 2 Āvatu teṉkarait tiraimurnāṭṭu <hi rend="grantha">brahma</hi>teyam cāttuṉūr <hi rend="grantha">sabhai</hi>yom tiruvāvaṭutuṟai <hi rend="grantha">mahāde</hi>vaṟku Āyiravaṉāḷ teṅkunan=tavāṉañ ceyta Ātittapa<hi rend="grantha">nma</hi>tterin=ta kaikkoḷaril caṅkayaṉoṟṟikku
+                    <lb n="2"/>Eṅkaḷur miṟṟalaṅkuṭi Eṅkaḷ potunilamāṉa nālmācceyum <hi rend="grantha">cantrā</hi>tittavaṟ ni<supplied reason="omitted">ṟ</supplied>kka Iṟaiyiḻicci viṟṟukkuṭutta nilattuk kellai Uṭciṟuvāykkālukku me<supplied reason="omitted">ṟ</supplied>kkum kāmakkāṇi kumaraṉaṅki nilattukku <unclear>vaṭa</unclear> <gap reason="lost" quantity="6" unit="character"/> 
+                    <lb n="3"/>m pāratāyaṉ nāraṇanaṅki nilattukku teṟkum Ivvicaitta Iṉṉāṉkellaiyilu makap<supplied reason="omitted">pa</supplied>ṭṭa nila<supplied reason="omitted">m</supplied> nantavāṉappuṟamāka viṟṟukkuṭuttom <hi rend="grantha">sabhai</hi>yom teṅkāyiramum kāccaṉ nūṟu nūṟu teṅkiṉ pokaṅ koṇṭu Ō <gap reason="lost" quantity="10" unit="character"/> 
+                    <lb n="4"/>piṉ<unclear>pic</unclear>cey Uṇṭu pūna<hi rend="grantha">nda</hi>vāṉañ ceyyavum v<choice><sic>a</sic><corr>ai</corr></choice>ccatu pa<hi rend="grantha">nmāheśvararakṣai</hi> <g type="ddanda">.</g><g type="dashLong">.</g> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus"/>
+                
+            
+            
+            <div type="commentary"/>
+                
+            
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 19.25 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1967_01"/>
+                        <citedRange unit="page">11</citedRange>
+                        <citedRange unit="item">25</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
