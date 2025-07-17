@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.292: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 292. (A.R. No. 36 of 1931.) TIRUKKŌḌIKĀVAL, KUMBHAKONAM TALUK, TANJAVUR DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, TIRUKKŌṬĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0292</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is evidently assignable to <hi rend="bold">Uttama Chōḷa.</hi> It gives the interesting information that while <hi rend="bold">Parāntakaṉ-Mādēvaḍigaḷār</hi> <hi rend="italic">alias</hi> <hi rend="bold">Śembiyan Mahādēviyār the mother of Uttama-Chōḷa and daughter of Maḻavaraiyar</hi> caused to be rebuilt of stone, the original brick-structure of the central shrine of the temple of Mahādēva at Tirukkōḍikāval in Nallāṟṟūr-nāḍu, she ordered the re-engravement on its walls, of the several records of endowments originally incised on loose slabs, and that this is one such document. It is dated in the 9th opposite the 4th regnal year of the <hi rend="bold">Pāṇḍya king Māṟaṉ Śaḍaiyaṉ</hi>, and records a gift of 120 <hi rend="italic">[kaḻañju]</hi> of gold which was entrusted to the <hi rend="italic">sabhā</hi> of Mahēndra-Kōṭṭūr by <hi rend="bold">Vara[guṇa-Mahārāja]</hi>, for burning perpetual lamps with the daily supply of a <hi rend="italic">nāḻi</hi> of ghee in the temple.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopparakecaripaṉ<hi rend="grantha">ma</hi><supplied reason="omitted">r</supplied>kku yāṇṭu <num value="11"><g type="numeral">10</g> 1</num><g type="dash"/>Āvatu vaṭakarai nallāṟṟūrnāṭṭu tirukoṭikāvil <hi rend="grantha">mahāde</hi>varkku <hi rend="grantha">śrī</hi>uttamacoḻatevarai tiruvayiṟuvāytta maḻa varaiyar makiḷār
+<lb n="2" break="no"/><hi rend="grantha">prā</hi>ntakaṉ <hi rend="grantha">mā</hi>tevaṭikaḷārāna cempiyan<hi rend="grantha">m(ā)h<choice><sic>a</sic><corr>ā</corr></choice>de</hi>viyār I<hi rend="grantha">dda</hi>verkku muṉ ṉiṭṭikai<unclear>ppaṭaiyālu</unclear>ḷḷa <hi rend="grantha">śrī</hi>koyilait tavirttu kallāle <hi rend="grantha">śrī</hi>vimāṉa mamaippittu I<hi rend="grantha">de</hi>varuṭaiya 
+<lb n="3"/>paṭikaḷ muṉpu <hi rend="grantha">dharmma</hi>ttukku v<unclear>ait</unclear>tu kaṟkaḷil veṭṭikkiṭanta Avai vevvēṟu kallāl pala viṭattilāyk kiṭanta Avaiellām Inta <hi rend="grantha">śrī</hi> vimāṉattiṉmel muṉ ki <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="4"/>Eṟa veṭṭikkoḷka Eṉṟu Aruḷicceya veṭṭiṉapaṭi muṉ kiṭanta paṭikaḷil Itu Oru paṭi <supplied reason="undefined"><g type="ddanda">.</g></supplied> komāṟaṉ caṭaiyaṟku yāṇṭu 4 Āvati ṉetir Oṉpatāvatu Ā <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="5"/>rukkoṭikāvil <hi rend="grantha">mahāde</hi>varkku non=tāviḷakkiṉukku vara <gap reason="lost" quantity="7" unit="character"/> <hi rend="grantha">ja</hi>r kuṭutta poṉ ṉūṟṟi rupatiṉ <gap reason="lost" quantity="4" unit="character"/> Ippoṉ <hi rend="grantha">mahentra</hi>koṭṭūr <hi rend="grantha">sabhai</hi>yoṅ <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="6"/>licaiyāl nicatam nāḻi ney <hi rend="grantha">rāja</hi>māttāṇṭaṉukku <hi rend="grantha">śrī</hi>[ko <gap reason="lost" quantity="5" unit="character"/> <unclear>ko</unclear>ṇṭu ceṉṟu tirukkoyiluṭaiyār <gap reason="lost" quantity="9" unit="character"/> kuṭuppomāṉom <hi rend="grantha">mahentra</hi>koṭṭūr <hi rend="grantha">sabhai <gap reason="lost" quantity="5" unit="character"/> </hi>
+<lb n="7"/>In=ta <hi rend="grantha">śrī</hi> vimāṉattile Eṟa veṭṭinamaiyil muṉ ṉivā<hi rend="grantha">ja</hi>kam veṭṭikkiṭanta taṉik<unclear>kallāl</unclear> <hi rend="grantha">Upai</hi>yo<hi rend="grantha">ga</hi>m Illāmaiyil Atu tavirntatu <supplied reason="undefined"><g type="ddanda">.</g></supplied><note n="145-1">The lines are built in at the right end.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.292 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">144-145</citedRange>
+			<citedRange unit="item">292</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
