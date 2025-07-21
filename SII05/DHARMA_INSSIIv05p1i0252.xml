@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 5.252: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 252. (A.R. No. 576 of 1893). ON THE EAST WALL OF THE SAME SHRINE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:reda">
+						<forename>Renato</forename>
+						<surname>Dávalos</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv05p1i0252</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:reda" when="2025-07-21" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="omitted"><g type="visarga"></g><g type="ddanda">.</g></supplied> pārtdhi</hi>va<hi rend="grantha"> saṃvatsara</hi>ttu <hi rend="grantha">makara</hi> nāyaṟṟu <hi rend="grantha">pūrvvapakṣa</hi>ttu <hi rend="grantha">ṣaṣṭhi</hi> yum veḷḷikkiḻamaiyum peṟṟa Uttiraṭṭāti <unclear>nāḷ tirumurukaṉ</unclear>pūṇṭi Āḷuṭaiya nāyaṉārkkup pāṇṭimaṇṭalattuc ceḻuvaṉūruṭaiyāṉ <hi rend="grantha">tri</hi>vi<hi rend="grantha">kra</hi>maṉ kaṇṇappaṉāṉa teṉṉavataraiyaṉeṉ
+<lb n="2"/>Iṉnāyaṉarkku Eṉ perāl nāṉ kaṭṭiṉa cantikku Amutupaṭikku nāḷ Oṉṟukku Arici kuṟuṇi nā ṉāḻiyāka Āṇṭoṉṟukku Arici <hi rend="grantha">�</hi> tana <gap reason="lost" quantity="2" unit="character"/> <hi rend="grantha">�dhama<num value="62">6 <g type="numeral">10</g> 2</num></hi> m paṭi veñcaṉattukkup paruppu Amutukku nāḷ Oṉṟukkup payaṟu nāḻikku <hi rend="grantha">I5�vī-</hi> Āka Āṇṭoṉṟukku <hi rend="grantha">I 5 �</hi> m
+<lb n="3"/>Āka <hi rend="grantha">I rā<num value="900">9 <g type="numeral">100</g></num> �</hi> ṅam kaṟiamutukku nāḷ Oṉṟukkup palam <hi rend="grantha"><unclear>4</unclear></hi>- Āka Āṇṭoṉṟukku palam <num value="1404"><g type="numeral">1000</g> 4 <g type="numeral">100</g> 4</num> kku <unclear>nirvilaivilai</unclear>ppaṭi ṭṭa <hi rend="grantha">�</hi> m nāḷ Oṉṟu <gap reason="lost" quantity="2" unit="character"/> yum Oṉṟu Āṇṭoṉṟukku Uppu taṅa<hi rend="grantha">5 �</hi> ḷuka <gap reason="lost" quantity="1" unit="character"/> �viṉ vilaippaṭi ṭṭa 5 m nāḷ Oṉ ṟukku miḷaku Amutu � Āka Āṇṭoṉṟukku miḷaku<hi rend="grantha">�6<g type="pc"/></hi>
+<lb n="4"/>� kku nirvilai vilaippaṭi ṭṭa 7 I Āka ṭṭa <num value="30">3 <g type="numeral">10</g></num>- m Inta Amutupaṭikkum paruppu Amutukkum <hi rend="grantha">I �</hi> kku tirumurukaṉpūṇṭiyil <gap reason="lost" quantity="2" unit="character"/> ṭi <gap reason="lost" quantity="1" unit="character"/> yāṉaḷakka vā<unclear>ṭ</unclear>kaikku poti 4 ṉāl <hi rend="grantha">I <num value="400">4 <g type="numeral">100</g></num></hi> kku 3 Āka ṭṭa <num value="90">9 <g type="numeral">10</g></num> kku <gap reason="lost" quantity="1" unit="character"/> palavilaiyum <unclear>nirvi</unclear>ṭṭa ca�ku <hi rend="grantha">I</hi> � vilaippaṭi <hi rend="grantha">I �</hi> m Āka <num value="30">3 <g type="numeral">10</g></num> kkum
+<lb n="5"/><hi rend="grantha">I6</hi><hi rend="italic">n</hi>� ṅa kku <hi rend="grantha">I</hi> <hi rend="italic">n</hi> <hi rend="grantha"><num value="60">6 <g type="numeral">10</g></num>�</hi> kku nāṉ koṇṭu viṭṭa karaivaḻināṭṭuk kāṇānilattuc caṭarkaḷpaṟṟu Eṉṟu per kūvappaṭṭa <gap reason="lost" quantity="3" unit="character"/> ṉāl vitai <hi rend="grantha">�</hi> Inta vitai patiṉaiṅkalattukkum Aṉaittu Upātiyum Uṭpaṭa vitai � kku 2 Āka ṭṭa <num value="30">3 <g type="numeral">10</g></num> m <hi rend="grantha">I <num value="10"><g type="numeral">10</g></num> �</hi> Āka <hi rend="grantha">I �</hi>
+<lb n="6" break="no"/><hi rend="grantha">�</hi> Āka Inta paṇam muppatukkum nellu nūṟṟu Aṟupattaiṅkalattukkum Inta vitai patiṉaiṅkalamum Intak koyilil ka <gap reason="lost" quantity="2" unit="character"/> <unclear>n</unclear> tevatāṉamāka Āṇṭuto ṟum <hi rend="grantha">cantrā</hi> tittavaraiyum <gap reason="lost" quantity="2" unit="character"/> <unclear>ta</unclear> ceytu koṇṭu Intappaṇamum pāṭṭane
+<lb n="7" break="no"/>llum <hi rend="grantha">śrī</hi>paṇṭārattile celavākki nāṉ kaṭṭi<unclear>na</unclear> canti muṭṭāmal Amu<unclear>tu ce</unclear>yvittup potakkaṭavārkaḷāka <gap reason="lost" quantity="3" unit="character"/> nāṉāḻiyum paṉmā<hi rend="grantha">heśva</hi> rar per Aiñcukkum <unclear>p</unclear>er Oṉṟukkuc coṟu nāḻi Ākac coṟu Aiññāḻiyum Eṉ perāl ceyta
+<lb n="8"/>tiruṉantavaṉattukku Intat tiruṉantavaṉañ ceytu tiruppaḷḷittā<unclear>mam</unclear> <gap reason="lost" quantity="2" unit="character"/> ppotukiṟa Ā<unclear>ṇ</unclear>ṭoṉṟukku nāḷ Oṉṟukkuc coṟu Aiññā <gap reason="lost" quantity="2" unit="character"/> kkuc coṟu Iṟunāḻiyum Ākap per Eḻukkuc coṟu kuṟuṇi nāṉāḻiyum Ippaṭi Iṭṭup pokakkaṭavārkaḷākavum Ippaṭikku E
+<lb n="9" break="no"/>ṉ perāl kaṭṭiṉa canti <hi rend="grantha">cantrā</hi> tittavaraiyum muṭṭāmal naṭattip pokakaṭavārkaḷākavum Ippaṭikkuc cempilum cilaiyilum ve <gap reason="lost" quantity="4" unit="character"/> <hi rend="grantha">tri</hi>vi<hi rend="grantha">kra</hi> maṉ kaṇṇappaṉāṉa teṉṉavataraiyaṉeṉ Ippaṭikku Ivai teṉṉavataraiyaṉ Eḻuttu <g type="pc"/> paṉmā<hi rend="grantha">heśvararakṣai(ḥ)<g type="pc"/></hi> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 5.252 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> converted to DHARMA conventions by Renato Dávalos.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1925_01"/>
+			<citedRange unit="page">92</citedRange>
+			<citedRange unit="item">252</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
