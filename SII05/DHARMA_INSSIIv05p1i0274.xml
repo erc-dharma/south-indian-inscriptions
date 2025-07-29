@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 5.274: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 274. (A.R. No. 598 of 1893). ON THE SOUTH WALL OF THE SAME SHRINE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:reda">
+						<forename>Renato</forename>
+						<surname>Dávalos</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv05p1i0274</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:reda" when="2025-07-29" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+
+	<lb n="1"/><hi rend="grantha">svastiśrī<g type="visarga"/> <g type="ddanda">.</g> </hi>vira<hi rend="grantha">rā</hi>cakecari<hi rend="grantha">panmarā</hi>na<hi rend="grantha"> tripu</hi>vaṉac<hi rend="grantha">śa</hi>
+
+	<lb n="2" break="no"/><hi rend="grantha">gra</hi>vattikaḷ <hi rend="grantha">śrī</hi>kulottuṅkacoḻatevaṟku
+
+	<lb n="3"/>yāṇṭu panniraṇṭāvatu poṅkallūrkāl
+
+	<lb n="4" break="no"/>nāṭṭukkira<surplus>ru</surplus> nūr<choice><sic>a</sic><corr>ā</corr></choice>na koḻumaṅkoṇṭacoḻa
+
+	<lb n="5" break="no"/>nallūr <hi rend="grantha">mahā</hi>tevar tiruvākicuramuṭaiyāṟku
+
+	<lb n="6"/>Amutupaṭikku cunta<unclear>n</unclear> nilai Uṭaiyārāna ku
+
+	<lb n="7" break="no"/>lottuṅkacoḻa Aṇuttirappallava
+
+	<lb n="8" break="no"/>raiya<surplus>n</surplus>nen Iṭṭa nilam koṅkūr kuḷa<unclear>t</unclear>
+
+	<lb n="9" break="no"/>tiṟ karaikkuk kiḻkaḷaril ceyapālar <supplied reason="omitted">c</supplied>e
+
+	<lb n="10" break="no"/>ku meṟku nila<supplied reason="omitted">m</supplied> Orumāvum Innāyanāṟ<unclear>ku</unclear>
+
+	<lb n="11"/>kalveṭṭik kuṭutten cantirātitti<supplied reason="omitted">ya</supplied>
+
+	<lb n="12" break="no"/>varai cel<supplied reason="omitted">la</supplied> Itu <hi rend="grantha">pa</hi>n<hi rend="grantha">māheśva</hi>rā ra<hi rend="grantha">kṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 5.274 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> converted to DHARMA conventions by Renato Dávalos.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1925_01"/>
+			<citedRange unit="page">100</citedRange>
+			<citedRange unit="item">274</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

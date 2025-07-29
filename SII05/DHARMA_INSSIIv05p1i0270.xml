@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 5.270: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 270. (A.R. No. 594 of 1893). ON THE SAME WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:reda">
+						<forename>Renato</forename>
+						<surname>Dávalos</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv05p1i0270</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:reda" when="2025-07-29" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:83215">
+
+
+<p>
+
+	<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="omitted"><g type="ddanda">.</g></supplied> tribhu</hi>vanaccak<hi rend="grantha">kra</hi>vattikaḷ <hi rend="grantha">śrī</hi>virarā<hi rend="grantha"><unclear>je</unclear>ndrade</hi>vaṟku yāṇṭu pa
+
+	<lb n="2" break="no"/><hi rend="grantha">nni</hi>raṇṭāvatu poṅkalūkkānāṭṭu kiranūrāna koḻumaṅkoṇṭacoḻa
+
+	<lb n="3" break="no"/>nallūr viyāpāri tūḷan kovanāna camaiyacenāpatiyen Āḷuṭaiyār
+
+	<lb n="4"/>tiruvākicuramuṭaiyāṟku can=ti viḷak konṟukku tuḷai kaḻañcu pon <hi rend="grantha">śrī</hi>paṇṭā
+
+	<lb n="5" break="no"/>rattil Oṭukkinen camaiyacenāpatiyen Ippon kaikkoṇṭen yik
+
+	<lb n="6" break="no"/>koyilil kāṇiyuṭaiya civa<hi rend="grantha">brāhma</hi>ṇan kācipan pāṇṭiyataniñci cai<surplus>va</surplus>ve
+
+	<lb n="7" break="no"/>cura<surplus>m</surplus>muṭaiyānāna cai<surplus>v</surplus>vaccakkaravattiyen kuṭaṅkoṭu koyilpukuvār Ivvi<supplied reason="omitted">ḷa</supplied>kku E
+
+	<lb n="8" break="no"/>rippārāka ca<hi rend="grantha">ndrāddhi</hi>va<unclear>ṟ</unclear> kalveṭṭikkuṭutten pa<hi rend="grantha">nmāheśvara rakṣai</hi> <supplied reason="omitted"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 5.270 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> converted to DHARMA conventions by Renato Dávalos.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1925_01"/>
+			<citedRange unit="page">99</citedRange>
+			<citedRange unit="item">270</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
