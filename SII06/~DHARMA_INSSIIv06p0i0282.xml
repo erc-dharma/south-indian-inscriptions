@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 6.282: original edition by K. V. Subrahmanya Aiyer</title>
+                <title type="alt">No. 282. (A.R. No. 304 of 1897). ON A SLAB BUILT INTO THE FLOOR OF THE SAME TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>		
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv06p0i0282</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-07-30" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha"><unclear>sva</unclear> <gap reason="lost" quantity="4" unit="character"/> </hi> kovicaiya nan
+                    <lb n="2" break="no"/> <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="3"/><hi rend="grantha">ma <gap reason="lost" quantity="1" unit="character"/> </hi> rumarkku yā
+                    <lb n="4" break="no"/>ṇṭu patiṉeḻāva
+                    <lb n="5" break="no"/>tu Iḷaiyanūrnāṭṭu I<unclear>ḷaiya</unclear>ṉu
+                    <lb n="6" break="no"/>riruntuvāḻu<supplied reason="omitted">m</supplied> moṉaiyār ma
+                    <lb n="7" break="no"/><unclear>kaṉ</unclear> viṉaiyā<hi rend="grantha">ditya</hi>ṉ tikkāli
+                    <lb n="8" break="no"/><unclear>ya</unclear>ṭikaḷukku Oḻuk<unclear>ka</unclear>vi naṉ <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="9"/> <gap reason="lost" quantity="1" unit="character"/> ri Ariciyu māḻākku neyum
+                    <lb n="10"/> <gap reason="lost" quantity="2" unit="character"/> kku toṇṭaipūvun niyati <gap reason="lost" quantity="1" unit="character"/> 
+                    <lb n="11"/><unclear>ti</unclear>kkāli Aṭikaḷukku vaḻi
+                    <lb n="12" break="no"/>pāṭu cey<unclear>vatāka</unclear> kuṭuttān <gap reason="lost" quantity="2" unit="character"/> 
+                    <lb n="13"/> <gap reason="lost" quantity="1" unit="character"/> lu paṭṭi <gap reason="lost" quantity="4" unit="character"/> lavarkku <unclear>pūca</unclear>
+                    <lb n="14" break="no"/>ṉai ceyyak koṭut<unclear>tān</unclear>
+                    <lb n="15" break="no"/> <gap reason="lost" quantity="1" unit="character"/> taṉaiyum morunāḷ muṭ
+                    <lb n="16" break="no"/> <gap reason="lost" quantity="2" unit="character"/> māyiṟa kaṅkaiiṭai<unclear>k kumari</unclear><note n="144-1">This inscription is damaged and obstructed by a pillar.</note>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 6.282 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                <p>See also edition by Emmanuel Francis (<ref target="DHARMA_INSPallava00133.xml"/>).</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SubrahmanyaAiyer1928_01"/>
+                        <citedRange unit="page">144</citedRange>
+                        <citedRange unit="item">282</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
