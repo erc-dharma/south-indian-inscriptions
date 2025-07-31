@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.49: original edition by Eugen Julius Theodor Hultzsch</title>
+				<title type="alt">No. 49.—ON THE SOUTH WALL OF THE BILVANATHESVARA SHRINE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0049</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription belongs to the 7th year of the reign of <hi rend="bold">Rājarāja-Kēsarivarman</hi>, <hi rend="italic">i.e.</hi> of the <hi rend="bold">Chōḷa</hi> king <hi rend="bold">Rājarāja</hi> I. It contains a date which admits of astronomical calculation, and which has been repeatedly discussed since its discovery in 1890.<note n="102-1">Above, Vol. I. p. 169; <hi rend="italic">Ind. Ant</hi>. Vol. XIX. p. 70 ff. and Vol. XXIII. p. 297.</note> Professor Kielhorn has shown that it corresponds to the 26th September A.D. 991.<note n="102-2"><hi rend="italic">Ep. Ind</hi>. Vol. IV. p. 66 f.</note> </p>						
+
+						<p>The inscription records a visit to the temple by a certain <hi rend="bold">Madurāntakaṉ-Kaṇḍarādittaṉār</hi>, who caused one thousand jars of water to be poured over the god. When he had finished his worship, he observed that the offerings in the temple had been reduced to a minimum and that the temple lamps were only feebly burning. He called for the authorities of the temple and of the village and asked them for a detailed statement of the temple revenue and expenditure.</p>						
+
+						<p>Here unfortunately the inscription is built in. But from the preserved portion it is evident that Madurāntakaṉ-Kaṇḍarādittaṉār, <hi rend="italic">i.e.</hi> <hi rend="bold">Gaṇḍarāditya</hi>, the son of <hi rend="bold">Madhurāntaka</hi>, must have been a person of high standing and influence. He cannot be identical with the Chōḷa king Gaṇḍarādityavarman, because the latter had died before the reign of Ariṁjaya, the grandfather of Rājarāja I.<note n="102-3">See line 50 of the large Leyden grant.</note> Perhaps he was an (otherwise unknown) son of Madhurāntaka, the son of Gaṇḍarādityavarman and immediate predecessor of Rājarāja I.<note n="102-4">See above, Vol. I. p. 112, and <hi rend="italic">Ep. Ind</hi>. Vol. IV. p. 331.</note> </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-07-31" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti</hi><note n="102-5">The words <hi rend="grantha">svasti śrī ko rāja</hi> are written on an erasure.</note> <hi rend="grantha">śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> ko rājarājakesari</hi>va<hi rend="grantha">mma</hi>ṟk<hi rend="grantha">ku</hi><note n="102-6">Read va<hi rend="grantha">rma</hi>rkku.</note> yā<unclear>ṇ</unclear>ṭu 7 Āvatu paṭuvūr- <hi rend="grantha">k<unclear>k</unclear>o</hi>ṭṭattu<note n="102-7">Read kkoṭṭattu.</note> <unclear>mī</unclear>yāṟunāṭṭu<note n="102-8">Read tīkkāli.</note> ti <hi rend="grantha">kkā</hi>livallattuttiruttikkāli<note type="repeated" n="102-8"/>āḻvārai Ivvāṭṭe Ayppacit
+<lb n="2" break="no"/>tiṅkaḷ<note n="102-9">Read <hi rend="grantha">paurṇa</hi>.</note> <hi rend="grantha">paunnamāsi</hi>yum Irevatiyum peṟṟa vi<hi rend="grantha">ṣu</hi>vil<note n="102-10">Read vi<hi rend="grantha">ṣu</hi>vattil.</note> <hi rend="grantha">somagraha</hi>ṇattiṉāṉṟu maturān=takaṉ kaṇṭarātittaṉār Āḻvārai <hi rend="grantha">sahasra</hi>ka<unclear>lai</unclear>camāṭṭuvikka va
+<lb n="3" break="no"/><hi rend="grantha">n</hi>tu tiruvaṭi toḻutu niṟka Āḻvārk
+<lb n="4" break="no"/>kukkāṭṭukiṉṟa tiruvamurtum Irunāḻiya<unclear>ri</unclear>
+<lb n="5" break="no"/>cittiruvamurtāykkaṟiyamurtuneyamur
+<lb n="6" break="no"/>tu(m)n=tayiramurtum Iṉṟiyey non=tā<hi rend="grantha"/>
+<lb n="7" break="no"/>viḷakkum Āla<hi rend="grantha">sya</hi>māyirukkakkaṇṭu Itti
+<lb n="8" break="no"/><unclear>ru</unclear>kkoyil civa<hi rend="grantha">brāhma</hi>ṇaraiyum<note n="102-11">Read tīkkāli.</note> tikkālival
+<lb n="9" break="no"/>lattu <hi rend="grantha">sabhai</hi>yāraiyum Aḻaittu It<unclear>t</unclear><supplied reason="omitted">eva</supplied>
+<lb n="10" break="no"/>ruṭaiya Āyamum <hi rend="grantha">vya</hi>yamum tiruvā<unclear>ṇai</unclear>kku(m)n=tiru<supplied reason="omitted">vo</supplied>
+<lb n="11" break="no"/>laikkum Uriya vaṇṇañcollukaveṉṟu viṉa<supplied reason="omitted">va civa</supplied>
+<lb n="12" break="no"/><hi rend="grantha">brāhma</hi>ṇarum<note type="repeated" n="102-11"/>tikkālivallattu <hi rend="grantha">sabhai</hi>yārum col <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Hultzsch1899_01">
+
+<p>(Line 1.) Hail ! Prosperity ! In the 7th year (<hi rend="italic">of the reign</hi>) of king <hi rend="bold">Rājarāja-Kēsarivarman</hi>,—on the day of an eclipse of the moon at the equinox which corresponded to (the day of) <hi rend="italic">Rēvatī</hi> and to the full-moon <hi rend="italic">tithi</hi> of the month of <hi rend="italic">Aippaśi</hi> in this very year,— <hi rend="bold">Madurāntakaṉ-Kaṇḍarādittaṉār</hi> came in order to have one thousand jars of water poured over (<hi rend="italic">the god</hi>) <hi rend="bold">Tiruttīkkāli-Āḻvār</hi> at <hi rend="bold">Tīkkāli-Vallam</hi> in <hi rend="bold">Mīyāṟu-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Paḍuvūr-kōṭṭam</hi>, and worshipped the holy feet (<hi rend="italic">of the god</hi>).</p>
+
+<p>(L. 3.) While (<hi rend="italic">he</hi>) stood (<hi rend="italic">in the temple), (he</hi>) observed that the offerings presented to the <hi rend="bold">Āḻvār</hi> were reduced to two <hi rend="italic">nāḻi</hi> of rice, that the offerings of vegetables, the offerings of ghee and the offerings of curds had ceased, and that the perpetual lamps were neglected.</p>
+
+<p>(L. 7.) (<hi rend="italic">He</hi>) called for the <hi rend="italic">Śiva-Brāhmaṇas</hi> of this sacred temple and the members of the assembly of <hi rend="bold">Tīkkāli-Vallam</hi> and asked:—“State the revenue and expenditure of this temple, in accordance with the royal order and the royal letter.”</p>
+
+<p>(L. 11.) The <hi rend="italic">[Śiva-]Brāhmaṇas</hi> and the members of the assembly of <hi rend="bold">Tīkkāli-Vallam • • • • • </hi></p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.49 by <bibl><ptr target="bib:Hultzsch1899_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Hultzsch1899_01"/>
+			<citedRange unit="page">101-103</citedRange>
+			<citedRange unit="item">49</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
