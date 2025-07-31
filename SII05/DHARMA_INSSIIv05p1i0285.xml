@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 5.285: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 285. (A.R. No. 609 of 1893). ON THE NORTH WALL OF THE SHRINE IN THE SUBRAHMANYA TEMPLE AT PALNI, PALNI TALUK, MADURA DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:reda">
+						<forename>Renato</forename>
+						<surname>Dávalos</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv05p1i0285</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:reda" when="2025-07-31" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:83215">
+
+<p>
+
+	<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="omitted"><g type="ddanda">.</g></supplied> śrī</hi>maṉma<hi rend="grantha">hā</hi>maṇṭa<unclear>li</unclear>curaṉ Ari
+
+	<lb n="2" break="no"/>rā<unclear>ya</unclear>vipāṭaṉ pā<hi rend="grantha">ṣai</hi>kkuta<unclear>ppu</unclear>varāyarukaṇ
+
+	<lb n="3" break="no"/>ṭaṉ <hi rend="grantha">śrī</hi>viranañcaṇauṭaiya<unclear>ṟku</unclear> cellāniṉ
+
+	<lb n="4" break="no"/>ṟa Utiroṟkāri varu<hi rend="grantha">ṣa</hi>ttu t<unclear>ai</unclear>y<g type="mātam"></g> <num value="20">2 <g type="numeral">10</g></num><g type="pc"/>
+
+	<lb n="5"/>Aparapa<hi rend="grantha">kṣa</hi>ttu veḷḷikki<unclear>ḻa</unclear>maiyum re
+
+	<lb n="6" break="no"/><unclear>va</unclear>teyum <hi rend="grantha">pa</hi>ñ<hi rend="grantha">ccami</hi>yu<hi rend="grantha">m</hi> peṟṟa nāḷ nāyiṉār Iḷai
+
+	<lb n="7" break="no"/>yanāyiṉā<supplied reason="omitted">r</supplied>kku Amutupaṭikku vaiykāvūrnā
+
+	<lb n="8" break="no"/><unclear>ṭ</unclear>ṭu kalaiyaṉputtūril capaiyāril periya
+
+	<lb n="9"/>perumāḷnampi tiruvāḻi Āḻvāren Eṉ <hi rend="grantha">1</hi><note>This inscription is incomplete.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 5.285 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> converted to DHARMA conventions by Renato Dávalos.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1925_01"/>
+			<citedRange unit="page">104</citedRange>
+			<citedRange unit="item">285</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
