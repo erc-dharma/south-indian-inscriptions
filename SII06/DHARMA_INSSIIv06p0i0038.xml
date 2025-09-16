@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 6.38: original edition by K. V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 38. (A.R. No. 88 of 1897). ON THE NORTH WALL OF THE MANDAPA IN FRONT OF THE SAME SHRINE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv06p0i0038</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-09-16" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti śrī</hi> <g type="gomutraInitial">.</g> Uṭaiyār <hi rend="grantha">ja</hi>yaṅkoṇṭacoḷi
+					<lb n="2" break="no"/><hi rend="grantha">śva</hi>ramuṭaiyārkku muṭittalaikoṇṭacoḻac<unclear>carup</unclear>
+					<lb n="3" break="no"/>petimaṅkalattu piṭākaiy Āḷavantaceri tiru
+					<lb n="4" break="no"/>nāmattukkāṇiyāṉa rāca<unclear>r</unclear>ācavatikku meṟku r<unclear>āce</unclear>
+					<lb n="5" break="no"/>ntiracoḻavāykkālukku vaṭakku mutaṟ kaṇṇāṟṟu
+					<lb n="6"/>muṉṟāñ catirattu kiḻkkaṭaiya <g type="nilam"/> muṉṟumāviṉ ki
+					<lb n="7" break="no"/>ḻeṭṭumā Itil nālāna tara nila<supplied reason="omitted">m</supplied> 1<g type="dash"/>mā 1/2 kiḻ 4 <seg rend="check"><unclear>�</unclear></seg> Aiñcānta
+					<lb n="8" break="no"/>ra <g type="nilam"/> 1/2<g type="dash"/>mā <seg rend="check">�</seg> kiḻ 3/4 + 1/20 Āṟāntara <g type="nilam"/> 3/80 + <seg rend="check">�</seg> kiḻ 1/4 + 3 � nālāñcatirattu
+					<lb n="9" break="no"/>ṇṭa <g type="nilam"/> 4<g type="dash"/>mā <seg rend="check">��</seg> <gap reason="lost" quantity="4" unit="character"/> kiḻkkaṭaiya <g type="nilam"/> <seg rend="check">ḍa��<unclear>�</unclear></seg> Itil pattā<unclear>n</unclear>
+					<lb n="10"/>tara <g type="nilam"/> <unclear>1</unclear><g type="dash"/>mā <seg rend="check">��</seg> <gap reason="lost" quantity="7" unit="character"/> <seg rend="check">��</seg>mā Iraṇṭāṅ ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟu <unclear>muṉṟā</unclear>ñ
+					<lb n="11"/>catirattu teṟka <gap reason="lost" quantity="7" unit="character"/> Itil teṉkiḻkkaṭaiya <gap reason="lost" quantity="3" unit="character"/> 
+					<lb n="12"/>Itil Aiñcān <unclear>tara</unclear> <g type="nilam"/> 1/2 + 2<seg rend="check">�</seg> Āṟān tara <g type="nilam"/> 1/2<g type="dash"/>mā nālā <gap reason="lost" quantity="4" unit="character"/> m
+					<lb n="13"/>teṟkaṭaiya <g type="nilam"/> 4<g type="dash"/>mā Itil kiḻkkaṭaiya <g type="nilam"/> 2<g type="dash"/>mā ti <gap reason="lost" quantity="2" unit="character"/> 
+					<lb n="14"/>ttān taramu nālān taramu <g type="nilam"/> <seg rend="check">��</seg> Aiñcān tara <g type="nilam"/> <unclear>3/80</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+					<lb n="15"/>kaṭaiya <g type="nilam"/> 4<g type="dash"/>mā Itil kiḻkkaṭaiya <g type="nilam"/> 3<g type="dash"/>mā Iti<unclear>l</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+					<lb n="16"/>ra <g type="nilam"/> kiḻ 1/2 <gap reason="lost" quantity="2" unit="character"/> Aiñcān tara <g type="nilam"/> <seg rend="check">�</seg> kiḻ <seg rend="check">�</seg>m Iṅke <g type="nilam"/> 1<g type="dash"/>mā Aiñcā
+					<lb n="17" break="no"/>n taramu muṉṟāṅ kaṇṇāṟṟu Iraṇṭāñ catirattuṇṭa <g type="nilam"/> 4 + 1/20
+					<lb n="18" break="no"/><seg rend="check">��</seg> Itil vaṭakkaṭaiya <g type="nilam"/> 3<seg rend="check">���</seg> <unclear>I</unclear>til vaṭakkaṭaiya <g type="nilam"/>
+					<lb n="19"/><seg rend="check">�</seg> Eḻān taram Itaṉ teṟku <g type="nilam"/> 1<g type="dash"/>mā <seg rend="check">�</seg> Aiñcān taram Itaṉ teṟku
+					<lb n="20"/>1<g type="dash"/>mā ku <g type="nilam"/> 1/80<seg rend="check">�</seg> Itil Āṟān tara <g type="nilam"/> 1/2<g type="dash"/>mā Eḻān tara <g type="nilam"/> <seg rend="check">��</seg> teṟka
+					<lb n="21" break="no"/><unclear>ṭai</unclear>ya <g type="nilam"/> 1<g type="dash"/>mā <seg rend="check">��</seg> Āṟān taram muṉṟāñ catirattu vaṭakkaṭaiya
+					<lb n="22"/><g type="nilam"/> 3<g type="dash"/>mā <gap reason="lost" quantity="2" unit="character"/> Itil meṟkaṭaiya <g type="nilam"/> 1<g type="dash"/>mā <gap reason="lost" quantity="3" unit="character"/> Aiñcān taram mu
+					<lb n="23" break="no"/>ṉaṟāṅ ka<unclear>ṇṇāṟ</unclear>ṟu muṉṟāñ catirattu teṟkaṭaiya <g type="nilam"/> 4<g type="dash"/>mā 3/80 + <seg rend="check">�</seg>
+					<lb n="24"/>Itil teṟkaṭaiya <g type="nilam"/> 2<g type="dash"/>mā Aiñcān taram vaṭakkaṭaiya <g type="nilam"/> <gap reason="lost" quantity="4" unit="character"/> 
+				</p>
+				
+			</div>
+			
+	
+			
+			<div type="commentary">
+				<p n="24">The inscription is incomplete.</p>
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 6.38 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1928_01"/>
+						<citedRange unit="page">21</citedRange>
+						<citedRange unit="item">38</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
