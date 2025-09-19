@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 3.48: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">No. 48.—ON THE WEST WALL OF THE BILVANATHESVARA SHRINE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv03p0i0048</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>As stated in the introductory remarks to No. <ref target="DHARMA_INSSIIv03p0i0047">47</ref>, the subjoined inscription was copied from an earlier stone inscription when the central shrine of the temple was pulled down. It records the gift of a lamp by the same queen as No. <ref target="DHARMA_INSSIIv03p0i0047">47</ref>, who was the consort of the <hi rend="bold">Bāṇa</hi> king <hi rend="bold">Vāṇavidyādhara</hi> and the daughter of Pratipati-Araiyar (<hi rend="italic">i.e.</hi> the Western <hi rend="bold">Gaṅga</hi> king <hi rend="bold">Pṛithivīpati</hi> I.), the son of <hi rend="bold">Śivamahārāja</hi>. From the subjoined inscription we learn that her actual name was <hi rend="bold">Kundavvai</hi>.<note>On three Chōḷa queens of the same name see <hi rend="italic">Ep. Ind</hi>. Vol. V. p. 105, note 5.</note></p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-07-31" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">sakalajaga<supplied reason="omitted">t</supplied></hi>t<hi rend="grantha">ra</hi>yā<hi rend="grantha"><choice><sic>d</sic><corr>bh</corr></choice>i</hi>va<hi rend="grantha"/>
+                    <lb n="2" break="no"/><choice><sic>n=t</sic><corr><hi rend="grantha">nd</hi></corr></choice>ita<hi rend="grantha">surāsurādhīśaparameśvarapra</hi>ti<hi rend="grantha">hār<choice><sic>i</sic><corr>ī</corr></choice><choice><sic>ka</sic><corr><hi rend="grantha">kṛ</hi>ta</corr></choice>mahā</hi><choice><sic>va</sic><corr><hi rend="grantha">ba</hi></corr></choice><hi rend="grantha">likulo<supplied reason="omitted">d</supplied>bha</hi>vavāṇavi<hi rend="grantha">dyādha<supplied reason="omitted">ra</supplied>rājarā</hi>ṉa vāṇa<hi rend="grantha">rā</hi>ya<choice><sic><hi rend="grantha">ra</hi></sic><corr>r</corr></choice> <hi rend="grantha">gogu</hi>ṉi<hi rend="grantha">dha<supplied reason="omitted">r</supplied>mmaparamadha<supplied reason="omitted">r</supplied>mmamahārāja</hi>ni<hi rend="grantha">pu</hi>ṇi<hi rend="grantha">lapuraparameśvararā</hi>ṉa <hi rend="grantha">śrī</hi>nā<hi rend="grantha">radhaśrī<surplus>ri</surplus>ma</hi>na<hi rend="grantha">śi</hi>va<hi rend="grantha">mahārāja</hi>pperumāṉaṭikaḷ makaṉār <hi rend="grantha">pra</hi>ti<hi rend="grantha">pa</hi>ti Araiyar makaḷār ku<hi rend="grantha">nda</hi>vv<choice><sic>a</sic><corr>ai</corr></choice>
+                    <lb n="3" break="no"/>yārāṉa vāṇa<hi rend="grantha">mahāde</hi>viyār pak=kaltt<choice><sic>ik=k</sic><corr>īkk</corr></choice>ālivallattu <hi rend="grantha">sabhai</hi>yom nālppatiṉ kaḻañcu cempoṉ koṇṭu tiruttīk=kālipperumāṉaṭikaḷu<unclear>k=ku</unclear> nicatam Uriy naṟuneyyum kālk=kaṟppūramumi<surplus>I</surplus>ṭṭu Oruno<hi rend="grantha">ndā</hi>viḷak=ku <hi rend="grantha">candrādi</hi><choice><sic>t=ta</sic><corr><hi rend="grantha">tya</hi></corr></choice>val Erippomāṉom <hi rend="grantha">sabhai</hi>yom <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    <lb n="4"/>I<hi rend="grantha">ddha<supplied reason="omitted">r</supplied>mma</hi>muṭṭiṉa poḻutu <hi rend="grantha">panmāheśvara</hi>rey nicati Ai<unclear>ṅ</unclear>kaḻañcu poṉ <hi rend="grantha">dha<supplied reason="omitted">r</supplied>mmāsa</hi>nattey maṉṟa Oṭṭik=kuṭuttom <hi rend="grantha">sabhai</hi>yom <supplied reason="undefined"><g type="danda">.</g></supplied> I<supplied reason="omitted">t</supplied><hi rend="grantha">daṇḍa</hi>ppaṭṭumittiruviḷakku muṭṭām<hi rend="grantha">ai</hi> Erippomānomitaṟkkaṉṟeṉṟār <hi rend="grantha">ge</hi>ṅ<hi rend="grantha">gai</hi>yiṭ<hi rend="grantha">ai</hi>k=kumariyiṭ<hi rend="grantha">ai</hi>cceytār ceyta pāvaṅkoḷvo<supplied reason="omitted">mā</supplied>no
+                    <lb n="5" break="no"/>m <supplied reason="undefined"><g type="danda">.</g></supplied> I<hi rend="grantha">ddha<supplied reason="omitted">r</supplied>mma</hi>m <hi rend="grantha">panmāheśvararakṣai</hi> <supplied reason="undefined"><g type="danda">.</g></supplied> I<hi rend="grantha">ddha<supplied reason="omitted">r</supplied>mma</hi>m <hi rend="grantha">rakṣi</hi>ttāraṭiyeṉ muṭi melaṉa <g type="ddanda">.</g><g type="pc">.</g> Ikkaṟpūraviḷakkum no<unclear>n=t</unclear>āviḷakkumivviraṇṭukkumāka Ūr mañcikkamiṟai Iḻicci vaitta nilam pāṟkuṭṭai <g type="nilam"/> <num value="400">4 <g type="numeral">100</g></num> kuḻiyum paḻaveri k<choice><sic>i</sic><corr>ī</corr></choice>ḻ <num value="720">7 <unclear><g type="numeral">100</g></unclear> 2 <g type="numeral">10</g></num> kuḻiyum noṇiṭukoḷḷi 2 nilamum ku
+                    <lb n="6" break="no"/>ṭuttom <hi rend="grantha">sabhai</hi>yom <g type="ddanda">.</g><g type="pc">.</g> Ivviraṇṭu viḷakkiṉukkum vaitta <hi rend="grantha">bhūmi</hi> <hi rend="grantha">de</hi>va<hi rend="grantha"><choice><sic>gh</sic><corr>kh</corr></choice>ā</hi>ta<hi rend="grantha">mā</hi>talil Eṇṇaiviḷakkeyerivatāka vaittom <hi rend="grantha">sabhai</hi>yom <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="2">
+                        <lem>°<hi rend="grantha">gogu</hi>ṉi<hi rend="grantha">dha<supplied reason="omitted">r</supplied>mma</hi>°</lem>
+                        <note>Read <foreign><hi rend="grantha">koṅgu</hi>ṇiva<hi rend="grantha">rma</hi></foreign>.</note>
+                    </app>
+                    <app loc="2">
+                        <lem><hi rend="grantha">śrī</hi>nā<hi rend="grantha">radhaśrī<surplus>ri</surplus>ma</hi>na<hi rend="grantha">śi</hi>va°</lem>
+                        <note>Read <foreign><hi rend="grantha">śrī</hi>nā<hi rend="grantha">thaśrīmacchi</hi>va</foreign>.</note>
+                    </app>
+                    <app loc="2">
+                        <lem>makaṉār</lem>
+                        <note>Here and in <foreign>erippomāṉom</foreign> (l. 3) the syllable <foreign>ṉā</foreign> is expressed by two separate symbols; compare above, p. 90 and note 5.</note>
+                    </app>
+                    <app loc="5">
+                        <lem><g type="nilam"/></lem>
+                        <note>This is the abbreviation for <foreign>nilam</foreign>; see above, p. 97, note 3.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:Hultzsch1899_01">
+                
+                <p>(Line 1.) Hail ! Prosperity ! We, the assembly of <hi rend="bold">Tīkkāli-Vallam</hi>, have received forty <hi rend="italic">kaḻañju</hi> of pure gold from <hi rend="bold">Kundavv[ai]yār</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Vāṇamahādēvī</hi>,—the daughter of <hi rend="bold">Pratipati-Araiyar</hi>, the son of <hi rend="bold">[K]o[ṅ]gu[ṇ]i[va]rman</hi>, the very righteous <hi rend="italic">Mahārāja</hi>, the supreme lord of <hi rend="bold">Nipuṇilapura</hi>,<note>This is a mistake of the copyist for Kuvaḷālapura; see p. 99 above.</note> <hi rend="italic">alias</hi> <hi rend="bold">Śrīnātha</hi>, the glorious <hi rend="bold">Śivamahārāja-Perumāṉaḍigaḷ</hi>, (<hi rend="italic">and the queen of</hi>) <hi rend="bold">Vāṇavidyādha[ra]rāja</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Vāṇarāya</hi>, born from the family of <hi rend="bold">Mahābali</hi>, who had been made door-keeper by the lord of gods and demons, Paramēśvara (Śiva), who is worshipped in all the three worlds.</p>
+                
+                <p>(L. 3.) (<hi rend="italic">In return</hi>), we, the assembly, shall have to burn, as long as the moon and the sun exist, one perpetual lamp before (<hi rend="italic">the god</hi>) <hi rend="bold">Tiruttīkkāli-Perumāṉaḍigaḷ</hi>, supplying daily (one) <hi rend="italic">uri</hi> of fresh ghee and a quarter of camphor.</p>
+                
+                <p>(L. 4.) We, the assembly, have agreed that, whenever (<hi rend="italic">they</hi>) fail in this charity, all the <hi rend="italic">Māhēśvaras</hi> (among us) shall pay into court a fine of five <hi rend="italic">kaḻañju</hi> of gold per day. Though fined thus, we shall have to burn this sacred lamp without fail. Those among us, who say that this (<hi rend="italic">charity</hi>) is not (<hi rend="italic">existing</hi>), shall incur (<hi rend="italic">all</hi>) the sins committed between the <hi rend="bold">Gaṅgā</hi> and <hi rend="bold">Kumari</hi>.</p>
+                
+                <p>(L. 5.) “This charity (<hi rend="italic">is placed under</hi>) the protection of all <hi rend="italic">Māhēśvaras</hi>. The feet of those who protect this charity, (<hi rend="italic">shall be</hi>) on my head.”</p>
+                
+                <p>We, the assembly, gave (<hi rend="italic">the following</hi>) land in the environs<note>See above, p. 97, note 5.</note> of the village, which (<hi rend="italic">the queen</hi>) had granted, free of taxes, for this camphor lamp and the perpetual lamp<note>In line 3 of the text only one lamp is spoken of, to which both ghee and camphor had to be supplied.</note> :—(one) <hi rend="italic">nilam</hi><note>See above, p. 97, note 6.</note> and 400 <hi rend="italic">kuḻi</hi> (called) <hi rend="italic">Pāṟkuṭṭai</hi>, 720 <hi rend="italic">kuḻi</hi> below the old tank (<hi rend="italic">Paḻavēri</hi>), and 2 <hi rend="italic">nilam</hi> (called) <hi rend="italic">Noṇiḍukoḷḷi</hi>.</p>
+                
+                <p>(L. 6.) As the land granted for these two lamps had become torn up by the weather,<note>Literally, ‘dug up by god.’</note> we, the assembly, assigned only an oil lamp for burning.</p>
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 3.48 by <bibl><ptr target="bib:Hultzsch1899_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Hultzsch1899_01"/>
+                        <citedRange unit="page">100-101</citedRange>
+                        <citedRange unit="item">48</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
