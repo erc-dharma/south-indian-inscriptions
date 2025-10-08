@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 19.311: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+                <title type="alt">No. 311. (A.R. No. 494 of 1925.) ŚEMBIYANMAHĀDĒVI, NAGAPATTINAM TALUK, TANJAVUR DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, KAILĀSANĀTHA TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv19p0i0311</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This is an inscription of <hi rend="bold">Uttama-Chōḷa.</hi> It records an endowment in money made by <hi rend="bold">Baṭṭaṉ Dānatoṅgiyār Maḻapāḍi Tennavaṉ-Mahādēviyār, Vānavaṉ-Mādēviyār</hi> daughter of <hi rend="bold">Iruṅgōḷar</hi> and two others the <hi rend="bold">daughters of Viḻupparaiyar and Paḻavēṭṭaraiyar (chiefs)-all queens of Uttama-Chōḷa</hi> for special worship and offerings in the temple on the days of Kēṭṭai (asterism) in Chittirai month, that being the natal star of their mother-in-law (queen Śembiyan-Mahādēvi). The amounts are said to have been entrusted for the purpose with the <hi rend="bold">Chaturvēdibhaṭṭa-Tānapperumakkaḷ</hi> by which seems to be meant the committee of management who were bound by obligation <hi rend="italic">(śāsana-baddha).</hi> The inscription is built in at the right end and bottom. </p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-10-08" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><g type="danda"/><g type="danda"/><g type="danda"/> <hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kopparake<hi rend="grantha">sa</hi>riva<hi rend="grantha">nma</hi><supplied reason="omitted">ṟ</supplied>kku yāṇṭu <num value="12"><g type="numeral">10</g> 2</num><g type="dash"/>Āvatu <hi rend="grantha">gūMbha</hi>nāyaṟṟu kaṇṭaṉ maturāntaka<hi rend="grantha">de</hi>varāṉa <hi rend="grantha">śrī</hi>Uttamacoḻa<hi rend="grantha"><unclear>de</unclear></hi><unclear>varai</unclear>t tiruvayiṟuvāyt <gap reason="lost" quantity="10" unit="character"/> 
+                    <lb n="2"/>ṉa teṉkarai Aḷanāṭṭu <hi rend="grantha">brahmade</hi>yam <hi rend="grantha"><unclear>śrī</unclear></hi><unclear>cempiya</unclear>ṉ<hi rend="grantha">mahāde</hi>viccatu<hi rend="grantha">rvedi</hi>maṅkalattu Ivvuṭaiya pirāṭṭiyār veytta<unclear>ruḷiṉa</unclear> <hi rend="grantha">śāsa</hi>na<hi rend="grantha"><unclear>baddha</unclear></hi><unclear>ccatu</unclear> <gap reason="lost" quantity="11" unit="character"/> 
+                    <lb n="3"/>pirāṭṭiyār tirunāḷāṉa cittirait <unclear>tirukkeṭṭai nāḷ mey</unclear>kkāṭṭi Uṇpatāka I<hi rend="grantha">śrī</hi>Uttama coḻa<hi rend="grantha">de</hi>var <hi rend="grantha">de</hi>viyār paṭṭaṉ tāṉatoṅkiyār Ivvūr Ūrkkallāl ku <gap reason="lost" quantity="11" unit="character"/> 
+                    <lb n="4"/>ccatu<hi rend="grantha">rvedibhaṭṭa</hi>t tāṉapperu<unclear>makkaḷukku</unclear> <hi rend="grantha">śrī</hi>Uttamacoḻa<hi rend="grantha">de</hi>var <hi rend="grantha">de</hi>viyār nampirāṭṭi maḻapāṭi teṉṉavaṉ<hi rend="grantha">mahāde</hi>viyār Ivvūr Ūrkkallāl <gap reason="lost" quantity="12" unit="character"/> 
+                    <lb n="5"/>ttāṉapperumakkaḷu<unclear>kku I</unclear><hi rend="grantha"><unclear>śrī</unclear></hi>Uttamacoḻa<hi rend="grantha">de</hi>var Iruṅkoḷar makaḷār <hi rend="grantha">de</hi>viyār nampirāṭṭiyār vāṉava<unclear>ṉ</unclear> <hi rend="grantha">mahāde</hi>viyār Ūrkkallālk ku <gap reason="lost" quantity="10" unit="character"/> 
+                    <lb n="6"/>m I<hi rend="grantha">śśāsa</hi>ṉa<hi rend="grantha">baddha</hi>ccatu<hi rend="grantha">rvedibha</hi>ṭṭat tānapperumakkaḷukke I<hi rend="grantha">śrī</hi>Uttamacoḻa<hi rend="grantha">de</hi>var <hi rend="grantha">de</hi>viyār viḻupparaiyar makaḷār nampirāṭṭiyā <gap reason="lost" quantity="8" unit="character"/> māṉaṭikaḷār Ivvūr Ūrkkallāl kuṭutta poṉ <num value="95">9 <g type="numeral">10</g> 5</num><g type="kaḻañcu"/> toṇṇū<unclear>ṟṟaiṅkaḻañcum</unclear> I<hi rend="grantha">śśāsa</hi>ṉa<hi rend="grantha">baddha</hi>ccatu<hi rend="grantha">rvedibha</hi>ṭṭat tāṉaperumakkaḷukke I<hi rend="grantha">śrī</hi> Uttamacoḻa<hi rend="grantha">de</hi>var <hi rend="grantha">de</hi>viyār paḻaveṭṭaraiyar ma <gap reason="lost" quantity="8" unit="character"/> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 19.311 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <p>See also edition by Nicolas Cane (<ref target="DHARMA_INSCempiyanMahadevi00010">CMT 10</ref>).</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1967_01"/>
+                        <citedRange unit="page">155-156</citedRange>
+                        <citedRange unit="item">311</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
