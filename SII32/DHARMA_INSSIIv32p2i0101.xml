@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 32, part 2, no. 101: original edition by S. Swaminathan</title>
+                <title type="alt">No. 101. (A.R. No. 419 of 1993.) GŌPURAPAṬṬI, LALGUDI TALUK, TIRUCHIRAPPALLI DISTRICT.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv32p2i0101</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>On the east wall, central shrine, Avanisundarēśvara temple.</p>						
+                            
+                            <p><hi rend="bold">Year 12: 983 A.D.</hi></p>						
+                            
+                            <p>Incomplete records the gift of 5 lamp-stands by Sembiyaṉ-mahādēviyār, the queen of Gaṇḍarāditta-perumāṉ, to Mahādēva of Tiru-Avanīśvaram at Pāchchil in Maḻa-nāḍu. </p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-10-08" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kopparakecaripaṉmaṟku yāṇṭu <num value="12"><g type="numeral">10</g> 2</num> Āvatu maḻanāṭṭup pāccil tiruAvani<hi rend="grantha">śva</hi>rattu <hi rend="grantha">mahāde</hi>vaṟku kaṇṭarātittaperumāṉ teviyār cempiyaṉ<hi rend="grantha">mahā</hi>tevi<unclear>yār</unclear>
+                    <lb n="2"/>vaitta tarā nilaiviḷakkoṉṟu niṟai muṉṉūṟṟu muppattu <add place="below">nālu</add> niṟai maru nūṟṟu nāṟpatu nilaiviḷakkonṟu niṟai nū<supplied reason="omitted">ṟ</supplied>ṟu toṇṇūṟu nilai vi
+                    <lb n="3" break="no"/>ḷakkoṉṟu ni<unclear>ṟ</unclear>ai nūṟṟu toṇṇūṟu nilaiviḷakkoṉṟu <unclear>ni</unclear>ṟai nūṟṟu toṇṇūṟu Ā<supplied reason="omitted">ka</supplied> nilaiviḷakku <num value="25">2 <g type="numeral">10</g> 5</num> Añcu cant<choice><sic>a</sic><corr>ā</corr></choice>tiṟṟa
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                <p n="3"><foreign>cant<choice><sic>a</sic><corr>ā</corr></choice>tiṟṟa</foreign>. Damaged.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 32, part 2, no. 101 by <bibl><ptr target="bib:Swaminathan2012_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                <p>See also edition by Nicolas Cane (<ref target="DHARMA_INSCempiyanMahadevi00009">CMT 9</ref>).</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Swaminathan2012_01"/>
+                        <citedRange unit="page">216-217</citedRange>
+                        <citedRange unit="item">101</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
