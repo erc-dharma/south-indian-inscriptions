@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 23.129: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 129. (A.R. No. 129 of 1907.) Koḍumbāḷūr, Kulattur Taluk, Tiruchirappalli District Mūvarkōvil—on the south wall of the central shrine</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName>
+                        <forename>Emmanuel</forename><surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv23p0i0129</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This is a Sanskrit inscription in early Grantha characters. It gives the genealogy of the family of Koḍumbāḷur Chiefs. The first line is mutilated and hence the name of the original ancestor is not known. He is said to have captured an elephant battalion evidently from some enemy. In his family was born Paravīrajit Vīratuṅga; his son was Atīvīra, the unrivalled (Anupama); his son was Saṅghakṛit to whom was born Nṛipakēsari; his son was Paradurgamarddana, the glorious conqueror of Vātāpi. To him was born Samarābhirāma who killed Chaḷukki in a battle at Adhirājamaṅgala. He married a princess named Anupamā the daughter of the Chōḷa king. His son by this princess was Bhūti who by his prowess in battle obtained the title Vikramakēsari. He is stated to have made the waters of the Kāvēri red with the blood of the Pallava army slain by him. He also conquered Vīra-Pāṇḍya in battle and destroyed one Vañchi-Vēḷ. It is stated that he was living at Koḍumbāḷūr with his two wives Kaṟṟaḷi and Varaguṇā, by the former of whom he had two sons Parāntakavarman and Ādityavarman. This Bhūti Vikramakēsari built three shrines in the name of himself and his two consorts for god Mahēśvara at Koḍumbāḷūr, and presented a <hi rend="italic">maṭha</hi> to Mallikārjuna of Madura, a teacher of the Kāḷāmukha sect of Śaivas and eleven villages for feeding 50 ascetics of that sect (every day).</p>						
+                            
+                            <p>Since this chief Bhūti Vikramakēsari is known from other stone records to be identical with Teṉṉavaṉ Iḷaṅgōvēḷ a feudatory of Chōḷa Āditya I, it is possible that the destruction of the Pallava army claimed by him was in connection with his liege-lord Āditya's overthrow of Pallava Aparājita in battle and his annexation of the latter's territory sometime before A.D. 890. In this case Vīra-Pāṇḍya over whom also, Bhūti claims a victory cannot be equated with his namesake who was killed in fight by Āditya II Karikāla (<hi rend="italic">vide An. Rept.</hi> for 1908, Part II, para 88), because that event took place more than 70 years later. He should have been a contemporary of Parāntaka Vīra-Nārāyaṇa and probably belonging to a collateral Pāṇḍya line as surmised by Mr. K.V.S. Aiyar (<hi rend="italic">Q.J.M.S.</hi> Vol. <hi rend="italic">XLIII</hi>, Nos. 3 and 4).</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-10-21" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="und" rendition="class:grantha maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><gap reason="lost" quantity="9" unit="character"/> <hi rend="grantha"> nāthagajayūthaharaḥ purāsītu tadvamśyaḥ parapira jinmaḷavajicchrī</hi>
+                    <lb n="2" break="no"/><hi rend="grantha">vīratuṅgō mutō jā<unclear>t</unclear>ōsmā datipira Ityanupama stasmādabhūt saṅ</hi>
+                    <lb n="3" break="no"/><hi rend="grantha">ghakṛt tsmāccrīnṛpakēsarī vivadṛdhē yō bāla Ēvōrag<unclear>ai</unclear></hi>
+                    <lb n="4"/><hi rend="grantha">statsūnuḥ paradurggamarddana Iti khyātassavātāvijit U tasya samarābhirā</hi>
+                    <lb n="5" break="no"/><hi rend="grantha">maḥ putrassutrāmatējasaḥ kadhirājamaṅgalājau yōnijaghāna ca</hi>
+                    <lb n="6" break="no"/><hi rend="grantha">ḷukkim tasyācyuta(m)sya kamalēva sarasvatīva patmōtbhavasya girijē <unclear>va</unclear></hi>
+                    <lb n="7"/><hi rend="grantha">harasya sākṣāt prēyasyabhūdanupamēti yathārtthanāmnā śrīcōḷarājadu</hi>
+                    <lb n="8" break="no"/><hi rend="grantha">hitā yaduvaṅśakētōḥu tasyā masya babhūva bhūtira parāmmīnāmaḷākhyā</hi>
+                    <lb n="9" break="no"/><hi rend="grantha">ndadhan śramānvikramakēsarīti samarē labdhānyanāmā nṛpaḥ U kāvērī</hi>
+                    <lb n="10" break="no"/><hi rend="grantha">vāri śōṇam samakṛta rudhiraiḥ pal</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">la</seg><hi rend="grantha">vasya dhvajinyāḥ yō vīrōḥ</hi>
+                    <lb n="11"/><hi rend="grantha">vīrapāṇḍyaṇ vyajayata samarē vañcivēḷantakō bhūt U mattāri sāmajā</hi>
+                    <lb n="12" break="no"/><hi rend="grantha">hatvā vasanvikramakēsarī kōṭum pāḷūppurādīndramābikāvivarōdarē U</hi>
+                    <lb n="13" break="no"/><hi rend="grantha">vidvatkalpatarau kṣītīśvarakaradvadvāmbujēndau bhuvam yasmin śāsati</hi>
+                    <lb n="14"/><hi rend="grantha">mēdinī<supplied reason="omitted">m</supplied> jayaramā śrīkīrttivāgval</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">la</seg><hi rend="grantha">bhē taikṣṇya nnētrayugē bhuvōścala</hi>
+                    <lb n="15" break="no"/><hi rend="grantha">natā kēśēṣu kārṣṇya ntanau tanvinā ntanutā bhavatsta nayugē cānnyōnya</hi>
+                    <lb n="16" break="no"/><hi rend="grantha"><unclear>sambā</unclear>dhanam U tasyābhūt dēvyau</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">kaṟṟa</seg><hi rend="grantha">bi varaguṇa samāhvayē satyau</hi>
+                    <lb n="17"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">kaṟṟa</seg><hi rend="grantha">bi rabhavajjananī parāntakādityaparmmaṇō kamrakamrāṇām Ātrēya</hi>
+                    <lb n="18" break="no"/><hi rend="grantha">gōtrajasśrīmā nmādhurō <unclear>na</unclear> gēndrapāragaḥ vidyārāśēstapōrāśē śśi</hi>
+                    <lb n="19" break="no"/><hi rend="grantha">ṣyō śrahṛ nmal</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">li</seg><hi rend="grantha">kārjjunaḥ U<unclear>sthā na</unclear>trayamutthāpya pratiṣṭhāpya mahēśvaram</hi>
+                    <lb n="20"/><hi rend="grantha">svanāmnā priyayō rnnāmnā sōdāt bṛhanmaṭham <g type="pc"/> tasmai kālamukhā</hi>
+                    <lb n="21" break="no"/><hi rend="grantha">khyā na yati mukhyāya yādavaḥ prādādēkādaśagrāma vinibandham bṛhanmaṭhamu</hi>
+                    <lb n="22"/><hi rend="grantha">pañcāśatāma sitaktra tapōdha nānām bhuttyai brahanmaṭha <gap reason="lost" quantity="3" unit="character"/> <unclear>gu</unclear> ra</hi>
+                    <lb n="23" break="no"/><hi rend="grantha">vē sa rājā naivēdya gandhakusumākṣata dhūpadīpa tāmbūla <gap reason="lost" quantity="3" unit="character"/> </hi>
+                    <lb n="24"/><gap reason="lost" quantity="3" unit="character"/> <hi rend="grantha">mahēśvarasya</hi> <g type="pc">.</g> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 23.129 by <bibl><ptr target="bib:SrinivasaRao1979_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1979_01"/>
+                        <citedRange unit="page">101-102</citedRange>
+                        <citedRange unit="item">129</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

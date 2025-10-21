@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 23.139: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 139. (A.R. No. 139 of 1907.) Koḍumbāḷūr, Kulattur Taluk, Tiruchirappalli District Muchukundēśvara temple—on the base of the same maṇḍapa</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName>
+                        <forename>Emmanuel</forename><surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv23p0i0139</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This is a mere fragment of an inscription mentioning Uḍaiyār <hi rend="bold">Madhurāṉtakan Śundaraśōḻaṉ.</hi> Reference is made to a woman servant of the royal palace by name Kaḷḷichchi Uttama cha . . . . . . . . . and one Pūdi Paṭṭālakaṉ Nakka . . . . . . and also to two classes of smiths (<hi rend="italic">Kottar</hi>) of Koḍumbāḷūr.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-10-21" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/>— Uṭaiyār maturāṉtakaṉ cuntaracoḻaṉāṉa —
+                    <lb n="2"/>— veḷattup peṇṭāṭṭi kaḷḷicci Uttama ca —
+                    <lb n="3"/>— <gap reason="lost" quantity="2" unit="character"/> ṟantāṉ <hi rend="grantha">sū</hi> <gap reason="lost" quantity="2" unit="character"/> pūtipaṭṭālakaṉ na<unclear>k</unclear>ka <gap reason="lost" quantity="6" unit="character"/> vaṟku kā —
+                    <lb n="4"/>— koṭumpāḷūr Iraṇṭuvakai kottaṟkum Iruntu Ārā<supplied reason="omitted">y</supplied>ntu <unclear>I</unclear>ṉṉai —
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 23.139 by <bibl><ptr target="bib:SrinivasaRao1979_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                <p>See also edition by Emmanuel Francis (<ref target="DHARMA_INSKotumpalur00016"/>).</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1979_01"/>
+                        <citedRange unit="page">111</citedRange>
+                        <citedRange unit="item">139</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
