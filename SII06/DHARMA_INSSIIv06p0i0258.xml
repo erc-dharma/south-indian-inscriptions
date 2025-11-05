@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 6.258: original edition by K. V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 258. (A.R. No. 281 of 1897). ON THE SAME WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv06p0i0258</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-11-05" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">śvasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> tirupuvaṉaccakkaravatti nāyaṉār ciraṅkanātarāṉa yāta<unclear>va</unclear>rāyarkku Iyāṇṭu patiṉeḻāvatu maṇimaṅkalattil Uṭaiyār taṉ<unclear>mi</unclear>
+					
+					<lb n="2" break="no"/>curamuṭaiyanāyaṉār koyivil <hi rend="grantha">śrīrutra</hi>r <hi rend="grantha">śrīm<choice><sic>a</sic><corr>ā</corr></choice>heśva<supplied reason="omitted">ra</supplied>ruM</hi> kaikkoḷarum kaikkoḷamutalikaḷum Ivvaṉaivarum Ivvāṇṭai Āṉimātam nammiṟ porunti Aṟuti I
+					
+					<lb n="3" break="no"/>ṭṭapaṭi maṉṉaṉār tirunāḷ muṉpillāṇṭu marikāti Oḻintu putumaiāka Eḻuntaruḷiṉapaṭiāle Āṇṇai Iṭṭaaḷavil I<surplus>v</surplus>varkaḷ Orutta
+					
+					<lb n="4" break="no"/>rai veṭṭit tirumaṭaiviḷākattile Iṭṭu vaikkaiyil koyil tirukkāppukkoṇṭa Itu tirukkāp<unclear>pinu</unclear>k<unclear>ku</unclear> cetta cempā<supplied reason="omitted">ti</supplied>kku cantirātittavaraiyum naṭat <gap reason="lost" quantity="8" unit="character"/> 
+					
+					<lb n="5"/>meṭṭil nāraṇi<unclear>ku</unclear>ṇṭil <unclear>ku</unclear>ḻi Irunūṟum kuṟṟeval taṭi<seg rend="check">�</seg>ṉ
+				</p>
+				
+			</div>
+		
+			
+			<div type="commentary">
+				<p>This inscription is left unfinished.</p>
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 6.258 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1928_01"/>
+						<citedRange unit="page">137</citedRange>
+						<citedRange unit="item">258</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>

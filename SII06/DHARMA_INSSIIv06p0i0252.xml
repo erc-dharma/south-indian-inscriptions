@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 6.252: original edition by K. V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 252. (A.R. No. 275 of 1897). ON THE SOUTH WALL OF THE SHRINE IN THE SAME TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv06p0i0252</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-11-05" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">śubhamastu</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> ruturoṟkāri varu<hi rend="grantha">ṣaM</hi> mārkaḻi <g type="mātam"/> 2<g type="pc"/> caṉi rocaṇiyum vaṇṭuvarāpati Emperumāṉukku tiruppaṇippiḷḷai Atikāriār mallunāyakkarum Aññāṟṟu nāṟpatu <hi rend="grantha">sabhai</hi>yum tāṉattārum tiruppaḷḷieḻicci ciṟappuvakai Atikāriār ciṟappu<g type="dash"/>1<g type="dash"/>
+					
+					<lb n="2" break="no"/>capaiyār ciṟappu<g type="dash"/> 1<g type="dash"/> <hi rend="grantha">śrī</hi>puṇṭarikar ci<unclear>ṟa</unclear>ppu<g type="dash"/> 1<g type="dash"/> tāṉattār ciṟappu<g type="dash"/> 1<g type="dash"/> veḷḷāḻar ciṟappu<g type="dash"/> 1<g type="dash"/> maṇimaṅkalamuṭaiyārkaḷ ciṟappu<g type="dash"/> 1<g type="dash"/> Akampaṭiyār ciṟappu<g type="dash"/> 1<g type="dash"/> tiru<supplied reason="omitted">k</supplied>kaikkoḷar ciṟappu<g type="dash"/> 1<g type="dash"/> Emperumāṉ Aṭiyār ciṟappu<g type="dash"/> 2<g type="dash"/> Eṇṇaivāṇiyar ciṟappu<g type="dash"/> 1<g type="dash"/> nāvitar ciṟappu<g type="dash"/> 1<g type="dash"/><g type="pc">.</g>
+					
+					<lb n="3"/>Inta ciṟappuvakai Aṭaivile cantirātittavaraiyum vanta Irācakarame naṭattuvikka kaṭavarkaḷ Āka<unclear>vu</unclear>m naṭattātapoḻutu vi<hi rend="grantha"><unclear>ṣṇu</unclear></hi>turokiyum civatturokiyum Ākakkaṭavaṉ Ākavum <g type="pc">.</g> 
+				</p>
+				
+			</div>
+			
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 6.252 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1928_01"/>
+						<citedRange unit="page">135</citedRange>
+						<citedRange unit="item">252</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
