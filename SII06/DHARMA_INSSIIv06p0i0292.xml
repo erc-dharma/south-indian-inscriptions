@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 6.292: original edition by K. V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 292. (A.R. No. 9 of 1898). IN THE SAME PLACE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv06p0i0292</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-11-12" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> <add place="below">matiraikoṇṭa</add> kopparakecaripaṉma<supplied reason="omitted">r</supplied>kku yāṇṭu patiṉāṟāvatu nāḷirunūṟṟu Irupattiraṇṭu kāliyūrkkoṭṭattu taṉkūṟṟu Uttarameruccatu<supplied reason="omitted">r</supplied>vve<unclear>timaṅkalattu</unclear> mā <hi rend="grantha">sabhai</hi>yo meḻuttu Emmūrt teṟkil parame<hi rend="grantha">śva</hi>ravati nirāyiṭṭu kāliyuṅ kaḷaṟum Uḷḷiṭṭu maṟṟu<supplied reason="omitted">m</supplied> Epperppaṭṭa cātiyum micaṅkuva taritāyiṭṭu parame<hi rend="grantha">śva</hi>ravatiyāṉa mukkoloṭum kuṟai
+					
+					<lb n="2"/>meṟkkaṭaiya kuṭikaḷpakkal <hi rend="grantha">subrahmaṇya</hi>vāykkālukku vaṭa(k)kiḻakku mekkirukolakalaṅ kuḻi koṇṭu paḻai vatiyilum morukola <gap reason="lost" quantity="5" unit="character"/> ṟkāṭey mukkolaka<supplied reason="omitted">la</supplied>ttāla vati yaṭṭik kiḻkkaṭai nīrpovat<unclear>āka</unclear>vum <hi rend="grantha">subrahmaṇya</hi>vāykkālukkut teṟkku Oru kaṇ<unclear>ṇā</unclear>ṟu kuṭikaḷpakkal kiḻakku meṟkku Oru kolakalaṅ kuḻikoṇṭu Ivvoru kaṇṇāṟuvatiyile
+					
+					<lb n="3"/>Oru kolumāka Irukolaka<supplied reason="omitted">la</supplied>ṅ koṇṭu vati yaṭṭuvatākavum Ataṉ te<supplied reason="omitted">ṟ</supplied>kku Ā<hi rend="grantha">su</hi>riyāreriyaḷavum paḻaiyavatiyile Irukolaka<supplied reason="omitted">la</supplied>ttāl vati Aṭṭuvatākavum <gap reason="lost" quantity="5" unit="character"/> vaṉākkāy Ūrmel niṉṟa tiruvaṭikaḷe kaṭaikkāṭciyāka Ivaṉe Ivati Aṭṭivippāṉākavum Ipparicu kuṭikaḷpakkal koḷḷaveṇṭum pūmikku Ivvāṇṭu toṭṭavāriyañ ceykiṉṟa toṭṭavāriya 
+					
+					<lb n="4" break="no"/>pperumakkaḷe <hi rend="grantha">bhūmi</hi> vilaikkuk<unclear>ko</unclear>ṇṭu vatikku veṇṭum <hi rend="grantha">vya</hi>yappaṭṭu tiruvaṭikaḷ kaṭaikkācciyāl vati yaṭṭukaveṉṟu <hi rend="grantha">m<surplus>ā</surplus>hāsabhai</hi>t tiruvaṭi paṇitta <gap reason="lost" quantity="4" unit="character"/> Ūriṉ te<supplied reason="omitted">ṟ</supplied>kku mutaṟ kaṇṇāṟṟil mātavacceri <hi rend="grantha">ssabhai</hi>yārpakkal vati Aṭṭuvatāka vilaikkukkoṇṭa kuḻi Irupatteṭṭum pantalpāṭakattu vati yaṭṭuvatākakkoṇṭa kuḻi kiḻakkumekku Irukolāl teṟkkuvaṭakku pa
+					
+					<lb n="5" break="no"/>tiṉā<supplied reason="omitted">ṟ</supplied>kkolāl vilaikkuk koṇṭa kuḻi Irupatteṭṭum pantalpāṭakattu vati yaṭṭuvatākak koṇṭa kuḻi kiḻakkumeṟk=ku Irukolāl teṟkuvaṭakku patiṉai<unclear>ṅkolā</unclear>l vanta kuḻi mu<supplied reason="omitted">p</supplied>pa<surplus>t</surplus>tum Ūriṉ ṟe<supplied reason="omitted">ṟ</supplied>kku Iraṇṭāṅ kaṇṇāṟṟu korañci <hi rend="grantha">śrīdha</hi>ra<hi rend="grantha">du<unclear>rgga</unclear>yakrama</hi>vittarpakkal vilaikku koṇṭa kuḻi kiḻakkumeṟkku Irukolāl te<supplied reason="omitted">ṟ</supplied>kkuvaṭakku patiṉaiṅkolāl vanta kuḻi muppa
+					
+					<lb n="6" break="no"/>tum Ā<hi rend="grantha">su</hi>ri U<hi rend="grantha">rudra</hi>kumārak<hi rend="grantha">kra</hi>ma<unclear>vi</unclear>ttarpakkal kiḻakkumekku <unclear>I</unclear>rukolāl tekkuvaṭakku patiṉaiṅkolāl vilaik=kuk koṇṭa kuḻi muppatum Ūriṉ te<supplied reason="omitted">ṟ</supplied>k=ku mūṉṟāṅ kaṇṇāṟuk kārampicceṭṭu parame<hi rend="grantha">śva</hi>ra<hi rend="grantha">daśa</hi>puriya<hi rend="grantha">bha</hi>ṭṭarpakkul kiḻak=kumeṟk=ku Irukolāl teṟk=ku patiṉaiṅkolāl koṇṭa kuḻi muppatum Ātampattu <hi rend="grantha">bha</hi>va<hi rend="grantha">rudrakra</hi>mavi
+					
+					<lb n="7" break="no"/><surplus>tavi</surplus>ttaccomāciyārpakkal kiḻakkumeṟkku Irukolāl te<supplied reason="omitted">ṟ</supplied>kkuvaṭakkup patiṉaiṅkolāṟ koṇṭa kuḻi muppatum Ūriṉ ṟe<supplied reason="omitted">ṟ</supplied>kku nālāṅ kaṇṇāṟṟu Uṟutta pocar<hi rend="grantha">somade</hi>va<hi rend="grantha">bha</hi>ṭṭarpakkal kiḻakkumekku Irukolāl teṟkkuvaṭakku patiṉaiṅko<unclear>lā</unclear>ṟ koṇṭa kuḻi muppatum <hi rend="grantha">su</hi>ra<hi rend="grantha">sā</hi>rampi <unclear>nārā</unclear>ya <gap reason="lost" quantity="6" unit="character"/> puriya<unclear>paṭṭa</unclear>rpakkal
+					
+					<lb n="8"/>koṇṭa kuḻi kiḻakkumeṟk=ku Irukolāl teṟkkuvaṭak=ku E<supplied reason="omitted">ḻa</supplied>raikkolāl koṇṭa kuḻi patiṉai <gap reason="lost" quantity="6" unit="character"/> <hi rend="grantha">krama</hi>vittaccomāciyār makaṉār <hi rend="grantha">do</hi>ṇavi<hi rend="grantha">ṣṇukrama</hi>vittarpakkal koṇṭa kuḻi kiḻakkumerk=ku Irukolāl teṟk=kuvaṭakku Eḻaraikkolāl koṇṭa kuḻi pati
+					
+					<lb n="9" break="no"/>ṉaintum Ūriṉ ṟe<supplied reason="omitted">ṟ</supplied>kku A<supplied reason="omitted">y</supplied>ntāṅ kaṇṇāṟṟu Uṟuppuṭṭur ceṭṭakuṉṟa<hi rend="grantha">kra</hi><unclear>mavittaṉ ma</unclear>kaṉ koṇṭakumāracarmmaṉpakkal kiḻakkumeṟk=ku Irukolāl teṟk=ku vaṭak=ku Eḻaraikkolāl koṇṭa kuḻi Eḻaraiyum m<unclear>ā</unclear>ṅkaḷūr nārāyaṇaceṭṭa<hi rend="grantha">kra</hi>mavit
+					
+					<lb n="10" break="no"/>tarpakkal<surplus>l</surplus> kiḻakkumerk=ku Irukolāl teṟkkuvaṭak=ku Eḻaraikkolāl ko<supplied reason="omitted">ṇṭa</supplied> kuḻi Eḻaraiyu makkippuṟattu nārāyaṇa<hi rend="grantha">kra</hi>mavittarpakkal kiḻakkumerk=ku Orukolāl teṟk=ku Eḻaraikkolāl koṇṭa kuḻi Eḻaraiyum nantikāmattu kaḷamāyta<hi rend="grantha">daśa</hi>
+					
+					<lb n="11" break="no"/>puriyaṉpakkal kiḻakkumeṟkkuorukol<choice><sic>a</sic><corr>ā</corr></choice>l teṟk=kuvaṭak=ku <g type="danda">.</g> Eḻaraik kolāl koṇṭa kuḻi Eḻaraiyum Ūriṉ ṟe<supplied reason="omitted">ṟ</supplied>kku Āṟāṅkaṇṇāṟu Ayyakki Iḷai ya<hi rend="grantha">jñassvāmikrama</hi>vittaṉpakkal kiḻak=kumeṟk=ku Orukolāl teṟk=kuvaṭak=ku Irukolāl koṇṭa kuḻi I
+					
+					<lb n="12" break="no"/>raṇṭumāka vati Aṭṭuvatāka Ūrmeṉiṉṟa tiruvaṭikaḷe kaṭaikkācciyāl toṭṭavāriyapperumakkaḷ vati Aṭṭuvatāka vilaikku koṇṭa kuḻi Irunūṟṟueḻupatu kuḻiyum vilaikku koṇṭu Iṟai Iḻittik kuṭuttom Ivvati ca<hi rend="grantha">ntrā</hi>tittavat
+					
+					<lb n="13"/>cella toṭṭavāriyañceyum perumakkaḷe kaṭaikkāṇpārāka paṇittom Uttarameruccatu<hi rend="grantha">rvve</hi>timaṅkalattu <hi rend="grantha">sabhai</hi>yo<unclear>m</unclear> Itu kuṟiyuḷḷiruntu perumakkaḷ paṇikka Eḻitiṉeṉ <hi rend="grantha">madhyastha</hi>ṉ civa<hi rend="grantha">dāsa</hi>ṉ Uttarameru Āyirattirunūṟṟu
+					<lb n="14" break="no"/>va Alaṅkārappiriyaṉeṉ <g type="gomutraFinal">.</g>
+				</p>
+				
+			</div>
+	
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 6.292 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1928_01"/>
+						<citedRange unit="page">147-148</citedRange>
+						<citedRange unit="item">292</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
