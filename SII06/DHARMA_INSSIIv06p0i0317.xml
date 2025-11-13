@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 6.317: original edition by K. V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 317. (A.R. No. 34 of 1898). IN THE SAME PLACE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv06p0i0317</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-11-13" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> kopparake<hi rend="grantha">sa</hi>ripaṉmaṟku yāṇṭu <num value="16"><g type="numeral">10</g> 6</num> ḷ <num value="303">3 <g type="numeral">100</g> 3</num> kāliyūrkkoṭṭattu taṉkūṟ ṟuttarameruccatu<hi rend="grantha">rvve</hi>timaṅkalattu peruṅkuṟi<hi rend="grantha">sabhai</hi>y<choice><sic>a</sic><corr>o</corr></choice> meḻuttu nammakaṉār vecālippāṭi Araiyamakkaḷ pākkattu cāttantai cāttaṉ maṇinākaṉpakkal nammūr <hi rend="grantha">śrīgurukṣetri</hi>ttu perumānaṭikaḷukku tirucceṉṉaṭaikku Iccāttantai cāttaṉa maṇinākaṉpakkal <hi rend="grantha">pūrvvācāra</hi>ṅ koṇṭu Iṟaiyiliyāka vaitta <hi rend="grantha">bhūmi</hi> vayiramekavatiyiṉ vaṭakku <num value="15"><g type="numeral">10</g> 5</num><g type="dash"/> kaṇṇāṟṟu
+					
+					<lb n="2"/>Avaṉināraṇavatiyiṉ meṟku 5<g type="dash"/> catukkattu 2<g type="dash"/>3/4raṅ kuḻi <num value="80">8 <g type="numeral">10</g></num><g type="dash"/>m vayiramekavatiyiṉ vaṭakku <num value="15"><g type="numeral">10</g> 5</num><g type="dash"/> kaṇṇāṟṟu Ut=tarameruvatiyiṉ meṟku 1<g type="dash"/> catukkattu 2<g type="dash"/> <unclear>n</unclear>taraṅ kuḻi <num value="480">4 <g type="numeral">100</g> 8 <g type="numeral">10</g></num><g type="dash"/>m Āka kuḻi <num value="560">5 <g type="numeral">100</g> 6 <g type="numeral">10</g></num><g type="dash"/>m melpiṭā<supplied reason="omitted">kai</supplied> nārācattiṉ vaṭakku <hi rend="grantha">śrīkṛṣṇa</hi>putucceriyāttu taṉ varavai kollai yuḷḷiṭṭu yuṭumpoṭi Āmaitavaḻnta teppeṟapaṭṭa<unclear>tu</unclear>m <hi rend="grantha">gurukṣatra</hi>ttup perumāṉaṭikaḷukkey Iṟaiyiliyāka <hi rend="grantha">śilālekhai</hi> ceytukuṭutto
+					
+					<lb n="3" break="no"/>m I<hi rend="grantha">bhū</hi>mi ca<hi rend="grantha">ntrādi</hi>ttaval liṟaiyiliyākap paṇittom I<hi rend="grantha">ddharmma</hi>ttukku vi<hi rend="grantha">rodha</hi>ñceytār <hi rend="grantha">ge</hi>ṅkaiyiṭaik kumariyiṭai naṭuvupaṭṭārceyta pāvattup paṭuvārākavum I<hi rend="grantha">dharmma</hi>ttukru viro<hi rend="grantha">dha</hi>ñceytārai <hi rend="grantha">śraddhā</hi>matarey <hi rend="grantha">dharmmāsa</hi>namutalāka tāṉ veṇṭu miṭattey <num value="25">2 <g type="numeral">10</g> 5</num><g type="poṉ"/> poṉ <hi rend="grantha">da</hi>ṇṭamiṭappeṟuvārākavum I<hi rend="grantha">daṇḍa</hi> miṟuttu mi<hi rend="grantha">dharmma</hi>ttukku virotañ ceyappeṟātārākavum Ipparicu Iṟaiyili<unclear>yāka</unclear> <hi rend="grantha">śilālekhai</hi> ceytukuṭutto muttaramerucatu<hi rend="grantha">rvve</hi><supplied reason="omitted">ti</supplied>maṅkala
+					
+					<lb n="4" break="no"/>ttu peruṅkuṟi<hi rend="grantha">sabhai</hi>yom <hi rend="grantha">sabhai</hi>yuḷirun=tu perumakkaḷ paṇikka veḻutiṉeṉ <hi rend="grantha">madhyasta</hi>ṉ civatā<hi rend="grantha">sa</hi>ṉ civamallaṉākiya <num value="5200">5 <g type="numeral">1000</g> 2 <g type="numeral">100</g></num>vamaṅkala<hi rend="grantha">pri</hi>yaṉeṉ <hi rend="grantha">śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+				</p>
+				
+			</div>
+			
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 6.317 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1928_01"/>
+						<citedRange unit="page">153</citedRange>
+						<citedRange unit="item">317</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
