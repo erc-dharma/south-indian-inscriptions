@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 6.361: original edition by K. V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 361. (A.R. No. 76 of 1898). IN THE SAME PLACE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv06p0i0361</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-11-18" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> tiruvāykkeḻvi muṉṉākat tiripuvaṉaccakkaravattikaḷ maturaiyum Īḻamuṅ karuvūrum pāṇṭiyaṉ muṭitta<unclear>lai</unclear>yuṅ koṇṭaruḷiya <hi rend="grantha">śrī</hi>kulottuṅkacoḻatevaṟku yāṇṭu Irupattāṟāvatu nāḷ muṉṉūṟṟiṉāl <hi rend="grantha">ja</hi>yaṅkoṇṭa coḻamaṇṭalattuk kāliyūrkkoṭṭattut taṉiyūr Uttaramelūrāṉa <hi rend="grantha">śrīrājentra</hi>coḻaccatuve<hi rend="grantha">rvva</hi>timaṅkalattup
+					
+					<lb n="2"/>peruṅkuṟi <hi rend="grantha">ssabhai</hi>yom Eḻuttu nammūr vā<hi rend="grantha">stu</hi>piṭārim<choice><sic>a</sic><corr>ā</corr></choice>r tiruvāṇṭāḷukkum vaṭavāyiṟcel<unclear>vi</unclear>kkum Aṉṉaikaḷukku veṇṭuvaṉavaiyiṟṟukku nammūr m<unclear>ā</unclear>tiru<hi rend="grantha">sthā</hi>ṉaṅkaḷ <hi rend="grantha">ja</hi>ṉmakkāṇi Uṭaiya pāracavaṉ tiruviraṭṭāṉamuṭaiyāṉāṉa kulottuṅkacoḻapaṇṭitaṉ viṇṇappañceyyac cetirā<hi rend="grantha">ja</hi>tevar keṭṭu nikkiṉapaṭiye patiṟṟuveli nilam Aṟcaṉāpoka Iṟaiyili 
+					
+					<lb n="3" break="no"/>Āka veḷḷaimūrt<unclear>ti</unclear> Emperumāṉ koyilile kalveṭṭikkuṭukkaveṉṟu namakku <hi rend="grantha">prasā</hi>tañceytaruḷi <unclear>ti</unclear>rumukam vantamaiyil <unclear>c</unclear>etirā<hi rend="grantha">ja</hi>te<unclear>va</unclear>r keṭṭu nikkiṉapaṭi Ivvūrc cirā<unclear>ma</unclear>ṉ kaṭṭaḷai <hi rend="grantha">śrī</hi>te<unclear>vivāykkā</unclear>liṉ teṟku 1<g type="dash"/> <g type="kācu"/> mātiruvāṇṭāḷ koyil vaṭamatiḷoṭu cera paka <gap reason="lost" quantity="3" unit="character"/> m veḷḷaimūrttikaṭṭaḷai <hi rend="grantha">śrīmadhurā</hi>n=takavatiyiṉ teṟku 9<g type="dash"/> <g type="kācu"/> tiruvekampavatiyiṉ meṟku 3<g type="dash"/> catukkattut teṉ<supplied reason="omitted">ca</supplied>tu<supplied reason="omitted">k</supplied>kattuk kiḻakkaṭaiya
+					
+					<lb n="4"/>paka 1<g type="dash"/> 1/2<g type="dash"/>m Ikkaṭṭaḷai <hi rend="grantha">subramaṇya</hi>vāykkāliṉ teṟku 3<g type="dash"/> <g type="kācu"/> tiruvekampavatiyiṉ meṟku 1<g type="dash"/> catukkattu <unclear>vaṭakkum</unclear> paka 2<g type="dash"/> m Ira<supplied reason="omitted">ṇṭu</supplied> catu<supplied reason="omitted">k</supplied>kattu meṟkaṭaiya paka <gap reason="lost" quantity="2" unit="character"/> <g type="dash"/>m 2<g type="dash"/> catukkam paka 4 <gap reason="lost" quantity="2" unit="character"/> catukkam paka 4<g type="dash"/> m Āka pāṭakam paṉṉiraṇṭe kālāl nilam <unclear>I</unclear>ruveliyum teṉpiṭākai kurāñceri <hi rend="grantha">subramaṇya</hi>nārācattiṉ vaṭakku <num value="16"><g type="numeral">10</g> 6</num><g type="dash"/> <g type="kācu"/><g type="dash"/>m <num value="17"><g type="numeral">10</g> 7</num><g type="dash"/> <g type="kācu"/><g type="dash"/>m <num value="18"><unclear><g type="numeral">10</g> 8</unclear></num><g type="dash"/> <g type="kācu"/><g type="dash"/>m tiruvekampavatiyiṉ meṟku 9<g type="dash"/> catukka mutal <num value="13"><g type="numeral">10</g> 3</num><g type="dash"/> catukka maṟutiyākap paka <num value="60">6 <g type="numeral">10</g></num> Itiṟ <num value="16"><g type="numeral">10</g> 6</num><g type="dash"/> <g type="kācu"/><g type="dash"/>teṉkūṟu
+					
+					<lb n="5" break="no"/>kulamāṇikkanallūrāyp piṟinta paka <num value="10"><g type="numeral">10</g></num><g type="dash"/> m <num value="18"><g type="numeral">10</g> 8</num><g type="dash/"></g> <g type="kācu"/> taṇṇirkkuḷam paka Āka paka <num value="11"><g type="numeral">10</g> 1</num> nikkip pāṭakam nāṟpatto<unclear>ṉ</unclear>patāl nilam Eṇveliyum Āka nilam patiṟṟu veliyum Ittela<supplied reason="omitted">r</supplied>kaḷukku Aṟcaṉāpoka Iṟaiyiliākac ci<hi rend="grantha">lālekhai</hi> paṇṇikkoṭuttom Ivvūrp peruṅkuṟi ma<hi rend="grantha">hāsabhai</hi>yom paṇiyāl Eḻutiṉeṉ Uttaramelūruṭaiyāṉeṉ <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+				</p>
+				
+			</div>
+			
+			<div type="commentary">
+				<p>In this inscription, the word <foreign>pāṭakam</foreign> is represented by a symbol formed by combining <foreign>pa</foreign> and <foreign>ka</foreign>.</p>
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 6.361 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1928_01"/>
+						<citedRange unit="page">167-168</citedRange>
+						<citedRange unit="item">361</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
