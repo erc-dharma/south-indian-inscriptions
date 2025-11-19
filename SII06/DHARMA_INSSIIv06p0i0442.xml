@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 6.442: original edition by K. V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 442. (A.R. No. 6-A of 1899). ON A STONE LYING CLOSE TO THE NORTH WALL OF THE SAME SHRINE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv06p0i0442</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-11-19" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+					<lb n="2"/>ko Irā<hi rend="grantha">ja</hi>ke
+					<lb n="3" break="no"/><hi rend="grantha">sa</hi>riparma<supplied reason="omitted">r</supplied>kku
+					<lb n="4"/>yāṇṭu <num value="17"><g type="numeral">10</g> 7</num>
+					<lb n="5"/>Āvatu naṅkai
+					<lb n="6"/>Oḷimatiyār tā
+					<lb n="7" break="no"/>yār nakkaṉīlī
+					<lb n="8"/>Oru tiruvamitu
+					<lb n="9" break="no"/>kku vaitta po
+					<lb n="10" break="no"/>ṉ <num value="10"><g type="numeral">10</g></num> <g type="pc">.</g> Ip
+					<lb n="11" break="no"/>poṉ koṇ
+					<lb n="12" break="no"/>ṭu kiṭavom va
+					<lb n="13" break="no"/>ṭavāccālai<unclear>p</unclear>
+					<lb n="14"/><unclear>pe</unclear>rumakkaḷ<unclear>o</unclear>
+					<lb n="15" break="no"/>m Ippoṉṉu
+					<lb n="16" break="no"/>kkup pali
+					<lb n="17" break="no"/>cai nicati ku<unclear>ṟu</unclear>ṇi
+					<lb n="18"/>nellāl O
+					<lb n="19" break="no"/>rutiruvamitu
+					<lb n="20"/>Itu celut
+				</p>
+				
+			</div>
+
+			
+			<div type="commentary">
+				<p>This inscription is left unfinished.</p>
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 6.442 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1928_01"/>
+						<citedRange unit="page">183</citedRange>
+						<citedRange unit="item">442</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>

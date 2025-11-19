@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 6.443: original edition by K. V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 443. (A.R. No. 7 of 1899). ON A STONE BUILT INTO THE WALL OF THE OUTER GOPURA OF THE SAME TEMPLE, LEFT OF ENTRANCE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv06p0i0443</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-11-19" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<div type="textpart" n="A">
+                <head>First stone.</head>
+				<p>
+					<lb n="A1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> kopparake<hi rend="grantha">sari</hi>va<hi rend="grantha">rmma</hi>ṟk=ku yāṇṭu <num value="12"><g type="numeral">10</g> 2</num> Āvatu kā <gap reason="lost" quantity="4" unit="character"/> 
+					
+					<lb n="A2"/>ṟk=kuṭippaḷḷiyuṭaiya Ārampavīraṉeṉ kaiyyeḻuttu vaṭakavira <gap reason="lost" quantity="5" unit="character"/> 
+					
+					<lb n="A3"/>paḷḷiyuṭaiya kaṉaka<hi rend="grantha"><unclear>se</unclear></hi>ṉa<hi rend="grantha">bhe</hi>ṭārar kaiyyāl yāṉ koṇṭu kaṭava <unclear>Ī</unclear>ḻa <gap reason="lost" quantity="2" unit="character"/> 
+					
+					<lb n="A4"/>Ik0kācu nūṟṟaimpatuṅ ṉakāṇṭaparicāvatu kāciṉvā<supplied reason="omitted">y</supplied>p pūvaḻi kalanellu <gap reason="lost" quantity="5" unit="character"/> 
+					
+					<lb n="A5"/>polintu kārppalicai <num value="150"><g type="numeral">100</g> 5 <g type="numeral">10</g></num><g type="dash"/> ḷa nūṟṟaiympatiṉ kalamun <gap reason="lost" quantity="4" unit="character"/> 
+					
+					<lb n="A6"/>Ivvūr vī<hi rend="grantha">raśikhāma</hi>ṇippererik0ku Aṭaṭi kkalluvippatākavum <gap reason="lost" quantity="7" unit="character"/> 
+					
+					<lb n="A7"/>y <num value="150"><g type="numeral">100</g> 5 <g type="numeral">10</g></num><g type="dash"></g> ḷa nūṟṟaiympatiṉ kalamum Ivvāṭṭaic cittirai <gap reason="lost" quantity="7" unit="character"/> 
+					
+					<lb n="A8"/>yu maṭṭi kkalluvippatākavum Ivviraṇṭu palicaiyu meṟṟi vanta ne <gap reason="lost" quantity="5" unit="character"/> 
+					
+					<lb n="A9"/>kkalanellu maṟa vaṭṭi Āṭṭaivaṭṭamum vīra<hi rend="grantha">śikhāma</hi>ṇippererik <gap reason="lost" quantity="4" unit="character"/> 
+					
+					<lb n="A10"/>ṭeṉ Ippaḷḷiyuṭaiya Ārampavīraṉeṉ vaṭakaviranāṭṭu <gap reason="lost" quantity="4" unit="character"/> 
+				</p>
+				</div>
+                
+                <div type="textpart" n="B">
+                <head>ON ANOTHER STONE BUILT INTO THE SAME WALL.</head>
+                <p>
+                	
+					<lb n="B1"/> <gap reason="lost" quantity="5" unit="character"/> palicai nellum Ivvī<hi rend="grantha">raśi <gap reason="lost" quantity="7" unit="character"/> </hi>
+					
+                	<lb n="B2"/> <gap reason="lost" quantity="5" unit="character"/> ḷḷiyuṭaiya kaṉaka<hi rend="grantha">se</hi>ṉa<hi rend="grantha">bha</hi>ṭāra <gap reason="lost" quantity="7" unit="character"/> 
+					
+                	<lb n="B3"/> <gap reason="lost" quantity="5" unit="character"/> parake<hi rend="grantha">sari</hi>va<hi rend="grantha">rma</hi>ṟk=ku yā <gap reason="lost" quantity="5" unit="character"/> 
+					
+                	<lb n="B4"/> <gap reason="lost" quantity="5" unit="character"/> <unclear>ṇi</unclear>yuṭaiya Ārampaviraṉeṉ <gap reason="lost" quantity="5" unit="character"/> 
+					
+                	<lb n="B5"/> <gap reason="lost" quantity="5" unit="character"/> ya kaṉaka<hi rend="grantha">se</hi>ṉa<hi rend="grantha">bha</hi>ṭārar kaiyya <gap reason="lost" quantity="4" unit="character"/> 
+					
+                	<lb n="B6"/> <gap reason="lost" quantity="5" unit="character"/> koṇṭaparicāvatu kāciṉvāy <gap reason="lost" quantity="4" unit="character"/> 
+					
+                	<lb n="B7"/> <gap reason="lost" quantity="5" unit="character"/> ṇṭu palicaiyu meṟṟi vanta <gap reason="lost" quantity="4" unit="character"/> 
+					
+                	<lb n="B8"/> <gap reason="lost" quantity="7" unit="character"/> muṟpakkattu <hi rend="grantha">śru</hi>tama<hi rend="grantha">ntra</hi> <gap reason="lost" quantity="7" unit="character"/> 
+				</p>
+				
+			</div>
+			</div>
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 6.443 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1928_01"/>
+						<citedRange unit="page">184</citedRange>
+						<citedRange unit="item">443</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
