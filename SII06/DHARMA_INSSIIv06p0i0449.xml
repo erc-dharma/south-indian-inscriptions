@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 6.449: original edition by K. V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 449. (A.R. No. 13 of 1899). ON THE FOURTH PILLAR IN THE SAME PLACE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv06p0i0449</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-11-20" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> korāca
+					<lb n="2" break="no"/>k<unclear>e</unclear>caripa<hi rend="grantha"><unclear>tma</unclear></hi><unclear>kku</unclear> yāṇ
+					<lb n="3" break="no"/>ṭu <num value="18"><g type="numeral">10</g> 8</num> niyama
+					<lb n="4" break="no"/>mākāḷattu
+					<lb n="5" break="no"/>p paṭāriyā
+					<lb n="6" break="no"/>rkku Oru
+					<lb n="7"/>nontā
+					<lb n="8" break="no"/>viḷak ke
+					<lb n="9" break="no"/>ri<unclear>ppataṟku</unclear>
+					<lb n="10"/>māṟam
+					<lb n="11" break="no"/>pāvai va
+					<lb n="12" break="no"/>ytta p<unclear>o</unclear>
+					<lb n="13" break="no"/><unclear>ṉ</unclear> <num value="12"><g type="numeral">10</g> 2</num> <g type="poṉ"/>
+					<lb n="14"/>Ippo
+					<lb n="15" break="no"/><unclear>ṉ</unclear> paṉṉiru
+					<lb n="16" break="no"/>kaḻañcu <gap reason="lost" quantity="1" unit="character"/> 
+					<lb n="17"/><gap reason="lost" quantity="2" unit="character"/> ka <gap reason="lost" quantity="4" unit="character"/> 
+					<lb n="18"/><gap reason="lost" quantity="2" unit="character"/> taṟkut
+					<lb n="19" break="no"/>tut tiri
+					<lb n="20" break="no"/>Iṭṭerip
+					<lb n="21" break="no"/>patāka I
+					<lb n="22" break="no"/>ppoṉ k<unclear>o</unclear>
+					<lb n="23" break="no"/>ṇṭom
+					<lb n="24"/>pa<unclear>ṭāri</unclear>yā
+					<lb n="25" break="no"/><gap reason="lost" quantity="4" unit="character"/> pa
+					<lb n="26"/> <gap reason="lost" quantity="4" unit="character"/> yya
+					<lb n="27"/>naṉṟi māte
+					<lb n="28" break="no"/>vaṉun naṉ
+					<lb n="29" break="no"/>ṟi Eḻuvaṉu
+					<lb n="30"/>na<unclear>nta</unclear>vāṉa
+					<lb n="31"/><unclear>k</unclear>kuṭi ciṟap
+					<lb n="32" break="no"/>paṉā<unclear>r</unclear> <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+				</p>
+				
+			</div>
+
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 6.449 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1928_01"/>
+						<citedRange unit="page">186</citedRange>
+						<citedRange unit="item">449</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
