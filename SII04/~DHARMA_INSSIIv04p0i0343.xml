@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 4.343: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 343. (A.R. No. 20 of 1890). ON THE NORTH WALL OF THE GARBHAGRIHA OF THE VASISHTHESVARA TEMPLE AT VEPPUR, GUDIYATAM TALUK, SAME DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv04p0i0343</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-11-20" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="4" unit="character"/> ku ciṟumuṟi <supplied reason="undefined"><g type="danda">.</g></supplied> <hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> m(ā)kāmaṇṭalicura Ariyairāyavipāṭaṉ pā<hi rend="grantha">ṣai</hi>kku tappuvairāyar kaṇṭaṉ <hi rend="grantha">śrī</hi>virapokkaṇauṭaiyarkku Irā<hi rend="grantha">kṣi</hi>titavaru<hi rend="grantha">ṣam</hi> paṅkiṉimātam patiṉālāntiyati mutal
+<lb n="2"/> <gap reason="lost" quantity="4" unit="character"/> nūlāyam cūlavari coṭi nattavari kāttikai mātaira<unclear>ṭ</unclear>ṭi maṟṟu Ippaṟṟil koḷḷum palavarikaḷum palaupātikaḷum Iṉip piṟakkum variyum Uṭpaṭa kaṭṭukkuttakai Āka Āṇṭu Oṉṟukku
+<lb n="3"/> <gap reason="lost" quantity="4" unit="character"/> patiṉ Oṉṟum cipātam tāṅkiṉa māttukku paṉṉiraṇṭil Oṉṟum kaḻittu niṉṟa mutal koḷḷakkaṭavatu Ākavum Itu Oḻintu veṟu Oṉṟum collakkaṭavatu Alla kiḻttaṟikku Itil Oṉṟu pāti
+<lb n="4"/> <gap reason="lost" quantity="4" unit="character"/> tevar Eḻuttu Ivai koyilkaṇakku Etirilicoḻa<hi rend="grantha">bramma</hi>rāyar Eḻuttu paṅkuṉi mātam <num value="14"><g type="numeral">10</g> 4</num> tiyati Etiraṭai Iṭṭatu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 4.343 by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1923_01"/>
+			<citedRange unit="page">96</citedRange>
+			<citedRange unit="item">343</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
