@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 4.393: original edition by H. Krishna Sastri</title>
+                <title type="alt">No. 393. (A.R. No. 69 of 1890). ON THE NORTH WALL OF THE SAME TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv04p0i0393</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-11-20" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> tirumaṉṉi vaḷara Irunilamaṭantaiyum poṟceyappāvaiyum cīrtani
+                    <lb n="2" break="no"/>ccelviyum taṉ perunteviya<unclear>rāki</unclear> Inpuṟuneṭutuyar vāḻiŪḻiyu ḷiṭai<unclear>tu</unclear>ṟai nāṭun tuṭa
+                    <lb n="3" break="no"/>rvaṉavelippaṭar vaṉavāciyum cuḷḷiccuḻmatiṭ koḷḷippākkaiyum naṇṇaṟkarumuraṇ maṇṇai
+                    <lb n="4" break="no"/>kkaṭakkamum porukaṭa līḻattaraicartam muṭiyum Āṅkavar teviya ro<unclear>ṅ</unclear>keḻil muṭiyum muṉnavarpakkaṟ
+                    <lb n="5"/>ṟeṉnavaṉ vaiytta cun=taramuṭiyum In=tira n<choice><sic>a</sic><corr>ā</corr></choice>ramum teṇṭirai Īḻamaṇṭalamuḻuvatum Eṟipaṭai
+                    <lb n="6" break="no"/>keraḷan muṟaimaiyiṟ cūṭuṅ kulatanamākiya palarpukaḻ muṭiyum ceṅkatirmālaiyum caṅkatir
+                    <lb n="7" break="no"/>velai t=tolperuṅkāviṟ palapaḻan=tivum ceruviṟ cinavilirupattoruk<unclear>ā</unclear> laraicukaḷai kaṭṭa paracurāmaṉ
+                    <lb n="8"/>mevaruñ cān=timaṟṟivaraṇ karuti Iruttiya cempoṟṟiruttaku muṭiyum payaṅkoṭu paḻimika muyaṅkalil
+                    <lb n="9"/>mutukiṭoḷitta cāciṅkaṉ Aḷapperum pukaḻoṭu <unclear>piṭiI liraṭṭapāṭi E</unclear>ḻarai Ilakkamum navaniti k=kulap
+                    <lb n="10" break="no"/>perumalaikaḷu māpporu taṇṭāṟ koṇṭa kopparakecaripaṉmarāna <hi rend="grantha">śrīrājentra</hi>coḻa<hi rend="grantha">de</hi>varkku yāṇ
+                    <lb n="11" break="no"/>ṭu 9 Āvatu keraḷān=takavaḷanāṭṭut taṭṭaika<supplied reason="omitted">ḷa</supplied>nāṭṭu tevaṇappaḷḷi Irun=tu vāḻum veḷḷāḷaṉ ciṅkan colai
+                    <lb n="12" break="no"/><unclear>y</unclear>en tirunompalūr<hi rend="grantha">mahāde</hi>varkku Oru tirunoṉtāviḷakkukku vaitta pacu patinañcum ce<unclear>p</unclear>piran=tinavum
+                    <lb n="13"/>morum tāṅkaḷe koṇṭu nākiṉṟina cūlam poṟiccu cāvāmuvāp perumpacuvāka kāttu meccu <hi rend="grantha">rakṣi</hi>ttu
+                    <lb n="14"/>Ivaiyiṟṟil pāṟ<hi rend="grantha">bho</hi>kam koṇṭu nicatam Uḻakku neyyāl Oru tirunon=tāviḷakkup pakalum Iravu
+                    <lb n="15" break="no"/>m <hi rend="grantha">cantrāditya</hi>val tirunon=tāviḷak kerippomānom Ivvūr <hi rend="grantha">śrī</hi>koyiluṭaiyom Ivai <hi rend="grantha">panmāhe</hi>
+                    <lb n="16" break="no"/><hi rend="grantha">śvara rirakṣai</hi> <g type="ddanda">.</g> <g type="pc">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 4.393 by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1923_01"/>
+                        <citedRange unit="page">118</citedRange>
+                        <citedRange unit="item">393</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
