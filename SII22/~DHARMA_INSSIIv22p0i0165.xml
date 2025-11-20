@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 22.165: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 165. (A.R. No. 165 of 1906) SOUTH ARCOT DISTRICT, TIRUKKŌYILŪR TALUK, ELVĀNĀŚŪR. GRĀMĀRDHANĀTHA TEMPLE—IN THE SAME PLACE. VIKRAMA-CHŌḶA—17th YEAR (A.D. 1134-35).</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>	
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv22p0i0165</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This is left incomplete towards the end. The inscription registers the <hi rend="italic">uḷvari</hi> (entry in Tax-register) for the lands endowed after purchase by one Taṟaiyuḍaiyāṉ Vichchādiraṉ Sahāyaṉ <hi rend="italic">alias</hi> Viñjirāyaṉ to provide for the requirements of worship and offerings (specified in detail) on all important festival Sundays in the temple of Ūrbāgaṅkoṇḍadēvar at Iṟaiyānaraiyūr, on which occasions the image of the goddess Tiruppaḷḷiyaṟai-Āḷuḍaiyāḷ was taken in procession round the temple to the recital of <hi rend="italic">Tiruchchāḻal</hi> hymns (of Māṇikyavāchaka).</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-11-20" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change><change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">vikra</hi>macoḻatevaṟku yāṇṭu <num value="17"><g type="numeral">10</g> 7</num><g type="dash"/>Āvatu milāṭākiya <hi rend="grantha">ja</hi>ṉanāta vaḷanāṭṭu pāṉūṟkūṟṟattu <hi rend="grantha">brahmade</hi>ya<supplied reason="omitted">m</supplied> Iṟaiyāṉaraiyūrāṉa <hi rend="grantha">śrī</hi>coḻakeraḷac catuvvetimaṅkalattu Ūrpākaṅkoṇṭatevar
+                    <lb n="2"/>koyilil tiruppaḷḷiAṟai Āḷuṭaiyāḷ tirunāyaṟṟukkiḻamaitoṟum puṟampe Eḻuntaruḷit tiruccāḻal keṭṭaruḷi Amutuce<supplied reason="omitted">y</supplied>taruḷi koyillaic cuḻal Eḻuṉtaruḷi mele Eḻuṉtaruḷukaikku Aṟṟaināḷaikku veṇṭum Aḻivukku Uḷvari tiru
+                    <lb n="3" break="no"/>nāyaṟṟukkiḻamai Oṉṟukku ti 
+                    <lb n="4" break="no"/>ruvamutu Arici mukkuṟuṇikku nellu Eḻukuṟuṇi nānāḻiyum kaṟiAmutukku nellu nānāḻiyum neyyamutu Uḻakkukku nellu kuṟuṇiyum taiyiramutu Iru nāḻikku nellu nānāḻiyum miḷa<surplus>k</surplus>kuAmutu Oru piṭikku nellu muṉnāḻiyum Uppamutu Urikku nellu Irunā <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="5"/>yum tiruviḷakkeṇṇai nāḻikku nellut tūṇiyum Āka nāḷ Oṉṟukku nelluk kalane mukkuṟuṇi Āka Ippaṭi <hi rend="grantha">śantrā</hi>tittavaṟ cellakkaṭavatāka Iṉnimaṉtam celkaikku taṟaiUṭaiyāṉ viccātiraṉ cakāyanāna viñcirāyaṉ Ivvūr pā <gap reason="lost" quantity="5" unit="character"/> 
+                    <lb n="6"/>Ivviruvar pakka<surplus>l</surplus>lum vilaikoṇṭu viṭṭa coḻakeraḷanallūrkkuk kiḻ pā<supplied reason="omitted">ṟ</supplied>kkellai Ittevar <hi rend="grantha">de</hi>vatāṉam nalaraicūr Ellai <surplus>me</surplus>n=kum piṭākai ciṟu pāttuEllaikku me<supplied reason="omitted">ṟ</supplied>kkum teṉpā<supplied reason="omitted">ṟ</supplied>kke<supplied reason="omitted">l</supplied>lai Ūriniṉṟum kumaramaṅkala<supplied reason="omitted">t</supplied> teṟappona vaḻikku vaṭakkum melpā<supplied reason="omitted">ṟ</supplied>k<seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg> <gap reason="lost" quantity="10" unit="character"/> 
+                    <lb n="7"/>Āka Icaitta perunāṅke<unclear>llai</unclear>Uḷ Akappaṭṭa Eriyum naṉceyum puṉceyum Ā<supplied reason="omitted">ka</supplied> Ittaṉaiyum It<supplied reason="omitted">t</supplied>evar tirunāmattile vilaikoṇṭu Ittanmam <hi rend="grantha">śantrā</hi>tittavaṟ <hi rend="grantha">śrī</hi>kāriyañceyvār mutal Iṭṭuk koṇṭu <hi rend="grantha">śrī</hi>paṇṭārattile Aḷan=tu viṭṭu cella
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                <p n="7"><foreign>cella</foreign>. Stops here.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 22.165 by <bibl><ptr target="bib:SrinivasaRao1983_01"/></bibl> automatically converted to DHARMA conventions.</p>
+                <p>See also edition by Renato Dávalos and Emmanuel Francis (<ref target="DHARMA_INStfaSIIv22p0i0165"/>).</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1983_01"/>
+                        <citedRange unit="page">135-136</citedRange>
+                        <citedRange unit="item">165</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
