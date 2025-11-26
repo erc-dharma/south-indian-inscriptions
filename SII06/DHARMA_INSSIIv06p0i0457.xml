@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 6.457: original edition by K. V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 457. (A.R. No. 21 of 1899). ON THE SOUTH WALL OF THE CENTRAL SHRINE IN THE PERUMAL TEMPLE AT VINNAMANGALAM, ARNI TALUK, NORTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv06p0i0457</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-11-26" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-06-24" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> tirumakaḷ maruviya ceṅkol ven=taṉ taṉ <gap reason="lost" quantity="10" unit="character"/> Eḻa<unclear>rai</unclear>ilakkamuṅ koṇṭu taṉṉāṇai celaviṭṭu <unclear>mu</unclear>ṉnāṇai tavirttaruḷit ticaiyatu nikaḻa<unclear>p pa</unclear>
+					
+					<lb n="2" break="no"/>ṟaiyatu kaṟaṅkap perāṟṟaṅkaraik koppat toṭṭiya Ā<hi rend="grantha">ha</hi>va<unclear>malla</unclear> <gap reason="lost" quantity="7" unit="character"/> kaṇṭañcip purakkiṭṭoṭa Āṅkavaṉ Āṉaiyum kuturaiyum peṇṭir paṇ
+					
+					<lb n="3" break="no"/>ṭāramum Oṭṭakattoṭu vi<hi rend="grantha">bha</hi>vamum Aṭaṅkalum kaikko<unclear>ṇ</unclear>ṭu kollāpu<unclear>riko</unclear>ṇ<unclear>ṭa</unclear> <gap reason="lost" quantity="3" unit="character"/> rā<hi rend="grantha">je</hi>ṉtiracoḻatevaṟku yāṇṭu Eḻāvatu <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻamaṇṭalattup perumpāṇa<unclear>p</unclear>pāṭi <gap reason="lost" quantity="4" unit="character"/> 
+					
+					<lb n="4"/><unclear>ṭu Aiyam</unclear>puḻu<unclear>kūr</unclear>nāṭ<unclear>ṭu</unclear> viṇṇamaṅkalamāṉa vi<hi rend="grantha"><unclear>kra</unclear></hi>macoḻacca<unclear>tu</unclear><supplied reason="omitted">p</supplied>petimaṅkala<unclear>t</unclear>tut tirumeṟkoyi<unclear>lāna</unclear> tiru<unclear>viruṉta</unclear>perumāḷ koyil nānā<unclear>t</unclear>eciviṇṇakar Ikkoyil <hi rend="grantha">vyā</hi>pā
+					
+					<lb n="5" break="no"/><gap reason="lost" quantity="4" unit="character"/> tikaiyaṉ vat=ta tikai<unclear>yā</unclear>yirattu Aiññūṟṟuvarom tiru
+					
+					<lb n="6" break="no"/>vākkulattuppiḷḷaikku v<unclear>ai</unclear>ttuk kuṭuttapaṭi Āvatu
+					
+					<lb n="7"/><gap reason="lost" quantity="10" unit="character"/> ri kaṉtaṉa <gap reason="lost" quantity="1" unit="character"/> mpi <unclear>mā</unclear>ranteḻu<unclear>va</unclear>n taṉamume kaikkoṇṭu
+					
+					<lb n="8"/><gap reason="lost" quantity="10" unit="character"/> kippārkaḷāka Ikkoyilukku <unclear>ma</unclear>ka<unclear>ḷmai</unclear> vaittuk kuṭuttom
+					
+					<lb n="9"/><gap reason="lost" quantity="10" unit="character"/> n kaṇṇā <gap reason="lost" quantity="2" unit="character"/> kaḷilk <unclear>k</unclear>oṇṭānor Eḻutte kāno <gap reason="lost" quantity="10" unit="character"/> 
+					
+					<lb n="10"/><gap reason="lost" quantity="10" unit="character"/> vaittu kuṭuttom tiruvāyppārur parama <gap reason="lost" quantity="11" unit="character"/> 
+				</p>
+				
+			</div>
+			
+			<div type="commentary">
+				<p>The inscription is much damaged.</p>
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 6.457 by <bibl><ptr target="bib:SubrahmanyaAiyer1928_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1928_01"/>
+						<citedRange unit="page">190</citedRange>
+						<citedRange unit="item">457</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
