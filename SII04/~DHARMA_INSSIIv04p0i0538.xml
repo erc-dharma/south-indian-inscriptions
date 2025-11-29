@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 4.538: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 538. (A.R. No. 91 of 1892). ON THE BASE OF THE SAME WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv04p0i0538</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-11-29" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> tirumaṉni vaḷara Irunilamaṭa<supplied reason="omitted">n</supplied>taiyum poṟce(y)yappāvaiyum cīrttani<supplied reason="omitted">c</supplied> celviyu(m) n=tan perunteviyarāki Iṉpuṟa neṭutuyarūḻiyuḷ Iṭaituṟaināṭum tuṭarvanavelippaṭa<supplied reason="omitted">r</supplied> vanavāciyum cuḷḷiccūḻ mati<unclear>ḷ</unclear> koḷḷippākkaiyum naṇṇaṟkka<unclear>ru</unclear>muraṇ maṇ
+<lb n="2" break="no"/>ṇaikkaṭakamum porukaṭa liḻattaraiyartam muṭiyum Āṅkavanṟeviyar Ōṅkeḻil muṭiyum munna<supplied reason="omitted">vaṉ</supplied>pakkal tennavan vaitta cuntaramuṭiyum Intira nāramum tenṟicai Īḻamaṇṭala muḻuvatu<supplied reason="omitted">m</supplied> Eṟipaṭaikkeraḷan muṟai[�*]mayil cūṭum kulatanamākiya palarpukaḻ mu
+<lb n="3" break="no"/>ṭiyum ceṅkatirmālaiyum toṟperuṅkāvum palapaḻantivum māpperuntaṇṭāṟ koṇṭa kopparakecaripa<hi rend="grantha">nma</hi>rāṉa <hi rend="grantha">śrīrāje</hi>ntiracoḻa<hi rend="grantha">de</hi>va<supplied reason="omitted">r</supplied>kki yāṇṭu 6āvatu nāḷ <num value="185"><g type="numeral">100</g> 8 <g type="numeral">10</g> 5</num> Irā<hi rend="grantha">jā(ś)rai</hi>yavaḷanāṭṭu taṉiyūr tiruveḷḷaṟai tiru<supplied reason="omitted">p</supplied>paiñnili mā<hi rend="grantha">hāde</hi>
+<lb n="4" break="no"/>varkku ciṟukālai paruppupponakam Amutuceytaruḷa nicatam tūkkuttalarici Irunāḻiyum tūpparuppu Irunāḻiyum Āka nānāḻikku nelluk kuṟuṇi Irunāḻiyum nicatam neyyamutu Orupiṭikku nellu Irunāḻiyum caṟkaraiy Orupalattukku nellu Irunāḻiyum porikkaṟi
+<lb n="5"/>yamutu Onṟinukku nellu nāḻiyum Aṭaikkā<supplied reason="omitted">ya</supplied>mutukku pākku Aiñcum veṟṟilai O<unclear>raṭu</unclear>kkukku nellu nāḻiyum Āka nicatam karaṇattāl nellu <unclear>pa</unclear>takkāka Āṭṭai vaṭṭam nellu Aṟupatinkala nellu Aṭṭuvatā<unclear>ka</unclear> Innāṭṭup pāccilkūṟṟattu kiḻ
+<lb n="6" break="no"/>palāṟṟu <gap reason="lost" quantity="1" unit="character"/> ṅkaiyūruṭaiyāṉ ponnaṉ koḻampattaṭikaḷāna Irā<hi rend="grantha">je</hi>ntiracoḻaccempiyanmārāyanukkāka Ivan tāy nakkan centan ciṟukālaiciṟappup paruppup ponakattukku vaitta kācu ṉūṟṟaimpatu Ikkācu ṉūṟṟu Aimpatu Ivvūr melaiceri maṇi
+<lb n="7" break="no"/>yampalattu perumakkaḷom vāṅkikkoṇṭu Ippaṭi kāṇakkālāl nicatam patakku nellāka Āṭṭaivaṭṭam Aṟupatinkalamu<supplied reason="omitted">m</supplied> Aṭṭi <hi rend="grantha">cannrā</hi>tittaval Innivantam celuttuvomānom melaicceri maṇiyampalattup perumakkaḷom I
+<lb n="8" break="no"/>tu mulapparuṭaiyār <hi rend="grantha">rakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 4.538 by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1923_01"/>
+			<citedRange unit="page">177</citedRange>
+			<citedRange unit="item">538</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
