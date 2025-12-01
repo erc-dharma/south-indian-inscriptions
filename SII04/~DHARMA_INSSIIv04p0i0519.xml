@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 4.519: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 519. (A.R. No. 72 of 1892). IN THE SAME PLACE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv04p0i0519</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-11-29" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> matiraikoṇ
+<lb n="2" break="no"/>ṭa kopparake<hi rend="grantha">sari</hi>va<hi rend="grantha">rmma</hi>ṟku yāṇṭu
+<lb n="3"/><num value="17"><g type="numeral">10</g> 7</num> Āvatu <hi rend="grantha">śrīraṅga</hi>ttuppe
+<lb n="4" break="no"/>rumāṉaṭikaḷukkut teṉṉā
+<lb n="5" break="no"/>ṭṭut <unclear>ti</unclear>ruva<unclear>rai</unclear>c caṅkaraṉiraṇa
+<lb n="6" break="no"/>ciṅkaṉ nantāviḷak koṉṟiṉu
+<lb n="7" break="no"/>kkut tanta poṉ cemmai paṇ
+<lb n="8" break="no"/>ṭārakkallāl <hi rend="grantha"><num value="30">3 <g type="numeral">10</g></num> �</hi> Ivaṉe
+<lb n="9" break="no"/>y Ittiruviḷakku nicatippaṭi <hi rend="grantha">bhīma</hi><unclear>ṉ</unclear>
+<lb n="10"/> <gap reason="lost" quantity="1" unit="character"/> <unclear>ya</unclear>ṅ kaṟpūra miraṇṭu mañcāṭi E
+<lb n="11" break="no"/>rivatāka vaitta poṉ <hi rend="grantha"><num value="40">4 <g type="numeral">10</g></num>�</hi> pa
+<lb n="12" break="no"/>ñcu tirikku � Ākap poṉ ṉeḻupat
+<lb n="13" break="no"/>torukaḻañ citaṉ poliyūṭṭiṉā
+<lb n="14" break="no"/>likkaṟpūraviḷakkut tiruvaṇukkavi <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="15"/>ya<unclear>ti</unclear>tiliṟ ṟirupaṭimeleyya <hi rend="grantha"><unclear>ca</unclear>ndrā</hi>
+<lb n="16" break="no"/><hi rend="grantha">di</hi>ttaval lerippippomāṉon
+<lb n="17"/>tiruvaraṅkattu <hi rend="grantha">sabhai</hi>yo mitu <hi rend="grantha"><unclear>v</unclear>aiṣṇa</hi>
+<lb n="18" break="no"/>va<hi rend="grantha"> rakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> Innāḷā livaṉey vai<unclear>t</unclear>
+<lb n="19" break="no"/>ta veḷ<unclear>ḷi</unclear> nilai<unclear>vi</unclear>ḷak<unclear>koṉṟu I</unclear>
+<lb n="20" break="no"/>tu vai<hi rend="grantha">ṣṇa</hi>va ra<hi rend="grantha">kṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 4.519 by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1923_01"/>
+			<citedRange unit="page">151</citedRange>
+			<citedRange unit="item">519</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
