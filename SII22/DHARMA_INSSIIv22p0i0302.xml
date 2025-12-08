@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 22.302: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 302. (A.R. No. 302 of 1906) NORTH ARCOT DISTRICT, WALAJAPET TALUK, TIRUMĀLPURAM. RUINED VISHṆU TEMPLE—ON THE SAME WALL. PARĀNTAKA I—34th YEAR (A.D. 940-41)</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName>
+                        <name>DHARMA team</name>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv22p0i0302</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This records a gift of 96 Sheep for a perpetual lamp in the temple of Gōvindapāḍi-Āḷvār by a resident of Śirukuḷam (?) by name Māṟaṉ Paramēśvaraṉ <hi rend="italic">alias</hi> Śōḻiyavaraiyaṉ, who seems to have left them in charge of the <hi rend="italic">Ūrār</hi> of Veṇmaṇi-Pudūr in Manaiyiṟ-kōṭṭam for the daily supply of an <hi rend="italic">uḻakku</hi> of ghee. The inscription is damaged.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-12-08" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> matiraikoṇṭa
+                    <lb n="2"/>kopparakecaripa<hi rend="grantha">nma</hi>kku yāṇ
+                    <lb n="3" break="no"/>ṭu <num value="34">3 <g type="numeral">10</g> 4</num><g type="dash"/>vatu <gap reason="lost" quantity="5" unit="character"/> nāṭṭu teṉ
+                    <lb n="4" break="no"/>karai nā <gap reason="lost" quantity="7" unit="character"/> kūṟṟattu ci
+                    <lb n="5" break="no"/>ṟukuḷattu <gap reason="lost" quantity="8" unit="character"/> māṟaṉ parame<hi rend="grantha">śva</hi>
+                    <lb n="6" break="no"/>raṉākiya <gap reason="lost" quantity="8" unit="character"/> vaṉ coḻiyavarai
+                    <lb n="7" break="no"/>yaṉ cima <gap reason="lost" quantity="8" unit="character"/> ṟi Itu nela <gap reason="lost" quantity="2" unit="character"/> 
+                    <lb n="8"/><gap reason="lost" quantity="2" unit="character"/> ākoṇṭu miṇṭu potukiṉ
+                    <lb n="9" break="no"/>ṟār <hi rend="grantha">śrī</hi> kovintapāṭi Āḷ
+                    <lb n="10" break="no"/>vā<supplied reason="omitted">r</supplied>kku caṉtirātittaval no
+                    <lb n="11" break="no"/>ntāviḷakku Oṉṟiṉukku nicati Uḻakku
+                    <lb n="12"/>ne<supplied reason="omitted">y</supplied>kku Āka vaitta Āṭu toṇṇūṟṟāṟu Āṭu
+                    <lb n="13"/>c<choice><sic>a</sic><corr>ā</corr></choice>vvāmuvvāper Āṭu Itu vai<hi rend="grantha">ṣṇa</hi>va<hi rend="grantha">rakṣai</hi>
+                    <lb n="14"/>nilaiviḷakkoṉṟu<hi rend="grantha">k</hi>ku <gap reason="lost" quantity="5" unit="character"/> ḻiyum Ivaṉ ney kuṭuttā <gap reason="lost" quantity="5" unit="character"/> Uḻakku <gap reason="lost" quantity="3" unit="character"/> Ivaṉte <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="15"/>pāṉṉatu kuṭutta toṇṇūṟṟāṟum nāḻiyum nālum Āka Āṭu <gap reason="lost" quantity="5" unit="character"/> 
+                    <lb n="16"/>ṟāṟuṅkuṭuttom maṇaiyiṟkoṭṭattu veṇmaṇiputūr nā
+                    <lb n="17" break="no"/>ḷ nicati Uḻakku ney Erippomāṉom maṇiputūr
+                    <lb n="18"/>Itu ra<supplied reason="omitted">k</supplied><hi rend="grantha">ṣi</hi><supplied reason="omitted">p</supplied>pār Aṭipoṭi Entalaimelana <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 22.302 by <bibl><ptr target="bib:SrinivasaRao1983_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1983_01"/>
+                        <citedRange unit="page">252</citedRange>
+                        <citedRange unit="item">302</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
