@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 8.8: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 8. (A.R. No. 422 of 1902). ON THE SAME BASE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv08p0i0008</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2025-12-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/>pukaḻmātu viḷaṅka <hi rend="grantha">ja</hi>yamātu viṟu<supplied reason="omitted">m</supplied>pa nila<unclear>ma</unclear>kaḷ nilava malaimakaḷ puṇara Urimaiyiṟ ciṟan=ta maṇimuṭi cūṭi minavar nilaikeṭa villavar kulaitara <unclear>E</unclear>ṉaimaṉṉava <unclear>ririya</unclear>luṟ ṟiḻitara tikkaṉaittu<supplied reason="omitted">m</supplied> taṉ cakkara 
+					
+					<lb n="2"/>naṭātti vira<hi rend="grantha">siṁhāsa</hi>na<supplied reason="omitted">t</supplied>tu A<unclear>va</unclear>nimu<unclear>ḻutu</unclear>tuṭaiyāḷ<unclear>o</unclear>ṭu viṟṟirun=taruḷiya kovirācakecaripaṉmarāna kulottuṅkacoḻatevaṟkku muppattiraṇṭāvatu paṅkaḷanāṭṭu vaṭakkil <unclear>va</unclear>ṉkamukaināṭ<unclear>ṭu Uy</unclear>yakkoṇṭāncoḻapurattu <hi rend="grantha">rāja</hi>
+					
+					<lb n="3" break="no"/><hi rend="grantha">rājaĪśvara</hi>muṭaiyārkku caṇpaiyil ma<unclear>ṉ</unclear>ṟāṭi cūṟṟiceṭṭiyen vaitta tiru<unclear>nu</unclear>n=tāviḷakku Oṉṟum ca<hi rend="grantha">ntrāditya</hi>varai celuttuvatāka Ikkoyililt tiruvuṇṇāḻikaiUṭaiyārpakkal Erippatāka <gap reason="lost" quantity="4" unit="character"/> viṭṭen <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+				</p>
+				
+			</div>
+			
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 8.8 by <bibl><ptr target="bib:SubrahmanyaAiyer1937_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1937_01"/>
+						<citedRange unit="page">7-8</citedRange>
+						<citedRange unit="item">8</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
