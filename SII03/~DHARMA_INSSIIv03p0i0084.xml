@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 3.84: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">No. 84.—INSCRIPTION AT PERUMBER.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv03p0i0084</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription (No. 266 of 1901) is engraved on the east wall of the <hi rend="italic">maṇḍapa</hi> in front of the shrine in the <hi rend="bold">Tāndōṉṟīśvara</hi> temple at <hi rend="bold">Perumbēr</hi> and is dated in the 7th year of <hi rend="bold">Vīrarājēndra</hi> I. It records a grant of land to the <hi rend="bold">Tiruttāṉtōṉṟi-Mahāśrīkaraṇa-Īśvara</hi> temple at <hi rend="bold">Perumbēṟūr</hi> <hi rend="italic">alias</hi> <hi rend="bold">Tribhuvananallūr</hi>. As in another Perumbēr inscription (No. <ref target="DHARMA_INSSIIv03p0i0078">78</ref> above), Perumbēṟūr is here called a hamlet of <hi rend="bold">Śrī-Madurāntakachaturvēdimaṅgalam</hi>, the modern Madurāntakam. Line 16, which is incomplete, mentions <hi rend="bold">Vīra-Śōḻaśēri</hi>, a portion of the city which is also referred to at the end of No. <ref target="DHARMA_INSSIIv03p0i0078">78</ref> above.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-12-16" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <unclear>vī</unclear>ramey tuṇaiyākavun=tiyākameyaṇiyākavum ceṅkoloccikkaruṅkali kaṭin=tu teṉ
+                    <lb n="2" break="no"/>naṉaitta<unclear>lai</unclear> ko<unclear>ṇ</unclear>ṭu cerala<unclear>ṉai</unclear>ttiṟai koṇṭu ciṅkaḷatecam <choice><sic>va</sic><corr>A</corr></choice>ṭippaṭuttu veṅkaḷattā<hi rend="grantha">ha</hi>vama<unclear>l</unclear>
+                    <lb n="3" break="no"/>laṉai Ai<choice><sic>ya</sic><corr>m</corr></choice><unclear>ma</unclear>ṭi meṉ koṇṭu <unclear>v</unclear>eṅkaināṭu mīṭṭukkoṇṭu ta<unclear>ṉṉuṭa</unclear>ṉ piṟan=ta muṉṉavar viratamuṭi
+                    <lb n="4" break="no"/>ttu va<unclear>n=ta</unclear>ṭi pa<unclear>ṇi</unclear>n=ta caḷukki vi<hi rend="grantha">jai</hi>yātittarkku maṇṭalam Aruḷikkaḻalaṭi paṇin=ta ma<unclear>ṉ</unclear>ṉarkkukkaṭāram Eṟin=tu kuṭu<unclear>t</unclear>ta
+                    <lb n="5" break="no"/>ru<unclear>ḷi</unclear> com<choice><sic>i</sic><corr>ī</corr></choice><hi rend="grantha"><unclear>śva</unclear></hi>raṉ kaṉ<unclear>ṉa</unclear>ratecam kaiviṭat<unclear>tu</unclear>ratti van=taṭi vaṇaṅkiya caḷukki vikkiramātittaṉai Eṇṭicai
+                    <lb n="6"/>nikaḻ kaṇ<unclear>ṭi</unclear>kai cūṭṭi Iraṭṭapāṭi Eḻarai Ilakkamum Eṟi<unclear>n=tu</unclear> kuṭuttaruḷi <unclear>vi</unclear><hi rend="grantha">jai</hi>ya<hi rend="grantha">si</hi>ṅkācaṉattulakamuḻutuṭaiyā
+                    <lb n="7" break="no"/>ḷoṭum v<choice><sic>i</sic><corr>ī</corr></choice>ṟṟirun=taruḷiya kov<choice><sic>ī</sic><corr>i</corr></choice><surplus>ra</surplus><hi rend="grantha">rāja</hi>kecariva<hi rend="grantha">nmarā</hi>na Uṭaiyār <hi rend="grantha">śrī</hi>v<choice><sic>i</sic><corr>ī</corr></choice>ra<hi rend="grantha">rājentrade</hi>vaṟku yāṇṭu Eḻāvatu <supplied reason="undefined"><g type="danda">.</g></supplied> 
+                    <lb n="8"/>muraṭcaḷukkiy<unclear>ai</unclear> muṭakkāṟṟil mutuku kaṇṭu munivāṟi Iraṭṭarā<hi rend="grantha">ja</hi>kula<unclear>k</unclear>ā<add place="below">la</add>ṉ <unclear>Ika</unclear>l vīra<hi rend="grantha">rājentra</hi>ṉ puyaṅkoṇṭu potu n<choice><sic>i</sic><corr>ī</corr></choice> 
+                    <lb n="9" break="no"/>kki Āḷkiṟa <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻamaṇṭalattu kaḷattūrkoṭṭattu taniyūr <hi rend="grantha">śrī</hi>maturān=takacaruppetimaṅkalat
+                    <lb n="10" break="no"/>tu peruṅkuṟi<hi rend="grantha">sabhai</hi>yom Eḻuttu <g type="dashLong"/> namm<choice><sic>u</sic><corr>ū</corr></choice>r pi<unclear>ṭ</unclear>ākai perumpeṟūrāṉa tiripuvananallū<unclear>r</unclear> tiruttāṉtoṉṟi<hi rend="grantha">ma</hi>
+                    <lb n="11" break="no"/><hi rend="grantha">hāśrī</hi>karaṇa<hi rend="grantha">īśvara</hi>muṭaiy<choice><sic>a</sic><corr>ā</corr></choice>rkku Iṟaiyiliyāka viṭṭa nilam perumpeṟūr <unclear>E</unclear>ri karaikku teṟkum Ivverini<unclear>n</unclear>
+                    <lb n="12" break="no"/>ṟum Ampalattu tūmpiṉniṉṟum teṉmeṟku nokki pona vāykkālukku meṟku Ivvāykkāl<unclear>ni</unclear>
+                    <lb n="13" break="no"/>ṉṟum Ittevar <unclear>k</unclear>oyile Eṟa pona vaḻi varampukku vaṭakkum Ittevar koyilil kiḻakkil caturavaṟutikku
+                    <lb n="14"/>kiḻakkum <unclear>na</unclear>ṭuvuḷ pa<unclear>ra</unclear>ppum tāḻvum Iṉṟi mañcikkamāka kiṭan=ta nilattil m<choice><sic>u</sic><corr>ū</corr></choice>nṟu pāṭakam tirutti Itte
+                    <lb n="15" break="no"/>vaṟku tiru<unclear>c</unclear>ceṉn<choice><sic>a</sic><corr>e</corr></choice><unclear>l</unclear>naṭaikkum tiruvārātaṉai ceyv<choice><sic>a</sic><corr>ā</corr></choice>rkkumāka Iṟaiyiliyāka kuṭuttom peruṅkuṟi<hi rend="grantha">sa</hi>
+                    <lb n="16" break="no"/><hi rend="grantha">bhai</hi>yom <supplied reason="undefined"><g type="danda">.</g></supplied> paṇittār v<choice><sic>i</sic><corr>ī</corr></choice>racoḻaceri v<unclear>e</unclear>ṟpuṟattu <gap reason="lost" quantity="10" unit="character"/> ta paṇiyāl <unclear>ca</unclear>ruṭai <gap reason="lost" quantity="5" unit="character"/>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="3">
+                        <lem>meṉ koṇṭu</lem>
+                        <note>No. 15 of the list on p. 193 above reads <foreign>veṉ kaṇṭu</foreign>.</note>
+                    </app>
+                    <app loc="4">
+                        <lem>maṇṭalam</lem>
+                        <note>No. 15 reads <foreign>veṅkaimaṇṭalam</foreign>.</note>
+                    </app>
+                    <app loc="5">
+                        <lem>vikkiramātittaṉai</lem>
+                        <note>No. 15 reads <foreign>tittaṟku</foreign>.</note>
+                    </app>
+                    <app loc="8">
+                        <lem>Iraṭṭarā<hi rend="grantha">ja</hi>kula<unclear>k</unclear>ā<add place="below">la</add>ṉ</lem>
+                        <note>The <foreign>la</foreign> is entered below the following <foreign>ṉ</foreign>.</note>
+                    </app>
+                    <app loc="9">
+                        <lem><hi rend="grantha">ja</hi>yaṅkoṇṭacoḻamaṇṭalattu</lem>
+                        <note>Instead of the passage beginning with line 8 and ending here, No. 16 has the following:— <foreign>ve<unclear>ṟi</unclear> ku<unclear>ṟi</unclear>t<unclear>ta</unclear> kaḷan=tanṉil porkkaḷattu puṟaṅkoṇṭu Ira<unclear>ṭ</unclear>ṭakoṉai pura<unclear>ṭ</unclear>ṭaṭakki Ikal vīrarā<hi rend="grantha">jentra</hi><supplied reason="omitted">ṉ</supplied> <unclear>ni</unclear>laṅkoṇṭu potu nī<unclear>k</unclear>ki āḻkiṉṟa <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻamaṇṭalattu</foreign>.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:Hultzsch1903_01">
+                
+                <p>(L. 1.) Hail ! Prosperity ! While courage was (<hi rend="italic">his</hi>) only help and liberality (<hi rend="italic">his</hi>) only ornament, (<hi rend="italic">the king</hi>) wielded the sceptre and dispelled the dark Kali (<hi rend="italic">age). (He</hi>) took the head of the king of the South (<hi rend="italic">i.e</hi>). the <hi rend="bold">Pāṇḍya</hi>),<note>As will appear from No. <ref target="DHARMA_INSSIIv03p0i0088">88</ref> below, the ‘taking of the head of the Pāṇḍya’ means that the king, being seated on his throne, placed his foot on the head of the latter.</note> levied tribute from the Śēralaṉ (<hi rend="italic">i.e.</hi> the <hi rend="bold">Chēra</hi> king), and subdued the Śiṅgaḷa (<hi rend="italic">i.e.</hi> <hi rend="bold">Siṁhala</hi>) country.</p>
+                
+                <p>(L. 2.) (<hi rend="italic">He</hi>) saw the back of (<hi rend="italic">i.e.</hi> put to flight) <hi rend="bold">Āhavamalla</hi> five times in hot battles, recovered <hi rend="bold">Vēṅgai-nāḍu</hi>, fulfilled the vow of the elder brother who was born with him, and bestowed the <hi rend="bold">[Vēṅgai]-maṇḍalam</hi> on the <hi rend="bold">Śaḷukki</hi> (<hi rend="italic">i.e</hi>). Chalukya) <hi rend="bold">Vijayāditya</hi> who came and worshipped (<hi rend="italic">his</hi>) feet.</p>
+                
+                <p>(L. 4.) Having conquered (<hi rend="italic">the country of</hi>) <hi rend="bold">Kaḍāram</hi>, (<hi rend="italic">he</hi>) was pleased to give (<hi rend="italic">it) (back</hi>) to (<hi rend="italic">its</hi>) king who worshipped (<hi rend="italic">his</hi>) feet (<hi rend="italic">which bore</hi>) ankle-rings.</p>
+                
+                <p>(L. 5.) (<hi rend="italic">He</hi>) chased <hi rend="bold">Sōmēśvara</hi> (<hi rend="italic">and forced him</hi>) to abandon the <hi rend="bold">Kaṉṉara</hi> country, invested the <hi rend="bold">Śaḷukki Vikramāditya</hi>, who came and bowed to (<hi rend="italic">his</hi>) feet, with the necklace which illumined the eight directions, and was pleased to conquer and to grant (<hi rend="italic">to him</hi>) the seven and a half <hi rend="italic">lakshas</hi> of <hi rend="bold">Raṭṭapāḍi</hi>.<note>This passage was already quoted above, p. 65, note 1, from No. 175 of 1894 (No. 16 on p. 193 above).</note> </p>
+                
+                <p>(L. 6.) In the seventh year of (<hi rend="italic">this</hi>) king <hi rend="bold">Rājakēsarivarman</hi> <hi rend="italic">alias</hi> the lord <hi rend="bold">Śrī-Vīrarājēndradēva</hi>, who was pleased to be seated on the throne of victory together with (<hi rend="italic">his queen</hi>) <hi rend="bold">Ulagamuḻuduḍaiyāḷ</hi>.</p>
+                
+                <p>(L. 8.) The writing of us, the great assembly<note>See above, p. 176, note 2.</note> of <hi rend="bold">Śrī-Madurāntaka-chaturvēdimaṅgalam</hi>, an independent village<note>On <hi rend="italic">taṉiyūr</hi> see above, p. 3, note 7.</note> in <hi rend="bold">Kaḷattūr-kōṭṭam</hi>, (<hi rend="italic">a district</hi>) of <hi rend="bold">Jayaṅgoṇḍa-Śōḻa-maṇḍalam</hi>, which is ruled over—having conquered (<hi rend="italic">it by the strength of his</hi>) arm and having made it his exclusive property<note>Literally, ‘having stopped its being the common property (of other kings).’ The same phrase (<foreign>potu nīkki</foreign>) occurs in a description of the reign of Rājamahēndra; see p. 191 above, clause <hi rend="italic">b</hi>.</note> —by the warlike <hi rend="bold">Vīrarājēndra</hi>, the god of Death to the family of the <hi rend="bold">Raṭṭa</hi> king, (<hi rend="italic">whose</hi>) anger abated (<hi rend="italic">only</hi>) after seeing the back of the obstinate <hi rend="bold">Śaḷukki</hi> (<hi rend="italic">i.e</hi>). Chalukya) on <hi rend="italic">the bank of</hi>) the winding river.<note>Compare above, p. 191 and note 8. In No. 16 of the list on p. 193 above, the whole passage runs as follows (see above, p. 203, note 3):—“Jayaṅgoṇḍa-Śōḻa-maṇḍalam, which is ruled over—having conquered the earth and having made it his exclusive property—by the warlike Vīrarājēndra, (who) put a stop to the deceit of the Raṭṭa king after seeing (his) back in an encounter on the battle-field which (the enemy) had appointed (in his) fury.”</note> </p>
+                
+                <p>(L. 10.) (<hi rend="italic">The following</hi>) land was granted, free of taxes, to the god of the <hi rend="bold">Tiruttāṉtōṉṟi-Mahāśrīkaraṇa-Īśvara</hi> (<hi rend="italic">temple</hi>) at <hi rend="bold">Perumbēṟūr</hi> <hi rend="italic">alias</hi> <hi rend="bold">Tribhuvananallūr</hi>, a hamlet of our village.</p>
+                
+                <p>(L. 11.) Three <hi rend="italic">pāḍagam</hi><note>See above, p. 177 and note 3.</note> in the land which had been lying as <hi rend="italic">mañjikkam,</hi><note>Compare above, p. 30 and note 4.</note> without being levelled and dug up, within (<hi rend="italic">the following boundaries):</hi> to the south of the bank of the tank at <hi rend="bold">Perumbēṟūr</hi>; to the west of the channel running towards the south-west from the (sluice called) <hi rend="italic">Ambalattu-tūmbu</hi> of this tank; to the north of the margin of the road leading from this channel up to the temple of this god; and to the east of the end of the square (<hi rend="italic">field</hi>) on the east of the temple of this god.</p>
+                
+                <p>(L. 14.) Having reclaimed (<hi rend="italic">this land</hi>), we, the great assembly, gave (<hi rend="italic">it</hi>) to this god, free of taxes, for (<hi rend="italic">supplying</hi>) paddy of the red kind to the temple<note><foreign>tiruccennelnaṭai</foreign> is evidently the same as <foreign>tiruccennaṭainel</foreign>, which occurs in Vol. I. p. 117, line 5.</note> and for (<hi rend="italic">supporting</hi>) those who perform the worship in the temple.</p>
+                
+                <p>(L. 16.) (<hi rend="italic">This</hi>) was ordered by . . . . . of <hi rend="bold">Vēṟpuṟam</hi>, (<hi rend="italic">in charge of</hi>) <hi rend="bold">Vīra-Śōḻaśēri</hi> . . . . . . . . . .</p>
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 3.84 by <bibl><ptr target="bib:Hultzsch1903_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Hultzsch1903_01"/>
+                        <citedRange unit="page">202-204</citedRange>
+                        <citedRange unit="item">84</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 4.650: original edition by H. Krishna Sastri</title>
+                <title type="alt">No. 650. (A.R. No. 202 of 1892). RIGHT OF ENTRANCE INTO THE GOPURA OF THE SAME TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv04p0i0650</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-11-29" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="san-Latn" rendition="class:grantha maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><gap reason="lost" quantity="7" unit="character"/> nāM <supplied reason="undefined"><g type="danda">.</g></supplied> puṇyena kenāpi purākṛtena Adṛṣṭa
+                    <lb n="2" break="no"/>pūrvānu <gap reason="lost" quantity="4" unit="character"/> <unclear>pumartth</unclear>āN siddhāñjana<unclear>ḥ</unclear> śyāmamidaṁ vapuste <supplied reason="omitted"><g type="ddanda">.</g> 1</supplied> Abhilaṣitaka
+                    <lb n="3" break="no"/>lānāmarppako darppakārirbhavatimiranirāsī bhaktapāthodhivāsī [<g type="danda">.</g>] Aca<unclear>la</unclear>
+                    <lb n="4" break="no"/>duhiturarddhenendranilāyamānassa bhavatu maṇigaṃgātiracintāmaṇi<unclear>r</unclear>nnaḥ <supplied reason="omitted"><g type="ddanda">.</g>?</supplied> <unclear>vaktrā</unclear> 
+                    <lb n="5" break="no"/>Mbhojairmmadanavijayinmānanīyantuturbhirmmaddhye kṛtvā giriduhitāñjā <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="6"/>ktapāṃgaM <supplied reason="undefined"><g type="danda">.</g></supplied> AṃgairaṃgānyadhikamadhurāṇyādarāT spṛṣṭamakṣṇorbhāgyāM <gap reason="lost" quantity="2" unit="character"/> 
+                    <lb n="7"/>prathamaghaṭan<unclear>e</unclear> vigrahe nispṛhasya <supplied reason="omitted"><g type="ddanda">.</g> 3</supplied> pūrvaṃ kirātapatike<unclear>śa</unclear>samāhṛtāni puṣpā
+                    <lb n="8" break="no"/>ṇi bhūtapatibhukta samujcdhitāni <supplied reason="undefined"><g type="danda">.</g></supplied> piṇḍaḥprabhātasamaye puratogaṇānāM
+                    <lb n="9"/>socekabhaktibhayamātanute svamaulau <supplied reason="omitted"><g type="ddanda">.</g> 4</supplied> bhakteṣu sābhibhayayāna dhura
+                    <lb n="10" break="no"/>nḍareṣu netr<unclear>ā</unclear>rppaṇāT kamapi dhanyataranna vitaḥ <supplied reason="undefined"><g type="danda">.</g></supplied> U<unclear>cchi</unclear>ṣṭamaMbu ka<unclear>tha</unclear>yanti yadasya śaM⌈
+                    <lb n="11"/>bhorddevasya nityamabhiṣekaviśuddhih<unclear>e</unclear>tu <supplied reason="omitted"><g type="ddanda">.</g> 5</supplied> kamalabhavakaroṭīsarpacaṃdrassrava
+                    <lb n="12" break="no"/>ntīvanacarapatipādopānadāragvalebhyaḥ <supplied reason="undefined"><g type="danda">.</g></supplied> Anitarasulabhebhyābhū
+                    <lb n="13" break="no"/>ṣaṇebhyaḥ purāreratanuma namaUktiṃ kāḷahaśtasvirasya <supplied reason="omitted"><g type="ddanda">.</g> 6</supplied> bhavati bhuvane satya
+                    <lb n="14"/>nḍanyassa Eva vaṭadrumaḥ kanakamukharī mūlaṃ yasyāvasiñcativāraṇā <supplied reason="undefined"><g type="danda">.</g></supplied> Apicaśikhara
+                    <lb n="15" break="no"/>ñcūḍāsindhustaraṃgaparaṃparāsalilavisaraiśśaṃbho<supplied reason="omitted">ḥ</supplied> śrīkāḷahastigiristhi
+                    <lb n="16" break="no"/>teḥ <supplied reason="omitted"><g type="ddanda">.</g> 7</supplied> Aṃge śailapratihatagateśśaṃkarādrermukharyāśśaṃbhorātmaprati phala
+                    <lb n="17" break="no"/>nato bhūṣaṇañcāṃbarañca <supplied reason="undefined"><g type="danda">.</g></supplied> kāḷohastīdvayamapibhavaTpūjane kalpyamāne ni
+                    <lb n="18" break="no"/>tyaṁ saṁpāda<unclear>ya</unclear>ta Iti me<unclear>ni</unclear>ści<unclear>t</unclear>ā buddhirāsīT <supplied reason="omitted"><g type="ddanda">.</g> 8</supplied> Ādāyekṣaṇamekamarppi tavataḥ pū
+                    <lb n="19" break="no"/>rvantatonyajjavāduddharttu<supplied reason="omitted">M</supplied> vyavasā<unclear>yi</unclear>na<unclear>ssa</unclear>vimukhaṃ hastanniṣādaprabho <supplied reason="undefined"><g type="danda">.</g></supplied> kāmaplo
+                    <lb n="20" break="no"/>ṣaṇa kāḷahastivasate<supplied reason="omitted">ḥ</supplied> kāntā<unclear>vi</unclear>miśrātmano vāmaste niyataṃ rurodha vala
+                    <lb n="21" break="no"/>yī pāṇistadā vaTsalaḥ <unclear><g type="ddanda">.</g> 9</unclear> ApāsṛjaT dahanamukhaṃ śilīmukhaṃ pralaMbayaT sura
+                    <lb n="22" break="no"/>girikārmmukaṃ karaM <g type="danda">.</g> puratraye tridaśadṛśāmagocare samunnamatyapi samahānmahe
+                    <lb n="23" break="no"/>śvaraḥ <supplied reason="omitted"><g type="ddanda">.</g> 10</supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 4.650 by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1923_01"/>
+                        <citedRange unit="page">195-196</citedRange>
+                        <citedRange unit="item">650</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

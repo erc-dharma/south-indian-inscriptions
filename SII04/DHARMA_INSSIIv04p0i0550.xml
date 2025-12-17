@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 4.550: original edition by H. Krishna Sastri</title>
+                <title type="alt">No. 550. (A.R. No. 102 of 1892). ON THE SOUTH WALL OF THE FIRST PRAKARA OF THE RATNACHALESVARA TEMPLE AT RATNAGIRI, KULITTALI TALUK, SAME DISTRICT.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv04p0i0550</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-11-29" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> cāṟuvapūmaca<supplied reason="omitted">k</supplied>karava<supplied reason="omitted">t</supplied>tika<unclear>ḷ</unclear> <hi rend="grantha">śrī</hi>pocaḷaviraco
+                    <lb n="2" break="no"/>micu<supplied reason="omitted">ra</supplied>tevaṟkku yāṇṭu <num value="23">2 <g type="numeral">10</g> 3</num> Āvatu taṉunāyaṟṟu
+                    <lb n="3"/>pūṟuvapa<supplied reason="omitted">ṭ</supplied>ca<unclear>t</unclear>tu navamiyum viyāḻakkiḻamaiyum pe<supplied reason="omitted">ṟ</supplied>ṟa Irepati
+                    <lb n="4" break="no"/>nā<supplied reason="omitted">ḷ</supplied> Irācakampiravaḷanāṭṭu kuṟunakaināṭṭu Uṭaiyār tirumā<choice><sic>ṉa</sic><corr>ṇi</corr></choice>kama<surplus>va</surplus>
+                    <lb n="5" break="no"/>lai Uṭaiyanāya<surplus>ṉ</surplus>ṉā<seg rend="check">r</seg>kku civapātace<supplied reason="omitted">ka</supplied>rapurattu UṟaiŪr Uṭaiyāṉ te
+                    <lb n="6" break="no"/>vaṉ kāḷiyāṉa mutticuranampiyum Ivaṉtampi tirumāṇi<supplied reason="omitted">k</supplied>katevarum Iru
+                    <lb n="7" break="no"/>vom Innāya<surplus>ṉ</surplus>ṉā<supplied reason="omitted">r</supplied>kku n<unclear>ā</unclear>ṅkaḷ viṭṭa nīrnilam Āvatu Eṅkaḷ pā<supplied reason="omitted">ṭ</supplied>ṭaṉā<unclear>r</unclear>
+                    <lb n="8"/>nakara<supplied reason="omitted">t</supplied>tā<supplied reason="omitted">r</supplied>pakkal vilaikoṇṭu Uṭaiya <unclear>paṇi</unclear> <gap reason="lost" quantity="1" unit="character"/> ḷikuḷa<supplied reason="omitted">t</supplied>tu vaya<unclear>li</unclear>l <gap reason="lost" quantity="2" unit="character"/> 
+                    <lb n="9"/>Āvitu melpāṟku<unclear>E</unclear><supplied reason="omitted">l</supplied>lai nakarattārpa<supplied reason="omitted">k</supplied>kal nāṅkaḷ koṇṭa ni<unclear>lattu</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+                    <lb n="10"/>vaṭapāṟ<supplied reason="omitted">ku</supplied> <unclear>E</unclear>llai māṇi<supplied reason="omitted">k</supplied>kanāyakanampi puñceykollaik<unclear>ku</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="11"/>ṟ<supplied reason="omitted">ku</supplied><unclear>E</unclear><supplied reason="omitted">l</supplied>laiUṭaiyā<supplied reason="omitted">r</supplied> tirumāṇi<supplied reason="omitted">k</supplied>ka malai Uṭaiya nā<supplied reason="omitted">ya</supplied>ṉā<supplied reason="omitted">r</supplied>teva tā <gap reason="lost" quantity="2" unit="character"/> 
+                    <lb n="12"/>me<supplied reason="omitted">ṟ</supplied>ku tenpā<supplied reason="omitted">r</supplied>kku E<supplied reason="omitted">l</supplied>lai Ūrkuḷa<supplied reason="omitted">t</supplied>tu<supplied reason="omitted">k</supplied>ku kaṭaipo<supplied reason="omitted">k</supplied>ku<unclear>kku</unclear> vaṭakku Āka I <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="13"/>nta perunāṉ<supplied reason="omitted">ku</supplied> E<supplied reason="omitted">l</supplied>lai<supplied reason="omitted">k</supplied>ku Uḷpaṭṭa nilattu kiḻakkuaṭaiya <supplied reason="omitted">nila</supplied>ṅkaḷ <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="14"/>tā<supplied reason="omitted">ṅ</supplied>kaḷ viṭṭa mūṉṟu mā Oḻiya nīkki nāṅkaḷ payir cey<unclear>tu</unclear>varukiṟa ni
+                    <lb n="15" break="no"/>lam <seg rend="check">2 <g type="mā"/></seg> <g type="nilam"/> Iraṇṭumāvum Innāya<surplus>ṉ</surplus>ṉā<supplied reason="omitted">r</supplied>kku teva<unclear>tā</unclear>ṉam Āka
+                    <lb n="16"/>viṭṭo<unclear>m kāḷiy</unclear>āṉa mu<supplied reason="omitted">t</supplied>ticu<unclear>ra</unclear>nampiyum Iva<unclear>ṉ</unclear>tampi <unclear>tirumāṇi</unclear>
+                    <lb n="17" break="no"/><supplied reason="omitted">k</supplied>kateva<unclear>ṉum Iviruvom</unclear> Ippa<unclear>ṭi</unclear>kku mu<supplied reason="omitted">t</supplied>ticuranampi Eḻuttu
+                    <lb n="18"/>I<supplied reason="omitted">p</supplied>paṭikku tirumā<unclear>ṇikkate</unclear>vaṉ Eḻuttu
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                <p>This inscription is a copy in later characters.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 4.550 by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1923_01"/>
+                        <citedRange unit="page">184-185</citedRange>
+                        <citedRange unit="item">550</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
