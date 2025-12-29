@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 4.651-658: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 651-658. (A.R. Nos. 203 to 210 of 1892). INSCRIPTIONS FROM UDAYAGIRI AND DASARIPALLE, UDAYAGIRI TALUK, NELLORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv04p0i0651-0658</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Published in <hi rend="italic">Nellore Inscriptions</hi>, by Messrs. Butterworth and Venugopaul Chetty, Part III.</p>						
+
+						<p>(U. Nos. 37 (a), (b) and (c), 21 to 23 (d), 30 and 31 (e), 28, 29 and 40.</p>						
+
+						<p>(a) The reading Tirumala Rāghuvarāya in 11. 8-9 appears to be more correctly Tirumala Rāutarāya.</p>						
+
+						<p>(b) The Editors have made a mistake here in making two different inscriptions of Nos. 20 and 21. Actually No. 21 is the beginning and, No. 20 the end, of one and the same record.</p>						
+
+						<p>(c) The date of this record correctly read is <hi rend="italic">ba</hi> 30 <hi rend="italic">sa</hi> and not <hi rend="italic">kri</hi> 30 <hi rend="italic">he sa</hi> as given in <hi rend="italic">Nellore Inscriptions; Pinakavidhasri</hi> should be Pina-Komḍu.</p>						
+
+						<p>(d) For <hi rend="italic">Chalamaya</hi> in l. 7 read <hi rend="italic">Cheṁnamanāyi</hi>. For <hi rend="italic">Kūchi</hi> read <hi rend="italic">Kaṁppi</hi>. For <hi rend="italic">ri ānatini anēka</hi> read <hi rend="italic">ru anantamulaina</hi>. For <hi rend="italic">āppanimādara</hi> in l. 12 read <hi rend="italic">Abbasamudram</hi>. For <hi rend="italic">dharmuvugānichchi</hi>, in ll. 12 and 13 read <hi rend="italic">charuvu-gaṭṭiṁchi</hi>.</p>						
+
+						<p>(e) Again the Editors have made the mistake of treating Nos. 30 and 31 as two different inscriptions whereas they form only one record.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:undetermined maturity:undetermined">
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 4.651-658 by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1923_01"/>
+			<citedRange unit="page">196</citedRange>
+			<citedRange unit="item">651-658</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
