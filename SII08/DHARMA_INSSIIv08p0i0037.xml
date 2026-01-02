@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 8.37: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 37. (A.R. No. 451 of 1902). ON THE SAME WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv08p0i0037</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2026-01-02" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> kulottuṅkacoḻa<hi rend="grantha">de</hi>vaṟku yāṇ<unclear>ṭu</unclear> nāṟ
+					<lb n="2" break="no"/>patteṭṭāvatu ceyyūrāna <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻanal
+					<lb n="3" break="no"/>lūr <hi rend="grantha">śrī</hi>kayilāyamuṭaiya <hi rend="grantha">mahāde</hi>var <hi rend="grantha">rājentra</hi>
+					<lb n="4" break="no"/>coḷicuva<hi rend="grantha">ra</hi>muṭaiyāṟku tiṟaiyan tevarkaṇṭan Oṟṟi
+					<lb n="5" break="no"/>koṇṭānāna cempiyan vaḷavataraiyanen Uḷḷuri
+					<lb n="6" break="no"/>l En kāṇiyāna nirnilattil Ittevaṟku tiruna <gap reason="lost" quantity="3" unit="character"/> 
+				</p>
+				
+			</div>
+			
+			<div type="apparatus">
+				
+			</div>
+			
+			<div type="commentary">
+				<p>Below the inscription are engraved the following eight lines:
+					<lb n="1"/> vaḷavataraiyan mallikāṟcuntevarai yeḻu<unclear>n=taruḷiviccu</unclear> yittevaṟku yikkoyilil civa<hi rend="grantha">brāhma</hi>ṇar <gap reason="lost" quantity="5" unit="character"/>
+					<lb n="2"/>mallikāṟcuntevarai <hi rend="grantha">trisandhi</hi> pū<hi rend="grantha">ji</hi>ttu Amāvā<hi rend="grantha">si viṣu</hi>vayana<hi rend="grantha">saṁgra</hi>mam Āṭṭu <num value="16"><g type="numeral">10</g> 6</num><g type="dash"/>nāḷ nitta Amutu <gap reason="lost" quantity="5" unit="character"/>
+					<lb n="3" break="no"/>ḷak=ku 1<g type="dash"/>k=ku viṭṭa Āṭu pan=niraṇṭuṅ koṇṭu ca<hi rend="grantha">ndrādi</hi>ttavarai celuttakkaṭavo mi<hi rend="grantha">nnā</hi>lvom yi<hi rend="grantha">tdharmma</hi>m <gap reason="lost" quantity="5" unit="character"/>
+					<lb n="4" break="no"/>ṭpaṭa ciṟuk=kut=tiviḷak=ku muṭṭakalum pok=ku nik=ki <num value="10"><g type="numeral">10</g></num><g type="dash"/>lam <g type="danda">.</g><g type="dash"/> Ūrava ra<hi rend="grantha">kṣai</hi> meṟpiṭipāṭu <gap reason="lost" quantity="5" unit="character"/>
+					<lb n="5"/>meṟpiṭipāṭu meṟpaṭi <hi rend="grantha">śi</hi>va<hi rend="grantha">brāhma</hi>ṇarom <supplied reason="omitted">ma</supplied>llikāṟcunateva<supplied reason="omitted">r</supplied>k=kum rā<hi rend="grantha">jentra</hi><supplied reason="omitted">coḻī</supplied><hi rend="grantha">śva</hi>ramuṭaiy<choice><sic>a</sic><corr>ā</corr></choice>rk=kum vi<hi rend="grantha">ṣu</hi>vayana <gap reason="lost" quantity="5" unit="character"/>
+					<lb n="6" break="no"/>vita<surplus>k=ku</surplus>k=kup poliŪṭṭākak koṇṭa putukkācu 1 koṇṭu ca<hi rend="grantha">ndrādi</hi>t=tavarai celut=tak=kaṭavo minnāl <gap reason="lost" quantity="5" unit="character"/>
+					<lb n="7" break="no"/>m piḷḷaiyā<supplied reason="omitted">r</supplied>k=kum mallikāṟcaṉateva<supplied reason="omitted">r</supplied>k=kum <hi rend="grantha">sandhi</hi>viḷak=ku nālu nāluk=kum poliyūṭṭākak koṇṭa putuk=kācu <num value="32">3 <g type="numeral">10</g> 2</num> muppattiraṇṭu koṇṭu ca<hi rend="grantha">ndrā</hi>tittavarai celut=tak=kaṭavo miyiruvom panmā<hi rend="grantha">heśva</hi>ra ra<hi rend="grantha">kṣai</hi> <g type="dash"/> meṟpiṭipāṭu kampan Uyyavantān paṭṭanen periyatiruvācaluk=kum teṟkil cūriyateva<supplied reason="omitted">r</supplied>k=kum cantiviḷak=ku Iraṇṭuk=ku Āṭu <gap reason="lost" quantity="5" unit="character"/>
+					<lb n="8"/> ra<hi rend="grantha">heśva</hi><supplied reason="omitted">ra</supplied> <hi rend="grantha">rakṣai</hi><g type="gomutraFinal">.</g></p>
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 8.37 by <bibl><ptr target="bib:SubrahmanyaAiyer1937_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1937_01"/>
+						<citedRange unit="page">18</citedRange>
+						<citedRange unit="item">37</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
