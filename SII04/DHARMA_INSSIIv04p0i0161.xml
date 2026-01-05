@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 4.161: original edition by H. Krishna Sastri</title>
+                <title type="alt">No. 161. (A.R. No. 57 of 1888). ON THE NORTH WALL OF THE SAME TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv04p0i0161</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-12-28" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><gap reason="lost" quantity="5" unit="character"/> komāṟapaṉmarāṉa <hi rend="grantha">tri</hi><unclear><hi rend="grantha">bhu</hi>vaṉa</unclear>ccakkaravattikaḷ <hi rend="grantha">śrī</hi> <gap reason="lost" quantity="6" unit="character"/> ku yāṇṭu
+                    <lb n="2"/><gap reason="lost" quantity="2" unit="character"/> <seg rend="check">10</seg><!--Grantha dha is printed--> vatu Aṟpacimātam mutaṟtiyatināḷ celanāṭṭuc celamā <gap reason="lost" quantity="6" unit="character"/> kalattu <unclear>nā</unclear>
+                    <lb n="3" break="no"/><unclear>ya</unclear>ṉār Aḻakapperumāḷ koyil <hi rend="grantha">śrīse</hi>ṉāpatiĀḻvār <gap reason="lost" quantity="9" unit="character"/> ramuṭaiyā
+                    <lb n="4" break="no"/>r parākkiṟa<supplied reason="omitted">ma</supplied>pāṇṭiyap piramātarāyaṟkuk kuṭiniṅkāt tiruvi <gap reason="lost" quantity="7" unit="character"/> vaṭṭik
+                    <lb n="5" break="no"/>kuṭuttaparicāvatu muṉṉāḷ ciṅkayateṇṇāyakkar kiḻkarai <gap reason="lost" quantity="9" unit="character"/> yiṟukkai
+                    <lb n="6" break="no"/>yil Ivar tammuṭaiyapeṟku muṉṉiṉṟu celavaṟāmal po <gap reason="lost" quantity="8" unit="character"/> Ipukupperi
+                    <lb n="7" break="no"/><unclear>yaE</unclear>ri pañcantāṅkiyil Ivar nilamāṉa taṭi nālu kuḻi nūṟṟirupattiraṇ <gap reason="lost" quantity="4" unit="character"/> ppiḷar taṭi O
+                    <lb n="8" break="no"/>ṉṟu kuḻi <num value="31">3 <g type="numeral">10</g> <unclear>1</unclear></num> Ākat taṭi 5 <seg rend="check">l</seg> kuḻi <num value="150"><g type="numeral">100</g> 5 <g type="numeral">10</g></num> Ikkuḻi <num value="150"><g type="numeral">100</g> 5 <g type="numeral">10</g></num>m nāyaṉār Aḻakappaperumāḷukku tirunāmattukkā
+                    <lb n="9" break="no"/><gap reason="lost" quantity="10" unit="character"/> pāṇ <gap reason="lost" quantity="10" unit="character"/> 
+                    <lb n="10"/><gap reason="lost" quantity="10" unit="character"/> paṭukaiyil Iraṇṭu <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="11"/><gap reason="lost" quantity="10" unit="character"/> var Aṉupavi <gap reason="lost" quantity="5" unit="character"/> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                <p n="11"><foreign>Aṉupavi</foreign> <gap reason="lost" quantity="5" unit="character"/>. The rest of the inscription is lost.  </p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 4.161 by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1923_01"/>
+                        <citedRange unit="page">19</citedRange>
+                        <citedRange unit="item">161</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 4.225: original edition by H. Krishna Sastri</title>
+                <title type="alt">No. 225. (A.R. No. 120 of 1888). IN THE SAME PLACE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv04p0i0225</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-12-28" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition">
+                <!--See Cox 2006, PhD, p. 47ff. + Cox 2016, Moonset, pp. 182ff.-->
+                <p xml:lang="san-Latn" rendition="class:grantha maturity:vernacular">
+                    <lb n="1"/>svasti śrīḥ <g type="ddanda">.</g><g type="dashLong">.</g>
+                </p>
+                
+                <lg n="1">
+                    <l n="a">cakre tena sabhāpatestribhuvanakṣemāya nṛttaM paraṃ</l>
+                    <l n="b">kurvā<unclear>ṇa</unclear>sya tade<unclear>ka</unclear>tānamanasā mānāvatāreṇa yaT <supplied reason="undefined"><g type="danda">.</g></supplied></l>
+                    <l n="c">tanmattaśśṛṇu sāvadhānamadhunā yaT stotrapātra<unclear>śśa</unclear>ttair</l>
+                    <l n="d">vvaktrai rdehabhṛtaścaran=ti <unclear>sarasa</unclear>ndyāvāpṛthi<unclear>vy</unclear>onvayoḥ <g type="dash">.</g><g type="danda">.</g> <num value="11"><g type="numeral">10</g> 1</num> <g type="danda">.</g><g type="dash">.</g></l> 
+                </lg>
+                
+                <lg n="2">
+                    <l n="a">nyadhita niravasānadyotiṣo vīthidīpān</l>
+                    <l n="b">iha tamasi vilupte tairasaṃkhyairajasraM <supplied reason="undefined"><g type="danda">.</g></supplied></l>
+                    <l n="c">tapanatuhinabhāsoratraśarvvārccanārtthān</l>
+                    <l n="d">di<supplied reason="omitted">na</supplied>ka ranikaratvādeva sārtthaḥ prakāśaḥ <g type="dash">.</g><g type="danda">.</g> <num value="60">6 <g type="numeral">10</g></num> <g type="danda">.</g><g type="dash">.</g></l>
+                </lg>
+                
+                <lg n="3">
+                    <l n="a">ba <gap reason="lost" quantity="2" unit="character"/> ndrāṇirakuru<unclear>ta</unclear><supplied reason="omitted">la</supplied>sadvīdhikāyāmmuṣyās</l>
+                    <l n="b">sekaṃ karttuṃ muditabhuvane<unclear>ṣūT</unclear>saveṣu smarāre<unclear>ḥ</unclear> <supplied reason="undefined"><g type="danda">.</g></supplied></l>
+                    <l n="c">Etā stattaTsamaya<unclear>ni</unclear>hitaiḥ pūritā pu
+                        <lb n="2" break="no"/>ṇyatoyais</l>
+                    <l n="d">taTbhaktyā<unclear>na</unclear>ndayatihṛṛda yaistulyatāṃ bhaktipūrṇaiḥ <unclear><g type="dash">.</g></unclear> <num value="68">6 <g type="numeral">10</g> 8</num> <unclear><g type="dash">.</g></unclear></l>
+                </lg>
+                
+                <lg n="4">
+                    <l n="ab">śivayajanavibhūtisghītaye sphītabhaktiḥ kramukadaśasahasrīpaṃcakan=tatra cakre <supplied reason="undefined"><g type="danda">.</g></supplied></l>
+                    <l n="cd">haranaṭa<unclear>na</unclear>viśīrṇṇāpī<unclear>ḍa</unclear>gaṃgāMbusekapra<unclear>mudi</unclear>ta Iva patrairyyatra pūgāścalan=ti <g type="dash">.</g> <num value="60">6 <g type="numeral">10</g></num> <g type="dash">.</g></l>
+                </lg>
+                
+                <lg n="5">
+                    <l n="ab">śucikusumasamudragrastadigvyomasīma<unclear>dru</unclear>mavanamanurūpan=tatra pa<unclear>tyābhya</unclear>dhatta <supplied reason="undefined"><g type="danda">.</g></supplied></l>
+                    <l n="cd">viṣamanayanalāsyālokanāyāgatānāṁ vibudhaparibṛḍhānāṃ vy<unclear>ā</unclear>hṛtairvvyāptapārśvaM <g type="dash">.</g> <num value="60">6 <g type="numeral">10</g></num> <g type="dash">.</g></l>
+                </lg>
+                
+                <p>
+                    viraca<unclear>ya</unclear>dapi śaMbhormmaṇapan=tīrtthayātrāsamucitamucitajña<supplied reason="omitted">ḥ</supplied> sai<unclear>ṣa</unclear>vāresamudraM <supplied reason="undefined"><g type="danda">.</g></supplied> luṭhitalaharibā
+                    <lb n="3" break="no"/>huryasya pārśve payodhiḥ praṇatimiva vidhatte va<unclear>nya</unclear>maprakṣayāya <g type="dash">.</g> <num value="60">6 <g type="numeral">10</g></num> <g type="dash">.</g> 
+                    
+                    
+                    tasyāntike madhurapāvanabhūritoyantoyāśayaṃ hṛtayamaMbunidherivaiṣaḥ <supplied reason="undefined"><g type="danda">.</g></supplied> kṛtvā vaṭaṁ <unclear>su</unclear>manasāmapitīrtthayātrāvistārayogyama<unclear>ka</unclear>rodiha saṃvidhānaM <g type="dash">.</g> 7 <g type="dash">.</g> 5 10 6<g type="dash">.</g>
+                    
+                    
+                    nāmnā tannaralokavīramakarot sālaM mahāntam prabhostasi<supplied reason="omitted">n</supplied> Eṣa sabhānaṭaḥ parapurapradhvaṁsadīkṣāguruḥ <supplied reason="undefined"><g type="danda">.</g></supplied> yaccṛṅgāgranibaddhaketanapaṭā nedīyasā bhāsvatā staptāntakṣi<unclear>ti</unclear>vallabhanti śiśiram vyomāpagāyāḥ payaḥ <g type="dash">.</g> 8 <g type="dash">.</g> <num value="76">7 <g type="numeral">10</g> 6</num> <g type="dash">.</g> <unclear>A</unclear>syāyam sa cakāra gopurayugañcāmeghatuṅga sthiram
+                    <lb n="4"/>prākārasya yadagraketanapaṭāḥ preṅkhoḷitā vāyubhiḥ <supplied reason="undefined"><g type="danda">.</g></supplied> bhāno sānunavai<unclear>ḍhya</unclear>metaduditantammuñca śaṅkām kramādāgacceti diśām mukheṣvabhinayam <unclear>sa</unclear>mvarttayantīvate <g type="dash">.</g> 9 <g type="dash">.</g> <num value="76">7 <g type="numeral">10</g> 6</num> <g type="dash">.</g> saṁjñāmityaruḷāk(ā)raḥ kavijanā yasyāhurasyām kṣitau satyārtthām satayākaroccataśilāstambhasthiram maṇḍapam <supplied reason="undefined"><g type="danda">.</g></supplied> nṛttārhā mama kevalam paśupati<unclear>ḥda</unclear>bhreti matvā sabhām keḷīnāḷikayāsamam vitanute tatrotsavapreyasī<unclear>M</unclear> <g type="dash">.</g> <num value="10"><g type="numeral">10</g></num> <g type="dash">.</g> <num value="76">7 <g type="numeral">10</g> 6</num> <g type="dash">.</g> ĀnāgalokaM parikhā nitāyā<unclear>ḥ</unclear>tatr<seg rend="check">ā</seg>ti śailaissa ca puṣkariṇyā<supplied reason="omitted">ḥ</supplied> <supplied reason="undefined"><g type="danda">.</g></supplied> cakāra sā tadyaśaso gata
+                    <lb n="5" break="no"/>sya pātāḷamāsīdavarohamāsyam <g type="dash">.</g>11<g type="dash">.</g>44<g type="dash">.</g> dvārasya tatravaḷabhīmaya da<unclear>kṣi</unclear>ṇasyasamvarttya kāñcanamayī<supplied reason="omitted">m</supplied> naralokavīraḥ <supplied reason="undefined"><g type="danda">.</g></supplied> tatpārśvayornyadhitamaṅgalikau pradīpauyaulumpataḥ prabhavasannamayaM pradyānāM <g type="dash">.</g>12<g type="dash">.</g>56<g type="dash">.</g> ayamihavṛṣaketoḥ pūjakānāndvijānāmakṛtaśucimanūnām bhuktihetorvvibhūtim <supplied reason="undefined"><g type="danda">.</g></supplied> Itaradapi kumārastotrapārāyaṇāya tribhuvananutamuccaiḥ kāñcanam maṇḍapañca <g type="dash">.</g>13<g type="dash">.</g>60<g type="dash">.</g> sa tatra mahatīm sabhāmapi vidhāya tāmreṇa tāñjagatduritaśā<unclear>ti</unclear>naḥ kila sabhānabho dhūrjaṭeḥ <supplied reason="undefined"><g type="danda">.</g></supplied> śayam kabaḷinātakṣamāgagatāni
+                    <lb n="6" break="no"/>bhaḥ vibhāgannija<supplied reason="omitted">m</supplied> nināya<supplied reason="omitted">sura</supplied> sundarīmadhuragī tibandhārtthatām <g type="dash">.</g>14<g type="dash">.</g>60<g type="dash">.</g> samārgga<unclear>cā</unclear>rañcaturantayānaṃ śambhossakāñcanamakārayadañcataśrīḥ <supplied reason="undefined"><g type="danda">.</g></supplied> bhikṣāṭaneṣuvṛṣabhaṁvṛṣarājaketuryyātrāsutatsamadhirohatiyuktametat <g type="dash">.</g>15<g type="dash">.</g>56<g type="dash">.</g> nyadhita kanaka<seg rend="check">kḷ</seg>ptam kāhaḷantatrayasminniti kathayati nādenāgato devadeva<unclear>ḥ</unclear> <supplied reason="undefined"><g type="danda">.</g></supplied> <unclear>dru</unclear>ta mukuḷitavāṇīspa<supplied reason="omitted">r</supplied>śa<unclear>bu</unclear>mjat kirīṭo bhavati surapatīnām saṁbhramo bhakti janmā <g type="dash">.</g>16<g type="dash">.</g>60<g type="dash">.</g> pratinavamiva puṣpam hārita śrīssabhāyāḥ phaladavanicarāṇām <unclear>ndyo</unclear>carāṇāñca bhadraṁ <supplied reason="undefined"><g type="danda">.</g></supplied> tadamṛtavidhiyogyam kāñcanantatra śambho<supplied reason="omitted">ḥ</supplied> parikaramakṛtaśrī dyotayantī yadāste <g type="dash">.</g>17<g type="dash">.</g><unclear>60</unclear>
+                    <lb n="7" break="no"/>Ayamakuruta tasinnṛttarājasya śambhośśivayajanarasajño mauktikai<supplied reason="omitted">r</supplied>bhūṣaṇā<unclear>ni</unclear> <supplied reason="undefined"><g type="danda">.</g></supplied> vapuṣi parigatānānnirmmalānām purārermunija nahṛdayānām yāni sāmyaṁ vaha<unclear>nti</unclear> <g type="dash">.</g>17<g type="dash">.</g>60<g type="dash">.</g> kṣīraṁ sakhaṇḍamamṛtam kurute sma tasmin gaurīpaterdiviṣato viṣameva pāyāḥ<supplied reason="undefined"><g type="danda">.</g></supplied> brūta<surplus>ḥ</surplus> prajāḥ kimmareṣu sabhānaṭe kim bhakti prakañcasu(sa)labho bhavati prasādaḥ <g type="dash">.</g>19<g type="dash">.</g>56<g type="dash">.</g> karppūravarttikalanāsurabhinnadīpā<unclear>ni</unclear>tyānadhatta nikaṭe daśa<unclear>dhū</unclear>rjaṭessa<unclear>ḥ</unclear><supplied reason="undefined"><g type="danda">.</g></supplied> <gap reason="lost" quantity="2" unit="character"/> ptakaligamdhatayā dharitrī dhatte parām subhagatāmiti satyametat <g type="dash">.</g>20<g type="dash">.</g>56<g type="dash">.</g> jām<unclear>bhū</unclear>nadam kalaśamatravidhāya kāntamapāñca hemavihitānnara
+                    <lb n="8" break="no"/>lokaviraḥ <supplied reason="undefined"><g type="danda">.</g></supplied> dāsyam harasya padayossvamananyalabhyam bhaktiñcapuṇyasulabhāmanayat prasi<unclear>ddhim</unclear> 21<g type="dash">.</g>56<g type="dash">.</g> tatrābhiṣekammṛtañca vibhossahasra madiśaTdvijarāmadhe<unclear>tuḥ</unclear> <supplied reason="undefined"><g type="danda">.</g></supplied> puṇyāstadīyakṛtayo jagatīvakīrtti<unclear>ndugdhandu</unclear>hantibhavane madanadviṣastāḥ <g type="dash">.</g>22<g type="dash">.</g>56<g type="dash">.</g> Āpātāḥ pṛtivāsaram harapadaprāta<supplied reason="omitted">ḥ</supplied> praṇāmārtthino vai<unclear>ku</unclear>ṇṭhapramukhāssurā Api bahistiṣṭhanti yasyājñayā <supplied reason="undefined"><g type="danda">.</g></supplied> <unclear>ya</unclear>smin prītirupāhitā bhagavataśśambhorananyāśrayā nandī śasya sa tatramuktimatulāṅevyāśca tasyākarot <g type="dash">.</g> 23 <g type="dash">.</g> <num value="76">7 <g type="numeral">10</g> 6</num> <g type="dash">.</g> tatbhūṣaṇāni bahuratnavicitritāni kṛtvā dayāni dhirayannaralokavīraḥ<supplied reason="undefined"><g type="danda">.</g></supplied>ta
+                    <lb n="9" break="no"/>syārccanāvidhivibhūti<unclear>ka</unclear>raṁ kareṇa grāmam vihīnamakarodasamānamekam <g type="dash">.</g>24<g type="dash">.</g>56 pratiprasthasahasreṇa mūlasthānanilāsinām <supplied reason="undefined"><g type="danda">.</g></supplied> Atrābhiṣektum pratyabdamīśam prādātparām śriyam <g type="dash">.</g>25<g type="dash">.</g>22<g type="dash">.</g> yacāṇī girijākucapragaḷinam pītvāpranṛtt<choice><sic>ā</sic>a</choice><supplied reason="omitted">m</supplied>payo mādhuryādadhikāntat<supplied reason="omitted">o</supplied> vikalitaśrīkaṇṭhakīrttikramā <supplied reason="undefined"><g type="danda">.</g></supplied>mūrtti<supplied reason="omitted">m</supplied>tasyadṛśāmmahotsavakarīm kāntyā kumārasya tām kṛtvāyām ca ś<choice><sic>a</sic><corr>ā</corr></choice>takuṁbhaghaṭitantasyādisat pāyasam <g type="dash">.</g> 26 <g type="dash">.</g> <num value="76">7 <g type="numeral">10</g> 6</num> <g type="dash">.</g> bhaṭṭācārya Iti śrutām bhuvi śivāmmūrttiṃguhoyā<supplied reason="omitted">ṁ</supplied>vahaN saṁvādaṃ kila vedabāhyasamayandhā<unclear>ta</unclear>syacakre purā <supplied reason="undefined"><g type="danda">.</g></supplied> tāmmūrttim vinivedalokapara<supplied reason="omitted">mā</supplied>naṅ
+                    <lb n="10" break="no"/>pradām pāva nī<supplied reason="omitted">m</supplied>soyam brahmakulodvaho vihi<supplied reason="omitted">ta</supplied>vā <unclear>ta</unclear>sin satāmagraṇī<supplied reason="omitted">ḥ</supplied> 27<g type="dash">.</g>77<g type="dash">.</g> tasmi<supplied reason="omitted">n</supplied> devyāśśikhariduhituḥ kāmakoṣṭhasthitāyāḥ prākāra<unclear>jyā</unclear>ma<unclear>pi</unclear>dayitamasau �ptavānmaṇḍapañca <supplied reason="undefined"><g type="danda">.</g></supplied> kiñcaitasyā<supplied reason="omitted">ḥ</supplied> svapatinaṭanāsthānayogyaprakāram satyambhaktyā sukaramakarot bhūṣaṇam maulipūrvvam <g type="dash">.</g>28<g type="dash">.</g>68<g type="dash">.</g> <supplied reason="omitted">ra</supplied>m kāñcanameṣadevyāstatkāmagoṣṭhe sthitimāsthitāyāḥ <supplied reason="undefined"><g type="danda">.</g></supplied> cakāra yadvairivilāsinīnām vanāgnidhūmāmbaratām karoti <g type="dash">.</g>29 44<g type="dash">.</g> kiñcāya matraiva cakāra sālam bāhyam śilābhirnaralokavīraḥ<supplied reason="undefined"><g type="danda">.</g></supplied> yacchṛṃ gameghasta nitaiśśivāyāḥ krīḍāmayūrā racayan=ti <surplus>p</surplus>lāsyaM <g type="dash">.</g>30<g type="dash">.</g>44<g type="dash">.</g>
+                    <lb n="11" break="no"/>tatraivorvīdharapatisutādhāmni<unclear>dhā</unclear>tum śiśūnāntailakṣīraissadayamakarodeṣa nittyām vibhūtim<supplied reason="undefined"><g type="danda">.</g></supplied>ślāghyā sā hi prathamapadavī sānukampāśayānām pumsām lokatritayajananī dāsyaci<unclear>hna</unclear>ntadeva <g type="dash">.</g>31<g type="dash">.</g>68<g type="dash">.</g>
+                </p>
+                
+                <p xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">                    
+                    Ellai kaṭalāl Ikal<unclear>len ta</unclear>ṇakka van=ta celvamelām tillaic ciṟṟampalattu tollait tirukkoṭuṅkai poṉmen=tā n=tiṇmaikkaliyi n=tarukkoṭuṅka velkūtta n=tāṉ <g type="pc">.</g> tillaiyil poṉṉampalattaic cemponāl-men=tu vānellaiyaip ponnākkinā neṉparāl Ollai vaṭaven=tar celvamelām vāṅka vel vā
+                    <lb n="12" break="no"/>ṅkum kuṭaiven=tar toṇṭaiyār kol 2 teṉven=tar kū<unclear>nimin=ta</unclear> cen=tamiḻar teṉ koyil poṉ men=tu tikkaippukaḻ ven=tāṉoṟkum kuṟṟam pala kaṇṭoṉ koliḻaikku vel kūttaṉ ciṟṟampalattile cenṟu <g type="pc">.</g> poṉnampalakkūttāṭu miṭam paḻa<unclear>marai</unclear>vil poṉnampalakkūttar poṉmen=tār teṉnar malaimaṉnar Eṉai vaṭamaṉṟak kulamaṉnar celvamelām koṇṭu <unclear>ti</unclear>llaic ciṟṟampalatte peramapalan=taṉṉai mallaṟkaṭaṟṟāṉ vāḻkkūttaṉ villavuto nampucer veñcilaiyiṉ Āṟṟalaṉai māṟṟiya koṉ cempumevittāṉ terin=tu
+                    <lb n="13"/>Eṉai vaṭa varaicā Iṭṭiṭain=ta cemponāl Eṉaleṉa tillaināyakaṟku Āṉai coṟi kalamā māmayilai toṇṭaya<supplied reason="omitted">r</supplied>koṉ kūttaṉ parikalamāka ceytamaittāṉ pā<supplied reason="omitted">r</supplied>ttu <g type="pc">.</g> teḷḷu punaṟ tillaic ciṟṟampalattā<supplied reason="omitted">r</supplied>kku taḷḷi Etirampalan=tātam pātam puḷḷuṇṇa naṟpikkam koṇṭa naralokaviraṉ cempoṟnaṭikkam koṇṭāṉ purintu <g type="pc">.</g> Iṭṭāṉ Eḻil tillai Emmāṟ kicai viḷaṅka maṭṭār poḻil maṇavil vāḻkūttaṉ Oṭṭāṟai Iṉna maṟṟa nittāṉa neṟṟināṉ niṇṭoḷicer cempoṟ taṉikkāḷam ceytu <g type="pc">.</g> Ā<supplied reason="omitted">ṭu</supplied>ṉattaṉiteṉukku Ampalatte karppūram niṭu n=tiru
+                    <lb n="14" break="no"/>viḷakku niṭamaittāṉ kūṭā raṭikkat tiṉainariyum puḷḷum kaṭikkap peruṅkūttaṉ tāṉ <g type="pc">.</g> poṉṉampalam cūḻap poṉṉiṉ tiruviḷakkāl maṉṉun=tiruccuṟṟu van=tamaittāṉ teṉnavar tampū peṟuvār kuḻalāroṭum poruḷ perumāveṟu toṇṭai<unclear>yā</unclear>r maṉ <g type="pc">.</g> ciṟṟampalattāṉai Ēṟṟinā revvaṭattu poṟṟātatāl van=ta koḻunetiyāl paṟṟokku kaṭṭa vañcanam velu kārmaṇavil kūttaṉ tirukkaṭṭa vañcanamāñ ceytu <g type="pc">.</g> tollaip patittillaik kūttaṟkut toṇṭaiyār koṉ Ellait ticaikkarikaḷ Eṭṭaḷavum cellap poya
+                    <lb n="15" break="no"/>cālamutu peytaṭikka tāraṭṭikat taṅ<supplied reason="omitted">ku</supplied>toṇṭaiyar koṉ pālamu<supplied reason="omitted">tu</supplied> ceyvittāṉ parin=tu <g type="pc">.</g> Āṭun teḷiteṉai Āyiranāḻi neyyāl Āṭumpaṭi kaṇṭāṉ Aṉṟiṉākaḷ Oṭunatiṟaṅkaṇṭa nāḷaṉ cinak kaḷiṟṟāṉ ñālamaṟaṅ kaṇṭa toṇṭaiyar koṉ Āṅku <unclear><g type="pc">.</g></unclear> naṭṭapperumāṉ <unclear>nā</unclear>ma ñānaṅ kuḻain=taḷitta ciṭṭapperumāṉ tiruppatiyama muṭṭāmaik ke<supplied reason="omitted">ḷ</supplied>ppo<supplied reason="omitted">r</supplied>kku maṇṭapattaic ceytāṉ tevven=tar keṭavāṭṭikkum toṇṭaiyarkoṉ maṉmallak kulavaraiyāl nūṟṟukkālmaṇṭapatte tillaiyapirāṉukku ceytamaittāṉ kollamaḻivu kaṇṭāṉa ceraṉ Aḷappari 
+                    <lb n="16" break="no"/>ya Āṟṟal <unclear>kiḻivu</unclear>kaṇṭāṉ toṇṭaiyarkoneṟu <g type="pc">.</g> tillaip periya tiruccuṟṟumāḷikai Ellaikkuraivaṇpo liṇṭamai<supplied reason="omitted">t</supplied>tāṉ tollainīrmaṇmakaḷaik <unclear>ka</unclear>ṅkoṉ matikkuṭaikkiḻ viṟṟirutti Urai makuḻum toṇṭaiyarko ṉuṟṟu <g type="pc">.</g> puṭkaraṇi kalcāttuvittāṉ poṟ(poṟ)koyiliṉvāy vikkaraṇam pārppaṭan=ta taṉmel vitittu tikkaḷavu mānaṭattik kol naṭattum vāḷkūttaṉ maṇṇilalaṟam tānaṭattil nīṭuvittāṉ tāṉ <g type="pc">.</g> vīticūḻ nalviḷakkum vīṟṟirukka maṇṭapamum mātucūḻ pātamum makuḻn=tārkkum potucūḻ tillaikke ceytāṉ
+                    <lb n="17"/>ticaikaḷuṟu poy niṟkum Ellaikke cel kaliṅkareṟu <g type="pc">.</g> naṭaṅkaviṉko ḷampalattu nāyakac ceṉ<unclear>te</unclear>ṉiṉ niṭaṅkaviṉkoḷ paccaiyiḷanteṉukkaṭaṅkār karumāṇikaiy mel pakaṭutaitta kūttaṉ tirumāḷikai yamaittāṉ ceṉṟu <g type="pc">.</g> Eyvulakum Evvuyiru miṉṟumeḻi laḻiyāru cevviyāṉ koyil tiruccuṟṟaippavvañcūḻ Ellai vaṭṭaṉ taṅkoṟkiyal viṭṭa vāṭkūttaṉ tillaivaṭṭatte yamaittāṉ ceṉṟu <g type="pc">.</g> vāḷuṭaiya poṟpo<unclear>tu</unclear>viṉ maṉ naṭantaṉaṉaṭaṉamāṭum Āḷuṭaiya pāvaik kaviṣekam veḷuṭaiya poṟpiṉāṉ poṉṉampalakkūttaṉ poṅkucaṭaveṟpiṉāṟ <unclear>ca</unclear>rattiṉā
+                    <lb n="18" break="no"/>ṉ veṟu <g type="pc">.</g> ceytāmpaṉ vāymayikku tillaiyam tevikkum <unclear>pi</unclear>tāmparañ camaittāṉ perolinir motā valaikiṉṟavellai yapaiyaṉukkeyāka malaikiṉṟa toṇ<supplied reason="omitted">ṭai</supplied>yār maṉ <g type="pc">.</g> celvittirun=taṟaṅ kaṇ(ṇa)ṇāṉakarit tillaikke nalla makappāleṇṇai nāḷtoṉṟum cellat tāṉ kaṇṭā ṉarumpayarkoṉ kuṇṇakka nirñālamellāṅ koṇṭāṉ toṇṭaiyarkoṉ <g type="pc">.</g> poṉṉulaku tām puliyūr toḻuvata<unclear>ṟ</unclear>ku kuṉṉiḻikiṉṟa c<unclear>o</unclear>kkamāl teṉṉar <gap reason="lost" quantity="2" unit="character"/> ṭāmaṟ cekutta kūttaṉ cempoṉṉiṉ koṭi puṟañ ceytakumā <g type="pc">.</g> Āticempoṉṉampalatta lammāneḻun=taruḷu
+                    <lb n="19" break="no"/>m vitiyum poṉmeynteṉṉāy melviḷakkum cotik koṭiyuṭaittā (poṉ) poṉṉāl kuṟukavalāṉ Oṉṟumpaṭi yamaittāṉ toṇṭaiyarko(o)ṉ pārttu <g type="pc">.</g> nāyakar vīti Eḻun=taruḷum naṉṉāḷāl <unclear>tū</unclear>ya karuveḻu tūpattāl poyyoḷicer vāṉmaṟaik<unclear>ka</unclear>ṇ pāṉimpaṇmakava<unclear>ṉ</unclear> vaṇpukaḻāl tāṉ maṟaikkūttaṉ camaittu <g type="pc">.</g> pārumaiy moṭpac ceyvīr ciriyar tiruvuruvamāṉa tirukkolam perukoḷiyāl kāṭṭiṉāṉ tillaikke tācan<unclear>vā</unclear>y veṅkaliyai Oṭṭiṉāṉ toṇṭaiyarkoṉ <g type="pc">.</g> Eṉṉuñ ciṟṟampalattoṅ komā ṉantican koṭu mula
+                    <lb n="20" break="no"/>ketaka<unclear>ccā</unclear>n tamaittāṉ kalluvantuyiṉak koḷvīr koḷvoṉṉal velkaḷe<unclear>r</unclear>kaḷiri<unclear>vaḷi</unclear>ttiṭu toṇṭaiyarkoṉ <unclear>ve</unclear>ṉṟu <g type="pc">.</g> maṉṉum tikaḻ tillaikke vāṇikka <gap reason="lost" quantity="1" unit="character"/> cakaṇattuṉṟu poḻil maṇavil toṇṭaimāṉ Eṉ ṟun=tuṇṇakkaṇṭāṉ Ikalven=tarākam parun=tuṇṇak kaṇṭāṉ parin=tu <g type="pc">.</g> tillai tiyākavali viṇciṟ pañcaviṉi Ellai nilaṅ koṇṭiṟaiyiḻicci tillai maṟaimuṭippār vitimaṭañ camaittāṉ maṇṇor ku<unclear>ṟ</unclear>ai muṭippār toṇṭaiyar ko <unclear><g type="pc">.</g>u</unclear> Eṉṟum peṟutalāl Eṟāviḻiṟ puliyūrmaṉṟi naṭaṉukku
+                    <lb n="21"/>mā mattak kuṉṟu kuṭutta<unclear>ruḷi</unclear> maṇṇiṟ ko<unclear>ṭuṅ</unclear>kali vārāme taṭuttāṉ toṇṭaiyar koṉ ṟāṉ <g type="pc">.</g> muttiṟattā ricaṉ mutaṟtiṟattai pāṭiyavar Okkamaitta ceppeṭṭiṉuḷḷi ṉeḻutit talakkilellaik kiri<unclear>vā</unclear>yicai yeḻutiṉāṉ kūttaṉ tillaic ciṟṟampalatte ceṉṟu <g type="pc">.</g> tillai vaḷarum teḷiteṉoḷi taḻaippa nalla tirunan=tāvaṉañ camaitta villat tirukkoṭṭaṅkoḷ vāḻven=tar koṟṟakkaḷiyāṉaiyiṭṭaṅ koḷ kāliṅkareṟu <g type="pc">.</g> nūṟāyira mukamāṅ kamaittāṉ ṉoṉciṉatti pāṟāka velkaḷiṟṟu vāṭkūttaṉ kūṟāḷum
+                    <lb n="22"/>vallic ciṟukiṭaikkuk kāṉvaḷar nāṭañ cey tillaic ciṟṟampalatte cenṟu <g type="pc">.</g> māci kkaṭalāṭi viṟṟurukka maṇṭa<supplied reason="omitted">pa</supplied>mum mācaṟṟavaṟṟaip peruvaḻiyum yicaṟku teṟpuliyūṟke yamaittāṉ kūttaṉ ticaiyaṉaittu maṉ puliyāṉai naṭakkaṟaiyattu <g type="pc">.</g> Oṅkiya poṉṉampalattārk korāyirañ curavi Āṅkaḷittā ṉeṟṟetirn=tārāyiḻaiyār<unclear>ta</unclear>ṅkātokki Uṭalāviyuyir nāṭppokki Irukkeṉṟa toṇṭaiyareṟu <g type="pc">.</g> tollorvāḻtillaic cuṭalai yamantār koyil kallāl Eṭuttamaittāṉ kāciṉiyiṟ p<unclear>o</unclear>laṉ maṟai
+                    <lb n="23" break="no"/>vaḷarkka veṅkaliyai māṟṟi vaḻu<unclear>vā</unclear>ma laṟamvaḷarkka kāliṅka ṉāyntu <g type="pc">.</g> tillai muvāyiravar taṅkaḷ tiruvaḷarellaiyil pererikkeḻilmataku kalliṉāṟtānamaittāṉ teven=taṟkkellāṉ kalan=ta viravānamaittāṉ toṇṭaiyār maṉ <g type="pc">.</g> <g type="pc">.</g> ha<hi rend="grantha">ra</hi> <g type="pc">.</g> Itu veṭṭuvittāṉ kāliṅkarāy(ā)r Āṇṭa Aracu:— Aṟamaṟavaṟka Aṟamallatu tuṇaiyillai :<g type="pc">.</g> tirucciṟṟampalam <g type="pc">.</g> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="5">
+                        <lem>prabhavasannamayaM pradyānāM</lem>
+                        <note>Perhaps we have to read <foreign>sannamasaṁ prajānā</foreign>Mm.</note>
+                    </app>
+                    <app loc="6">
+                        <lem>samārgga<unclear>cā</unclear>rañcaturantayānaṃ <gap reason="ellipsis"/></lem>
+                        <note>The metre is faulty.</note>
+                    </app>
+                    <app loc="8">
+                        <lem>madiśaTdvijarāmadhe<unclear>tuḥ</unclear></lem>
+                        <note>Five syllables (--u-u) have been omitted by mistake before the letter <fu>ma</fu>.</note>
+                    </app>
+                    <app loc="9">
+                        <lem>śivāmmūrttiṃguhoyā<supplied reason="omitted">ṁ</supplied>vahaN</lem>
+                        <note>Read <foreign>śubhāṃ yovahaN</foreign>.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="commentary">
+                <p>The numbering of the verses in the original is not clear. While the first six are marked 11, 60, 68 and 60 (thrice) respectively, the succeeding 25 verses are marked with double figures. The first of these is the serial number of the verses (7 to 31) and the second is irregularly 56, 76, 44, 60, 64, 77 or 22. Could the verses be quotations from a recognized work?</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 4.225 by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1923_01"/>
+                        <citedRange unit="page">31-34</citedRange>
+                        <citedRange unit="item">225</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
