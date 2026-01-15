@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 2.61: original edition by Eugen Julius Theodor Hultzsch</title>
+				<title type="alt">No. 61. ON THE WEST WALL OF THE BRIHANNAYAKI SHRINE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv02p0i0061</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This and the next inscription (No. 62) are engraved on the west wall of a shrine, which is situated on the north side of the large Nandi.<note n="246-1">See Plate vi., page 121.</note> No. 61 is dated on the 334th day of the 2nd year of the reign of a king, who styles himself <hi rend="bold">Tribhuvanachakravartin Kōnēriṉmai-koṇḍāṉ</hi>. As I have shown in the introduction to No. 21 (page 110), this is not a proper name, but a title which is applied to various kings. The inscription records, that the king had built the shrine on which it is engraved, and which was called <hi rend="bold">Ulagumuṛudum-uḍaiya-Nāchchiyār</hi>, <hi rend="italic">i.e.</hi>, “the goddess who owns the whole world,” within the <hi rend="bold">Rājarājēśvara</hi> temple at <hi rend="bold">Tañjāvūr</hi>, and that he presented to that shrine eleven <hi rend="italic">vēli</hi> of land in the village of <hi rend="bold">Koṭṭagarkkuḍi</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Ulag-āṇḍa-nāyaki-nallūr</hi>. The second name, which means “the good village of the goddess who rules the world,” was evidently bestowed on the village with reference to the goddess, to whose shrine it was given. The four boundaries of the land which had been granted, were to be marked with stones, on which a trident, the emblem of Śiva, was engraved<note n="246-2">According to No. 59 of Vol. I, two of the boundaries of a village which had been granted to the Vishṇu temple at Poygai, were marked by stones, on which a discus (<hi rend="italic">āṛi</hi>), the emblem of Vishṇu, was engraved.</note> (paragraph 6).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> koṭṭakarkkuṭiyā<supplied reason="omitted">ṉa</supplied> Ulakāṇṭanāyakinallūrkku Eḻutiṉa tirumukappaṭi <hi rend="grantha"><supplied reason="omitted">1</supplied></hi>
+<lb n="2"/><hi rend="grantha">tribhu</hi>vaṉa<hi rend="grantha">ccakra</hi>va<hi rend="grantha"><unclear>r</unclear>tti</hi> koneriṉmaikoṇṭāṉ tañcāvūr Uṭaiyār <hi rend="grantha">śrī</hi>i- <hi rend="grantha">rājarājīśvara</hi>
+<lb n="3" break="no"/>muṭaiyār koyililttāṉatt<choice><sic>a</sic><corr>ā</corr></choice>rkku <hi rend="grantha"><supplied reason="omitted">2</supplied></hi> Ikkoyilil nām Eḻuntaruḷuvitta Ulakumuḻutum
+<lb n="4" break="no"/>muṭaiyanācciyārkku Amutupaṭi Uḷḷi<supplied reason="omitted">ṭṭu</supplied> veṇṭumav<supplied reason="omitted">ai</supplied>yiṟṟukku<note n="246-3">Read arumoḻi.</note> Arumoḻu(te)te<unclear>va</unclear>
+<lb n="5" break="no"/>vaḷanāṭṭu melkūṟu viṭaiyapurap<unclear>pa</unclear>ṟṟile koṭṭakarkkuṭiyile patiṉ Oruveli nila
+<lb n="6" break="no"/>m Iṟaiyiliyāka Iraṇṭāvatu vaikā<unclear>ci</unclear> mātam mutal kuṭuttom <hi rend="grantha"><supplied reason="omitted">3</supplied></hi> Iṉnilam patiṉ Oru
+<lb n="7" break="no"/>veliyam<note n="247-1">Read veliyum.</note> cantiṟātittavaṟcelluvatākakkallilum cempilum veṭṭikkoḷka <hi rend="grantha"><supplied reason="omitted">4</supplied></hi>
+<lb n="8"/>Iṉnilattuk<unclear>ku</unclear> kātāṭamai<note n="247-2">Read kācukaṭamai.</note> maravaṭai puṉpayi<supplied reason="omitted">r</supplied> kuḷavaṭai <unclear>A</unclear>ḷavuvaṟkam Uṟainā<unclear>ḻi</unclear> veṭṭi
+<lb n="9" break="no"/>meṟppāṭikāval Araikkālvāci Uḷḷiṭṭa Aṉaittu vaṟkamum Uṭpaṭṭatum
+<lb n="10"/>Ivvūr nattattil Opātiyum <unclear>U</unclear>ṭppapa<note n="247-3">Read uṭpaṭa.</note> Iṟaiyiliyākakkallilum cempilum ve
+<lb n="11" break="no"/>ṭṭikkoḷ<unclear>ḷa</unclear>ccoṉṉom<note n="247-4">The second ḷa of koḷḷa is corrected from ca.</note> <hi rend="grantha"><supplied reason="omitted">5</supplied></hi> Ippaṭikku Ivai paḻantiparāyar Eḻuttu <note n="247-5">Read innila.</note> Iṉṉalattu
+<lb n="12" break="no"/>kku nāṉkellaiyum tiruccūlakkallu nāṭṭikkoḷka Ivai koṭumaḷūr U
+<lb n="13" break="no"/>ṭaiyāṉ Eḻuttu Ivai kayalūr Uṭaiyā
+<lb n="14" break="no"/>ṉ Eḻuttu yāṇṭu Iraṇṭāvatu nāḷ <hi rend="grantha"><num value="334">3 <g type="numeral">100</g> 3 <g type="numeral">10</g> 4</num> <supplied reason="omitted">6</supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Hultzsch1892_01">
+
+<p>1. Hail ! Prosperity ! (<hi rend="italic">The following are</hi>) the contents of an order, which was written concerning (<hi rend="italic">the village of</hi>) <hi rend="bold">Koṭṭagarkkuḍi</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Ulagāṇḍanāyaki-nallūr</hi>.</p>
+
+<p>2. <hi rend="bold">Tribhuvanachakravartin Kōnēriṉmai-koṇḍāṉ</hi> (<hi rend="italic">address the following order</hi>) to the authorities (<hi rend="italic">tāṉattār</hi>) of the temple (<hi rend="italic">kōyil</hi>) of the lord <hi rend="bold">Śrī-Rājarājēśvara</hi> (<hi rend="italic">at</hi>) <hi rend="bold">Tañjāvūr:</hi>—</p>
+
+<p>3. “From the month of <hi rend="italic">Vaigāśi</hi> in the second (<hi rend="italic">year of our reign</hi>), we have given as taxfree land eleven <hi rend="italic">vēli</hi>) in (<hi rend="italic">the village of</hi>) <hi rend="bold">Koṭṭagarkkuḍi</hi> in <hi rend="bold">Viḍaiyapura-paṟṟu</hi>, (<hi rend="italic">which forms</hi>) the western portion (<hi rend="italic">mēl-kūṟu</hi>) of <hi rend="bold">Arumoṛidēva-vaḷanāḍu</hi>, for (<hi rend="italic">providing</hi>) raw rice (<hi rend="italic">amudu-paḍi)</hi><note n="247-6">See Vol. I, p. 82, note 5.</note> and other requirements to (<hi rend="italic">the image of</hi>) <hi rend="bold">Ulagu-muṛudum-uḍaiya-Nāchchiyār</hi>, which we have set up in this temple.”</p>
+
+<p>4. “Let it be engraved on stone and copper, that these eleven <hi rend="italic">vēli</hi> of land shall remain (<hi rend="italic">the property of that image</hi>) as long as the moon and the sun endure !”</p>
+
+<p>5. “We have ordered it to be engraved on stone and copper, that this land shall be free from taxes, including the tax in money (<hi rend="italic">kāśu-kaḍamai), (the taxes on</hi>) trees (<hi rend="italic">maravaḍai</hi>), dry crops (<hi rend="italic">puṉ-payir</hi>) and tanks (<hi rend="italic">kuḷavaḍai</hi>),<note n="247-7"><ta>maravaṭai</ta> (which is a more probable reading than <ta>māvaṭai</ta>) and <ta>kuḷavaṭai</ta> occur in line 9, and <ta>puṉpayir</ta> in line 8, of the second tier of No. 22.</note> the tax on measures (<hi rend="italic">aḷavu-varga),<note n="247-8">This term is perhaps synonymous with <ta>aḷakkuṅkāṇam</ta> in line 9 of the second tier of No. 22. On page 114, this word was transcribed by <ta>aḷakkuṅkaraṇam</ta> which I now consider less probable.</note> uṟai-nāṛi, (the share of</hi>) the village-watchman (<hi rend="italic">who is placed</hi>) over the <hi rend="italic">Veṭṭis</hi>, the eighth share (<hi rend="italic">araikkālvāśi)</hi><note n="247-9">This term occurs in line 11, and the two preceding ones in line 8 f. of the second tier of No. 22.</note> and all other taxes (<hi rend="italic">varga</hi>), and including the dues<note n="247-10"><ta>opāti</ta> is a corruption of <hi rend="italic">upādhi</hi>, which occurs in line 8 of No. 23; see also the Index to Vol. I, <hi rend="italic">s.v</hi>.</note> (<hi rend="italic">obtaining</hi>) within the site (<hi rend="italic">nattam</hi>) of this village.”</p>
+
+<p>6. This is the signature of <hi rend="bold">Paṛandīparāyar</hi>. “Let stones (<hi rend="italic">marked</hi>) with the sacred trident (<hi rend="italic">tiru-śūla</hi>) be set up at the four boundaries of this land !” This is the signature of the headman (<hi rend="italic">uḍaiyāṉ</hi>) of <hi rend="bold">Koḍumaḷūr</hi>. This is the signature of the headman of <hi rend="bold">Kayalūr</hi>. On the 334th day of the second year (<hi rend="italic">of the king's reign</hi>).</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 2.61 by <bibl><ptr target="bib:Hultzsch1892_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Hultzsch1892_01"/>
+			<citedRange unit="page">246-247</citedRange>
+			<citedRange unit="item">61</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.195: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 195.—ON THE NORTH WALL OF THE SAME TEMPLE. No. 52 of 1898.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0195</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription records that in the 13th year of king <hi rend="bold">Pārthivēndrādhipativarman</hi>, his queen <hi rend="bold">Tribhuvana-Mahādēviyār</hi> gave 192 sheep for two perpetual lamps to be burnt in the shrine of <hi rend="bold">Veḷḷaimūrtti-Perumānaḍigaḷ</hi> in the temple of <hi rend="bold">Koṅgaraiyar</hi> at <hi rend="bold">Uttaramēru-chaturvēdimaṅgalam</hi>. We know from the previous inscription that this <hi rend="bold">Koṅgaraiyar</hi> built at <hi rend="bold">Uttaramēru-chaturvēdimaṅgalam</hi> the <hi rend="bold">Vishṇu</hi> temple named <hi rend="bold">Śrīveli-Vishṇugṛiha</hi>.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> ko <hi rend="grantha">pārtthi</hi>ven=tāti<hi rend="grantha">pa</hi>ti<hi rend="grantha">panma</hi>ṟku yāṇṭu <num value="13"><g type="numeral">10</g> 3</num> vatu kāliyūrkoṭṭattu taṉkūṟṟu <hi rend="grantha">U</hi>tta<hi rend="grantha">ramerucca</hi>tu<hi rend="grantha">rve</hi>timaṅka<supplied reason="omitted">la</supplied>ttu koṅkarai
+<lb n="2" break="no"/>ya<supplied reason="omitted">r</supplied> <hi rend="grantha">śrī</hi>koyil veḷḷai mū<supplied reason="omitted">r</supplied>ttiperumāṉaṭikaḷukku perumāṉaṭikaḷ nampirāṭṭiyār<note n="372-2">Read <hi rend="grantha">tribhu</hi>vaṉa.</note> <hi rend="grantha">tribhva</hi>ṉa<hi rend="grantha">mahā</hi>
+<lb n="3" break="no"/><hi rend="grantha">de</hi>viyār vaitta nu<hi rend="grantha">ndā</hi>viḷakkiraṇṭukkum paṉmaicceri veḷḷāḷarey <hi rend="grantha">cantrā</hi>tittavaṟ kāttu <hi rend="grantha">rakṣi</hi>ppārāka Ivarkaḷ
+<lb n="4" break="no"/>vacam viṭṭa cāvāmūvāpperāṭu toṇṇūṟṟāṟum naṭuvilaṅkāṭi<note n="372-3">Read <hi rend="grantha">vyāpāri</hi>.</note> <hi rend="grantha">vyābhā</hi>rikaḷ vacam <hi rend="grantha">cantrā</hi>tittava
+<lb n="5" break="no"/>ṟa kāttu <hi rend="grantha">rakṣi</hi>ppārāka viṭṭa cāvāmūvāpperāṭu toṇṇūṟṟāṟum Āka Ivviraṇṭu viḷakkiṉāṭum <hi rend="grantha">rakṣi</hi>ttu
+<lb n="6"/>nicatappaṭi Uri(y) ney Ivarkaḷey nu<hi rend="grantha">ndā</hi>viḷakkiṟku muṭṭāmai Aṭṭuvippārākavum Ipparicu kaṭaikkāṭciy<unclear>ā</unclear>
+<lb n="7" break="no"/>ka viṭṭom Ivviṭṭa Āṭu kaṭaikkāṇāviṭil Aṉṟāḻ kovukku <hi rend="grantha">de</hi>varaṭiyārey nicatamañ<supplied reason="omitted">c</supplied>āṭippoṉ <hi rend="grantha">da</hi><note n="372-4">The inscription stops here.</note> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:KrishnaSastri1920_01">
+
+<p>Hail ! Prosperity ! In the 13th year of (<hi rend="italic">the reign of</hi>) king <hi rend="bold">Pārthivēndrādhipativarman</hi>, the queen consort <hi rend="bold">Tribhuvaṉa-Mahādēviyār</hi> gave for two perpetual lamps to (<hi rend="italic">the god</hi>) <hi rend="bold">Veḷḷaimūrti-Perumāṉaḍigaḷ</hi> in the <hi rend="italic">śrīkōil</hi> of <hi rend="bold">Koṅgaraiyar</hi> at <hi rend="bold">Uttaramēru-chaturvēdimaṅgalam</hi>, (<hi rend="italic">a village</hi>) in its (<hi rend="italic">own</hi>) subdivision in <hi rend="bold">Kāliyūr-kōṭṭam</hi>, 96 sheep which neither die nor grow old placing them in charge of the cultivators (<hi rend="italic">veḷḷāḷar</hi>) of the different quarters (<hi rend="italic">paṉmaichchēri) (of this village</hi>) on condition that they would themselves protect and maintain (<hi rend="italic">the lamps</hi>) as long as the moon and the sun (<hi rend="italic">endure). (She again gave</hi>) 96 sheep which neither die nor grow old in charge of the merchants of the middle bazaar (<hi rend="italic">naḍuvilaṅgāḍi</hi>) who also agreed to protect and maintain (<hi rend="italic">the lamps</hi>) as long as the moon and the sun (<hi rend="italic">endure</hi>). These same would (<hi rend="italic">thus</hi>) protect the sheep (<hi rend="italic">given on account</hi>) of these two lamps and cause to be measured out daily without fail one <hi rend="italic">uri</hi> of ghee for (<hi rend="italic">maintaining</hi>) the perpetual lamps. This gift was placed under the supervision (<hi rend="italic">kaḍaikāṭchi) (of these two communities</hi>). If the sheep thus presented are not supervised, the temple servants (<hi rend="italic">dēvaraḍiyār</hi>) themselves • • • of one <hi rend="italic">mañjāḍi</hi> of gold daily to (<hi rend="italic">i.e.</hi>, on behalf of) the then-reigning king.</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.195 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1920_01"/>
+			<citedRange unit="page">372</citedRange>
+			<citedRange unit="item">195</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

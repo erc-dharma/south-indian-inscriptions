@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 2.89: original edition by V. Venkayya</title>
+				<title type="alt">No. 89. ON A NICHE OF THE WEST ENCLOSURE. No. 35 of 1897.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv02p0i0089</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription records the gift of two ornaments to the shrine of <hi rend="bold">Piḷḷaiyār Gaṇapatiyār</hi> by a merchant living in one of the suburbs of <hi rend="bold">Tanjore</hi>. The gift was made “until the 29th year (of <hi rend="bold">Rājarājadēva</hi>).”</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrīḥ <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+<lb n="2"/>tañcāvūrk
+<lb n="3" break="no"/>kūṟṟattuttañ
+<lb n="4" break="no"/>cāvūrppuṟampaṭi maṭik<unclear>ai</unclear> Irukkum viyāpāri
+<lb n="5"/>nārāyaṇaṉ kāmappaiceṭṭi Ikkaṇa<unclear>pa</unclear>ti<unclear>yā</unclear>
+<lb n="6" break="no"/>rkku yāṇṭu Irupattoṉpatāvatu varai kuṭu
+<lb n="7" break="no"/>tta <hi rend="grantha">ra<unclear>tna</unclear></hi>ṅkaḷ <hi rend="grantha">dakṣi</hi>ṇa<hi rend="grantha">meru</hi>viṭa<hi rend="grantha">ṅkan</hi> Eṉṉuṅkal
+<lb n="8" break="no"/>lāl niṟai Eṭuttum poṉ Āṭavallāṉ
+<lb n="9"/>Eṉṉuṅkallāl niṟai Eṭuttum kallil veṭ
+<lb n="10" break="no"/>ṭiṉa <hi rend="grantha"><g type="danda">.</g>—<supplied reason="omitted">1</supplied></hi> caṅkiṭṭu Aṭaitta kaṟkaṇṭu Oṉṟilttaṭavikka<unclear>ṭ</unclear>ṭiṉa paḷiṅku
+<lb n="11"/>Iraṇṭum poṉṉiṉ kāmpum Uṭpaṭa niṟai nāṟkaḻañcu<unclear>kku</unclear> vi<unclear>lai</unclear> kācu O
+<lb n="12" break="no"/>ṉṟey kāl <hi rend="grantha">[<g type="danda">.</g>—2*]</hi> tiraḷmaṇivaṭam Oṉṟu poṉ Oṉpatiṉ kaḻañcey mūṉ<supplied reason="omitted">ṟu</supplied>
+<lb n="13"/>mañcāṭi <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">3</supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Venkayya1913_01">
+
+<p>Hail ! Prosperity ! The jewels presented until the twenty-ninth year (<hi rend="italic">of the king's reign</hi>) to this<note n="413-1">The shrine mentioned in the preceding inscription is evidently meant.</note> (<hi rend="italic">shrine of</hi>) <hi rend="bold">Gaṇapatiyār</hi> by <hi rend="bold">Nārāyaṇaṉ Kāmappai-śeṭṭi</hi>, a merchant living in the suburban <hi rend="italic">maḍigai</hi><note n="413-2">The exact significance of this word is not clear to me. The word does not occur either in Winslow's <hi rend="italic">Tamil Dictionary</hi> or in Gundert's <hi rend="italic">Malayāḷam Dictionary</hi>. Perhaps it is connected with the Tamil <hi rend="italic">maḷigai</hi>, ‘a grocery shop,’ and denotes a street or quarter of the town where grocers' shops were located.</note> of <hi rend="bold">Tañjāvūr</hi> in <hi rend="bold">Tañjāvūr-kūṟṟam</hi>, were engraved (<hi rend="italic">i.e.</hi> recorded) on stone after (<hi rend="italic">they</hi>) had been weighed by the stone called <hi rend="bold">Dakshiṇamēru-Viṭaṅkaṉ</hi> and after the gold had been weighed by the stone called <hi rend="bold">Āḍavallāṉ</hi>.</p>
+
+<p>2. One <hi rend="italic">kaṟkaṇḍu</hi><note n="413-3"><hi rend="italic">Kaṟkaṇḍu</hi> means ‘sugar-candy,’ which does not suit here. I do not understand the term <ta>caṅkiṭṭu aṭaitta kaṟkaṇṭu</ta>. The word <ta>kaṇṭu</ta> occurs in paragraph 9 on p. 432, below.</note> filled with a conch (?)—weighing, inclusive of the two crystals fastened on (<hi rend="italic">it</hi>) and of the handle made of gold, four <hi rend="italic">kaṛañju</hi>,—valued at one <hi rend="italic">kāśu</hi> and a quarter.</p>
+
+<p>3. One string of round beads, (<hi rend="italic">consisting</hi>) of nine <hi rend="italic">kaṛañju</hi> and three <hi rend="italic">mañjāḍi</hi> of gold.</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 2.89 by <bibl><ptr target="bib:Venkayya1913_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Venkayya1913_01"/>
+			<citedRange unit="page">412-413</citedRange>
+			<citedRange unit="item">89</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

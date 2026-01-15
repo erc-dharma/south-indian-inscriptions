@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.169: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 169.—ON THE SAME WALL. No. 23 of 1898.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0169</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The inscription records that in the 3rd year of <hi rend="bold">Pārthivēndrādivarman</hi> who took the head of <hi rend="bold">Vīra-Pāṇḍya</hi>, the members of the assembly of <hi rend="bold">Uttaramēlūrchaturvēdimaṅgalam</hi> made a gift of land to the goddess <hi rend="bold">Jyēshṭhā</hi><note n="346-3">The worship of Jyēshṭhā is not now popular in the south; see <hi rend="italic">South-Indian Gods and Goddesses</hi>, pages 216 ff.</note> at <hi rend="bold">Kumaṇpāḍi</hi>, a suburb of this village, for the maintenance of worship and sacred offerings.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> virapāṇṭiyaṉai talaikoṇṭa pā<supplied reason="omitted">r</supplied>ttive<hi rend="grantha">ntra</hi><supplied reason="omitted">ra</supplied>tiparma<supplied reason="omitted">r</supplied>kku yāṇṭu 3 vatu kāliyūrkoṭṭa
+<lb n="2" break="no"/>ttu<note n="346-4">Read taṉkūṟṟuttira.</note> taṉkuṟṟut<hi rend="grantha">tri</hi>ramelūrccatu<hi rend="grantha"><unclear>rvve</unclear></hi>timaṅkalattu <hi rend="grantha">sabhai</hi>y<unclear>o</unclear>m Eḻuttu nammūr kumaṇpāṭi ceṭ[ ṭ <hi rend="grantha">Ai</hi>] yarkku
+<lb n="3"/>A<supplied reason="omitted">r</supplied>ccaṉā<hi rend="grantha">bhoga</hi>ttukku<supplied reason="omitted">m</supplied> tiruvamurtu<supplied reason="omitted">k</supplied>kum v<hi rend="grantha">ai</hi><supplied reason="omitted">t</supplied>ta <hi rend="grantha">bhū</hi>mi mukaṭ<unclear>ṭu</unclear>kāli<unclear>ṉ</unclear> te<supplied reason="omitted">ṟ</supplied>kku <hi rend="grantha"><unclear>pa</unclear></hi>
+<lb n="4" break="no"/><hi rend="grantha">tma</hi>nā<hi rend="grantha">bhakra <gap reason="lost" quantity="3" unit="character"/> 4</hi> kaṇṇāṟṟuk kolavatiyin merkku 3 catukkattu talaittara<unclear>m</unclear> <num value="408">4 <g type="numeral">100</g> 8</num> m <hi rend="grantha">subramaṇya</hi>nārācat<unclear>tu</unclear>
+<lb n="5"/><unclear>ku</unclear>ḻi <num value="480">4 <g type="numeral">100</g> 8 <g type="numeral">10</g></num>tu <supplied reason="omitted">I</supplied>tiṉ <unclear>va</unclear><supplied reason="omitted">ṭa</supplied>kku <hi rend="grantha"><unclear>1</unclear>8</hi> Ā<supplied reason="omitted">ṅ</supplied> kaṇṇāṟṟu <unclear>k</unclear>āvaṉūre<supplied reason="omitted">ri</supplied>vāy poṉa vatikku teṟku 9<unclear>pa</unclear>tām catukkattu <supplied reason="omitted">talai</supplied>tara<unclear>ṅ ku</unclear>
+<lb n="6" break="no"/>ḻi <num value="260">2 <g type="numeral">100</g> 6 <g type="numeral">10</g></num> m I nilam Iṟai Iḻicci I<unclear>ṟ</unclear>ai<supplied reason="omitted">yi</supplied>liyāka paṇittom <hi rend="grantha">mahāsabhai-</hi> yo m<unclear>ā</unclear>yalaṭṭi(y)
+<lb n="7" break="no"/><unclear>pa</unclear>kkal <unclear>pū</unclear>rvācāram koṇṭu Iṟai<supplied reason="omitted">yi</supplied><unclear>li</unclear>yāka paṇi<unclear>t</unclear>tom mah<choice><sic>a</sic><corr>ā</corr></choice><hi rend="grantha">sabhai-</hi> yom <unclear>viro</unclear>tam ceyitār<note n="346-5">Read ceytār.</note> ke<unclear>ṅ</unclear>k<hi rend="grantha">ai</hi><supplied reason="omitted">yi</supplied>ṭai <unclear>ku</unclear>
+<lb n="8" break="no"/>mari<supplied reason="omitted">yi</supplied>ṭai ceyitār<note type="repeated" n="346-5"/> <unclear>p</unclear>āvam koḷv<unclear>ā</unclear>r<supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:KrishnaSastri1920_01">
+
+<p>Hail ! Prosperity ! In the 3rd year of (<hi rend="italic">the reign of</hi>) <hi rend="bold">Pārthivēndrādivarman</hi> who took the head of <hi rend="bold">Vīra-Pāṇḍya</hi>, we (<hi rend="italic">the members</hi>) of the assembly of <hi rend="bold">Uttaramēlūr-chaturvēdimaṅgalam</hi>, (<hi rend="italic">a village</hi>) in its own subdivision in <hi rend="bold">Kāliyūrkōṭṭam</hi> wrote (<hi rend="italic">thus):</hi>—The land given for the maintenance of worship (<hi rend="italic">archanābhōga</hi>) and for sacred offerings of (<hi rend="italic">the goddess</hi>) <hi rend="bold">Jyēshṭhā</hi> in <hi rend="bold">Kumaṇpāḍi</hi> of our village (<hi rend="italic">is as follows):</hi>—408 (<hi rend="italic">kuḻi</hi>) of first rate (<hi rend="italic">land</hi>) in the third square (<hi rend="italic">śadukkam</hi>) to the west of (<hi rend="italic">the path called</hi>) <hi rend="bold">Kōla-vadi</hi> in the fourth <hi rend="italic">kaṇṇāṟu • • • (situated</hi>) south of the high-level channel (<hi rend="italic">mugaṭṭu-kāl</hi>); 480 <hi rend="italic">kuḻi</hi> of (<hi rend="italic">the lane called</hi>) <hi rend="bold">Subrahmaṇya-nārāśam</hi>; and to the north of this, first rate (<hi rend="italic">land) (measuring</hi>) 260 <hi rend="italic">kuḻi</hi> in the ninth square to the south of the path leading straight to the <hi rend="bold">Kāvaṉūr</hi> tank, in the eighteenth <hi rend="italic">kaṇṇāṟu</hi>. We, (<hi rend="italic">the members</hi>) of the great assembly, exempted (<hi rend="italic">all</hi>) this land from tax and declared it tax-free. We, (<hi rend="italic">the members</hi>) of the great assembly, having received <hi rend="italic">pūrvāchāram</hi> from Māyilaṭṭi declared (<hi rend="italic">the land</hi>) tax-free. Those who cause obstruction (<hi rend="italic">to this</hi>) shall incur the sins of those who commit (<hi rend="italic">sinful acts</hi>) between <hi rend="bold">Gaṅgā</hi> (the Ganges) and <hi rend="bold">Kumari</hi> (Cape Comorin).</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.169 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1920_01"/>
+			<citedRange unit="page">346-347</citedRange>
+			<citedRange unit="item">169</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

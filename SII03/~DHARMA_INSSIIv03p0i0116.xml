@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.116: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 116.—ON THE WEST WALL OF THE CENTRAL SHRINE IN THE DANDISVARA TEMPLE AT VELACHCHERI No. 306 of 1911..</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0116</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is again an inscription of <hi rend="bold">Madiraikoṇḍa Rājakēsarivarman</hi> dated in the 7th year of his reign. It registers a gift of a land by purchase, by two <hi rend="bold">Veḷḷāḷa</hi> brothers of <hi rend="bold">Oṉpadiṟṟuvēli</hi> in <hi rend="bold">Ārkāṭṭu-kūṟṟam</hi>, a subdivision of <hi rend="bold">Śōṇāḍu</hi>, to the Mahādēva temple of <hi rend="bold">Tīruttaṇḍīśvaram</hi> at <hi rend="bold">Veḷichchēri</hi>.</p>						
+
+						<p><hi rend="bold">Oṉpadiṟṟuvēli</hi> may be identified with <hi rend="bold">Ombattuvēli</hi> in the Tanjore taluk of the Tanjore district. <hi rend="bold">Ārkāḍu</hi> which was evidently the headquarters of the subdivision <hi rend="bold">Ārkāṭṭu-kūṟṟam</hi> is now a petty village in the vicinity of <hi rend="bold">Tirukkāṭṭuppaḷḷi</hi>.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> matiraikoṇṭa kovirā<hi rend="grantha">jakesa</hi>ripaṉmaṟku
+<lb n="2"/>yāṇṭu 7 Āva<unclear>tu</unclear> puliyūrkoṭṭa<supplied reason="omitted">t</supplied>tu veḷicceri <hi rend="grantha">mahāsabhai</hi>
+<lb n="3" break="no"/>y<unclear>om</unclear>emmur <hi rend="grantha">brahma</hi>[ <hi rend="grantha">sthā</hi>nat] te kūṭṭa kuṟaivaṟa kūṭi Iruntu viṟkiṉ<unclear>ṟa</unclear>
+<lb n="4"/>nilam <supplied reason="undefined"><g type="danda">.</g></supplied> Ivūr kiḻ<unclear>piṭā</unclear>kaik kāṟakattu Atampuḻāṉaḻi Eri Aka
+<lb n="5" break="no"/>ppaṭṭa <unclear>ni</unclear>lam <gap reason="lost" quantity="3" unit="character"/> I<supplied reason="omitted">v</supplied>vaḻi <gap reason="lost" quantity="1" unit="character"/> yā <gap reason="lost" quantity="2" unit="character"/> meṟku ten
+<lb n="6" break="no"/>pāṟkellai mā<unclear>ṉa</unclear>yiṭṭukā<unclear>lu</unclear>kku vaṭa<unclear>k</unclear>ku melpāṟkellai taṭṭāneriyo
+<lb n="7" break="no"/>ṭe Aṭain=ta vaḻikku kiḻakku vaṭa<unclear>pāṟ</unclear>kellai koṭṭurkālukku teṟkkumināṉkel
+<lb n="8" break="no"/>laiyaka<unclear>t</unclear>tuṭpaṭṭa nila<unclear>t</unclear>tu naṭuvu pi <gap reason="lost" quantity="1" unit="character"/> yūr <unclear>ṉi</unclear>la nikki Uṇṇilamoḻiviṉṟi viṟṟukuṭu
+<lb n="9" break="no"/>ttomitu I<supplied reason="omitted">v</supplied>vāṟu vi<unclear>lai</unclear>kkāṇaṅ kiḻirait <unclear>ta</unclear>ntu viṟpittukoṇṭān coṇāṭṭu <unclear>Ā</unclear>r
+<lb n="10" break="no"/>kāṭṭukūṟ<unclear>ṟa</unclear>ttu veḷḷāḷa<unclear>ṉ</unclear>oṉpatiṟṟuve<unclear>li</unclear>uṭaiyāni<hi rend="grantha">ntra</hi>ṉ<note n="252-2">Read paḻaṉattaṭi.</note> paḻinattaṭikaḷumivaṉ
+<lb n="11"/>tampi Aṇṇāmalaiyamivviruvarpakkalumi<hi rend="grantha">bhūmi</hi>yāl van=ta vilaipporuḷ
+<lb n="12" break="no"/>ḷaṟa<supplied reason="omitted">k</supplied>koṇṭu <unclear>viṟṟu</unclear>kkuṭuttomi<hi rend="grantha">bhū</hi>miyā<unclear>l</unclear> van=ta Iṟaiyumeccoṟum Amañ
+<lb n="13" break="no"/>ci veṭṭi vetiṉai<note n="252-3">antanāyati apparently stands for antarāyāti.</note> An=tarāyatiyumeppeṟpaṭṭa Iṟaiyum <unclear>k</unclear>āṭṭa peṟātomā
+<lb n="14" break="no"/>no<unclear>m</unclear> <unclear>k</unclear>āṭṭinārai pa<hi rend="grantha">nmāheśvarare dharmmāsa</hi>namutalāka tāṉ veṇṭina viṭa
+<lb n="15" break="no"/>ttile meyveṟṟuvakai Ivvirunūṟu kāṇam taṇṭamiṭa Oṭṭikkuṭutto
+<lb n="16" break="no"/>m <hi rend="grantha">mahāsabhai</hi>yom <supplied reason="undefined"><g type="danda">.</g></supplied> Ippūmi Uḻakkum Iraṇṭu kuṭikku <hi rend="grantha">sarvva</hi>pari<hi rend="grantha">hā</hi>ramā<unclear>ka</unclear> Oṭṭi
+<lb n="17" break="no"/>kkuṭu<supplied reason="omitted">t</supplied>to<supplied reason="omitted">m</supplied> <hi rend="grantha">mahāsabhai</hi>yomivarkaḷ paṇi<supplied reason="omitted">k</supplied>ka veḻutineṉ vaikā<hi rend="grantha">sa</hi>naṉ<note n="252-4">Read vaikāna<hi rend="grantha">sa</hi>ṉ.</note> pe<unclear>ru</unclear>mā<unclear>napa</unclear>
+<lb n="18" break="no"/>ṭṭaneṉ <supplied reason="undefined"><g type="danda">.</g></supplied> Ipparicu I<hi rend="grantha">ntra</hi>n<note n="252-5">Read paḻaṉattaṭi.</note> paḻanataṭikaḷumivaṉṟampi Aṇṇāmalaiyenum<unclear>e</unclear>
+<lb n="19" break="no"/>ṅkaḷ veḷi<supplied reason="omitted">c</supplied>ceri <hi rend="grantha"><unclear>ma</unclear>hāsabhai</hi>yārpakkal koṇṭa parice I<supplied reason="omitted">v</supplied><unclear>vū</unclear>r tirutaṇṭi<hi rend="grantha">śva</hi>ra<supplied reason="omitted">t</supplied>tu ma[<hi rend="grantha">hā</hi>]
+<lb n="20" break="no"/><hi rend="grantha">de</hi>va<supplied reason="omitted">r</supplied>kku ca<hi rend="grantha">ndrā</hi>tittavaṟ Oru <unclear>na</unclear>ṉtāviḷa<supplied reason="omitted">k</supplied>keri<supplied reason="omitted">p</supplied>pataṟkum Ikkoyilil yāṅkaḷ <hi rend="grantha">śrī</hi>koyi
+<lb n="21" break="no"/>l <unclear>le</unclear>ṭu<supplied reason="omitted">p</supplied><unclear>pi</unclear>ttu <hi rend="grantha">pra</hi>ti<hi rend="grantha">ṣṭhai</hi> ceyvitta kaṇavatiyār<supplied reason="omitted">k</supplied>ku U<supplied reason="omitted">c</supplied>ciyampotu Irunāḻiyarici<unclear>yā</unclear>
+<lb n="22" break="no"/>l tiruvamutu kāṭṭuvatākavum kuṭu<supplied reason="omitted">t</supplied>tomiva<supplied reason="omitted">r</supplied>kaḷ kuṭutta I<hi rend="grantha">bhūmi</hi> koṇṭu I<supplied reason="omitted">na</supplied><hi rend="grantha">ndā</hi>viḷa<supplied reason="omitted">k</supplied>
+<lb n="23" break="no"/>keri<supplied reason="omitted">p</supplied>patākavum kaṇavatiyār<supplied reason="omitted">k</supplied>ku tiruvamutu kāṭṭikoḷvatākavumi<hi rend="grantha">bhūmi</hi> koṇṭo<supplied reason="omitted">m</supplied> tirutaṇṭi
+<lb n="24" break="no"/><hi rend="grantha">śva</hi>ra<supplied reason="omitted">t</supplied>tu tiruvu<supplied reason="omitted">ṇ</supplied>ṇāḻikai Uṭaiya <hi rend="grantha">śi</hi>va<hi rend="grantha">brāhma</hi>ṇan <hi rend="grantha">geṅgādharaśi</hi>vanenum Amirtara<unclear>ñca</unclear>
+<lb n="25" break="no"/><supplied reason="omitted">ṉa</supplied>civa<unclear>ne</unclear>num ponmalaicivanenum I<supplied reason="omitted">v</supplied>vaṉaivom I<supplied reason="omitted">p</supplied>paṇi ca<hi rend="grantha">ndrā</hi>tittavaṟ mu<supplied reason="omitted">ṭ</supplied>ṭā<unclear>m</unclear>ai
+<lb n="26"/><note n="252-6">Read ceyvo.</note> caivomāno<supplied reason="omitted">m</supplied> muṭṭi<unclear>ṉ</unclear> pa<unclear>ṭi</unclear> Iraṭ<unclear>ṭi</unclear><note type="repeated" n="252-6"/>caivomānom I<hi rend="grantha">dharmma</hi>mi<hi rend="grantha">rakṣi</hi><supplied reason="omitted">p</supplied>pāreṇpatun<note n="252-7">Read reṇpatin .</note> 
+<lb n="27"/><hi rend="grantha">ga</hi>ṇa<supplied reason="omitted">p</supplied>peruma<unclear>kka</unclear>ḷuman<unclear>ṟā</unclear>ḻ kovum pa<hi rend="grantha">nmāheśva</hi>ra<unclear>ru</unclear>m <g type="ddanda">.</g><g type="dashLong">.</g>
+</p>
+
+<p>(Line 1.) Hail ! Prosperity ! In the 7th year of (<hi rend="italic">the reign of</hi>) king <hi rend="bold">Rājakēsarivarman</hi> who took <hi rend="bold">Madirai</hi> (Madura), we (<hi rend="italic">the members</hi>) of the great assembly of <hi rend="bold">Veḷichchēri</hi> in <hi rend="bold">Puliyūr-kōṭṭam</hi>, having gathered in assembly without deficiency, in the <hi rend="italic">Brahmasthāna</hi> of our village, sold the (<hi rend="italic">following</hi>) land:—</p>
+
+<p>(L. 4.) the • • • the land included in the tank of <hi rend="bold">Adambuḻānaḻi</hi> of • • • • the eastern hamlet of this village • • • west • • this path; the southern boundary (<hi rend="italic">is</hi>) to the north of the (<hi rend="italic">channel called</hi>) <hi rend="bold">Māṉayīṭṭu-kāl</hi>; the western boundary (<hi rend="italic">is</hi>) to the east of the path which passes by the tank (called) <hi rend="bold">Taṭṭāṉēri</hi>; and the northern boundary (<hi rend="italic">is</hi>) to the south of the channel of <hi rend="bold">Kōṭṭūr</hi>. We sold the land situated within the enclosure of these four boundaries excluding the land • • • within (<hi rend="italic">it) (but</hi>) without excluding the <hi rend="italic">uṇṇilam</hi>.</p>
+
+<p>(L. 9.) Having given the sale money and <hi rend="italic">kīḻ-iṟai</hi> thus, <hi rend="bold">Indraṉ Paḻanattaḍigaḷ</hi> the cultivator (<hi rend="italic">veḷḷāḷaṉ</hi>) of <hi rend="bold">Oṉpadiṟṟuvēli</hi> in <hi rend="bold">Ārkāṭṭu-kūṟṟam</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Śōṇāḍu</hi>, and his younger brother <hi rend="bold">Aṇṇāmalai</hi>, got (<hi rend="italic">this land</hi>) sold (<hi rend="italic">to them</hi>), and we sold (<hi rend="italic">the land</hi>) having received in full the sale-money of this land from these two persons. We (<hi rend="italic">the members of the assembly</hi>) shall not show (<hi rend="italic">in our account books</hi>) any kind of tax as accruing on this land such as <hi rend="italic">iṟai, echchōṟu, amañji</hi>, free labour (<hi rend="italic">veṭṭi), vēdiṉai</hi> and <hi rend="italic">antarāya</hi>. We (<hi rend="italic">the members</hi>) of the big assembly gave a written agreement that (<hi rend="italic">the assembly of</hi>) all <hi rend="italic">Māhēśvaras (alone</hi>) shall (<hi rend="italic">have the right to</hi>) levy, in case they choose (<hi rend="italic">to do so</hi>), to be credited to the council of justice (<hi rend="italic">dharmāsana</hi>), a fine of these<note n="253-1">The word “these” has not been here used with reference to any mentioned above. Perhaps it has to be cancelled.</note> two-hundred <hi rend="italic">kāṇam</hi> on each of the persons that show (<hi rend="italic">any such tax) (in the books</hi>). We (<hi rend="italic">the members</hi>) of the big assembly (<hi rend="italic">also</hi>) gave a written agreement that the two tenants who cultivate this land (<hi rend="italic">shall have</hi>) all exemptions. At the command of these (<hi rend="italic">members</hi>), I, <hi rend="bold">Vaikānasaṉ Perumāṉ-Bhaṭṭaṉ</hi>, wrote (<hi rend="italic">this</hi>).</p>
+
+<p>(L. 18.) (<hi rend="italic">We</hi>) <hi rend="bold">Indraṉ Paḻaṉattaḍigaḷ</hi> and his younger brother <hi rend="bold">Aṇṇāmalai</hi> granted on the same terms, (<hi rend="italic">the land</hi>) obtained in this wise from the members of the big assembly of our (<hi rend="italic">village</hi>) <hi rend="bold">Veḷichchēri</hi> to <hi rend="bold">Mahādēva</hi> (<hi rend="italic">Śiva</hi>) of (<hi rend="italic">the temple of</hi>) <hi rend="bold">Tiruttaṇḍīśvaram</hi> in this village for burning one perpetual lamp as long as the moon and the sun (<hi rend="italic">endure</hi>) and for the presentation of sacred offerings (<hi rend="italic">prepared</hi>) with two <hi rend="italic">nāḻi</hi> of rice, at midday, to (<hi rend="italic">the god</hi>) <hi rend="bold">Gaṇapati</hi> set up in the sacred shrine which we had built in this temple. We, the following Śiva-Brāhmaṇas (<hi rend="italic">viz.,</hi>) <hi rend="bold">Gaṅgādhara-Śiva, Amirta-rañjana-Śiva</hi> and <hi rend="bold">Poṉmalai-Śiva</hi> of (<hi rend="italic">i.e.</hi>, attached to) the sacred central shrine in (<hi rend="italic">the temple of</hi>) <hi rend="bold">Tiruttaṇḍīśvaram</hi> received this land (<hi rend="italic">on the understanding</hi>) that obtaining this land given by these persons, we shall burn this perpetual lamp and (<hi rend="italic">also</hi>) present sacred offerings to <hi rend="bold">Gaṇapati</hi>. We (agree) to conduct this service without default as long as the moon and the sun (<hi rend="italic">endure</hi>). If (<hi rend="italic">any</hi>) default (<hi rend="italic">happens</hi>) we shall double the scale (<hi rend="italic">of service</hi>). The eighty great men of the administrative assembly (<hi rend="italic">gaṉa</hi>), the king reigning at the time, and (<hi rend="italic">the assembly of</hi>) all <hi rend="italic">Māhēśvaras</hi> shall protect this charity.</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.116 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1920_01"/>
+			<citedRange unit="page">252-253</citedRange>
+			<citedRange unit="item">116</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

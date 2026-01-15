@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 2.3: original edition by Eugen Julius Theodor Hultzsch</title>
+				<title type="alt">No. 3. INSCRIPTION OF RAJARAJA.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv02p0i0003</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>No. 3. ON THE NORTH WALL, LOWER TIER.</p>						
+
+						<p>This inscription is engraved in 38 sections of 15 lines each and contains a description of thirty sacred ornaments. These were made partly of gold and jewels from the temple treasury, and partly of pearls, which <hi rend="bold">Kō-Rājakēsarivarman</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Rājarājadēva</hi>, had given to the temple up to the 29th year of his reign. Paragraphs 5 and 6 allude to gold, which the king had seized after conquering the <hi rend="bold">Chēra</hi> king and the <hi rend="bold">Pāṇḍyas</hi>, and which he had presented to the temple.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<!--<h4><hi rend="italic">First section</hi>.</h4>-->
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> tirumakaḷ polapperunilacce
+<lb n="2" break="no"/>lviyuntaṉakkeyurimai pūṇṭamai maṉa
+<lb n="3" break="no"/>kkoḷakkāntaḷūrccālai kalamaṟuttaruḷi ve
+<lb n="4" break="no"/>ṅkaināṭuṅkaṅkapāṭiyuntaṭikaipāṭiyu
+<lb n="5" break="no"/>m nuḷampapāṭiyuṅkuṭamalaināṭuṅkolla
+<lb n="6" break="no"/>muṅkaliṅkamum Eṇṭicai pukaḻ tara Īḻama
+<lb n="7" break="no"/>ṇṭalamum Iraṭṭapāṭi Eḻarai Ilakkamu
+<lb n="8" break="no"/>ntiṇṭiṟal veṉṟittaṇṭāṟkoṇṭa
+<lb n="9"/>taṉṉeḻil vaḷarūḻiyuḷellāyāṇṭun
+<lb n="10" break="no"/>toḻutaka viḷaṅkum yāṇṭey ceḻiyarai
+<lb n="11" break="no"/>ttecu koḷ ko<hi rend="grantha">rājakesari</hi>va<hi rend="grantha"><supplied reason="omitted">r</supplied>mma</hi>rā
+<lb n="12" break="no"/>ṉa <hi rend="grantha">śrīrājarājade</hi>varkku yāṇṭu Irupatto
+<lb n="13" break="no"/>ṉpatāvatu varai Uṭaiyār <hi rend="grantha">śrīrāja</hi>
+<lb n="14" break="no"/><hi rend="grantha">rājīśvaram</hi> Uṭaiyār paṇṭārattukkā
+<lb n="15" break="no"/>ṭci kāṭṭiṉa nīkki Uṭaiyār <hi rend="grantha">śrīrā</hi>
+</p>
+
+<!--<h4><hi rend="italic">Second section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/><hi rend="grantha">jarā<unclear>jī</unclear>śvaram</hi> Uṭaiyār paṇṭārattu
+<lb n="2" break="no"/>kkūṭi mutal<unclear>ā</unclear>ṉa poṉṉum <hi rend="grantha">ratna</hi>ṅkaḷu
+<lb n="3" break="no"/>m Uṭaiyā<unclear>r</unclear> <hi rend="grantha">śrīrāja<unclear>r</unclear>ājade</hi>var kuṭu
+<lb n="4" break="no"/>ttaruḷiṉa <hi rend="grantha">ratna</hi>ṅkaḷuṅkoṇṭu cey
+<lb n="5" break="no"/>tu mutalāṉa <hi rend="grantha"><unclear>ra</unclear>tna</hi>ttiṉ tiruvā<hi rend="grantha">bhara</hi>ṇa<hi rend="grantha"/>
+<lb n="6" break="no"/>ṅkaḷ caraṭu<unclear>ñ</unclear>caṭṭamum nīkki Arakkum
+<lb n="7"/>piñcum Uṭpaṭa <hi rend="grantha">dakṣi</hi>ṇa<hi rend="grantha">meru</hi>viṭa<hi rend="grantha">ṅ</hi>
+<lb n="8" break="no"/><hi rend="grantha">kan</hi> Eṉṉuṅkācukallāl niṟai Eṭu
+<lb n="9" break="no"/>ttaṉa <hi rend="grantha">caṇḍeśvarar</hi> koyilil <hi rend="grantha">ja</hi>
+<lb n="10" break="no"/><hi rend="grantha">ga</hi>tippaṭaiyilum <hi rend="grantha">Upapīṭha</hi>ttukka
+<lb n="11" break="no"/>ṇṭappa<unclear>ṭai</unclear>yilum kallil veṭṭi
+<lb n="12" break="no"/>ṉa nīk<unclear>ki</unclear> Uṭaiyār <hi rend="grantha">śrī</hi>vimāṉattukka
+<lb n="13" break="no"/>llil ve<unclear>ṭ</unclear>ṭiṉa <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">1</supplied></hi> Uṭaiyār paṇṭā
+<lb n="14" break="no"/>rattupp<unclear>o</unclear>ṉ koṭu<note n="21-1">Here and in the similar passages, which occur throughout this inscription koṭu stands for koṇṭu.</note> ceyta tiruppa 
+<lb n="15" break="no"/>ṭṭikai Oṉṟu taṇṭavāṇikkukkā
+</p>
+
+<!--<h4><hi rend="italic">Third section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>l māṟṟuttaṇ<unclear>ṇi</unclear>ya po
+<lb n="2" break="no"/>ṉ patiṉ kaḻañce muk
+<lb n="3" break="no"/>kāle mūṉ<unclear>ṟu</unclear> mañcāṭiyu
+<lb n="4" break="no"/>ṅkuṉṟiyum Arakku niṟai
+<lb n="5"/>Eṇkaḻañce Eḻumañcā
+<lb n="6" break="no"/>ṭiyum piñ<unclear>cu</unclear> niṟai mukkā
+<lb n="7" break="no"/>luntaṭavikkaṭṭiṉa paḷi
+<lb n="8" break="no"/>ṅku pa<unclear>ti</unclear>ṉaiñciṉāl ni
+<lb n="9" break="no"/>ṟai kaḻañ<unclear>cu</unclear>m potti mu
+<lb n="10" break="no"/>ṉṟiṉāl niṟai mūṉṟu
+<lb n="11"/>mañcāṭiyum Uṭaiyār <hi rend="grantha">śrī</hi>
+<lb n="12" break="no"/><hi rend="grantha">rājarājade</hi>var <hi rend="grantha"><unclear>śrī</unclear>pāda</hi>
+<lb n="13" break="no"/><hi rend="grantha">puṣpa</hi>mā<unclear>ka</unclear> Aṭṭittiru
+<lb n="14" break="no"/>vaṭittoḻuta Iraṇṭā
+<lb n="15" break="no"/>ntarattil muttil ko
+</p>
+
+<!--<h4><hi rend="italic">Fourth section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>tta muttu vaṭṭamum Aṉuvaṭṭamum Oppumuttuṅkuṟumuttu
+<lb n="2" break="no"/>m nimpo<unclear>ḷa</unclear>mum payiṭṭamum Ampumutuṅkaṟaṭum Iraṭṭaiyu
+<lb n="3" break="no"/>ñcappatti<unclear>yu</unclear>ñcakkattuṅkuḷurnta <unclear>nī</unclear>ruñcivanta nīrum Uṭaiya mu
+<lb n="4" break="no"/>ttu Ā<unclear>yi</unclear>rattaiññūṟṟorupattiraṇṭiṉāl niṟai nāṟpatto
+<lb n="5" break="no"/>rukaḻañce Eḻumañcāṭiyum paṇṭārattil pavaḻattil
+<lb n="6"/>kotta pavaḻam Irupattu nāliṉāl niṟai mukkāle mūṉṟu
+<lb n="7"/>mañcāṭiyuṅkuṉṟiyum Āka niṟai Aṟupattu mukkaḻañce
+<lb n="8"/>Oṉpatu mañcāṭikku vilai kācu toṇṇūṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">2</supplied></hi> paṇṭārattup
+<lb n="9" break="no"/>poṉ k<unclear>o</unclear>ṭu ceyta tiruppaṭṭikai Oṉṟu taṇṭavāṇikkuk
+<lb n="10" break="no"/>kāl m<unclear>ā</unclear>ṟṟu<unclear>t</unclear>taṇṇiya poṉ patiṉ kaḻañce mukkāle nālu
+<lb n="11"/>mañcāṭi<unclear>yu</unclear>m Arakku niṟai Eṇkaḻañce Eḻumañcāṭiyum piñ
+<lb n="12" break="no"/>cu niṟai mukkāluntaṭa<unclear>vi</unclear>kkaṭ<unclear>ṭi</unclear>ṉa pa<unclear>ḷi</unclear>ṅku patiṉaiñciṉāl ni
+<lb n="13" break="no"/>ṟai mukkāle nālu mañcāṭiyuṅkuṉṟiyum potti mūṉṟiṉā
+<lb n="14" break="no"/>l niṟai mūṉṟu mañcāṭiyum Uṭaiyār <hi rend="grantha">śrīrājarājade</hi>var <hi rend="grantha">śrī</hi>
+<lb n="15" break="no"/><hi rend="grantha">pādapuṣpa</hi>māka Aṭṭitti<unclear>ru</unclear>vaṭittoḻuta Iraṇṭāntarat
+</p>
+
+<!--<h4><hi rend="italic">Fifth section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>til muttil kotta mut
+<lb n="2" break="no"/>tu vaṭṭamum Aṉuvaṭṭa
+<lb n="3" break="no"/>mum Oppumuttuṅkuṟu
+<lb n="4" break="no"/>muttum nimpoḷamu
+<lb n="5" break="no"/>m payiṭṭamum Ampu
+<lb n="6" break="no"/>mutuṅkaṟaṭum Iraṭṭai
+<lb n="7" break="no"/>yuñcappattiyuñcak
+<lb n="8" break="no"/>kattuṅkuḷurnta nīru
+<lb n="9" break="no"/>ñcivanta <unclear>nī</unclear>rum Uṭaiya
+<lb n="10"/>muttu Āyirattaiññū
+<lb n="11" break="no"/>ṟṟu Iraṇṭiṉāl niṟai
+<lb n="12"/>nāṟpatt<unclear>o</unclear>rukaḻañce
+<lb n="13"/>Oṉpatu mañcāṭiyu
+<lb n="14" break="no"/>m paṇṭ<unclear>ā</unclear>rattuppava
+<lb n="15" break="no"/>ḻattil k<unclear>o</unclear>tta pavaḻam
+</p>
+
+<!--<h4><hi rend="italic">Sixth section</hi>.</h4>-->
+
+<p>
+<lb n="1"/>Irupattu nāliṉāl niṟai mukkāle
+<lb n="2"/>mūṉṟu mañcāṭiyuṅkuṉṟiyum Āka ni
+<lb n="3" break="no"/>ṟai Aṟupattu mukkaḻañcaraiye
+<lb n="4"/>mañcāṭikku vilai kācu toṇṇūṟu <g type="danda">.</g>— <hi rend="grantha"><supplied reason="omitted">3</supplied></hi>
+<lb n="5"/>paṇṭārattuppoṉ koṭu ceyta
+<lb n="6"/>tiruppaṭṭikai Oṉṟu taṇṭavāṇi
+<lb n="7" break="no"/>kkukkāl māṟṟuttaṇṇiya poṉ pa
+<lb n="8" break="no"/>tiṉ kaḻañce mukkāl<unclear>e</unclear> nālu mañ
+<lb n="9" break="no"/>cāṭiyum Arakku niṟai Oṉpatiṉ
+<lb n="10"/>kaḻañce mūṉṟu mañc<unclear>ā</unclear>ṭiyuṅkuṉ
+<lb n="11" break="no"/>ṟiyum piñcu niṟai Araikkaḻañ
+<lb n="12" break="no"/>ce mūṉṟu mañcāṭiyuṅkuṉṟiyum
+<lb n="13"/>potti mūṉṟiṉāl niṟai mūṉṟu
+<lb n="14"/>mañcāṭiyuntaṭavikkaṭṭiṉa paḷi
+<lb n="15" break="no"/>ṅku patiṉaiñciṉāl niṟai kaḻañ
+</p>
+
+<!--<h4><hi rend="italic">Seventh section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>ce mañcāṭiyuṅkuṉṟiyum Uṭaiyār <hi rend="grantha">śrī</hi>
+<lb n="2" break="no"/><hi rend="grantha">rājarājade</hi>var <hi rend="grantha">śrīpādapuṣpa</hi>māka Aṭṭi
+<lb n="3" break="no"/>ttiruvaṭittoḻuta Iraṇṭāntarattu
+<lb n="4"/>muttil kotta muttu vaṭṭamum Aṉu
+<lb n="5" break="no"/>vaṭṭamum Oppumuttuṅkuṟumuttum
+<lb n="6"/>nimpoḷamum payiṭṭamum Ampumutu
+<lb n="7" break="no"/>ṅkaṟaṭum Iraṭṭaiyuñcappattiyu
+<lb n="8" break="no"/>ñcakkattuṅkuḷurnta nīruñcivanta nīru
+<lb n="9" break="no"/>m Uṭaiya muttu Āyirattaṟunūṟ
+<lb n="10" break="no"/>ṟu Aimpattu mūṉṟiṉāl niṟai nāṟpa
+<lb n="11" break="no"/>ttirukaḻañcaraiye mañcāṭiyum O
+<lb n="12" break="no"/>ṉpatu māvum paṇṭārattil pavaḻattil
+<lb n="13"/>kotta pavaḻam Irupattu nāliṉāl niṟai
+<lb n="14"/>mukkāle mūṉṟu mañcāṭiyum Āṟu mā
+<lb n="15" break="no"/>vum Āka niṟai Aṟupattaiṅkaḻañca
+</p>
+
+<!--<h4><hi rend="italic">Eighth section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>raiye mañcāṭikku vilai kācu toṇ
+<lb n="2" break="no"/>ṇūṟṟaiñcu [<g type="ddanda">.</g><g type="dashLong">.</g>] <hi rend="grantha"><supplied reason="omitted">4</supplied></hi> Uṭaiyār paṇṭāra
+<lb n="3" break="no"/>ttuppoṉ koṭu ceyta tiruppaṭṭi
+<lb n="4" break="no"/>kai Oṉṟu taṇṭavāṇikkukkāl māṟ
+<lb n="5" break="no"/>ṟuttaṇṇiya poṉ patiṉ kaḻañce
+<lb n="6"/>mukkāle mañcāṭiyuṅkuṉṟiyum A
+<lb n="7" break="no"/>rakku niṟai Eṇkaḻañcaraiye mūṉ
+<lb n="8" break="no"/>ṟu mañcāṭiyuṅkuṉṟiyum piñcu ni
+<lb n="9" break="no"/>ṟai mukkāle Iraṇṭu mañcāṭiyun
+<lb n="10" break="no"/>taṭavikkaṭṭiṉa paḷiṅku patiṉaiñci
+<lb n="11" break="no"/>ṉāl niṟai kaḻañce mūṉṟu mañcā
+<lb n="12" break="no"/>ṭiyuṅkuṉ<unclear>ṟi</unclear>yum potti mūṉṟiṉāl
+<lb n="13"/>niṟai mūṉṟu mañcāṭiyum Uṭaiyā
+<lb n="14" break="no"/>r <hi rend="grantha">śrīrājarājade</hi>var <hi rend="grantha">śrīpādapuṣpa</hi>māka
+<lb n="15"/>Aṭṭitti<unclear>ru</unclear>vaṭittoḻuta Iraṇṭānta
+</p>
+
+<!--<h4><hi rend="italic">Ninth section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>rattu mutti<unclear>l</unclear> kotta muttu
+<lb n="2"/>vaṭṭamum Aṉuvaṭṭamum
+<lb n="3"/>Oppumuttuṅkuṟumuttu
+<lb n="4" break="no"/>m nimpoḷamum payiṭṭamum
+<lb n="5"/>Ampumutuṅkaṟaṭum Iraṭ
+<lb n="6" break="no"/>ṭaiyuñcappattiyuñcak
+<lb n="7" break="no"/>kattuṅkuḷurnta nīruñciva
+<lb n="8" break="no"/>nta <unclear>nī</unclear>rum Uṭaiya muttu
+<lb n="9"/>Āyirattaṟunūṟṟu Oru
+<lb n="10" break="no"/>pattaiñciṉāl niṟai
+<lb n="11"/>nāṟpattiruka<unclear>ḻa</unclear>ñcaraiye
+<lb n="12"/>nālu mañc<unclear>ā</unclear>ṭiyum cera
+<lb n="13" break="no"/>māṉaiyum <hi rend="grantha">pāṇḍyar</hi>kaḷai
+<lb n="14" break="no"/>yum Eṟiñcu koṇṭa māṭ
+<lb n="15" break="no"/>ṭil mūla<hi rend="grantha">ratna</hi><unclear>pa</unclear>ṇṭārattār
+</p>
+
+<!--<h4><hi rend="italic">Tenth section</hi>.</h4>-->
+
+<p>
+<lb n="1"/>mutaṟtanta <unclear>pa</unclear>vaḻattil kotta pavaḻam Irupattu nāliṉāl
+<lb n="2"/>niṟai muk<unclear>k</unclear>āle Iraṇṭu mañcāṭiyuṅkuṉṟiyum Āka niṟai
+<lb n="3"/>Aṟupattaiṅkaḻañce kālukku vilai kācu toṇ<unclear>ṇūṟu</unclear> <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">5</supplied></hi> Uṭaiyā
+<lb n="4" break="no"/>r paṇṭārattupp<unclear>oṉ</unclear> koṭu ceyta tiruppa<unclear>ṭ</unclear>ṭikai Oṉṟu taṇ
+<lb n="5" break="no"/>ṭavāṇikkukkāl <unclear>m</unclear>āṟṟuttaṇṇiya poṉ pati<unclear>ṉ</unclear> kaḻañce mu
+<lb n="6" break="no"/>kkāle mūṉṟu mañcāṭiyum Arakku niṟai Eṇkaḻañce Ā
+<lb n="7" break="no"/>ṟu mañcāṭi<unclear>yu</unclear>m piñcu niṟai mukkāle mañcāṭiyuntaṭavikkaṭ
+<lb n="8" break="no"/>ṭiṉa paḷiṅku patiṉaiñciṉāl niṟai kaḻañce kāl<unclear>e</unclear> kuṉ<unclear>ṟi</unclear>yum
+<lb n="9"/>potti mūṉṟiṉāl niṟai Iraṇṭu mañcāṭiyum Uṭaiyār
+<lb n="10"/><hi rend="grantha">śrīrājarājade</hi>var <hi rend="grantha">śrīpādapuṣpa</hi>māka Aṭṭittiruvaṭittoḻu
+<lb n="11" break="no"/>ta Iraṇṭā<unclear>n</unclear>tarattu muttil kotta muttu vaṭṭamum Aṉuva
+<lb n="12" break="no"/>ṭṭamum Oppumuttuṅkuṟumuttum nimpoḷamum payiṭṭamu
+<lb n="13" break="no"/>m Ampumutuṅkaṟaṭum Iraṭṭaiyuñcappattiyuñcakkat
+<lb n="14" break="no"/>tuṅkuḷurn<unclear>ta</unclear> nīruñcivanta nīrum Uṭaiya muttu Āyirattaiññūṟṟu
+<lb n="15" break="no"/>ttoṇ<unclear>ṇū</unclear>ṟṟu Oṉpatiṉāl niṟai nāṟpatiṉ kaḻañcarai
+</p>
+
+<!--<h4><hi rend="italic">Eleventh section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>ye Iraṇṭu mañcāṭiyu
+<lb n="2" break="no"/>m ceramāṉaiyum <hi rend="grantha">pāṇḍya</hi>
+<lb n="3" break="no"/><hi rend="grantha">r</hi>kaḷaiyum E<unclear>ṟi</unclear>ñcu ko
+<lb n="4" break="no"/>ṇṭa māṭṭi<unclear>l</unclear> mūla<hi rend="grantha">ratna</hi>paṇ
+<lb n="5" break="no"/>ṭārattār mutaṟtanta pa
+<lb n="6" break="no"/>vaḻattil kotta pavaḻa
+<lb n="7" break="no"/>m Irupattu nāliṉāl ni
+<lb n="8" break="no"/>ṟai kaḻañce Āṟu ma
+<lb n="9" break="no"/>ñcāṭiyum Āka niṟai
+<lb n="10"/>Aṟupattu mukkaḻañce
+<lb n="11"/>kāle kuṉṟikku vilai kā
+<lb n="12" break="no"/>cu toṇṇūṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">6</supplied></hi>
+<lb n="13"/>Uṭaiyār paṇṭārattu
+<lb n="14" break="no"/>ppoṉ k<unclear>o</unclear>ṭu ceyta mu
+<lb n="15" break="no"/>ttuvaḷaiyil Oṉṟu
+</p>
+
+<!--<h4><hi rend="italic">Twelfth section</hi>.</h4>-->
+
+<p>
+<lb n="1"/>poṉ Aiṅkaḻañce<unclear>y</unclear> Oṉpatu ma
+<lb n="2" break="no"/>ñcāṭiyuṅkuṉṟiyum Itiṟkotta mu
+<lb n="3" break="no"/>ttu Uṭaiyār <hi rend="grantha">śrīrājarājade</hi>var
+<lb n="4"/><hi rend="grantha">śrīpādapuṣpa</hi>māka Aṭṭittiruva
+<lb n="5" break="no"/>ṭittoḻuta Iraṇṭāntarattu muttu
+<lb n="6"/>vaṭṭamum Aṉuvaṭṭamum Oppumut
+<lb n="7" break="no"/>tuṅkuṟumuttum nimpoḷamum payiṭṭa
+<lb n="8" break="no"/>mum Ampumutuṅkaṟaṭum Iraṭṭaiyu
+<lb n="9" break="no"/>ñcappattiyuñcakkattuṅkuḷirn
+<lb n="10" break="no"/>ta nīruñcivanta nīrum Uṭaiya muttu muṉ
+<lb n="11" break="no"/>ṉūṟṟaimpattoṉpatiṉāl ni
+<lb n="12" break="no"/>ṟai patiṉ kaḻa<unclear>ñc</unclear>e ma<unclear>ñ</unclear>cāṭiyuṅkuṉ
+<lb n="13" break="no"/>ṟiyum Āka niṟai patiṉaiṅkaḻañcarai
+<lb n="14" break="no"/>ye mañcāṭikku vilai k<unclear>ā</unclear>cu Irupattai
+<lb n="15" break="no"/>ñcu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">7</supplied></hi> paṇṭārattuppoṉ koṭu
+</p>
+
+<!--<h4><hi rend="italic">Thirteenth section</hi>.</h4>-->
+
+<p>
+<lb n="1"/>ceyta muttuvaḷaiyil Oṉṟu poṉ A
+<lb n="2" break="no"/>ṟukaḻañce mañcāṭiyum Uṭaiyār <hi rend="grantha">śrīrā</hi>
+<lb n="3" break="no"/><hi rend="grantha">jarājade</hi>var <hi rend="grantha">śrīpādapuṣpa</hi>māka A
+<lb n="4" break="no"/>ṭṭittiruvaṭittoḻuta Iraṇṭāntarat
+<lb n="5" break="no"/>tu muttiṟkotta muttu vaṭṭamum Aṉu
+<lb n="6" break="no"/>vaṭṭamum Oppumuttuṅkuṟumuttum ni
+<lb n="7" break="no"/>mpoḷamum payiṭṭamum Ampumutuṅka
+<lb n="8" break="no"/>ṟaṭum Iraṭṭaiyuñcappattiyuñcakka
+<lb n="9" break="no"/>ttuṅkuḷirnta nīruñcivanta nīrum Uṭai
+<lb n="10" break="no"/>ya muttu muṉṉūṟṟu Aṟupatteṭṭi
+<lb n="11" break="no"/>ṉāl niṟai patiṉ kaḻañcum Āka niṟai
+<lb n="12"/>patiṉaṟukaḻañc<unclear>e</unclear> mañcāṭikku vilai
+<lb n="13"/>kācu Irupatteḻu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">8</supplied></hi> paṇṭārattup
+<lb n="14" break="no"/>poṉ koṭu ceyta muttuvaḷaiyi
+<lb n="15" break="no"/>l Oṉṟu poṉ Aṟukaḻañce mañc<unclear>ā</unclear>
+</p>
+
+<!--<h4><hi rend="italic">Fourteenth section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>ṭiyum Uṭaiyār <hi rend="grantha">śrīrāja</hi>
+<lb n="2" break="no"/><hi rend="grantha">rājade</hi>var <hi rend="grantha">śrīpādapu</hi>
+<lb n="3" break="no"/><hi rend="grantha">ṣpa</hi>māka Aṭṭittiruva
+<lb n="4" break="no"/>ṭittoḻu<unclear>ta</unclear> Iraṇṭān
+<lb n="5" break="no"/>tarattu muttil kotta mu
+<lb n="6" break="no"/>ttu vaṭṭamum Aṉuvaṭṭa
+<lb n="7" break="no"/>mu<unclear>m</unclear> Oppumuttuṅkuṟu
+<lb n="8" break="no"/>muttum nimpoḷamum
+<lb n="9"/>payiṭṭamum Ampumu
+<lb n="10" break="no"/>tuṅkaṟaṭum Iraṭṭaiyu
+<lb n="11" break="no"/>ñcappattiyuñcakkat
+<lb n="12" break="no"/>tuṅkuḷirnta nīruñciva
+<lb n="13" break="no"/>nta nīrum Uṭaiya mut
+<lb n="14" break="no"/>tu nāṉūṟ<unclear>ṟu</unclear> Oṉṟiṉāl
+<lb n="15"/>niṟai patiṉ <unclear>ka</unclear>ḻañcey
+</p>
+
+<!--<h4><hi rend="italic">Fifteenth section</hi>.</h4>-->
+
+<p>
+<lb n="1"/>Āṟu mañcāṭiyuṅkuṉṟiyum Āka niṟai patiṉaṟukaḻañcey E
+<lb n="2" break="no"/>ḻumañcāṭi<unclear>yu</unclear>ṅkuṉṟikku vilai kācu muppatu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">9</supplied></hi> paṇ<unclear>ṭā</unclear>rattup
+<lb n="3" break="no"/><unclear>poṉ ko</unclear>ṭu ceyta muttuvaḷaiyil Oṉṟu poṉ Aiñ<note n="26-1">Read aiṅ.</note> kaḻa
+<lb n="4" break="no"/>ñcey Iraṇṭu mañcāṭiyum Uṭaiyār <hi rend="grantha">śrīrājarājade</hi>
+<lb n="5" break="no"/>var <hi rend="grantha">śrīpādapuṣpa</hi>māka Aṭṭittiruvaṭittoḻuta Iraṇṭā
+<lb n="6" break="no"/>ntarattu muttiṟkotta muttu vaṭṭamum Aṉuvaṭṭamum O
+<lb n="7" break="no"/>ppumuttuṅkuṟumuttum nimpoḷamum payiṭṭamum Ampumu
+<lb n="8" break="no"/>tuṅkaṟaṭum Iraṭṭaiyuñcappattiyuñcakkattuṅkuḷirn
+<lb n="9" break="no"/>ta nīruñciva<unclear>n</unclear>ta nīrum Uṭaiya muttu muṉṉūṟṟu muppatte
+<lb n="10" break="no"/>ḻiṉāl niṟ<unclear>ai</unclear> Oṉpatiṉ kaḻañce kālum Āka niṟai patināṟka
+<lb n="11" break="no"/>ḻañcey <unclear>E</unclear>ḻumañcāṭikku vilai kācu Irupattu nālu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="10"><g type="numeral">10</g></num>*]</hi> paṇṭā
+<lb n="12" break="no"/>rattuppoṉ koṭu ceyta muttuvaḷaiyil Oṉṟu poṉ
+<lb n="13"/>Aiṅkaḻañ<unclear>c</unclear>e Eṭṭu mañcāṭiyum Uṭaiyār <hi rend="grantha">śrīrājarājade</hi>var
+<lb n="14"/><hi rend="grantha">śrīpādapuṣpa</hi>māka Aṭṭittiruvaṭittoḻuta Iraṇṭānta
+<lb n="15" break="no"/>rattu mutti<unclear>ṟ</unclear>kotta mut<unclear>tu</unclear> vaṭṭamum Aṉuvaṭṭamum O
+</p>
+
+<!--<h4><hi rend="italic">Sixteenth section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>ppumuttuṅkuṟumut
+<lb n="2" break="no"/>tum nimpoḷamum payi
+<lb n="3" break="no"/>ṭṭamum <unclear>A</unclear>mpumutuṅ
+<lb n="4" break="no"/>kaṟaṭum Iraṭṭaiyu
+<lb n="5" break="no"/>ñcappattiyuñcakka
+<lb n="6" break="no"/>ttuṅkuḷirnta nīruñci
+<lb n="7" break="no"/>vanta nīrum Uṭaiya
+<lb n="8"/>(muttiṟkotta) muttu
+<lb n="9"/>muṉṉūṟṟu Aimpa
+<lb n="10" break="no"/>ttiraṇṭiṉāl niṟai O
+<lb n="11" break="no"/>ṉpatiṉ kaḻañcarai
+<lb n="12" break="no"/>ye mūṉṟu <unclear>ma</unclear>ñcāṭiyu
+<lb n="13" break="no"/>ṅkuṉṟi<unclear>yu</unclear>m Āka niṟai
+<lb n="14"/>patiṉaiṅkaḻañce mañ
+<lb n="15" break="no"/>cāṭiyuṅkuṉṟikku vilai
+</p>
+
+<!--<h4><hi rend="italic">Seventeenth section</hi>.</h4>-->
+
+<p>
+<lb n="1"/>kācu Irupattaiñcu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="11"><g type="numeral">10</g> 1</num>*]</hi> paṇṭārattu
+<lb n="2" break="no"/>ppoṉ koṭu ceyta muttuvaḷai
+<lb n="3" break="no"/>yil Oṉṟu poṉ Aiṅ<unclear>ka</unclear>ḻañce E
+<lb n="4" break="no"/>ṭṭu mañcāṭiyum Uṭaiyār <hi rend="grantha">śrīrāja</hi>
+<lb n="5" break="no"/><hi rend="grantha">rājade</hi>var <hi rend="grantha">śrīpādapuṣpa</hi>māka Aṭṭi
+<lb n="6" break="no"/>ttiruvaṭittoḻuta Iraṇṭāntarattu mu
+<lb n="7" break="no"/>ttiṟkotta muttu vaṭṭamum Aṉu
+<lb n="8" break="no"/>vaṭṭamum Oppumuttuṅkuṟumuttu
+<lb n="9" break="no"/>m nimpoḷamum payiṭṭamum Ampumutu
+<lb n="10" break="no"/>ṅkaṟaṭum Iraṭṭaiyuñcappatti
+<lb n="11" break="no"/>yuñcakkattuṅkuḷirnta nīruñcivan
+<lb n="12" break="no"/>ta nīrum Uṭaiya muttu muṉṉūṟ
+<lb n="13" break="no"/>ṟu Aimpattoṉṟiṉāl niṟai E
+<lb n="14" break="no"/>ṇkaḻañce mukkāle mañcāṭiyu
+<lb n="15" break="no"/>ṅkuṉṟiyum Āka niṟai patiṉāṟkaḻa
+</p>
+
+<!--<h4><hi rend="italic">Eighteenth section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>ñce nālu mañcāṭiyuṅkuṉṟikku vilai kācu Irupattu nālu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="12"><g type="numeral">10</g> 2</num>*]</hi> paṇṭārattu
+<lb n="2" break="no"/>ppoṉ koṭu ceyta muttuvaḷaiyil Oṉṟu poṉ Aiṅkaḻañce E
+<lb n="3" break="no"/>ṭṭu mañcāṭiyum Uṭaiyār <hi rend="grantha">śrīrājarājade</hi>var <hi rend="grantha">śrīpādapuṣpa</hi>māka Aṭṭitti
+<lb n="4" break="no"/>ruvaṭittoḻuta Iraṇṭāntarattu muttiṟkotta muttu vaṭṭamum Aṉuvaṭ
+<lb n="5" break="no"/>ṭamum Oppumuttuṅkuṟumuttum nimpoḷamum payiṭṭamum Ampumutu
+<lb n="6" break="no"/>ṅkaṟaṭum Iraṭṭaiyuñcappattiyuñcakkattuṅkuḷirnta nīruñcivan
+<lb n="7" break="no"/>ta nīrum Uṭaiya muttu muṉṉūṟṟu Aṟupattoṉpatiṉāl niṟai patiṉ kaḻañ
+<lb n="8" break="no"/>ce Eṭṭu mañcāṭiyuṅkuṉṟiyum Āka niṟai patiṉaiṅkaḻañce mukkāle
+<lb n="9"/>mañcāṭiyuṅkuṉṟikku vilai kācu Irupattaiñcu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="13"><g type="numeral">10</g> 3</num>*]</hi> paṇṭārattuppoṉ
+<lb n="10"/>koṭu ceyta muttuvaḷaiyil Oṉṟu poṉ Aiṅkaḻañcaraiye n<unclear>ālu</unclear> ma
+<lb n="11" break="no"/>ñcāṭiyum Uṭaiyār <hi rend="grantha">śrīrājarājade</hi>var <hi rend="grantha">śrīpādapuṣpa</hi>mā<unclear>ka</unclear> A<unclear>ṭṭi</unclear>
+<lb n="12" break="no"/>ttiruvaṭittoḻuta Iraṇṭāntarattu muttiṟkotta muttu vaṭṭamum A
+<lb n="13" break="no"/>ṉuvaṭṭamum Oppumuttuṅkuṟumuttum nimpoḷamum payiṭṭamum Ampumu
+<lb n="14" break="no"/>tuṅkaṟaṭum Iraṭṭaiyuñcappattiyuñcak<unclear>ka</unclear>ttuṅkuḷirnta nīruñcivanta
+<lb n="15"/>nīrum Uṭaiya muttu muṉṉūṟṟu Eṇpattoṉpatiṉāl niṟai patiṉ kaḻa
+</p>
+
+<!--<h4><hi rend="italic">Nineteenth section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>ñcaraiy<unclear>e</unclear> Iraṇṭu mañcāṭiyuṅku
+<lb n="2" break="no"/>ṉṟiyum Āka niṟai patiṉaṟukaḻañce
+<lb n="3"/>Āṟu mañcā<unclear>ṭi</unclear>yuṅkuṉṟikku vilai kācu
+<lb n="4"/>Irupattāṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="14"><g type="numeral">10</g> 4</num>*]</hi> paṇṭārattuppoṉ ko
+<lb n="5" break="no"/>ṭu ceyta muttuvaḷaiyil Oṉṟu po
+<lb n="6" break="no"/>ṉ Aiṅkaḻañce Eḻumañcāṭiyuṅkuṉ
+<lb n="7" break="no"/>ṟiyum Uṭaiyār <hi rend="grantha">śrīrājarājade</hi>var <hi rend="grantha">śrīpā</hi>
+<lb n="8" break="no"/><hi rend="grantha">dapuṣpa</hi>māka Aṭṭittiruvaṭittoḻu
+<lb n="9" break="no"/>ta Iraṇṭāntarattu <supplied reason="omitted">muttiṟkotta</supplied> muttu vaṭṭamum
+<lb n="10"/>Aṉuvaṭṭamum Oppumuttuṅkuṟu
+<lb n="11" break="no"/>muttum nimpoḷamum payiṭṭamum
+<lb n="12"/>Ampumutu<unclear>ṅ</unclear>kaṟaṭum Iraṭṭaiyuñca
+<lb n="13" break="no"/>ppattiyuñcakkattuṅkuḷirnta nīru
+<lb n="14" break="no"/>ñcivanta nī<unclear>ru</unclear>m Uṭaiya muttu muṉ
+<lb n="15" break="no"/>ṉūṟṟeḻupattaiñciṉāl niṟai
+</p>
+
+<!--<h4><hi rend="italic">Twentieth section</hi>.</h4>-->
+
+<p>
+<lb n="1"/>patiṉ kaḻañce Eṭṭu mañ
+<lb n="2" break="no"/>cāṭiyum <unclear>Āka</unclear> niṟai pati
+<lb n="3" break="no"/>ṉaiṅkaḻañce mukkāle
+<lb n="4"/>kuṉṟikku vilai kācu Irupa
+<lb n="5" break="no"/>ttāṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="15"><g type="numeral">10</g> 5</num>*]</hi> paṇṭārattup
+<lb n="6" break="no"/>poṉ koṭu ceyta mu
+<lb n="7" break="no"/>ttuvaḷaiyil Oṉṟu po
+<lb n="8" break="no"/>ṉ Aiṅkaḻañce Iraṇ
+<lb n="9" break="no"/>ṭu mañcāṭiyuṅkuṉṟiyu
+<lb n="10" break="no"/>m Uṭaiyā<unclear>r</unclear> <hi rend="grantha">śrīrājarāja</hi>
+<lb n="11" break="no"/><hi rend="grantha">de</hi>var <hi rend="grantha">śrīp<unclear>ā</unclear>dapuṣpa</hi>mā
+<lb n="12" break="no"/>ka Aṭṭittiruvaṭittoḻu
+<lb n="13" break="no"/>ta Iraṇṭāntarattu mutti
+<lb n="14" break="no"/>ṟkotta muttu vaṭṭamum
+<lb n="15"/>Aṉuvaṭṭamum Oppu
+</p>
+
+<!--<h4><hi rend="italic">Twenty-first section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>muttuṅkuṟumuttum nimpoḷamum payiṭṭamum Ampu
+<lb n="2" break="no"/>mutuṅkaṟaṭum Iraṭṭaiyuñcappattiyuñcakkattuṅkuḷi
+<lb n="3" break="no"/>rnta nīruñ<unclear>ci</unclear>vanta nīrum Uṭaiya muttu muṉṉūṟṟu nāṟpatto
+<lb n="4" break="no"/>ṉpatiṉāl niṟai Oṉpatiṉ kaḻañce Āṟu mañcāṭiyum Ā
+<lb n="5" break="no"/>ka niṟai patiṉāṟkaḻañce Eṭṭu mañcāṭiyuṅkuṉṟikku vilai
+<lb n="6"/>kācu Irupattu nālu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="16"><g type="numeral">10</g> 6</num>*]</hi> paṇṭārattuppoṉ koṭu ceyta mu
+<lb n="7" break="no"/>ttuvaḷaiyil Oṉṟu poṉ Aiṅkaḻañce Iraṇṭu mañcāṭi
+<lb n="8" break="no"/>yuṅkuṉṟiyum Uṭaiyār <hi rend="grantha">śrīrājarājade</hi>var <hi rend="grantha">śrīpādapu</hi>
+<lb n="9" break="no"/><hi rend="grantha">ṣpa</hi>māka Aṭṭittiruvaṭittoḻuta Iraṇṭāntarattu mut
+<lb n="10" break="no"/>tiṟkotta muttu vaṭṭamum Aṉuvaṭṭamum Oppumuttuṅku
+<lb n="11" break="no"/>ṟumuttum nimpoḷamum payiṭṭamum Ampumutuṅkaṟaṭum
+<lb n="12"/>Iraṭṭaiyuñcappattiyuñcakkattuṅkuḷirnta nīruñciva
+<lb n="13" break="no"/>nta nīrum Uṭaiya muttu muṉṉūṟṟu Aimpatiṉāl niṟai
+<lb n="14"/>Oṉpatiṉ kaḻañce Eḻumañcāṭiyuṅkuṉṟiyum Āka niṟai
+<lb n="15"/>patiṉāṟkaḻañcaraikku vilai kācu Irupattu nālu [<g type="ddanda">.</g><g type="dashLong">.</g>] <hi rend="grantha">[<num value="17"><g type="numeral">10</g> 7</num>*]</hi> paṇṭā
+</p>
+
+<!--<h4><hi rend="italic">Twenty-second section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>rattuppoṉ koṭu ce
+<lb n="2" break="no"/>yta muttuvaḷaiyil Oṉ
+<lb n="3" break="no"/>ṟu poṉ Aiṅkaḻañce
+<lb n="4"/>Iraṇṭu mañcāṭiyuṅ
+<lb n="5" break="no"/>kuṉṟiyum Uṭaiyār
+<lb n="6"/><hi rend="grantha">śrīrājarājade</hi>var <hi rend="grantha">śrīpā</hi>
+<lb n="7" break="no"/><hi rend="grantha">dapuṣpa</hi>m<unclear>ā</unclear>ka Aṭṭitti
+<lb n="8" break="no"/>ruvaṭittoḻuta Iraṇṭā
+<lb n="9" break="no"/>ntarattu muttiṟkot
+<lb n="10" break="no"/>ta muttu vaṭṭamum A
+<lb n="11" break="no"/>ṉuvaṭṭamum Oppumut
+<lb n="12" break="no"/>tuṅkuṟumuttum nim
+<lb n="13" break="no"/>poḷamum payiṭṭamu
+<lb n="14" break="no"/>m Ampumutuṅkaṟaṭu
+<lb n="15" break="no"/>m Iraṭṭaiyuñcappat
+</p>
+
+<!--<h4><hi rend="italic">Twenty-third section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/><unclear>ti</unclear>yuñcakkattuṅkuḷirnta <unclear>nī</unclear>ruñ<unclear>ci</unclear>va
+<lb n="2" break="no"/>nta nīrum Uṭaiya muttu muṉṉūṟṟu
+<lb n="3"/>muppatteṭṭiṉāl niṟai Oṉpa
+<lb n="4" break="no"/>tiṉ kaḻañce mūṉṟu mañcāṭiyum Āka
+<lb n="5"/>niṟai patiṉāṟka<unclear>ḻa</unclear>ñce kāle kuṉṟikku
+<lb n="6"/>vilai kācu Irupattu nālu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="18"><g type="numeral">10</g> 8</num>*]</hi> paṇṭārat
+<lb n="7" break="no"/>tuppoṉ koṭu ceyta muttuvaḷaiyi
+<lb n="8" break="no"/>l Oṉṟu poṉ Aiṅkaḻañce Ā
+<lb n="9" break="no"/>ṟu mañcāṭiyum Uṭaiy<unclear>ā</unclear>r <hi rend="grantha">śrīrājarāja</hi>
+<lb n="10"/><hi rend="grantha">de</hi>var <hi rend="grantha">śrīpādapuṣpa</hi>māka Aṭṭit
+<lb n="11" break="no"/>tiruvaṭittoḻuta Iraṇṭāntarattu
+<lb n="12"/>muttiṟkotta muttu vaṭṭamum A
+<lb n="13" break="no"/>ṉuvaṭṭamum Oppumuttuṅkuṟumu
+<lb n="14" break="no"/>ttum nimpoḷamum payiṭṭamum
+<lb n="15"/>Ampumutuṅkaṟaṭum Iraṭṭaiyuñ
+</p>
+
+<!--<h4><hi rend="italic">Twenty-fourth section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>cappattiyuñcakkattuṅkuḷirnta nīruñci
+<lb n="2" break="no"/>vanta nīrum Uṭaiya muttu muṉṉūṟṟu
+<lb n="3"/>Aṟupattoṉṟiṉāl niṟai Oṉpati
+<lb n="4" break="no"/>ṉ kaḻañce mukkāle mañcāṭiyum Ā
+<lb n="5" break="no"/>ka niṟai patiṉaiṅkaḻañce Iraṇṭu
+<lb n="6"/>mañcāṭikku vilai kācu Irupattaiñcu <g type="danda">.</g>— <hi rend="grantha">[<num value="19"><g type="numeral">10</g> 9</num>*]</hi>
+<lb n="7"/>paṇṭārattuppoṉ koṭu ceyta mu
+<lb n="8" break="no"/>ttuvaḷaiyil Oṉṟu poṉ Aiṅkaḻa
+<lb n="9" break="no"/>ñce mukkāle kuṉṟiyum Uṭaiyār
+<lb n="10"/><hi rend="grantha">śrīrājarājade</hi>var <hi rend="grantha">śrīpādapuṣpa</hi>
+<lb n="11" break="no"/>māka Aṭṭittiruvaṭitoḻuta Iraṇṭā
+<lb n="12" break="no"/>ntarattu muttiṟkotta muttu vaṭṭamu
+<lb n="13" break="no"/>m Aṉuvaṭṭamum Oppumuttuṅkuṟu
+<lb n="14" break="no"/>muttum nimpoḷamum payiṭṭamum A
+<lb n="15" break="no"/>mpamutuṅkaṟaṭum Iraṭṭaiyuñcappa
+</p>
+
+<!--<h4><hi rend="italic">Twenty-fifth section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>ttiyuñcak<unclear>ka</unclear>ttuṅku<unclear>ḷi</unclear>rnta <unclear>nī</unclear>ruñ<unclear>ci</unclear>
+<lb n="2" break="no"/>vanta nīrum Uṭaiya mut<unclear>tu muṉṉū</unclear>
+<lb n="3" break="no"/>ṟṟu Aṟupat<unclear>tu</unclear> nāliṉāl niṟai Oṉ
+<lb n="4" break="no"/>patiṉ kaḻañcaraiye mañcāṭiyum
+<lb n="5"/>Āka niṟai patiṉaiṅkaḻañce Āṟu
+<lb n="6"/>mañcāṭiyuṅkuṉṟikku vilai kācu Iru
+<lb n="7" break="no"/>pattāṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="20">2 <g type="numeral">10</g></num>*]</hi> paṇṭārattuppoṉ
+<lb n="8"/>koṭu ceyta muttuvaḷaiyil Oṉṟu
+<lb n="9"/>poṉ Aiṅkaḻañcaraiye Iraṇṭu
+<lb n="10"/>mañcāṭiyum Uṭaiyār <hi rend="grantha">śrīrājarā</hi>
+<lb n="11" break="no"/><hi rend="grantha">jade</hi>var <hi rend="grantha">śrīpādapuṣpa</hi>māka Aṭ
+<lb n="12" break="no"/>ṭittiruvaṭittoḻuta Iraṇṭān
+<lb n="13" break="no"/>tarattu muttiṟkotta muttu vaṭṭa
+<lb n="14" break="no"/>mum Aṉuvaṭṭamum Oppumuttuṅ
+<lb n="15" break="no"/>kuṟumuttum nimpoḷamum payiṭ
+</p>
+
+<!--<h4><hi rend="italic">Twenty-sixth section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>ṭamum Ampumutuṅkaṟaṭu
+<lb n="2" break="no"/><unclear>m Iraṭ</unclear>ṭaiyuñcappat
+<lb n="3" break="no"/>tiyuñcakkattuṅku<unclear>ḷi</unclear>rn
+<lb n="4" break="no"/>ta nīruñcivan<unclear>ta</unclear> nīrum Uṭai
+<lb n="5" break="no"/>ya muttu muṉṉūṟṟu Aim
+<lb n="6" break="no"/>pattu mūṉṟiṉāl niṟai
+<lb n="7"/>Oṉpatiṉ kaḻañcaraiye
+<lb n="8"/>Iraṇṭu mañcāṭiyum Āka
+<lb n="9"/>niṟai patiṉaiṅkaḻañcey
+<lb n="10"/>nālu mañcāṭikku vilai kācu
+<lb n="11"/>Irupattaiñcu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="21">2 <g type="numeral">10</g> 1</num>*]</hi> paṇṭāra
+<lb n="12" break="no"/>ttuppoṉ koṭu ceyta
+<lb n="13"/>muttuvaḷaiyil Oṉṟu po
+<lb n="14" break="no"/>ṉ Aiṅkaḻañce kālum U
+<lb n="15" break="no"/>ṭaiyār <hi rend="grantha">śrīrājarājade</hi>
+</p>
+
+<!--<h4><hi rend="italic">Twenty-seventh section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>var <hi rend="grantha">śrīpādapuṣpa</hi>māka Aṭ<unclear>ṭi</unclear>ttiruvaṭitt<unclear>o</unclear>ḻuta Iraṇṭā
+<lb n="2" break="no"/>ntarattu muttiṟkotta muttu vaṭṭamum Aṉuvaṭṭamum Op
+<lb n="3" break="no"/>pumuttuṅkuṟumuttum nimpoḷamum payiṭṭamum Ampumutu
+<lb n="4" break="no"/>ṅkaṟaṭum Iraṭṭaiyuñcappattiyuñcakkattuṅkuḷi<unclear>r</unclear>nta nīru
+<lb n="5" break="no"/>ñcivanta nīrum Uṭaiya muttu muṉṉūṟṟu Aimpattu nāliṉāl
+<lb n="6"/>niṟai Oṉpatiṉ kaḻañcaraiye mañcāṭiyum Āka niṟai pati
+<lb n="7" break="no"/>ṉāṟkaḻañc<unclear>e</unclear> mukkāle mañcāṭikku vilai kācu Irupattu nālu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="22">2 <g type="numeral">10</g> 2</num>*]</hi>
+<lb n="8"/>Uṭaiyār paṇṭārattuppoṉ koṭu ceyta <hi rend="grantha">śrī</hi>muṭi <unclear>O</unclear>ṉṟu po
+<lb n="9" break="no"/>ṉ muppatteṇkaḻañce mukkāle nālu mañcāṭi<unclear>yuṅ</unclear>kuṉṟiyunta
+<lb n="10" break="no"/>ṭavikkaṭṭiṉa <unclear>pa</unclear>ḷiṅku nūṟṟirupattu nāli<unclear>ṉāl ni</unclear>ṟai kaḻa<unclear>ñc</unclear>ey Oṉpatu
+<lb n="11"/>mañcāṭiyuṅ<unclear>ku</unclear>ṉṟiyum paḷikkuva<unclear>yi</unclear>ram Eḻupattoṉṟiṉā<unclear>l</unclear> niṟai mūṉṟu
+<lb n="12"/>mañcāṭiyuṅkuṉṟiyum potti muppattiraṇṭiṉāl niṟai Eḻuma
+<lb n="13" break="no"/>ñcāṭiyuṅkuṉṟiyum piñcu niṟai kaḻañcaraiyum Uṭaiyār
+<lb n="14"/><hi rend="grantha">śrīrājarāja<unclear>d</unclear>e</hi>var <hi rend="grantha">śrīpādapuṣpa</hi><unclear>mā</unclear>ka Aṭṭittiruvaṭitto
+<lb n="15" break="no"/>ḻuta muttiṟkotta muttu vaṭṭamum Aṉuvaṭṭamum O
+</p>
+
+<!--<h4><hi rend="italic">Twenty-eighth section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>ppumuttuṅkuṟumuttum
+<lb n="2"/>payiṭṭamum nimpoḷa
+<lb n="3" break="no"/>mum Ampumutuṅkaṟaṭum
+<lb n="4"/>Iraṭṭaiyuñcappattiyu
+<lb n="5" break="no"/>ñcakkattuṅkuḷirnta nīru
+<lb n="6" break="no"/>ñcivanta nīrum Uṭaiya
+<lb n="7"/>muttu muṉ<unclear>ṉū</unclear>ṟṟu muppattu
+<lb n="8"/>nāliṉāl niṟai Eḻukaḻañcu
+<lb n="9" break="no"/>m Āka niṟai nāṟpatto
+<lb n="10" break="no"/>ṉpatiṉ kaḻañcaraikku vi
+<lb n="11" break="no"/>lai kācu Eṇpattāṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="23">2 <g type="numeral">10</g> 3</num>*]</hi>
+<lb n="12"/>ṭaiyār paṇṭārattuppo
+<lb n="13" break="no"/>ṉ koṭu ceyta tirumālai
+<lb n="14"/>Oṉṟu poṉ Eḻukaḻañ
+<lb n="15" break="no"/>caraiye mañcāṭiyum I
+</p>
+
+<!--<h4><hi rend="italic">Twenty-ninth section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>raṇṭu māvum piñcu niṟai Āṟu mañcāṭi
+<lb n="2" break="no"/>yuṅkuṉṟiyum paḷikku<unclear>va</unclear>yiram Aṟupat
+<lb n="3" break="no"/>tiraṇṭiṉāl niṟai mañc<unclear>āṭi</unclear>yum paḷiṅ
+<lb n="4" break="no"/>ku Eḻupattoṉṟiṉāl niṟai Arai
+<lb n="5" break="no"/>kkaḻañce mañcāṭiyum pot
+<lb n="6" break="no"/>ti mūṉṟiṉāl niṟai mūṉṟu māvum U
+<lb n="7" break="no"/>ṭaiyār <hi rend="grantha">śrīrājarājade</hi>var <hi rend="grantha">śrīpāda</hi>
+<lb n="8" break="no"/><hi rend="grantha">puṣpa</hi>māka Aṭṭittiruvaṭittoḻu
+<lb n="9" break="no"/>ta muttiṟkotta muttu vaṭṭamum A
+<lb n="10" break="no"/>ṉuvaṭṭamum Oppumuttuṅkuṟumuttu
+<lb n="11" break="no"/>m payiṭṭamum nimpoḷamum Ampumu
+<lb n="12" break="no"/>tuṅkaṟaṭum Iraṭṭ<unclear>ai</unclear>yuñcappatti
+<lb n="13" break="no"/>yuñcakkattuṅkuḷirnta nīruñcivanta
+<lb n="14"/>nīrum Uṭaiya (muttiṟk<unclear>o</unclear>tta) muttu nā
+<lb n="15" break="no"/>ṟpattaiñciṉāl niṟai mukkāle ma
+</p>
+
+<!--<h4><hi rend="italic">Thirtieth section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>ñcāṭiyuṅkuṉṟiyum Āka niṟai Oṉpatiṉ
+<lb n="2"/>kaḻañce Āṟu mañcāṭiyuṅkuṉṟikku vilai
+<lb n="3"/>kācu patiṉeṭṭu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="24">2 <g type="numeral">10</g> 4</num>*]</hi> Uṭaiyār paṇṭārat
+<lb n="4" break="no"/>tuppoṉ koṭu ceyta <hi rend="grantha">śrīccha<unclear>ndam</unclear></hi> O
+<lb n="5" break="no"/>ṉṟu poṉ Aiṅkaḻañce mukkāle mū
+<lb n="6" break="no"/>ṉṟu mañcāṭiyum Orumāvum Uḷḷarakku
+<lb n="7"/>niṟai Araikkaḻañce mūṉṟu mañcā
+<lb n="8" break="no"/>ṭiyuṅkuṉṟiyum piñcu niṟai kālunta
+<lb n="9" break="no"/>ṭavikkaṭṭiṉa paḷiṅku patiṉeṭṭiṉāl
+<lb n="10"/>niṟai nālu mañcāṭiyunāṉku māvum paḷi
+<lb n="11" break="no"/>kkuvayiram Āṟiṉāl niṟai kuṉṟiyum po
+<lb n="12" break="no"/>tti patiṉ mūṉṟiṉāl niṟai Iraṇṭu
+<lb n="13"/>mañcāṭiyuṅkuṉṟiyum Uṭaiyār <hi rend="grantha">śrī</hi>
+<lb n="14" break="no"/><hi rend="grantha">rājarājade</hi>var <hi rend="grantha">śrīpādapuṣpa</hi>māka A
+<lb n="15" break="no"/>ṭṭittiruvaṭittoḻuta muttiṟkotta
+</p>
+
+<!--<h4><hi rend="italic">Thirty-first section</hi>.</h4>-->
+
+<p>
+<lb n="1"/>muttu vaṭṭamu<unclear>m</unclear> Aṉuvaṭṭamum Oppumuttu
+<lb n="2" break="no"/>ṅkuṟumuttum ni<unclear>m</unclear>poḷamum payiṭṭamum A
+<lb n="3" break="no"/>mpumutuṅkaṟa<unclear>ṭu</unclear>m Iraṭṭaiyuñcappa
+<lb n="4" break="no"/>ttiyuñcakkattuṅkuḷirnta nīruñcivan
+<lb n="5" break="no"/>ta nīrum Uṭaiya muttuttoḷāyira
+<lb n="6" break="no"/>tteṇpattoṉṟiṉāl ni
+<lb n="7" break="no"/>ṟai muppattu mukkaḻañce
+<lb n="8"/>mukkāle nālu mañcāṭiyu
+<lb n="9" break="no"/>ṅkuṉṟiyum Āka niṟai nāṟpatto
+<lb n="10" break="no"/>rukaḻañce mūṉṟu mañcāṭiyuṅkuṉṟik
+<lb n="11" break="no"/>ku vilai kācu Aimpattaiñcu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="25">2 <g type="numeral">10</g> 5</num>*]</hi> Uṭai
+<lb n="12" break="no"/>yār paṇṭāra<unclear>t</unclear>tuppoṉ koṭu cey
+<lb n="13" break="no"/>ta <hi rend="grantha">śrīcchanda<unclear>m</unclear></hi> Oṉṟu poṉ Aṟukaḻa
+<lb n="14" break="no"/>ñce Oṉpatu māvum Uḷḷarakku ni
+<lb n="15" break="no"/>ṟai mukkāle mañcāṭiyum O
+</p>
+
+<!--<h4><hi rend="italic">Thirty-second section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>rumāvum piñcu <unclear>ni</unclear>ṟai kāle
+<lb n="2"/>Iraṇṭu māvum taṭavikkaṭṭi
+<lb n="3" break="no"/>ṉa paḷiṅku pa<unclear>ti</unclear>ṉeṭṭiṉāl
+<lb n="4"/>niṟai nālu mañcāṭiyuṅ
+<lb n="5" break="no"/>kuṉṟiyum paḷikkuvayira
+<lb n="6" break="no"/>m Āṟiṉāl niṟai kuṉ
+<lb n="7" break="no"/>ṟiyum potti patiṉ mūṉ
+<lb n="8" break="no"/>ṟiṉāl niṟai Iraṇṭu<note n="32-1">Read iraṇṭu.</note> mañ
+<lb n="9" break="no"/>cāṭiyum Eṭṭu māvum U
+<lb n="10" break="no"/>ṭaiyār <hi rend="grantha">śrīrājarājade</hi>
+<lb n="11" break="no"/>var <hi rend="grantha">śrīpādapuṣpa</hi>mā
+<lb n="12" break="no"/>ka Aṭṭittiruvaṭitto
+<lb n="13" break="no"/>ḻuta muttiṟkotta muttu
+<lb n="14"/>vaṭṭamum Aṉuvaṭṭamum
+<lb n="15"/>Oppumuttuṅkuṟumuttu
+</p>
+
+<!--<h4><hi rend="italic">Thirty-third section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>m nimpoḷamum payiṭṭamum Ampumutuṅkaṟaṭum Iraṭṭaiyu
+<lb n="2" break="no"/>ñcappattiyuñcakkattuṅkuḷirnta nīruñcivanta nīrum Uṭai
+<lb n="3" break="no"/>ya muttu <unclear>Eḻunū</unclear>ṟṟaimpattu Oṉpatiṉāl <unclear>ni</unclear>ṟai Irupattaṟukaḻa
+<lb n="4" break="no"/>ñcaraiye nālu mañcāṭiyum Āka niṟai muppattu nāṟkaḻa
+<lb n="5" break="no"/>ñce nālu <unclear>ma</unclear>ñcāṭikku vilai kācu nāṟpattaiñcu [<g type="ddanda">.</g><g type="dashLong">.</g>] <hi rend="grantha">[<num value="26">2 <g type="numeral">10</g> 6</num>*]</hi> Uṭaiyār pa
+<lb n="6" break="no"/>ṇṭārattuppoṉ koṭu ceyta <hi rend="grantha">śrīcchandam</hi> Oṉṟu poṉ
+<lb n="7"/>Aṟukaḻañc<unclear>e</unclear> Eḻumañcāṭiyum Uḷḷarakku niṟai mukkāle I
+<lb n="8" break="no"/>raṇṭu mañcāṭiyum piñcu niṟai kāluntaṭavikkaṭṭiṉa paḷiṅku
+<lb n="9"/>patiṉeṭṭiṉāl niṟai nālu mañcāṭiyunāṉku m<unclear>ā</unclear>vum paḷikkuva
+<lb n="10" break="no"/>yiram Āṟiṉāl niṟai Āṟu māvum potti patiṉ mūṉṟiṉāl niṟai
+<lb n="11"/>Iraṇṭu mañcāṭiyuṅkuṉṟiyum Uṭaiyār <hi rend="grantha">śrīrājarājade</hi>var <hi rend="grantha">śrīpāda</hi>
+<lb n="12" break="no"/><hi rend="grantha">puṣpa</hi>māka Aṭṭittiruvaṭittoḻuta muttiṟk<unclear>o</unclear>tta muttu vaṭṭa
+<lb n="13" break="no"/>mum Aṉuvaṭṭamum Oppumuttuṅkuṟumuttum nimpoḷamum pa
+<lb n="14" break="no"/>yiṭṭamum Ampumutuṅkaṟaṭum Iraṭṭaiyuñcappattiyuñ
+<lb n="15" break="no"/>cakkattuṅkuḷirnta nīruñcivanta nīrum Uṭaiya muttut
+</p>
+
+<!--<h4><hi rend="italic">Thirty-fourth section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>toḷāyirattuttoṇ
+<lb n="2" break="no"/>ṇūṟṟeṭṭiṉāl niṟai
+<lb n="3"/>muppattaiṅkaḻañce
+<lb n="4"/>kuṉṟiyum Āka niṟai
+<lb n="5"/>nāṟpattirukaḻañce muk
+<lb n="6" break="no"/>kāle Iraṇṭu mañcāṭi
+<lb n="7" break="no"/>kku vilai kācu Aimpattā
+<lb n="8" break="no"/>ṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="27">2 <g type="numeral">10</g> 7</num>*]</hi> Uṭaiyār paṇṭā
+<lb n="9" break="no"/>rattuppoṉ koṭu ce
+<lb n="10" break="no"/>yta <hi rend="grantha">śrīcchandam</hi> Oṉṟu
+<lb n="11"/>poṉ Aṟukaḻañce O
+<lb n="12" break="no"/>ṉpatu mañc<unclear>ā</unclear>ṭiyuṅkuṉṟiyum
+<lb n="13"/>Uḷḷarakku niṟ<unclear>ai</unclear> mukkāle ma
+<lb n="14" break="no"/>ñcāṭiyuṅkuṉṟiyum pi
+<lb n="15" break="no"/>ñcu niṟai <unclear>k</unclear>āluntaṭa
+</p>
+
+<!--<h4><hi rend="italic">Thirty-fifth section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>vikkaṭṭiṉa paḷiṅku pati<unclear>ṉ</unclear>eṭṭiṉā
+<lb n="2" break="no"/>l niṟai nālu mañcāṭiyum Orumāvu
+<lb n="3" break="no"/>m paḷikkuvayiram Āṟiṉāl niṟai kuṉ
+<lb n="4" break="no"/>ṟiyum potti patiṉ muṉṟiṉāl niṟai
+<lb n="5"/>mūṉṟu mañcāṭiyum Orumāvum Uṭaiyā
+<lb n="6" break="no"/>r <hi rend="grantha">śrīrājarājade</hi>var <hi rend="grantha">śrīpādapuṣpa</hi>māka A
+<lb n="7" break="no"/>ṭṭittiruvaṭittoḻuta muttiṟkotta muttu
+<lb n="8"/>vaṭṭamum Aṉuvaṭṭamum Oppumuttu
+<lb n="9" break="no"/>ṅkuṟumuttum nimpoḷamum payiṭṭamu
+<lb n="10" break="no"/>m Ampumutuṅkaṟaṭum Iraṭṭaiyu
+<lb n="11" break="no"/>ñcappattiyuñcakkattuṅkuḷirnta nīruñ
+<lb n="12" break="no"/>civanta nīrum Uṭaiya muttu Eṇṇūṟ
+<lb n="13" break="no"/>ṟu nāṟpattāṟiṉāl niṟai muppatiṉ kaḻa
+<lb n="14" break="no"/>ñcum Āka niṟai muppatteḻukaḻañce
+<lb n="15"/>mukkāle mūṉṟu mañcāṭiyum Eḻumā
+</p>
+
+<!--<h4><hi rend="italic">Thirty-sixth section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>vukku vilai kācu Aimpatu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="28">2 <g type="numeral">10</g> 8</num>*]</hi> Uṭaiyār paṇ<supplied reason="omitted">ṭāra</supplied>
+<lb n="2" break="no"/>ttuppoṉ koṭu ceyta <hi rend="grantha">śrīcchandam</hi> Oṉṟu <supplied reason="omitted">po</supplied>
+<lb n="3" break="no"/>ṉ kaḻañce Iraṇṭu mañcāṭiyum Aṟumāvarai
+<lb n="4" break="no"/>yum piñcu niṟai Orumāvum taṭavikkaṭṭiṉa
+<lb n="5"/>paḷiṅku Iraṇṭiṉāl niṟai Iraṇṭu māvu
+<lb n="6" break="no"/>m Uṭaiyār <hi rend="grantha">śrīrājarājade</hi>var kuṭutta mu
+<lb n="7" break="no"/>ttiṟkotta muttu vaṭṭamum Aṉuvaṭ
+<lb n="8" break="no"/>ṭamum Oppumuttuṅkuṟumuttum Āka
+<lb n="9"/>muttu Irunūṟṟaṟupatiṉāl niṟai Irukaḻa
+<lb n="10" break="no"/>ñce Aimmāvaraiyum Āka niṟai mukkaḻañ
+<lb n="11" break="no"/>ce mūṉṟu mañcāṭiyuṅkuṉṟikku vilai
+<lb n="12"/>kācu mūṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="29">2 <g type="numeral">10</g> 9</num>*]</hi> Uṭaiyār paṇṭārattuppo
+<lb n="13" break="no"/>ṉ koṭu ceyta tiruppaṭṭikai Oṉṟu po
+<lb n="14" break="no"/>ṉ Irukaḻañce mūṉṟu mañcāṭiyumuṉṟu mā
+<lb n="15" break="no"/>vum piñcu niṟai mūṉṟu māvum paḷiṅku Ā
+</p>
+
+<!--<h4><hi rend="italic">Thirty-seventh section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/><supplied reason="omitted">ṟi</supplied>ṉāl niṟai <unclear>E</unclear>ḻumāvum Uṭaiyār <hi rend="grantha">śrīrāja</hi>
+<lb n="2" break="no"/><hi rend="grantha"><supplied reason="omitted">rā</supplied>jade</hi>var kuṭutta muttiṟkotta muttu
+<lb n="3" break="no"/>ntaippumuttum vaṭṭamum Aṉuvaṭṭamu
+<lb n="4" break="no"/>m Oppumut<unclear>tu</unclear>ṅkuṟumuttum puñcamut
+<lb n="5" break="no"/>tum Āka mut<unclear>tu</unclear> Irunūṟṟeḻupatteḻiṉā
+<lb n="6"/>l niṟai Irukaḻañce Oṉpatu mañcāṭi
+<lb n="7" break="no"/>yum Iraṇṭu māvum Āka niṟai nāṟkaḻañ
+<lb n="8" break="no"/>caraiye mūṉṟu mañcāṭiyuṅkuṉṟikku
+<lb n="9"/>vilai kācu Aiñcu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="30">3 <g type="numeral">10</g></num>*]</hi> Uṭaiyār paṇṭārattu
+<lb n="10" break="no"/>ppoṉ koṭu ceyta tiruppuṟakkuṭai
+<lb n="11"/>Oṉṟu poṉ Eḻupattorukaḻañce kā
+<lb n="12" break="no"/>le Orumāvum taṭavikkaṭṭiṉa paḷiṅku E
+<lb n="13" break="no"/>ṇpattoṉṟi(ṉṟi)ṉā<supplied reason="omitted">l</supplied> niṟai Irukaḻañ
+<lb n="14" break="no"/>cum paḷikkuvayiram patiṉāṟiṉāl niṟai
+<lb n="15"/>Oṉpatu māvum piñcu niṟai Irukaḻañ
+</p>
+
+<!--<h4><hi rend="italic">Thirty-eighth section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/>ce Eṭṭu mañcāṭiyuṅkuṉ
+<lb n="2" break="no"/>ṟiyum Uṭaiyār <hi rend="grantha">śrīrājarā</hi>
+<lb n="3" break="no"/><hi rend="grantha">jade</hi>var kuṭutta muttiṟ
+<lb n="4" break="no"/>kotta mut<unclear>tu</unclear> vaṭṭamum
+<lb n="5"/>Aṉuvaṭṭamum Oppu
+<lb n="6" break="no"/>muttuṅkuṟumuttum to
+<lb n="7" break="no"/>l teyntaṉavum paḻamut
+<lb n="8" break="no"/>tum Āka mut<unclear>tu</unclear> Āyirattu
+<lb n="9"/>muṉṉūṟṟ<unclear>e</unclear>ḻupattiraṇ
+<lb n="10" break="no"/>ṭiṉāl niṟ<unclear>ai</unclear> Irupattu mu
+<lb n="11" break="no"/>kkaḻañcaraiye nālu mañ
+<lb n="12" break="no"/>cāṭiyuṅkuṉṟiyum Āka ni
+<lb n="13" break="no"/>ṟai toṇ<unclear>ṇū</unclear>ṟṟoṉpati
+<lb n="14" break="no"/>ṉ kaḻañce Oṉpatu mañ
+<lb n="15" break="no"/>cāṭikku vilai k<unclear>ācu</unclear> nūṟṟaṟupatu [<g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><num value="31">3 <g type="numeral">10</g> 1</num>*</hi>]
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Hultzsch1891_01">
+
+<p>1. Hail ! Prosperity ! The sacred ornaments (<hi rend="italic">ābharaṇa</hi>) of jewels (<hi rend="italic">raṭna</hi>) of the first quality, made (<hi rend="italic">partly</hi>) of gold and jewels of the first quality, which had accumulated in the treasury (<hi rend="italic">bhaṇḍāra</hi>) of the lord of the <hi rend="bold">Śrī-Rājarājēśvara</hi> (<hi rend="italic">temple</hi>),—excluding those which were exhibited (<hi rend="italic">to the public ?</hi>) at the treasury of the lord of the <hi rend="bold">Śrī-Rājarājēśvara</hi> (<hi rend="italic">temple</hi>),—and (<hi rend="italic">partly</hi>) of jewels, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had been pleased to give (<hi rend="italic">to the temple</hi>) until the twenty-ninth year (<hi rend="italic">of the reign</hi>) of <hi rend="bold">Kō-Rājakēsarivarman</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Śrī-Rājarājadēva</hi>, who,—while (<hi rend="italic">his</hi>) heart rejoiced, that, like the goddess of fortune, the goddess of the great earth had become his wife,—in his life of growing strength, during which, having been pleased to cut the vessel (<hi rend="italic">in</hi>) the hall (<hi rend="italic">at</hi>) <hi rend="bold">Kāndaḷūr</hi>, he conquered by his army, which was victorious in great battles, <hi rend="bold">Vēṅgai-nāḍu, Gaṅgapāḍi, Taḍigai-pāḍi, Nuḷamba-pāḍi, Kuḍamalai-nāḍu, Kollam, Kaliṅgam, Īṛamaṇḍalam</hi>, (<hi rend="italic">the conquest of which</hi>) made (<hi rend="italic">him</hi>) famous (<hi rend="italic">in</hi>) the eight directions, and the seven and a half <hi rend="italic">lakshas</hi> of <hi rend="bold">Iraṭṭa-pāḍi</hi>,—deprived the <hi rend="bold">Śeṛiyas</hi> of their splendour, while (<hi rend="italic">he</hi>) was resplendent (<hi rend="italic">to such a degree</hi>) that (<hi rend="italic">he</hi>) was worthy to be worshipped everywhere,—were weighed by the jewel weight (<hi rend="italic">kāśu-kal</hi>) called (<hi rend="italic">after</hi>) <hi rend="bold">Dakshiṇa-Mēru-Viṭaṅkaṉ</hi>,<note n="35-1">This standard weight for jewels was distinct from that for gold, which was called after Āḍavallāṉ, another name of the god Dakshiṇa-Mēru-Viṭaṅkaṉ; see page 2, above. In paragraph 1 of Nos. 6 to 8, both weights are mentioned together.</note> excluding the threads (<hi rend="italic">śaraḍu</hi>) and the frames (<hi rend="italic">śaṭṭam), (but</hi>) including the lac (<hi rend="italic">arakku</hi>) and the <hi rend="italic">piñju, (and</hi>) were engraved on stone on the sacred shrine (<hi rend="italic">śrī-vimāna</hi>) of the lord,—excluding those which had been engraved on stone on the <hi rend="italic">jagatippaḍai</hi> and on the <hi rend="italic">upapīṭhattu-kaṇḍappaḍai</hi><note n="35-2">These two terms probably mean ‘the upper tier’ and ‘the lower tier’ and refer to an inscription published below, which is engraved on the upper and lower stone-tiers of the Chaṇḍēśvara shrine.</note> of the temple (<hi rend="italic">kōyil</hi>) of <hi rend="bold">Chaṇḍēśvara</hi>,—(<hi rend="italic">as follows):</hi>—</p>
+
+<p>2. One sacred girdle (<hi rend="italic">tiruppaṭṭigai</hi>), made of gold taken from the treasury of the lord, (<hi rend="italic">and containing</hi>) ten <hi rend="italic">kaṛañju</hi> and three quarters, three <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold, which was a quarter inferior in fineness to (<hi rend="italic">the gold standard called) daṇḍavāṇi</hi>. The lac weighed eight <hi rend="italic">kaṛañju</hi> and seven <hi rend="italic">mañjāḍi</hi>. The <hi rend="italic">piñju</hi> weighed three quarters (<hi rend="italic">of a kaṛañju</hi>). Fifteen crystals (<hi rend="italic">paḷiṅgu</hi>), set into (<hi rend="italic">it</hi>), weighed (<hi rend="italic">one) kaṛañju</hi>. Three <hi rend="italic">potti</hi> weighed three <hi rend="italic">mañjāḍi</hi>. One thousand five hundred and twelve strung pearls (<hi rend="italic">muttu</hi>) of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet (<hi rend="italic">śrīpādapushpa</hi>) and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls (<hi rend="italic">vaṭṭam</hi>), roundish pearls (<hi rend="italic">aṉuvaṭṭam</hi>), polished pearls (<hi rend="italic">oppu-muttu</hi>), small pearls (<hi rend="italic">kuṟu-muttu), nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls (<hi rend="italic">kaṟaḍu</hi>), twin pearls (<hi rend="italic">iraṭṭai), śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed forty-one <hi rend="italic">kaṛañju</hi> and seven <hi rend="italic">mañjāḍi</hi>. Twenty-four strung corals (<hi rend="italic">pavaṛam), (taken</hi>) from the corals in the treasury, weighed three quarters (<hi rend="italic">of a kaṛañju</hi>), three <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Altogether, (<hi rend="italic">the girdle</hi>) weighed sixtythree <hi rend="italic">kaṛañju</hi> and nine <hi rend="italic">mañjāḍi</hi>, corresponding to a value of ninety <hi rend="italic">kāśu</hi>.</p>
+
+<p>3. One sacred girdle, made of gold taken from the treasury, (<hi rend="italic">and containing</hi>) ten <hi rend="italic">kaṛañju</hi> and three quarters and four <hi rend="italic">mañjāḍi</hi> of gold, which was a quarter inferior in fineness to the <hi rend="italic">daṇḍavāṇi</hi>. The lac weighed eight <hi rend="italic">kaṛañju</hi> and seven <hi rend="italic">mañjāḍi</hi>. The <hi rend="italic">piñju</hi> weighed three quarters (<hi rend="italic">of a kaṛañju</hi>). Fifteen crystals, set into (<hi rend="italic">it</hi>), weighed three quarters (<hi rend="italic">of a kaṛañju</hi>), four <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Three <hi rend="italic">potti</hi> weighed three <hi rend="italic">mañjāḍi</hi>. One thousand five hundred and two strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed forty-one <hi rend="italic">kaṛañju</hi> and nine <hi rend="italic">mañjāḍi</hi>. Twenty-four strung corals, (<hi rend="italic">taken</hi>) from the corals in the treasury, weighed three quarters (<hi rend="italic">of a kaṛañju</hi>), three <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Altogether, (<hi rend="italic">the girdle</hi>) weighed sixty-three <hi rend="italic">kaṛañju</hi> and a half and (<hi rend="italic">one) mañjāḍi</hi>, corresponding to a value of ninety <hi rend="italic">kāśu</hi>.</p>
+
+<p>4. One sacred girdle, made of gold taken from the treasury, (<hi rend="italic">and containing</hi>) ten <hi rend="italic">kaṛañju</hi> and three quarters and four <hi rend="italic">mañjāḍi</hi> of gold, which was a quarter inferior in fineness to the <hi rend="italic">daṇḍavāṇi</hi>. The lac weighed nine <hi rend="italic">kaṛañju</hi>, three <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. The <hi rend="italic">piñju</hi> weighed half a <hi rend="italic">kaṛañju</hi>, three <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Three <hi rend="italic">potti</hi> weighed three <hi rend="italic">mañjāḍi</hi>. Fifteen crystals, set into (<hi rend="italic">it</hi>), weighed (<hi rend="italic">one) kaṛañju, (one) mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. One thousand six hundred and fifty-three strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed forty-two <hi rend="italic">kaṛañju</hi> and a half, (<hi rend="italic">one) mañjāḍi</hi> and nine tenths.<note n="36-1">From a calculation of the total in this and several other paragraphs (24 to 31) of the inscription, it follows that the term <ta>mā</ta>, as a fraction of a <hi rend="italic">mañjāḍi</hi>, means ‘a tenth,’ and not, as it is commonly used in Tamil, ‘a twentieth.’</note> Twenty-four strung corals, (<hi rend="italic">taken</hi>) from the corals in the treasury, weighed three quarters (<hi rend="italic">of a kaṛañju</hi>) and three <hi rend="italic">mañjāḍi</hi> and six tenths. Altogether, (<hi rend="italic">the girdle</hi>) weighed sixty-five <hi rend="italic">kaṛañju</hi> and a half and (<hi rend="italic">one) mañjāḍi</hi>, corresponding to a value of ninety-five <hi rend="italic">kāśu</hi>.</p>
+
+<p>5. One sacred girdle, made of gold taken from the treasury of the lord, (<hi rend="italic">and containing</hi>) ten <hi rend="italic">kaṛañju</hi> and three quarters, (<hi rend="italic">one) mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold, which was a quarter inferior in fineness to the <hi rend="italic">daṇḍavāṇi</hi>. The lac weighed eight <hi rend="italic">kaṛañju</hi> and a half, three <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. The <hi rend="italic">piñju</hi> weighed three quarters (<hi rend="italic">of a kaṛañju</hi>) and two <hi rend="italic">mañjāḍi</hi>. Fifteen crystals, set into (<hi rend="italic">it</hi>), weighed (<hi rend="italic">one) kaṛañju</hi>, three <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Three <hi rend="italic">potti</hi> weighed three <hi rend="italic">mañjāḍi</hi>. One thousand six hundred and fifteen strung pearls of brilliant water and of red water; (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed forty-two <hi rend="italic">kaṛañju</hi> and a half and four <hi rend="italic">mañjāḍi</hi>. Twenty-four strung corals, (<hi rend="italic">taken</hi>) from the corals, for which the treasurers of the chief jewels (<hi rend="italic">mūla-ratna-bhaṇḍārattār</hi>) supplied the funds (<hi rend="italic">mudal</hi>) from the gold (<hi rend="italic">māḍu</hi>), which (<hi rend="italic">the king</hi>) had seized after conquering the <hi rend="bold">Chēra</hi> king and the <hi rend="bold">Pāṇḍyas</hi>, weighed three quarters (<hi rend="italic">of a kaṛañju</hi>), two <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Altogether, (<hi rend="italic">the girdle</hi>) weighed sixty-five <hi rend="italic">kaṛañju</hi> and a quarter, corresponding to a value of ninety <hi rend="italic">kāśu</hi>.</p>
+
+<p>6. One sacred girdle, made of gold taken from the treasury of the lord, (<hi rend="italic">and containing</hi>) ten <hi rend="italic">kaṛañju</hi> and three quarters and three <hi rend="italic">mañjāḍi</hi> of gold, which was a quarter inferior in fineness to the <hi rend="italic">daṇḍavāṇi</hi>. The lac weighed eight <hi rend="italic">kaṛañju</hi> and six <hi rend="italic">mañjāḍi</hi>. The <hi rend="italic">piñju</hi> weighed three quarters (<hi rend="italic">of a kaṛañju</hi>) and (<hi rend="italic">one) mañjāḍi</hi>. Fifteen crystals, set into (<hi rend="italic">it</hi>), weighed (<hi rend="italic">one) kaṛañju</hi> and a quarter and (<hi rend="italic">one) kuṉṟi</hi>. Three <hi rend="italic">potti</hi> weighed two <hi rend="italic">mañjāḍi</hi>. One thousand five hundred and ninety-nine strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed forty <hi rend="italic">kaṛañju</hi> and a half and two <hi rend="italic">mañjāḍi</hi>. Twenty-four strung corals, (<hi rend="italic">taken</hi>) from the corals, for which the treasurers of the chief jewels supplied the funds from the gold, which (<hi rend="italic">the king</hi>) had seized after conquering the <hi rend="bold">Chēra</hi> king and the <hi rend="bold">Pāṇḍyas</hi>, weighed (<hi rend="italic">one) kaṛañju</hi> and six <hi rend="italic">mañjāḍi</hi>. Altogether, (<hi rend="italic">the girdle</hi>) weighed sixty-three <hi rend="italic">kaṛañju</hi> and a quarter and (<hi rend="italic">one) kuṉṟi</hi>, corresponding to a value of ninety <hi rend="italic">kāśu</hi>.</p>
+
+<p>7. One pearl bracelet (<hi rend="italic">muttu-vaḷaiyil</hi>), made of gold taken from the treasury of the lord, (<hi rend="italic">and containing</hi>) five <hi rend="italic">kaṛañju</hi>, nine <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold. In this, three hundred and fifty-nine strung pearls of brilliant water and of red water, (<hi rend="italic">taken from</hi>) the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed ten <hi rend="italic">kaṛañju, (one) mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Altogether, (<hi rend="italic">the bracelet</hi>) weighed fifteen <hi rend="italic">kaṛañju</hi> and a half and (<hi rend="italic">one) mañjāḍi</hi>, corresponding to a value of twenty-five <hi rend="italic">kāśu</hi>.</p>
+
+<p>8. One pearl bracelet, made of gold taken from the treasury, (<hi rend="italic">and containing</hi>) six <hi rend="italic">kaṛañju</hi> and (<hi rend="italic">one) mañjāḍi</hi> of gold. Three hundred and sixty-eight strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed ten <hi rend="italic">kaṛañju</hi>. Altogether, (<hi rend="italic">the bracelet</hi>) weighed sixteen <hi rend="italic">kaṛañju</hi> and (<hi rend="italic">one) mañjāḍi</hi>, corresponding to a value of twenty-seven <hi rend="italic">kāśu</hi>.</p>
+
+<p>9. One pearl bracelet, made of gold taken from the treasury, (<hi rend="italic">and containing</hi>) six <hi rend="italic">kaṛañju</hi> and (<hi rend="italic">one) mañjāḍi</hi> of gold. Four hundred and one strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed ten <hi rend="italic">kaṛañju</hi>, six <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Altogether, (<hi rend="italic">the bracelet</hi>) weighed sixteen <hi rend="italic">kaṛañju</hi>, seven <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>, corresponding to a value of thirty <hi rend="italic">kāśu</hi>.</p>
+
+<p>10. One pearl bracelet, made of gold taken from the treasury, (<hi rend="italic">and containing</hi>) five <hi rend="italic">kaṛañju</hi> and two <hi rend="italic">mañjāḍi</hi> of gold. Three hundred and thirty-seven strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed nine <hi rend="italic">kaṛañju</hi> and a quarter. Altogether, (<hi rend="italic">the bracelet</hi>) weighed fourteen <hi rend="italic">kaṛañju</hi> and seven <hi rend="italic">mañjāḍi</hi>, corresponding to a value of twenty-four <hi rend="italic">kāśu</hi>.</p>
+
+<p>11. One pearl bracelet, made of gold taken from the treasury, (<hi rend="italic">and containing</hi>) five <hi rend="italic">kaṛañju</hi> and eight <hi rend="italic">mañjāḍi</hi> of gold. Three hundred and fifty-two strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed nine <hi rend="italic">kaṛañju</hi> and a half, three <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Altogether, (<hi rend="italic">the bracelet</hi>) weighed fifteen <hi rend="italic">kaṛañju, (one) mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>, corresponding to a value of twentyfive <hi rend="italic">kāśu</hi>.</p>
+
+<p>12. One pearl bracelet, made of gold taken from the treasury, (<hi rend="italic">and containing</hi>) five <hi rend="italic">kaṛañju</hi> and eight <hi rend="italic">mañjāḍi</hi> of gold. Three hundred and fifty-one strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed eight <hi rend="italic">kaṛañju</hi> and three quarters, (<hi rend="italic">one) mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Altogether, (<hi rend="italic">the bracelet</hi>) weighed fourteen <hi rend="italic">kaṛañju</hi>, four <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>, corresponding to a value of twenty-four <hi rend="italic">kāśu</hi>.</p>
+
+<p>13. One pearl bracelet, made of gold taken from the treasury, (<hi rend="italic">and containing</hi>) five <hi rend="italic">kaṛañju</hi> and eight <hi rend="italic">mañjāḍi</hi> of gold. Three hundred and sixty-nine strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, (<hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed ten <hi rend="italic">kaṛañju</hi>, eight <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Altogether, (<hi rend="italic">the bracelet</hi>) weighed fifteen <hi rend="italic">kaṛañju</hi> and three quarters, (<hi rend="italic">one) mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>, corresponding to a value of twenty-five <hi rend="italic">kāśu</hi>.</p>
+
+<p>14. One pearl bracelet, made of gold taken from the treasury, (<hi rend="italic">and containing</hi>) five <hi rend="italic">kaṛañju</hi> and a half and four <hi rend="italic">mañjāḍi</hi> of gold. Three hundred and eighty-nine strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed ten <hi rend="italic">kaṛañju</hi> and a half, two <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Altogether, (<hi rend="italic">the bracelet</hi>) weighed sixteen <hi rend="italic">kaṛañju</hi>, six <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>, corresponding to a value of twenty-six <hi rend="italic">kāśu</hi>.</p>
+
+<p>15. One pearl bracelet, made of gold taken from the treasury, (<hi rend="italic">and containing</hi>) five <hi rend="italic">kaṛañju</hi>, seven <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold. Three hundred and seventy-five [strung] pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) [from the pearls] of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed ten <hi rend="italic">kaṛañju</hi> and eight <hi rend="italic">mañjāḍi</hi>. Altogether, (<hi rend="italic">the bracelet</hi>) weighed fifteen <hi rend="italic">kaṛañju</hi> and three quarters and (<hi rend="italic">one) kuṉṟi</hi>, corresponding to a value of twenty-six <hi rend="italic">kāśu</hi>.</p>
+
+<p>16. One pearl bracelet, made of gold taken from the treasury, (<hi rend="italic">and containing</hi>) five <hi rend="italic">kaṛañju</hi>, two <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold. Three hundred and forty-nine strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed nine <hi rend="italic">kaṛañju</hi> and six <hi rend="italic">mañjāḍi</hi>. Altogether, (<hi rend="italic">the bracelet</hi>) weighed fourteen <hi rend="italic">kaṛañju</hi>, eight <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>, corresponding to a value of twenty-four <hi rend="italic">kāśu</hi>.</p>
+
+<p>17. One pearl bracelet, made of gold taken from the treasury, (<hi rend="italic">and containing</hi>) five <hi rend="italic">kaṛañju</hi>, two <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold. Three hundred and fifty strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed nine <hi rend="italic">kaṛañju</hi>, seven <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Altogether, (<hi rend="italic">the bracelet</hi>) weighed fourteen <hi rend="italic">kaṛañju</hi> and a half, corresponding to a value of twenty-four <hi rend="italic">kāśu</hi>.</p>
+
+<p>18. One pearl bracelet, made of gold taken from the treasury, (<hi rend="italic">and containing</hi>) five <hi rend="italic">kaṛañju</hi>, two <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold. Three hundred and thirty-eight strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed nine <hi rend="italic">kaṛañju</hi> and three <hi rend="italic">mañjāḍi</hi>. Altogether, (<hi rend="italic">the bracelet</hi>) weighed fourteen <hi rend="italic">kaṛañju</hi> and a quarter and (<hi rend="italic">one) kuṉṟi</hi>, corresponding to a value of twenty-four <hi rend="italic">kāśu</hi>.</p>
+
+<p>19. One pearl bracelet, made of gold taken from the treasury, (<hi rend="italic">and containing</hi>) five <hi rend="italic">kaṛañju</hi> and six <hi rend="italic">mañjāḍi</hi> of gold. Three hundred and sixty-one strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed nine <hi rend="italic">kaṛañju</hi> and three quarters and (<hi rend="italic">one) mañjāḍi</hi>. Altogether, (<hi rend="italic">the bracelet</hi>) weighed fifteen <hi rend="italic">kaṛañju</hi> and two <hi rend="italic">mañjāḍi</hi>, corresponding to a value of twenty-five <hi rend="italic">kāśu</hi>.</p>
+
+<p>20. One pearl bracelet, made of gold taken from the treasury, (<hi rend="italic">and containing</hi>) five <hi rend="italic">kaṛañju</hi> and three quarters and (<hi rend="italic">one) kuṉṟi</hi> of gold. [Three] hundred and sixty-four strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed nine <hi rend="italic">kaṛañju</hi> and a half and (<hi rend="italic">one) mañjāḍi</hi>. Altogether, (<hi rend="italic">the bracelet</hi>) weighed fifteen <hi rend="italic">kaṛañju</hi>, six <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>, corresponding to a value of twenty-six <hi rend="italic">kāśu</hi>.</p>
+
+<p>21. One pearl bracelet, made of gold taken from the treasury, (<hi rend="italic">and containing</hi>) five <hi rend="italic">kaṛañju</hi> and a half and two <hi rend="italic">mañjāḍi</hi> of gold. Three hundred and fifty-three strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed nine <hi rend="italic">kaṛañju</hi> and a half and two <hi rend="italic">mañjāḍi</hi>. Altogether, (<hi rend="italic">the bracelet</hi>) weighed fifteen <hi rend="italic">kaṛañju</hi> and four <hi rend="italic">mañjāḍi</hi>, corresponding to a value of twenty-five <hi rend="italic">kāśu</hi>.</p>
+
+<p>22. One pearl bracelet, made of gold taken from the treasury, (<hi rend="italic">and containing</hi>) five <hi rend="italic">kaṛañju</hi> and a quarter of gold. Three hundred and fifty-four strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls of the second quality, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimbolam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed nine <hi rend="italic">kaṛañju</hi> and a half and (<hi rend="italic">one) mañjāḍi</hi>. Altogether, (<hi rend="italic">the bracelet</hi>) weighed fourteen <hi rend="italic">kaṛañju</hi> and three quarters and (<hi rend="italic">one) mañjāḍi</hi>, corresponding to a value of twentyfour <hi rend="italic">kāśu</hi>.</p>
+
+<p>23. One sacred crown (<hi rend="italic">śrī-muḍi</hi>), made of gold taken from the treasury of the lord, (<hi rend="italic">and containing</hi>) thirty-eight <hi rend="italic">kaṛañju</hi> and three quarters, four <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold. One hundred and twenty-four crystals (<hi rend="italic">paḷiṅgu</hi>), set into (<hi rend="italic">it</hi>), weighed (<hi rend="italic">one) kaṛañju</hi>, nine <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Seventy-one diamond crystals (<hi rend="italic">paḷikku-vayiram</hi>) weighed three <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Thirty-two <hi rend="italic">potti</hi> weighed seven <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. The <hi rend="italic">piñju</hi> weighed (<hi rend="italic">one) kaṛañju</hi> and a half. Three hundred and thirty-four strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">payiṭṭam, nimboḷam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed seven <hi rend="italic">kaṛañju</hi>. Altogether, (<hi rend="italic">the crown</hi>) weighed forty-nine <hi rend="italic">kaṛañju</hi> and a half, corresponding to a value of eighty-six <hi rend="italic">kāśu</hi>.</p>
+
+<p>24. One sacred garland (<hi rend="italic">tiru-mālai</hi>), made of gold taken from the treasury of the lord, (<hi rend="italic">and containing</hi>) seven <hi rend="italic">kaṛañju</hi> and a half, (<hi rend="italic">one) mañjāḍi</hi> and two tenths of gold. The <hi rend="italic">piñju</hi> weighed six <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Sixty-two diamond crystals weighed (<hi rend="italic">one) mañjāḍi</hi>. Seventyone crystals weighed half a <hi rend="italic">kaṛañju</hi> and (<hi rend="italic">one) mañjāḍi</hi>. Three <hi rend="italic">potti</hi> weighed three tenths (<hi rend="italic">of a mañjāḍi</hi>). Forty-five strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">payiṭṭam, nimboḷam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed three quarters (<hi rend="italic">of a kaṛañju), (one) mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Altogether, (<hi rend="italic">the garland</hi>) weighed nine <hi rend="italic">kaṛañju</hi>, six <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>, corresponding to a value of eighteen <hi rend="italic">kāśu</hi>.</p>
+
+<p>25. One sacred pearl ornament (<hi rend="italic">śrī-chhanda</hi>),<note n="40-1">Compare <de>indracchanda, kalāpacchanda, devacchanda</de> and <de>vijayacchanda</de> in Bo7htlingk and Roth's <hi rend="italic">Sanskrit-�</hi></note> made of gold taken from the treasury of the lord, (<hi rend="italic">and containing</hi>) five <hi rend="italic">kaṛañju</hi> and three quarters, three <hi rend="italic">mañjāḍi</hi> and one tenth of gold. The lac in (<hi rend="italic">it</hi>) weighed half a <hi rend="italic">kaṛañju</hi>, three <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. The <hi rend="italic">piñju</hi> weighed a quarter (<hi rend="italic">kaṛañju</hi>). Eighteen crystals, set into (<hi rend="italic">it</hi>), weighed four <hi rend="italic">mañjāḍi</hi> and four tenths. Six diamond crystals weighed (<hi rend="italic">one) kuṉṟi</hi>. Thirteen <hi rend="italic">potti</hi> weighed two <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Nine hundred and eighty-one strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed thirty-three <hi rend="italic">kaṛañju</hi> and three quarters, four <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Altogether, (<hi rend="italic">the pearl ornament</hi>) weighed forty-one <hi rend="italic">kaṛañju</hi>, three <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>, corresponding to a value of fifty-five <hi rend="italic">kāśu</hi>.</p>
+
+<p>26. One sacred pearl ornament, made of gold taken from the treasury of the lord, (<hi rend="italic">and containing</hi>) six <hi rend="italic">kaṛañju</hi> and nine tenths (<hi rend="italic">of a mañjāḍi</hi>) of gold. The lac in (<hi rend="italic">it</hi>) weighed three quarters (<hi rend="italic">of a kaṛañju</hi>) and (<hi rend="italic">one) mañjāḍi</hi> and one tenth. The <hi rend="italic">piñju</hi> weighed a quarter (<hi rend="italic">kaṛañju</hi>) and two tenths (<hi rend="italic">of a mañjāḍi</hi>). Eighteen crystals, set into (<hi rend="italic">it</hi>), weighed four <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Six diamond crystals weighed (<hi rend="italic">one) kuṉṟi</hi>. Thirteen <hi rend="italic">potti</hi> weighed two <hi rend="italic">mañjāḍi</hi> and eight tenths. [Seven] hundred and fifty-nine strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed twenty-six <hi rend="italic">kaṛañju</hi> and a half and four <hi rend="italic">mañjāḍi</hi>. Altogether, (<hi rend="italic">the pearl ornament</hi>) weighed thirty-four <hi rend="italic">kaṛañju</hi> and four <hi rend="italic">mañjāḍi</hi>, corresponding to a value of forty-five <hi rend="italic">kāśu</hi>.</p>
+
+<p>27. One sacred pearl ornament, made of gold taken from the treasury of the lord, (<hi rend="italic">and containing</hi>) six <hi rend="italic">kaṛañju</hi> and seven <hi rend="italic">mañjāḍi</hi> of gold. The lac in (<hi rend="italic">it</hi>) weighed three quarters (<hi rend="italic">of a kaṛañju</hi>) and two <hi rend="italic">mañjāḍi</hi>. The <hi rend="italic">piñju</hi> weighed a quarter (<hi rend="italic">kaṛañju</hi>). Eighteen crystals, set into (<hi rend="italic">it</hi>), weighed four <hi rend="italic">mañjāḍi</hi> and four tenths. Six diamond crystals weighed six tenths (<hi rend="italic">of a mañjāḍi</hi>). Thirteen <hi rend="italic">potti</hi> weighed two <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Nine hundred and ninetyeight strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed thirty-five <hi rend="italic">kaṛañju</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Altogether, (<hi rend="italic">the pearl ornament</hi>) weighed fortytwo <hi rend="italic">kaṛañju</hi> and three quarters and two <hi rend="italic">mañjāḍi</hi>, corresponding to a value of fifty-six <hi rend="italic">kāśu</hi>.</p>
+
+<p>28. One sacred pearl ornament, made of gold taken from the treasury of the lord, (<hi rend="italic">and containing</hi>) six <hi rend="italic">kaṛañju</hi>, nine <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold. The lac in (<hi rend="italic">it</hi>) weighed three quarters (<hi rend="italic">of a kaṛañju), (one) mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. The <hi rend="italic">piñju</hi> weighed a quarter (<hi rend="italic">kaṛañju</hi>). Eighteen crystals, set into (<hi rend="italic">it</hi>), weighed four <hi rend="italic">mañjāḍi</hi> and one tenth. Six diamond crystals weighed (<hi rend="italic">one) kuṉṟi</hi>. Thirteen <hi rend="italic">potti</hi> weighed three <hi rend="italic">mañjāḍi</hi> and one tenth. Eight hundred and forty-six strung pearls of brilliant water and of red water, (<hi rend="italic">taken</hi>) from the pearls, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had poured out as flowers at the sacred feet and with which he had worshipped the feet of the god, (<hi rend="italic">viz.</hi>) round pearls, roundish pearls, polished pearls, small pearls, <hi rend="italic">nimboḷam, payiṭṭam, ambumudu</hi>, crude pearls, twin pearls, <hi rend="italic">śappatti</hi> and <hi rend="italic">śakkattu</hi>, weighed thirty <hi rend="italic">kaṛañju</hi>. Altogether, (<hi rend="italic">the pearl ornament</hi>) weighed thirty-seven <hi rend="italic">kaṛañju</hi> and three quarters, three <hi rend="italic">mañjāḍi</hi> and seven tenths, corresponding to a value of fifty <hi rend="italic">kāśu</hi>.</p>
+
+<p>29. One sacred pearl ornament, made of gold taken from the treasury of the lord, (<hi rend="italic">and containing) (one) kaṛañju</hi> and two <hi rend="italic">mañjāḍi</hi>, six tenths and one twentieth of gold. The <hi rend="italic">piñju</hi> weighed one tenth (<hi rend="italic">of a mañjāḍi</hi>). Two crystals, set into (<hi rend="italic">it</hi>), weighed two tenths (<hi rend="italic">of a mañjāḍi</hi>). Two hundred and sixty strung pearls, (<hi rend="italic">taken</hi>) from the pearls, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had given (<hi rend="italic">to the temple), (viz</hi>.) round pearls, roundish pearls, polished pearls and small pearls, weighed two <hi rend="italic">kaṛañju</hi> and five tenths (<hi rend="italic">of a mañjāḍi</hi>) and one twentieth. Altogether, (<hi rend="italic">the pearl ornament</hi>) weighed three <hi rend="italic">kaṛañju</hi>, three <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>, corresponding to a value of three <hi rend="italic">kāśu</hi>.</p>
+
+<p>30. One sacred girdle (<hi rend="italic">tiruppaṭṭigai</hi>), made of gold taken from the treasury of the lord, (<hi rend="italic">and containing</hi>) two <hi rend="italic">kaṛañju</hi> and three <hi rend="italic">mañjāḍi</hi> and three tenths of gold. The <hi rend="italic">piñju</hi> weighed three tenths (<hi rend="italic">of a mañjāḍi</hi>). Six crystals weighed seven tenths (<hi rend="italic">of a mañjāḍi</hi>). Two hundred and seventy-seven strung pearls and pearls sewn on (<hi rend="italic">taippu-muttu), (taken</hi>) from the pearls, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had given (<hi rend="italic">to the temple), (viz</hi>.) round pearls, roundish pearls, polished pearls, small pearls and pearls in clusters (<hi rend="italic">puñja-muttu</hi>), weighed two <hi rend="italic">kaṛañju</hi> and nine <hi rend="italic">mañjāḍi</hi> and two tenths. Altogether, (<hi rend="italic">the girdle</hi>) weighed four <hi rend="italic">kaṛañju</hi> and a half, three <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>, corresponding to a value of five <hi rend="italic">kāśu</hi>.</p>
+
+<p>31. One sacred outer (<hi rend="italic">i.e.</hi>, upper ?) parasol (<hi rend="italic">tiruppuṟakkuḍai</hi>), made of gold taken from the treasury of the lord, (<hi rend="italic">and containing</hi>) seventy-one <hi rend="italic">kaṛañju</hi> and a quarter and one tenth (<hi rend="italic">of a mañjāḍi</hi>) of gold. Eighty-one crystals, set into (<hi rend="italic">it</hi>), weighed two <hi rend="italic">kaṛañju</hi>. Sixteen diamond crystals weighed nine tenths (<hi rend="italic">of a mañjāḍi</hi>). The <hi rend="italic">piñju</hi> weighed two <hi rend="italic">kaṛañju</hi>, eight <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. One thousand three hundred and seventy-two strung pearls, (<hi rend="italic">taken</hi>) from the pearls, which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had given (<hi rend="italic">to the temple), (viz</hi>.) round pearls, roundish pearls, polished pearls, small pearls, (<hi rend="italic">pearls</hi>) with rubbed surface (<hi rend="italic">tōl</hi>) and old pearls, weighed twenty-three <hi rend="italic">kaṛañju</hi> and a half, four <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>. Altogether, (<hi rend="italic">the parasol</hi>) weighed ninety-nine <hi rend="italic">kaṛañju</hi> and nine <hi rend="italic">mañjāḍi</hi>, corresponding to a value of one hundred and sixty <hi rend="italic">kāśu</hi>.</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 2.3 by <bibl><ptr target="bib:Hultzsch1891_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Hultzsch1891_01"/>
+			<citedRange unit="page">21-42</citedRange>
+			<citedRange unit="item">3</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

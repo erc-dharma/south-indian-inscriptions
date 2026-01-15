@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.38: original edition by Eugen Julius Theodor Hultzsch</title>
+				<title type="alt">No. 38.—ON THE OUTSIDE OF THE EAST WALL OF THE INNER PRAKARA OF THE RAJAGOPALA-PERUMAL TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0038</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription is dated in the 13th year of the reign of <hi rend="bold">Rājarājadēva</hi> (III. ?). It registers several payments of money into the temple treasury for feeding lamps in the temple.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> rājarāja</hi>tevaṟ(k)ku yāṇṭu <unclear>pa</unclear>tiṉmuṉṟāvatu<note n="85-1">Read mūṉṟāvatu.</note> <hi rend="grantha">ja</hi>yaṅkoṇṭaco<unclear>ḻa</unclear>maṇṭalattu kulo<supplied reason="omitted">t</supplied>tuṅkacoḻa
+<lb n="2" break="no"/>vaḷanāṭṭukkunṟattū<supplied reason="omitted">r</supplied>nāṭṭu maṇi<unclear>ma</unclear>ṅkalamāna pāṇṭiyaṉaiyirumaṭiveṉkoṇ<unclear>ṭa</unclear>coḻacca<unclear>tur</unclear>ppe<unclear>ti</unclear>maṅkalattu<note n="85-2">The r of catur is corrected by the engraver from ṟ .</note> 
+<lb n="3"/>vaṇṭuvarā<unclear>pa</unclear>ti Emperumān koyilil <hi rend="grantha">śrī</hi>kāriya(m)ñce<supplied reason="omitted">y</supplied>kiṟa I<hi rend="grantha">rā</hi>yūr Aruḷāḷa<hi rend="grantha">bhaṭṭa</hi>ṉum Ikkoyili<unclear>l</unclear> <gap reason="lost" quantity="3" unit="character"/> kaṅkāṇi<note n="85-3">Read <hi rend="grantha">śrī</hi>vai<hi rend="grantha">ṣṇa</hi>vakkaṇakāṇi.</note> ceykiṟa vaṇ
+<lb n="4" break="no"/>ṭuvarāpati <gap reason="lost" quantity="2" unit="character"/> Ivviruvaruṅka<unclear>ṇ</unclear>(ṅ)kāṇiyāka I<supplied reason="omitted">v</supplied><unclear>v</unclear>emperumāṉukku Iravu<hi rend="grantha">sa</hi>n=tiviḷakku Erikka<note n="85-4">Read mutalāka.</note> mutal<unclear>nik</unclear>kappolicaiyāle vaṇ
+<lb n="5" break="no"/>ṭuvarāpati Emperumān <hi rend="grantha">śrī</hi>paṇṭārattile Irāyūr A<unclear>ru</unclear>ḷāḷa<hi rend="grantha">bhaṭṭa</hi>ṉ Oṭukkiṉa kācu O<unclear>ṉ</unclear>ṟum mattu<unclear>va</unclear>licciriḷaṅko<hi rend="grantha">bhaṭṭa</hi><unclear>ṉ</unclear><note n="85-5">Read cīri.</note> O<unclear>ṭu</unclear>
+<lb n="6" break="no"/>kkiṉa kācu Oṉṟum miñ<unclear>cū</unclear>r Emperu<unclear>m</unclear>āṉ A<unclear>ṭi</unclear>yāḷ <unclear>vi</unclear>ḷaṅkava<hi rend="grantha">nt<choice><sic>a</sic><corr>ā</corr></choice></hi>r Oṭukkina kācu Oṉṟu<unclear>m</unclear> poruṅkuṉṟat<unclear>tu</unclear> kaṇṇantai kuppaṉ
+<lb n="7"/>Iravucantiviḷakkerikka Oṭukkina kācu Oṉṟarai <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Hultzsch1899_01">
+
+<p>Hail ! Prosperity ! In the thirteenth year (<hi rend="italic">of the reign</hi>) of <hi rend="bold">Rājarājadēva</hi>,—under the supervision of both <hi rend="bold">Aruḷāḷa-Bhaṭṭaṉ</hi> of <hi rend="bold">Irāyūr</hi>, the manager of the temple of <hi rend="bold">Vaṇḍuvarāpati-Emberumāṉ</hi> at <hi rend="bold">Maṇimaṅgalam</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Pāṇḍiyaṉai-irumaḍiveṉ-koṇḍa-Śōḻa-chaturvēdimaṅgalam</hi>, in <hi rend="bold">Kuṉṟattūr-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Kulōttuṅga-Śōḻa-vaḷanāḍu</hi>, (<hi rend="italic">a district</hi>) of <hi rend="bold">Jayaṅkoṇḍa-Śōḻa-maṇḍalam</hi>, and of <hi rend="bold">Vaṇḍuvarāpati • • • </hi>, the overseer of the <hi rend="italic">Śrī-Vaishṇavas</hi> in this temple,—(<hi rend="italic">the following sums</hi>) were paid on interest into the treasury of the temple of <hi rend="bold">Vaṇḍuvarāpati-Emberumāṉ</hi>, as a fund for burning lamps at evening dawn before this <hi rend="italic">Emberumāṉ:</hi>—one <hi rend="italic">kāśu</hi> by <hi rend="bold">Aruḷāḷa-Bhaṭṭaṉ</hi> of <hi rend="bold">Irāyūr</hi>; one <hi rend="italic">kāśu</hi> by <hi rend="bold">Mattu[va]li Śīriḷaṅgō-Bhaṭṭaṉ</hi>; one <hi rend="italic">kāśu</hi> by <hi rend="bold">Emberumāṉ-Aḍiyāḷ [Vi]ḷaṅgavand[ā]r</hi> of <hi rend="bold">Miñjūr</hi>; and one and a half <hi rend="italic">kāśu</hi>, for burning a lamp at evening dawn, by <hi rend="bold">Kaṇṇandai Kuppaṉ</hi> of <hi rend="bold">Poruṅguṉṟam</hi>.</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.38 by <bibl><ptr target="bib:Hultzsch1899_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Hultzsch1899_01"/>
+			<citedRange unit="page">85</citedRange>
+			<citedRange unit="item">38</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

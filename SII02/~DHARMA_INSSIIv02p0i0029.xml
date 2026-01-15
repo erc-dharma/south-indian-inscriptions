@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 2.29: original edition by Eugen Julius Theodor Hultzsch</title>
+				<title type="alt">No. 29. ON A PILLAR OF THE EAST ENCLOSURE, TO THE RIGHT OF THE GOPURA. The inscriptions on the pillars and niches of the temple enclosure are arranged in the order, in which they successively meet the eyes of a person performing the pradakshiṇā of the central shrine.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv02p0i0029</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription describes a number of copper images, which king <hi rend="bold">Rājarājadēva</hi> had set up in the <hi rend="bold">Rājarājēśvara</hi> temple before the 29th year of his reign. These images were probably arranged in two groups, which represented two successive scenes from the life of the <hi rend="italic">Śaiva</hi> saint <hi rend="bold">Chaṇḍēśvara</hi>, as described in the <hi rend="italic">Periyapurāṇam</hi>.<note n="134-2">Page 81 of the Madras edition of 1888.</note> The first group may have consisted of a <hi rend="italic">liṅga</hi> (<hi rend="bold">Mahādēva</hi>, paragraph 8), of a statue of <hi rend="bold">Chaṇḍēśvara</hi> who worshipped it (paragraph 10), and of one of his father,<note n="134-3">He is called Echchadattaṉ (<hi rend="italic">i.e.</hi>, Yajñadatta) in the <hi rend="italic">Periyapurāṇam</hi>.</note> who was killed by his own son, because he obstructed the worship of Śiva (paragraph 11). The second group was probably composed of <hi rend="bold">Śiva</hi> and his consort (paragraphs 2 and 5), and of <hi rend="bold">Chaṇḍēśvara</hi> (paragraph 12), who received a flower-garland from Śiva as a reward for his devotion (paragraph 13).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<!--<h4><hi rend="italic">West face</hi>.</h4>-->
+
+<p>
+<lb n="1"/><hi rend="grantha"><unclear>sva</unclear>sti śrīḥ</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> Uṭaiyā
+<lb n="2" break="no"/>r <hi rend="grantha">śrī</hi>] <hi rend="grantha">rājarājade</hi>var
+<lb n="3"/><hi rend="grantha"><unclear>śrīrā</unclear>jarājīśvaram</hi> U
+<lb n="4" break="no"/><unclear>ṭaiy</unclear>ār ko<unclear>yi</unclear>lil
+<lb n="5"/><unclear>yāṇ</unclear>ṭu Irupatto
+<lb n="6" break="no"/><unclear>ṉ</unclear>patāvatu varai E
+<lb n="7" break="no"/><unclear>ḻu</unclear>nta<unclear>ru</unclear>ḷuvi<unclear>t</unclear>ta cep
+<lb n="8" break="no"/><unclear>pu</unclear>ttirume<unclear>ṉi</unclear>kaḷ U
+<lb n="9" break="no"/><unclear>ṭ</unclear>aiyār koyilil mu
+<lb n="10" break="no"/><unclear>ḻat</unclear>tāl Aḷantu kal
+<lb n="11" break="no"/><unclear>vil</unclear> veṭṭiṉa <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">1</supplied> pā</hi>
+<lb n="12" break="no"/><hi rend="grantha"><unclear>dā</unclear>dikeśā</hi>n=ta<hi rend="grantha">m</hi> Irupa
+<lb n="13" break="no"/><unclear>ti</unclear>ṟṟu virale nālu
+<lb n="14"/><unclear>t</unclear>orai Ucarattu nā
+<lb n="15" break="no"/><unclear>lu</unclear> <hi rend="grantha">śrīhastam</hi> Uṭai
+<lb n="16" break="no"/><unclear>yarākak</unclear>kaṉa<unclear>m</unclear>āka Eḻu
+<lb n="17" break="no"/><unclear>nta</unclear>ruḷuvitta <hi rend="grantha">caṇḍe</hi>
+<lb n="18" break="no"/><hi rend="grantha"><unclear>śva</unclear>raprasādade</hi>va<hi rend="grantha"/>
+<lb n="19" break="no"/><unclear>r ti</unclear>rumeṉi Oruvar [<g type="ddanda">.</g><g type="dashLong">.</g>] <hi rend="grantha"><supplied reason="omitted">2</supplied></hi>
+<lb n="20"/><hi rend="grantha"><unclear>ra</unclear>tnanyāsa</hi>ñceytu
+<lb n="21"/><unclear>I</unclear>var Eḻuntaruḷi niṉ<unclear>ṟa</unclear>
+<lb n="22"/><supplied reason="omitted">Oru</supplied>virale Iraṇṭu t<unclear>o</unclear>
+<lb n="23" break="no"/><unclear>r</unclear>ai Ucarattu <hi rend="grantha">śrīpāda</hi><unclear>t</unclear>
+<lb n="24" break="no"/><unclear>to</unclear>ṭuṅkūṭaccey<unclear>ta</unclear>
+<lb n="25"/><hi rend="grantha"><unclear>pa</unclear>tmam</hi> Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">3</supplied></hi> ce
+<lb n="26" break="no"/><supplied reason="omitted">vi</supplied>kku mel <hi rend="grantha">keśā</hi>n=ta<hi rend="grantha">t</hi>
+<lb n="27" break="no"/><unclear>ta</unclear>ḷavuñcella mūvi
+<lb n="28" break="no"/><unclear>ra</unclear>l Ucarattu Iraṇṭu kaiy
+</p>
+
+<!--<h4><hi rend="italic">South face</hi>.</h4>-->
+
+<p>
+<lb n="29"/>Uṭaiyarākakka<supplied reason="omitted">ṉa</supplied>māka
+<lb n="30" break="no"/>cceyta muca<unclear>la</unclear>ka
+<lb n="31" break="no"/>ṉ Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">4</supplied> pā</hi>
+<lb n="32" break="no"/><hi rend="grantha">dādikeśā</hi>n=ta<hi rend="grantha">m</hi> pa
+<lb n="33" break="no"/>tiṉ Aiyvirale
+<lb n="34"/>mūṉṟu torai Uca
+<lb n="35" break="no"/>rattukkaṉamākacce
+<lb n="36" break="no"/>yta Ivar nampirāṭṭiyār <hi rend="grantha">Umā</hi>
+<lb n="37" break="no"/><hi rend="grantha">parameśvari</hi>yār tirumeṉi
+<lb n="38"/>Oruvar <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">5</supplied> rātnanyāsa</hi>ñcey
+<lb n="39" break="no"/>tu Ivar Eḻun=taruḷi niṉṟa O
+<lb n="40" break="no"/>ruvirale Orutorai
+<lb n="41"/>Ucarattu <hi rend="grantha">patmam</hi> Oṉ
+<lb n="42" break="no"/>ṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">6</supplied> de</hi>varum nampi
+<lb n="43" break="no"/>rāṭṭiyārum Eḻunta
+<lb n="44" break="no"/>ruḷi niṉṟa Orumuḻame
+<lb n="45"/>Iruviral nīḷattup
+<lb n="46" break="no"/>patiṉ Aṟuviral
+<lb n="47"/>Akalattu Aṟuvira
+<lb n="48" break="no"/>l Ucarattu <hi rend="grantha">pīṭham</hi> O
+<lb n="49" break="no"/>ṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">7</supplied> śrīpādapī</hi>
+<lb n="50" break="no"/><hi rend="grantha">ṭha</hi>ttukku mel <hi rend="grantha">śi</hi>
+<lb n="51" break="no"/><hi rend="grantha">ro</hi>va<hi rend="grantha">rtta</hi>ṉaiyaḷavu
+<lb n="52" break="no"/>ñcella Oruvira
+<lb n="53" break="no"/>le Iraṇṭu torai
+<lb n="54"/>Ucarattu mūviralarai
+<lb n="55" break="no"/>ccuṟṟiṟpuṟappaṭṭa
+<lb n="56"/>Oru<hi rend="grantha">śrīhasam</hi><note n="135-1">Read <hi rend="grantha">śrīhastam</hi>.</note> uṭai
+</p>
+
+<!--<h4><hi rend="italic">East face</hi>.</h4>-->
+
+<p>
+<lb n="57" break="no"/>yarākakkaṉamākacce
+<lb n="58" break="no"/>yta <hi rend="grantha">mahāde</hi>var Oru
+<lb n="59" break="no"/>var <g type="danda">.</g>— <hi rend="grantha"><supplied reason="omitted">8</supplied></hi> Ivaroṭuṅkū
+<lb n="60" break="no"/>ṭacceyta Iruviral
+<lb n="61"/>Ucarattukkaṉamāka
+<lb n="62" break="no"/>cceyta <hi rend="grantha">pīṭham</hi> O
+<lb n="63" break="no"/>ṉṟu <g type="danda">.</g>— <hi rend="grantha"><supplied reason="omitted">9</supplied> pād<unclear>ā</unclear>dike</hi>
+<lb n="64" break="no"/><hi rend="grantha">śā</hi>n=ta<hi rend="grantha">m</hi> Aiyvirale
+<lb n="65"/>Aiñcu torai U
+<lb n="66" break="no"/>carattu Iraṇṭu kai
+<lb n="67" break="no"/>yyuṭaiyarākakka
+<lb n="68" break="no"/>ṉamākacceyta <hi rend="grantha">ca</hi>
+<lb n="69" break="no"/><hi rend="grantha">ṇḍeśvarar</hi> O<unclear>ru</unclear>va
+<lb n="70" break="no"/>[r <g type="ddanda">.</g><g type="dashLong">.</g>] <hi rend="grantha">[<num value="10"><g type="numeral">10</g></num>*] pādādikeśāntam</hi>
+<lb n="71"/>Aṟuviraley Eḻu
+<lb n="72" break="no"/>torai nīḷattu I
+<lb n="73" break="no"/>raṇṭu kaiyyuṭai
+<lb n="74" break="no"/>yarāy viḻuntu kiṭa
+<lb n="75" break="no"/>ntārākakkaṉamāka
+<lb n="76" break="no"/>cceyta Ivar pitā
+<lb n="77"/>Oruvaṉ <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="11"><g type="numeral">10</g> 1</num>*] pādā<unclear>di</unclear></hi>
+<lb n="78" break="no"/><hi rend="grantha">keśā</hi>n=ta<hi rend="grantha">m</hi> <unclear>O</unclear>ṉpa<unclear>ti</unclear>
+<lb n="79" break="no"/>ṟṟu viral nīḷattu <unclear>I</unclear>
+<lb n="80" break="no"/>raṇṭu kaiyyu<unclear>ṭai</unclear>
+<lb n="81" break="no"/>yarāka <hi rend="grantha">prasā<unclear>dam</unclear></hi>
+<lb n="82"/>peṟukiṉṟārākak<unclear>ka</unclear>
+<lb n="83" break="no"/>ṉamākacce<unclear>yta</unclear> <hi rend="grantha">ca</hi>
+<lb n="84" break="no"/><hi rend="grantha">ṇḍeśvarar</hi> Oruvar [<g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><num value="12"><g type="numeral">10</g> 2</num>*</hi>]
+</p>
+
+<!--<h4><hi rend="italic">North face</hi>.</h4>-->
+
+<p>
+<lb n="85"/>Ivaṉukku <hi rend="grantha">pras<unclear>ā</unclear></hi>
+<lb n="86" break="no"/><hi rend="grantha">dam</hi> kuṭutta pati<unclear>ṉ</unclear>
+<lb n="87"/>Aṟuvirale <unclear>n</unclear>ā<unclear>lu</unclear>
+<lb n="88"/>torai nīḷattu <unclear>A</unclear>
+<lb n="89" break="no"/>rai viralaka<unclear>lat</unclear>tu <unclear>Ira</unclear>
+<lb n="90" break="no"/>ṇṭu t<unclear>oraik</unclear>ka<unclear>ṉa</unclear>
+<lb n="91" break="no"/>ttu <hi rend="grantha">pu<unclear>ṣpa</unclear></hi>mā<unclear>lai</unclear>
+<lb n="92"/>Oṉṟu [<g type="ddanda">.</g><g type="dashLong">.</g>] <hi rend="grantha">[<num value="13"><g type="numeral">10</g> 3</num>*]</hi> <unclear>Iva</unclear>r<unclear>kaḷai</unclear>
+<lb n="93" break="no"/>kkavitta Irumuḻa<unclear>me</unclear>
+<lb n="94" break="no"/>y Irupattu <supplied reason="omitted">mūvira</supplied>
+<lb n="95" break="no"/>ṟcuṟṟiṟ<unclear>kaṉamākac</unclear>
+<lb n="96" break="no"/>cey<unclear>tu kavi</unclear>tta <hi rend="grantha">prabhai</hi>
+<lb n="97"/>Oṉṟu [<g type="ddanda">.</g><g type="dashLong">.</g>] <hi rend="grantha">[<num value="14"><g type="numeral">10</g> 4</num>*]</hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Hultzsch1892_01">
+
+<p>1. Hail ! Prosperity ! (<hi rend="italic">The following</hi>) copper images (<hi rend="italic">tiru-mēṉi</hi>), which the lord <hi rend="bold">Śrī-Rājarājadēva</hi> had set up until the twenty-ninth year (<hi rend="italic">of his reign</hi>) in the temple of the lord <hi rend="bold">Śrī-Rājarājēśvara</hi>, were measured by the cubit measure (<hi rend="italic">muṛam) (preserved</hi>) in the temple of the lord, and engraved on stone:— </p>
+
+<p>2. One solid image of <hi rend="bold">Chaṇḍēśvara-Prasādadēva</hi>,<note n="137-1"><hi rend="italic">I.e.</hi>, ‘Śiva, represented in the act of conferring a boon (<hi rend="italic">prasāda</hi>) on Chaṇḍēśvara;’ compare paragraphs 12 and 13 of this inscription.</note> having four divine arms (<hi rend="italic">and measuring</hi>) twenty <hi rend="italic">viral</hi> and four <hi rend="italic">tōrai</hi> in height from the feet to the hair.</p>
+
+<p>3. One lotus (<hi rend="italic">padma</hi>) on which this (<hi rend="italic">image</hi>) stood, set with jewels, joined to the feet of the god, (<hi rend="italic">and measuring</hi>) [one] <hi rend="italic">viral</hi> and two <hi rend="italic">tōrai</hi> in height.</p>
+
+<p>4. One solid (<hi rend="italic">image of</hi>) <hi rend="bold">Muśalagaṉ</hi>,<note n="137-2">This word may be either connected with the Sanskrit <hi rend="italic">musala</hi>, ‘a pestle, a club,’ or with the Tamil <hi rend="italic">muśal</hi>, ‘a hare.’ In the Tañjāvūr inscriptions, Muśalagaṉ is always represented as lying on the ground. In No. 50, paragraph 7, and in No. 51, paragraph 2, it is distinctly stated that he was lying under the foot of Śiva. He therefore appears to be a demon who was conquered by the god.</note> having two arms (<hi rend="italic">and measuring</hi>) three <hi rend="italic">viral</hi> in height from the ear to the hair.</p>
+
+<p>5. One solid image of his<note n="137-3">This pronoun refers to paragraph 2.</note> consort <hi rend="bold">Umāparamēśvarī</hi>, (<hi rend="italic">measuring</hi>) fifteen <hi rend="italic">viral</hi> and three <hi rend="italic">tōrai</hi> in height from the feet to the hair.</p>
+
+<p>6. One lotus on which this (<hi rend="italic">image</hi>) stood, set with jewels (<hi rend="italic">and measuring</hi>) one <hi rend="italic">viral</hi> and one <hi rend="italic">tōrai</hi> in height.</p>
+
+<p>7. One pedestal (<hi rend="italic">pīṭha</hi>) on which the god and the goddess stood, (<hi rend="italic">measuring</hi>) one <hi rend="italic">muṛam</hi> and two <hi rend="italic">viral</hi> in length, sixteen <hi rend="italic">viral</hi> in breadth, and six <hi rend="italic">viral</hi> in height.</p>
+
+<p>8. One solid (<hi rend="italic">image of</hi>) <hi rend="bold">Mahādēva</hi>, from which one divine arm was projecting (<hi rend="italic">and which measured</hi>) one <hi rend="italic">viral</hi> and two <hi rend="italic">tōrai</hi> in height from the sacred pedestal (<hi rend="italic">śrī-pāda-pīṭha</hi>) to the top (<hi rend="italic">śirōvarttaṉai</hi>), and three <hi rend="italic">viral</hi> and a half in circumference.</p>
+
+<p>9. One solid pedestal, joined to this (<hi rend="italic">image and measuring</hi>) two <hi rend="italic">viral</hi> in height.</p>
+
+<p>10. One solid (<hi rend="italic">image of</hi>) <hi rend="bold">Chaṇḍēśvara</hi>, having two arms (<hi rend="italic">and measuring</hi>) five <hi rend="italic">viral</hi> and five <hi rend="italic">tōrai</hi> in height from the feet to the hair.</p>
+
+<p>11. One solid (<hi rend="italic">image of</hi>) his father, having two arms, represented as having fallen down and lying on the ground, (<hi rend="italic">and measuring</hi>) six <hi rend="italic">viral</hi> and seven <hi rend="italic">tōrai</hi> in length from the feet to the hair.</p>
+
+<p>12. One solid (<hi rend="italic">image of</hi>) <hi rend="bold">Chaṇḍēśvara</hi>, having two arms, represented as receiving a boon (<hi rend="italic">from the god, and measuring</hi>) nine <hi rend="italic">viral</hi> in length from the feet to the hair.</p>
+
+<p>13. One flower-garland (<hi rend="italic">pushpa-mālai</hi>), given to him as a boon (<hi rend="italic">and measuring</hi>) sixteen <hi rend="italic">viral</hi> and four <hi rend="italic">tōrai</hi> in length, half a <hi rend="italic">viral</hi> in breadth, and two <hi rend="italic">tōrai</hi> in thickness.</p>
+
+<p>14. One solid aureola (<hi rend="italic">prabhā</hi>), covering these (<hi rend="italic">images and measuring</hi>) two <hi rend="italic">muṛam</hi> and twenty-[three] <hi rend="italic">viral</hi> in circumference.</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 2.29 by <bibl><ptr target="bib:Hultzsch1892_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Hultzsch1892_01"/>
+			<citedRange unit="page">134-137</citedRange>
+			<citedRange unit="item">29</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

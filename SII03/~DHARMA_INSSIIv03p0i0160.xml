@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.160: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 160.—ON THE SAME WALL. No. 16 of 1898.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0160</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This again is a transaction made by the big assembly of <hi rend="bold">Uttaramērūr-chaturvēdimaṅgalam</hi> made in the 3rd year of <hi rend="bold">Pārthivendrādivarman</hi> who took the head of <hi rend="bold">Vīra-Pāṇḍya</hi>. It consisted in making tax-free certain lands of the temple of <hi rend="bold">Kurukshētradēva</hi>, on receiving <hi rend="italic">pūrvāchāram</hi> from <hi rend="bold">Śandiraṉ Eḻunūṟṟuvaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Nuḷamba-Māyilaṭṭi</hi>, residing in <hi rend="bold">Kandapurattupēṭṭai</hi>. This individual is known from No. 24 of 1898 printed below to have been a merchant of <hi rend="bold">Raṇavīrappāḍi</hi> in <hi rend="bold">Conjeeveram</hi>. It is doubtful therefore, if <hi rend="bold">Kandapurattupēṭṭai</hi> was not another name of <hi rend="bold">Raṇavīrappāḍi. Kurukshētradēva</hi> is not a familiar name in Hindu theogony but might refer to <hi rend="bold">Kṛishṇa</hi> who played the chief part in the great war of <hi rend="bold">Kurukshētra</hi> and was the author of the famous <hi rend="italic">Bhagavadgītā</hi>.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g> pāṇṭiyaṉai(ṉai) talaikoṭṭa<note n="336-2">Read koṇṭa.</note> <hi rend="grantha">pārnthi</hi>ve<hi rend="grantha">ndrā</hi>ti<hi rend="grantha">nma</hi>ku<note n="336-3">Read <hi rend="grantha">pārtthi</hi>ve<hi rend="grantha">ndrā</hi>tiva<hi rend="grantha">rma</hi>ṟku.</note> yāṇ(ṭ)ṭu <unclear>mūṉ</unclear>ṟaṟāvattu<note n="336-4">Read mūṉṟāvatu. The length of ṟā is indicated by a separate symbol.</note> <hi rend="grantha">U</hi>tta<hi rend="grantha">ra</hi>merur<hi rend="grantha">ca</hi>tu<hi rend="grantha"><supplied reason="omitted">r</supplied>vve</hi>tima(la)ṅkalattu peruṅkuṟi <hi rend="grantha">sabhai</hi>
+<lb n="2"/>Eḻuttu Emmūr<note n="336-5">Read kuru<hi rend="grantha">kṣetra</hi>.</note> <hi rend="grantha">śrī</hi>kuru<hi rend="grantha">ṣetrade</hi>va<supplied reason="omitted">r</supplied>kku niccam Oru tirukaṇara<hi rend="grantha">ma</hi>ṭṭ<hi rend="grantha">ai</hi><note n="336-6">Read tirukkaṇamaṭai.</note> Aṭṭu cevi<supplied reason="omitted">p</supplied>pa<unclear>t</unclear>āka paṭutaku I[ ṟ <hi rend="grantha">Ai</hi>ili] yāka <unclear>ca</unclear><hi rend="grantha">ntrādi</hi><supplied reason="omitted">t</supplied>taval<note n="336-7">The <hi rend="italic">ai</hi> sign � of vai is peculiar and has to be noted.</note> vai<supplied reason="omitted">t</supplied>ta <hi rend="grantha">bhūmi</hi> vayirame<supplied reason="omitted">ka</supplied>vativaṭa<unclear>ṟ</unclear>ku<note n="336-8">Read vaṭakku.</note> patiṉ<note n="336-9">The a seems to be corrected from ca. Read patiṉaiñcāṅ.</note> <unclear>a</unclear>ñc<choice><sic>a</sic><corr>ā</corr></choice>ṅ kaṇ<supplied reason="omitted">ṇā</supplied>ṟṟu 
+<lb n="3"/><note n="337-1">Read amaṉināraṇavati.</note> Amaṇināṇaravati<supplied reason="omitted">k</supplied>ku mekku Añcāṅkacatum<note n="337-2">Read añcāñ catukkam.</note> kamuku talaittaraṅ kuḻi muṉ<unclear>ṉūṟu</unclear> Iṅke talaittaraṅ kuḻi nā<unclear>ṟpa</unclear>tu Āka kiḻi<note n="337-3">Read kuḻi.</note> muṉṇūṟṟunāppatam<note n="337-4">Read muṉṉūṟṟunāṟpatum .</note> E <gap reason="lost" quantity="1" unit="character"/> <note n="337-5">The last three syllables of this line look like es<hi rend="grantha">se</hi> and are not intelligible.</note> 
+<lb n="4"/><note n="337-6">The symbols at the beginning of this line may stand for numerical figures. If however we take them for letters, the reading may be paṭṭa.</note> <gap reason="lost" quantity="3" unit="character"/> <unclear>I</unclear>ṟ<hi rend="grantha">ai</hi>yum Ecco<unclear>ṟum veṭ</unclear>ṭiyum Amañciyum Uḷḷi<supplied reason="omitted">ṭ</supplied>ṭu<note n="337-7">Read eppērpaṭṭatumiṟaikoḷḷātomākavum.</note> Epporpaṭṭatumiṟ<hi rend="grantha">ai</hi> koḷātomākapum Itu<supplied reason="omitted">k</supplied>ku <hi rend="grantha"><unclear>A</unclear>gi</hi>ta<supplied reason="omitted">ñ</supplied> cey<supplied reason="omitted">t</supplied>ār <hi rend="grantha">ge<supplied reason="omitted">ṅ</supplied>gai</hi>yiṭ<hi rend="grantha">ai</hi> kumariyiṭai naṭuvu cettār<note n="337-8">Read ceytār.</note> c <hi rend="grantha">Ai</hi>yta pā<unclear>pa</unclear>ttuppaṭuvār<choice><sic>a</sic><corr>ā</corr></choice>kappa<note n="337-9">Read paṭuvārākavum.</note> 
+<lb n="5"/>Ipparicu kan=tapurattupeṭṭ<hi rend="grantha">ai</hi>yil can=taraṉ Eḻunūṟṟu<supplied reason="omitted">va</supplied>nākiya nuḷampa(pa)māyila<supplied reason="omitted">ṭ</supplied>ṭiyā<supplied reason="omitted">r</supplied> pa<supplied reason="omitted">k</supplied>kam <hi rend="grantha">pūrvvācāra</hi>ṅ ko<unclear>ṇ</unclear>(ṭ)ṭu I<supplied reason="omitted">v</supplied>viraṇṭu mā nipemu<unclear>m</unclear><note n="337-10">Read mānipa. This is a corrupt form of the Sanskṛit word <hi rend="grantha">mānya</hi> and is generally found in much later inscriptions. Its occurrence in this record would be the earliest use of it known so far.</note> Iṟ<hi rend="grantha">ai</hi>yiliyāka ṇṇit<note n="337-11">Read paṇit.</note> 
+<lb n="6" break="no"/>tom peruṅkuṟi<hi rend="grantha">sabhai</hi>yom <hi rend="grantha">sabhai</hi>yu<supplied reason="omitted">ḷ</supplied>ḷiruntup perumakkaḷ paṇi<supplied reason="omitted">k</supplied>ka Eḻuti<unclear>ṉ</unclear>en <hi rend="grantha">madhyasta</hi>n teṟkuṟi <hi rend="grantha">U</hi>tta<hi rend="grantha">rameru</hi><note n="337-12">The three indistinct letters after <hi rend="grantha">ru</hi> may stand for <hi rend="grantha">ca</hi>tu<hi rend="grantha">rvve</hi>ti.</note> <gap reason="lost" quantity="2" unit="character"/> maṅkaḷottamaṉeni<note n="337-13">Read ṉen.</note> <hi rend="grantha">śrī</hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:KrishnaSastri1920_01">
+
+<p>(Line 1.) Hail ! Prosperity ! In the 3rd year (<hi rend="italic">of the reign</hi>) of <hi rend="bold">Pārthivēndrādivarman</hi>, who took the head of the <hi rend="bold">Pāṇḍya</hi> (<hi rend="italic">king), (this is</hi>) the writing of us (<hi rend="italic">the members</hi>) of the great assembly of <hi rend="bold">Uttaramērūr-chaturvēdimaṅgalam:</hi>—(<hi rend="italic">The following are</hi>) the lands given tax-free as long as the moon and the sun (<hi rend="italic">last</hi>), to the glorious <hi rend="bold">Kurukshētradēva</hi> of our village (<hi rend="italic">in order that they may</hi>) suitably be applied<note n="337-14">The meaning of the word <hi rend="italic">paḍutagu</hi> is obscure. If it can be taken to be composed of <hi rend="italic">paḍu</hi> and <hi rend="italic">tagu</hi> it would only be an emphatic way of expressing the meaning of either of these words.</note> for causing one <hi rend="italic">tirukkaṇamaḍai</hi><note n="337-15">In No. 55 of 1889 from Tirupati the same term appears as <hi rend="italic">tirukkaṇāmaḍai</hi>.</note> to be cooked (<hi rend="italic">and offered to the god</hi>) every day.</p>
+
+<p>(L. 2.) Three hundred <hi rend="italic">kuḻi</hi> of first rate areca-land (<hi rend="italic">kamugu</hi>), in the fifth square (<hi rend="italic">śadukkam</hi>) west of (<hi rend="italic">the path called</hi>) <hi rend="bold">Amaṉināraṇa-vadi</hi> of the fifteenth <hi rend="italic">kaṇṇāṟu</hi>, north of (<hi rend="italic">the path called</hi>) <hi rend="bold">Vayiramēga-vadi</hi> (<hi rend="italic">and</hi>) forty <hi rend="italic">kuḻi</hi> of first rate (<hi rend="italic">land</hi>) in the same place. In all, on this three hundred and forty <hi rend="italic">kuḻi (of land</hi>), we agreed not to levy any kind of tax (<hi rend="italic">such as) iṟai, echchōṟu, veṭṭi</hi> and <hi rend="italic">amañji</hi>. Those who injure this shall incur the sins of those who have committed (<hi rend="italic">sins</hi>) between <hi rend="bold">Gaṅgā</hi> and <hi rend="bold">Kumari</hi>.</p>
+
+<p>(L. 5.) We (<hi rend="italic">the members of</hi>) the great assembly ordered the gift of these two <hi rend="italic">mānya (lands</hi>) to be made tax-fee, having received <hi rend="italic">pūrvāchāram</hi> from <hi rend="bold">Śandaraṉ Eḻunūṟṟuvaṉ</hi><note n="337-16">This word is expressed by numerical symbols in the original.</note> <hi rend="italic">alias</hi> <hi rend="bold">Nuḷamba-Māyilaṭṭi</hi> (<hi rend="italic">residing</hi>) in <hi rend="bold">Kandapurattu-pēṭṭai</hi>. I, the arbitrator (<hi rend="italic">madhyasthaṉ</hi>) <hi rend="bold">Terkuri Uttaramēru-chaturvēdimaṅgalōttamaṉ</hi> being one of the (<hi rend="italic">members of the</hi>) assembly, wrote (<hi rend="italic">this</hi>) at the bidding of the great men. Prosperity !</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.160 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1920_01"/>
+			<citedRange unit="page">336-337</citedRange>
+			<citedRange unit="item">160</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

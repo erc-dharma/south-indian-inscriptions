@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 2.70: original edition by Eugen Julius Theodor Hultzsch</title>
+				<title type="alt">No. 70. ON THE OUTSIDE OF THE EAST ENCLOSURE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv02p0i0070</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription consists of a list of villages in the <hi rend="bold">Chōḷa</hi> country, which had to supply watchmen for the temple, in accordance with an order which <hi rend="bold">Rājarājadēva</hi> had issued before the 29th year of his reign. The last paragraph (114) states that, owing to want of space, the inscription is continued on the south of “the gate of <hi rend="bold">Rājarāja</hi>,” <hi rend="italic">i.e.</hi>, on the left of the entrance to the second <hi rend="italic">gōpura</hi>. This missing portion is identical with the inscription No. 57, which professes to be the continuation of an incomplete inscription on the north of “the gate of Rājarāja,” <hi rend="italic">i.e.</hi>, on the right of the entrance to the second <hi rend="italic">gōpura</hi>.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<!--<h4><hi rend="italic">First section</hi>.</h4>-->
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="6" unit="character"/> <unclear>ṅkaṅkap</unclear>āṭi<unclear>yun</unclear>ta<unclear>ṭi</unclear>kaipā<unclear>ṭiyum nuḷam</unclear>papāṭiyuṅkuṭamalaināṭu<unclear>ṅ</unclear>kollamuṅka<unclear>li</unclear>ṅkamum muraṭṭe<unclear>ḻi</unclear>l <unclear>ci</unclear>ṅkaḷar Īḻamaṇṭalamum Iraṭṭapāṭi Eḻarai Ila<unclear>kka</unclear>mum muṉ<unclear>ṉī</unclear>rppaḻan<unclear>tīvu pa</unclear>ṉ<unclear>ṉī</unclear>rā<unclear>yi</unclear>ramun<unclear>tiṇṭiṟal</unclear> ve<unclear>ṉ</unclear>ṟi<unclear>ttaṇ</unclear>ṭāṟkoṇṭa taṉṉe<unclear>ḻi</unclear>l vaḷarū<unclear>ḻi</unclear>yuḷellāyāṇṭunto<unclear>ḻu</unclear>taka <unclear>vi</unclear>ḷaṅ<unclear>kum yā</unclear>ṇṭe ce<unclear>ḻi</unclear>ya<unclear>rai</unclear>ttecu k<unclear>o</unclear>ḷ k<unclear>o</unclear><hi rend="grantha">rā<unclear>jak</unclear>esa[ri</hi>va<hi rend="grantha">]<unclear>r</unclear>mma</hi>rā[ṉa <hi rend="grantha">śrī</hi>]<hi rend="grantha">rāja<unclear>r</unclear>ājad</hi>[ <hi rend="grantha">E</hi>vark] ku yāṇṭu <unclear>Irupa</unclear>t<unclear>to</unclear>ṉ<unclear>pat</unclear>ā<unclear>va</unclear>tu va<unclear>rai U</unclear>ṭ<unclear>ai</unclear>yār <hi rend="grantha"><unclear>śrīr</unclear>ājarājade</hi>var Uṭaiyār <hi rend="grantha"><unclear>śrī</unclear>rājarā<unclear>jī</unclear>śvaram</hi> <unclear>Uṭaiy</unclear>ārkkuccoḻamaṇṭalat<unclear>tu</unclear> <hi rend="grantha">brahma</hi>
+<lb n="2" break="no"/> <gap reason="lost" quantity="6" unit="character"/> <unclear>vu</unclear>m I<unclear>ṭ</unclear>ṭa <unclear>tirume</unclear>ykāppārka<unclear>ḷu</unclear>k<unclear>kupperā</unclear>l <unclear>Ā</unclear>ṭṭai vaṭṭa<unclear>ṉ nūṟ</unclear>ṟukkalanelluttirumey<unclear>kā</unclear>p<unclear>pārkaḷai</unclear> Iṭṭa Avvavar Ūrkaḷi<unclear>l</unclear>āre Aḷakkakkaṭavārkaḷā<unclear>kavu</unclear>m Innel Av<unclear>va</unclear>va<unclear>r</unclear> Ūrkaḷilārkku <hi rend="grantha">ca<unclear>ndr</unclear>āditya</hi>val <unclear>Ā</unclear>ṭṭ<unclear>āṇ</unclear>ṭu to<unclear>ṟu</unclear>m <unclear>ta</unclear>ṉ kaṭa<unclear>m</unclear>aik<unclear>ku</unclear>ccelavu peṟavum pa<unclear>ṭi c</unclear>ela<unclear>vu</unclear> p<unclear>e</unclear>ṟavum Āka Ip<unclear>pa</unclear>ṭi ni<unclear>va</unclear>ntamāka Uṭaiy<unclear>ā</unclear>r <hi rend="grantha"><unclear>śrī</unclear>r<unclear>ā</unclear>ja<unclear>rā</unclear>jade</hi>var <unclear>ti</unclear>ruvāy moḻintaru<unclear>ḷiṉa</unclear>paṭi <unclear>ka</unclear>llil veṭṭiya<unclear>tu</unclear> <hi rend="grantha"><supplied reason="omitted">1</supplied></hi> Arumoḻi<hi rend="grantha">de</hi>vava<unclear>ḷa</unclear>nāṭṭu I<unclear>ṅ</unclear>ka<unclear>ṇā</unclear>ṭṭu <unclear>vima</unclear>lacitta<hi rend="grantha">ma<unclear>ṅgala</unclear>ttu sabhai</hi>yār Iṭakkaṭava <unclear>tirum</unclear>eykāppu Oṉṟum <hi rend="grantha"><supplied reason="omitted">2</supplied></hi> A<unclear>ru</unclear>mo
+<lb n="3" break="no"/>ḻi<hi rend="grantha">de</hi>vavaḷanāṭṭu*] <gap reason="lost" quantity="6" unit="character"/> <unclear>ṇa</unclear>lākiya<note n="328-2">Paragraph 5 of No. 9 and paragraph 3 of No. 69 show that before ṇalākiya we have to supply arumoḻi<hi rend="grantha">de</hi>vavaḷanāṭṭu neṉmalināṭṭu neṭuma.</note> mataṉamañcari[ <hi rend="grantha">cca</hi>tu<hi rend="grantha">rvvedimaṅgala</hi>ttu<hi rend="grantha"> sabhai</hi>yār Iṭakkaṭava tirumeykāppu*] <gap reason="lost" quantity="2" unit="character"/> <hi rend="grantha"><supplied reason="omitted">3</supplied></hi> <supplied reason="omitted">Innāṭṭu</supplied><unclear>kku</unclear>ṉṟiyūr <hi rend="grantha">sabhai</hi>yār Iṭakkaṭava tirumey<unclear>kāppu O</unclear>ṉṟum <hi rend="grantha"><supplied reason="omitted">4</supplied></hi> Arum<unclear>oḻi</unclear><hi rend="grantha">d<unclear>e</unclear></hi>vavaḷanāṭṭuppuṟaṅ<unclear>kara</unclear>m<unclear>paināṭṭuppal</unclear>lavaṉ<hi rend="grantha"><unclear>mah</unclear>āde<unclear>vi</unclear>cca</hi>tu<hi rend="grantha">rvvedimaṅgala</hi>ttu<hi rend="grantha"> sabhai</hi>yār Iṭakkaṭava tirumey<unclear>kāp</unclear>pu Oṉṟum <hi rend="grantha"><supplied reason="omitted">5</supplied></hi> Innāṭṭuccempiyaṉ<hi rend="grantha">ma<unclear>h</unclear>āde<unclear>vicca</unclear>tu<unclear>rv</unclear>ve<unclear>di</unclear>maṅgala</hi>ttu<hi rend="grantha"> sabhai</hi>yār Iṭakka<supplied reason="omitted">ṭa</supplied>va tirum<unclear>eykāp</unclear>pu Oṉṟum <hi rend="grantha"><supplied reason="omitted">6</supplied></hi> Innāṭṭupperumpalamarutūr <hi rend="grantha">sabh</hi>[ <hi rend="grantha">Ai</hi>yā] r Iṭa<unclear>kka</unclear>ṭava tirumey<unclear>k</unclear>ā<unclear>ppu</unclear> Oṉṟum <hi rend="grantha"><supplied reason="omitted">7</supplied></hi> In
+<lb n="4" break="no"/><supplied reason="omitted">nāṭṭu</supplied> <gap reason="lost" quantity="5" unit="character"/> ṅkalattu Ūrār Iṭa<supplied reason="omitted">kkaṭava tirumeykāppu</supplied> <gap reason="lost" quantity="2" unit="character"/> <hi rend="grantha"><supplied reason="omitted">8</supplied></hi> <gap reason="lost" quantity="6" unit="character"/> rkkūṟṟattucciṟṟāmūr Ūrār Iṭakkaṭava tirum<unclear>ey</unclear>kāppu Oṉṟum <hi rend="grantha"><supplied reason="omitted">9</supplied></hi> Arumoḻi<hi rend="grantha">de</hi>vavaḷanāṭṭu I <gap reason="lost" quantity="3" unit="character"/> ṭṭukkuṟukkai <hi rend="grantha">sabhai</hi>yār Iṭakkaṭava tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="10"><g type="numeral">10</g></num>*]</hi> Arumoḻi<hi rend="grantha">de</hi>vavaḷanāṭṭu Aḷanāṭṭukkīḻaiyilākiya <hi rend="grantha"><unclear>pa</unclear>ra<unclear>m</unclear>eśvaramaṅgala</hi>ttu<hi rend="grantha"> sabhai</hi><unclear>y</unclear>ār Iṭakkaṭava <unclear>ti</unclear>rumeykāppu Oṉṟum <hi rend="grantha">[<num value="11"><g type="numeral">10</g> 1</num>*]</hi> Innāṭṭuccempiyaṉ<hi rend="grantha">mahāde</hi>vi<hi rend="grantha">cca</hi>tu<hi rend="grantha">rvvedimaṅga<unclear>la</unclear>ttu sabh<unclear>ai</unclear></hi>yār Iṭakkaṭava tirum<unclear>e</unclear>ykāp<unclear>pu</unclear> Oṉ
+<lb n="5" break="no"/><unclear>ṟum</unclear> <hi rend="grantha">[<num value="12"><g type="numeral">10</g> 2</num>*] kṣatriyaśikhāmaṇi</hi>vaḷanāṭṭut<unclear>ti</unclear>runaṟ<unclear>ai</unclear>yūrnāṭṭuttirunaṟai<unclear>yū</unclear>r <hi rend="grantha">sabhai</hi>yār Iṭakkaṭa<unclear>va</unclear> ti<unclear>ru</unclear>meykāppu O<unclear>ṉṟum</unclear> <hi rend="grantha">[<num value="13"><g type="numeral">10</g> 3</num>*]</hi> <unclear>Innāṭṭu</unclear>c<unclear>cī</unclear>t<unclear>o</unclear> <gap reason="lost" quantity="3" unit="character"/> māṉa <hi rend="grantha">Abhimā</hi>na<hi rend="grantha">bhūṣa[ṇacca</hi>tu<hi rend="grantha">]rvve<unclear>dimaṅ</unclear>gala</hi>ttu<hi rend="grantha"> <unclear>sa</unclear>bhai</hi>y<unclear>ār</unclear> Iṭakkaṭava tirum<unclear>ey</unclear>kāppu Oṉṟum <hi rend="grantha">[<num value="14"><g type="numeral">10</g> 4</num>*]</hi> Innāṭṭu <gap reason="lost" quantity="3" unit="character"/> Āyakuṭi <hi rend="grantha">sabhai</hi>yār Iṭakkaṭa<unclear>va</unclear> ti<unclear>ru</unclear>me<unclear>ykāppu</unclear> O<unclear>ṉṟum</unclear> <hi rend="grantha">[<num value="15"><g type="numeral">10</g> 5</num>*]</hi> In<unclear>n</unclear>āṭ<unclear>ṭu vaṇ</unclear>ṭāḻañce<unclear>ri</unclear> Ūrār Iṭak<unclear>ka</unclear>ṭava <unclear>tiru</unclear>me<unclear>y</unclear>kāppu Oṉṟu<unclear>m</unclear> <hi rend="grantha">[<num value="16"><g type="numeral">10</g> 6</num>*]</hi> Innāṭṭukkū<unclear>rū</unclear>r Ūrār Iṭakkaṭava tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="17"><g type="numeral">10</g> 7</num>*]</hi> Innāṭṭukkaṟkuṭi <unclear>Ū</unclear>rār Iṭak<unclear>ka</unclear>ṭava tiru<unclear>m</unclear>e<unclear>y</unclear>kāppu O<unclear>ṉṟu</unclear>m <hi rend="grantha">[<num value="18"><g type="numeral">10</g> 8</num>*] kṣatriyaśikhāmaṇi</hi>vaḷanāṭṭucceṟṟūrkkūṟṟattucceṟṟūr <hi rend="grantha">sabhai</hi>yār Iṭakkaṭava tiru<unclear>m</unclear>e<unclear>yk</unclear>āppu Oṉṟum <hi rend="grantha">[<num value="19"><g type="numeral">10</g> 9</num>*]</hi> <unclear>I</unclear>nnāṭṭukkuṭavāyil <hi rend="grantha">sa<unclear>bh</unclear>ai</hi>yār Iṭakka<unclear>ṭava</unclear> tirumey<unclear>k</unclear>āppu Oṉṟum <hi rend="grantha">[<num value="20">2 <g type="numeral">10</g></num>*]</hi> Inn<unclear>ā</unclear>ṭṭu nā
+<lb n="6" break="no"/><unclear>lūr</unclear> <hi rend="grantha">sabhai</hi>yār <unclear>I</unclear>ṭa<unclear>k</unclear>kaṭava tirumey<unclear>k</unclear>āppu Oṉṟum <hi rend="grantha">[<num value="21">2 <g type="numeral">10</g> 1</num>*] <unclear>kṣa</unclear>triyaśikhāmaṇi</hi>vaḷanāṭṭu I<unclear>ṅ</unclear>kaṇāṭ<unclear>ṭu Iṅ</unclear>kaṇ <hi rend="grantha">sabhai</hi><unclear>yār I</unclear>ṭakkaṭava tirum<unclear>eyk</unclear>āp<unclear>pu O</unclear>ṉṟum <hi rend="grantha">[<num value="22">2 <g type="numeral">10</g> 2</num>*] kṣatriyaśikhāmaṇi</hi>vaḷanāṭṭuttevūrnāṭṭu Ālattūr <hi rend="grantha">sabhai</hi><unclear>yā</unclear>r Iṭakkaṭava tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="23">2 <g type="numeral">10</g> 3</num>*] kṣatriyaśi<unclear>khāmaṇiva</unclear></hi>ḷa<unclear>nāṭṭu Aḷan</unclear>āṭ<unclear>ṭupp</unclear>eruṅkaṭampūr <hi rend="grantha">sabhai</hi>yār Iṭak<unclear>ka</unclear>ṭa<unclear>va</unclear> tirumey<unclear>k</unclear>ā<unclear>ppu</unclear> O<unclear>ṉ</unclear>ṟum <hi rend="grantha">[<num value="24">2 <g type="numeral">10</g> 4</num>*]</hi> Innāṭṭuppāpp<unclear>ā</unclear>rkuṭi <hi rend="grantha">sabhai</hi>yār Iṭakkaṭava tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="25">2 <g type="numeral">10</g> 5</num>*]</hi> Innā<unclear>ṭṭu</unclear>pporuntampo[ ntai <hi rend="grantha">sa</hi>] <hi rend="grantha">bhai</hi>yār Iṭakkaṭava tirumeykā<unclear>p</unclear>pu Oṉṟum <hi rend="grantha">[<num value="26">2 <g type="numeral">10</g> 6</num>*] kṣatri<unclear>ya</unclear>śikhāma-</hi> ṇi<unclear>va</unclear>ḷanāṭṭu<unclear>p</unclear>paṭṭiṉakkūṟṟa<unclear>t</unclear>tu<unclear>k</unclear>koṭṭ<unclear>ā</unclear>rakkuṭi <hi rend="grantha">sabhai</hi>yār Iṭa<unclear>kka</unclear>ṭava tirumeykā<unclear>p</unclear>pu Oṉṟum <hi rend="grantha">[<num value="27">2 <g type="numeral">10</g> 7</num>*]</hi> Innāṭṭu tirukka<unclear>ṇ</unclear>
+<lb n="7" break="no"/><unclear>ṇa</unclear>ṅkuṭi <hi rend="grantha">sabhai</hi>yār Iṭakkaṭava tirumey<unclear>k</unclear>āppu Oṉṟum <hi rend="grantha">[<num value="28">2 <g type="numeral">10</g> 8</num>*]</hi> Innāṭṭu<unclear>k</unclear>kaḷḷūr<unclear>ā</unclear>kiya <unclear>ca</unclear>ṉṉa<hi rend="grantha">maṅgala</hi>ttu<hi rend="grantha"> sabh</hi>[ <hi rend="grantha">Ai</hi>y] Ār <unclear>Iṭa</unclear>kkaṭava tirume<unclear>ykāppu</unclear> Oṉṟum <hi rend="grantha">[<num value="29">2 <g type="numeral">10</g> 9</num>*] kṣatriyaśi<unclear>khā</unclear>ma</hi>ṇivaḷanāṭṭu ma<unclear>ru</unclear>kal<unclear>n</unclear>āṭṭu ma<unclear>ru</unclear>kal <hi rend="grantha">sabhai</hi>yār Iṭakkaṭava tirumeykā<unclear>p</unclear>pu Oṉṟum <hi rend="grantha">[<num value="30">3 <g type="numeral">10</g></num>*]</hi> In<unclear>n</unclear>āṭṭu <unclear>I</unclear> <gap reason="lost" quantity="3" unit="character"/> k[ kuṭi <hi rend="grantha">sa</hi>] <hi rend="grantha">bhai</hi><unclear>yār</unclear> Iṭakkaṭava tirum<unclear>e</unclear>y<unclear>k</unclear>āppu Oṉṟum <hi rend="grantha">[<num value="31">3 <g type="numeral">10</g> 1</num>*]</hi> I<unclear>n</unclear>nāṭṭu<unclear>ppū</unclear>ta<unclear>ṉū</unclear>r <hi rend="grantha">sabhai</hi>yār Iṭakkaṭava tirumeykāp<unclear>pu</unclear> Oṉṟum <hi rend="grantha">[<num value="32">3 <g type="numeral">10</g> 2</num>*]</hi> Innāṭṭu vai<unclear>p</unclear>pūr <unclear>Ū</unclear>rār Iṭakka<unclear>ṭa</unclear>va tirumey<unclear>k</unclear>ā
+<lb n="20" break="no"/><unclear>ppu</unclear> Oṉ<unclear>ṟu</unclear>m <hi rend="grantha">[<num value="33">3 <g type="numeral">10</g> 3</num>*]</hi> I<unclear>n</unclear>nāṭṭu<unclear>tta</unclear>ñcāvūr <unclear>Ū</unclear>rār I<unclear>ṭa</unclear>kka<unclear>ṭa</unclear>va tirum<unclear>e</unclear>y<unclear>kā</unclear>ppu Oṉṟum <hi rend="grantha">[<num value="34">3 <g type="numeral">10</g> 4</num>*] kṣatriyaśikhāma</hi><unclear>ṇivaḷa</unclear>nāṭṭuttiruvārūrkkūṟṟattu <unclear>Ā</unclear>ṭiyappi<hi rend="grantha">maṅga<unclear>la</unclear>ttu sabhai</hi>yār Iṭakkaṭava <unclear>ti</unclear>rumeykāppu O<unclear>ṉ</unclear>ṟu<unclear>m</unclear> <hi rend="grantha">[<num value="35">3 <g type="numeral">10</g> 5</num>*]</hi>
+<lb n="20a"/><hi rend="grantha">[kṣatri</hi>ya<hi rend="grantha">]śikhā<unclear>ma</unclear></hi>ṇivaḷanāṭṭu v<unclear>e</unclear>ḷānāṭṭu <hi rend="grantha">rāja</hi><unclear>ma</unclear>lla<hi rend="grantha">cca<unclear>tu</unclear>r<unclear>vve</unclear>dimaṅgala<unclear>ttu sabh</unclear>ai</hi>yār Iṭakkaṭava tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="36">3 <g type="numeral">10</g> 6</num>*]</hi> Innāṭṭupp<unclear>eru</unclear>mp<unclear>o</unclear>ḻ Ūrār Iṭakkaṭava <unclear>tiru</unclear>m<unclear>e</unclear>ykā<unclear>p</unclear>pu Oṉ<unclear>ṟum</unclear> <hi rend="grantha">[<num value="37">3 <g type="numeral">10</g> 7</num>*] kṣa[tri</hi>ya<hi rend="grantha">śi]khāma</hi>ṇi<unclear>va</unclear>ḷanāṭṭuppaṉaiyūrnāṭṭuppuka<hi rend="grantha">lo</hi><unclear>ka</unclear>māṇikka<hi rend="grantha">cca<unclear>tu</unclear>rvvedimaṅgala<unclear>ttu</unclear> sabhai</hi>y<unclear>ā</unclear>r Iṭakkaṭava tirume<unclear>y</unclear>kā<unclear>ppu</unclear> Oṉṟum <hi rend="grantha">[<num value="38">3 <g type="numeral">10</g> 8</num>*]</hi> <unclear>Uyya</unclear>k<unclear>k</unclear>o<unclear>ṇ</unclear>ṭāṉvaḷanāṭṭu<unclear>ttiru</unclear>na<unclear>ṟ</unclear>ai<unclear>yū</unclear>rnāṭṭuttaṇṭa<unclear>tt</unclear>oṭṭamāṉa <unclear>mu</unclear>mmaṭicoḻa<hi rend="grantha">cca</hi>tu<hi rend="grantha">rvvedimaṅgala<unclear>ttu</unclear> sabhai</hi>yār Iṭakkaṭava tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="39">3 <g type="numeral">10</g> 9</num>*]</hi> Uyyakkoṇṭā<unclear>ṉ</unclear>vaḷanāṭṭup<unclear>pā</unclear>mpura<unclear>nā</unclear>ṭṭuppā<unclear>mpu</unclear>ra<unclear>ttu</unclear> <hi rend="grantha">sabh<unclear>ai</unclear></hi>yār I<unclear>ṭa</unclear>kka<unclear>ṭa</unclear>va ti<unclear>ru</unclear>meykāppu Oṉṟum <hi rend="grantha">[<num value="40">4 <g type="numeral">10</g></num>*]</hi> Innāṭṭukkaṭ<unclear>aiyk</unclear>kuṭi <hi rend="grantha"><unclear>sa</unclear>bh</hi>[ <hi rend="grantha">Ai</hi>yār] Iṭa<unclear>k</unclear>kaṭava ti<unclear>ru</unclear>meykāppu Oṉṟu<unclear>m</unclear> <hi rend="grantha">[<num value="41">4 <g type="numeral">10</g> 1</num>*]</hi> I<unclear>nn</unclear>ā
+</p>
+
+<!--<h4><hi rend="italic">Second section</hi>.</h4>-->
+
+<p>
+<lb n="1" break="no"/><unclear>ṭṭu nal</unclear>lāvūr Ūrār Iṭakkaṭava tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="42">4 <g type="numeral">10</g> 2</num>*]</hi> Uyyakkoṇṭāṉvaḷanāṭṭu <unclear>A</unclear>mparnāṭṭu <unclear>Atiya</unclear>raiyakuṟumpal Ūrār Iṭakkaṭa<unclear>va</unclear> tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="43">4 <g type="numeral">10</g> 3</num>*]</hi> Innāṭṭu nallaḻuntūr <unclear>Ū</unclear>rā<unclear>r</unclear>
+<lb n="2"/><unclear>Iṭa</unclear>k<unclear>kaṭava</unclear> tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="44">4 <g type="numeral">10</g> 4</num>*]</hi> U<unclear>y</unclear>yakkoṇṭāṉvaḷanāṭṭu ma<unclear>ru</unclear>kalnā<unclear>ṭ</unclear>ṭu ma<unclear>ru</unclear>tavūr Ūrār Iṭa<unclear>k</unclear>kaṭava tirum<unclear>e</unclear>yk<unclear>ā</unclear>p<unclear>pu</unclear> Oṉṟum <hi rend="grantha">[<num value="45">4 <g type="numeral">10</g> 5</num>*]</hi> Uyyakkoṇṭ<unclear>ā</unclear>ṉvaḷanāṭṭu veṇṇāṭṭuttiru<unclear>ma</unclear>ḻa[lai <hi rend="grantha">sa</hi>]
+<lb n="3" break="no"/><hi rend="grantha">bh[ai</hi>yā<hi rend="grantha">]</hi>r Iṭakkaṭava <unclear>tirum</unclear>eykāppu Oṉṟum <hi rend="grantha">[<num value="46">4 <g type="numeral">10</g> 6</num>*]</hi> Innāṭṭu vaiykalā<unclear>ki</unclear>ya vāṉavaṉ<hi rend="grantha">ma<unclear>h</unclear>āde<unclear>vi</unclear>cca</hi>tu<hi rend="grantha">rvvedimaṅ[gala</hi>ttu<hi rend="grantha">] sabhai</hi>yār Iṭa<unclear>k</unclear>kaṭa<unclear>va tiru</unclear>meykāppu Oṉṟum <hi rend="grantha">[<num value="47">4 <g type="numeral">10</g> 7</num>*]</hi> Innāṭṭuttirun<unclear>ā</unclear>llattu <hi rend="grantha">sabhai</hi>yār Iṭakka<unclear>ṭa</unclear>
+<lb n="4" break="no"/>va tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="48">4 <g type="numeral">10</g> 8</num>*]</hi> I<unclear>nn</unclear>ā<unclear>ṭ</unclear>ṭukkaru<unclear>vi</unclear>li Ū<unclear>rār Iṭak</unclear>ka<unclear>ṭava ti</unclear>rumey<unclear>kāp</unclear>pu Ira<unclear>ṇ</unclear>ṭu<unclear>m</unclear> <hi rend="grantha">[<num value="49">4 <g type="numeral">10</g> 9</num>*]</hi> I<unclear>n</unclear>nāṭṭu vaya<unclear>lū</unclear>r Ūrār Iṭakkaṭava tiru<unclear>m</unclear>ey<unclear>k</unclear>ā<unclear>ppu</unclear> Oṉṟum <hi rend="grantha">[<num value="50">5 <g type="numeral">10</g></num>*]</hi> Uyyakko<unclear>ṇ</unclear>ṭ<unclear>āṉvaḷa</unclear>nāṭṭu<unclear>t</unclear>tir<unclear>aimū</unclear>rnāṭṭuccāttaṉū[ r <hi rend="grantha">sa</hi>]
+<lb n="5" break="no"/><hi rend="grantha">bhai</hi>yār Iṭa<unclear>kkaṭa</unclear>va ti<unclear>rum</unclear>eykāppu Oṉṟum <hi rend="grantha">[<num value="51">5 <g type="numeral">10</g> 1</num>*]</hi> Uyya<unclear>kk</unclear>oṇṭāṉvaḷanāṭ<unclear>ṭu</unclear>ttiruvaḻu<unclear>ntū</unclear>rnāṭṭu Akkaḷūr <hi rend="grantha">sabhai</hi>y<unclear>ā</unclear>r Iṭakkaṭava tirumeykā<unclear>p</unclear>pu Oṉṟum <hi rend="grantha">[<num value="52">5 <g type="numeral">10</g> 2</num>*]</hi> Innāṭṭu Ayiṟkāṭṭu Ūrār Iṭakkaṭava tirum<unclear>e</unclear>ykāppu Oṉ
+<lb n="6" break="no"/>ṟum <hi rend="grantha">[<num value="53">5 <g type="numeral">10</g> 3</num>*]</hi> Uyyakkoṇṭ<unclear>āṉ</unclear>vaḷanāṭṭu viḷaināṭṭu <unclear>viḷai</unclear>nakarākiya ni<unclear>t</unclear>taviṉota<hi rend="grantha">cca</hi>tu<hi rend="grantha">rr<unclear>vvedi</unclear>maṅgala<unclear>ttu</unclear> sabhai</hi>yār Iṭakkaṭava tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="54">5 <g type="numeral">10</g> 4</num>*]</hi> I<unclear>n</unclear>nāṭṭupperumuḷai <hi rend="grantha">sa<unclear>bh</unclear>ai</hi>yār <unclear>I</unclear>ṭakkaṭava ti<unclear>ru</unclear>me<unclear>yk</unclear>āp<unclear>pu</unclear> O<unclear>ṉ</unclear>ṟum <hi rend="grantha">[<num value="55">5 <g type="numeral">10</g> 5</num>*]</hi>
+<lb n="7"/><unclear>I</unclear>nnā<unclear>ṭ</unclear>ṭu<unclear>ppaṟiyalū</unclear>r <hi rend="grantha">sa<unclear>bh</unclear>ai</hi><unclear>y</unclear>ār <unclear>Iṭakkaṭa</unclear>va <unclear>tirumeykāppu Oṉṟum</unclear> <hi rend="grantha">[<num value="56">5 <g type="numeral">10</g> 6</num>*]</hi> I<unclear>n</unclear>nā<unclear>ṭṭuttir</unclear>ai<unclear>mūr Ū</unclear>rār Iṭakkaṭava tirum<unclear>e</unclear>ykāppu Oṉṟu<unclear>m</unclear> <hi rend="grantha">[<num value="57">5 <g type="numeral">10</g> 7</num>*]</hi> Uyya<unclear>k</unclear>koṇṭāṉvaḷanāṭṭu Ā<unclear>kkūr</unclear>nā<unclear>ṭṭu</unclear> <hi rend="grantha">rājendrasiṁ[hacca</hi>tu<hi rend="grantha">]r<unclear>vvedimaṅ</unclear>gala</hi>ttu<hi rend="grantha"> sabhai</hi><unclear>yā</unclear>
+<lb n="8" break="no"/>r Iṭak<unclear>ka</unclear>ṭava tirume<unclear>y</unclear>kā<unclear>ppu</unclear> Oṉṟu<unclear>m</unclear> <hi rend="grantha">[<num value="58">5 <g type="numeral">10</g> 8</num>*]</hi> I<unclear>n</unclear>nā<unclear>ṭ</unclear>ṭu<unclear>tti</unclear>ruk[kaṭavūr <hi rend="grantha">sa</hi>]<hi rend="grantha">bhai</hi>yār Iṭakkaṭava tirumeykāppu O<unclear>ṉ</unclear>ṟum <hi rend="grantha">[<num value="59">5 <g type="numeral">10</g> 9</num>*]</hi> Innāṭṭu<unclear>t</unclear>ta<unclear>lai</unclear>c<unclear>ca</unclear>ṅkāṭṭu <hi rend="grantha">sabhai</hi>yār Iṭakkaṭava <unclear>tirumeykāppu</unclear> Oṉṟum <hi rend="grantha">[<num value="60">6 <g type="numeral">10</g></num>*]</hi> Uyyakko<unclear>ṇ</unclear>ṭā<unclear>ṉva</unclear>ḷa<unclear>n</unclear>āṭṭuk<unclear>ku</unclear>ṟu<unclear>mpūr</unclear>
+<lb n="9" break="no"/>nāṭṭuttaḷic<unclear>c</unclear>eriyā[ ṉa <hi rend="grantha">pa</hi>] <hi rend="grantha">rākrama</hi>coḻa<hi rend="grantha"><unclear>cca</unclear>turvvedi<unclear>ma</unclear>ṅ[gala</hi>ttu<hi rend="grantha">] sabhai</hi>yār Iṭakkaṭava tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="61">6 <g type="numeral">10</g> 1</num>*]</hi> I<unclear>nn</unclear>āṭṭu Iṟaiyāṉceri <hi rend="grantha">sa<unclear>bhai</unclear></hi>yār Iṭakkaṭava tirumeykā<unclear>p</unclear>pu Oṉṟu<unclear>m</unclear> <hi rend="grantha">[<num value="62">6 <g type="numeral">10</g> 2</num>*]</hi> <unclear>Inn</unclear>āṭṭuttevatāṉanti<unclear>ruvi</unclear>
+<lb n="10" break="no"/>ṭ<unclear>ai</unclear>kkaḻi <hi rend="grantha">sabhai</hi>yār Iṭakka<unclear>ṭava</unclear> ti<unclear>ru</unclear>meykāppu <unclear>mū</unclear>ṉṟu<unclear>m</unclear> <hi rend="grantha">[<num value="63">6 <g type="numeral">10</g> 3</num>*]</hi> <unclear>Inn</unclear>āṭṭu neṭuṅkāṭṭu Ūrār Iṭakkaṭava tirum<unclear>e</unclear>ykāppu Oṉ<unclear>ṟu</unclear>m <hi rend="grantha">[<num value="64">6 <g type="numeral">10</g> 4</num>*] rājendrasiṁha</hi>vaḷa<unclear>n</unclear>āṭṭup<unclear>po</unclear>ykaināṭ[ ṭu <hi rend="grantha">ga</hi>] <hi rend="grantha">ṇḍarā<unclear>di</unclear>tyacca</hi>tu<hi rend="grantha">r<unclear>vvedimaṅga</unclear>la<unclear>ttu sa</unclear>bhai</hi>yār Iṭa<unclear>k</unclear>ka<unclear>ṭava</unclear>
+<lb n="11"/><unclear>ti</unclear>rumeykāppu Iraṇṭum <hi rend="grantha">[<num value="65">6 <g type="numeral">10</g> 5</num>*]</hi> I<unclear>nn</unclear>āṭṭupperum<unclear>pu</unclear>liyūr <hi rend="grantha">sabhai</hi><unclear>y</unclear>ār <unclear>I</unclear>ṭa<unclear>kkaṭa</unclear>va <unclear>ti</unclear>rum<unclear>e</unclear>ykāp<unclear>pu</unclear> Oṉ<unclear>ṟu</unclear>m <hi rend="grantha">[<num value="66">6 <g type="numeral">10</g> 6</num>*] rājendrasiṁha</hi><unclear>va</unclear>ḷanāṭṭu <unclear>mi</unclear>ṟaikkūṟṟa<unclear>ttu</unclear> <hi rend="grantha">pārtthi</hi>va<hi rend="grantha">śeka<unclear>ra</unclear></hi><note n="331-1">Read <hi rend="grantha">śekhara</hi>.</note> <hi rend="grantha">cca</hi>tu<hi rend="grantha">rvve<unclear>di</unclear>maṅga<unclear>la</unclear>ttu <unclear>sa</unclear>bhai</hi>yār Iṭakkaṭava <unclear>ti</unclear>rumeykā<unclear>p</unclear>pu Oṉṟum <hi rend="grantha">[<num value="67">6 <g type="numeral">10</g> 7</num>*] rājendra<unclear>siṁha</unclear>-</hi> va<unclear>ḷa</unclear>nā<unclear>ṭ</unclear>
+<lb n="12" break="no"/>ṭu A<unclear>ṇṭ</unclear>āṭṭukkūṟṟat<unclear>tu</unclear>kkavaiya<unclear>t</unclear>talai<unclear>y</unclear>āki<unclear>ya</unclear> paṇṭitacoḻa<hi rend="grantha">cca</hi>tu<hi rend="grantha">rvvedimaṅ<unclear>gala</unclear>ttu sabhai</hi>yār Iṭakkaṭava tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="68">6 <g type="numeral">10</g> 8</num>*]</hi> Innāṭṭuccattimaṅkalattu Ūrār <unclear>I</unclear>ṭakkaṭava <unclear>ti</unclear>rum<unclear>ey</unclear>kāppu <unclear>O</unclear>ṉṟu<unclear>m</unclear> <hi rend="grantha">[<num value="69">6 <g type="numeral">10</g> 9</num>*] rā<unclear>jendrasi</unclear>ṁ</hi>[<hi rend="grantha">ha</hi>]vaḷa<unclear>nā</unclear>ṭṭu Iṉṉamparnāṭṭuppaḻai
+<lb n="13" break="no"/>yavā<unclear>ṉava</unclear>ṉ<hi rend="grantha">mah<unclear>ā</unclear>de</hi>vi<hi rend="grantha">[cca</hi>tu<hi rend="grantha">rvve]dimaṅgala</hi>ttu<hi rend="grantha"> sabhai</hi>yār <unclear>I</unclear>ṭakkaṭava tirume<unclear>y</unclear>kāppu Oṉṟum <hi rend="grantha">[<num value="70">7 <g type="numeral">10</g></num>*]</hi> Innāṭṭu Acukūr <hi rend="grantha">sabhai</hi>yār Iṭakkaṭava tirumeykāppu Oṉṟu<unclear>m</unclear> <hi rend="grantha">[<num value="71">7 <g type="numeral">10</g> 1</num>*]</hi> Innāṭṭukk<unclear>o</unclear>ṭṭaiyūr <hi rend="grantha">[sabhai</hi>yā<hi rend="grantha">]</hi>r <unclear>Iṭak</unclear>ka<unclear>ṭava</unclear> tirum<unclear>e</unclear>ykāppu Oṉṟum <hi rend="grantha">[<num value="72">7 <g type="numeral">10</g> 2</num>*]</hi> In<unclear>n</unclear>āṭṭu
+<lb n="14"/>Erākiya mum<unclear>ma</unclear>ṭicoḻamaṅkalattā<unclear>r</unclear> Iṭakkaṭava <unclear>tiru</unclear>m<unclear>e</unclear>ykāppu <unclear>Oṉ</unclear>ṟum <hi rend="grantha">[<num value="73">7 <g type="numeral">10</g> 3</num>*]</hi> I<unclear>nn</unclear>āṭṭu [<hi rend="grantha">śrī</hi>]parāntaka<hi rend="grantha">cca</hi>tu<hi rend="grantha">rvvedimaṅ<unclear>ga</unclear>la<unclear>ttu</unclear> sa<unclear>bh</unclear>ai</hi>yār I<unclear>ṭa</unclear>kkaṭava tirumeykāppu Iraṇṭum <hi rend="grantha">[<num value="74">7 <g type="numeral">10</g> 4</num>*] rājendra<unclear>si</unclear>ṁha</hi>vaḷanāṭ<unclear>ṭu miḻalaināṭṭu</unclear>c<unclear>c</unclear>e<unclear>y</unclear>nallūr <hi rend="grantha">sabhai</hi>yār Iṭakkaṭa<unclear>va</unclear> tirum<unclear>e</unclear>
+<lb n="15" break="no"/>ykāppu Oṉṟu<unclear>m</unclear> <hi rend="grantha">[<num value="75">7 <g type="numeral">10</g> 5</num>*] rājendrasiṁ</hi>[<hi rend="grantha">ha</hi>]va<unclear>ḷa</unclear>nāṭṭu <unclear>maṇ</unclear>ṇināṭṭu Ema<unclear>na</unclear>llūrākiya<note n="331-2">Read <hi rend="grantha">trailokya</hi>.</note> <hi rend="grantha">trail<unclear>o</unclear>khya<unclear>ma</unclear>hāde</hi>vi<hi rend="grantha"><unclear>cca</unclear>turvvedimaṅga[la</hi>ttu<hi rend="grantha">] sabhai</hi>yār Iṭakkaṭava tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="76">7 <g type="numeral">10</g> 6</num>*]</hi> <unclear>I</unclear>n<unclear>n</unclear>āṭṭu v<unclear>empa</unclear>ṟṟūrākiya <unclear>A</unclear>va<unclear>ṉinā</unclear>r<unclear>ā</unclear>yaṇa<hi rend="grantha">cca</hi>tu<hi rend="grantha">rvvedimaṅgala</hi>ttu<hi rend="grantha"> sa</hi>
+<lb n="16" break="no"/><hi rend="grantha">bh<unclear>aiy</unclear></hi>ār Iṭak<unclear>ka</unclear>ṭava <unclear>tiru</unclear>m<unclear>e</unclear>ykāp<unclear>pu</unclear> Oṉṟum <hi rend="grantha">[<num value="77">7 <g type="numeral">10</g> 7</num>*]</hi> Innā<unclear>ṭ</unclear>ṭu Iṭavai <hi rend="grantha">sabh<unclear>ai</unclear></hi>yār Iṭakkaṭava tirumeykā<unclear>p</unclear>pu Oṉṟum <hi rend="grantha">[<num value="78">7 <g type="numeral">10</g> 8</num>*]</hi> I<unclear>n</unclear>nāṭṭuppaṉantā<unclear>ṭi</unclear> <hi rend="grantha">sabhai</hi><unclear>y</unclear>ār Iṭakkaṭava tiru<unclear>m</unclear>eykā<unclear>ppu Oṉṟu</unclear>m <hi rend="grantha">[<num value="79">7 <g type="numeral">10</g> 9</num>*] rāj<unclear>e</unclear>ndrasiṁha</hi>vaḷanāṭṭu viḷattūrnāṭṭu
+<lb n="17" break="no"/>kkāṭṭūr <hi rend="grantha">sabhai</hi>yār I<unclear>ṭa</unclear>kkaṭa<unclear>va ti</unclear>rumeykāppu O<unclear>ṉṟu</unclear>m <hi rend="grantha">[<num value="80">8 <g type="numeral">10</g></num>*] rājendrasiṁha</hi>vaḷanāṭṭukkārn<unclear>ā</unclear>ṭṭu O <gap reason="lost" quantity="4" unit="character"/> r <hi rend="grantha">sabhai</hi>yār Iṭakkaṭava tiru<unclear>m</unclear>eykāppu Oṉ<unclear>ṟum</unclear> <hi rend="grantha">[<num value="81">8 <g type="numeral">10</g> 1</num>*]</hi> ta<unclear>ṉiyūr</unclear> <hi rend="grantha">śrī</hi>vī<hi rend="grantha"><unclear>ran</unclear>ārā[ya</hi>ṇa<hi rend="grantha">cca]tu<unclear>rvvedimaṅ</unclear>gala</hi>ttu<hi rend="grantha"> sa<unclear>bh</unclear>ai</hi>yār Iṭakkaṭava tirumeyk<unclear>ā</unclear>
+<lb n="18" break="no"/>ppu Āṟum <hi rend="grantha">[<num value="82">8 <g type="numeral">10</g> 2</num>*] rāj<unclear>e</unclear>ndrasiṁ</hi>[<hi rend="grantha">ha</hi>vaḷan]āṭṭukkuṟukkaināṭṭukkuṟukkai <hi rend="grantha">sabh<unclear>ai</unclear></hi>yār I<unclear>ṭa</unclear>kkaṭava tirum<unclear>eykāppu O</unclear>ṉṟum <hi rend="grantha">[<num value="83">8 <g type="numeral">10</g> 3</num>*]</hi> Innāṭṭukkāviri<hi rend="grantha">maṅgala<unclear>ttu sa</unclear>bhai</hi><unclear>y</unclear>ār <unclear>Iṭakka</unclear>ṭava <unclear>tirum</unclear>ey<unclear>kāppu O</unclear>ṉṟum <hi rend="grantha">[<num value="84">8 <g type="numeral">10</g> 4</num>*]</hi> <unclear>I</unclear>nnāṭṭu<unclear>k</unclear>kāṭṭiyār<hi rend="grantha">brahmade</hi>ya<unclear>t</unclear>tu <hi rend="grantha">sa</hi>
+<lb n="19" break="no"/><hi rend="grantha"><unclear>bh</unclear>ai</hi>yār Iṭakkaṭava tiru<unclear>m</unclear>eykāppu Oṉ<unclear>ṟum</unclear> <hi rend="grantha">[<num value="85">8 <g type="numeral">10</g> 5</num>*]</hi> Innāṭṭu <unclear>vara</unclear>kūr <hi rend="grantha">sabh<unclear>ai</unclear></hi>yār Iṭakkaṭa<unclear>va</unclear> tirumeykāp<unclear>pu</unclear> <gap reason="lost" quantity="3" unit="character"/> <hi rend="grantha">[<num value="86">8 <g type="numeral">10</g> 6</num>*]</hi> In<unclear>n</unclear>āṭṭukkaṭa<unclear>laṅ</unclear>kuṭi <hi rend="grantha">sabhai</hi>yār <unclear>I</unclear>ṭak<unclear>ka</unclear>ṭava ti<unclear>rum</unclear>eyk<unclear>āppu Oṉṟum</unclear> <hi rend="grantha">[<num value="87">8 <g type="numeral">10</g> 7</num>*] <unclear>r</unclear>ājendra<unclear>si</unclear>ṁha</hi>va<unclear>ḷa</unclear>nāṭṭut<unclear>tiruvā</unclear>lin<unclear>ā</unclear>ṭṭu <unclear>ma</unclear>l<unclear>likuṭi</unclear>
+<lb n="20"/><hi rend="grantha">sabhai</hi>yār Iṭakkaṭava tirume<unclear>y</unclear>kā<unclear>ppu</unclear> Oṉṟum <hi rend="grantha">[<num value="88">8 <g type="numeral">10</g> 8</num>*]</hi> Innāṭṭuttiruvāli <hi rend="grantha">sabh<unclear>ai</unclear></hi>y<unclear>ār I</unclear>ṭakkaṭava tirumeykāppu <gap reason="lost" quantity="2" unit="character"/> m <hi rend="grantha">[<num value="89">8 <g type="numeral">10</g> 9</num>*] rāje<unclear>ndra</unclear>si<unclear>ṁ</unclear>ha</hi><unclear>vaḷa</unclear>nāṭ<unclear>ṭu</unclear>ttiru<unclear>vin</unclear>taḷūrnāṭ<unclear>ṭu</unclear> <gap reason="lost" quantity="2" unit="character"/> <hi rend="grantha">[sabhai</hi>yār Iṭakkaṭa]va <unclear>tiru</unclear>meykāppu Oṉṟu<unclear>m</unclear> <hi rend="grantha">[<num value="90">9 <g type="numeral">10</g></num>*]</hi> <unclear>I</unclear>n<unclear>nāṭ</unclear>ṭu<unclear>tti</unclear>
+<lb n="21" break="no"/><unclear>ru</unclear>naṉṟiyūr <hi rend="grantha">sabh<unclear>ai</unclear></hi>yār Iṭakkaṭava tiru<unclear>m</unclear>eykāppu Oṉṟum <hi rend="grantha">[<num value="91">9 <g type="numeral">10</g> 1</num>*]</hi> Innāṭṭu māṟa[ piṭuku<hi rend="grantha">de</hi>vi] <hi rend="grantha">cca</hi>tu<hi rend="grantha">rvvedima</hi>[ <hi rend="grantha">ṅgala</hi>ttu<hi rend="grantha"> sabhaiy</hi>] Ār Iṭakkaṭava <unclear>tiru</unclear>mey<unclear>k</unclear>āp<unclear>pu</unclear> O<unclear>ṉ</unclear>ṟu<unclear>m</unclear> <hi rend="grantha">[<num value="92">9 <g type="numeral">10</g> 2</num>*]</hi> <unclear>In</unclear>n<unclear>ā</unclear>ṭ<unclear>ṭukkañcāṟanakar Ūrār I</unclear>ṭa<unclear>kka</unclear>ṭava <unclear>tirum</unclear>ey<unclear>kā</unclear>ppu Oṉṟum <hi rend="grantha">[<num value="93">9 <g type="numeral">10</g> 3</num>*] rā<unclear>jendra</unclear>si</hi>
+<lb n="22" break="no"/><hi rend="grantha"><unclear>ṁ</unclear>ha</hi>vaḷanāṭṭu<note n="332-1">ṭhis name looks more like veṉṉaiyūr in the original; but see No. 69, paragraph 104.</note> ve<unclear>ṇṇai</unclear>yūrnā<unclear>ṭ</unclear>ṭu<unclear>p</unclear>peruṅka<unclear>ṇ</unclear>pūr <hi rend="grantha"><unclear>sa</unclear>bhai</hi><unclear>y</unclear>ār Iṭakkaṭava tirumeykā<unclear>p</unclear>pu Oṉṟu<unclear>m</unclear> <hi rend="grantha">[<num value="94">9 <g type="numeral">10</g> 4</num>*]</hi> Innāṭṭu mā<unclear>tula</unclear>veḷūr <hi rend="grantha">sabhai</hi>yār Iṭakkaṭava <unclear>ti</unclear>rum<unclear>ey</unclear>kāppu O<unclear>ṉṟu</unclear>m <hi rend="grantha">[<num value="95">9 <g type="numeral">10</g> 5</num>*]</hi> Innāṭ<unclear>ṭu</unclear> <gap reason="lost" quantity="2" unit="character"/> ttūr <hi rend="grantha">sabhai</hi><unclear>yār</unclear> Iṭakkaṭava <unclear>ti</unclear>rume<unclear>y</unclear>kāp<unclear>pu</unclear> O<unclear>ṉ</unclear>ṟum <hi rend="grantha">[<num value="96">9 <g type="numeral">10</g> 6</num>*]</hi> In
+<lb n="23" break="no"/>nāṭṭu veḷḷūr <hi rend="grantha">sabhai</hi>yār Iṭakka<unclear>ṭa</unclear>va tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="97">9 <g type="numeral">10</g> 7</num>*]</hi> Innāṭṭuccotiya<unclear>kku</unclear>ṭi <hi rend="grantha">sabhai</hi>yār Iṭak<unclear>ka</unclear>ṭava ti<unclear>ru</unclear>me<unclear>y</unclear>k<unclear>ā</unclear>p<unclear>pu</unclear> Oṉṟum <hi rend="grantha">[<num value="98">9 <g type="numeral">10</g> 8</num>*] rāje<unclear>ndra</unclear>si<unclear>ṁ</unclear>ha</hi>vaḷanāṭṭuttirukkaḻuma<unclear>lanāṭṭu</unclear> Ut<unclear>ai</unclear>yā<hi rend="grantha">di[tyacca</hi>tu<hi rend="grantha">]r<unclear>vve</unclear>dimaṅgala<unclear>ttu</unclear> sabhai</hi>yār Iṭakkaṭava
+<lb n="24"/>tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="99">9 <g type="numeral">10</g> 9</num>*]</hi> In<unclear>nā</unclear>ṭṭu<unclear>t</unclear>tirukkaḻumalattu <hi rend="grantha">sabhai</hi>yār Iṭakkaṭava <unclear>ti</unclear>rumeykāppu Oṉṟum <hi rend="grantha">[<num value="100"><g type="numeral">100</g></num>*]</hi> I<unclear>nnāṭṭu</unclear>tteṉūr <hi rend="grantha">sabhai</hi>yār Iṭakkaṭava <unclear>ti</unclear>rume<unclear>yk</unclear>āppu Oṉṟum <hi rend="grantha">[<num value="101"><g type="numeral">100</g> 1</num>*] rāje<unclear>ndrasi</unclear>ṁha</hi>vaḷanāṭṭu nāṅkūrnāṭṭu <unclear>n</unclear>āṅkū<unclear>r</unclear> <hi rend="grantha">sabhai</hi>yār Iṭa<unclear>kka</unclear>ṭava tirume
+<lb n="25" break="no"/>ykāppu Iraṇṭum <hi rend="grantha">[<num value="102"><g type="numeral">100</g> 2</num>*]</hi> Innāṭṭu<unclear>k</unclear>kuṉṟattu <hi rend="grantha">sabhai</hi>yār Iṭakkaṭava tirume<unclear>yk</unclear>āppu Oṉṟum <hi rend="grantha">[<num value="103"><g type="numeral">100</g> 3</num>*]</hi> Innāṭṭu ma<unclear>ru</unclear>tūr <hi rend="grantha">sabhai</hi>yār Iṭakkaṭava tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="104"><g type="numeral">100</g> 4</num>*] rājendra<unclear>siṁ</unclear>ha</hi>vaḷanā<unclear>ṭ</unclear>ṭu Atikaimaṅkaināṭṭupperuntoṭṭattu <hi rend="grantha"><unclear>sa</unclear>bhai<unclear>y</unclear>ā</hi>
+<lb n="26" break="no"/>r Iṭakkaṭava tirumeykāppu Iraṇṭum <hi rend="grantha">[<num value="105"><g type="numeral">100</g> 5</num>*] rājendrasiṁha</hi>va<unclear>ḷa</unclear>nāṭṭukkoṇṭanāṭṭuppañcavaṉ<hi rend="grantha">mahāde</hi>vi<hi rend="grantha">cca</hi>tu<hi rend="grantha">rvvedi<unclear>ma</unclear>ṅgala</hi>ttu<hi rend="grantha"> <unclear>sa</unclear>bhai</hi>yār Iṭakkaṭava tirumeykāppu Ira<unclear>ṇ</unclear>ṭu<unclear>m</unclear> <hi rend="grantha">[<num value="106"><g type="numeral">100</g> 6</num>*] rājendrasiṁha</hi><unclear>va</unclear>ḷa<unclear>n</unclear>āṭṭu n<unclear>eluvū</unclear>r<unclear>n</unclear>āṭṭukkumarā<unclear>ti</unclear><hi rend="grantha">ttyacca<unclear>turvvedi</unclear>maṅgala</hi>ttu<hi rend="grantha"> sabhai</hi>
+<lb n="27" break="no"/>yār Iṭakkaṭava tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="107"><g type="numeral">100</g> 7</num>*] rājendrasi<unclear>ṁ</unclear>ha</hi>vaḷanāṭṭuppiṭavūrnāṭṭu nayatīra<hi rend="grantha">maṅgala<unclear>ttu</unclear> sabhai</hi>yār <unclear>I</unclear>ṭakkaṭava tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="108"><g type="numeral">100</g> 8</num>*] rājendrasiṁha</hi>vaḷanāṭṭu vecālip<unclear>pā</unclear>ṭi <hi rend="grantha">ja</hi>yaṅk<unclear>o</unclear><unclear>ṇ</unclear>ṭacoḻa<hi rend="grantha">cca</hi>tu<hi rend="grantha">rvvedimaṅgala</hi>ttu<hi rend="grantha"> sabhai</hi>yār Iṭakka
+<lb n="28" break="no"/>ṭava tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="109"><g type="numeral">100</g> 9</num>*] rājendrasiṁ</hi>[<hi rend="grantha">ha</hi>]vaḷanāṭṭu I<unclear>ru</unclear>ṅkoḷappāṭi vaḷavaṉ<hi rend="grantha">mahāde</hi>vi<hi rend="grantha">cca</hi>tu<hi rend="grantha">rvvedima<unclear>ṅ</unclear>ga<unclear>la</unclear>ttu sa<unclear>bhaiy</unclear></hi>ār Iṭakkaṭava tirumeykāppu Oṉṟum <hi rend="grantha">[<num value="110"><g type="numeral">100</g> <g type="numeral">10</g></num>*] rājāśraya</hi><unclear>va</unclear>ḷanāṭṭu mīymalai <hi rend="grantha">mahe<unclear>ndra</unclear>maṅ<unclear>gala</unclear>ttu sabhai</hi>yār <unclear>I</unclear>ṭakkaṭava ti<unclear>ru</unclear>mey
+<lb n="29" break="no"/>kāppu Oṉṟum <hi rend="grantha">[<num value="111"><g type="numeral">100</g> <g type="numeral">10</g> 1</num>*] rājāśraya</hi>vaḷanāṭṭu vaṭa<unclear>vaḻi</unclear>nāṭṭuttiruve<unclear>ḷ</unclear>ḷaṟai <hi rend="grantha">sabhai</hi>yār Iṭakkaṭava tirumeykā<unclear>p</unclear>pu <unclear>I</unclear>ra<unclear>ṇ</unclear>ṭum <hi rend="grantha">[<num value="112"><g type="numeral">100</g> <g type="numeral">10</g> 2</num>*] rājāśraya-</hi> va<unclear>ḷa</unclear>nāṭṭuppāc<unclear>ci</unclear>ṟkūṟ<unclear>ṟa</unclear>ttu<unclear>k</unclear>kīḻpalāṟṟupperumarutūr <hi rend="grantha">sabh<unclear>ai</unclear></hi>yār Iṭakkaṭava tirume
+<lb n="30" break="no"/><unclear>y</unclear>kāppu Oṉṟum <hi rend="grantha">[<num value="113"><g type="numeral">100</g> <g type="numeral">10</g> 3</num>*]</hi> p<unclear>o</unclear>yīṭu Iv<unclear>viṭat</unclear>tu <unclear>ni</unclear>lam po<unclear>t</unclear>ātā<unclear>ka</unclear> Itil kuṟai <hi rend="grantha">rājarājan</hi> ti<unclear>ru</unclear>vācalil <unclear>teṟ</unclear>ku<note n="332-2">Read <hi rend="grantha">agni ?</hi></note> <hi rend="grantha">Aṅ<unclear>ṅi</unclear>d<unclear>e</unclear></hi>va<unclear>r Ā</unclear>laiyattu<unclear>kku</unclear> va<unclear>ṭa</unclear>k<unclear>ku Ātipū</unclear>miyiṟkapo<unclear>ta</unclear>ttiṉ kīḻppuṟa<unclear>ṉil</unclear> Utta<unclear>ra</unclear> <gap reason="lost" quantity="4" unit="character"/> <note n="332-3">What remains of the letters in this break, looks like pparakulata.</note> <unclear>tuṭa</unclear>ṅki<unclear>kkal</unclear>lil veṭṭi<unclear>t</unclear>tu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="114"><g type="numeral">100</g> <g type="numeral">10</g> 4</num>*]</hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Hultzsch1895_01">
+
+<p>1. [Hail! Prosperity!] Before the twenty-ninth year (<hi rend="italic">of the reign</hi>) of <hi rend="bold">Kō-Rājakēsarivarman</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Śrī-Rājarājadēva</hi>, who, etc.,<note n="333-1">The preserved portion of line 1 shows that the historical part of this inscription was identical with that of No. 65.</note> —the lord <hi rend="bold">Śrī-Rājarājadēva</hi> [was pleased to order that the inhabitants of the] <hi rend="italic">brahma[dēyas]</hi> in <hi rend="bold">Śōṛa-maṇḍalam</hi> [should supply temple watchmen] to the lord of the <hi rend="bold">Śrī-Rājarājēśvara</hi> (<hi rend="italic">temple)</hi>.<note n="333-2">Those portions of the preceding sentence, which are enclosed in square brackets, are lost at the beginning of line 2, but can be supplied with the help of the analogous wording of No. 69, paragraph 1.</note> To each of the temple watchmen who are supplied, the inhabitants of the respective villages which have supplied the temple watchmen, shall measure one hundred <hi rend="italic">kalam</hi> of paddy per year. This paddy has to be supplied and daily allowances (<hi rend="italic">paḍi</hi>) have to be paid every year, as long as the moon and the sun endure, out of the tax due by the inhabitants of the respective villages. These allowances were engraved on stone by order of the lord <hi rend="bold">Śrī-Rājarājadēva</hi>.</p>
+
+<p>2. The members of the assembly of <hi rend="bold">[Vima]lachittama[ṅgal]am</hi> in <hi rend="bold">I[ṅ]ga[ṇā]ḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Arumoṛidēva-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>3. [The members of the assembly of <hi rend="bold">Neḍumaṇa</hi>]l, <hi rend="italic">alias</hi> <hi rend="bold">Madanamañjari-[chaturvēdimaṅgalam</hi>, in <hi rend="bold">Neṉmali-nāḍu]</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Arumo</hi>[<hi rend="bold">ṛidēva-vaḷanāḍu</hi>, have to supply • • temple watchman].</p>
+
+<p>4. The members of the assembly of <hi rend="bold">Kuṉṟiyūr</hi> [in the same <hi rend="italic">nāḍu</hi>] have to supply one temple watchman.</p>
+
+<p>5. The members of the assembly of <hi rend="bold">Pallavaṉmahādēvi-chaturvēdimaṅgalam</hi> in <hi rend="bold">Puṟaṅ[gara]m[bai-nāḍu]</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Arumoṛidēva-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>6. The members of the assembly of <hi rend="bold">Śembiyaṉmahādēvi-chaturvēdimaṅgalam</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>7. The members of the assembly of <hi rend="bold">Perumbalamarudūr</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>8. The villagers of • • • • • <hi rend="bold">ṅgalam</hi> in the same [<hi rend="italic">nāḍu</hi> have to supply • • temple watchman].</p>
+
+<p>9. The villagers of <hi rend="bold">Śiṟṟāmūr</hi> in • • • <hi rend="bold">rkkūṟṟam</hi>• • • • • have to supply one temple watchman.</p>
+
+<p>10. The members of the assembly of <hi rend="bold">Kuṟukkai</hi> in <hi rend="bold">I • • • ḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Arumoṛidēva-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>11. The members of the assembly of <hi rend="bold">Kīṛaiyil</hi>, <hi rend="italic">alias</hi> <hi rend="bold">[Pa]ram[ē]śvaramaṅgalam</hi>, in <hi rend="bold">Aḷa-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Arumoṛidēva-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>12. The members of the assembly of <hi rend="bold">Śembiyaṉmahādēvi-chaturvēdimaṅgalam</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>13. The members of the assembly of <hi rend="bold">Tirunaṟaiyūr</hi> in <hi rend="bold">Tirunaṟaiyūr-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Kshatriyaśikhāmaṇi-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>14. The members of the assembly of <hi rend="bold">[Śī]t[o] • • • m</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Abhimānabhūsha[ṇa-chatu]rvēdimaṅgalam</hi>, in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>15. The members of the assembly of • • • <hi rend="bold">āyakuḍi</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>16. The villagers of <hi rend="bold">[Vaṇ]ḍāṛañjē[ri]</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>17. The villagers of <hi rend="bold">Kū[rū]r</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>18. The villagers of <hi rend="bold">Kaṟkuḍi</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>19. The members of the assembly of <hi rend="bold">Śeṟṟūr</hi> in <hi rend="bold">Śeṟṟūr-kūṟṟam</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Kshatriyaśikhāmaṇi-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>20. The members of the assembly of <hi rend="bold">Kuḍavāyil</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>21. The members of the assembly of <hi rend="bold">Nā[lūr]</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>22. The members of the assembly of <hi rend="bold">[Iṅ]gaṇ</hi> in <hi rend="bold">I[ṅ]gaṇāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Kshatriyaśikhāmaṇi-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>23. The members of the assembly of <hi rend="bold">Ālattūr</hi> in <hi rend="bold">Tēvūr-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Kshatriyaśikhāmaṇi-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>24. The members of the assembly of <hi rend="bold">P[e]ruṅgaḍambūr</hi> in <hi rend="bold">[Aḷa-n]āḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Kshatriyaśikhāmaṇi-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>25. The members of the assembly of <hi rend="bold">Pāpp[ā]rkuḍi</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>26. The members of the assembly of <hi rend="bold">Porundambo[ndai]</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>27. The members of the assembly of <hi rend="bold">Koṭṭ[ā]rakkuḍi</hi> in <hi rend="bold">Paṭṭiṉa-kūṟṟam</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Kshatriyaśikhāmaṇi-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>28. The members of the assembly of <hi rend="bold">Tirukka[ṇṇa]ṅguḍi</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>29. The members of the assembly of <hi rend="bold">Kaḷḷūr</hi>, <hi rend="italic">alias</hi> <hi rend="bold">[Śa]ṉṉamaṅgalam</hi>, in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>30. The members of the assembly of <hi rend="bold">Ma[ru]gal</hi> in <hi rend="bold">Ma[ru]gal-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Kshatriyaśikhāmaṇi-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>31. The members of the assembly of <hi rend="bold">[I] • • • k[kuḍi]</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>32. The members of the assembly of <hi rend="bold">[Pū]da[ṉū]r</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>33. The villagers of <hi rend="bold">Vai[p]pūr</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>34. The villagers of <hi rend="bold">[Ta]ñjāvūr</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>35. The members of the assembly of <hi rend="bold">[Ā]ḍiyappimaṅgalam</hi> in <hi rend="bold">Tiruvārūr-kūṟṟam</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Kshatriyaśikhāmaṇi-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>36. The members of the assembly of <hi rend="bold">Rāja[ma]lla-chaturvēdimaṅgalam</hi> in <hi rend="bold">[V]ēḷā-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Kshatriyaśikhāmaṇi-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>37. The villagers of <hi rend="bold">Pe[ru]m[b]ōṛ</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>38. The members of the assembly of <hi rend="bold">Pugalō[ga]māṇikka-chaturvēdimaṅgalam</hi> in <hi rend="bold">Paṉaiyūr-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Kshatriyaśikhāmaṇi-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>39. The members of the assembly of <hi rend="bold">Taṇḍa[ttō]ṭṭam</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Mummaḍi-Śōṛachaturvēdimaṅgalam</hi>, in <hi rend="bold">[Tiru]naṟ[aiyū]r-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Uyyakkoṇḍāṉvaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>40. The members of the assembly of <hi rend="bold">Pā[mbu]ram</hi> in <hi rend="bold">Pāmbura-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Uyyakkoṇḍāṉ-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>41. The members of the assembly of <hi rend="bold">Ka[ḍ]ai[k]kuḍi</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>42. The villagers of <hi rend="bold">[Nal]lāvūr</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>43. The villagers of <hi rend="bold">[Adiya]raiyakuṟumbal</hi> in <hi rend="bold">[A]mbar-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Uyyakkoṇḍāṉ-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>44. The villagers of <hi rend="bold">Nallaṛundūr</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>45. The villagers of <hi rend="bold">Ma[ru]davūr</hi> in <hi rend="bold">Ma[ru]gal-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Uyyakkoṇḍāṉ-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>46. The members of the assembly of <hi rend="bold">Tiru[ma]ṛa[lai]</hi> in <hi rend="bold">Veṇṇāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Uyyakkoṇḍāṉ-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>47. The members of the assembly of <hi rend="bold">Vaigal</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Vāṉavaṉmahādēvi-chaturvēdimaṅgalam</hi>, in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>48. The members of the assembly of <hi rend="bold">Tirun[ā]llam</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>49. The villagers of <hi rend="bold">Karu[vi]li</hi> in the same <hi rend="italic">nāḍu</hi> have to supply two temple watchmen.</p>
+
+<p>50. The villagers of <hi rend="bold">Vaya[lū]r</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>51. The members of the assembly of <hi rend="bold">Śāttaṉū[r]</hi> in <hi rend="bold">Ti[r]ai[mū]r-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Uyyakkoṇḍāṉ-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>52. The members of the assembly of <hi rend="bold">Akkaḷūr</hi> in <hi rend="bold">Tiruvaṛu[ndū]r-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Uyyakkoṇḍāṉ-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>53. The villagers of <hi rend="bold">Ayiṟkāḍu</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>54. The members of the assembly of <hi rend="bold">[Viḷai]nagar</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Nittaviṉōda-chaturvēdimaṅgalam</hi>, in <hi rend="bold">Viḷai-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Uyyakkoṇḍāṉ-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>55. The members of the assembly of <hi rend="bold">Perumuḷai</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>56. The members of the assembly of <hi rend="bold">[Paṟiyalū]r</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>57. The villagers of <hi rend="bold">[Ti]r[aimūr]</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>58. The members of the assembly of <hi rend="bold">Rājēndrasiṁha-chaturvēdimaṅgalam</hi> in <hi rend="bold">Ā[kkūr]-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Uyyakkoṇḍāṉ-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>59. The members of the assembly of <hi rend="bold">[Ti]ruk[kaḍavūr]</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>60. The members of the assembly of <hi rend="bold">Ta[lai]chchaṅgāḍu</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>61. The members of the assembly of <hi rend="bold">Taḷichch[ē]ri</hi>, <hi rend="italic">alias</hi> <hi rend="bold">[Pa]rākrama-Śōṛachaturvēdimaṅgalam</hi>, in <hi rend="bold">[Ku]ṟu[mbūr]-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Uyyakkoṇḍāṉvaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>62. The members of the assembly of <hi rend="bold">Iṟaiyāṉśēri</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>63. The members of the assembly of <hi rend="bold">Ti[ruviḍ]aikkaṛi</hi>, a <hi rend="italic">dēvadāna</hi> in the same <hi rend="italic">nāḍu</hi> have to supply three temple watchmen.</p>
+
+<p>64. The villagers of <hi rend="bold">Neḍuṅgāḍu</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>65. The members of the assembly of <hi rend="bold">[Ga]ṇḍarāditya-chaturvēdimaṅgalam</hi> in <hi rend="bold">Poygai-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply two temple watchmen.</p>
+
+<p>66. The members of the assembly of <hi rend="bold">Perum[bu]liyūr</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>67. The members of the assembly of <hi rend="bold">Pārthivaśēkha[ra]-chaturvēdimaṅgalam</hi> in <hi rend="bold">[Mi]ṟai-kūṟṟam</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>68. The members of the assembly of <hi rend="bold">Kavaiya[t]talai</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Paṇḍita-Śōṛachaturvēdimaṅgalam</hi>, in <hi rend="bold">A[ṇḍ]āṭṭu-kūṟṟam</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁhavaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>69. The villagers of <hi rend="bold">Śattimaṅgalam</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>70. The members of the assembly of <hi rend="bold">Paṛaiya-Vāṉavaṉmahādēvi-chaturvēdimaṅgalam</hi> in <hi rend="bold">Iṉṉambar-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>71. The members of the assembly of <hi rend="bold">Aśugūr</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>72. The members of the assembly of <hi rend="bold">Koṭṭaiyūr</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>73. The inhabitants of <hi rend="bold">Ēr</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Mum[ma]ḍi-Śōṛamaṅgalam</hi>, in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>74. The members of the assembly of <hi rend="bold">[Śrī]-Parāntaka-chaturvēdimaṅgalam</hi> in the same <hi rend="italic">nāḍu</hi> have to supply two temple watchmen.</p>
+
+<p>75. The members of the assembly of <hi rend="bold">Ś[ēy]nallūr</hi> in <hi rend="bold">[Miṛalai-nāḍu]</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>76. The members of the assembly of <hi rend="bold">Emanallūr</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Trailōkyamahādēvichaturvēdimaṅgalam</hi>, in <hi rend="bold">Maṇṇi-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>77. The members of the assembly of <hi rend="bold">Ve[mba]ṟṟūr</hi>, <hi rend="italic">alias</hi> <hi rend="bold">[A]vaṉinārāyaṇa-chaturvēdimaṅgalam</hi>, in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>78. The members of the assembly of <hi rend="bold">Iḍavai</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>79. The members of the assembly of <hi rend="bold">Paṉandā[ḍi]</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>80. The members of the assembly of <hi rend="bold">Kāṭṭūr</hi> in <hi rend="bold">Viḷattūr-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>81. The members of the assembly of <hi rend="bold">O • • • • • r</hi> in <hi rend="bold">Kār-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>82. The members of the assembly of <hi rend="bold">Śrī-Vī[ran]ārā[yaṇa-cha]turvēdimaṅgalam</hi>, a free village (<hi rend="italic">? taṉiyūr</hi>), have to supply six temple watchmen.</p>
+
+<p>83. The members of the assembly of <hi rend="bold">Kuṟukkai</hi> in <hi rend="bold">Kuṟukkai-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>84. The members of the assembly of <hi rend="bold">Kāvirimaṅgalam</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>85. The members of the assembly of <hi rend="bold">Kāṭṭiyār-brahmadēyam</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>86. The members of the assembly of <hi rend="bold">[Vara]gūr</hi> in the same <hi rend="italic">nāḍu</hi> have to supply • • temple watchman.</p>
+
+<p>87. The members of the assembly of <hi rend="bold">Kaḍa[laṅ]guḍi</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>88. The members of the assembly of <hi rend="bold">[Ma]l[likuḍi]</hi> in <hi rend="bold">[Tiruvā]li-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>89. The members of the assembly of <hi rend="bold">Tiruvāli</hi> in the same <hi rend="italic">nāḍu</hi> have to supply • • temple watchman.</p>
+
+<p>90. The members of the assembly of • • • in <hi rend="bold">Tiru[vin]daḷūr-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>91. The members of the assembly of <hi rend="bold">[Tiru]naṉṟiyūr</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>92. The members of the assembly of <hi rend="bold">Māṟa[piḍugudēvi]-chaturvēdimaṅgalam</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>93. The villagers of <hi rend="bold">[Kañjāṟanagar]</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>94. The members of the assembly of <hi rend="bold">Peruṅga[ṇ]būr</hi> in <hi rend="bold">Ve[ṇṇai]yūr-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>95. The members of the assembly of <hi rend="bold">Mā[dula]vēḷūr</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>96. The members of the assembly of <hi rend="bold">• • • ttūr</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>97. The members of the assembly of <hi rend="bold">Veḷḷūr</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>98. The members of the assembly of <hi rend="bold">Śōdiya[kku]ḍi</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>99. The members of the assembly of <hi rend="bold">U[d]aiyādi[tya-chaturv]ēdimaṅgalam</hi> in <hi rend="bold">Tirukkaṛuma[la-nāḍu]</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>100. The members of the assembly of <hi rend="bold">Tirukkaṛumalam</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>101. The members of the assembly of <hi rend="bold">Tēṉūr</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>102. The members of the assembly of <hi rend="bold">Nāṅgūr</hi> in <hi rend="bold">Nāṅgūr-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply two temple watchmen.</p>
+
+<p>103. The members of the assembly of <hi rend="bold">Kuṉṟam</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>104. The members of the assembly of <hi rend="bold">Ma[ru]dūr</hi> in the same <hi rend="italic">nāḍu</hi> have to supply one temple watchman.</p>
+
+<p>105. The members of the assembly of <hi rend="bold">Perundōṭṭam</hi> in <hi rend="bold">Adigaimaṅgai-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply two temple watchmen.</p>
+
+<p>106. The members of the assembly of <hi rend="bold">Pañchavaṉmahādēvi-chaturvēdimaṅgalam</hi> in <hi rend="bold">Koṇḍa-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply two temple watchman.</p>
+
+<p>107. The members of the assembly of <hi rend="bold">Kumarāditya-chaturvēdimaṅgalam</hi> in <hi rend="bold">Ne[luvū]r-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>108. The members of the assembly of <hi rend="bold">Nayadīramaṅgalam</hi> in <hi rend="bold">Piḍavūr-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>109. The members of the assembly of <hi rend="bold">Jayaṅ[k]o[ṇ]ḍa-Śōṛachaturvēdimaṅgalam</hi> in <hi rend="bold">Veśālip[pā]ḍi</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>110. The members of the assembly of <hi rend="bold">Vaḷavaṉmahādēvichaturvēdimaṅgalam</hi> in <hi rend="bold">I[ru]ṅgoḷappāḍi</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>111. The members of the assembly of <hi rend="bold">Mahē[ndra]maṅgalam</hi> in <hi rend="bold">Mīmalai</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājāśraya-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>112. The members of the assembly of <hi rend="bold">Tiruveḷḷaṟai</hi> in <hi rend="bold">Vaḍa[vaṛi]-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājāśraya-vaḷanāḍu</hi>, have to supply two temple watchmen.</p>
+
+<p>113. The members of the assembly of <hi rend="bold">Perumarudūr</hi> in <hi rend="bold">Kīṛ-Palāṟu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Pāch[chi]ṟ-kūṟṟam</hi> in <hi rend="bold">Rājāśraya-vaḷanāḍu</hi>, have to supply one temple watchman.</p>
+
+<p>114. <hi rend="italic">Pōyīḍu</hi>.<note n="338-1">The same three obscure syllables are found at the beginning of the continuation of this inscription on page 227, where I had been unable to make them out owing to the injured condition of the stone, and had transcribed them as <ta>po • [<hi rend="grantha">śrī</hi>]</ta>. Though the meaning of the word <hi rend="italic">pōyīḍu</hi> is unknown, its occurrence in both places suggests that it is meant for a cross reference from the last paragraph of No. 70 to the first paragraph of No. 57.</note> As the space at this spot is not sufficient, the portion which is missing here, was engraved on stone to the south of the sacred gate of <hi rend="bold">Rājarāja</hi>, to the north of the shrine of <hi rend="bold">A[gnid]ēva</hi>, on the lower portion (?), on the east wall of the enclosure (?), commencing from the northern • • • </p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 2.70 by <bibl><ptr target="bib:Hultzsch1895_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Hultzsch1895_01"/>
+			<citedRange unit="page">328-338</citedRange>
+			<citedRange unit="item">70</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

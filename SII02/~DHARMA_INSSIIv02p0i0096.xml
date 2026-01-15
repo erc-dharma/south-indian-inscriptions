@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 2.96: original edition by V. Venkayya</title>
+				<title type="alt">No. 96. IN THE SECOND GOPURA OF THE TEMPLE, RIGHT OF ENTRANCE. No. 23 of 1897.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv02p0i0096</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The subjoined inscription is dated in the 3rd year of the reign of <hi rend="bold">Tribhuvanachakravartin Rājarājadēva</hi>, <hi rend="italic">i.e.</hi> <hi rend="bold">Rājarāja</hi> III. It does not record any gift, but registers a political compact entered into by three chiefs of the <hi rend="bold">Chōḷa</hi> country to be faithful to the king and to stand by each other. The compact shows that the <hi rend="bold">Chōḷa</hi> country was disturbed, perhaps by internal dissensions and that the <hi rend="bold">Chōḷa</hi> capital <hi rend="bold">Tanjore</hi> was not free from them. As this is dated in the 3rd year of <hi rend="bold">Rājarāja</hi> III., it may be presumed that the <hi rend="bold">Chōḷa</hi> country became disturbed already towards the end of the reign of <hi rend="bold">Kulōttuṅga</hi> III. Two such compacts belonging to about the same period are registered at <hi rend="bold">Śeṅgama</hi> in the South Arcot District.<note n="497-2">See the <hi rend="italic">Annual Report</hi> on Epigraphy for 1899-00, paragraphs 32 and 33.</note> </p>						
+
+						<p>By <hi rend="bold">Ulaguḍaiya-Nāyaṉār Śrīpādam</hi> (l. 13 f. and 17 f.) <hi rend="bold">Rājarāja</hi> III. is probably meant.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha"><unclear>svasti śrī</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <unclear>tri</unclear>bhu</hi>va<unclear>na</unclear>ccakkarava[ ttikaḷ <hi rend="grantha">śrīrā*</hi>]
+<lb n="2" break="no"/><hi rend="grantha">jarājade</hi><unclear>var</unclear>kku yāṇṭu 3ḷ pā<unclear>ṇ</unclear><supplied reason="omitted">ṭikulā</supplied>
+<lb n="3" break="no"/>caṉivaḷanāṭṭu<unclear>p</unclear>puṟakkiḷi<unclear>yūr</unclear>nā<supplied reason="omitted">ṭṭuk</supplied>
+<lb n="4" break="no"/>kaḷḷikku<unclear>ṭi</unclear>kkaḷḷikkuṭai<unclear>y</unclear>āṉ <unclear>va</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="5"/>periyānā<unclear>na</unclear> kulottuṅ<unclear>ka</unclear>co<supplied reason="omitted">ḻamāra</supplied>
+<lb n="6" break="no"/>āyaṉum nittaviṉotava<unclear>ḷa</unclear>nāṭ<supplied reason="omitted">ṭukki</supplied>
+<lb n="7" break="no"/>ḻāṟkūṟṟattukkiḷimaṅka<unclear>lat</unclear>tuk<supplied reason="omitted">kiḷimaṅ</supplied>
+<lb n="8" break="no"/>kalamuṭaiyān karuṇāka<unclear>ra</unclear>nni <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="9"/>ṉṟānāna kulottuṅka<unclear>c</unclear>oḻa <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="10"/>ṉma<unclear>mārā</unclear>yaṉum Ivviruvo<supplied reason="omitted">m nā</supplied>
+<lb n="11" break="no"/>ṅkaḷ Uṭaiyār <hi rend="grantha">rājar<unclear>ā</unclear>ja</hi>ī[ <hi rend="grantha">śvara</hi>mu*]
+<lb n="12" break="no"/>ṭaiyār koyilil kalveṭṭiṉapa<unclear>ṭi</unclear>yāvatu [<g type="ddanda">.</g><g type="dashLong">.</g> nāṅka*]
+<lb n="13" break="no"/>ḷ Iraṇṭu tiṟattomum Ulaku<unclear>ṭ</unclear>aiyaṉā<supplied reason="omitted">yaṉāā</supplied>
+<lb n="14"/><hi rend="grantha">śrī</hi>pātattukku cuttamalivaḷan<unclear>ā</unclear>ṭṭu ve<unclear>ṇ</unclear><supplied reason="omitted">ṇikkū</supplied>
+<lb n="15" break="no"/>ṟṟattucciṟumaṅkalattucciṟumaṅkala<supplied reason="omitted">muṭai</supplied>
+<lb n="16" break="no"/>yān vannikoḷariyāṉa kulottuṅ<supplied reason="omitted">ka co</supplied>
+<lb n="17" break="no"/>ḻapperayaṉum Immuvomum Ula<supplied reason="omitted">kuṭaiya</supplied>
+<lb n="18" break="no"/>nāyanār <hi rend="grantha">śrī</hi>pātam piḻ<hi rend="grantha">ai</hi>yā<unclear>mai</unclear>niṉ <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="19"/><unclear>ce</unclear>y<unclear>ta</unclear> Eṅkaḷ pak<hi rend="grantha">ai</hi>kaḷ E<unclear>ṟi</unclear>nta <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="20"/>kkaṭavomākavu<unclear>m</unclear> E<unclear>ṅkaḷila</unclear> O<supplied reason="omitted">ruvaṉuk</supplied>
+<lb n="21" break="no"/>ku vanta pak<hi rend="grantha">ai</hi> muv<unclear>omukkum pa</unclear><supplied reason="omitted">kai Āva</supplied>
+<lb n="22" break="no"/>tākavum Oruvarkku va<unclear>nta</unclear> <supplied reason="omitted">Uṟavu muvarkku</supplied>
+<lb n="23" break="no"/>m Uṟavāvutākavum <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="24"/>kku <unclear>O</unclear>ruvom <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="25"/>ṟ<hi rend="grantha">ai</hi>yākkum va <gap reason="lost" quantity="1" unit="character"/> laya <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="26"/>tānatarmma<unclear>n</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="27"/>m maṇāṭṭimā <gap reason="lost" quantity="4" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Venkayya1913_01">
+
+<p>Hail! Prosperity! In the 3rd year<note n="498-1">The syllable <ta>ḷ</ta> added after the figure 3 has probably to be taken as an abbreviation of the word <ta>nāḷ</ta> which must mean ‘time’, as the number of the day of the year is not specified.</note> (<hi rend="italic">of the reign</hi>) of the emperor of the three worlds, the [glorious <hi rend="bold">Rā</hi>]<hi rend="bold">jarājadēva</hi>, we two,—(<hi rend="italic">viz.</hi>) <hi rend="bold">Kaḷḷikkuḍaiyāṉ<note n="498-2">See my remarks on p. 459 above, note 1.</note> Va • • Periyāṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Kulōttuṅga-Śō[ṛa-Mārā]yaṉ</hi> of <hi rend="bold">Kaḷḷikkuḍi</hi> in <hi rend="bold">Puṟakkiḷiyūrnāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Pāṇ[ḍyakulā]śani-vaḷanāḍu</hi> and <hi rend="bold">[Kiḷimaṅ]galamuḍaiyāṉ Karuṇākaraṉ</hi>• • • • <hi rend="italic">alias</hi> <hi rend="bold">Kulōttuṅga-Śōṛa • nma-mārāyaṉ</hi> of <hi rend="bold">Kiḷimaṅgalam</hi> in <hi rend="bold">[Ki]ṛār-kūṟṟam</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Nittavinōda-vaḷanāḍu</hi>,— engraved the following (agreement) on stone in the temple of the lord <hi rend="bold">Rājarāja-Ī[śvaramu]ḍaiyār:</hi>—[We] of both parties and <hi rend="bold">Śiṟumaṅgala[muḍai]yāṉ Vanni-Kōḷari</hi> <hi rend="italic">alias</hi> <hi rend="bold">Kulōttuṅ[ga-Śō]ṛa-pērayaṉ</hi> of <hi rend="bold">Śiṟumaṅgalam</hi> in <hi rend="bold">Veṇ[ṇi-kū]ṟṟam</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Śuttamali-vaḷanāḍu</hi>—these three of us will not disobey His Majesty <hi rend="bold">Ulaguḍaiya-Nā[yaṉār]<note n="498-3">The words <ta>ulakuṭaiya nāyaṉār <hi rend="grantha">śrī</hi>pātam</ta> are repeated unnecessarily in l. 17f. What remains of ll. 18 and 19 does not furnish any complete sentence.</note> • • • • • </hi> (LI. 19-23) • • • our enemies • • • one who becomes an enemy of (<hi rend="italic">any</hi>) one of us shall be the enemy of (<hi rend="italic">all</hi>) three of us; and one who becomes a friend of (<hi rend="italic">any</hi>) one (<hi rend="italic">of us</hi>) shall be the friend of (<hi rend="italic">all</hi>) three (<hi rend="italic">of us</hi>).</p>
+
+<p>[The rest of the inscription is too fragmentary to be translated.]</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 2.96 by <bibl><ptr target="bib:Venkayya1913_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Venkayya1913_01"/>
+			<citedRange unit="page">497-498</citedRange>
+			<citedRange unit="item">96</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

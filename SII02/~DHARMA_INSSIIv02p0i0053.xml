@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 2.53: original edition by Eugen Julius Theodor Hultzsch</title>
+				<title type="alt">No. 53. ON A PILLAR OF THE NORTH ENCLOSURE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv02p0i0053</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription records the setting-up of a copper image of <hi rend="bold">Patañjalidēva</hi>, who was represented as half man and half snake, before the 29th year of the reign of <hi rend="bold">Rājarājadēva</hi>. The donor was one of the queens of the latter, whose name is obliterated, but, with the help of the inscription No. 51, may be restored as <hi rend="bold">Pañchavaṉ-mahādēvī</hi>.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<!--<h4><hi rend="italic">South face</hi>.</h4>-->
+
+<p>
+<lb n="1"/><hi rend="grantha"><unclear>svasti</unclear> śrī<unclear>ḥ</unclear></hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <unclear>Uṭai</unclear>
+<lb n="2" break="no"/><unclear>yā</unclear>r <hi rend="grantha">śrī<unclear>rājarājade</unclear></hi>
+<lb n="3" break="no"/><unclear>va</unclear>r na<unclear>mpi</unclear>rāṭ<unclear>ṭiyār pa</unclear>
+<lb n="4" break="no"/><unclear>ñca</unclear>va<unclear>ṉ</unclear><hi rend="grantha">mahāde<unclear>vi</unclear></hi>
+<lb n="5" break="no"/><unclear>y</unclear>ār <hi rend="grantha">śrīrā<unclear>ja</unclear>rājī<unclear>śva</unclear></hi>
+<lb n="6" break="no"/><hi rend="grantha"><unclear>ra</unclear>m</hi> U<unclear>ṭ</unclear>aiyār <unclear>koyili</unclear>
+<lb n="7" break="no"/><unclear>l y</unclear>āṇṭu Iru<unclear>pat</unclear>t<unclear>o</unclear>
+<lb n="8" break="no"/>ṉpatāvatu varai <unclear>E</unclear>
+<lb n="9" break="no"/>ḻuntaruḷuvitta ce<unclear>p</unclear>
+<lb n="10" break="no"/>puttirumeṉi <unclear>U</unclear>ṭ<unclear>ai</unclear>
+<lb n="11" break="no"/><unclear>y</unclear>ār koyilil mu<unclear>ḻa</unclear>
+<lb n="12" break="no"/><unclear>t</unclear>tāl Aḷa<unclear>n</unclear>tu<unclear>m</unclear>
+<lb n="13"/><unclear>p</unclear>oṉ Āṭavall<unclear>ā</unclear>
+<lb n="14" break="no"/><unclear>ṉ</unclear> E<unclear>ṉṉu</unclear>ṅka<unclear>llā</unclear>
+<lb n="15" break="no"/><unclear>l</unclear> niṟai Eṭuttu<unclear>ṅ</unclear>
+<lb n="16" break="no"/><unclear>ka</unclear>llil veṭṭi<unclear>ṉapa</unclear>
+<lb n="17" break="no"/>ṭi <g type="ddanda">.</g><g type="dashLong">.</g>] <hi rend="grantha"><supplied reason="omitted">1</supplied> pucchā<unclear>di</unclear>pha<unclear>ṇā</unclear></hi>
+<lb n="18" break="no"/><hi rend="grantha"><unclear>nta</unclear>m</hi> Oṉṟe<unclear>y</unclear> <supplied reason="omitted">mukkā</supplied>
+<lb n="19" break="no"/>le Araikkā<unclear>l</unclear> <supplied reason="omitted">muḻa</supplied>
+<lb n="20" break="no"/>ucarattu Aiñcu <hi rend="grantha">[pha</hi>ṇa<hi rend="grantha">]</hi>
+<lb n="21" break="no"/>mum In=ta<hi rend="grantha"> pha</hi>ṇattiṉ U
+<lb n="22" break="no"/>ḷḷāl <hi rend="grantha">mukham</hi> Oṉṟu
+<lb n="23" break="no"/>m <hi rend="grantha">maku</hi>ṭa<hi rend="grantha">m</hi> Oṉṟum <hi rend="grantha">śrī</hi>
+<lb n="24" break="no"/><hi rend="grantha">hastam</hi> Iraṇṭum U
+<lb n="25" break="no"/>ṭaiyarāy nā<hi rend="grantha">bhi</hi>kku me
+<lb n="26" break="no"/>l <hi rend="grantha">puruṣākāra</hi>māy nā
+<lb n="27" break="no"/><hi rend="grantha">bhi</hi>kkukkīḻ mūṉṟu cu
+</p>
+
+<!--<h4><hi rend="italic">East face</hi>.</h4>-->
+
+<p>
+<lb n="28" break="no"/><supplied reason="omitted">ṟ</supplied>ṟuppeḻai ce<unclear>y</unclear>
+<lb n="29" break="no"/><supplied reason="omitted">tu</supplied> koṭu<note n="219-1">See page 21, note 1.</note> Iruntārākakkaṉa
+<lb n="30" break="no"/><unclear>m</unclear>āka Eḻuntaruḷuvit
+<lb n="31" break="no"/><unclear>ta</unclear><hi rend="grantha">śrīpa</hi>ta<hi rend="grantha">ñcalide</hi>var<note n="219-2">Read <hi rend="grantha">pa</hi>ta<hi rend="grantha">ñjali</hi>.</note> 
+<lb n="32"/><unclear>tiru</unclear>meṉi Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">2</supplied></hi>
+<lb n="33"/><hi rend="grantha"><unclear>ra</unclear>tnanyāsa</hi>ñceytu
+<lb n="34"/><unclear>I</unclear>var Eḻuntaruḷi I
+<lb n="35" break="no"/><unclear>ru</unclear>nta Oṉpatiṟṟu vi
+<lb n="36" break="no"/><unclear>ra</unclear>larai Ucarattu mūṉ
+<lb n="37" break="no"/><unclear>ṟ</unclear>ey mukkā<unclear>l</unclear>e <unclear>A</unclear>
+<lb n="38" break="no"/><unclear>r</unclear>aikkāl muḻaccu
+<lb n="39" break="no"/><unclear>ṟ</unclear>ṟil <hi rend="grantha">patmāsa</hi>na<hi rend="grantha">m</hi><note n="219-3">Read <hi rend="grantha">padmāsa</hi>na<hi rend="grantha">m</hi>.</note> o
+<lb n="40" break="no"/><unclear>ṉ</unclear>ṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">3</supplied></hi> Ivaraikkavi
+<lb n="41" break="no"/><unclear>tta</unclear> nāṉmuḻaccuṟṟi
+<lb n="42" break="no"/><unclear>ṟka</unclear>ṉamākacceyta
+<lb n="43"/><hi rend="grantha"><unclear>pra</unclear>bhai</hi> Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">4</supplied></hi>
+<lb n="44"/><unclear>Iva</unclear>rkkukkuṭuttaṉa <hi rend="grantha"><supplied reason="omitted">5</supplied></hi>
+<lb n="45"/><unclear>tirup</unclear>poṟpū Oṉṟu
+<lb n="46"/><unclear>po</unclear>ṉ Irukaḻañcā
+<lb n="47" break="no"/><unclear>ka I</unclear>rupattiraṇṭinā
+<lb n="48" break="no"/>ṟpoṉ nāṟpattu
+<lb n="49"/>nāṟkaḻañcu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">6</supplied></hi> tirumaka
+<lb n="50" break="no"/>ram Oraṇaiyināṟ
+<lb n="51" break="no"/>poṉ kaḻañcey
+<lb n="52"/>mukkāle nālu mañ
+<lb n="53" break="no"/>cāṭi <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">7</supplied></hi> tirukkaiykkā
+<lb n="54" break="no"/>ṟai Oṉṟu poṉ
+</p>
+
+<!--<h4><hi rend="italic">North face</hi>.</h4>-->
+
+<p>
+<lb n="55"/>nāṟkaḻañcey mu
+<lb n="56" break="no"/>kkāle Iraṇṭu ma
+<lb n="57" break="no"/>ñcāṭiyuṅkuṉṟi <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">8</supplied></hi>
+<lb n="58"/>tirukkaiykkāṟai
+<lb n="59"/>Oṉṟu poṉ Ai
+<lb n="60" break="no"/>ṅkaḻañcu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">9</supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Hultzsch1892_01">
+
+<p>1. Hail ! Prosperity ! The following copper image,—which had been set up in the temple of the lord <hi rend="bold">Śrī-Rājarājēśvara</hi> until the twenty-ninth year (<hi rend="italic">of the king's reign</hi>) by <hi rend="bold">[Pañcha]va[ṉ]-mahādēvī</hi>, the consort of our lord <hi rend="bold">Śrī-[Rājarājadēva]</hi>,—was engraved on stone, after it had been measured by the cubit measure (<hi rend="italic">preserved</hi>) in the temple of the lord, and after the gold (<hi rend="italic">given to it</hi>) had been weighed by the stone called (<hi rend="italic">after</hi>) <hi rend="bold">Āḍavallāṉ:</hi>—</p>
+
+<p>2. One solid image of <hi rend="bold">Śrī-Patañjalidēva</hi>, (<hi rend="italic">measuring</hi>) one, [three] quarters and one eighth [of a <hi rend="italic">muṛam</hi>] in height from the tail to the hoods (<hi rend="italic">phaṇa</hi>). It had five hoods, in the midst of these hoods one face, one crown (<hi rend="italic">makuṭa</hi>), two divine arms, above the navel a human body, and below the navel three coils.<note n="220-1"><ta>cuṟṟuppēḻai</ta> seems to correspond to the Sanskrit <hi rend="italic">bhōga</hi>.</note> </p>
+
+<p>3. One lotus-seat (<hi rend="italic">padmāsana</hi>) on which this (<hi rend="italic">image</hi>) rested, set with jewels (<hi rend="italic">and measuring</hi>) nine <hi rend="italic">viral</hi> and a half in height, and three, three quarters and one eighth of a <hi rend="italic">muṛam</hi> in circumference.</p>
+
+<p>4. One solid aureola, covering this (<hi rend="italic">image and measuring</hi>) four <hi rend="italic">muṛam</hi> in circumference.</p>
+
+<p>5. To this (<hi rend="italic">image</hi>) were given:—</p>
+
+<p>6. Twenty-two sacred gold flowers, consisting of forty-four <hi rend="italic">kaṛañju</hi> of gold,—each (<hi rend="italic">consisting of</hi>) two <hi rend="italic">kaṛañju</hi> of gold.</p>
+
+<p>7. One pair of sacred (<hi rend="italic">ear-rings in the shape of a) makara,</hi><note n="220-2">According to Bo7htlingk and Roth's <hi rend="italic">Sanskrit-Wo7rterbuch, makara</hi> alone is used in the sense of <hi rend="italic">makarakuṇḍala</hi>.</note> consisting of (<hi rend="italic">one) kaṛañju</hi> and three quarters and four <hi rend="italic">mañjāḍi</hi> of gold.</p>
+
+<p>8. One sacred arm-ring, (<hi rend="italic">consisting of</hi>) four <hi rend="italic">kaṛañju</hi> and three quarters, two <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold.</p>
+
+<p>9. One sacred arm-ring, (<hi rend="italic">consisting of</hi>) five <hi rend="italic">kaṛañju</hi> of gold.</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 2.53 by <bibl><ptr target="bib:Hultzsch1892_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Hultzsch1892_01"/>
+			<citedRange unit="page">218-220</citedRange>
+			<citedRange unit="item">53</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

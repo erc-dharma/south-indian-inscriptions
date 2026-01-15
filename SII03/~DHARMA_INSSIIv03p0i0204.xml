@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.204: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 204.—ON THE NORTH WALL OF THE CENTRAL SHRINE IN THE NAGESVARASVĀMIN TEMPLE AT KUMBAKONAM. No. 225 of 1911.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0204</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is dated in the 5th year of <hi rend="bold">Parakēsarivarman</hi> who took the head of the <hi rend="bold">Pāṇḍya</hi> king and records a gift of gold by a female-servant of the palace, who was living in the quarter of <hi rend="bold">Tañjāvūr</hi> called <hi rend="bold">Paḻaiya-vēḷam</hi>, for feeding a <hi rend="italic">śivayōgin</hi> in the temple of <hi rend="bold">Tirukkīḻ-kōṭṭam</hi> in <hi rend="bold">Tirukkuḍamūkkil</hi>. The names <hi rend="bold">Tirukkuḍamūkkil</hi> and <hi rend="bold">Tirukkīḻ-kōṭṭam</hi> occur in the <hi rend="italic">Dēvāram</hi> and refer respectively to <hi rend="bold">Kumbakōṇam</hi> and the <hi rend="bold">Nāgēśvara</hi> temple. <hi rend="italic">Śivayōgin</hi> is a technical term and is explained in a recent commentary on the <hi rend="italic">Kriyākramadyōtikā</hi> as the name of a Śaiva worshipper who “at the approach of death bathes his body in ashes, utters certain Śaiva <hi rend="italic">mantras</hi> and worships the <hi rend="italic">liṅga</hi> on his chest.”</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<note n="382-3">The <hi rend="italic">virāma</hi> or <hi rend="italic">puḷḷi</hi> is marked on some of the letters in this inscription.</note> 
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> pāṇṭiyaṉṟalaikoṇṭa k<unclear>o</unclear>
+<lb n="2" break="no"/>ppa<note n="382-4">The letters ppa are written as a group.</note> rake<hi rend="grantha">sa</hi>riva<hi rend="grantha">nma</hi>ṟku <supplied reason="omitted">yā</supplied>ṇṭu 5 Āvatu vaṭakaraip
+<lb n="3" break="no"/>pāmpūrṉāṭṭu<unclear>t</unclear> tevatānam<note n="382-5">Read tirukkuṭa.</note> tirukkaṭamukkil tirukki
+<lb n="4" break="no"/><unclear>ḻ</unclear>kkoṭṭattu <hi rend="grantha">paramasvāmi</hi>koyilil Ut
+<lb n="5" break="no"/>tamā<hi rend="grantha">gram 1</hi> Oru kalam Uṇpatāka tañcāvūr kū
+<lb n="6" break="no"/>ṟṟattu tañcāvūr (paḻaya) paḻaiyaveḷat
+<lb n="7" break="no"/>tu peṇṭāṭṭi perayaṉ tiripuvaṉa
+<lb n="8" break="no"/>cuntari vaiytta poṉ <num value="85">8 <g type="numeral">10</g> 5</num> <unclear>pa</unclear>cukkum<note n="382-6">The word pacu perhaps stands for pacumpoṉ which means fine gold of greenish yellow.</note> 
+<lb n="9"/>viṟṟukkuṭutta nilamāvatu mulaparuṭaip
+<lb n="10"/>perumakkaḷom nāṅkaḷ <hi rend="grantha">Abhiṣekadatṣi</hi>
+<lb n="11" break="no"/>ṇa<note n="383-1">Read <hi rend="grantha">dakṣi</hi>ṇai.</note> peṟṟu Ipperumāḷukku viṟṟukkuṭut
+<lb n="12" break="no"/>ta melkāviri nilam Ivaṉukku viṟṟukku<supplied reason="omitted">ṭu</supplied>t
+<lb n="13" break="no"/>ta I<supplied reason="omitted">v</supplied>vaṟumā ceykkum kiḻpāl<unclear>ke</unclear>llai
+<lb n="14"/>kāṭaṉācca<supplied reason="omitted">ṉ</supplied> viḷakkukku vaitta nilattukku me
+<lb n="15" break="no"/>ṟkkum Ipperumāḷ nilattukkey vaṭakku
+<lb n="16" break="no"/>m Ipperumāṇilattukke kiḻakkum Eri<supplied reason="omitted">yi</supplied>
+<lb n="17" break="no"/>l Ellaivarampukkut teṟkum Āka Ivvā
+<lb n="18" break="no"/>ṟumācceyāl Oru <hi rend="grantha">śi</hi>vayo<hi rend="grantha">gi</hi>kku 5 kkaṟi
+<lb n="19" break="no"/>yum Oru piṭi neyyum vāḻaippaḻamum ca
+<lb n="20" break="no"/>ṟkka<supplied reason="omitted">r</supplied>aiyumiṭṭa tayirumaṭṭi <unclear>ca</unclear><hi rend="grantha">ntrāditya</hi>vaṟ
+<lb n="21"/>Uṇpatāka <g type="danda">.</g>
+</p>
+
+<translation>
+
+<h4 ignore="yes">TRANSLATION.</h4>
+
+<p>(Line 1.) Hail ! Prosperity ! In the 5th year (<hi rend="italic">of the reign</hi>) of king <hi rend="bold">Parakēsarivarman</hi> who took the head of the <hi rend="bold">Pāṇḍya</hi> (<hi rend="italic">king</hi>), <hi rend="bold">Pērayaṉ Tribhuvanasundari</hi>, a palace-woman (<hi rend="italic">peṇḍāṭṭi) (living</hi>) in the (<hi rend="italic">quarter called</hi>) <hi rend="bold">Paḻaiya-vēḷam</hi> at <hi rend="bold">Tañjāvūr</hi> in <hi rend="bold">Tañjāvūr-kūṟṟam</hi>, deposited 85 (<hi rend="italic">pieces</hi>) of superfine gold for feeding (<hi rend="italic">a śivayōgin</hi>) with one plate of sumptuous meal in the temple of the great lord of <hi rend="bold">Tirukkīḻ-kōṭṭam</hi> at <hi rend="bold">Tirukkuḍamūkkil</hi>, a <hi rend="italic">dēvadāna (village</hi>) in <hi rend="bold">Vaḍagarai Pāmbūr-nāḍu</hi>.</p>
+
+<p>(L. 8.) For this (<hi rend="italic">gold</hi>), we, the big men of the <hi rend="italic">mūlaparuḍai (assembly</hi>), sold to this lady the land in <hi rend="bold">Mēlkāviri</hi> which we had acquired as <hi rend="italic">abhishēkadakshiṇā</hi> and had (<hi rend="italic">already</hi>) sold to this god.</p>
+
+<p>(L. 13.) This six <hi rend="italic">mā</hi> of cultivable land whose eastern boundary was to the west of the land granted for a lamp by <hi rend="bold">Kāḍaṉ Āchchaṉ</hi>, to the north of the land of this same god, to the east of the land of this same god and to the south of the demarcation ridge in the tank,—this six <hi rend="italic">mā</hi> of cultivable land thus (<hi rend="italic">marked out</hi>) shall be utilised for feeding, till the moon and the sun (<hi rend="italic">endure</hi>), one <hi rend="italic">Śivayōgin</hi> with five vegetables, one <hi rend="italic">piḍi</hi> of ghee, plantain fruits, and curds sweetened with sugar.</p>
+
+</translation>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.204 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1920_01"/>
+			<citedRange unit="page">382-383</citedRange>
+			<citedRange unit="item">204</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

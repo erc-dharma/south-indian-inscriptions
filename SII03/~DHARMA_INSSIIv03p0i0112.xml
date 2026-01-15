@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.112: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 112.—ON THE NORTH WALL OF THE CENTRAL SHRINE IN THE ADIMULESVARA TEMPLE AT TIRUPPALATTURAI. No. 574 of 1908.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0112</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is again a record of <hi rend="bold">Rājakēsarivarman</hi> dated in his 8th year and is in some respects similar to the preceding number. It records that the assembly of <hi rend="bold">Uttamaśīlichaturvēdimaṅgalam</hi>, having received ten <hi rend="italic">kāśu</hi> as tax-money from <hi rend="bold">Tappildaram Pallavaraiyaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Kīḻmāndūr Paruvūr</hi>, the donor of No. 111 and a <hi rend="italic">perundaram</hi> of <hi rend="italic">āḷvār</hi> <hi rend="bold">Arikulakēsaridēva</hi>, made the land one <hi rend="italic">mā</hi> and odd, granted by him to the Śiva temple at <hi rend="bold">Tiruppaṇambūdūr</hi>, tax-free for all time to come. Like the previous inscription, this record also authorizes the imposition of a fine on the members and the accountants of the assembly who might suggest the levying of a tax on the land. The epithet <hi rend="italic">āḷvār</hi> which is applied to Arikulakēsaridēva in this inscription is perhaps a term of respect, as <hi rend="italic">piḷḷaiyār</hi> in the previous inscription was one of endearment.</p>						
+
+						<p>Of the names mentioned in the description of the boundaries, the pathway called <hi rend="bold">Kōdaṇḍarāmavadi</hi> may have been so named after <hi rend="bold">Kōdaṇḍarāma Rājāditya</hi>, the eldest son of king <hi rend="bold">Parāntaka</hi> I. or the latter's father <hi rend="bold">Āditya</hi> I.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha"><g type="danda">.</g>—svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kovi<hi rend="grantha">rājakesa</hi>riva<hi rend="grantha">rmma</hi><supplied reason="omitted">r</supplied>kku yāṇṭu 8 Āvatu teṉkarai <hi rend="grantha">brahma-</hi> teyam <hi rend="grantha">śrī</hi>
+<lb n="2" break="no"/>uttamacili<hi rend="grantha">cca</hi>tu<hi rend="grantha">rvvedi</hi>maṅ<unclear>ka</unclear>lattu peruṅkuṟi<hi rend="grantha">sabhai</hi>yom Ivvāṇṭu tiruppaṇampūtūr <hi rend="grantha">para</hi>
+<lb n="3" break="no"/><hi rend="grantha">meśvara</hi>r nilam Ivvūr Uṭkkuṟ<hi rend="grantha">ai</hi> viraṣrikāmuka<note n="248-2">The syllable ka is written below the line.</note> vatikku meṟku <hi rend="grantha">śrīde</hi>vi<unclear>v</unclear>ā<supplied reason="omitted">y</supplied>kkālukku teṟkku
+<lb n="4" break="no"/>m kiḻakkuniṉṟum 5 kaṇṇāṟṟukku vaṭakkuniṉṟum 1 catirattu parān=takavāy<supplied reason="omitted">kkālu</supplied>kku vaṭakku kota
+<lb n="5" break="no"/>ṇṭarāmavatikkuk kiḻakku noṭṭur Attoṇaccatu<hi rend="grantha">rvvedibha</hi>ṭṭamu<note n="248-3">Read <hi rend="grantha">bha</hi>ṭṭaṉu.</note> ḷḷiṭṭ<supplied reason="omitted">ār</supplied> catukkattukkuppaṭṭa pattā
+<lb n="6" break="no"/>m pā<unclear>ṭaka</unclear>ttukku teṟkku kaṇṇāṟṟukku meṟkku Innaṭupu<note n="248-4">Read naṭuvu.</note> paṭṭa nila<supplied reason="omitted">m</supplied> mikutikkuṟ<hi rend="grantha">ai</hi>vu
+<lb n="7"/>Uḷḷaṭaṅka Orumācciṉṉa nilattukkum Iṟaikāvalāka Āḷvār Arikulake <hi rend="grantha">ride</hi>
+<lb n="8" break="no"/>varuṭaiya peruntarattu tappiltaram pallavaraiyaṉāṉa kiḻmāntūr <unclear>pa</unclear>ruvū
+<lb n="9" break="no"/>r pakkal <hi rend="grantha">sabhai</hi>yo<hi rend="grantha">m</hi> pattukkācu koṇṭu Ivvorumācciṉṉa nilamum I
+<lb n="10" break="no"/>ṟaiyiḻiccu can<hi rend="grantha">trā</hi>tittaval I<supplied reason="omitted">n</supplied>nilam Iṟaiyiliyākap paṇiccu<note n="248-5">Read <hi rend="grantha">śilā</hi>.</note> <hi rend="grantha">ś</hi>lālekai
+<lb n="11"/>ceytukuṭuttom peruṅkuṟi<hi rend="grantha">sabhai</hi>yom <supplied reason="undefined"><g type="ddanda">.</g></supplied> I<supplied reason="omitted">n</supplied>nilam Iṟaik<unclear>oḷḷa</unclear>ppaṇi<unclear>ccā</unclear><note n="248-6">The syllables ccā seem to be corrected from other letters.</note> 
+<lb n="12" break="no"/>raiyum Iṟaikāṭṭiṉāraiyum paṉmā<hi rend="grantha">heśvara</hi>r muntu<unclear>ṟ</unclear>ṟa kovukku tā<unclear>ṅka</unclear>ḷ ve
+<lb n="13" break="no"/>ṇṭu poṉ<note n="248-7">Read maṉṟa.</note> maṟṟappeṟuvārākavum <supplied reason="undefined"><g type="ddanda">.</g></supplied>ivai paṉmā<hi rend="grantha">heśva</hi>rar Ira<hi rend="grantha">kṣai</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:KrishnaSastri1920_01">
+
+<p>(Line 1.) Hail ! Prosperity ! In the 8th year of (<hi rend="italic">the reign of</hi>) king <hi rend="bold">Rājakēsarivarman</hi>, we, (<hi rend="italic">the members of</hi>) the big assembly of the prosperous <hi rend="bold">Uttamaśīli-chaturvēdimaṅgalam</hi>, a <hi rend="italic">brahmadēya</hi> on the southern bank (<hi rend="italic">of the Kāvērī)</hi><note n="248-8">See above, page 247, footnote�.</note> , having received in this year as <hi rend="italic">iṟaikāval</hi> ten <hi rend="italic">kāśu</hi> from <hi rend="bold">Tappildaram Pallavaraiyaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Kīḻmāndūr Paruvūr</hi>, of the <hi rend="italic">perundaram</hi> of <hi rend="italic">āḷvār</hi> <hi rend="bold">Arikulakēsaridēva</hi>, on account of the land of the (<hi rend="italic">god</hi>) <hi rend="bold">Paramēśvara</hi> (<hi rend="italic">Śiva</hi>) of <hi rend="bold">Tiruppaṇambūdūr</hi>, which was the <hi rend="italic">uṭkuṟai</hi> of this village, —the land (<hi rend="italic">measuring</hi>) one <hi rend="italic">mā</hi> and odd including excess or deficiency (<hi rend="italic">in measurement</hi>) and situated within (<hi rend="italic">the</hi>) following (<hi rend="italic">boundaries</hi>);—to the south of (<hi rend="italic">the channel called</hi>) <hi rend="bold">Śrīdēvivāykkāl</hi> (<hi rend="italic">which was</hi>) to the west of (<hi rend="italic">the path called</hi>) <hi rend="bold">Vīraśrīkāmugavadi</hi>; to the north of (<hi rend="italic">the channel called</hi>) <hi rend="bold">Parāntakavāykkāl</hi> (<hi rend="italic">which irrigates</hi>) the first <hi rend="italic">śadiram</hi> from the north, of the fifth <hi rend="italic">kaṇṇāṟu<note n="249-1">This word which has been taken to mean a field in the previous volumes appears to convey the sense of a sub-channel.</note> (counting</hi>) from the east; to the east of (<hi rend="italic">the path called</hi>) <hi rend="bold">Kōdaṇḍarāmavadi</hi> and to the west of the <hi rend="italic">kaṇṇāṟu</hi> to the south of the tenth <hi rend="italic">pāḍagam</hi> in the <hi rend="italic">śadukkam</hi> belonging to <hi rend="bold">Noṭṭūr Attōṇa-chaturvēdibhaṭṭaṉ</hi> and others.</p>
+
+<p>(L. 11.) (<hi rend="italic">We</hi>) exempted this one <hi rend="italic">mā</hi> and odd of land from payment of taxes and ordered that this land be (<hi rend="italic">registered</hi>) tax-free as long as the moon and the sun (<hi rend="italic">endure</hi>); and we, (<hi rend="italic">the members</hi>) of the big assembly had this (<hi rend="italic">deed</hi>) engraved on stone:—(<hi rend="italic">also ordered that the assembly of</hi>) all <hi rend="italic">Māhēśvaras</hi> could themselves collect for (<hi rend="italic">i.e., on behalf of</hi>) the king mentioned above<note n="249-2">In place of <ta>muntuṟṟa</ta> of this inscription, we find in other records the phrase— <ta>aṉṉāḷ</ta> “the then reigning.”</note> any (<hi rend="italic">fine in</hi>) gold they choose from (<hi rend="italic">such of us</hi>) as may order the levying of taxes on this land or those who may enter (<hi rend="italic">any</hi>) tax (<hi rend="italic">in the accounts). (The assembly of</hi>) all <hi rend="italic">Māhēśvaras</hi> shall protect this (<hi rend="italic">charity</hi>).</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.112 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1920_01"/>
+			<citedRange unit="page">248-249</citedRange>
+			<citedRange unit="item">112</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 2.81: original edition by V. Venkayya</title>
+				<title type="alt">No. 81. ON A PILLAR OF THE SOUTH ENCLOSURE. No. 28 of 1897.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv02p0i0081</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription records that the son of an officer of <hi rend="bold">Rājarājadēva</hi> set up a copper image of the goddess <hi rend="bold">Kāḷā-Piḍāri</hi>. A temple (<hi rend="italic">śrīkōyil</hi>) of this goddess and its sacred court (<hi rend="italic">tiru-muṟṟam</hi>) at <hi rend="bold">Māgāṇikuḍi</hi> in <hi rend="bold">Veṇkōṉkuḍikkaṇḍam</hi>, a subdivision of <hi rend="bold">Maṛanāḍu</hi> <hi rend="italic">alias</hi> <hi rend="bold">Rājāśraya-vaḷanāḍu</hi>, are mentioned in No. 5 above, paragraph 13, and another at <hi rend="bold">Tuṟaiyūr</hi> in <hi rend="bold">Kīṛ-Palāṟu</hi>, a subdivision of <hi rend="bold">Pāchchiṟ-kūṟṟam</hi> in the same <hi rend="italic">nāḍu</hi>, in paragraph 15 of the same inscription.<note n="401-2">Four different varieties of the goddess Piḍāri are known to us from the same epigraph, <hi rend="italic">viz.</hi> Puṉṉaittuṟai-naṅgai, Poduvagai-ūr-uḍaiyāḷ, Kuduraivaṭṭam-uḍaiyāḷ and Tiruvāl-uḍaiyāḷ.</note> </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<!--<h4><hi rend="italic">First face</hi>.</h4>-->
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrīḥ</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> Uṭaiyār
+<lb n="2"/><hi rend="grantha">śrīrājarājade</hi>var pe
+<lb n="3" break="no"/>runtaṉaṅkattiyarai
+<lb n="4" break="no"/>yaṉ makaṉ ka<unclear>ṇ</unclear>ṭa<unclear>ya</unclear>
+<lb n="5" break="no"/>ṉāṉa<note n="401-3">The letter ṉā looks like the palatal ña in the original.</note> <hi rend="grantha">rājarāja</hi>kattiya
+<lb n="6" break="no"/>raiyaṉ Uṭaiyār <hi rend="grantha">śrī</hi>
+<lb n="7" break="no"/><hi rend="grantha">rājarājīśvaram</hi> Uṭai
+<lb n="8" break="no"/>yār koyilil yāṇṭu
+<lb n="9"/>Irupattoṉpatāvatu
+<lb n="10"/>varai Eḻuntaruḷuvit
+<lb n="11" break="no"/>ta<note n="401-4">Read ceppu.</note> ceppattirumeṉi
+<lb n="12" break="no"/>kaḷ<note n="401-5">ṭhough this word is in the plural number, the number of images recorded in the inscription is only one.</note> Uṭaiyār koyi
+<lb n="13" break="no"/>lil muḻattāl Aḷa
+<lb n="14" break="no"/>ntu kallil veṭṭi
+<lb n="15" break="no"/>ṉa <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">1</supplied> Āsa</hi>ṉattukku
+<lb n="16"/>mel <hi rend="grantha">keśā</hi>n=tattaḷa
+<lb n="17" break="no"/>vuñcellappatiṉ
+<lb n="18" break="no"/>aṟuviral Ucarattu <hi rend="grantha">śrī</hi>
+<lb n="19" break="no"/><hi rend="grantha">hastam</hi> nāluṭaiya
+<lb n="20" break="no"/>ḷākakkaṉamāka Eḻunta
+<lb n="21" break="no"/>ruḷuvitta kāḷāpiṭāri ti
+<lb n="22" break="no"/>rumeṉi Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">2</supplied></hi> Irupa
+<lb n="23" break="no"/>ttiruvirale Iraṇṭu
+<lb n="24"/>torai nīḷattu patiṉ
+<lb n="25" break="no"/>oruviral Akalattu Eṇvira
+<lb n="26" break="no"/>le Iraṇṭu torai Ucarat
+<lb n="27" break="no"/>tu Ivaḷ <unclear>Eḻu</unclear>ntaruḷi Irun
+<lb n="28" break="no"/>ta <hi rend="grantha">pīṭham</hi> Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">3</supplied></hi> Irumu
+</p>
+
+<!--<h4><hi rend="italic">Second face</hi>.</h4>-->
+
+<p>
+<lb n="29" break="no"/>ḻumey patiṉ Ai
+<lb n="30" break="no"/>yaviraṟcuṟṟiṟkaṉa
+<lb n="31" break="no"/>mākacceytu Iva
+<lb n="32" break="no"/>ḷaikkavitta <hi rend="grantha">prabhai</hi>
+<lb n="33"/>Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">4</supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Venkayya1913_01">
+
+<p>Hail! Prosperity! The (<hi rend="italic">following</hi>) copper image, set up in the temple of the lord <hi rend="bold">Śrī-Rājarājēśvaramuḍaiyār</hi> until the twenty-ninth year (<hi rend="italic">of the king's reign</hi>) by <hi rend="bold">Kaṇḍayaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Rājarāja-Kattiyaraiyaṉ</hi>, son of <hi rend="bold">Kattiyaraiyaṉ</hi>, a <hi rend="italic">Perundaṉam</hi><note n="402-1">On this term see p. 223 above, note 1; compare also the term <ta>ciṟutaṉattupperuntaram</ta> on p. 224 above, 1. 4 f.</note> of the lord <hi rend="bold">Śrī-Rājarājadēva</hi>, was engraved (<hi rend="italic">i.e.</hi> recorded) on stone after (<hi rend="italic">it</hi>) had been measured by the cubit measure (<hi rend="italic">preserved</hi>) in the temple of the lord:—</p>
+
+<p>2. One solid image of (<hi rend="italic">the goddess</hi>) <hi rend="bold">Kāḷā-Piḍāri</hi> with four divine arms, (<hi rend="italic">measuring</hi>) sixteen <hi rend="italic">viral</hi> in height from the seat reaching up to the hair.</p>
+
+<p>3. One pedestal on which this (<hi rend="italic">image</hi>) was seated, (<hi rend="italic">measuring</hi>) twenty-two <hi rend="italic">viral</hi> and two <hi rend="italic">tōrai</hi> in length, eleven <hi rend="italic">viral</hi> in breadth and eight <hi rend="italic">viral</hi> and two <hi rend="italic">tōrai</hi> in height.</p>
+
+<p>4. One solid aureola covering this (<hi rend="italic">image and measuring</hi>) two cubits and fifteen <hi rend="italic">viral</hi> in circumference.</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 2.81 by <bibl><ptr target="bib:Venkayya1913_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Venkayya1913_01"/>
+			<citedRange unit="page">401-402</citedRange>
+			<citedRange unit="item">81</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

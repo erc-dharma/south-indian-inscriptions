@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.86: original edition by Eugen Julius Theodor Hultzsch</title>
+				<title type="alt">No. 86.—INSCRIPTION AT CHIDAMBARAM.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0086</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription (No. 457 of 1902) is engraved on the west wall of the second <hi rend="italic">prākāra</hi> of the great Śaiva temple of <hi rend="bold">Naṭarāja</hi> at <hi rend="bold">Chidambaram</hi><note n="210-3">Two inscriptions from the same temple have been published in <hi rend="italic">Ep. Ind</hi>. Vol. V. pp. 103 f. and 105 f.</note> in the South Arcot district. It is dated on the 88th day of the 9th year of <hi rend="bold">Kulōttuṅga-Chōḷa</hi> III. and records that the king sanctioned a grant of land to the temple by a certain <hi rend="bold">Kēraḷarājaṉ</hi> (ll. 6 and 10). The land granted was situated in two hamlets of Chidambaram, the first of which bore the name <hi rend="bold">Kaḍavāychchēri</hi> <hi rend="italic">alias</hi> <hi rend="bold">Tillaināyaganallūr</hi> (l. 6). Kaḍavāchchēri is found on the map about 2 miles south of Chidambaram,<note n="210-4">No. 108 on the <hi rend="italic">Madras Survey Map</hi> of the Chidambaram tāluka.</note> and Tillaināyaganallūr survives as the name of a neighbouring village which has now been joined to Uśuppūr.<note n="210-5">No. 107 on the same map.</note> The second hamlet, <hi rend="bold">Śāttaṅguḍi</hi> <hi rend="italic">alias</hi> <hi rend="bold">Mahīpālakulakālanallūr</hi><note n="210-6">This surname seems to be derived from one of the titles of Rājēndra-Chōḷa I., who is stated to have defeated a certain Mahipāla; see above, Vol. II. p. 109.</note> (l. 7), I am unable to identify.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <g type="ddanda">.</g>u</hi> puyal vāyttu vaḷam perukappoyyāta nāṉmaṟaiyiṉ ceyal vāyppattirumakaḷuñ<hi rend="grantha">ja</hi>yamakaḷuñciṟantu vāḻa veṇmati poṟkuṭai viḷaṅka velventaraṭi vaṇaṅka maṇmaṭantai maṉaṅkaḷippa maṉunīti taḻait
+<lb n="2" break="no"/>toṅkaccakkaramuñceṅkoluntikkaṉaittuñcela naṭappakkaṟpakālam puvi kākkappoṟpamainta muṭi puṉain<unclear>tu</unclear> vi <hi rend="grantha">kra</hi>mapāṇṭiyaṉ veṇṭa viṭṭa taṇṭāl vīrapāṇṭiyaṉ makaṉ<note n="210-7">ṇo. 1 of 1899 reads makkaḷ.</note> paṭa Eḻakam<note n="210-8">The same inscription reads eḻakattār .</note> paṭa maṟappaṭai paṭacciṅkaḷappaṭai <note n="210-9">Read mūkka .</note> mukkaṟuppuṇṭu Alaikaṭal
+<lb n="3"/>puka vīrapāṇṭiyaṉai mutukiṭum paṭi tākki maturaiyum Aracuṅkoṇṭu <hi rend="grantha">ja</hi>ya- <hi rend="grantha">stambha</hi>naṭṭu Ammaturaiyum Aracum nāṭum Aṭainta pāṇṭiyaṟkaḷittaruḷi meymmalarnta vīrakkoṭiyuṭaṉ tiyākakkoṭi Eṭuttuccempoṉ <unclear>vī</unclear>ra<hi rend="grantha">siṅ- hāsa</hi>ṉattuppuvaṉamuḻutuṭai
+<lb n="4" break="no"/>yāḷoṭum vīṟṟiruntaruḷiya kopparakecaripaṟmarāṉa <hi rend="grantha">tribhu</hi>vaṉacca<hi rend="grantha">kra</hi>varttikaḷ maturai koṇṭaruḷiṉa <hi rend="grantha">śrī</hi>kulottuṅkacoḻatevarkku yāṇṭu Oṉpatāvatu nāḷ Eṇpa<unclear>t</unclear>teṭṭiṉāl <hi rend="grantha">prasāda</hi>ñceytaruḷi vanta ceyyumapaṭippaṭi <supplied reason="undefined"><g type="danda">.</g></supplied> Āḷuṭaiyāṟkuccāttiyaruḷattiruppaḷḷittāmat
+<lb n="5" break="no"/>tirunantavaṉañceyyavum <unclear>I</unclear>ttirunantavaṉañceykiṟa tirunantavaṉakkuṭikaḷ per Iruvarkku Ilakkaikkuṅkoṟṟukkum tirunantavaṉppuṟaiṟai<unclear>yi</unclear>liyākavum <hi rend="grantha">rājarāja</hi>vaḷanāṭṭukkīḻveṅkaināṭṭupperunallūruṭaiyāṉ tiruvekampamuṭaiyāṉ tiruvaṉanti<hi rend="grantha"><unclear>śva</unclear>ra</hi>muṭaiyā<note n="211-1">Read tī<hi rend="grantha">śvara</hi>.</note> 
+<lb n="6" break="no"/>ṉāṉa ke<hi rend="grantha">ra</hi><unclear>ḷa</unclear><hi rend="grantha">rāja</hi>ṉ perumpaṟṟappuliyūr Uḻaiccaraṇaṉ vaṭukaṉ <unclear>ti</unclear>runaṭṭamāṭi peril A<hi rend="grantha">nya</hi>nāmakaraṇattāl palar pakkalum vilaikoṇṭa nilam <supplied reason="undefined"><g type="danda">.</g></supplied> Ivvūrppiṭākai kaṭavāycceriyāṉa tillaināyakanallūril cuntaracoḻavatik<unclear>ku</unclear> meṟku Uttamacoḻavāykkālukkutteṟku mutaṟ
+<lb n="7" break="no"/>kaṇṇāṟṟu Iraṇṭāñcatirattukkollainilam Orumāvum <supplied reason="undefined"><g type="danda">.</g></supplied> piṭākai Accericcāttaṅkuṭiyāṉa ma<hi rend="grantha">hī</hi>pālakula<unclear>k</unclear>ālanallūril kuntavaivatikku meṟku Uttamacoḻavāykkālukkutteṟku nālāṅkaṇṇāṟṟu mutaṟcatirattu mikutikkuṟaivu Uḷḷaṭaṅkattaram peṟṟa nilam Araiye muṉṟu<note n="211-2">Read mūṉṟu.</note> mā
+<lb n="8"/>mukkāṇi Araikkāṇi muntirikaikkiḻ<note n="211-3">Read kīḻ.</note> mukkāle nālu mā Araikkāṇi muntirikaiyum <supplied reason="undefined"><g type="danda">.</g></supplied> Ākakkollai <unclear>U</unclear>ṭpaṭa Ūr<unclear>p</unclear>paṭi nilam Araiye nālu mā mukkāṇi Araikkāṇi muntirikaikkiḻ<note type="repeated" n="211-3"/> mukkāle nālu mā Araikkāṇi muntirikaiyiṉāl maṭakkunilam Araikkāṇi muntirikaikkiḻ<note type="repeated" n="211-3"/> Oṉpatu mā muk
+<lb n="9" break="no"/>kāṇikkīḻ mukkāle mukkāṇiyum <supplied reason="undefined"><g type="danda">.</g></supplied> tirunantavaṉamum tirunantavaṉappuṟaiṟaiyiliyumāka Āḷuṭaiyār tevatāṉam Ivvūril pala varavaiyoṭuṅkūṭṭavum <supplied reason="undefined"><g type="danda">.</g></supplied> Innilattukku Ivvūr taṇṭa niccayitta kācil maṭakkopātiyāl vanta kācu Ūril kaḻikkavum <supplied reason="undefined"><g type="danda">.</g></supplied> Ippaṭikkukkoyilil tirup
+<lb n="10" break="no"/>pūmaṇṭapattukku<note n="211-4">Read <hi rend="grantha">sa</hi>mīpa.</note> <hi rend="grantha">sa</hi>mipattile tirumāḷikaiyile kal veṭṭavum <supplied reason="undefined"><g type="danda">.</g></supplied> tirunantavaṉakkuṭikaḷ per Iruvaṟkuntiruntavaṉakkuṭikaḷ ceytu varuṅkuṭimai Uḷḷiṭṭaṉa koḷḷātoḻiyavu<unclear>m</unclear> <supplied reason="undefined"><g type="danda">.</g></supplied> peṟa veṇumeṉṟu keraḷa<hi rend="grantha">rāja</hi>ṉ namakkuccoṉṉamaiyil Ippaṭi cey
+<lb n="11" break="no"/>yakkaṭavatākaccolli Ippaṭi kaṇakkilum Iṭṭukkoḷḷakkaṭavarkaḷāka varikkukkūṟu ceyvārkaḷukkuñcoṉṉom <supplied reason="undefined"><g type="danda">.</g></supplied> In<unclear>ni</unclear>lam Oṉpatāvatu mutal pala varavaiyoṭuṅkūṭṭi<unclear>tti</unclear>runantavaṉamum tirunantavaṉakkuṭikaḷ per Iruvaṟkum Ilakkaikkuṅkoṟṟukkuntirunantavaṉap
+<lb n="12" break="no"/>puṟaiṟaiyiliyumāy<note n="211-5">Read niṟka.</note> nīṟkavum Ippaṭikkukkoyilile kal veṭṭavum paṇṇi Ittirunantavaṉakkuṭikaḷ Aḷakkakkaṭava tiruppaḷḷittāmam per Oṉṟukku nāḷoṉṟukkukkuṟuṇi nāṉāḻiyāka vanta tiruppaḷḷittāmam tiruppūmaṇṭapat<unclear>tu</unclear>kku mutalāka Aḷakkavum Ivarkaḷaittiru
+<lb n="13" break="no"/>nantavaṉakkuṭikaḷ ceytu varuṅkuṭimaiyuḷḷiṭṭaṉa koḷḷātoḻiyavum paṇṇuvatu <supplied reason="undefined"><g type="danda">.</g></supplied> Eḻutiṉān tirumantiraolai <hi rend="grantha">rāja</hi>nārāyaṇamuventaveḷāṉ<note n="211-6">Read mūventa.</note> <supplied reason="undefined"><g type="danda">.</g></supplied> Eḻuti viḻuppā<hi rend="grantha">dhirāja</hi>rum nuḷampā<hi rend="grantha">dhirāja</hi>rum pāṇṭiyarā<hi rend="grantha">ja</hi>rum kaḷappāḷarā<hi rend="grantha">ja</hi>rum nantiyarā<hi rend="grantha">ja</hi>rum Irā<hi rend="grantha">ja</hi>vallavap
+<lb n="14" break="no"/>pallavar<unclear>ā</unclear>yarum vayirā<hi rend="grantha">dhirāja</hi>rum Eḻuttiṭṭuppukunta ceyyumpaṭippaṭi Eḻutiyatu <g type="ddanda">.</g> U
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Hultzsch1903_01">
+
+<p>(Line 1.) Hail ! Prosperity ! (<hi rend="italic">The king</hi>) put on the beautiful crown in order to protect the earth to the end of the world, while clouds were abundant and (<hi rend="italic">hence</hi>) the fertility (<hi rend="italic">of his country</hi>) increased; while the conduct (<hi rend="italic">prescribed</hi>) in the four true Vēdas prospered; while the goddess of Fortune and the goddess of Victory were greatly delighted (<hi rend="italic">to be his wives</hi>); while (<hi rend="italic">his</hi>) parasol shone like the white moon; while victorious kings bowed at (<hi rend="italic">his</hi>) feet; while the goddess of the Earth rejoiced; while the rules of Manu flourished and spread; (<hi rend="italic">and</hi>) while (<hi rend="italic">the king's</hi>) discus and sceptre went (<hi rend="italic">and</hi>) ruled every region.</p>
+
+<p>(L. 2.) While, by an army despatched at the request of <hi rend="bold">Vikrama-Pāṇḍya</hi>, the son of <hi rend="bold">Vīra-Pāṇḍya</hi> was subdued; while <hi rend="bold">Ēḻagam</hi><note n="212-1">This place is probably identical with Tiruvēḍagam near Koḍimaṅgalam in the Madura tāluka, which is referred to as ‘Ēḍagam’ by Tiruñāṉasambandar.</note> was subdued; while the <hi rend="bold">Maṟa</hi> army<note n="212-2"><hi rend="italic">I.e.</hi>, perhaps, the army of the Maṟavas.</note> was subdued; while the <hi rend="bold">Śiṅgaḷa</hi> soldiers had (<hi rend="italic">their</hi>) noses cut off and rushed into the rolling sea,— (<hi rend="italic">he</hi>) attacked <hi rend="bold">Vīra-Pāṇḍya</hi>, (<hi rend="italic">forcing him</hi>) to turn (<hi rend="italic">his</hi>) back, took <hi rend="bold">Madurai</hi> and the throne, set up a pillar of victory, was pleased to bestow that (<hi rend="italic">city of</hi>) <hi rend="bold">Madurai</hi>, the throne and the country on the <hi rend="bold">Pāṇḍya</hi> who had taken refuge (<hi rend="italic">with him</hi>), and raised the banner of liberality, together with the banner of heroism which displayed the body (<hi rend="italic">of the tiger ?</hi>).</p>
+
+<p>(L. 3.) On the eighty-eighth day of the ninth year of (<hi rend="italic">this</hi>) king <hi rend="bold">Parakēsarivarman</hi>, who was pleased to be seated together with (<hi rend="italic">his queen</hi>) <hi rend="bold">Bhuvanamuḻuduḍaiyāḷ</hi> on the throne of heroes (<hi rend="italic">which consisted of</hi>) pure gold, <hi rend="italic">alias</hi> the emperor of the three worlds, <hi rend="bold">Śrī-Kulōttuṅga-Śōḻadēva</hi>, who was pleased to take <hi rend="bold">Madurai</hi>,—the following order was issued (<hi rend="italic">by the king</hi>) and received.</p>
+
+<p>(L. 4.) In order to lay out a flower-garden (<hi rend="italic">which shall furnish</hi>) the garlands to be placed on (<hi rend="italic">the image of</hi>) <hi rend="bold">Āḷuḍaiyār</hi>, and in order to (<hi rend="italic">provide</hi>) tax-free (<hi rend="italic">land</hi>) for the maintenance<note n="212-3">On <hi rend="italic">puṟam</hi> see above, p. 6, note 9.</note> of the flower-garden, (<hi rend="italic">viz</hi>). for (<hi rend="italic">supplying</hi>) clothing<note n="212-4">With <hi rend="italic">ilakkai</hi> compare <hi rend="italic">ilakkar</hi> in the Tamil dictionaries, and its synonym <hi rend="italic">puḍavai</hi> in No. 68 above, text line 4.</note> and food<note n="212-5">On p. 141 above, note 13, <hi rend="italic">koṟṟu</hi> was unnecessarily corrected into <hi rend="italic">kottu</hi>. According to Dr. Gundert's <hi rend="italic">Malayāḷam Dictionary</hi> it means ‘food, victuals, rice.’</note> to the two attendants who work in this flower-garden,—<hi rend="bold">Tiruvēgambam-uḍaiyāṉ<note n="212-6">This name is derived from the Tamil designation of the Ekāmranātha temple at Conjeeveram.</note> Tiruvanatīśvaram-uḍaiyāṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Kēraḷarājaṉ</hi>, a native of <hi rend="bold">Perunallūr</hi> in <hi rend="bold">Kīḻ-Vēṅgai-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājarāja-vaḷanāḍu</hi>,<note n="212-7">See page 209 above.</note> purchased (<hi rend="italic">the following</hi>) land from several persons in the name of another, (<hi rend="italic">viz.</hi>) in the name of <hi rend="bold">Uḻaichcharaṇaṉ Vaḍugaṉ Tirunaṭṭamāḍi</hi><note n="212-8">This is a Tamil synonym of Naṭarāja, the name of the god of the Chidambaram temple.</note> of <hi rend="bold">Perumbaṟṟappuliyūr</hi>.<note n="212-9">This is one of the Tamil names of Chidambaram; see page 214 below.</note> </p>
+
+<p>(L. 6.) In <hi rend="bold">Kaḍavāychchēri</hi> <hi rend="italic">alias</hi> <hi rend="bold">Tillaināyaganallūr</hi>, a hamlet of this village, one twentieth (<hi rend="italic">vēli</hi>) of dry land in the second square of the first <hi rend="italic">kaṇṇāṟu</hi> to the west of the road of <hi rend="bold">Sundara-Śōḻa</hi> (<hi rend="italic">and</hi>) to the south of the channel of <hi rend="bold">Uttama-Śōḻa</hi>; and in <hi rend="bold">Śāttaṅguḍi</hi> <hi rend="italic">alias</hi> <hi rend="bold">Mahīpālakulakālanallūr</hi> (<hi rend="italic">near</hi>) that <hi rend="italic">śēri</hi> (<hi rend="italic">i.e.</hi> Kaḍavāychchēri), a hamlet (<hi rend="italic">of this</hi> <hi rend="italic">village</hi>), one half (<hi rend="italic">vēli</hi>), three twentieths, three eightieths, one hundred-and-sixtieth and one three-hundred-and-twentieth; and 1/320 of<note n="213-1">Here and in the next paragraph, (1/320) is substituted for the arithmetical term <hi rend="italic">kīḻ</hi>, and (1/320) for the second <hi rend="italic">kīḻ</hi>. Compare above, Vol. II. p. 48, notes 2 and 3.</note> three quarters, four twentieths, one hundred-andsixtieth and one three-hundred-and-twentieth—more or less—of classified land<note n="213-2"><hi rend="italic">I.e.</hi> land assessed according to the quality of the soil.</note> in the first square of the fourth <hi rend="italic">kaṇṇāṟu</hi> to the west of the road of <hi rend="bold">Kundavai</hi> (<hi rend="italic">and</hi>) to the south of the channel of <hi rend="bold">Uttama-Śōḻa</hi>,—altogether, including the dry land, according to the village (<hi rend="italic">accounts</hi>), one half (<hi rend="italic">vēli</hi>), four twentieths, three eightieths, one hundred-and-sixtieth and one three-hundred-and-twentieth; and 1/320 of three quarters, four twentieths, one hundredand-sixtieth and one three-hundred-and-twentieth of land.</p>
+
+<p>(L. 8.) Of (<hi rend="italic">this</hi>), one hundred-and-sixtieth (<hi rend="italic">vēli</hi>) and one three-hundred-and-twentieth; 1/320 of nine twentieths and three eightieths; and (1/320) of three quarters and three eightieths (<hi rend="italic">is</hi>) second-crop land.</p>
+
+<p>(L. 9.) (<hi rend="italic">This land</hi>) has to be added to the various plots in this village (<hi rend="italic">which are</hi>) the temple property of (<hi rend="italic">the god</hi>) <hi rend="bold">Āḷuḍaiyār</hi>, as a flower-garden, and as tax-free (<hi rend="italic">land</hi>) for the maintenance of the flower-garden. Out of the money which this village has decided to levy from this land, the money which accrues, from the second-crop assessment (?) has to be deducted from (<hi rend="italic">the amount due by</hi>) the village. This has to be engraved (<hi rend="italic">on</hi>) stone on the wall near the <hi rend="italic">Tiruppūmaṇḍapam</hi><note n="213-3"><hi rend="italic">I.e.</hi> the building in which the flowers for the use of the temple were kept.</note> in the temple. The services <hi rend="italic">etc.</hi> which have to be rendered by the attendants of (<hi rend="italic">other</hi>) flower-gardens shall not be demanded from the two attendants of (<hi rend="italic">this</hi>) flower-garden.</p>
+
+<p>(L. 10.)<note n="213-4">The following passage contains the order of the king on Kēraḷarājaṉ's request.</note> “<hi rend="bold">Kēraḷarājaṉ</hi> having submitted to us that (<hi rend="italic">the above request</hi>) might be sanctioned, we ordered that it should be done thus, and directed the revenue officers<note n="213-5">Compare above, p. 44, note 10.</note> to enter (<hi rend="italic">that land</hi>) as such in the account (<hi rend="italic">book</hi>).”</p>
+
+<p>(L. 11.)<note n="213-6">The following passage is an endorsement of the royal secretary. I have omitted the two words <hi rend="italic">paṇṇi</hi>, ‘having caused’ (l. 12), and <hi rend="italic">paṇṇuvadu</hi>, ‘it shall be caused’ (l. 13), which would make the translation unintelligible.</note> “From the ninth (<hi rend="italic">year of the king's reign</hi>) forward, this land has to be added to the various (<hi rend="italic">other</hi>) plots (<hi rend="italic">of this village</hi>) and has to be considered as a flower-garden and as tax-free (<hi rend="italic">land</hi>) for the maintenance of the flower-garden, (<hi rend="italic">viz</hi>). for (<hi rend="italic">supplying</hi>) clothing and food to the two attendants of the flower-garden. This has to be engraved (<hi rend="italic">on</hi>) stone in the temple. The garlands to be supplied by the attendants of this flower-garden, (<hi rend="italic">and</hi>) amounting to one <hi rend="italic">kuṟuṇi</hi> and four <hi rend="italic">nāḻi</hi> (of flowers) per day for each person, have to be supplied in advance to the <hi rend="italic">Tiruppūmaṇḍapam</hi>. The services <hi rend="italic">etc.</hi> which have to be rendered by the attendants of (<hi rend="italic">other</hi>) flower-gardens shall not be demanded from these (<hi rend="italic">attendants</hi>).” Written by the royal secretary, <hi rend="bold">Rājanārāyaṇa-Mūvēndavēḷāṉ</hi>.</p>
+
+<p>(L. 13.) (<hi rend="italic">The above</hi>) was copied from the order received, which was written (<hi rend="italic">by the royal secretary</hi>) and signed by <hi rend="bold">Viḻuppādhirājar, Nuḷambādhirājar, Pāṇḍiyarājar, Kaḷappāḷarājar, Nandiyarājar, Rājavallabha-Pallavarāyar</hi> and <hi rend="bold">Vayirādhirājar</hi>.</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.86 by <bibl><ptr target="bib:Hultzsch1903_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Hultzsch1903_01"/>
+			<citedRange unit="page">210-213</citedRange>
+			<citedRange unit="item">86</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

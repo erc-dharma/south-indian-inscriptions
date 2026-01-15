@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.191: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 191.—ON THE SOUTH WALL OF THE SELLIYAMMAN TEMPLE AT VELICHCHERI. No. 316 of 1911.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0191</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This document records that the assembly of <hi rend="bold">Veḷichchēri</hi> exempted taxes on a land granted for the sacred daily offering to the <hi rend="bold">Saptamātṛis</hi><note n="367-5">See <hi rend="italic">South-Indian Gods and Goddesses</hi>, page 190.</note> of this village, by a native of <hi rend="bold">[Ma]ḻa-nāḍu</hi> in <hi rend="bold">Śōḻa-nāḍu</hi>. The worship of the Seven Mothers and the designation of the priests who called themselves <hi rend="bold">Mātṛiśivas</hi> deserve special attention.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> koppā<hi rend="grantha">rtthi</hi>ve<hi rend="grantha">ndrādhi</hi>pativa<hi rend="grantha"><supplied reason="omitted">r</supplied>mma</hi>ṟku yāṇṭu pattāvatu puliyū
+<lb n="2" break="no"/>rkoṭṭattu veḷicce<unclear>ri</unclear> <hi rend="grantha">mahāsabhai</hi>yom Emmuri<supplied reason="omitted">l</supplied> <hi rend="grantha">saptamātṛ</hi>kkaḷu
+<lb n="3" break="no"/>kkuc coḻanāṭṭu <unclear>ma</unclear>ḻanāṭṭut tiruveṭpūrt tiruveṭ(p)pūruṭaiyāṉ tevaṭi
+<lb n="4" break="no"/>kaḷ <hi rend="grantha">Ācandrakā</hi>lamu<supplied reason="omitted">m</supplied> niccaṟpaṭi vaitta tiruvamirtu Oṉṟu Itaṉukku Iva
+<lb n="5" break="no"/>ṉ vilaikoṇṭu <unclear>v</unclear>aitta <hi rend="grantha">bhūmi</hi> Ivvūrt te<unclear>ṉ</unclear>kaḻaṉip pūtipākkaṉ
+<lb n="6" break="no"/>ceṟu<unclear>vu ta</unclear>ṭi nāliṉālu<supplied reason="omitted">m</supplied> <unclear>ni</unclear><supplied reason="omitted">lam</supplied> yiri<unclear>ṉi</unclear>ṟṟukkuḻi<note n="367-6">Read iru nūṟṟukkuḻi.</note> Iraṇṭeṟṟik kuḻi Aiññūṟṟu
+<lb n="7" break="no"/>muppattoṉṟaraiye <unclear>A</unclear><supplied reason="omitted">r</supplied>aik<unclear>kā</unclear>ṇiyālum Epperppaṭṭa Iṟaiyum
+<lb n="8"/>Oḻiyappaṇittu Iṟai Iḻiccik kuṭuttom <hi rend="grantha">mahāsabhai</hi>yom
+<lb n="9"/>I<hi rend="grantha">bhūmi</hi> nāṅkaḷe koṇṭu nicatam Oru tiruvamirtu ceyvikka<supplied reason="omitted">k</supplied>kaṭavom I<hi rend="grantha">śrī</hi>ko
+<lb n="10" break="no"/>yiluṭaiya mā<hi rend="grantha"><unclear>tṛ</unclear>śi</hi>var<unclear>o</unclear>m kaṭaikkūṭṭi veṭṭuviccār k<choice><sic>a</sic><corr>ā</corr></choice>ḷiyapaṭṭar<supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:KrishnaSastri1920_01">
+
+<p>Hail ! Prosperity ! In the 10th year of (<hi rend="italic">the reign of</hi>) king <hi rend="bold">Pārthivēndrādhipativarman</hi>, we (<hi rend="italic">the members</hi>) of the big assembly of <hi rend="bold">Veḷichchēri</hi> in <hi rend="bold">Puliyūrkōṭṭam</hi> (<hi rend="italic">wrote this):</hi>—<hi rend="bold">Tiruveṭpūr-uḍaiyāṉ Tēvaḍigaḷ</hi> of <hi rend="bold">Tiruveṭpūr</hi> in <hi rend="bold">[Ma]ḻa-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Śōḻa-nāḍu</hi> provided for one sacred offering each day (<hi rend="italic">to continue</hi>) as long as the moon to the <hi rend="bold">Saptamātṛis</hi> of our village. For this he purchased and gave two hundred <hi rend="italic">kuḻi</hi> of land which comprised four <hi rend="italic">taḍis (and was called) Pūdipākkaṉśeruvu</hi>, a paddy field on the southern side of this village and (<hi rend="italic">also</hi>) land (<hi rend="italic">kuḻi) (measuring</hi>) five hundred and thirty-one and a half and half <hi rend="italic">kāṇi</hi> in (<hi rend="italic">the field called) Iraṇḍēṟṟi</hi>. We (<hi rend="italic">the members</hi>) of the big assembly ordered the exemption of all taxes (<hi rend="italic">on these lands</hi>) and made (<hi rend="italic">them</hi>) tax-free. We the <hi rend="italic">Mātṛiśivas</hi> who own this sacred temple (<hi rend="italic">śrīkōil</hi>) shall ourselves take possession of these lands and shall offer one sacred offering daily (<hi rend="italic">to the goddesses</hi>). <hi rend="bold">Kāḷiya-bhaṭṭar</hi> having effected this (<hi rend="italic">transaction</hi>) had it engraved (<hi rend="italic">on stone</hi>).</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.191 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1920_01"/>
+			<citedRange unit="page">367-368</citedRange>
+			<citedRange unit="item">191</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

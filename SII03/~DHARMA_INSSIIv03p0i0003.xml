@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.3: original edition by Eugen Julius Theodor Hultzsch</title>
+				<title type="alt">No. 3.—ON THE WEST WALL OF THE SHRINE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0003</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription is dated in the 14th year of the reign of <hi rend="bold">Rājarāja-Kēsarivarman</hi>. Like No. 2, which is dated one year earlier, it refers to the destruction of the ships at <hi rend="bold">Śālai</hi>, and mentions in addition the conquest of <hi rend="bold">Vēṅgaiññāḍu</hi> (or Vēṅgai-nāḍu), <hi rend="bold">Gaṅga-pāḍi, Taḍiya-vaḻi</hi> (instead of which most other inscriptions of Rājarāja I. read Taḍigai-pāḍi), and <hi rend="bold">Nuḷamba-pāḍi</hi>.</p>						
+
+						<p>The inscription records that a certain <hi rend="bold">Peṟṟāṉ Adittaṉ</hi>, a native of the <hi rend="bold">Chōḷa</hi> country, purchased two pieces of land, the first piece from a private person and the second from the assembly of the village, and that he made over both pieces of land to the villagers for maintaining a flower-garden for the temple.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> cālai kalamaṟuttu veṅkaiññāṭum kaṅkapāṭiyūm<note n="5-2">Read yum.</note> taṭiyavaḻiyūm<note type="repeated" n="5-2"/> nuḷam
+<lb n="2" break="no"/>papāṭiyuṅkoṇṭa kovi<hi rend="grantha">rājarāja</hi>ke<hi rend="grantha">sari</hi>va<unclear>r</unclear><hi rend="grantha">ma</hi><supplied reason="omitted">r</supplied>kku yāṇṭu <num value="14"><g type="numeral">10</g> 4</num> Āvatu <supplied reason="undefined"><g type="danda">.</g></supplied>
+<lb n="3"/>kāliyūrkkoṭṭattu taṉ kūṟṟu <hi rend="grantha">śi</hi>vacūḷāma<unclear>ṇi</unclear>maṅkalamākiya <hi rend="grantha">śrī</hi>vi<hi rend="grantha">kramābhara</hi>ṇa<hi rend="grantha">śa</hi>tu<hi rend="grantha"><unclear>rvv</unclear>e</hi>ti<hi rend="grantha">ma</hi>ṅkalattu<note n="5-3"><hi rend="grantha">rvve</hi> looks almost like <hi rend="grantha">se;</hi> read <hi rend="grantha">ca</hi>tu<hi rend="grantha">rvedi</hi>.</note> <hi rend="grantha">sabhai</hi>yom Eḻuttu <supplied reason="undefined"><g type="danda">.</g></supplied>
+<lb n="4"/>coḻaṇāṭṭu<note n="5-4">Read coḻanāṭṭu or coṇāṭṭu.</note> teṉka<unclear>rai</unclear> tiruvaḻuntūrnāṭṭu kaḻaṉivāyil kaḻaṉi<unclear>vā</unclear>yiluṭaiyāṉ p<unclear>e</unclear>ṟṟāṉātitta<unclear>ṉ</unclear> Emmur<note n="5-5">Read emmūr.</note> puvaṉimāṇikkavi <hi rend="grantha"><unclear>ṣṇu</unclear>gṛha</hi>t<unclear>tu</unclear> para
+<lb n="5" break="no"/>ma<hi rend="grantha">sv<unclear>ā</unclear>mi</hi>kaḷukku<note n="5-6">The ta of nanta has been added subsequently.</note> <unclear>ti</unclear>runa<unclear>n</unclear>ta<unclear>vā</unclear>ṉapuṟa<unclear>t</unclear>tukku Ivaṉ vilai koṇṭu vaitta <hi rend="grantha">bhū</hi>mi taṟutampavāykkālukku vaṭakku pakaṭikku teṟkum
+<lb n="6"/>perumāṉaṭivatikku meṟku Otimukki<hi rend="grantha"><unclear>bhrām</unclear>takra</hi><unclear>mavi</unclear>ttaṉ pakkal vilai koṇṭa vi<unclear>ḷai</unclear>nila<unclear>m</unclear> paṅkiṭṭa ko<unclear>l</unclear>āl <hi rend="grantha">5<unclear>3</unclear>8</hi>
+<lb n="7" break="no"/>kuḻiyum Ivaṉey nan<unclear>ta</unclear>vāṉattukku <hi rend="grantha">sabhai</hi>yom pakkal vi<unclear>lai koṇṭa</unclear> nila<unclear>m</unclear> mu<unclear>ṭu</unclear>mpai canti<unclear>rā</unclear>cca<hi rend="grantha">krama</hi>r ku
+<lb n="8" break="no"/>ṟṟettavāykkālukku meṟ<unclear>k</unclear>kum Āṟṟukku vaṭakkum Orukol vaḻi nīkki <unclear>I</unclear>taṟku kurivu<note n="5-7">Read kuṟaivu.</note> <hi rend="grantha">śrī</hi><unclear>n</unclear>ā<hi rend="grantha">rā</hi>yaṇa<hi rend="grantha"> A</hi>k<unclear>ki</unclear><hi rend="grantha">śā</hi>ma<hi rend="grantha">krama</hi>r<note n="5-8">Read <hi rend="grantha">agniśarma</hi>.</note> pula
+<lb n="9" break="no"/>ttukku kiḻakku muṭump<unclear>ai</unclear> cantirāccatampi<unclear>yu</unclear>muḷḷiṭṭ<unclear>ār</unclear>kku teṟku paṅkiṭṭa kolāl <hi rend="grantha"><unclear>5</unclear>01</hi> kuḻiyum <gap reason="lost" quantity="1" unit="character"/> <unclear>ñ</unclear>ca <gap reason="lost" quantity="1" unit="character"/> ṭṭapaṭṭa nilat<unclear>tuk</unclear>ku <hi rend="grantha">kra</hi>ya<hi rend="grantha"><unclear>dra</unclear>vya</hi>mum
+<lb n="10"/>Iṟai<hi rend="grantha">dravya</hi>mum Aṟakkoṇṭu In<unclear>nan</unclear>ta<unclear>vā</unclear>ṉamum <unclear>na</unclear>ntavā<unclear>ṉa</unclear>puṟamum<note n="6-1">Read <hi rend="grantha">candrā</hi>.</note> <hi rend="grantha">śa<unclear>ntr</unclear>āditya</hi>va<unclear>l</unclear><note n="6-2">ān erased ḻi (?) follows here.</note> Iṟ<unclear>aiili</unclear>yāka Iṟai Iḻicci<note n="6-3">Read <hi rend="grantha">śilā</hi>.</note> <hi rend="grantha">ślāle</hi>
+<lb n="11" break="no"/><unclear>k</unclear>ai <unclear>ce</unclear>ytu kuṭuttom <hi rend="grantha">sa<unclear>bh</unclear>ai</hi>yom <supplied reason="undefined"><g type="danda">.</g></supplied> <hi rend="grantha">sabhai</hi>yuḷḷiruntu paṇi keṭṭe Eḻuti<unclear>ṉeṉ</unclear> <hi rend="grantha">madhyastan</hi><note n="6-4">Read <hi rend="grantha">sthan</hi>.</note> nālāyirava<unclear>ṉ</unclear>
+<lb n="12"/>makaṉ Āyirattirunūṟṟuvaṉāriya<note n="6-5">The va has been added subsequently; read ṉākiya.</note> <hi rend="grantha">brahmaku</hi>ṇā<hi rend="grantha"/><note n="6-6">Read <hi rend="grantha">gu</hi>ṇā<hi rend="grantha">;</hi> the ṇā is expressed by a compound letter, on which see Vol. II. p. 200, note 1.</note> 
+<lb n="13" break="no"/><hi rend="grantha">ka</hi>ravi<hi rend="grantha">jyāsthā</hi>nama<unclear>ṅ</unclear>kalā<supplied reason="omitted">ti</supplied>t<unclear>ta</unclear><hi rend="grantha">sa<unclear>ma</unclear>n</hi>tu<hi rend="grantha">sapri</hi>ya<unclear>ṉ</unclear>eṉ<note n="6-7">Read vi<hi rend="grantha">dyāsthā</hi>na<hi rend="grantha">maṅgalādityasamañjasa</hi>.</note> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Hultzsch1899_01">
+
+<p>(Line 1.) Hail ! Prosperity ! In the 14th year (<hi rend="italic">of the reign</hi>) of king <hi rend="bold">Rājarāja-Kēsarivarman</hi>, who, having destroyed the ships (<hi rend="italic">at</hi>) <hi rend="bold">Śālai</hi>, conquered <hi rend="bold">Vēṅgaiññāḍu, Gaṅga-pāḍi, Taḍiya-vaḻi</hi> and <hi rend="bold">Nuḷamba-pāḍi</hi>. The writing of us, the assembly of <hi rend="bold">Śivachūḷāmaṇimaṅgalam</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Śrī-Vikramābharaṇa-chaturvēdimaṅgalam</hi>, (<hi rend="italic">a village</hi>) in its own subdivision of <hi rend="bold">Kāliyūr-kōṭṭam</hi>.</p>
+
+<p>(L. 4.) <hi rend="bold">Kaḻaṉivāyil-uḍaiyāṉ [P]eṟṟāṉ Ādittaṉ</hi> of <hi rend="bold">Kaḻaṉivāyil</hi>, (<hi rend="italic">a village</hi>) in <hi rend="bold">Tiruvaḻundūr-nāḍu</hi>, (<hi rend="italic">a district</hi>) on the southern bank (<hi rend="italic">of the</hi> Kāvērī) in <hi rend="bold">Śōḻa-nāḍu</hi>, had purchased from <hi rend="bold">Odimukki[bhrān]ta-Kramavittaṉ</hi> 538 <hi rend="italic">kuḻi</hi> of cultivated land, (<hi rend="italic">measured</hi>) by a graduated rod, to the north of the <hi rend="italic">Taṟudamba</hi> channel,<note n="6-8">The same channel was mentioned in No. 2, line 4.</note> to the south of <hi rend="italic">Pagaḍi, (and</hi>) to the west of the road to (<hi rend="italic">the temple of</hi>) the god (<hi rend="italic">perumāṉ-aḍi</hi>), and had assigned (<hi rend="italic">this</hi>) land for the maintenance<note n="6-9">The term <hi rend="italic">puṟam</hi> occurs again in No. 4, line 8, and in No. 12, line 6.</note> of a flower-garden (<hi rend="italic">nandavāṉam</hi>) to the god (<hi rend="italic">paramasvāmin</hi>) of the <hi rend="bold">Puvaṉimāṇikka-Vishṇugṛiham</hi> in our village.</p>
+
+<p>(L. 7.) The same person had purchased from us, the assembly, for a flower-garden, 501 <hi rend="italic">kuḻi</hi> of land, (<hi rend="italic">measured</hi>) by a graduated rod, to the west of the irrigation channel<note n="6-10">Literally, ‘the channel (from which water is drawn by) small levers;’ on <hi rend="italic">kuṟṟ-ēttam</hi> see Vol. II. p. 360, note 4.</note> of <hi rend="bold">Muḍumbai Śandirāchcha-Kramar</hi>, to the north of the river, to the east of the field of <hi rend="bold">Śrīnārāyaṇa-Agniśarma-Kramar</hi> with the exception of a road (<hi rend="italic">of the breadth</hi>) of one rod, (<hi rend="italic">and</hi>) to the south (<hi rend="italic">of the field</hi>) of <hi rend="bold">Muḍumbai Śandirāchcha-Tambiyum-Uḷḷiṭṭār</hi>.<note n="6-11">The expression <hi rend="italic">uḷḷiṭṭār</hi>, ‘partners,’ occurs in Vol. I. Nos. 54 and 71, and in Vol. II. p. 115.</note> </p>
+
+<p>(L. 9.) Having received in full the purchase-money and the revenue of the land • • • • • and having exempted this flower-garden and (<hi rend="italic">the land assigned for</hi>) the maintenance of the flower-garden from taxes for as long as the moon and the sun exist, we, the assembly, engraved (<hi rend="italic">this</hi>) on stone.</p>
+
+<p>(L. 11.) Having been present in the assembly and having heard (<hi rend="italic">their</hi>) order, I, the arbitrator <hi rend="bold">Āyirattirunūṟṟuvaṉ</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Brahmaguṇākaravidyāsthāna-Maṅgalāditya-Samañjasapriyaṉ</hi>, the son of <hi rend="bold">Nālāyiravaṉ</hi>, wrote (<hi rend="italic">this)</hi>.<note n="6-12">The inscription No. 2 was written by the same person.</note> Prosperity !</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.3 by <bibl><ptr target="bib:Hultzsch1899_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Hultzsch1899_01"/>
+			<citedRange unit="page">5-6</citedRange>
+			<citedRange unit="item">3</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

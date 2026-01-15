@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.120: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 120.—IN THE SAME PLACE. No. 320 of 1907.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0120</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is again a record of <hi rend="bold">Rājakēsarivarman</hi> dated in the 4th year and must be attributed to <hi rend="bold">Parāntaka</hi> II, since it mentions the General <hi rend="bold">Pirāntakaṉ Iruṅgōḷar</hi> <hi rend="italic">alias</hi> <hi rend="bold">Śiṟiyavēḷār</hi>.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><note n="256-4">This inscription is engraved in continuation of No. 319 of 1907.</note> <hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> ko Irācake<hi rend="grantha">sa</hi>riva<hi rend="grantha">nma</hi>ṟku yāṇṭu 4 Āvatu vaṭakaraittevatāna<hi rend="grantha">brahma-</hi> teyam Amaninārāyaṇaccatu<hi rend="grantha">rvve</hi>timaṅkalattu ti
+<lb n="2" break="no"/>ruvicalūr perumāṉaṭikaḷukku pirāntakaṉ Iruṅkoḷarākiya ciṟiyaveḷar Uccampotu tiruvamutukku ca<hi rend="grantha">ndrādi</hi>tta<hi rend="grantha"/>
+<lb n="3" break="no"/>vaṟ peruṅkuṟiperumakkaḷukku Īḻakka <gap reason="lost" quantity="1" unit="character"/> ṅkācu <hi rend="grantha"><unclear>1</unclear><num value="30">3 <g type="numeral">10</g></num></hi> kācu kuṭutta A<hi rend="grantha">de</hi>yañce<unclear>tu ku</unclear>ṭutta nilamā
+<lb n="4" break="no"/>vatu tirunilakaṇṭaccerik kuñ<unclear>ca</unclear>pevil <hi rend="grantha">bha</hi>vanan=ticatuppeti<hi rend="grantha">bha</hi>ṭṭacomāciyār <unclear>ca</unclear>tukkattu Iraṇ
+<lb n="5" break="no"/>ṭām pāṭakam <hi rend="grantha">śrī</hi>koyiliṉ mēlpakkattu E <gap reason="lost" quantity="2" unit="character"/> tta kaṇṭattu
+<lb n="6"/>kālum <hi rend="grantha">śrīmādha</hi>varcceriyil nan=ti<hi rend="grantha">śvarabha</hi>ṭṭar Aṭṭa<unclear>ka</unclear>ttu nattakūṟu tiruvicalūr Ūrirukkaiyil kāṇiyum Āka Ikkāle kāṇiyum can=tirāti<supplied reason="omitted">t</supplied>tavaṟ vaiccār <unclear>paṉ</unclear><hi rend="grantha">m<choice><sic>a</sic><corr>ā</corr></choice>he<unclear>śvararakṣai</unclear></hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:KrishnaSastri1920_01">
+
+<p>(Line 1.). Hail ! Prosperity ! In the 4th year of (<hi rend="italic">the reign of</hi>) king <hi rend="bold">Rājakēsarivarman, Pirāntakaṉ Iruṅgōḷar</hi> <hi rend="italic">alias</hi> <hi rend="bold">Śiṟiyavēḷar</hi>, paid 130 <hi rend="italic">īḻakkāśu</hi> to the great men of the big assembly and gave, freed from payment (<hi rend="italic">of taxes) (adēyam</hi><note n="256-5">The meaning of the phrase <ta>a</ta><hi rend="grantha">de</hi><ta>yam ceytu</ta> is not quite clear. It may be that the land was made taxfree and the phrase corresponds to the Tamil <ta>iṟaiyili</ta>. The tax payable to the king is designated <hi rend="italic">rājapradēya</hi> in the next inscription, text line 2. The other meaning that suggests itself is that the land was made inalienable.</note> ) the following land for the sacred midday offerings to (<hi rend="italic">the temple of</hi>) the god (<hi rend="italic">perumāṉaḍigaḷ</hi>) at <hi rend="bold">Tiruviśalūr</hi> in <hi rend="bold">Amaninārāyaṇa-chaturvēdimaṅgalam</hi>, a <hi rend="italic">dēvadāna</hi> and a <hi rend="italic">brahamdēya</hi> on the northern bank (<hi rend="italic">of the Kāvērī), (to last</hi>) as long as the moon and the sun.</p>
+
+<p>(L. 4.) (One) quarter (<hi rend="italic">vēli of land) • • • kaṇḍam</hi> on the western side of the sacred shrine (<hi rend="italic">śrīkōyil), (forming</hi>) the second <hi rend="italic">pāḍagam</hi> of the <hi rend="italic">śadukkam</hi> of <hi rend="bold">Bhavanandi-Chaturvēdibhaṭṭa-Sōmayājiyār</hi> of <hi rend="bold"><note n="257-1">For the occurrence of <ta>kuñcappevil</ta> as a family name, see above, Vol. II, Part V, pp. 533 and 534.</note> Kuñjapevil</hi> (<hi rend="italic">living</hi>) in (<hi rend="italic">the quarter</hi>) <hi rend="bold">Tirunīlakaṇḍachchēri</hi> and (<hi rend="italic">one) kāṇi (of land</hi>) in the village-site (<hi rend="italic">ūrirukkai</hi>) of <hi rend="bold">Tiruviśalūr</hi>, (<hi rend="italic">forming</hi>) the <hi rend="italic">nattam</hi> portion of the <hi rend="italic">aṭṭakam</hi> of <hi rend="bold">Nandīśvara-Bhaṭṭa</hi> (<hi rend="italic">living</hi>) in <hi rend="bold">Śrīmādhavarchēri</hi>,—in all this quarter (<hi rend="italic">vēli</hi>) and (<hi rend="italic">one) kāṇi (of land</hi>) were given (<hi rend="italic">by him) (to last</hi>) as long as the moon and the sun. (<hi rend="italic">The assembly of</hi>) all <hi rend="italic">Māhēśvaras</hi> shall protect (<hi rend="italic">this charity</hi>).</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.120 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1920_01"/>
+			<citedRange unit="page">256-257</citedRange>
+			<citedRange unit="item">120</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 2.85: original edition by V. Venkayya</title>
+				<title type="alt">No. 85. ON A PILLAR OF THE WEST ENCLOSURE. No. 31 of 1897.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv02p0i0085</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription belongs to the reign of <hi rend="bold">Rājēndra-Chōḷa</hi> I. and records the gift of copper, zinc and bell-metal vessels to the image of <hi rend="bold">Gaṇapatiyār</hi> set up in the principal temple. This image was probably in the central shrine and was known as <hi rend="bold">Ālaiyattu-Piḷḷaiyār</hi><note n="407-4">See also No. 37 above, text-lines 2 f. and 8 f. and p. 411 below, text-line 8 f.</note> perhaps to distinguish him from the <hi rend="bold">Parivārālaiyattu-Piḷḷaiyār</hi><note n="407-5">See No. 36 above, text-line 1; also below, p. 409, text-line 5 f. and p. 412, text-line 4 f.</note> set up apparently in the enclosing verandah of the temple. A portion of the inscription is damaged (ll. 23 to 30).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<!--<h4><hi rend="italic">First face</hi>.</h4>-->
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrīḥ</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> Uṭai
+<lb n="2" break="no"/>yār <hi rend="grantha">śrīrājarājī</hi>
+<lb n="3" break="no"/><hi rend="grantha">śvaram</hi> Uṭaiyār
+<lb n="4" break="no"/>kku <hi rend="grantha">śrīkāryya</hi>ñcey
+<lb n="5" break="no"/>kiṉṟa poykainā
+<lb n="6" break="no"/>ṭu kiḻavaṉ Ātitta
+<lb n="7" break="no"/>ṉ <hi rend="grantha">sūryya</hi>ṉāṉa te
+<lb n="8" break="no"/>ṉṉavaṉ mūven
+<lb n="9" break="no"/>taveḷāṉ Ālaiya
+<lb n="10" break="no"/>ttu<unclear>p</unclear>piḷḷaiyār
+<lb n="11"/><hi rend="grantha">ga</hi>ṇa<hi rend="grantha">pa</hi>tiyār<unclear>kku U</unclear>
+<lb n="12" break="no"/>ṭai<unclear>yār</unclear> <hi rend="grantha">śrīrāje</hi>
+<lb n="13" break="no"/><hi rend="grantha">ndra</hi>co<unclear>ḻa</unclear> <hi rend="grantha">de</hi>varkku
+<lb n="14"/>yāṇṭu <unclear>mū</unclear>ṉṟāvatu
+<lb n="15"/>var<unclear>ai</unclear> kuṭutta cem
+<lb n="16" break="no"/>puntarāvum veṇ
+<lb n="17" break="no"/>kalamum Āṭ<unclear>va</unclear>llā
+<lb n="18" break="no"/>ṉ Eṉṉu<unclear>n</unclear>tilāk
+<lb n="19" break="no"/>kolāl <unclear>ni</unclear>ṟaiye
+<lb n="20" break="no"/>ṭuttukkallil ve
+<lb n="21" break="no"/>ṭṭi<unclear>ṉa</unclear> <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">1</supplied></hi> cep
+<lb n="22" break="no"/>puttaḷi<unclear>kai</unclear> Oṉṟu
+<lb n="23"/><unclear>niṟai</unclear> <gap reason="lost" quantity="3" unit="character"/> pa
+<lb n="24" break="no"/>lam <hi rend="grantha"><supplied reason="omitted">2</supplied></hi> <gap reason="lost" quantity="4" unit="character"/> vaṭa
+<lb n="25" break="no"/><unclear>ṭil</unclear> <gap reason="lost" quantity="3" unit="character"/> <unclear>ni</unclear>
+<lb n="26" break="no"/>ṟ<unclear>ai</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="27"/><unclear>va</unclear> <gap reason="lost" quantity="2" unit="character"/> <hi rend="grantha"><supplied reason="omitted">3</supplied> <gap reason="lost" quantity="2" unit="character"/> </hi>
+<lb n="28"/>tta[ṭṭam ?] <gap reason="lost" quantity="2" unit="character"/> <unclear>ni</unclear>
+<lb n="29" break="no"/>ṟai <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="30"/>rai <hi rend="grantha"><supplied reason="omitted">4</supplied></hi> ta<unclear>rā</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="31"/>kkāl Oṉṟu ni<unclear>ṟ</unclear>ai
+<lb n="32"/>Eṇpatiṉ palam <hi rend="grantha"><supplied reason="omitted">5</supplied></hi>
+</p>
+
+<!--<h4><hi rend="italic">Second face</hi>.</h4>-->
+
+<p>
+<lb n="33"/>tarāttāraik<unclear>k</unclear>e
+<lb n="34" break="no"/>ṇṭi Oṉṟu niṟai
+<lb n="35"/>nūṟṟu Orupalam <hi rend="grantha">[<g type="danda">.</g>—6*]</hi>
+<lb n="36"/>tarāppeṭṭakam
+<lb n="37"/>Oṉṟu niṟai nū
+<lb n="38" break="no"/>ṟṟuppalam <hi rend="grantha">[<g type="danda">.</g>—7*]</hi> ve
+<lb n="39" break="no"/>ṇkalattaḷikai
+<lb n="40"/>Oṉṟu niṟai E
+<lb n="41" break="no"/>ḻupattaimpalam <hi rend="grantha"><supplied reason="omitted">8</supplied></hi>
+<lb n="42"/>veṇkalakkaic
+<lb n="43" break="no"/>colam Oṉṟu ni
+<lb n="44" break="no"/>ṟai nāṟpalaṉe
+<lb n="45"/>kaicu <hi rend="grantha">[<g type="danda">.</g>—9*]</hi> Ivaṉe ce
+<lb n="46" break="no"/>pputtirumeṉippi
+<lb n="47" break="no"/>ḷḷaiyār <hi rend="grantha">ga</hi>ṇa<hi rend="grantha">pa</hi>
+<lb n="48" break="no"/>tiyārkkukkuṭutta
+<lb n="49"/>veṇkalattaṭṭam
+<lb n="50"/>Oṉṟu niṟai Orupa
+<lb n="51" break="no"/>laṉe kaicu — <hi rend="grantha">[<num value="10"><g type="numeral">10</g></num>*]</hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Venkayya1913_01">
+
+<p>Hail ! Prosperity ! The copper, zinc (<hi rend="italic">tarā</hi>) and bell-metal (<hi rend="italic">vessels</hi>) presented to (<hi rend="italic">the image of</hi>) <hi rend="bold">Piḷḷaiyār Gaṇapatiyār</hi> in the (<hi rend="italic">principal</hi>) temple (<hi rend="italic">ālaiyam</hi>) until the third year (<hi rend="italic">of the reign</hi>) of the lord <hi rend="bold">Śrī-Rājēndra-Chōḷadēva</hi> by <hi rend="bold">Ādittaṉ Sūryaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Teṉṉavaṉ Mūvēndavēḷāṉ</hi>, the headman of <hi rend="bold">Poygai-nāḍu</hi>, who carries on the management of the temple of the lord <hi rend="bold">Śrī-Rājarājēśvaramuḍaiyār</hi>, were engraved (<hi rend="italic">i.e.</hi> recorded) on stone after (<hi rend="italic">they</hi>) had been weighed with the scale (<hi rend="italic">tilākkōl</hi>) known as <hi rend="bold">Āḍavallāṉ</hi>.</p>
+
+<p>2. One copper dish, weighing • • • • <hi rend="italic">palam</hi>.</p>
+
+<p>3. • • • cup • • weighing • • • • </p>
+
+<p>4. • • • • [plate] • • • weighing • • • </p>
+
+<p>5. One zinc • • • stand, weighing eighty <hi rend="italic">palam</hi>.</p>
+
+<p>6. One zinc pitcher with a spout for pouring water, weighing one hundred and one <hi rend="italic">palam</hi>.</p>
+
+<p>7. One zinc box, weighing one hundred <hi rend="italic">palam</hi>.</p>
+
+<p>8. One bell-metal dish, weighing seventy-five <hi rend="italic">palam</hi>.</p>
+
+<p>9. One bell-metal <hi rend="italic">kaichchōlam</hi><note n="408-1">With <ta>kaiccolam</ta> compare <ta>kaccolam</ta> in No. 46 above, paragraph 46, where it is rendered ‘a girdle (in the shape of) a snake.’ As suggested by Mr. Venkoba Rao, <hi rend="italic">kaichchōlam</hi> is probably connected with the Marāṭhī <hi rend="italic">kachōḷēṁ</hi> or <hi rend="italic">kachōḷa</hi>, which, according to Molesworth's <hi rend="italic">Marāṭhī Dictionary</hi>, means “a little metal vessel to hold rice, sandal paste, <hi rend="italic">etc</hi>.”</note> , weighing four <hi rend="italic">palam</hi> and (<hi rend="italic">one) kaiśu</hi>.<note n="408-2"><hi rend="italic">Kaiśu</hi> was equal to one-fourth of a <hi rend="italic">palam</hi>; see above, p. 75. A variant of the word is <hi rend="italic">kaśu</hi>; see above, p. 130, note 1.</note> </p>
+
+<p>10. One bell-metal plate given by the same man to the copper image of <hi rend="bold">Piḷḷaiyār Gaṇapatiyār</hi>, weighing one <hi rend="italic">palam</hi> and (<hi rend="italic">one) kaiśu</hi>.</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 2.85 by <bibl><ptr target="bib:Venkayya1913_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Venkayya1913_01"/>
+			<citedRange unit="page">407-409</citedRange>
+			<citedRange unit="item">85</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

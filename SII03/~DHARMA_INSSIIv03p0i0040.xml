@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.40: original edition by Eugen Julius Theodor Hultzsch</title>
+				<title type="alt">No. 40.—ON THE OUTSIDE OF THE EAST WALL OF THE INNER PRAKARA OF THE RAJAGOPALA-PERUMAL TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0040</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription consists of a single Sanskrit verse in the <hi rend="italic">Indravajrā</hi> metre and of a passage in Tamil prose. It is dated on a week-day (l. 3) which will probably admit of calculation, in the 18th year of the reign of <hi rend="italic">Tribhuvanachakravartin</hi> <hi rend="bold">Rājarājadēva</hi>, and records the gift of two lamps to the image of <hi rend="bold">Vishṇu</hi>, and to an image of <hi rend="bold">Narasiṁha</hi> which was set up in the same temple.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrīḥ—vādhūlago<unclear>tr</unclear>ār<unclear>ṇṇa</unclear>vapūrṇṇacandra<supplied reason="omitted">ḥ</supplied> śrīkṛṣṇasūri<unclear>r</unclear>nnidhirāgamā</hi>nā<hi rend="grantha">m <supplied reason="undefined"><g type="danda">.</g></supplied> ratnāgrahārasthi</hi>taye
+<lb n="2"/><hi rend="grantha">parasm</hi>ai <hi rend="grantha">prādāt pradīpa<unclear>dva</unclear>yamādipumse—[1 <g type="ddanda">.</g>*] tribhu</hi>vanacca<hi rend="grantha">kra</hi>va<hi rend="grantha"><unclear>r</unclear>tti</hi>ka<unclear>ḷ</unclear> <hi rend="grantha">śrīrājarājade</hi>vaṟku yāṇṭu <num value="18"><g type="numeral">10</g> 8</num> Āva<unclear>tu</unclear>
+<lb n="3"/>makaranāyaṟṟu <hi rend="grantha">pūrvvapakṣa</hi>ttu <hi rend="grantha">pratham</hi>aiyum tiṅkaṭkiḻamaiyum peṟṟa tiruvo<unclear>ṇat</unclear>tu nāḷ ma<unclear>ṇi</unclear>maṅkalamā<unclear>ṉa</unclear>
+<lb n="4"/><hi rend="grantha">grāmaśikhāma</hi>ṇiccatu<hi rend="grantha">rvvedi</hi>maṅkalattu<note n="87-1">The first ṉ has been entered below the line.</note> maṉṉaṉār koyililttiruvārā<hi rend="grantha"><unclear>dha</unclear></hi>nam paṇ<unclear>ṇu</unclear>m (<hi rend="grantha">śrī</hi>)<note n="87-2">After <hi rend="grantha">śrī</hi> some letters have been erased.</note> 
+<lb n="5"/><hi rend="grantha">śrīrāmabhaṭṭa</hi><unclear>ṉu</unclear>m Ivaṉ tampi vīṟṟiruntāṉ <hi rend="grantha">bhaṭṭa</hi><unclear>ṉum I</unclear>vviruvom Ivvūrkkuṇṭur<note n="87-3">Read ṭūr.</note> <hi rend="grantha">śrīkṛṣṇabhaṭṭa <gap reason="lost" quantity="2" unit="character"/> </hi>
+<lb n="6"/>yar pakkal nāṅkaḷ kaikkoṇṭa cempoṉ Irukaḻañcu <supplied reason="undefined"><g type="danda">.</g></supplied> Iccempo<unclear>ṉ I</unclear>ruka<unclear>ḻa</unclear>ñcukkum <hi rend="grantha">prā</hi>ta<hi rend="grantha">ssandhi</hi><unclear>yile</unclear> <supplied reason="omitted">maṉ</supplied>
+<lb n="7" break="no"/><unclear>ṉa</unclear>ṉār tirumuṉpe Orutiru<unclear>vi</unclear>ḷakkum <hi rend="grantha">sā</hi>ya<hi rend="grantha">ṁsandhi</hi><unclear>yi</unclear>le Ikko<unclear>yi</unclear>lileḻuntaruḷi Irukkum ciṅkapperumā<unclear>ḷ</unclear>
+<lb n="8"/>tirumu<unclear>ṉ</unclear>pe O<unclear>ru</unclear>tiruviḷakku<unclear>m</unclear> <hi rend="grantha">candrāditya</hi>varai celu<unclear>t</unclear>takkaṭavomāka <hi rend="grantha">śilālekh</hi>ai pa<unclear>ṇṇi</unclear>kkuṭuttom Ivviruvo<unclear>m</unclear> <unclear>U</unclear>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Hultzsch1899_01">
+
+<p>Hail ! Prosperity ! (Verse 1.) <hi rend="bold">Śrīkṛishṇa-Sūri</hi>, a treasury of the scriptures (<hi rend="italic">Āgama</hi>), the full-moon of the ocean (<hi rend="italic">which is</hi>) the <hi rend="italic">Vādhūla-gōtra</hi>, gave a pair of lamps to the highest primal being <hi rend="bold">(Vishṇu)</hi> who resides at <hi rend="bold">Ratnāgrahāra</hi>.<note n="87-4"><hi rend="italic">I.e.</hi> Manimaṅgalam; compare No. 27, verse 1.</note> </p>
+
+<p>(Line 2.) In the 18th year (<hi rend="italic">of the reign</hi>) of the emperor of the three worlds, the glorious <hi rend="bold">Rājarājadēva</hi>, on the day of <hi rend="italic">Śravaṇa</hi>, which corresponded to a Monday and to the first <hi rend="italic">tithi</hi> of the first fortnight of the month of <hi rend="italic">Makara</hi>,—we two, <hi rend="bold">Śrīrāma-Bhaṭṭaṉ</hi>, who performs the worship in the temple of <hi rend="bold">Maṉṉaṉār</hi> (Vishṇu) at <hi rend="bold">Maṇimaṅgalam</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Grāmaśikhāmaṇi-chaturvēdimaṅgalam</hi>, and his younger brother <hi rend="bold">Vīṟṟirundāṉ Bhaṭṭaṉ</hi>, received two <hi rend="italic">kaḻañju</hi> of pure gold from <hi rend="bold">Śrīkṛishṇa-Bhaṭṭa</hi><note n="87-5">The same person was called Śrīkṛishṇa-Sūri in verse 1.</note> • • • of <hi rend="bold">Kuṇḍūr</hi>, (<hi rend="italic">a resident</hi>) of this village.</p>
+
+<p>(L. 6.) We two have caused to be engraved on stone that, (<hi rend="italic">in return</hi>) for these two <hi rend="italic">kaḻañju</hi> of pure gold, we shall have to burn, as long as the moon and the sun exist, one sacred lamp in the morning before the god <hi rend="bold">Maṉṉaṉār</hi>, and one sacred lamp in the evening before the god <hi rend="bold">Śiṅga-Perumāḷ</hi> who is pleased to reside in the same temple.</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.40 by <bibl><ptr target="bib:Hultzsch1899_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Hultzsch1899_01"/>
+			<citedRange unit="page">86-87</citedRange>
+			<citedRange unit="item">40</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

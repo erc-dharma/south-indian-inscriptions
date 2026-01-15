@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 2.97: original edition by V. Venkayya</title>
+				<title type="alt">No. 97.—IN THE SECOND GOPURA OF THE TEMPLE, RIGHT OF ENTRANCE. No. 22 of 1897.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv02p0i0097</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The subjoined inscription records that the goldsmiths of Tanjore were exempted from taxes by the <hi rend="bold">Nāyaka</hi> chief <hi rend="bold">Achyutappa-Nāyaka</hi>, son of <hi rend="bold">Śevvappa-Nāyaka</hi> of Tanjore. It is dated in Śaka-Saṁvat 1499 expired, the cyclic year Bahudhānya corresponding apparently to A.D. 1578-79. <hi rend="bold">Achyutappa-Nāyaka</hi> was a feudatory of the <hi rend="bold">Vijayanagara</hi> king <hi rend="bold">Veṅkaṭa</hi> I. The influence of the Tanjore Nāyakas extended at one time as far as <hi rend="bold">Tiruvaṇṇāmalai</hi> in the South Arcot District.<note n="499-1">See my <hi rend="italic">Annual Report</hi> on Epigraphy for 1904-05, Part II, paragraphs 37 and 38.</note> </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śu<supplied reason="omitted">bha</supplied>mastu <supplied reason="undefined"><g type="ddanda">.</g></supplied> svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> cakā<hi rend="grantha">sta</hi><unclear>m</unclear> <num value="1490"><g type="numeral">1000</g> 4 <g type="numeral">100</g> 9 <g type="numeral">10</g></num>ṉmel cellāniṉṟa
+<lb n="2"/>vekutāṉiya<note n="499-2">The letters varu are written together in a group.</note> varu<hi rend="grantha">ṣa</hi>m Āṉi <hi rend="grantha">mā</hi>ta<hi rend="grantha">m 1<unclear>8</unclear>u</hi> comavāramum piṟatamatuvāte
+<lb n="3" break="no"/>ciyum peṟṟa puṇṇiyakālattu cevvappanāyakkar Ayyaṉ Accutap
+<lb n="4" break="no"/>panāyakkar Ayyaṉ tañcāvūr taṭṭāṟku kuṭutta taṉmacātaṉappaṭ
+<lb n="5" break="no"/>ṭaiyam kantanolu nā<unclear>ra</unclear>yakkurunātaṉ ciṅkappaḷḷi nākapattace<hi rend="grantha">ṣāsti</hi>
+<lb n="6" break="no"/>riyum colla taṅkaḷiṟai kaḻippittapaṭiyāle<note n="499-3">The syllable rā of cantirā is written together in a group.</note> cantirātittavaraiyum
+<lb n="7"/>caṟuvamāṉiyamāka naṭakkavum Inta taṉmattukku Akitam paṇṇiṉava
+<lb n="8" break="no"/>n keṅkaikkaraiyile<note n="499-4">The syllable rā of kārā is written together in a group.</note> kārāmpacuvai koṉṟa pāvattale<note n="499-5">The syllables rā and vum of pokakkaṭavarākavum are written together in two groups.</note> pokakkaṭavarākavum
+<lb n="9"/>varākavum<note n="499-6">The syllable rā of varākavum is written together in a group. The syllables varākavum are repeated unnecessarily.</note> Inta taṉmattai Akutam paṇṇiṉavaṉ Āyira
+<lb n="10" break="no"/>m liñkattai piṭuṅkiṉa to<hi rend="grantha">ṣa</hi>ttile<note n="499-7">The syllables rā and vum of pokakkaṭavarākavum are written together in two groups.</note> pokakkaṭavarākavum <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Venkayya1913_01">
+
+<p>Let there be prosperity ! Hail ! Prosperity !</p>
+
+<p>On the auspicious occasion of the <hi rend="italic">prathamadvādaśī</hi><note n="499-8"><hi rend="italic">Prathamadvādaśī</hi> is perhaps meant to denote the twelfth of the bright half of the month <hi rend="italic">Āshāḍha</hi>, on which day the <hi rend="italic">Chāturmāsyavrata</hi> commences; see <hi rend="italic">Ind. Ant</hi>. Vol. XXVI. p. 181.</note> , a Monday (<hi rend="italic">corresponding to</hi>) the 1[8]th solar day of the month of Āṉi in the year <hi rend="bold">Bahudhānya</hi>, which was current after (<hi rend="italic">the expiry of</hi>) the Śaka year 1499—(<hi rend="italic">the following is</hi>) the charter (<hi rend="italic">conveying</hi>) a lawful edict given by <hi rend="bold">Achyutappa-Nāyakkar Ayyaṉ</hi>, (<hi rend="italic">son of</hi>) <hi rend="bold">Śevvappa-Nāyakkar Ayyaṉ</hi> to the goldsmiths of <hi rend="bold">Tañjāvūr</hi>. At the request of <hi rend="bold">Kandanōlu Nāraya Kurunādaṉ</hi> (and) <hi rend="bold">Śiṅgappaḷḷi Nāgabatta Śēshāstiri</hi> (<hi rend="italic">i.e.</hi> perhaps <hi rend="bold">Śēshādri</hi>), your taxes (<hi rend="italic">iṟai</hi>) have been caused to be remitted, and (<hi rend="italic">this</hi>) shall continue as long as the moon and the sun (endure) as a remission of all taxes (<hi rend="italic">sarvamānya</hi>). One who obstructs this charity shall incur the sin of having killed tawny cows on the bank of the Ganges. One who obstructs this charity shall incur the sin of having pulled out a thousand <hi rend="italic">liṅgas</hi>.</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 2.97 by <bibl><ptr target="bib:Venkayya1913_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Venkayya1913_01"/>
+			<citedRange unit="page">498-499</citedRange>
+			<citedRange unit="item">97</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

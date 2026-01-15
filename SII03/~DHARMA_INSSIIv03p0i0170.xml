@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.170: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 170.—ON THE SAME WALL. No 24 of 1898.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0170</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The assembly of <hi rend="bold">Uttaramērūr-chaturvēdimaṅgalam</hi> received the usual <hi rend="italic">pūrvāchāram</hi> from <hi rend="bold">Śandiraṉ Eḻunūṟṟuvaṉ Nuḷamba-Māyilaṭṭi</hi>, a merchant of <hi rend="bold">Raṇavīrappāḍi</hi> in <hi rend="bold">Kāñchīpura</hi> and exempted taxes on certain lands which they had given to a priest of the temple, in the fourth year (<hi rend="italic">of the reign</hi>) of <hi rend="bold">Pārthivēndrādhipativarman</hi> who took the head of <hi rend="bold">Vīra-Pāṇḍya</hi>.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> vīrapāṇṭiyaṉai talaikoṇṭa pā<hi rend="grantha">rtthi</hi>ve<hi rend="grantha">ntrādhi</hi>patipaṉma<supplied reason="omitted">r</supplied>kkiyāṇṭu 4 Āvatu kāliyūrkoṭṭattu
+<lb n="2" break="no"/><unclear>t</unclear> tan<note n="347-2">Read kūṟṟuttiramērūr.</note> kuṟṟuttiraverūrcatu<hi rend="grantha">rvve</hi>timaṅkalattu peruṅkuṟi <hi rend="grantha">sabhai</hi>yom Eḻuttu Emmūr periyamaṇṭakattu perumāṉaṭikaḷai <unclear>A</unclear><hi rend="grantha"><unclear>r</unclear>cci</hi><supplied reason="omitted">k</supplied>ku<supplied reason="omitted">m</supplied> Ā<hi rend="grantha">tra</hi>ya<unclear>ṉ</unclear> ta<supplied reason="omitted">t</supplied>ta<hi rend="grantha">bha</hi><supplied reason="omitted">ṭ</supplied>ṭanu<hi rend="grantha"/>
+<lb n="3" break="no"/><unclear>k</unclear>ku A<hi rend="grantha"><unclear>rcca</unclear></hi>nā<hi rend="grantha">bho<unclear>ga</unclear></hi>ttukkum tiruvamutukkum tiruviḷakkukkummā<supplied reason="omitted">ka</supplied><note n="347-3">Read vaitta.</note> vetta <hi rend="grantha">bhū</hi>miyāvatu va<unclear>yi</unclear>ramekavatiyiṉ vaṭakku 1 ka<supplied reason="omitted">ṇ</supplied>ṇā<unclear>ṟ</unclear>ṟu viṭelviṭu
+<lb n="4" break="no"/>kuvatiyiṉ meṟku 2 catu<supplied reason="omitted">k</supplied>kattum 3 ṟā<note n="347-4">The length of ṟā is indicated by a separate symbol.</note> <supplied reason="omitted">ñ</supplied> catu<supplied reason="omitted">k</supplied>kattumāka talai<unclear>tara</unclear>m kuḻi Aṟu<unclear>ṉū</unclear>ṟu Iṉṉam kantāṭai poṉṉaiya<hi rend="grantha"><unclear>kra</unclear></hi>mavitta
+<lb n="5" break="no"/>comāciyār Ampalattaṭikaḷukku <supplied reason="omitted">v</supplied>aitta paṅku Oṉṟi<unclear>ṉ</unclear>vaḻi vaṉta pūmi Epperpaṭṭatum Ippūmikku kāñcipurattu
+<lb n="6"/>Ira<unclear>ṇa</unclear>nvirap<unclear>pi</unclear>ṭi<note n="347-5">Read iraṇavīrappāṭi.</note> viyā<unclear>p</unclear>āri cantiraṉ Eḻu<unclear>nū</unclear>ṟṟuvaṉ nuḷa<unclear>m</unclear>pamāyilaṭṭi pa<supplied reason="omitted">k</supplied>kal<note n="347-6">Read pūrvācāram.</note> <hi rend="grantha">bhū</hi>rvācāram koṇṭu Iṟaiyiliyāka paṇi<unclear>t</unclear>
+<lb n="7" break="no"/>tom peruṅkuṟi<hi rend="grantha">sabhai</hi>yom Amañciyum veṭṭiyum Iṟaiyum Eccoṟu<supplied reason="omitted">m</supplied> maṟṟum E<unclear>p</unclear>perpaṭṭatum kāṭṭa
+<lb n="8" break="no"/><note type="repeated" n="347-4"/> peṟātomāka <supplied reason="undefined"><g type="ddanda">.</g></supplied> Itukku viro<hi rend="grantha">dha</hi>m ceyitārai<note n="347-7">Read ceytārai.</note> <hi rend="grantha">dha</hi>ṉ<hi rend="grantha">māsa</hi>ṉatte Irupat<supplied reason="omitted">t</supplied>aiñkaḻa<note n="347-8">Read ṅkaḻañcu.</note> ñcu poṉ manṟa peruvār<note n="347-9">Read āka.</note> Akavum keṅkaiyi
+<lb n="9" break="no"/>ṭai kumari<supplied reason="omitted">yi</supplied>ṭai naṭuvu ceyitār pāvam koḷvār<note type="repeated" n="347-9"/>Akavumāka paṇittom peru ṅkuṟi<hi rend="grantha">sabhai</hi>yom <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+<p>(Line 1.) Hail ! Prosperity ! In the 4th year of (<hi rend="italic">the reign of</hi>) <hi rend="bold">Pārthivēndrādhipativarman</hi> who took the head of <hi rend="bold">Vīra-Pāṇḍya</hi>, (<hi rend="italic">this is</hi>) the writing of us (<hi rend="italic">the members</hi>) of the great assembly of <hi rend="bold">Uttaramērūr-chaturvēdimaṅgalam</hi> (<hi rend="italic">situated</hi>) in its (<hi rend="italic">own</hi>) subdivision (<hi rend="italic">kūṟu</hi>) in <hi rend="bold">Kāliyūr-kōṭṭam</hi>. The land given to Ātrayaṉ Ta[t*]ta-bha[ṭ*]ṭaṉ who performs the worship of the god (<hi rend="italic">perumāṉaḍigaḷ</hi>) in the big hall (<hi rend="italic">periya-maṇḍapa</hi>) of our village, for <hi rend="italic">archanābhōga</hi>, sacred offerings and sacred lamps (<hi rend="italic">is as follows):—</hi></p>
+
+<p>(L. 3.) Six hundred <hi rend="italic">kuḻi</hi> of first rate (<hi rend="italic">land</hi>) in the second square (<hi rend="italic">śadukkam</hi>) and in the third square west of (<hi rend="italic">the path called</hi>) <hi rend="bold">Viḍēlviḍugu-vadi</hi> of the first <hi rend="italic">kaṇṇāṟu</hi>, north of (<hi rend="italic">the path called</hi>) <hi rend="bold">Vayiramēga-vadi</hi>; also every sort of land which formed the one share assigned (<hi rend="italic">by us</hi>) to <hi rend="bold">Kandāḍai Poṉṉaiyakramavitta Sōmāśiyār Ambalattaḍigaḷ</hi>. We (<hi rend="italic">the members</hi>) of the great assembly having received <hi rend="italic">pūrvāchāram</hi> for this land from <hi rend="bold">Śandiraṉ Eḻunūṟṟuvaṉ Nuḷamba Māyilaṭṭi</hi>, a merchant (<hi rend="italic">residing in</hi>) <hi rend="bold">Raṇavīrappāḍi</hi> in <hi rend="bold">Kāñchīpura</hi>, ordered (<hi rend="italic">it to be made</hi>) tax-free. We shall not enter (<hi rend="italic">in books) amañji, veṭṭi, iṟai, echchōṟu</hi> or any other kind (<hi rend="italic">of tax</hi>); we (<hi rend="italic">the members</hi>) of the great assembly (<hi rend="italic">further</hi>) ordered that those who act against this shall be liable to a fine of twenty-five <hi rend="italic">kaḻañju</hi> of gold in the court of justice and that they shall incur the sins of the sinners (<hi rend="italic">residing</hi>) between <hi rend="bold">Gaṅgai</hi> (the Ganges) and <hi rend="bold">Kumari</hi> (Cape Comorin).</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.170 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1920_01"/>
+			<citedRange unit="page">347-348</citedRange>
+			<citedRange unit="item">170</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

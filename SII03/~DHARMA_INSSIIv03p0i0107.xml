@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.107: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 107.—ON THE NORTH WALL OF THE CENTRAL SHRINE IN THE SIVAYOGANATHASVAMIN TEMPLE AT TIRUVISALUR No. 29 of 1907..</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0107</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription records a gift of sheep for a lamp to the temple of <hi rend="bold">Tiruviśalūr</hi> by a female servant of <hi rend="bold">Kāmaṉiyakkaṉār</hi>. This lady who was apparently a member of the royal family is not mentioned elsewhere.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha"><unclear>svasti</unclear> śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> matiraikoṇṭa ko parakecaripa<hi rend="grantha">nma</hi>ṟkku yāṇ
+<lb n="2" break="no"/><unclear>ṭu</unclear> 3<note n="242-2">As in the succeeding lines two or more syllables have been built in at the beginning of each line; perhaps the date consisted of two figures the first of which may have been one, two or three.</note> Āvatu vaṭakarai tevatāṉappirammeteya<note n="242-3">Read piramateya.</note> 
+<lb n="3" break="no"/><unclear>m Ama</unclear>ṉinārāyaṇacatu<hi rend="grantha">rvve</hi>timaṅkalattu tiruvicalūr
+<lb n="4"/><unclear>peru</unclear>māṉaṭikaḷukkut tirunontāviḷakku<hi rend="grantha">ccantr<choice><sic>a</sic><corr>ā</corr></choice>ti</hi>ttaval
+<lb n="5"/> <gap reason="lost" quantity="2" unit="character"/> ya nāṭṭu kāmaṉiyakkaṉār parivārattu Icakkaṉayyaṉa<unclear>ṅ</unclear>kai
+<lb n="6"/><unclear>vaitta</unclear> tiruviḷakku Oṉṟu Itukku Āṭu toṉṉūṟu<note n="242-4">Read toṇṇūṟu.</note> Itu paṉ<hi rend="grantha">māheśvara</hi>ruma
+<lb n="7"/><hi rend="grantha"> <gap reason="lost" quantity="2" unit="character"/> rakṣi</hi><supplied reason="omitted">k</supplied>ka <hi rend="grantha">śi</hi>pātamela<unclear>ṉa</unclear><note n="242-5">The last words perhaps stand for the usual imprecatory clause <hi rend="grantha">rakṣi</hi>ppār <hi rend="grantha">śrī</hi>pātameṉaṟalaimelaṉa.</note> <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:KrishnaSastri1920_01">
+
+<p>Hail ! Prosperity ! In the 3rd year of (<hi rend="italic">the reign of</hi>) king <hi rend="bold">Parakēsarivarman</hi>, who took <hi rend="bold">Madirai</hi> (Madura), <hi rend="bold">Iśakkaṉayya-Naṅgai</hi>, one of the servants (<hi rend="italic">parivāram</hi>) of <hi rend="bold">Kāmaṉiyakkaṉār</hi> of • • <hi rend="bold">nāḍu</hi>, gave one sacred lamp (<hi rend="italic">to burn</hi>) as long as the moon and the sun (<hi rend="italic">last</hi>), as a sacred perpetual light, to (<hi rend="italic">the temple of</hi>) the god of <hi rend="bold">Tiruviśalūr</hi> in <hi rend="bold">Amaṉinārāyaṇa-chaturvēdimaṅgalam</hi> which was a <hi rend="italic">dēvadāna</hi> and a <hi rend="italic">brahmadēya</hi> on the north bank (<hi rend="italic">of the Kāvērī</hi>). For this (<hi rend="italic">purpose) (she</hi>) gave ninety sheep. (<hi rend="italic">The assembly of</hi>) all <hi rend="italic">Māhēśvaras</hi>• • • shall protect this. The sacred feet [of those who protect] (<hi rend="italic">shall be</hi>) on (<hi rend="italic">my head</hi>).</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.107 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1920_01"/>
+			<citedRange unit="page">242</citedRange>
+			<citedRange unit="item">107</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

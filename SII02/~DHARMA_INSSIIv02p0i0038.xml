@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 2.38: original edition by Eugen Julius Theodor Hultzsch</title>
+				<title type="alt">No. 38. ON THE FIRST NICHE OF THE WEST ENCLOSURE, THIRD INSCRIPTION.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv02p0i0038</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription describes seven images, which had been set up before the 29th year [of the reign of <hi rend="bold">Rājarājadēva</hi>] by the same manager of the <hi rend="bold">Rājarājēśvara</hi> temple, who is mentioned in the inscription No. 26, and a number of ornaments, which had been given to these images by the same person (paragraphs 23 to 50) and by the inhabitants of two towns (paragraphs 51 and 59). The images represented <hi rend="bold">Nambi-Ārūraṉār</hi> (paragraphs 2, 23, 55, 59), <hi rend="bold">Naṅgai-Paravaiyār</hi> (5, 25, 57, 66), <hi rend="bold">Tirunāvukkaraiyar</hi> (8, 29, 53), <hi rend="bold">Tiruñāṉaśambandaḍigaḷ</hi> (11, 36, 51), <hi rend="bold">Periya-Perumāḷ</hi> (14, 44), his consort <hi rend="bold">Lōkamahādēvī</hi> (17, 47), and the god <hi rend="bold">Chandraśēkhara</hi><note n="152-2">This image consisted of brass, while the other six were of copper.</note> (20). Of these, Periya-Perumāḷ, ‘the great king,’ and his consort Lōkamahādēvī are perhaps identical with king <hi rend="bold">Rājarājadēva</hi> and his queen <hi rend="bold">Lōkamahādēvī</hi>,<note n="152-3">See No. 34, above.</note> both of whom may have been represented as worshipping the god Chandraśēkhara, <hi rend="italic">i.e.</hi>, <hi rend="bold">Śiva</hi>, in whose honour the king had built the temple.</p>						
+
+						<p>The inscription is of great importance for the history of Tamil literature, as it forms a <hi rend="italic">terminus ad quem</hi> for the time of the reputed authors of the <hi rend="italic">Dēvāram</hi> or <hi rend="italic">Mūvar-pāḍal</hi>, a collection of hymns in honour of Śiva. Dr.Caldwell<note n="152-4"><hi rend="italic">Comparative Grammar</hi>, 2nd edition, pp. 138 ff. of the Introduction.</note> was inclined to assign this poem to the end of the thirteenth century. But the present inscription shows, that it must have been written before the time of <hi rend="bold">Rājarājadēva</hi>. For the inscription mentions each of the three authors of the <hi rend="italic">Dēvāram, viz</hi>., <hi rend="bold">Tiruñāṉaśambandar, Tirunāvukkaraiyar</hi> (<hi rend="italic">alias</hi> Appar) and <hi rend="bold">Nambi-Ārūraṉār</hi> (<hi rend="italic">alias</hi> Sundaramūrti), also the latter's wife <hi rend="bold">Naṅgai-Paravaiyār</hi>.</p>						
+
+						<p>It is not improbable, that the sixty-three <hi rend="italic">Tiruttoṇḍar</hi> or Śaiva devotees, among whom the three authors of the <hi rend="italic">Dēvāram</hi> are reckoned, belong to a much earlier period than that of <hi rend="bold">Rājarājadēva</hi>. For one of them, who is mentioned along with the rest in <hi rend="bold">Sundaramūrti's</hi> hymns,<note n="152-5"><ta>teṉṉavaṉāyulakāṇṭa ceṅkaṇārkkaṭiyēṉ;</ta> “I (<hi rend="italic">viz.</hi>, Sundaramūrti) am the servant of Śeṅgaṇār, who, having become king of the South, ruled the world.”</note> was <hi rend="bold">Kōchcheṅgaṇṇāṉ</hi>,<note n="152-6"><hi rend="italic">I.e.</hi>, ‘king (<hi rend="italic">kō</hi>) Red-eye (<hi rend="italic">śem-kaṇ</hi>).’</note> the son of the <hi rend="bold">Chōḷa</hi> king <hi rend="bold">Śubhadēva</hi> and of his queen <hi rend="bold">Kamalavatī</hi>.<note n="152-7">Page 239 of the Madras edition of the <hi rend="italic">Periyapurāṇam</hi>.</note> This Kōchcheṅgaṇṇāṉ appears to be identical with the <hi rend="bold">Chōḷa</hi> king <hi rend="bold">Śeṅgaṇ</hi>, the hero of <hi rend="bold">Poygaiyār's</hi> contemporaneous Tamil poem <hi rend="italic">Kaḷavaṛi</hi>, which was recently translated by Mr. V.Kanakasabhai Pillai.<note n="152-8"><hi rend="italic">Indian Antiquary</hi>, Vol. XVIII, pp. 259 ff.</note> The same scholar has published extracts from a later Tamil poem, the <hi rend="italic">Kaliṅgattu-Paraṇi</hi>, which alludes successively, without mentioning the names themselves, to the three <hi rend="bold">Chōḷa</hi> kings <hi rend="bold">Kōkkiḷḷi</hi> <hi rend="bold">Kōchcheṅgaṇṇāṉ</hi> and <hi rend="bold">Karikāla</hi>.<note n="153-1"><hi rend="italic">Ibid.</hi>, Vol. XIX, pp. 331, 339 and 341.</note> In the two only copper-plate grants, which contain a genealogical account of the <hi rend="bold">Chōḷa</hi> dynasty, the same three kings are mentioned, though in different order, as ancestors of <hi rend="bold">Vijayālaya</hi>, the grandfather of <hi rend="bold">Parāntaka</hi> I. The grant of the Bāṇa king Hastimalla<note n="153-2"><hi rend="italic">Salem Manual</hi>, Vol. II, p. 369.</note> enumerates them thus;—<hi rend="bold">Kōkkiḷḷi, Karikāla</hi> and <hi rend="bold">Kōchchaṁkaṇ</hi>; and in the large Leyden grant, they are arranged as follows:—<hi rend="bold">Karikāla, Kōchchaṁkaṇṇān</hi> and <hi rend="bold">Kōkkiḷḷi</hi>. To the time of Karikāla or, as he is also called in Tamil, <hi rend="bold">Karikāl</hi> belongs the Tamil poem <hi rend="italic">Paṭṭiṉappālai</hi> by <hi rend="bold">Rudraṅgaṇṇaṉār</hi>,<note n="153-3">Published by Paṇḍit <hi rend="bold">Śāminādaiyar</hi> in his <hi rend="italic">Pattuppāṭṭu</hi>, Madras, 1889. According to the commentary on the <hi rend="italic">Porunar-Āṟṟuppaḍai</hi>), another of the <hi rend="italic">Pattuppāṭṭu</hi>, the name of Karikāl's father was Iḷañjēṭcheṉṉi.</note> and to that of <hi rend="bold">Śeṅgaṇ</hi> the above-mentioned <hi rend="italic">Kaḷavaṛi</hi>.<note n="153-4">Both poems are referred to in the <hi rend="italic">Kaliṅgattu-Paraṇi</hi>, canto 8, verses 18 and 21.</note> As poems in the Tamil language are thus proved to have been composed in the time of the early Chōḷas, there is no objection to assigning the authors of the <hi rend="italic">Dēvāram</hi> to the same period.</p>						
+
+						<p>The legendary history of the sixty-three <hi rend="italic">Tiruttoṇḍar</hi>,—and, among these, of the three authors of the <hi rend="italic">Dēvāram</hi>,—is narrated in the <hi rend="italic">Periyapurāṇam</hi> by <hi rend="bold">Śēkkiṛār</hi>, who is said to have composed it during the reign of the <hi rend="bold">Chōḷa</hi> king <hi rend="bold">Anapāya</hi>. The Tyāgarājasvāmin temple at <hi rend="bold">Tiruvārūr</hi><note n="153-5">In the <hi rend="bold">Nāgapaṭṭaṇam</hi> (Negapatam) tālluqa of the Tanjore district.</note> contains an inscription of this king. The name <hi rend="bold">Anapāya</hi> occurs in each of two Sanskrit verses at the end of the inscription, while in the introductory passage the king is called <hi rend="bold">Kō-Rājakēsarivarman</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Tribhuvanachakravartin Śrī-Kulōttuṅga-Chōḷadēva</hi>. In the 7th year of his reign, he made gifts to four images, which had been set up in the Tiruvārūr temple. As in the <hi rend="bold">Tañjāvūr</hi> inscription, these were images of <hi rend="bold">Āḷuḍaiya-Nambi</hi> (<hi rend="italic">i.e.</hi>, Sundaramūrti), <hi rend="bold">Paravai-Nāchchiyār</hi> (the latter's wife),<note n="153-6">In the <hi rend="bold">Tañjāvūr</hi> inscription, she is called Naṅgai-Paravaiyār, and in the <hi rend="italic">Periyapurāṇam</hi>, Paravaiyār.</note> <hi rend="bold">Āḷuḍaiya-Piḷḷaiyār</hi> (<hi rend="italic">i.e.</hi>, Tiruñāṉaśambandar) and <hi rend="bold">Tirunāvukkaraśudēvar</hi>. The concluding portion of the inscription runs thus:—</p>						
+
+						<l n="2:153:38:0"><de>śrīmatbrahmapurīśavāgadhipatissvasvāmimitraśca</de><note n="153-7">Read <de>ºpatī svaº</de>.</note> <de>ye</de></l>						
+
+						<l n="2:153:38:0"><de>tebhyo hematabhādhināthacaraṇannyāsollasanmastakaḥ <supplied reason="undefined"><g type="danda">.</g></supplied></de></l>						
+
+						<l n="2:153:38:0"><de>prādāt bhūmihiraṇyakaṁsarajatānanyāndhanān</de><note n="153-8">The composer treats both <de>rajata</de> and <de>dhana</de> as masculines !</note> <de>sottamān<note n="153-9">This is a mistake for <de>sa uttamān</de> which would not have suited the metre.</note> </de></l>						
+
+						<l n="2:153:38:0"><de>śrīyārūradhipasya mū[la]vasatau devonapāyo nṛpaḥ ||</de></l>						
+
+						<l n="2:153:38:0"><de>lakṣmyālaye racitadharmmaparānupāla-</de></l>						
+
+						<l n="2:153:38:0"><de>śīlānnṛpāṁgghrika[mal]āñchirasā</de><note n="153-10">The neuter <de>kamala</de> is wrongly used as a masculine, and the compound ending in <de>śīla</de> must be connected wich <de>nṛpa,</de> though grammatically dependent on <de>aṅghrikamala</de>.</note> <de>namāmi <supplied reason="undefined"><g type="danda">.</g></supplied></de></l>						
+
+						<l n="2:153:38:0"><de>vyāgghrāgrahāravarahemasabhānaṭeśa-</de></l>						
+
+						<l n="2:153:38:0"><de>pādāravindamadhupo [hya]na[p]āyanāmā ||</de></l>						
+
+						<l n="2:153:38:0"><ta>āḷuṭaiyanampi mātākkaḷ icaiñāniyār ||</ta></l>						
+
+						<l n="2:153:38:0"><de>jananī bhavato</de><note n="153-11">This word seems to be used in the sense of <de>bhagavato</de>.</note> <de>ñānaśivācāryyakulebhavat <supplied reason="undefined"><g type="danda">.</g></supplied></de></l>						
+
+						<l n="2:153:38:0"><de>śaive gau[ta]magotresmin ñānyākhyā kamalāpure ||</de></l>						
+
+						<p>“King <hi rend="bold">Anapāya</hi>, whose head glitters when placed at the feet of the lord of the Golden Hall, gave land, gold, brass, silver (<hi rend="italic">and</hi>) other excellent treasures to the blessed <hi rend="bold">Brahmapurīśa, Vāgadhipati</hi> and <hi rend="bold">Svasvāmimitra</hi> at the shrine of the blessed lord of <hi rend="bold">Ārūr</hi>.”</p>						
+
+						<p>“I, called <hi rend="bold">Anapāya</hi>, the bee at the lotus feet of Naṭēśa (<hi rend="italic">i.e.</hi>, Śiva) at the Golden Hall in the excellent <hi rend="bold">Vyāghrāgrahāra</hi>,<note n="154-1">The mention of the Golden Hall in connection with Vyāghrāgrahāra proves the correctness of the identification of this place with Chidambaram; see Vol. I, p. 112, note 2.</note> bow my head at the lotus feet of (<hi rend="italic">future</hi>) princes, who are disposed to protect the charitable gifts made at <hi rend="bold">Lakshmyālaya</hi><note n="154-2">Lakshmyālaya and, in the next verse, Kamalāpura, ‘the town of Lakshmī,’ is evidently the Sanskrit name of Ārūr or Tiruvārūr.</note> by other (<hi rend="italic">kings)</hi>.<note n="154-3">This verse contains the <hi rend="italic">captatio benevolentiae</hi>, which the donor usually addresses to his successors. The metre has obliged the “poet” to place <de>para</de> after <de>racitadharma</de> before which it ought to stand, and to drop the last syllable of <de>anupālana</de>.</note> ”</p>						
+
+						<p>“The mother of <hi rend="bold">Āḷuḍaiya-Nambi</hi> (<hi rend="italic">was</hi>) <hi rend="bold">Iśaiñāṉiyār</hi>.”</p>						
+
+						<p>“The mother of the saint (<hi rend="italic">viz.</hi>, Sundaramūrti), called <hi rend="bold">Ñānī</hi>, was born at this (<hi rend="italic">town of</hi>) <hi rend="bold">Kamalāpura</hi>, in the family of <hi rend="bold">Ñānaśivāchārya</hi>, in the <hi rend="bold">Śaiva</hi> (<hi rend="italic">doctrine and</hi>) in the <hi rend="italic">Gautama-gōtra</hi>.”</p>						
+
+						<p>The above passage shows, that king <hi rend="bold">Anapāya</hi> was a worshipper of the Śiva temple at <hi rend="bold">Chidambaram</hi>, and adds the name of <hi rend="bold">Iśaiñāṉiyār</hi>,<note n="154-4">The same female devotee is mentioned in the <hi rend="italic">Periyapurāṇam</hi>, pages 1 and 240.</note> the mother of Sundaramūrti, to those of Brahmapurīśa (<hi rend="italic">i.e.</hi>, <hi rend="bold">Tiruñāṉaśambandar</hi>), Vāgadhipati (<hi rend="italic">i.e.</hi>, <hi rend="bold">Tirunāvukkaraiyar</hi>) and Svasvāmimitra (<hi rend="italic">i.e.</hi>, <hi rend="bold">Sundaramūrti</hi>.)<note n="154-5">The correct explanation of the three words Brahmapurīśa, Vāgadhipati and Svasvāmimitra is due to my assistant, who is engaged in a critical examination of the contents of the <hi rend="italic">Periyapurāṇam</hi>. The first refers to the birthplace of Tiruñāṉaśambandar, Śīrgāṛi (Shiyali), which was also called Brahmapuram. The two others are Sanskrit translations of the Tamil names Tirunāvukkaraiyar and Embirāṉ-tōṛar (<hi rend="italic">i.e.</hi>, Sundaramūrti.)</note> </p>						
+
+						<p>Another inscription of the <hi rend="bold">Tiruvārūr</hi> temple, which is dated in the 5th year of <hi rend="bold">Kō-Parakēsarivarman</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Tribhuvanachakravartin Śrī-Vikrama-Chōḷadēva</hi>, contains a second reference to the subject of the <hi rend="italic">Periyapurāṇam</hi>. From a written copy, which my assistant prepared during the few hours we could devote to the temple, it appears that the inscription relates to the legend of the calf, which was accidentally run over by the chariot of the son of the <hi rend="bold">Chōḷa</hi> king <hi rend="bold">Manu</hi>. The same legend is located at <hi rend="bold">Tiruvārūr</hi> and told in other words in the introduction of the <hi rend="italic">Periyapurāṇam</hi> (pages 10 to 12).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<!--<h4><hi rend="italic">First section</hi>.</h4>-->
+
+<p>
+<lb n="1"/><hi rend="grantha">sva<unclear>sti</unclear> śrīḥ</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> Uṭaiyār <hi rend="grantha">śrīr<unclear>ā</unclear>jarājīśvaram</hi> U
+<lb n="2" break="no"/>ṭaiyārkku <hi rend="grantha">śrīkā<unclear>r</unclear>yya</hi>ñceykiṉṟa poykai
+<lb n="3" break="no"/>nāṭu kiḻavaṉ Ātittaṉ <hi rend="grantha">sū<unclear>r</unclear>yya</hi>ṉāṉa teṉṉava
+<lb n="4" break="no"/>ṉ mūventaveḷāṉ <hi rend="grantha">śrīrājarājīśvaram</hi> U
+<lb n="5" break="no"/><unclear>ṭ</unclear>aiyār koyilil yāṇṭu Irupattoṉpatāvatu
+<lb n="6"/>varai Eḻuntaruḷuvitta ceppu <hi rend="grantha">pra</hi>timaṅkaḷ
+<lb n="7"/><unclear>U</unclear>ṭaiyār koyilil muḻattāl Aḷantum <hi rend="grantha">ratna</hi>ṅkaḷ caraṭu nī
+<lb n="8" break="no"/>kki <hi rend="grantha">dakṣi</hi>ṇa<hi rend="grantha">meru</hi>viṭa<hi rend="grantha">ṅkan</hi> Eṉṉuṅkallāl niṟai Eṭu
+<lb n="9" break="no"/>ttum poṉ Āṭavallāṉ Eṉṉuṅkallāl niṟai Eṭut
+<lb n="10" break="no"/>tuṅkalilal<note n="154-6">Read kallil.</note> veṭṭiṉapaṭi <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">1</supplied> pādādikeśā</hi>n=ta<hi rend="grantha">m</hi> patiṉeḻuvi
+<lb n="11" break="no"/>rale Iraṇṭu torai Ucaramum Iraṇṭu tirukkaiyyum Uṭaiyarākakkaṉa
+<lb n="12" break="no"/>māka Eḻuntaruḷuvitta nampiārūraṉār <hi rend="grantha">pra</hi>timam Oṉṟu <g type="ddanda">.</g> <hi rend="grantha"><supplied reason="omitted">2</supplied></hi> <unclear>I</unclear>var niṉṟa Iruvi
+<lb n="13" break="no"/>ralarai Ucarattu <hi rend="grantha">patmam</hi> Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">3</supplied></hi> Itaṉoṭuṅkūṭacceyta Eṇviral ca
+<lb n="14" break="no"/>macaturattu mūvirale Iraṇṭu torai Ucarattu Ivar Eḻuntaruḷi niṉṟa
+<lb n="15"/><hi rend="grantha">pīṭham</hi> Oṉṟu [<g type="ddanda">.</g><g type="dashLong">.</g>] <hi rend="grantha"><supplied reason="omitted">4</supplied></hi> patiṉaṟuviral niḷattu Iraṇṭu tirukkaiyuṭaiyarākakkaṉa
+<lb n="16" break="no"/>māka Eḻuntaruḷu<unclear>vi</unclear>tta naṅkaiparavaiyār <hi rend="grantha">pra</hi>timam Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">5</supplied></hi> Ivar Eḻun=ta<hi rend="grantha"/>
+<lb n="17" break="no"/>ruḷi niṉṟa I<unclear>ru</unclear>vi<unclear>rale</unclear> Iraṇṭu torai Ucarattu <hi rend="grantha">patmam</hi> Oṉṟu [<g type="ddanda">.</g><g type="dashLong">.</g>] <hi rend="grantha"><supplied reason="omitted">6</supplied></hi> <unclear>I</unclear>taṉo
+<lb n="18" break="no"/>ṭuṅkūṭac<unclear>ce</unclear>yta Aṟuvirale Iraṇṭu torai camacaturattu <unclear>mū</unclear>viral Uca
+<lb n="19" break="no"/>rattu <hi rend="grantha">pīṭha</hi>[ <hi rend="grantha">m</hi> O] ṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">7</supplied> pādādikeśā</hi>n=ta<hi rend="grantha">m</hi> Irupattu Iruvirale Iraṇṭu to
+<lb n="20" break="no"/>rai Ucarattu Iraṇṭu tirukkaiyyuṭaiyarākakkaṉamāka Eḻuntaruḷuvitta tiru
+<lb n="21" break="no"/>nāvukkaraiyar <hi rend="grantha">pra</hi>timam Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">8</supplied></hi> Ivar Eḻuntaruḷi niṉṟa Iruvirale Āṟu
+<lb n="22"/>torai Ucarattu <hi rend="grantha">patmam</hi> Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha"><supplied reason="omitted">9</supplied></hi> Itaṉoṭuṅkūṭacceyta Eṇvirale
+<lb n="23"/>Āṟu torai<unclear>c</unclear>camacaturattu nālviral Ucarattu <hi rend="grantha">piṭham</hi> Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="10"><g type="numeral">10</g></num>*] pādādike</hi>
+<lb n="24" break="no"/><hi rend="grantha">śā</hi>n=ta<hi rend="grantha">m</hi> Irupattiruvirale Iraṇṭu torai Ucarattu Iraṇṭu tirukkaiyuṭai
+<lb n="25" break="no"/>yarākakkaṉamāka Eḻuntaruḷuvitta tiruñāṉacampantaṭikaḷ <hi rend="grantha">pra</hi>timam Oṉṟu <hi rend="grantha">[<num value="11"><g type="numeral">10</g> 1</num>*]</hi>
+<lb n="26"/>Ivar Eḻun<unclear>taru</unclear>ḷi niṉṟa Iruvirale Iraṇṭu torai Ucarattu <hi rend="grantha">patmam</hi> Oṉṟu <hi rend="grantha">[<num value="12"><g type="numeral">10</g> 2</num>*]</hi>
+<lb n="27"/><unclear>Itaṉ</unclear>oṭuṅkūṭacceyta Oṉpa<unclear>ti</unclear>ṟṟu
+<lb n="28"/>virale Iraṇṭu toraiccamacaturat
+<lb n="29" break="no"/>tu nālviral Ucarattu <hi rend="grantha"><unclear>pīṭha</unclear>m</hi> <unclear>O</unclear>ṉṟu <hi rend="grantha">[<num value="13"><g type="numeral">10</g> 3</num>*]</hi>
+<lb n="30"/><hi rend="grantha">pādādikeśā</hi>n=ta<hi rend="grantha">m</hi> Orumuḻame nā<unclear>l</unclear>vira
+<lb n="31" break="no"/>larai Ucarattu Iraṇṭu tirukkaiyuṭai<unclear>ya</unclear>rā
+</p>
+
+<!--<h4><hi rend="italic">Second section</hi>.</h4>-->
+
+<p>
+<lb n="32" break="no"/>kakkaṉamāka Eḻuntaruḷuvitta periyape<unclear>ru</unclear>māḷ <hi rend="grantha">pra</hi>timam Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="14"><g type="numeral">10</g> 4</num>*]</hi> Ivar Eḻuntaru<unclear>ḷi</unclear> niṉṟa Aiyvirale Iraṇṭu torai Ucarat<unclear>tu</unclear> <hi rend="grantha">patmam</hi> Oṉ
+<lb n="33" break="no"/>ṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="15"><g type="numeral">10</g> 5</num>*]</hi> Itaṉoṭuṅkūṭacceyta patiṉoru<unclear>vi</unclear>raṟcama �rat<unclear>tu Aiy</unclear>virale Āṟu tor<unclear>ai Ucara</unclear>ttu <hi rend="grantha"><unclear>pī</unclear>ṭham</hi> Oṉṟu <hi rend="grantha">[<num value="16"><g type="numeral">10</g> 6</num>*]</hi> Irupattu Iruvirale Iraṇṭu t<unclear>o</unclear>
+<lb n="34" break="no"/>rai Ucarattu Iraṇṭu tirukkaiyuṭaiyarākakkaṉamāka Eḻuntaruḷuvitta Ivar nampirā<unclear>ṭṭi</unclear>yār <unclear>Ol</unclear>okamāteviyār <hi rend="grantha">pra</hi>timam <unclear>Oṉ</unclear>ṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="17"><g type="numeral">10</g> 7</num>*]</hi> Ivar Eḻuntaru
+<lb n="35" break="no"/>ḷi niṉṟa Aiy<unclear>vi</unclear>rala Ucarattu <hi rend="grantha">patmam</hi> Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="18"><g type="numeral">10</g> 8</num>*]</hi> Itaṉoṭuṅkūṭacceyta Oṉpatiṟṟu <unclear>vi</unclear>raṟca<unclear>ma</unclear>caturattu Aiyvirale Iraṇṭu torai Ucarattu <hi rend="grantha">pīṭham</hi> Oṉ
+<lb n="36" break="no"/>ṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="19"><g type="numeral">10</g> 9</num>*]</hi> periyap<unclear>e</unclear>rumāḷukku <hi rend="grantha">de</hi>vāra<hi rend="grantha">de</hi>varāka Eḻuntaruḷuvitta <hi rend="grantha">de</hi>var <hi rend="grantha">pādādikeśā</hi>n=ta<hi rend="grantha">m</hi> Aivirale Iraṇṭu torai Uca<unclear>ra</unclear>ttu nālu <hi rend="grantha">śrīhasta</hi>mum Uṭaiyarāka<unclear>kka</unclear>
+<lb n="37" break="no"/>ṉamākappitta<unclear>ḷai</unclear>yāl Eḻuntaruḷuvitta cantiracekara<hi rend="grantha">de</hi>var tirumeṉi Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="20">2 <g type="numeral">10</g></num>*]</hi> Ivaroṭuṅkūṭacceyta Oruviralar<unclear>ai</unclear> Ucarattu <hi rend="grantha">patma</hi>mum Iruvirale nālu
+<lb n="38"/>toraiccamaca<unclear>tu</unclear>rattu<unclear>m</unclear> Oruviral Ucarattum pittaḷaiyāl ceyta <hi rend="grantha">pīṭham</hi> Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="21">2 <g type="numeral">10</g> 1</num>*]</hi> Ivaraikkavitta Irupattu Oruviraṟccuṟṟi<unclear>ṟ</unclear>kaṉamākaccempāl ceyta <hi rend="grantha">prabhai</hi>
+<lb n="39"/>Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="22">2 <g type="numeral">10</g> 2</num>*]</hi> Iva<unclear>ṉ</unclear>e nampiārūraṉārkkukkuṭuttaṉa <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="23">2 <g type="numeral">10</g> 3</num>*] Urudrākṣa</hi>ttāḻvaṭam Oṉṟiṟpoṉṉiṉ curi Aiympattāṟum <hi rend="grantha">Urudrākṣam</hi> Aiym<unclear>pa</unclear>ttāṟum Uṭpaṭa niṟai
+<lb n="40"/>Eṇkaḻañcey Oṉpatu mañcāṭikku vilai kācu Irupattaiñcu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="24">2 <g type="numeral">10</g> 4</num>*]</hi> Ivaṉe naṅkaiparavaiyārkkukkuṭuttaṉa <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="25">2 <g type="numeral">10</g> 5</num>*]</hi> <unclear>tiru</unclear>kkaiyk<unclear>kā</unclear>ṟai Oṉṟu poṉ <unclear>kaḻa</unclear>
+<lb n="41" break="no"/>ñcaraiyāka Ira<unclear>ṇṭi</unclear>ṉāṟpoṉ mukka<unclear>ḻa</unclear>ñcu [<g type="ddanda">.</g><g type="dashLong">.</g>] <hi rend="grantha">[<num value="26">2 <g type="numeral">10</g> 6</num>*]</hi> tirukkāṟkkā<unclear>ṟ</unclear>ai <unclear>O</unclear>ṉṟu poṉ kaḻañcaraiyāka Iraṇ<unclear>ṭi</unclear>ṉāṟp<unclear>o</unclear>ṉ <unclear>mu</unclear>kkaḻañcu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="27">2 <g type="numeral">10</g> 7</num>*]</hi> motiram Oṉṟu p<unclear>o</unclear>
+</p>
+
+<!--<h4><hi rend="italic">Third section</hi>.</h4>-->
+
+<p>
+<lb n="42" break="no"/>ṉ Araikkaḻañcey mañcāṭi<unclear>yu</unclear>ṅkuṉṟi <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="28">2 <g type="numeral">10</g> 8</num>*]</hi> I<unclear>vaṉ</unclear>e ti<unclear>ru</unclear>nāvukkaraiyarkkukkuṭuttaṉa <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="29">2 <g type="numeral">10</g> 9</num>*] Urudrākṣa</hi>ccuri p<unclear>o</unclear>ṉṉiṉ nūliṟ<unclear>k</unclear>kotta <hi rend="grantha">Urudrākṣam</hi> Oṉṟuṭpaṭa niṟai <unclear>Ā</unclear>ṟu mañcāṭiyum Iraṇṭu mā<unclear>vu</unclear>kku vilai kācu Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="30">3 <g type="numeral">10</g></num>*] Urudrākṣa</hi>ccuri poṉṉiṉ nūliṟ
+<lb n="43" break="no"/>kotta <hi rend="grantha">Urudrākṣam</hi> Oṉṟum Uṭpaṭa niṟai Āṟu mañcāṭiyum Iraṇṭu māvukku vilai kācu Oṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="31">3 <g type="numeral">10</g> 1</num>*]</hi> kaṇṭikai <hi rend="grantha">Urudr</hi>[ <hi rend="grantha">Ākṣam</hi> O] ṉ<unclear>ṟum curi O</unclear>ṉ<unclear>ṟum Uṭ</unclear>paṭa niṟai Aiyṅka <gap reason="lost" quantity="5" unit="character"/> <unclear>mañcāṭiyu</unclear>ṅkuṉṟikku vilai kācu Eṭṭu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="32">3 <g type="numeral">10</g> 2</num>*]</hi> tirup<unclear>p</unclear>oṟpū Oṉṟu poṉ mukkāle nālu mañ
+<lb n="44" break="no"/>cāṭiyuṅkuṉṟi <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="33">3 <g type="numeral">10</g> 3</num>*]</hi> tirukkaiykkāṟai Oṉṟu poṉ Irukaḻañcu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="34">3 <g type="numeral">10</g> 4</num>*]</hi> tirukk<unclear>aiy</unclear>kkāṟai Oṉṟu poṉ kaḻa<unclear>ñce mukkā</unclear>l<unclear>e</unclear> nā<unclear>lu mañ</unclear>cāṭi <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="35">3 <g type="numeral">10</g> 5</num>*]</hi> Ivaṉ<unclear>e ti</unclear>ruñā<unclear>ṉacampantaṭikaḷukkukkuṭut</unclear>taṉa <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="36">3 <g type="numeral">10</g> 6</num>*] Urudrākṣa</hi>ccuri poṉṉiṉ nūliṟkkotta <hi rend="grantha">Urudrākṣam</hi> Oṉṟuṭpaṭa niṟai
+<lb n="45"/>Araikkaḻañce Iraṇṭu mañcāṭikku vilai kācu Oṉṟarai <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="37">3 <g type="numeral">10</g> 7</num>*] Urudrākṣa</hi>ccuri po<unclear>ṉ</unclear>ṉiṉ nūliṟkkotta <hi rend="grantha">Urudrākṣa<unclear>m</unclear></hi> Oṉṟuṭ<unclear>paṭa niṟ</unclear>ai A<unclear>r</unclear>aikka<unclear>ḻa</unclear>ñ<unclear>c</unclear>e mañcāṭiyuṅkuṉṟikku vilai kācu Oṉṟarai [<g type="ddanda">.</g><g type="dashLong">.</g>] <hi rend="grantha">[<num value="38">3 <g type="numeral">10</g> 8</num>*]</hi> <unclear>tāḻ</unclear>vaṭa<unclear>m Oṉṟi</unclear>ṟ<unclear>po</unclear>ṉṉiṉ curi Aimpattāṟum <hi rend="grantha">Urudrākṣam</hi> Aimpattāṟum Uṭpaṭa niṟai Eṇkaḻañce
+<lb n="46" break="no"/>y nālu mañcāṭiyuṅkuṉṟikku vilai kācu Irupattaiñcu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="39">3 <g type="numeral">10</g> 9</num>*]</hi> tiruppoṟpū Oṉṟu poṉ kaḻañcey kuṉṟi <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="40">4 <g type="numeral">10</g></num>*]</hi> tirukkaiykkāṟai Oṉṟu poṉ Irukaḻañcey kuṉṟi <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="41">4 <g type="numeral">10</g> 1</num>*]</hi> tirukkaiykkāṟai Oṉṟu poṉ kaḻañce mukkāle nālu mañcāṭi <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="42">4 <g type="numeral">10</g> 2</num>*]</hi> tiruppaṭṭikai Oṉṟu poṉ Irukaḻañcu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="43">4 <g type="numeral">10</g> 3</num>*]</hi> Iva<unclear>ṉ</unclear>e
+<lb n="47"/>periyaperumāḷukkukkuṭuttaṉa <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="44">4 <g type="numeral">10</g> 4</num>*]</hi> tirukkaiykkāṟai Oṉṟu poṉ kaḻañcey Āṟu mañcāṭiyum mūṉṟu māvāka Iraṇṭiṉāṟpoṉ Irukaḻañcaraiye Iraṇṭu mañcāṭiyum Āṟu mā <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="45">4 <g type="numeral">10</g> 5</num>*]</hi> tirukkutampai Oṉṟu poṉ Eṭṭu mañcāṭiyum Eḻumāvāka Iraṇ<unclear>ṭi</unclear>ṉāṟpoṉ mukkāle Iraṇṭu mañcā
+<lb n="48" break="no"/>ṭiyum nāṉku mā <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="46">4 <g type="numeral">10</g> 6</num>*]</hi> Ivaṉe Ivar nampirāṭṭiyār Olokamāteviyārkkukkuṭuttaṉa <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="47">4 <g type="numeral">10</g> 7</num>*]</hi> tirukkutampai Oṉṟu poṉ Eḻumañcāṭiyuṅkuṉṟiyāka Iraṇṭiṉāṟpoṉ mukkāl <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="48">4 <g type="numeral">10</g> 8</num>*]</hi> tirukkaiykkāṟai Oṉṟu poṉ kaḻañcey Iraṇṭu mañcāṭiyum mūṉṟu mā <hi rend="grantha">[<num value="49">4 <g type="numeral">10</g> 9</num>*]</hi> tirukkaiykkāṟai Oṉṟu poṉ kaḻañ
+<lb n="49" break="no"/>ce Eṭṭu mā <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="50">5 <g type="numeral">10</g></num>*]</hi> Ivaṉ Eḻun=taruḷuvitta tiruñāṉacampan=taṭikaḷukku Irā<hi rend="grantha">je</hi>ntiraciṅkavaḷanāṭṭuttiruvālināṭṭu Uṭaiyār <hi rend="grantha">śrīrājarājīśvaram</hi> Uṭ<unclear>ai</unclear>yār tevatā<unclear>ṉa</unclear>ṅkuṟuvāṇiyakkuṭi<unclear>y</unclear>ākiya <hi rend="grantha">parake<unclear>sari</unclear></hi>purattu nakarattār yāṇṭu Irupattoṉpatāvatu varai kuṭutta <hi rend="grantha">ratna</hi>ṅkaḷ <hi rend="grantha">dakṣi</hi>ṇa<hi rend="grantha">meru</hi>viṭa<hi rend="grantha">ṅkan</hi> Eṉṉuṅkallāl niṟai Eṭuttum po
+<lb n="50" break="no"/>ṉ Āṭavallāṉ Eṉṉuṅkallāl niṟai Eṭuttuṅkallil veṭṭiṉa <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="51">5 <g type="numeral">10</g> 1</num>*] Urudrākṣam</hi> poṉṉi<unclear>ṉ cu</unclear>ri kaṭṭiṟ<unclear>ṟu</unclear> Oṉṟum n<unclear>āṇ pa</unclear>ṭukaṇṇuṅkokkuvāyum Uṭpaṭa niṟai kaḻañcey Eḻumañcāṭikku vilai kācu mūṉṟe kāl <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="52">5 <g type="numeral">10</g> 2</num>*]</hi> Ivaṉ Eḻunta
+<lb n="51" break="no"/><unclear>ruḷu</unclear>vi<unclear>tta</unclear> ti<unclear>runāvukka</unclear>r<unclear>aiyarkkukkuṭu</unclear>tta[ṉa <g type="ddanda">.</g><g type="dashLong">.</g>] <hi rend="grantha">[<num value="53">5 <g type="numeral">10</g> 3</num>*] <unclear>Uru</unclear>drākṣam</hi> poṉṉiṉ curi kaṭṭiṟṟu <unclear>O</unclear>ṉṟu<unclear>m n</unclear>ā<unclear>ṇ paṭukaṇṇu</unclear>ṅkokkuv<unclear>ā</unclear>yum Uṭpa<unclear>ṭa</unclear> niṟai kaḻañce Eḻu<unclear>mañc</unclear>āṭik<unclear>ku</unclear> vilai <unclear>kā</unclear>cu mūṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="54">5 <g type="numeral">10</g> 4</num>*]</hi> Ivaṉ Eḻuntaruḷuvitta nampiā<unclear>rūra</unclear>ṉārkkukkuṭuttaṉa <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="55">5 <g type="numeral">10</g> 5</num>*] Urudrākṣam</hi> poṉṉiṉ curi kaṭṭiṟṟu Oṉṟum nā<unclear>ṇ</unclear> paṭukaṇṇuṅk<unclear>o</unclear>
+</p>
+
+<!--<h4><hi rend="italic">Fourth section</hi>.</h4>-->
+
+<p>
+<lb n="52" break="no"/>kkuvāyum Uṭpaṭa niṟai kaḻañce Eḻumañcāṭikku vilai kācu mūṉṟu <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="56">5 <g type="numeral">10</g> 6</num>*]</hi> <unclear>I</unclear>vaṉ Eḻuntaruḷuvi<unclear>t</unclear>ta naṅkaiparavaiyārkkukkuṭuttaṉa <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="57">5 <g type="numeral">10</g> 7</num>*]</hi> tiru
+<lb n="53" break="no"/>voṉṟuṭpaṭappaṭṭaikkāṟai Oṉṟu poṉ mukkāle kuṉṟi <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="58">5 <g type="numeral">10</g> 8</num>*]</hi> Ivaṉ Eḻuntaruḷuvitta nampiārūraṉārkku nittaviṉotavaḷanāṭṭu
+<lb n="54"/>veṇṇikkūṟṟattu Uṭaiyār <hi rend="grantha">śrīrājarājīśvaram</hi> Uṭaiyār tevatāṉam veṇṇi nakarat<unclear>t</unclear>ār yāṇṭu Irupattoṉpatāvatu varai kuṭutta
+<lb n="55"/>poṉ Āṭavallāṉ Eṉṉuṅkallāl niṟai Eṭuttukkallil veṭṭiṉa <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="59">5 <g type="numeral">10</g> 9</num>*]</hi> tirukkampi O<unclear>ṉ</unclear>ṟu poṉ kaḻañce mañcāṭiyuṅkuṉṟi <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="60">6 <g type="numeral">10</g></num>*]</hi> tirukka<unclear>m</unclear>
+<lb n="56" break="no"/>pi Oṉṟu poṉ <unclear>kaḻa</unclear>ñce mañcāṭi <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="61">6 <g type="numeral">10</g> 1</num>*]</hi> tiraḷmaṇivaṭam Oṉṟu poṉ Irukaḻañce mañcāṭiyuṅkuṉ<unclear>ṟi</unclear> <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="62">6 <g type="numeral">10</g> 2</num>*]</hi> tirukkaiykkāṟai Oṉṟu poṉ <unclear>ka</unclear>
+<lb n="57" break="no"/>ḻañce <unclear>mu</unclear>kkāle nālu mañcā<unclear>ṭi</unclear> <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="63">6 <g type="numeral">10</g> 3</num>*]</hi> <unclear>ti</unclear>rukkai<unclear>yk</unclear>kāṟai Oṉṟu po<unclear>ṉ</unclear> kaḻañce mukkā<unclear>l</unclear>e mūṉṟu mañcā<unclear>ṭi</unclear>yuṅkuṉṟi <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="64">6 <g type="numeral">10</g> 4</num>*]</hi> tirukkāṟkāṟai
+<lb n="58"/>Oṉṟu poṉ kaḻañce mukkāle nālu mañcāṭiy<unclear>ā</unclear>ka Iraṇṭināṟpoṉ mukkaḻañce mukkāle mūṉṟu <unclear>ma</unclear>ñcāṭi <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="65">6 <g type="numeral">10</g> 5</num>*]</hi> <unclear>I</unclear>vaṉ Eḻuntaruḷu
+<lb n="59" break="no"/>vitta naṅkaiparavaiyārkkukkuṭuttaṉa <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="66">6 <g type="numeral">10</g> 6</num>*]</hi> tirukkam<unclear>pi</unclear> Oṉṟu poṉ mukkāle Iraṇṭu mañcāṭiyuṅkuṉṟi [<g type="ddanda">.</g><g type="dashLong">.</g>] <hi rend="grantha">[<num value="67">6 <g type="numeral">10</g> 7</num>*]</hi> tirukkampi Oṉṟu poṉ muk
+<lb n="60" break="no"/>kāle Iraṇṭu mañcāṭi <g type="ddanda">.</g><g type="dashLong">.</g> <hi rend="grantha">[<num value="68">6 <g type="numeral">10</g> 8</num>*]</hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:Hultzsch1892_01">
+
+<p>1. Hail ! Prosperity ! The following copper images,—<note n="157-1">Throughout this inscription, the irregular neuter <hi rend="italic">pratimam</hi> is used for the Sanskrit <hi rend="italic">pratimā</hi>. It denotes the image of a human being while the image of a god is called <hi rend="italic">tirumēṇi</hi>; see paragraph 20.</note> which had been set up in the temple of the lord <hi rend="bold">Śrī-Rājarājēśvara</hi> until the twenty-ninth year (<hi rend="italic">of the king's reign</hi>) by <hi rend="bold">Ādittaṉ Sūryaṉ</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Teṉṉavaṉ Mūvēnda-Vēḷāṉ</hi>, a headman (<hi rend="italic">of</hi>) <hi rend="bold">Poygai-nāḍu</hi>, who carried on the management of the temple of the lord <hi rend="bold">Śrī-Rājarājēśvara</hi>,—were engraved on stone, after they had been measured by the cubit measure (<hi rend="italic">preserved</hi>) in the temple of the lord, after the jewels (<hi rend="italic">given to them</hi>) had been weighed without the threads by the stone called (<hi rend="italic">after</hi>) <hi rend="bold">Dakshiṇa-Mēru-Viṭaṅkaṉ</hi>, and after the gold had been weighed by the stone called (<hi rend="italic">after</hi>) <hi rend="bold">Āḍavallāṉ:</hi>—</p>
+
+<p>2. One solid image of <hi rend="bold">Nambi-Ārūraṉār</hi>, having two sacred arms and (<hi rend="italic">measuring</hi>) seventeen <hi rend="italic">viral</hi> and two <hi rend="italic">tōrai</hi> in height from the feet to the hair.</p>
+
+<p>3. One lotus on which this (<hi rend="italic">image</hi>) stood, (<hi rend="italic">measuring</hi>) two <hi rend="italic">viral</hi> and a half in height.</p>
+
+<p>4. One pedestal on which this (<hi rend="italic">image</hi>) stood, joined to this (<hi rend="italic">lotus and measuring</hi>) eight <hi rend="italic">viral</hi> square, and three <hi rend="italic">viral</hi> and two <hi rend="italic">tōrai</hi> in height.</p>
+
+<p>5. One solid image of <hi rend="bold">Naṅgai-Paravaiyār</hi>, having two sacred arms (<hi rend="italic">and measuring</hi>) sixteen <hi rend="italic">viral</hi> in length.</p>
+
+<p>6. One lotus on which this <hi rend="italic">image</hi> stood, (<hi rend="italic">measuring</hi>) two <hi rend="italic">viral</hi> and two <hi rend="italic">tōrai</hi> in height.</p>
+
+<p>7. One pedestal, joined to this (<hi rend="italic">lotus and measuring</hi>) six <hi rend="italic">viral</hi> and two <hi rend="italic">tōrai</hi> square, and three <hi rend="italic">viral</hi> in height.</p>
+
+<p>8. One solid image of <hi rend="bold">Tirunāvukkaraiyar</hi>, having two sacred arms (<hi rend="italic">and measuring</hi>) twenty-two <hi rend="italic">viral</hi> and two <hi rend="italic">tōrai</hi> in height from the feet to the hair.</p>
+
+<p>9. One lotus on which this (<hi rend="italic">image</hi>) stood, (<hi rend="italic">measuring</hi>) two <hi rend="italic">viral</hi> and six <hi rend="italic">tōrai</hi> in height.</p>
+
+<p>10. One pedestal, joined to this (<hi rend="italic">lotus and measuring</hi>) eight <hi rend="italic">viral</hi> and six <hi rend="italic">tōrai</hi> square, and four <hi rend="italic">viral</hi> in height.</p>
+
+<p>11. One solid image of <hi rend="bold">Tiruñāṉaśambandaḍigaḷ</hi>, having two sacred arms (<hi rend="italic">and measuring</hi>) twenty-two <hi rend="italic">viral</hi> and two <hi rend="italic">tōrai</hi> in height from the feet to the hair.</p>
+
+<p>12. One lotus on which this (<hi rend="italic">image</hi>) stood, (<hi rend="italic">measuring</hi>) two <hi rend="italic">viral</hi> and two <hi rend="italic">tōrai</hi> in height.</p>
+
+<p>13. One pedestal, joined to this (<hi rend="italic">lotus and measuring</hi>) nine <hi rend="italic">viral</hi> and two <hi rend="italic">tōrai</hi> square, and four <hi rend="italic">viral</hi> in height.</p>
+
+<p>14. One solid image of <hi rend="bold">Periya-Perumāḷ</hi>, having two sacred arms (<hi rend="italic">and measuring</hi>) one <hi rend="italic">muṛam</hi>, four <hi rend="italic">viral</hi> and a half in height from the feet to the hair.</p>
+
+<p>15. One lotus on which this (<hi rend="italic">image</hi>) stood, (<hi rend="italic">measuring</hi>) five <hi rend="italic">viral</hi> and two <hi rend="italic">tōrai</hi> in height.</p>
+
+<p>16. One pedestal, joined to this (<hi rend="italic">lotus and measuring</hi>) eleven <hi rend="italic">viral</hi> square, and five <hi rend="italic">viral</hi> and six <hi rend="italic">tōrai</hi> in height.</p>
+
+<p>17. One solid image of his consort <hi rend="bold">Olōgamādēviyār</hi>, having two sacred arms (<hi rend="italic">and measuring</hi>) twenty-two <hi rend="italic">viral</hi> and two <hi rend="italic">tōrai</hi> in height.</p>
+
+<p>18. One lotus on which this (<hi rend="italic">image</hi>) stood, (<hi rend="italic">measuring</hi>) five <hi rend="italic">viral</hi> in height.</p>
+
+<p>19. One pedestal, joined to this (<hi rend="italic">lotus and measuring</hi>) nine <hi rend="italic">viral</hi> square, and five <hi rend="italic">viral</hi> and two <hi rend="italic">tōrai</hi> in height.</p>
+
+<p>20. One solid brass image of <hi rend="bold">Chandraśēkharadēva</hi>, set up as <hi rend="bold">Dēvāradēvar</hi><note n="158-1">This term might mean ‘the god (before whom Periya-Perumāḷ recited) the <hi rend="italic">Dēvāram</hi>.’</note> of <hi rend="bold">Periya-Perumāḷ</hi>, having four divine arms (<hi rend="italic">and measuring</hi>) five <hi rend="italic">viral</hi> and two <hi rend="italic">tōrai</hi> in height from the feet to the hair.</p>
+
+<p>21. One brass pedestal, (<hi rend="italic">measuring</hi>) two <hi rend="italic">viral</hi> and four <hi rend="italic">tōrai</hi> square, and one <hi rend="italic">viral</hi> in height, and (<hi rend="italic">bearing</hi>) a lotus, which was joined to this (<hi rend="italic">image and measured</hi>) one <hi rend="italic">viral</hi> and a half in height.</p>
+
+<p>22. One solid aureola of copper, covering this (<hi rend="italic">image and measuring</hi>) twenty-one <hi rend="italic">viral</hi> in circumference.</p>
+
+<p>23. The same person gave to (<hi rend="italic">the image of</hi>) <hi rend="bold">Nambi-Ārūraṉār:</hi>—</p>
+
+<p>24. One necklace (<hi rend="italic">tāṛvaḍam</hi>) of <hi rend="italic">rudrāksha (beads</hi>), weighing,—inclusive of fifty-six gold screws (<hi rend="italic">śuri</hi>) and fifty-six <hi rend="italic">rudrāksha (beads</hi>),—eight <hi rend="italic">kaṛañju</hi> and nine <hi rend="italic">mañjāḍi</hi>, and worth twenty-five <hi rend="italic">kāśu</hi>.</p>
+
+<p>25. The same person gave to (<hi rend="italic">the image of</hi>) <hi rend="bold">Naṅgai-Paravaiyār:</hi>—</p>
+
+<p>26. Two sacred arm-rings (<hi rend="italic">tirukkaikkāṟai</hi>), consisting of three <hi rend="italic">kaṛañju</hi> of gold,—each (<hi rend="italic">consisting of one) kaṛañju</hi> and a half of gold.</p>
+
+<p>27. Two sacred foot-rings (<hi rend="italic">tirukkāṟkāṟai</hi>), consisting of three <hi rend="italic">kaṛañju</hi> of gold,—each (<hi rend="italic">consisting of one) kaṛañju</hi> and a half of gold.</p>
+
+<p>28. One ring (<hi rend="italic">mōdiram), (consisting of</hi>) half a <hi rend="italic">kaṛañju, (one) mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold.</p>
+
+<p>29. The same person gave to (<hi rend="italic">the image of</hi>) <hi rend="bold">Tirunāvukkaraiyar:</hi>—</p>
+
+<p>30. A screw (<hi rend="italic">fixed in</hi>) a <hi rend="italic">rudrāksha (bead</hi>), weighing,—inclusive of one <hi rend="italic">rudrāksha (bead</hi>) which was strung on a gold thread (<hi rend="italic">nūl</hi>),—six <hi rend="italic">mañjāḍi</hi> and two tenths, and worth one <hi rend="italic">kāśu</hi>.</p>
+
+<p>31. A screw <hi rend="italic">fixed in</hi> a <hi rend="italic">rudrāksha (bead</hi>), weighing,—inclusive of one <hi rend="italic">rudrāksha (bead</hi>) which was strung on a gold thread,—six <hi rend="italic">mañjāḍi</hi> and two tenths, and worth one <hi rend="italic">kāśu</hi>.</p>
+
+<p>32. A necklace (<hi rend="italic">kaṇṭhikā</hi>), weighing,—inclusive of one <hi rend="italic">rudrāksha (bead</hi>) [and one screw],—five <hi rend="italic">ka[rañju] • • • • • mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>, and worth eight <hi rend="italic">kāśu</hi>.</p>
+
+<p>33. One sacred gold flower (<hi rend="italic">tiruppoṟpū), (consisting of</hi>) three quarters (<hi rend="italic">of a kaṛañju</hi>), four <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold.</p>
+
+<p>34. One sacred arm-ring, (<hi rend="italic">consisting of</hi>) two <hi rend="italic">kaṛañju</hi> of gold.</p>
+
+<p>35. One sacred arm-ring, (<hi rend="italic">consisting of one) kaṛañju</hi> and three quarters and four <hi rend="italic">mañjāḍi</hi> of gold.</p>
+
+<p>36. The same person gave to (<hi rend="italic">the image of</hi>) <hi rend="bold">Tiruñā[ṉaśambandaḍigaḷ]:</hi>—</p>
+
+<p>37. A screw (<hi rend="italic">fixed in</hi>) a <hi rend="italic">rudrāksha (bead</hi>), weighing,—inclusive of one <hi rend="italic">rudrāksha (bead</hi>) which was strung on a gold thread,—half a <hi rend="italic">kaṛañju</hi> and two <hi rend="italic">mañjāḍi</hi>, and worth one and a half <hi rend="italic">kāśu</hi>.</p>
+
+<p>38. A screw (<hi rend="italic">fixed in</hi>) a <hi rend="italic">rudrāksha (bead</hi>), weighing,—inclusive of one <hi rend="italic">rudrāksha (bead</hi>) which was strung on a gold thread,—half a <hi rend="italic">kaṛañju, (one) mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>, and worth one and a half <hi rend="italic">kāśu</hi>.</p>
+
+<p>39. One necklace, weighing,—inclusive of fifty-six gold screws and fifty-six <hi rend="italic">rudrāksha (beads</hi>),—eight <hi rend="italic">kaṛañju</hi>, four <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi>, and worth twenty-five <hi rend="italic">kāśu</hi>.</p>
+
+<p>40. One sacred gold flower, (<hi rend="italic">consisting of one) kaṛañju</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold.</p>
+
+<p>41. One sacred arm-ring, (<hi rend="italic">consisting of</hi>) two <hi rend="italic">kaṛañju</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold.</p>
+
+<p>42. One sacred arm-ring, (<hi rend="italic">consisting of one) kaṛañju</hi> and three quarters and four <hi rend="italic">mañjāḍi</hi> of gold.</p>
+
+<p>43. One sacred girdle (<hi rend="italic">tiruppaṭṭigai), (consisting of</hi>) two <hi rend="italic">kaṛañju</hi> of gold.</p>
+
+<p>44. The same person gave to (<hi rend="italic">the image of</hi>) <hi rend="bold">Periya-Perumāḷ:</hi>—</p>
+
+<p>45. Two sacred arm-rings, consisting of two <hi rend="italic">kaṛañju</hi> and a half, two <hi rend="italic">mañjāḍi</hi> and six tenths of gold,—each (<hi rend="italic">consisting of one) kaṛañju</hi>, six <hi rend="italic">mañjāḍi</hi> and three tenths of gold.</p>
+
+<p>46. Two sacred ear-rings (<hi rend="italic">tirukkudambai</hi>), consisting of three quarters (<hi rend="italic">of a kaṛañju</hi>), two <hi rend="italic">mañjāḍi</hi> and four tenths of gold,—each (<hi rend="italic">consisting of</hi>) eight <hi rend="italic">mañjāḍi</hi> and seven tenths of gold.</p>
+
+<p>47. The same person gave to (<hi rend="italic">the image of</hi>) <hi rend="bold">Olōgamādēviyār</hi>, the consort of this (<hi rend="italic">image):</hi>—</p>
+
+<p>48. Two sacred ear-rings, consisting of three quarters (<hi rend="italic">of a kaṛañju</hi>) of gold,—each (<hi rend="italic">consisting of</hi>) seven <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold.</p>
+
+<p>49. One sacred arm-ring, (<hi rend="italic">consisting of one) kaṛañju</hi>, two <hi rend="italic">mañjāḍi</hi> and three tenths of gold.</p>
+
+<p>50. One sacred arm-ring, (<hi rend="italic">consisting of one) kaṛañju</hi> and eight tenths (<hi rend="italic">of a mañjāḍi</hi>) of gold.</p>
+
+<p>51. There were engraved on stone the jewels,—weighed by the stone called (<hi rend="italic">after</hi>) <hi rend="bold">Dakshiṇa-Mēru-Viṭaṅkaṉ</hi>,—and the gold,—weighed by the stone called (<hi rend="italic">after</hi>) <hi rend="bold">Āḍavallāṉ</hi>,—which had been given until the twenty-ninth year (<hi rend="italic">of the king's reign</hi>) to (<hi rend="italic">the image of</hi>) <hi rend="bold">Tiruñāṉaśambandaḍigaḷ</hi>, which the same person had set up, by the citizens of <hi rend="bold">Kuṟuvāṇiyakkuḍi</hi>,<note n="160-1">The gift of this town to the Tañjāvūr temple is recorded in paragraph 4 of the inscription No. 5.</note> <hi rend="italic">alias</hi> <hi rend="bold">Parakēsaripuram</hi>, a <hi rend="italic">dēvadāna</hi> to (<hi rend="italic">the temple of</hi>) the lord <hi rend="bold">Śrī-Rājarājēśvara</hi>, in <hi rend="bold">Tiruvāli-nāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Rājēndrasiṁha-vaḷanāḍu:</hi>—</p>
+
+<p>52. One gold screw fixed (<hi rend="italic">in</hi>) a <hi rend="italic">rudrāksha (bead</hi>), weighing,—inclusive of a string (<hi rend="italic">nāṇ) (with</hi>) an eye and a hook,—(<hi rend="italic">one) kaṛañju</hi> and seven <hi rend="italic">mañjāḍi</hi>, and worth three and a quarter <hi rend="italic">kāśu</hi>.</p>
+
+<p>53. To (<hi rend="italic">the image of</hi>) <hi rend="bold">Tirunāvukkaraiyar</hi>, which the same person had set up, (<hi rend="italic">the same citizens</hi>) gave:—</p>
+
+<p>54. One gold screw fixed (<hi rend="italic">in</hi>) a <hi rend="italic">rudrāksha (bead</hi>), weighing,—inclusive of a string (<hi rend="italic">with</hi>) an eye and a hook,—(<hi rend="italic">one) kaṛañju</hi> and seven <hi rend="italic">mañjāḍi</hi>, and worth three <hi rend="italic">kāśu</hi>.</p>
+
+<p>55. To (<hi rend="italic">the image of</hi>) <hi rend="bold">Nambi-Ārūraṉār</hi>, which the same person had set up, (<hi rend="italic">the same citizens</hi>) gave:—</p>
+
+<p>56. One gold screw fixed (<hi rend="italic">in</hi>) a <hi rend="italic">rudrāksha (bead</hi>), weighing,—inclusive of a string (<hi rend="italic">with</hi>) an eye and a hook,—(<hi rend="italic">one) kaṛañju</hi> and seven <hi rend="italic">mañjāḍi</hi>, and worth three <hi rend="italic">kāśu</hi>.</p>
+
+<p>57. To (<hi rend="italic">the image of</hi>) <hi rend="bold">Naṅgai-Paravaiyār</hi>, which the same person had set up, (<hi rend="italic">the same citizens</hi> gave:—</p>
+
+<p>58. One neck-ring (<hi rend="italic">paṭṭaikkāṟai), (consisting of</hi>) three quarters (<hi rend="italic">of a kaṛañju</hi>) and (<hi rend="italic">one) kuṉṟi</hi> of gold,—including one spiral.<note n="160-2">From the context of other passages in which the word <hi rend="italic">tiru</hi> occurs (<hi rend="italic">e.g.</hi>, No. 42, paragraph 12), it appears that it is used in the sense of <hi rend="italic">tirugu</hi>, ‘a spiral.’</note> </p>
+
+<p>59. There was engraved on stone the gold,—weighed by the stone called (<hi rend="italic">after</hi>) <hi rend="bold">Āḍavallāṉ</hi>,—which had been given until the twenty-ninth year (<hi rend="italic">of the king's reign</hi>) to (<hi rend="italic">the image of</hi>) <hi rend="bold">Nambi-Ārūraṉār</hi>, which the same person had set up, by the citizens of <hi rend="bold">Veṇṇi</hi>,<note n="160-3">The gift of this town to the Tañjāvūr temple is recorded in paragraph 17 of the inscription No. 5.</note> a <hi rend="italic">dēvadāna</hi>) to (<hi rend="italic">the temple of</hi>) the lord <hi rend="bold">Śrī-Rājarājēśvara</hi>, in <hi rend="bold">Veṇṇi-kūṟṟam</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Nittaviṉōda-vaḷanāḍu:</hi>—</p>
+
+<p>60. One sacred ear-ring, (<hi rend="italic">tirukkambi), (consisting of one) kaṛañju, (one) mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold.</p>
+
+<p>61. One sacred ear-ring, (<hi rend="italic">consisting of one) kaṛañju</hi> and (<hi rend="italic">one) mañjāḍi</hi> of gold.</p>
+
+<p>62. One string of round beads (<hi rend="italic">tiraḷ-maṇi-vaḍam), (containing</hi>) two <hi rend="italic">kaṛañju, (one) mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold.</p>
+
+<p>63. One sacred arm-ring, (<hi rend="italic">consisting of one) kaṛañju</hi> and three quarters and four <hi rend="italic">mañjāḍi</hi> of gold.</p>
+
+<p>64. One sacred arm-ring, (<hi rend="italic">consisting of one) kaṛañju</hi> and three quarters, three <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold.</p>
+
+<p>65. Two sacred foot-rings, consisting of three <hi rend="italic">kaṛañju</hi> and three quarters and three <hi rend="italic">mañjāḍi</hi> of gold, —each (<hi rend="italic">consisting of one) kaṛañju</hi> and three quarters and four <hi rend="italic">mañjāḍi</hi> of gold.</p>
+
+<p>66. To (<hi rend="italic">the image of</hi>) <hi rend="bold">Naṅgai-Paravaiyār</hi>, which the same person had set up, (<hi rend="italic">the same citizens</hi>) gave:—</p>
+
+<p>67. One sacred ear-ring, (<hi rend="italic">consisting of</hi>) three quarters (<hi rend="italic">of a kaṛañju</hi>), two <hi rend="italic">mañjāḍi</hi> and (<hi rend="italic">one) kuṉṟi</hi> of gold.</p>
+
+<p>68. One sacred ear-ring, (<hi rend="italic">consisting of</hi>) three quarters (<hi rend="italic">of a kaṛañju</hi>) and two <hi rend="italic">mañjāḍi</hi> of gold.</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 2.38 by <bibl><ptr target="bib:Hultzsch1892_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Hultzsch1892_01"/>
+			<citedRange unit="page">152-161</citedRange>
+			<citedRange unit="item">38</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

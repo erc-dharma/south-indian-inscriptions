@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.110: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 110.—ON THE SOUTH WALL OF THE CENTRAL SHRINE IN THE MADHUVANESVARA TEMPLE AT TIRUKKALAVUR. No. 37 of 1910.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0110</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This record which is dated in the 39th year of <hi rend="bold">Parakēsarivarman</hi> (Parāntaka I.) ‘who took <hi rend="bold">Madirai</hi> and <hi rend="bold">Īḻam</hi>’ registers a gift of land by a maid-servant of queen <hi rend="bold">Villavaṉ-Mahādēviyār</hi>. The recipient of the gift is not mentioned but must be the Śiva temple of Tirumullainātha at <hi rend="bold">Tirukkaḷāvūr</hi>, on whose wall the inscription is engraved.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha"><unclear>svasti śrī</unclear></hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> matiraikoṇṭa koppara
+<lb n="2" break="no"/>kecaripaṉma<supplied reason="omitted">r</supplied>kku yāṇṭu—m Iḻamuko
+<lb n="3" break="no"/>ṇṭa<note n="244-3">Read m īḻamuṅkoṇṭa and insert these syllables after koṇṭa in line 1 correcting that ṭa into ṭu.</note> — <num value="39">3 <g type="numeral">10</g> 9</num> Āvatu vaṭakarai<note n="244-4">The <hi rend="italic">ai</hi>-sign of rai is expressed by three rings and a stroke which make it look like a ṇa.</note> ppāmpū
+<lb n="4" break="no"/><unclear>r</unclear>nāṭṭu tevatāṉam tirukkuṭamukkilpā
+<lb n="5" break="no"/><unclear>l</unclear> karukā<unclear>vūrppa</unclear>raṭaiyom nampirāṭṭiyor<note n="244-5">Read pirāṭṭiyār.</note> vi<unclear>lla</unclear>
+<lb n="6" break="no"/>vaṉmāteviy<unclear>ā</unclear>r peṇṭāṭṭi<note n="244-6">The original has ṭiṭ instead of ṭṭi.</note> nakkaṉ vikkiramā<unclear>pa</unclear>raṇi
+<lb n="7"/>Ivūk<note n="244-7">Read ivvūr.</note> kā<unclear>ṇi</unclear>uṭaiya koṟṟaṅkuṭāka<note n="244-8">Read koṟṟaṅkuṭāṉ, <hi rend="italic">i.e.</hi>, koṟṟaṅkuṭi yuṭaiyāṉ.</note> vaiykunta
+<lb n="8" break="no"/>m<note n="244-9">Read vaiykuntaṉ.</note> pāṇṭaṉi<unclear>ṭ</unclear>ai vilaikoṇṭu kuḷaṅ <unclear>ka</unclear>lliṉa pā
+<lb n="9" break="no"/><unclear>ḻ</unclear>muṭṭi<unclear>kā</unclear>lu<unclear>m</unclear> I<unclear>ṟai</unclear>kuḷamāka kalli I ni<unclear>lam Iv</unclear>
+<lb n="10" break="no"/><unclear>vū</unclear>r naṭai Iraṇṭoṉṟāy<note n="244-10">The length of ṟa is denoted by a separate symbol.</note> viḷaittu � Arai<note n="244-11">See note 4 above.</note> kkāl 
+<lb n="11"/><unclear>ce</unclear>yum Ūrmelaiy Iṟaiṟa<note n="245-1">Read mēlē iṟai.</note> Eṟṟikkoṇ<unclear>ṭu</unclear> Iñilam <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="12"/> <gap reason="lost" quantity="1" unit="character"/> � Araikkālum paṟaṭaiyom peral<note n="245-2">Read pēril.</note> Ēṟṟikko<unclear>ṇ</unclear>
+<lb n="13" break="no"/><unclear>ṭu</unclear> Iññilattukkuk kaiyyile ru kaḻañcu<note n="245-3">ēxpressed by the symbol �.</note> Ippoṉ Ai<unclear>ṅ</unclear>ka
+<lb n="14" break="no"/>ḻ<unclear>ai</unclear>ntum<note n="245-4">Read ḻaiñcum.</note> koṇṭu Iññilam <hi rend="grantha">cantrā</hi>tittaval Iṟaiili
+<lb n="15" break="no"/>y<unclear>āka</unclear> kaṉmel veṭṭikkuṭuttom paraṭaiyom Itaṟ<unclear>ṟi</unclear>ṟam
+<lb n="16" break="no"/>pil paraṭaiyomai<note n="245-5">Read paraṭaiyōmē.</note> <num value="100"><g type="numeral">100</g></num>kaḻañcu<note type="repeated" n="245-3"/> poṉṟaṇṭa<note n="245-6">Read miṟuttu.</note> maṟuttut taṉiccut taṭu<unclear>p</unclear>pā
+<lb n="17" break="no"/>raiyum perāl <num value="50">5 <g type="numeral">10</g></num> kaḻañcu<note type="repeated" n="245-3"/> Aimpatiṉ kaḻaiñcu poṉ ṟaṇṭamaṟuppittu<note n="245-7">Read miṟuppittu.</note> 
+<lb n="18" break="no"/>p piṉṉaiyum Ikkāṟceyyum Iṟaii<unclear>li</unclear>yāka kaṉmel veṭ
+<lb n="19" break="no"/>ṭi Ikkāṟceyyum Iṟaiiliyāka Ūrmeleṟṟi Iṟai Iṟuppomā
+<lb n="20" break="no"/>ṉom paraṭaiyom<supplied reason="undefined"><g type="danda">.</g></supplied> I<hi rend="grantha">dhdhama</hi>tam<note n="245-8">Read i<hi rend="grantha">ddharmma</hi>m.</note> <hi rend="grantha">rakṣi</hi>tt<choice><sic>a</sic><corr>ā</corr></choice>r <hi rend="grantha">śrī</hi>pā<hi rend="grantha">da</hi>(m)meṉṟalai mel I
+<lb n="21" break="no"/>vai paṉ<hi rend="grantha">māheśvara</hi>rum paṉ<hi rend="grantha">māheśvara</hi>pperumakkaḷum <hi rend="grantha">rakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:KrishnaSastri1920_01">
+
+<p>Hail ! Prosperity ! In the 39th year of (<hi rend="italic">the reign of</hi>) king <hi rend="bold">Parakēsarivarman</hi>, who took <hi rend="bold">Madirai</hi> (Madura) and <hi rend="bold">Īḻam</hi> (Ceylon), we, the members of the assembly (<hi rend="italic">paraḍai</hi>) of <hi rend="bold">Karugāvūr</hi> near (<hi rend="italic">pāl</hi>) <hi rend="bold">Tirukkuḍamūkkil</hi> which was a <hi rend="italic">dēvadāna</hi> in <hi rend="bold">Vaḍagarai Pāmbūr-nāḍu</hi> (<hi rend="italic">received</hi>) one quarter (<hi rend="italic">of</hi>) Pāḻmuṭṭi (<hi rend="italic">land</hi>) with a tank dug (<hi rend="italic">in it</hi>) which <hi rend="bold">Nakkaṉ Vikramābharaṇi</hi>, a palace maid-servant (<hi rend="italic">peṇḍāṭṭi</hi>) of queen <hi rend="bold">Villavaṉ-Mahādēviyār</hi>, had purchased from <hi rend="bold">Vaikundaṉ Pāṇḍaṉ</hi> of <hi rend="bold">Koṟṟaṅguḍi</hi>, one of the landlords of this village. Converting (<hi rend="italic">the tank</hi>) into an <hi rend="italic">iṟaikuḷam</hi>, we, the members of the assembly had this land cultivated (<hi rend="italic">on the terms</hi>) two to one<note n="245-9">Here is a reference evidently to a system of contract by which two shares of the produce were assigned to the landlord and one to the cultivator or <hi rend="italic">vice versa</hi>.</note> , obtaining in this village; charged the tax of<note n="245-10">The symbols used here for land measurement are not intelligible. If they are taken to denote 1/8th <hi rend="italic">śey</hi> of land immediately after, we find the same 1/8th as explained represented by a different group of symbols lower down.</note> • • one-eighth <hi rend="italic">śey</hi> to the village and charged (<hi rend="italic">the tax on the remaining</hi>) one-eighth of this land to the members of the assembly and receiving in our hands this (5) five <hi rend="italic">kaḻañju</hi> of gold for this land (<hi rend="italic">from her</hi>), made this land tax-free as long as the moon and the sun (<hi rend="italic">exist</hi>) and got (<hi rend="italic">this deed</hi>) engraved on stone. If we fail (<hi rend="italic">to act according to</hi>) this (<hi rend="italic">decision</hi>), we, (<hi rend="italic">the members</hi>) of the assembly ourselves shall pay a fine of 100 <hi rend="italic">kaḻañju</hi> of gold and shall (<hi rend="italic">also</hi>) cause to be paid a fine of 50 <hi rend="italic">kaḻañju</hi> of gold by each of the persons who individually obstruct (<hi rend="italic">this order</hi>). Even then (<hi rend="italic">i.e.</hi>, even after paying the fine) we, the members of the assembly, shall have this one-fourth <hi rend="italic">śey</hi> engraved on stone as tax-free (<hi rend="italic">land</hi>) imposing (<hi rend="italic">the taxes of</hi>) this one-fourth <hi rend="italic">śey</hi> of tax-free land on the village and paying the taxes ourselves. The sacred feet of those who protect this charity shall be on our heads. (<hi rend="italic">The assembly of</hi>) all <hi rend="italic">Māhēśvaras</hi> and the great men of all <hi rend="italic">Māhēśvaras</hi> shall protect (<hi rend="italic">this charity)</hi>.<note n="245-11">The <hi rend="italic">Māhēśvaras</hi> and <hi rend="italic">Māhēśvarapperumakkaḷ</hi> may denote different bodies. The latter may be the lay disciples of the former.</note> </p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.110 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1920_01"/>
+			<citedRange unit="page">244-245</citedRange>
+			<citedRange unit="item">110</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.133: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 133.—ON THE WEST WALL OF THE CENTRAL SHRINE IN THE ADIMULESVARA TEMPLE AT TIRUPPALATTURAI. No. 174 of 1907.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0133</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The inscription is dated in the 8th year of <hi rend="bold">Parakēsarivarman</hi> and refers to the re-engraving of �tain documents of land-gifts made in the 18th and 20th years of the reign of <hi rend="bold">Parāntaka</hi> I. The original documents, which had been engraved on the steps (<hi rend="italic">paḍikaṭṭu</hi>) of the old central shrine of the temple of <hi rend="bold">Tiruppāttuṟai</hi> had become weather-worn and it is stated that the assembly of <hi rend="bold">Uttamaśīli-chaturvēdimaṅgalam</hi> ordered their restoration.</p>						
+
+						<p>Among the boundaries of the lands granted are mentioned <hi rend="bold">Vīraśrī-Kāmugavadi, Ādichcha-vāykkāl, Kōdaṇḍarāmavadi</hi> and <hi rend="bold">Uttamaśīli-vāykkāl</hi> already referred to in the other inscriptions from <hi rend="bold">Tiruppalāttuṟai</hi>.</p>						
+
+						<p>The ruling king <hi rend="bold">Parakēsarivarman</hi> must be identified with one of the three kings, <hi rend="italic">viz.</hi>, <hi rend="bold">Ariñjaya, Āditya-Karikāla</hi> II. or <hi rend="bold">Uttama-Chōḷa Madhurāntaka</hi> who bore that epithet, and ruled between <hi rend="bold">Madiraikoṇḍa Parāntaka</hi> I. and <hi rend="bold">Rājarāja</hi> I. I am inclined to think that the reference is probably to the last.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kopparake<hi rend="grantha">sa</hi>ri<hi rend="grantha">panma</hi><supplied reason="omitted">r</supplied>kku <unclear>y</unclear>āṇṭu 8 Ā<unclear>va</unclear>tu ten
+<lb n="2" break="no"/>karai <hi rend="grantha">brahmade</hi>yam <hi rend="grantha">śrī</hi>uttamaciliccatu<hi rend="grantha">rvve</hi>timaṅka<unclear>la</unclear>ttup pe
+<lb n="3" break="no"/>ruṅkuṟi<hi rend="grantha">sabhai</hi>yom Ittiruppāttuṟai <hi rend="grantha">mahāde</hi>va<hi rend="grantha">bha</hi>ṭṭā
+<lb n="4" break="no"/>rakar paḻaiya <hi rend="grantha">śrī</hi>vimānattup pa<unclear>ṭi</unclear>k<unclear>ka</unclear>ṭṭil veṭṭina Eḻuttuppaṭi c<unclear>o</unclear>rtta
+<lb n="5" break="no"/>paṭi Ivvā[ ṇṭu<note n="279-6">Read <hi rend="grantha">śi</hi>lā.</note> <hi rend="grantha">ś</hi>lā] <hi rend="grantha">lekhai</hi> ceyta paricā<unclear>va</unclear>tu matiraikoṇṭa <unclear>k</unclear>opparake[<hi rend="grantha">sa</hi>]
+<lb n="6" break="no"/><hi rend="grantha">riparmma</hi><supplied reason="omitted">r</supplied>kku yāṇṭu <num value="18"><g type="numeral">10</g> 8</num> Āvatu Ivvūr Uṭkuṟai vīra<hi rend="grantha">śrī</hi>kāmuka<unclear>va</unclear>tikku meṟ
+<lb n="7" break="no"/>kku Āticcavāykkālukku vaṭakkukiḻakkuniṉṟum nālāṅ ka<supplied reason="omitted">ṇ</supplied>ṇāṟ<unclear>ṟu</unclear>m Añcā
+<lb n="8" break="no"/> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="9"/> <gap reason="lost" quantity="4" unit="character"/> Iṟai I<unclear>ḻi</unclear>ccu It<unclear>teva</unclear>tāna<unclear>mākakkuṭutta nilam</unclear> <gap reason="lost" quantity="2" unit="character"/> n<unclear>ni</unclear>lamum
+<lb n="10"/>Ivvatikke me<supplied reason="omitted">r</supplied>kku pālaivā<supplied reason="omitted">y</supplied>niroṭukālukku vaṭakku kotaṇṭarāmavati<unclear>kku</unclear> vaṭakkunokkina cer
+<lb n="11" break="no"/>(v)vaikkuk kiḻakku Āṟṟi<supplied reason="omitted">l</supplied> niroṭukālukkut teṟkukiḻakkuniṉṟum 2 kaṇṇāṟṟu me
+<lb n="12" break="no"/>ṟkkaṭaiya pātiyum 3 ka<supplied reason="omitted">ṇ</supplied>ṇāṟum 4 ka<supplied reason="omitted">ṇ</supplied>ṇāṟum 5 ka<supplied reason="omitted">ṇ</supplied>ṇāṟumāka naṭuvupaṭṭa nilamum Ūriniṉ
+<lb n="13" break="no"/>ṟu vaṭakkunokkippona m<unclear>e</unclear>lai vaḻikku mekku Uttamacilivā<supplied reason="omitted">y</supplied>kkālukku
+<lb n="14"/>vaṭa<unclear>k</unclear>kut teṟkuniṉṟu muta<unclear>ṟca</unclear>tirattu vaṭakkiṭaiya muṭapuṟattu Akki<hi rend="grantha">śarmma</hi>
+<lb n="15" break="no"/><hi rend="grantha">kra<unclear>ma</unclear></hi>vitta<unclear>n</unclear> pakkal vi<unclear>laik</unclear>oṇṭu muḷarikuṭikiḻavan kumaraṉ coḻappe
+<lb n="16" break="no"/>raiyan Iṟaiyiḻiccu ca<hi rend="grantha">ntrā</hi>tit<unclear>ta</unclear>vaṟ Iravum pakalum Eriya Iraṇṭu nontāviḷakki
+<lb n="17" break="no"/>nukkāka vaicca nilam � Orumāvum yāṇṭu <num value="20">2 <g type="numeral">10</g></num> Āvatu tirumiḻalaikka<unclear>mu</unclear>tuvanila
+<lb n="18" break="no"/>nārāyaṇan <unclear>vilaikoṇṭu</unclear> Iṟaiyiḻiccu Uccampotu tiruamitukkāka kuṭutta nilamā
+<lb n="19" break="no"/>vatu Ūriniṉṟum<note n="280-1">ṭraces are visible of the letters meṟku nokkippona vaḻikku at the commencement of the gap.</note> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="20"/>kaṇṇāṟṟu Uttamacilivāykkālukkutteṟku Iraṇṭāñcatirattu
+<lb n="21"/>vaṭakkaṭaiya � 4 yil <unclear>me</unclear><supplied reason="omitted">r</supplied>kkaṭaiya � Oru māvum Ivvaḻikke me<supplied reason="omitted">r</supplied>kku
+<lb n="22"/>Iraṇṭāṅ ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟu Ivvāykkālukke teṟku mutaṟcatirattu teṟ
+<lb n="23" break="no"/>kaṭaiya viṟ<unclear>ṟu I</unclear>ṟaiyiḻiccu <hi rend="grantha">A<unclear>r</unclear>cca</hi>nā<hi rend="grantha">bhoga</hi>mākak kuṭutta nilam
+<lb n="24"/>Iraṇṭumācciṉṉa nilamum Ūriniṉṟum vaṭakkunokkina melai
+<lb n="25" break="no"/>vaḻikku meṟku mutaṟka<supplied reason="omitted">ṇ</supplied>ṇāṟṟu Uttamacilivāykkālukkut teṟku <unclear>mu</unclear>
+<lb n="26" break="no"/>taṟcatirattu vaṭakkaṭaiya � nīkki Itinoṭumaṭaiya Iraṇṭumāvil va<unclear>ṭa</unclear>
+<lb n="27" break="no"/>me<supplied reason="omitted">r</supplied>kkaṭaiya kuḷam kāṇicci<hi rend="grantha">nna</hi> nikki viṟṟu Iṟaiyiḻiccit tiruviḻāppuramākakku
+<lb n="28" break="no"/>ṭutta nilam Orumāvaraicci<hi rend="grantha"><unclear>nna</unclear></hi> nilamu mātiruvatikkuk kiḻakku pālai<note n="280-2">The inscription stops here.</note> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:KrishnaSastri1920_01">
+
+<p>(Line 1.) Hail ! Prosperity ! In the 8th year of (<hi rend="italic">the reign of</hi>) king <hi rend="bold">Parakēsarivarman</hi>, we, (<hi rend="italic">the members</hi>) of the big assembly of the prosperous <hi rend="bold">Uttamaśīli-chaturvēdimaṅgalam</hi> (<hi rend="italic">which was</hi>) a <hi rend="italic">brahmadēya</hi> on the southern bank (<hi rend="italic">of the Kāvērī</hi>), made in this year the following (<hi rend="italic">copies of inscriptions</hi>) according to the weathered writings<note n="280-3"><ta>eḻuttuppaṭi</ta> has perhaps to be taken in the sens of ‘the scheme of writing.’</note> engraved on the steps of the old central shrine (<hi rend="italic">śrī-vimāna</hi>) of (<hi rend="italic">the god</hi>) <hi rend="bold">Mahādēva-Bhaṭṭāraka</hi> of this (<hi rend="italic">village</hi>) <hi rend="bold">Tiruppāttuṟai</hi>.</p>
+
+<p>(L. 5.) In the 18th year of (<hi rend="italic">the reign of</hi>) king <hi rend="bold">Madiraikoṇḍa Parakēsarivarman</hi>, the land which is not included in the <hi rend="italic">uṭkuṟai</hi> of this village, (<hi rend="italic">which lay</hi>) to the west of (<hi rend="italic">the path called</hi>) <hi rend="bold">Vīraśrī-Kāmugavadi</hi>, to the north of (<hi rend="italic">the channel called</hi>) <hi rend="bold">Ādichcha-vāykkāl</hi> and • • fourth and fifth <hi rend="italic">kaṇṇāṟu</hi> from the eastern side of • • was made tax-free and granted as a <hi rend="italic">dēvadāna</hi>• • </p>
+
+<p>(L. 10.) The western half of the second <hi rend="italic">kaṇṇāṟu</hi> from the east and the ground included in the third, fourth and the fifth <hi rend="italic">kaṇṇāṟu, (lying</hi>) to the west of this same path (<hi rend="italic">vadi</hi>), to the north of the channel (<hi rend="italic">called</hi>) <hi rend="bold">Pālaivāy</hi>, to the east of the field (<hi rend="italic">śērvai ?</hi>) facing (<hi rend="italic">the path called</hi>) <hi rend="bold">Kōdaṇḍarāma-vadi</hi> on (<hi rend="italic">its</hi>) northern side and to the south of the channel from the river.</p>
+
+<p>(L. 12.) One <hi rend="italic">mā</hi> of land made tax-free and granted for burning two perpetual lamps day and night as long as the moon and the sun (<hi rend="italic">endure</hi>), by <hi rend="bold">Kumaraṉ Śōḻappēraiyaṉ</hi> the headman of <hi rend="bold">Muḷarikuḍi</hi>, after having purchased (<hi rend="italic">it</hi>) from <hi rend="bold">Akkiśarma-Kramavittaṉ</hi> of <hi rend="bold">Muḍapuram</hi>. (<hi rend="italic">This was</hi>) to the west of the western road passing from (<hi rend="italic">this</hi>) village facing northwards, (<hi rend="italic">and</hi>) to the north of (<hi rend="italic">the channel called</hi>) <hi rend="bold">Uttamaśīli-vāykkāl</hi> and formed the northern side of the first <hi rend="italic">śadiram</hi> from the south.</p>
+
+<p>(L. 17.) In the 20th year (<hi rend="italic">of the reign</hi>), <hi rend="bold">Kamuduvaṉ Nīlanārāyaṇaṉ</hi> of <hi rend="bold">Tirumiḻalai</hi> purchased the following land, made (<hi rend="italic">it</hi>) tax-free and granted (<hi rend="italic">it</hi>) for the sacred midday offerings:—One <hi rend="italic">mā (of land</hi>) to the west of the four <hi rend="italic">mā</hi> on the northern side of the second <hi rend="italic">śadiram</hi> which lay • • path running westwards from the village and to the south of (<hi rend="italic">the channel called</hi>) <hi rend="bold">Uttamaśīli-vāykkāl</hi> in • • <hi rend="italic">kaṇṇāṟu</hi>.</p>
+
+<p>(L. 21.) Also two <hi rend="italic">mā</hi> and odd (<hi rend="italic">chinnam</hi>) of land, was sold, made tax-free and given (<hi rend="italic">for worship</hi>) as <hi rend="italic">archanā-bhōga. (The land was</hi>) to the west of this same path and to the south of this same channel, forming the southern portion of the first <hi rend="italic">śadiram</hi> in the second <hi rend="italic">kaṇṇāṟu</hi>.</p>
+
+<p>(L. 24.) Also one and a half <hi rend="italic">mā</hi> and odd of land, sold, made tax-free and given (<hi rend="italic">for festivals</hi>) as <hi rend="italic">tiruviḻāppuram—(it being the balance left</hi>) after deducting one <hi rend="italic">kāṇi</hi> and odd of (<hi rend="italic">land occupied by</hi>) a tank on the north-western side, from the two <hi rend="italic">mā (of land</hi>) adjoining the one <hi rend="italic">mā</hi> which is (<hi rend="italic">also</hi>) excluded and lies on the northern side of the first <hi rend="italic">śadiram</hi> to the south of (<hi rend="italic">the channel called</hi>) <hi rend="bold">Uttamaśīli-vāykkāl</hi>, in the first <hi rend="italic">kaṇṇāṟu</hi> to the west of the western road which passes northwards from (<hi rend="italic">this</hi>) village.</p>
+
+<p>(L. 28.) To the east of (<hi rend="italic">the pathway</hi>) <hi rend="bold">Mātiruvadi</hi>• • • • • Pālai<note n="281-1">Perhaps <ta>pālaivāy niroṭukāl</ta> was meant as in line 10.</note> —</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.133 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1920_01"/>
+			<citedRange unit="page">279-281</citedRange>
+			<citedRange unit="item">133</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

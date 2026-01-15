@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.181: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 181.—ON A SLAB LYING IN THE COURTYARD OF THE TIRUVALISVARA TEMPLE AT PADI (TIRUVALIDAYAM). No. 225 of 1910.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0181</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This record registers that in the 6th year of king <hi rend="bold">Pārthivēndravarman</hi> the assembly of <hi rend="bold">Kuṟaṭṭūr</hi> <hi rend="italic">alias</hi> <hi rend="bold">Parāntaka-chaturvēdimaṅgalam</hi> sold 1,350 <hi rend="italic">kuḻi</hi> of <hi rend="italic">mañjikkam</hi> land to the temple of <hi rend="bold">Tiruvalidāyil</hi> and made it tax-free.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> koppā<supplied reason="omitted">r</supplied>ttive<hi rend="grantha">ntra</hi><unclear>pan</unclear>maṟkiyāṇṭu Ā
+<lb n="2" break="no"/>ṟāvatu puḻalkoṭ<unclear>ṭa</unclear>ttu Ampattūreri<supplied reason="omitted">k</supplied> ki<supplied reason="omitted">ḻ</supplied>nāṭṭu
+<lb n="3" break="no"/>kku<unclear>ṟa</unclear>ṭṭūrākiya<note n="357-4">Read <hi rend="grantha">śrīparā</hi>n=taka. The letter ma has its loop on the left side.</note> <hi rend="grantha">śrīprā</hi>n=takaccatu<hi rend="grantha">rvve</hi>timaṅkala<supplied reason="omitted">t</supplied>tu
+<lb n="4"/><hi rend="grantha">sa<unclear>bh</unclear>ai</hi>yom puliyūrkoṭṭattut tuṭamuṇinā<unclear>ṭṭu</unclear><note n="357-5">The loop of mu is on the left side as in ma in line 3.</note> 
+<lb n="5"/><unclear>tiru</unclear>valitāyil<note n="357-6">There is very little difference between <hi rend="grantha">ha</hi> and ḷa in this inscription.</note> <hi rend="grantha">mahāde</hi>varkku yāṅkaḷ Emmu<unclear>ruṭat</unclear>
+<lb n="6"/>teṉkaḻaṉi <hi rend="grantha">sabhaima</hi>ñcikkamāṉa nilam viṟ
+<lb n="7" break="no"/>pataṟkuk kiḻpāl Ampattūreri nir kon
+<lb n="8" break="no"/>ṟūrukkup pāynta kāliṉ meṟku teṉpāl <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="9"/><unclear>A</unclear>mpa<supplied reason="omitted">t</supplied>tūreri nir<note n="357-7">Read villipākkattu.</note> villipāttukkuṅ koṉṟūr
+<lb n="10" break="no"/>kkum pā<supplied reason="omitted">y</supplied>nta kāliṉ vaṭakku melpāl <hi rend="grantha">sabhai</hi><note n="357-8">Read mañcikkamum. In this and in some other instances ña is shaped like ḷu .</note> <hi rend="grantha">ma</hi>ñcikāmum <unclear>va</unclear>
+<lb n="11" break="no"/>ṭapāl <hi rend="grantha">sabhaima</hi>ñcikkamum Iṉnāṉkellaiyuḷḷakap<unclear>pa</unclear>
+<lb n="12" break="no"/><supplied reason="omitted">ṭ</supplied>ṭa nilam patiṉaṟucāṇ kolāl Āyirattu muṉnūṟṟaim
+<lb n="13" break="no"/>patu kuḻiyu<unclear>m</unclear> Itu peṟuvilaikkāṇamaṟakkoṇṭu tiruvalitāyi<unclear>l</unclear>
+<lb n="14" break="no"/><hi rend="grantha">mahāde</hi>varkku Iṟaiyiliyāka viṟṟukkuṭuttom <hi rend="grantha">sabhai</hi>yom <unclear>tiru</unclear>va
+<lb n="15" break="no"/><unclear>lit</unclear>āyil <hi rend="grantha">mahāde</hi>varum Innāṉkellaiyuḷḷumakappaṭ<supplied reason="omitted">ṭa</supplied> <hi rend="grantha">bhūmi</hi>yuṇ<unclear>ṇi</unclear>
+<lb n="16" break="no"/>lamoḻiviṉṟi yitu peṟuvilaikkāṇamaṟakkuṭuttu viṟṟukoṇ<unclear>ṭā</unclear>r
+<lb n="17"/>Innilattukku Eri nirum niroṭutālum yāṅkaḷuṭaiyavāṟe yi<unclear>ta</unclear>ṉu
+<lb n="18" break="no"/><unclear>kku</unclear>murittākavum E<supplied reason="omitted">m</supplied>milicain=ta vilai<hi rend="grantha">dravya</hi>maṟakkoṇṭu Iṟaiyi
+<lb n="19" break="no"/>ḻi<unclear>c</unclear>ci Iṟaiyiliyāka viṟṟukkuṭuttom Itaṟṟiṟampi<unclear>l</unclear> <hi rend="grantha">dharmmā</hi>
+<lb n="20" break="no"/><hi rend="grantha">sa</hi>namutalākat tām veṇṭu kovukke nicati kaḻañcu poṉ
+<lb n="21"/>maṉ<unclear>ṟa</unclear> Oṭṭikkuṭuttom Imaṉṟupāṭiṟuttum I<hi rend="grantha">bhūmi</hi>kku Emmu
+<lb n="22" break="no"/><unclear>rāḷa</unclear> koviṉāl vanta vikkamuḷḷatu tirttuk kuṭuppomāṉom
+<lb n="23"/><hi rend="grantha">sabhai</hi>yom <hi rend="grantha">sabhai</hi> paṇikka kuṟiyuḷḷirunteḻutiṉeṉ <unclear>I</unclear>v
+<lb n="24" break="no"/><unclear>vū</unclear>rp peruṅkiḻavaṉ niṉṟai nūṟṟeṇmapaṭṭaṉeṉ Ippa
+<lb n="25" break="no"/>ṭiyaṟiveṉ tiruvalitāyil kūṭṭattāṉ naraciṅkapaṭṭaṉeṉ Ip
+<lb n="26" break="no"/>paṭiyaṟiveṉ nuḷappiyāṟṟūṟk kūṭṭattāṉ tāmotirapaṭṭa
+<lb n="27" break="no"/><unclear>ṉe</unclear>ṉ Ippaṭiyaṟiveṉ koṉṟūrkkūṭṭattāṉ tivākarapa
+<lb n="28" break="no"/>ṭ<unclear>ṭa</unclear>ṉeṉ I<hi rend="grantha">bhūmi</hi> koṇṭu nilaiviḷakkerippataṟku vaiyttā
+<lb n="29" break="no"/>ṉṟ<unclear>o</unclear>ṅkalaṅkiḻāṉ tiruvoṟṟiyūraṉ I<hi rend="grantha">bhūmi</hi> koṇṭu <hi rend="grantha"><unclear>ca</unclear>ndrā</hi>
+<lb n="30" break="no"/><hi rend="grantha">di</hi>ttavaṟ Oru na <hi rend="grantha">ndā</hi>viḷakkerippomāṉom Uṇ<unclear>ṇā</unclear>ḻiyai<note n="358-1">Read uṇṇāḻikai.</note> 
+<lb n="31" break="no"/>pp<unclear>e</unclear>rumakkaḷom Itu pa<hi rend="grantha">nmāheśvara</hi>r <hi rend="grantha">rakṣ</hi>ai <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:KrishnaSastri1920_01">
+
+<p>(Line 1.) Hail ! Prosperity ! In the 6th year (<hi rend="italic">of the reign</hi>) of king <hi rend="bold">Pārthivēndravarman</hi>, we (<hi rend="italic">the members</hi>) of the assembly of <hi rend="bold">Kuṟaṭṭūr</hi> <hi rend="italic">alias</hi> the prosperous <hi rend="bold">Parāntaka-chaturvēdimaṅgalam</hi>, (<hi rend="italic">a village</hi>) in <hi rend="bold">Ambattūrērikīḻnāḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Puḻal-kōṭṭam</hi>, being (<hi rend="italic">engaged in</hi>) selling the land, the <hi rend="italic">mañjikkam</hi> of the assembly in the southern fields of our village, sold tax-free to the (<hi rend="italic">god</hi>) <hi rend="bold">Mahādēva</hi> (<hi rend="italic">Śiva</hi>) of <hi rend="bold">Tiruvalidāyil</hi>, (<hi rend="italic">a village</hi>) in <hi rend="bold">Tuḍamuṇināḍu</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Puliyūr-kōṭṭam</hi> 1,350 <hi rend="italic">kuḻi</hi> of land (<hi rend="italic">measured</hi>) by the rod of sixteen spans and comprised within the following four boundaries, <hi rend="italic">viz.,:</hi>—east side: west of the channel through which the water of the <hi rend="bold">Ambattūr</hi> tank flows to <hi rend="bold">Koṉṟūr</hi>; south side: north of the channel through which the water of the • • • <hi rend="bold">Ambattūr</hi> tank flows to <hi rend="bold">Villipākkam</hi> and <hi rend="bold">Koṉṟūr</hi>; west side: the <hi rend="italic">mañjikkam (land</hi>) belonging to the <hi rend="italic">sabhā</hi>; and north side: the <hi rend="italic">mañjikkam (land</hi>) belonging to the <hi rend="italic">sabhā</hi>. Having fully received the due sale amount on this (<hi rend="italic">land</hi>), we (<hi rend="italic">the members</hi>) of the assembly sold (<hi rend="italic">it</hi>) tax-free to the (<hi rend="italic">god</hi>) Mahādēva (<hi rend="italic">Śiva</hi>) at <hi rend="bold">Tiruvalidāyil</hi>. The <hi rend="bold">Mahādēva</hi> of <hi rend="bold">Tiruvalidāyil</hi> also received by purchase after paying up fully the due amount of sale, the land comprised within these four boundaries not excluding (<hi rend="italic">any portion of</hi>) the land contained therein. The right for the water of the tank and that for the channel through which the water flows shall belong to this land in the same way (<hi rend="italic">after sale</hi>) as (<hi rend="italic">it did</hi>) when we possessed it. We have received fully the sale money agreed upon, removed the tax and sold (<hi rend="italic">it</hi>) tax-free.</p>
+
+<p>(L. 19.) If this be violated, we agree to pay when demanded<note n="358-2"><ta>“tāmveṇṭu”</ta> which qualifies the word king does not give a proper sense inasmuch as there can be no choice in the matter. In several other inscriptions the corresponding phrase <ta>“tāṉveṇṭumiṭattu”</ta> occurs. Perhaps we have to translate both these phrases into “when demanded” until a more satisfactory explanation could be offered.</note> a penalty of one <hi rend="italic">kaḻañju</hi> of gold daily to the king to be credited as a fund to the court of justice. We (<hi rend="italic">the members</hi>) of the assembly (<hi rend="italic">further agree</hi>) that even after paying this penalty (<hi rend="italic">maṉṟupāḍu</hi>), we shall obviate any hindrance that might be caused to this land from the king ruling our village. I, the elderly headman of this village <hi rend="bold">Niṉṟai Nūṟṟeṇma-bhaṭṭaṉ</hi> (<hi rend="italic">myself</hi>) being a member of the assembly, wrote (<hi rend="italic">this</hi>) by order of the <hi rend="italic">sabhā</hi>. I, <hi rend="bold">Naraśiṅgabhaṭṭaṉ</hi>, a member of the <hi rend="bold">Tiruvalidāyil</hi> assembly (<hi rend="italic">kūṭṭam</hi>), bear witness to this. I, <hi rend="bold">Dāmōdara-bhaṭṭaṉ</hi> of the <hi rend="bold">Nuḷappiyāṟṟūr</hi> assembly, bear witness to this. I, <hi rend="bold">Divākara-bhaṭṭaṉ</hi> of the <hi rend="bold">Koṉṟūr</hi> assembly, bear witness to this. <hi rend="bold">Toṅgalaṅkiḻāṉ Tiruvoṟṟiyūraṉ</hi> gave a lamp-stand for burning (<hi rend="italic">the lamp</hi>), from (<hi rend="italic">the produce of</hi>) this land. Having received (<hi rend="italic">the produce from</hi>) this land, we the great men of the interior (<hi rend="italic">of the temple</hi>) agreed to burn one perpetual lamp as long as the moon and the sun (<hi rend="italic">last</hi>). This (<hi rend="italic">charity</hi>) is (<hi rend="italic">placed</hi>) under the protection of all <hi rend="italic">Māhēśvaras</hi>.</p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.181 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1920_01"/>
+			<citedRange unit="page">357-358</citedRange>
+			<citedRange unit="item">181</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

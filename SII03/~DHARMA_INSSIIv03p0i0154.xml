@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.154: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 154.—ON THE NORTH WALL OF THE SAME TEMPLE. No. 19 of 1898.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0154</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is also a land-transaction made by the assembly of <hi rend="bold">Uttaramēlūr-chaturvēdimaṅgalam</hi> on behalf of the temple of <hi rend="bold">Tiruppulivalam</hi> in the 3rd year of <hi rend="bold">Pārthivēndrādhipativarman</hi>, who took the head of <hi rend="bold">Vīra-Pāṇḍya. Tiruppulivalam</hi> herein mentioned must be the same as <hi rend="bold">Tiruppulivaṉam</hi>, a village situated about three miles from <hi rend="bold">Uttaramallūr</hi>.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> virapāṇ<supplied reason="omitted">ṭi</supplied>yaṉṉai<note n="325-2">Read pāṇṭiyaṉai.</note> talaikoṇṭa<note n="325-3">Read pārttive<hi rend="grantha">ntrā</hi>tipati.</note> pārttive<hi rend="grantha"><unclear>ntri</unclear></hi>rātipatipar<hi rend="grantha">ma</hi><supplied reason="omitted">r</supplied>kku yāṇṭu 3 vatu kāliyūrkkuraṭṭattu<note n="325-4">Read kkōṭṭattu.</note> taṉkuṟṟu<note n="325-5">Read kūṟṟu.</note> ttiramelūrccatu<hi rend="grantha"><unclear>rvve</unclear></hi>timaṅkalattu peruṅkuṟi<hi rend="grantha">sabhai</hi>yom Eḻuttu<note n="325-6">Read eḻuttu.</note> nammur
+<lb n="2"/>tiruppulivalattu perumānaṭikaḷukku<note n="325-7">Read ar<hi rend="grantha">ca</hi>nā.</note> Ar<hi rend="grantha">ja</hi>nā<hi rend="grantha">bhoga</hi>ttukkum<unclear>ā</unclear>ka tiruceṉnalnaṭaikkumāka<note n="325-8">The word ceṉṉalnaṭai occurs in other inscriptions as tirucceṉṉaṭai; see, <hi rend="italic">e.g.</hi> No. 153, l. 5.</note> <supplied reason="omitted">v</supplied>aitta <hi rend="grantha">hūmi</hi> [*] <unclear>Ū</unclear><supplied reason="omitted">r</supplied>kku vaṭakku pattā<supplied reason="omitted">m</supplied> kaṇṇāṟṟu para- <hi rend="grantha">meśva</hi>ravatiyiṉ merkku mutaṟcatukkattu Irunūṟṟorupatu kuyām<note n="325-9">Read kuḻiyum.</note> <hi rend="grantha">śrīde</hi>vivā
+<lb n="3" break="no"/>yikālin vaṭakku 3 kaṇṇāṟṟu vilakkuvāykkālin kiḻakku 4 catukkattu talaittaraṅ kuḻi <hi rend="grantha"><unclear>3</unclear></hi><note n="325-10">The figure in brackets is very doubtful; it may also be 4.</note> <num value="180"><g type="numeral">100</g> 8 <g type="numeral">10</g></num>m Iṅke <hi rend="grantha"><unclear>3</unclear></hi> ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟu vilakkuvāykkāliṉ kiḻakku 2 catukkattu talaittaram kuḻi <num value="480">4 <g type="numeral">100</g> 8 <g type="numeral">10</g></num>m <hi rend="grantha">subrama</hi>ṇṇiyanārā<supplied reason="omitted">ca</supplied>ttin vaṭakku pati
+<lb n="4" break="no"/>n Añcāṅ kaṇṇāṟṟu mālapiṭukuvati<supplied reason="omitted">yi</supplied>n<note n="325-11">Read māṟapiṭuku . The vowel sign of <hi rend="italic">e</hi> is also added to the letter ki.</note> kiḻakku Añcā<supplied reason="omitted">ñ</supplied>catu<supplied reason="omitted">k</supplied>kattu talaitaram kuḻi Eḻunūṟṟirupatum pulivalamvāyiṉ terkku Eḻā<supplied reason="omitted">m</supplied><note n="325-12">Read eḻām.</note> kaṇṇāṟṟu tirunā<supplied reason="omitted">ra</supplied>ṇavatiyiṉ merkku Añcām catu<supplied reason="omitted">kkattu</supplied> munṟām<note n="325-13">The length of ṟā is expressed by a separate symbol.</note> taram kuḻi muṉnūṟṟu Eḻupatum I<supplied reason="omitted">ṅ</supplied>ke 8 ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟu U
+<lb n="5"/>catukka<supplied reason="omitted">t</supplied>tu muṉṟāntaraṅ kuḻi <num value="450">4 <g type="numeral">100</g> 5 <g type="numeral">10</g></num> patu kuḻiyum pulivalavāyiṉ <unclear>te</unclear>ṟku 6 ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟu tirunāraṇavatiyiṉ meṟku 8 catu<supplied reason="omitted">k</supplied>ka<supplied reason="omitted">t</supplied>tu Untaram Āyira<supplied reason="omitted">t</supplied>tu Eḻupatum tiruvo<note n="325-14">The inscription stops here.</note> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:KrishnaSastri1920_01">
+
+<p>(Line 1.) Hail ! Prosperity ! In the 3rd year of (<hi rend="italic">the reign of</hi>) <hi rend="bold">Pārthivēndrādhipativarman</hi>, who took the head of <hi rend="bold">Vīra-Pāṇḍya</hi>, (<hi rend="italic">this is</hi>) the writing of us (<hi rend="italic">the members</hi>) of the great assembly of <hi rend="bold">Uttaramēlūr-chaturvēdimaṅgalam</hi>, (<hi rend="italic">a village</hi>) in its own subdivision in <hi rend="bold">Kāliyūr-kōṭṭam</hi>. (<hi rend="italic">The following are</hi>) the lands which were given to the god (<hi rend="italic">perumānaḍigaḷ</hi>) of <hi rend="bold">Tiruppulivalam</hi> of our village for <hi rend="italic">archchanābhōga</hi> and the sacred current expenses:—</p>
+
+<p>(L. 2.) two hundred and ten <hi rend="italic">kuḻi</hi> in the first <hi rend="italic">śadukkam (situated</hi>) west of (<hi rend="italic">the path called</hi>) <hi rend="bold">Paramēśvara-vadi</hi> of the tenth <hi rend="italic">kaṇṇāṟu</hi> north of the village; 380 <hi rend="italic">kuḻi</hi> of first rate (<hi rend="italic">land</hi>) in the fourth <hi rend="italic">śadukkam (situated</hi>) east of (<hi rend="italic">the channel</hi>) <hi rend="bold">Vilakku-vāykkāl</hi> of the third <hi rend="italic">kaṇṇāṟu</hi> north of (<hi rend="italic">the channel</hi>) <hi rend="bold">Śrīdēvi-vāykkāl</hi>; in the same place, 480 <hi rend="italic">kuḻi</hi> of first rate (<hi rend="italic">land</hi>) in the second <hi rend="italic">śadukkam (situated</hi>) east of <hi rend="bold">Vilakku-vāykkāl</hi> of the third <hi rend="italic">kaṇṇāṟu</hi>; 720 <hi rend="italic">kuḻi</hi> of first rate (<hi rend="italic">land</hi>) in the fifth <hi rend="italic">śadukkam (situated</hi>) east of (<hi rend="italic">the path called</hi>) <hi rend="bold">Mālpiḍugu-vadi</hi> of the fifteenth <hi rend="italic">kaṇṇāṟu</hi> north of (<hi rend="italic">the lane called</hi>) <hi rend="bold">Subrahmaṇyanārāśam</hi>; 370 <hi rend="italic">kuḻi</hi> of third rate (<hi rend="italic">land</hi>) in the fifth <hi rend="italic">śadukkam (situated</hi>) west of (<hi rend="italic">the path called</hi>) <hi rend="bold">Tirunāraṇa-vadi</hi> in the seventh <hi rend="italic">kaṇṇāṟu</hi> south of (<hi rend="italic">the channel ?</hi>) <hi rend="bold">Pulivalamvāy</hi>; in the same place, 450 <hi rend="italic">kuḻi</hi> of third rate (<hi rend="italic">land</hi>) in the second <hi rend="italic">śadukkam</hi> of the eighth <hi rend="italic">kaṇṇāṟu</hi>; 1,070 (<hi rend="italic">kuli</hi>) of second rate (<hi rend="italic">land) (situated</hi>) in the eighth <hi rend="italic">śadukkam</hi> west of (<hi rend="italic">the path called</hi>) <hi rend="bold">Tirunārana-vadi</hi> in the sixth <hi rend="italic">kannāṟu</hi> south of <hi rend="bold">Pulivalavāy</hi>• • • • </p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.154 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1920_01"/>
+			<citedRange unit="page">325-326</citedRange>
+			<citedRange unit="item">154</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

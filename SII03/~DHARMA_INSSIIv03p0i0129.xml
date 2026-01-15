@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 3.129: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 129.—ON THE WEST AND SOUTH WALLS OF THE NAGESVARASVAMIN TEMPLE AT KUMBAKONAM. No. 245 of 1911.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv03p0i0129</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription is dated in the 4th year of <hi rend="bold">Parakēsarivarman</hi> and registers the gift of a lamp to the temple of <hi rend="bold">Tirukkīḷ-kōṭṭam</hi> at <hi rend="bold">Tirukkuḍamūkkil</hi> (<hi rend="italic">i.e.</hi>, the <hi rend="bold">Nāgēsvara</hi> temple at <hi rend="bold">Kumbhakōṇam</hi>). The astronomical details given in the record were verified by Diwan Bahadur L. D. Swamikkannu Pillai and found to be correct for <hi rend="bold">Madhurāntaka Uttama-Chōḷa</hi>, the uncle of <hi rend="bold">Rājarāja</hi> I. The date corresponds to Thursday, the 22nd April A. D. 975<note n="276-3"><hi rend="italic">Vide Madras Epigraphical Report</hi> for 1912, page 65, paragraph 20.</note> .</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>kopparake<hi rend="grantha">śari</hi>pa<hi rend="grantha">tma</hi>ṟkku yāṇṭu 4 Āvatu vaṭakaraippā
+<lb n="2" break="no"/>mpūrnāṭṭut tevatānam <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="3"/><hi rend="grantha">meṣa</hi>nāyaṟṟu viyāḻakkiḻamaiyum nava<hi rend="grantha">mi</hi>yum peṟṟa makattaṉṟu tirukkuṭamukkil mulaparuṭaip perumakkaḷom
+<lb n="4"/>Aṟivāḷaṉaḻittā <gap reason="lost" quantity="3" unit="character"/> kaṇkaṇṭā <gap reason="lost" quantity="3" unit="character"/> ykkoḷaril kāri koḻampaṇai<note n="276-4">Read koḻampaṉai.</note> ccārttit tirukkiḻkkoṭṭattu <hi rend="grantha">paramasvāmi</hi>kku vaiytta tirunontāviḷakku Oṉṟiṉukku <gap reason="lost" quantity="5" unit="character"/> viṟṟukkuṭutta nilamāvatu<note n="276-5">The inscription stops here.</note> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="translation" source="bib:KrishnaSastri1920_01">
+
+<p>In the 4th year of (<hi rend="italic">the reign of</hi>) king <hi rend="bold">Parakēsarivarman</hi>, on the day of Makhā which corresponded to a Thursday and to the ninth <hi rend="italic">tithi</hi> of the month of Mēsha, we the great men of the chief assembly (<hi rend="italic">mūlaparuḍai</hi>) of <hi rend="bold">Tirukkuḍamūkkil</hi>• • • which was a <hi rend="italic">dēvadāna</hi> in <hi rend="bold">Pāmbūr-nāḍu</hi> on the northern bank (<hi rend="italic">of the <hi rend="bold">Kāvērī</hi></hi>), sold the following land • • • on account of one sacred perpetual lamp which was placed for the great god (<hi rend="italic">paramasvāmin</hi>) at <hi rend="bold">Tirukkīḻ-kōṭṭam</hi> on behalf of <hi rend="bold">Kāri Koḻambaṉ</hi>, one of the <hi rend="italic">[Kai]kkōḷas</hi>• • • </p>
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 3.129 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1920_01"/>
+			<citedRange unit="page">276</citedRange>
+			<citedRange unit="item">129</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
