@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 3.196: original edition by H. Krishna Sastri</title>
+                <title type="alt">No. 196.—ON A SLAB BUILT INTO THE FLOOR OF THE MANDAPA IN FRONT OF THE LATAMADHYAMBA SHRINE IN THE MASILAMANISVARA TEMPLE AT TIRUMULLAIVAYIL. No. 68 of 1904.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv03p0i0196</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The inscription states that in the 13th year of king <hi rend="bold">Pārthivēndrādivarman, Śiṅgaḷa Vīranāraṇaṉ</hi>, a native of the <hi rend="bold">Chōḷa</hi> country, made a gift of 90 sheep for burning a perpetual lamp in the temple of <hi rend="bold">Mahādēva</hi> (<hi rend="italic">Śiva</hi>) at <hi rend="bold">Tirumullaivāyil</hi>, a <hi rend="italic">dēvadāna</hi> village in <hi rend="bold">Puḻaṟ-kōṭṭam</hi>.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-01-15" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g>
+                    <lb n="2"/>kopārttiv<unclear>e</unclear>ṉ
+                    <lb n="3" break="no"/>tir<choice><sic>a</sic><corr>ā</corr></choice>tipaṉma<supplied reason="omitted">r</supplied>kku
+                    <lb n="4"/>yāṇṭu <num value="13"><unclear>10</unclear> 3</num> <unclear>pu</unclear>ḻa<unclear>ṟko</unclear>
+                    <lb n="5" break="no"/>ṭṭattu veḷ<unclear>ḷaiyū</unclear>rnā
+                    <lb n="6" break="no"/>ṭṭut <unclear>te</unclear>vatāṉamākiya<unclear>t</unclear> ti
+                    <lb n="7" break="no"/>rumul<unclear>lai</unclear>vāyil <hi rend="grantha">ma</hi>h<unclear>ā</unclear>
+                    <lb n="8" break="no"/><hi rend="grantha">de</hi>varkku na<supplied reason="omitted">n</supplied>tāvi
+                    <lb n="9" break="no"/>ḷakkoṉṟiṉuk
+                    <lb n="10" break="no"/>kuc coḻanāṭṭu Ā
+                    <lb n="11" break="no"/><unclear>vū</unclear>rkkūṟṟattu viḷat
+                    <lb n="12" break="no"/>tūr viḷattūr<unclear>ki</unclear>ḻava
+                    <lb n="13" break="no"/>ṉ ciṅkaḷaviranāraṇaṉ
+                    <lb n="14"/><hi rend="grantha">Ā<choice><sic>ś</sic><corr>c</corr></choice>an<choice><sic>t</sic><corr>d</corr></choice>ra</hi>kā<unclear>la</unclear>mum Oru
+                    <lb n="15"/>nun=tāviḷakkerippataṟ
+                    <lb n="16" break="no"/>ku vaitta cāvā <unclear>muvāp</unclear>
+                    <lb n="17"/>p<unclear>e</unclear>rāṭu toṇṇūṟu <hi rend="grantha">I</hi>
+                    <lb n="18" break="no"/><hi rend="grantha">tdhanma<supplied reason="omitted">M</supplied> rakṣi</hi>ppā<unclear>ṉ</unclear> <hi rend="grantha">śrī</hi>pā
+                    <lb n="19" break="no"/>ta<unclear>m</unclear> Eṉ talaimelaṉa [<g type="ddanda">.</g><g type="dash">.</g>]
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="translation" source="bib:KrishnaSastri1920_01">
+                
+                <p>Hail ! Prosperity ! In the 13th year of (<hi rend="italic">the reign of</hi>) king <hi rend="bold">Pārthivēndrādivarman, Śiṅgaḷa Vīranāraṇaṉ</hi> of <hi rend="bold">Viḷattūr</hi>, the headman of <hi rend="bold">Viḷattūr</hi> in <hi rend="bold">Āvūr-kūṟṟam</hi>, (<hi rend="italic">a subdivision</hi>) of <hi rend="bold">Śōḻa-nāḍu</hi>, deposited (<hi rend="italic">to last</hi>) as long as the moon (<hi rend="italic">exists</hi>) 90 sheep which neither die nor grow old (<hi rend="italic">to provide</hi>) for one perpetual lamp to be burnt (<hi rend="italic">in the temple of</hi>) the god <hi rend="bold">Mahādēva</hi> (<hi rend="italic">Śiva</hi>) at <hi rend="bold">Tirumullaivāyil</hi>, a <hi rend="italic">dēvadāna</hi> in <hi rend="bold">Veḷḷaiyūr-nāḍu</hi>, (<hi rend="italic">a subdivision of</hi>) <hi rend="bold">Puḻaṟ-kōṭṭam</hi>. The sacred feet of him that protects this gift shall rest on my head.</p>
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 3.196 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1920_01"/>
+                        <citedRange unit="page">373</citedRange>
+                        <citedRange unit="item">196</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
