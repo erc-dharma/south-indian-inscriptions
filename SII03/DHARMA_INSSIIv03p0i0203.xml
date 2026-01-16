@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 3.203: original edition by H. Krishna Sastri</title>
+                <title type="alt">No. 203.—ON THE SAME WALL. No. 214 of 1907.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv03p0i0203</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The officer <hi rend="bold">Śiṟṟiṅgaṇuḍaiyāṉ Parāntaka Mūvēndavēḷāṉ</hi> who has been mentioned in the previous records (Nos. <ref target="DHARMA_INSSIIv03p0i0200">200</ref> and <ref target="DHARMA_INSSIIv03p0i0202">202</ref>) is stated to have enquired into the temple affairs and to have enhanced the scale of offerings from the unpaid balance of paddy collected from the assembly of <hi rend="bold">Tiraimūr</hi> which was a <hi rend="italic">dēvadāna</hi> village of the temple. The record belongs to the 4th year and the 170th day of the reign of <hi rend="bold">Parakēsarivarman</hi> who took the head of the Pāṇḍya king.</p>						
+                            
+                            <p>As shown in the <hi rend="italic">Madras Epigraphical Report</hi> for 1916, page 118, paragraph 15, the days given after the regnal year of the king have to be taken as those that expired after the completion of that year.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-01-15" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha"><unclear>svasti śrī</unclear></hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> pāṇṭiyaṉai talaikoṇṭa kopparake<hi rend="grantha">śa</hi>ripa<hi rend="grantha">nma</hi><supplied reason="omitted">r</supplied>k=ku yāṇṭu <unclear>4</unclear> Āvatu <unclear>nā</unclear>ḷ <num value="170"><g type="numeral">100</g> 7 <g type="numeral">10</g></num> ṉāl tiruviṭaimarutil <unclear>Āḷvār</unclear> koyilil muṉpil kūṭatte tiruviṭaimarutil Ā<unclear>ḷ</unclear>vā<unclear>r</unclear> <hi rend="grantha">śrīkā<choice><sic>thy</sic><corr>ryy</corr></choice>a</hi>m Ā<unclear>rā</unclear>ykiṉṟa Atikārikaḷ ciṟṟiṅkaṇ Uṭ<unclear>ai</unclear>yāṉ k<choice><sic>e</sic><corr>o</corr></choice>yilmayilai Āṉa parā<choice><sic>t</sic><corr>n</corr></choice>takamuventaveḷāṉ tiruviṭaimaruti<add place="unspecified">l</add> Āḷvār tevatāṉam tiraimur tevatāṉa<hi rend="grantha">brahma</hi>te<unclear>ya</unclear>mum <hi rend="grantha">sā</hi>tana<unclear>p</unclear>paṭi keṭṭu <hi rend="grantha">sā</hi>tanattil tiraimur tevatānam kuṭi<choice><sic>ñi</sic><corr>nī</corr></choice>kki kiṭa<choice><sic>t</sic><corr>n</corr></choice>tamaiyi<choice><sic>ll</sic><corr>l</corr></choice>um
+                    <lb n="2"/><unclear>tir</unclear>aimur tevatāṉa<hi rend="grantha">brahma</hi>teyam <hi rend="grantha">sā</hi>tana<supplied reason="omitted">p</supplied>paṭi pañcavāram I<unclear>runūṟṟu Ampa</unclear>ttu Aṟukalanel Aṭṭa<supplied reason="omitted">k</supplied>kaṭavār<unclear>ka</unclear>ḷ <supplied reason="undefined"><g type="ddanda">.</g></supplied> paṭim<unclear>ā</unclear>ṟṟu keṭṭu paṭimāṟṟil nūṟṟu Aṟupatiṉ kalame Aṭṭavarukiṉṟamaiy<del>i</del>ālum tiraimur teva<unclear>tā</unclear>ṉam Irupatiṟṟu veliyum kuṭi<choice><sic>ñi</sic><corr>nī</corr></choice>kki<choice><sic>cc</sic><corr>ṟṟ</corr></choice>illai Eṉṟu Eṇṇūṟṟuk kalame Aṭṭivārāniṉṟamaiyil tiraimur tevatāṉam cetapaṭi <hi rend="grantha">sā</hi>tanam <unclear>ko</unclear>ṭuvaruka Eṉṟu <hi rend="grantha">sā</hi>tanam keṭṭu Inta <hi rend="grantha">sā</hi>tanattil kuṭinikki kiṭa<choice><sic>t</sic><corr>n</corr></choice>tamai 
+                    <lb n="3" break="no"/><unclear>yil Iṉ</unclear>ṉilam Irupatiṟṟu veli<unclear>yum</unclear> Ivaṟke yāṇṭu mū <expan><abbr>mū</abbr><ex>ṉṟu</ex></expan> <unclear>3</unclear> Āva<unclear>tu</unclear> <gap reason="lost" quantity="5" unit="character"/> Olaippaṭi tiruviṭaimaruta<unclear>ṉe</unclear>ṉṉum marakkālāl Iraṇṭāyiratteṇṇūṟṟukkalattuk=kum Aṭai Olai<unclear>p</unclear>pa<unclear>ṭi</unclear> Ā <gap reason="lost" quantity="5" unit="character"/> ttum Ittevar <unclear>te</unclear>vat<unclear>āṉa</unclear><hi rend="grantha">brahma</hi>teyam tiraimur <hi rend="grantha">sabhai</hi>yār muṉpu nūṟṟu Aṟupatin kalame Aṭṭi varukiṉṟamaiyil <gap reason="lost" quantity="5" unit="character"/> <hi rend="grantha"><unclear>s</unclear>ā</hi>tanam keṭṭu Inta <hi rend="grantha">sā</hi> taṉattil pañ<unclear>cavāram I</unclear>runūṟṟu Ampattaṟu kala ne<supplied reason="omitted">l</supplied>lu Aṭṭakkaṭava<supplied reason="omitted">r</supplied>kaḷātamaiyilum Ipparicu muta
+                    <lb n="4" break="no"/>lākki Ittevaruṭaiya muṉpil pa<unclear>ṭim</unclear>āṟṟu keṭṭu Eṟa nivanta<supplied reason="omitted">ñ</supplied>ce<unclear>y</unclear>tu <gap reason="lost" quantity="6" unit="character"/> ṉṟu <hi rend="grantha">śrī</hi>kā<hi rend="grantha">rya</hi>m Ārā<supplied reason="omitted">y</supplied>kiṉṟa Ati<unclear>kā</unclear>rikaḷ ciṟṟiṅkaṇ Uṭaiyāṉ koyilmayilai Āṉa parāntakamuventaveḷāṉ <unclear>E</unclear>va tirai<unclear>y</unclear>mur <gap reason="lost" quantity="5" unit="character"/> <unclear>ti</unclear>ruviṭaimarutil nakarattārum Iruntu nicata<supplied reason="omitted">p</supplied>paṭi paṭimāṟṟu ṉivaṉta<supplied reason="omitted">m</supplied> ceytapa<unclear>ṭi</unclear> Ā<unclear>ḷ</unclear>vārku ceṉ<unclear>ne</unclear>l kuttal Arici<surplus>y</surplus> ciṟu<unclear>kālai</unclear>kku ti<unclear>ruvamu</unclear>ta<unclear>ri</unclear>ci paṉIrunāḻiyum Ucca<supplied reason="omitted">m</supplied> potaikku tiruAmutarici patiṉ Aññāḻiyum Ucca<supplied reason="omitted">m</supplied> potaikku
+                    <lb n="5"/>pali A <gap reason="lost" quantity="4" unit="character"/> yum <unclear>Irā</unclear>vaikku tiruAmutarici pa<supplied reason="omitted">ṉ</supplied>ṉirunāḻiyum Irāvai
+                    <lb n="6" break="no"/>kku pali Arici <gap reason="lost" quantity="2" unit="character"/> yum A<hi rend="grantha"><unclear>r</unclear>ddha</hi>yāmattukku tiruAmutarici Eṇṇāḻiyum piḷ<unclear>ḷai</unclear>
+                    <lb n="7" break="no"/>yār kaṇavatiyā<unclear>rkku ciṟukālai</unclear>kku tiruAmutarici Irunāḻiyum U<unclear>cca</unclear>m potaikku tiruAmu<unclear>tari</unclear>
+                    <lb n="8" break="no"/>ci Irunāḻi<unclear>yu</unclear>m <unclear>Āka</unclear> <gap reason="lost" quantity="8" unit="character"/> Amutarici <choice><sic>A</sic><corr>Ai</corr></choice>mpattumuṉnāḻi<supplied reason="omitted">yu</supplied>m <gap reason="lost" quantity="4" unit="character"/> Arici <unclear>tū</unclear>
+                    <lb n="9" break="no"/>ṇippatakku A<unclear>ñnāḻiyum tūp</unclear>paru<supplied reason="omitted">p</supplied>pu nicati nānāḻi Uriyum piḷḷaiyārku paruppu Uriyum
+                    <lb n="10"/>palakāyam ni<unclear>ca</unclear>ti miḷaku Āḻākkum kaṭuku Uḻakkum kaṟiAmutukku kāykkaṟi Amutu Oṉṟum
+                    <lb n="11"/>puḷiṅka<unclear>ṟi</unclear>Amutu <unclear>O</unclear>ṉṟum porikkaṟi Amutu Oṉṟum nicati caṟkaraiAmutu nā
+                    <lb n="12" break="no"/>ṟpalavaraiyum vāḻaippaḻam nicatam Irupatum ney Amutu nicati
+                    <lb n="13"/>nāḻi Uriyum tayiramutu nicati Eṇṇāḻiyum Aṭaikkā<supplied reason="omitted">y</supplied> Amutu nicati Eṇpa
+                    <lb n="14" break="no"/>tum veṟṟilai Amutu teri muṉṟu paṟṟum ṉ<choice><sic>ū</sic><corr>i</corr></choice>ṟṟamutum Uppamutu<supplied reason="omitted">m</supplied> Ip
+                    <lb n="15" break="no"/>paricu nivan<supplied reason="omitted">ta</supplied>m Āk<unclear>ki I</unclear>tu <hi rend="grantha">cantrā</hi>tittaval Itu <hi rend="grantha">panmāheśvararakṣai</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="1">
+                        <lem><hi rend="grantha">śrīkāthya</hi>m</lem>
+                        <note>Read <foreign><hi rend="grantha">śrī</hi>kā<hi rend="grantha">ryya</hi>m</foreign>.</note>
+                    </app>
+                    <app loc="1">
+                        <lem>tiruviṭaimarutil</lem>
+                        <note>The letter <foreign>l</foreign> appears to have been omitted first and inserted later on.</note>
+                    </app>
+                    <app loc="2">
+                        <lem>Aṭṭavarukiṉṟamaiy<del>i</del>ālum</lem>
+                        <note>In the impression we see the sign of <foreign>i</foreign> above <foreign>ya</foreign> which has been subsequently erased.</note>
+                    </app>
+                    <app loc="2">
+                        <lem>Aṭṭivārāniṉṟamaiyil</lem>
+                        <note>The syllable <foreign>ma</foreign> written above the line in the impression just over the letter <foreign>yi</foreign> cannot be explained.</note>
+                    </app>
+                    <app loc="3">
+                        <lem>mū</lem>
+                        <note><foreign>mū</foreign> stands for <foreign>mūṉṟu</foreign>.</note>
+                    </app>
+                    <app loc="6">
+                        <lem>Arici <gap reason="lost" quantity="2" unit="character"/> yum</lem>
+                            <note>The gap might have contained the syllables <foreign>nāḻi</foreign>.</note>
+                    </app>
+                    <app loc="14">
+                        <lem>ṉūṟṟamutum</lem>
+                            <note>Read <foreign>niṟṟamutu</foreign> which probably refers to the lime used in chewing betel-leaf.</note>
+                    </app><app loc="15">
+                        <lem>Āk<unclear>ki I</unclear>tu</lem>
+                        <note><foreign>Ākki Itu</foreign> may stand for <foreign>Ākkiyatu</foreign>.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:KrishnaSastri1920_01">
+                
+                <p>(Line 1.) Hail ! Prosperity ! In the 4th year and the 170th day (<hi rend="italic">of the reign</hi>) of king <hi rend="bold">Parakēsarivarman</hi> who took the head of the <hi rend="bold">Pāṇḍya</hi> (<hi rend="italic">king</hi>), the officer <hi rend="bold">Śiṟṟiṅgaṇuḍaiyāṉ Kōyilmayilai</hi> <hi rend="italic">alias</hi> <hi rend="bold">Parāntaka-Mūvēndavēḷāṉ</hi> examining in the front hall of the temple of the lord of <hi rend="bold">Tiruviḍaimarudil</hi> the sacred temple business of the lord of <hi rend="bold">Tiruviḍaimarudil</hi> heard the terms of the documents (<hi rend="italic">relating</hi>) to the <hi rend="italic">dēvadāna</hi> and <hi rend="italic">brahmadēya (village</hi>) <hi rend="bold">Tiraimūr</hi> which was a <hi rend="italic">dēvadāna</hi> of the lord of <hi rend="bold">Tiruviḍaimarudil</hi>, and found out that the <hi rend="italic">dēvadāna</hi> of <hi rend="bold">Tiraimūr</hi> was stated in the documents to be a <hi rend="italic">kuḍinīkki</hi> village (<hi rend="italic">i.e.</hi>, one freed from tenancy rights) and that the <hi rend="italic">dēvadāna-brahmadēya</hi> village of <hi rend="bold">Tiraimūr</hi> according to the (<hi rend="italic">above</hi>) documents had to measure out two hundred and fifty-six <hi rend="italic">kalam</hi> of <hi rend="italic">pañchavdra</hi> paddy. (<hi rend="italic">But</hi>) hearing the <hi rend="italic">paḍimāṟṟu</hi> (customary scale) of expenses of the temple (<hi rend="italic">he</hi>) found that for the <hi rend="italic">paḍimāṟṟu</hi> only one hundred and sixty <hi rend="italic">kalam (of paddy</hi>) was being measured out. Also (<hi rend="italic">it was asserted</hi>) that the <hi rend="italic">dēvadāna (village</hi>) <hi rend="bold">Tiraimūr</hi> of 20 <hi rend="italic">vēli</hi> was not a <hi rend="italic">kuḍinīkki</hi> and that only eight hundred <hi rend="italic">kalam (of paddy</hi>) were being measured. He then asked the (<hi rend="italic">original</hi>) document which made <hi rend="bold">Tiraimūr</hi> into a <hi rend="italic">dēvadāna (village</hi>) to be produced (<hi rend="italic">before him</hi>), heard it (<hi rend="italic">and found</hi>) in this document that (<hi rend="italic">the village</hi>) was stated to be <hi rend="italic">kudinīkki</hi> (<hi rend="italic">i.e.</hi>, freed from tenancy rights) and that this land of 20 <hi rend="italic">vēli</hi>, according to the deed . . . . . in the 3rd year (<hi rend="italic">of the reign</hi>) of this same (<hi rend="italic">king), (was to have measured out</hi>) two thousand and eight hundred <hi rend="italic">kalam</hi> of paddy by the measure (<hi rend="italic">called) Tiruviḍaimarudaṉ</hi> according to the deed of contract (<hi rend="italic">aḍai-ōlai</hi>). Since (<hi rend="italic">thus</hi>) the assembly of <hi rend="bold">Tiraimūr</hi>, the <hi rend="italic">dēvadāna-brahmadēya (village</hi>) of this god, has been measuring out one hundred and sixty <hi rend="italic">kalam</hi> only of <hi rend="italic">panchavāra</hi> paddy in the past while, according to the document examined, it is found that two hundred and fifty-six <hi rend="italic">kalam</hi> of paddy have to be measured out (<hi rend="italic">under this head</hi>), the thus (<hi rend="italic">accumulated balance)</hi><note>The original text has evidently omitted to mention here the other discrepancy, <hi rend="italic">viz.</hi>, that of measuring sight hundred <hi rend="italic">kalam</hi> (<hi rend="italic">as landlord's share</hi> ?) instead of 2,800 according to the <hi rend="italic">aḍai-ōlai</hi>. The accumulated balance of this also should have been treated as capital.</note> was converted into a capital and after hearing the existing scale of expenses in presence of this god, it was ordered that a higher scale of expenses (<hi rend="italic">may be adopted</hi>). (<hi rend="italic">The following</hi>) is the list of current daily expenses, drawn up according to the (<hi rend="italic">increased</hi>) scale, . . . . . . of <hi rend="bold">Tiraimūr</hi> and the merchants (<hi rend="italic">nagarattār</hi>) of <hi rend="bold">Tiruviḍaimarudil</hi> being present, under the orders of the officer <hi rend="bold">Śiṟṟiṅgaṇuḍaiyāṉ Kōyil Mayilai</hi> <hi rend="italic">alias</hi> <hi rend="bold">Parāntaka-Mūvēndavēḷāṉ</hi> who scrutinizes the sacred temple business.</p>
+                
+                <p>(L. 4.) Twelve <hi rend="italic">nāḻi</hi> of pounded rice of superior paddy for the sacred rice-offering to the god in the early morning; fifteen <hi rend="italic">nāḻi</hi> for the sacred rice-offering at midday; and one <hi rend="italic">nāḻi</hi> [of rice] for the <hi rend="italic">bali</hi> at midday; twelve <hi rend="italic">nāḻi</hi> for the sacred rice-offering in the night and [one <hi rend="italic">nāḻi</hi>] of rice for the <hi rend="italic">bali</hi> at night; eight measures for the sacred rice-offering at midnight. To (<hi rend="italic">the god</hi>) <hi rend="bold">Piḷḷaiyār Gaṇapati</hi>, two measures for the sacred rice-offering in the early morning; two measures for the sacred rice-offering at midday; thus in all . . . . . . . . fifty-three <hi rend="italic">nāḻi</hi> for the [sacred] rice-offering . . . . . . and (<hi rend="italic">one) tūṇi, (one) padakku</hi> and five <hi rend="italic">nāḻi</hi> of rice . . . . . . four <hi rend="italic">nāḻi</hi> and one <hi rend="italic">uri</hi> daily of good <hi rend="italic">dhall</hi> and one <hi rend="italic">uri</hi> of <hi rend="italic">dhall</hi> for <hi rend="bold">Piḷḷaiyār</hi>. The sundry spices (<hi rend="italic">required</hi>) every day (<hi rend="italic">were): (one) āḻākku</hi> of pepper and (<hi rend="italic">one) uḻakku</hi> of mustard; the daily vegetable-offering<note>See <hi rend="italic">Epigraphia Indica</hi>, Vol. IX, page 92.</note> (<hi rend="italic">consisted of</hi>) one <hi rend="italic">kāykkaṟi-amudu</hi>, one <hi rend="italic">puḷiṅgaṟi-amudu</hi> and (<hi rend="italic">one) porikkaṟi-amudu</hi>; four and a half <hi rend="italic">palam</hi> of sugar-offering daily; twenty plantain fruits every day; (<hi rend="italic">one) nāḻi</hi> and (<hi rend="italic">one) uri</hi> of ghee offering daily; eight <hi rend="italic">nāḻi</hi> of curd offering daily; a daily offering of eighty areca-nuts; three <hi rend="italic">paṟṟu</hi> of choice betel-leaf offering; chunam(<hi rend="italic">nīṟṟu</hi>) offering; and salt-offering. This is how the scale of expenses was drawn up. May this be under the protection of all <hi rend="italic">Māhēśvaras</hi> as long as the moon and the sun (<hi rend="italic">endure</hi>)!</p>
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 3.203 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1920_01"/>
+                        <citedRange unit="page">380-382</citedRange>
+                        <citedRange unit="item">203</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
