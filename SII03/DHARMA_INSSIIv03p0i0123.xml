@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 3.123: original edition by H. Krishna Sastri</title>
+                <title type="alt">XIV.—INSCRIPTIONS OF PARAKESARIVARMAN UTTAMA-CHOLA. No. 123.—ON THE SOUTH WALL OF THE CENTRAL SHRINE IN THE MADHUVANESVARA TEMPLE AT TIRUKKALAVUR. No. 35 of 1910.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv03p0i0123</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This record which is dated in the 16th year of <hi rend="bold">Parakēsarivarman</hi>, registers a sale of land by the village assembly, for the maintenance of a lamp in the temple of Śiva at <hi rend="bold">Tirukkarugāvūr</hi>. The inscription may be one of king <hi rend="bold">Parakēsarivarman Uttama-Chōḷa</hi> on account of its high regnal year, if not one of <hi rend="bold">Parakēsarivarman Parāntaka</hi> I.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p>The <foreign>puḷḷis</foreign> are marked almost throughout the inscription.</p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-01-15" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <g type="danda">.</g> <g type="dashLong">.</g> koppara<unclear>kecaripaṉ</unclear>maṟkku yā
+                    <lb n="2" break="no"/>ṇṭu 3 Āvatu tiru<unclear>kka</unclear>rukāvūr <unclear><hi rend="grantha">mahāde</hi>vaṟ</unclear>
+                    <lb n="3"/><hi rend="grantha"><unclear>svasti śrī</unclear></hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> k<unclear>o<!--kāl clear--></unclear>ppara<unclear>ke</unclear>caripa<hi rend="grantha">nma</hi><supplied reason="omitted">r</supplied>kku <unclear>yāṇ</unclear>ṭu
+                    <lb n="4"/><num value="16"><unclear>10</unclear> 6</num> Āvatu tirukkarukāvūr <hi rend="grantha">mahāde</hi>var
+                    <lb n="5" break="no"/>k=ku Ivvūr mulaparuṭaipperumakkaḷom
+                    <lb n="6"/>I<hi rend="grantha">de</hi>vark=ku ca<hi rend="grantha">ndrādi</hi>ttava<hi rend="grantha">t·</hi> Iṟaiyiliya
+                    <lb n="7" break="no"/><unclear>āka k=ku</unclear>ṭutta ṉilamāvatu <supplied reason="undefined"><g type="ddanda">.</g></supplied> Eṅ<unclear>kaḷ <hi rend="grantha">sabhai</hi></unclear> kūṭṭu
+                    <lb n="8" break="no"/><unclear>vā</unclear>ṉilam tiruvuṇṇāḻikaippuṟat<unclear>tu</unclear> vaṭakaṇṭattu E
+                    <lb n="9" break="no"/><unclear>ṅka</unclear>ḷ <unclear>Iraṇṭu</unclear> māvum teṉkaṇṭat<unclear>tu</unclear> meṟk=kaṭaiya <unclear>O</unclear>
+                    <lb n="10" break="no"/><unclear>ru</unclear> māvum Ākat taṭi Iraṇṭā<supplied reason="omitted">l</supplied> nilaṉ muṉṟumāvum ca<unclear>v</unclear>ai kūṭṭu
+                    <lb n="11" break="no"/><unclear>v</unclear>ā<choice><sic>ṉ Il</sic><corr>ṉil</corr></choice> maṉaiyāka kalli viḷaikiṉṟa cuṇṭaikuḻi kāṇi<unclear>yu</unclear>m <unclear>Āka ni</unclear>
+                    <lb n="12" break="no"/>laṉ muṉṟu<unclear>mākkā</unclear>ṇiyu<supplied reason="omitted">m</supplied> mik<choice><sic>i</sic><corr>u</corr></choice>tikkuṟaivu Uḷḷaṭaṅka viṟṟu<unclear>kku</unclear>ṭu<unclear>ttuk</unclear>
+                    <lb n="13" break="no"/>koṇṭa <gap reason="lost" quantity="5" unit="character"/> ḷ kācu paḻav<unclear>ā</unclear>vu muppattoṉṟum Ik<unclear>k</unclear>ā<unclear>cu mup</unclear>pa
+                    <lb n="14" break="no"/><unclear>t</unclear>to<unclear>ṉṟuṅ ko</unclear>ṇṭu Iṉṉilam <seg rend="check">3/20 3/80</seg> yum muṉpum Iṟaiyili Ānamai<unclear>yi</unclear>
+                    <lb n="15" break="no"/><unclear>l ca</unclear><hi rend="grantha">ndrādi</hi>t=tavaṟ Iṟaiyiliyāka viṟṟukkuṭuttom tirukkarukā<unclear>vū</unclear>r <hi rend="grantha">mahā</hi>
+                    <lb n="16" break="no"/><gap reason="lost" quantity="11" unit="character"/> <unclear>perumakkaḷ</unclear>om Itu <hi rend="grantha">panmāheśvarara<unclear>kṣai</unclear></hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="13">
+                        <lem>koṇṭa <gap reason="lost" quantity="5" unit="character"/> ḷ</lem>
+                        <note>The gap may be filled up with the syllables <foreign>vilaipporu</foreign>.</note>
+                    </app>
+                    <app loc="16">
+                        <lem><gap reason="lost" quantity="11" unit="character"/></lem>
+                        <note>The gap may be filled up with the syllables <foreign><hi rend="grantha">de</hi>varkku mūlaparuṭaip</foreign>.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:KrishnaSastri1920_01">
+                
+                <p>(Line 1.). Hail ! Prosperity ! In the 3rd year of (<hi rend="italic">the reign of</hi>) king <hi rend="bold">Parakēsarivarman</hi>, (<hi rend="italic">to the god</hi>) <hi rend="bold">Mahādēva</hi> (<hi rend="italic">Śiva</hi>) of <hi rend="bold">Tirukkarugāvūr</hi><note>This must have been the beginning of a separate inscription which is left unfinished.</note> .</p>
+                
+                <p>(L. 3.) Hail ! Prosperity ! In the 16th year of (<hi rend="italic">the reign of</hi>) king <hi rend="bold">Parakēsarivarman</hi>, we the great men of the chief assembly (<hi rend="italic">mūla-paruḍai</hi>) of this village gave the following land free of taxes till the moon and the sun (<hi rend="italic">endure</hi>) to this god <hi rend="bold">Mahādēva</hi> (<hi rend="italic">Śiva</hi>) of <hi rend="bold">Tirukkarugāvūr</hi>.</p>
+                
+                <p>(L. 7.) Two <hi rend="italic">mā</hi> of our land of <hi rend="bold">Sabhaikūṭṭuvāṉ</hi> in the northern <hi rend="italic">kaṇḍam</hi> of the land belonging to the sacred interior and one <hi rend="italic">mā (of land</hi>) to the west of the southern <hi rend="italic">kaṇḍam</hi>,—in all, three <hi rend="italic">mā</hi> of land comprised of two <hi rend="italic">taḍi</hi>; and one <hi rend="italic">kāṇi</hi> of land (<hi rend="italic">called</hi>) <hi rend="bold">Śuṇḍaikuḻi</hi> in (<hi rend="italic">the field called</hi>) <hi rend="bold">Sabhaikūṭṭuvāṉ</hi> which being a <hi rend="italic">maṉai</hi>, is cultivated and is yielding crop;—together, three <hi rend="italic">mā</hi> and (<hi rend="italic">one) kāṇi</hi> of land including excess and deficiency (<hi rend="italic">in measurement), (we</hi>) have sold and received thirty-one <hi rend="italic">kāśu</hi> of <hi rend="italic">paḻavāvu</hi><note>The exact meaning of this word is not clear.</note>. Having received these thirty-one <hi rend="italic">kāśu</hi> we the great men of the chief assembly sold this land (<hi rend="italic">viz.,</hi>) three <hi rend="italic">mā</hi> and <hi rend="italic">kāṇi</hi><note>The extent 3 <foreign>mā</foreign> and <foreign>kāṉi</foreign> is expressed by numerical symbols.</note> to (<hi rend="italic">the god</hi>) <hi rend="bold">Mahādēva</hi> (<hi rend="italic">Śiva</hi>) of <hi rend="bold">Tirukkarugāvūr</hi> and exempted it from taxes, it being tax-free already, as long as the moon and the sun (<hi rend="italic">endure</hi>). This (<hi rend="italic">shall be under</hi>) the protection of (<hi rend="italic">the assembly of</hi>) all <hi rend="italic">Māhēśvaras</hi>.</p>
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 3.123 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1920_01"/>
+                        <citedRange unit="page">259-260</citedRange>
+                        <citedRange unit="item">123</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
