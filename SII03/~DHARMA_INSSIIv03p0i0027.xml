@@ -5,126 +5,143 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>SII 3.27: original edition by Eugen Julius Theodor Hultzsch</title>
-				<title type="alt">No. 27.—ON THE SOUTH WALL OF THE SHRINE IN THE RAJAGOPALA-PERUMAL TEMPLE.</title>
-				<respStmt>
-					<resp>author of digital edition</resp>
-					<persName ref="part:emfr">
-						<forename>Emmanuel</forename>
-						<surname>Francis</surname>
-					</persName>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<authority>DHARMA</authority>
-				<pubPlace>Paris, CEIAS</pubPlace>
-				<idno type="filename">DHARMA_INSSIIv03p0i0027</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<msDesc>
-					<msIdentifier>
-						<repository>DHARMAbase</repository>
-						<idno/>
-					</msIdentifier>
-					<msContents>
-						<summary>
-
-						<p>This inscription is dated in the 6th year of the reign of the <hi rend="bold">Chōḷa</hi> king <hi rend="bold">Rājakēsarivarman</hi><note n="50-1">See above, p. 2, note 4.</note> (l. 2). It opens with two Sanskrit verses, which state that a person whose name is not given made a grant to the Vishṇu temple at <hi rend="bold">Ratnāgrahāra</hi> or <hi rend="bold">Ratnagrāma</hi>, <hi rend="italic">i.e.</hi> Maṇimaṅgalam. From the following Tamil passage it appears that the donor had purchased the land from the inhabitants of <hi rend="bold">Maṇimaṅgalam</hi>. The grant consisted of 4,000 <hi rend="italic">kuḻi</hi> of land, of which 2,000 were situated on the west of Maṇimaṅgalam and south of <hi rend="bold">Kuḷattūr</hi>, the modern Koḷattūr.<note n="50-2">No. 289 on the <hi rend="italic">Madras Survey Map</hi> of the Conjeeveram tāluka.</note> The remaining 2,000 <hi rend="italic">kuḻi</hi> were situated on the south of Maṇimaṅgalam and east of <hi rend="bold">Amaṇpākkam</hi>—the modern Ammaṇambākkam.<note n="50-3">No. 330 on the same map.</note> </p>						
-
-						<p>In this archaic inscription the <hi rend="italic">virāma</hi> is marked above several letters by a dot (<hi rend="italic">puḷḷi</hi>), just as in the modern Tamil print. The Grantha <hi rend="italic">ṇā</hi> of <hi rend="italic">praṇāśa</hi> (l. 1) is expressed by a compound letter which differs from the Tamil <hi rend="italic">ṇā</hi>.<note n="50-4">Compare above, Vol. II. p. 200, note 1.</note> </p>						
-
-						</summary>
-					</msContents>
-					<physDesc>
-						<handDesc>
-							<p/>
-						</handDesc>
-					</physDesc>
-				</msDesc>
-			</sourceDesc>
-		</fileDesc>
-		<revisionDesc>
-			<change who="part:emfr" when="2026-01-15" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-		</revisionDesc>
-	</teiHeader>
-	<text xml:space="preserve">
-		<body>
-
-<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
-
-<p>
-<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> vidyāramā</hi>vanitayo<hi rend="grantha">ssamudā</hi>ya<hi rend="grantha">mū<supplied reason="omitted">r</supplied>ttirā<supplied reason="omitted">r</supplied>ttipra</hi>ṇā<hi rend="grantha">śa</hi>ni<hi rend="grantha">pu</hi>ṇo<hi rend="grantha"> rama</hi>ṇiya<hi rend="grantha">ki<supplied reason="omitted">r</supplied><unclear>tti</unclear>ḥ</hi><note n="50-5">Read <hi rend="grantha">rama</hi>ṇīya<hi rend="grantha">kīrtiḥ</hi>.</note> <hi rend="grantha"><supplied reason="undefined"><g type="danda">.</g></supplied> ratnā<unclear>gra</unclear>hāra I</hi>ti<hi rend="grantha"> vi[śru</hi>ta<hi rend="grantha">]nāmadhe</hi>ya<hi rend="grantha">ssaṁrā<unclear>ja</unclear></hi>te<note n="50-6">The letter <hi rend="grantha">ja</hi> has been entered below the line.</note> <hi rend="grantha">sakalasa</hi>ta<hi rend="grantha">gu</hi>ṇa<hi rend="grantha">ra</hi>n=ta<hi rend="grantha">sindhuḥ</hi><note n="50-7">Read <hi rend="grantha">sadgu</hi>ṇa<hi rend="grantha">ratna</hi>.</note> <hi rend="grantha">[<g type="ddanda">.</g> 1 <g type="ddanda">.</g>*]</hi><note n="50-8">Read <hi rend="grantha">ratna</hi>.</note> <hi rend="grantha">rannagrāmāgrahāre v<unclear>ai</unclear> śrīma<supplied reason="omitted">d</supplied>dv<unclear>ā</unclear></hi>
-<lb n="2" break="no"/><hi rend="grantha">rādhi</hi>vā<hi rend="grantha">si</hi>na<hi rend="grantha">ḥ <supplied reason="undefined"><g type="danda">.</g></supplied> Ācandra</hi>tā<hi rend="grantha">ramakaro<unclear>t</unclear></hi><note n="50-9">Read <hi rend="grantha">rodbhoga</hi>.</note> <hi rend="grantha">bhogande<unclear>va</unclear>sya śāśva</hi>ta<hi rend="grantha">m <g type="ddanda">.</g><g type="dashLong">.</g> [2 <g type="ddanda">.</g>*]</hi> ko<unclear>vi</unclear><hi rend="grantha">rāja</hi>ke<hi rend="grantha">sa</hi>riva<hi rend="grantha"><unclear>nma</unclear></hi><supplied reason="omitted">r</supplied>kki<supplied reason="omitted">yā</supplied>ṇṭu 6 vatu ceṅkāṭṭukkoṭṭattu maṇimaṅ<unclear>ka</unclear>lamākiya Uloka<hi rend="grantha">mahāde</hi>vi<hi rend="grantha">śadurvvedi</hi>maṅka<supplied reason="omitted">la</supplied>ttu<note n="50-10">Read <hi rend="grantha">ca</hi>tu<hi rend="grantha">rvedi</hi>.</note> <hi rend="grantha">mahāsabhai</hi>yom
-<lb n="3"/>Em<unclear>mū</unclear>r <hi rend="grantha">śrī<unclear>ma</unclear><supplied reason="omitted">d</supplied>dvārāpu</hi>ri<hi rend="grantha">de</hi>varkku <unclear>ṉā</unclear>ṅkaḷ viṟṟukkuṭu<unclear>t</unclear>ta <hi rend="grantha">bhūmi <supplied reason="undefined"><g type="danda">.</g></supplied></hi> melpiṭāk<unclear>ai</unclear> mākaṇūr Ellaikku m<unclear>e</unclear>ṟ<unclear>ku</unclear>m periyaputteri karaikku vaṭa<unclear>kku</unclear>m m<unclear>e</unclear>lpālkellai<note n="50-11">Read meṟpāṟkellai.</note> kaliccaṅkālukku kiḻak<unclear>ku</unclear>m <unclear>vaṭa</unclear>pāṟkel 
-<lb n="4" break="no"/><unclear>lai</unclear> kuḷattūr Ellaik<unclear>ku</unclear>tteṟku Āka<note n="50-12">Read innāṉ kellai.</note> <unclear>I</unclear><supplied reason="omitted">n</supplied>nālkellaiyuḷḷu<unclear>maka</unclear>ppaṭṭa <unclear>Ira</unclear>ṇṭāyiraṅkuḻiyum <supplied reason="undefined"><g type="danda">.</g></supplied> t<unclear>eṉ</unclear>piṭākai peṟūr Aṭṭiṉa putteri <note n="50-13">Read kīḻai.</note> kiḻai <hi rend="grantha">bhūmi</hi> <unclear>kī</unclear>ḻpāṟkel
-<lb n="5" break="no"/><unclear>lai</unclear> kuṭumpiṭupāṭakattukku meṟkum teṉpā<unclear>ṟ</unclear>kellai maṇṇikkālukku vaṭakkum melpāṟ<unclear>k</unclear>ellai Amaṇ
-<lb n="6" break="no"/>pā<supplied reason="omitted">kka</supplied>ttellaikku kiḻakku vaṭapāṟkellai Eri karaikku(m) teṟkumāka Innāṟpālellai<unclear>yuḷ</unclear>ḷumakappaṭṭa ni
-<lb n="7" break="no"/>lattil niṉṟa Iraṇṭāyiraṅkuḻiyum <supplied reason="undefined"><g type="danda">.</g></supplied> Āka nālāyiraṅkuḻiyum <hi rend="grantha">candrādi</hi>ttava<hi rend="grantha">t</hi><note n="50-14">Read <hi rend="grantha">ditya</hi>va<hi rend="grantha">t</hi>.</note> Iṟaiyili ceytu kuṭu
-<lb n="8" break="no"/>ttom <hi rend="grantha">mahāsabhai</hi>yom <supplied reason="undefined"><g type="danda">.</g></supplied> Iṉni<unclear>la</unclear><supplied reason="omitted">m</supplied> cuṭṭi Iṟaiyu<supplied reason="omitted">m</supplied> E<supplied reason="omitted">ṟa</supplied>ccoṟu<note n="50-15">See above, No. 24, text line 7.</note> veṭṭi veya<unclear>ti kā</unclear>ṇa<unclear>m</unclear> Epp(o)r
-<lb n="9" break="no"/><unclear>pa</unclear>ṭṭatu<supplied reason="omitted">m</supplied> kāṭṭa <unclear>peṟā</unclear>tomā<unclear>ṉ</unclear>o[m <g type="danda">.</g>*] <unclear>kā</unclear>ṭṭinā<unclear>re</unclear> pe<unclear>r p</unclear>er I<unclear>ru</unclear>pa<supplied reason="omitted">t</supplied>tai<unclear>ṅ</unclear>kaḻa<unclear>ñ</unclear>cu poṉ <unclear>ma</unclear>ṉṟavoṭ<unclear>ṭi</unclear> kuṭu<supplied reason="omitted">ttom</supplied> <hi rend="grantha">mahāsabhai</hi>yo<unclear>m</unclear> <supplied reason="undefined"><g type="danda">.</g></supplied>
-<lb n="10"/><hi rend="grantha"><unclear>śrīv</unclear>aiṣṇabarāṣai</hi><note n="50-16">Read <hi rend="grantha">śrī</hi>vai<hi rend="grantha">ṣṇa</hi>va<hi rend="grantha">rakṣai</hi>.</note> <hi rend="grantha">[<g type="ddanda">.</g><g type="dashLong">.</g>]</hi>
-</p>
-
-</div>
-
-<div type="apparatus">
-
-</div>
-
-<div type="translation" source="bib:Hultzsch1899_01">
-
-<p>(Line 1.) Hail ! Prosperity !</p>
-
-<p>(Verse 1.) Resplendent is (<hi rend="italic">the village</hi>) whose famous name is <hi rend="bold">Ratnāgrahāra</hi> (<hi rend="italic">and which is</hi>) an embodiment of the union of the two goddesses of learning and prosperity, able to remove distress, of lovely fame (<hi rend="italic">and</hi>) an ocean of all gems—noble qualities.</p>
-
-<p>(V. 2.) (<hi rend="italic">He)</hi><note n="51-1">The name of the donor is not stated.</note> founded, for as long as the moon and the stars endure, a perpetual enjoyment (<hi rend="italic">bhōga</hi>) of the god who resides in (<hi rend="italic">the temple of</hi>) <hi rend="bold">Śrīmad-Dvārā</hi> in the <hi rend="italic">agrahāra</hi> of <hi rend="bold">Ratnagrāma</hi>.</p>
-
-<p>(Line 2.) In the 6th year (<hi rend="italic">of the reign</hi>) of king <hi rend="bold">Rājakēsarivarman</hi>, we, the great assembly of <hi rend="bold">Maṇimaṅgalam</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Lōkamahādēvi-chaturvēdimaṅgalam</hi>, (<hi rend="italic">in the district</hi>) of <hi rend="bold">Śēṅgāṭṭu-kōṭṭam</hi>, sold (<hi rend="italic">the following</hi>) land to (<hi rend="italic">the temple of</hi>) <hi rend="bold">Śrīmad-Dvārāpuridēva</hi> in our village.</p>
-
-<p>(L. 3.) Two thousand <hi rend="italic">kuḻi</hi>, enclosed within the following four boundaries:—(<hi rend="italic">The eastern boundary is</hi>) to the west of the boundary of <hi rend="bold">Māgaṇūr</hi>, a hamlet on the west (<hi rend="italic">of our village); (the southern boundary is</hi>) to the north of the bank of the <hi rend="italic">Periyaputtēri</hi> (tank); the western boundary (<hi rend="italic">is</hi>) to the east of the <hi rend="italic">Kalichchaṅgāl</hi> (channel);<note n="51-2">From this channel is probably derived the name of the modern village of Kariśaṅgāl (No. 319 on the <hi rend="italic">Madras Survey Map</hi> of the Conjeeveram tāluka), south of Maṇimaṅgalam.</note> and the northern boundary (<hi rend="italic">is</hi>) to the south of the boundary of <hi rend="bold">Kuḷattūr</hi>.</p>
-
-<p>(L. 4.) Two thousand <hi rend="italic">kuḻi</hi> of land below the <hi rend="italic">Puttēri</hi> (tank) at (?) <hi rend="bold">Pēṟūr</hi>, a hamlet on the south (<hi rend="italic">of our village</hi>), enclosed within the following four boundaries:—The eastern boundary (<hi rend="italic">is</hi>) to the west of <hi rend="bold">Kuḍumbiḍupāḍagam</hi>; the southern boundary (<hi rend="italic">is</hi>) to the north of the <hi rend="italic">Maṇṇikkāl</hi> (channel); the western boundary (<hi rend="italic">is</hi>) to the east of the boundary of <hi rend="bold">Amaṇpā[kka]m</hi>; and the northern boundary (<hi rend="italic">is</hi>) to the south of the bank of the tank.</p>
-
-<p>(L. 7.) Altogether four thousand <hi rend="italic">kuḻi</hi> were given, for as long as the moon and the sun exist (<hi rend="italic">and</hi>) free of taxes, by us, the great assembly.</p>
-
-<p>(L. 8.) On this land we shall not be entitled to claim any taxes, • • • forced labour (<hi rend="italic">veṭṭi, vēdi</hi>) and <hi rend="italic">kāṇam</hi>.<note n="51-3">Compare above, No. 12, text line 8.</note> </p>
-
-<p>(L. 9.) We, the great assembly, agree that each of those who claim (<hi rend="italic">them</hi>) shall pay a fine<note n="51-4">The verb <hi rend="italic">maṉṟu</hi>, which occurs also in Vol. I. Nos. 82 and 83, evidently means ‘to pay a fine;’ compare above, p. 38, note 5.</note> of twenty-five <hi rend="italic">kaḻañju</hi> of gold.</p>
-
-<p>(L. 10.) (<hi rend="italic">This charity is placed under</hi>) the protection of the <hi rend="italic">Śrī-Vaishṇavas</hi>).</p>
-
-</div>
-
-<div type="commentary">
-
-</div>
-
-<div type="bibliography">
-
-	<p>Digital edition of SII 3.27 by <bibl><ptr target="bib:Hultzsch1899_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
-
-	<listBibl type="primary">
-
-		<bibl n="SII">
-			<ptr target="bib:Hultzsch1899_01"/>
-			<citedRange unit="page">50-51</citedRange>
-			<citedRange unit="item">27</citedRange>
-		</bibl>
-
-	</listBibl>
-
-	<listBibl type="secondary">
-
-		<bibl/>
-
-	</listBibl>
-
-</div>
-
-	</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 3.27: original edition by Eugen Julius Theodor Hultzsch</title>
+                <title type="alt">IV.—INSCRIPTIONS AT MANIMANGALAM. No. 27.—ON THE SOUTH WALL OF THE SHRINE IN THE RAJAGOPALA-PERUMAL TEMPLE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv03p0i0027</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <!--Insert intro-->
+                            
+                            <p>This inscription is dated in the 6th year of the reign of the <hi rend="bold">Chōḷa</hi> king <hi rend="bold">Rājakēsarivarman</hi><note>See above, p. 2, note 4.</note> (l. 2). It opens with two Sanskrit verses, which state that a person whose name is not given made a grant to the Vishṇu temple at <hi rend="bold">Ratnāgrahāra</hi> or <hi rend="bold">Ratnagrāma</hi>, <hi rend="italic">i.e.</hi> Maṇimaṅgalam. From the following Tamil passage it appears that the donor had purchased the land from the inhabitants of <hi rend="bold">Maṇimaṅgalam</hi>. The grant consisted of 4,000 <hi rend="italic">kuḻi</hi> of land, of which 2,000 were situated on the west of Maṇimaṅgalam and south of <hi rend="bold">Kuḷattūr</hi>, the modern Koḷattūr.<note>No. 289 on the <hi rend="italic">Madras Survey Map</hi> of the Conjeeveram tāluka.</note> The remaining 2,000 <hi rend="italic">kuḻi</hi> were situated on the south of Maṇimaṅgalam and east of <hi rend="bold">Amaṇpākkam</hi>—the modern Ammaṇambākkam.<note>No. 330 on the same map.</note> </p>						
+                            
+                            <p>In this archaic inscription the <hi rend="italic">virāma</hi> is marked above several letters by a dot (<hi rend="italic">puḷḷi</hi>), just as in the modern Tamil print. The Grantha <hi rend="italic">ṇā</hi> of <hi rend="italic">praṇāśa</hi> (l. 1) is expressed by a compound letter which differs from the Tamil <hi rend="italic">ṇā</hi>.<note>Compare above, Vol. II. p. 200, note 1.</note> </p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-01-15" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p xml:lang="san-Latn" rendition="class:grantha maturity:vernacular">
+                    <lb n="1"/>svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                <lg n="1">
+                    <l n="ab">vidyāramāvanitayossamudāyamū<supplied reason="omitted">r</supplied>ttirā<supplied reason="omitted">r</supplied>ttipraṇāśanipuṇo ramaṇiyaki<supplied reason="omitted">r</supplied><unclear>tti</unclear>ḥ<note n="50-5">Read ramaṇīyakīrtiḥ.</note> <supplied reason="undefined"><g type="danda">.</g></supplied></l>
+                    <l n="cd">ratnā<unclear>gra</unclear>hāra Iti vi<unclear>śruta</unclear>nāmadheyassaṁrā<add place="below"><unclear>ja</unclear></add>te<!--<note n="50-6">The letter <hi rend="grantha">ja</hi> has been entered below the line.</note>--> sakalasataguṇarantasindhuḥ<note n="50-7">Read <hi rend="grantha">sadgu</hi>ṇa<hi rend="grantha">ratna</hi>.</note> <supplied reason="undefined"><g type="ddanda">.</g> 1 <g type="ddanda">.</g></supplied><note n="50-8">Read <hi rend="grantha">ratna</hi>.</note></l>
+                </lg>
+                
+                <lg n="2">
+                    <l n="ab">
+                        rannagrāmāgrahāre v<unclear>ai</unclear> śrīma<supplied reason="omitted">d</supplied>dv<unclear>ā</unclear>
+                <lb n="2" break="no"/>rādhivāsinaḥ <supplied reason="undefined"><g type="danda">.</g></supplied></l>
+                    <l n="cd">
+                        Ācandratāramakaro<choice><sic><unclear>t·</unclear></sic><corr>d</corr></choice>bhogande<unclear>va</unclear>sya śāśvataM <g type="ddanda">.</g><g type="dashLong">.</g> <supplied reason="undefined">2 <g type="ddanda">.</g></supplied></l></lg>
+                               
+                <p xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                    
+                    ko<unclear>vi</unclear><hi rend="grantha">rāja</hi>ke<hi rend="grantha">sa</hi>riva<hi rend="grantha"><unclear>nma</unclear></hi><supplied reason="omitted">r</supplied>kki<supplied reason="omitted">yā</supplied>ṇṭu 6 vatu ceṅkāṭṭukkoṭṭattu maṇimaṅ<unclear>ka</unclear>lamākiya Uloka<hi rend="grantha">mahāde</hi>vi<hi rend="grantha">śadurvvedi</hi>maṅka<supplied reason="omitted">la</supplied>ttu<note n="50-10">Read <hi rend="grantha">ca</hi>tu<hi rend="grantha">rvedi</hi>.</note> <hi rend="grantha">mahāsabhai</hi>yom
+                    <lb n="3"/>Em<unclear>mū</unclear>r <hi rend="grantha">śrī<unclear>ma</unclear><supplied reason="omitted">d</supplied>dvārāpu</hi>ri<hi rend="grantha">de</hi>varkku <unclear>ṉā</unclear>ṅkaḷ viṟṟukkuṭu<unclear>t</unclear>ta <hi rend="grantha">bhūmi</hi> <supplied reason="undefined"><g type="danda">.</g></supplied> melpiṭāk<unclear>ai</unclear> mākaṇūr Ellaikku m<unclear>e</unclear>ṟ<unclear>ku</unclear>m periyaputteri karaikku vaṭa<unclear>kku</unclear>m m<unclear>e</unclear><choice><sic>l</sic><corr>ṟ</corr></choice>pā<choice><sic>l</sic><corr>ṟ</corr></choice>kellai kaliccaṅkālukku kiḻak<unclear>ku</unclear>m <unclear>vaṭa</unclear>pāṟkel 
+                    <lb n="4" break="no"/><unclear>lai</unclear> kuḷattūr Ellaik<unclear>ku</unclear>tteṟku Āka <note n="50-12">Read innāṉkellai.</note> <unclear>I</unclear><supplied reason="omitted">n</supplied>nālkellaiyuḷḷu<unclear>maka</unclear>ppaṭṭa <unclear>Ira</unclear>ṇṭāyiraṅkuḻiyum <supplied reason="undefined"><g type="danda">.</g></supplied> t<unclear>eṉ</unclear>piṭākai peṟūr Aṭṭiṉa putteri k<choice><sic>i</sic><corr>ī</corr></choice>ḻai <hi rend="grantha">bhūmi</hi> <unclear>kī</unclear>ḻpāṟkel
+                    <lb n="5" break="no"/><unclear>lai</unclear> kuṭumpiṭupāṭakattukku meṟkum teṉpā<unclear>ṟ</unclear>kellai maṇṇikkālukku vaṭakkum melpāṟ<unclear>k</unclear>ellai Amaṇ
+                    <lb n="6" break="no"/>pā<supplied reason="omitted">kka</supplied>ttellaikku kiḻakku vaṭapāṟkellai Eri karaikku<surplus>m</surplus> teṟkumāka Innāṟpālellai<unclear>yuḷ</unclear>ḷumakappaṭṭa ni
+                    <lb n="7" break="no"/>lattil niṉṟa Iraṇṭāyiraṅkuḻiyum <supplied reason="undefined"><g type="danda">.</g></supplied> Āka nālāyiraṅkuḻiyum <hi rend="grantha">candrādi</hi><choice><sic>tta</sic><corr><hi rend="grantha">tya</hi></corr></choice>va<hi rend="grantha">t·</hi> Iṟaiyili ceytu kuṭu
+                    <lb n="8" break="no"/>ttom <hi rend="grantha">mahāsabhai</hi>yom <supplied reason="undefined"><g type="danda">.</g></supplied> Iṉni<unclear>la</unclear><supplied reason="omitted">m</supplied> cuṭṭi Iṟaiyu<supplied reason="omitted">m</supplied> E<supplied reason="omitted">ṟa</supplied>ccoṟu<note >See above, No. <ref target="DHARMA_INSSIIv03p0i0024">24</ref>, text line 7.</note> veṭṭi veya<unclear>ti kā</unclear>ṇa<unclear>m</unclear> Epp<choice><sic>o</sic><corr>e</corr></choice>r
+                    <lb n="9" break="no"/><unclear>pa</unclear>ṭṭatu<supplied reason="omitted">m</supplied> kāṭṭa <unclear>peṟā</unclear>tomā<unclear>ṉ</unclear>o<supplied reason="undefined">m <g type="danda">.</g></supplied> <unclear>kā</unclear>ṭṭinā<unclear>re</unclear> pe<unclear>r p</unclear>er I<unclear>ru</unclear>pa<supplied reason="omitted">t</supplied>tai<unclear>ṅ</unclear>kaḻa<unclear>ñ</unclear>cu poṉ <unclear>ma</unclear>ṉṟavoṭ<unclear>ṭi</unclear> kuṭu<supplied reason="omitted">ttom</supplied> <hi rend="grantha">mahāsabhai</hi>yo<unclear>m</unclear> <supplied reason="undefined"><g type="danda">.</g></supplied>
+                    <lb n="10"/><hi rend="grantha"><unclear>śrīv</unclear>aiṣṇabarāṣai</hi><note n="50-16">Read <hi rend="grantha">śrī</hi>vai<hi rend="grantha">ṣṇa</hi>va<hi rend="grantha">rakṣai</hi>.</note> <unclear><g type="ddanda">.</g><g type="dashLong">.</g></unclear>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="translation" source="bib:Hultzsch1899_01">
+                
+                <p>(Line 1.) Hail ! Prosperity !</p>
+                
+                <p>(Verse 1.) Resplendent is (<hi rend="italic">the village</hi>) whose famous name is <hi rend="bold">Ratnāgrahāra</hi> (<hi rend="italic">and which is</hi>) an embodiment of the union of the two goddesses of learning and prosperity, able to remove distress, of lovely fame (<hi rend="italic">and</hi>) an ocean of all gems—noble qualities.</p>
+                
+                <p>(V. 2.) (<hi rend="italic">He)</hi><note>The name of the donor is not stated.</note> founded, for as long as the moon and the stars endure, a perpetual enjoyment (<hi rend="italic">bhōga</hi>) of the god who resides in (<hi rend="italic">the temple of</hi>) <hi rend="bold">Śrīmad-Dvārā</hi> in the <hi rend="italic">agrahāra</hi> of <hi rend="bold">Ratnagrāma</hi>.</p>
+                
+                <p>(Line 2.) In the 6th year (<hi rend="italic">of the reign</hi>) of king <hi rend="bold">Rājakēsarivarman</hi>, we, the great assembly of <hi rend="bold">Maṇimaṅgalam</hi>, <hi rend="italic">alias</hi> <hi rend="bold">Lōkamahādēvi-chaturvēdimaṅgalam</hi>, (<hi rend="italic">in the district</hi>) of <hi rend="bold">Śēṅgāṭṭu-kōṭṭam</hi>, sold (<hi rend="italic">the following</hi>) land to (<hi rend="italic">the temple of</hi>) <hi rend="bold">Śrīmad-Dvārāpuridēva</hi> in our village.</p>
+                
+                <p>(L. 3.) Two thousand <hi rend="italic">kuḻi</hi>, enclosed within the following four boundaries:—(<hi rend="italic">The eastern boundary is</hi>) to the west of the boundary of <hi rend="bold">Māgaṇūr</hi>, a hamlet on the west (<hi rend="italic">of our village); (the southern boundary is</hi>) to the north of the bank of the <hi rend="italic">Periyaputtēri</hi> (tank); the western boundary (<hi rend="italic">is</hi>) to the east of the <hi rend="italic">Kalichchaṅgāl</hi> (channel);<note>From this channel is probably derived the name of the modern village of Kariśaṅgāl (No. 319 on the <hi rend="italic">Madras Survey Map</hi> of the Conjeeveram tāluka), south of Maṇimaṅgalam.</note> and the northern boundary (<hi rend="italic">is</hi>) to the south of the boundary of <hi rend="bold">Kuḷattūr</hi>.</p>
+                
+                <p>(L. 4.) Two thousand <hi rend="italic">kuḻi</hi> of land below the <hi rend="italic">Puttēri</hi> (tank) at (?) <hi rend="bold">Pēṟūr</hi>, a hamlet on the south (<hi rend="italic">of our village</hi>), enclosed within the following four boundaries:—The eastern boundary (<hi rend="italic">is</hi>) to the west of <hi rend="bold">Kuḍumbiḍupāḍagam</hi>; the southern boundary (<hi rend="italic">is</hi>) to the north of the <hi rend="italic">Maṇṇikkāl</hi> (channel); the western boundary (<hi rend="italic">is</hi>) to the east of the boundary of <hi rend="bold">Amaṇpā[kka]m</hi>; and the northern boundary (<hi rend="italic">is</hi>) to the south of the bank of the tank.</p>
+                
+                <p>(L. 7.) Altogether four thousand <hi rend="italic">kuḻi</hi> were given, for as long as the moon and the sun exist (<hi rend="italic">and</hi>) free of taxes, by us, the great assembly.</p>
+                
+                <p>(L. 8.) On this land we shall not be entitled to claim any taxes, . . . . . forced labour (<hi rend="italic">veṭṭi, vēdi</hi>) and <hi rend="italic">kāṇam</hi>.<note>Compare above, No. <ref target="DHARMA_INSSIIv03p0i0012">12</ref>, text line 8.</note> </p>
+                
+                <p>(L. 9.) We, the great assembly, agree that each of those who claim (<hi rend="italic">them</hi>) shall pay a fine<note>The verb <hi rend="italic">maṉṟu</hi>, which occurs also in Vol. I. Nos. <ref target="DHARMA_INSSIIv01p0i0082">82</ref> and <ref target="DHARMA_INSSIIv01p0i0083">83</ref>, evidently means ‘to pay a fine;’ compare above, p. 38, note 5.</note> of twenty-five <hi rend="italic">kaḻañju</hi> of gold.</p>
+                
+                <p>(L. 10.) (<hi rend="italic">This charity is placed under</hi>) the protection of the <hi rend="italic">Śrī-Vaishṇavas</hi>).</p>
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 3.27 by <bibl><ptr target="bib:Hultzsch1899_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Hultzsch1899_01"/>
+                        <citedRange unit="page">50-51</citedRange>
+                        <citedRange unit="item">27</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
 </TEI>
