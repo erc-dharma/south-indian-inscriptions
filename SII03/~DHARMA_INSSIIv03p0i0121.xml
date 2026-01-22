@@ -5,105 +5,118 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>SII 3.121: original edition by H. Krishna Sastri</title>
-			    <title type="alt">XIII.—INSCRIPTIONS OF RAJAKESARIVARMAN SUNDARACHOLA PARANTAKA II. No. 121.—IN THE SAME PLACE. No. 40 of 1907.</title>
-				<respStmt>
-					<resp>author of digital edition</resp>
-					<persName ref="part:emfr">
-						<forename>Emmanuel</forename>
-						<surname>Francis</surname>
-					</persName>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<authority>DHARMA</authority>
-				<pubPlace>Paris, CEIAS</pubPlace>
-				<idno type="filename">DHARMA_INSSIIv03p0i0121</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<msDesc>
-					<msIdentifier>
-						<repository>DHARMAbase</repository>
-						<idno/>
-					</msIdentifier>
-					<msContents>
-						<summary>
-
-						<p>This Sanskrit inscription supplies some additional information about <hi rend="bold">[Pirāntakaṉ] Iruṅgōḷār</hi> <hi rend="italic">alias</hi> <hi rend="bold">Śiṟiyavēḷār</hi> mentioned in the two previous records. He is here called <hi rend="bold">Śiruvēḷā</hi> the foremost member in the family of the daughter of king <hi rend="bold">Pirāntaka</hi> and the light of the <hi rend="bold">Iruṅgōḷa</hi> race. The first of the attributes is interesting and has perhaps to be understood with reference to the marriage of a member of the <hi rend="bold">Koḍumbāḷūr</hi> family named <hi rend="bold">Samarābhirāma</hi> to the <hi rend="bold">Chōḷa</hi> princess <hi rend="bold">Anupamā</hi><note n="257-3">See <hi rend="italic">Madras Epigraphical Report</hi> for 1908, page 87.</note> mentioned in an inscription from Mūvarkōyil. If this is so, it follows that Anupamā was a daughter of king <hi rend="bold">Parāntaka</hi> I. It is also known that prince <hi rend="bold">Arikulakēsari</hi>, son of Parāntaka I., married <hi rend="bold">Pūdi Āditta-Piḍāri</hi>, daughter of <hi rend="bold">Teṉṉavaṉ Iḷaṅgōvēḷār</hi>, another member of the same family which was called Irukkuvēḷ, Iḷaṅgōvēḷ or Iruṅgōḷa.</p>						
-
-						<p>In the 5th year of king <hi rend="bold">Sundara-Chōḷa</hi> this chief <hi rend="bold">Śiruvēḷa</hi> (<hi rend="italic">i.e.</hi>, Śiṟiyavēḷār) is stated to have given to the god at <hi rend="bold">Śrīviśalūra</hi> (<hi rend="italic">i.e.</hi>, Tiruviśalūr), some <hi rend="italic">māshakas</hi> of gold for rice <hi rend="italic">offering</hi> and the <hi rend="italic">gatānakas (gadyāṇakas</hi>) which accrued to the king as revenue from the village <hi rend="bold">Nimba</hi> or <hi rend="bold">Nimbāgrahāra</hi> for repairs, and a lamp. Nimba or Nimbāgrahāra on the northern bank of the Kāvērī is apparently the modern <hi rend="bold">Vēppattūr</hi> called <hi rend="bold">Amaninārāyaṇa-chaturvēdimaṅgalam</hi> in Tamil inscriptions.</p>						
-
-						</summary>
-					</msContents>
-					<physDesc>
-						<handDesc>
-							<p/>
-						</handDesc>
-					</physDesc>
-				</msDesc>
-			</sourceDesc>
-		</fileDesc>
-		<revisionDesc>
-			<change who="part:emfr" when="2026-01-15" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-		</revisionDesc>
-	</teiHeader>
-	<text xml:space="preserve">
-		<body>
-
-<div type="edition" xml:lang="und" rendition="class:grantha maturity:vernacular">
-
-<p>
-<lb n="1"/><hi rend="grantha"> <gap reason="lost" quantity="3" unit="character"/> <unclear>dhā</unclear>mni śrīviśalūranāmni vasato devasya madhyandine śālyantena</hi><note n="257-4">Read <hi rend="grantha">nnena</hi>.</note> <hi rend="grantha"> sabhājanāya <unclear>ni</unclear>yata<unclear>m</unclear> <supplied reason="omitted">vaṁśa</supplied>pradipoyido</hi><note n="257-5">Read <hi rend="grantha">pṛdīpāyito</hi>.</note> 
-<lb n="2"/><note n="257-6">Eight letters appear to have been lost at the beginning of this line.</note> <hi rend="grantha"> <gap reason="lost" quantity="3" unit="character"/> ma sukṛtī <unclear>pañc</unclear>o<unclear>ddha</unclear></hi><note n="257-7">Read <hi rend="grantha">pañcotta</hi>.</note> <hi rend="grantha">rā<unclear>nm</unclear>āṣakān <unclear>niṁba</unclear>grāmagatānak<choice><sic>a</sic><corr>ā</corr></choice>nsudha</hi><note n="257-8">Read <hi rend="grantha">kṛte rājapradeyānapi</hi>.</note> <hi rend="grantha"><unclear>bṛ</unclear>te rāja pradeyādapi <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g></hi> 
-<lb n="3"/><note n="258-1">The line begins with the Tamil passage <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">maṟkuyāṇṭu</seg> <hi rend="grantha">5</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">āvatu</seg> on the estampage. It is doubtful if this formed part of the inscription under publication.</note> <hi rend="grantha">pr<unclear>ādādi</unclear>ruṅkoḷakulapradīpaḥ pirāntakasyā<unclear>nma</unclear>javargavaryyaḥ <supplied reason="undefined"><g type="danda">.</g></supplied> dīpammudā śrīviśalūradhānme</hi><note n="258-2">Read <hi rend="grantha">dhāmne</hi>.</note> <hi rend="grantha">harāya</hi><note n="258-3">The formation of the letter <hi rend="grantha">ba</hi> is very irregular; read <hi rend="grantha">bhūbhṛcci</hi>.</note> <hi rend="grantha">babhṛcci</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṟuve</seg><hi rend="grantha">ḷanā<unclear>mā</unclear><supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīmatsundaracoḷabhūpatilakasyābde vare pañcame kāveryy<unclear>ā</unclear>staṭa Uttare guṇanidh<unclear>au</unclear></hi><note n="258-4">Read <hi rend="grantha">niṁbā</hi>.</note> <hi rend="grantha"><unclear>nimbhā</unclear>grahārāhvaye <supplied reason="undefined"><g type="danda">.</g></supplied> grāme śrīviśalūradhāmni niratāyeśā<unclear>ya dī</unclear>pammudā mattantañci</hi><note n="258-5">Read <hi rend="grantha">dattantacci</hi>.</note> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṟuve</seg><hi rend="grantha">ḷa<unclear>nā</unclear>mavahatā rakṣantu m<choice><sic>a</sic><corr>ā</corr></choice>heśvarāḥ <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g></hi>
-</p>
-
-</div>
-
-<div type="apparatus">
-
-</div>
-
-<div type="translation" source="bib:KrishnaSastri1920_01">
-
-<p>(Verse 1.) The light of his race, the fortunate one • • • (<hi rend="italic">gave</hi>) • • • <hi rend="italic">māshakas</hi> increased by five for offering in perpetuity cooked rice in midday to the god dwelling in the temple • • • named <hi rend="bold">Śrīviśalūra</hi>. (<hi rend="italic">He</hi>) also (<hi rend="italic">gave</hi>) for whitewash (<hi rend="italic">i.e.</hi>, repairs) the <hi rend="italic">gatānakas (gadyāṇakas ?</hi>) of the village <hi rend="bold">Nimba</hi>, which were payable to the king.</p>
-
-<p>(V. 2.) The king named <hi rend="bold">Śiruvēḷa</hi> who was the light of the <hi rend="bold">Iruṅkōḷa</hi> race and the foremost (<hi rend="italic">member</hi>) in the family of the daughter of (<hi rend="italic">king</hi>) <hi rend="bold">Pirāntaka</hi> gave with delight a lamp to <hi rend="bold">Hara</hi> (<hi rend="italic">Śiva</hi>) whose abode was at <hi rend="bold">Śrīviśalūra</hi>.</p>
-
-<p>(V. 3.) May the <hi rend="italic">Māhēśvaras</hi> protect the lamp presented with delight in the prosperous fifth year of (<hi rend="italic">the reign of</hi>) the best of kings, the illustrious <hi rend="bold">Sundara</hi>-Chōḷa, by him who bore the name <hi rend="bold">Śiruvēḷa</hi>, to <hi rend="bold">Īśa</hi> (<hi rend="italic">Śiva</hi>) who was pleased (<hi rend="italic">to dwell</hi>) in the abode (<hi rend="italic">temple</hi>) of Śrīviśalūra (<hi rend="italic">situated</hi>) in the virtuous village named <hi rend="bold">Nimbāgrahāra</hi> on the northern bank of the (<hi rend="italic">river</hi>) <hi rend="bold">Kāvērī</hi>.</p>
-
-</div>
-
-<div type="commentary">
-
-</div>
-
-<div type="bibliography">
-
-	<p>Digital edition of SII 3.121 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
-
-	<listBibl type="primary">
-
-		<bibl n="SII">
-			<ptr target="bib:KrishnaSastri1920_01"/>
-			<citedRange unit="page">257-258</citedRange>
-			<citedRange unit="item">121</citedRange>
-		</bibl>
-
-	</listBibl>
-
-	<listBibl type="secondary">
-
-		<bibl/>
-
-	</listBibl>
-
-</div>
-
-	</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 3.121: original edition by H. Krishna Sastri</title>
+                <title type="alt">XIII.—INSCRIPTIONS OF RAJAKESARIVARMAN SUNDARACHOLA PARANTAKA II. No. 121.—IN THE SAME PLACE. No. 40 of 1907.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv03p0i0121</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This Sanskrit inscription supplies some additional information about <hi rend="bold">[Pirāntakaṉ] Iruṅgōḷār</hi> <hi rend="italic">alias</hi> <hi rend="bold">Śiṟiyavēḷār</hi> mentioned in the two previous records. He is here called <hi rend="bold">Śiruvēḷā</hi> the foremost member in the family of the daughter of king <hi rend="bold">Pirāntaka</hi> and the light of the <hi rend="bold">Iruṅgōḷa</hi> race. The first of the attributes is interesting and has perhaps to be understood with reference to the marriage of a member of the <hi rend="bold">Koḍumbāḷūr</hi> family named <hi rend="bold">Samarābhirāma</hi> to the <hi rend="bold">Chōḷa</hi> princess <hi rend="bold">Anupamā</hi><note>See <hi rend="italic">Madras Epigraphical Report</hi> for 1908, page 87.</note> mentioned in an inscription from Mūvarkōyil. If this is so, it follows that Anupamā was a daughter of king <hi rend="bold">Parāntaka</hi> I. It is also known that prince <hi rend="bold">Arikulakēsari</hi>, son of Parāntaka I., married <hi rend="bold">Pūdi Āditta-Piḍāri</hi>, daughter of <hi rend="bold">Teṉṉavaṉ Iḷaṅgōvēḷār</hi>, another member of the same family which was called Irukkuvēḷ, Iḷaṅgōvēḷ or Iruṅgōḷa.</p>						
+                            
+                            <p>In the 5th year of king <hi rend="bold">Sundara-Chōḷa</hi> this chief <hi rend="bold">Śiruvēḷa</hi> (<hi rend="italic">i.e.</hi>, Śiṟiyavēḷār) is stated to have given to the god at <hi rend="bold">Śrīviśalūra</hi> (<hi rend="italic">i.e.</hi>, Tiruviśalūr), some <hi rend="italic">māshakas</hi> of gold for rice <hi rend="italic">offering</hi> and the <hi rend="italic">gatānakas (gadyāṇakas</hi>) which accrued to the king as revenue from the village <hi rend="bold">Nimba</hi> or <hi rend="bold">Nimbāgrahāra</hi> for repairs, and a lamp. Nimba or Nimbāgrahāra on the northern bank of the Kāvērī is apparently the modern <hi rend="bold">Vēppattūr</hi> called <hi rend="bold">Amaninārāyaṇa-chaturvēdimaṅgalam</hi> in Tamil inscriptions.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-01-15" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="san-Latn" rendition="class:grantha maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><gap reason="lost" quantity="6" unit="character"/> <unclear>dhā</unclear>mni śrīviśalūranāmni vasato devasya madhyandine śālyan<choice><sic>t</sic><corr>n</corr></choice>ena sabhājanāya <unclear>ni</unclear>yata<unclear>m</unclear> <supplied reason="omitted">vaṁśa</supplied>pradipoyido<note n="257-5">Read <hi rend="grantha">pṛdīpāyito</hi>.</note> 
+                    <lb n="2"/><gap reason="lost" quantity="4" unit="character"/> ma sukṛtī <unclear>pañc</unclear>o<unclear>ddha</unclear><note n="257-7">Read <hi rend="grantha">pañcotta</hi>.</note> rā<unclear>nm</unclear>āṣakān <unclear>niṁba</unclear>grāmagatānak<choice><sic>a</sic><corr>ā</corr></choice>nsudha<note n="257-8">Read <hi rend="grantha">kṛte rājapradeyānapi</hi>.</note> <unclear>bṛ</unclear>te rāja pradeyādapi <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g> 
+                    <lb n="3"/> pr<unclear>ādādi</unclear>ruṃkoḷakulapradīpaḥ pirāntakasyā<unclear>nma</unclear>javargavaryyaḥ <supplied reason="undefined"><g type="danda">.</g></supplied> dīpammudā śrīviśalūradhā<choice><sic>nm</sic><corr>mn</corr></choice>e harāya <choice><sic>ba</sic><corr>bhū</corr></choice>bhṛcci<seg rendition="class:tamil maturity:vernacular">ṟuve</seg>ḷanā<unclear>mā</unclear><supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīmatsundaracoḷabhūpatilakasyābde vare pañcame kāveryy<unclear>ā</unclear>staṭa Uttare guṇanidh<unclear>au</unclear> <choice><sic><unclear>niṃbhā</unclear></sic><corr>niṁbā</corr></choice>grahārāhvaye <supplied reason="undefined"><g type="danda">.</g></supplied> grāme śrīviśalūradhāmni niratāyeśā<unclear>ya dī</unclear>pammudā mattantañci<note n="258-5">Read <hi rend="grantha">dattantacci</hi>.</note> <seg rendition="class:tamil maturity:vernacular">ṟuve</seg>ḷa<unclear>nā</unclear>mavahatā rakṣantu m<choice><sic>a</sic><corr>ā</corr></choice>heśvarāḥ <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="2">
+                        <lem>Line 2</lem>
+                        <note>Eight letters appear to have been lost at the beginning of this line.</note>
+                    </app>
+                    <app loc="3">
+                        <lem>Line 3</lem>
+                        <note>The line begins with the Tamil passage <foreign>maṟkuyāṇṭu <hi rend="grantha">5</hi> Āvatu</foreign> on the estampage. It is doubtful if this formed part of the inscription under publication.</note>
+                    </app>
+                    <app loc="3">
+                        <lem>babhṛcci</lem>
+                        <note>The formation of the letter <foreign><hi rend="grantha">ba</hi></foreign> is very irregular; read <foreign><hi rend="grantha">bhūbhṛcci</hi></foreign>.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:KrishnaSastri1920_01">
+                
+                <p>(Verse 1.) The light of his race, the fortunate one . . . . . (<hi rend="italic">gave</hi>) . . . . . <hi rend="italic">māshakas</hi> increased by five for offering in perpetuity cooked rice in midday to the god dwelling in the temple . . . . . named <hi rend="bold">Śrīviśalūra</hi>. (<hi rend="italic">He</hi>) also (<hi rend="italic">gave</hi>) for whitewash (<hi rend="italic">i.e.</hi>, repairs) the <hi rend="italic">gatānakas (gadyāṇakas ?</hi>) of the village <hi rend="bold">Nimba</hi>, which were payable to the king.</p>
+                
+                <p>(V. 2.) The king named <hi rend="bold">Śiruvēḷa</hi> who was the light of the <hi rend="bold">Iruṅkōḷa</hi> race and the foremost (<hi rend="italic">member</hi>) in the family of the daughter of (<hi rend="italic">king</hi>) <hi rend="bold">Pirāntaka</hi> gave with delight a lamp to <hi rend="bold">Hara</hi> (<hi rend="italic">Śiva</hi>) whose abode was at <hi rend="bold">Śrīviśalūra</hi>.</p>
+                
+                <p>(V. 3.) May the <hi rend="italic">Māhēśvaras</hi> protect the lamp presented with delight in the prosperous fifth year of (<hi rend="italic">the reign of</hi>) the best of kings, the illustrious <hi rend="bold">Sundara</hi>-Chōḷa, by him who bore the name <hi rend="bold">Śiruvēḷa</hi>, to <hi rend="bold">Īśa</hi> (<hi rend="italic">Śiva</hi>) who was pleased (<hi rend="italic">to dwell</hi>) in the abode (<hi rend="italic">temple</hi>) of Śrīviśalūra (<hi rend="italic">situated</hi>) in the virtuous village named <hi rend="bold">Nimbāgrahāra</hi> on the northern bank of the (<hi rend="italic">river</hi>) <hi rend="bold">Kāvērī</hi>.</p>
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 3.121 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1920_01"/>
+                        <citedRange unit="page">257-258</citedRange>
+                        <citedRange unit="item">121</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
 </TEI>
