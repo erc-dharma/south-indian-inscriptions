@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 3.135: original edition by H. Krishna Sastri</title>
+                <title type="alt">XIV.—INSCRIPTIONS OF PARAKESARIVARMAN UTTAMA-CHOLA. No. 135.—ON THE SOUTH WALL OF THE CENTRAL SHRINE IN THE UJJIVANATHASVAMIN TEMPLE AT UYYAKKONDAN-TIRUMALAI. No. 456 of 1908.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv03p0i0135</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is built in at the right end by a modern structure raised in front of the <hi rend="bold">Dakshiṇāmūrti</hi> shrine. Its importance consists in the Śaka and Kaliyuga dates which it supplies and thereby fixes the period of <hi rend="bold">Uttama-Chōḷa's</hi> rule.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-01-15" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">śakara</hi>yā<unclear>ṇ</unclear>ṭu <num value="901">9 <g type="numeral">100</g> 1</num> <unclear>ka</unclear>liyu<hi rend="grantha">gavarṣa<unclear>M</unclear> <num value="4080">4 <g type="numeral">1000</g> <unclear>8</unclear> <g type="numeral">10</g></num> śrī</hi>Uttamacoḻa<hi rend="grantha">de</hi>varāṉa kopparake<hi rend="grantha">sa</hi> <gap reason="lost" quantity="10" unit="character"/> 
+                    <lb n="2"/>ṭaikkā<supplied reason="omitted">y</supplied> Irupatum Ilaiyamitu Eṇpatum koṇṭu peruntiruvami<unclear>tu</unclear> ceytaruḷavum  <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg> <gap reason="lost" quantity="8" unit="character"/> 
+                    <lb n="3"/><hi rend="grantha">śrī</hi> kaṇṭaṉavinācakaṉum tampiyum nilattu<unclear>kku va</unclear>ṭakku melpālkkellai viṟṟāṉ nilattu <gap reason="lost" quantity="11" unit="character"/> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="translation" source="bib:KrishnaSastri1920_01">
+                
+                <p>Hail ! Prosperity ! The Śaka year 901 (<hi rend="italic">corresponding to the</hi>) Kaliyuga year 4080. The glorious <hi rend="bold">Uttama-Chōḷadēva</hi> <hi rend="italic">alias</hi> king <hi rend="bold">Parakēsa[rivarman]</hi> . . . . . . . . shall be pleased to receive the big sacred offering . . . . . . . . with twenty areca-nuts and eighty betel leaves . . . . . . . . . . to the north of the land (<hi rend="italic">belonging to</hi>) <hi rend="bold">Śrīkaṇḍaṉ Avināśagaṉ</hi> and (<hi rend="italic">his</hi>) younger brother. The western boundary . . . . . . . . the land (<hi rend="italic">belonging to</hi>) the seller.</p>
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 3.135 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1920_01"/>
+                        <citedRange unit="page">282</citedRange>
+                        <citedRange unit="item">135</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
