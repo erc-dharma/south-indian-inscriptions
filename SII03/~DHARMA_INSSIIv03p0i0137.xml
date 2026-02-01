@@ -5,121 +5,122 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>SII 3.137: original edition by H. Krishna Sastri</title>
-			    <title type="alt">XIV.—INSCRIPTIONS OF PARAKESARIVARMAN UTTAMA-CHOLA. No. 137.—ON THE WEST WALL OF THE CENTRAL SHRINE IN THE NAGESVARASVAMIN TEMPLE AT KUMBAKONAM. No. 240 of 1911.</title>
-				<respStmt>
-					<resp>author of digital edition</resp>
-					<persName ref="part:emfr">
-						<forename>Emmanuel</forename>
-						<surname>Francis</surname>
-					</persName>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<authority>DHARMA</authority>
-				<pubPlace>Paris, CEIAS</pubPlace>
-				<idno type="filename">DHARMA_INSSIIv03p0i0137</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<msDesc>
-					<msIdentifier>
-						<repository>DHARMAbase</repository>
-						<idno/>
-					</msIdentifier>
-					<msContents>
-						<summary>
-
-						<p>The importance of the subjoined inscription consists in the astronomical details of date it supplies and the name <hi rend="bold">Vīranārāyaṇiyār</hi> which it gives as that of the queen of king <hi rend="bold">Uttama-Chōḷa</hi>. The record apparently registers a grant of land to the temple of <hi rend="bold">Tirukkīḻ-kōṭṭam</hi> (the present Nāgēśvara) at <hi rend="bold">Tirukkuḍamūkkil</hi> (<hi rend="italic">i.e.</hi>, <hi rend="bold">Kumbhakōṇam</hi>).</p>						
-
-						<p>The astronomical details of the date have been verified by Diwan Bahadur L. D. Swamikkannu Pillai and found correct for the 13th year of the reign of <hi rend="bold">Parakēsarivarman Uttama-Chōḷa</hi>. The given date corresponds to Friday 9th June A.D. 982.<note n="283-2">See <hi rend="italic">Madras Epigraphical Report</hi> for 1912, page 65, paragraph 20.</note> </p>						
-
-						</summary>
-					</msContents>
-					<physDesc>
-						<handDesc>
-							<p/>
-						</handDesc>
-					</physDesc>
-				</msDesc>
-			</sourceDesc>
-		</fileDesc>
-		<revisionDesc>
-			<change who="part:emfr" when="2026-01-15" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-		</revisionDesc>
-	</teiHeader>
-	<text xml:space="preserve">
-		<body>
-
-<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
-
-<p>
-<lb n="1"/><hi rend="grantha">svasti śrī</hi> <g type="danda">.</g>— kopparake
-<lb n="2" break="no"/>cariva <hi rend="grantha">nma</hi><supplied reason="omitted">r</supplied>kkiyāṇṭu <hi rend="grantha">[<num value="13"><g type="numeral">10</g> 3</num>]</hi> Ā
-<lb n="3" break="no"/>vatu Ivvāṇ<note n="283-3">Read ṭāṉittiṅkaḷ patiṉeṇpa.</note> ṭāṉni<unclear>tti</unclear>
-<lb n="4" break="no"/>ṅkaḷ patiṉeṉppakkam
-<lb n="5"/>piṉāḷ<note n="283-4">Read piṉṉāḷ mūlam.</note> mullam veḷḷi <unclear>po</unclear>
-<lb n="6" break="no"/>tu Ivvāṇṭu Ittiṅkaḷ
-<lb n="7"/>Itu po<unclear>ḻu</unclear>titu paruvam <unclear>pā</unclear>
-<lb n="8" break="no"/>mpūr nāṭṭuttevatā<unclear>ṉa</unclear> <gap reason="lost" quantity="4" unit="character"/> 
-<lb n="9"/>kil muṉ ko <gap reason="lost" quantity="3" unit="character"/> ṉ pālāvaṉattu <gap reason="lost" quantity="2" unit="character"/> 
-<lb n="10"/>Ivvū<supplied reason="omitted">r</supplied> mulapa<unclear>ruṭ</unclear>aipperumakkaḷom [<hi rend="grantha">śrī</hi>u]<supplied reason="omitted">t</supplied>tamacoḻa
-<lb n="11" break="no"/>r nampirāṭ<unclear>ṭi</unclear>yār <gap reason="lost" quantity="3" unit="character"/> rayar maka<unclear>ḷār</unclear> viranārāya
-<lb n="12" break="no"/>ṇiyār tiru<unclear>ki</unclear>ḻkkoṭṭattup perumā<unclear>ḷuk</unclear>ku tirup<unclear>pa</unclear>
-<lb n="13" break="no"/>ḷḷittāma<unclear>t</unclear>tukku <gap reason="lost" quantity="4" unit="character"/> vilaikku viṟṟa
-<lb n="14"/>vilaiyāva <gap reason="lost" quantity="1" unit="character"/> Ivvūr <gap reason="lost" quantity="4" unit="character"/> <unclear>mulaparu</unclear>
-<lb n="15" break="no"/>ṭaipperu<unclear>ma</unclear>kkaḷ U <gap reason="lost" quantity="2" unit="character"/> ya <gap reason="lost" quantity="1" unit="character"/> tu <gap reason="lost" quantity="4" unit="character"/> 
-<lb n="16"/>k<unclear>k</unclear>ai<unclear>yi</unclear>ṉ <unclear>U</unclear>ḻakkiṉāle nāḷāl <gap reason="lost" quantity="5" unit="character"/> 
-<lb n="17"/>ḷiy<unclear>ā</unclear>l <num value="24">2 <g type="numeral">10</g> 4</num><unclear>va</unclear>raik kaṭṭiṉa <gap reason="lost" quantity="3" unit="character"/> kācu <gap reason="lost" quantity="2" unit="character"/> 
-<lb n="18"/>ṇañ ceytu <unclear>ku</unclear>ṭuppataṟkellai <unclear>kiḻ</unclear>pā<unclear>ṟ</unclear>kellai kavi<unclear>ṇiya</unclear>ṉ <unclear>ni</unclear>
-<lb n="19" break="no"/>lattukkum <gap reason="lost" quantity="7" unit="character"/> 
-<lb n="20"/>ṉ puṟampiyaṉ <gap reason="lost" quantity="8" unit="character"/> 
-<lb n="21"/>melpāṟkellai <gap reason="lost" quantity="5" unit="character"/> kuk kiḻakku <gap reason="lost" quantity="2" unit="character"/> 
-<lb n="22"/>paṭṭaṉ paṟpaṉā<unclear>paṉ</unclear> kovintaṉ <hi rend="grantha">strī</hi>taṉa nilattuk <gap reason="lost" quantity="2" unit="character"/> 
-<lb n="23"/>kecuvaṉum ta<unclear>mpiyum</unclear> nilattukku <gap reason="lost" quantity="5" unit="character"/> 
-<lb n="24"/>llaiyuḷḷa<supplied reason="omitted">ka</supplied>p<unclear>paṭ</unclear>ṭa ni <gap reason="lost" quantity="2" unit="character"/> kkūṟṟa <gap reason="lost" quantity="4" unit="character"/> 
-<lb n="25"/>tikkuṟaimai <unclear>Uḷ</unclear>ḷaṭaṅka <unclear>U</unclear>ṇṇi<unclear>lam</unclear>oḻi<unclear>viṉṟi</unclear> <gap reason="lost" quantity="2" unit="character"/> 
-<lb n="26"/>yāvaṇañ ceytu <unclear>koṇṭu vilaipporuḷ</unclear> <gap reason="lost" quantity="3" unit="character"/> 
-<lb n="27"/>raṇṭu Ikkācu pa <gap reason="lost" quantity="5" unit="character"/> <note type="uncertaiṉposition" n="283-5">The gap may be filled up by the letters ntirukkuṭamūk.</note> 
-</p>
-
-<p>Hail ! Prosperity ! In the [13]th year of (<hi rend="italic">the reign of</hi>) king <hi rend="bold">Parakēsarivarman</hi> on the day of <hi rend="bold">Mūla</hi>, on a Friday in the second<note n="284-1">piṉ as distinguished from muṉ (of a month) has been taken to mean ‘the second fortnight.’</note> (<hi rend="italic">or</hi> dark) fortnight and the 18th (<hi rend="italic">day</hi>) of the month of <hi rend="bold">Āṉi</hi> of this year, in the said year, month, day and fortnight, the great men of the chief assembly (<hi rend="italic">mūlaparuḍai</hi>) of this village • • • in the <hi rend="italic">dēvadāna</hi> [of <hi rend="bold">Tirukkuḍamūkkil</hi>] in <hi rend="bold">Pāmbūr-nāḍu • • • Vīranārāyaṇiyār</hi> daughter of • • • and queen of the glorious (<hi rend="italic">king</hi>) <hi rend="bold">Uttama-Chōḷa</hi>• • • • for garlands to the god (<hi rend="italic">of the temple</hi>) of <hi rend="bold">Tirukkīl-kōṭṭam</hi>• • • sold the following • • • The great men of the chief assembly of this village • • • • (<hi rend="italic">one) uḻakku</hi>• • • per day • • • • • • <hi rend="italic">kāśu. (The following are</hi>) the boundaries of • • • sold and given:—the eastern boundary (<hi rend="italic">is</hi>) • • • • of the land belonging to <hi rend="bold">Kaviṇiyaṉ</hi>• • • • • <hi rend="bold">Purambiyaṉ</hi>• • • the western boundary • • east • • • • • the land which was the <hi rend="italic">strīdhana</hi> of <hi rend="bold">Paṭṭaṉ Paṟpanābhaṉ Gōvindaṉ</hi>• • to the land of <hi rend="bold">Kēśavaṉ</hi> and (<hi rend="italic">his</hi>) younger brother • • • situated within (<hi rend="italic">these</hi>) boundaries • • • including excess and deficiency (<hi rend="italic">in measurement</hi>) and without excluding the land within (<hi rend="italic">uṇṇilam</hi>) • • • having executed the deed • • • the sale amount • • • <hi rend="italic">kāśu</hi>• • • </p>
-
-</div>
-
-<div type="apparatus">
-
-</div>
-
-<div type="commentary">
-
-</div>
-
-<div type="bibliography">
-
-	<p>Digital edition of SII 3.137 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
-
-	<listBibl type="primary">
-
-		<bibl n="SII">
-			<ptr target="bib:KrishnaSastri1920_01"/>
-			<citedRange unit="page">283-284</citedRange>
-			<citedRange unit="item">137</citedRange>
-		</bibl>
-
-	</listBibl>
-
-	<listBibl type="secondary">
-
-		<bibl/>
-
-	</listBibl>
-
-</div>
-
-	</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 3.137: original edition by H. Krishna Sastri</title>
+                <title type="alt">XIV.—INSCRIPTIONS OF PARAKESARIVARMAN UTTAMA-CHOLA. No. 137.—ON THE WEST WALL OF THE CENTRAL SHRINE IN THE NAGESVARASVAMIN TEMPLE AT KUMBAKONAM. No. 240 of 1911.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv03p0i0137</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The importance of the subjoined inscription consists in the astronomical details of date it supplies and the name <hi rend="bold">Vīranārāyaṇiyār</hi> which it gives as that of the queen of king <hi rend="bold">Uttama-Chōḷa</hi>. The record apparently registers a grant of land to the temple of <hi rend="bold">Tirukkīḻ-kōṭṭam</hi> (the present Nāgēśvara) at <hi rend="bold">Tirukkuḍamūkkil</hi> (<hi rend="italic">i.e.</hi>, <hi rend="bold">Kumbhakōṇam</hi>).</p>						
+                            
+                            <p>The astronomical details of the date have been verified by Diwan Bahadur L. D. Swamikkannu Pillai and found correct for the 13th year of the reign of <hi rend="bold">Parakēsarivarman Uttama-Chōḷa</hi>. The given date corresponds to Friday 9th June A.D. 982.<note>See <hi rend="italic">Madras Epigraphical Report</hi> for 1912, page 65, paragraph 20.</note> </p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-01-15" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <g type="danda">.</g>— kopparake
+                    <lb n="2" break="no"/>cariva<hi rend="grantha">nma</hi><supplied reason="omitted">r</supplied>kkiyāṇṭu <num value="13"><unclear><g type="numeral">10</g> 3</unclear></num> Ā
+                    <lb n="3" break="no"/>vatu Ivvāṇṭ<note n="283-3">Read ṭāṉittiṅkaḷ patiṉeṇpa.</note>āṉni<unclear>tti</unclear>
+                    <lb n="4" break="no"/>ṅkaḷ patiṉeṉppakkam
+                    <lb n="5"/>piṉāḷ<note n="283-4">Read piṉṉāḷ mūlam.</note> mullam veḷḷi <unclear>po</unclear>
+                    <lb n="6" break="no"/>tu Ivvāṇṭu Ittiṅkaḷ
+                    <lb n="7"/>Itu po<unclear>ḻu</unclear>titu paruvam <unclear>pā</unclear>
+                    <lb n="8" break="no"/>mpūr nāṭṭuttevatā<unclear>ṉa</unclear> <gap reason="lost" quantity="8" unit="character"/> 
+                    <lb n="9"/>kil muṉ ko <gap reason="lost" quantity="5" unit="character"/> ṉ pālāvaṉattu <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="10"/>Ivvū<supplied reason="omitted">r</supplied> mulapa<unclear>ruṭ</unclear>aipperumakkaḷom <unclear><hi rend="grantha">śrī</hi>U</unclear><supplied reason="omitted">t</supplied>tamacoḻa
+                    <lb n="11" break="no"/>r nampirāṭ<unclear>ṭi</unclear>yār <gap reason="lost" quantity="5" unit="character"/> rayar maka<unclear>ḷār</unclear> viranārāya
+                    <lb n="12" break="no"/>ṇiyār tiru<unclear>ki</unclear>ḻkkoṭṭattup perumā<unclear>ḷuk</unclear>ku tirup<unclear>pa</unclear>
+                    <lb n="13" break="no"/>ḷḷittāma<unclear>t</unclear>tukku <gap reason="lost" quantity="8" unit="character"/> vilaikku viṟṟa
+                    <lb n="14"/>vilaiyāva <gap reason="lost" quantity="2" unit="character"/> Ivvūr <gap reason="lost" quantity="7" unit="character"/> <unclear>mulaparu</unclear>
+                    <lb n="15" break="no"/>ṭaipperu<unclear>ma</unclear>kkaḷ U <gap reason="lost" quantity="3" unit="character"/> ya <gap reason="lost" quantity="2" unit="character"/> tu <gap reason="lost" quantity="7" unit="character"/> 
+                    <lb n="16"/>k<unclear>k</unclear>ai<unclear>yi</unclear>ṉ <unclear>U</unclear>ḻakkiṉāle nāḷāl <gap reason="lost" quantity="10" unit="character"/> 
+                    <lb n="17"/>ḷiy<unclear>ā</unclear>l <num value="24">2 <g type="numeral">10</g> 4</num><unclear>va</unclear>raik kaṭṭiṉa <gap reason="lost" quantity="6" unit="character"/> kācu <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="18"/>ṇañ ceytu <unclear>ku</unclear>ṭuppataṟkellai <unclear>kiḻ</unclear>pā<unclear>ṟ</unclear>kellai kavi<unclear>ṇiya</unclear>ṉ <unclear>ni</unclear>
+                    <lb n="19" break="no"/>lattukkum <gap reason="lost" quantity="13" unit="character"/> 
+                    <lb n="20"/>ṉ puṟampiyaṉ <gap reason="lost" quantity="16" unit="character"/> 
+                    <lb n="21"/>melpāṟkellai <gap reason="lost" quantity="8" unit="character"/> kuk kiḻakku <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="22"/>paṭṭaṉ paṟpaṉā<unclear>paṉ</unclear> kovintaṉ <hi rend="grantha">strī</hi>taṉa nilattuk <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="23"/>kecuvaṉum ta<unclear>mpiyum</unclear> nilattukku <gap reason="lost" quantity="10" unit="character"/> 
+                    <lb n="24"/>llaiyuḷḷa<supplied reason="omitted">ka</supplied>p<unclear>paṭ</unclear>ṭa ni <gap reason="lost" quantity="4" unit="character"/> kkūṟṟa <gap reason="lost" quantity="7" unit="character"/> 
+                    <lb n="25"/>tikkuṟaimai <unclear>Uḷ</unclear>ḷaṭaṅka <unclear>U</unclear>ṇṇi<unclear>lam</unclear>oḻi<unclear>viṉṟi</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="26"/>yāvaṇañ ceytu <unclear>koṇṭu vilaipporuḷ</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+                    <lb n="27"/>raṇṭu Ikkācu pa <gap reason="lost" quantity="10" unit="character"/> 
+                    <note type="uncertain_position" n="283-5">The gap may be filled up by the letters ntirukkuṭamūk.</note> 
+                </p>
+                
+                <p>Hail ! Prosperity ! In the [13]th year of (<hi rend="italic">the reign of</hi>) king <hi rend="bold">Parakēsarivarman</hi> on the day of <hi rend="bold">Mūla</hi>, on a Friday in the second<note><foreign>piṉ</foreign> as distinguished from <foreign>muṉ</foreign> (of a month) has been taken to mean ‘the second fortnight.’</note> (<hi rend="italic">or</hi> dark) fortnight and the 18th (<hi rend="italic">day</hi>) of the month of <hi rend="bold">Āṉi</hi> of this year, in the said year, month, day and fortnight, the great men of the chief assembly (<hi rend="italic">mūlaparuḍai</hi>) of this village . . . . . in the <hi rend="italic">dēvadāna</hi> [of <hi rend="bold">Tirukkuḍamūkkil</hi>] in <hi rend="bold">Pāmbūr-nāḍu . . . . . . Vīranārāyaṇiyār</hi> daughter of . . . . . . and queen of the glorious (<hi rend="italic">king</hi>) <hi rend="bold">Uttama-Chōḷa</hi> . . . . . for garlands to the god (<hi rend="italic">of the temple</hi>) of <hi rend="bold">Tirukkīl-kōṭṭam</hi> . . . . . . sold the following . . . . . . The great men of the chief assembly of this village . . . . . . (<hi rend="italic">one) uḻakku</hi> . . . . . per day . . . . . . . . . . . . . <hi rend="italic">kāśu. (The following are</hi>) the boundaries of . . . . . sold and given:—the eastern boundary (<hi rend="italic">is</hi>) . . . . . . . . of the land belonging to <hi rend="bold">Kaviṇiyaṉ</hi> . . . . . . . <hi rend="bold">Purambiyaṉ</hi> . . . . . the western boundary . . . . east . . . . . . . the land which was the <hi rend="italic">strīdhana</hi> of <hi rend="bold">Paṭṭaṉ Paṟpanābhaṉ Gōvindaṉ</hi> . . . . to the land of <hi rend="bold">Kēśavaṉ</hi> and (<hi rend="italic">his</hi>) younger brother . . . . . situated within (<hi rend="italic">these</hi>) boundaries . . . . . including excess and deficiency (<hi rend="italic">in measurement</hi>) and without excluding the land within (<hi rend="italic">uṇṇilam</hi>) . . . . . . having executed the deed . . . . . the sale amount . . . . . <hi rend="italic">kāśu</hi> . . . . . .</p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 3.137 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1920_01"/>
+                        <citedRange unit="page">283-284</citedRange>
+                        <citedRange unit="item">137</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
 </TEI>
