@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 8.170: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 170. (A.R. No. 578 of 1902). ON THE NORTH WALL OF THE KITCHEN IN THE SAME TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv08p0i0170</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2026-02-03" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti</hi>
+					
+					<lb n="2"/><hi rend="grantha">śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> komāṟapaṉmarāṉa <hi rend="grantha">tribhu</hi>va<supplied reason="omitted">na</supplied>cakki<unclear>ra</unclear>vatti<unclear>kaḷ</unclear> <hi rend="grantha">śrī</hi>vi<supplied reason="omitted">ra</supplied>pāṇṭiyatevaṟku yāṇṭu <num value="14"><g type="numeral">10</g> 4</num><g type="dash"/>vatu <unclear>makara</unclear>nā<supplied reason="omitted">ya</supplied>ṟṟu A<hi rend="grantha">pa</hi>ra<hi rend="grantha">pakṣa</hi>ttup <unclear>pañcami</unclear>yum nāyaṟṟukkiḻamaiyum peṟṟa Attattu
+					
+					<lb n="3"/>nāḷ Uṭaiyār tirukkāṉapperuṭaiya nāyaṉār koyil Ati<supplied reason="omitted">ca</supplied>ṇṭeccuranāyaṉār tevakaṉmikaḷukku Ivvūr Ālālacuntaraṉtirumaṭattu mutaliyāru
+					
+					<lb n="4" break="no"/>m patiyilāril nakkaṉ nallārāṉa mu<unclear>v</unclear>āyirattalaikkoliyum Ālālacuntaraṉ<unclear>ti</unclear>rumaṭattu mutaliyār <gap reason="lost" quantity="6" unit="character"/> campantapperumā<unclear>ḷukku</unclear> Innāyaṉār tāṉapa
+					<lb n="5" break="no"/>tikaḷil Uṭaiyāṉ cokkaṉārum campantaṉ Iruvaṟkāḷānāṉa cuntara<hi rend="grantha">śrī</hi>rāmanum piḷḷaiyumāka Ivvaṉaivomum piṭipāṭu paṇṇikkuṭutta paricāvatu <supplied reason="subaudible"><g type="danda">.</g></supplied>
+					
+					<lb n="6"/>Innāyaṉārkku Iṟaiyili tevatāṉamākap palape<unclear>rā</unclear>le <gap reason="lost" quantity="1" unit="character"/> Ūrārpakkal perumāḷ kulacekaratevaṟku Ā<unclear>ṟā</unclear>vatu nā<unclear>ḷi</unclear>l Eṅkaḷiṭa vilaikoṇṭu 
+					
+					<lb n="7"/>Anupavittuvarukiṟa kūkaiyūrāṉa kāṉaipperu<unclear>m</unclear>ānallūr<supplied reason="omitted">k</supplied>ku nāṅkaḷ vilaikoṇṭa cātaṉappaṭiyālu <gap reason="lost" quantity="8" unit="character"/> Antarāyattukku
+					
+					<lb n="8"/>Eppeṟpaṭṭa <gap reason="lost" quantity="5" unit="character"/> yūr vilai nicc<choice><sic>a</sic><corr>e</corr></choice><unclear>I</unclear>tta <gap reason="lost" quantity="2" unit="character"/> Ippaṭi<unclear>yā</unclear>ka <gap reason="lost" quantity="1" unit="character"/> na <gap reason="lost" quantity="1" unit="character"/> llavum kaṭamaikaḷuk<supplied reason="omitted">ku</supplied> kol ku<unclear>ṭi</unclear>tāṅkiyāṉa patiṉeṭṭuaṭikkolāl nila
+					
+					<lb n="9"/>maḷantu payi<unclear>r</unclear>pā<supplied reason="omitted">r</supplied>ttu mutalāṉa nilattil nilam Orumāvukkut taṭitta <gap reason="lost" quantity="1" unit="character"/> kak <gap reason="lost" quantity="8" unit="character"/> ntaṉa varicai māk kāṇi munti<unclear>ri</unclear>kai yiṉ kāluṅ ka
+					
+					<lb n="10" break="no"/>ḻittu nikki payir niṉṟa nilattukku māttāl tiru<unclear>vaṇ</unclear>ṇāmalaippiḷḷaiyāl nellu Eḻukalaṉe kuṟuṇiyum Itukkup patiṉāṟu vāciyāka vanta
+					
+					<lb n="11"/>nellum māṟṟiṭṭu cāvikkup paṟṟiṭṭa nellukkup paṟṟiraṭṭi yiṟuppomākavum tiṉaittū <gap reason="lost" quantity="4" unit="character"/> luk keḻvaraku Iṟuṅku <gap reason="lost" quantity="3" unit="character"/> ṉallu viḷai
+					
+					<lb n="12" break="no"/>nta nilattukku Oṉṟukāl payirk koḷvārkaḷākavum ci<unclear>tti</unclear>raik kuṟuvai Āṭikkuṟuvai Aypikai varaku viḷainta nilattukku Oṉṟupāti
+					
+					<lb n="13"/>payirk koḷvārkaḷākavum Āka Ippaṭiyāl vanta payirkaḷukku muṟppaṭṭa varicaiyāka <gap reason="lost" quantity="5" unit="character"/> Ākap payirpārttu mutalāṉa nellum Oṭṭu
+					
+					<lb n="14" break="no"/>ppaṭi paṇam patiṉeṭṭum Āṭṭaivaḻi Iṟuppomākavum <unclear>Āka</unclear> Ippaṭikku cantirātittavaṟ celvatākak kallilum cempilum veṭ<unclear>ṭi</unclear>k<surplus>kko</surplus>
+					
+					<lb n="15" break="no"/>koḷḷap piṭipāṭu <unclear>paṇ</unclear>ṇikkuṭuttom <supplied reason="subaudible"><g type="ddanda">.</g></supplied>
+				</p>
+				
+			</div>
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 8.170 by <bibl><ptr target="bib:SubrahmanyaAiyer1937_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1937_01"/>
+						<citedRange unit="page">79-80</citedRange>
+						<citedRange unit="item">170</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
