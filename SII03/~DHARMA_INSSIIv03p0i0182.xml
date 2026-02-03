@@ -5,107 +5,115 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>SII 3.182: original edition by H. Krishna Sastri</title>
-			    <title type="alt">XV.—INSCRIPTIONS OF PARTHIVENDRAVARMAN OR PARTHIVENDRADHIPATIVARMAN, ‘WHO TOOK THE HEAD OF VIRA-PANDYA.’ No. 182.—ON THE NORTH WALL OF THE VAIKUNTHA-PERUMAL TEMPLE AT UTTARAMALLUR. No. 20 of 1898.</title>
-				<respStmt>
-					<resp>author of digital edition</resp>
-					<persName ref="part:emfr">
-						<forename>Emmanuel</forename>
-						<surname>Francis</surname>
-					</persName>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<authority>DHARMA</authority>
-				<pubPlace>Paris, CEIAS</pubPlace>
-				<idno type="filename">DHARMA_INSSIIv03p0i0182</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<msDesc>
-					<msIdentifier>
-						<repository>DHARMAbase</repository>
-						<idno/>
-					</msIdentifier>
-					<msContents>
-						<summary>
-
-						<p>This inscription records a gift of land by <hi rend="bold">Śandraṉ Eḻunūṟṟuvaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Nuḷamba Māyilaṭṭi</hi>, a resident of the hamlet of <hi rend="bold">Raṇavīrappāḍi</hi> in <hi rend="bold">Kāñchīpuram</hi>, to the temple of <hi rend="bold">Tiruvuṉṉaūr</hi> (<hi rend="italic">i.e.</hi>, Tiruvuṉṉiyūr of No. 179 above) at <hi rend="bold">Uttaramēru-chaturvēdimangalam</hi>, in the 6th year of <hi rend="bold">Pārthivēndrādhipativarman</hi>, who took the head of the <hi rend="bold">Pāṇḍya</hi> (<hi rend="italic">king</hi>).</p>						
-
-						</summary>
-					</msContents>
-					<physDesc>
-						<handDesc>
-							<p/>
-						</handDesc>
-					</physDesc>
-				</msDesc>
-			</sourceDesc>
-		</fileDesc>
-		<revisionDesc>
-			<change who="part:emfr" when="2026-01-15" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-		</revisionDesc>
-	</teiHeader>
-	<text xml:space="preserve">
-		<body>
-
-<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
-
-<p>
-<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> pā</hi>ṇṭiyaṉai talaikoṇṭa pā<hi rend="grantha"><unclear>r</unclear>tthi</hi>ve<hi rend="grantha">ndrā</hi>ti<hi rend="grantha">pa</hi>tiva<hi rend="grantha">rma</hi>ṟku yāṇṭu 6 vatu kāliyūrkoṭṭa<unclear>t</unclear>tu taṉ<note n="359-2">The <hi rend="italic">u</hi> sign in kū is added separately.</note> kūṟṟuttarameruccatu<hi rend="grantha"><unclear>r</unclear>ve</hi>timaṅkala<supplied reason="omitted">t</supplied>tu <hi rend="grantha">sabhai</hi>yom
-<lb n="2"/>Eḻuttu Emmūrt ti[<note n="359-3">The form of ru almost resembles that of ta.</note> ruvu]ṉṉaūrpperumāṉaṭikaḷukku <hi rend="grantha">śrī<unclear>ba</unclear>li<unclear>bh</unclear>oga</hi>ttukku Ākak kāñcipurattu Ira<supplied reason="omitted">ṇa</supplied>virappāṭi <hi rend="grantha">śa</hi>n<hi rend="grantha">tra</hi>ṉ Eḻuṉūṟṟuvanākiya ṉuḷampamāyi<supplied reason="omitted">la</supplied>ṭ
-<lb n="3" break="no"/>ṭi nammūr<note n="359-4">Read viḻuliyāy.</note> viḻulimāykkiṭanta nilattil <hi rend="grantha">śrī</hi><note n="359-5">Read <hi rend="grantha">bali</hi>.</note> <hi rend="grantha">belibhoga</hi>mākak koṇ<unclear>ṭu</unclear> vaitta<hi rend="grantha">bhūmi-</hi> yāvaṉa <hi rend="grantha">subrahmaṇya</hi>nār<choice><sic>a</sic><corr>ā</corr></choice>cattiṉ vaṭakku <num value="14"><g type="numeral">10</g> 4</num> ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟu <hi rend="grantha"><unclear>pa</unclear>rameśva</hi>ravatiyiṉ me
-<lb n="4" break="no"/>ṟku 1 ca<supplied reason="omitted">tu</supplied>kkattu <hi rend="grantha"><unclear>2</unclear></hi>ntaraṅ kuḻi <hi rend="grantha"><unclear>2</unclear><num value="40">4 <g type="numeral">10</g></num></hi> <unclear>nā</unclear>ṟpatum <hi rend="grantha">subrahmaṇya</hi>nā<hi rend="grantha">rāśa</hi>ttiṉ vaṭakku <num value="18"><g type="numeral">10</g> 8</num> ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟu kāvaṉūr Erivāyey pona vatiyiṉ m<unclear>e</unclear>ṟku 8 catukkattu <hi rend="grantha"><unclear>2</unclear></hi>taraṅ
-<lb n="5" break="no"/>kuḻi <hi rend="grantha"><unclear>2</unclear><num value="40">4 <g type="numeral">10</g></num></hi>m <hi rend="grantha">subrahmaṇya</hi>nār<choice><sic>a</sic><corr>ā</corr></choice><hi rend="grantha">śa</hi>ttiṉ vaṭakku <num value="18"><g type="numeral">10</g> 8</num> ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟuk kāvaṉūr Erivāyey po<unclear>na</unclear>vatiyiṉ meṟku 8<note n="359-6">Read catukkattu.</note> catukkattu <hi rend="grantha">U</hi>n=taraṅ kuḻi <num value="240">2 <g type="numeral">100</g> 4 <g type="numeral">10</g></num>
-<lb n="6"/>m <hi rend="grantha">śrī</hi>tevivāykkāliṉ teṟku <num value="16"><g type="numeral">10</g> 6</num>ṅ ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟup pallavanāra<unclear>ṇa</unclear>vatiyiṉ kiḻakku 6 ñ catukkattu <hi rend="grantha">4 nta</hi>raṅ kuḻi <num value="300">3 <g type="numeral">100</g></num>m <hi rend="grantha">subrahmaṇya</hi>nā<hi rend="grantha">rāśa</hi>t<unclear>ti</unclear>ṉ vaṭakku <hi rend="grantha"><num value="17"><g type="numeral">10</g> 7</num>-</hi> ṅ ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟu māṟapiṭukuvatiyaṉ<note n="359-7">Read vatiyiṉ.</note> kiḻa
-<lb n="7" break="no"/>kku 9m catukkattum <num value="10"><g type="numeral">10</g></num> ñ catukkattumāka Iraṇṭāta<note n="359-8">Read iraṇṭāntaraṅ kuḻi.</note> <num value="240">2 <g type="numeral">100</g> 4 <g type="numeral">10</g></num> m<note n="359-9">The inscription stops in the middle of line 7. The following two lines of writing in the same character are found a little below. It is doubtful if these are in any way connected with the main inscription:— 1 <hi rend="grantha">subrahmaṇya</hi>nā<hi rend="grantha">rā</hi>cattiṉ vaṭakku <num value="22">2 <g type="numeral">10</g> 2</num> kaṇṇāṟṟu pallavanā<hi rend="grantha">ra</hi>ṇavatiyiṉ kiḻakku 6 ca[tu]kkattu iraṇṭāntaraṅ kuḻi <num value="480">4 <g type="numeral">100</g> 8 <g type="numeral">10</g></num>patum āka iveḻu pāṭakamum 2 ivaṉ pakkal <hi rend="grantha">pūrvvāśā</hi>raṅ koṇṭu i<hi rend="grantha">bhū</hi>mi cuṭṭi iṟ[ai]yum yeccoṟum veṭṭiyum ama[ñ*]ciyum <hi rend="grantha">śantrā</hi>tittaval kāṭṭapeṟātomāka pa[ṇi][t*]tu <hi rend="grantha">śilālekhai</hi> ce[y]tu kuṭu[t*]tomuttarameruccatu<hi rend="grantha">[r]ve</hi>timaṅkala[t*]tu <hi rend="grantha">sabhai</hi>yom itu kuṟi[yuḷi]runtu peruma[k*]kaḷ paṇi[k*]ka eḻutine[ṉ*] <hi rend="grantha">madhyasta</hi>ṉ civa<hi rend="grantha">dāsa</hi>ṟ <hi rend="grantha">brahmapri</hi>yaṉeṉ <supplied reason="undefined"><g type="ddanda">.</g></supplied></note> 
-</p>
-
-</div>
-
-<div type="apparatus">
-
-</div>
-
-<div type="translation" source="bib:KrishnaSastri1920_01">
-
-<p>(Line 1.) Hail ! Prosperity ! In the 6th year of (<hi rend="italic">the reign of</hi>) <hi rend="bold">Pārthivēndrādhipativarman</hi> who took the head of the <hi rend="bold">Pāṇḍya</hi> (<hi rend="italic">king), (this is</hi>) the writing of us (<hi rend="italic">the members</hi>) of the assembly of <hi rend="bold">Uttaramēru-chaturvēdimaṅgalam</hi>, (<hi rend="italic">a village</hi>) in its (<hi rend="italic">own</hi>) subdivision in <hi rend="bold">Kāliyūr-kōṭṭam</hi>. The following are the lands which <hi rend="bold">Śandraṉ Eḻunūṟṟuvaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Nuḷamba Māyilaṭṭi</hi> of <hi rend="bold">Raṇavīrappāḍi</hi>, (<hi rend="italic">a hamlet</hi>) of <hi rend="bold">Kāñchīpuram</hi> acquired for <hi rend="italic">śrībalibhōga</hi> out of the lands lying waste <ta>(viḻuliyāy kiṭaṉta nilam)</ta> in our village and gave as <hi rend="italic">śrībalibhōga</hi> to the god (<hi rend="italic">perumāṉaḍigaḷ</hi>) of <hi rend="bold">Tiruvuṉṉaūr:—</hi></p>
-
-<p>(L. 3.) 240 <hi rend="italic">kuḻi</hi> of second rate (<hi rend="italic">land</hi>) of the first <hi rend="italic">śadukkam (situated</hi>) to the west of (<hi rend="italic">the path called</hi>) <hi rend="bold">Paramēśvara-vadi</hi> in the fourteenth <hi rend="italic">kaṇṇāṟu</hi>, north of (<hi rend="italic">the lane called</hi>) <hi rend="bold">Subrahmaṇya-nārāśam</hi>; 240 <hi rend="italic">kuḻi</hi> of second rate (<hi rend="italic">land</hi>) of the eighth <hi rend="italic">śadukkam</hi>, west of the path which went straight to the (<hi rend="italic">tank</hi>) <hi rend="bold">Kāvaṉūr-ēri</hi> in the eighteenth <hi rend="italic">kaṇṇāṟu</hi>, north of (<hi rend="italic">the lane called</hi>) <hi rend="bold">Subrahmaṇya-nārāśam</hi><note n="360-1">This item of 240 <hi rend="italic">kuḻi</hi> with the description of its situation is again repeated. The purpose of the repetition is not apparent.</note> ; 300 <hi rend="italic">kuḻi</hi> of fourth rate (<hi rend="italic">land</hi>) of the sixth <hi rend="italic">śadukkam</hi> east of (<hi rend="italic">the path called</hi>) <hi rend="bold">Pallavanāraṇa-vadi</hi> in the sixteenth <hi rend="italic">kaṇṇāṟu</hi>, south of the <hi rend="italic">channel</hi> <hi rend="bold">Śrīdēvi-vāykkāl</hi>; and 240 <hi rend="italic">kuḻi</hi> of second rate (<hi rend="italic">land</hi>) of the ninth and tenth <hi rend="italic">śadukkam</hi>, east of (<hi rend="italic">the path called</hi>) <hi rend="bold">Māṟapiḍuguvadi</hi> in the seventeenth <hi rend="italic">kaṇṇāṟu</hi>, north of (<hi rend="italic">the lane called</hi>) <hi rend="bold">Subrahmaṇya-nārāśam</hi>.</p>
-
-<p>(Ll. 1 and 2 of note.) 480 <hi rend="italic">kuḻi</hi> of second rate (<hi rend="italic">land</hi>) in the sixth square (<hi rend="italic">situated</hi>) to the east of (<hi rend="italic">the path called</hi>) <hi rend="bold">Pallavanāraṇavadi</hi> in the twenty-second <hi rend="italic">kaṇṇāṟu</hi>, west of (<hi rend="italic">the lane called</hi>) <hi rend="bold">Subrahmaṇya-nārāśam</hi>. In all, these (<hi rend="italic">are</hi>) seven <hi rend="italic">pāḍagam (of land</hi>). We (<hi rend="italic">the members</hi>) of the assembly of <hi rend="bold">Uttaramēru-chaturvēdimaṅgalam</hi> having received <hi rend="italic">pūrvāchāram</hi> from this person, declared that no tax, <hi rend="italic">echchōṟu, veṭṭi</hi> and <hi rend="italic">amañji</hi> shall be shown (<hi rend="italic">in the account books</hi>) by us against these lands as long as the moon and the sun (<hi rend="italic">exist</hi>) and had (<hi rend="italic">this</hi>) engraved on stone. I, the arbitrator, <hi rend="bold">Śivadāsaṉ Brahmapriyaṉ</hi>, wrote (<hi rend="italic">this</hi>) under orders of the great men, being myself in the assembly.</p>
-
-</div>
-
-<div type="commentary">
-
-</div>
-
-<div type="bibliography">
-
-	<p>Digital edition of SII 3.182 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
-
-	<listBibl type="primary">
-
-		<bibl n="SII">
-			<ptr target="bib:KrishnaSastri1920_01"/>
-			<citedRange unit="page">359-360</citedRange>
-			<citedRange unit="item">182</citedRange>
-		</bibl>
-
-	</listBibl>
-
-	<listBibl type="secondary">
-
-		<bibl/>
-
-	</listBibl>
-
-</div>
-
-	</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 3.182: original edition by H. Krishna Sastri</title>
+                <title type="alt">XV.—INSCRIPTIONS OF PARTHIVENDRAVARMAN OR PARTHIVENDRADHIPATIVARMAN, ‘WHO TOOK THE HEAD OF VIRA-PANDYA.’ No. 182.—ON THE NORTH WALL OF THE VAIKUNTHA-PERUMAL TEMPLE AT UTTARAMALLUR. No. 20 of 1898.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv03p0i0182</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription records a gift of land by <hi rend="bold">Śandraṉ Eḻunūṟṟuvaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Nuḷamba Māyilaṭṭi</hi>, a resident of the hamlet of <hi rend="bold">Raṇavīrappāḍi</hi> in <hi rend="bold">Kāñchīpuram</hi>, to the temple of <hi rend="bold">Tiruvuṉṉaūr</hi> (<hi rend="italic">i.e.</hi>, Tiruvuṉṉiyūr of No. <ref target="DHARMA_INSSIIv03p0i0179.xml">179</ref> above) at <hi rend="bold">Uttaramēru-chaturvēdimangalam</hi>, in the 6th year of <hi rend="bold">Pārthivēndrādhipativarman</hi>, who took the head of the <hi rend="bold">Pāṇḍya</hi> (<hi rend="italic">king</hi>).</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-01-15" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">pā</hi>ṇṭiyaṉai talaikoṇṭa pā<hi rend="grantha"><unclear>r</unclear>tthi</hi>ve<hi rend="grantha">ndrā</hi>ti<hi rend="grantha">pa</hi>tiva<hi rend="grantha">rma</hi>ṟku yāṇṭu 6 vatu kāliyūrkoṭṭa<unclear>t</unclear>tu taṉkūṟṟuttarameruccatu<hi rend="grantha"><unclear>r</unclear>ve</hi>timaṅkala<supplied reason="omitted">t</supplied>tu <hi rend="grantha">sabhai</hi>yom
+                    <lb n="2"/>Eḻuttu Emmūrt ti<unclear>ruvu</unclear>ṉṉaŪrpperumāṉaṭikaḷukku <hi rend="grantha">śrī<unclear>ba</unclear>li<unclear>bh</unclear>oga</hi>ttukku Ākak kāñcipurattu Ira<supplied reason="omitted">ṇa</supplied>virappāṭi <hi rend="grantha">śa</hi>n<hi rend="grantha">tra</hi>ṉ Eḻuṉūṟṟuvanākiya ṉuḷampamāyi<supplied reason="omitted">la</supplied>ṭ
+                    <lb n="3" break="no"/>ṭi nammūr viḻuli<choice><sic>m</sic><corr>y</corr></choice>āykkiṭanta nilattil <hi rend="grantha">śrī</hi> <hi rend="grantha">b<choice><sic>e</sic><corr>a</corr></choice>libhoga</hi>mākak koṇ<unclear>ṭu</unclear> vaitta<hi rend="grantha">bhūmi-</hi> yāvaṉa <hi rend="grantha">subrahmaṇya</hi>nār<choice><sic>a</sic><corr>ā</corr></choice>cattiṉ vaṭakku <num value="14"><g type="numeral">10</g> 4</num> ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟu <hi rend="grantha"><unclear>pa</unclear>rameśva</hi>ravatiyiṉ me
+                    <lb n="4" break="no"/>ṟku 1 ca<supplied reason="omitted">tu</supplied>kkattu <hi rend="grantha"><unclear>2</unclear></hi>ntaraṅ kuḻi <hi rend="grantha"><unclear>2</unclear><num value="40">4 <g type="numeral">10</g></num></hi> <unclear>nā</unclear>ṟpatum <hi rend="grantha">subrahmaṇya</hi>nā<hi rend="grantha">rāśa</hi>ttiṉ vaṭakku <num value="18"><g type="numeral">10</g> 8</num> ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟu kāvaṉūr Erivāyey pona vatiyiṉ m<unclear>e</unclear>ṟku 8 catukkattu <hi rend="grantha"><unclear>2</unclear></hi>taraṅ
+                    <lb n="5" break="no"/>kuḻi <hi rend="grantha"><unclear>2</unclear><num value="40">4 <g type="numeral">10</g></num></hi>m <hi rend="grantha">subrahmaṇya</hi>nār<choice><sic>a</sic><corr>ā</corr></choice><hi rend="grantha">śa</hi>ttiṉ vaṭakku <num value="18"><g type="numeral">10</g> 8</num> ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟuk kāvaṉūr Erivāyey po<unclear>na</unclear>vatiyiṉ meṟku 8 catukka<choice><sic>ka</sic><corr>t</corr></choice>tu <hi rend="grantha">U</hi>n=taraṅ kuḻi <num value="240">2 <g type="numeral">100</g> 4 <g type="numeral">10</g></num>
+                    <lb n="6"/>m <hi rend="grantha">śrī</hi>tevivāykkāliṉ teṟku <num value="16"><g type="numeral">10</g> 6</num>ṅ ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟup pallavanāra<unclear>ṇa</unclear>vatiyiṉ kiḻakku 6 ñ catukkattu <hi rend="grantha">4 nta</hi>raṅ kuḻi <num value="300">3 <g type="numeral">100</g></num>m <hi rend="grantha">subrahmaṇya</hi>nā<hi rend="grantha">rāśa</hi>t<unclear>ti</unclear>ṉ vaṭakku <hi rend="grantha"><num value="17"><g type="numeral">10</g> 7</num>-</hi> ṅ ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟu māṟapiṭukuvatiy<choice><sic>a</sic><corr>i</corr></choice>ṉ kiḻa
+                    <lb n="7" break="no"/>kku 9m catukkattum <num value="10"><g type="numeral">10</g></num> ñ catukkattumāka Iraṇṭāta<note n="359-8">Read Iraṇṭāntaraṅ kuḻi.</note> <num value="240">2 <g type="numeral">100</g> 4 <g type="numeral">10</g></num> m 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="1">
+                        <lem> taṉkūṟṟu</lem>
+                        <note>The <foreign><hi rend="italic">u</hi></foreign> sign in <foreign>kū</foreign> is added separately.</note>
+                    </app><app loc="2">
+                        <lem>ti <unclear>ruvu</unclear>ṉṉa</lem>
+                        <note>The form of <foreign>ru</foreign> almost resembles that of <foreign>ta</foreign>.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:KrishnaSastri1920_01">
+                
+                <p>(Line 1.) Hail ! Prosperity ! In the 6th year of (<hi rend="italic">the reign of</hi>) <hi rend="bold">Pārthivēndrādhipativarman</hi> who took the head of the <hi rend="bold">Pāṇḍya</hi> (<hi rend="italic">king), (this is</hi>) the writing of us (<hi rend="italic">the members</hi>) of the assembly of <hi rend="bold">Uttaramēru-chaturvēdimaṅgalam</hi>, (<hi rend="italic">a village</hi>) in its (<hi rend="italic">own</hi>) subdivision in <hi rend="bold">Kāliyūr-kōṭṭam</hi>. The following are the lands which <hi rend="bold">Śandraṉ Eḻunūṟṟuvaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Nuḷamba Māyilaṭṭi</hi> of <hi rend="bold">Raṇavīrappāḍi</hi>, (<hi rend="italic">a hamlet</hi>) of <hi rend="bold">Kāñchīpuram</hi> acquired for <hi rend="italic">śrībalibhōga</hi> out of the lands lying waste <foreign>(viḻuliyāy kiṭaṉta nilam)</foreign> in our village and gave as <hi rend="italic">śrībalibhōga</hi> to the god (<hi rend="italic">perumāṉaḍigaḷ</hi>) of <hi rend="bold">Tiruvuṉṉaūr:—</hi></p>
+                
+                <p>(L. 3.) 240 <hi rend="italic">kuḻi</hi> of second rate (<hi rend="italic">land</hi>) of the first <hi rend="italic">śadukkam (situated</hi>) to the west of (<hi rend="italic">the path called</hi>) <hi rend="bold">Paramēśvara-vadi</hi> in the fourteenth <hi rend="italic">kaṇṇāṟu</hi>, north of (<hi rend="italic">the lane called</hi>) <hi rend="bold">Subrahmaṇya-nārāśam</hi>; 240 <hi rend="italic">kuḻi</hi> of second rate (<hi rend="italic">land</hi>) of the eighth <hi rend="italic">śadukkam</hi>, west of the path which went straight to the (<hi rend="italic">tank</hi>) <hi rend="bold">Kāvaṉūr-ēri</hi> in the eighteenth <hi rend="italic">kaṇṇāṟu</hi>, north of (<hi rend="italic">the lane called</hi>) <hi rend="bold">Subrahmaṇya-nārāśam</hi><note>This item of 240 <hi rend="italic">kuḻi</hi> with the description of its situation is again repeated. The purpose of the repetition is not apparent.</note> ; 300 <hi rend="italic">kuḻi</hi> of fourth rate (<hi rend="italic">land</hi>) of the sixth <hi rend="italic">śadukkam</hi> east of (<hi rend="italic">the path called</hi>) <hi rend="bold">Pallavanāraṇa-vadi</hi> in the sixteenth <hi rend="italic">kaṇṇāṟu</hi>, south of the <hi rend="italic">channel</hi> <hi rend="bold">Śrīdēvi-vāykkāl</hi>; and 240 <hi rend="italic">kuḻi</hi> of second rate (<hi rend="italic">land</hi>) of the ninth and tenth <hi rend="italic">śadukkam</hi>, east of (<hi rend="italic">the path called</hi>) <hi rend="bold">Māṟapiḍuguvadi</hi> in the seventeenth <hi rend="italic">kaṇṇāṟu</hi>, north of (<hi rend="italic">the lane called</hi>) <hi rend="bold">Subrahmaṇya-nārāśam</hi>.</p>
+                
+                <p>(Ll. 1 and 2 of note.) 480 <hi rend="italic">kuḻi</hi> of second rate (<hi rend="italic">land</hi>) in the sixth square (<hi rend="italic">situated</hi>) to the east of (<hi rend="italic">the path called</hi>) <hi rend="bold">Pallavanāraṇavadi</hi> in the twenty-second <hi rend="italic">kaṇṇāṟu</hi>, west of (<hi rend="italic">the lane called</hi>) <hi rend="bold">Subrahmaṇya-nārāśam</hi>. In all, these (<hi rend="italic">are</hi>) seven <hi rend="italic">pāḍagam (of land</hi>). We (<hi rend="italic">the members</hi>) of the assembly of <hi rend="bold">Uttaramēru-chaturvēdimaṅgalam</hi> having received <hi rend="italic">pūrvāchāram</hi> from this person, declared that no tax, <hi rend="italic">echchōṟu, veṭṭi</hi> and <hi rend="italic">amañji</hi> shall be shown (<hi rend="italic">in the account books</hi>) by us against these lands as long as the moon and the sun (<hi rend="italic">exist</hi>) and had (<hi rend="italic">this</hi>) engraved on stone. I, the arbitrator, <hi rend="bold">Śivadāsaṉ Brahmapriyaṉ</hi>, wrote (<hi rend="italic">this</hi>) under orders of the great men, being myself in the assembly.</p>
+                
+            </div>
+            
+            <div type="commentary">
+                <p>The inscription stops in the middle of line 7. The following two lines of writing in the same character are found a little below. It is doubtful if these are in any way connected with the main inscription:— <foreign><lb n="1"/><hi rend="grantha">subrahmaṇya</hi>nā<hi rend="grantha">rā</hi>cattiṉ vaṭakku <num value="22">2 <g type="numeral">10</g> 2</num> kaṇṇāṟṟu pallavanā<hi rend="grantha">ra</hi>ṇavatiyiṉ kiḻakku 6 ca<unclear>tu</unclear>kkattu iraṇṭāntaraṅ kuḻi <num value="480">4 <g type="numeral">100</g> 8 <g type="numeral">10</g></num>patum āka iveḻu pāṭakamum <lb n="2"/>Ivaṉ pakkal <hi rend="grantha">pūrvvāśā</hi>raṅ koṇṭu i<hi rend="grantha">bhū</hi>mi cuṭṭi i<unclear>ṟ</unclear>aiyum yeccoṟum veṭṭiyum ama<supplied reason="omitted">ñ</supplied>iyum <hi rend="grantha">śantrā</hi>tittaval kāṭṭapeṟātomāka pa<unclear>ṇi</unclear><supplied reason="omitted">t</supplied>tu <hi rend="grantha">śilālekhai</hi> ce<unclear>y</unclear>tu kuṭu<supplied reason="omitted">t</supplied>tomuttarameruccatu<hi rend="grantha"><unclear>r</unclear>ve</hi>timaṅkala<supplied reason="omitted">t</supplied>tu <hi rend="grantha">sabhai</hi>yom itu kuṟi<unclear>yuḷi</unclear>runtu peruma<supplied reason="omitted">k</supplied>kaḷ paṇi<supplied reason="omitted">k</supplied>ka eḻutine<supplied reason="omitted">ṉ</supplied> <hi rend="grantha">madhyasta</hi>ṉ civa<hi rend="grantha">dāsa</hi>ṟ <hi rend="grantha">brahmapri</hi>yaṉeṉ <supplied reason="undefined"><g type="ddanda">.</g></supplied></foreign></p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 3.182 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1920_01"/>
+                        <citedRange unit="page">359-360</citedRange>
+                        <citedRange unit="item">182</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
 </TEI>
