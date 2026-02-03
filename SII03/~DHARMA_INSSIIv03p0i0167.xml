@@ -5,107 +5,116 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>SII 3.167: original edition by H. Krishna Sastri</title>
-			    <title type="alt">XV.—INSCRIPTIONS OF PARTHIVENDRAVARMAN OR PARTHIVENDRADHIPATIVARMAN, ‘WHO TOOK THE HEAD OF VIRA-PANDYA.’ No. 167.—ON THE NORTH WALL OF THE VAIKUNTHA-PERUMAL TEMPLE AT UTTARAMALLUR. No. 15 of 1898.</title>
-				<respStmt>
-					<resp>author of digital edition</resp>
-					<persName ref="part:emfr">
-						<forename>Emmanuel</forename>
-						<surname>Francis</surname>
-					</persName>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<authority>DHARMA</authority>
-				<pubPlace>Paris, CEIAS</pubPlace>
-				<idno type="filename">DHARMA_INSSIIv03p0i0167</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<msDesc>
-					<msIdentifier>
-						<repository>DHARMAbase</repository>
-						<idno/>
-					</msIdentifier>
-					<msContents>
-						<summary>
-
-						<p>This inscription is dated in the 3rd year of <hi rend="bold">Pārthivēndrādhipativarman</hi> who took the head of <hi rend="bold">Vīra-Pāṇḍya</hi>, and records a gift of land to the temple of <hi rend="bold">Ayyaṉ</hi>, the great <hi rend="bold">Śāstā</hi> of <hi rend="bold">Uttaramēru-chaturvēdimaṅgalam</hi>, for current expenses, a perpetual lamp, <hi rend="italic">śrībali</hi> and <hi rend="italic">archchanābhōga</hi>. Ayyaṉ or Śāstā is a popular village god; see <hi rend="italic">South-Indian Gods and Goddesses</hi>, page 229 f.</p>						
-
-						</summary>
-					</msContents>
-					<physDesc>
-						<handDesc>
-							<p/>
-						</handDesc>
-					</physDesc>
-				</msDesc>
-			</sourceDesc>
-		</fileDesc>
-		<revisionDesc>
-			<change who="part:emfr" when="2026-01-15" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-		</revisionDesc>
-	</teiHeader>
-	<text xml:space="preserve">
-		<body>
-
-<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
-
-<p>
-<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> vīrapāṇṭiyaṉai talaikoṇṭa <hi rend="grantha">pā<unclear>r</unclear>tthi</hi>ve<hi rend="grantha">ntrā</hi>ti<hi rend="grantha">pa</hi>tiva<hi rend="grantha">rma</hi>ṟkku yāṇṭu 3 nāḷ <num value="50">5 <g type="numeral">10</g></num> kāliyūrkkoṭṭa<supplied reason="omitted">t</supplied>tu taṉkūṟṟuttarameruccatu<hi rend="grantha"><supplied reason="omitted">r</supplied>vve</hi>timaṅkala<supplied reason="omitted">t</supplied>tu peruṅkuṟi <hi rend="grantha">sabhai</hi>yomeḻuttu E<supplied reason="omitted">m</supplied>mur teṟkil A<supplied reason="omitted">y</supplied>yaṉ <hi rend="grantha">mahāśāsthā</hi><note n="343-4">Read <hi rend="grantha">śāstā</hi>.</note> <hi rend="grantha"/>
-<lb n="2" break="no"/>vu<supplied reason="omitted">k</supplied>ku tiru<supplied reason="omitted">c</supplied>ceṉṉaṭaikkum nun=tāviḷakku<supplied reason="omitted">k</supplied>kum <hi rend="grantha">śrībali</hi>kkum <hi rend="grantha">Arcca</hi>nā<hi rend="grantha">bhoga-</hi> tumāka<note n="344-1">Read <hi rend="grantha">bhoga</hi>ttukkumāka.</note> vaitta <hi rend="grantha">bhūmi</hi>yāvaṉa Ūriṉ teṟku 1 <unclear>kaṇāṟṟu</unclear><note n="344-2">ṭhis is engraved on an erasure probably of the word “catukkattu.”</note> (ttu)<note n="344-3">Read <hi rend="grantha">paramesvara</hi>vatiyiṉ.</note> <hi rend="grantha"><unclear>pa</unclear>ramaiśva-</hi> varavatiyiṉ meṟku 1 catukkattu 3m (p)pāṭakamāṉa <hi rend="grantha">8<unclear>4</unclear>0</hi> kuḻi talaitaramum
-<lb n="3"/>Ūriṉ teṟku 2 ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟum 3 ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟum <hi rend="grantha">para</hi>me<hi rend="grantha">śva</hi>ravatiyiṉ meṟku 3 <unclear>ca</unclear>tukka<supplied reason="omitted">t</supplied>tu talaittaraṅkuḻi <num value="400">4 <g type="numeral">100</g></num>m Ūriṉ teṟku 2 ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟu <hi rend="grantha">parameśva-</hi> ravatiyiṉ meṟku 4 catukka<supplied reason="omitted">t</supplied>tum 5 catukka<supplied reason="omitted">t</supplied>tumāka talaittaraṅ kuḻi <num value="360">3 <g type="numeral">100</g> 6 <g type="numeral">10</g></num> Āka kuḻi <num value="1600"><g type="numeral">1000</g> 6 <g type="numeral">100</g></num> ṉāl ni
-<lb n="4" break="no"/>lam <hi rend="grantha">kha</hi> mā nilattu<supplied reason="omitted">k</supplied>kum puḷi<supplied reason="omitted">ya</supplied>ṅkuṭaiyāṉ cāttaṉ <hi rend="grantha">brahma</hi>kuṭṭaṉ pakkal I<hi rend="grantha">bhūmi-</hi> kaḷu<supplied reason="omitted">k</supplied>ku Epper<supplied reason="omitted">p</supplied>paṭṭa Iṟaiyum E<supplied reason="omitted">c</supplied>coṟum veṭṭiyum Amañciyum kāṭṭa peṟātomāka<note n="344-4">Read <hi rend="grantha">pūrvvācā</hi>ra.</note> <hi rend="grantha">pūvvāśā</hi>raṅ koṇṭu <hi rend="grantha">śa<unclear>ntr</unclear>ādi</hi>ttaruḷḷatiṉai
-<lb n="5" break="no"/>kkālamum Iṟai Iḻicci kuṭuttom Itaṟṟiṟampi Iṟaikāṭṭiṉārai<note n="344-5">Perhaps to be corrected into kāṭṭiṉāre or we have to understand some such word as tēvaraṭiyārē.</note> <hi rend="grantha">dhanmāsa</hi>namutalāka veṇṭiṉa Iṭa<supplied reason="omitted">t</supplied>te yirupattaiṅkaḻañcu poṉ maṉṟa peṟuvārākavum I<hi rend="grantha">dhanma</hi><supplied reason="omitted">t</supplied>tu<supplied reason="omitted">k</supplied>ku viro<hi rend="grantha"><unclear>dha</unclear></hi>ñ ceytār
-<lb n="6"/><hi rend="grantha">ge</hi>ṅkaiyiṭai kumariyiṭai cetār caita<note n="344-6">Read ceyta.</note> pā<unclear>va</unclear>m koḷvār<unclear>ā</unclear>ka<supplied reason="undefined"><g type="danda">.</g></supplied> Ippa<unclear>ricu O</unclear>ṭṭi I<hi rend="grantha">bhū</hi>mi Iṟai Iḻiccik kuṭuttom Uttarameru<unclear>cca</unclear>tu<hi rend="grantha"><supplied reason="omitted">r</supplied>vve</hi>timaṅkalattup pe<unclear>ruṅku</unclear>ṟi <hi rend="grantha">sabhai</hi>yom <hi rend="grantha">sabhai</hi> paṇippa <unclear>E</unclear>ḻutiṉeṉ <hi rend="grantha">madhyasta</hi>
-<lb n="7" break="no"/>ṉ civa<hi rend="grantha">dāsa</hi>ṉ Aiyyā<supplied reason="omitted">yi</supplied>rattiruṉūṟṟuva <hi rend="grantha"><unclear>brahmapri</unclear></hi>ya<unclear>ṉ</unclear>eṉ <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g>
-</p>
-
-</div>
-
-<div type="apparatus">
-
-</div>
-
-<div type="translation" source="bib:KrishnaSastri1920_01">
-
-<p>(Line 1.) Hail ! Prosperity ! In the 3rd year and the 50th day (<hi rend="italic">of the reign</hi>) of <hi rend="bold">Pārthivēndrādhipativarman</hi> who took the head of <hi rend="bold">Vīra-Pāṇḍya</hi>, (<hi rend="italic">this is</hi>) the writing of us (<hi rend="italic">the members</hi>) of the great assembly of <hi rend="bold">Uttaramēruchaturvēdimaṅgalam</hi>, (<hi rend="italic">a village</hi>) in its own subdivision in <hi rend="bold">Kāliyūr-kōṭṭam</hi>. The following are the lands given to (<hi rend="italic">the temple of</hi>) <hi rend="bold">Ayyaṉ</hi>, the great <hi rend="bold">Śāstā</hi>, on the south side of our village for the sacred current expenses (<hi rend="italic">tiruchcheṉṉaḍai</hi>), a perpetual lamp, <hi rend="italic">śrībali</hi> and worship<note n="344-7"><hi rend="italic">Archchanābhōga</hi> corresponds to <hi rend="italic">archanāvṛitti</hi> of other inscriptions.</note> .</p>
-
-<p>(L. 2.) Eight hundred and forty <hi rend="italic">kuḻi</hi> of first rate (<hi rend="italic">land</hi>) which forms the third <hi rend="italic">pāḍagam</hi> in the first square, west of (<hi rend="italic">the path called</hi>) <hi rend="bold">Paramēśvara-vadi</hi> of the first <hi rend="italic">kaṇṇāṟu (situated</hi>) to the south of the village; 400 <hi rend="italic">kuḻi</hi> of first rate (<hi rend="italic">land</hi>) of the third square to the west of (<hi rend="italic">the path called</hi>) <hi rend="bold">Paramēśvara-vadi</hi> in the second and third <hi rend="italic">kaṇṇāṟu</hi> on the south side of the village; 360 <hi rend="italic">kuḻi</hi> of first rate (<hi rend="italic">land</hi>) of the fourth and fifth squares to the west of (<hi rend="italic">the path called</hi>) <hi rend="bold">Paramēśvara-vadi</hi> in the second <hi rend="italic">kaṇṇāṟu</hi> on the south side of the village; in all 1,600 <hi rend="italic">kuḻi</hi> of land equal to <hi rend="grantha">kha</hi> <hi rend="italic">mā</hi> of land<note n="344-8">The symbol <hi rend="grantha">kha</hi> denotes one-fourth <hi rend="italic">vēli</hi> of land and <hi rend="italic">mā</hi>, one-twentieths. These two added up give us only 600 <hi rend="italic">kuḻi</hi> of land, on the supposition that one <hi rend="italic">vēli</hi> is equal to 2,000 <hi rend="italic">kuḻi</hi>. Some inscriptions, however, point to a <hi rend="italic">vēli</hi> being = 6,376 or nearly 6,400 <hi rend="italic">kuḻi</hi> in which case <hi rend="italic">mā</hi> here may not represent the usual one-twentieth of a <hi rend="italic">vēli</hi>.</note> . We made these lands tax-free as long as the moon and the sun last, having received <hi rend="italic">pūrvāchāram</hi> from <hi rend="bold">Śāttaṉ Brahmakuṭṭaṉ</hi> of <hi rend="bold">Puḷiyaṅguḍi</hi> and agreeing that we do not show (<hi rend="italic">as due</hi>) against (<hi rend="italic">them</hi>) any kind of (<hi rend="italic">tax such as) iṟai, echchōṟu, veṭṭi</hi> and <hi rend="italic">amañji</hi>.</p>
-
-<p>(L. 5.) Those who deviate from this and show the taxes (<hi rend="italic">as due</hi>) shall pay a fine of 25 <hi rend="italic">kaḻañju</hi> of gold to the credit of the court of justice whenever demanded, and those who act against this charity shall incur the sin committed (<hi rend="italic">by sinners</hi>) between <hi rend="bold">Gaṅgā</hi> (the Ganges) and <hi rend="bold">Kumari</hi> (Cape Comorin). We (<hi rend="italic">the members</hi>) of the great assembly of <hi rend="bold">Uttaramēru-chaturvēdimaṅgalam</hi> having unanimously agreed to this grant, freed this land from taxes. Under orders of the assembly, I, the arbitrator (<hi rend="italic">madhyastha</hi>) <hi rend="bold">Śivadāsaṉ Aiyāyirattirunūṟṟuva Brahmapriyaṉ</hi>, wrote (<hi rend="italic">this</hi>).</p>
-
-</div>
-
-<div type="commentary">
-
-</div>
-
-<div type="bibliography">
-
-	<p>Digital edition of SII 3.167 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
-
-	<listBibl type="primary">
-
-		<bibl n="SII">
-			<ptr target="bib:KrishnaSastri1920_01"/>
-			<citedRange unit="page">343-345</citedRange>
-			<citedRange unit="item">167</citedRange>
-		</bibl>
-
-	</listBibl>
-
-	<listBibl type="secondary">
-
-		<bibl/>
-
-	</listBibl>
-
-</div>
-
-	</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 3.167: original edition by H. Krishna Sastri</title>
+                <title type="alt">XV.—INSCRIPTIONS OF PARTHIVENDRAVARMAN OR PARTHIVENDRADHIPATIVARMAN, ‘WHO TOOK THE HEAD OF VIRA-PANDYA.’ No. 167.—ON THE NORTH WALL OF THE VAIKUNTHA-PERUMAL TEMPLE AT UTTARAMALLUR. No. 15 of 1898.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv03p0i0167</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This inscription is dated in the 3rd year of <hi rend="bold">Pārthivēndrādhipativarman</hi> who took the head of <hi rend="bold">Vīra-Pāṇḍya</hi>, and records a gift of land to the temple of <hi rend="bold">Ayyaṉ</hi>, the great <hi rend="bold">Śāstā</hi> of <hi rend="bold">Uttaramēru-chaturvēdimaṅgalam</hi>, for current expenses, a perpetual lamp, <hi rend="italic">śrībali</hi> and <hi rend="italic">archchanābhōga</hi>. Ayyaṉ or Śāstā is a popular village god; see <hi rend="italic">South-Indian Gods and Goddesses</hi>, page 229 f.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-01-15" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> vīrapāṇṭiyaṉai talaikoṇṭa <hi rend="grantha">pā<unclear>r</unclear>tthi</hi>ve<hi rend="grantha">ntrā</hi>ti<hi rend="grantha">pa</hi>tiva<hi rend="grantha">rma</hi>ṟkku yāṇṭu 3 nāḷ <num value="50">5 <g type="numeral">10</g></num> kāliyūrkkoṭṭa<supplied reason="omitted">t</supplied>tu taṉkūṟṟuttarameruccatu<hi rend="grantha"><supplied reason="omitted">r</supplied>vve</hi>timaṅkala<supplied reason="omitted">t</supplied>tu peruṅkuṟi <hi rend="grantha">sabhai</hi>yomeḻuttu E<supplied reason="omitted">m</supplied>mur teṟkil A<supplied reason="omitted">y</supplied>yaṉ <hi rend="grantha">mahāśās<choice><sic>th</sic><corr>t</corr></choice>ā</hi> <hi rend="grantha"/>
+                    <lb n="2" break="no"/>vu<supplied reason="omitted">k</supplied>ku tiru<supplied reason="omitted">c</supplied>ceṉṉaṭaikkum nun=tāviḷakku<supplied reason="omitted">k</supplied>kum <hi rend="grantha">śrībali</hi>kkum <hi rend="grantha">Arcca</hi>nā<hi rend="grantha">bhoga</hi><supplied reason="omitted">t</supplied>tu<supplied reason="omitted">kku</supplied>māka vaitta <hi rend="grantha">bhūmi</hi>yāvaṉa Ūriṉ teṟku 1 <add place="overstrike"><unclear>kaṇāṟṟu</unclear></add><surplus>ttu</surplus> <hi rend="grantha"><unclear>pa</unclear>ram<choice><sic>aiś</sic><corr>es</corr></choice>va</hi><surplus>va</surplus>ravatiyiṉ meṟku 1 catukkattu 3m <surplus>p</surplus>pāṭakamāṉa <num value="840">8 <g type="numeral">100</g> <unclear>4</unclear> <g type="numeral">10</g></num> kuḻi talaitaramum
+                    <lb n="3"/>Ūriṉ teṟku 2 ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟum 3 ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟum <hi rend="grantha">para</hi>me<hi rend="grantha">śva</hi>ravatiyiṉ meṟku 3 <unclear>ca</unclear>tukka<supplied reason="omitted">t</supplied>tu talaittaraṅkuḻi <num value="400">4 <g type="numeral">100</g></num>m Ūriṉ teṟku 2 ka<supplied reason="omitted">ṇ</supplied>ṇāṟṟu <hi rend="grantha">parameśva</hi>ravatiyiṉ meṟku 4 catukka<supplied reason="omitted">t</supplied>tum 5 catukka<supplied reason="omitted">t</supplied>tumāka talaittaraṅ kuḻi <num value="360">3 <g type="numeral">100</g> 6 <g type="numeral">10</g></num> Āka kuḻi <num value="1600"><g type="numeral">1000</g> 6 <g type="numeral">100</g></num> ṉāl ni
+                    <lb n="4" break="no"/>lam <hi rend="grantha">kha</hi> mā nilattu<supplied reason="omitted">k</supplied>kum puḷi<supplied reason="omitted">ya</supplied>ṅkuṭaiyāṉ cāttaṉ <hi rend="grantha">brahma</hi>kuṭṭaṉ pakkal I<hi rend="grantha">bhūmi-</hi> kaḷu<supplied reason="omitted">k</supplied>ku Epper<supplied reason="omitted">p</supplied>paṭṭa Iṟaiyum E<supplied reason="omitted">c</supplied>coṟum veṭṭiyum Amañciyum kāṭṭa peṟātomāka <hi rend="grantha">pū<supplied reason="omitted">r</supplied>vvā<choice><sic>ś</sic><corr>c</corr></choice>ā</hi>raṅ koṇṭu <hi rend="grantha">śa<unclear>ntr</unclear>ādi</hi>ttaruḷḷatiṉai
+                    <lb n="5" break="no"/>kkālamum Iṟai Iḻicci kuṭuttom Itaṟṟiṟampi Iṟaikāṭṭiṉārai <hi rend="grantha">dhanmāsa</hi>namutalāka veṇṭiṉa Iṭa<supplied reason="omitted">t</supplied>te yirupattaiṅkaḻañcu poṉ maṉṟa peṟuvārākavum I<hi rend="grantha">dhanma</hi><supplied reason="omitted">t</supplied>tu<supplied reason="omitted">k</supplied>ku viro<hi rend="grantha"><unclear>dha</unclear></hi>ñ ceytār
+                    <lb n="6"/><hi rend="grantha">ge</hi>ṅkaiyiṭai kumariyiṭai cetār c<choice><sic>ai</sic><corr>ey</corr></choice>ta pā<unclear>va</unclear>m koḷvār<unclear>ā</unclear>ka<supplied reason="undefined"><g type="danda">.</g></supplied> Ippa<unclear>ricu O</unclear>ṭṭi I<hi rend="grantha">bhū</hi>mi Iṟai Iḻiccik kuṭuttom Uttarameru<unclear>cca</unclear>tu<hi rend="grantha"><supplied reason="omitted">r</supplied>vve</hi>timaṅkalattup pe<unclear>ruṅku</unclear>ṟi <hi rend="grantha">sabhai</hi>yom <hi rend="grantha">sabhai</hi> paṇippa <unclear>E</unclear>ḻutiṉeṉ <hi rend="grantha">madhyasta</hi>
+                    <lb n="7" break="no"/>ṉ civa<hi rend="grantha">dāsa</hi>ṉ Aiyyā<supplied reason="omitted">yi</supplied>rattiruṉūṟṟuva <hi rend="grantha"><unclear>brahmapri</unclear></hi>ya<unclear>ṉ</unclear>eṉ <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="2">
+                        <lem><add place="overstrike"><unclear>kaṇāṟṟu</unclear></add></lem>
+                        <note>This is engraved on an erasure probably of the word “<foreign>catukkattu</foreign>.”</note>
+                    </app>
+                    <app loc="5">
+                        <lem>Iṟaikāṭṭiṉārai</lem>
+                            <note >Perhaps to be corrected into <foreign>kāṭṭiṉāre</foreign> or we have to understand some such word as <foreign>tēvaraṭiyārē</foreign>.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="translation" source="bib:KrishnaSastri1920_01">
+                
+                <p>(Line 1.) Hail ! Prosperity ! In the 3rd year and the 50th day (<hi rend="italic">of the reign</hi>) of <hi rend="bold">Pārthivēndrādhipativarman</hi> who took the head of <hi rend="bold">Vīra-Pāṇḍya</hi>, (<hi rend="italic">this is</hi>) the writing of us (<hi rend="italic">the members</hi>) of the great assembly of <hi rend="bold">Uttaramēruchaturvēdimaṅgalam</hi>, (<hi rend="italic">a village</hi>) in its own subdivision in <hi rend="bold">Kāliyūr-kōṭṭam</hi>. The following are the lands given to (<hi rend="italic">the temple of</hi>) <hi rend="bold">Ayyaṉ</hi>, the great <hi rend="bold">Śāstā</hi>, on the south side of our village for the sacred current expenses (<hi rend="italic">tiruchcheṉṉaḍai</hi>), a perpetual lamp, <hi rend="italic">śrībali</hi> and worship<note n="344-7"><hi rend="italic">Archchanābhōga</hi> corresponds to <hi rend="italic">archanāvṛitti</hi> of other inscriptions.</note> .</p>
+                
+                <p>(L. 2.) Eight hundred and forty <hi rend="italic">kuḻi</hi> of first rate (<hi rend="italic">land</hi>) which forms the third <hi rend="italic">pāḍagam</hi> in the first square, west of (<hi rend="italic">the path called</hi>) <hi rend="bold">Paramēśvara-vadi</hi> of the first <hi rend="italic">kaṇṇāṟu (situated</hi>) to the south of the village; 400 <hi rend="italic">kuḻi</hi> of first rate (<hi rend="italic">land</hi>) of the third square to the west of (<hi rend="italic">the path called</hi>) <hi rend="bold">Paramēśvara-vadi</hi> in the second and third <hi rend="italic">kaṇṇāṟu</hi> on the south side of the village; 360 <hi rend="italic">kuḻi</hi> of first rate (<hi rend="italic">land</hi>) of the fourth and fifth squares to the west of (<hi rend="italic">the path called</hi>) <hi rend="bold">Paramēśvara-vadi</hi> in the second <hi rend="italic">kaṇṇāṟu</hi> on the south side of the village; in all 1,600 <hi rend="italic">kuḻi</hi> of land equal to <hi rend="grantha">kha</hi> <hi rend="italic">mā</hi> of land<note>The symbol <hi rend="grantha">kha</hi> denotes one-fourth <hi rend="italic">vēli</hi> of land and <hi rend="italic">mā</hi>, one-twentieths. These two added up give us only 600 <hi rend="italic">kuḻi</hi> of land, on the supposition that one <hi rend="italic">vēli</hi> is equal to 2,000 <hi rend="italic">kuḻi</hi>. Some inscriptions, however, point to a <hi rend="italic">vēli</hi> being = 6,376 or nearly 6,400 <hi rend="italic">kuḻi</hi> in which case <hi rend="italic">mā</hi> here may not represent the usual one-twentieth of a <hi rend="italic">vēli</hi>.</note> . We made these lands tax-free as long as the moon and the sun last, having received <hi rend="italic">pūrvāchāram</hi> from <hi rend="bold">Śāttaṉ Brahmakuṭṭaṉ</hi> of <hi rend="bold">Puḷiyaṅguḍi</hi> and agreeing that we do not show (<hi rend="italic">as due</hi>) against (<hi rend="italic">them</hi>) any kind of (<hi rend="italic">tax such as) iṟai, echchōṟu, veṭṭi</hi> and <hi rend="italic">amañji</hi>.</p>
+                
+                <p>(L. 5.) Those who deviate from this and show the taxes (<hi rend="italic">as due</hi>) shall pay a fine of 25 <hi rend="italic">kaḻañju</hi> of gold to the credit of the court of justice whenever demanded, and those who act against this charity shall incur the sin committed (<hi rend="italic">by sinners</hi>) between <hi rend="bold">Gaṅgā</hi> (the Ganges) and <hi rend="bold">Kumari</hi> (Cape Comorin). We (<hi rend="italic">the members</hi>) of the great assembly of <hi rend="bold">Uttaramēru-chaturvēdimaṅgalam</hi> having unanimously agreed to this grant, freed this land from taxes. Under orders of the assembly, I, the arbitrator (<hi rend="italic">madhyastha</hi>) <hi rend="bold">Śivadāsaṉ Aiyāyirattirunūṟṟuva Brahmapriyaṉ</hi>, wrote (<hi rend="italic">this</hi>).</p>
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 3.167 by <bibl><ptr target="bib:KrishnaSastri1920_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1920_01"/>
+                        <citedRange unit="page">343-345</citedRange>
+                        <citedRange unit="item">167</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
 </TEI>
