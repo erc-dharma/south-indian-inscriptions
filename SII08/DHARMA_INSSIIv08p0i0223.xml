@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 8.223: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 223. (A.R. No. 624-A of 1902). ON THE SAME WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv08p0i0223</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2026-02-18" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> tiruvalañcuḻi<surplus>y</surplus>āḻ<unclear>vār ko</unclear>yilil nampirāṭṭiyār U<unclear>lo</unclear>kamāteviyār vaitta <hi rend="grantha">kṣe</hi>t<hi rend="grantha">tra</hi>pāla<hi rend="grantha">de</hi>vaṟkkum <hi rend="grantha">ga</hi>ṇapa<unclear>tiyāṟ</unclear>kum <hi rend="grantha">de</hi>vatānam In<unclear>na</unclear>mparnāṭṭut <unclear>taḷiyacukūr</unclear>c caṭṭakaḷ maṭa<unclear>ppu</unclear>ṟattuk kaḷanilan variyiliṭṭapaṭi kalveṭṭiyatu <supplied reason="subaudible"><g type="danda">.</g></supplied> kovi<hi rend="grantha">rājarāja</hi>
+					
+					<lb n="2"/><hi rend="grantha">rājakesaripanmarā</hi>na <hi rend="grantha">śrīrājarājade</hi>vaṟk=ku yāṇṭu patiṉāṟāvatumutal Aḷan=tapaṭi paḻanilaṉ Uḷpaṭa nilan Eḻaraiyey munṟumā mukkāṇi Araikkāṇi muntirikaik kiḻaraiye muṉṟumā varaikkāṇiy muntirikaik kiḻ nālumāk kāṇi <unclear>mu</unclear>ntirikaiyilum Ūrirukkaiy nilan muṉṟumāvin kiḻ Āṟumāk kāṇi Araikkāṇik kiḻ
+					
+					<lb n="3" break="no"/>eṭṭumā nikkiy Iraṇṭupū viḷaiyum nilan Eḻey Eḻumā mukkāṇi Araikkāṇi muntirikaik kiḻ <unclear>Āṟu</unclear>mā mukkāṇiyk kiḻ mukkāle<unclear>y</unclear> mākāṇi<surplus>y</surplus> mun=tirikaiyum <unclear>pā</unclear>kaṟtoṭṭam nilan munṟumāvum Āka nilan Eḻaraiye mukkāṇi Araikkāṇi muntirikaik kiḻ Āṟumā mukkāṇik kiḻ mukkāley mākāṇi muntirikaiyinālk kāṇikkaṭaṉ
+					
+					<lb n="4"/>nel Eḻunūṟṟu nāṟppattumuk kalane tūṇip patakku Aññāḻiyilum munnittevarkku Iṟuttuvarukiṉṟa nellu Irunūṟṟukkalamum paḻampaṭiye Iṟuppatāka nikki Iṟaikaṭṭina nellu Aiññūṟṟu nāṟppattumukkalaney tūṇi<unclear>p</unclear> patakku Aiññāḻiyum <hi rend="grantha">śrī</hi>kovi<hi rend="grantha">rājarāja rājakesa</hi>riva<hi rend="grantha">rmma</hi>rāna <hi rend="grantha">śrīrājarājarājade</hi>varkku
+				
+					<lb n="5"/>yāṇṭu Irupattunā<unclear>l</unclear>āvatu nāḷ Irunūṟ ṟeṇpattañciṉāl toṇṭaimāṉāṟṟūr <gap reason="lost" quantity="3" unit="character"/> rukkaik kāva<unclear>ṇa</unclear>ttu Eḻun=taruḷi Irun=tu nam peṇṭukaḷil tanticattiviṭaṅkiyāna Ulokamātevi tiruvalañcuḻi<surplus>y</surplus>āḻvār koyilil vaitta <hi rend="grantha">kṣetra</hi>pālarkku<supplied reason="omitted">m</supplied><hi rend="grantha">ga</hi>ṇapatiyārkkum tevatānam <hi rend="grantha">rājentra</hi>ciṅkavaḷanāṭṭu Innamparnāṭṭut taḷiyacukūr caṭṭa
+					<lb n="6" break="no"/>kaḷ maṭappuṟattu<unclear>k kaḷa</unclear><hi rend="grantha">de</hi>vaṟkkum nel Irunūṟṟuk kala nikki Iṟaikaṭṭina nellu Aiññūṟṟu nāṟppattumuk kalaney tūṇip patakku Aiññāḻiyum It<hi rend="grantha">de</hi>varkaḷukku veṇṭum nivantaṅkaḷukku palapaṇinimantakkāṟarkkum yāṇṭu Irupattunālāvatu pacānamutal tevatāṉa<surplus>m</surplus> Iṟaiyiliyāka variyi 
+				
+					<lb n="7" break="no"/>liṭṭuk kuṭukka ve<unclear>n</unclear>ṟu tiruvāymoḻintaruḷiṉā renṟu tirumantiravolai <hi rend="grantha">rāja</hi>ke<hi rend="grantha">sa</hi>rinallūr kiḻavankāṟāyil paṟppaṉāpan Eḻuttiṉālum tirumantiravolaināyakan mummaṭicoḻa <hi rend="grantha">brama</hi>mārāyanum mu<supplied reason="omitted">m</supplied>maṭicoḻa pocaṉum maturāntaka muventaveḷāṉum Oppiṭṭuppukunta keḻvippa
+					
+					<lb n="8" break="no"/>ṭiyey variyiliṭ<unclear>ṭuk</unclear>koḷka veṉṟu Atikārikaḷ Āṟ<unclear>ṟū</unclear>ruṭaiyārum kaḻumalamuṭaiyāru <unclear>mā</unclear>laṅkuṭaiyārum parake<hi rend="grantha">sa</hi>ri muve<unclear>ṉ</unclear>taveḷārum parākkiramacoḻa muventaveḷārum minavan muveṉtaveḷārum cempiyan mu<supplied reason="omitted">venta</supplied>veḷārum niṭurkiḻavarum tevankuṭaiyārum tirunallūruṭaiyārum naṭuvirukkum kaṭalaṅku
+					
+					<lb n="9" break="no"/>ṭit tāmotirapaṭṭarum koṭṭaiyūrp pūvattapaṭṭarum Eva puravuvarik kiḻava<unclear>r</unclear> kaṇavatiyum kā<unclear>ma</unclear>n paḻaiyav<choice><sic>a</sic><corr>e</corr></choice><surplus>O</surplus>ḷāṉum cen=tan mallaṉum pittira<unclear>ma</unclear><hi rend="grantha">pūṣa</hi>ṇan Irāmaṉum varippottakam ciṅkan veṇkāṭaṉum pakavati Aṅkiyum Irun=tu yāṇṭu Irupattañcāvatu nāḷ nāli<surplus>n</surplus>ṉāl variyil <supplied reason="omitted">Iṭṭatu <g type="ddanda">.</g></supplied>
+				</p>
+				
+			</div>
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 8.223 by <bibl><ptr target="bib:SubrahmanyaAiyer1937_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1937_01"/>
+						<citedRange unit="page">117-118</citedRange>
+						<citedRange unit="item">223</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
