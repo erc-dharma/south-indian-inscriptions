@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 8.217: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 217. (A.R. No. 620 of 1902). ON THE SAME WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv08p0i0217</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2026-02-18" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g type="ddanda">.</g></supplied> maturaikoṇṭa kopparakecari<hi rend="grantha">panma</hi>rk<unclear>ku</unclear> yāṇṭu
+					<lb n="2"/>muppatteṭṭāvatu tiruvalañcuḻi <hi rend="grantha">mahāde</hi>va<supplied reason="omitted">r</supplied>k=ku Iṟaiyili kuṭu
+					<lb n="3" break="no"/>tta veṇṇāṭṭup putānkoṭṭakattuk kaḷanilan pattey mukkāley
+					<lb n="4"/>Orumā Innilam patteymukkāley Orumāvum Ittevarkku veṇṭu
+					<lb n="5" break="no"/>m nivantaṅkaḷukku Iṟuppat<unclear>ā</unclear>ka Iṟai kaṭṭina nellu Eṇṇū
+					<lb n="6" break="no"/>ṟ ṟaṟukalamum Itu <hi rend="grantha">śrīrājarāja rājakesaripanmarā</hi>ṉa <hi rend="grantha">śrīrājarāja</hi>tevark
+					<lb n="7" break="no"/>ku yāṇṭu patineḻāvatu tiruvāymoḻintaruḷa nāḷ Aiympattira
+					<lb n="8" break="no"/>ṇṭiṉāl tennava<unclear>n</unclear> tiruvin=ta<unclear>ḷū</unclear>rnāṭṭu muventaveḷānum
+					<lb n="9"/>cerapuranāṭṭu muven<unclear>ta</unclear>veḷānum nila maḷappittapaṭi paḻini
+					<lb n="10" break="no"/>lam Uṭppaṭa nilaṉ patiṉaiñcey Āṟumāk kāṇik kiḻaraiye Orumā
+					<lb n="11" break="no"/>vilu<unclear>m</unclear> Ivvūrai Ūṭaṟuttup puṟavūrkaḷukkup pāyum vāykkālkaḷ
+					<lb n="12"/>nilaṉ <unclear>k</unclear>āle yaraimā muntirikaik kiḻmukkāle munṟumāk kāṇi yaraikkāṇik kiḻ Eṭ
+					<lb n="13" break="no"/>ṭumā nikki Irupūviḷaiyum nilam patiṉañcey Araimā varaikkāṇik kiḻaraiye
+					<lb n="14"/>Orumāvarai muntirikaik kiḻaraiye yiraṇṭumāviṉāl veli nūṟṟukkala varicai
+					<lb n="15" break="no"/>yāl nellu Āyirat taiññūṟṟuk kalaney mukkuṟuṇi Eḻunāḻi <supplied reason="subaudible"><g type="danda">.</g></supplied> yitil It
+					<lb n="16" break="no"/>tevarkku Iṟuttuvarukinṟa nellu Eṇṇūṟ ṟaṟukalamum paḻampaṭiye
+					<lb n="17"/>Ittevark kiṟuppa<unclear>t</unclear>ākavum nīkki <gap reason="lost" quantity="2" unit="character"/> Aḷantapaṭiyil Eṟivanta nilattāl I
+					<lb n="18" break="no"/>ṟaikaṭṭina nellu Eḻunūṟṟu mukkalaney kuṟuṇi Eḻunāḻiyum Itteva
+					<lb n="19" break="no"/>rey It<unclear>t</unclear>e<unclear>va</unclear>rkku veṇṭum nivantaṅkaḷukku kuṭuttu variyiliṭṭapaṭi <supplied reason="subaudible"><g type="danda">.</g></supplied> tiruma<unclear>kaḷ</unclear>
+					<lb n="20"/>pola perunilaccelviyun taṉakke yurimaipūṇṭamai manakkoḷak kāntaḷūrcā
+					<lb n="21" break="no"/>lai kalama<unclear>ṟu</unclear>ttaruḷi veṅkaināṭum kaṅkapāṭiyum nuḷampapāṭiyum taṭikaipāṭiyu
+					<lb n="22" break="no"/>m kuṭamalaināṭum kollamuṅ kaliṅkamum Eṇṭicai pukaḻtaru Īḻamaṇṭalamum
+					<lb n="23"/>Iraṭṭapāṭi Eḻaraiyilakkamum tiṇṭiṟalvenṟi taṇṭāṟ koṇṭa tanneḻil vaḷar
+				</p>
+				
+			</div>
+			
+		
+			
+			<div type="commentary">
+				<p>The inscription is incomplete; the continuation could not be traced.</p>
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 8.217 by <bibl><ptr target="bib:SubrahmanyaAiyer1937_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1937_01"/>
+						<citedRange unit="page">112</citedRange>
+						<citedRange unit="item">217</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
