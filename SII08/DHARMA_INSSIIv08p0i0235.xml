@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 8.235: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 235. (A.R. No. 633-A of 1902). ON THE SAME WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv08p0i0235</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2026-02-26" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2025-11-26" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/> <hi rend="grantha">ga</hi>ṇapatiyārkkup po<unclear>tu</unclear> n<unclear>e</unclear>y Iruceviṭarai
+					<lb n="2" break="no"/>yāka munṟu potaikkum ney Āḻākke Iruce
+					<lb n="3" break="no"/>viṭaraiyum Āka nāḷ Onṟi<unclear>ṉu</unclear>kku ney <unclear>n</unclear>āḻi Āḻākku
+					<lb n="4" break="no"/>kku nāḻi neykku nellu<unclear>t</unclear> tūṇiyāka <unclear>vanta</unclear>
+					<lb n="5"/><gap reason="lost" quantity="5" unit="character"/> kuṟuṇiyum <gap reason="lost" quantity="10" unit="character"/> 
+					<lb n="6"/>ka munṟu potaikku taiyiramutu munnāḻiyum At<unclear>tay</unclear>āmattu
+					<lb n="7" break="no"/>kku tayiramutu Uriyumāka tayiramutu munnāḻi Urikku nāḻit tayi
+					<lb n="8" break="no"/>rukku nellu Irunāḻi Uriyāka vanta nellu ku<unclear>ṟu</unclear>ṇi muḻākku
+					<lb n="9" break="no"/>m Ittevarkku Aṭaikkāyamirtu poteṭṭāka muṉṟu potai
+					<lb n="10" break="no"/>kku A<supplied reason="omitted">ṭaikkāya</supplied>mirtu Irupattunālum <unclear>A</unclear>tta<unclear>cāma</unclear>ttukku Aṭaikkāyamir
+					<lb n="11" break="no"/>tu Āṟum nālu potaikku <unclear>mi</unclear>laiyamitu Aṟu<unclear>patu</unclear>māka Aṭai
+					<lb n="12" break="no"/>kkāyamirtukkum veṟṟilaiamirtumāka nellu munnāḻiyu
+					<lb n="13" break="no"/>m Inta <hi rend="grantha">śrī</hi>koyilil Eriyum tirunon=tā viḷakku Āṟukku Eṇṇai
+					<lb n="14"/>nāḻi Uriyum cantiviḷakku ciṟukālaicanti viḷakku pati<unclear>n</unclear>āṟum Uccam
+					<lb n="15" break="no"/><supplied reason="omitted">po</supplied>taikku <supplied reason="omitted">vi</supplied>ḷakku patināṟum Iravu<hi rend="grantha">sa</hi><unclear>n</unclear><hi rend="grantha"><unclear>di</unclear></hi> viḷakku Iru<unclear>pat=te</unclear>ṭṭum Āka cantiviḷakku Aṟupa<unclear>tu</unclear>kku Eṇṇai nāḻi Uriyum <hi rend="grantha">śrī</hi>palikku
+					<lb n="16"/>E<unclear>riyum piṭiviḷa</unclear>kku <unclear>ciṟukā</unclear>laikku Onṟum Ucciyam<unclear>potai</unclear>kku Onṟum
+					<lb n="17"/>Iravaikku Iraṇ<unclear>ṭu</unclear>m Āka <hi rend="grantha">śrī</hi>palikku munṟu cantikku Eriyum piṭivi
+					<lb n="18" break="no"/>ḷakku Āka <unclear>nā</unclear>lum pūtapa<unclear>li</unclear>kku viḷakku Onṟumāka viḷakku Aiñcukku Eṇ
+					<lb n="19" break="no"/>ṇai Uḻakku Āka Eṇ<unclear>ṇai mu</unclear>nnāḻi Uḻakku<supplied reason="omitted">k</supplied>ku <supplied reason="subaudible"><g type="danda">.</g></supplied> nāḻi Eṇṇaikku nellu
+					<lb n="20" break="no"/>t tūṇiyāka Eṇṇai <unclear>munn</unclear>āḻi Uḻakku<supplied reason="omitted">k</supplied>ku nellu kalane kuṟu
+					<lb n="21" break="no"/>ṇiyum <supplied reason="subaudible"><g type="danda">.</g></supplied> Ittevar<unclear>kku caniyu</unclear>m putaṉum cātta Eṇṇaikkāppukku
+					<lb n="22"/>nāḷāl Eṇ<unclear>ṇai yi</unclear>rupiṭiyāka kiḻamaikku Eṇṇai Uḻak<unclear>ku</unclear>
+					<lb n="23"/>nāl <gap reason="lost" quantity="2" unit="character"/> Eṇṇai <gap reason="lost" quantity="3" unit="character"/> kku niccam nellu Irunāḻiyum <supplied reason="subaudible"><g type="danda">.</g></supplied> <unclear>I</unclear>n⌈
+					<lb n="24" break="no"/><seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg><gap reason="lost" quantity="5" unit="character"/> potaraip palamāka Oru pa <gap reason="lost" quantity="6" unit="character"/> 
+					<lb n="25"/>llu nāḻiyum <supplied reason="subaudible"><g type="danda">.</g></supplied> tirumeyppūccukku cantaṇam muṉṟu <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg><gap reason="lost" quantity="5" unit="character"/> 
+					<lb n="26" break="no"/>māka Araippalattukku nellu nānāḻiyum <supplied reason="subaudible"><g type="danda">.</g></supplied> citāri po<unclear>tu</unclear>k kaḻa
+					<lb n="27" break="no"/>ñcāka munṟu potaikkum mukkaḻañcukku nellu <unclear>mu</unclear>nnāḻi
+					<lb n="28" break="no"/>yum <supplied reason="subaudible"><g type="danda">.</g></supplied> <hi rend="grantha">ga</hi>ṇapatiyā<surplus>Ā</surplus>rkku AppaAmitukku carkkarai Orupala<unclear>ttuk</unclear>ku niccam
+					<lb n="29"/>mu<unclear>ḻā</unclear>kkum Ittevarai tiruvārātiṉaiceyum <hi rend="grantha">brāhma</hi><unclear>ṇaṉ</unclear> Oruva
+					<lb n="30" break="no"/>nukku nicatam nellu patakkum <supplied reason="subaudible"><g type="danda">.</g></supplied> tirumañcananī raṭṭiyum tiru<unclear>vi</unclear>ḷakku
+					<lb n="31" break="no"/>t <unclear>tū</unclear>ṇṭi<unclear>yu</unclear>m parivāram <unclear>Ā</unclear>rāticcum tiruamir tiṭṭum tirumeni <gap reason="lost" quantity="2" unit="character"/> 
+					<lb n="32"/>ṭiccum maṟṟum I<hi rend="grantha">śrī</hi>koyilukku veṇṭum paṇi ce
+					<lb n="33" break="no"/>yum māṇi<unclear>kaḷ</unclear> nālvarkku perāl kuṟuṇiyāka ṉālvaṟku nellu tūṇi <supplied reason="subaudible"><g type="danda">.</g></supplied>
+					<lb n="34"/>tirupaḷḷit<unclear>t</unclear>āmam paṟittu toṭuppānukku nicatam nellu Aṟunāḻiyum <supplied reason="subaudible"><g type="danda">.</g></supplied>
+					<lb n="35"/>tiruppatiyam pāṭuvār Iruvaṟkku nittam
+					<lb n="36"/><unclear>ne</unclear>llup patak kirunāḻiyum <supplied reason="subaudible"><g type="danda">.</g></supplied> tiruvi<unclear>ḷa</unclear><supplied reason="omitted">k</supplied>ku tirume
+					<lb n="37" break="no"/>ḻukkiṭṭu ninmāniyanir pokaṭṭuvār Iruvaṟ
+					<lb n="38" break="no"/>ku perāl nitta nellu nānāḻiyāka nel
+					<lb n="39" break="no"/>lu kuṟuṇi <supplied reason="subaudible"><g type="danda">.</g></supplied> Ikkoyillukku <hi rend="grantha">śrī</hi><unclear>kā</unclear>riyamĀ
+					<lb n="40" break="no"/>rā<supplied reason="omitted">y</supplied>vāṉukku nitta nelluk <unclear>kuṟuṇi</unclear>yum <supplied reason="subaudible"><g type="danda">.</g></supplied> <unclear>ti</unclear>
+					<lb n="41" break="no"/>rukkuṭamukkil mulaparaṭaiyār <unclear>koyil</unclear> vāriya
+					<lb n="42" break="no"/><gap reason="lost" quantity="4" unit="character"/> vā<surplus>n</surplus> noruvanukku <gap reason="lost" quantity="3" unit="character"/> nellu
+					<lb n="43"/>k kuṟu<unclear>ṇi</unclear> <gap reason="lost" quantity="4" unit="character"/> kuṭamukkil mulaparaṭaiyar
+					<lb n="44" break="no"/>kkāy I<unclear>nta</unclear> <hi rend="grantha">śrī</hi>koyi<surplus>l</surplus>lukku <hi rend="grantha">śrī</hi>paṇ
+					<lb n="45" break="no"/>ṭāramce<unclear>yyum</unclear> <hi rend="grantha">brāhma</hi>ṇa<surplus>n</surplus> noruvanukku
+					<lb n="46"/>nittam <unclear>n</unclear>e<unclear>l</unclear>lup patakkum <supplied reason="subaudible"><g type="danda">.</g></supplied> Uḷttirumey
+					<lb n="47" break="no"/>kākkum <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg><gap reason="lost" quantity="3" unit="character"/> nnoruvanukku nitta nellukku kuṟu
+					<lb n="48" break="no"/>ṇiyum <supplied reason="subaudible"><g type="danda">.</g></supplied> puṟattirumeykākkum talaivāyanukku nit
+					<lb n="49" break="no"/>tam Oruvaṉukku nelluk kuṟuṇiyum <supplied reason="subaudible"><g type="danda">.</g></supplied> <unclear>ṉāḷu</unclear>ḻamuttam 
+					<lb n="50"/>colluvārkku In=ta <hi rend="grantha">śrī</hi>koyilil nitta nellu mun
+					<lb n="51" break="no"/>nāḻiyum <supplied reason="subaudible"><g type="danda">.</g></supplied> tirunan=tavānam Iṟaikku<unclear>m tiruna</unclear>n=tatavānakku
+					<lb n="52" break="no"/>ṭiyaḷukku nitta<supplied reason="omitted">m</supplied> perāl nelluk kuṟu<unclear>ṇi</unclear>
+					<lb n="53" break="no"/>yāka nitta nellup patakkum
+				</p>
+				
+			</div>
+
+			
+			<div type="commentary">
+				<p>The beginning and the end of this inscription cannot be traced on the stone.</p>
+				<p>The inscription is incomplete.</p>
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 8.235 by <bibl><ptr target="bib:SubrahmanyaAiyer1937_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1937_01"/>
+						<citedRange unit="page">129-130</citedRange>
+						<citedRange unit="item">235</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
