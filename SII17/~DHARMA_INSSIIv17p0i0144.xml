@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.144: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 144. (A.R. No. 124 of 1904.) TĪRTHANAGARI, CUDDALORE TALUK, SOUTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0144</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the east wall of the <hi rend="italic">maṇḍapa</hi> in front of the central shrine in the Śivāṅkurēśvara temple.</p>						
+
+						<p>Vikramapāṇḍya. Year 4: 1253 A.D.</p>						
+
+						<p>The details of date given, viz., <hi rend="bold">Kumbha, śu. 3, Sunday, Uttiram</hi> will correspond to <hi rend="bold">A.D. 1253, February 2, Sunday</hi>, ·71, ·76, if the <hi rend="italic">nakshatra</hi> Uttiram is taken as a mistake for Uttirāḍam.</p>						
+
+						<p>This inscription registers the gift of 20 <hi rend="italic">mā</hi> of land by Tāmandai Vēḷān Tiruvaṇṇāmalai Uḍaiyāṉ Teṉṉavarāyaṉ of Peruṅganūr in Pañchavaṉmādēvipuram, in Kuvaḷaiya-nāḍu in Rājarāja-vaḷanāḍu to the <hi rend="italic">kaṇkāṇikaraṇattār</hi> of the temple of Tiruttiṉainagaruḍaiyār as <hi rend="italic">tirunāmattukkāṇi</hi> (<hi rend="italic">See</hi> No. 122 above). </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2026-03-17" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">śrī</hi>m<unclear>e</unclear>ṟkittikku mel koṉeri
+<lb n="2" break="no"/>melkoṇṭāṉ tiripuvaṉaccakkaravattikaḷ
+<lb n="3"/><hi rend="grantha">śrī</hi>vikkira<unclear>ma</unclear>pāṇṭiyatevarkku yāṇṭu nā
+<lb n="4" break="no"/>lāvatu kumpanāyaṟṟu pū<hi rend="grantha">rvva</hi>pa<hi rend="grantha">kṣa</hi>ttu titiyaiyum
+<lb n="5"/>n<unclear>ā</unclear>yaṟṟukkiḻamaiyum peṟṟa Uttirattu nāḷ Uṭai
+<lb n="6" break="no"/>yār tiruttiṉainaka(r)ruṭaiyār koyil Āticaṇṭe<hi rend="grantha">śvara</hi>
+<lb n="7" break="no"/>tevarkaḷ kaṇkāṇi karaṇattārkku Irā<supplied reason="omitted">ca</supplied>rā<supplied reason="omitted">ca</supplied> vaḷanāṭṭu kuvaḷai
+<lb n="8" break="no"/>yanāṭṭu pañcavaṉmātevipurattu peruṅkaṉūr tāmantai
+<lb n="9" break="no"/>veḷāṉ tiruvaṇṇāmalai Uṭaiyāṉ teṉṉavarāyaṉeṉ taṉma
+<lb n="10" break="no"/>tāṉamāka <hi rend="grantha">Udaka</hi>pū<hi rend="grantha">rvva</hi>mākak kuṭutta nilattukku Ellaiyāvatu pañca
+<lb n="11" break="no"/>vaṉmātevipurattu teṉkaṭṭaḷai tāṉṟūr tirumañcaṉappe
+<lb n="12" break="no"/>ruvaḻikku vaṭakku matiḷukku meṟkku Uṭaiyār tiruttiṉainaka(r)ru
+<lb n="13" break="no"/>ṭaiyār tirunāmattukkāṇi tiruttiṉainakar Ellaikku kiḻakku
+<lb n="14"/>Ilāṭattaraiyaṉ kaṇṭam Uḷpaṭa taṭi palaviṉāl naṉceyum pu
+<lb n="15" break="no"/>ṉceyum Uḷppaṭa kuṭutta perumpaṭi <hi rend="grantha">�<num value="20">2 <g type="numeral">10</g></num>�</hi> Iṉṉilam Irupatu
+<lb n="16" break="no"/>māvum <hi rend="grantha">dha<unclear>r</unclear>mmadā</hi>ṉamāka <hi rend="grantha">Uda</hi>kapū<hi rend="grantha">rvva</hi>māka kuṭutteṉ Uṭaiyār tirutti
+<lb n="17" break="no"/>ṉainaka(r)ruṭaiyār koyil Āticaṇṭe<hi rend="grantha">śvara</hi> tevarkaḷ kaṇkāṇi k<supplied reason="omitted">āṇa</supplied>
+<lb n="18" break="no"/>ttārkku peruṅkaṉūr tāmantaiveḷāṉ tiruvaṇṇāmalai Uṭai
+<lb n="19" break="no"/>yāṉ teṉṉavarāyaṉeṉ Iṉṉilam Irupatu māvum tirunāmattu
+<lb n="20" break="no"/>kkāṇiyākak kuṭuttamaikku Ivai peruṅkaṉūr tāmantaive
+<lb n="21" break="no"/>ḷāṉ tiruvaṇṇāmalai Uṭaiyāṉ teṉṉavarāyaṉeṉ Eḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.144 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">40-41</citedRange>
+			<citedRange unit="item">144</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

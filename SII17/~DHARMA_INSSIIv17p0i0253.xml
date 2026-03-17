@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.253: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 253. (A.R. No. 231 of 1904). ŚIṄGAVARAM, GINGEE TALUK, SOUTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0253</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south base of the central shrine in the ruined Ādivarāha Perumāḷ temple.</p>						
+
+						<p>Māṟavarmaṉ Kulaśēkhara I. Year 30: 1298 A.D.</p>						
+
+						<p>The details of date given viz., 30th year, Simha śu. 11, Mūlam, may correspond to 1298 A.D., August 19. The weekday was Tuesday.</p>						
+
+						<p>This inscription records the tax-free gift of the village of Śiṅgapuram, including the lake, wet and dry lands, <hi rend="italic">puṟavaḍai, māvaḍai, maravaḍai, kuḷavaḍai, āśuvatipērkkaḍamai, kāśāyavargga [*m], kuḍipērkkaḍamai</hi> and other rights accruing from the lands including the old <hi rend="italic">tiruviḍaiyāṭṭam</hi> but excluding the <hi rend="italic">dēvadāna</hi> lands, as <hi rend="italic">tirunāmattukāṇi</hi>, for worship, festivals and repairs to the temple, for the merit of the king [Perumāḷ] to god Panri Āḻvār in Tiruppaṉṟikuṉṟu in Śiṅgapuram, in Śiṅgapura-nāḍu in Palkuṉṟakkōttam in Jayaṅgoṇḍaśōla-maṇḍalam, by the <hi rend="italic">Nāttavar</hi> of Śeñjimalai-ppaṟṟu.</p>						
+
+						<p>It mentions <hi rend="italic">Irugai madavāraṇa</hi> Rājarāja Brahmārāyaṉ among the signatories.<note n="100-1">See No. 248 above.</note></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2026-03-17" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti<unclear>śrī</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīmatkirtti</hi>yam<note n="100-2">Read ºyum.</note>tiruvāykkeḻviyu muṉṉākak komāṟapaṉmar <hi rend="grantha">tribhu</hi>vaṉac cakkaravatti<unclear>ka</unclear>ḷ [<hi rend="grantha">śrī</hi>]kulacekarat<unclear>e</unclear>vaṟku yā
+<lb n="2" break="no"/>ṇṭu <num value="30">3 <g type="numeral">10</g></num> Āvatu <hi rend="grantha">siṁ ha</hi>nāyaṟṟup <hi rend="grantha">pūrvva(m)pakṣa</hi>ttu Ēkā <hi rend="grantha">daśa</hi>yum<note n="100-3">Read <hi rend="grantha">ºdaśi</hi>yum.</note>peṟṟa mūlattu nāṭ<note n="100-4">Read nāḷ.</note> <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻamaṇṭalattup palku
+<lb n="3" break="no"/>ṉṟak koṭṭattuc ciṅkapuranāṭṭuc ciṅkapurattut tiruppaṉṟikuṉṟil nāyaṉār paṉṟi Āḻvārk kuc ceñcimalaip paṟṟil nāṭṭavarom
+<lb n="4"/>perumāḷ tirumeṉi kuṉṟātat<note n="100-5">Read naṉṟāka• ṣee īntroduction p. viii <hi rend="italic">n.</hi> 1</note>tiruvārā<hi rend="grantha">dha</hi>ṉattukkum Amutupaṭi cāttuppaṭikkum tirunāḷ Eḻuntaruḷavum maṟṟumuḷḷa ko<unclear>yi</unclear>ṟ tevaikaḷukku
+<lb n="5" break="no"/><unclear>m</unclear> tiruppaṇikkum Uṭalāka Icciṅkapura mutalaṭaṅka Iṟaiyiliyākat tiruviṭaiyāṭṭa muṉṉāḷ Ivvūr Akarappaṟṟup palataḷiteva<hi rend="grantha">dā</hi>
+<lb n="6" break="no"/>nam niṅkalāka Ivvūrum nāṭṭeriyum nāṟpāṟ kellaikkuṭpaṭṭa nañcai nilamum puṉcai nilamu<supplied reason="omitted">m</supplied> puṟavaṭai māvaṭai maravaṭai ku
+<lb n="7" break="no"/>ḷavaṭai Ācuvatiperk<unclear>ka</unclear>ṭamai kācāyavaṟka<supplied reason="omitted">m</supplied> kuṭiperk<unclear>ka</unclear>ṭamaiyu maṟṟum Ivvellai yuṭpaṭṭa <hi rend="grantha">samasta prāpti</hi>kaḷu<supplied reason="omitted">m</supplied> mu<supplied reason="omitted">ṉ</supplied>ṉāḷ paḻantiruvi
+<lb n="8" break="no"/>ṭaiyāṭṭam Ivvellaiyuḷpaṭṭa Iru<hi rend="grantha">ṣi</hi>kaḷum Entalāṉa tiruviṭaiyāṭṭa nilaṅkaḷu mutalaṭaṅkaiṟaiyiliyākac <hi rend="grantha">candrāditya</hi>va<hi rend="grantha"/>
+<lb n="9" break="no"/>rai naṭakkat tirunāmattukkāṇiyāka Ippaṭikkuk kalliluñ cempum<note n="100-6">pilum.</note>veṭṭi Ivvūrkaḷ tiruviṭaiyāṭṭamāka viṭṭom Innāṭṭavarom tāyaṉūrk komuḻāṉ Eḻuttu maṅkalaṅkiḻāṉ Eḻuttu malaiyaṉūr <unclear>m</unclear>āṭamuṭaiyāṉ Eḻuttu k<unclear>ā</unclear>ṅkayap peraiyaṉ Eḻuttu Aṅkarāya <gap reason="lost" quantity="5" unit="character"/> ttu vallavarāyaṉ Eḻuttu campuvarā<supplied reason="omitted">ya</supplied>p peraiyaṉ Eḻuttu paḷḷikkaṭṭup peraiyaṉ <unclear>Eḻuttu</unclear> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="11"/> <gap reason="lost" quantity="9" unit="character"/> kaimatavāraṇa Irā[<hi rend="grantha">ja</hi>*]rā[<hi rend="grantha">ja</hi>*] <hi rend="grantha">brahmā</hi>rā<unclear>ya</unclear>ṉ Eḻuttu paḷḷikkaṭṭu veḷāṉ Eḻuttu <g type="pc"/>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.253 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">100-101</citedRange>
+			<citedRange unit="item">253</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

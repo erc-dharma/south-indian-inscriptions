@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.235: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 235. (A.R. No. 213 of 1904.) MĒLŚĒVŪR, GINGEE TALUK, SOUTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0235</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north wall of the central shrine in the Vṛishabhapurīśvara temple.</p>						
+
+						<p>Rājarāja I. Year 24: 1008-09 A.D.</p>						
+
+						<p>This inscription commences with the <hi rend="italic">praśasti, Tirumagaḷ pōla</hi>, etc., of the king.</p>						
+
+						<p>It seems to record the assignment of paddy measured out by merchants of the village and merchants that come from outside as their contribution to the levies called <hi rend="italic">kōlaḷavu, kāl</hi> and <hi rend="italic">śiṟṟūrāṭchi</hi> collected in the village Puduppāḍikkallēri <hi rend="italic">alias</hi> Iravikulamāṇikkapuram, a part of Śēvūr for burning two lamps to god Tiruttaṉṟōṉṟi-uḍaiyār. A share of the contribution is stated to be allotted for the maintenance of the temple servants and the members of the <hi rend="italic">matha</hi> attached to the temple.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2026-03-17" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> tirumakaḷ
+<lb n="2"/>polap peru nilaccelvi
+<lb n="3" break="no"/>yu n=taṉakkeyurimai pūṇṭamai
+<lb n="4"/>maṉakkoḷak kān=taḷurccālai
+<lb n="5" break="no"/>kalamaṟuttaruḷi veṅkai nāṭuṅ kaṅ
+<lb n="6" break="no"/>kapāṭiyu nūḷampapāṭiyu n=taṭikaipāṭiyuṅ kuṭamalai
+<lb n="7"/>nāṭuṅ kollamuṅ kaliṅkamum Eṇṭicai pukaḻ
+<lb n="8"/>tara Īḻamaṇṭalamum Īṭṭapāṭi Eḻarai Ilakkamu n=ti<hi rend="grantha"/>
+<lb n="9" break="no"/>ṇṭiṟal veṉṟittaṇṭāṟ koṇṭa taṉṉeḻil
+<lb n="10"/>vaḷaruḻiyuḷellā yāṇṭu n=toḻutakai viḷaṅkum
+<lb n="11"/>yāṇṭe ceḻiyarait tecukoḷ <hi rend="grantha">śrī</hi>kovirā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>
+<lb n="12" break="no"/>rā<hi rend="grantha">ja</hi>ke<hi rend="grantha">śa</hi>ripa<hi rend="grantha">nma</hi>rāṉa <hi rend="grantha">śrī</hi> rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">jade</hi>vaṟkku yāṇṭu
+<lb n="13"/><hi rend="grantha"><unclear>2</unclear>3</hi> Āvatu ciṅkapuranāṭṭuk kiḻvaḻit tiruttāṉṟo<supplied reason="omitted">ṉ</supplied>ṟi
+<lb n="14" break="no"/>uṭaiyārkku <hi rend="grantha">śrī</hi> kāriyañ ceykiṉṟa vaṭakarai vecālippāṭi
+<lb n="15"/>vākūr nāṭṭut tāmanallūrt tāmamuḻāṉ koṟṟaṉaṅki ka<unclear>ṇ</unclear>
+<lb n="16" break="no"/>ṭu ceyvittapaṭi tiruttāṉṟoṉṟi Uṭaiyār tevatāṉam
+<lb n="17"/><unclear>c</unclear>evūrppālp putuppāṭi kalleriyāṉa <hi rend="grantha">śrī</hi>iravikula
+<lb n="18" break="no"/>māṇikkapuramum maṭamum maṭavaḷākattum kālum nāḻiyum
+<lb n="19"/>kolum veṟuṅkāy Alakukāyum ciṟṟūrāṭcciyāl van=ta
+<lb n="20"/>tum maṭamuṭaiyārkaḷu n=tevaka<hi rend="grantha">nmi</hi>kaḷum Aṭuttukkuṭuttu
+<lb n="21"/>Aṉu<hi rend="grantha">bha</hi>vittum tāṅkaḷe yaṉu<hi rend="grantha">bha</hi>vittum Ittevark
+<lb n="22" break="no"/>key mutalāyk kālaḷavālum kolāl van=tatum ciṟṟūrāṭc
+<lb n="23" break="no"/>ciyāl van=ta mīta vaṭṭi puṟavaravā va<hi rend="grantha">n</hi>tu vaṭṭi vāṇiyañ ceyvārai
+<lb n="24" break="no"/>yum Uḷḷūriru<hi rend="grantha">n</hi>tu vaṭṭi vāṇiyañ ceyvāraiyum vaṭṭiyāl nā
+<lb n="25" break="no"/>ḻi nellāka koṇṭum nicatam miraṇṭu tirunan=tāviḷakku <unclear>ca</unclear><hi rend="grantha">ntrā</hi>ti
+<lb n="26" break="no"/>taval I maṭammu
+<lb n="27" break="no"/>ṭaiyārkaḷe
+<lb n="28"/>celuttakkaṭavā
+<lb n="29" break="no"/>rkaḷāka <unclear>ca</unclear><hi rend="grantha">ntrā</hi>
+<lb n="30" break="no"/>tittaval ce
+<lb n="31" break="no"/>ya <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.235 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">88</citedRange>
+			<citedRange unit="item">235</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

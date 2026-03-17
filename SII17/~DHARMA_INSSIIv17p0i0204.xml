@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.204: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 204. (A.R. No. 183 of 1904.) TIRUVAKKARAI, VILUPPURAM TALUK, SOUTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0204</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north wall of the <hi rend="italic">maṇḍapa</hi> in front of the central shrine in the Chandramauḷīśvara temple.</p>						
+
+						<p>Kulōttuṅgachōḷa I. Year 29: 1098-99 A.D.</p>						
+
+						<p>This inscription commences with the <hi rend="italic">praśasti, Pugaḻmādu viḷaṅga</hi>, etc., of the king.</p>						
+
+						<p>It records the dedication of the services of Aṅgāḍi, her daughter Pēraṅgāḍi and her descendants as <hi rend="italic">dēvaraḍiyār</hi> to god Mahādēva in Tiruvakkarai by Amudan Paḷḷikoṇḍān, Amudan Veḷān and Amudan Uyyavandāṉ, the first being referred to as a <hi rend="italic">veḷḷāḷa</hi> resident of Pandimaṅgalattu-ppāligaiyūr in Māttūr-nāḍu in Jayaṅgoṇḍaśōḻa-maṇḍalam. This document is endorsed by the first of the three donors who are evidently brothers on account of their patronymic Amudan. The other two of the signatories are apparently described as Rājaśikhāmaṇi-ppallavaraiyaṉ and as the Mūvēndavēḷān of Karikālaśōḻatteṉkarai-nāḍu, a member of the regiment called <hi rend="italic">Mudikoṇḍaśōḻatterinda villigaḷ</hi> respectively.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2026-03-17" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> pukaḻmātu viḷaṅka <hi rend="grantha">ja</hi>yamātu vi<supplied reason="omitted">ru</supplied>mpa nilamakaḷ nilava malar makaḷ
+<lb n="2"/>puṇara Urim<hi rend="grantha">ai</hi>yiṟ ciṟan=ta maṇimuṭi cūṭi mi[ṉava*r ni]laikeṭa villavar kulaitara vikkalar ciṅkaṇar
+<lb n="3"/>melkaṭal pāyattikkaṉaittum tan cakkara naṭātti vira<hi rend="grantha">siṅhāsa</hi>nattu puvana<unclear>mu</unclear>ḻutuṭaiyāḷoṭu
+<lb n="4"/>viṟṟirun=taruḷiya korā<hi rend="grantha">ja</hi>ke<hi rend="grantha">sa</hi>ripa<hi rend="grantha">nma</hi>rāṉa<hi rend="grantha">tri</hi><supplied reason="omitted">pu</supplied>vanacakkiravattikaḷ <hi rend="grantha">śrī</hi> kulottuṅkacoḻa<hi rend="grantha">de</hi>vaṟ <supplied reason="omitted">ku</supplied>yāṇ
+<lb n="5" break="no"/>ṭu <num value="29">2 <g type="numeral">10</g> 9</num> tāvatu <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻamaṇṭalattu māttūr nā<unclear>ṭṭu</unclear>p pa<hi rend="grantha"><unclear>nti</unclear></hi>maṅkalattuppara lik<unclear>ai</unclear>
+<lb n="6"/>Ūr Irukkum veḷḷāḷan māmpākkamuṭ<hi rend="grantha">ai</hi>yān Amutan paḷḷikoṇ<unclear>ṭ</unclear>ānum Amutan veḷānum Amu<unclear>ta</unclear>
+<lb n="7" break="no"/>n Uyyavan=tā<unclear>ṉu</unclear>m I<unclear>va</unclear>ṉaivoṅkaḷaṭiyāḷ Aṅkāṭiyum Ivaḷ makaḷ pe<unclear>ra</unclear>ṅkāṭiyu<unclear>m</unclear>
+<lb n="8"/>Ivaḷ makka<unclear>ḷu</unclear>m tiruvakkar<hi rend="grantha">ai</hi>yuṭaiya mātevaṟku <hi rend="grantha">de</hi>varaṭiyārāka <hi rend="grantha">śrīhasta</hi>tt<unclear>e</unclear> nirvārttukkuṭu 
+<lb n="9" break="no"/>ttom Ivvaṉaivom Amutan paḷḷikoṇṭāṉen rā<hi rend="grantha">ja</hi>cikāmaṇi<supplied reason="omitted">p</supplied>pa<supplied reason="omitted">l</supplied>lavaraiyanen I<supplied reason="omitted">p</supplied><unclear>pa</unclear>
+<lb n="10" break="no"/>ṭi Aṟiven muṭikoṇṭacoḻat teri<hi rend="grantha"><unclear>nta</unclear></hi>villikaḷukku kūṟu karikāla coḻat tenkarai nāṭṭu muven=taveḷ<unclear>ā</unclear>
+<lb n="11" break="no"/>nen Itu <hi rend="grantha">panmāheśvararakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.204 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">72-73</citedRange>
+			<citedRange unit="item">204</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

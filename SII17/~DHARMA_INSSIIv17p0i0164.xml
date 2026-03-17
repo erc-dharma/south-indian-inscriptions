@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.164: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 164. (A.R. No. 144 of 1904.) TIRUKAṆṬHĒŚVARAM, CUDDALORE TALUK, SOUTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0164</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south base of the central shrine in the Naṭanapādēśvara temple.</p>						
+
+						<p>Kulōttuṅga I. Year 42: 1111-12 A.D.</p>						
+
+						<p>This record registers the gift of 50 sheep by Kaḷappāḷaṉ Śellaiyaṉ Tōṇṇambi of Eydamendūr, for the merit of his wife Umai Naṅgai, for half a perpetual lamp to god Tirukkaṇṇīśvaram-uḍaiya Mahādēva in Śōḻakulavallinallūr in Paṭṭāṉpākkai-nāḍu in Gaṅgaikoṇḍaśōḻa-vaḷanāḍu. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2026-03-17" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> cakkaravatti <hi rend="grantha">śrī</hi>kulottuṅkacoḻa<hi rend="grantha">de</hi>varkku yāṇ
+<lb n="2" break="no"/>ṭu nāṟpattu 2 Āvatu kaṅkaikoṇṭacoḻa vaḷanāṭṭu paṭṭāṉ
+<lb n="3"/>pākkaināṭ<unclear>ṭu</unclear> coḻakulavallinallūr tirukkaṇṇī<hi rend="grantha">śvara</hi>muṭaiya
+<lb n="4"/>mā<hi rend="grantha">de</hi>vaṟkku <unclear>Eytaneḷū</unclear>rk kaḷappāḷaṉ cellaiyaṉ to
+<lb n="5" break="no"/>ṇṇampi Akamuṭaiyāḷ Umainaṅkaikku vaitta tirunun=tā<hi rend="grantha"/>
+<lb n="6" break="no"/>viḷakku 5 Ivvaraikku pāṭṭamaṉ <gap reason="lost" quantity="4" unit="character"/> ṉaiyaṉ periyāṉ
+<lb n="7"/>pakkal Āṭu <num value="25">2 <g type="numeral">10</g> 5</num> kiḷiyaṉ te <gap reason="lost" quantity="4" unit="character"/> Āṭu <num value="25">2 <g type="numeral">10</g> 5</num> Āka Ā
+<lb n="8"/>ṭu <num value="50">5 <g type="numeral">10</g></num>m ko<supplied reason="omitted">ṇ</supplied>ṭu tirunan=tāviḷakku <gap reason="lost" quantity="3" unit="character"/> rai Erikka kaṭavom
+<lb n="9"/>Ivviruvom Iviḷakku vaip <gap reason="lost" quantity="5" unit="character"/> ṉamaṅkalappā
+<lb n="10" break="no"/>ṭi Uṭaiyāṉ mātevaṉ <gap reason="lost" quantity="5" unit="character"/> <hi rend="grantha">panmā</hi>ye<hi rend="grantha">śvara <supplied reason="omitted">ra</supplied>kṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.164 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">51-52</citedRange>
+			<citedRange unit="item">164</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

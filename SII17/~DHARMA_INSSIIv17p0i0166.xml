@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.166: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 166. (A.R. No. 146 of 1904.) TIRUKAṆṬHĒŚVARAM, CUDDALORE TALUK, SOUTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0166</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north base of the central shrine in the Naṭanapādēśvara temple.</p>						
+
+						<p>Vikramachōḷa. Year 12: 1129-30 A.D.</p>						
+
+						<p>This inscription records the gift of one <hi rend="italic">[a]ṉṟāḍu[naṟkāśu]</hi> by Maṅgalaṅkiḻān Ambalaśōḻaṉ <hi rend="italic">alias</hi> Śōḻaśikhāmaṇi Mūvēndavēḷān of Śōḻakulavallinallūr in Paṭṭān [pākkai]-nāḍu in Rājarāja-vaḷanāḍu to god Tirukkaṇṇīśvaram-uḍaiya Mahādēva of that place. It mentions Tillaināyaka Bhaṭṭan and Parāśaran Śēndaṉ Pichchadēva Bhaṭṭan.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2026-03-17" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> vikkiramacoḻa<hi rend="grantha">de</hi>vaṟku yāṇṭu <num value="12"><g type="numeral">10</g> 2</num> Āvatu <hi rend="grantha">rājarāja</hi>vaḷanāṭṭu paṭṭān <unclear>pākkai</unclear>
+<lb n="2" break="no"/>nāṭṭu coḻakulavallina<supplied reason="omitted">l</supplied>lūr tirukkaṇṇi<hi rend="grantha">śvara</hi>muṭaiya <hi rend="grantha">mahāde</hi>vaṟku Ivvūr maṅkalaṅkiḻān Ampalac 
+<lb n="3"/>coḻaṉāṉa coḻacikāmaṇi muven=taveḷān Ittevarkku vaitta can=ti viḷakku 1 Oṉṟuk kum Ikkoyi
+<lb n="4" break="no"/><unclear>l</unclear> pirāmaṇan tillaināyakapaṭṭanum parācaran cettaṉ piccateva paṭṭanum Ivviruvom <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="5"/>nṟāṭu <unclear>naṟkkācu</unclear> Ikkācu Oṉṟuṅkoṇṭu can=tirātittavaṟ ce <gap reason="lost" quantity="7" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.166 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">52-53</citedRange>
+			<citedRange unit="item">166</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
