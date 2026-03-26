@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 17.256: original edition by K. G. Krishnan</title>
+                <title type="alt">No. 256. (A.R. No. 234 of 1904.) ŚIṄGAVARAM, GINGEE TALUK, SOUTH ARCOT DISTRICT.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv17p0i0256</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>On the north base of the central shrine in the ruined Ādivarāha Perumāḷ temple.</p>						
+                            
+                            <p>Viruppaṇa Uḍaiyar. Kshaya: 1386 A.D.</p>						
+                            
+                            <p>This inscription is dated in the reign of Viruppaṇa-Uḍaiyar, son of Vīra Bokkaṇa-Uḍaiyar. This is dated in Āḍi [June-July] of Kshaya.</p>						
+                            
+                            <p>It records the making over of Peṟṟāṉ and his brother Ramāṇḍai as <hi rend="italic">tiruviḷakku kuḍi</hi> to god Paṉṟi Āḻvār, by the <hi rend="italic">nāṭṭār</hi> and <hi rend="italic">Śamaiyamudalis</hi> of Kalavai-paṟṟu. It mentions Vaṇḍuvarāpati-chchamayavēḷāṉ as the signatory.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-03-17" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> mahāmaṇḍaleśvaraN harirā</hi>yavi<hi rend="grantha">bhā</hi>ṭa<hi rend="grantha">N bhāṣai</hi>kku tappuvarāyara kaṇṭa<hi rend="grantha">N śrī</hi>vira pokkaṇaUṭaiyaru kumāra<supplied reason="omitted">r</supplied> viruppaṇa Uṭaiyar<supplied reason="omitted">k</supplied>ku cellāniṉṟa <hi rend="grantha">kṣa</hi>ya varu<hi rend="grantha">ṣaM</hi> Āṭi mātamutal perumā<unclear>ḷ</unclear> paṉṟi Āḻv<choice><sic>a</sic><corr>ā</corr></choice>rukku tiruviḷakku kuṭi Āka
+                    <lb n="2" break="no"/>kalavai paṟṟu nāṭṭārum camayamutaliyārumāka Eṅka<unclear>ḷ</unclear> kuṭiyāna peṟṟāṉaiyum Ivaṉ tampi ramāṇṭai<hi rend="grantha">yai</hi>yum cantirātitta varaiyum tiruviḷakku kuṭi Āka viṭṭom vaṇṭuvarāpatic camaiyaveḷāṉ Eḻuttu camaiyamutali Eḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 17.256 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Krishnan1964_01"/>
+                        <citedRange unit="page">102</citedRange>
+                        <citedRange unit="item">256</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
