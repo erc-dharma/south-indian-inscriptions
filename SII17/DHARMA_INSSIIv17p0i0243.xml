@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 17.243: original edition by K. G. Krishnan</title>
+                <title type="alt">No. 243. (A.R. No. 221 of 1904.) MĒLŚĒVŪR, GINGEE TALUK, SOUTH ARCOT DISTRICT.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv17p0i0243</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>On the north base of the <hi rend="italic">maṇḍapa</hi> in front of the central shrine in the Vṛishabhapurīśvara temple.</p>						
+                            
+                            <p>Rājarāja I. Year 18: 1002-03 A.D.</p>						
+                            
+                            <p>This inscription commences with the <hi rend="italic">praśasti. Tirumagal pōla</hi> etc., of the king. </p>						
+                            
+                            <p>This records that on representations made by the authorities of the temple of Tiruttāṉṟōṉṟippirāṉ in the eastern division of Śiṅgapura-nāḍu, Aruḷmoḻi-Mūvēndavēḷār, an officer who was conducting enquiries about the condition of villages from Perumaṇḍai in Perumaṇḍai-nāḍu in Veṇkuṉṟa-kkōṭṭam, made over the lands in Peruṅguḷattūr and Puduppāḍikkallēri-kkuḷaṅgaṟai to them towards worship and various other offerings. It was stipulated that the paddy collected as <hi rend="italic">vāḍākkaḍaṉ</hi> from the lands according to the <hi rend="italic">mēlvāram</hi> should be spent for the various items elaborately specified in the record.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-03-17" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <div type="textpart" n="A">
+                    <p>
+                        <lb n="A1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> tirumakaḷ polap perunilaccelviyu n=taṉakkeyurimai pūṇṭamai ma
+                        <lb n="A2" break="no"/>ṉakkoḷak kāntaḷūrccālai kalamaṟutta<unclear>ru</unclear>ḷi veṅkai nāṭuṅ kaṅkapāṭiyum ṉuḷampapāṭi
+                        <lb n="A3" break="no"/>yum <surplus>ṉuḷampa pāṭiyum</surplus> taṭik<unclear>ai</unclear>pāṭiyuṅ kuṭamalai ñāṭuṅ k<unclear>o<!--kompu clear--></unclear>llamuṅ kaliṅkamum Eṇṭicai puka
+                        <lb n="A4" break="no"/>ḻa Īḻamaṇṭalamu n=tiṇṭiṟal ve<unclear>ṉṟi</unclear>t taṇṭāṟkoṇṭa taṉṉe<unclear>ḻi</unclear>l vaḷar Ūḻiyuḷḷe
+                        <lb n="A5" break="no"/>llā viyā<unclear>ṇ</unclear>ṭum toḻutak<unclear>ai</unclear> viḷa<unclear>ṅ</unclear>kum yāṇṭe ceḻiyar<unclear>ai</unclear>t tecukoḷ <hi rend="grantha">śrī</hi>kovirā
+                        <lb n="A6" break="no"/><hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi> rā<hi rend="grantha">ja</hi>kecaripa<hi rend="grantha">nma</hi>ṟku yāṇṭu <num value="18"><g type="numeral">10</g> 8</num> Āvatu Aruḷmoḻi muventaveḷār veṇkuṉṟakko<supplied reason="omitted">ṭ</supplied>ṭattu
+                        <lb n="A7"/>perumaṇṭaināṭṭu perumaṇṭaiyile Irun=tu Ūrkaḷai vinavāyirukka ciṅkapuranāṭṭuk kiḻvaḻi
+                        <lb n="A8" break="no"/>t tiruttāṉṟoṉṟippirān koyilukku <hi rend="grantha">Istā</hi>namuṭaiya Īcānacivaṉum <hi rend="grantha">brahma</hi>ci<unclear>va</unclear>ṉum
+                        <lb n="A9"/>Uḷḷiṭṭa tevaka<hi rend="grantha">nmi</hi>kaḷ van=tu Ittevark=ku nivan=tañ ceytatillai Ittevar tevatāna māṉa ciṅkapuranāṭṭu kiḻ
+                        <lb n="A10" break="no"/>vaḻi tevatāṉap peruṅkuḷattūraiyum Ittevar tevatānam putuppāṭi kallerikkuḷaṅ kaṟaiyaiyum paṟ
+                        <lb n="A11" break="no"/>ṟuppārttu nivan=tañceytu taraveṇṭum Eṉṟu col<unclear>la</unclear> Ipperuṅkuḷattūraiyum putuppāṭi kallerik=kuṟaṅ
+                        <lb n="A12" break="no"/>kaṟ<unclear>ai</unclear>yai<unclear>yu</unclear>m <unclear>ṉi</unclear>la maḷappittu ṉil maḷan=tapaṭi ṉir nilam patiṉeṇcaraṇ kolāl <unclear>Āyira</unclear>m kuḻi koṇṭatu
+                        <lb n="A13"/>paṭṭiyākap peruṅkuḷattūr nirnilam Irupatteḻupaṭṭiyil Ukaiccarkaḷuk=ku nilaṅkalantavāṟu Aiñcu paṭṭi nilam ni
+                        <lb n="A14"/>kki niṉṟa nilam Irupattiraṇṭu paṭṭiyāl paṭṭi Oṉṟiṉukku melvārattāl vanta ṉellu Aṟu
+                        <lb n="A15" break="no"/>kalamāka Irupattiraṇṭu paṭṭiyāl nellu Āyirattu munṉūṟṟirupatik kalamum putuppā<unclear>ṭi</unclear>
+                        <lb n="A16"/>kallerik<unclear>ku</unclear>ṟaṅkaṟai ṉir nilam paṭṭi Aiñcemukkāliṉāl paṭṭi<unclear>O</unclear>ṉṟiṉuk=ku melvāram ne<supplied reason="omitted">l</supplied>lu muppat
+                        <lb n="A17" break="no"/>taiṅkalamāka Ivvaiñce mukkāṟpaṭṭiyāl van=ta nellu Irunūṟṟoru kalane <unclear>muk=ku</unclear>ṟuṇiyum
+                        <lb n="A18"/>Ivvurkaḷil ko<unclear>l</unclear>lai <unclear>ñi</unclear>laṅkaḷil Uvaccarkaḷukku ṉilaṅkalanta vaṇṇam Iraṇṭāyiraṅ kuḻi ṉikki ṉiṉṟa kollaikaḷil
+                        <lb n="A19"/>k=kaṟai Iṭṭa pokaṅkoṇṭu Orā<supplied reason="omitted">ṭ</supplied>ṭaik=ku poṉ patin kaḻañcāka poṉ <unclear>ka</unclear>ḻañciṉuk=ku nel<unclear>lu</unclear>p patiṉaiṅkalamāka nellu nūṟṟaimpati
+                        <lb n="A20" break="no"/>n kalamum Āka nellu Eṇṇāḻiyum vaḻuvāta<unclear>kkā</unclear> <gap reason="lost" quantity="6" unit="character"/> lāl Orāṭṭaik=ku vāṭākkaṭan Aḷappatāṉa nellu Āyi
+                        <lb n="A21" break="no"/>rattu Āṟunūṟṟu E<unclear>ḻu</unclear>pattoru ka<supplied reason="omitted">la</supplied>ṉe mu <gap reason="lost" quantity="6" unit="character"/> k=kuṟuṇiyum Īcāṉa civa<unclear>ṉu</unclear>m <hi rend="grantha">brahma</hi>civaṉūm
+                        <lb n="A22"/><gap reason="lost" quantity="8" unit="character"/> Uḷḷiṭṭa teva<unclear>ka</unclear><hi rend="grantha">nmi</hi>kaḷe vāṭākkaṭan Aṭṭuvatāka Innelluk=ku nivan=ta<supplied reason="omitted">m</supplied> cetapaṭi U<unclear>ṭaiyār</unclear>k=ku O
+                        <lb n="A23" break="no"/><unclear>ru</unclear>potaik=kut tiruvamirtu Arici ṉānāḻi Āka A<unclear>r<hi rend="grantha">ddha</hi>yā</unclear>mattuk=ku Uṭpaṭa <unclear>ṇā</unclear>lu pot<unclear>ai</unclear>k=kum A<supplied reason="omitted">ri</supplied>ci patakkiṉāl Aiñ<unclear>ci</unclear>raṇṭu va<unclear>ṇṇa</unclear>m
+                        <lb n="A24"/>nellu Aiṅkuṟuṇiyum <unclear>ka</unclear>ṟi Amutu p<unclear>o<!--kāl clear--></unclear>rikkaṟi Oṉṟum miḷakupoṭi Oṉṟum paruppamirtu potu Uriyākat tupparup<unclear>pu</unclear> mu
+                        <lb n="A25" break="no"/>ṉṟu potaipparuppu nāṭuriyum Arttayāmattuk=kum po<unclear>ri</unclear>kkaṟi Amutuk=kum Ākak kaṟi Amutuk=ku Orunāḷaik=ku nelluk=kuṟuṇi<unclear>yāka</unclear>
+                        <lb n="A26"/>neyyamutu Arttayāmattuk kuṭppaṭa <unclear>potāḻākkāka</unclear> neyyamirtu 2 k=ku <unclear>Oru</unclear> nāḷai nelluppatakkum tayi<unclear>ra</unclear>
+                        <lb n="A27" break="no"/><unclear>mutu potu</unclear> Uriyā<unclear>ka nālu potai</unclear>k=kum tayiramutu Irunāḻi<unclear>yu</unclear>m nittam nellu munṉāḻiyum Aṭaikkā 
+                        <lb n="A28" break="no"/><unclear>yamir</unclear>tu potu <unclear>nālāka nālu</unclear> potaikkum ve<unclear>ṟṟilai</unclear> Amutuṭpaṭa veṟuṅkāy patiṉāṟiṉukku nicatam nel
+                        <lb n="A29" break="no"/>lu <unclear>nā</unclear>nāḻi <gap reason="lost" quantity="3" unit="character"/> <unclear>tirumeypū</unclear>ccu ca<unclear>nta</unclear>ṉam <hi rend="grantha">śrī</hi>kaṇṭam nicatam <unclear>Arai</unclear>ppalamāka Orā<supplied reason="omitted">ṇṭu</supplied> munnūṟṟu Aṟupa
+                        <lb n="A30" break="no"/><unclear>tunāḷu nūṟṟu Eṇpati</unclear>n palattukku Orāṭṭaikku nellu Irupatin kalamum citārikku Akiluñ ca<unclear>nta</unclear>ṉa
+                        <lb n="A31" break="no"/>mum neriyā<hi rend="grantha">sa</hi><unclear>m</unclear> muncenṟā lacaiñcu puk<unclear>ai</unclear>k<unclear>ka</unclear> nicata<unclear>m</unclear> <unclear>A</unclear>raippala<unclear>māka</unclear> Orāṇṭu <unclear>munnūṟṟaṟupatu</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+                        <lb n="A32"/>kkum nūṟṟu Eṇpatin <unclear>palat</unclear>tukku Orāṭṭai nāḷaikku nellu Irupat<unclear>tai</unclear>ṅ kalamum <unclear>nontā viḷakku</unclear> <gap reason="lost" quantity="6" unit="character"/> 
+                        <lb n="A33"/>cilālekaippaṭi Erittuvarum nontā viḷakku nā<unclear>liṉu</unclear>kkum nontā viḷakku Eḻiṉukku viḷakkoṉ<unclear>ṟi</unclear>ṉukku nicata <gap reason="lost" quantity="6" unit="character"/> 
+                        <lb n="A34"/>m ney Uḻakkāka nicatam ney ṉā<unclear>ḻi</unclear>muḻak<surplus>k</surplus>kiṉu<unclear>kku</unclear> nicatam nellu Eḻu<unclear>kuṟuṇiyum</unclear> <gap reason="lost" quantity="6" unit="character"/> 
+                        <lb n="A35"/>tu paṉṉi<unclear>ra</unclear>ṇṭā<unclear>ka</unclear> muṉṟu yā<unclear>mattukku</unclear> <gap reason="lost" quantity="4" unit="character"/> <unclear>nicatam</unclear> ney nāḻikku nicatam nelluk kuṟuṇiyum A <gap reason="lost" quantity="4" unit="character"/> 
+                        <lb n="A36"/>na <gap reason="lost" quantity="2" unit="character"/> niṉṟiṉukku <gap reason="lost" quantity="4" unit="character"/> nellu paṉṉirukalaṉe tūṇippatakkukkum Āka Orāṇṭu <gap reason="lost" quantity="8" unit="character"/> 
+                        <lb n="A37"/>ḷ pan<unclear>ṉi</unclear>raṇṭu <gap reason="lost" quantity="1" unit="character"/> n<unclear>ta</unclear>vanattukku nellu nūṟṟu Aimpatiṉ kalamum <unclear>mu</unclear> <gap reason="lost" quantity="7" unit="character"/> 
+                        <lb n="A38"/>kku vi<unclear>t</unclear>ānam piṭikkavum viḷakkup piṭikkavum tiruppaḷḷittāmam paṟittu koṭukkavum muvarkkum ni <gap reason="lost" quantity="4" unit="character"/> 
+                        <lb n="A39"/>llukkuṟuṇi nānāḻiyum tiruvalakiṭṭut tirumeḻukku Iṭuvār Iruvarkku nicatam nellu Aṟuṉā <gap reason="lost" quantity="9" unit="character"/> 
+                        <lb n="A40"/>tiru<unclear>viḻu</unclear>ttukku nīriṟai<unclear>ccu</unclear> kaḷai kalluvār Iruvarkku puṭavai mutal Uṭpaṭa nicatam nellup pata <gap reason="lost" quantity="8" unit="character"/> 
+                        <lb n="A41"/><unclear>ru</unclear>varkkut tiruviḻāppaṅ<unclear>ku</unclear>ni Uttiram tiruviḻā Eḻunāḷaikku viḻākkoṉṟukkum tiruviḷakku Eḻunāḷaikku <gap reason="lost" quantity="7" unit="character"/> 
+                        <lb n="A42"/><unclear>Eḻupatiṉāḻikkum</unclear> Ākat tiruvuḻā Eḻunāḷaikku nellu <unclear>Ai</unclear>mpatin kalamum <unclear>teva</unclear>rkkut <unclear>ti</unclear>rupparicaṭṭamum <unclear>tiru</unclear> <gap reason="lost" quantity="8" unit="character"/> 
+                        <lb n="A43"/>kaṭṭiyum tirunamanikaiyum <hi rend="grantha">jalapa</hi>vittiramum U<unclear>t</unclear>tiyum kārttikai viḷakku Iṭa viḷakkiṉukku ney tūṇi
+                        <lb n="A44"/> <gap reason="lost" quantity="5" unit="character"/> ṉāka Ivvurt taṇṭakkuṟṟamum piṭilikai variyum koṇṭu <hi rend="grantha">Istā</hi>namuṭaiya Īcāna civaṉum <hi rend="grantha">brahma</hi>
+                        <lb n="A45"/>civaṉum Uḷ<unclear>ḷi</unclear>ṭṭa tevaka<hi rend="grantha">nmi</hi>kaḷ ceyvippārkaḷākavum Ittevarkku koṭṭum Ukaccan ceṭan kaṭampaṉum <gap reason="lost" quantity="1" unit="character"/> pukaṭṭu
+                        <lb n="A46"/><unclear>ṇaicūṟṟi</unclear>yum Uḷḷiṭṭār ceyyum paṇikku Ipperuṅkuḷattu nilaṅkalantavāṟu Āyirakkuḻip paṭṭi Aiñcu
+                        <lb n="A47"/> <gap reason="lost" quantity="2" unit="character"/> ṭṭiyum Ivvūrkkollaiyil Iraṇṭāyiraṅkuḻiyum koṇṭu Iñnilattāl nellu munnūṟṟu
+                        <lb n="A48"/> <gap reason="lost" quantity="2" unit="character"/> kalattu ceyyum paṇi talaippaṟai Oṉṟum timilai Oṉṟum mattalam Oṉṟum kaṟaṭikai
+                        <lb n="A49"/> <gap reason="lost" quantity="4" unit="character"/> <unclear>ṟu</unclear>m kaimmaṇi Oṉṟum caṅku Iraṇṭum Āka Āḷppaṉṉiraṇṭu koṇṭu paḷḷi Eḻucci
+                        <lb n="A50"/>Uṭ<unclear>p</unclear>paṭa Epperppaṭṭatuṅ koṭṭakkaṭavarkaḷākavum It ti<unclear>mi</unclear>lai kaip<unclear>pi</unclear>ṭi Oṉṟum mu <gap reason="lost" quantity="7" unit="character"/> 
+                        <lb n="A51"/>luppataṟku <hi rend="grantha">Istā</hi>namuṭaiya Īcāna civaṉum <hi rend="grantha">brahma</hi>ci
+                        <lb n="A52" break="no"/><unclear>vanum</unclear> Uḷḷiṭṭa tevaka<hi rend="grantha">nmi</hi>kaḷukku Ācāriya p<unclear>o<!--kāl clear--></unclear>kattukku ni<unclear>c</unclear>ca <gap reason="lost" quantity="4" unit="character"/> 
+                        <lb n="A53"/>lu Irutūṇi Orāṭṭaikku nellu Irunūṟṟu nāṟpatin kalamum Āka nellu A<unclear>ṟupat</unclear>
+                        <lb n="A54"/><surplus>pa</surplus>ttoru kalanemukkuṟuṇiyum Ikkoyi<unclear>l</unclear> koṭi <gap reason="lost" quantity="3" unit="character"/> <unclear>ḷa</unclear>ttu tevar tevatā<unclear>ṉa</unclear>m <unclear>cūriya</unclear> <gap reason="lost" quantity="7" unit="character"/> 
+                        <lb n="A55"/>llu munnūṟṟu muppattu mukkalane<unclear>tū</unclear>ṇiyum poṉ naṅkaḻiñciṉāl <gap reason="lost" quantity="5" unit="character"/>
+                        <lb n="A56"/><unclear>vu</unclear>m Āka nellu ṉānūṟṟu Orupatin ka<unclear>la</unclear>ttukku <unclear>nivanta</unclear>ñ ceyta<unclear>paṭi</unclear> Ittevarkku <gap reason="lost" quantity="7" unit="character"/> 
+                        <lb n="A57"/>tai <gap reason="lost" quantity="6" unit="character"/> m tiruvamirtu Arici kuṟuṇi nānāḻikku Aiñciraṇṭu vaṇṇam Oru nāḷaikku nel <gap reason="lost" quantity="8" unit="character"/> 
+                        <lb n="A58"/>miḷa <gap reason="lost" quantity="10" unit="character"/> ruppamirtu poturiyāka ku <gap reason="lost" quantity="3" unit="character"/> paruppu nāṭurikkum Āka Oru nāḷaikku nā <gap reason="lost" quantity="6" unit="character"/> 
+                        <lb n="A59"/>ti<unclear>kku</unclear>m <gap reason="lost" quantity="2" unit="character"/> ney Uḻakkāḻākkinukku nicatam nellukku<unclear>ṟu</unclear>ṇi nānāḻiyum tayiramutu po <gap reason="lost" quantity="7" unit="character"/> 
+                        <lb n="A60"/><gap reason="lost" quantity="9" unit="character"/> lu I<unclear>ru</unclear>nāḻiyum <unclear>tiru</unclear>Ārātiṉai cey<unclear>yum Oru</unclear>vaṉukku puṭa<unclear>v</unclear>ai mutaluk=ku <g type="pc">.</g> <gap reason="lost" quantity="5" unit="character"/> 
+                        <lb n="A61"/><gap reason="lost" quantity="14" unit="character"/> ḻiyum paricārakañ ceyyum māṇi Oṉṟuk=ku puṭavai mutal Uṭpaṭa nicatam nellu k=kuṟuṇiyu
+                        <lb n="A62" break="no"/><unclear>m no</unclear>n=tāvi<unclear>ḷa</unclear>k=ku ṉālinuk=ku tirunon=tāviḷak=ku Oṉṟinukku nicatam ney Uḻakkāka non=tāvi<unclear>ḷa</unclear>kku nālinukku ni <gap reason="lost" quantity="6" unit="character"/> 
+                        <lb n="A63"/>ney nāḻiyum <hi rend="grantha">sa</hi>n=ti viḷakkup potu Āṟāka muṉṟu <hi rend="grantha">sa</hi>n=tikkum <hi rend="grantha">sa</hi>n=ti viḷakkinukku nicatam ney Uḻakku
+                        <lb n="A64"/><unclear>Ā</unclear>ka nicatam ney nāḻi Uḻakkinukku Orāṭṭaikku nellu nūṟṟu ṉāṟpattu Eḻu kalaṉetūṇi pa
+                        <lb n="A65"/><unclear>ta</unclear>kkum Āka nellu ṉāṉūṟṟu Oru patinkalamum
+                    </p>
+                </div>
+                
+                <div type="textpart" n="B"><note>Another piece which does not run on reads as follows:</note>
+                    <p>
+                        <lb n="B1"/>ṭṭa pari <gap reason="lost" quantity="6" unit="character"/> āra tey <gap reason="lost" quantity="10" unit="character"/> kku <gap reason="lost" quantity="9" unit="character"/> <unclear>kku <hi rend="grantha">śrī ba</hi></unclear><hi rend="grantha">li ma</hi>ṭaṅkum maṉa <gap reason="lost" quantity="2" unit="character"/> viḷakkerikka ney Uḻakkiṉukku nitam nellukkuṟu
+                        <lb n="B2" break="no"/>ṇiyum <hi rend="grantha">śrī<unclear>ba</unclear>li</hi>kkum pūtapalikkum viḷakku Iraṇṭi<unclear>nu</unclear>kku muṉṟu potaikku<unclear>mmāka</unclear> ney <unclear>U</unclear>ḻakkāḻākkinukku ni
+                        <lb n="B3" break="no"/>catam nellukkuṟuṇi nāṉāḻiyum tiruvārātiṉai ce<unclear>yu</unclear>m <hi rend="grantha">brā<unclear>hma</unclear></hi>ṇan <unclear>Oruva</unclear>ṉukku nicatam nelluk kuṟu
+                        <lb n="B4" break="no"/>ṇi Iru nāḻiyum <unclear>Iva</unclear>nukku Orāṭṭaikkup puṭavai mutalukku nelluppati <gap reason="lost" quantity="2" unit="character"/> tū <gap reason="lost" quantity="1" unit="character"/> 
+                        <lb n="B5"/>yum māṇi Iraṇṭukku puṭavai mutaluṭpaṭa Orāṭṭaikku nellup patakku nānā
+                    </p>
+                </div>
+                
+            </div>
+                <div type="apparatus">
+                    
+                </div>
+                
+                <div type="commentary">
+                    <p n="A65"><foreign>patinkalamum</foreign>. Incomplete.</p>
+                </div>
+                
+                <div type="bibliography">
+                    
+                    <p>Digital edition of SII 17.243 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                    
+                    <listBibl type="primary">
+                        
+                        <bibl n="SII">
+                            <ptr target="bib:Krishnan1964_01"/>
+                            <citedRange unit="page">91-94</citedRange>
+                            <citedRange unit="item">243</citedRange>
+                        </bibl>
+                        
+                    </listBibl>
+                    
+                    <listBibl type="secondary">
+                        
+                        <bibl/>
+                        
+                    </listBibl>
+                    
+                </div>
+            
+        </body>
+    </text>
+</TEI>
