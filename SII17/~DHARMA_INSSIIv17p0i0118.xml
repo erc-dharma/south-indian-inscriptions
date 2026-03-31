@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.118: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 118.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0118</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						<p>On a slab set up in the south-west corner of the Kallēśvara temple.</p>						
+
+						<p>986 A.D.</p>						
+
+						<p>This is dated in <hi rend="bold">Śaka 907, Pārthiva, Phālguṇa, Puṇṇame</hi>, probably corresponding to <hi rend="bold">986 A.D., February 27.</hi></p>						
+
+						<p>It seems to record a gift of income from levies to Bācha by the One-hundred and twenty <hi rend="italic">mahājanas</hi> of Sindamuge in appreciation of his heroism in an attack by Kaliga and others. It further records the conferring of the title Irmmaḍi-gadamba to Manneyara Ballaha for having killed Kaliga.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2026-03-31" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti sakava¨rṣa <unclear>907</unclear> pā¨rttiva saṁvatsaraṁ prava¨rttise tadvariṣābhyantarada <unclear>phā</unclear>lgu<unclear>ṇa</unclear>
+<lb n="2"/><unclear>mā</unclear>sada puṇname modalāge sāsi¨rbarū<unclear>rāḻdu</unclear> cika <unclear>bā</unclear>saṁgaḷa kaliganeṁba <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="3"/> <gap reason="lost" quantity="1" unit="character"/> ya <unclear>bīḍaṁ baṭṭaṇaṁ kiḍisi</unclear> sausi¨rbaro<unclear>ḷaṁ bāca</unclear> kādi koḷutire kaliga<unclear>no</unclear>
+<lb n="4" break="no"/>ḷagāge padiṁbara taleyaṁ koṇḍaḍe sāsi¨rbaruṁ mecciyeleya pēṟiṁ
+<lb n="5" break="no"/>ge nūṟu talevoṟege Ayvattu I<unclear>vaṁ</unclear> caṁ<unclear>drā</unclear>dityaṁbara<unclear>mava</unclear>
+<lb n="6"/>varaṁ makaḷa makaḷvaraṁ naḍeyisidavarāvarājyamādo<unclear>ḍa</unclear>
+<lb n="7"/>mava¨rgge sāsi¨rbba<unclear>rū</unclear>ḍuvaru Intappudake sinda<unclear>mu</unclear>geya ma
+<lb n="8" break="no"/><unclear>hājanaṁ</unclear> nūṟi¨rppadiṁbara ta<unclear>ḷavu</unclear> cikana bāsana mā
+<lb n="9" break="no"/>rana makaḷa makaḷvaraṁ tammutta mūvaru muṇbaru sā
+<lb n="10" break="no"/>si¨rbbaruṁ kadalīyade naḍeyisuvaruṁ maṁgaḷaṁ <g type="ddanda">.</g>
+<lb n="11"/><note n="26-1">This is engraved on the top to the proper left.</note>ma<unclear>nne</unclear>yara ballahaṁ cikabāsa
+<lb n="12"/>rā<unclear>ḷ</unclear> kaliganaṁ kondaḍe mecci I
+<lb n="13" break="no"/>¨rmmaḍi gadaṁba neṁba pesaraṁ ko <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="14"/> <gap reason="lost" quantity="1" unit="character"/> kudureveraḍaṁ sinda <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="15"/>koṭṭa[ṁ <g type="danda">.</g>] maṁgaḷa
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.118 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">26</citedRange>
+			<citedRange unit="item">118</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
