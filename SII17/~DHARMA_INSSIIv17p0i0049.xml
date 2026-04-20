@@ -5,145 +5,150 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>SII 17.49: original edition by K. G. Krishnan</title>
-				<title type="alt">No. 49. (A.R. No. 47 of 1904). KUḌATINI, BELLARY TALUK, BELLARY DISTRICT.</title>
-				<respStmt>
-					<resp>author of digital edition</resp>
-					<persName ref="part:emfr">
-						<forename>Emmanuel</forename>
-						<surname>Francis</surname>
-					</persName>
-				</respStmt>
-			</titleStmt>
-			<publicationStmt>
-				<authority>DHARMA</authority>
-				<pubPlace>Paris, CEIAS</pubPlace>
-				<idno type="filename">DHARMA_INSSIIv17p0i0049</idno>
-			</publicationStmt>
-			<sourceDesc>
-				<msDesc>
-					<msIdentifier>
-						<repository>DHARMAbase</repository>
-						<idno/>
-					</msIdentifier>
-					<msContents>
-						<summary>
-
-						<p>On a fragment of slab built into the platform in front of the Kumārasvāmin temple. Nityavarsha. (India III).</p>						
-
-						<p>This inscription engraved in early Nāgarī characters consists of three sections (A.B and C) of which the third (C) is engraved in a different hand and does not appear to belong to the first two.</p>						
-
-						<p>Section A belongs to the Rāshṭrakūṭa king Nityavarshadēva Pṛithvī-vallabha who is stated to have meditated at the feet of Akālavarshadēva. The Śaka year cited at the beginning is lost due to damage and <hi rend="bold">Vikrama, Māgha, śu. Rathasaptamī, Sunday</hi>, are the only details of date available (See Introduction)••••</p>						
-
-						<p>Section B seems to deal with the exploits of a chief called Aiyaṇaiya and refers to a princess of the Sindu (for Sindhu ?) family. The date is lost here also.</p>						
-
-						<p>Section C mentions Dhōra and describes the achievements of the two chieftains belonging to the Chālukya family, Balavarman and his son, Daśavarman. Kāñchi and the planting of the two teeth of a tusker are mentioned in this connection.</p>						
-
-						</summary>
-					</msContents>
-					<physDesc>
-						<handDesc>
-							<p/>
-						</handDesc>
-					</physDesc>
-				</msDesc>
-			</sourceDesc>
-		</fileDesc>
-		<revisionDesc>
-			<change who="part:emfr" when="2026-03-31" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-		</revisionDesc>
-	</teiHeader>
-	<text xml:space="preserve">
-		<body>
-
-<div type="edition" xml:lang="und" rendition="class:nāgarī maturity:undetermined">
-
-<!--<h4>A</h4>-->
-
-<p>
-<lb n="1"/> <gap reason="lost" quantity="4" unit="character"/> ṣvaṅkataḥ saṁva <gap reason="lost" quantity="1" unit="character"/> 
-<lb n="2"/> <gap reason="lost" quantity="3" unit="character"/> <unclear>pravarddha</unclear>mānavikramasaṁvatsarā<supplied reason="omitted">nta</supplied> 
-<lb n="3" break="no"/>rgatamāghamāsaśuklara<unclear>tha</unclear>saptamyāṁ(myām)<note n="10-1">The letters given in the round brackets in this text sus�t corrections.</note>
-<lb n="4"/>Ādityavāre ramāsyāṁ<note n="10-2">Read �yāṁ</note>saṁvatsaramāsapa 
-<lb n="5" break="no"/>kṣadivasapūrvvāyāṁ tithau paramabhaṭṭāra 
-<lb n="6" break="no"/>ka mahārājādhirāja paramaśvara śrī 
-<lb n="7" break="no"/><unclear>ma</unclear>dakālavarṣadevapādānudhyāta paramabha 
-<lb n="8" break="no"/>ṭṭārakamahārājādhirāja parameśvara śrī 
-<lb n="9" break="no"/>mannityavarṣadevapṛthvīvallabhaśrīva 
-<lb n="10" break="no"/> <gap reason="lost" quantity="9" unit="character"/> dopajīvī 
-<lb n="11"/> <gap reason="lost" quantity="9" unit="character"/> rendraputr<unclear>ā</unclear> 
-</p>
-
-<!--<h4>B</h4>-->
-
-<p>
-<lb n="1"/> <gap reason="lost" quantity="5" unit="character"/> māsa ga <gap reason="lost" quantity="2" unit="character"/> 
-<lb n="2"/> <gap reason="lost" quantity="5" unit="character"/> <g type="ddanda">.</g> papā devī pra <gap reason="lost" quantity="2" unit="character"/> 
-<lb n="3"/> <gap reason="lost" quantity="5" unit="character"/> ṅki sa<unclear>rvvā</unclear>nadhi ko bhūdi<unclear>ndra</unclear> <gap reason="lost" quantity="4" unit="character"/> 
-<lb n="4"/> <gap reason="lost" quantity="6" unit="character"/> dhikobhūdaiyaṇaiyanṛpatirayaṁ <unclear>saḥ</unclear> <gap reason="lost" quantity="4" unit="character"/> 
-<lb n="5"/> <gap reason="lost" quantity="6" unit="character"/> durgamagrahītsamare nirjitya ripurājendrān <g type="ddanda">.</g> <gap reason="lost" quantity="3" unit="character"/> 
-<lb n="6"/> <gap reason="lost" quantity="5" unit="character"/> ndrendrabhūvalayavallabhapādapadmabhaktibhramadbhramara Eṣa tathāpya <gap reason="lost" quantity="3" unit="character"/> 
-<lb n="7"/> <gap reason="lost" quantity="5" unit="character"/> leṣu dhavalaḥ prabhu<unclear>rai</unclear>yaṇaiyaḥ <supplied reason="undefined"><g type="danda">.</g></supplied> sau(śau)rye harissakalapū<unclear>rṇṇa</unclear> <gap reason="lost" quantity="7" unit="character"/> 
-<lb n="8"/> <gap reason="lost" quantity="5" unit="character"/> rttasvāmī viśrutakīrttirūrjitaguṇastīrtheṣva <gap reason="lost" quantity="5" unit="character"/> 
-<lb n="9"/> <gap reason="lost" quantity="5" unit="character"/> vijṛmbhitena mahatā kenāpi luptodayaḥ soyaṁ śrībharadaṁkakāra <gap reason="lost" quantity="5" unit="character"/> 
-<lb n="10"/> <gap reason="lost" quantity="5" unit="character"/> pratiṣṭhāṁ punaḥ <g type="danda">.</g> prāyaḥ svāmihitaikavṛttiradhika<unclear>śrīmā</unclear> <gap reason="lost" quantity="7" unit="character"/> 
-<lb n="11"/> <gap reason="lost" quantity="5" unit="character"/> ṇaḥ <g type="ddanda">.</g> śrīmatsindu(ndhu)kulānvayaikatilakā <gap reason="lost" quantity="2" unit="character"/> tyāhi śailābhi<unclear>bakā</unclear> <gap reason="lost" quantity="4" unit="character"/> <g type="danda">.</g> 
-<lb n="12"/> <gap reason="lost" quantity="5" unit="character"/> bhidhānanṛpaterlakṣmīrivāṁbhonidheḥ <g type="ddanda">.</g> tasyā <supplied reason="omitted">ḥ</supplied> śrīgha<unclear>ṭemalla</unclear> 
-<lb n="13"/> <gap reason="lost" quantity="5" unit="character"/> raiyaṇaiyaḥ prabhuḥ <g type="ddanda">.</g> svāmī prastutakārttikeyamakaro <gap reason="lost" quantity="4" unit="character"/> 
-<lb n="14"/> <gap reason="lost" quantity="5" unit="character"/> sthāyinaṁ(nam) <g type="ddanda">.</g> tha <g type="ddanda">.</g> śakanṛpakālātītasaṁvatsaraśate <gap reason="lost" quantity="4" unit="character"/> 
-</p>
-
-<!--<h4>C</h4>-->
-
-<p>
-<lb n="1"/>śrīmāṁścālū(lu)<unclear>kya</unclear>vaṁśe samajani nihatāśeṣaśa<unclear>tru</unclear> 
-<lb n="2"/>kṣitīśo nyāyāpeta(tāṁ) sa pṛthvī(thvīṁ) caturudadhilatā<unclear>veṣṭi</unclear> 
-<lb n="3" break="no"/>tāṁ yaḥ prabhūtāt <g type="danda">.</g> Ākṛṣyādātukāmo nṛpasadasi ta 
-<lb n="4" break="no"/>dā dhoranāmne mahomna(ndro) <g type="danda">.</g><note n="11-1">The <hi rend="italic">daṇḍa</hi> is unnecessary.</note>dūṣyodvaddaṇḍikāyāṁ sanakṛta bala 
-<lb n="5" break="no"/>varmo(rmā)dhipaḥ paṭṭabandhaṁ(ndhan) <g type="ddanda">.</g> saṁprāmaikarasaḥ parākramadhanaḥ kāṁ<unclear>cī</unclear> 
-<lb n="6" break="no"/>sa(śa)mugrāhave jitvā so(vo)ragajendradantayugalaṁ saṁsyāpya nāmāṁkitaṁ(tam) <supplied reason="undefined"><g type="danda">.</g></supplied> khyā 
-<lb n="7" break="no"/>tālaṁpū(pu)ranāmadheyanagarabrahmeśvarasyāgrataḥ <g type="danda">.</g><note n="11-1">The <hi rend="italic">daṇḍa</hi> is unnecessary.</note>soyaṁ tasya suto<unclear>bhya</unclear> 
-<lb n="8" break="no"/>dhāyi daśavarmākhyaḥ pracaṇḍodayaḥ <supplied reason="undefined"><g type="ddanda">.</g></supplied> tasya sūtu<unclear>ra</unclear>bhavatparākramā<unclear>krāntavi</unclear> 
-<lb n="9" break="no"/><unclear>śvaripu</unclear>bhūpama<unclear>ṇḍa</unclear>laḥ <supplied reason="undefined"><g type="danda">.</g></supplied> Anvayaikatila<unclear>kaḥ</unclear> <gap reason="lost" quantity="2" unit="character"/> 
-<lb n="10"/>Iti <gap reason="lost" quantity="10" unit="character"/> 
-</p>
-
-</div>
-
-<div type="apparatus">
-
-</div>
-
-<div type="commentary">
-
-</div>
-
-<div type="bibliography">
-
-	<p>Digital edition of SII 17.49 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
-
-	<listBibl type="primary">
-
-		<bibl n="SII">
-			<ptr target="bib:Krishnan1964_01"/>
-			<citedRange unit="page">10-11</citedRange>
-			<citedRange unit="item">49</citedRange>
-		</bibl>
-
-	</listBibl>
-
-	<listBibl type="secondary">
-
-		<bibl/>
-
-	</listBibl>
-
-</div>
-
-	</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 17.49: original edition by K. G. Krishnan</title>
+                <title type="alt">No. 49. (A.R. No. 47 of 1904). KUḌATINI, BELLARY TALUK, BELLARY DISTRICT.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv17p0i0049</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>On a fragment of slab built into the platform in front of the Kumārasvāmin temple. Nityavarsha. (India III).</p>						
+                            
+                            <p>This inscription engraved in early Nāgarī characters consists of three sections (A, B and C) of which the third (C) is engraved in a different hand and does not appear to belong to the first two.</p>						
+                            
+                            <p>Section A belongs to the Rāshṭrakūṭa king Nityavarshadēva Pṛithvī-vallabha who is stated to have meditated at the feet of Akālavarshadēva. The Śaka year cited at the beginning is lost due to damage and <hi rend="bold">Vikrama, Māgha, śu. Rathasaptamī, Sunday</hi>, are the only details of date available (See Introduction).</p>						
+                            
+                            <p>Section B seems to deal with the exploits of a chief called Aiyaṇaiya and refers to a princess of the Sindu (for Sindhu ?) family. The date is lost here also.</p>						
+                            
+                            <p>Section C mentions Dhōra and describes the achievements of the two chieftains belonging to the Chālukya family, Balavarman and his son, Daśavarman. Kāñchi and the planting of the two teeth of a tusker are mentioned in this connection.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-03-31" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="und" rendition="class:nāgarī maturity:undetermined">
+                
+                <div type="textpart" n="A">
+                    
+                    <p>
+                        <lb n="A1"/> <gap reason="lost" quantity="4" unit="character"/> ṣvaṅkataḥ saṁva <gap reason="lost" quantity="1" unit="character"/> 
+                        <lb n="A2"/> <gap reason="lost" quantity="3" unit="character"/> <unclear>pravarddha</unclear>mānavikramasaṁvatsarā<supplied reason="omitted">nta</supplied> 
+                        <lb n="A3" break="no"/>rgatamāghamāsaśuklara<unclear>tha</unclear>saptamyāṁ(myām)<note n="10-1">The letters given in the round brackets in this text suggest corrections.</note>
+                        <lb n="A4"/>Ādityavāre ramāsyāṁ<note n="10-2">Read �yāṁ</note>saṁvatsaramāsapa 
+                        <lb n="A5" break="no"/>kṣadivasapūrvvāyāṁ tithau paramabhaṭṭāra 
+                        <lb n="A6" break="no"/>ka mahārājādhirāja paramaśvara śrī 
+                        <lb n="A7" break="no"/><unclear>ma</unclear>dakālavarṣadevapādānudhyāta paramabha 
+                        <lb n="A8" break="no"/>ṭṭārakamahārājādhirāja parameśvara śrī 
+                        <lb n="A9" break="no"/>mannityavarṣadevapṛthvīvallabhaśrīva 
+                        <lb n="A10" break="no"/> <gap reason="lost" quantity="9" unit="character"/> dopajīvī 
+                        <lb n="A11"/> <gap reason="lost" quantity="9" unit="character"/> rendraputr<unclear>ā</unclear> 
+                    </p>
+                    
+                </div>
+                
+                <div type="textpart" n="B">
+                    
+                    <p>
+                        <lb n="B1"/> <gap reason="lost" quantity="5" unit="character"/> māsa ga <gap reason="lost" quantity="2" unit="character"/> 
+                        <lb n="B2"/> <gap reason="lost" quantity="5" unit="character"/> <g type="ddanda">.</g> papā devī pra <gap reason="lost" quantity="2" unit="character"/> 
+                        <lb n="B3"/> <gap reason="lost" quantity="5" unit="character"/> ṅki sa<unclear>rvvā</unclear>nadhi ko bhūdi<unclear>ndra</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+                        <lb n="B4"/> <gap reason="lost" quantity="6" unit="character"/> dhikobhūdaiyaṇaiyanṛpatirayaṁ <unclear>saḥ</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+                        <lb n="B5"/> <gap reason="lost" quantity="6" unit="character"/> durgamagrahītsamare nirjitya ripurājendrān <g type="ddanda">.</g> <gap reason="lost" quantity="3" unit="character"/> 
+                        <lb n="B6"/> <gap reason="lost" quantity="5" unit="character"/> ndrendrabhūvalayavallabhapādapadmabhaktibhramadbhramara Eṣa tathāpya <gap reason="lost" quantity="3" unit="character"/> 
+                        <lb n="B7"/> <gap reason="lost" quantity="5" unit="character"/> leṣu dhavalaḥ prabhu<unclear>rai</unclear>yaṇaiyaḥ <supplied reason="undefined"><g type="danda">.</g></supplied> sau(śau)rye harissakalapū<unclear>rṇṇa</unclear> <gap reason="lost" quantity="7" unit="character"/> 
+                        <lb n="B8"/> <gap reason="lost" quantity="5" unit="character"/> rttasvāmī viśrutakīrttirūrjitaguṇastīrtheṣva <gap reason="lost" quantity="5" unit="character"/> 
+                        <lb n="B9"/> <gap reason="lost" quantity="5" unit="character"/> vijṛmbhitena mahatā kenāpi luptodayaḥ soyaṁ śrībharadaṁkakāra <gap reason="lost" quantity="5" unit="character"/> 
+                        <lb n="B10"/> <gap reason="lost" quantity="5" unit="character"/> pratiṣṭhāṁ punaḥ <g type="danda">.</g> prāyaḥ svāmihitaikavṛttiradhika<unclear>śrīmā</unclear> <gap reason="lost" quantity="7" unit="character"/> 
+                        <lb n="B11"/> <gap reason="lost" quantity="5" unit="character"/> ṇaḥ <g type="ddanda">.</g> śrīmatsindu(ndhu)kulānvayaikatilakā <gap reason="lost" quantity="2" unit="character"/> tyāhi śailābhi<unclear>bakā</unclear> <gap reason="lost" quantity="4" unit="character"/> <g type="danda">.</g> 
+                        <lb n="B12"/> <gap reason="lost" quantity="5" unit="character"/> bhidhānanṛpaterlakṣmīrivāṁbhonidheḥ <g type="ddanda">.</g> tasyā <supplied reason="omitted">ḥ</supplied> śrīgha<unclear>ṭemalla</unclear> 
+                        <lb n="B13"/> <gap reason="lost" quantity="5" unit="character"/> raiyaṇaiyaḥ prabhuḥ <g type="ddanda">.</g> svāmī prastutakārttikeyamakaro <gap reason="lost" quantity="4" unit="character"/> 
+                        <lb n="B14"/> <gap reason="lost" quantity="5" unit="character"/> sthāyinaṁ(nam) <g type="ddanda">.</g> tha <g type="ddanda">.</g> śakanṛpakālātītasaṁvatsaraśate <gap reason="lost" quantity="4" unit="character"/> 
+                    </p>
+                    
+                </div>
+                
+                <div type="textpart" n="C">
+                    
+                    <p>
+                        <lb n="C1"/>śrīmāṁścālū(lu)<unclear>kya</unclear>vaṁśe samajani nihatāśeṣaśa<unclear>tru</unclear> 
+                        <lb n="C2"/>kṣitīśo nyāyāpeta(tāṁ) sa pṛthvī(thvīṁ) caturudadhilatā<unclear>veṣṭi</unclear> 
+                        <lb n="C3" break="no"/>tāṁ yaḥ prabhūtāt <g type="danda">.</g> Ākṛṣyādātukāmo nṛpasadasi ta 
+                        <lb n="C4" break="no"/>dā dhoranāmne mahomna(ndro) <g type="danda">.</g><note n="11-1">The <hi rend="italic">daṇḍa</hi> is unnecessary.</note>dūṣyodvaddaṇḍikāyāṁ sanakṛta bala 
+                        <lb n="C5" break="no"/>varmo(rmā)dhipaḥ paṭṭabandhaṁ(ndhan) <g type="ddanda">.</g> saṁprāmaikarasaḥ parākramadhanaḥ kāṁ<unclear>cī</unclear> 
+                        <lb n="C6" break="no"/>sa(śa)mugrāhave jitvā so(vo)ragajendradantayugalaṁ saṁsyāpya nāmāṁkitaṁ(tam) <supplied reason="undefined"><g type="danda">.</g></supplied> khyā 
+                        <lb n="C7" break="no"/>tālaṁpū(pu)ranāmadheyanagarabrahmeśvarasyāgrataḥ <g type="danda">.</g><note n="11-1">The <hi rend="italic">daṇḍa</hi> is unnecessary.</note>soyaṁ tasya suto<unclear>bhya</unclear> 
+                        <lb n="C8" break="no"/>dhāyi daśavarmākhyaḥ pracaṇḍodayaḥ <supplied reason="undefined"><g type="ddanda">.</g></supplied> tasya sūtu<unclear>ra</unclear>bhavatparākramā<unclear>krāntavi</unclear> 
+                        <lb n="C9" break="no"/><unclear>śvaripu</unclear>bhūpama<unclear>ṇḍa</unclear>laḥ <supplied reason="undefined"><g type="danda">.</g></supplied> Anvayaikatila<unclear>kaḥ</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+                        <lb n="C10"/>Iti <gap reason="lost" quantity="10" unit="character"/> 
+                    </p>
+                </div>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 17.49 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Krishnan1964_01"/>
+                        <citedRange unit="page">10-11</citedRange>
+                        <citedRange unit="item">49</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
 </TEI>
