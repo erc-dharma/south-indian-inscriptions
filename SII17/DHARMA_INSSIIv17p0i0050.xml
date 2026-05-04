@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 17.50: original edition by K. G. Krishnan</title>
+                <title type="alt">No. 50. (A.R. No. 48 of 1904). KUḌATINI, BELLARY TALUK, BELLARY DISTRICT.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv17p0i0050</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>On a slab built into the platform in front of the Kumārasvāmin temple.</p>						
+                            
+                            <p>1168 A.D.</p>						
+                            
+                            <p>This is dated Śaka 1990, Sarvajit, Māgha, śu. 5, Thursday. The details correspond to 1168 A.D., January 18. The <hi rend="italic">tithi</hi> ended at ·19 on the previous day. The Śaka year was current.</p>						
+                            
+                            <p>It records that the son, name lost, of the Gāvuṇḍa of Koṅkaṇagēri raised a shrine for god Ṛiṇamōchanadēva, consecrated the god therein and also made provision for the repairs and upkeep of the shrine. It further records that Habbimayya Sāvidēva made a gift of land to the same god. The record states that during the period <hi rend="italic">Dandāsani</hi> Purushōttama-brahmachāri-arasar was ruling over the territorv. </p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-03-31" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+                
+                <p>
+                    <lb n="1"/>jayābhyudayaśca <g ref="sym:ddanda">.</g>
+                </p>
+                
+                <lg n="1" met="anuṣṭubh" xml:lang="san-Latn" rendition="class:kannada maturity:undetermined">
+                    <l n="a" enjamb="yes">
+                        namastuṁga śiraścuṁbi</l>
+                    <l n="b">caṁdra cāma<unclear>ra</unclear>
+                        <lb n="2"/><unclear>cāravē</unclear></l>
+                    <l n="c"><unclear>trai</unclear>ḷōkya nagarāraṁbha</l>
+                    <l n="d">mūlastaṁbhāyaśaṁbhavē <g ref="sym:ddanda">.</g>
+                    </l>
+                </lg>
+                
+                <p>
+                    jayatyāniṣkṛtaṁviṣṇō
+                    <lb n="3" break="no"/><unclear>rvvārāhaṁ kṣō</unclear>bhitārṇnavaṁ dakṣiṇōnnata daṁṣṭrāgraṁ viśrāṁtabhuvanaṁ vapuḥ <supplied reason="undefined"><g ref="sym:ddanda">.</g></supplied>
+                    <lb n="4"/><gap reason="lost" quantity="5" unit="character"/> ttaharaṁ nārāyaṇapriyaṁ pārdatīśanādaivamēyaṁ <seg rend="check"><unclear>·ṛ</unclear></seg>ṇamō
+                    <lb n="5" break="no"/><gap reason="lost" quantity="6" unit="character"/> ḍitarṇiya janāvaḷige māḷkesukhasaṁpadamaṁ <g ref="sym:ddanda">.</g> svasti samadhigata <unclear>paṁ</unclear>
+                    <lb n="6" break="no"/><unclear>camahā</unclear>śabda vratajapaniyamasaṁyuktaruṁ śrī kārttikēyadēvata�<unclear>na</unclear>
+                    <lb n="7"/> <gap reason="lost" quantity="3" unit="character"/> <unclear>ma</unclear>ppa śrīmaddaṁḍāsani puruṣōttama brahmacāriya rasar rā<unclear>jaṁ</unclear>
+                    <lb n="8"/><gap reason="lost" quantity="4" unit="character"/> mire <g ref="sym:ddanda">.</g> svasti śrīmat <unclear>śaka</unclear>nṛpavarṣada 1190 ttaneya sarva<unclear>jit saṁva</unclear>
+                    <lb n="9"/><unclear>tsatada mā</unclear>gha śuddha paṁcami <unclear>bṛha</unclear>spati vāradaṁdu koṁkaṇagēriya gu
+                    <lb n="10" break="no"/><gap reason="lost" quantity="6" unit="character"/> �ḍana maga māḷa <gap reason="lost" quantity="5" unit="character"/> <seg rend="check">·</seg>ṛṇamōcanadēvargge Ā <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="11"/><gap reason="lost" quantity="6" unit="character"/> <unclear>mā</unclear>ḍisi <unclear>kaḷasa</unclear> pratiṣṭaya samayadoḷ�ṁḍa sphuṭita jī <gap reason="lost" quantity="6" unit="character"/> 
+                    <lb n="12"/><gap reason="lost" quantity="6" unit="character"/> keyi mudiyagāvuṁḍa voṁdoḷ mattar 4 <unclear>kaṁ</unclear> 7 <gap reason="lost" quantity="6" unit="character"/> 
+                    <lb n="13"/><gap reason="lost" quantity="15" unit="character"/> <g ref="sym:ddanda">.</g> teṁ 19 habbimeyana sāvidēvaṁ dēvargge ba <gap reason="lost" quantity="6" unit="character"/> 
+                    <lb n="14"/><gap reason="lost" quantity="12" unit="character"/> <unclear>ṟaṁ</unclear> mūḍal daṭṭavoladoḷ mattar 5 Uda <gap reason="lost" quantity="12" unit="character"/> 
+                    <lb n="15"/><gap reason="lost" quantity="12" unit="character"/> kusuvana sēvuyiṁ moḍal ka<unclear>ga</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+                    <lb n="16"/><gap reason="lost" quantity="9" unit="character"/> diṁ teṁkal sirigāvuṁḍavoladoḷ dē <gap reason="lost" quantity="9" unit="character"/> 
+                    <lb n="17"/><gap reason="lost" quantity="12" unit="character"/> baḍagalurjji<unclear>ta</unclear> vanasimoḷ dē <gap reason="lost" quantity="12" unit="character"/> 
+                    <lb n="18"/><gap reason="lost" quantity="12" unit="character"/> basavoladoḷ dēva<unclear>rgge</unclear> <gap reason="lost" quantity="12" unit="character"/> 
+                    <lb n="19"/><gap reason="lost" quantity="12" unit="character"/> ta<unclear>mā</unclear>na <gap reason="lost" quantity="12" unit="character"/> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 17.50 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Krishnan1964_01"/>
+                        <citedRange unit="page">11-12</citedRange>
+                        <citedRange unit="item">50</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
