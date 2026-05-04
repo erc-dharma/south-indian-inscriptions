@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.534: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 534. (A.R. No. 492 of 1904.) VĒDĀRAṆYAM, TIRUTTURAIPPUNDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0534</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south wall of the first <hi rend="italic">prākāra</hi> in the Vēdāraṇyēśvara temple.</p>						
+
+						<p>Rājēndrachōḷa III. Year 33: 1279 A.D.</p>						
+
+						<p>The details of date <hi rend="italic">viz.</hi> Vṛiśchika śu. 10, Monday, Uttiraṭṭādi are irregular.</p>						
+
+						<p>This inscription is damaged and mutilated. It seems to record a gift of land made tax-free by the <hi rend="italic">Nāṭṭavar</hi> of Umbaḷa-nāḍu, for [services] to the god and goddess in the temple.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <supplied reason="omitted">tiripu</supplied>vaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi> Irācentiracoḻatevarkku yāṇṭu <num value="33">3 <g type="numeral">10</g> 3</num> viruccika nāyaṟṟu <gap reason="lost" quantity="7" unit="character"/> <unclear>ta</unclear>camiyum tiṅkaṭki
+<lb n="2" break="no"/>ḻamai<supplied reason="omitted">yum p</supplied>eṟṟa Uttiraṭṭāti nāḷ Umpaḷa nāṭṭu nāṭṭavarom vetavaṉanāyakarāṉa <gap reason="lost" quantity="5" unit="character"/> <unclear>van</unclear> nāṅkaḷ Iṟaiyi
+<lb n="3"/>li ceytu <supplied reason="omitted">kuṭu</supplied>tta nilamāvatu Irā <gap reason="lost" quantity="5" unit="character"/> ṭu muḻaiyāṉ cem <gap reason="lost" quantity="5" unit="character"/> U(va)rinallūr muṉṟo <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="4"/>ṉār nāyaṉārkkum tāyārkkum I <gap reason="lost" quantity="4" unit="character"/> pecāṉ mutali <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="5"/>vum Ivvūr kā<unclear>lā</unclear>l varuṅ kaṭamai <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="6"/>ṅkai nāya <gap reason="lost" quantity="5" unit="character"/> rkkum cāmanta<note n="219-1">This record is damaged and incomplete. There is another piece, which is also numbered 492 of 1904. It reads: 1 ••yāṇ•••• 2 ••ṅkaco•• 3 <hi rend="grantha">•••• sa ki••</hi> 4 ••nācci•• 5 ••ṇaka•• 6�</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.534 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">219</citedRange>
+			<citedRange unit="item">534</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

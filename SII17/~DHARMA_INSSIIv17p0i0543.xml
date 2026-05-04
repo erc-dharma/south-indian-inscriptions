@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.543: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 543. (A.R. No. 501 of 1904.) VĒDĀRAṆYAM, TIRUTTURAIPPUNDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0543</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north wall of the first <hi rend="italic">prākāra</hi> in the Vēdāraṇyēśvara temple.</p>						
+
+						<p>Rājarāja III. Year 29+1: 1245-46 A.D.</p>						
+
+						<p>This inscription refers to the invation by <hi rend="bold">Siṅgaṇa Daṇḍanā āka of the Chōḷa country in the 25th year (1240-41 A.D.) of Rājarāja's reign.</hi></p>						
+
+						<p>It records the order (<hi rend="italic">tāṉa-niyōgam</hi>) of the trustees (<hi rend="italic">sthānattār</hi>) of the temple of Tirukkōḍikkuḻagar in Kuṉṟūr-nāḍu, a division of Umbaḷa-nāḍu conferring certain honours on Śāttaṉ Bhaṭṭanambi <hi rend="italic">alias</hi> Uttamaṉ-Nambi of Atulaparākkiramapuram in Kāṉattūr-nāḍu, who besides providing a capital of 50,000 <hi rend="italic">kāśu</hi> for repairs, undertook to provide for the re-consecration, daily worship and festivals in the temple, which had been disturbed and neglected due to the invasion of <hi rend="bold">Siṅgaṇa Daṇḍanāyaka.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> tribhu</hi>vaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">jade</hi>vaṟku yāṇṭu Irupatton patāvatin Etirāmāṇṭu Umpaḷa nāṭṭu kunṟūr nāṭṭu Uṭaiyār tirukkoṭikkuḻaka<unclear>r</unclear> koyilttāṉattom Innāṭṭuk kāṉattūr nāṭṭu Atulaparākkiramapu<unclear>ra</unclear>ttu <unclear>cāttaṉ</unclear>
+<lb n="2" break="no"/><unclear>paṭ</unclear>ṭaṉ nampiyāṉa Uttamaṉ nampi <gap reason="lost" quantity="4" unit="character"/> ti <gap reason="lost" quantity="2" unit="character"/> ku <gap reason="lost" quantity="4" unit="character"/> tāṉaniyokam paṇṇik kuṭutta paricāvatu Innāyaṉār tirukkoyilil muṉpu Irupattaiñcāvatu nāḷil ciṅkaṇṇa teṇṭunāya<unclear>kka</unclear>ṉ paṭai naṭantu tecaṅkaḷile cila<unclear>kai</unclear> taṭṭuṇṭākaiyil piṉpu Āḷuṭaiyaṉāyaṉā
+<lb n="3" break="no"/>raiyum nācciyāraiyum Eḻuntaruḷuvikka<unclear>ppāṟ</unclear><supplied reason="omitted">t</supplied><unclear>ta</unclear> viṭattu <hi rend="grantha">śrī</hi> paṇṭārattu Uṭa lillātapaṭiyāle Ittanmattai cilavaṟkku kuṭuttākilum nāyaṉārai Eḻuntaruḷu vittup pūcai <unclear>koṇṭa</unclear>ruḷap paṇṇaveṇumeṉṟu pāṟ<supplied reason="omitted">t</supplied>tu Inta Utta<unclear>ma</unclear> nampi <gap reason="lost" quantity="1" unit="character"/> pakkale tāṉamāka<unclear>c ceytu</unclear> nī
+<lb n="4" break="no"/>rum Ummuṭaiya vaṟkattārum Inta taṉmattaik kaiykoṇṭu Eḻuntaruḷappaṇṇaveṇu meṉṟu colla Ivaṉum Ippaṭikku Icaintu Eḻuntaruḷap paṇṇukaikku veṇṭum <unclear>poru</unclear>ḷukku Ivar pakkal nāṅkaḷ kaikkoṇṭa kācu <num value="50000">5 <g type="numeral">10000</g></num> Ikkācu Aimpatiṉāyira mum kaikko
+<lb n="5" break="no"/>ṇṭu Iṉṉāyaṉāraiyum nācciyāraiyum tirunayaṉamo<hi rend="grantha">kṣa paryya</hi>ntamākat tiruppaṇik kuṟaivaṟac ceytu <unclear>kuṭu</unclear>ttamaiyil Ittirukkoyilile Iṉṉāyaṉāraiyum ṉācciyāraiyum Inta <unclear>Uttama</unclear>(ma)ṉṉampi tiruppiritaṭṭaiyum paṇṇat tirukkāppu paṇṇi <unclear>tiruveḻucci</unclear> Uḷḷiṭṭa tirunāḻkaḷum E
+<lb n="6" break="no"/>ḻuntaruḷap paṇṇavum pūcaikaḷum tiruvamutuka ḷuḷḷiṭṭaṉavaiyiṟṟukkum tāṉe ceytu koḷkaiyāle <unclear>ti</unclear>ru Ulāc ceyta<unclear>ruḷu</unclear>miṭattum pūcaikoṇṭaruḷumiṭattum <unclear>pula</unclear>var talaivar <gap reason="lost" quantity="2" unit="character"/> ṉṟum <gap reason="lost" quantity="2" unit="character"/> Uttamapi <gap reason="lost" quantity="5" unit="character"/> tāṉeṉṟumparicciṉṉam pa<unclear>ṇi</unclear> māṟavum Ippaṭi cantirāti
+<lb n="7" break="no"/><unclear>ttavaṟ</unclear> Ivaṉukkum Ivaṉuṭai<unclear>ya</unclear> vaṟkattāṟkum Ittiruppaṇi kaṭavatāṉapaṭi<unclear>kku</unclear> Ippaṭikku Icaintu tāṉaṉiyokam paṇṇi<unclear>kkuṭutt</unclear>om Ikkoyil tāṉattom Ippaṭikku <gap reason="lost" quantity="5" unit="character"/> vai tevarkaṉmi māteva <gap reason="lost" quantity="2" unit="character"/> Eḻuttu
+<lb n="8"/>Eṉṟum Uruttirakoṭipaṭṭar Eḻuttu Eṉṟum cimā<hi rend="grantha">heśva</hi>rakkaṇkāṇi periya tirumaṟaik kāṭan Eḻuttu Eṉṟum Ippaṭikku tirukkoṭikkuḻakar Eḻutteṉṟum tirumaṟaikkāṭu ṭaiyār koyil tevarkaṉmi kuṉṟur nāṭṭu paṭṭaṉ Eḻuttu Eṉṟum Ikkoyil kaṇakku Ārāṟṟūruṭaiyāṉ E
+<lb n="9" break="no"/>ḻu<unclear>ttu Eṉ</unclear>ṟum Ikkoyil cimā<hi rend="grantha">heśva</hi>rakkaṇkāṇi periyatirumaṟaikkāṭṭup pirāṉ <unclear>Eḻuttu</unclear> Eṉṟum Ippaṭi<unclear>kku</unclear> Ivai virikkuḻalaḻakiya mārāyan Eḻuttu Eṉṟum <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.543 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">225</citedRange>
+			<citedRange unit="item">543</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.723: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 723. (A.R. No. 666 of 1904.) TIRUMULLAIVĀYAL, SAIDAPET TALUK, CHINGLEPUT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0723</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south wall of the central shrine in the Māśilāmaṇīśvara temple.</p>						
+
+						<p>Jaṭāvarmaṉ Sundarapāṇḍya I. Year 15: 1265-66 A.D.</p>						
+
+						<p>The provenance of this record so far to the north and its palaeography would point to the identity of the king with Sundarapāṇḍya I.</p>						
+
+						<p>This records the gift of the proceeds from certain taxes like <hi rend="italic">ūr-kaḍamai, āyam, peṟaśādavari</hi> etc. by the inhabitants (<hi rend="italic">nāṭṭavar</hi>) of Puḻaṟ-kōṭṭam and Īkkāṭṭu-kōṭṭam, for repairs, and unguents in the temple of Tirumullaivāyil-uḍaiya-nāyaṉār, at Kāṉap pēṟūr-nāḍu, in Puḻaṟ-kōṭṭam in Jayaṅgoṇḍaśōḻa-maṇḍalam.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> koṟcaṭapaṉmar tiripuvaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>cuntarapāṇṭiyatevarkku yāṇṭu <num value="15"><g type="numeral">10</g> 5</num> vatu ceyaṅkoṇṭacoḻamaṇ
+<lb n="2" break="no"/>ṭalattu puḻaṟ koṭṭattu kāṉappeṟūr nāṭṭu Uṭaiyār tirumullaivāyiluṭaiya nāyaṉārkku puḻaṟ koṭṭattu nā<supplied reason="omitted">ṭ</supplied>ṭavarum
+<lb n="3"/>Īkkāṭṭu koṭṭattu nā<supplied reason="omitted">ṭ</supplied>ṭavarum Iṉṉāyaṉārkkut tiruppaṇikkum cāttuppaṭi pūccuppaṭik kum Uṭalāka Iṭṭa tirumullaivā
+<lb n="4" break="no"/>yilil puṟakkalaṉai Iṟukkum palakalaṉaip perāl Ūrkaṭamai Āyamum maṉṟāṭikaḷ peṟacāta variyum maṟṟum Eppeṟpaṭ
+<lb n="5" break="no"/>ṭa puṟakkalaṉaiyāl Uḷḷa varikaḷum <hi rend="grantha">sarvva</hi>māṉiya Iṟaiyiliyāka cantirātittavarai celvatāka <hi rend="grantha">śilālekhai</hi> paṇṇikkuṭuttom
+<lb n="6"/>nā<supplied reason="omitted">ṭ</supplied>ṭavarom Ivai paṇiyāl cittirameḻiveḷāṉ Eḻuttu paṉ<hi rend="grantha">māheśvararakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.723 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">345</citedRange>
+			<citedRange unit="item">723</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

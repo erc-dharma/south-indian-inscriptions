@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.327: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 327. (A.R. No. 298 of 1904.) KĀḶAHASTI, KALAHASTI TALUK, CHITTOOR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0327</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north, east and south bases of the central shrine in Kāḷahastīśvara temple.</p>						
+
+						<p>Rājarāja I. Year 24: 1008-9 A.D.</p>						
+
+						<p>This inscription begins with the <hi rend="italic">praśasti “Tirumagaḷ pōla”</hi> etc., and records the gift of 14(3/4) <hi rend="italic">kaḻañju</hi> and one <hi rend="italic">kuṉṟi</hi> of gold to the priests of the <hi rend="italic">sanctum sanctorum (tiruvuṇṇāḻigai-pperumakkaḷ)</hi> of the temple of Tirukkāḷattidēva for cleaning and decorating the premises in the shrine of Maṇikkeṅgai Mādēvar with the annual interest of 2 <hi rend="italic">kaḻañju, 4 mañjāḍi</hi> and one <hi rend="italic">piḷavu</hi> on the endowed amount at the rate of 1 <hi rend="italic">piḷavu</hi> per <hi rend="italic">kaḻañju</hi> per month<note n="151-1">This works out to 15 per cent per year.</note>by Taṇiyal-aṅgāḍiyāṉ Iḷañjiṅgaśeṭṭi, the <hi rend="italic">kiḻāṉ</hi> of Nāgimaṅgalam. The duties of worship in this shrine were exclusively enjoined on the priests of the temple of Tirukkāḷatti-mahādēva.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tirumakaḷpolap perunilaccelviyun taṉakkeyurimai pūṇṭamai maṉakkeraḷak kāntaḷūrc cālai kalamaṟuttaruḷi veṅkai nāṭuṅ kaṅkapāṭiyu ṉuḷampapāṭiyun taṭikai vaḻiyuṅ kuṭamalaiṉāṭuṅ kollamuṅ kaliṅkamum Eṇṭikai pukaḻtara viḻa maṇṭalamum miraṭṭapāṭi Eḻarai yilakkamun tiṇṭiṟal veṉṟi taṇṭāṟ koṇṭa taṉṉeḻil vaḷarūḻi Ellāyāṇṭu
+<lb n="2" break="no"/>ntoḻutakai viḷaṅku miyāṇṭe ceḻiyarai tecukoḷ <hi rend="grantha">śrī</hi>kovirācarācakecaripa<hi rend="grantha">nma</hi>ṟki yāṇṭu <num value="24">2 <g type="numeral">10</g> 4</num> Āvatu tirukkāḷattitevarai Ārātikkun tiruvu<supplied reason="omitted">ṇ</supplied>ṇāḻikaip peru makkaḷukku Ittevar tevatānam mummuṭicoḻapu<supplied reason="omitted">ra</supplied>ttu viyāpāri nāki maṅkalaṅkiḻāṉ taṇiyalaṅkāṭiyāṉ Iḷañciṅkacceṭṭiyeṉ maṇikkeṅkai mātevarai Ārātikkavu n=tiru<unclear>a</unclear>la(k)kun tirumeḻukkiṭavuṅ kuṭutta pon patiṉāṟ kaḻañce mukkāle ku<unclear>nṟi</unclear> Ippon piḷavu palicaiyā lāṇṭuvarai Irukaḻañce nālu mañcāṭiyum piḷavum poliyūṭṭukkāka
+<lb n="3" break="no"/><hi rend="grantha">cantrā</hi>ti<hi rend="grantha">tya</hi>varai tirukkāḷatti <hi rend="grantha">mahāde</hi>varai Ārātikku <supplied reason="omitted">muṟai</supplied> yuṭaiyavarkaḷe Ārātikkak kaṭava<supplied reason="omitted">r</supplied>kaḷ Itu <hi rend="grantha">panmāheśva</hi>rara<hi rend="grantha">kṣai</hi> I<hi rend="grantha">dhanma</hi>ra<hi rend="grantha">kṣi</hi>ppāṉ <hi rend="grantha">śrīpā</hi>tam Entalaimelaṉa I<hi rend="grantha">dhanma</hi>ttu<supplied reason="omitted">k</supplied>ku cu<hi rend="grantha">hi</hi>tañ ce<supplied reason="omitted">yya</supplied> niṉaippār<note n="151-2">Stops here; Only a few letters are wanting at the end.</note> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.327 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">151</citedRange>
+			<citedRange unit="item">327</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.546: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 546. (A.R. No. 504 of 1904.) AGATTIYĀṈPAḶḶI, TIRUTTURAIPPUNDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0546</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south wall of the central shrine in the Agastyēśvara temple.</p>						
+
+						<p>Māṟavarmaṉ Vīrapāṇḍya, Year 15.</p>						
+
+						<p>On palaeographical considerations, this inscription may be assigned to the 13th century.</p>						
+
+						<p>This seems to record the gift of 2,000 <hi rend="italic">kuḻi</hi> of land by purchase for service and offerings early in the morning to god Tiruvagattiyāṉpaḷḷi-uḍaiyār in Kuṉṟūr-nāḍu in Umbar-vaḷanāḍu <hi rend="italic">alias</hi> Taraṇimuḻudum-uḍaiya-vaḷanāḍu by Arayaṉ Pōyaṉ Viḻupparaiyaṉ, the <hi rend="italic">kiḻavaṉ</hi> of Eḻumūr, who is also stated to have reclaimed the land which was lying fallow. The donor is stated to have deposited in the temple 45 <hi rend="italic">paṇam</hi> for his purpose, out of which 5 <hi rend="italic">paṇam</hi> was provided towards the payment of taxes such as <hi rend="italic">kuḍimai, viṉivōgam</hi>, etc. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">[svastiśrī <g type="ddanda">.</g>*]</hi> komāṟupaṉmar tiri
+<lb n="2" break="no"/>puvaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>vī
+<lb n="3" break="no"/><unclear>ra</unclear>pāṇṭiyatevaṟku
+<lb n="4"/>yāṇṭu pa<unclear>tiṉa</unclear>ñcar
+<lb n="5" break="no"/> <gap reason="lost" quantity="7" unit="character"/> 
+<lb n="6"/>nāḷ Um<unclear>parva</unclear>ḷanāṭ<unclear>āṉa</unclear> taraṇi
+<lb n="7"/>muḻutumuṭaiyavaḷanāṭṭu <unclear>kuṉ</unclear>ṟūr nā
+<lb n="8" break="no"/>ṭṭu Uṭaiy<unclear>ār tiru</unclear>va<unclear>kattiyā</unclear>ṉ paḷḷi
+<lb n="9" break="no"/>uṭai<unclear>y</unclear>ār koyil Āti<hi rend="grantha"><unclear>caṇḍe</unclear>śvarade</hi>
+<lb n="10" break="no"/>varka<unclear>ṉ</unclear>mikaḷom <hi rend="grantha">vya<unclear>vasthai</unclear></hi> paṇṇi
+<lb n="11" break="no"/>ṉapaṭi <unclear>I</unclear>ttiruppati cūḻnta nā<unclear>ṉk</unclear>ellaik
+<lb n="12" break="no"/>kuḷḷu<unclear>m I</unclear>ṉṉāyanār paṭikka <gap reason="lost" quantity="3" unit="character"/> ppu nila<unclear>m</unclear>
+<lb n="13"/>nañ<unclear>ce</unclear>y payircceyya <gap reason="lost" quantity="4" unit="character"/> pā
+<lb n="14" break="no"/><unclear>ḻ</unclear>āy <gap reason="lost" quantity="3" unit="character"/> <unclear>ṟ</unclear>ṟu pā<unclear>ḻ</unclear>āy kuṉṟa <gap reason="lost" quantity="3" unit="character"/> yamā
+<lb n="15" break="no"/>ykkiṭa<unclear>kku</unclear>m nilattukku kiḻpāṟkel
+<lb n="16" break="no"/>lai tirupuvaṉacuntara<hi rend="grantha">de</hi>var Oṭaiveli
+<lb n="17" break="no"/>kku meṟ<unclear>ku</unclear>m teṉpāṟkellai A<unclear>ṉi</unclear>ḻa
+<lb n="18" break="no"/>māṭṭu Ota<unclear>m</unclear> Eṟukālukku vaṭakkum mel
+<lb n="19"/>pāṟkellai Ūrī Oḻukkaikku kiḻakkum
+<lb n="20"/><unclear>vaṭa</unclear>pāṟkellai paḷḷaṉ Oṭaippaṉaṅ <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="21"/><unclear>ṭṭu</unclear>k kuṉ<unclear>ṟuv</unclear>elikku <unclear>t</unclear>e<unclear>ṟ</unclear>kkum <unclear>Ivvi</unclear>cai
+<lb n="22" break="no"/>nta Iṉṉā<unclear>ṉke</unclear>llaiyuḷ naṭuvupaṭṭa pā
+<lb n="23" break="no"/>mpaṟaip<unclear>ā</unclear>ḻ <unclear>Ū</unclear>raḷavukolāṟ kuḻi Iraṇ
+<lb n="24" break="no"/>ṭāyiram <unclear>I</unclear>kkuḻi Iraṇṭāyiramum Iṉ<unclear>ṉāṭ</unclear>ṭu me
+<lb n="25" break="no"/>laivakai nāṭṭu Eḻumuril Eḻumu<supplied reason="omitted">r</supplied>kiḻavaṉarayaṉ
+<lb n="26"/><unclear>poya</unclear>ṉ viḻuppa<unclear>r</unclear>aiyaṉ tāṉ tirutti <unclear>Ā</unclear>
+<lb n="27" break="no"/>kki Iṉnāyaṉār tirumuṉpe paṭaittu <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="28"/><unclear>k</unclear>kāka mā<hi rend="grantha">heśvara</hi><supplied reason="omitted">r</supplied>kku vaḻakkamāka nā<unclear>ḷ</unclear>
+<lb n="29"/><unclear>Oṉṟu</unclear>kku Irunāḻi Uḻakku Ariciyāy
+<lb n="30" break="no"/>c ciṟukālaiccantiyile puṟappaṭaveṇu
+<lb n="31" break="no"/>m Eṉṟum Ivvarici Irunāḻi Uḻakkum Āṇṭu <unclear>varai</unclear>
+<lb n="32"/><unclear>I</unclear>ṟukka <unclear>ku</unclear>ṟuvāḷ kūli Uṭpaṭa nellu Irupatiṉ
+<lb n="33" break="no"/>kalamum Iṉṉilattukku kuṭimai viṉivokam <unclear>I</unclear>
+<lb n="34" break="no"/>vai maṟṟum Epperpaṭṭaṉavaiyiṟṟukkum <unclear>cila</unclear>
+<lb n="35" break="no"/>vākkum paṇam Añcu Ippaṇam Añcum Inta Oṭuk
+<lb n="36" break="no"/> <gap reason="lost" quantity="7" unit="character"/> kku Uṭal
+<lb n="37"/><hi rend="grantha"> <gap reason="lost" quantity="7" unit="character"/> dharmmam</hi> Iṉ<unclear>ta</unclear>
+<lb n="38" break="no"/> <gap reason="lost" quantity="7" unit="character"/> koḷḷu�
+<lb n="39" break="no"/> <gap reason="lost" quantity="7" unit="character"/> tu Innilattukku mu<hi rend="grantha">lya</hi>māna paṇam
+<lb n="40"/> <gap reason="lost" quantity="7" unit="character"/> vittu koṇṭa paṇam nāṟpattai<unclear>ñ</unclear>
+<lb n="41" break="no"/> <gap reason="lost" quantity="7" unit="character"/> ṟpattaiñcum paṇṭāra<supplied reason="omitted">t</supplied>tā <gap reason="lost" quantity="3" unit="character"/> kkuvittu
+<lb n="42"/> <gap reason="lost" quantity="7" unit="character"/> yil In<unclear>ni</unclear>lattu Iṉṉā <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="43"/> <gap reason="lost" quantity="7" unit="character"/> ṉākkiṉa maramum kiṇo
+<lb n="44" break="no"/> <gap reason="lost" quantity="7" unit="character"/> ṅkaḷum Akappaṭṭa Ippa<note n="227-1">Incomplete.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.546 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">226-227</citedRange>
+			<citedRange unit="item">546</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

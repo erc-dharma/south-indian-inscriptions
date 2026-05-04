@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.431: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 431.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0431</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						<p>On three faces of a pillar lying in the verandah in front of the Agastyēśvara temple.</p>						
+
+						<p>This inscription engraved in archaic characters is undated.</p>						
+
+						<p>It mentions Vallava Saḷki, his son Hari Rāchapaṟu whose son was Paṇḍaya at whose request some grant seems to have been made at Chiṟuburu.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<!--<h4><hi rend="italic">First face.</hi></h4>-->
+
+<p>
+<lb n="1"/>svasti śrī mā
+<lb n="2" break="no"/><unclear>n</unclear> jatu mā
+<lb n="3" break="no"/>ha viṣṇu va
+<lb n="4" break="no"/>llava saḷki pu
+<lb n="5" break="no"/>trasya harirāca
+<lb n="6" break="no"/>paṟu hari
+<lb n="7"/>ricapaṟu �
+<lb n="8" break="no"/>trasya �ṇḍaya
+<lb n="9" break="no"/>ciṟuburuṁ pa
+<lb n="10"/><unclear>ḷa</unclear> nariyadu
+<lb n="11"/> <gap reason="lost" quantity="1" unit="character"/> sadabu vē
+<lb n="12" break="no"/>ṇḍi koṇi va
+<lb n="13"/>dara paṭṭite
+<lb n="14"/><unclear>va</unclear><note n="177-1">sa is introduced below the line.</note>sa ntuṟu bu
+</p>
+
+<!--<h4><hi rend="italic">Second face.</hi></h4>-->
+
+<p>
+<lb n="15"/>da vi bha yu
+<lb n="16"/>�niki <supplied reason="omitted">na</supplied> Ā
+<lb n="17" break="no"/>yō ṟa
+<lb n="18"/>vakavilaḷu
+<lb n="19"/>campinava
+<lb n="20" break="no"/>nu gaṭṭuna
+<lb n="21"/><unclear>ḷa</unclear> sillākuntu
+<lb n="22"/>kuntula cē
+<lb n="23" break="no"/>ṟu ppu ḷe <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="24"/>du ceṟu<unclear>vu</unclear>
+<lb n="25"/>�niki Ā
+<lb n="26" break="no"/>yōṟa ni
+<lb n="27" break="no"/>tyaṁbu <unclear>du</unclear>
+<lb n="28"/>va dēni
+<lb n="29"/>ki nu
+<lb n="30"/>yō
+</p>
+
+<!--<h4><hi rend="italic">Third face.</hi></h4>-->
+
+<p>
+<lb n="40"/>� dagi
+<lb n="41"/>ḷara sakṣigānu
+<lb n="42"/>�ṇḍa yāru cē <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="43"/>ri E�vanṟi <gap reason="lost" quantity="1" unit="character"/> na
+<lb n="44"/> <gap reason="lost" quantity="2" unit="character"/> nu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="45"/> <gap reason="lost" quantity="1" unit="character"/> bu calpuna <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="46"/>dhiniki vakraṁbuna
+<lb n="47"/>vānu <unclear>pa</unclear> rana
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.431 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">177</citedRange>
+			<citedRange unit="item">431</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

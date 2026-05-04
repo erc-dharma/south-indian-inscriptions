@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.631: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 631. (A.R. No. 585 of 1904.) KAḶḶA-PERUMBŪR, TANJORE TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0631</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>In the <hi rend="italic">gōpura</hi> of Kailāsanātha temple, left of entrance.</p>						
+
+						<p>Kulōttuṅga III. Year 23: 1200 A.D.</p>						
+
+						<p>The king who is described in this inscription as Kulōttuṅga who conquered Madurai, Īḻam and Karuvūr and captured the crowned head of the Pāṇḍya is evidently identical with Kulōttuṅga III. The details of date given, <hi rend="italic">viz.</hi>, year 23, Vṛiśchika ba. 13, Monday, Viśākham, correspond to 1200 A.D., November 6, ·52; f.d.n. ·84.</p>						
+
+						<p>It records the gift of land in Amaṇguḍi in Śrī Rājasundari-chchaturvēdimaṅgalam a <hi rend="italic">brahmadēya</hi> in Tañjāvūr-kkūṟṟam in Pāṇḍikulāśani-vaḷanāḍu to god Uḍaiyār at Śrīkayilai <hi rend="italic">alias</hi> Kulōttuṅgaśōḻa-Īśvaram by Āṇḍāṉpiḷḷai <hi rend="italic">alias</hi> Ādivarāhabhaṭṭaṉ <hi rend="italic">alias</hi> Śīkāḻippiḷḷai of Virudarājabhayaṅkarachchēri in Āmbalūr. It is stated that the gift land was acquired by the donor partly by inheritance from his father on his death and partly by purchase from his brother.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha"><unclear>ha</unclear>ra svastiśrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> ti<unclear>ri</unclear>puvaṉaccakkaravattika<unclear>ḷ ma</unclear>
+<lb n="2" break="no"/>turai<unclear>yum Ī</unclear>ḻamum pāṇṭiyaṉ muṭittalai<unclear>yu</unclear>ṅ <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="3"/><supplied reason="omitted">kru</supplied>vū<supplied reason="omitted">ru</supplied>ṅ koṇṭaruḷiya <hi rend="grantha">śrī</hi>kulottuṅkacoḻateva<supplied reason="omitted">r</supplied>kku
+<lb n="4"/><unclear>I</unclear>yāṇṭu <num value="23">2 <g type="numeral">10</g> 3</num> vatu <hi rend="grantha">vṛści</hi>kanāyaṟṟu Apara pa<hi rend="grantha">kṣa</hi>ttu <hi rend="grantha">tṛ</hi><unclear>y</unclear>o
+<lb n="5" break="no"/><hi rend="grantha">daśi</hi><unclear>yum ti</unclear>ṅ<unclear>ka</unclear>ṭkiḻamaiyum p<unclear>e</unclear>ṟṟa vicā<unclear>kat</unclear>tu <unclear>nāḷ</unclear> pāṇṭikulā
+<lb n="6" break="no"/>caṉi vaḷa<unclear>nāṭ</unclear>ṭu tañcāvūrk kūṟṟattu(va) <hi rend="grantha">brahma</hi>teyam <hi rend="grantha">śrī</hi> r<unclear>ā</unclear><hi rend="grantha">ja</hi>cuntariccatu
+<lb n="7" break="no"/>rvetima<unclear>ṅka</unclear>lattu Uṭaiyār [<hi rend="grantha">śrī</hi>]kayilaiyāṉa kulo<unclear>t</unclear>tuṅka coḻa
+<lb n="8"/>Ī<hi rend="grantha">śva</hi>ra mu<unclear>ṭ</unclear>aiyār koyil Ātica<unclear>ṇṭe</unclear><hi rend="grantha">śva</hi><unclear>ra</unclear><hi rend="grantha">de</hi>var<unclear>kku Iv</unclear>vūr viruta
+<lb n="9" break="no"/>rā<hi rend="grantha">ja</hi>payaṅ<unclear>kara</unclear>cceri Āmpalūr Āṇṭāṉ piḷḷaiyāṉa Ātivarākapa
+<lb n="10" break="no"/>ṭṭaṉāṉa cikāḻippiḷḷaiyeṉ <hi rend="grantha">dha<unclear>r</unclear>mmadā</hi>ṉamāka nir vārttukkuṭutta nila
+<lb n="11" break="no"/>māvatu Ivvūrkkiḻpiṭākai Amaṇkuṭiyi[ṟ <gap reason="lost" quantity="1" unit="character"/> ]rā<hi rend="grantha">pa</hi>tivatikkuk kiḻak
+<lb n="12"/>ku virutarā<hi rend="grantha">ja</hi>payaṅkara vāykkālukkut teṟku <gap reason="lost" quantity="4" unit="character"/> <unclear>tirat</unclear>tu meṟkaṭ<unclear>ai</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="13"/> <gap reason="lost" quantity="4" unit="character"/> <unclear>pitā</unclear>kkaḷ pakkaṟ peṟṟa kūṟṟālum tāṉattālum peṟṟu
+<lb n="14" break="no"/>ṭaiyeṉāy Eṉṉutāy varukiṟa nilam <hi rend="grantha">tma</hi> In<unclear>ni</unclear>la<supplied reason="omitted">m</supplied> mukkāṇiyum Iṅ
+<lb n="15" break="no"/>ke 3 kuḻi Iccatirattu Icceykku Aṭaip<unclear>pa</unclear> <gap reason="lost" quantity="5" unit="character"/> ṉ kū<unclear>ṟ</unclear>ṟ<unclear>o</unclear>lai
+<lb n="16"/>meṟpaṭṭa maṉai nilam � Innila<unclear>mu</unclear>ntirikaiyum teṅkaṅkuṭi
+<lb n="17" break="no"/>yil <unclear>Ivva</unclear>tikku kiḻakku Ivvāykkālukku vaṭakku <gap reason="lost" quantity="1" unit="character"/> 4 kuḻi catirattu
+<lb n="18"/>meṟkaṭaiya nilam 3mā� Iṉ Utteca nikki Itaṉ kiḻakku Eṅkaḷ pitākkaḷ
+<lb n="19"/>Apāvattu <unclear>E</unclear>ṉ kūṟṟāṟ peṟṟuṭaiyayeṉāyum Eṉ <hi rend="grantha">bhrā</hi>tākkaḷ pakkal vilai
+<lb n="20"/>koṇṭuṭaiyeṉāyum Eṉṉutāy va<unclear>ru</unclear>kiṟa nilam � Innilam Araimāmun
+<lb n="21" break="no"/>tirikaiyum <unclear>I</unclear>ṅke <hi rend="grantha"><unclear>8</unclear></hi> kuḻi 2 catirattu Innilattuṭaṉ Eṉṉutāyum Eṉ <hi rend="grantha">bhrā</hi>tā
+<lb n="22" break="no"/>kkaḷ pa<unclear>kkal</unclear> vilaikoṇṭuṭaiyeṉāyum <unclear>va</unclear>rukiṟa <gap reason="lost" quantity="4" unit="character"/> Uttecam nilam kiḻakku� I
+<lb n="23" break="no"/>ṉ nilaṅkiḻaraiyum Āka natta maṉaikaḷ Uḷpaṭa nī pa<hi rend="grantha">ma �</hi> kiṟā Innila
+<lb n="24" break="no"/>m mākāṇi Araikkāṇik kiḻaraiyum Iṟṟai nāḷāl <hi rend="grantha">dharmmadā</hi>ṉamāka nirvār
+<lb n="25" break="no"/>ttukkuṭutteṉ Ivvāticaṇṭe<hi rend="grantha">śva</hi>ra<hi rend="grantha">de</hi>varkku Ivvāmpalūr Āṇṭāṉ
+<lb n="26" break="no"/><unclear>piḷḷaiyāṉa</unclear> Ātivarāka paṭṭaṉāṉa cirkāḻip piḷḷaiyeṉ:
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.631 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">291</citedRange>
+			<citedRange unit="item">631</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

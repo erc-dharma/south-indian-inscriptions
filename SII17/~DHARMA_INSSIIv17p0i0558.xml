@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.558: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 558. (A.R. No. 515 of 1904.) KĪVAḶŪR, NAGAPATTINAM TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0558</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south wall of the central shrine in the Akshayaliṅgēśvara temple.</p>						
+
+						<p>Rājarāja II. Year 18: 1163 A.D.</p>						
+
+						<p>The details of date given, <hi rend="italic">viz.</hi>, 18th year, Dhanus ba. 8, Sunday, Hastam, correspond to 1163 A.D., December 20, Friday (not Sunday) ·79; ·20.</p>						
+
+						<p>This inscription records the grant by purchase of land called Śendāmaraikkaṇṇaṉ-kollai situated in Śāttaṅguḍi, a hamlet of Periyālattūr <hi rend="italic">alias</hi> Kshatriyaśikhāmaṇi-chchaturvēdimaṅgalam for rearing a garden for god Kēḍili-nāyaṉār by Śrīmūlattāṉam-uḍaiyāṉ-bhaṭṭaṉ of Kuravaśēri worshipping god Tiruvārūr-uḍaiyār in Tiruvārūrkūṟṟam in Gēyamāṇikka-vaḷanāḍu and Āvuḍiyāḷchchāṉi, wife of Perumbaṟṟappuliyūr Viṉāyaka-bhaṭṭaṉ, a devotee of this same god. The latter is stated to have had the former as her guardian (<hi rend="italic">mudukaṇ</hi>). Provision was also made for the residence of the <hi rend="italic">āṇḍār</hi> tending the garden.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">Om svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> tribhu</hi>vaṉacca<hi rend="grantha">kra</hi>va<unclear>tti</unclear>kaḷ <hi rend="grantha">śrī</hi>rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>tevaṟku yāṇṭu patiṉ<unclear>e</unclear>ṭṭāva<unclear>tu</unclear> <hi rend="grantha">dha</hi>nunāyaṟṟu <hi rend="grantha">Aparapakṣa</hi>ttu <hi rend="grantha">Aṣṭa</hi>miyum nāya
+<lb n="2" break="no"/>ṟṟukkiḻamaiyum peṟṟa Atta<supplied reason="omitted">t</supplied>tu nāḷ keyamāṇikkavaḷa<unclear>ṉā</unclear>ṭṭu tiruvārūr kūṟṟattu Uṭaiyār tiruvāruruṭaiyārai pūcik<unclear>ku</unclear>m kuravaceri cimula
+<lb n="3" break="no"/>ttāṉa muṭaiyāṉ paṭṭaṉum Ivaṉaiye mutukaṇṇāka Uṭaiya Ināyaṉārai pūcikkum perumpaṟṟappuliyūr viṉāyakapaṭṭaṉ pirāma
+<lb n="4" break="no"/><unclear>ṇi</unclear> Āvuṭaiyāḷaccāṉiyum Iviruvo<supplied reason="omitted">m</supplied> Uṭaiyār keṭilināyaṉārkku nāṅkaḷ tirunanta vaṉam ceyya viṭṭa puṉce<supplied reason="omitted">y</supplied>kkellai Ā
+<lb n="5" break="no"/>vatu periyālattūrāṉa <hi rend="grantha">kṣa</hi>ttiriyacikāmaṇiccatu<hi rend="grantha"><unclear>rvve</unclear></hi>timaṅkalattup piṭākai cāttaṅkuṭika<hi rend="grantha">ṭṭa</hi>ḷai yil māttūr kiḻavar kāṇi<unclear>y</unclear>ai I(ru)pperuvilai k<unclear>o</unclear>
+<lb n="6" break="no"/>ṇṭa kuravaceri civalokanāyakapaṭṭaṉum tū<unclear>ya</unclear>vāmaṉapaṭṭaṉ makaṉ koṉaippaṭṭaṉ pakkalum vilaikoṇṭu viṭṭa centāmaraikkaṇṇaṉ kollai<supplied reason="omitted">yu</supplied>m Ittiruna<supplied reason="omitted">n</supplied>tavaṉam ce<supplied reason="omitted">y</supplied>yum Āṇ
+<lb n="7" break="no"/>ṭārkaḷukkuk kuṭi Irukka <unclear>Ūṭum</unclear> Ivūr <gap reason="lost" quantity="4" unit="character"/> ṟkkaṭai<unclear>ya</unclear> koṭṭuruṭaiyāṉ Āḷum Araiyar <unclear>Ū</unclear>ṟṟukkeṇikku vaṭakku Uttecapaṭi maṉai kuḻi I<unclear>rupa</unclear>tta<unclear>ñ</unclear>cum Ippaṭi Uḷḷapaṭi kol<unclear>lai</unclear><note n="234-1">Incomplete.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.558 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">234</citedRange>
+			<citedRange unit="item">558</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

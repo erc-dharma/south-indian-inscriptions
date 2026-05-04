@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.512: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 512. (A.R. No. 473 of 1904.) VĒDĀRAṆYAM, TIRUTTURAIPPUNDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0512</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the seventh pillar in the <hi rend="italic">maṇḍapa</hi> in front of the Tyāgarāja shrine in the Vēdāraṇyēśvara temple.</p>						
+
+						<p>Parāntaka I. Year 19: 925-26 A.D.</p>						
+
+						<p>This inscription records the gift of 10 <hi rend="italic">poṉ</hi> left in the hands of the temple authorities and 90 sheep left under the care of the temple shepherds, by Iḍaiyaṉ Kiḻaṅgāri, for burning two perpetual lamps to the deity Tirumaṟaikkāṭṭu Āḻvār.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> matirai koṇṭa
+<lb n="2"/>kopparakecaripaṉmarkku yā
+<lb n="3" break="no"/>ṇṭu <num value="19"><g type="numeral">10</g> 9</num> Āvatu tirumaṟ<unclear>ai</unclear>
+<lb n="4" break="no"/>kkāṭṭu Āḻvārkku Ivvūr tevar
+<lb n="5"/>Iṭaiyaṉ kiḻaṅkāri vaitta
+<lb n="6"/>noṉtāviḷakku Iraṇṭilu
+<lb n="7" break="no"/>m Oṉṟukku Ivvūrt tirukko
+<lb n="8" break="no"/>yi<unclear>lu</unclear>ṭaiyom koṇṭa po
+<lb n="9" break="no"/>ṉ pattu Ivvūrt <unclear>t</unclear>evari
+<lb n="10" break="no"/>ṭaiya<unclear>r</unclear>om koṇṭa vāṭu <unclear>to</unclear>
+<lb n="11" break="no"/>ṇṇūṟu Iv<unclear>vāṭu</unclear>
+<lb n="12"/><unclear>to</unclear>ṇṇū<unclear>ṟu</unclear> ko
+<lb n="13"/>ṇṭu nicatam Uriy
+<lb n="14"/>ney Aṭṭuvo
+<lb n="15" break="no"/>mānom I<unclear>v</unclear>vū
+<lb n="16" break="no"/>r <unclear>ti</unclear>ruk<unclear>ko</unclear>yil
+<lb n="17" break="no"/>luṭaiyomum I
+<lb n="18" break="no"/>vvūr te<unclear>va</unclear>r I<unclear>ṭai</unclear>
+<lb n="19" break="no"/>yaromu(m) maṭṭa
+<lb n="20" break="no"/>kkaṭavo <unclear>māṉom</unclear>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.512 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">211</citedRange>
+			<citedRange unit="item">512</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

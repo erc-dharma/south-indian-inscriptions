@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.676: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 676. (A.R. No. 620 of 1904.) NĀGALĀPURAM, TIRUVALLUR TALUK, CHINGLEPUT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0676</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the wall of the Vēdavallittāyār shrine in the Vēdanārāyaṇasvāmin temple.</p>						
+
+						<p>Śrīraṅga I. 1579 A.D.</p>						
+
+						<p>The details of the date, <hi rend="italic">viz.</hi>, Pramāthin, Chittirai 28 are insufficient for verification. The cyclic year, however will correspond to 1579 A.D.</p>						
+
+						<p>This inscription records that certain honours like <hi rend="italic">paraḍai</hi> and <hi rend="italic">parivaṭṭam</hi> had been cancelled and instead, the <hi rend="italic">pañchāḷattār</hi> will continue to enjoy their traditional rights in return for cultivation and service in the temple. This arrangement is stated to have been made by Śekaturaḍḍi Krishṉamanāyaka, the agent of Śrīraṅga, the <hi rend="italic">tāṉattar</hi> and the <hi rend="italic">ūravar</hi> of Nāgalāpuram.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>piṟamāti varu<hi rend="grantha">ṣa</hi>m cittirai
+<lb n="2"/>mātam <hi rend="grantha"><num value="28">2 <g type="numeral">10</g> 8</num> 2 śrī</hi>maṉ makā
+<lb n="3"/>(makā)maṇṭale<hi rend="grantha">śva</hi>ra rācāti
+<lb n="4"/>rāca rācaparame<hi rend="grantha">śva</hi><unclear>ra</unclear> <hi rend="grantha">śrī</hi> virapiṟa
+<lb n="5"/>tāparāna <hi rend="grantha">śrī</hi>raṅkatevamakā
+<lb n="6"/>rāyar kāriyattukku kaṟta
+<lb n="7"/>rāṉa cekaturaṭṭi kiṣṇa
+<lb n="8" break="no"/>maṉāyakkarum nākalā
+<lb n="9" break="no"/>puram stāṉattārum Ū
+<lb n="10"/>r(ā)varum nākalāpuram
+<lb n="11"/>pañcāḷattāṟku <hi rend="grantha">sāsa</hi>
+<lb n="12"/>ṉam kuṭuttapaṭi taṅkaḷukku
+<lb n="13"/>paraṭai parivaṭṭam veṇṭā
+<lb n="14"/>meṉṟu kaṭṭaḷai paṇṇiṉom
+<lb n="15"/>tāṅkaḷ Ūril Uṇṭā
+<lb n="16" break="no"/>ṉa Uḻavu toḻilum tiruk
+<lb n="17" break="no"/>koyil Ūḻiyamum
+<lb n="18"/>paṇṇikkoṇṭu Irukka ka
+<lb n="19" break="no"/>ṭavarākavum taṅkaḷukku pūṟva
+<lb n="20" break="no"/>m Uṇṭāṉa māṉṉiyam cu
+<lb n="21" break="no"/>tantiram naṭattivara kaṭavo
+<lb n="22" break="no"/>mākavum yintapaṭikku ca
+<lb n="23" break="no"/>ntirātittavaraiyum naṭakka kaṭavo
+<lb n="24" break="no"/>mākavum yitukku yātoruvar Akutam paṇṇinālum
+<lb n="25"/>kaṅkai karaiyile kārāmpacuvai
+<lb n="26"/>koṉṟa to<hi rend="grantha">ṣa</hi>ttile pokak kaṭavo
+<lb n="27" break="no"/>mākavum yintapaṭikku <hi rend="grantha">sta</hi>lakaṇakku veṅ<supplied reason="omitted">ka</supplied>p paṉ Eḻuttu <hi rend="grantha">stā</hi>nam cinivācaṉ Eḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.676 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">308</citedRange>
+			<citedRange unit="item">676</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

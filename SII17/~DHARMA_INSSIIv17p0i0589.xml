@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.589: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 589. (A.R. No. 544 of 1904.) TIRUVĀRŪR, NAGAPATTINAM TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0589</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south wall of the first <hi rend="italic">prākāra</hi> in the Tyāgarājasvāmin temple.</p>						
+
+						<p>Kulōttuṅga I. Year 34: 1103-04 A.D.</p>						
+
+						<p>This epigraph commences with the <hi rend="italic">praśasti, pugaḻmādu viḷaṅga</hi> etc., of the king.</p>						
+
+						<p>It seems to record a list of the lands belonging to god Ulagīśvaramuḍaiyār of Tiruvārūr, in Tiruvārūr-kkūṟṟam in Gēyamāṇikka-vaḷanāḍu. The <hi rend="italic">dēvadāṉam</hi> Paḻaṉakkuḍi is mentioned. The details of the gift are lost as the inscription is damaged and incomplete.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha"><g type="pc"/> svastiśrī <g type="ddanda">.</g></hi> pukaḻmātu viḷaṅka <hi rend="grantha">ja</hi>yamātu virumpa nilamakaḷ vaḷara malar makaḷ puṇara Urimai yiṟciṟanta maṇimuṭi cūṭi miṉavar nilai <supplied reason="omitted">k</supplied>eṭa villavar kulaitara Eṉai maṉnavar <unclear>I</unclear>ḻiyaluṟ ṟuḻitarat tikkaṉaittuntan cakkarannaṭātti vira<hi rend="grantha">siṅhāsa</hi>ṉattu <unclear>puvana</unclear>muḻutuṭaiyā ḷoṭum viṟṟiruntaruḷiya korā <gap reason="lost" quantity="9" unit="character"/> naca <gap reason="lost" quantity="9" unit="character"/> <unclear>co</unclear>ḻa<hi rend="grantha">de</hi>varkku yāṇṭu <num value="34">3 <g type="numeral">10</g> 4</num> Āvatu 
+<lb n="2"/>keyamāṇikka vaḷanāṭṭut tiruvārurk kūṟṟattut <supplied reason="omitted">tiru</supplied>vārur Ulaki<hi rend="grantha">śva</hi>ramuṭaiyār tevatāṉam In nāṭṭup paḻaṉakkuṭi <hi rend="grantha">�3</hi>paki<hi rend="grantha">nta�ma�</hi> Itu cuppiramaṅkalamuṭaiyāṉ mātavaṉiravi yāṉa mānālaiya <unclear>muve</unclear>nta veḷān kolottuṅka coḻavaḷanāṭṭu v(e) <gap reason="lost" quantity="9" unit="character"/> <hi rend="grantha">śrīrājentra</hi>coḻaccaruppe<unclear>timaṅ</unclear>kalattuk kuravacari cirāma paṭṭarum Uḷḷaḷavaḷantu ci <gap reason="lost" quantity="1" unit="character"/> raṅkaṭa <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="3"/><hi rend="grantha">� 2</hi> veli m Āka <hi rend="grantha">�ma�<g type="pc"/></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.589 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">255-256</citedRange>
+			<citedRange unit="item">589</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

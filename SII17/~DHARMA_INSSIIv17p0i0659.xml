@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.659: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 659. (A.R. No. 608 of 1904.) ŚRĪNIVĀSANALLŪR, MUSIRI TALUK, TIRUCHIRAPPALLI DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0659</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south wall of the <hi rend="italic">maṇḍapa</hi> in front of the central shrine in the Rāmanāthasvāmin temple.</p>						
+
+						<p>Kulōttunga I. Year 42: 1111-12 A.D.</p>						
+
+						<p>This inscription begins with the <hi rend="italic">praśasti, Pugaḻśūḻnda puṇari</hi>, etc., of the king.</p>						
+
+						<p>It records a gift of tax-free land for gardening by the <hi rend="italic">sabhā</hi> of Jayaṅgoṇḍaśōḻachaturvēdimaṅgalam. It also refers to a previous gift in the 32nd regnal year of the king (1102 A.D.) by the <hi rend="italic">Peruṅguṟi-sabhā</hi> of the same place for performing the sacred bath and for food offerings to god Tirunārāyaṇapurattāḻvān on the day of Puṇarpūśa, the birth day asterism<note n="301-1">cf. A.R. Ep. 1947-48, Int., p. 2 where the star on the day of accession of Kulōttugga I is considered to be Pushya which is the next after Punarpūśa i.e., Punarvasu.</note>(?) of Kulōttugga I.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="9" unit="character"/> ṇari Akaḻ cū<supplied reason="omitted">ḻ</supplied>ṉta puviyil poṉ <gap reason="lost" quantity="5" unit="character"/> vum taṉ neminaṭappa viḷaṅku <hi rend="grantha">je</hi>yamakaḷai Iḷaṅkopparuvattuc cakkarakoṭṭattu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="2"/><unclear>puṇarn</unclear>tu matuvaraiyiṭṭam vayirākarattu va <gap reason="lost" quantity="4" unit="character"/> <unclear>mu</unclear>ṉaik kontaḷa Aracar tam ta<unclear>ḷa</unclear>m Iriya vāḷuṟai kaḻittut toḷvali kāṭṭip porppari naṭāttik kirttiyai <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="3"/>ma <gap reason="lost" quantity="1" unit="character"/> temarukamalap pūmakaḷ putumaiyum poṉṉiyāṭai <gap reason="lost" quantity="4" unit="character"/> ppāvaiyum tanimaiyuṉ tavirttup punitaṟ ṟi<unclear>ru</unclear>maṇimakuṭam Urimaiyiṟc cūṭit taṉnaṭiyiraṇṭun taṭa <gap reason="lost" quantity="16" unit="character"/> 
+<lb n="4"/><unclear>ma</unclear>ṉuvāṟu perukak kaliyāṟu vaṟuppa ceṅkol ticai <gap reason="lost" quantity="4" unit="character"/> cella veṇkuṭai yiru<supplied reason="omitted">ni</supplied>laviḷākam veṇkaṇ<unclear>ṇu</unclear> tenātu tiruniḻal veṇṇilāt tikaḻa yorutani meruviṟ puli vi <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="5"/>ti<unclear>ṟai</unclear>viṭu taṉta kalañ co<supplied reason="omitted">ri</supplied>kaḷiṟu muṟai <unclear>ni</unclear>ṟppa vilaṅkiya <gap reason="lost" quantity="9" unit="character"/> ṉ karun talai paruntalaittiṭa taṉ poṉnakar puṟattiṭaikkiṭappa Innāḷ piṟkula piṟ<unclear>ai</unclear> pol niṟpiḻai <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="6"/> <gap reason="lost" quantity="9" unit="character"/> poṟṟa veñcura meṟṟi koṟṟa vi<hi rend="grantha">j<supplied reason="omitted">ai</supplied><supplied reason="omitted">ya</supplied>sta</hi>mpam ticai <gap reason="lost" quantity="7" unit="character"/> niṟutti muttiṉ calāka <gap reason="lost" quantity="9" unit="character"/> teṉṉāṭṭellai k<unclear>āṭṭi</unclear>k kuṭa malaināṭṭu <gap reason="lost" quantity="9" unit="character"/> cāveṟellām tanivicumpeṟa māve<unclear>ṟiya</unclear> taṉ <unclear>varu</unclear> ta<unclear>ṉi</unclear>t talai vaṇaṅka kuṟukalar <gap reason="lost" quantity="1" unit="character"/> kulaiya koṭṭāṟuḷppaṭa <unclear>neṟitoṟum</unclear> nilaikaḷiṭṭaruḷi po<unclear>ṅk</unclear>o<supplied reason="omitted">ḷi</supplied>yāramum tiruppayattalaṅkaḷum pola viramum tiyākamum <unclear>vi</unclear>ḷaṅka pārmicai mevalar vaṇaṅka vira<hi rend="grantha">siṅhāsa <gap reason="lost" quantity="9" unit="character"/> </hi> 
+<lb n="7"/>ṇṭu patiyāna taṉaicceṉāpati maṇṭalikaḷ <gap reason="lost" quantity="1" unit="character"/> kāmayaṉ Eṇṭi <gap reason="lost" quantity="9" unit="character"/> taṇan ceruc ceṉāpati pā <gap reason="lost" quantity="9" unit="character"/> <num value="32">3 <g type="numeral">10</g> 2</num> Āvatu tiyākavallivaḷanāṭṭu mimalai <hi rend="grantha">śrī ja</hi>yaṅkoṇṭacoḻac caturvetimaṅkalattu peruṅkuṟi <hi rend="grantha">sabhai</hi>yom ti<unclear>runā</unclear>rāyaṇa purattāḻvānukku <hi rend="grantha">śrī</hi> kolotuṅka coḻa<hi rend="grantha">de</hi>var tiruna<hi rend="grantha">kṣatri</hi>yai tiruppuṇarpūcattu ṉāḷ tirumañcaṉam ce<supplied reason="omitted">y</supplied>taruḷukaikkum peruntiruamutu ceytaruḷukaikkum tiruc caṇṭilum tiru <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="8"/><hi rend="grantha">śrī</hi> kulottuṅkacoḻatevarkku yāṇṭu <num value="42">4 <g type="numeral">10</g> 2</num> Āvatu <gap reason="lost" quantity="7" unit="character"/> ka<unclear>ṇā</unclear><supplied reason="omitted">ya</supplied>ṟṟu pūrvapa<hi rend="grantha">kṣa</hi>ttu <hi rend="grantha">da</hi>[ <hi rend="grantha">śa</hi>mi] <gap reason="lost" quantity="9" unit="character"/> ṇāṟṟu 2 caturattu tenkiḻakkaṭaiya rā<hi rend="grantha">je</hi>n<hi rend="grantha">tra</hi>coḻan tirunantavanam kamukunilam Iraṇṭu mā Innilam Iraṇṭu māvum cantirātittavarai Iṟaiyiliyāka viṭṭu Innilattukku maṟṟu Eppeṟpaṭṭatuṅ koḷḷappeṟātomāka Iṟaiyiliceytu kallil veṭṭuvittuk kuṭuttom <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻac caturveti maṅkalattu <hi rend="grantha">sa</hi> <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="9"/><unclear>t</unclear>e<unclear>va</unclear>tānam nilam tecavallappāṭi Eṉṟu per kūvappaṭṭa ni <gap reason="lost" quantity="9" unit="character"/> ruḷu <gap reason="lost" quantity="4" unit="character"/> yār vitikku kiḻakku <gap reason="lost" quantity="9" unit="character"/> yāṉ paṇiyālum Ivvūr ma<hi rend="grantha">ddhyastha</hi>ṉ caṅkattimaṅkalamuṭaiyāṉ Eḻuttu Ippaṭikku I <gap reason="lost" quantity="5" unit="character"/> ku<unclear>m</unclear> Ārāvamutu <gap reason="lost" quantity="9" unit="character"/> <hi rend="grantha">śrī</hi> rā<unclear>ma</unclear>ṉ Eḻuttu <g type="ddanda">.</g> Ippaṭikku Itu pāratāyaṉ Iṭ<unclear>ṭi</unclear>kā<unclear>ma</unclear>ṉ tiruvaraṅkamārāyaṉeṉ <hi rend="grantha">sa</hi>yi<hi rend="grantha">jñai</hi>ppaṭi pe<unclear>ṟṟā</unclear>n te<unclear>var</unclear> vācciyaṉ <gap reason="lost" quantity="9" unit="character"/> <hi rend="grantha">kṣa</hi>ttu teyamuṭaiyā neḻuttu <g type="pc"/> Ippaṭikku Itu tevan taruṇentucekaraṉ <hi rend="grantha">sa</hi>yi<hi rend="grantha">jñai</hi>yā<hi rend="grantha"> <gap reason="lost" quantity="18" unit="character"/> </hi>
+<lb n="10"/>ṭaiya nilam m 3 catirattu terkkaṭaiya nilam <gap reason="lost" quantity="9" unit="character"/> nilam <gap reason="lost" quantity="2" unit="character"/> m merkkaṭaiya <gap reason="lost" quantity="11" unit="character"/> kkiramavittaṉ <hi rend="grantha">sa</hi>yi<hi rend="grantha">jñ</hi>ai māṭṭeṟinteṉ caṅkattimaṅkalamuṭaiyā<supplied reason="omitted">ṉ</supplied> Eḻuttu Ippaṭikku Ivai vācciyaṉ Aṅki vi <gap reason="lost" quantity="4" unit="character"/> ṉ Eḻuttu Ippaṭikku Ivai tiruvaraṅka nārāyaṇaṉeḻuttu Ippaṭikku Ivai n<unclear>o</unclear>ṭṭūr <gap reason="lost" quantity="4" unit="character"/> ppirāṉ kiramavittaṉ Eḻuttu Itu k<unclear>ā</unclear>makkāṇi poṟcotaṉ kākuttaṉ <hi rend="grantha">sa</hi>yi<hi rend="grantha">jñ</hi>aikku māṭṭeṟinten caṅkattima <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="11"/> <gap reason="lost" quantity="9" unit="character"/> tiruvāṉaikkāvuṭaiyān vinācakan Eḻuttu
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.659 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">301-302</citedRange>
+			<citedRange unit="item">659</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

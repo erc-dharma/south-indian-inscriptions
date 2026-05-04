@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.450: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 450. (A.R. No. 420 of 1904.) VĒDĀRAṆYAM, TIRUTTURAIPPUNDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0450</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south wall of the <hi rend="italic">maṇḍapa</hi> in front of the central shrine in the Vēdāraṇyēśvara temple.</p>						
+
+						<p>Rājarāja. Date Lost.</p>						
+
+						<p>This seems to record a gift of money to several shepherds (<hi rend="italic">kōṉs</hi>) for the supply of ghee, for burning a perpetual lamp to the god by Puttakkuḍaiyāṉ Vēḷāṉ Āṇḍukoṇḍ•••• Mūvēndavēḷār. Line 12 mentions the territorial division <hi rend="italic">Irunalam vaḷaṟkum</hi> Rājarāja pāṇḍi-nāḍu.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="9" unit="character"/> <note n="183-1">The beginnings of lines are built in.</note>ccakkaravattikaḷ <hi rend="grantha">śrī</hi> rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>tevarkku yāṇṭu I(?)
+<lb n="2"/> <gap reason="lost" quantity="9" unit="character"/> ṭṭu Uṭaiyār <unclear>tiru</unclear>maṟaikkāṭuṭaiyārkku ceyaṅko<unclear>ṇ</unclear>
+<lb n="3"/> <gap reason="lost" quantity="9" unit="character"/> �ṭṭup puttakkuṭaiyāṉ veḷāṉ Āṇṭu koṇ
+<lb n="4" break="no"/> <gap reason="lost" quantity="9" unit="character"/> muveṉtaveḷār cantirātittavar cellavaitta <unclear>tiru</unclear>
+<lb n="5" break="no"/> <gap reason="lost" quantity="9" unit="character"/> tevaṟkut tiruviḷa<supplied reason="omitted">k</supplied>ku<supplied reason="omitted">k</supplied>ku neyyaḷakkum Iṭaiyaṟku kuṭu
+<lb n="6" break="no"/> <gap reason="lost" quantity="9" unit="character"/> tuṅka coḻakoṉ kaikkoṇṭa kācu patināṟarai<supplied reason="omitted">yu</supplied>m
+<lb n="7"/> <gap reason="lost" quantity="9" unit="character"/> kaṉakaḻaniyāṉ nāṟpatteṇṇā<unclear>yira</unclear>k<supplied reason="omitted">o</supplied>ṉum kaṇṇappa koṉu
+<lb n="8" break="no"/> <gap reason="lost" quantity="9" unit="character"/> le kālum kuṭumpa po<supplied reason="omitted">ṉ</supplied>ṉaṉ Umaipaṅkaṉāṉa ku<unclear>ṉṟū</unclear>r nāṭṭuk
+<lb n="9" break="no"/> <gap reason="lost" quantity="9" unit="character"/> la kālum vetavaṉakkoṉ kaikkoṇṭa kācu patināle kā
+<lb n="10" break="no"/> <gap reason="lost" quantity="9" unit="character"/> kkoṇṭa kācu patiṉālekālum ka<unclear>ḷa</unclear>ttūr nāṭṭu koṉ
+<lb n="11"/> <gap reason="lost" quantity="9" unit="character"/> lum <unclear>maḻava</unclear>rāyakkoṉ kaikko<supplied reason="omitted">ṇ</supplied>ṭa kācu patiṉālekālu
+<lb n="12" break="no"/> <gap reason="lost" quantity="9" unit="character"/> Irunalam vaḷaṟkum rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi><unclear>pāṇṭi</unclear> nāṭṭileṉa<note n="183-2">The passage from lines 12-17 appears to be in verse and is not apparently connected with the record.</note>
+<lb n="13"/> <gap reason="lost" quantity="9" unit="character"/> ṇal <unclear>paca</unclear>ṉaiyi leppoḻutu <gap reason="lost" quantity="2" unit="character"/> ṉ kaḻuṅkucaik kaippaṭṭa
+<lb n="14"/> <gap reason="lost" quantity="8" unit="character"/> maṟukuṅ kāṭum <gap reason="lost" quantity="2" unit="character"/> kaṟpavaḻaṅ kuruviyumeṟ <gap reason="lost" quantity="2" unit="character"/> kūvaḷaiya
+<lb n="15" break="no"/> <gap reason="lost" quantity="8" unit="character"/> yta <gap reason="lost" quantity="1" unit="character"/> nirupa <gap reason="lost" quantity="1" unit="character"/> ḷuḷḷe nantaṉavaṉañ camaitta naṟku <gap reason="lost" quantity="2" unit="character"/> ṉilam A <gap reason="lost" quantity="2" unit="character"/> rai
+<lb n="16"/> <gap reason="lost" quantity="9" unit="character"/> ttoṉṉaka<unclear>ri</unclear>ṉ kaṉakacaiya <gap reason="lost" quantity="2" unit="character"/> veḻutta toḻupūñciṟṟāmayakkalu
+<lb n="17" break="no"/> <gap reason="lost" quantity="9" unit="character"/> ṉa vilaiyiṭṭiṟaiyili ceytāṉ marutamaṅkaiyil parum<unclear>ā</unclear>nte <gap reason="lost" quantity="7" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.450 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">183</citedRange>
+			<citedRange unit="item">450</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

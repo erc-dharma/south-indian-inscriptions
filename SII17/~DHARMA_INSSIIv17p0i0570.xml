@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.570: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 570. (A.R. No. 526 of 1904.) TIRUNELLIKKĀVAL, MANNARGUDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0570</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south wall of the central shrine in the Āmalakēśvara temple.</p>						
+
+						<p>Rājarāja III. Year 31: 1246-47 A.D.</p>						
+
+						<p>This damaged and incomplete inscription seems to record a grant of land to god Tirunellikkāvuḍaiyār by Arayaṉ Tillaiperumāṉ of Tiṭṭaichchēri and his brothers Ga[ṇḍarā dittadē]vaṉ and Uyyavandāṉ. It also mentions the land of a certain Tamiḻavēḷāṉ (see No. 567 above) as the western boundary of apparently the granted land.</p>						
+
+						<p>Read <hi rend="grantha">saṅjñ</hi><ta>aiyāṉamaikku.</ta></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tiripuvaṉaccakkaravattika<unclear>ḷ</unclear> <hi rend="grantha">śrī</hi>i<supplied reason="omitted">rā</supplied><hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>tevaṟkku yāṇṭu <hi rend="grantha">[<num value="31">3 <g type="numeral">10</g> 1</num>]</hi> vatu tiṭṭaicceri Uṭaiyāṉ Arayaṉ ti<unclear>l</unclear>lai perumāṉum Ivan tampi ka <gap reason="lost" quantity="4" unit="character"/> vanu
+<lb n="2" break="no"/>m Ivan tampi Uyyavantāṉum Uṭaiyā<unclear>r</unclear> tiru<unclear>nellikkāvu</unclear>ṭai<unclear>yārk</unclear>ku nāṅka<unclear>ḷ</unclear> <gap reason="lost" quantity="6" unit="character"/> kaḷ kāṇi <gap reason="lost" quantity="4" unit="character"/> <unclear>ru</unclear>m putuvūr pā <gap reason="lost" quantity="1" unit="character"/> ti<unclear>run</unclear>elli<supplied reason="omitted">k</supplied> kāvil vaṭak<unclear>kiṟ</unclear> teru vil vaṭa <gap reason="lost" quantity="5" unit="character"/> ṭiiru<unclear>ppu</unclear>
+<lb n="3"/>maṉai kuḻi <gap reason="lost" quantity="2" unit="character"/> <hi rend="grantha">4nta�</hi> <gap reason="lost" quantity="5" unit="character"/> m Ā<unclear>ḷu</unclear>ṭaiyā<unclear>r</unclear> ku<unclear>ṭi</unclear> I<unclear>ruppu maṉai kuḻi</unclear> <gap reason="lost" quantity="7" unit="character"/> kiṟa tevankuṭi Iruppu maṉai kuḻi 3 <gap reason="lost" quantity="9" unit="character"/> Iru
+<lb n="4" break="no"/>ppu maṉai kuḻi <hi rend="grantha">6 <gap reason="lost" quantity="3" unit="character"/> nta</hi> pa<hi rend="grantha">tma�</hi> nilam kiḻai<unclear>tte</unclear>ruviṟ kiḻ <unclear>ciṟakil</unclear> <gap reason="lost" quantity="4" unit="character"/> pa ṟṟāna <gap reason="lost" quantity="3" unit="character"/> <unclear>ruppumaṉai</unclear> kuḻi <hi rend="grantha">3<unclear>0</unclear></hi> <gap reason="lost" quantity="5" unit="character"/> ṟakiṟ muttakuṭi Iruppu maṉaiyum <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="5" unit="character"/> vaṉanāyakaṉ tirunattavaṉam kuḻi <num value="175"><g type="numeral">100</g> 7 <g type="numeral">10</g> 5</num> Iluppai<unclear>yu</unclear> <gap reason="lost" quantity="5" unit="character"/> kiḻ I<unclear>ṟaiyili</unclear> Irā<supplied reason="omitted">ca</supplied>r<supplied reason="omitted">āca</supplied><hi rend="grantha">de</hi>varkku <gap reason="lost" quantity="4" unit="character"/> ttukku <unclear>te</unclear>kku kuḻi <hi rend="grantha"><num value="328">3 <g type="numeral">100</g> 2 <g type="numeral">10</g> 8</num> <gap reason="lost" quantity="6" unit="character"/> </hi>
+<lb n="6"/> <gap reason="lost" quantity="3" unit="character"/> <unclear>kku ku</unclear>ḻi <hi rend="grantha"><num value="500">5 <g type="numeral">100</g></num> <gap reason="lost" quantity="1" unit="character"/> </hi> <unclear>tevar</unclear>tāṉam putuvūr Uḷḷūrkaḷ Iruvariyil nilatta <gap reason="lost" quantity="3" unit="character"/> �ḻ <gap reason="lost" quantity="4" unit="character"/> ttuk<unclear>ku</unclear> I <gap reason="lost" quantity="4" unit="character"/> ṇiyāṉa <gap reason="lost" quantity="4" unit="character"/> � <gap reason="lost" quantity="2" unit="character"/> kaṇ <gap reason="lost" quantity="3" unit="character"/> �
+<lb n="7"/> <gap reason="lost" quantity="5" unit="character"/> tu Irā<unclear>ca</unclear> <gap reason="lost" quantity="4" unit="character"/> ku kiḻakku <gap reason="lost" quantity="4" unit="character"/> kaṭai<unclear>ya</unclear> kuḻi <num value="313">3 <g type="numeral">100</g> <g type="numeral">10</g> 3</num> I<hi rend="grantha">ma�</hi> Itaṉ kiḻakku kuḻi <gap reason="lost" quantity="3" unit="character"/> <num value="525">5 <g type="numeral">100</g> 2 <g type="numeral">10</g> 5</num> <gap reason="lost" quantity="6" unit="character"/> ṇṭṭattu nellikkāvaṉa va <gap reason="lost" quantity="4" unit="character"/> <hi rend="grantha">ma�nta <gap reason="lost" quantity="1" unit="character"/> </hi>
+<lb n="8"/> <gap reason="lost" quantity="2" unit="character"/> <unclear>t</unclear>e<unclear>kku</unclear> kuḻi <gap reason="lost" quantity="5" unit="character"/> ceyil kiḻakkaṭaiyak kuḻi <num value="25">2 <g type="numeral">10</g> 5</num> Aṉū <gap reason="lost" quantity="4" unit="character"/> m kuḻi <hi rend="grantha">[<num value="108"><g type="numeral">100</g> 8</num>]</hi> I pa <gap reason="lost" quantity="4" unit="character"/> <unclear>tami</unclear>ḻaveḷāṉ nilattukku kiḻakku <unclear>putuvūr</unclear> <gap reason="lost" quantity="4" unit="character"/> ku <gap reason="lost" quantity="3" unit="character"/> kuṟumpur kiḻavaṉ pakkal <gap reason="lost" quantity="4" unit="character"/> <note n="241-1">This inscription is incomplete and much damaged.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.570 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">240-241</citedRange>
+			<citedRange unit="item">570</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

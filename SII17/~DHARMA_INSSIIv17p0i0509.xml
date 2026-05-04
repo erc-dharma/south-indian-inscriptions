@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.509: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 509. (A.R. No. 470 of 1904.) VĒDĀRAṆYAM, TIRUTTURAIPPUNDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0509</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the fifth pillar in the <hi rend="italic">maṇḍapa</hi> in front of the Tyāgarāja shrine in the Vēdāraṇyēśvara temple.</p>						
+
+						<p>Rājarāja I. Year 15: 999-1000 A.D.</p>						
+
+						<p>This records the gift of 180 sheep by Ayyāṟan Ambalattāḍi of Perumbuliyūr and Kaḷappāḷa Taṉṉichchai, the headman of Chiṟiñār in Iḍaiyaḷa-nāḍu for burning two perpetual lamps with one <hi rend="italic">uri</hi> of ghee daily by the <hi rend="italic">kēraḷāntakaṉ-nāḻi</hi>, in the shrine called Kēraḷāntakaṉ erected by the donor Ambalattāḍi for Bhuvaṉiviṭaṅkar of Tirumaṟaikkāḍu.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>pāṭiyum <unclear>taṭikaipāṭiyu</unclear><note n="210-1">The first few lines of the <hi rend="italic">praśasti</hi> are lost.</note> 
+<lb n="2" break="no"/>m kuṭamalai <unclear>nāṭum</unclear> kol
+<lb n="3" break="no"/>lamuṅ kaliṅkamum tiṇ
+<lb n="4" break="no"/>ṭiṟal veṉṟit taṇṭāṟ
+<lb n="5" break="no"/>koṇṭa ta<supplied reason="omitted">ṉ</supplied>ṉeḻil vaḷar
+<lb n="6"/>Ūḻiyuḷ ḷellāyāṇṭu
+<lb n="7" break="no"/>m toḻutaka viḷaṅkum yā
+<lb n="8" break="no"/>ṇṭe ceḻiyarait tecu ko
+<lb n="9" break="no"/>ḷ korācarācarācakecarivaṟ
+<lb n="10" break="no"/>maṟku yāṇṭu <num value="15"><g type="numeral">10</g> 5</num> Āvatu tiru
+<lb n="11" break="no"/>maṟaikkāṭuṭaiya puvaṉivi
+<lb n="12" break="no"/>ṭaṅkatevarkku koyil kera
+<lb n="13" break="no"/>ḷāntakaṉ Eṭuppitta U
+<lb n="14" break="no"/>ṭaiyār paṇimakaṉ perumpu<unclear>li</unclear>
+<lb n="15" break="no"/>yūruṭaiyāṉ Aiyāṟaṉampala
+<lb n="16" break="no"/><unclear>t</unclear>tāṭiyum Iṭaiyaḷa nāṭṭuc
+<lb n="17"/>ciṟiñār ciṟiñār kiḻavaṉ <unclear>ka</unclear>
+<lb n="18" break="no"/>ḷa<supplied reason="omitted">p</supplied>pāḷa taṉṉiccaiyum It
+<lb n="19" break="no"/>tevarkku cantirātittaval
+<lb n="20"/>vaitta tirunantā viḷakku
+<lb n="21"/>Iraṇṭiṉukku vaitta Āṭu
+<lb n="22"/>nūṟṟeṇpatuṅ keraḷā<supplied reason="omitted">nta</supplied>ka
+<lb n="23"/>ṉ nāḻiyāl nittam Uriy
+<lb n="24"/>ne<supplied reason="omitted">y</supplied>yaṭṭuvomāṉom Itte
+<lb n="25" break="no"/>variṭaiccāṉṟom [*] Itu <hi rend="grantha">pa</hi>
+<lb n="26" break="no"/><hi rend="grantha">nmāheśva</hi>rar ra<hi rend="grantha">kṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.509 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">209-210</citedRange>
+			<citedRange unit="item">509</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

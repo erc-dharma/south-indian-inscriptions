@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.331: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 331. (A.R. No. 302 of 1904.) KĀḶAHASTI, KALAHASTI TALUK, CHITTOOR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0331</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north wall of the shrine immediately to the south of the first <hi rend="italic">prākāra</hi> of the Kāḷahastīśvara temple.</p>						
+
+						<p>Sadāśivadēva-mahārāya. 1569 A.D.</p>						
+
+						<p>The details of date given in the record, viz., Śaka 1491, Śukla, Vṛiśchika ba. 14, Ādivāra, Pūraṭṭādi are irregular.</p>						
+
+						<p>This records the agreements between the <hi rend="italic">Kaṇkāṇis</hi> of the Kāḷahasti temple and <hi rend="italic">Nagarattār</hi> of Uttiramallūr, in connection with a gift of 50 <hi rend="italic">pon</hi>, made for services in the <hi rend="italic">maṭha</hi> (name lost) and for offerings in the shrine of Āṟakam Piḷḷaiyār, for the merit of the local devotees of the god.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śubhamastu svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīman mahārājādirāja rājaparameśvara śrī</hi>vi<hi rend="grantha">rapra</hi>tāpa <hi rend="grantha">śrī</hi>vira <hi rend="grantha">śa</hi>tarciva<hi rend="grantha">de</hi>va<hi rend="grantha"/>
+<lb n="2" break="no"/><hi rend="grantha">mahā</hi>rāyar <hi rend="grantha">pradhi</hi>vi<hi rend="grantha">rājya</hi>m paṇṇi Aruḷā<unclear>ni</unclear>ṉṟa <hi rend="grantha">śakā<unclear>bta</unclear></hi>m <hi rend="grantha"><num value="1491"><g type="numeral">1000</g> 4 <g type="numeral">100</g> 9 <g type="numeral">10</g> 1</num> n</hi> mel cel
+<lb n="3" break="no"/>lāniṉṟa cukkila caṅva<hi rend="grantha">tsa</hi>rattu <hi rend="grantha">pṛści</hi>kaṉāyaṟṟu Aparapa<hi rend="grantha">kṣa</hi>ttu <hi rend="grantha">śa</hi>tuṟ<hi rend="grantha">deśi</hi>yum Ātivāra
+<lb n="4" break="no"/>mum peṟṟa pūreṭṭāti na<hi rend="grantha">kṣa</hi>ttirattu ṉāḷ <hi rend="grantha">je</hi>yaṅkoṇṭaco<hi rend="grantha">ṣa</hi> maṇṭala
+<lb n="5" break="no"/>ttu Āṟṟūr nāṭṭil tirukāḷa<hi rend="grantha">hasti</hi>yāṉa mummuṭico<hi rend="grantha">ṣa</hi>purattil ṉāyaṉār
+<lb n="6" break="no"/> <gap reason="lost" quantity="5" unit="character"/> kaṅ(?)kāṇam ceyvārkaḷom Uttiramallūrilirukkum nakarattāril Akam <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="7"/>cella <gap reason="lost" quantity="9" unit="character"/> yan Uḷḷiṭṭu <hi rend="grantha">bha</hi>kta<hi rend="grantha">ja</hi>naṅkaḷukku <hi rend="grantha">Ubha</hi>ya cācanam paṇṇikuṭuttapaṭi
+<lb n="8"/>taṅkaḷukku pu<hi rend="grantha">ṇya</hi>yamāka koyil cevai <gap reason="lost" quantity="9" unit="character"/> maṭattil pū<hi rend="grantha">jai</hi> koṇṭaru
+<lb n="9" break="no"/>ḷum <hi rend="grantha">�aiva <gap reason="lost" quantity="7" unit="character"/> </hi> Eṇṇai <gap reason="lost" quantity="7" unit="character"/> pū<hi rend="grantha">jai</hi> ṉayve<hi rend="grantha">dya</hi>ttukku kuṭutta <gap reason="lost" quantity="7" unit="character"/> yinta poṉ Aṉpa
+<lb n="10" break="no"/>tu <gap reason="lost" quantity="9" unit="character"/> ṭṭu kuḻiveṭṭuvittu kalveṭṭi tāṉ Anta mutal koṇṭu
+<lb n="11" break="no"/>nāḷ Oṉṟukku tirukkoyilil viṭṭuvarum Āṟakam piḷḷaiyā<supplied reason="omitted">r</supplied> pū<hi rend="grantha">jai</hi> ṉaiyve<hi rend="grantha">dya</hi>yattukku
+<lb n="12"/>tiruvaḻiyil viṭṭuvarum cempakkāl Amutupaṭiyilum tiruviḷakku Eṇṇai Āḻākkum tiṅka
+<lb n="13" break="no"/>ḷ tivacam Āḻākkum teṉ viṭṭu cantiṟātittavaraiyum vaṅki<hi rend="grantha">ṣa</hi> paramparaiyum taṭṭāmal
+<lb n="14"/>naṭattivarak kaṭavomākavum Ivai pa<unclear>n</unclear>mā<hi rend="grantha">heśva</hi>ra ra<hi rend="grantha">kṣai <g type="ddanda">.</g><g type="pc"/></hi> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.331 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">154</citedRange>
+			<citedRange unit="item">331</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

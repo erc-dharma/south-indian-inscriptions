@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.496: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 496. (A.R. No. 464 of 1904.) VĒDĀRAṆYAM, TIRUTTURAIPPUNDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0496</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a pillar in the <hi rend="italic">maṇḍapa</hi> in front of the Tyāgarāja shrine in the Vēdāraṇyēśvara temple.</p>						
+
+						<p>Year 16.</p>						
+
+						<p>This inscription engraved in characters of the 11th century A.D. does not mention any king. This records the gift of land (as <hi rend="italic">kuḍinīṅgā-dēvadāna</hi>) made tax-free, entrusted to Nāraṇan Kāḍaṉ, by the inhabitants of Perumuḻai for food and other offerings to the value of 10 <hi rend="italic">akkam</hi> in the temple. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> yāṇṭu <num value="16"><g type="numeral">10</g> 6</num> Āvatu
+<lb n="2" break="no"/>in<unclear>nila</unclear>ṉ paṟṟātāka ceyta nila
+<lb n="3" break="no"/>ṉ paṭṭa<unclear>tu</unclear> muṭṭattu talaimaṭai
+<lb n="4"/>veliyum Itaṉukku tarippiṭṭa
+<lb n="5" break="no"/>nilam Eḻumāvum Āka Oṉṟe E
+<lb n="6" break="no"/>ḻumāvumāy veliyum <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="7"/>Imuṭṭattu maṉai Oṉṟukku Iṟai kiṭa<hi rend="grantha"><unclear>nta</unclear></hi>
+<lb n="8"/>nilam Iraṇṭemuṉṟu
+<lb n="9" break="no"/>māvum ceytu Itaṉ muṉpu cey
+<lb n="10" break="no"/>ta Eḻupatteḻu kalattukkum cattakkūli
+<lb n="11" break="no"/>yum Eḻunāḷaikkum tiruppaḷḷittā
+<lb n="12" break="no"/>mattukku Akkam Ēḻum koṭuva<unclear>ru</unclear>
+<lb n="13" break="no"/>vāṉukku Akkam Oṉṟum ney<supplied reason="omitted">ya</supplied>
+<lb n="14" break="no"/>mutukkum kaṟiyamutukkum tayir Amu<unclear>tu</unclear><unclear>kku</unclear>
+<lb n="15" break="no"/>m Akkamoṉṟum Aṭaikkāyamutukku
+<lb n="16" break="no"/>akkamoṉṟu Āka Akkam <num value="10"><g type="numeral">10</g></num> Innilaṉ ce
+<lb n="17" break="no"/>yta nāraṇan kāṭaṉ kuṭi<unclear>yilār</unclear>kke ca<hi rend="grantha"><unclear>ṇḍe</unclear></hi>
+<lb n="18" break="no"/><hi rend="grantha">śva</hi>ra Aruḷāl kuṭi<unclear>niṅkāt tevatāṉamā</unclear>kac cey
+<lb n="19" break="no"/>tu Iṉnilattāl vanta Iṟai Eṅkaḷ <unclear>peri</unclear>
+<lb n="20" break="no"/>le Iṟai Eṟṟikkoṇṭu <unclear>Iṟai</unclear> Iḻiccuk ku
+<lb n="21" break="no"/>ṭuttom perumuḻai Ūrom <supplied reason="undefined"><g type="danda">.</g></supplied> Itu pa<hi rend="grantha">nmā</hi>
+<lb n="22" break="no"/><hi rend="grantha">heśvararakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.496 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">204-205</citedRange>
+			<citedRange unit="item">496</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.424: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 424.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0424</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						<p>On the beam of the verandah of the Śiva temple east of the village.</p>						
+
+						<p>The record is in archaic characters assignable to about the 8th century A.D.</p>						
+
+						<p>It seems to record a gift of 20 <hi rend="italic">maṟuttu</hi> by three persons (names not clear) to Paṟarēva-svāmin.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="2"/>ka lu <gap reason="lost" quantity="1" unit="character"/> ppu
+<lb n="3"/> <gap reason="lost" quantity="1" unit="character"/> lu <unclear>tāpi</unclear>
+<lb n="4"/> <gap reason="lost" quantity="1" unit="character"/> lu paḷla
+<lb n="5"/>ka<unclear>lu</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="6"/>rāmu� <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="7"/> <gap reason="lost" quantity="1" unit="character"/> nmu <gap reason="lost" quantity="2" unit="character"/> �
+<lb n="8"/> <gap reason="lost" quantity="1" unit="character"/> nma <gap reason="lost" quantity="1" unit="character"/> ṭā
+<lb n="9"/>na � ka
+<lb n="10"/>lukoṇa
+<lb n="11"/>pōta cō
+<lb n="12" break="no"/>śu I mū
+<lb n="13" break="no"/>vuru I<unclear>ccu</unclear>
+<lb n="14"/>grāmadati
+<lb n="15"/>Iruvādi
+<lb n="16"/>maṟuntu
+<lb n="17" break="no"/>ḷ Ele <unclear>śrī</unclear>
+<lb n="18"/>paṟareva <unclear>svā</unclear>
+<lb n="19"/>miya�
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.424 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">176</citedRange>
+			<citedRange unit="item">424</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

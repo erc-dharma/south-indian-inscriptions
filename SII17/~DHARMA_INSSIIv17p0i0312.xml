@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.312: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 312. (A.R. No. 283 of 1904.) KĀḶAHASTI, KALAHASTI TALUK, CHITTOOR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0312</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south wall of the central shrine in the Kāḷahastīśvara temple.</p>						
+
+						<p>Rājādhirāja I. Year 22: 1039-40 A.D.</p>						
+
+						<p>This inscription records the gift of 192 sheep for two perpetual lamps to the Uḍaiyār (god) of Kāḷahasti, in Āṟṟūr-nāḍu of Perumbāṇappāḍi in Jayaṅgoṇḍaśōḻa-maṇḍalam by Teṟṟi Māṭalan Iruṅgōḷan kula••• yaṉ Madurāntakaṉ <hi rend="italic">alias</hi> Jayaṅ goṇḍaśōḻa Iruṅgōḷaṉ of Iruṅgōḷappāḍi. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> virapāṇṭiyaṉ talaiyuñ ceralaṉ cālaiyu
+<lb n="2" break="no"/><supplied reason="omitted">m</supplied> Ilaṅkaiyun taṇṭāṟkoṇṭa kovirā<hi rend="grantha">ja</hi>kecaripa<hi rend="grantha">nma</hi>rāna
+<lb n="3"/>Uṭaiyār <hi rend="grantha">śrī</hi> rā<hi rend="grantha">jā</hi>tirā<hi rend="grantha">jade</hi>vaṟku yāṇṭu <num value="26">2 <g type="numeral">10</g> 6</num> Āvatu <hi rend="grantha">ja</hi>yaṅko
+<lb n="4" break="no"/>ṇṭacoḻamaṇṭalattup perumpāṇappāṭi Āṟṟūr nāṭṭut ti
+<lb n="5" break="no"/>rukkāḷatti Uṭaiyārkkuc can=tirātittavaṟ Iraṇṭu tirunan=tāviḷak
+<lb n="6" break="no"/>ku Erippatarkku Iruṅkoḷappāṭit teṟṟimāṭala<hi rend="grantha"><unclear>nni</unclear></hi>ruṅkoḷan kula
+<lb n="7"/> <gap reason="lost" quantity="3" unit="character"/> yaṉ maturān=takanāṉa <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻa Iruṅkoḷan vaitta
+<lb n="8"/>perāṭu <num value="192"><g type="numeral">100</g> 9 <g type="numeral">10</g> 2</num> Ivvaṟṟuḷ viḷakku Onṟu celuttuvatāka māṟan pokkanāṉa <unclear>ca</unclear>
+<lb n="9" break="no"/> <gap reason="lost" quantity="2" unit="character"/> ṇṭecuṟar manṟāṭiyen kaikkoṇṭa Āṭu <num value="96">9 <g type="numeral">10</g> 6</num> meṟpaṭi viḷakku A
+<lb n="10" break="no"/>rai celuttuvatāka Arayan <unclear>na</unclear>ṭamāṭiyāna kaṇṇappa manṟāṭiyeṉ<unclear>kaik</unclear>
+<lb n="11" break="no"/>koṇṭa Āṭu <num value="48">4 <g type="numeral">10</g> 8</num>m meṟpaṭi viḷakku Arai celuttuvatāka kāri ṉāraṇa<unclear>ṉ</unclear>
+<lb n="12"/><num value="48">4 <g type="numeral">10</g> 8</num>m Āka Āṭu <num value="192"><g type="numeral">100</g> 9 <g type="numeral">10</g> 2</num>m kaikkoṇṭu can=tirātittavaṟ Ivviraṇṭu tirunan=tā<note n="136-1">Incomplete.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.312 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">135-136</citedRange>
+			<citedRange unit="item">312</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

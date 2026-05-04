@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.493: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 493. (A.R. No. 462 of 1904). VĒDĀRAṆYAM, TIRUTTURAIPPUNDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0493</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a pillar in the <hi rend="italic">maṇḍapa</hi> of the Tyāgarāja shrine in the Vēdāraṇyēśvara temple.</p>						
+
+						<p>Rājarāja I. Year 19: 1003-04 A.D.</p>						
+
+						<p>This inscription is damaged and mutilated. It begins with the <hi rend="italic">praśasti</hi> commencing with <hi rend="italic">Tirumagaḷ pōla</hi> etc., and mentions Iḍaiyaḷa-nāḍu.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>tirumakaḷ po
+<lb n="2" break="no"/>lap perunilaccelvi
+<lb n="3" break="no"/>yun taṉakke Urimai pūṇṭamai ma
+<lb n="4" break="no"/>ṉakkoḷa kāntaḷur cālai kalamaṟut
+<lb n="5" break="no"/>taruḷi veṅkaināṭuṅ kaṅkapāṭiyu nu
+<lb n="6" break="no"/>ḷampapāṭiyun taṭikaipāṭiyuṅ kuṭa
+<lb n="7" break="no"/>malaināṭuṅ kollamuṅ kaliṅ
+<lb n="8" break="no"/>kamu meṇṭicai nikaḻtara Īḻa maṇṭa
+<lb n="9" break="no"/>lamun tiṇṭiṟal veṉṟit taṇṭā
+<lb n="10" break="no"/>l koṇṭu taṉṉeḻilvaḷa ruḻiyuḷe
+<lb n="11" break="no"/>llā yāṇṭut toḻutaka <unclear>viḷaṅkum yā</unclear>
+<lb n="12" break="no"/>ṇṭey ceḻiyarait <unclear>te</unclear>cukoḷ ko
+<lb n="13" break="no"/>rācake<hi rend="grantha"><unclear>śa</unclear></hi>rivaṟmarākiya I<unclear>rā</unclear><hi rend="grantha">ja</hi>rā<hi rend="grantha">jade</hi>
+<lb n="14" break="no"/>varkku yāṇ<unclear>ṭu</unclear> <num value="19"><g type="numeral">10</g> 9</num> Āvatu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="15"/>tevavaḷanāṭṭu Iṭaiyaḷanāṭṭu perun<note n="204-1">Lines 16 to 19 badly damaged.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.493 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">204</citedRange>
+			<citedRange unit="item">493</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

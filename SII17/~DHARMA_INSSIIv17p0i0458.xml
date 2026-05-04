@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.458: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 458. (A.R. No. 427 of 1904.) VĒDĀRAṆYAM, TIRUTTURAIPPUNDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0458</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north wall of the <hi rend="italic">maṇḍapa</hi> in front of the central shrine in the Vēdāraṇyēśvara temple.</p>						
+
+						<p>Kulōttuṅgachōḷa III. Year 32: 1210 A.D.</p>						
+
+						<p>The details of date, <hi rend="italic">viz.</hi>, Dhanus, ba. 9, Monday, Chittirai corresponds to 1210 A.D., December 11. The week day was Saturday and not Monday.</p>						
+
+						<p>This incomplete inscription stops with mentioning Kalyāṇapuraṅgoṇḍa-śōḻapaṭṭiṉam in Kāṉattūr-nāḍu.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tiripuvaṉaccakkaravattikaḷ maturaiyum karuvūrum pāṇṭiyaṉmuṭi
+<lb n="2" break="no"/>ttalaiyuṅkoṇṭu virāapi<hi rend="grantha">ṣe</hi>kamum vicaiyar Api<hi rend="grantha">ṣe</hi>kamum paṇṇiya<unclear>ru</unclear>ḷiṉa tiri
+<lb n="3"/>puvaṉaviratevarkku yāṇṭu <hi rend="grantha">3<unclear>2</unclear></hi> Āvatu taṉunāyaṟṟu Aparapa<hi rend="grantha">kṣa</hi>ttu na<unclear>va</unclear>miyum ti
+<lb n="4" break="no"/>ṅkaṭki<unclear>ḻa</unclear>maiyum peṟṟa cittiranāḷ Umpaḷa nāṭṭuk kāṉattūrnāṭṭuk kalli
+<lb n="5" break="no"/>yāṇapuraṅkoṇṭacoḻapaṭṭiṉat<unclear>tu</unclear> nakarattukkuc camainta Uyyavan<unclear>tā</unclear>ṉ paḷḷi<note n="188-1">The record is incomplete.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.458 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">188</citedRange>
+			<citedRange unit="item">458</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

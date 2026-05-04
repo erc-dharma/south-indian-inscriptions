@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.624: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 624. (A.R. No. 578 of 1904.) TIRUVĀRŪR, NAGAPATTINAM TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0624</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south wall of the central shrine in the Satyavāchakēśvara temple.</p>						
+
+						<p>Kulōttuṅga I. Year 48: 1117-18 A.D.</p>						
+
+						<p>This inscription commences with the <hi rend="italic">praśasti Pugaḻmādu viḷaṅga</hi> etc., of the king.</p>						
+
+						<p>It records an allotment of fallow lands belonging to the temple to various persons, for reclamation and contribution of paddy for <hi rend="italic">śrībali</hi> and other offerings to God Ālaviḍaṅgadēvar, the deity taken out on procession in the temple, his consort Paḷḷiaṟai Nambirāṭṭiyār of the inner apartment and Chandraśēkharadēva. Puliyan Arumoḻidēvaṉ, the <hi rend="italic">kiḻavaṉ</hi> of Pālaiyūr who appears as the signatory of the record was one of the persons to whom land was allotted.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha"><g type="danda">.</g><g type="danda">.</g><g type="danda">.</g> sva<unclear>sti</unclear>śrī (rī) <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> pukaḻmātu viḷaṅka <hi rend="grantha">ja</hi>yamātu viru<unclear>m</unclear>pa <unclear>nila</unclear>makaḷ nilava malarmakaḷ puṇara Urimaiyiṟ ciṟanta maṇimuṭicūṭi minavar nilaikeṭa villavar kulaitara E<unclear>ṉai</unclear> ma<unclear>ṉna</unclear>var <unclear>I</unclear>riyaluṟṟiḻitara tikkaṉaittum tancakkara naṭānti vira<hi rend="grantha">siṅhāsa</hi>nattu Ulakuṭaiyā ḷoṭum viṟṟiru<unclear>nta</unclear>ruḷiya ko<unclear>vi</unclear>rā<hi rend="grantha">ja</hi>keca<unclear>ri</unclear>vanmarāna <hi rend="grantha">cakra</hi>va<hi rend="grantha">tthi</hi>kaḷ <hi rend="grantha">śrī</hi>kulottuṅka coḻateva<supplied reason="omitted">r</supplied>kku yāṇṭu <num value="48">4 <g type="numeral">10</g> 8</num> Āvatu keyamāṇi<unclear>k</unclear>ka vaḷanāṭṭut tiruvārurk kū <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="2"/>paravaikkuḷam nilam<hi rend="grantha">2va2</hi>l teṉkaṇṭam Aripaṭa<unclear>r</unclear>ntu tiṭalum kuḻi<supplied reason="omitted">yu</supplied>māyk kiṭantamaiyil Ittevar koyil tiruvu<hi rend="grantha">ssa</hi>vaṅkaḷ Eḻuntaruḷum Ālaviṭaṅka<hi rend="grantha">de</hi>varkku<supplied reason="omitted">m</supplied> Ivar nam pi<unclear>r</unclear>āṭṭiyārkkum Uḷḷālaip paḷ<unclear>ḷi</unclear> Āṟai nampirāṭṭiyārkkum <hi rend="grantha">śrī</hi>pali Eḻun<note n="286-1">ḻu and n interposed.</note>taruḷum <hi rend="grantha">śantra</hi>cekara<hi rend="grantha">de</hi>varkkum munpu tiruvamutu Illāmaiyil tirutti kuḻi 1 kku 3 pa Āka Ik koyil nilanivantamuṭaiya pālaiyūrkiḻavaṉ puliyan Arumoḻitevaṉ kuḻi <num value="72">7 <g type="numeral">10</g> 2</num> kku <hi rend="grantha">I�</hi>ḷa Ikkoyil te <gap reason="lost" quantity="8" unit="character"/> 
+<lb n="3"/>Araiyaṉ tūvāyaṉ kuḻi <hi rend="grantha"><num value="68">6 <g type="numeral">10</g> 8</num> I <num value="500">5 <g type="numeral">100</g></num></hi>�m Irāmaṉ Ātittatevaṉ kuḻi<num value="100"><g type="numeral">100</g></num>kku <hi rend="grantha">I<num value="801">8 <g type="numeral">100</g> 1</num></hi> Āṭavalāṉ kūttaṉ kuḻi <num value="52">5 <g type="numeral">10</g> 2</num>kku <hi rend="grantha">I <num value="401">4 <g type="numeral">100</g> 1</num></hi>- m <hi rend="grantha">śrī</hi>pukalūr kunittāṉ kuḻi <num value="41">4 <g type="numeral">10</g> 1</num>kku <hi rend="grantha">I <num value="313">3 <g type="numeral">100</g> <g type="numeral">10</g> 3</num></hi>pa caturaṉ ceramāntoḻaṉ kuḻi <num value="55">5 <g type="numeral">10</g> 5</num>kku <hi rend="grantha">I <num value="413">4 <g type="numeral">100</g> <g type="numeral">10</g> 3</num></hi>pa<unclear>m taḷayavitalaikā</unclear>taraṉ kuḻi <num value="55">5 <g type="numeral">10</g> 5</num>kku <hi rend="grantha">I<num value="401">4 <g type="numeral">100</g> 1</num> <gap reason="lost" quantity="1" unit="character"/> </hi> m <hi rend="grantha">śrī</hi>pukalūr poṉnaṉkuḻi <num value="40">4 <g type="numeral">10</g></num>kku <hi rend="grantha">I<num value="301">3 <g type="numeral">100</g> 1</num></hi> m paravai coṟuṭaiyāṉ kuḻi <num value="50">5 <g type="numeral">10</g></num>kku <hi rend="grantha">I <num value="402">4 <g type="numeral">100</g> 2</num>ba</hi>m Āṭavalāṉ puṟṟiṭaṅkoṇṭāṉ kuḻi <num value="53">5 <g type="numeral">10</g> 3</num>kku <hi rend="grantha">I<num value="401">4 <g type="numeral">100</g> 1</num></hi>m3pa cun=taraṉuttamacoḻaṉ kuḻi <num value="53">5 <g type="numeral">10</g> 3</num>kku<hi rend="grantha">i<num value="413">4 <g type="numeral">100</g> <g type="numeral">10</g> 3</num></hi>paḷamma <gap reason="lost" quantity="7" unit="character"/> 
+<lb n="4"/>puṟṟiṭaṅkoṇṭāṉ kuḻi <num value="53">5 <g type="numeral">10</g> 3</num>kku <hi rend="grantha">I<num value="413">4 <g type="numeral">100</g> <g type="numeral">10</g> 3</num></hi>pa<unclear>m</unclear> Uttama<hi rend="grantha">ja</hi>yaṅkoṇṭāṉ kuḻi(ṉi) <num value="33">3 <g type="numeral">10</g> 3</num>kku <hi rend="grantha">I <num value="200">2 <g type="numeral">100</g></num>�3</hi>pam Āṭkoṇṭ(ā)ṉāyakaṉ kuḻi <hi rend="grantha"><num value="33">3 <g type="numeral">10</g> 3</num> I <num value="200">2 <g type="numeral">100</g></num>�3</hi>pam Āka kuḻi <num value="880">8 <g type="numeral">100</g> 8 <g type="numeral">10</g></num>ṉāl <hi rend="grantha">I <num value="7301">7 <g type="numeral">1000</g> 3 <g type="numeral">100</g> 1</num></hi> yuṅkoṇṭu ceyyum nimantamāvatu Ālaviṭaṅka<hi rend="grantha">de</hi>varkkum Ivar <unclear>na</unclear>m pirāṭṭiyā<unclear>r</unclear>kkum tiruvamutukku ḷ 1 kku Arici 4pakku <hi rend="grantha">I-3</hi>pa m tiruppaḷḷi Aṟai nampirāṭṭiyārkku tiruvamutukku Ā�kku <hi rend="grantha">I 4 <gap reason="lost" quantity="1" unit="character"/> śrī</hi>pali Eḻuntaruḷum <hi rend="grantha">cantra</hi>cekara <hi rend="grantha">de</hi>varkku tiruvamutukku ḷ 1kku Ā� kku <hi rend="grantha">Ī</hi>pam palavaṟkattu <gap reason="lost" quantity="1" unit="character"/> <unclear>ta</unclear> <gap reason="lost" quantity="8" unit="character"/> 
+<lb n="5"/>kkāy 8 kkum Ilaiyamutu <num value="30">3 <g type="numeral">10</g></num>kkum <hi rend="grantha">I</hi>ṭalata <num value="20">2 <g type="numeral">10</g></num> kkum Ā 1 ḷ 1 kku <gap reason="lost" quantity="2" unit="character"/> 1 Āka ḷ <num value="360">3 <g type="numeral">100</g> 6 <g type="numeral">10</g></num> ṉukku <hi rend="grantha">I <num value="7301">7 <g type="numeral">1000</g> 3 <g type="numeral">100</g> 1</num></hi>m Eṇṇāḻiyum vaḷukka<unclear>ma</unclear>ravu <gap reason="lost" quantity="1" unit="character"/> �lāle <hi rend="grantha">śrī</hi> māye<hi rend="grantha">śvara</hi> kkaṇkāṇi ceyvārkaḷ kaṇkāṇi <gap reason="lost" quantity="3" unit="character"/> var paṇṭārattaḷakka <hi rend="grantha">sandrādittha</hi>val <hi rend="grantha">śāśvadi</hi>yamāka nimantañ ceyvatāka kal veṭṭuvittom Ivvaṉaivom Itu pa<hi rend="grantha">nmā</hi>ye<hi rend="grantha">śvararakṣai</hi> Ippaṭikku Ivai pālaiyūr kiḻavaṉ Eḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.624 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">286</citedRange>
+			<citedRange unit="item">624</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

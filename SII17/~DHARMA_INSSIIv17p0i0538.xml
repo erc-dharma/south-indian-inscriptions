@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.538: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 538. (A.R. No. 496 of 1904.) VĒDĀRAṆYAM, TIRUTTURAIPPUNDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0538</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the west wall of the first <hi rend="italic">prākāra</hi> in the Vēdāraṇyēśvara temple.</p>						
+
+						<p>Rājarāja III. Year 19: 1234 A.D.</p>						
+
+						<p>The details of date <hi rend="italic">viz.</hi>, Mithuna śu 13, Sunday, Kēṭṭai, correspond to 1234 A.D., June 11, Sunday, ·28; ·92.</p>						
+
+						<p>This registers the agreement regarding a gift of 1/4 <hi rend="italic">vēli</hi> of land in Anapāya-chatur vēdimaṅgalam in Iḍaiyaḷa-nāḍu in Rājēndraśōḻa-vaḷanāḍu to the donor Vēḷāṉ Kuḍandai Nāyakaṉ <hi rend="italic">alias</hi> Pañchavarāyaṉ of Śiṟaikkāvūr, in Kiḻāy-kkūṟṟam, in Nittavinōdavaḷanāḍu by the temple authorities. The land was made over to the <hi rend="italic">śivabrāhmaṇas</hi> for burning a perpetual lamp with one <hi rend="italic">uḻakku</hi> of oil daily in the temple. The weight of the lamp is stated to be 80 <hi rend="italic">palam.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="5" unit="character"/> <unclear>ṉa</unclear>cakkaravat<unclear>ti</unclear>kaḷ <hi rend="grantha">śrī</hi>rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>teva<unclear>ṟ</unclear>ku y<unclear>ā</unclear>ṇṭu <num value="19"><g type="numeral">10</g> 9</num> <unclear>vatu</unclear> mi<unclear>tu</unclear>ṉa nāyaṟṟup <unclear>pū</unclear>rva pa<hi rend="grantha">kṣa</hi>ttu tiraiyoteciyum nāyaṟṟukkiḻamaiyum peṟṟa keṭṭ<unclear>ai</unclear> nāḷ U<unclear>ṭaiyār tiruma</unclear>ṟaikkāṭuṭaiyār k<unclear>o</unclear>yil Atapati
+<lb n="2"/> <gap reason="lost" quantity="4" unit="character"/> <unclear>kaṉ</unclear>mikaḷo<unclear>m</unclear> nittaviṉotavaḷanāṭṭuk kiḻāykkūṟṟattuc ciṟaikkāvūruṭaiyāṉ veḷāṉ kuṭantaināyakaṉāṉa pañ<unclear>ca</unclear>varāyaṉukku nilavilaippiramāṇa Icaivu tiṭṭu Uṭaiyār tirumuṉpu
+<lb n="3"/> <gap reason="lost" quantity="7" unit="character"/> nāḷmutal vaitta tirunuṉtāviḷakku Oṉṟukku Eṇṇai Uḻakkukku nāḷ Oṉṟukku nelluk kuṟuṇiyāka Āṭṭaikku veṇṭu<unclear>m</unclear> nellu muppatiṉ kalattukkum Iṟaimikuti koṇṭu
+<lb n="4"/> <gap reason="lost" quantity="7" unit="character"/> ḷakkat tirunāmattukkāṇiyāṉa nilattu Ivar tirununtāviḷakkuppuṟamākak koṇṭu viṭṭa rā<supplied reason="omitted">j</supplied>entiracoḻavaḷa<unclear>n</unclear>āṭṭu Iṭaiyaḷa nāṭṭu Aṉapāyac caruppetimaṅkalattu tiru<unclear>nāma</unclear>ttukkā
+<lb n="5" break="no"/> <gap reason="lost" quantity="9" unit="character"/> ṇṭa nilattuc cilavāy <gap reason="lost" quantity="9" unit="character"/> kku vaṭakaraippaṭṭa nilattu Iṭaiyaḷa nāṭṭu veḷārkuṭiyāṉa maṉaicceyyil vaṭak<unclear>ka</unclear>ṭaiyap payir nilam <hi rend="grantha">pa</hi> Innilaṅ kālu<unclear>kku</unclear>m vilai niccayitta ka <gap reason="lost" quantity="9" unit="character"/> kkā<unclear>cu</unclear>
+<lb n="6" break="no"/> <gap reason="lost" quantity="9" unit="character"/> kkoṇṭu I<unclear>nnilaṅ</unclear>kālum viṟṟukkuṭuttom pañca<unclear>va</unclear>rāyaṟku Āticaṇṭe <unclear>cuvara tevar</unclear>kaṉmikaḷom Innilaṅkāluṅ kaikkoṇṭu Ittirununtāviḷakku Oṉṟum cantirātittava<unclear>l Aṭṭu</unclear>voma
+<lb n="7" break="no"/> <gap reason="lost" quantity="9" unit="character"/> muppatu vaṭ<unclear>ṭattu k</unclear>āṇi<supplied reason="omitted">yu</supplied>ṭaiya civappirāmaṇarom Iva <gap reason="lost" quantity="9" unit="character"/> Iṭṭa tarāk kuttiviḷakku 1- ṉāl Iruppu n<choice><sic>a</sic><corr>ā</corr></choice>rācam Uṭpaṭa Eṭai <num value="80">8 <g type="numeral">10</g></num>- la<note n="221-1">This symbol stands for ‘palam’.</note> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.538 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">221</citedRange>
+			<citedRange unit="item">538</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

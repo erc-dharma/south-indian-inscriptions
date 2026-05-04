@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.705: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 705. (A.R. No. 648 of 1904.) RĀMAGIRI, TIRUVALLUR TALUK, CHINGLEPUT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0705</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the west wall of the Bhairava shrine in the Vālīśvara temple.</p>						
+
+						<p>Yādavarāya. Year 36.</p>						
+
+						<p>This inscription records the gift of land as <hi rend="italic">tirunāmattukkāṇi-ubaiyam</hi>, made free of the taxes <hi rend="italic">poṉvari, kaḍamai, antarāyam</hi>, etc., by the inhabitants (<hi rend="italic">ūravar</hi>) of Arikaṇḍapuram for services during the festivals in the month of Vaigāśi, in the temple of Tirukkārikarai-uḍaiyār.</p>						
+
+						<p>Among the boundaries of the gift land, the record mentions the hamlet Kāḷayakaṇḍachchēri.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> yātavarāyaṟku yāṇṭu <num value="36">3 <g type="numeral">10</g> 6</num> vatu tirukkārikarai Uṭaiyār<supplied reason="omitted">k</supplied>ku vaikācit tirunāḷukku A<unclear>ri</unclear>kaṇṭapurattūrava
+<lb n="2" break="no"/>rom Ittirunāḷ Aḻivukku pūvuṭaiyāṉ kuḻipaḷḷattukku meṟku kacciyekampar tiruttu Uṭpaṭa kāḷayakaṇṭacceri Ellaikku
+<lb n="3"/>vaṭakkum vaṭapārkellai māvukku vaṭakku paḷḷippaṭṭi māvil Ellai U<unclear>ṟa</unclear>vum I<supplied reason="omitted">v</supplied> vellai Uṭpaṭṭa nilam kuṭi ṉiṅkiṉa nilam tiruṉāmattu
+<lb n="4" break="no"/>kkāṇi Upai<supplied reason="omitted">ya</supplied>māka poṉvari kaṭamai pala Antarāya maṟṟum Eppeṟpaṭṭa Upātikaḷu <supplied reason="omitted">m</supplied> Iṟai kaḻittu kuṭinīṅkiṉa nilamāka viṭṭom
+<lb n="5"/>Arikaṇṭapurattu Ūravarom Itukku Ilaṅkaṇam coṉ<supplied reason="omitted">ṉa</supplied>vaṉ keṅkai<note n="337-1">Read keṅkai.</note>karaiyil kurā<supplied reason="omitted">ṟ</supplied> ppacuvai koṉ<unclear>ṟa</unclear> piramatti paṭuvār <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.705 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">337</citedRange>
+			<citedRange unit="item">705</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

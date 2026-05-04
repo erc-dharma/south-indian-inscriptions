@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.728: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 728. (A.R. No. 671 of 1904.) TIRUMULLAIVĀYAL, SAIDAPET TALUK, CHINGLEPUT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0728</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the west wall of the central shrine in the Māśilāmaṇiśvara temple.</p>						
+
+						<p>Harihara II. 1400 A.D.</p>						
+
+						<p>The cyclic year Vikrama cited in the record fell in Śaka 1322. The king may be identified with Harihara II. </p>						
+
+						<p>This inscription records the gift of some materials used in worship (<hi rend="italic">tirumuṭṭu</hi>) such as <hi rend="italic">tiruvaṭṭaṇaikkāl, tiruvandikkāppu-taṭṭi</hi> and <hi rend="italic">taḷigai</hi>, in all weighing 200 (<hi rend="italic">palam</hi>) by Naṟpākkiḻāṉ Koṟṟaḷappāṉ Śūriyadēvaṉ of Ākuḍi-nāḍu to the deity Tirumullaivāyaluḍaiya nāyiṉār at Kāṉappēṟūr-nāḍu. It also records an endowment of 25 <hi rend="italic">paṇam</hi> by Śūriyappiḷḷai, towards the supply of ghee when the <hi rend="italic">tiruvandikkāppu</hi> ceremony is conducted.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīmanmahāmaṇḍaliśvara</hi> Ariyararkkuc cellā niṉṟa vikkirama varu<hi rend="grantha">ṣa</hi>m <hi rend="grantha">ja</hi>yaṅkoṇṭa coḻamaṇṭalattu puḻa<supplied reason="omitted">ṟ</supplied>(k)koṭṭattu
+<lb n="2"/>kāṉappeṟūr nāṭṭu Uṭaiyār tirumullaivāyil Uṭaiya nāyiṉāṟkku Ikkoṭṭattil Ākuṭināṭ ṭil kolaṭiyil
+<lb n="3"/>naṟpākkiḻāṉ koṟṟaḷappāṉ cūriyatevaṉ Iṭṭa tirumuṭṭu tiruvaṭṭaṇaikkā liraṇṭiṉā liṭai nūṟum
+<lb n="4"/>tiruvantik kāppu taṭṭi Iraṇṭiṉā liṭai Aimpatum taḷikai Oṉṟuṉā liṭai Aiympatum Āka tiru muṭṭu Añcunāl
+<lb n="5"/>Iṭai Irunūṟum caṉtirātittavarai naṭakkumpaṭikku <unclear>ci</unclear>lālekai paṇṇikkuṭutteṉ Ippaṭikku Ivai
+<lb n="6"/>naṟpākkiḻāṉ cūriyatevaṉ Eḻuttu <hi rend="grantha">śrīmāheśva</hi>rara<hi rend="grantha">kṣai <g type="pc"/></hi> Ittiruvanti<supplied reason="omitted">k</supplied>kāpputaṭṭi Iraṇṭukku
+<lb n="7" break="no"/>m tirumuṉ paṇi māṟukaiyil
+<lb n="8"/>vāṟkkum neyikku cūriyap piḷḷai
+<lb n="9" break="no"/>pakkal nāṅkaḷ paṟṟik koṇṭa
+<lb n="10"/><hi rend="grantha">� <num value="25">2 <g type="numeral">10</g> 5</num></hi> kkum palicaikkuc cilavāka
+<lb n="11"/>cantirātittavarai vār<supplied reason="omitted">p</supplied>patākac ci
+<lb n="12" break="no"/>lālekai paṇṇi kuṭuttom <g type="pc"/>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.728 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">347-348</citedRange>
+			<citedRange unit="item">728</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

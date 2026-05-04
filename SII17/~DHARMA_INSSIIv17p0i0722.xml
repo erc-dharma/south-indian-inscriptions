@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.722: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 722. (A.R. No. 665 of 1904.) TIRUMULLAIVĀYAL, SAIDAPET TALUK, CHINGLEPUT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0722</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south wall of the central shrine in the Māśilāmaṇīśvara temple.</p>						
+
+						<p>Dēvarāya II. 1424 A.D.</p>						
+
+						<p>The cyclic year Krōdhin cited in the inscription fell in Śaka 1346. The palaeography of the record would not militate against this. The details of date, <hi rend="italic">viz.</hi>, Krōdhin, Aṟpaśi 2 may correspond to 1424 A.D. September 30, in which case the king may be identified with Dēvarāya II.</p>						
+
+						<p>This inscription records the gift of 4000 <hi rend="italic">kuḻi</hi> of land by Oṟṟi Maṉṉaṉ <hi rend="italic">alias</hi> Uḍaiyār Oṟṟi-Araśar and Araśuperumāḷ <hi rend="italic">alias</hi> Kāḍavarāya for conducting certain special festivals in the Kāḍavarāyar <hi rend="italic">tiruttōppu</hi> (sacred grove) and at the <hi rend="italic">Aśaṅgādagaṇḍaṉ-maṇḍapa</hi> in the temple of Tirumullaivāyal-uḍaiya-nāyanār. The land was given away with irrigation facilities from the donor's lake (<hi rend="italic">periyēri</hi>).</p>						
+
+						<p>Also mentions the measuring rod <hi rend="italic">Aśaṅgāḍagaṇḍaṉ-kōl.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> Irāyar <hi rend="grantha">pra</hi>tā<hi rend="grantha">pade</hi>varāyaṟkkuc cellāniṉṟa <hi rend="grantha">krodhi</hi> varu<hi rend="grantha">ṣam</hi> Aṟpci mātam Iraṇṭāntiyati
+<lb n="2"/>Uṭaiyār tirumullaivāyal Uṭaiya nāyiṉār tirunāḷ Upayattukkum Acaṅkāta kaṇṭaṉ maṇṭa pattil ciṟappukkum
+<lb n="3"/>kāṭavarāyar tiruttoppil Āna tirunāḷc ciṟappukkum Oṟṟimaṉṉarāṉa Uṭaiyār Oṟṟi Aracarum Aracu perumāḷ Āṉa
+<lb n="4"/>kāṭavarāyarum Inta Upayattukku Eṅkaḷ kāṇi Āṭci Āṉa veḷḷāṉ Ūril kiḻaik kaḻaniyil māṉkuḻikku teṟkku
+<lb n="5"/>kaḷaṅkuḻikku vaṭakku muṉṉāḷ Uṭaiyavaṟku viṭṭa viḷakkuppaṭṭikku meṟkku Acaṅkātakaṇṭaṉ Aḷavu kolā
+<lb n="6" break="no"/>l viṭṭa kuḻi <num value="4000">4 <g type="numeral">1000</g></num> Ikkuḻi nālāyiramum kaikkoṇṭu Inta Upayam Iraṇṭum cantirātitta varaiyum naṭattak kaṭa
+<lb n="7" break="no"/>vatākavum Ippaṭikku tirukkoyilile tirukkaṭṭaḷaiyile cilālekai<unclear>yu</unclear>m paṇṇi Iṉṉila<supplied reason="omitted">t</supplied> tiṟ tiruccūlattāpanamum paṇṇi
+<lb n="8"/>kkuṭuttom Iṉṉilattukku Eṅkaḷ periyeri perunirum Āṟu nirum pāyakkaṭavatākavum Ippaṭikku cantiṟātittavaraiyum naṭakkak ka
+<lb n="9" break="no"/>ṭavatāka kalveṭṭikkuṭuttom Oṟṟi Aracar kāṭavarāyarom Ippaṭikku Ivai Oṟṟi Aracar Eḻuttu Ippaṭi
+<lb n="10" break="no"/>kku Ivai k<choice><sic>a</sic><corr>ā</corr></choice>ṭavarāyar Eḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.722 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">344-345</citedRange>
+			<citedRange unit="item">722</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

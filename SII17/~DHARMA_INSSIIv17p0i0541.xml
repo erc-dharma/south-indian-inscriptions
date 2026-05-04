@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.541: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 541. (A.R. No. 499 of 1904.) VĒDĀRAṆYAM, TIRUTTURAIPPUNDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0541</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north wall of the first <hi rend="italic">prākāra</hi> in the Vēdāraṇyēśvara temple.</p>						
+
+						<p>Rājarāja III. Year 3: 1218-19 A.D.</p>						
+
+						<p>This records the sale (<hi rend="italic">āḷvilai-pramāṇa-iśaivu-tīṭṭu</hi>) of 10 slaves with their associates of the Śadaiyāṇḍi-kūṭṭam for 1,000 <hi rend="italic">kāśu</hi> by Ariyāṉ Pichchaṉ <hi rend="italic">alias</hi> Ediriliśōḻa-Gaṅgaināḍāḻvān, the <hi rend="italic">kāval</hi> officer of Mēṟpuram in Kuṉṟūr-nāḍu to the authorities of the temple of Tirumaṟaikkāḍu-uḍaiyār. Five of these ten slaves are stated to have been once sold to the god by <hi rend="italic">Mudaliyār</hi> Gaṅgappiḷḷai <hi rend="italic">alias</hi> Rājarāja-Gaṅgaināḍāḻvār. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tiripuvaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>rā<hi rend="grantha">ja</hi>rā[<hi rend="grantha">ja</hi>*]tevaṟku yāṇṭu 3<g type="dash"/>vatu Umpaḷaṉāṭṭuk kuṉṟū<supplied reason="omitted">r</supplied>nāṭṭu Uṭaiyār tirumaṟaikkāṭuṭai<unclear>yār</unclear> k<unclear>o</unclear>yil
+<lb n="2"/>Ātitaṇṭecura tevarkaṉmikaḷukku Innāṭṭu meṟpuram kāval Ariyāṉ piccaṉāṉa Etirilicoḻa kaṅkaināṭāḻvāṉ<unclear>eṉ</unclear> Āḷvilaippiramā
+<lb n="3" break="no"/>ṇa Icaivu tiṭṭuk kuṭutta paricāvatu Eṉ A<unclear>ṭi</unclear>yāril cataiyāṇṭi <unclear>kū</unclear>ṭṭattu ve<unclear>ta</unclear>ṉāṉa paṭṭa nāyaka kaṇṇappaṉaiyum <unclear>ku</unclear>rampaṉ Ātināyaka
+<lb n="4" break="no"/>kkaṇṇappaṉai<unclear>yu</unclear>m Uṭaiyāṉāṉa cokkanāyakak kaṇṇappaṉaiyum kaṅkaṉaiyum tiruvaṉaiyum muṉṉāḷile Eṅkaḷ mutaliyār ka<unclear>ṅ</unclear>kappiḷḷai Āṉa rā[<hi rend="grantha">ja</hi>*]rā[<hi rend="grantha">ja</hi>*]
+<lb n="5" break="no"/>kkaṅkai nāṭāḻvār nāyanāṟku Aṭimaiyāka kuṭuttamaiyil Ivarkaḷaiyum piṉpu kaḻani Āṇṭiyai yum <unclear>p</unclear>eṟṟāṉaiyum Ā<unclear>ṇ</unclear>ṭāḷiyaiyum Āṇ
+<lb n="6" break="no"/>ṭāṉaiyum tirukkaḷammaḻakiyā<unclear>ṉaiyu</unclear>m Ivarkaḷaiyum Ivar(ṟka)kaḷ vaṟkkattārai<unclear>yu</unclear>m viṟṟuk kuṭuttu koḷvatāṉa kācu Āyiramu
+<lb n="7" break="no"/>m cipaṇṭārattu kai<supplied reason="omitted">k</supplied>koṇṭu Ivarkaḷai viṟṟukku<supplied reason="omitted">ṭu</supplied>tteṉ Ariyāṉ piccaṉāṉa Etirili coḻak kaṅkaināṭāḻvāṉeṉ Ippaṭikku Ivai
+<lb n="8" break="no"/>etirilicoḻak kaṅkai nāṭāḻvāṉeḻuttum coḻaṉ Āṉaikāttāṉ Āṉa coḻiya varaiyaṉum kūttaṉ tiruve<unclear>ka</unclear>mpa muṭaiyāṉ rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>k kaṅkai nāṭāḻvāṉu<unclear>m</unclear>
+<lb n="9"/><unclear>ca</unclear>yaññaiyātaṉamaikkum Ippaṭikku Ivai Ariyanāyakaveḷāṉ Eḻuttu U U
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.541 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">223-224</citedRange>
+			<citedRange unit="item">541</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

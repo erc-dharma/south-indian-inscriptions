@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.454: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 454. (A.R. No. 423 of 1904.) VĒDĀRAṆYAM, TIRUTTURAIPPUNDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0454</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north wall of the <hi rend="italic">maṇḍapa</hi> in front of the central shrine in the Vēdāraṇyēśvara temple.</p>						
+
+						<p>Rājēndrachōḷa III. Year 4: 1250 A.D.</p>						
+
+						<p>The details of date, <hi rend="italic">viz.</hi>, Makara śu 1. Wednesday, Tiruvōṇam correspond to 1250 A.D., January 5, Wednesday. </p>						
+
+						<p>This inscription records that the <hi rend="italic">Sivabrāhmaṇas</hi> of the temple of Tirumaṟaikkāḍu-Uḍaiyār, in Umbaḷa-nāḍu, agreed to maintain a perpetual lamp in the temple, with the income from the 1/4 <hi rend="italic">vēli</hi> of land in Anapāyachaturvēdimaṅgalam after paying all the dues on the land granted by Paḷḷiyāḻvi, the elder sister of (akkai ?) Tiruchchiṟṟambalamuḍaiyāṉ of Śāttaṅguḍi in Vaṇḍāḻai-vēḷūr-kūṟṟam, a sub-division of Rājēndrachōḻa-vaḷanāḍu.</p>						
+
+						<p>Śīvallava (Śrīvallabha-)ppēṟāṟu is mentioned as one of the boundaries of the gift land.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2025-05-04" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tirupuvanaccakkaravattikaḷ Irācentiracoḻatevaṟku yāṇṭu
+<lb n="2"/>nālāvatu makara nāyaṟṟup pū<hi rend="grantha">rvva</hi>pa<hi rend="grantha">kṣa</hi>ttu <hi rend="grantha">pratha</hi>maiyum putaṉkiḻamai
+<lb n="3" break="no"/>yum peṟṟa tiruvoṇattu nāḷ Umpaḷa nāṭṭu Uṭaiyār tirumaṟaikkāṭu
+<lb n="4" break="no"/>ṭaiyār koyil muppatu vaṭṭattuk kāṇi Uṭaiya civappirāmaṇarom
+<lb n="5"/>Irācentiracoḻa vaḷanāṭṭu vaṇṭ<unclear>ā</unclear>ḻai veḷūrk kūṟṟattuc cātta<unclear>ṅ</unclear>ku
+<lb n="6" break="no"/>ṭaiyāṉ tirucciṟṟampalamuṭaiyāṉ <gap reason="lost" quantity="1" unit="character"/> kkai<note n="186-1">This may be restored as akkai</note>paḷḷi yāḻvi Inṟai nāḷāl vat
+<lb n="7" break="no"/>ta tirununtāviḷakku Oṉṟukku Innāṭṭu teṉkāl Anapāyaccaruppeti
+<lb n="8" break="no"/>maṅkalattu koṇṭu viṭṭa nilattukku kiḻpāṟkellai ci(la)vallavappe
+<lb n="9" break="no"/>rāṟṟukku meṟkum teṉpāṟkellai Innāyaṉār tirunantāviḷakkup
+<lb n="10" break="no"/>puṟattukku vaṭakkum melpāṟkellai Uṭciṟuvāykkālukku kiḻakkum va
+<lb n="11" break="no"/><unclear>ṭa</unclear>pāṟkellai tirunāmattukkāṇikku teṟkum Āka Icainta perunāṉke
+<lb n="12" break="no"/>llaiyuḷ naṭuvupaṭṭa payir � va Innilam kālum paṟṟik kaṭamai Iṟut
+<lb n="13" break="no"/>tu Iṟaimikuti koṇṭu Ittirunantāviḷakku Oṉṟum cantirātittavar Erikkak ka
+<lb n="14" break="no"/>ṭavatāka <hi rend="grantha">sa</hi>mmatittom Ikkoyil muppatu vaṭṭattu civappirāmaṇarom <g type="pc"/>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.454 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">185-186</citedRange>
+			<citedRange unit="item">454</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
