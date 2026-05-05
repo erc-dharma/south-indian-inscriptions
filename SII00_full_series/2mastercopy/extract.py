@@ -346,6 +346,7 @@ def process_brackets(s):
 			# <supplied reason="undefined"><g type="ddanda">.</g></supplied>
 			supplied = tree.Tag("supplied", reason="undefined")
 			g = tree.Tag("g", type="ddanda")
+			g = tree.Tag("g", ref="sym:doubleBar", type="punctuation")
 			g.append(".")
 			supplied.append(g)
 			ret.append(supplied)
@@ -353,6 +354,7 @@ def process_brackets(s):
 			# <supplied reason="undefined"><g type="danda">.</g></supplied>
 			supplied = tree.Tag("supplied", reason="undefined")
 			g = tree.Tag("g", type="danda")
+			g = tree.Tag("g", ref="sym:bar", type="punctuation")
 			g.append(".")
 			supplied.append(g)
 			ret.append(supplied)
@@ -396,8 +398,10 @@ def replace_ddanda_dash(s):
 		# <g type="dashLong">.</g>
 		if m.group(1) == "-":
 			tag = tree.Tag("g", type="dash")
+			tag = tree.Tag("g", ref="sym:dash", type="punctuation")
 		else:
 			tag = tree.Tag("g", type="dashLong")
+			tag = tree.Tag("g", ref="sym:dash-long", type="punctuation")
 		tag.append(".")
 		ret.append(tag)
 		i = end
@@ -574,11 +578,13 @@ def replace_dandas(sn):
 		n = len(m.group())
 		if n == 2:
 			g = tree.Tag("g", type="ddanda")
+			g = tree.Tag("g", ref="sym:doubleBar", type="punctuation")
 			g.append(".")
 			repl.append(g)
 		else:
 			while n > 0:
 				g = tree.Tag("g", type="danda")
+				g = tree.Tag("g", ref="sym:bar", type="punctuation")
 				g.append(".")
 				repl.append(g)
 				n -= 1
@@ -607,6 +613,13 @@ def process_inscription(ins, vol_no, part_no, section_no, ins_no):
 		ins.coalesce()
 		encode_grantha_nums(ins)
 		ins.coalesce()
+	if lang == "tel" or lang == "kan":
+		for sn in strings(ins):
+			s = sn.data
+			s = s.replace("¨r", "r")
+			s = s.replace("n®", "N")
+			if sn.data != s:
+				sn.replace_with(s)
 	for ta in ins.find("//ta"):
 		for sn in strings(ta):
 			s = sn.data.replace("g", "ṅ")
@@ -615,7 +628,7 @@ def process_inscription(ins, vol_no, part_no, section_no, ins_no):
 			i = 0
 			for m in re.finditer(r'-\s*Āvatu', s, re.I):
 				tmp.append(s[i:m.start()])
-				tmp.append(tree.Tag("g", type="dash"))
+				tmp.append(tree.Tag("g", ref="sym:dash", type="punctuation"))
 				tmp.append("Āvatu")
 				i = m.end()
 			tmp.append(s[i:])
@@ -718,11 +731,11 @@ def process_inscription(ins, vol_no, part_no, section_no, ins_no):
 	if vol_no == 14 and lang in ("tam", "und"):
 		out.first("//div[@type='edition']").prepend(tree.Comment("Check script: Vaṭṭeḻuttu?"))
 	out = out.xml()
-	out = out.replace("[||*]", '<supplied reason="undefined"><g type="ddanda">.</g></supplied>')
-	out = out.replace("[|*]", '<supplied reason="undefined"><g type="danda">.</g></supplied>')
+	out = out.replace("[||*]", '<supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied>')
+	out = out.replace("[|*]", '<supplied reason="undefined"><g ref="sym:bar" type="punctuation">.</g></supplied>')
 	out = re.sub(r"</note> \w", lambda m: m.group().replace(" ", ""), out)
 	out = re.sub(r"·([aāiīuūeēoō]+)", lambda m: m.group(1).capitalize(), out)
-	out = out.replace("- vatu", '<g type="dash"/>vatu')
+	out = out.replace("- vatu", '<g ref="sym:dash" type="punctuation"/>vatu')
 	out = out.replace(" <note", "<note")
 	if vol_no in (1, 2, 3):
 		out = out.replace("</note>", "</note> ")
