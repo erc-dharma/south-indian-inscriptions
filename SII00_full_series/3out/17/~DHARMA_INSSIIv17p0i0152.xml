@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.152: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 152. (A.R. No. 132 of 1904.) TIRUKAṆṬHĒŚVARAM, CUDDALORE TALUK, SOUTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0152</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the east wall of the central shrine in the Naṭanapādēśvara temple.</p>						
+
+						<p>Kulōttuṅga I. Year 44: 1113-14 A.D.</p>						
+
+						<p>This epigraph records an undertaking similar to the above, given by the <hi rend="italic">śivabrāhmaṇa</hi> Bhāradvāji Tirunīlakaṇṭhaṉ Tirukkaṇṇīśvaram-uḍaiyāṉ and his brother Kunikkum Pirāṉ to Uruvāṟu-kiḻāṉ Ēṟaṉ Tiruvālinambi <hi rend="italic">alias</hi> Na[ñ*]-chey[ya*]pādappichchaṉ to burn a perpetual lamp in the temple of Tirukkaṇṇīśvaram-uḍaiya Mahādēva in Śōḻakulavallinallūr in Paṭṭāṉpākkai-nāḍu in Gaṅgaikoṇḍaśōḻa-vaḷanāḍu for 1(1/2) <hi rend="italic">kāśu</hi> received from him.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> cakkaravatti <hi rend="grantha">śrī</hi>kulo
+<lb n="2" break="no"/>ttuṅka coḻa<hi rend="grantha">de</hi>vaṟkku yā
+<lb n="3" break="no"/>ṇṭu <num value="40">4 <g type="numeral">10</g></num>nālāvatu kaṅkai
+<lb n="4"/>koṇṭacoḻavaḷanāṭṭup paṭ
+<lb n="5" break="no"/>ṭāṉ pākkaināṭṭu coḻakula
+<lb n="6" break="no"/>va<supplied reason="omitted">l</supplied>linallūr tiru<unclear>k</unclear>kaṇṇī<hi rend="grantha">śvara</hi>mu
+<lb n="7" break="no"/>ṭaiya <hi rend="grantha">māhāde</hi>vaṟkku Uruvāṟu ki
+<lb n="8" break="no"/>ḻāṉ Eṟaṉ tiruvālinampi Āṉa na<supplied reason="omitted">ñ</supplied>ke
+<lb n="9" break="no"/>y<supplied reason="omitted">ya</supplied>pātappiccaneṉ Ikkoyilil
+<lb n="10"/><hi rend="grantha">śi</hi>va<hi rend="grantha">bra(r)āmma</hi>ṇa<unclear>ṉ</unclear> <hi rend="grantha">bhāradvāji</hi> tiruni
+<lb n="11" break="no"/>lakaṇṭaṉ tirukkaṇṇi<hi rend="grantha">śvara</hi>muṭai
+<lb n="12" break="no"/>yā(ṉ)num Ivaṉ tampi kunikkumpirānum Ivaṉa pakkal kācu <num value="15"><g type="numeral">10</g> 5</num>yum Aṟakkoṇṭu <unclear>ca</unclear><hi rend="grantha">ntr <choice><sic>A</sic><corr>ā</corr></choice></hi>ti<supplied reason="omitted">tta</supplied>var Erikkakkaṭavom Iruōm <supplied reason="undefined"><g type="danda">.</g></supplied> <hi rend="grantha">panmā</hi>ye<hi rend="grantha">śva<supplied reason="omitted">ra</supplied> rakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.152 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">46</citedRange>
+			<citedRange unit="item">152</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

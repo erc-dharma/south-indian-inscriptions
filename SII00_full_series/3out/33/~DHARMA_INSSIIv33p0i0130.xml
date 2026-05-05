@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 33.130: original edition by K. Munirathnam and T. S. Ravishankar</title>
+				<title type="alt">No. 130. (A.R. No. B 233 of 1950.) Bādinēnipalle, Cumbum Taluk, Kurnool District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv33p0i0130</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Stone set up at the entrance to the Rāmasvāmin temple.</p>						
+
+						<p>Biki Rāja.</p>						
+
+						<p>Registers a gift of 4 <hi rend="italic">puṭṭis</hi> of land as <hi rend="italic">pannasa</hi> at Koṁḍlapalle to the priest Rēvanabōḷu by Biki Rāja of solar race and Kāśyapa-<hi rend="italic">gōtra.</hi> Seems to state that the receipient of the gift had to pay as levy <hi rend="italic">(ari)</hi> a quantity of grain as well as a <hi rend="italic">gadyāṇa</hi> of gold and a specified quantity of ghee. In characters of 7th-8th century A.D.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti sū¨rjyavaṁśōdbhava ku<unclear>lati</unclear> 
+<lb n="2" break="no"/>laka kāśyapagōtra karikālā<unclear>nvaya</unclear> 
+<lb n="3"/>śrīmat bikirāju śrīpūjā<unclear>ri</unclear> 
+<lb n="4"/>rēvanabōlaku koṇḍuka paṁnu va<unclear>ḍlu</unclear> 
+<lb n="5"/>paṭu maṟupolamu pannasa 
+<lb n="6"/>nālgu vuṭlu Aḍlapaṭlu raja<unclear>mā</unclear> 
+<lb n="7" break="no"/>naṁbu sū¨rjjyagraha nimityamu koṁḍlapa 
+<lb n="8" break="no"/>lli Aḍi micciri minnēla taginavaru sōba 
+<lb n="9" break="no"/>gana peggaḍalu dīni Arinallu muḍlu 
+<lb n="10" break="no"/>golgu doyeṇḍu vuṭṭalu tumeṇḍu 
+<lb n="11" break="no"/>nēmu gadyanamu pasiṇḍiyu 
+<lb n="12"/>dīni sthiti<unclear>thi</unclear> dappi ceṟicina vāru va 
+<lb n="13" break="no"/>ranasiya koṁḍlapalliyu kaṟi 
+<lb n="14" break="no"/>sinavaru pritivi dukhamu <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="15"/> <gap reason="lost" quantity="2" unit="character"/> na <gap reason="lost" quantity="1" unit="character"/> ru <gap reason="lost" quantity="2" unit="character"/> bhumiye 
+<lb n="16" break="no"/> <gap reason="lost" quantity="3" unit="character"/> vmanadinpa <gap reason="lost" quantity="1" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 33.130 by <bibl><ptr target="bib:Munirathnam2013_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2013_01"/>
+			<citedRange unit="page">107</citedRange>
+			<citedRange unit="item">130</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 20.207: original edition by G. S. Gai</title>
+				<title type="alt">No. 207. (B.K. No. 19 of 1935-36.) LAKSHMĒŚVAR, SHIRHATTI TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv20p0i0207</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Slab built into the wall of the backyard of the Taluk Office.</hi></p>						
+
+						<p>[Siṅghaṇa]—Date lost.</p>						
+
+						<p>This fragmentary and damaged record mentions Ārya <hi rend="bold">Malliseṭṭi,</hi> a subordinate of the king.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>ḷādyakhiḷanṛpakuḷaṁ siṁhaṇōrvvīśana śrīpadapaṁkējātayugmakkeṟagi bardukuguṁ <gap reason="lost" quantity="5" unit="character"/> dalta <gap reason="lost" quantity="10" unit="character"/> <note n="260-2">Some lines in the beginning are worn out.</note>
+<lb n="2"/> <gap reason="lost" quantity="5" unit="character"/> yiṁdaṁ <g type="ddanda">.</g> tatmādapadmōpajīvigaḷappa yāryya malliseṭṭiya pratāpameṁteṁdoḍe <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="3"/> <gap reason="lost" quantity="5" unit="character"/> <unclear>dhura</unclear>dhareyoḷu māṟāṁtaranittaṇiṁda <gap reason="lost" quantity="8" unit="character"/> maṁ nele<unclear>mā</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="5" unit="character"/> <unclear>da</unclear>lu dharitriyoḷu va<unclear>ryya</unclear>rāryya <gap reason="lost" quantity="13" unit="character"/> sāgara <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="5-12"/><ce>completely damaged</ce>
+<lb n="13"/> <gap reason="lost" quantity="5" unit="character"/> <unclear>dra</unclear>śaktiyatīśaṁ <g type="ddanda">.</g> <unclear>Avanata</unclear>sa <gap reason="lost" quantity="10" unit="character"/> tapō <gap reason="lost" quantity="5" unit="character"/> nidhāna <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="14"/> <gap reason="lost" quantity="5" unit="character"/> vitatayaśō<unclear>dhika</unclear>nīśvaraikadhyānaṁ <gap reason="lost" quantity="12" unit="character"/> [mādhavamunī<unclear>ṁ</unclear>dra <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="15"/> <gap reason="lost" quantity="5" unit="character"/> Aṁtā mūṟu <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 20.207 by <bibl><ptr target="bib:Gai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Gai1964_01"/>
+			<citedRange unit="page">260</citedRange>
+			<citedRange unit="item">207</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

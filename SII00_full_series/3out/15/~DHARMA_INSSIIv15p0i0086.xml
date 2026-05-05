@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 15.86: original edition by P. B. Desai, Dines Chandra Sircar and G. S. Gai</title>
+				<title type="alt">No. 86. (B.K. No. 16 of 1928-29.) AIHOḶE, HUNGUND TALUK, BIJAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv15p0i0086</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a pillar in the Jyōtirliṅga temple.</p>						
+
+						<p>1157 A.D.</p>						
+
+						<p>This is dated the Chālukya-Vikrama year 82, Īśvara, ba. 13, occurring before the Avārevasataṟa Amavāse, Tuesday, corresponding to 1157 A.D., December 31. The said amāvāse coincides with that of Pausha.</p>						
+
+						<p>It registers a gift to the god Chikkēśvara by Nīlaṇa.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti cāḷukya vikramava¨rṣada 82
+<lb n="2"/>Īsvara saṁvatsarada Avaravasataṟa
+<lb n="3"/>Amāvāseya muṁdaṇa 13 maṁgaḷa
+<lb n="4" break="no"/>vāradaṁdu rēkarāṇeya bhagavatiyakoḷḷada huṇḍageyya sta<note n="113-1">The words bhagavatiya koḷḷada are added at the end of the inscription, its proper place being indicated by a cross mark in line 4.</note>
+<lb n="5" break="no"/>ḷauḷḷa nisuvakaḷiya ba<unclear>ḷara</unclear> nīlaṇa
+<lb n="6"/>cikkēśvaradēvarige biṭṭa <g type="ddanda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 15.86 by <bibl><ptr target="bib:Desai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Desai1964_01"/>
+			<citedRange unit="page">113</citedRange>
+			<citedRange unit="item">86</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 29.298: original edition by P. N. Narasimha Murthy</title>
+				<title type="alt">No. 298. (A.R. No. B. 742 of 1962-63.) PRINCE OF WALES MUSEUM, BOMBAY TALUK AND DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv29p0i0298</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a slab.</p>						
+
+						<p><hi rend="bold">15th century A.D.</hi></p>						
+
+						<p>It records the grant of the village Voṟaūr as <hi rend="italic">yimmaḍi dharma</hi> to Kēśavayya in the presence of the god Aubaḷa of Bāḍa by Mādana yīṁmadi Siga-nāyaka who is described as <hi rend="italic">mahānāyakāchārya.</hi></p>						
+
+						<p>The record is in characters of the 15th century A.D.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>śrīmaṁnmahānāyakācāryaru
+<lb n="2"/>svāmidrōhara gaṁḍa gaḍiyaṁka
+<lb n="3" break="no"/>bhīma mādana yiṁmaḍi si<unclear>ga</unclear>nāya
+<lb n="4" break="no"/>karu kēśacayyagaḷige bāḍada A Ubaḷa
+<lb n="5"/>dēvara saṁni dhiyali voṟaura grāma<note n="271-1">Letterni is engraved above the line.</note>
+<lb n="6" break="no"/>vanu yiṁmmaḍi dharmmavāgi koṭa silā
+<lb n="7" break="no"/>sāsana <g type="danda">.</g> śrī nārasiṁhya <g type="ddanda">.</g>
+<lb n="8"/>maṁgaḷa mahā śrī śrī śrī
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 29.298 by <bibl><ptr target="bib:NarasimhaMurthy2022_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:NarasimhaMurthy2022_01"/>
+			<citedRange unit="page">271</citedRange>
+			<citedRange unit="item">298</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

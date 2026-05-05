@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 42.305: original edition by C Somasundara Rao</title>
+				<title type="alt">No. 305. (A.R. No. 74 of 1956-57.) Mōpūru, Venkatagiri Division, Nellore District, Andhra Pradesh.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv42p0i0305</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a pillar in the Nāgaliṅgēśvarasvāmin temple. . • • • .</p>						
+
+						<p>Dated <hi rend="italic">Raktākshi, Mārgaśira,</hi> ba. [10]. Written in late characters.</p>						
+
+						<p>Fragmentary. Seems to record the gift of land made to one Padmanābhayya. Donor's name and other details are lost.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<!--<h4>First Face.</h4>-->
+
+<p>
+<lb n="1"/><unclear>raktākṣi</unclear> saṁvva<unclear>tsara</unclear> 
+<lb n="2"/>mā¨rggaśira ba <unclear>10</unclear> <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="3"/>puṇyakālāna <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="4-6"/><ce>lines are illegible</ce>
+</p>
+
+<!--<h4>Second Face.</h4>-->
+
+<p>
+<lb n="7"/>ku hastinā<unclear>da</unclear> 
+<lb n="8"/> <gap reason="lost" quantity="1" unit="character"/> ḍaya śrī padmanābha 
+<lb n="9"/>yyagāriki Iccina 
+<lb n="10"/><unclear>dha</unclear>¨rmmaśāsana<unclear>mu</unclear> 
+<lb n="11"/> <gap reason="lost" quantity="3" unit="character"/> cellē vrittikini <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="12"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="13"/> <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 42.305 by <bibl><ptr target="bib:SomasundaraRao2020_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SomasundaraRao2020_01"/>
+			<citedRange unit="page">176-177</citedRange>
+			<citedRange unit="item">305</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

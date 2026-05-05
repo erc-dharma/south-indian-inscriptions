@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.488: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 488. (A.R. No. 181 of 1924.) ON THE WEST WALL OF THE THIRD PRAKARA OF THE KALAHASTISVARA TEMPLE AT KALAHASTI, CHANDRAGIRI TALUK, CHITTOOR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0488</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is dated <hi rend="bold">Śaka 1434, Āṅgirasa, Phālguṇa, śu. 5,</hi> corresponding to <hi rend="bold">A.D. 1513 February 10 Thursday</hi> (not verifiable), in the reign of <hi rend="bold">Kṛishṇadēva-Mahārāya.</hi> It records that the king made a gift of a pearl neck-lace and a neck-lace of precious stones, a gold cup inlaid with precious stones, <hi rend="italic">giriy-ārati</hi> inlaid with precious stones, a gold plate and 25 silver plates for <hi rend="italic">ārati,</hi> to the god Kāḷahastīśvara. The inscription is written in Nāgarī characters. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:nāgarī maturity:undetermined">
+
+<p>
+<lb n="1"/>śubhamastu <supplied reason="undefined"><g type="ddanda">.</g></supplied> svasti śrīvijayādbhudayaśālivāhanasakavarṣaṁgaḷu 1434 saṁdu mele naḍava Āṁgirasasaṁvatsarada pālguṇa su 5 lu śrīmaṁmnahārājādhirāja rājaparameśvara śrīvīrapratāpa
+<lb n="2"/>śrīvīrakriṣṇarāyamahārāyaru srīkālahastiśvaradevarige samarppista muttu 61 madhyanāyadanila 1 kusuri 2 saha tūka 18�1 ge kaṁṭhamāle 1 mattaṁ <supplied reason="omitted">kaṁ</supplied>ṭhamāle 1 ke muttu 20 māṇike 18 nila 2 tuṁbida
+<lb n="3"/>kusuri 38 ke tuka 17�4 ge māṇikada kaṁṭhamāle 1 Ubhaya kaṁṭhamāle 2 madhyamāṇikavikkida saṁtardāreya cinnada baṭṭalu 1 kke 226 cinnada purṣāmṛgada Ārati 1 giriyarati 1 kke muttu 22 keṁpu 24 pacce 5 sahā Ārati 1
+<lb n="4"/>beḷiya Ārati 25 yiṣṭanu taṁma seveyāgi samarpisi cittayistaru maṁgala mahā <seg xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">śrī śrī śrī ṟoyūri rāmana vrāta śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></seg>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.488 by <bibl><ptr target="bib:ShamaShastry+Rao1941_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:ShamaShastry+Rao1941_01"/>
+			<citedRange unit="page">500-501</citedRange>
+			<citedRange unit="item">488</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

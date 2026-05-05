@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 35.71: original edition by D. M. Nagaraju</title>
+				<title type="alt">No. 71. (A.R. No. 241 of 1950-51.) PARLA, KURNOOL TALUK, KURNOOL DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv35p0i0071</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Stone in the field of Kuruba Rāmanna on the border of the village.</p>						
+
+						<p>Siṁgaṇa II A.D. 1226.</p>						
+
+						<p>This inscription belonging to the reign of Siṁhaṇadēva, is dated in the cyclic year Vyaya, Śravana śu. 5, Thursday corresponding to A.D. 1226, July 30, Thursday f.d.t. 13.</p>						
+
+						<p>It registers a gift in the regime of <hi rend="italic">Mahāpradhāna</hi> Sāraṁga-Nāyaka.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti śrīmatuyādavanārāyaṇa pratāpacakrava
+<lb n="2" break="no"/>¨rtti siṁhmaṇadēvara <gap reason="lost" quantity="1" unit="character"/> 8 vyayasaṁvatsara śrāvaṇa su 5 śrīmanu
+<lb n="3" break="no"/>mahāpra<unclear>ttā</unclear>na sāraṁganāyakana Āḷikeyalu ca<unclear>ḷu</unclear>kyaravi
+<lb n="4" break="no"/>Arasaṁgaremeḍiya holadali muṟe 1 bhāga ha<unclear>ṇa</unclear><unclear>da</unclear>li Oṁdu bhā
+<lb n="5" break="no"/>ga maneya holla Ācaṁdrā¨rkka <g type="ddanda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 35.71 by <bibl><ptr target="bib:Nagaraju2017_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagaraju2017_01"/>
+			<citedRange unit="page">68</citedRange>
+			<citedRange unit="item">71</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

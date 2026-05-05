@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.286: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 286. (A.R. No. 260 of 1904.) TIRUCHCHĀṈŪR, CHANDRAGIRI TALUK, CHITTOOR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0286</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the west base of the <hi rend="italic">vāhana-maṇḍapa</hi> in front of the temple.</p>						
+
+						<p>Parāntaka I: Year 29: 935-36 A.D.</p>						
+
+						<p>This inscription is in fragments. One of the fragments is dated in the reign of Madiraikoṇḍa Parakēsarivarman, i.e., Parāntaka I.</p>						
+
+						<p>The first piece seems to record a gift of gold for a perpetual lamp and mentions ••• ṅgai [Śa]ṅkara[ṉ Raṇa]śiṅgaṉ and the <hi rend="italic">sabhā</hi> of Tiruchchoguṉūr in Kuḍavūrnāḍu in Tiruvēṅgaḍakōṭṭam. The second piece seems to register another gift of 88 <hi rend="italic">kaḻañju</hi> for a perpetual lamp and other services.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<!--<h4>Piece 1</h4>-->
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> matirai koṇṭa kopparakecaripaṉma<unclear>ṟ</unclear>ku yāṇṭu Irupattoṉpatāvatu tiruveṅkaṭa <gap reason="lost" quantity="9" unit="character"/> ṅkai <unclear>ca</unclear>ṅkara<unclear>ṉ raṇa</unclear>ciṅkaṉākiya <gap reason="lost" quantity="9" unit="character"/> <note n="117-1">Built in.</note>
+<lb n="2"/>kku Oṉṟiṉukkut tiruveṅkaṭak koṭṭattu kuṭavūr nāṭṭu tiruccoru<unclear>ṉū</unclear>r <hi rend="grantha">sabhai <gap reason="lost" quantity="4" unit="character"/> </hi> Ipponṉiṟ palicaiyiṉāl nicati pa <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="3"/><unclear>ti</unclear>riyum Iṭṭu Eri<supplied reason="omitted">p</supplied>pomānom tiruccokuṉūr <hi rend="grantha">sabhai</hi>yom I<hi rend="grantha">ddharmma</hi>m <gap reason="lost" quantity="4" unit="character"/> 
+</p>
+
+<!--<h4>Piece 2.</h4>-->
+
+<p>
+<lb n="1"/><unclear>p</unclear>oṉ mu<unclear>p</unclear>pattaiyṅkaḻa <gap reason="lost" quantity="4" unit="character"/> <unclear>riya</unclear> t <gap reason="lost" quantity="2" unit="character"/> pa <gap reason="lost" quantity="2" unit="character"/> kā <gap reason="lost" quantity="2" unit="character"/> ta <gap reason="lost" quantity="1" unit="character"/> ttu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="2"/><unclear>k</unclear>oṇṭa poṉ Eṇpatte<unclear>ṇ</unclear> kaḻañcum ti <gap reason="lost" quantity="2" unit="character"/> cakku nūracca <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="3"/><unclear>kkoru tiru</unclear>n<unclear>o</unclear>ntāviḷakkiṉukku Oṉṟarai mañcāṭikku pūrattukku pa <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="5" unit="character"/> t mukkaḻañcum nicati Eriya neykku ma <gap reason="lost" quantity="2" unit="character"/> mu <gap reason="lost" quantity="1" unit="character"/> te <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="5"/>kaḻañcu <unclear>kai</unclear>kkoṇṭa poṉ Eṇpatteṇ ka<unclear>ḻa</unclear>ñcu <gap reason="lost" quantity="1" unit="character"/> nā<unclear>ṅ</unclear>kaḷ<note n="117-2">In continuation of this piece another inscription seems to begin with matiraiko. ṭhere is also another piece containing the following two lines in characters of about the 11th century ā.D. 1 pakkal <hi rend="grantha">sabhai</hi>yom viṟṟukkoṇṭu uṭaiya 2 [ nan=ta] v[āṉa]t(ta)ti[ṉ] vaṭakkum paciṇṭi kkaṇa•• kkum.</note> <gap reason="lost" quantity="6" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.286 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">117</citedRange>
+			<citedRange unit="item">286</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

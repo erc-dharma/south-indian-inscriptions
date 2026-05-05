@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.46: original edition by S. Swaminathan</title>
+				<title type="alt">No. 46. (A.R. No. 46 of 1912.) LAKKUVARAPUKŌṬA, LAKKUVARAPUKOTA TALUK, VIZAGAPATAM DISTRICT. On a pillar near a well at the entrance into the village.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0046</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">King: ⎯⎯ Year: Śaka 13[6]9. <hi rend="italic">Prabhava, Chaitra</hi>, śu. di, 10, Thursday = 1447 A.D. April 5, but the day was Wednesday.</hi></p>						
+
+						<p>It records that the well was sunk by Khasuvayya, son of Yeṟṟaya and Yellamma of Lakumavarapuṅkōṭa in Jaṅku-nāḍu. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrī śakavaru
+<lb n="2" break="no"/>ṣaṁ<unclear>bulu</unclear> 13<unclear>6</unclear>9
+<lb n="3"/>Agunēṁṭi prabhava saṁ
+<lb n="4" break="no"/>vatsaramu caitra śu <unclear>10</unclear>
+<lb n="5"/>gu <g type="danda">.</g> nāṁḍu jaṁkunāḍu
+<lb n="6" break="no"/>la kumavarapuṁkōṭa <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="7"/>palleyaṁdu [Ellamma]
+<lb n="8"/>yaṟaya koḍuku <unclear>kha</unclear>
+<lb n="9"/>suvayya <unclear>ṟa</unclear>yya<unclear>khāna</unclear>
+<lb n="10"/>yya dravviṁcci tava <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="11"/>Ācaṁdrā¨rkatārakamu
+<lb n="12" break="no"/>Anubhaviṁcāgala
+<lb n="13" break="no"/>vāru <unclear>maṁgaḷamahā</unclear>
+<lb n="14"/>śrī śrī śrīṁ je
+<lb n="15" break="no"/>yunu
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.46 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">47-48</citedRange>
+			<citedRange unit="item">46</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

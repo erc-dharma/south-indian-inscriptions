@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 29.187: original edition by P. N. Narasimha Murthy</title>
+				<title type="alt">No. 187. (A.R. No. B. 182 of 1962-63.) CHENNIPĀḌU, ALAMPUR TALUK, MAHABUBNAGAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv29p0i0187</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Lintel of the <hi rend="italic">garbhagriha</hi> of the Kēśavasvāmi temple.</p>						
+
+						<p><hi rend="bold">1067 A.D.</hi></p>						
+
+						<p>It registers a grant of land and a garden for the worship and offerings to the God Śrī Vishṇudēva the image of which got prepared and installed by <hi rend="italic">perggaḍe</hi> Kōsanamayya.</p>						
+
+						<p>It is dated Śaka 988, Parābhava, Phālguṇa, Śu. 13, Thursday corresponding to 1067 A.D., March 1.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti sakavariṣa 988 neya parābhava saṁvatsarada phālguṇa sudda trayōdasi bṛ
+<lb n="2" break="no"/>hasvativāradaṁdu śrī perggaḍe kōsanamayyaṁ māḍisi pratiṣṭemāḍi
+<lb n="3" break="no"/>da śrī viṣṇudēvara pūje nivēdyakke biṭṭa nelaṁ matta 12 yoṁdu tōṁṭa <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 29.187 by <bibl><ptr target="bib:NarasimhaMurthy2022_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:NarasimhaMurthy2022_01"/>
+			<citedRange unit="page">212</citedRange>
+			<citedRange unit="item">187</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

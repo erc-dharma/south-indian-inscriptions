@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.163: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 163. (A.R. No. 436 of 1908.) TIRUVIḺIMIḺALAI, NANNILAM TALUK, TANJAVUR DISTRICT. ON A PILLAR IN THE SUNDARAKUCHĀMBĀḶ SHRINE, VIḶINĀTHASVĀMI TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0163</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Being built into the stone pavement, a few lines at the bottom of each side of the pillar are inaccessible. The inscription records an endowment in gold made by a certain chief or officer by name <hi rend="bold">Amarabhujaṅgaṉ Muppuḷi</hi> <hi rend="italic">alias</hi> <hi rend="bold">Gaṇḍaruḷgaṇḍa-Pallavaraiyaṉ</hi> for the daily feeding at mid-day of 4 Brāhmaṇas in the temple of Tiruttāntōṉṟi-Mahādēva at Tirumaḻalai in Veṇṇāḍu. With this 120(1/4) <hi rend="italic">kaḻañju</hi>, land was purchased for its yield in paddy to maintain this charity, the supervision of which passed after the demise of the donor to <hi rend="bold">Amara-bhujaṅgaṉ Vāṇappēraiyaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Vāṉavaṉ Pallavaraiyaṉ, probably his son.</hi> The inscription is in early script and hence the record has been assigned to the reign of <hi rend="bold">Vijayālaya</hi> (<hi rend="bold">M.E.R.</hi> for 1909, Part II, para. 35).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<!--<h4>East face</h4>-->
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti</hi>
+<lb n="2" break="no"/><hi rend="grantha">śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> ko
+<lb n="3" break="no"/>pparakecari<hi rend="grantha">panma</hi>ṟkku
+<lb n="4"/>yāṇṭu Āṟāvatu veṇ
+<lb n="5" break="no"/>ṇāṭṭu tirumaḻalai tirutt<unclear>ā</unclear>
+<lb n="6" break="no"/>ṉṟoṉṟi <hi rend="grantha">mahāde</hi>var <hi rend="grantha">śrī</hi>
+<lb n="7" break="no"/>koyilil Amara<hi rend="grantha">bhūja</hi>ṅka
+<lb n="8" break="no"/>ṉ muppuḷiyāṉa kaṇṭaru<unclear>ḷka</unclear>
+<lb n="9" break="no"/>ṇṭap pallavaraiyaṉ ca
+<lb n="10" break="no"/><hi rend="grantha">ntrādi</hi>ttavaṟ nālvar <hi rend="grantha">brā</hi>
+<lb n="11" break="no"/><hi rend="grantha">hma</hi>ṇar nicatamum <hi rend="grantha">madhyā</hi>na<hi rend="grantha"/>
+<lb n="12" break="no"/>ttu perāl Irunāḻi <unclear>A</unclear>
+<lb n="13" break="no"/>riciyu muṉṟu kaṟiyum ne<supplied reason="omitted">y</supplied>yum
+<lb n="14"/>Aṭṭuvaṉavum pākkum ve
+</p>
+
+<!--<h4>North face</h4>-->
+
+<p>
+<lb n="15" break="no"/> <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="16"/>ka nikkikkuṭu
+<lb n="17" break="no"/>tta poṉ
+<lb n="18"/>Ū<supplied reason="omitted">r</supplied>kkallā
+<lb n="19" break="no"/>l niṟai nūṟṟirupatiṉ kaḻa
+<lb n="20" break="no"/>ñcekāl Ippoṉ I<hi rend="grantha">de</hi>
+<lb n="21" break="no"/>var tāme koṇṭaruḷi Āṭ
+<lb n="22"/>ṭaiviṭṭamum poṟkāl<choice><sic>a</sic><corr>ā</corr></choice>l
+<lb n="23"/>Aḷakkakaṭava nellu nūṟṟiru
+<lb n="24" break="no"/>patiṉkalam Innellukku
+<lb n="25" break="no"/>ṭalākac ce<unclear>y</unclear>ta nilam cenni
+<lb n="26" break="no"/>lattu pat<unclear>tu</unclear> ceyyum pā
+<lb n="27" break="no"/>rkkuḷattiṉ kiḻaiccāḷam
+<lb n="28"/>nā<supplied reason="omitted">ṉ</supplied>māvaraiyum kiḻppā
+<lb n="29" break="no"/>ṟ<unclear>ai</unclear> I<hi rend="grantha">de</hi>var nilattu citārip
+<lb n="30" break="no"/>puṟattiṉ melpāṟ kiṭant<unclear>ā</unclear>
+</p>
+
+<!--<h4>West face</h4>-->
+
+<p>
+<lb n="31" break="no"/>ḻiyiṉmelai Araimāvu
+<lb n="32" break="no"/>māka nila mukkāle Ira
+<lb n="33" break="no"/>ṇṭumā Innilattāl
+<lb n="34"/>vanta Aṭaippaṭi nel
+<lb n="35" break="no"/>lu nikki niṉṟa nel(l)lu
+<lb n="36"/>I<hi rend="grantha">de</hi>var paṇṭāratte Iva
+<lb n="37" break="no"/>ṉ vaicca <hi rend="grantha">U</hi>ttamā<hi rend="grantha">gra</hi>ttukku
+<lb n="38" break="no"/>k kuṭuppatākavum I<hi rend="grantha">de</hi>varka
+<lb n="39" break="no"/><hi rend="grantha">nmi</hi>kaḷome Ivva<hi rend="grantha">gra</hi>m Orukā
+<lb n="40" break="no"/>l muṭṭilum keṅkai karai 
+<lb n="41"/>Āyiraṅ kurālāka koṉṟa
+<lb n="42"/>[ma<hi rend="grantha">hā</hi>]narakam pukuvatākavu
+</p>
+
+<!--<h4>South face</h4>-->
+
+<p>
+<lb n="43" break="no"/>m Ivva<hi rend="grantha">gra</hi>muṇṇa Iṭṭa
+<lb n="44"/>kalam nālu niṟai nūṟṟiru
+<lb n="45" break="no"/>patu Ivva<hi rend="grantha">gra</hi>m Aṭuviccu
+<lb n="46"/>Ūṭṭuvikka<unclear>kka</unclear>ṭavār <hi rend="grantha">śrī</hi>koyi
+<lb n="47" break="no"/>ṉampu peṟṟār kaṇṭaru<supplied reason="omitted">ḷ</supplied>kaṇ
+<lb n="48" break="no"/>ṭap pallavaraiyaṉ kaḻi
+<lb n="49" break="no"/>ñcapiṉ I<hi rend="grantha">ddharmma<supplied reason="omitted">m</supplied></hi> ceyvit
+<lb n="50" break="no"/>tār Amara<hi rend="grantha">bhūjaṅ</hi>kaṉ <unclear>puṇa</unclear>p
+<lb n="51" break="no"/>peraiyaṉāṉa vāṉavaṉ
+<lb n="52"/>pallavaraiyaṉ I<hi rend="grantha">ddharmma<supplied reason="omitted">m</supplied></hi> I
+<lb n="53" break="no"/>vvūr <hi rend="grantha">sabhai</hi>yum <hi rend="grantha">panmāhe</hi>
+<lb n="54" break="no"/><hi rend="grantha">śvara</hi><supplied reason="omitted">rum</supplied> <hi rend="grantha">rakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.163 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">82-83</citedRange>
+			<citedRange unit="item">163</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

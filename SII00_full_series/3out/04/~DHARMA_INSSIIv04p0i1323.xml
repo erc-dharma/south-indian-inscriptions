@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 4.1323: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 1323. (A.R. No. 401 of 1893). IN THE SAME PLACE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv04p0i1323</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>śakava¨rṣaṁbulu 10<unclear>37</unclear> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2"/>jula prava¨rddhamānavijayarājyasaṁvatsa 46 śrahi gaṁggagoṇḍacō
+<lb n="3" break="no"/>ḍavalanāṁṭi guddavādināṁṭi peddaḍākarēmi śrībhīmēśvaramahādēvara
+<lb n="4" break="no"/>ku viṣuvusaṁkrāṁtinimittamuna jayaṁgoṇḍacōḍamaṇḍalamuna <unclear>pu</unclear>
+<lb n="5" break="no"/>ṟakōṭṭattu kaṇḍraya<unclear>pē</unclear>rūrunāṭṭu kṣatriyaśikhāmaṇinallūru vellāla
+<lb n="6" break="no"/>ṇḍu vāmanakkiyāṁ<unclear>ḍa</unclear>ṁgōvanu gaṁggagoṇḍacōḍavalanāṁṭi baṁṭani mā
+<lb n="7" break="no"/>viṇṭivāḍa mā raṭṭaḍikamu valayucu<unclear>ṭṭa</unclear> Alamu Ēnuvuṭlu nēla gaṇṭā
+<lb n="8" break="no"/>śēṣasalvisaṁpadalatōṁ gūḍaṁ Āḍavalladēvara naṁbrāṭiki
+<lb n="9"/>maṁtrabōnamunappaṭiki ṟēpaṭi saṁdyakuṁ dellaṁbrāla kuṁcca
+<lb n="10" break="no"/>mulu Enmidi pappu kuṁcceṇḍu neyi paṟiyaṇḍunu naṁjuḍlu 3 ṇṭiki
+<lb n="11" break="no"/>gāṁ śrībhīmēśvaramahādēvarasannidhānamuna nicci śilaśāsanamu
+<lb n="12"/>veṭṭiṁciti <supplied reason="undefined"><g type="danda">.</g></supplied> likhīta<supplied reason="omitted">ṁ</supplied> ḍakarēmisuracāri Ayina rajēṁdracōḍa
+<lb n="13" break="no"/>Ācā¨ryyasya <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 4.1323 by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1923_01"/>
+			<citedRange unit="page">464</citedRange>
+			<citedRange unit="item">1323</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

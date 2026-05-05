@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 29.278: original edition by P. N. Narasimha Murthy</title>
+				<title type="alt">No. 278. (A.R. No. B. 619 of 1961-62.) HOSAKŌṬE, COONDAPUR TALUK, SOUTH KANARA DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv29p0i0278</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab in a field called Yeḷamakki belonging to the Mūkāmbika temple of Kollūru.</p>						
+
+						<p><hi rend="bold">14th century A.D.</hi></p>						
+
+						<p>This record is badly worn out and only the imprecatory portion of the writing can be made out. It seems to have registered a grant.</p>						
+
+						<p>It is in characters of the 14th century A.D.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="10" unit="character"/> Ācaṁdrārka naḍava
+<lb n="2" break="no"/> <gap reason="lost" quantity="5" unit="character"/> barasi neṭṭa śilāśāsana <supplied reason="undefined"><g type="danda">.</g></supplied> svadattaṁ paradattaṁ vāyō harēti vasuṁdharā śaṣṭirvvarṣa
+<lb n="3"/>sahasrāṇi viṣṭāyāṁ jāyatē krimi <supplied reason="undefined"><g type="danda">.</g></supplied> dānapālanayōrmmadhye dānātsē
+<lb n="4" break="no"/> <gap reason="lost" quantity="5" unit="character"/> dānātsvarggamavāpnōti pālanādaccutaṁ padaṁ <supplied reason="undefined"><g type="danda">.</g></supplied>
+<lb n="5"/>yi śāsanakke <gap reason="lost" quantity="5" unit="character"/> voḍeyara suhastada baraha śrī śrī śrī śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 29.278 by <bibl><ptr target="bib:NarasimhaMurthy2022_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:NarasimhaMurthy2022_01"/>
+			<citedRange unit="page">262</citedRange>
+			<citedRange unit="item">278</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

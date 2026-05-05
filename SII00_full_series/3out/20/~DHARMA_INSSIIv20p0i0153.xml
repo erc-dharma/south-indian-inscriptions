@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 20.153: original edition by G. S. Gai</title>
+				<title type="alt">No. 153. (B.K. No. 15 of 1937-38.) BHŪYĀR, INDI TALUK, BIJAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv20p0i0153</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Broken slab near the ruined Mallikārjuna temple on the bank of the Bhīmarathi river.</hi></p>						
+
+						<p>Sōvidēva—(A.D. 1172).</p>						
+
+						<p>This record is dated in the king's regnal <hi rend="bold">year 4, Khara, Phālguṇa, Amāvāsye, Monday.</hi> The details of the date correspond to <hi rend="bold">A.D. 1172, February 25,</hi> which was Friday and not Monday as stated in the record.</p>						
+
+						<p>The inscription registers a gift of land for burning a perpetual lamp in the temple of god Kūḍaladēva, by Dhāyya, Māya-sāhaṇi, Rēchagāvuṇḍa and others.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>© svasti śrīmatkaḻacu
+<lb n="2" break="no"/>ryyakuḻacakravartti rā
+<lb n="3" break="no"/>yamurāri sōmidēvava
+<lb n="4" break="no"/>rśada 4 neya khara saṁvatsa
+<lb n="5" break="no"/>rada phālguṇadamavāsye sō
+<lb n="6" break="no"/>mavāradalu dhāyya māya
+<lb n="7" break="no"/>sāhaṇi rēcagāuṁḍamukhyavā
+<lb n="8" break="no"/>gi samasta mānyakāṟaruṁ bu
+<lb n="9" break="no"/>yyāra<unclear>da</unclear> <gap reason="lost" quantity="5" unit="character"/> dāri
+<lb n="10" break="no"/>yiṁ paḍuva biṭṭa kōla
+<lb n="11"/>mattaru 12 <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="12"/><unclear>kē</unclear>ḍada siriyamasāha
+<lb n="13" break="no"/><unclear>ṇi</unclear> rēcagāuṇḍa mailagāu
+<lb n="14" break="no"/>ṇḍa rājagauḍa mukhyasama 
+<lb n="15" break="no"/>sta mūnyakāṟaru prajegaḷuṁ
+<lb n="16"/>kūḍaladēvaralli krita<unclear>ke</unclear>
+<lb n="17"/><unclear>ba</unclear>ṁdu naṁdādīvigege sarvva
+<lb n="18" break="no"/>namasyavāgi biṭṭa māṇi
+<lb n="19" break="no"/>kēsvarada kōla mattaru 6
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 20.153 by <bibl><ptr target="bib:Gai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Gai1964_01"/>
+			<citedRange unit="page">195-196</citedRange>
+			<citedRange unit="item">153</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

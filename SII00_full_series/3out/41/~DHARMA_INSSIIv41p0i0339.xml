@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 41.339: original edition by S. Rajagopal</title>
+				<title type="alt">No. 339. (A.R. No. 554 of 1905.) Vijayamaṅgalam, Erode Taluk, Coimbatore District. On the north base of the maṇḍapa in front of the central shrine the Kariyamāṇikka Perumāḷ temple at Vijayamaṅgalam.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv41p0i0339</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Koṅgu, Rājakesarivarman Vira-Pāṇ[ḍ]ya, Year 17 = 1282 A.D.</hi></p>						
+
+						<p>Gift of money for a lamp by Piḷḷai Ammai, wife of Vīrkāmiṇḍan of <hi rend="italic">Veḷḷāḷan Avakaḷ</hi> clan of Kāngaya-nāḍu.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kovirācakecaripaṉmarāṉa <hi rend="grantha">tribhu</hi>vaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>virapāṇ<supplied reason="omitted">ṭi</supplied>ya tevaṟku yāṇṭu <num value="17"><g type="numeral">10</g> 7</num>vatu Āvaṇitiṅkaḷ mutalāka kāṅkayaṉāṭṭil paḻa 
+<lb n="2" break="no"/>ñ<unclear>ciyaṉ velḷā</unclear>ḻaṉ Āvakaḷil vīrakāmiṇṭaṉ Uṭaiyāṇṭāṉ maṉaikkiḻatti vāmatevar makaḷ piḷḷai Ammai vicaiyamaṅkalattuc cittirameḻi viṇṇa
+<lb n="3" break="no"/>karemperumāṉ karumāṇikkāḻvāṟku vaitta <hi rend="grantha">sandyādi</hi>pam Oṉṟukku Oṭukkiṉa Accu <hi rend="grantha">śrī</hi>yakki paḻañcalākai Accu Oṉṟuṅ kaikkoṇṭom Ikkoyilk kā
+<lb n="4" break="no"/>ṇi Uṭaiya vai<hi rend="grantha"><unclear>kh</unclear>ā</hi>na<hi rend="grantha">sa sūtra</hi>ttil nampimāril <hi rend="grantha">gau</hi>tamaṉ cokitta tevar <hi rend="grantha">pa</hi>ratarumivaṉtampi periya perumāḷumivviruvoṅ kuṭaṅkoṇṭu Ik
+<lb n="5" break="no"/>koyil pukkavaṉ <hi rend="grantha"><unclear>candr</unclear>āditya</hi>varai Erippatāka kalveṭṭikkuṭuttom Itu <hi rend="grantha">śrī</hi>vai<hi rend="grantha">ṣṇa</hi>vara <hi rend="grantha">rakṣai §</hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 41.339 by <bibl><ptr target="bib:Rajagopal2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Rajagopal2019_01"/>
+			<citedRange unit="page">349-350</citedRange>
+			<citedRange unit="item">339</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 30.212: original edition by N. Marxia Gandhi, A. Padmavathy and S. Swaminathan</title>
+				<title type="alt">No. 212. (A.R. No. 287 of 1915.) Vikravāṇḍi, Villupuram Taluk, South Arcot District Bhuvanēśvara temple-on the north, west and south walls of the central shrine Vikrama-Chōḻa: year lost: 12th c. A.D.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv30p0i0212</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Fragments. Contains only the historical introduction of the king. It seems to be a record of the gift of land as <hi rend="italic">tirunondāviḷakkup-puṟam</hi> for burning perpetual lamp in the temple by a certain <hi rend="italic">Parigrahattār.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>I</p>
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> pūmātupuṇarap puvimātu <unclear>vaḷara</unclear> nāmātu viḷaṅka <hi rend="grantha">ja</hi>yamātu virumpa tan=tiruppa<unclear>tamalar</unclear> mannavar cūṭic ceṅkol cenṟu ticaitoṟum vaḷarppa kaliṅkamiriyak kaṭal <gap reason="lost" quantity="6" unit="character"/> niḻaṟṟi vira<hi rend="grantha">simhāsa</hi>ṉattu mukkok kiḻāṉaṭikaḷoṭum viṟṟirun=taruḷiya kopparakecari <hi rend="grantha">panma</hi>rāṉa <hi rend="grantha">tribhu</hi>vaṉac cak<hi rend="grantha">ra</hi>varttikaḷ <hi rend="grantha">śrī</hi>vikkiramacoḻa<hi rend="grantha">de</hi>va<hi rend="grantha"> <gap reason="lost" quantity="5" unit="character"/> </hi>
+</p>
+
+<p>II</p>
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="3" unit="character"/> pari<hi rend="grantha">graha</hi>ttār tirunontāviḷakkuppuṟamāka viṭṭamaiyil Innilaṅkaikkoṇṭu <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 30.212 by <bibl><ptr target="bib:MarxiaGandhi+al2011_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:MarxiaGandhi+al2011_01"/>
+			<citedRange unit="page">197</citedRange>
+			<citedRange unit="item">212</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

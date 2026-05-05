@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 16.187: original edition by H. K. Narasimhaswami and G. S. Gai</title>
+				<title type="alt">No. 187. (A.R. No. 424 of 1920.) PENNAHŌBILAM, GOOTY TALUK, ANANTAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv16p0i0187</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a slab set up in the Nṛisiṁhasvāmin temple.</p>						
+
+						<p>Sadāśiva, 1553 A.D.</p>						
+
+						<p>The record is damaged. It is dated <hi rend="bold">Śaka 1474, Paridhāvin, Pushya ba. 15,</hi> corresponding to <hi rend="bold">1553 A.D., January 14, Saturday, (solar eclipse).</hi></p>						
+
+						<p>It records a gift of land by Mahāmaṇḍalēśvara Rāmarāju Kōnēṭi China-Tirumaladēva-mahārāju for the merit of his father.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svastiśrī viciyābhyudaya <unclear>śā</unclear> 
+<lb n="2" break="no"/>livāhanaśakavaruśaṁbulu 
+<lb n="3"/>1474 pariyadhāvi saṁva<unclear>ca</unclear> 
+<lb n="4" break="no"/>ra <unclear>puśa</unclear> ba 15 śrīmahārājā 
+<lb n="5" break="no"/>dhirāja paramēśvara śrīvīrapra 
+<lb n="6" break="no"/>tāpa śrī sadāsivadēvamahā 
+<lb n="7" break="no"/>rāyaru prudhvirājyaṁ gai(yu) 
+<lb n="8" break="no"/>ttaṁ yiralu śrīma<unclear>n</unclear>mmahā 
+<lb n="9" break="no"/>maṁḍḍalēśvara rāmarāju kō 
+<lb n="10" break="no"/>nēṭi cinatirumaladēvamahā 
+<lb n="11" break="no"/>rāculugāru māku sadāsi 
+<lb n="12" break="no"/>varāyalu U<unclear>ṁ</unclear>bbaḷi yicina <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="13"/> <gap reason="lost" quantity="1" unit="character"/> rālanu Ūri mu<unclear>ṁ</unclear>dhari yē 
+<lb n="14" break="no"/>ṭi kāluvaku [tū¨rpuna] staḷāna <unclear>yē</unclear> 
+<lb n="15" break="no"/>ṁduṁ maḍi padi tūmula <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="16"/> <gap reason="lost" quantity="5" unit="character"/> maḍi <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="17"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="18"/>puṇyaṁgānu cina Ahō <note n="193-1">The remaining lines</note> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 16.187 by <bibl><ptr target="bib:Narasimhaswami1972_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Narasimhaswami1972_01"/>
+			<citedRange unit="page">193</citedRange>
+			<citedRange unit="item">187</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

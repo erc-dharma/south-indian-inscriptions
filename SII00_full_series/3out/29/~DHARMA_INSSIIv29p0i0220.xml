@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 29.220: original edition by P. N. Narasimha Murthy</title>
+				<title type="alt">No. 220. (A.R. No. B. 765 of 1962-63.) GORṬA, BHALKI TALUK, BIDAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv29p0i0220</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab lying in front of the Hanuman temple.</p>						
+
+						<p><hi rend="bold">1112 A.D.</hi> </p>						
+
+						<p>It registers a gift of two <hi rend="italic">drammas</hi> (money) per month for the <hi rend="italic">gandha</hi> (sandal paste) to the god Rudrēśvara.</p>						
+
+						<p>It stipulates that this dharma should be maintained by any person who becomes the officer of the temple from time to time. The slab is broken on the left side.</p>						
+
+						<p>The date of the record and the doners are being the same as in No. 217 [A.R. 764].</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="2" unit="character"/> śrī maccāḷukya vikra
+<lb n="2" break="no"/> <gap reason="lost" quantity="1" unit="character"/> (va) risada 37 neya naṁdana
+<lb n="3"/> <gap reason="lost" quantity="1" unit="character"/> (ṁ)vatsarada pusya su 4 sōma
+<lb n="4"/>(u)ttarāyaṇa saṁkramaṇadaṁdu
+<lb n="5"/> <gap reason="lost" quantity="1" unit="character"/> ṭṭa vēṁṭeya daṇḍanāyakaṁ sāvā
+<lb n="6" break="no"/>si pommaṇayyaṁgaḷu Avara heggaḍe
+<lb n="7"/>sāvāsi māṇikkabhaṭṭanuṁ sēnabōvaṁ
+<lb n="8"/>gaṁgarasanuvīḷdu rudrēsvara dēvara
+<lb n="9"/>gaṁdhakke maṇḍavaḍalu tiṁgaḷiṁge
+<lb n="10"/>Eraḍu drammavaṁ biṭṭaru I darmmavaṁ
+<lb n="11"/> <gap reason="lost" quantity="3" unit="character"/> mattamaṁ dēvakkadhikārigaḷāgi
+<lb n="12"/>yāruṁ baṁdaḍa tappade pratipāḷi
+<lb n="13" break="no"/>suvaru <g type="danda">.</g> vakrastarāgi kiḍisidavaru
+<lb n="14"/>vāraṇāsiyalu sahasra kavilevaṁ
+<lb n="15"/>brāhmaṇaruvaṁ koṁda pātaka
+<lb n="16"/>vakkuṁ <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 29.220 by <bibl><ptr target="bib:NarasimhaMurthy2022_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:NarasimhaMurthy2022_01"/>
+			<citedRange unit="page">233-234</citedRange>
+			<citedRange unit="item">220</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

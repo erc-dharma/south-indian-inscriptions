@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.21: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 21. (A.R. No. 21 of 1906) TANJAVUR DISTRICT, MAYURAM TALUK, TIRUKKAḌAIYŪR. AMṚITAGHAṬĒŚVARA TEMPLE—ON THE EAST BASE OF THE CENTRAL SHRINE. RĀJAK. RĀJARĀJA I—23rd YEAR (A.D. 1007-8)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0021</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The inscription commences with the introduction <hi rend="italic">Tirumagaḷpōla</hi> etc. It records a sale of land made tax-free by the <hi rend="italic">mahāsabhā</hi> of Tirukkaḍavūr in Uyyakkoṇḍār-vaḷanāḍu for 15 <hi rend="italic">kāśu</hi> received by them from the temple of Kālakāladēva. This amount seems to have been a gift (from the palace ?) for burning a lamp called “Mummuḍiśōḻaṉ” (evidently after the king's title) in the temple.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g> tirumakaḷpolap perunilaccelviyum taṉakke yurimai pūṇṭamai maṉakkoḷak kānta
+<lb n="2" break="no"/>ḷūrccālai kalamaṟuttaruḷi veṅkaināṭum kaṅkapāṭiyu<supplied reason="omitted">m</supplied> nuḷampapāṭiyum taṭikaipāṭiyum kuṭamalaināṭum kollamum kaliṅkamum
+<lb n="3"/><unclear>Eṇṭi</unclear>cai pukaḻtara Īḻamaṇṭalamum Iraṭṭapāṭi Eḻaraiyilakkamum tiṇṭiṟal veṉṟit taṇṭāṟ koṇṭa taṉṉeḻil vaḷar Ūḻiyuḷellā yāṇṭum toḻute
+<lb n="4" break="no"/>ḻavi<unclear>ḷaṅku yāṇ</unclear>ṭe ceḻiyarait tecukoḷ <hi rend="grantha">śrī</hi> ko<hi rend="grantha">rājarājarāja</hi>ke<hi rend="grantha">sa</hi>ri pa<hi rend="grantha">nma</hi>rāṉa <hi rend="grantha">śrī rājarāja de</hi>vaṟku yāṇṭu <num value="23">2 <g type="numeral">10</g> 3</num><g type="dash"/>Āvatu Uyyakkoṇṭārvaḷanāṭṭu Ampar
+<lb n="5" break="no"/>ṉāṭṭu paṭa <gap reason="lost" quantity="3" unit="character"/> <unclear>tiruk</unclear>kaṭavūr <hi rend="grantha">mahāsabh</hi>aip perumakkaḷom Uṭaiyār <hi rend="grantha">śrī</hi>kāla kāla<hi rend="grantha">de</hi>var paṇṭārattilk kācu <num value="15"><g type="numeral">10</g> 5</num> kācu koṇṭu Ikkācu patiṉaiñcuṉukkum
+<lb n="6"/> <gap reason="lost" quantity="5" unit="character"/> viḷakkoṉṟu <hi rend="grantha">candrādi</hi>ttavallerikka tiruviḷakkuppuṟamāka viṟṟuk kuṭutta ṉilam Aḷaṉāṭaṉ vākkānkaraiy kiḻttalaippattu ṉilam nivaṉtam I
+<lb n="7" break="no"/>ruttu <unclear>ṉila</unclear>ttukkum <hi rend="grantha">sabhai</hi>yome yiṟaiyiṟukka viṟṟukkuṭuttom <hi rend="grantha">mahā sabhai</hi>p perumakkaḷom Ivviḷakku mummuṭicoḻaṉ <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.21 by <bibl><ptr target="bib:SrinivasaRao1983_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1983_01"/>
+			<citedRange unit="page">16</citedRange>
+			<citedRange unit="item">21</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

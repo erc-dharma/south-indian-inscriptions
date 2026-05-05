@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.170: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 170. (A.R. No. 121 of 1926.) TIRUVIḶAKKUḌĪ, MAYAVARAM TALUK, TANJORE DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, MAṆAVĀḶĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0170</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This registers a sale of land tax-free by the assembly of <hi rend="bold">Viḍēlviḍugu-chaturvēdimaṅgalam</hi> a <hi rend="italic">brahmadēya</hi> in Nallāṟṟūr-nāḍu on the northern bank to a merchant by name <hi rend="bold">Śaṅkavaṉ Maṉṟaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Nānādēśīya Eḍuttapāda-Mūttaśeṭṭi</hi> of the village Vidēlvidugudēvi-chaturvēdimaṅgalam a <hi rend="italic">brahmadēya</hi> on the south side of the river in Kurukkai-nāḍu, who endowed it for a perpetual lamp before god Kūttaperumāḷ (Natarāja) at Tiruvēḷvikkuḍi. The gift was placed in charge of (the mercantile community) <hi rend="italic">Dis11aiyāyira taiññūṟṟuvar.</hi> The writing appears to be comparatively late. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kopparake<hi rend="grantha">sa</hi>ripa<hi rend="grantha">nma</hi>ṟku yāṇṭu Āṟāvatu vaṭakarai nallāṟṟūrnāṭṭu <hi rend="grantha">brahmade</hi>yam viṭelviṭukucatu
+<lb n="2" break="no"/><hi rend="grantha">rve</hi>timaṅkalattu <hi rend="grantha">sabh</hi>aiyom viṟṟa nilavilaiyāvaṇam ceytukuṭuttom Ikkarai kuṟu<hi rend="grantha">kk</hi>ai caikanāṭṭu <hi rend="grantha">brahma</hi>
+<lb n="3" break="no"/><hi rend="grantha">de</hi>yam viṭelviṭuku<hi rend="grantha">de</hi>viccatu<hi rend="grantha">rve</hi>timaṅkalattu tiruveḷvikkuṭik kūttaperumāḷukku tiru non=tāviḷakki
+<lb n="4" break="no"/>ṉukkuāka viṟṟukkuṭutta nilam <hi rend="grantha">kha�</hi> Ivveṭalviṭukucatu<hi rend="grantha">rve</hi>timaṅ<supplied reason="omitted">ka</supplied>lattu Ūriṉ kiḻḻur kuṟiyā<hi rend="grantha">kk</hi>uṭi maṅkala
+<lb n="5" break="no"/>ttu Ellai vāykkarai Aṟumāc ceyyum viṟṟukkuṭuttataṟku kiḻpāṟkellai varampu[ <hi rend="grantha">kk</hi>u m] E ṟkum teṉpāṟkellai Ikkoḷkiṉ
+<lb n="6" break="no"/>ṟa kūttapperumāḷ nilattukku vaṭa<hi rend="grantha">kk</hi>um melpāṟkellai Uḷciṟuvāy<hi rend="grantha">kkā</hi>lu<hi rend="grantha">kk</hi>u <unclear>kiḻa</unclear><hi rend="grantha">kk</hi>um vaṭapāṟkellai kuravaceriyār
+<lb n="7" break="no"/>kaḷ nilattukku pāynta Uḷciṟuvāykkālukkum kuralaceriyārkaḷ nilattukku teṟ<hi rend="grantha">kk</hi>u miv vicaitta In nāṉkellaiyilu
+<lb n="8"/>makappaṭṭa nilam Uṇṇilam Oḻiviṉṟi <unclear>mikutik</unclear>kuṟaimai U<unclear>ḷ</unclear>ḷaṭaṅka Iv <gap reason="lost" quantity="4" unit="character"/> Orukālāvatum Irukālāvatu
+<lb n="9"/>mukkālāvatum viṟṟu vilaiyāvaṇam ceytu kuṭutta Innilattu<hi rend="grantha">kk</hi>u E<supplied reason="omitted">m</supplied>mil yicaiñca <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="10"/>poruḷ maṟṟum Āvaṇakkaḷatte <gap reason="lost" quantity="9" unit="character"/> ṇṭu Ituve
+<lb n="11"/> <gap reason="lost" quantity="9" unit="character"/> ṇamum Ituve poru <gap reason="lost" quantity="6" unit="character"/> volaiyāva
+<lb n="12" break="no"/>tākavum veṟu poruḷmāvaṟuti <unclear>poruḷ</unclear> <gap reason="lost" quantity="6" unit="character"/> <unclear>A</unclear>valātārākavu
+<lb n="13" break="no"/>m Ipparicu vilaiyaṟa viṟṟu poruḷaṟak koṇṭu <gap reason="lost" quantity="4" unit="character"/> ṇañceytu
+<lb n="14"/>ca<hi rend="grantha">ntrāditya</hi>vaṟ Iṟaiyili ceytukuṭuttom kūttaperumā <gap reason="lost" quantity="7" unit="character"/> <hi rend="grantha">sabh</hi>aiyo
+<lb n="15" break="no"/>m kuṟi Iruntu paṇikka Eḻutineṉ <hi rend="grantha">madhyastha</hi>ṉ <gap reason="lost" quantity="5" unit="character"/> Aññū<unclear>ṟṟu</unclear>vaneṉ Innila
+<lb n="16" break="no"/>m koṇṭu kuṭutteṉ caṅkayaṉ maṉṟanā <gap reason="lost" quantity="4" unit="character"/> nānāteciya Eṭuttapāta
+<lb n="17"/>muttaceṭṭiyeṉ Ivane tiruveḻvi<hi rend="grantha">kk</hi>uṭiuṭaiyārukku cantirātitavaṟ vaitta
+<lb n="18"/>Āṭṭu viḷakku 1 I<hi rend="grantha">ddharmma</hi>m ticaiyāyirattaññūṟṟuvar per Iva<supplied reason="omitted">r</supplied>kaḷ <hi rend="grantha">rakṣai</hi>
+<lb n="19"/>Iṅke kūttapperumāḷu<hi rend="grantha">kk</hi>u Iṭṭa nilaiviḷa <gap reason="lost" quantity="4" unit="character"/> <unclear>veḷ</unclear>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.170 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">86-87</citedRange>
+			<citedRange unit="item">170</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.508: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 508. (A.R. No. 529 of 1915.) ON ONE OF THE PILLARS OF A MOSQUE ON THE HILL AT ADONI, ADONI TALUK, BELLARY DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0508</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is dated <hi rend="bold">Śaka 1439, Īśvara, Māgha, śu. 5,</hi> corresponding <hi rend="bold">A.D. 1518 January 16, Saturday</hi> (not verifiable). It records that <hi rend="bold">Rāmaṇa-Nāyaka,</hi> son of <hi rend="bold">Kaṭhāri Tippaṇa-Nāyaka,</hi> who was an officer of <hi rend="bold">Prauḍha-Dēvarāya-Mahārāya,</hi> constructed the temple of the god Prasanna-Rāmayadēva and consecrated the image of the god in it.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrījayādbhudayasālivāhanasakavaruṣa
+<lb n="2"/>1439 neya yośvarasaṁvatsarada māgha
+<lb n="3"/>śu 5 lu śrīma(ṁ)nmahārājādhirāja rājapa
+<lb n="4" break="no"/>ramēśvara gajabēṁṭekāṟa śrīprahuḍhadēvarā
+<lb n="5" break="no"/>yamahārāyara kaṭāri tippaṇanāya
+<lb n="6" break="no"/>kara makkaḷu rāmaṇanāyakaru Ādavāni
+<lb n="7" break="no"/>ya mēgōṭeyalu prasaṁnarāmayadē
+<lb n="8" break="no"/>vara guḍiya kaṭisi pratiṣṭeya māḍidanu
+<lb n="9"/>maṁgaḷa mahāśrī śrī śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.508 by <bibl><ptr target="bib:ShamaShastry+Rao1941_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:ShamaShastry+Rao1941_01"/>
+			<citedRange unit="page">521</citedRange>
+			<citedRange unit="item">508</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

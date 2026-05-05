@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 15.548: original edition by P. B. Desai, Dines Chandra Sircar and G. S. Gai</title>
+				<title type="alt">No. 548. (B.K. No. 269 of 1927-28.) TUḶASIGĒRI, BAGALKOT TALUK, BIJAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv15p0i0548</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a slab set up in the Māruti temple.</p>						
+
+						<p>1185-86 A.D.</p>						
+
+						<p>This is dated Śaka 1107, Viśvāvasu, Saṁkramaṇa, the other details being lost.</p>						
+
+						<p>It records a gift of land made by <hi rend="italic">Jagaddāni</hi> Jagatāpa Amme-Sāvanta to a Śiva temple, for repairs and worship. Sōma-sāvanta is mentioned in the earlier portion which is much damaged.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1-10"/><ce>damaged</ce>
+<lb n="11"/> <gap reason="lost" quantity="10" unit="character"/> sōmasāvaṁtaṁgeṁdaḍe <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="12-26"/><ce>damaged</ce>
+<lb n="27"/>yiṁ piridīva dānigā¨rssariyanalakkusōmasāvaṁtaṁgaṁ <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="28-37"/><ce>damaged</ce>
+<lb n="38"/> <gap reason="lost" quantity="2" unit="character"/> nāraṁga vakuḷahaḷasu tamāḷaṁ bāḷesahakāradiṁde sivālayamaṁ sutti muttidu dyāna <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="39"/> <gap reason="lost" quantity="2" unit="character"/> sivālyada khaṁḍasphuṭita jī¨rṇnoddhāra śrīkā¨ryyanimittaṁ sakavaruṣa 1107 neya viśvāva <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="40"/>ra vitīpāta saṁkramāṇadaṁdu jagaddāni jagatāpa Aṁmesāvaṁtaṁ <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="41"/>dā <gap reason="lost" quantity="3" unit="character"/> koṭṭa vritti teṁkaṇa <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="42"/> <gap reason="lost" quantity="5" unit="character"/> ḍuveya kallaṁ baḍagalu honna kalu <gap reason="lost" quantity="1" unit="character"/> dige hōda dāriyiṁ mūḍalu <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="43"/> <gap reason="lost" quantity="5" unit="character"/> pariyaṁta hadinaidu hastadagaḷa <gap reason="lost" quantity="5" unit="character"/> ttu hastada nīḷada nivēsanamaṁ <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="44"/> <gap reason="lost" quantity="5" unit="character"/> baṁdu dēvara naṁdādīvige <gap reason="lost" quantity="5" unit="character"/> jaganabāviyiṁ mūḍalu <note n="370-1">The rest of the inscription is damaged.</note> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 15.548 by <bibl><ptr target="bib:Desai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Desai1964_01"/>
+			<citedRange unit="page">370</citedRange>
+			<citedRange unit="item">548</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

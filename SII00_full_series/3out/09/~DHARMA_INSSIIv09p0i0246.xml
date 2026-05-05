@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.246: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 246. (A.R. No. 89-A of 1904.) ON THE FIFTH SLAB SET UP ON THE SOUTH SIDE OF THE KALLESVARA TEMPLE AT BAGALI, SAME TALUK AND DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0246</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is damaged and is dated the <hi rend="bold">10th year</hi> of the Chālukya king <hi rend="bold">Pratapachakravarti Jagadēkamalladēva,</hi> the cyclic year <hi rend="bold">Prabhava, Vaiśākha, puṇṇame Sōmavāra, Sōma-grahaṇa</hi> and <hi rend="bold">Vyatīpāta.</hi> The date is irregular. In Prabhava, which corresponded to A.D. 1147, there was no lunar eclipse in Vaiśākha nor did the full moon day fall on a Monday. The record states that <hi rend="bold">Sōmaṇṇa,</hi> son of <hi rend="bold">Kāḷimayya</hi> of Viśvāmitra<hi rend="italic">gōtra</hi> made a grant of land for the service of the god Kalidēva The characters belong to a period much later than the one to which the record refers itself.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīmaccāḷukyapratāpacakravartti jagadēkamallavarṣada 10 neya prabhavasaṁvatsarada vaiśā<unclear>khada</unclear> puṇname sōma
+<lb n="2" break="no"/>vāradaṁdu sōmagrahaṇa vyatīpāta kūḍidaṁdu yamaniyamasvādhyāya <gap reason="lost" quantity="5" unit="character"/> nānu
+<lb n="3" break="no"/>ṣṭhāṇajapasamādhiśīḷaguṇasaṁpannarappa viśvāmitragōtrada ha <gap reason="lost" quantity="1" unit="character"/> ro <gap reason="lost" quantity="3" unit="character"/> na putraṁ
+<lb n="4"/>kāḷimayyanavara putraṁ sōmaṇnaṁgaḷu śrī<unclear>sva</unclear>yaṁbhukalidēvara śrīnā <gap reason="lost" quantity="6" unit="character"/> dapa
+<lb n="5" break="no"/>dmadoḷu dhāreya(ṁ)neṟedu <gap reason="lost" quantity="6" unit="character"/> dēvaragrāsanakke biṭṭa <gap reason="lost" quantity="6" unit="character"/> kamma
+<lb n="6"/> <gap reason="lost" quantity="1" unit="character"/> kaṭṭada tōṭada ka <gap reason="lost" quantity="10" unit="character"/> riyakeṟe <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="7"/>koḍagaṟde kamma 1 <gap reason="lost" quantity="10" unit="character"/> daṁ
+<lb n="8" break="no"/>ḍanāyakaṁ <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.246 by <bibl><ptr target="bib:Shama+Rao1939_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shama+Rao1939_01"/>
+			<citedRange unit="page">250</citedRange>
+			<citedRange unit="item">246</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

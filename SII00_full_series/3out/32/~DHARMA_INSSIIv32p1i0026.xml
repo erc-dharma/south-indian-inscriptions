@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 32, part 1, no. 26: original edition by S. Swaminathan</title>
+				<title type="alt">No. 26. (A.R. No. 444 of 1904.) VĒDĀRAṆYAM, TIRUTTURAIPPUNDI TALUK, TANJAVUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv32p1i0026</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the third pillar in the <hi rend="italic">maṇḍapa</hi> of the central shrine in the Vēdāraṇyēśvara temple.</p>						
+
+						<p><hi rend="bold">M.K. Parakēsarivarman (Parāntaka I) Year 20: 927 A.D.</hi></p>						
+
+						<p>It records the gift of 60 <hi rend="italic">kaḻañju</hi> of gold to god Mahādēva of Tirumaṟaikkāḍu, a <hi rend="italic">perundēvadāṉa</hi> in Umbaḷa-nāḍu, for the maintenance <hi rend="italic">(jīvitam)</hi> of one <hi rend="italic">brāhmaṇa</hi> well versed in the vēdas and <hi rend="italic">archchanāvidhi</hi> serving the god during the 3 <hi rend="italic">sandhis,</hi> by Vasan Dē[var]. Kaḍambaṉ of Māṉanilainallūr, a <hi rend="italic">brahmadēya</hi> in Kaḷakkuḍi-nāḍu in Pāṇḍi-nāḍu. The <hi rend="italic">sabhā</hi> of Naṟukaḍambīḍu-chchaturvēdimaṅgalam, a <hi rend="italic">brahmadēya</hi> in the same <hi rend="italic">nāḍu,</hi> received the amount and agreed to provide paddy for the purpose, as interest, on the amount endowed.</p>						
+
+						<p>Published in <hi rend="italic">S.I.I.</hi> Vol. XVII. No. 475.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> ma
+<lb n="2" break="no"/>tiraikoṇṭa kop
+<lb n="3" break="no"/>parakecaripa<hi rend="grantha">nma</hi><supplied reason="omitted">r</supplied>kku Iyā
+<lb n="4" break="no"/>ṇṭu Irupatāvatu
+<lb n="5"/>Umpaḷa nāṭṭup perun
+<lb n="6" break="no"/>tevatāṉam tiruma
+<lb n="7" break="no"/>ṟaikkāṭṭu <hi rend="grantha">mahāde</hi>
+<lb n="8" break="no"/>varkkup pāṇṭi nāṭṭu
+<lb n="9"/>kkaḷakkuṭi nāṭṭu <hi rend="grantha">brahma</hi>
+<lb n="10" break="no"/><hi rend="grantha">de</hi>ya māṉanilainal
+<lb n="11"/>lūr va <gap reason="lost" quantity="1" unit="character"/> <hi rend="grantha">sa</hi>n te<unclear>var</unclear>
+<lb n="12"/> <gap reason="lost" quantity="1" unit="character"/> kaṭampaṉ Itteva
+<lb n="13" break="no"/>rai muṉṟu <hi rend="grantha">sandhi</hi>yu<unclear>m</unclear>
+<lb n="14"/><hi rend="grantha">candrāditya</hi>val Ārā
+<lb n="15" break="no"/>tippāṉoru <hi rend="grantha">brāhma</hi>ṇan 
+<lb n="16"/><hi rend="grantha"><unclear>veda</unclear>mu</hi>m A<hi rend="grantha">rcci</hi>nāvi<hi rend="grantha">dhi</hi>yu
+<lb n="17" break="no"/>m vallāṉoruvaṉu
+<lb n="18" break="no"/>kku <hi rend="grantha">ji</hi>vitamāka vaitta
+<lb n="19"/><unclear>poṉ</unclear> Aṟupatiṉ kaḻañ
+<lb n="20" break="no"/>cu Ippoṉ Aṟupatiṉ
+<lb n="21"/>kaḻañcum Iññāṭṭu me
+<lb n="22" break="no"/>ṟ<unclear>ṟuṇi</unclear> <hi rend="grantha">brahmade</hi>yam <unclear>naṟu</unclear>ka
+<lb n="23" break="no"/>ṭampiṭu<unclear>cca</unclear>tu<hi rend="grantha">rvve</hi>ti ma<unclear>ṅkalat</unclear>
+<lb n="24" break="no"/><unclear>tu</unclear> <hi rend="grantha">sa<unclear>bhai</unclear></hi>yom <unclear>koṇṭu Ip</unclear>
+<lb n="25" break="no"/>poṉ Aṟupatiṉ kaḻañcum
+<lb n="26"/>poliyūṭṭāka Āṭ<unclear>ṭai vaṭṭam A</unclear>
+<lb n="27" break="no"/>ṟupatiṉ kala nellu <gap reason="lost" quantity="7" unit="character"/> 
+<lb n="28"/>patakku nellāka pūvil <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="29"/>kalanellu E<supplied reason="omitted">ṇ</supplied>ṇāḻik kālāl E
+<lb n="30" break="no"/><unclear>ṅkaḷur A</unclear>mpalatte Aḷa<hi rend="grantha">n</hi>tu ku
+<lb n="31" break="no"/>ḷattilu nikkik kūṭṭi <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="32"/> <gap reason="lost" quantity="7" unit="character"/> Āṇṭuvarai Aṟupa
+<lb n="33" break="no"/>tiṉ kala nellum Aṟa Aḷa
+<lb n="34" break="no"/>ntu kuṭuppatākavum t<unclear>e</unclear>vaka
+<lb n="35" break="no"/><unclear>n</unclear>mikaḷum paṉ<hi rend="grantha">māheśva</hi>rarum
+<lb n="36"/>pati<unclear>pā</unclear>ta<unclear>mu</unclear>lattārum <hi rend="grantha">sabh</hi><unclear>ai</unclear>
+<lb n="37" break="no"/>yomukku vetamum <hi rend="grantha">Arcci</hi>nā<hi rend="grantha"/>
+<lb n="38" break="no"/>vi<hi rend="grantha">thi</hi>yum vallaṉāy yo
+<lb n="39" break="no"/><hi rend="grantha">gya</hi>ṉāy Uḷḷāṉ<unclear>o</unclear>ru <hi rend="grantha">brāhmā</hi>
+<lb n="40"/>ṇarait teṭi nāṅkaḷey <unclear>p</unclear>o
+<lb n="41" break="no"/><hi rend="grantha">ṣi</hi>ttiṭuvatākavum Ipparic<unclear>o</unclear>
+<lb n="42"/><unclear>ṭ</unclear>ṭiya poṉ Aṟupatiṉ kaḻañ
+<lb n="43" break="no"/>cu <gap reason="lost" quantity="4" unit="character"/> cai <gap reason="lost" quantity="3" unit="character"/> cella <unclear>Aṟu</unclear>
+<lb n="44"/>patiṉ kala
+<lb n="45" break="no"/>mum Āṇṭu varai Aḷa
+<lb n="46" break="no"/>ntu kuṭuppomāṉom
+<lb n="47"/>naṟukaṭampi <hi rend="grantha">ca</hi>tu<hi rend="grantha">rve</hi>ti<hi rend="grantha"/>
+<lb n="48" break="no"/>maṅkalattu <hi rend="grantha">sabhai</hi><unclear>yom</unclear>
+<lb n="49" break="no"/><hi rend="grantha">panmāheśva<supplied reason="omitted">ra</supplied> rakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 32, part 1, no. 26 by <bibl><ptr target="bib:Swaminathan2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2012_01"/>
+			<citedRange unit="page">33-34</citedRange>
+			<citedRange unit="item">26</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

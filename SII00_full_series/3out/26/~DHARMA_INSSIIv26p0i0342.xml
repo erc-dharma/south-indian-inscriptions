@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 26.342: original edition by P. R. Srinivasan</title>
+				<title type="alt">No. 342. (A.R. No. 323 of 1909.) KŪVAM, TIRUVALLORE TALUK, CHINGLEPUT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv26p0i0342</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Same wall.</p>						
+
+						<p><hi rend="bold">Tribhº Rājādhirājadēva II: Year lost: C. 12th century.</hi></p>						
+
+						<p>This inscription is too fragmentary.</p>						
+
+						<p>It refers to the temple of the god Tiruviṟkōlamuḍaiyanāyaṉār (i.e., Pāśupatēśvara) and its <hi rend="italic">sthānattār</hi> as well as the <hi rend="italic">ūr.</hi> </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrīḥ <supplied reason="undefined"><g type="ddanda">.</g></supplied> tribhu</hi>vaṉaccak<hi rend="grantha">ra</hi>vattikaḷ <hi rend="grantha">śrīrājarājade</hi>varkku yāṇṭu <gap reason="lost" quantity="9" unit="character"/> ṭaiyār tiruviṟkolamuṭaiyanāyaṉār koyil <hi rend="grantha">sthā</hi>nattārum Ūravarum niccayittapaṭi Ikkoyiṟkāṇi
+</p>
+
+<p>Fragment.</p>
+
+<p>
+<lb n="1"/>Innāyaṉār koyilil <gap reason="lost" quantity="5" unit="character"/> yuḷḷa <hi rend="grantha">śa</hi> <gap reason="lost" quantity="10" unit="character"/> payamiṭattu nāḷoṉṟukku ne <gap reason="lost" quantity="10" unit="character"/> nellum O
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 26.342 by <bibl><ptr target="bib:Srinivasan1990_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Srinivasan1990_01"/>
+			<citedRange unit="page">219-220</citedRange>
+			<citedRange unit="item">342</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

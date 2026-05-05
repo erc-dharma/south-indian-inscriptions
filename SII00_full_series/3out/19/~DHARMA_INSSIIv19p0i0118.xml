@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.118: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 118. (A.R. No. 67 of 1933.) TIRUKKACHCHIYŪR, CHINGLEPUT TALUK, CHINGLEPUT DISTRICT. ON A SLAB BUILT INTO THE PAVEMENT OF THE SECOND prākāra, KACHCHHAPĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0118</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records an endowment of 2 plots of land made tax-free after purchase, by <hi rend="bold">Mūvēnda-Pallavaraiyar</hi> of Nalvayal in Śeṅguṉṟa-nāḍu for the daily offerings to the god in the temple of Tiruvālakkōyil-Perumāḷ at Kachchūr in the same <hi rend="italic">nāḍu</hi>, which was a subdivision of Kalattūr-kōttam. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha"><unclear>svastiśrī</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopa<unclear>rake</unclear>
+<lb n="2" break="no"/><unclear>caripa</unclear><hi rend="grantha">nma</hi><supplied reason="omitted">ṟ</supplied>kku yāṇṭu 4- Ā
+<lb n="3" break="no"/>vatu kaḷattūrkkoṭṭattu <supplied reason="omitted">c</supplied>eṅku
+<lb n="4" break="no"/>ṉṟanāṭṭu kaccūr tiruvālakkoyi<unclear>l</unclear>
+<lb n="5" break="no"/><unclear>p</unclear>erumāḷukku <unclear>c</unclear>eṅkuṉ<supplied reason="omitted">ṟa</supplied>nāṭṭu
+<lb n="6"/>nalvayal nalvayaluṭaiya
+<lb n="7"/>muventappalla<unclear>varai</unclear>yar nica
+<lb n="8" break="no"/>tam nāḷ tiru<supplied reason="omitted">va</supplied>mitukku vaicca cey I
+<lb n="9" break="no"/>raṇ<unclear>ṭu ce</unclear>yu miṉ makkaḷ paṭṭiyum Ivvi
+<lb n="10" break="no"/><unclear>ra</unclear>ṇṭu vilai Aṟuti koṇṭu <supplied reason="omitted">v</supplied>aicceṉ Iv
+<lb n="11" break="no"/>viraṇṭu miṟai Iḻiccikkuṭuttom Ūrom I
+<lb n="12" break="no"/>tta<hi rend="grantha">nma</hi>m Iṟakkuvār keṅkaiiṭai kuma
+<lb n="13" break="no"/>riyiṭai ceytār ceyta pā
+<lb n="14" break="no"/>vam koḷvār <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.118 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">59-60</citedRange>
+			<citedRange unit="item">118</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

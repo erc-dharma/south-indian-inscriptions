@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 26.390: original edition by P. R. Srinivasan</title>
+				<title type="alt">No. 390. (A.R. No. 369 of 1909.) SIDDHALIṄGAMAḌAM, TIRUKKOYILUR TALUK, SOUTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv26p0i0390</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Same wall.</p>						
+
+						<p><hi rend="bold">Jayadhara (a chief of Kulōttuṅga I)</hi></p>						
+
+						<p>This inscription is in Sanskrit verse and in Grantha characters of <hi rend="bold">c. 11th century.</hi> </p>						
+
+						<p>It records that a certain Narttaka, surnamed Mānāvatāra, the ruler of Maṇavi built by stones a temple <hi rend="italic">(vimāna)</hi> provided with a <hi rend="italic">prākāra</hi> surrounded by areca-palms and a <hi rend="italic">maṇḍapa,</hi> on the banks of a river to the god Paśupati, whose feet were worshipped by the sage Vyāghrapāda, at Siddhaliṅga, a great <hi rend="italic">agrahāra</hi> noted for its wealth and beauty during the time of the ruler Jayadhara. <hi rend="italic">See</hi> No. 388 above where this is recorded in a general way.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:grantha maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śrīmanmānāvatārēḥ maṇapiladhipatibhūrtyalaṅkarēbhāsva</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tu</seg> <hi rend="grantha">sidadh</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">li</seg><hi rend="grantha">ṅgākhyāgṛsu</hi>
+<lb n="2"/><hi rend="grantha">rē mahati paśupatē<supplied reason="omitted">r</supplied>vayāghrāpādārccitāmsrēḥ <supplied reason="undefined"><g type="ddanda">.</g></supplied> tirēnadyāśva kālējayadhara</hi>
+<lb n="3"/><hi rend="grantha">nṛpatē rnnarttakākhya śśilābhissa prākāram vimānam kramukavarivṛtammaṇḍa pēnavyadhattya <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 26.390 by <bibl><ptr target="bib:Srinivasan1990_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Srinivasan1990_01"/>
+			<citedRange unit="page">253-254</citedRange>
+			<citedRange unit="item">390</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

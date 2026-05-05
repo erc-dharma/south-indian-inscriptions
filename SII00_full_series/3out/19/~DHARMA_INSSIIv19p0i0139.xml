@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.139: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 139. (A.R. No. 259 of 1923.) KŌYIL-TĒVARĀYANPĒṬṬAI (NEAR PAṄḌĀRAVĀḌAI), PAPANASAM TALUK, TANJAVUR DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, MATSYAPURĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0139</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This gives the extent and boundaries of three pieces of land (including one given in exchange for a flower-garden) which were endowed after purchase from several persons, by one <hi rend="bold">Tiruvaḍigaḷ Aiyanaḍi of Śiṟuvēlūr</hi> in Iḷaiyūr-nāḍu on the southern bank of the river, for the maintenance of a perpetual lamp, and for offerings during the morning and mid-day services in the temple of Tiruchchēlūr-Mahādēva at Rājakēsari-chaturvēdimaṅgalam. The mention of the village called after Vīranārāyaṇa (Parāntaka I) and the reference to a previous gift made in the 8th year of Rājakēsarivarman (evidently Gaṇḍarāditya) makes the record assignable to the reign of <hi rend="bold">Uttama-Chōḷa.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kopparake<hi rend="grantha">sa</hi>ripa<hi rend="grantha">nma</hi>ṟki yāṇṭu 5 Āvatu teṉkarai <hi rend="grantha">brahmade</hi>ya<hi rend="grantha">m śrīrājakesarica</hi>tu<hi rend="grantha">rve</hi>ti<hi rend="grantha">maṅgala</hi>ttu
+<lb n="2"/>tiruccelūr <hi rend="grantha">mahāde</hi>varkku vecālippāṭit teṉkarai Iḷaiyūrnāṭṭuc ciṟuvelūrc ciṟu velūruṭaiyāṉ tiruvaṭikaḷ Aiyyaṉaṭi
+<lb n="3"/>tirunontāviḷakku [ 1- ṟu] kku cantirātittavaṟ nittam Uriy Eṇṇaikkum ciṟukālaittiruvamutu nānāḻiyaricikkum Uccam<unclear>po</unclear>tu nānāḻikkum neyyamutu<hi rend="grantha">kk</hi>um ta
+<lb n="4" break="no"/>yiramutum kaṟiyamutum Aṭaikkāyamutukkumāka Ivvi<hi rend="grantha">rājakesaricca</hi>tu<hi rend="grantha">rvedimaṅkala</hi>ttu maṉoramac ceri Aruvalattu vārakkiyaṉ <hi rend="grantha">Ī</hi>
+<lb n="5" break="no"/><hi rend="grantha">śvara</hi>ṉ centaṉum Ivaṉ tampi <hi rend="grantha">Īśvara</hi>ṉ nakkaṉum Icceri Ātaṉūr pālāciriyaṉ nārāyaṇaṉ tattaṉum Ivaṉ tampi nārā
+<lb n="6" break="no"/>yaṇaṉ kāṭaṉum marutūr pālāciriyaṉ tāyaṉ k<choice><sic>a</sic><corr>ā</corr></choice>ḷiyum Ivvaṉaivarpakkalum nāṉ vilai koṇṭuṭaiya nilam kāmatevavati
+<lb n="7" break="no"/>kkuk kiḻakku Iraṇṭāṅ kaṇṇāṟṟu maṉoramavāykkālukku vaṭakku muta<supplied reason="omitted">l</supplied>catirattu <hi rend="grantha">Īśvara</hi>ṉ centaṉ tattapirāṉ<hi rend="grantha">bhaṭṭa</hi>rpakka
+<lb n="8" break="no"/>lum Ivvaṉaivarpakkalumāka vilai <hi rend="grantha">�4</hi>vum kovirā<hi rend="grantha">ja</hi>ke<hi rend="grantha">sa</hi>ripa<hi rend="grantha">nma</hi><supplied reason="omitted">r</supplied>kku yāṇṭu 8 vaṭakarai <hi rend="grantha">brahmade</hi>ya<hi rend="grantha">m śrī</hi> viranārāyaṇacca<supplied reason="omitted">tu</supplied><hi rend="grantha">rve</hi>timaṅka
+<lb n="9" break="no"/>lattu cūracūḷāmaṇicceri Aruvalattu vārakkiyaṉ Ātittaṉ <hi rend="grantha">sūrya</hi>ṉṉiṭai vilaikoṇ ṭuṭaiya nilam <hi rend="grantha">�4</hi>yumāka <unclear>I</unclear>ccatiram �vum Itu tiruva
+<lb n="10" break="no"/>ṭikaḷ(ṭi) Aiyyaṉaṭiye <unclear>va</unclear>cca tirunantavāṉam tiruppaḷḷittāmattukkut tirumañcuṇavaḻi
+<lb n="11" break="no"/>kku me<supplied reason="omitted">r</supplied>kkum peruvaḻikkut teṟkum nārāyaṇaṉ kāṭaṉ nilattukkuk kiḻakkum <hi rend="grantha">śrīrvva-</hi> tattiṉ nila<supplied reason="omitted">t</supplied>
+<lb n="12" break="no"/>tukku vaṭakkum naṭuvupaṭṭa nilam pūntavāṉan teṟkaṭaiyak kiṇaṟuṭpaṭa nāṉmāvukkum nāṉ pariva
+<lb n="13" break="no"/><hi rend="grantha">rtta</hi>ṉaiyāl kuṭutta nilamāvatu Ivūr naratoṅkavatikku me<supplied reason="omitted">r</supplied>kkum Eḻāṅkaṇṇāṟṟu cikaṇṭa vāy<supplied reason="omitted">k</supplied>kālukku teṟku 1— catirattu vaṭakkaṭaiñca muṟṟumāvi
+<lb n="14" break="no"/>l meṟkaṭaiya nān Iṭaiyāṟṟukkuṭi cāvānti tattanārāyaṇanpakkal vilaikoṇṭuṭaiya nilam ṅa4yum <hi rend="grantha">māhāsabhai</hi>yārum pa<hi rend="grantha">nmāheśva<supplied reason="omitted">rarum</supplied> rakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.139 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">70</citedRange>
+			<citedRange unit="item">139</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

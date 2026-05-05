@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 23.164: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 164. (A.R. No. 164 of 1907.) Pēraiyūr, Tirumayam Taluk, Tiruchirappalli District Nāganāthasvāmi temple—on the same wall</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv23p0i0164</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The first two lines are dated in the 33rd year of the same king (<hi rend="bold">Kulaśēkhara</hi>) as above, after which there is a gap making it doubtful whether the subsequent lines are part of this record. They seem to register a tax-free sale of seven pieces of land including <hi rend="italic">Nakkanēri-Vayal</hi> and <hi rend="italic">Pudarkkuḍikkāḍu</hi> by several individuals to the temple, and the grant of the lease of these lands on permanent tenure to the same Tirupperunduṟaippiḷḷai mentioned above (in No. 163) on similar rental basis of payment by the lessee to the temple according to the nature of crops raised.</p>						
+
+						<p>The names of the taxes on the lands remitted are given as <hi rend="italic">araśuvari, antarāyam, veṭṭimuṭṭāvāḷ, pañjupīli, śanduvigrahappēṟu, echchōṟu, kūṟṟariśi, śilvari, peruvari</hi> and <hi rend="italic">kīḻvārappachchai</hi>, and these were agreed to be paid on behalf of the temple by the sellers. Though the transaction is called a ‘sale’ the price of the lands is not specified.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> komāṟupaṉmarāṉa <hi rend="grantha">tribhu</hi>vaṉa<hi rend="grantha">ccakra</hi>vattikaḷ Emmaṇṭalamuṅ koṇṭaruḷiya
+<lb n="2"/><hi rend="grantha">śrī</hi> kulacekara<hi rend="grantha">de</hi>vaṟku yāṇṭu <num value="33">3 <g type="numeral">10</g> 3</num><g type="dash"/>vatu kāṉaṉāṭāṉa virutārā<hi rend="grantha">jabha</hi>yaṅkara vaḷaṉāṭṭu <hi rend="grantha">de</hi>vatāṉa<hi rend="grantha">brā</hi> blank space After this
+<lb n="3"/>ṉ Uḷḷiṭṭārum muṭiyaṉperumāḷāṉa Uttamacoḻa nāṭāḻvāṉuḷ ḷiṭṭārum Añcātāṉ ṉaraṅ<unclear>kaṉ</unclear>p perumāḷum villi viramaḻakiyate
+<lb n="4" break="no"/>va ṉuḷḷiṭṭārum Aracu cokkaṉāruḷaḷiṭṭārum māmukil <gap reason="lost" quantity="5" unit="character"/> mum Uṭai yā<supplied reason="omitted">r</supplied> tirunā<hi rend="grantha">giśvara</hi>muṭaiya nāyanāṟku Iṟaiili <hi rend="grantha">de</hi>va<hi rend="grantha"/>
+<lb n="5" break="no"/>r tāṉamākavum Ivaṟku kuṭiṉiṅkā<unclear>te</unclear>vartāṉamāka <hi rend="grantha">pramā</hi>ṇam paṇṇik kuṭutta paricāvatu Eṅkaḷūrp pāṟpāṉkuḷam putarkkuṭi
+<lb n="6"/>kuḷamum vayalum caṟupputarkkuṭikkuḷamum vayalum koṭṭiyūr ṉāṭāḻ vāṉ kuṭikkāṭṭuk kuḷamum vayalum malaicaiyarāyaṉ kuṭikk<unclear>āṭu</unclear> 
+<lb n="7"/>m Ikkuḷamum vayalum tattaṉerikuḷattil Iṉṉāyanār paḻantevatāṉam tirunā<hi rend="grantha">giśva</hi>ravayakkalukku viṭṭa muṉṟa<supplied reason="omitted">t</supplied>toṉṟu ṉikki Iva<supplied reason="omitted">ṟ</supplied>
+<lb n="8" break="no"/>ku viṟṟa nakkaṉeri vayalu<supplied reason="omitted">m</supplied> Ikkuḷattiṟ cempāti putarkkuṭikkāṭṭuk kum perunāṉkellaiyāvatu kiḻpāṟkellai peraiyūriṉiṉṟum ka
+<lb n="9" break="no"/>mpaṉvayalukku varukiṟa vaḻikkum kaṭampa<supplied reason="omitted">ṉ</supplied>kuḷattukku ṉāñci kuṭik kāṭṭuk kuḷattukku meṟkum teṉpāṟkellai Uyyāṇṭi vayakka lāṉa pa <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="10"/>laiyāvatu kuṭivayakkal teṉ<unclear>va</unclear>rampileṉiṉṟu koṭṭiyūr nāṭāḻvār kuṭikkāṭṭukkut teṟku ṉā <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="11"/>ṉ tiruccūlatevaṟku vaṭakkum melpāṟkellai kiḻakke <gap reason="lost" quantity="3" unit="character"/> ṭāka ṉiṟkiṟa tiruccūlatevarkaḷukku kiḻa
+<lb n="12" break="no"/>kkum vaṭapāṟkellai tirupperaiyūr Ellaikkut teṟkum Āka Icaiynta peruṉāṉkellai
+<lb n="13" break="no"/><unclear>k kuṭpapa</unclear>ṭṭa kuṉṟukaḷum vayalkaḷu<supplied reason="omitted">m</supplied> kiḻṉokkiya kiṇaṟukaḷum me ṉokkiya maraṅkaḷum mākkaḷum pu<unclear>ṟṟun teṟṟi</unclear>
+<lb n="14" break="no"/>puñceykaḷum Iṟaiyili kuṭiṉiṅkāt tevatāṉamāka viṟṟu Ivvayal kaḷukku varum <unclear>Ara</unclear>
+<lb n="15" break="no"/>cuvari kaṭamai Antarāyam veṭṭimuṭṭāvāḷ pañcupili cantuvikkiramap peṟu Eccoṟu kūṟṟarici cilvari peruvari
+<lb n="16"/>kiḻvārappaccai maṟṟu meppeṟpaṭṭaṉavum ṉāṅkaḷe Iṟuppomākavum Iṉṉāyaṉāṟku Ivar kaṭamai Iṟukkumpaṭi Irupa
+<lb n="17" break="no"/>ttiraṭik kolāl Irunūṟṟaimpattāṟu kuḻikoṇṭatoru mā nilat tukkum payirpā<supplied reason="omitted">r</supplied>ttup payir koṇṭa ṉilattukku māttā
+<lb n="18" break="no"/>l Irupaṇamum Eḻukala nellum Aṟpacikkuṟuvaikku Ikkaṭamaiyil Oṉṟupātiyum Āṭikkuṟuvaikku Ikkaṭamaiil O
+<lb n="19" break="no"/>ṉṟukālum mañcaṭ karuṇai viḷainta ṉilattukkup pacāṉakkaṭamaiyum karumpu koṭikkāl viḷainta ṉilattukku kaipukkārā
+<lb n="20" break="no"/>ḷmutal pacāṉa <gap reason="lost" quantity="3" unit="character"/> payum tiṉai <gap reason="lost" quantity="5" unit="character"/> viḷainta ṉilattukku Ikkaṭamaiil Oṉṟu kālum Eḷḷup payiṟu viḷainta ṉilattukku <unclear>m</unclear>ā
+<lb n="21" break="no"/>ttāl tūṇi Eḷḷum payaṟu <gap reason="lost" quantity="3" unit="character"/> mutalaip pūcaṇi viḷainta ṉilattukku māt tā<supplied reason="omitted">l</supplied> Orupaṇamum Āka Ivvakaippaṭi vanta kaṭamai Ikko
+<lb n="22" break="no"/>ilpaṇṭāratte yaḷantu tāṉattār kaiyyāṟ taravu koḷḷakkaṭavarāka vum Ippaṭi <hi rend="grantha">candrādi</hi>ttavarai Aṉupavippārākavum
+<lb n="23"/>Ippaṭi cammatittuk kalveṭṭik kuṭutto<supplied reason="omitted">m</supplied> Ikkoyil tāṉatto mu<supplied reason="omitted">m</supplied> Araiyarkaḷomu maṟamutalikaḷomum Itu tirupperu
+<lb n="24" break="no"/>ntuṟaippiḷḷaikku Ivai tirucciṟṟampala paṭṭaṉeḻuttu(m) puvaṉi nārāyaṇa<hi rend="grantha">brahmā</hi>tarāyaṉeḻuttu cuntarapāṇṭiyaṉampi ye
+<lb n="25" break="no"/>ḻuttu virakkaḻalaḻakiyapaṭṭaṉeḻuttu <gap reason="lost" quantity="5" unit="character"/> ṉeḻuttu muru<unclear>kā</unclear>ṇṭāṉuḷ ḷiṭṭā reḻuttu Uttamacoḻa
+<lb n="26" break="no"/> <gap reason="lost" quantity="8" unit="character"/> Eḻuttu <gap reason="lost" quantity="8" unit="character"/> Eḻuttu malaicaiyarāyaṉeḻuttu viramaḻakiyatevaṉuḷ ḷiṭṭār
+<lb n="27"/> <gap reason="lost" quantity="8" unit="character"/> caimāṇikka peraiyaṉeḻuttu camaiyamāṇikkap pe
+<lb n="28" break="no"/> <gap reason="lost" quantity="8" unit="character"/> peraiya ṉeḻuttu perumāḷ muṭiya ṉeḻuttu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="29"/> <gap reason="lost" quantity="8" unit="character"/> Eḻuttu Ūṟkaṇakku<unclear>ṅ</unclear> ko<unclear>yil ka</unclear>ṇakkumāṉa teṉṉavataraiya ṉeḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 23.164 by <bibl><ptr target="bib:SrinivasaRao1979_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1979_01"/>
+			<citedRange unit="page">132-133</citedRange>
+			<citedRange unit="item">164</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

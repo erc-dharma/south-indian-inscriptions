@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 33.40: original edition by K. Munirathnam and T. S. Ravishankar</title>
+				<title type="alt">No. 40. (A.R. No. 146 of 1946.) Santakōvūru, Pulivendla Taluk, Cuddapah District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv33p0i0040</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab lying in a field about a mile away on the boundry of the village.</p>						
+
+						<p>Davaliyarāju.</p>						
+
+						<p>Refers to a gift of paddy fields <hi rend="italic">(pannasa)</hi> by one Dhavaliyarāja, probably of the Mahābali family. Refers also to the coin <hi rend="italic">gadyāna</hi> and a land measure <hi rend="italic">maruturu.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śakaḷajaga 
+<lb n="2" break="no"/>trayabhivandita su 
+<lb n="3" break="no"/>rasuraditasa para 
+<lb n="4" break="no"/>mēsvara pratiharikri 
+<lb n="5" break="no"/>ta mahābhalikulō 
+<lb n="6" break="no"/>bhava nandagirina tapa 
+<lb n="7" break="no"/>ṟi vipura paramēsvara 
+<lb n="8" break="no"/>ri ḍabalaccana 
+<lb n="9"/>śrī davaliya raju 
+<lb n="10"/>U śinapannaśa tadi 
+<lb n="11"/>na va(ca)ṇḍī sa(pu)yaṇi 
+<lb n="12"/>pebhegaḍa nuṟuma 
+<lb n="13" break="no"/>ṟuturura <gap reason="lost" quantity="1" unit="character"/> mana 
+<lb n="14"/>mupaḍisina ca(va) 
+<lb n="15" break="no"/>ṇḍīkaga capaṟa 
+<lb n="16"/>dura ciya gadyā 
+<lb n="17" break="no"/>namu pasiṇḍi (vi) 
+<lb n="18"/>niyasi da <gap reason="lost" quantity="1" unit="character"/> (pu) 
+<lb n="19"/>kanaḍasida <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="20"/>dōyeju(cu) <gap reason="lost" quantity="1" unit="character"/> la 
+<lb n="21"/>mutu mupralu <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="22"/>gusanēyulu <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="23"/>yupu <gap reason="lost" quantity="2" unit="character"/> dīni <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="24"/>na va(kra) <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="25"/>U kavilenra ṟi si 
+<lb n="26"/>va da(pi) 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 33.40 by <bibl><ptr target="bib:Munirathnam2013_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2013_01"/>
+			<citedRange unit="page">29-30</citedRange>
+			<citedRange unit="item">40</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

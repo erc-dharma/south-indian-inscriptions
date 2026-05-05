@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 23.46: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 46. (A.R. No. 46 of 1907.) Tiruviśalūr, Kumbhakonam Taluk, Tanjavur District Śivayōganātha temple—on the same wall Rājēndra-Chōḷa I: year 3: 1014-15 A.D.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv23p0i0046</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is a damaged and incomplete record. It registers the gift of a gold necklace containing the <hi rend="italic">tāli</hi> (auspicious ornament) set with precious stones and other parts (for the image of the goddess), to the temple of god Tiruviśalūr-Mahādēva, by Atiyirāmaṉ Kundappāvaiyār the queen of Pāṇḍya Śrīvalluvar (Śrīvallabha) and daughter of a chief of Paṅgaḷa-nāḍu (name not given). Mention is also made of a certain Sundaraśōḻaṉ (as donor) along with the queen. The gift by a Pāṇḍya queen to a temple in the Chōḷa territory at this period is noteworthy, as indicating friendly relations between the two kings. Śrīvallabha must have been occupying quite a subordinate position under the Chōḷa since the latter's father Rājarāja I is known (from the Tiruvālaṅgāḍu Plates) to have seized the Pāṇḍya king Amarabhujaṅga, and Rājēndra himself set up his son under the title Chōḷa-Pāṇḍya as his viceroy in the Pāṇḍya country.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastīśrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kopparake<hi rend="grantha">śa</hi>ripa<hi rend="grantha">nma</hi>rāṉa <hi rend="grantha">śrī</hi>irā<hi rend="grantha">jentri</hi>racoḻatevarkku yāṇṭu 3<g type="dash"/>Āvatu vaṭakarai Irā<hi rend="grantha">jentrasi ha</hi>vaḷanāṭ
+<lb n="2" break="no"/>ṭu maṇṇināṭṭu <hi rend="grantha">brahmade</hi>yam ve<unclear>mpaṟ</unclear>ṟūrākiya coḻamāttāṇṭa catu <hi rend="grantha">rve</hi>timaṅkalattu tiruvicalūr<hi rend="grantha">mahā</hi>te
+<lb n="3" break="no"/>varkku pāṇṭiyaṉ <hi rend="grantha">śrī</hi>valluvar teviyār paṅkaḷanāṭuṭaiyār maka(ḷ)ḷār Atiyirāmaṉ kuntappāvaiyār varakkā<unclear>ṭ</unclear>ṭiṉa
+<lb n="4"/>tirumālaiyil tāli <num value="41">4 <g type="numeral">10</g> 1</num> nā<supplied reason="omitted">ṟ</supplied>ppattoṉṟum kaṭaippalakai Iraṇṭum paṭu kaṇ 2- ṇṭum Āṇi 2- ṇṭu
+<lb n="5" break="no"/>m taṭavikkaṭṭiṉa kallu <num value="42">4 <g type="numeral">10</g> 2</num> nāṟppatti<supplied reason="omitted">ra</supplied>ṇṭum pa<unclear>lakai</unclear> <num value="39">3 <g type="numeral">10</g> 9</num> muppat tonpatum muttu <num value="52">5 <g type="numeral">10</g> 2</num> Ai<unclear>m</unclear>pattiraṇṭum
+<lb n="6"/>Arakku nūlum Uḷpaṭa <hi rend="grantha">de</hi>var paṇṭārakkal<unclear>lāl</unclear> niṟai pon <hi rend="grantha"><num value="30">3 <g type="numeral">10</g></num> <gap reason="lost" quantity="5" unit="character"/> �ndha</hi> muppatiṉ kaḻañcey mukk<unclear>ā</unclear>
+<lb n="7" break="no"/>le nālumañcāṭiyum Eḻumāvum Iva(r)re varakkāṭṭina <unclear>ma</unclear>ñcirāk kal <gap reason="lost" quantity="9" unit="character"/> niṟai <hi rend="grantha"><num value="35">3 <g type="numeral">10</g> 5</num> sa</hi>muppat
+<lb n="8" break="no"/>taiyṅ kaḻañceymukkālum cun=tiracoḻaṉ va <gap reason="lost" quantity="8" unit="character"/> mukkaḻañce mu<unclear>kkā</unclear>
+<lb n="9" break="no"/>le Iraṇṭu mañcāṭiyum Iraṇṭu māvum I(ā)vare varakkāṭṭiṉa muttu vāḷi Itil muttu<note n="25-1">Incomplete.</note> <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 23.46 by <bibl><ptr target="bib:SrinivasaRao1979_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1979_01"/>
+			<citedRange unit="page">24-25</citedRange>
+			<citedRange unit="item">46</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

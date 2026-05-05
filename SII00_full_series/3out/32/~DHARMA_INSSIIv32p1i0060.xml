@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 32, part 1, no. 60: original edition by S. Swaminathan</title>
+				<title type="alt">No. 60. (A.R. No. 246 of 1912.) TIRUVOṞṞIYŪR, SAIDAPET TALUK, CHINGLEPUT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv32p1i0060</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a pillar lying to the south of the Ādhipurīśvara temple.</p>						
+
+						<p><hi rend="bold">M.K. Rājakēsarivarman (Sundarachōḷa) Year 5: 962 A.D.</hi></p>						
+
+						<p>This inscription though belonging to Sundarachōḷa refers to Uttamachōḷa. It records that an individual Kaḍuttalai Nāgamaiyaṉ, son of Śiṅgamaiyaṉ, a Kalēśi <hi rend="italic">perundaram</hi> official, who had accompanied <hi rend="italic">uḍaiyār</hi> Uttamachōḷa, donated ninety sheep for burning one perpetual lamp and also an Īḻa-lamp to Tiruvoṟṟiyūr Mahādēva.</p>						
+
+						<p>Published in <hi rend="italic">S.I.I.</hi> Vol. III. No. 115.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha"><unclear>svasti</unclear>śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> matiraikoṇṭa kovirācake
+<lb n="2" break="no"/>caripa<hi rend="grantha">nma</hi><supplied reason="omitted">r</supplied><hi rend="grantha">kk</hi>u yāṇṭu Aiñcāvatu Uṭaiyār
+<lb n="3"/><hi rend="grantha">śrī</hi> Uttamacoḻateva(r)ruṭaṉ vanta
+<lb n="4"/>kaleci peruntara<supplied reason="omitted">t</supplied>tuc ciṅkamaiyyaṉ
+<lb n="5"/>makaṉ kaṭuttalai nākamayyaṉ tiruvoṟṟi<unclear>yū</unclear>r
+<lb n="6"/><hi rend="grantha">mah<choice><sic>a</sic><corr>ā</corr></choice>de</hi>var<hi rend="grantha">kk</hi>u Ācan<hi rend="grantha">tri</hi>ratā<unclear>ra</unclear>mum<note n="72-3">Read ācantiratāramum</note>Oru nantā
+<lb n="7" break="no"/><unclear>vi</unclear>ḷakkerippataṟ<hi rend="grantha">kk</hi>u vaitta cāvāmuvāp perā
+<lb n="8" break="no"/>ṭu toṇṇūṟu Īḻaviḷakku Onṟu Itu pan<hi rend="grantha">mā</hi>
+<lb n="9" break="no"/><hi rend="grantha">heśvara rakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 32, part 1, no. 60 by <bibl><ptr target="bib:Swaminathan2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2012_01"/>
+			<citedRange unit="page">72</citedRange>
+			<citedRange unit="item">60</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

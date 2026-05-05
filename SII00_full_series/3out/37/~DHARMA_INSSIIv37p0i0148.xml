@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.148: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 148. (A.R. No. B 25 of 1940.) Jonnavaram, Siddhavatam Taluk, Cuddapah District. </title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0148</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab set up infront of the image of Āñjanēya in the tank bed to the north-east of the village.</p>						
+
+						<p>This dated <hi rend="bold">Śaka 1466;</hi> other details are not known. It is corresponds to 1544 A.D.</p>						
+
+						<p>Highly damaged. It register gift of some taxes as <hi rend="italic">sarvamānya</hi> like <hi rend="italic">kānika</hi> probably to the temple at village Jonnavaram by Māḍrāju Rājayyadēva mahārāju.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="3" unit="character"/> svasti <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="2" unit="character"/> livāhanaśaka <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="3"/> <gap reason="lost" quantity="3" unit="character"/> lu 146<unclear>6</unclear> Agu <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="5" unit="character"/> <unclear>tsara</unclear> <gap reason="lost" quantity="3" unit="character"/> śrī 
+<lb n="5-8"/><ce>damaged</ce>
+<lb n="9"/>pṛ<unclear>dhvi</unclear> sāṁmrājyaṁ <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="10"/>la Ānati <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="11"/>māḍrāju <gap reason="lost" quantity="2" unit="character"/> rājayyadēva mahārājula 
+<lb n="12" break="no"/>yyavāru vēyiṁcina [dha¨rma] śāsanamu jonnava 
+<lb n="13" break="no"/>raṁ <gap reason="lost" quantity="10" unit="character"/> <unclear>kā</unclear>nika sē 
+<lb n="14" break="no"/> <gap reason="lost" quantity="10" unit="character"/> salōgānu 
+<lb n="15"/><unclear>sa</unclear>rvamānyaṁgā pāliṁstimi yīdha¨rmā 
+<lb n="16"/><unclear>naku</unclear> yavvaru tapinānu kukkamāṁ 
+<lb n="17" break="no"/>samuṁnu surānu sēviṁcinavāru <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.148 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">117-118</citedRange>
+			<citedRange unit="item">148</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

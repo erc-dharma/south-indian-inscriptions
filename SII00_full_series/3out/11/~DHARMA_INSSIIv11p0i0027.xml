@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 11.27: original edition by C. R. Krishnamacharlu, R. S. Panchamukhi, N. Lakshminaraya Rao and H. K. Narasimhaswami</title>
+				<title type="alt">No. 27. (B.K. No. 102 of 1926-27). CHIÑCHLI, GADAG TALUK, DHARWAR DISTRICT. ON A SLAB At the topSET UP IN THE BACKYARD OF HOSAHAṬṬI'S HOUSE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv11p0i0027</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The record is <hi rend="bold">dated in Śaka 8[2]5, Raktākshin, solar eclipse</hi> and refers itself to the reign of <hi rend="bold">Kannara (i.e., Kṛishṇa II).</hi> It seems to register a gift of tolls made to a temple while <hi rend="bold">Vatsayya</hi> was holding charge of the <hi rend="italic">suṁka</hi> of <hi rend="bold">Beḷvola Three Hundred.</hi> The village Chiṁchila is mentioned.</p>						
+
+						<p>The English equivalent of the date would be <hi rend="bold">A.D., 904, November 10, Saturday,</hi> on which day there was a solar eclipse. Raktākshin, however, corresponded to Śaka 826.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>© <unclear>svasti</unclear> śrī
+<lb n="2"/>kanmara rā<unclear>jyaṁ</unclear>
+<lb n="3"/>saluttire sakanṛpakālātītasaṁva
+<lb n="4" break="no"/>svaraśataṅga ḷeṇṭunūṟi<unclear>rppatte</unclear>
+<lb n="5" break="no"/>ydaneya raktākṣaṁ
+<lb n="6"/>ba saṁvasvaraṁ pravartthise śrī
+<lb n="7" break="no"/>matvatsayyaṁ beḷvolamūnū
+<lb n="8" break="no"/>ṟaṟa sūṁ<unclear>kha</unclear>manāḷuttu <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="9"/>ndu koṁ<unclear>ḍiḻdu</unclear> sūryyagrahaṇa <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="10"/>ciṁcilada <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="11"/>na sūṁkhakha <gap reason="lost" quantity="3" unit="character"/> <unclear>nā</unclear>ḍayva
+<lb n="12" break="no"/>ttaṟuvoru <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="13"/>mmayyana dēgulakkaṁ biṭṭōṁ Ī <unclear>dana</unclear>
+<lb n="14" break="no"/>ḻidātaṁ vāraṇāsiyuḷ mūvati
+<lb n="15" break="no"/>ḻcāsiramuma neḻkōṭiyumāṁ
+<lb n="16"/><unclear>kavi</unclear>leyuma(ṁ) naḻidōṁ Īdaṁ kādō
+<lb n="17" break="no"/>ninitumaṁ kādōṁ Īdaṁ niṟisi<note n="16-5">The</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 11.27 by <bibl><ptr target="bib:Krishnamacharlu1940_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnamacharlu1940_01"/>
+			<citedRange unit="page">16</citedRange>
+			<citedRange unit="item">27</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

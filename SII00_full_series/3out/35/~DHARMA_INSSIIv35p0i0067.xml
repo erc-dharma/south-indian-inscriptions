@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 35.67: original edition by D. M. Nagaraju</title>
+				<title type="alt">No. 67. (A.R. No. 80 of 1951-52.) HIRĒKERŪR, HIREKERUR TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv35p0i0067</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Hero-stone (No. II) set up on the tank-bund.</p>						
+
+						<p>Siṁghaṇa II [A.D. 1205].</p>						
+
+						<p>This badly damaged inscription belongs to the 7th regnal year of Siṁghanadēva and the cyclic year Dhātu. Seems to record the death of a person probably in a fight, the clue for which can be obtained in the two wors (line 12)-“Jitēna labhyate” of a verse which intends to encourage soldiers to fight.</p>						
+
+						<p>Rest of the information is lost.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>Panel-I.</h4>-->
+
+<p>
+<lb n="1"/>śrī svastiyamaniyamasvādhyāya 
+<lb n="2" break="no"/>dhyānadhāraṇamaunānuṣṭānajapa
+<lb n="3" break="no"/>tapasamādhiśīlaguṇasaṁpannarumappa śrī
+<lb n="4-7"/><ce>lines are damaged-wornout</ce>
+</p>
+
+<!--<h4>Panel-II.</h4>-->
+
+<p>
+<lb n="8"/> <gap reason="lost" quantity="10" unit="character"/> śrīmatu pratāpaca
+<lb n="9" break="no"/>krava¨rtti siṁghaṇadēvava¨rṣa 7 neya dhātu saṁvatsarada
+<lb n="10-11"/><ce>lines are damaged-wornout</ce>
+</p>
+
+<!--<h4>Panel-III.</h4>-->
+
+<p>
+<lb n="12"/>jitēna labhyatē
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 35.67 by <bibl><ptr target="bib:Nagaraju2017_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagaraju2017_01"/>
+			<citedRange unit="page">66-67</citedRange>
+			<citedRange unit="item">67</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

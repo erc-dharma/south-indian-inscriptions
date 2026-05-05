@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.475: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 475. (A.R. No. 10 of 1915.) ON A STONE BUILT INTO THE FLOOR OF THE CENTRAL SHRINE OF THE MALLIKARJUNA-SVAMI TEMPLE AT SRISAILAM, NANDIKOTKUR TALUK, KURNOOL DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0475</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is not dated. It records that king <hi rend="bold">Vīra-Narasiṅgarāya-Mahārāya</hi> is serving at the feet of the god <hi rend="bold">Mallikārjunadēva.</hi> It is not possible to say whether the king to whose reign the inscription belongs was a Sāḷuva or Tuḷuva. Below this inscription, are written names of some devotees, in Dēvanāgarī characters.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:nāgarī maturity:undetermined">
+
+<p>
+<lb n="1"/><seg xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">śrīvīra pratāpa śrīvī</seg>
+<lb n="2" break="no"/><seg xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">ra narasiṁgarāyamahā</seg>
+<lb n="3" break="no"/><seg xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">rāyarū śrīma<unclear>lli</unclear></seg>
+<lb n="4" break="no"/><seg xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">kārjuna dēvara pā<unclear>da</unclear>sēve</seg>
+<lb n="5" break="no"/><seg xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">ya māḍutā yidhā<unclear>ru</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied></seg>
+<lb n="1"/>banavāsi
+<lb n="2" break="no"/>dāsa
+<lb n="3"/>narasiṁgarāja
+<lb n="4"/>maṇājī
+<lb n="5"/>nārāyeṇadāsa
+<lb n="6"/>jīvadi
+<lb n="7"/>kā
+<lb n="8"/>nāgāṁjīsivadeva
+<lb n="9"/>bhagavaṁtarāyasivadeva
+<lb n="10"/>Ānaṁdarāvabhagavaṁta
+<lb n="11"/>kā pītāṁbaraśyāma
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.475 by <bibl><ptr target="bib:ShamaShastry+Rao1941_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:ShamaShastry+Rao1941_01"/>
+			<citedRange unit="page">490</citedRange>
+			<citedRange unit="item">475</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

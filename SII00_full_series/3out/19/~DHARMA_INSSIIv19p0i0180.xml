@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.180: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 180. (A.R. No. 691 of 1904.) ON THE WEST WALL OF THE SAME SHRINE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0180</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The inscription has been almost completely erased. It seems to record somprovision made for burning a perpetual lamp in the temple of Tirukkarapurattu-Perumānaḍigaḷ by <hi rend="bold">Mādambūdī-Kramavitta</hi> a member of the <hi rend="italic">āḷuṅgaṇam</hi> of the village essembly. The <hi rend="italic">ēri-vāriyam</hi> of the year had this responsibility of maintenance.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kopparake<hi rend="grantha">sa</hi>ri pa<hi rend="grantha">nma</hi>r<hi rend="grantha">kk</hi>u yāṇṭu Eḻāvatu nāḷ <gap reason="lost" quantity="4" unit="character"/> nūṟṟut toṇṇūṟṟu Eṭṭu paṭuvūrkoṭṭattu kāvitipākkamākiya Amaṉinārāyaṇa<unclear>ca</unclear>tu<hi rend="grantha">rvve</hi>timaṅkalattu Ivāṭ<unclear>ṭ</unclear>ai kuṭumpuvāriyapperumakkaḷum Erivāriyapperumakkaḷum toṭṭavāriyapperumakkaḷum <gap reason="lost" quantity="9" unit="character"/> makkaḷum <hi rend="grantha">bha</hi>ṭṭarkaḷum <gap reason="lost" quantity="7" unit="character"/> 
+<lb n="2"/>yārpaṇiyāl Ivvāṇṭu <gap reason="lost" quantity="9" unit="character"/> kki <gap reason="lost" quantity="4" unit="character"/> Erivāriyapperumakkaḷom Emmuryāḷuṅkaṇattāruḷ <gap reason="lost" quantity="5" unit="character"/> ruttu ceṟuvukku mātam pūti <hi rend="grantha">kra</hi><supplied reason="omitted">ma</supplied>vitta<supplied reason="omitted">r</supplied> tām muḷḷapoḻutey tirukkara purattup perumāṉaṭikaḷukku<hi rend="grantha">ācantra</hi> kālamum muṭṭāme Oru nantā viḷakku Erippa<note n="92-1">The next three lines are completely reased.</note> <gap reason="lost" quantity="7" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.180 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">92</citedRange>
+			<citedRange unit="item">180</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

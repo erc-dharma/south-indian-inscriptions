@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.460: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 460. (A.R. No. 429 of 1904.) VĒDĀRAṆYAM, TIRUTTURAIPPUNDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0460</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north wall of the <hi rend="italic">maṇḍapa</hi> in front of the central shrine in the Vēdāraṇyēśvara temple.</p>						
+
+						<p>Rājarāja III. Year 27: 1243-43 A.D.</p>						
+
+						<p>This inscription records the gift of 6(1/2) <hi rend="italic">mā</hi> and <hi rend="italic">kīḻ</hi> of 3/4 (<hi rend="italic">vēli</hi>) of land by Uyyavandāṉ <hi rend="italic">alias</hi> Tiruvaraṅgamārāyaṉ, one of the <hi rend="italic">niyāyattār</hi> of Periñāru in Rājēndrachōḷa vaḷanāḍu, for burning a perpetual lamp to the deity Tirumaṟaikkāḍu Uḍaiyār. The gift land was made over to Śrīkṛishṇa Bhaṭṭa and others of Anapāya-chaturvēdimangalam who undertook to maintain the lamp with the balance after paying the <hi rend="italic">kaḍamai</hi> (tax) on the lands.</p>						
+
+						<p>In detailing the boundaries of the gift land, the record mentions Vikramaśōḻaṉ Kaḍambūr iraṇḍā[ṁ kaṇṇāṟu]. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tiripuvaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi> rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>tevaṟku Uṭai
+<lb n="2" break="no"/>yār tirumaṟaikkāṭuṭaiyārkku rā<unclear>ce</unclear>ntiracoḻavaḷanāṭṭu peri<unclear>ñā</unclear>ril Irukkum niyāyat
+<lb n="3" break="no"/>tāril Uyyavantāṉāṉa tiruvaraṅka mārā<unclear>yaṉeṉ</unclear> nāṉ vaitta tiruviḷakku Oṉ
+<lb n="4" break="no"/>ṟukku Iṉṉāṭṭu Aṉapāyac caruppetimaṅkalattu <gap reason="lost" quantity="4" unit="character"/> ṟattu <hi rend="grantha">śrī</hi> kiruṣṇapaṭṭa
+<lb n="5"/>ṉ Uḷḷiṭṭār pakkal Innāyaṉār tirunāmattu vilaikoṇṭu viṭṭa nila<supplied reason="omitted">m</supplied><unclear>ū</unclear><supplied reason="omitted">r</supplied>p perāṟṟu va
+<lb n="6" break="no"/>ṭakaraiyil niḻai Uyyakkoṇṭāṉ <gap reason="lost" quantity="4" unit="character"/> catira <gap reason="lost" quantity="2" unit="character"/> kku kiḻpāṟkellai <unclear>vik</unclear>
+<lb n="7" break="no"/>kiramacoḻaṉ kaṭampūr Iraṇṭāṅ kaṇṇāṟṟukku meṟkum teṉpāṟkellaiyum melpāṟ
+<lb n="8" break="no"/>kellaiyum tirunāmattukkāṇi <gap reason="lost" quantity="3" unit="character"/> kku kiḻakku vaṭapāṟkellai
+<lb n="9"/>vikkiramacoḻaṉ kaṭampūr Iraṇṭāṅ <gap reason="lost" quantity="4" unit="character"/> ṟukku teṟkum naṭuvupaṭṭa maṉai
+<lb n="10"/> <gap reason="lost" quantity="4" unit="character"/> nilam Āṟumāvaraiyiṉ kiḻ mukkālum kaṭamai Iṟuttu mikutikoṇṭu cantirā
+<lb n="11" break="no"/>tittavarai cellak kaṭavatāka <gap reason="lost" quantity="7" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.460 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">188-189</citedRange>
+			<citedRange unit="item">460</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

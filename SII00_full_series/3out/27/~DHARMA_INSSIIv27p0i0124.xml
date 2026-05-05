@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 27.124: original edition by M. D. Sampath, H. K. Narasimhamurthy, Madhav N. Katti and B. R. Gopal</title>
+				<title type="alt">No. 124. (A.R. No. 590 of 1929-30.) ĀRŪR, UDIPI TALUK, SOUTH KANARA DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv27p0i0124</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab set up in the <hi rend="italic">prākāra</hi> of the Vishṇumūrti temple.</p>						
+
+						<p>Dēvarāya II, 1447 A.D.</p>						
+
+						<p>This is badly damaged record dated <hi rend="bold">Śaka 1 • • •, Kshaya, Kārttika śu. 1, Tuesday.</hi> The cycle year Kshaya corresponds to Śaka 1368, when the <hi rend="italic">tithi</hi> occured on <hi rend="bold">1446 A.D., October 21, Friday.</hi> But in the next year, Prabhava, the given details correspond regularly to 1447 A.D., October 10. The latter might be the intended date of the record.</p>						
+
+						<p>It seems to register a gift of money income for feeding brahmins in the <hi rend="italic">maṭha,</hi> by <hi rend="bold">Kuppaṇṇa-voḍeya</hi> who was administering <hi rend="bold">Bārakūru-rājya</hi> at the instance of <hi rend="italic">mahāpradhāna</hi> Mādaṇṇa-nāyaka (?). The gift was made in the presence of the god Mārkaṇḍēśvara of Kōṭeya-kere. It refers to the residents of Beḷaṁpaḷi who probably agreed to pay the amount regularly.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>śrī <unclear>ga</unclear>ṇādhipatayēnamaḥ Avighnamastu namastuṁga śiraścuṁ
+<lb n="2" break="no"/>bi caṁdracāmaracāravē trayalōkyana <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="3"/>staṁbhāya śaṁbhavē <g type="danda">.</g> svastiśrī jayābhyudaya <hi rend="bold">śakavaru<unclear>ṣa</unclear> 1 <gap reason="lost" quantity="5" unit="character"/> <unclear>vartta</unclear>mā</hi>
+<lb n="4" break="no"/><hi rend="bold">na kṣaya saṁvatsarada kārttikaśuddha 1 maṁgaḷavāra</hi>dalu śrī manmahārājādhirā
+<lb n="5" break="no"/>ja rājaparamēśvara <hi rend="bold">śrīvīrapratāpa dēvarāya</hi> mahārāyaru <hi rend="bold">vijayanagari</hi>
+<lb n="6" break="no"/>ya siṁhāsanadalu sukhasaṁkathāvinōdadiṁ prati<unclear>pāli</unclear>suva kāladalli
+<lb n="7"/>Avara Ājñārādhakarumappa śrī manmahā<hi rend="bold">pradhāna mādaṁṇa <gap reason="lost" quantity="3" unit="character"/> <unclear>vo</unclear></hi>ḍeyara ni
+<lb n="8" break="no"/>rūpadiṁ <hi rend="bold">kuppaṁṇa Oḍeyaru bārakūra rājyavanā <gap reason="lost" quantity="2" unit="character"/> </hi> <unclear>kā</unclear>ladalu rāyara nirū
+<lb n="9" break="no"/>padiṁ <unclear>ku</unclear>ppaṁṇa Oḍeyarū kōṭeya keryya mārkaṁḍēśvaradēvara saṁnidhiyallū
+<lb n="10"/>māḍida<unclear>yaraḍa</unclear> maṭhada dharmakke brāhmara bhōjanada jana <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="11"/>kāladalu dhāreya neṟadukoṁḍu beḷaṁpaḷiya grāma Oṁdakke kuḷavaṁnu bā <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="12"/> <gap reason="lost" quantity="5" unit="character"/> hoṁna<unclear>nū</unclear> sōmavāra Amāvāse puṁṇyakāladalu Ārā 
+<lb n="13" break="no"/>yara nirūpadiṁ sahiraṇyōdaka dānadhārā pūrvakavāgi yeṟadu koṭa
+<lb n="14" break="no"/>ru [�yo] <gap reason="lost" quantity="10" unit="character"/> ṁttire halaru yiḷuhi bahadu <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="15"/> <gap reason="lost" quantity="2" unit="character"/> Ū<unclear>ra</unclear> Upacāra <gap reason="lost" quantity="2" unit="character"/> mādaṁṇanāyakage koṭa <gap reason="lost" quantity="2" unit="character"/> Aṁttu <gap reason="lost" quantity="1" unit="character"/> hma <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="16"/> <gap reason="lost" quantity="10" unit="character"/> naṭṭu <gap reason="lost" quantity="10" unit="character"/> kāla
+<lb n="17" break="no"/>kālada haḍikeyali <gap reason="lost" quantity="2" unit="character"/> rāhāra <gap reason="lost" quantity="3" unit="character"/> jananigaḷa haḍikeya suttigeya
+<lb n="18"/> <gap reason="lost" quantity="3" unit="character"/> hoṁnanu <gap reason="lost" quantity="2" unit="character"/> ḍisikoṭṭu baharu �yo <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="19"/> <gap reason="lost" quantity="3" unit="character"/> Eṁdu halaru Ūravara kaiyali beḍasalladu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="20"/> <gap reason="lost" quantity="10" unit="character"/> nuṣyana koṭṭu �yo <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="21"/> <gap reason="lost" quantity="10" unit="character"/> hirā manuṣya <unclear>ka</unclear>yya <gap reason="lost" quantity="2" unit="character"/> Arppisa saladu kaḍa
+<lb n="22"/> <gap reason="lost" quantity="10" unit="character"/> Ūrāḷali Agapaṭaduṁṭādare vobba <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="23"/> <gap reason="lost" quantity="2" unit="character"/> nālkuvaraṟa keyaluḷa nyāya dharmava vicārisi halaru tamma <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="24"/> <gap reason="lost" quantity="1" unit="character"/> koṁḍu samartthana samartthavāḷike tappade Ūra Upacāra tappade
+<lb n="25"/>naḍasikoṁḍu baharu <gap reason="lost" quantity="1" unit="character"/> yidakke tappivoṁdu vokkala mēle vobba <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="26"/> <gap reason="lost" quantity="3" unit="character"/> ya mēle tappiduṁṭādakke tappanū voppāmāḍikoṁḍu
+<lb n="27"/>Arasu Anusari <gap reason="lost" quantity="1" unit="character"/> ttidareĀvotta pariharisi koḍuvaru �yohaḍikeyū
+<lb n="28"/>nū dēśa saṁ <gap reason="lost" quantity="3" unit="character"/> yeṁdu hēḷade habbapaṁcami dāṁṭidaṁte kālakā
+<lb n="29" break="no"/>lake tettukoḍuveUyeṁdu mūḍilaru beḷaṁpaḷiya Ūru dēśavē katra
+<lb n="30" break="no"/>voppa barasi naṭṭa śilāśāsana �yoŪra Asādhya pāripattya vappa vo
+<lb n="31" break="no"/> <gap reason="lost" quantity="10" unit="character"/> Aramaneya kerahugāla baṁṭaru barasalladu sarvamānya
+<lb n="32"/>yidake Āru tappidaduṁṭādare śivaliṁgava kittu vāraṇāsiyali sāvirada
+<lb n="33" break="no"/>yiṁnūru kavileya paśuva koṁda dōśake hōharu beḷaṁpaḷiya Ūru <gap reason="lost" quantity="1" unit="character"/> dēva
+<lb n="34"/>mūḍilarū <gap reason="lost" quantity="3" unit="character"/> viṣṇumūrti śubhamastu maṁgaḷa mahā śrī śrī śrī śrī śrī
+<lb n="35"/>dānapālanāyōrmadhyē dānāchrēyōnupālanaṁ dānaṁ svargamavāpnōti pālanādacyu
+<lb n="36"/><ce>damaged</ce> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 27.124 by <bibl><ptr target="bib:Sampath+al2001_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath+al2001_01"/>
+			<citedRange unit="page">197-198</citedRange>
+			<citedRange unit="item">124</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 15.201: original edition by P. B. Desai, Dines Chandra Sircar and G. S. Gai</title>
+				<title type="alt">No. 200. (B.K. No. 159 of 1926-27.) ASUṆḌI, GADAG TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv15p0i0201</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the wall of the Īśvara temple.</p>						
+
+						<p>Rāmachandra, 1289 A.D.</p>						
+
+						<p>This is dated the cyclic year Virōdhi, Kārttika ba. 30, Monday, the regnal year of the king being lost. The details, however, correspond, to 1289 A.D., November 14.</p>						
+
+						<p>It seems to record a gift of land to the goddess installed by a lady. The details of the transaction are not clear. The inscription is damaged.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>© svastu(sti) śrīmatu yādavarā
+<lb n="2" break="no"/>yanārāyaṇaṁ bhujabaḷa pravu<unclear>ḍha</unclear>pratāpa<unclear>ca</unclear>
+<lb n="3" break="no"/>krava¨rtti śrīrāmacaṁdra bijeya rājyōdayada
+<lb n="4" break="no"/> <gap reason="lost" quantity="2" unit="character"/> neya virō<unclear>dhi</unclear> saṁvatsarada kā¨rttika ba 30
+<lb n="5" break="no"/><unclear>sō</unclear> byatīpāta saṁkrāṁtiya <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="6"/> <gap reason="lost" quantity="1" unit="character"/> <unclear>va gaḷu</unclear> taṁ<unclear>na</unclear> taṁde <gap reason="lost" quantity="5" unit="character"/> dēva
+<lb n="7" break="no"/>na hasaralu pratiṭemāḍidaḷā vūra
+<lb n="8"/>dēvatige śrīmatu hasu<unclear>ṁḍiya ma</unclear>
+<lb n="9" break="no"/>hā<unclear>varu</unclear> <gap reason="lost" quantity="5" unit="character"/> dēva <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="10"/>pa[¨rmadēva] mukhya ha<unclear>ṁ</unclear>neraḍu mahā <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="11"/>gaḷu koṭṭa keyi mattaru 2 <unclear>ka</unclear> <gap reason="lost" quantity="1" unit="character"/> kalu <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="12"/>yiṁti <gap reason="lost" quantity="2" unit="character"/> galāda [mukhya E]ṁṭu hi<unclear>ṭṭu</unclear>
+<lb n="13"/>paṁcamaṭha <gap reason="lost" quantity="5" unit="character"/> pratipāḷisu
+<lb n="14" break="no"/>varu ba� <gap reason="lost" quantity="5" unit="character"/> pratiṭeya
+<lb n="15"/>māḍidaḷu maṁgaḷa mahā śrī <g type="ddanda">.</g> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 15.201 by <bibl><ptr target="bib:Desai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Desai1964_01"/>
+			<citedRange unit="page">247</citedRange>
+			<citedRange unit="item">201</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

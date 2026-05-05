@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.762: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 762. (A.R. No. 403 of 1905.) ON A SLAB IN FRONT OF THE MASJID AT KĀVĒRIPPĀKKAM, ARKONAM TALUK, NORTH ARCOT DISTRICT. Ś. 1591. (Kīlaka)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0762</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Records the construction of a mosque at <hi rend="bold">Kāvēripāka.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>va¨rttamānavyavahārikē kīlaka 
+<lb n="2" break="no"/>nāmasaṁvatsara mā¨rggaśira 
+<lb n="3" break="no"/>śudha <g type="danda">.</g> 10 <g type="danda">.</g> śukravāraṁ varku 
+<lb n="4"/>śālivāhanaśakavaruṣaṁ 
+<lb n="5" break="no"/>bu lagu 1591 Agu nēṭi 
+<lb n="6"/>dinamuku rājyādhipati 
+<lb n="7"/>śāhajaṁjāha<unclear>ma</unclear>lāya 
+<lb n="8"/> <gap reason="lost" quantity="2" unit="character"/> sāha sulutānu Abdula 
+<lb n="9"/> <gap reason="lost" quantity="1" unit="character"/> taśāha<unclear>tā</unclear> <gap reason="lost" quantity="2" unit="character"/> du <gap reason="lost" quantity="2" unit="character"/> na 
+<lb n="10" break="no"/>bu <gap reason="lost" quantity="2" unit="character"/> nāmukhānurajākhullicē 
+<lb n="11" break="no"/>guna<unclear>rata</unclear>narāgilōnapharukhullivala 
+<lb n="12" break="no"/><unclear>du</unclear>hājapa <gap reason="lost" quantity="2" unit="character"/> nihāhīluvāru killē pa 
+<lb n="13" break="no"/>ragaṇē kāvēripāka kaṭṭiṁccina maśīduna 
+<lb n="14"/><unclear>ki</unclear>lā <g type="danda">.</g> vakhāninna 1077 yēḍu modalu 
+<lb n="15"/>koni 1078 yiṁdumustayidu Āya 
+<lb n="16" break="no"/>nu <gap reason="lost" quantity="6" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.762 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">400</citedRange>
+			<citedRange unit="item">762</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

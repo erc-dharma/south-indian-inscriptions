@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.770: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 770. (A.R. No. 494 of 1906.) ON A SLAB NEAR GOVINDA RAO'S HOUSE IN PULIVENDLA, PULLIVENDLA TALUK, CUDDAPAH DISTRICT. Ś. 1613. (Prajōtpatti)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0770</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Records the terms offered by the order of <hi rend="bold">Muhammad Jāfar</hi> to induce merchants from other places to come and settle down in <hi rend="bold">Pulviṁddula</hi> which had been deserted.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrī jayābhyudaya 
+<lb n="2" break="no"/>śālivāhanaśakava¨rṣaṁbbulu 
+<lb n="3"/>1613 Agu nēṭi prajōtpattinā 
+<lb n="4" break="no"/>masaṁvatsara phālguṇa ba 12 śu 
+<lb n="5"/>hajarati mahammajjāpharāsāhēbu 
+<lb n="6" break="no"/>lavāri śalvuna rājaśrī vāsudēva 
+<lb n="7" break="no"/>narasā <g type="ddanda">.</g> ha <g type="ddanda">.</g> sa <g type="ddanda">.</g> pulviṁddulagāru 
+<lb n="8"/>vrāyiṁccina śabdaśāsanaṁ pulviṁddula pē 
+<lb n="9" break="no"/>ṭa pāḍai va¨rtakulu cāraka vuṁḍiri ganaka 
+<lb n="10"/>yiṁdunimitaṁ basvapaṭnaṁ rebbaḷiga cannappa 
+<lb n="11"/>cetukala malakappa modalaina staḷaparasta 
+<lb n="12" break="no"/>ḷaṁ dēśaṁ vāriki prajalaku yiccina 
+<lb n="13"/>kavulu kritaṁ divāṇānaku kōmaṭlu 
+<lb n="14"/>gānulavāru vaṁttula prakāraṁ veccaṁ 
+<lb n="15"/>yistā vuṁdduru ganaka Adinimitta<unclear>ṁ</unclear> 
+<lb n="16"/>grāmānaku kōmaṭlu gānulavāru cāra 
+<lb n="17" break="no"/>ka vuṁḍḍagānu vaṁttuvāsulu veṭṭikaḍāyamulu 
+<lb n="18"/>maṁnniṁccināraṁ yiṁduku yavaru Ā <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="19"/> <gap reason="lost" quantity="2" unit="character"/> śina vāni Ālini caluvādivā 
+<lb n="20" break="no"/>niki yicciri Ani vrāyiṁ 
+<lb n="21" break="no"/>ccina śabdaśāsanaṁ 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.770 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">404</citedRange>
+			<citedRange unit="item">770</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

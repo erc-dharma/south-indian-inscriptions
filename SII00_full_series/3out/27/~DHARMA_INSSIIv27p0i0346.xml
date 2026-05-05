@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 27.346: original edition by M. D. Sampath, H. K. Narasimhamurthy, Madhav N. Katti and B. R. Gopal</title>
+				<title type="alt">No. 346. (A.R. No. 286 of 1931-32.) HOSĀḶA, UDIPI TALUK, SOUTH KANARA DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv27p0i0346</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Broken stone lying on a raised pial near the Bhaṇḍāri-kēri-maṭha.</p>						
+
+						<p>Circa 14th century.</p>						
+
+						<p>This fragmentary record seems to register a gift of land and money, for offerings and burning a perpetual lamp probably in a <hi rend="italic">maṭha</hi> by Tirumakaṁbaḷi and Saṅkuseṭi. The gift was entrusted to Raghuvara-tīrtha-śrīpāda. <hi rend="italic">Karaṇika</hi> Mallarasa of Bārakūru wrote the record.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="5" unit="character"/> maṭada grāmada voḷaga <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="1" unit="character"/> mu 12 kaṁ mu 1 kaṁ ga 1<unclear>5</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="3"/>mu 3 <g type="danda">.</g> 0 ge ga ¢1 vubhayaṁ <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="1" unit="character"/> hadinālku varahana <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="5"/>parāga puṁṇyakāladalu vijeyadēvo <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="6"/>dhāreyaneradu koṭevu Aṁtu grā <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="7"/>ṭṭa varaha ga 55 varahanu kālakālake <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="8"/>ra Amrutapaḍi naṁdādīptiya naḍa <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="9"/>ṁ sarvva māṁnyavāgi sukhadalu Anubha<unclear>vi</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="10"/><unclear>ri</unclear>yaru raghuvaratīrtha śrīpādaṁgaḷi <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="11"/>dhāreya neredu koṭa śilāṣasana yi <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="12"/> <gap reason="lost" quantity="1" unit="character"/> tirumakaṁbaḷi voppa saṁkuseṭi voppa <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="13"/> <gap reason="lost" quantity="1" unit="character"/> yōnrupālanaṁ dānāsvarggamavā <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="14"/><unclear>bārakūra</unclear> karaṇika mallarasara baraha 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 27.346 by <bibl><ptr target="bib:Sampath+al2001_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath+al2001_01"/>
+			<citedRange unit="page">459</citedRange>
+			<citedRange unit="item">346</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

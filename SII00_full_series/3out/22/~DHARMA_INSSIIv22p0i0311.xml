@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.311: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 311. (A.R. No. 311 of 1906) NORTH ARCOT DISTRICT, WALAJAPET TALUK, TIRUMĀLPURAM. RUINED VISHṆU TEMPLE—ON THE SAME WALL. PARĀNTAKA I—34th YEAR (A.D. 940-41)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0311</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records a gift of 30 <hi rend="italic">poṉ</hi> for making a crown to (the image god) Gōvindapāḍi-Perumānaḍigaḷ by Oḻukkai Vīranārāyaṇaṉ <hi rend="italic">alias</hi> Anantavikrama-Pallavaraiyar probably an officer of the king.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <unclear>matiraiko</unclear>
+<lb n="2" break="no"/>ṇṭa kopparakecari
+<lb n="3" break="no"/>paṉ<hi rend="grantha">ma</hi><supplied reason="omitted">ṟ</supplied>ki yāṇṭu muppa
+<lb n="4" break="no"/>ttu nālāvatu <hi rend="grantha">śrī</hi>kovi
+<lb n="5" break="no"/>ntapāṭip perumāṉa 
+<lb n="6" break="no"/>ṭikaḷu<supplied reason="omitted">kku</supplied> Oḻukkai viranārā
+<lb n="7" break="no"/>yaṇaṉā(ā)kiya A<supplied reason="omitted">na</supplied><hi rend="grantha">n</hi>tavi
+<lb n="8" break="no"/>kkiramappallavaraiyar <hi rend="grantha">śrī</hi>
+<lb n="9" break="no"/>muṭikku kuṭutta poṉmup
+<lb n="10" break="no"/>patu I<supplied reason="omitted">tu</supplied> vaiṣṇavara<hi rend="grantha">kṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.311 by <bibl><ptr target="bib:SrinivasaRao1997_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1997_01"/>
+			<citedRange unit="page">256-257</citedRange>
+			<citedRange unit="item">311</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

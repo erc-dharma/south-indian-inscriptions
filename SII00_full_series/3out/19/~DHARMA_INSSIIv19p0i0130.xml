@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.130: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 130. (A.R. No. 46 of 1910.) ON THE SAME WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0130</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records an endowment of 3 <hi rend="italic">vēli</hi> of land (by the king) at the request of <hi rend="bold">Śiṅgaṉ Kaliyaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Uttamaśōḻa-Mūvēndavēḷāṉ</hi> of Kommaipākkam with its annual produce of 710 <hi rend="italic">kalam</hi> of paddy specifically allotted for the various requirements of worship in the temple of Tirukkarugāvūr-Mahādēvar. This apportionment was made through the officers <hi rend="bold">Kōyil-Mayilai</hi> <hi rend="italic">alias</hi> <hi rend="bold">Madhurāntaka-Mūvēndavēḷāṉ of Śiṟṟiṅgaṇ</hi> and <hi rend="bold">Śāttaṉ Paśupati</hi> <hi rend="italic">alias</hi> <hi rend="bold">Kaliyaṉ Taṇḍēśvaraṉ.</hi> The and is said to have adjoined a bigger plot of 40 <hi rend="italic">vēli</hi> endowed to the temple at Tiruvalañjuḻi, from which it seems to have been separated as being in excess of the needs of that temple. This is evidently an inscription of <hi rend="bold">Uttama-Chōḷa.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kopparake<hi rend="grantha">sa</hi>ripaṉmaṟku yāṇṭu 5
+<lb n="2" break="no"/>āvatu tirukkarukāvūr <hi rend="grantha">mah<choice><sic>a</sic><corr>ā</corr></choice>de</hi>var Ittirukka
+<lb n="3" break="no"/>rukāvūr pottaka <gap reason="lost" quantity="5" unit="character"/> ttuva <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="4"/>runilam nāṟpati<unclear>ṉv</unclear>elikkiḻ I
+<lb n="5" break="no"/> <gap reason="lost" quantity="4" unit="character"/> I<unclear>ṉi</unclear>laṉ <unclear>mu</unclear>veli <unclear>mu</unclear>veliyum
+<lb n="6"/>Uṭaiyār tiru<unclear>vala</unclear>ñcuḻi <hi rend="grantha">śrī</hi>koyi <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="7"/> <gap reason="lost" quantity="2" unit="character"/> vaittu Ayppikai vi<hi rend="grantha">ṣu sa</hi>ṅki
+<lb n="8" break="no"/>rānti yelvaiyiṟ tāṉañ ceyyāvi
+<lb n="9" break="no"/> <gap reason="lost" quantity="2" unit="character"/> kkommaipākkamuṭaiyāṉ ciṅkaṉ
+<lb n="10"/>kaliyaṉāṉa Uttamacoḻamuventaveḷāṉ <unclear>viṇ</unclear>
+<lb n="11" break="no"/>ṇappattāl yā<unclear>ṇ</unclear>ṭu 5<g type="dash"/>Āvatumutal Iṟaiyiliyāka
+<lb n="12" break="no"/>k kuṭutta nilaṉ muveliyiṉā laṭaippaṭi n<unclear>e</unclear>llu
+<lb n="13"/>Ūṟk<unclear>ā</unclear>lāl Eḻunūṟṟorupatiṉkalamum Atikā<unclear>rikaḷ</unclear>
+<lb n="14"/> <gap reason="lost" quantity="4" unit="character"/> ṟṟiṅka<unclear>ṇuṭaiyā</unclear>ṉ koyilmayilaiyāṉa mati <unclear>r</unclear>ān
+<lb n="15" break="no"/>takamuv<unclear>en</unclear>taveḷāṉum cāttaṉ pacuvatiyāṉa kaliya
+<lb n="16" break="no"/>n taṇ<unclear>ṭe</unclear><hi rend="grantha">śva</hi>raṉum pa<hi rend="grantha">nmāheśvara</hi>rum mulaparuṭaiyā
+<lb n="17" break="no"/>rum <gap reason="lost" quantity="4" unit="character"/> Āḷvārkku veṇṭu nivanta maṭaittapaṭi Ā
+<lb n="18" break="no"/> <gap reason="lost" quantity="4" unit="character"/> Amitu ceyya nittaṅ kuṟuṇi nāṉāḻi yariciyuṅ kuṟu
+<lb n="19" break="no"/> <gap reason="lost" quantity="5" unit="character"/> yuṭpaṭa nitta <unclear>nel</unclear>lu tūṇiyāka <unclear>O</unclear>rāṭṭaikku
+<lb n="20"/>nellu <gap reason="lost" quantity="9" unit="character"/> ḷakku pattiṉu
+<lb n="21" break="no"/>kku nittam nellu Iru <gap reason="lost" quantity="9" unit="character"/> ṭainā
+<lb n="22" break="no"/>ḷaikku nellu muṉṉūṟṟukku <gap reason="lost" quantity="9" unit="character"/> viḷakke
+<lb n="23" break="no"/>ṇṇaikku nellu pati <gap reason="lost" quantity="7" unit="character"/> pā riruvark
+<lb n="24" break="no"/>ku kappaṭamutaluṭpaṭa Orāṭṭaikku nellu Eḻupatiṉka 
+<lb n="25" break="no"/>lam tiruccantaṇam nicatam <unclear>Oru</unclear> pala māka Orāṭṭaikku ne
+<lb n="26" break="no"/>llu muppatiṉkalaṅ kuṅkilipattukku Orāṭṭaikku
+<lb n="27"/>nellu patiṉkalaṅ karumāṇikkatevarkku tiruvamirtukku
+<lb n="28"/>nicatam nellu patakkāka Orāṭṭaikku nellu Aṟupa
+<lb n="29" break="no"/>tiṉ kala mittevarkku nontāviḷak koṉṟiṉukku nel
+<lb n="30" break="no"/>lu mup<unclear>pa</unclear> tiṉkalaṅ kaṇavatiyār <gap reason="lost" quantity="4" unit="character"/> mirtukku nicatane
+<lb n="31" break="no"/>llu Aññāḻiyāka Orāṭṭaikku nellu <gap reason="lost" quantity="4" unit="character"/> patiṉeṇkalaṉeyi
+<lb n="32"/>ru tūṇik<unclear>ku</unclear>ṟuṇi Itu <hi rend="grantha">panmāheśvararakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.130 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">65-66</citedRange>
+			<citedRange unit="item">130</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

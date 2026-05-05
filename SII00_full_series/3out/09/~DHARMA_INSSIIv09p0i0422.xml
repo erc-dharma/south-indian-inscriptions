@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.422: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 422. (A.R. No. 734 of 1916.) ON A ROCK IN THE REVANNA TEMPLE AT HARESAMUDRAM, MADAKASIRA TALUK, ANANTAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0422</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is dated <hi rend="bold">Śaka 1318, Īśvara, Kārtika, śu. 12,</hi> corresponding to <hi rend="bold">A.D. 1397 November 2 Friday</hi> (not verifiable), in the reign of <hi rend="bold">Harihararāya.</hi> It records that <hi rend="bold">Dhūḷeya-Nāyaka,</hi> son of Basaveyanāyakana-Chauṇḍappa, made a gift of land irrigated by <hi rend="bold">Chaṭayanakuṇṭe</hi> in <hi rend="bold">Kōḍaiyanahaḷḷi</hi> to gods, Brāhmans and <hi rend="italic">Bhaktas.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> śakavaruśa 1318 neya �yosvarasaṁ
+<lb n="2" break="no"/>vatsarada kārttika su 12 lu śrīvīraharihara
+<lb n="3" break="no"/>rāya sāṁbrājevanāḷuvalli basaveyanā
+<lb n="4" break="no"/>yaṁkana ceUṁḍappana maga dhūḷeyanā 
+<lb n="5" break="no"/>yaṁkanu taṁma kōḍaiyanahaḷḷige kavali caṭayana
+<lb n="6" break="no"/>kuṁṭeya keḷage dēvarige brāṁharigeyu nelu kṣētra 1 bhaktarige
+<lb n="7"/>dhārāpūrvvakavāgi <unclear>Ālōcsi koṭa</unclear> dharmada vrittige Āvanānobbanu
+<lb n="8"/>pālisūdū yi dharmake tappidaṁthāavarige vāraṇāsi
+<lb n="9" break="no"/>yalu kapileya koṁda pāpa brāhmaṇava<unclear>dheya</unclear> māḍida pāpa
+<lb n="10"/> <gap reason="lost" quantity="5" unit="character"/> keṁba pātaka naraka <gap reason="lost" quantity="6" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.422 by <bibl><ptr target="bib:ShamaShastry+Rao1941_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:ShamaShastry+Rao1941_01"/>
+			<citedRange unit="page">429-430</citedRange>
+			<citedRange unit="item">422</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

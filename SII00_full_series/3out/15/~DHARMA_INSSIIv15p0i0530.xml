@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 15.530: original edition by P. B. Desai, Dines Chandra Sircar and G. S. Gai</title>
+				<title type="alt">No. 530. (B.K. No. 239 of 1928-29.) MORAB, NAVALGUND TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv15p0i0530</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a slab set up in the Hanumantadēva temple. </p>						
+
+						<p>1059 A.D.</p>						
+
+						<p>This is dated Śaka 981, Vikāri, Kāttika śu. 2, Wednesday, Pūrvāshāḍhā-nakshatra. The details correspond to 1059 A.D. November 10, f.d.n. °50, if the month is Mārggaśira.</p>						
+
+						<p>It records the death by <hi rend="italic">Sanyasana-vidhi</hi> of the Jaina teacher Nāgachandra-Siddhāntadēva, in the Ghaṭāntakiya-basadi at Moramba. Nāgachandra who is praised as a great scholar and advocate of the Jaina doctrine, was the disciple of Jayakīrtti and belonged to <hi rend="italic">Kārēya-gaṇa</hi> and <hi rend="italic">Mailāpa-tīrtha</hi> of <hi rend="italic">Yānnīya-sangha.</hi> The <hi rend="italic">nisidige</hi> memorial bearing the epigraph was set up by his disciple Kanakaśakti Siddhāntadēva. The epigraph is composed both in Sanskrit and Kannaḍa verse, supplemented by prose.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti śrīmatparamagaṁbhīra svādvādāmō <gap reason="lost" quantity="5" unit="character"/> <note n="359-1">The following is engraved on the top of the slab to the left.
+
+<l n="15:359:530:1">śrīmannā-</l>
+
+<l n="15:359:530:2">gacaṁdra</l>
+
+<l n="15:359:530:3">siddāntadēvaṁ <supplied reason="undefined"><g type="danda">.</g></supplied></l></note>
+<lb n="2"/><ce>damaged</ce>
+<lb n="3"/>śrīyāpanīyāṁ<unclear>budhi</unclear>pū¨rṇnacandrō maiḷāpatī¨rtthābharaṇō ga
+<lb n="4" break="no"/>ṇōbhūt kārēya <gap reason="lost" quantity="1" unit="character"/> mā pratibuddhatatvairācā¨ryyava¨ryyai
+<lb n="5" break="no"/>ṛprathitaṟpṛthivyāṁ <g type="ddanda">.</g> tatrājani śrī jayakī¨rttidēvasiddāntaśu
+<lb n="6" break="no"/>ddhēddhasamṛddhabuddhiścāritracuṁcu¨rgguṇa <gap reason="lost" quantity="5" unit="character"/> ¨rbhūpāḷa mau
+<lb n="7" break="no"/>ḷā¨rccitapādapadmaḥ <g type="danda">.</g> yō <gap reason="lost" quantity="5" unit="character"/> bhūribhavābdhipāragamanē saṁ <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="8"/>nē pātrāyatē yō lōkēśa jinēśadha¨rmma <gap reason="lost" quantity="3" unit="character"/> tyāśēśa <unclear>śō</unclear>kāyatē
+<lb n="9"/>yō da¨rppōddhata da¨rppa <gap reason="lost" quantity="2" unit="character"/> mathanē <gap reason="lost" quantity="2" unit="character"/> nnagēndrāyatē sōyaṁ śrī
+<lb n="10"/>jayakī¨rttināma bhagavān bhavyābjinī bhāskaraḥ <g type="ddanda">.</g> śiṣyaśśīḷanidhissuni
+<lb n="11" break="no"/>ścitavidhissadvṛttaratnāṁbudhi<unclear>śśāntaḥ</unclear>kantu<unclear>pa</unclear>dāntakō guṇagaṇai¨rvvibhrā
+<lb n="12" break="no"/>jamānōgraṇī[¨r]jātastasya vinamrabhorinarapaḥ śrī nāgacaṁdrō ya
+<lb n="13" break="no"/>tiḥ siddhāṁtādisamastaśāstranipuṇaḥ khyātō<unclear>dhi</unclear>dhātrītaḷaṁ <g type="danda">.</g> niśśēṣaṁ bha
+<lb n="14" break="no"/>vabhāvibhūtamatuḷaṁ jyōti¨rvvidāvidyasau tatvaṁ yasya padāravindama
+<lb n="15" break="no"/>khiḷakṣmāpāḷacūḍāmaṇiḥ jātaṁ nītisamastamantraviṣayaḥ kī¨rttyaṁga
+<lb n="16" break="no"/>nāsaṁgataḥ śaśvadbhāti mahōmahāguṇanidhiḥ śrī nāgacaṁdrō yatiḥ
+<lb n="17"/>satyaṁ svēna sarasvatīpriyasatīprītyāmahatyā dhṛtā prāptānāprati
+<lb n="18" break="no"/>nōhi samayā sākṣātsapatnyā puraḥ digvāsō stutayōti pa <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="19"/> <gap reason="lost" quantity="1" unit="character"/> tiniḥśēṣaṁ dharitrītaḷaṁ sākṣīkṛtya budhānasūyati sa<unclear>dā</unclear>
+<lb n="20"/> <gap reason="lost" quantity="2" unit="character"/> <unclear>caṁdrā</unclear>śinaṁ <g type="ddanda">.</g> kī¨rtti jyōtsnāvadāpātīkṛta sakaḷakaḷāśāṁbaraḥ śrī
+<lb n="21"/> <gap reason="lost" quantity="2" unit="character"/> saḥ siddhāṁtāṁbhōdhi�®ddhiprabhavavibhavajātaṁ <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="22"/> <gap reason="lost" quantity="2" unit="character"/> dvṛttā saumyakāṁti prathitadhara<unclear>ṇi</unclear>bhṛnmū¨rddhni<unclear>vinyasta</unclear>pādō jīyā
+<lb n="23"/> <gap reason="lost" quantity="2" unit="character"/> gacaṁdrō yatipatirava <gap reason="lost" quantity="1" unit="character"/> vyōmani <gap reason="lost" quantity="1" unit="character"/> maḷēṁduḥ <g type="ddanda">.</g> kṣōṇīnā
+<lb n="24"/> <gap reason="lost" quantity="2" unit="character"/> <unclear>ki</unclear>rīṭaṣ®ṣṭacaraṇaḥ kāmēbhakaṇṭhīravōtītānāgatava¨rttamānani
+<lb n="25"/> <gap reason="lost" quantity="2" unit="character"/> dūraśrutijñānabhāk siddhāṁtāmṛtavā¨rddhiva¨rddhanavidhuḥ sanmaṁ
+<lb n="26" break="no"/>tracūḍāmaṇiḥ hōrāśāstraviśāradō vijayatāṁ śrīnāga
+<lb n="27" break="no"/>caṁdrō guruḥ <g type="ddanda">.</g> suragajada rajataś�ḷada śaradabhrada dhavaḷapuṇḍa
+<lb n="28" break="no"/>rīkada śuṁbhad harahāsada bēḷpanadhaḥkaripudu śrīnāracaṁdra
+<lb n="29" break="no"/>munipatiya yaśa <g type="ddanda">.</g> <unclear>yō</unclear> dūraśravaṇādilōkadayitā vi
+<lb n="30" break="no"/>jñā�vidyāna<unclear>rō</unclear> yō duṣṭagrahanigrahē paṭutamō maṁtra<unclear>sphu</unclear>
+<lb n="31" break="no"/><unclear>ṭō</unclear> gāruḍaḥ citraṁ dāruṇaśākinī bhayakaraḥ śrīmaṁtracūḍāmaṇiṁ
+<lb n="32"/>muktvā viśruta nāgacaṁdramunipaṁ kasmin labhaṁ<unclear>tē</unclear> padaṁ <g type="ddanda">.</g> jitapaṁ 
+<lb n="33" break="no"/>cēṁdriya bāppa manmathamadapradhvaṁsi jīhayya sa(ṁ)nmaṁtra rā
+<lb n="34" break="no"/>gētarabhaṁ majhamma bhuvanaprastutya hō hō yaśōnidhidēva
+<lb n="35"/>vrati jīya jīya bababāppeṁdintu kaivāradiṁ stutigeyguṁ
+<lb n="36"/>sale nāgacaṁdramuniyaṁ viśvaṁbharānuṇḍaḷaṁ <g type="ddanda">.</g> jināgamābdhi
+<lb n="37" break="no"/>¨rjjayakī¨rttidēvastanmaukhamukhyōjani nāgacaṁdraḥ siddhāṁtaśa
+<lb n="38"/>bdāgamatatvavēdī rājēṁdracūḍāmaṇicuṁbitāṁhriḥ <g type="ddanda">.</g> ©
+<lb n="39"/>śākābdē bhūgajāṁkapramitiparimitē vatsarē sadvikā¨ryā<unclear>ṁ</unclear> Ū
+<lb n="40" break="no"/>¨rjjē śukladvitīyāhani nutakaraṇē kaulavē saumyavārē pū[¨rvvā]
+<lb n="41" break="no"/>ṣāḍābhidhābhē sati sadabhimatē gaṁḍayōgē moraṁbē prāptaḥ
+<lb n="42"/>śrīmaṁtracūḍāmaṇiranurapuraṁ nāgacaṁdrō munīṁdraḥ <g type="ddanda">.</g> svasti sa
+<lb n="43" break="no"/>mastabhuvanavaḷayaniratiśayakēvaḷajñānatritīyanētra
+<lb n="44" break="no"/>rājamānabhagavada¨rhatsa¨rvvajñavītūgaparamēśvarapara
+<lb n="45" break="no"/>mabhaṭṭārakamaṁkhakamaḷavini¨rggata sadasadādi <gap reason="lost" quantity="1" unit="character"/> dasamā
+<lb n="46" break="no"/>dhi samāḷiṁgita samastavasu prakṣēpaṇa pravīṇa rāddhāntā
+<lb n="47" break="no"/>mṛtapārāvārapāragarumanēkanṛpatimakuṭataṭakhaci
+<lb n="48" break="no"/>tamaṇigaṇakiraṇajaḷadhārādhauta�tapūta caraṇāravi
+<lb n="49" break="no"/>ndaruṁ vibudhajanamanaṟpuṇḍarīkavanamā¨rttaṇḍarumatītānā
+<lb n="50" break="no"/>gatava¨rttamānakāladūraśravaṇavijñānakuśaḷaruṁ brahma
+<lb n="51" break="no"/>rākṣasa bhūtapiśācabhayaṁkaṁruṁ śākinīda¨rppa
+<lb n="52" break="no"/>daḷanaruṁ gāruḍecakrava¨rttigaḷuṁ jainaśāsana mūḷastaṁ
+<lb n="53" break="no"/>bharumeppa śrīmannāgacaṁdrasiddāntadēva¨rmmoramba
+<lb n="54" break="no"/>da ghaṭāntakiya basadiyoḷ saṁnyasanavidhiyiṁ muḍipi
+<lb n="55"/>sva¨rggastharādarava¨rgge parōkṣavinayameṁdavara śiṣya¨rkkanakaśa
+<lb n="56" break="no"/><unclear>kti</unclear>siddhāntadēva¨rnnisidigeyakallaṁ nilisidar <g type="ddanda">.</g> jagadabhinutaraṁ
+<lb n="57"/> <gap reason="lost" quantity="2" unit="character"/> praga¨rbharaṁ <gap reason="lost" quantity="5" unit="character"/> karaṁ kēḷagaṇitaguṇa
+<lb n="58"/> <gap reason="lost" quantity="2" unit="character"/> ṭṭane pogaḷadarā¨rnnāgacaṁdrasiddhāṁtigaraṁ <g type="ddanda">.</g> maṁgaḷaṁ © © ©
+<lb n="59"/>sarasvatī gaṇadāsi bammōja besageyda © © ©
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 15.530 by <bibl><ptr target="bib:Desai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Desai1964_01"/>
+			<citedRange unit="page">358-360</citedRange>
+			<citedRange unit="item">530</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

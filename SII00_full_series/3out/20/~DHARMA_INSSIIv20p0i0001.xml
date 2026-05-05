@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 20.1: original edition by G. S. Gai</title>
+				<title type="alt">No. 1. (B.K. No. 123 of 1935-36.) BANAVĀSI, SIRSI TALUK, NORTH KANARA DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv20p0i0001</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">On the right and left sides of the Nāga image fixed in the right prākāra-wall of the Madhukēśvara temple.</hi></p>						
+
+						<p>Vinhukaḍa Sātakaṇṇi.</p>						
+
+						<p>The record is dated in the <hi rend="bold">12th regnal year, Hēmanta, 7th fortnight, 1st day.</hi></p>						
+
+						<p>This short inscription in Prakrit language records the gift of a <hi rend="italic">Nāga,</hi> a tank and a <hi rend="italic">vihāra</hi> by <hi rend="italic">Mahābhuvī</hi> the king's daughter <hi rend="bold">Sivakhadanāgasiri</hi> (Śivaskandanāgaśrī) whose sons were alive and who was the mother of the prince <hi rend="italic">(yuvarāja).</hi> The minister <hi rend="bold">Khadasāti</hi> was the superintendent of the work. The <hi rend="italic">Nāga</hi> was made by Naṭaka, pupil of [I]damōraka, the <hi rend="bold">Sajayataka</hi> (inhabitant of Saṁjayantī).</p>						
+
+						<p>This is published in <hi rend="italic">Ep. Ind.,</hi> Vol. XXXIV, pp. 239-42; cf. also <hi rend="italic">Ind. Ant.,</hi> Vol. XIV, pp. 331 ff. and Lu7ders' <hi rend="italic">List,</hi> No. 1186.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:nāgarī maturity:undetermined">
+
+<p>
+<lb n="1"/>sidhaṁ raño hāritiputasa viṇhukaḍacuṭukulānaṁdasātākaṁṇisa <unclear>vi</unclear>sasatāya savacharaṁ 10 2 hemaṁtāna pakho 7 divasa 1 mahābhuviya mahārājabālikāya jivaputā<unclear>ya</unclear><note n="1-1">Bu7hler reads this word as jivaputa.</note>
+<lb n="2"/>yu varāja[ mā<note n="1-3">Afteryu Bu7hler reads the letters saumā or saomā and restores the word as sakumārāya following Bhagwanlal īndraji.</note>tuya] <unclear>siva</unclear><note n="1-4">Bu7hler reads saḍa and corrects it to siva.</note>khadanāgasiriya deyadhaṁmaṁ nāgo taḍāgaṁ vihāro ca <supplied reason="undefined"><g type="danda">.</g></supplied> Etha kamatiko Amaco sadasāti <supplied reason="undefined"><g type="danda">.</g></supplied> sajayatakasa Acariyasa <g type="danda">.</g><note n="1-2">Bu7hler thinks that one letter letters as jayu. ḥe then restores the word of three letters as pajaya.</note>
+<lb n="3"/>damorakasa sisena ṇaṭakena nāgo kato <supplied reason="undefined"><g type="ddanda">.</g></supplied><note n="1-5">Bu7hler restores the name as idamorakata.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 20.1 by <bibl><ptr target="bib:Gai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Gai1964_01"/>
+			<citedRange unit="page">1</citedRange>
+			<citedRange unit="item">1</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

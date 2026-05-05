@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.140: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 140. (B.K. No. 45 of 1932-33.) GAṆAJŪR, HAVERI TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0140</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Hero-stone standing near the temple of Hanumān.</hi></p>						
+
+						<p>Sōmēśvara III—A.D. 1137-38.</p>						
+
+						<p>This inscription dated in the cyclic year <hi rend="bold">Piṅgaḷa,</hi> during the reign of <hi rend="bold">Bhūlōkamālla</hi> corresponding to <hi rend="bold">A.D. 1137-38,</hi> commemorates the death of <hi rend="bold">Bammeya-Nāyaka</hi> who died in the fight when <hi rend="italic">Mahāmaṇḍalēśvara</hi> <hi rend="bold">Vīra-Kādamba Mallikārjunadēva</hi> attacked <hi rend="bold">Lokkiguṇḍi.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti śrīmaccāḷukya<unclear>bhū</unclear>lōkamallavarṣada piṁgaḷasaṁvatsarada<unclear>lu</unclear> śrī
+<lb n="2" break="no"/>manmahāmaṇḍaḷēsvaraṁ <unclear>vī</unclear>rakādaṁba mallikārjjunadēvarllokkigu
+<lb n="3" break="no"/><unclear>ṇḍi</unclear>yaṁ muḻtimahālaggeyaṁ māḍuvalli bammeyanāyaka<unclear>ṁ</unclear> <unclear>kāme</unclear>ya
+<lb n="4"/> <gap reason="lost" quantity="3" unit="character"/> gēṟi Idi<unclear>rba</unclear>ḷada <gap reason="lost" quantity="2" unit="character"/> kādi subhaṭaraṁ koṁdu suralōkaprāptanāda ©
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.140 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">181</citedRange>
+			<citedRange unit="item">140</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

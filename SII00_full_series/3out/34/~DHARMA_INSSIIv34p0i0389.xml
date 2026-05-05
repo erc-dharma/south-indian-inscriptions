@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 34.389: original edition by Y. Subbarayalu</title>
+				<title type="alt">No. 389. Kottaguḍi, Periyakulam Taluk, Madurai District. On a pillar set up near the Gaṇēśa temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv34p0i0389</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Pāṇḍya, [Māṟavarman] . . ., 6th year = 13th Century.</p>						
+
+						<p>Badly mutilated. Mentions Tuṟaiyūr-nāḍu and Vāṇagaṅgar.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> kO<unclear>mā</unclear> <gap reason="lost" quantity="39" unit="character"/> 
+<lb n="2"/><hi rend="grantha">bhu</hi>vaṉacca<hi rend="grantha">kra</hi>vattikaḷ <hi rend="grantha">śrī</hi> <gap reason="lost" quantity="36" unit="character"/> 
+<lb n="3"/>ya tēvaṟku <gap reason="lost" quantity="2" unit="character"/> ṇṭu 6 vatu <gap reason="lost" quantity="36" unit="character"/> 
+<lb n="4"/>ttu <unclear>vaykāru vōṇa</unclear> <gap reason="lost" quantity="39" unit="character"/> 
+<lb n="5"/>ḷ tuṟaiyūr nāṭṭu <gap reason="lost" quantity="36" unit="character"/> 
+<lb n="6"/>lliya nallūr <unclear>pēr</unclear> <gap reason="lost" quantity="36" unit="character"/> 
+<lb n="7"/>ṉ vāṇa<unclear>kaṅ</unclear>kaṟku <unclear>ko</unclear> <gap reason="lost" quantity="36" unit="character"/> 
+<lb n="8"/>nāccita <gap reason="lost" quantity="3" unit="character"/> nāva <gap reason="lost" quantity="39" unit="character"/> 
+<lb n="9"/> <gap reason="lost" quantity="3" unit="character"/> ttaṟi <gap reason="lost" quantity="42" unit="character"/> 
+<lb n="10"/> <gap reason="lost" quantity="3" unit="character"/> Ipaṭi<unclear>ku</unclear>pa <gap reason="lost" quantity="39" unit="character"/> 
+<lb n="11"/> <gap reason="lost" quantity="3" unit="character"/> pe<unclear>ri</unclear>ya nāyaka <gap reason="lost" quantity="40" unit="character"/> 
+<lb n="12"/> <gap reason="lost" quantity="4" unit="character"/> ḷutu kālu <gap reason="lost" quantity="30" unit="character"/> 
+<lb n="13"/> <gap reason="lost" quantity="5" unit="character"/> veṭṭu <gap reason="lost" quantity="40" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 34.389 by <bibl><ptr target="bib:Subbarayalu2015_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Subbarayalu2015_01"/>
+			<citedRange unit="page">352-353</citedRange>
+			<citedRange unit="item">389</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 36.331: original edition by P Shanmugam</title>
+				<title type="alt">No. 331. (A.R. No. 331 of 1910.) TIRUMEYÑĀNAM, KUMBAKONAM TALUK, TANJORE DISTRICT. On the south wall of the maṇḍapa in front of the central shrine in the Jñānaparamēśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv36p0i0331</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Rajendra II. Year 7: A.D. 1039.</hi></p>						
+
+						<p>Gift of two lamps by Tiruveṇkāṭṭu Naṅgai from Chembiyaṉ-kuḍavāyil <hi rend="italic">alias</hi> Ālampālil to the temple of Tirumayāṉam Uḍaiyar at Nālūr, in Chēṟṟūr-kūṟṟam, a subdivision of Kulōttuṅgachōḻa-vaḷanāḍu. The <hi rend="italic">śivabrāhmaṇas</hi> of the temple undertook to maintain lamps.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> tiripuvanac cakkaravat
+<lb n="2" break="no"/>tikaḷ <hi rend="grantha">śrī</hi> vīra Irā<hi rend="grantha">je</hi>ntiratevaṟ
+<lb n="3" break="no"/>kku yāṇṭu 7vatu kulot
+<lb n="4" break="no"/>tuṅkacoḻa vaḷanāṭṭuc ceṟṟū
+<lb n="5" break="no"/>ṟ<unclear>k</unclear> kūṟṟattu nālūr Uṭaiyār
+<lb n="6"/>tirumayāṉamuṭaiyārkku Innā
+<lb n="7" break="no"/>ṭṭuc cempiyaṉ kuṭavāyilāṉa
+<lb n="8"/>Ālampāḻil Irukkum veḷḷāḷan
+<lb n="9"/> <gap reason="lost" quantity="1" unit="character"/> pantampāṭi yiṭaiyā nakamuṭaiyāḷ
+<lb n="10"/>tiruvaṇkāṭṭu naṅkaiyeṉ Iṉ
+<lb n="11" break="no"/>ṉāyanāṟku <gap reason="lost" quantity="1" unit="character"/> cantirātittavarai Upaiyaca
+<lb n="12" break="no"/>ntiviḷakku viṭṭa paricāvatu Ikkoil mu
+<lb n="13" break="no"/><unclear>p</unclear>patu vaṭṭattuk kāṇi<unclear>yuṭ</unclear>aiya <unclear>civappi</unclear>
+<lb n="14" break="no"/>rāmaṇar <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="15"/>kkaṭavomāna cantiviḷakku 2 Iviḷa<supplied reason="omitted">k</supplied>ku
+<lb n="16"/>Iraṇṭu cantirātittavarai Erikka kaṭa
+<lb n="17" break="no"/>vōmāka kalveṭṭik kuṭutto
+<lb n="18" break="no"/>m Ik koyiṟ kāṇi Uṭaiya civap
+<lb n="19" break="no"/>pirāmaṇar muppatu vaṭṭattom §
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 36.331 by <bibl><ptr target="bib:Shanmugam2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shanmugam2018_01"/>
+			<citedRange unit="page">287</citedRange>
+			<citedRange unit="item">331</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

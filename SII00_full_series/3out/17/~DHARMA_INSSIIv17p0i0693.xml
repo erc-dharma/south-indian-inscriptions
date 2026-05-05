@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.693: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 693. (A.R. No. 637 of 1904.) RĀMAGIRI, TIRUVALLUR TALUK, CHINGLEPUT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0693</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north wall of the central shrine in the Vālīśvara temple.</p>						
+
+						<p>Ś. 1358: 1436 A.D.</p>						
+
+						<p>The details of date <hi rend="italic">i.e.</hi>, Śaka 1338, Naḷa, Arpaśi, 25 are irregular. If the Śaka year quoted is a mistake for Ś. 1358, the date would correspond to 1436 A.D.</p>						
+
+						<p>This inscription records the gift of two door-ways in the shrine of Tiruvālīśvaramuḍaiya nāyanār and the setting up of an image of Tiruppaḷḷi-nāchchiyār for the god, by Śakkaraśar, son of Ayyaluppi Kaḍaiyār Vide No. 725 below. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti</hi> [<g type="ddanda">.</g>] <hi rend="grantha">sa</hi>kā<hi rend="grantha">ttam <num value="1338"><g type="numeral">1000</g> 3 <g type="numeral">100</g> 3 <g type="numeral">10</g> 8</num></hi>
+<lb n="2"/>cellāṉiṉ
+<lb n="3" break="no"/>ṟa naḷa varu<hi rend="grantha">ṣam</hi> Aṟpaci
+<lb n="4"/>mātam <num value="25">2 <g type="numeral">10</g> 5</num> ti <unclear>A</unclear>
+<lb n="5"/>yyaluppi kaṭaiyār
+<lb n="6"/>makaṉār cakkaracar tiru
+<lb n="7" break="no"/>vālicuramuṭaiya ṉā
+<lb n="8" break="no"/>yaṉāṟku tiruppa<supplied reason="omitted">ḷ</supplied>ḷi ṉācci
+<lb n="9"/>yārum tirukkatavu Iraṇ
+<lb n="10" break="no"/>ṭum Aracar tiruppaṇi <supplied reason="undefined"><g type="ddanda">.</g></supplied><note n="332-1">There is another damaged inscription below this which reads:— 1 <hi rend="grantha">svasti śrīmanma[hā]maṇḍa-</hi> 2 licuranāna ti•••• 3•••••••••• 4•••••••• 5•••••••• 6•••••••• 7 •••• viṭaiyā- 8 ••• uṭaiya[r] 9 ••• [rai] vayirava ṉāyiṉārṟ 10 . teva[rā]ya makārāyaṟku 11 ••• � tam atikā 12 •••••to</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.693 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">331-332</citedRange>
+			<citedRange unit="item">693</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

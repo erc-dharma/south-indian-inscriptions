@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.263: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 263. (B.K. No. 52 of 1934-35.) MEṆASINHĀḶ, RANEBENNUR TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0263</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Hero-stone set up near Kalamēs11vara temple.</hi></p>						
+
+						<p>Rāmachandra—A.D. 1285.</p>						
+
+						<p>This inscription is dated in the <hi rend="bold">16th year</hi> of the reign of <hi rend="bold">Rāmachandrarāya Svabhānu, Māgha śu. 1, Monday.</hi> In <hi rend="italic">Subhānu</hi> = A.D. 1284 <hi rend="italic">Māgha śu.</hi> 1 fell on Thursday, January 20. In the next year <hi rend="italic">i.e.,</hi> Tāraṇa, the details regularly correspond to <hi rend="bold">A.D. 1285, January 8, Monday.</hi> The latter probably is the intended date.</p>						
+
+						<p>It records the death of a hero (name lost) and seems to register a grant of land made in his memory.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>First Piece.</h4>-->
+
+<p>
+<lb n="1"/><unclear>svasti</unclear> śrīmatu yādavanārāyaṇa <supplied reason="omitted">bhu</supplied>jabaḷaprauḍhapratāpacakravartti śrī
+<lb n="2" break="no"/><unclear>rāma</unclear>caṁdrarāya vijayarājyōdayada hadināraneya svabhānusaṁva
+<lb n="3" break="no"/>tsarada māgha su 1 <g type="danda">.</g> sō <g type="danda">.</g> <unclear>me</unclear>ṇasi <gap reason="lost" quantity="3" unit="character"/> ya <gap reason="lost" quantity="3" unit="character"/> galiganu vūra Aḷivinalli kādi
+<lb n="4"/>suralōka prāptanāda <g type="ddanda">.</g> <gap reason="lost" quantity="10" unit="character"/> manneya <gap reason="lost" quantity="4" unit="character"/> ṇa
+<lb n="5" break="no"/>ya <gap reason="lost" quantity="5" unit="character"/> maneya <gap reason="lost" quantity="5" unit="character"/> yaruṁ <gap reason="lost" quantity="5" unit="character"/> kētagavuḍa <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="6"/> <gap reason="lost" quantity="2" unit="character"/> meci
+</p>
+
+<!--<h4>Second Piece.</h4>-->
+
+<p>
+<lb n="7"/> <gap reason="lost" quantity="2" unit="character"/> rada <gap reason="lost" quantity="5" unit="character"/> bhūmi <gap reason="lost" quantity="5" unit="character"/> keyiṁ baḍagaṇa <gap reason="lost" quantity="7" unit="character"/> 
+<lb n="8"/>daḍake <gap reason="lost" quantity="10" unit="character"/> nādarū <gap reason="lost" quantity="10" unit="character"/> baru
+<lb n="9"/>maṁgaḷa mahāśrī śrī śrī yidanu yaḷipidava <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="10"/>tadanu nettarukeyiṁ <gap reason="lost" quantity="2" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.263 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">345</citedRange>
+			<citedRange unit="item">263</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

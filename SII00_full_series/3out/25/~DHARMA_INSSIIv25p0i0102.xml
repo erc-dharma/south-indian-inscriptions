@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 25.102: original edition by M. D. Sampath</title>
+				<title type="alt">No. 102. (A.R. No. 102 of 1908.) TIRUPPATTŪR, TIRUPPATTUR TALUK, RAMANATHAPURAM DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv25p0i0102</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>South wall of the <hi rend="italic">maṇḍapa</hi> in front of the central shrine in the Tiruttaḷīśvara temple.</p>						
+
+						<p><hi rend="bold">Tribhuvanachakravartti Kulaśēkhara year: 15.</hi></p>						
+
+						<p>This inscription may be assigned to the 12-13th century on grounds of palaeography. The details of the record <hi rend="italic">viz.,</hi> Ṛishabha, 20th day are not sufficient for verification.</p>						
+
+						<p>It records the allotment of <hi rend="italic">dēvadāṉa</hi> lands of the deity by the <hi rend="italic">mūlaparishai</hi> of Tirupputtūr, a <hi rend="italic">brahmadēya</hi> in Kēraḷaśinga-vaḷanāḍu after receiving 50 <hi rend="italic">śōḻiyanaṟ-paḻaṅ-kāśu</hi> deposited in the temple treasury by Taḷiyilā[ḷi] Nakka[ṉ Pāṇḍiyakkō]li, a resident of Niyamam in Tēṉāṟṟuppōkku for maintaining a perpetual lamp to the deity Tiruttaḷiyāṇḍa-nāyaṉār. It also refers to the gift of five <hi rend="italic">tulā</hi> (material not known ?) for a standing lamp, probably in the same temple. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī tribhu</hi>vana<hi rend="grantha">cakra</hi>vattikaḷ <hi rend="grantha">śrī</hi> kulacekaratevaṟku yāṇṭu <num value="15"><g type="numeral">10</g> 5</num>vatu <hi rend="grantha">ṛṣabha</hi>nā<hi rend="grantha"/>
+<lb n="2" break="no"/>yiṟṟu <num value="30">3 <g type="numeral">10</g></num>tiyati nāḷ keraḷaciṅka vaḷanāṭṭu <hi rend="grantha">brahmade</hi>yan tiru<unclear>p</unclear>puttūr mulapari<hi rend="grantha">ṣai</hi>yo<hi rend="grantha"/>
+<lb n="3" break="no"/>m ceyaṅkoṇṭa coḻa viṇṇakarāḻvār tiruvācalil kūṭiyi<unclear>ru</unclear>kka teṉāṟṟu pokku ni
+<lb n="4" break="no"/>ya mattu Irukkuntaḷiyilāḷi nakkaṉpāṇṭi <gap reason="lost" quantity="5" unit="character"/> tiruttaḷi yāṇṭa nāyanāṟku vaitta tiru
+<lb n="5" break="no"/>nontāviḷakku 1 Oṉṟukku <hi rend="grantha">śrī</hi> paṇṭārattoṭukkiṉa coḻiya naṟpaḻaṅkācu <num value="50">5 <g type="numeral">10</g></num> Ikkācu Aympatu
+<lb n="6" break="no"/>m Ināyaṉār tevatānam vaṭavūr viḷākattu cikaṇṭavayakkalum vaṭakkiṟkiṇaṟumin lattālit tiru—
+<lb n="7"/>nontā viḷakkuc cantirātittavaṟ celvatāka kalveṭṭik kuṭuttom mulapari<hi rend="grantha">ṣai</hi>y<unclear>o</unclear>
+<lb n="8" break="no"/>m Itu <hi rend="grantha">śrī</hi>mā<hi rend="grantha">heśvara rakṣai <supplied reason="undefined"><g type="danda">.</g></supplied></hi> meṟpaṭiyāḷ Ayntu lāt tāliṭṭa tarātirunilaivi<supplied reason="omitted">ḷa</supplied>kku Oṉṟu
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 25.102 by <bibl><ptr target="bib:Sampath2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath2012_01"/>
+			<citedRange unit="page">122-123</citedRange>
+			<citedRange unit="item">102</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

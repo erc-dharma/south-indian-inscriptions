@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 11.7: original edition by C. R. Krishnamacharlu, R. S. Panchamukhi, N. Lakshminaraya Rao and H. K. Narasimhaswami</title>
+				<title type="alt">No. 7. (B.K. No. 59 of 1928-29). KESARABHĀVI, HUNGUND TALUK, BIJAPUR DISTRICT. ON A STONE SET UP NEAR THE TEMPLE OF HANUMĀN.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv11p0i0007</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The king's name which is damaged ends in <hi rend="bold">varsha.</hi> Since the record is <hi rend="bold">dated in Śaka 759 (= A.D. 837),</hi> it may be assigned to the reign of <hi rend="bold">Amōghavarsha I</hi> (A.D. 814-15 to 877-78). It mentions a daughter (name<note n="4-1">This may be read as<ka>rēvakka.</ka></note>lost) of the king who was perhaps the wife of <hi rend="bold">Yeṟagaṅga</hi> who was ruling over the <hi rend="bold">Eḍadoṟe</hi> and other districts.</p>						
+
+						<p>The details of date given in ll. 1—4 and 23-24 are: Śaka 759 (expired), Jyēshṭha, ba. 14, Wednesday. The given <hi rend="italic">tithi</hi> fell on Tuesday (not Wednesday), ·90. The date would correspond to A.D. 837, June 5, Tuesday. The cyclic year must be Piṅgaḷa.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti <supplied reason="undefined"><g type="danda">.</g></supplied> śakanṛpa<unclear>kā</unclear>ḷā
+<lb n="2" break="no"/>tīta <unclear>saṁ</unclear>vatsara<unclear>śa</unclear>
+<lb n="3" break="no"/>taṅgaḷ Eḻnūṟa
+<lb n="4"/><unclear>A</unclear>yvattomba<unclear>ttu</unclear> <gap reason="lost" quantity="2" unit="character"/> va
+<lb n="5"/>riṣavbō<unclear>gi</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="6"/> <gap reason="lost" quantity="5" unit="character"/> neya variṣa
+<lb n="7" break="no"/> <gap reason="lost" quantity="1" unit="character"/> varttise <unclear>svastya</unclear>mōgha
+<lb n="8" break="no"/>variṣa śrīpṛthuvīvalla<unclear>bha</unclear>
+<lb n="9"/>mahārājādhi<unclear>rāja</unclear>paramē <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="10"/>ra paramabhaṭṭīrakōrājyābhi
+<lb n="11" break="no"/><unclear>vṛ</unclear>ddhiyuttarōttaraṁ saluttira <supplied reason="undefined"><g type="danda">.</g></supplied> <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="12"/> <gap reason="lost" quantity="1" unit="character"/> priyātmaje yeṟaga<unclear>ṅga</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="13"/><unclear>va</unclear>kṣasdhaḷanivāsi śrirēva<unclear>kke</unclear> <gap reason="lost" quantity="1" unit="character"/> <note n="4-1">Thisrīvakka.</note>
+<lb n="14"/><unclear>rmma</unclear>ṭi Eḍadoṟi <unclear>tuṟvanāḷdu</unclear><note n="4-2">The name</note>
+<lb n="15"/> <gap reason="lost" quantity="1" unit="character"/> se<unclear>ṁ</unclear>gaḷanāḷuttire tatpadā <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="16"/>pajīvi <unclear>va</unclear> <unclear>rināḍe</unclear> mūvattāṟa <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="17"/> <gap reason="lost" quantity="2" unit="character"/> grāmepiritanumbaḍaṅgautīta <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="18"/> <gap reason="lost" quantity="3" unit="character"/> ®te yilla<unclear>dōsi</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="19"/> <gap reason="lost" quantity="2" unit="character"/> ṟesartti <gap reason="lost" quantity="5" unit="character"/> laṭṭa <gap reason="lost" quantity="3" unit="character"/> gottuma<unclear>nta</unclear>
+<lb n="20"/> <gap reason="lost" quantity="2" unit="character"/> ṅgasatti I<unclear>ntu</unclear> sattiyanni<unclear>li</unclear> sendu <unclear>dōsi</unclear>
+<lb n="21" break="no"/> <gap reason="lost" quantity="3" unit="character"/> <unclear>pe pēḻdo</unclear>ḍe kōṭagāmuṇḍanuṁ
+<lb n="22"/><unclear>mādi</unclear> gāmuṇḍana sahita dirballumādara <unclear>nuṁ</unclear>
+<lb n="23"/> <gap reason="lost" quantity="5" unit="character"/> mādarasa dēva mādara<unclear>sa</unclear> ba<unclear>ndo</unclear>
+<lb n="24" break="no"/><unclear>ḍḍi</unclear> jēṣṭa māsa kṛṣṇapakṣa catu
+<lb n="25" break="no"/><unclear>rdda</unclear>siyuṁ budhavāra māge sattiyasi
+<lb n="26"/> <gap reason="lost" quantity="3" unit="character"/> dō ridanaḻivāta keṟeyuṁ <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="27"/>kōḍiyuma naṟidu pasuvumvārvvaru <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="28"/> <gap reason="lost" quantity="2" unit="character"/> <unclear>kondōnava</unclear>ntammabbiyu ntaṁgeyuma <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="29"/> <gap reason="lost" quantity="3" unit="character"/> māḍi koṇḍō<unclear>ṁ</unclear> matta <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="30"/> <gap reason="lost" quantity="3" unit="character"/> <unclear>narāka</unclear>doḷpu<unclear>ḻu</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="31"/>vidanagaḻdoṁ <unclear>bā</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="32"/>candrārkka ruḷa <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 11.7 by <bibl><ptr target="bib:Krishnamacharlu1940_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnamacharlu1940_01"/>
+			<citedRange unit="page">4</citedRange>
+			<citedRange unit="item">7</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

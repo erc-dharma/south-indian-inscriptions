@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.177: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 177. (A.R. No. 57 of 1935.) KĀVĒRIPPĀKKAM, ARKONAM TALUK, NORTH ARCOT DISTRICT. ON A SLAB BUILT INTO THE FLOOR NEAR THE ENTRANCE INTO THE CENTRAL SHRINE, SUNDARAVARADA-PERUMĀḶ TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0177</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is an incomplete inscription. It records an agreement given by the <hi rend="italic">Gaṇapperumakkaḷ</hi> of <hi rend="bold">Iḷamaṇḍagam to regulate the flow of water from the tank (?) for</hi> the money and house they had received from <hi rend="bold">Ayyāḷaṉ-Kramavittaṉ of Āṟalūr.</hi> Two more fragments are found engraved on the same slab, one dated in the 3rd year and the other in the 6th of Parakēsarivarman, the latter of which mentions a gift of 3 <hi rend="italic">kaḻañju</hi> of gold to the <hi rend="bold">Iḷamaṇḍagam</hi> by one Kārambichche••••••• māra-Kramavittaṉ.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha"><unclear>svasti śrī</unclear></hi> parakecaripa<hi rend="grantha">nma</hi><supplied reason="omitted">ṟ</supplied>kku yāṇṭu <unclear>Āṟā</unclear>vatu <unclear>Iḷamaṇ</unclear>ṭakattuk kaṇap
+<lb n="2" break="no"/>perumakkaḷom Āṟalūr Ayyāḷaṉ <hi rend="grantha">kra</hi>mavittar pakkal Akamum maṟṟum
+<lb n="3"/><hi rend="grantha">dravya</hi>mum koṇṭu Ivaṉukkāka naṭumuḷai <unclear>kaṭippaṭṭi</unclear> Āca<hi rend="grantha">ndradā</hi>ramum Iṭṭu ku
+<lb n="4" break="no"/>ṭuppomānom Iḷamaṇṭakattu kaṇapperumakkaḷom Avvaṇṇa<note n="90-1">The record stops here incomplete.</note>
+</p>
+
+<!--<h4>On the same slab.</h4>-->
+
+<p>
+<lb n="1"/>parakecari va<hi rend="grantha">rma</hi><supplied reason="omitted">ṟ</supplied>kku yāṇṭu muṉṟāvatu ka <gap reason="lost" quantity="7" unit="character"/> vittaccomā
+<lb n="2"/> <gap reason="lost" quantity="7" unit="character"/> <ce>Damaged</ce>
+</p>
+
+<!--<h4>On the same slab.</h4>-->
+
+<p>
+<lb n="1"/>parakecari va<hi rend="grantha">rmma</hi><supplied reason="omitted">ṟ</supplied>kku yāṇṭu <unclear>Āṟā</unclear>vatu Iḷamaṇṭakattuk kārampic� <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="2"/>māra<hi rend="grantha">kra</hi>mavittar <gap reason="lost" quantity="4" unit="character"/> kku vaitta poṉ muppatiṉ ka 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.177 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">90</citedRange>
+			<citedRange unit="item">177</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

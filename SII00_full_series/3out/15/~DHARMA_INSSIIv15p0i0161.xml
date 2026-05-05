@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 15.161: original edition by P. B. Desai, Dines Chandra Sircar and G. S. Gai</title>
+				<title type="alt">No. 161. (B.K. No. 154 of 1926-27.) BENTŪR, GADAG TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv15p0i0161</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a pillar in the temple of Śaṁbhuliṅga.</p>						
+
+						<p>Siṅghaṇa, 1214 A.D.</p>						
+
+						<p>This is dated the 15th regnal year of the king, Bhāva, Mārgaśira ba. 8, Thursday, Saṅkramaṇa, corresponding to 1214 A.D., November 26. The weekday, however, was Wednesday and the Saṅkramaṇa was Dhanus.</p>						
+
+						<p>It records a gift of land to the tank called Hiriyakeṟe by the god's servant Sōma. The gift land was purchased for money from the sixty-four <hi rend="italic">Mahājanas</hi> of Benatūru. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<note n="207-1">This is engraved in between No. 217, below.</note>
+
+<p>
+<lb n="1"/>© svasti śrīmatu yādavanārāyaṇa pratāpacakrava¨rtti siṁgaṇadēvava<note n="207-1">This is engraved in between No. 217, below.</note>
+<lb n="2" break="no"/>¨rṣada 15 bhāva saṁvatsarada mā¨rgasira bahuḷa 8 brihaspa
+<lb n="3" break="no"/>tivāra saṁkramaṇadaṁdu benatūra Āṟuvattināluva
+<lb n="4" break="no"/>ru mahājanaṁgaḷa kayoḷu dēvarāḷu sōmanu Ara
+<lb n="5" break="no"/>vattaru <unclear>keyya</unclear>nu taṁma teṁkaṇa prathamada hasugeyi
+<lb n="6" break="no"/>ṁ baḍagalu hi¨ryyakeṟeyiṁ teṁkalu Akṣōhiṇi
+<lb n="7"/>sahiraṇyamaṁ koṭṭu koṁḍu keṟedha¨rmmakke biṭṭanu <g type="ddanda">.</g>
+<lb n="8"/>yī dha¨rmmavanu staḷa<supplied reason="omitted">da</supplied>lidavaru pratipāḷisuvaru pratipāḷisa
+<lb n="9" break="no"/>di¨rddaḍe vāraṇāsiyalu brāhmaṇaruva kavileya koṁda
+<lb n="10"/><unclear>pāpakke pō</unclear>davaru <g type="ddanda">.</g> <unclear>bavaṁbasava</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 15.161 by <bibl><ptr target="bib:Desai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Desai1964_01"/>
+			<citedRange unit="page">206-207</citedRange>
+			<citedRange unit="item">161</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

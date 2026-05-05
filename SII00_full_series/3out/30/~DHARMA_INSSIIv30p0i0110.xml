@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 30.110: original edition by N. Marxia Gandhi, A. Padmavathy and S. Swaminathan</title>
+				<title type="alt">No. 110. (A.R. No. 188 of 1915.) Tirumukkūḍal, Madhurantakam Taluk, Chingleput District On a stone (tiruvāḻikkal) set up in a street of the same village Vira Bukkaṇa-Uḍaiyār: 14th c. A.D.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv30p0i0110</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Records the grant of taxes such as <hi rend="italic">jōḍi, sūlavari</hi> amounting to 300 <hi rend="italic">paṇam</hi> collected from the lands (<hi rend="italic">tiruviḍāiyāṭṭam</hi>) owned by the temple of Tirūvēṅkaḍamuḍaiyāṉ, to the temple itself, for the welfare of Bukkaṇa uḍaiyār and his family. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>Front side</p>
+
+<p>
+<lb n="1"/><hi rend="grantha">sriman</hi> vira
+<lb n="2" break="no"/><hi rend="grantha">śrī</hi> pukkaṇa
+<lb n="3"/>Uṭaiyārkku
+<lb n="4" break="no"/>m Avaruṭai
+<lb n="5" break="no"/>ya vaṅ<hi rend="grantha">ṣa</hi>ttu
+<lb n="6"/>kkum naṉṟāka
+<lb n="7"/><unclear>nayiṉār</unclear> ti
+<lb n="8" break="no"/>ruveṅkaṭa
+<lb n="9"/>muṭaiyāṉ
+<lb n="10"/>tiruviṭaiyā
+<lb n="11" break="no"/><unclear>ṭṭam</unclear> tirumu
+<lb n="12" break="no"/>k kūṭalukku
+<lb n="13"/>coṭi cūlava
+</p>
+
+<p>Back side</p>
+
+<p>
+<lb n="14" break="no"/>rikku <gap reason="lost" quantity="1" unit="character"/> <note n="93-*">paṇam eṉpataṉ kuṟiyīṭu uḷḷatu •</note> <num value="300">3 <g type="numeral">100</g></num>
+<lb n="15"/>Inta paṇam
+<lb n="16"/>muṉṉūṟu me
+<lb n="17" break="no"/>l vaṟkam
+<lb n="18"/>poṉ vaṟkam
+</p>
+
+<p>Back side</p>
+
+<p>
+<lb n="19"/> <gap reason="lost" quantity="7" unit="character"/> 
+<lb n="20"/> <gap reason="lost" quantity="4" unit="character"/> keṅ
+<lb n="21" break="no"/>kaik ka
+<lb n="22" break="no"/>raiyil
+<lb n="23"/><hi rend="grantha">gobrāhma</hi>
+<lb n="24"/><unclear>ṇarai</unclear> vatai
+<lb n="25"/>paṇṇiṉa
+<lb n="26" break="no"/>vaṉ
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 30.110 by <bibl><ptr target="bib:MarxiaGandhi+al2011_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:MarxiaGandhi+al2011_01"/>
+			<citedRange unit="page">92-93</citedRange>
+			<citedRange unit="item">110</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

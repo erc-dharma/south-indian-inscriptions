@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.445: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 445. (B.K. No. 45 of 1934-35.) KUPPĒLŪR, RANEBENNUR TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0445</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Stone near Maṭhada hola.</hi></p>						
+
+						<p><hi rend="bold">A.D. 1730.</hi></p>						
+
+						<p>This inscription, the purport of which is not clear is dated in <hi rend="bold">Śāka 1652, Naḷa, Māgha śu. 14.</hi> The date is wrong. <hi rend="italic">Śaka</hi> 1652 coincided with the cyclic year <hi rend="italic">Sādhāraṇa</hi> and the cyclic year <hi rend="italic">Naḷa</hi> coincided with <hi rend="italic">Śaka</hi> 1658. In these two years the given <hi rend="italic">tithi</hi> corresponds to <hi rend="bold">A.D. 1730, February 22, Thursday</hi> and A.D. 1737, February 3, Thursday, respectively.</p>						
+
+						<p>At the top of this stone are engraved some indistinct letters and a certain <hi rend="bold">Marudēva</hi> seems to have been mentioned.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>śrī <g type="ddanda">.</g> namastuṁgaśira(ḥ)
+<lb n="2" break="no"/>ścuṁbicaṁdracāmara<supplied reason="omitted">cāra</supplied>vē traiḷō
+<lb n="3" break="no"/>kyanagarāraṁbhamūlastaṁ<supplied reason="omitted">bhāya</supplied> śaṁbhavē
+<lb n="4" break="no"/>svasti śrījayū (<g type="ddanda">.</g>) bhyudaya sālivāha
+<lb n="5" break="no"/>naśakhavaruśa 1652 neya
+<lb n="6"/> <gap reason="lost" quantity="3" unit="character"/> vartamānake saluva naḷa nā
+<lb n="7" break="no"/>masaṁ <g type="danda">.</g> māga śu 14 llu śu <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="8"/> <gap reason="lost" quantity="2" unit="character"/> daiyana taṁna bhuktiyiṁda
+<lb n="9"/> <gap reason="lost" quantity="5" unit="character"/> sāmū
+<lb n="1"/><note n="502-1">These lines are engraved at the top of the</note>śrīmatu
+<lb n="2"/>mali gi <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="3"/>gesa <g type="danda">.</g> marudēvaralli <unclear>ma</unclear>ḍida
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.445 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">501-502</citedRange>
+			<citedRange unit="item">445</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

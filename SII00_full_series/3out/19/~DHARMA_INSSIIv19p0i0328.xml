@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.328: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 328. (A.R. No. 325 of 1927.) TIRUPPURAMBIYAM, KUMBHAKONAM TALUK, TANJAVUR DISTRICT. ON THE WEST WALL OF THE CENTRAL SHRINE, SĀKSHĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0328</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records a gift of 2 <hi rend="italic">mā</hi> and a <hi rend="italic">kāṇi</hi> of land in Vānavanmādēvi-chaturvēdimaṅgalam in Innambar-nāḍu on the northern bank of the river, for burning 1(1/2) perpetual lamps in the temple of Āditta-Īśvaram-Uḍaiyār at Tiruppurambiyam a <hi rend="italic">dēvadāna</hi> separated from Aṇḍāṭṭu-kūṟṟam, by Śeṭṭi Perumāṉ of Maṇaṟkuḍi in Maṇaṛkuḍi-nāḍu also on the northern bank. This Maṇaṟkuḍi is probably the same as Maṇikkuḍi in the Kumbhakonam taluk. <hi rend="bold">Vānavan-Mādēvi</hi> was a <hi rend="bold">queen of Uttama Chōḻa.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> koppa
+<lb n="2" break="no"/>rakecaripa<hi rend="grantha">nma</hi><supplied reason="omitted">ṟ</supplied>kku yāṇṭu <num value="13"><g type="numeral">10</g> 3</num>
+<lb n="3"/>Āvatu vaṭakarai maṇaṟku<supplied reason="omitted">ṭi</supplied>nā
+<lb n="4" break="no"/>(ṭiṉā)ṭṭu maṇaṟkuṭaiyāṉ ceṭ
+<lb n="5" break="no"/>ṭi perumāṉ vaṭakarai Aṇ
+<lb n="6" break="no"/>ṭāṭṭukkūṟṟattuniṉṟu ni
+<lb n="7" break="no"/>ṅkiya tevatāṉan ti
+<lb n="8" break="no"/>ruppuṟampiyattu <hi rend="grantha">śrī</hi>
+<lb n="9" break="no"/>tiruppuṟampiyamu
+<lb n="10" break="no"/>ṭaiya Ā<hi rend="grantha">di</hi>ttaī<hi rend="grantha">śva</hi>ra
+<lb n="11" break="no"/>muṭaiyārkku <hi rend="grantha">śantrādi</hi>
+<lb n="12" break="no"/>ttaval niṟka vaitta no 
+<lb n="13" break="no"/>ṉtāviḷakku Oṉṟarai
+<lb n="14"/>Ivvoṉṟarai viḷak
+<lb n="15" break="no"/>kukku vaitta Eṇṇai
+<lb n="16"/>Uḻakkarai Ivvuḻak
+<lb n="17" break="no"/>karai Eṇṇaikkum vai
+<lb n="18" break="no"/>tta nilam vaṭakarai I
+<lb n="19" break="no"/>ṉṉamparnāṭṭu <hi rend="grantha">brahma</hi>
+<lb n="20" break="no"/><hi rend="grantha">de</hi>ya<supplied reason="omitted">m</supplied> vāṉavaṉmātevicca
+<lb n="21" break="no"/>tu<hi rend="grantha">rve</hi>timaṅkalattu Irā<supplied reason="omitted">ca</supplied>ke
+<lb n="22" break="no"/>carivatikkuk kiḻakku tāmattuvāykkālukku vaṭakku
+<lb n="23" break="no"/>m Eḻāṅkaṇṇāṟṟu teṟki<unclear>l nilam</unclear> Iraṇṭu
+<lb n="24" break="no"/>māvaraiyil teṟkaṭaiya Iraṇṭu mākkāṇi
+<lb n="25"/>Iraṇṭu mākkāṇiyum
+<lb n="26" break="no"/>p pa<hi rend="grantha">nmāheśvara</hi>r ra<hi rend="grantha">kṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.328 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">165-166</citedRange>
+			<citedRange unit="item">328</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

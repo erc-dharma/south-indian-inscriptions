@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 23.151: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 151. (A.R. No. 151 of 1907.) Pūvālaikkuḍi, Tirumayam Taluk, Tiruchirappalli District Śiva temple—on the north wall of the Bhairava shrine Achyutarāya: Śaka 1454 (1532-33 A.D.) Khara, Tai, 8.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv23p0i0151</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is damaged and seems to record a grant of tax free land to the temple of Tiruppūvālaikkuḍi-uḍaiya-Nāyanār of Vaḍapaṟṟu by the <hi rend="italic">Ūravar</hi> of the <hi rend="italic">Paṟṟu.</hi> Reference is made to the checking of the revenue accounts by one Śemma-Nāyakkar who was having his camp at Tirupputtūr, and to the default in payment of the <hi rend="italic">iṟai</hi> on the part of a land-owner by name Piḷḷaimalai-Nāḍāḻvār. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śrī man</hi>mak<choice><sic>a</sic><corr>ā</corr></choice> makāmaṇṭalicura<hi rend="grantha">n</hi> Ariya Irāyavipāṭaṉ muvarāyakaṇṭaṉ kaṇṭa nāṭu koṇṭu
+<lb n="2"/>koṇṭanāṭu koṭātāṉ pūṟuvate<unclear>k</unclear>kaṇa paccimauttara camuttirā<supplied reason="omitted">ti</supplied> pati Irācairācaṉ Irācātirā
+<lb n="3" break="no"/>caṉ Irācaparamecuraṉ <hi rend="grantha">śrī</hi> virappiṟatāpa Emmaṇṭalamu<supplied reason="omitted">ṅ</supplied> koṇṭaruḷiya mārāya Accuttarāyaṟku cel
+<lb n="4" break="no"/>lāniṉṟa cakāttam <num value="1454"><g type="numeral">1000</g> 4 <g type="numeral">100</g> 5 <g type="numeral">10</g> 4</num> ṉmel cellāniṉṟa kaṟavaru<hi rend="grantha">ṣa</hi>m taimātam 8- tiyati poṉṉamarāpati
+<lb n="5" break="no"/>nāṭṭu vaṭapaṟṟu tiruppūvālaikkuṭi Uṭaiya nāyaṉār tiruttoṭṭam Āticaṇṭecuratevaka
+<lb n="6" break="no"/>nmikoyiṟ kaṇakkaṟku Innāṭṭu Ippaṟṟu matiyā <gap reason="lost" quantity="5" unit="character"/> vum yinta Ūrava rom kāṇi<unclear>āc</unclear>
+<lb n="7" break="no"/><unclear>ci</unclear> yiṟai<unclear>yāṟṟā</unclear>yiṟaiyili tevatāṉamākap piramāṇam paṇṇik kuṭutta paricāvatu ce<unclear>mma</unclear>
+<lb n="8" break="no"/>nāyakkarum tirupputtūrile Eḻuntaruḷiyiruntu Eṅkaḷ Ūrukkuk kaṭamai kāṇikkai E<unclear>ri</unclear>yil <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="9"/>pūṭṭukaiyiṉālum Eṅkaḷukkum yinta mutal yiṟukka Ekapokakuṭiyil <gap reason="lost" quantity="5" unit="character"/> tamum Ūrile <gap reason="lost" quantity="3" unit="character"/> Eṅkaḷur <unclear>k kāṇi</unclear>
+<lb n="10" break="no"/>yāḷaṉ piḷḷaimalai nāṭāḻvār Uḷḷiṭṭār yiṟaiyāṟṟāmal paṟṟi nāṭ <gap reason="lost" quantity="8" unit="character"/> kuṭiyil pokkupaṭṭār <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="11"/> <gap reason="lost" quantity="5" unit="character"/> m poṟukkai yilakkam yiṟukkaiyāṟṟātapaṭi Eṅkaḷ kāṇiyāṭciyāṉa paḷavayalppaṟṟukkup perunāṉ<unclear>ke</unclear>l
+<lb n="12" break="no"/>laiy<choice><sic>a</sic><corr>ā</corr></choice>vaṉa kiḻpāṟkkellai Iṉṉayiṉār tevatāṉap puṟavukkum cu<unclear>ṅka</unclear>t til puravukkum me<unclear>ṟkum</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+<p>The rest of the inscription consisting of 5 or 6 lines is badly damaged.</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 23.151 by <bibl><ptr target="bib:SrinivasaRao1979_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1979_01"/>
+			<citedRange unit="page">121-122</citedRange>
+			<citedRange unit="item">151</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

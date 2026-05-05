@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.130: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 130. (A.R. No. 639 of 1920.) ON A NANDI STONE SET UP IN FRONT OF THE TEMPLE OF RĀMALINGASVĀMI, CHILUMŪRU, TENALI TALUK, SAME DISTRICT. Ś. [1]075.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0130</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>States that <hi rend="bold">Muppa Nāganāyaka</hi> made a gift of land as emoluments to the <hi rend="italic">Sānis</hi> and the <hi rend="italic">Mānis</hi> as also for a perpetual lamp in the temple of Rāmīśvara of <hi rend="bold">Chunumūru</hi> and for feeding ten Brahmins in a <hi rend="italic">choultry</hi> in the said village. Mentions <hi rend="bold">Goṅkarāja</hi> of <hi rend="bold">Velanāṇḍu.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrīsakavaruṣaṁbulu 
+<lb n="2"/><unclear>1</unclear>075 sēṇṭi yuttarāyaṇasaṁ 
+<lb n="3" break="no"/>krāṁttinimittamuna śrī valanāṇṭi 
+<lb n="4"/>śrī goṁkkarājula pi <gap reason="lost" quantity="1" unit="character"/> sunu 
+<lb n="5" break="no"/>mūriraḍḍi muppanāganāyakuṇḍu 
+<lb n="6"/>daṇa taṁḍri muppamrānanāyakuna 
+<lb n="7" break="no"/>kuṁ dama talli <unclear>ro</unclear>ṁ<unclear>bbū</unclear>sāniki dha 
+<lb n="8" break="no"/>¨rmmaṁbugāṁ junumūri śrīrāmī 
+<lb n="9" break="no"/>śvara śrī mahādēvaraku navuṟū 
+<lb n="10" break="no"/>ri polamu Ēvuru sānulaku mā 
+<lb n="11" break="no"/>nikiṁ beṭṭi cunumūra niddaṟu sā 
+<lb n="12" break="no"/>nulakuṁ go Āṟudūmu nēla <unclear>ve</unclear> 
+<lb n="13" break="no"/>ṭi Akhaṁḍadīpamunaku <unclear>mā</unclear>ḍugela 
+<lb n="14"/> <gap reason="lost" quantity="1" unit="character"/> samunaṁ beṭṭa bīga 9 satramuna 
+<lb n="15" break="no"/>ku nitya paduṁḍru brāhmalaku 
+<lb n="16" break="no"/>ṁ junumūri polamunaṁ beṭṭina 
+<lb n="17"/>bhūmi kola na6 Ī da¨rmmu vācaṁ 
+<lb n="18" break="no"/>drā¨rkkamu <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.130 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">61</citedRange>
+			<citedRange unit="item">130</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

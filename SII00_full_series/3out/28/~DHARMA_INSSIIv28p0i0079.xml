@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 28.79: original edition by J. Sundaram</title>
+				<title type="alt">No. 79. (A.R. No. 77 of 1913.) TIRUCHCHEṄGĀṬṬĀṄGUḌI, NANNILAM TALUK, TANJAVUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv28p0i0079</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Uttarāpatīśvara temple, second <hi rend="italic">gōpuram,</hi> left of entrance.</p>						
+
+						<p><hi rend="bold">Parakēsarivarman Tribhuvanachchakravartti Rājēndra (III).</hi></p>						
+
+						<p>This damaged record is an interesting case. It gives a long list of the titles assumed by the king reflecting his achievements, in Sanskrit.</p>						
+
+						<p>It records the royal order granting 30 <hi rend="italic">vēlis</hi> of land as one bloc to be named as ••• karaṇa-vikrama-ch[ōḻa]-nallūr for the celebration of the festivals on the day of <hi rend="italic">Bharaṇi</hi> in the months of <hi rend="italic">Chittirai</hi> and <hi rend="italic">Arpaśi</hi> for God Uttarāpatī-nāyakar and for the services including the ceremonial daily waking up (<hi rend="italic">tiruveḻuchchi</hi> of another deity whose name seems to have been Kaṅgula-viḷaṅkeriḷandiāḍuvār (this is the reading of the name on the impression, though it is an obscure name) on the representation of Cheḻiyapiḷḷai who is referred to as our son <hi rend="italic">(nam magaṉ).</hi> The land was granted as <hi rend="italic">kuḍi-nīṅgā-dēvadāna</hi> (God's land where the cultivators were not removed but retained). </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:grantha maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <unclear>Uē</unclear> <gap reason="lost" quantity="4" unit="character"/> mātaṅgamastaka sthāpi śāsanam <supplied reason="undefined"><g type="danda">.</g></supplied> śrīman rā<unclear>jē</unclear>ndra</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">co</seg><hi rend="grantha">ḷasya parakēsariva</hi>
+<lb n="2" break="no"/><hi rend="grantha"><unclear>r</unclear>maṇa<unclear>ḥ</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied> svasti samasta jagadaikavirakhaṭgaika viravirarākṣasa vikhyātimaduttara <gap reason="lost" quantity="1" unit="character"/> </hi>
+<lb n="3"/><hi rend="grantha">laṅkārāma manukula samuddharaṇa pracaṇḍaraṇamukha sanmukha rājapracaṇḍamāru</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">taco</seg><hi rend="grantha">ḷaku</hi>
+<lb n="4" break="no"/><hi rend="grantha">la paribhava nirākaraṇa vikrama vikramacō<unclear>ḷa</unclear> dēva travaṣṣadhārita makuṭadvayarāja rājassa<unclear>rvvē</unclear>śyā</hi>
+<lb n="5" break="no"/><hi rend="grantha"><unclear>sandhānadhūrtta</unclear> pāṇḍya kēraḷa vijyamānacāmarayu gaḷa pāṇḍya maṇḍala luṇṭāka dvipāṇḍyamaṇi</hi>
+<lb n="6" break="no"/><hi rend="grantha">makuṭaśiraḥ khaṇḍanapaṇḍita maṇḍalāgra pāṇḍya maṇimakuṭa pīṭhapratiṣṭhita pādāra</hi>
+<lb n="7" break="no"/><hi rend="grantha"><unclear>vinda</unclear> kannāṭa rājakāla daṇḍamakarālaya <unclear>ma</unclear>jjita kali<unclear>ṅgavira</unclear> sōmiśvarakarāmukta pā<unclear>da</unclear></hi>
+<lb n="8" break="no"/><hi rend="grantha">virābharaṇa giridurggaḥ mallapaiṇa<unclear>v</unclear>āgamika bhayavidruta samasta <unclear>sāmanta</unclear> rakṣa<unclear>ṇa</unclear>dattābha</hi>
+<lb n="9" break="no"/><hi rend="grantha">yahasta gaṅ<unclear>gāgrāha</unclear>kacōḷa nāma purapārādhiśvara rājaparamēśvara <gap reason="lost" quantity="2" unit="character"/> ja parama māhēśvara rā</hi>
+<lb n="10" break="no"/><hi rend="grantha">ja nārāyaṇa <gap reason="lost" quantity="1" unit="character"/> sakalasamayasthāpaka vyāḷa ku</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ñja</seg><hi rend="grantha">m ramalva � <gap reason="lost" quantity="4" unit="character"/> mūharakṣaka sēnā</hi>
+<lb n="11" break="no"/><hi rend="grantha">pālana punarabhiyāta rājagāna vidyāvallabha prati <gap reason="lost" quantity="4" unit="character"/> dāvānala pratirāja</hi>
+<lb n="12" break="no"/><hi rend="grantha">gaja ryupantānna pratirāja hariṇadhārddūlē prati <gap reason="lost" quantity="5" unit="character"/> lya</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">vinaya</seg> <hi rend="grantha">vibhuṣaṇavyā</hi>
+<lb n="13"/><hi rend="grantha">ghra purakanaka sābhāpati divya śrīpādapiṭhārādhaka § tribhu <gap reason="lost" quantity="5" unit="character"/> tti� <gap reason="lost" quantity="6" unit="character"/> </hi>
+<lb n="14"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">yum Iruvar pāṇṭiyar muṭittalaiyu<unclear>m</unclear> <unclear>ko</unclear>ṇṭa <gap reason="lost" quantity="2" unit="character"/> <unclear>ri</unclear> rājara <gap reason="lost" quantity="2" unit="character"/> </seg> <hi rend="grantha">rā<unclear>ja</unclear> <gap reason="lost" quantity="1" unit="character"/> rapati<unclear>śrī</unclear> <gap reason="lost" quantity="3" unit="character"/> </hi> 
+<lb n="15" break="no"/><hi rend="grantha">cōḷa dē</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">var jeyamāṇikka vaḷanāṭa <gap reason="lost" quantity="3" unit="character"/> kālil tirucceṅkāṭṭaṅkuṭiyil Uṭai<unclear>yār kaṇa</unclear></seg>
+<lb n="16" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">pati</seg><hi rend="grantha">śva</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ramuṭaiyār koyil tāṉattār <gap reason="lost" quantity="2" unit="character"/> <unclear>Ikko</unclear>yi<unclear>l U</unclear>ṭaiyār Uttarāpati nāyakarkku cit</seg>
+<lb n="17" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tirai tirupparaṇikku<unclear>m</unclear> Aṟ <gap reason="lost" quantity="2" unit="character"/> tirupparaṇikkum Ik<unclear>koyil</unclear> nāyaṉār kaṅkula viḷaṅ<unclear>keri</unclear>ḷa</seg>
+<lb n="18" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ntiyāṭu nāyaṉār tiruveḻu<unclear>cci</unclear> Uṭpaṭṭa tevaikaḷukkum I <gap reason="lost" quantity="2" unit="character"/> <unclear>ṭṭu</unclear>pputtāṟāṉa kulottuṅka</seg>
+<lb n="19" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">coḻaper<unclear>ā</unclear>ṟṟukku teṟ<unclear>k</unclear>ku teṉṉavaṉ Upāti<unclear>kuṭi</unclear> pottakappaṭi nilam muppatiṟṟu ve</seg>
+<lb n="20" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">liyum kuṭinīṅkā tevatāṉamāka taraveṇumeṉ<unclear>ṟu</unclear> nam makaṉ ceḻiya piḷḷai nama<unclear>k</unclear>kucco<unclear>l</unclear></seg>
+<lb n="21" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">lukaiyil nam makaṉ <unclear>ceḻiya</unclear> piḷḷaikku</seg> <hi rend="grantha">Ā</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">yu<unclear>ṣa</unclear> <gap reason="lost" quantity="4" unit="character"/> </seg>
+<lb n="22"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"> <gap reason="lost" quantity="5" unit="character"/> co <gap reason="lost" quantity="1" unit="character"/> ku <gap reason="lost" quantity="4" unit="character"/> <unclear>ka</unclear>karaṇa</seg> <hi rend="grantha">vikra</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ma c<unclear>oḻa</unclear>nallūreṉṟu <unclear>ni</unclear> <gap reason="lost" quantity="5" unit="character"/> <unclear>Ivvū</unclear>r nilam <gap reason="lost" quantity="2" unit="character"/> </seg>
+<lb n="23"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ppatiṟṟu veliyum Ikkoyi <gap reason="lost" quantity="3" unit="character"/> Uṭaiyār Uttarāpati nāyakarkku cittirait tirupparaṇikkum <unclear>Aṟpaci</unclear>t tiruparaṇik</seg>
+<lb n="24" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><unclear>kum</unclear> nāyaṉār kaṅkula viḷaṅkeri<unclear>ḷanti Āṭu</unclear>vār tiruveḻucci Uṭpaṭṭa tevaikaḷukkum <unclear>kuṭinīṅk</unclear>ā teva <gap reason="lost" quantity="1" unit="character"/> </seg>
+<lb n="25"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tāṉamāka p<unclear>eṟuva</unclear>tāka Ip<unclear>paṟṟuk</unclear> kaṇak<unclear>kuppaṭi</unclear> Iṭṭu<unclear>k ko</unclear>ḷvatā <gap reason="lost" quantity="5" unit="character"/> lārkkum varikkūṟu ce</seg>
+<lb n="26"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">yvārkaḷukkum coṉṉom Ippaṭi <gap reason="lost" quantity="6" unit="character"/> yap paṇṇuka §</seg>
+<lb n="27"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"> <gap reason="lost" quantity="11" unit="character"/> </seg>
+<lb n="28"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"> <gap reason="lost" quantity="10" unit="character"/> § Ivai muven <gap reason="lost" quantity="3" unit="character"/> </seg>
+<lb n="29"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"> <gap reason="lost" quantity="10" unit="character"/> larāyaṉ</seg> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 28.79 by <bibl><ptr target="bib:Sundaram2010_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sundaram2010_01"/>
+			<citedRange unit="page">133-135</citedRange>
+			<citedRange unit="item">79</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

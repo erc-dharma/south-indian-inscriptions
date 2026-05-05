@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.244: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 244. (A.R. No. 576 of 1925.) ON A NANDI PILLAR SET UP NEAR THE DHVAJASTAMBHA IN THE TEMPLE OF RĀMALINGĒŚVARA AT THE SAME VILLAGE. Ś. 1127.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0244</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>States that a certain <hi rend="bold">Kēti Seṭṭi</hi> made a gift of 12 <hi rend="italic">Gōkana-gadyānas</hi> for a perpetual lamp in the temple of Rāmēśvara-Mahādēva of <hi rend="bold">Vēlpunūru.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śakava¨rṣaṁbulu 1127 
+<lb n="2" break="no"/>gu nēṁṭṭi kā¨rttikaśuddha 15 yu 
+<lb n="3"/>sōmavāramunaṁ dolukula 
+<lb n="4"/>nāgiseṭṭi koḍuku gētiseṭṭi 
+<lb n="5"/>dama tallidaṁḍrulaku dha¨rmmā 
+<lb n="6" break="no"/>¨rtthamugā vēlpunūri śrīrā 
+<lb n="7" break="no"/>mēśvaramahādēvaraku <unclear>nā</unclear> 
+<lb n="8" break="no"/>caṁdrā¨rka makhaṁḍava¨rttidīpa 
+<lb n="9"/>nakuṁ beṭṭina gōkana gā2 
+<lb n="10"/>vīniṁ jēkoni mārebōyuṁ 
+<lb n="11" break="no"/>ḍu dana putrānupautrikamu ni 
+<lb n="12" break="no"/>tya māneṁḍu neyi vōyaṁ gga 
+<lb n="13" break="no"/>lavāṁḍu 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.244 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">124</citedRange>
+			<citedRange unit="item">244</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

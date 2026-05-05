@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.351: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 351. (A.R. No. B 471 of 1940-41.) Niḍadavōlu, Nidadavolu Taluk, West Godavari District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0351</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Pillar lying infront of the Madanagōpālaśvāmi temple.</p>						
+
+						<p>This is dated in <hi rend="bold">Śaka 1199</hi> and other details are not known. It may be correspond to 1277 A.D.</p>						
+
+						<p>Damaged. It seems to be a grant of land by Pubbaya of Niravadyaprōlu to Dēvebōya for ghee for a perpetual lamp in the temple of Mahādēva, stipulating an annual payment of one <hi rend="italic">Vaṁśavarddhana gadya</hi> and two <hi rend="italic">chinnas,</hi> probably as interest by the done.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<!--<h4>First Face.</h4>-->
+
+<p>
+<lb n="1"/>śrī śakava¨rṣaṁbulu 1199 nē 
+<lb n="2" break="no"/>ṁṭi nira<unclear>vadya</unclear>prōli pu 
+<lb n="3" break="no"/>bbaya <gap reason="lost" quantity="3" unit="character"/> lu ma 
+<lb n="4" break="no"/>hadēva <gap reason="lost" quantity="3" unit="character"/> ku Akha 
+<lb n="5" break="no"/>nḍadīpa <gap reason="lost" quantity="3" unit="character"/> prōlabō<unclear>ya</unclear> 
+<lb n="6" break="no"/>nikoḍku <unclear>dēvabōya</unclear>ni va 
+<lb n="7"/>samunaṁ <gap reason="lost" quantity="5" unit="character"/> ru 
+<lb n="8"/><g type="ddanda">.</g> 0 nimnapuṁ bolamulōna 
+<lb n="9"/>sēnu kha 1 
+</p>
+
+<!--<h4>Second Face.</h4>-->
+
+<p>
+<lb n="10"/>dīniki Eṁṭānu vaṁśa 
+<lb n="11"/>va¨rddana gaddya 2 Ā cu 
+<lb n="12"/>vāru Ācaṁdrākka <g type="ddanda">.</g> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.351 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">291-292</citedRange>
+			<citedRange unit="item">351</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

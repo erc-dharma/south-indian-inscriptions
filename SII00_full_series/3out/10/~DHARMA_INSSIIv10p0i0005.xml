@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.5: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 5. (A.R. No. 707 of 1920.) ON A PILLAR IN THE TEMPLE OF ANANTABHŌGĒŚVARA, KOLLŪRU, TENALI TALUK, SAME DISTRICT. 18th year of Rājarāja.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0005</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Records the gift of 7 <hi rend="italic">rūka-māḍas</hi> by <hi rend="bold">Bummana,</hi> son of <hi rend="bold">Māviseṭṭi</hi> and <hi rend="bold">Kosana-Sāni</hi> for a perpetual lamp in the temple of Anantīśvaramahādēva of <hi rend="bold">Kollūru.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrīśakava¨rṣaṁbulu 1087 <gap reason="lost" quantity="2" unit="character"/> rāja<note n="3-1">See Appendix II.</note>
+<lb n="2" break="no"/>rājadēvara vijayarājyasaṁvatsaraṁbu 
+<lb n="3" break="no"/>lu 18 śrāhi caitra nu¨rddha sōmavārāna kollū 
+<lb n="4" break="no"/>ri [Ana]ṁtīśvaramahādēvaraku niṁdali <unclear>sā</unclear>ni 
+<lb n="5"/>ko<unclear>ḍku</unclear> bummana tama taṁḍri māviseṭṭiki 
+<lb n="6"/>talli kosanasāniki dha¨rmmuvu kanagaḍaṁvattidī 
+<lb n="7" break="no"/>pamunaku peṭṭina rūkamāḍalu 7 pa <gap reason="lost" quantity="1" unit="character"/> vīniṁ jēkoni 
+<lb n="8"/>yiṁdali mānulu sānulu naḍapaṁgalavāru 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.5 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">3</citedRange>
+			<citedRange unit="item">5</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

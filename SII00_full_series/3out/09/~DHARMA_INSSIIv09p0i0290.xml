@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.290: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 290. (A.R. No. 728 of 1919.) ON A BROKEN SLAB LYING NEAR THE ANJANEYASVAMI TEMPLE IN KURUVATTI, HARAPANAHALLI TALUK, SAME DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0290</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This consists of two parts and is much damaged. Its date is lost but it refers itself to the reign of the Chāḷukya king <hi rend="bold">Tribhuvanamalladēva</hi> and mentions his subordinate <hi rend="italic">Mahāmaṇḍalesvara</hi> <hi rend="bold">Śaṅkaradēva.</hi> From the second part it appears that a gift of land was made.</p>						
+
+						<p>First Piece.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>śrīmatuparamagāṁbhīrasyā
+<lb n="2" break="no"/>dduvādāmōghalāṁchanaṁ jīyā
+<lb n="3" break="no"/>ttraiḷōkadē<supplied reason="omitted">va</supplied>sya sāsanaṁ jina <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="4"/>© svasti samastabhuvanāśrayaṁ śrīpṟithvīva <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="5"/>mahārājādhirājaṁ paramēśvara paramabha <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="6"/>śrayakuḷatikaḷaṁ cāḷukyābharaṇaṁ <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="7"/>vanamalladēvara vijayarājyamuttarōtta <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="8"/>rddhamānamācaṁdrārkkatāraṁba<supplied reason="omitted">raṁ</supplied> salisuttami <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="9"/>rada nelevīḍinoḷu sukhasaṁkathāvi <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="10"/>ttami<supplied reason="omitted">ra</supplied>lu <g type="ddanda">.</g> tatpādapadmōpajīvi samastapra <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="11"/>maṁḍaḷēśvaraṁ śaṁkaradēva śrīmaccā <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="12"/>tāraṇasaṁvatsareda vaiśākha <gap reason="lost" quantity="2" unit="character"/> <note n="310-1">Some more lines are broken away.</note>
+</p>
+
+<!--<h4>Second Piece.</h4>-->
+
+<p>
+<lb n="1"/>yarāya biṭṭa <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="2"/>ttanālvattanālgēṇa
+<lb n="3"/>ghaḷeyalu bi
+<lb n="4" break="no"/>ṭṭa kariyanelaṁ matta
+<lb n="5" break="no"/>rāṟu 6 kuṟu
+<lb n="6" break="no"/>haḷiya haḍuvavo
+<lb n="7" break="no"/>ladalu biṭṭa kariyama
+<lb n="8" break="no"/>ttarāṟu 6 tōṁṭaṁ voṁdu
+<lb n="9"/>kisumattaroṁdu gā
+<lb n="10" break="no"/>ṇavoṁdu maneyanivēśaṇa voṁdu
+<lb n="11"/>Eṟakeṟayalu
+<lb n="12"/> <gap reason="lost" quantity="1" unit="character"/> dde kamma nūṟu
+<lb n="13"/> <gap reason="lost" quantity="2" unit="character"/> ṟu kereyalu
+<lb n="14"/> <gap reason="lost" quantity="2" unit="character"/> kamma <gap reason="lost" quantity="2" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.290 by <bibl><ptr target="bib:Shama+Rao1939_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shama+Rao1939_01"/>
+			<citedRange unit="page">309-310</citedRange>
+			<citedRange unit="item">290</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

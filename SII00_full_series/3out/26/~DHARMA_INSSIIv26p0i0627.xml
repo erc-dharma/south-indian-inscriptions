@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 26.627: original edition by P. R. Srinivasan</title>
+				<title type="alt">No. 627.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv26p0i0627</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						<p>On a stone set up near the well in the Śiva temple.</p>						
+
+						<p><hi rend="bold">Śaka 1457, Pārttiva, Kārttika ba. 7, Thursday = Irregular.</hi></p>						
+
+						<p>It records that Kṛishṇamarāju of •• tsarikoṇḍa dug out a well and conse crated the same in the temple of Kāḷēśvara, for the merit of his father Timmarāju and mother Veṁkaṁma. The donor is described as the servant of god Amarachaṇḍēśvara.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>śrī śakava¨rṣaṁ
+<lb n="2" break="no"/>bulu 1457 Āgu
+<lb n="3" break="no"/>pā¨rdhiva saṁvatsara kā¨rttika
+<lb n="4"/>ba 7 gu <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrī Ama
+<lb n="5" break="no"/>ra caṁḍēśvara Ādi
+<lb n="6"/> <gap reason="lost" quantity="1" unit="character"/> <unclear>vā</unclear>vatāra baṭa
+<lb n="7"/>janabāṁdhavulaina baṭṭu
+<lb n="8"/> <gap reason="lost" quantity="2" unit="character"/> tsarikoṁḍa kriṣṇamarā
+<lb n="9" break="no"/>ju<unclear>ṁ</unclear>gāru tama taṁḍri ti
+<lb n="10" break="no"/><unclear>mma</unclear>rājugārikiṁnni tama ta
+<lb n="11"/>lli <unclear>veṁka</unclear>ṁmmakuṁnu pu
+<lb n="12" break="no"/>ṇyamugānu kāḷēśvara
+<lb n="13" break="no"/>liṁgamu saṁnnidhini Ina
+<lb n="14"/><unclear>ḍi</unclear>bāvi traviṁci pratiṣṭha
+<lb n="15"/>cēśenu <gap reason="lost" quantity="1" unit="character"/> tsarikoṁḍa vaṁśa vu
+<lb n="16"/> <gap reason="lost" quantity="1" unit="character"/> kini <gap reason="lost" quantity="3" unit="character"/> ruhavairi mā
+<lb n="17"/> <gap reason="lost" quantity="5" unit="character"/> laṁdun <g type="danda">.</g> <gap reason="lost" quantity="1" unit="character"/> rasu
+<lb n="18"/> <gap reason="lost" quantity="5" unit="character"/> piṁnna kriṣṇama
+<lb n="19"/> <gap reason="lost" quantity="3" unit="character"/> <unclear>ka</unclear>ṁdana tiṁmarā
+<lb n="20"/>ja va¨rdhilu kī¨rttin <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 26.627 by <bibl><ptr target="bib:Srinivasan1990_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Srinivasan1990_01"/>
+			<citedRange unit="page">427</citedRange>
+			<citedRange unit="item">627</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

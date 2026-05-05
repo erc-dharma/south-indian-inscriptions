@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.431: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 431. (A.R. No. 246 of 1911.) KUMBHAKŌṆAM, KUMBHAKONAM TALUK, TANJAVUR DISTRICT. ON THE WEST AND SOUTH WALLS OF THE CENTRAL SHRINE, NĀGĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0431</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is damaged in places and incomplete. It is bilingual and records a gift of 20 gold coins to the temple of Tirukkīḻkōṭṭattu-Bhaṭṭāraka by <hi rend="bold">Kāchchuvaṉ</hi> (Kāśyapan) <hi rend="bold">Danapati Araṅgaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Pañchavaṉ•••• the headman of Karuvūr</hi> in Miḻalaikkūṟṟam. This may be assigned to <hi rend="bold">Parāntaka I</hi> on account of the early writing and the high regnal year given for the king.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:grantha maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> jvālācakra<unclear>ni</unclear>rundha santata <gap reason="lost" quantity="2" unit="character"/> pūram dū <gap reason="lost" quantity="4" unit="character"/> </hi>
+<lb n="2"/><hi rend="grantha">pantāmuma<unclear>yā sthit</unclear>āya tutī <gap reason="lost" quantity="2" unit="character"/> kōṭṭa dhāmnyatbhutē niṣkā<unclear>ṇā</unclear> <gap reason="lost" quantity="6" unit="character"/> </hi>
+<lb n="3"/><hi rend="grantha">viṁśatirmmalā tailamūlyam pra<unclear>bhuḥ</unclear> prādā dandhakaśatravē sthiramatiḥ śrīraṅganā<unclear>mā</unclear></hi>
+<lb n="4"/><hi rend="grantha">yugam <g type="ddanda">.</g><g type="dashLong">.</g>śrī kōpara</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">kecaripanmaṟkku yāṇṭu</seg> <hi rend="grantha">28</hi>- <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">vatu Ivvāṇṭai kārttikai</seg>
+<lb n="5"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tiṅkaḷ tirukkiḻkoṭṭattu</seg><hi rend="grantha">bha</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṭārakarkku miḻilaikkūṟṟattu</seg>
+<lb n="6"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">karuvūr kiḻā<supplied reason="omitted">ṉ</supplied> kāccuvaṉ taṉapati Araṅkaṉākiya pañcavaṉ</seg>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.431 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">224</citedRange>
+			<citedRange unit="item">431</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

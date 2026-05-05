@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.83: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 83. (A.R. No. 728 of 1920.) ON A PILLAR IN THE MAṆḌAPA OF THE TEMPLE OF SŌMĒŚVARA, JUTTIGA, TANUKU TALUK, WEST GODAVARI DISTRICT. Ś. 1047.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0083</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>States that <hi rend="bold">Kolaniya Kettu-Gaṇḍa</hi> made a gift for the upkeep of a perpetual lamp in the temple of Vāsukiravi-Sōmīśvara of <hi rend="bold">Duttika.</hi> The gift is of <hi rend="italic">manniya-tīṟu</hi> which seems to be a local tax.</p>						
+
+						<p>First Face.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti sakava¨rṣaṁbulu 1047 
+<lb n="2"/>nēṇḍi makaramāsamuna griṣna 
+<lb n="3"/>yēkādaśiyu sukravāra 
+<lb n="4" break="no"/>mu nāṇḍu śrīmanmahāmaṇḍalē 
+<lb n="5" break="no"/>śvara kolaniyakettugaṇḍaṇḍu 
+<lb n="6"/>ḍuttikavāsukiravisōmīśva 
+<lb n="7" break="no"/>ramahādēvaraku nilipina 
+<lb n="8"/>Akhaṇḍavattidīpamunaku ni 
+<lb n="9" break="no"/>ṁdula manniyatīṟupayiḍ<unclear>li</unclear> yā 
+<lb n="10" break="no"/>caṁdrā¨rkamu niccitimi dīniṁ jēko 
+<lb n="11" break="no"/>ni yiṁdula sānimunnūṟuvuru 
+<lb n="12"/><unclear>ni</unclear>tyamummaḍibhīma 
+<lb n="13"/>mānika māneṁḍu neyi vōya 
+<lb n="14" break="no"/>ṁgalavāru 
+</p>
+
+<!--<h4>Second Face.</h4>-->
+
+<p>
+<lb n="15"/>kolanu yē 
+<lb n="16" break="no"/>vārēlirēni yiṁdu 
+<lb n="17" break="no"/>la manniyatīṟu 
+<lb n="18"/>yīdīpamunaku 
+<lb n="19"/>sariṁpaṁgalavāru 
+<lb n="20"/>dīni<unclear>ki</unclear> vighnamu sē 
+<lb n="21" break="no"/>sinavāru gaṁga 
+<lb n="22"/> <gap reason="lost" quantity="1" unit="character"/> kaṟuta kavalala 
+<lb n="23"/>jaṁpinavāru bha 
+<lb n="24" break="no"/>ranāsi pracinavā 
+<lb n="25" break="no"/>ru pe<unclear>dda</unclear>koḍuku kāpa 
+<lb n="26" break="no"/>lamuna guḍicina<unclear>vāru</unclear> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.83 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">35</citedRange>
+			<citedRange unit="item">83</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

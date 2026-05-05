@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 40.332: original edition by K. Munirathnam</title>
+				<title type="alt">No. 332. (A.R. No. B. 381 of 1933.) Sālevāri-Uppalapāḍu, Jammalamadugu Taluk, Cuddapah District, Andhra Pradesh. </title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv40p0i0332</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On two pieces of a broken stone lying near the Rāmasvāmi temple.</p>						
+
+						<p>This is dated Śrāvaṇa, śu. 1, Monday.</p>						
+
+						<p>Damaged. Registers the gift of land made as <hi rend="italic">nūtimānya</hi> by Pōlēpalli Bū • • • • • dēva-Mahārāja to Ayya Reḍḍi, son of Kaḍapa Anni-Reḍḍi.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="3"/> <gap reason="lost" quantity="10" unit="character"/> vatsara śrāvaṇa śu 1 sō <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="3" unit="character"/> ṁmahāmaṁḍalēsvara pōlēpalli bu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="5"/>va mahārājulu kaḍpa Aṁnireḍi koḍku Ayyareḍi 
+<lb n="6"/>yicina nūti mānyapu paṭṭa kramameṭlaṁnanu 
+<lb n="7"/>Uppalapāṭi grāmā <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="8"/>ḍi kālāna mīru mā <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="9"/>tovina nīḷu Aruvāru Uṁḍagānu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="10"/> <gap reason="lost" quantity="5" unit="character"/> muvuru <gap reason="lost" quantity="3" unit="character"/> nā <gap reason="lost" quantity="10" unit="character"/> vāru 
+<lb n="11"/> <gap reason="lost" quantity="1" unit="character"/> Uṁḍagānu AnūI <gap reason="lost" quantity="10" unit="character"/> varipaḍi <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="12"/>Iccina <unclear>ni</unclear>mityaṁ <gap reason="lost" quantity="10" unit="character"/> māna <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="13"/> <gap reason="lost" quantity="10" unit="character"/> na māvurācenavuttara <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="14"/>yidduṁ cēnu <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="15-16"/><ce>lines are damaged</ce>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 40.332 by <bibl><ptr target="bib:Munirathnam2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2019_01"/>
+			<citedRange unit="page">305-306</citedRange>
+			<citedRange unit="item">332</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

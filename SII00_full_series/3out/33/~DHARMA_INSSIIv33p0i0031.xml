@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 33.31: original edition by K. Munirathnam and T. S. Ravishankar</title>
+				<title type="alt">No. 31. (A.R. No. 137 of 1946.) Nandipalle, Pulivendla Taluk, Cuddapah District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv33p0i0031</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab lying near Nandibāvi about half a mile away from the village.</p>						
+
+						<p>Kṛishṇarāya, 1516 A.D.</p>						
+
+						<p>This is dated in <hi rend="bold">Śaka 1438, Dhātu, Adhika-Śrāvaṇa 15.</hi> Corresponding to <hi rend="bold">1516 A.D.</hi> Two dates <hi rend="bold">July 13 Sunday</hi> and <hi rend="bold">July 29 Tuesday</hi> as the week day not given.</p>						
+
+						<p>Records a gift of land by Gōvindayya, son of Nāchirājayya and Śaṅku Mallayya, son of Sūlada Mallikhārjuna Oḍeya. The land is stated to have been granted to the donors by the king.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrī jayābhudaya śālivāhana śaka 
+<lb n="2" break="no"/>varuṣaṁbulu 1438 Agunēṭi dhātu saṁvatsara Adika 
+<lb n="3"/>śrāvaṇa 15 śrīmatu <gap reason="lost" quantity="2" unit="character"/> ṁ viśvagōtra A 
+<lb n="4" break="no"/>pasdhaṁbasūtraṁ yajuśākhādhyāyulaina nā 
+<lb n="5" break="no"/>cirājayya gāri koḍūku dunūḷava gōviṁ 
+<lb n="6" break="no"/>dayyagāru śrīsūlada mallikhā¨rjuna vo 
+<lb n="7" break="no"/>ḍayala koḍuku saṁkkumallayyaru yī 
+<lb n="8" break="no"/>ccina bhūdāna dha¨rmmaśāsana krama meṭla 
+<lb n="9" break="no"/>nnanu māku naḍama kota mahārājā 
+<lb n="10" break="no"/>dhirāja rājaparamēśvara śrī 
+<lb n="11"/>śrī vīrakriṣṇarāya mahārāyalu pāliṁ 
+<lb n="12"/>ccina nāyaṁkārāna jellē <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="13-14"/><ce>lines are damaged</ce>
+<lb n="15"/>vīnini tuṁgabādra tīrānanu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="16"/> <gap reason="lost" quantity="1" unit="character"/> dāna dhārāpūrvakaṁga dhāravōśiyiccina 
+<lb n="17"/>belaviṁśvamānyaṁ 20 <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g> 
+<lb n="18-19"/><ce>lines are damaged</ce>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 33.31 by <bibl><ptr target="bib:Munirathnam2013_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2013_01"/>
+			<citedRange unit="page">21-22</citedRange>
+			<citedRange unit="item">31</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

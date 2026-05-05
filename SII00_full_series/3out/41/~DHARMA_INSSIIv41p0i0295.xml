@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 41.295: original edition by S. Rajagopal</title>
+				<title type="alt">No. 295. (A.R. No. 511 of 1905.) Kannanūr, Tiruchirappalli Taluk, Tiruchirappalli District. On the right of entrance of the gōpurā in the Bhōjēśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv41p0i0295</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Vijayanagara Krishnadēva-Mahārāya, Śaka 1439, Īśvara = 1517 A.D.</hi></p>						
+
+						<p>This is a general order of the king remitting the taxes <hi rend="italic">chōḍi (jōḍi), sūlavari, arasupēṟu</hi>, etc. on the dēvadāna villages of all Śiva and Vishṇu temples (mentioned by their names) in Chōḻa-maṇḍalam for worship and renovation of those temples. After his expedition against the Gajapati king, he is said to have made the grant which amounted to a total sum of 10,000 <hi rend="italic">pon.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śubhamastu <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīga</hi>ṇāti<hi rend="grantha">bha</hi>taye(ṇ) na<hi rend="grantha">m(ā) <gap reason="lost" quantity="5" unit="character"/> namastuṅ</hi>ka cira<supplied reason="omitted">c</supplied>tumpi(ta) cantira cāmaracārave <supplied reason="undefined"><g type="danda">.</g></supplied> <hi rend="grantha">tr</hi>ai 
+<lb n="2" break="no"/><hi rend="grantha">lo</hi>kkiya nakar<choice><sic>a</sic><corr>ā</corr></choice>rampa mulas<supplied reason="omitted">ta</supplied>mpāya ca<hi rend="grantha">mbha</hi>ve<hi rend="grantha"> <supplied reason="undefined"><g type="ddanda">.</g></supplied>śu</hi>pa<hi rend="grantha">ma<unclear>stu</unclear> <unclear>susa</unclear></hi>vicayāṟputa<supplied reason="omitted">ya</supplied> cāṟu<note n="320-1">Read cāli,</note>vākaṉa caka
+<lb n="3"/>varuḻa<hi rend="grantha">m <num value="1439"><g type="numeral">1000</g> 4 <g type="numeral">100</g> 3 <g type="numeral">10</g> 9</num> me</hi>l cellāniṉṟa Icuvara <hi rend="grantha">sa</hi>ṅvaṟ(ṟa)<supplied reason="omitted">ca</supplied>rattu pavayoka catpūṉṟamai<note n="320-2">Read pūṟṉamai,</note>
+<lb n="4"/>yile <hi rend="grantha">śrīma</hi>ṉ <hi rend="grantha">ma</hi>k<choice><sic>a</sic><corr>ā</corr></choice>rāc<supplied reason="omitted">āti</supplied>rāca Irācaparameccura Ariyarā<supplied reason="omitted">ya</supplied>vi(p)pāṭa pā<hi rend="grantha">ṣai</hi>kkut tappuvarāya
+<lb n="5" break="no"/>r kaṇṭa muvvarā<supplied reason="omitted">yar</supplied> kaṇṭa Aṭṭatikku Irāyamaṉopayaṅkara yavaṉarā
+<lb n="6" break="no"/>cattāpaṉācāri<supplied reason="omitted">ya</supplied> piṟatāpa Urittira kecapati cattāṅka [<hi rend="grantha">ha</hi>ru*]ṇa <hi rend="grantha">śrī</hi> virappiṟa
+<lb n="7" break="no"/>tāpa virakiṣṇa teva<hi rend="grantha">ma</hi>kārāyar coḻamaṇṭala viṣṭṭu
+<lb n="8" break="no"/>ṇutāṉam civatāṉam mutalāṉa teyvvattāṉaṅkaḷil coṭi
+<lb n="9"/>cūlavari Aracupeṟu piṟavari Uṇṭ<unclear>ā</unclear>ṉa yell<supplied reason="omitted">ām</supplied>caṟuvamāṉṉiyammā
+<lb n="10" break="no"/>ka tiruuḷampaṟṟiṉa taṉmacātaṉam Irāyatam nām vicaiyānakarattilum
+<lb n="11"/>pūṟuvamukamāka Utaiyā<supplied reason="omitted">tiri</supplied>kkuyeḻuntaruḷi Utaiyakiri tuṟkkamum cātittu tiru
+<lb n="12" break="no"/>malairāyarākuttaṉaiyum piṭittuk koṇṭu viṉikkoṇṭai nākā
+<lb n="13" break="no"/>ccuṉa koṇṭai koṇṭaviṭu koṇṭapaḷ<unclear>ḷi</unclear>rācama<hi rend="grantha">he</hi>ṉ
+<lb n="14" break="no"/>tarapuram mutalāṉa tuṟka<supplied reason="omitted">ṅ</supplied>kaḷum vāṅkikoṇṭu <hi rend="grantha">pra</hi>tāparuttira<hi rend="grantha">gaja</hi>pa
+<lb n="15" break="no"/>tikum<choice><sic>a</sic><corr>ā</corr></choice>raṉ virapaṟṟira<note n="320-3">Read vīrapattira,</note>ceṉaṉaiyum <hi rend="grantha">pri</hi>tāparu(tu)<hi rend="grantha">tra gaja</hi>pati<hi rend="grantha">pri</hi>tāni pūpati
+<lb n="16" break="no"/><hi rend="grantha">pri</hi>kalātaṉ <hi rend="grantha">śi</hi>racantiraṉ mallukāṉu Uttaṇṭakāṉu mutalāṉa
+<lb n="17"/>pāṟṟira<note n="320-4">Read pāttira,</note>cāmantararaiyum <unclear>civa</unclear>kkiṟamattilE piṭittukoṇṭu piṟatāparuttira
+<lb n="18"/><hi rend="grantha">gaja</hi>patiyaiyum muṟiyaveṭṭi <unclear>ci</unclear>m<hi rend="grantha">ha</hi> t<choice><sic>a</sic><corr>ā</corr></choice>ttikirikku Eḻuntaruḷi poṭṭuṉūrile
+<lb n="19"/>tekkatampamum<note n="320-5">Read <hi rend="grantha">ja</hi>yastampamum,</note>nāṭṭivittu coḻamaṇṭalam teva<hi rend="grantha">sta</hi>(ta)āṉam tiruccillāppaḷḷi
+<lb n="20" break="no"/>ccimai vaṭakarai Irācairācavaḷanāṭṭu maḻanāṭṭu pāccil kūṟṟattu kiḻp(ā)lāṟṟu kaṇṇa
+<lb n="21" break="no"/>ṉūr nāyaṉār pocalicuramuṭaiya nāyaṉār koyil coṭi cūlavari piṟavari Aracuppeṟu
+<lb n="22"/>Uṭpaṭavum tirumaḻapāṭi vallam tañcāvūr tiruppūnturutti tiruvaiyāṟu tiruvaḻuntur
+<lb n="23"/>Irācurampāḷaiyam tiruvāñciyam tirupukalū<unclear>r</unclear> paḻuvūr pantaṇanallū<supplied reason="omitted">r</supplied> tiruppaṉaintāḷ tirunakari tiru<unclear>ṉā</unclear>ṅkūr
+<lb n="24"/>tāṭāḷaṉko<supplied reason="omitted">yi</supplied>l cikāḻi mutalāṉa Iraṇṭāṟṟu paṟṟu cirmai puvaṉa<unclear>kiri</unclear> paṭṭaṇaccirmai Irācuraccirmai tañcā<unclear>vūr</unclear> 
+<lb n="25" break="no"/>cimai viramaṭakkupaṭṭuccirmai tiruc <gap reason="lost" quantity="2" unit="character"/> cimai vaḻuttū<supplied reason="omitted">r</supplied> cimai pulipiṟampur cīmai kuḻittaṇṭalai cimai <unclear>Uṭ</unclear>paṭṭa viṭṭuṉatāṉam civatāṉaṅ
+<lb n="26"/>kaḷil pūṟuvam mutallāka Aramaṉaikku Iṟuttuvarukiṟa patiṉāyiram poṉ Anta Anta tevvattāṉaṅkaḷukkum <unclear>caṅrānti pu</unclear>
+<lb n="27" break="no"/>ṇṇiyakālattile kiṭṇavaṇai natitiṟtattile Uṇṭaivalli Aṉantacāyi teva<unclear>ri</unclear>ṭai mallu<unclear>kāca</unclear>ṉateva <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="28"/>pūṟuvammā<supplied reason="omitted">ka</supplied> caṟuvamāṉiyammāka viṭṭu tammacātaṉa Irāyacamum tiruviḷampaṟṟiṉa Irāya<hi rend="grantha">sa</hi> piṟamā
+<lb n="29" break="no"/>ṉaṅkaḷilum cilācātaṉamum Eḻutivittu pūcai puṉaṟkkāram Aṅkaraṅka vaipokam tiruppaṇikaḷum cāṅkaṭaṅka(m)māka naṭattivi<unclear>ttu</unclear> koṇṭu cuka
+<lb n="30" break="no"/>ttile Irukkavum Inta tammattukku Atikam niṉaivaṉ<note n="321-6">Read atitam niṉaipavaṉ,</note>taṅkaḷ tāyār takappaṉāraiyum kopiṟāmaṇar<unclear>ai</unclear>yum vāraṇāciyi<hi rend="grantha">le</hi>koṉṟa pāvattile pokakkaṭavi
+<lb n="31" break="no"/><unclear>vāṉā</unclear>kavum <hi rend="grantha">sama</hi>tā<hi rend="grantha">di</hi><note n="321-7">Read <hi rend="grantha">svada</hi>ttā<hi rend="grantha">didvam</hi></note> <hi rend="grantha">gu</hi>ṇa<hi rend="grantha">m puṇyapārada</hi>ttā<hi rend="grantha">n pāla</hi>na<hi rend="grantha">m <supplied reason="undefined"><g type="danda">.</g></supplied> parada</hi>ttā<hi rend="grantha">pahāre</hi>ṇa<hi rend="grantha"> svada</hi>ttā<hi rend="grantha">m niṣmalam bha</hi>ve<hi rend="grantha">t śrī<unclear>vi</unclear>rūpākṣa <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 41.295 by <bibl><ptr target="bib:Rajagopal2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Rajagopal2019_01"/>
+			<citedRange unit="page">319-321</citedRange>
+			<citedRange unit="item">295</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

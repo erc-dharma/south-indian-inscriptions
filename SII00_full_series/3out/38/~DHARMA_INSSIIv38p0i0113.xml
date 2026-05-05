@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.113: original edition by S. Swaminathan</title>
+				<title type="alt">No. 113. (A.R. No. B 113 of 1912.) TIRUVOṞṞIYŪR, SAIDAPET TALUK, CHINGLEPUT DISTRICT. On the west wall, central shrine, Ādhipurīśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0113</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">King: Rājarāja III Year 21: 1237 A.D.</hi></p>						
+
+						<p>Damaged at the end. It records the provision made for a full-length flowergarland and services at four <hi rend="italic">sandhis</hi> to god Tiruvoṟṟiyūr-nāyiṉār at Tiruvoṟṟiyūr in Puḻar-koṭṭam in Jayaṅgoṇḍachoḻa-maṇḍalam by Oṟṟi Araśan, son of Paiyyūrnāḍ-āḻvār Vaḷaiyamaḻagiyār. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tiripu<supplied reason="omitted">va</supplied>ṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>tevarkku yā<unclear>ṇ</unclear>
+<lb n="2" break="no"/>ṭu <num value="20">2 <g type="numeral">10</g></num>kaḷū <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻamaṇṭalattu puḻaṟko
+<lb n="3" break="no"/>ṭṭattu Uṭaiyār tiruvoṟṟiyūruṭaiya nāyaṉārkku paiyūr nā
+<lb n="4" break="no"/>ṭāmanvār<note n="100-1">Read as paiyūr nāṭāḻvār</note>vaḷaiyamaḻakiyār makaṉ Oṟṟi Aracaṉen Iṉṉāyaṉā<supplied reason="omitted">r</supplied>
+<lb n="5"/><supplied reason="omitted">ti</supplied>ṉappaṭi taṇṭaimālaikkum kālacantikaḷ paiyam<note n="100-2">Read as kālacantikaḷ upaiyam</note>
+<lb n="6"/>ṉālukkum taṇṭaiyan <gap reason="lost" quantity="3" unit="character"/> Itu <gap reason="lost" quantity="4" unit="character"/> taṇṭi
+<lb n="7"/>�tam <gap reason="lost" quantity="3" unit="character"/> ku cantirātittavaraikkum naṭakka kaṭavat<unclear>ākavu</unclear>
+<lb n="8" break="no"/>m yippaṭikku Ēṉāṉṉuṭai <gap reason="lost" quantity="2" unit="character"/> tarukava camaiyapiḷḷai
+<lb n="9"/> <gap reason="lost" quantity="5" unit="character"/> <hi rend="grantha">ṣau</hi>ṭaiyā<supplied reason="omitted">r</supplied>kup puṇṇiyamāka<hi rend="grantha">piṣe</hi><unclear>kam</unclear>
+<lb n="10"/><unclear>pa</unclear><hi rend="grantha">nmāhe</hi>ṉu<hi rend="grantha">rarakṣai</hi><note n="100-3">Read as pa<hi rend="grantha">nmāheśvararakṣai</hi></note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.113 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">99-100</citedRange>
+			<citedRange unit="item">113</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

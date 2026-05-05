@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 41.208: original edition by S. Rajagopal</title>
+				<title type="alt">No. 208. (A.R. No. 426 of 1905.) Puduppāḍi, Walaja Taluk, North Arcot District. On the north wall of the central shrine in the Bhāradvājeśvara temple at Puduppāḍi.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv41p0i0208</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Chōḻa, Vikrama-Chōḻadēva, Year 2 = 1120 A.D.</hi></p>						
+
+						<p>Damaged. Mentions burning a lamp at mahādēvar temple. Two individuals undertook to burn the lamp out of interest from one <hi rend="italic">kāsu</hi> that they received from some donor.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> vikkiramacoḻa tevaṟkku Iyāṇṭu nā<unclear>lā</unclear>vatu <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="2"/>ṭima<hi rend="grantha">hāde</hi>vaṟkku <hi rend="grantha">sa</hi>n=tiviḷakkuonṟu<supplied reason="omitted">kku</supplied>orukācu tiṅkaḷ kāl<unclear>ṟi</unclear>ramap policaiyāl <unclear>poli</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="3"/> <gap reason="lost" quantity="3" unit="character"/> tiraiyanen <unclear>ku</unclear>ṭutta kācu Oṉṟum kaikkoṇṭu Ippoli<unclear>ū</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="4"/>tittum <hi rend="grantha">candrādi</hi>tavaṟ celuttak kaṭavomānom kā<hi rend="grantha">śya</hi>pan<hi rend="grantha">[gā <gap reason="lost" quantity="3" unit="character"/> ]</hi>paṭṭanum va<hi rend="grantha">śiṣṭa <gap reason="lost" quantity="3" unit="character"/> </hi>
+<lb n="5"/><hi rend="grantha">śrī</hi>māye<hi rend="grantha">śvara rakṣai</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 41.208 by <bibl><ptr target="bib:Rajagopal2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Rajagopal2019_01"/>
+			<citedRange unit="page">234</citedRange>
+			<citedRange unit="item">208</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

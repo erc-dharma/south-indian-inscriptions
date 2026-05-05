@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 15.182: original edition by P. B. Desai, Dines Chandra Sircar and G. S. Gai</title>
+				<title type="alt">No. 182. (B.K. No. 53 of 1928-29.) KANDAGAL, HUNGUND TALUK, BIJAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv15p0i0182</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the fragment of a stone lying outside the compound of Hanumān temple.</p>						
+
+						<p>Siṅghaṇa.</p>						
+
+						<p>This fragmentary record breaks off after mentioning the king whose <hi rend="italic">praśasti</hi> it recounts.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>śrī <gap reason="lost" quantity="3" unit="character"/> namaḥ <g type="danda">.</g> namastuṁgaśi
+<lb n="2" break="no"/>ra<unclear>ścuṁbi</unclear>caṁdracāmaracāravē traiḷōkya
+<lb n="3" break="no"/>nagarāraṁbha mūlastaṁbhāya śaṁbhavē <g type="ddanda">.</g>
+<lb n="4"/>svasti samadhigatapaṁcama<unclear>hāśa</unclear>bda mahārājā
+<lb n="5" break="no"/>dhirāja paramēsvaraṁ dvārāvatīpuravarā
+<lb n="6" break="no"/>dhīsvaraṁ <unclear>yādava</unclear>kuḷakamaḷakaḷikāvikā
+<lb n="7" break="no"/>sabhā<unclear>skaraṁ</unclear> māḷavīmalla yahitarāya
+<lb n="8" break="no"/> <gap reason="lost" quantity="2" unit="character"/> gū¨rjjaravāraṇāṁkuśa teluṁgarā
+<lb n="9"/>yasirakamaḻōtupāṭana rāyagajakēsari <unclear>rā</unclear>
+<lb n="10" break="no"/>ya<unclear>nārā</unclear>ya<unclear>ṇa</unclear>ṁ pratāpa cakrava¨rtti siṁga
+<lb n="11" break="no"/>ṇarā<unclear>ya</unclear> <gap reason="lost" quantity="10" unit="character"/> sukhadiṁ rājyaṁ<note n="225-1">The rest of the record is broken and lost.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 15.182 by <bibl><ptr target="bib:Desai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Desai1964_01"/>
+			<citedRange unit="page">225</citedRange>
+			<citedRange unit="item">182</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

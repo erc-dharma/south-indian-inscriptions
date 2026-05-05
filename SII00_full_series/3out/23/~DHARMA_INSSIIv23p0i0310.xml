@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 23.310: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 310. (A.R. No. 310 of 1907.) Tiruviḍaimarudūr, Kumbhakonam Taluk, Tanjavur District Mahāliṅgasvāmi temple—on the second eastern gōpura, right of entrance Rājarājadēva [III]: year 6+1</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv23p0i0310</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>A few syllables at the end of each line are inaccessible and the inscription is also damaged. It seems to register an order of the king confiscating the lands belonging to some persons who proved traitorous (to the king ?) and distributing them, some by way of auction (<hi rend="italic">Rājarājapperuvilai</hi>) and some by sale at estimated price. The details are not clear. However, the temple of Tiruviḍaimaruduḍaiyār is mentioned as having purchased some land in auction. Reference is made to Tillai-ambala-chaturvēdimaṅgalam as the <hi rend="italic">tirunāmattukkāṇi</hi> and <hi rend="italic">[dēvadāna ?]-iṟaiyili</hi> of God Tiruchchiṟṟambalam-Uḍaiyār, [Naṭarāja] and his consort Tirukkāmakkōṭṭamuḍaiya-Periyanāchchiyār. Some <hi rend="italic">bhaṭṭa-vṛitti</hi> lands at Tribhuvanavīra-chaturvēdimaṅgalam are also referred to as having been granted as <hi rend="italic">sōdakumbha</hi> (for the merit of the dead king) of Periyadēvar evidently meaning Kulōttuṅga-Chōḷa III who was known by the other name Tribhuvanavīradēva.</p>						
+
+						<p>Could the treachery referred to above be a symptom of the king's weakness that contributed to his serious trouble later in his life ?</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> tiripuvaṉac cakkaravattikaḷ <hi rend="grantha">śrī</hi> rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>teva <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="2"/>yāṇṭu Āṟāvatiṉ Etirāmāṇṭu ḷ <num value="340">3 <g type="numeral">100</g> 4 <g type="numeral">10</g></num> ṉāl ḷ <hi rend="grantha"><num value="310">3 <g type="numeral">100</g> <g type="numeral">10</g></num> <gap reason="lost" quantity="5" unit="character"/> </hi>
+<lb n="3"/>Iṭṭa niṉaippiṉpaṭi turokamceyta māttūr kiḻavaṉ <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="4"/>yañceytāṉum cūriyatevaṉum Ariyalūruṭaiyāṉ piḷḷai <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="5"/>ṭaṅkaṉum tiruñāṉacampantaṉum puricaikkiḻaiyāṉ tillaip� <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="6"/>ṉum vikkiramacoḻaṉum <hi rend="grantha"><unclear>nandi</unclear></hi>pperumāṉum <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="7"/>ṭaiyāṉum poyyilā meyyaṉum peru <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="8"/>ḻ<choice><sic>a</sic><corr>ā</corr></choice>ṉum Aṇṇavāyil Uṭaiyāṉ cotiyum kiḷiyūr <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="9"/>cciṟṟampalamuṭaiyāṉum Iv<unclear>vūraṉu</unclear><hi rend="grantha">bha</hi>vamu <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="10"/>mapperilum turokattukku U <gap reason="lost" quantity="8" unit="character"/> 
+<lb n="11"/>māṟiṉa nilattu Uṭaiyār tirucciṟṟampalamuṭaiyārum tirukkā <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="12"/>muṭaiya periya nācciyārkkum tirunāmattukkāṇiyum <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="13"/>yiliyākavum Eṟṟi Aruḷiṉa Akaram <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="14"/> <gap reason="lost" quantity="3" unit="character"/> tillaiampalacatu<hi rend="grantha">rvedi</hi>maṅkalattu <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="15"/>kiṭaippuṟam Uḷḷiṉavaiyiṟṟukkum vā<hi rend="grantha">sude</hi>varkkum periyateva <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="16"/><hi rend="grantha">so</hi>takumpamāka tiripuvaṉa viracatu<hi rend="grantha">rvedi</hi>maṅkalattu <gap reason="lost" quantity="2" unit="character"/> kiṟa <hi rend="grantha">brāhma</hi>ṇar<supplied reason="omitted">k</supplied>ku <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="17"/>m <hi rend="grantha">bha</hi>ṭṭa<hi rend="grantha">vṛ</hi>tti kiṭaippuṟam Uḷḷuṭṭaṉavai<unclear>yiṟṟu</unclear>kkum Ivvūril <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="18"/>ṟṟaṉa <hi rend="grantha">brāhma</hi>ṇarkku paṅkukkuṭalākak kūṭṭiṉa nilattu ceravallā<unclear>ṉ</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="19"/>tavirnta nilattukku talaimāṟu Iṭṭa nilamum palarkkum kāṇiya <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="20"/>ṭa nilamum palarkkum rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>p peruvilai viṟṟa nilamum viṟ<unclear>ka</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="21"/>niṉaippu Iṭṭa nilamum perun tavittum ciṟutaṉattu veṭṭai <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="22"/>kkuṭi Iruppum <hi rend="grantha">ji</hi>vitamumāṉa nilattu Aṉu<hi rend="grantha">bha</hi>vam mallāma <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="23"/>coḻavaḷanāṭṭu veṭṭai vij<hi rend="grantha">jā</hi>tira nallūrkku talaimāṟu <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="24"/>ṟṟa nilamum nikki nikki niṉṟa nilamum kāṇi koḷvārkkum rā<hi rend="grantha">ja</hi> rā<hi rend="grantha">ja</hi> <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="25"/>l viṟkavum viṟkumiṭattu Innilattu vaṉṉāṭuṭaiyā<supplied reason="omitted">ṉ</supplied> Aṉu<hi rend="grantha">bha</hi>va<hi rend="grantha"> <gap reason="lost" quantity="3" unit="character"/> </hi>
+<lb n="26"/> <gap reason="lost" quantity="5" unit="character"/> varukiṟa nilattu Ivarum puravari <hi rend="grantha">śrī</hi>karaṇa <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="27"/> <gap reason="lost" quantity="9" unit="character"/> yāṉum vilaimatitta kācukku viṟkavum <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="28"/> <gap reason="lost" quantity="3" unit="character"/> maiyār karuvukalattu Oṭukka <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="29"/> <gap reason="lost" quantity="3" unit="character"/> keyarāyarum vāṇā<hi rend="grantha">dha</hi>rāyarum <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="30"/>yārum vaṉṉāṭuṭaiyārum puravari <hi rend="grantha">śrī</hi>karaṇanāyakarum Īṅkaiyuṭai <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="31"/>tirumantiraolai miṉavaṉ muventaveḷārum Eḻuttiṭṭa <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="32"/>kuṭukkavum tiruvāymoḻintaruḷiṉamaiyāl Uṭa<unclear>lā</unclear>ka koṇ <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="33"/>ḷanāṭṭu Uṭaiyār tiruviṭaimarutuṭaiyār koyil <unclear>Āticaṇ</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="34"/>tevarkaṉmikaḷukku rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>p peruvilai viṟ <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="35"/>tirunāmattukkāṇiyāṉa <gap reason="lost" quantity="3" unit="character"/> ṉār tevartāṉa <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="36"/> <gap reason="lost" quantity="3" unit="character"/> kkuṭiyāṉa kulottuṅkacoḻa <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="37"/> <gap reason="lost" quantity="3" unit="character"/> ṉ Utaiyañcey <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+<p>The next three lines are seriously damaged.</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 23.310 by <bibl><ptr target="bib:SrinivasaRao1979_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1979_01"/>
+			<citedRange unit="page">219-220</citedRange>
+			<citedRange unit="item">310</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

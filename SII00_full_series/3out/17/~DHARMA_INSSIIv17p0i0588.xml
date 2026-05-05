@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.588: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 588. (A.R. No. 543 of 1904.) TIRUVĀRŪR, NAGAPATTINAM TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0588</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the east wall of the first <hi rend="italic">prākāra</hi> in the Tyāgarājasvāmin temple, right of entrance.</p>						
+
+						<p>Rājādhirāja II. Year 5: 1167 A.D. (?).</p>						
+
+						<p>This inscription is dated in the 19th day of the 5th year of Tribhuvanachakravartin Rājādhirājadēva, evidently identical with Rājādhirāja II on account of the mention of an order of Vikrama-chōḷa. </p>						
+
+						<p>This records an order of the king, restoring to the servants of the temple of Śrīmūlasthānamuḍaiyār, house-sites previously made tax-free and set apart for them after making allotments to the <hi rend="italic">cheṭṭis, chekkārs</hi>, their followers and <hi rend="bold">Chōḷēndiraśiṅgaṉ vēḷaikkāṟar</hi> in the 9th year of Vikramachōḷa. The sites are stated to have been later on encroached upon by the <hi rend="italic">cheṭṭis</hi> for their dwellings and shops. It is also stated that the servants of the temple were to receive 100 <hi rend="italic">kāśu</hi> in compensation.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> tribhu</hi>vana<hi rend="grantha">ccakra</hi>vattikaḷ <hi rend="grantha">śrīrājādhirājade</hi>varkku yāṇṭu Aintāvatu nāḷ pattoṉpatiṉāl <hi rend="grantha">prasāda</hi>ñ ce<supplied reason="omitted">y</supplied>taruḷiṉa tirumukappaṭi <hi rend="grantha">tribhu</hi>vana<hi rend="grantha">ccakra</hi>va<supplied reason="omitted">r</supplied>tti ko
+<lb n="2" break="no"/>neriṉmaikoṇṭāṉ tiruvārur Uṭaiyār <hi rend="grantha">śrīmūlasthā</hi>namuṭaiyār koyilil patipātamulap paṭṭuṭaip pañcācāriyat tevarkaṉmikkum <hi rend="grantha">śrīmāheśvara</hi>k kaṇkāṇi ceyvārka
+<lb n="3" break="no"/>ḷukkum <hi rend="grantha">śrī</hi>kāriyañ ceyvāṉukkum tiruvārur nakarattu Iṟaiyili nattattile Ivvūrc ceṭṭi kaḷukku nūṟṟumuppatu maṉaiyum cekkārkkum Ivarkaḷ <hi rend="grantha">A</hi>nu<hi rend="grantha">sāra</hi>t
+<lb n="4" break="no"/>tuḷḷārkkum Irupatu maṉaiyuñ coḷentiraciṅkaṉ veḷaikkāṟarkku Aimpatu maṉai<unclear>yu</unclear>ṅ kuṭiyirup pākavum nikkiniṉṟa nattam Uṭaiyār <hi rend="grantha">śrīmūlasthā</hi>namuṭaiyārkkut
+<lb n="5"/>tirumaṭaiviḷākamāy nivantakkāṟarkkuk kuṭiyiruppākavuṅ kaṭavatāka vikkiramacoḻatevarkku Oṉpatāvatu nāḷile Olai ceṉṟu Ippaṭiye cilanāḷ Aṉupavittu varacce
+<lb n="6" break="no"/>yte nivantakkāṟarkkuk kuṭi Iruppāṉa maṉaikaḷaiyuñ ceṭṭikaḷe kaikkoṇṭārkaḷeṉṟum Ivvūr Iṟaiyilinattattut tiruvārur nakarattuc ceṭṭikaḷukku Ivarkaḷ kuṭiyiruppāṉa teṟkiṟ puṟattiruvi
+<lb n="7" break="no"/>tiyum Itaṉ teṟku Ivarkaḷum Ivarkaḷ <hi rend="grantha">A</hi>nu<hi rend="grantha">sāra</hi>ttuḷḷāruṅ kuṭiyiruntu kaṭai kaṭṭip parimāṟi varukiṟa Avaṉinārāyaṇap perunateruviṟ cekkār Oḻukkaikku meṟkum A<unclear>ka</unclear>p piṇavar teruvuk
+<lb n="8" break="no"/>ku vaṭakkum kuṭiyiruppākavum cekkārkku Avaṉinārāyaṇap perunteruviṟ ce<unclear>kkār</unclear> Oḻukkai yeṉkiṟa Itukkuk kiḻakkuk kuṭiyiruppākavum coḷentiraciṅkaṉveḷaikkāṟarkkut te
+<lb n="9" break="no"/>ṟkiṟpuṟattiruvitikku vaṭakku Aimpatu maṉai kuṭiyiruppākavum nīkki niṉṟa <gap reason="lost" quantity="7" unit="character"/> <unclear>mu</unclear>ṭaiyārkkut tirumaṭaiviḷākamāy nivantakkāṟar pala Iṭaṅkaḷiluṅ kuṭi Irukkiṟār tiru
+<lb n="10" break="no"/>vitiyile cera maṉai yeṭuttu Irukkavum tiruvārur nakarattukku <gap reason="lost" quantity="9" unit="character"/> ṭu varukiṟa kācile tirumaṭai viḷākamāy nivantakkāṟark kuṭiyiruppāṉa nattattukku <unclear>nū</unclear>
+<lb n="11" break="no"/>ṟu kācu nālāvatu mutal tavirntu nikki niṉṟa kācu Innakarattukku <gap reason="lost" quantity="9" unit="character"/> ḷavum Ippaṭikkuk k<unclear>oyi</unclear>lile kalveṭṭavum peṟaveṇumeṉṟu pallava<hi rend="grantha">rāja</hi>ṉ namakkuc <unclear>co</unclear>
+<lb n="12" break="no"/>ṉṉamaiyil Ippaṭi ce<unclear>yyak</unclear> kaṭavatākac collik kaṇakkilum Iṭṭu <gap reason="lost" quantity="14" unit="character"/> kaḷukku<supplied reason="omitted">c</supplied> <unclear>co</unclear>ṉṉom tiruvārur Iṟaiyili natta<supplied reason="omitted">t</supplied>tiṟ <unclear>teṟ</unclear>kiṟ puṟattiruvitiyu <gap reason="lost" quantity="9" unit="character"/> <note n="255-1">Incomplete.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.588 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">254-255</citedRange>
+			<citedRange unit="item">588</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

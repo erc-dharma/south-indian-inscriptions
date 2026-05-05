@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 29.217: original edition by P. N. Narasimha Murthy</title>
+				<title type="alt">No. 217. (A.R. No. 66 of 1961-62.) KOLANUPĀKA, BHUVANAGIRI TALUK, NALGONDA DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv29p0i0217</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a pillar in the Sōmēśvara temple. Fourth pillar Museum No. 84.</p>						
+
+						<p><hi rend="bold">1109 A.D.</hi></p>						
+
+						<p>This record is engraved at the end of No. 66 above. It states that Malli-seṭṭi son of Balli-seṭṭi made a gift of eight <hi rend="italic">gadyaṇās</hi> for a perpetual lamp to the god Svayambhu Sōmanātha of Kollipāka for the merit of Māyikabbe.</p>						
+
+						<p>This undated record may be ascribed to the same date of the previous record [No. 66] 1109 A.D.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti kolli pā
+<lb n="2" break="no"/>ka svayaṁbhū sō
+<lb n="3" break="no"/>manāthadēvara
+<lb n="4"/>ku balliseṭṭi mai
+<lb n="5" break="no"/>liseṭṭi māyi
+<lb n="6" break="no"/>kabbege dharmmavā
+<lb n="7" break="no"/>gi nandādīvigeya
+<lb n="8"/>nirisida gadyā<supplied reason="omitted">ṇa</supplied> 8 <g type="ddanda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 29.217 by <bibl><ptr target="bib:NarasimhaMurthy2022_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:NarasimhaMurthy2022_01"/>
+			<citedRange unit="page">231</citedRange>
+			<citedRange unit="item">217</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

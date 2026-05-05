@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 26.193: original edition by P. R. Srinivasan</title>
+				<title type="alt">No. 193. (A.R. No. 181 of 1909.) AVANĀSHI, AVANASHI TALUK, COIMBATORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv26p0i0193</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>West wall of the same shrine.</p>						
+
+						<p><hi rend="bold">Sundara-pāṇḍyadēva: Year 3[1], Paṅguṉi = 1296 A.D.</hi></p>						
+
+						<p>This inscription is also damaged. It records a gift of money made by Perumāḷ Aḻagiyanāyaṉ <hi rend="italic">alias</hi> Aḻagiya Pāṇḍiyadēvar, a merchant of Aṟaṉaiyūr <hi rend="italic">alias</hi> Śīvallapuram in Karaivaḻi-nāḍu in [••• •••] maṇḍalam, to provide for food offerings to the deity Sundaraṉāyanār to whom a temple was caused to be constructed on the bank of the tank at Pukkoḷiyūr, by the same merchant. It is stated that the gift was found necessary because the <hi rend="italic">sabhaiyār</hi> and the <hi rend="italic">ūrār</hi> of Kañjappaḷḷi <hi rend="italic">alias</hi> Kulōttuṅgachōḻach-chaturvēdimaṅgalam in Vī ••• ••••• chōḷa-vaḷanāḍu, were not able to pay something the details of which are lost. It is further stated that the above-mentioned <hi rend="italic">sabhaiyār</hi> and <hi rend="italic">ūrār</hi> had undertaken to carry out the object of the endowment.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> cuntarapāṇṭiyatevaṟku yāṇ
+<lb n="2" break="no"/>ṭu <num value="31">3 <g type="numeral">10</g> 1</num> vatu paṅkuṉimātam <unclear>vi</unclear> <gap reason="lost" quantity="3" unit="character"/> coḻavaḷaṉāṭ
+<lb n="3" break="no"/>ṭu kañcappaḷḷiyāṉa kulottuṅkacoḻa<hi rend="grantha">śva</hi>tu<hi rend="grantha">rvve</hi>
+<lb n="4" break="no"/><hi rend="grantha">di</hi>maṅkalattu <hi rend="grantha">sabhai</hi>yomum Ūromumāy <gap reason="lost" quantity="3" unit="character"/> to
+<lb n="5" break="no"/>ṭama<unclear>āṭu</unclear> Iṟuk <gap reason="lost" quantity="10" unit="character"/> Āṟṟāmaiyāle pāṇṭi <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="6"/><unclear>vi</unclear>ma<unclear>ṇ</unclear>ṭalattu karaivaḻināṭṭu Aṟaṉaiyūrāṉa civallapu<unclear>ra</unclear>
+<lb n="7" break="no"/>ttu viyāpāri perumāḷ Aḻakiyanāyaṉāṉa Aḻakiyapā 
+<lb n="8" break="no"/>ṇṭiyatevar pakkal <gap reason="lost" quantity="4" unit="character"/> Upayattukku vāṅki
+<lb n="9" break="no"/>ṉa varākaṉ paḷḷikku <gap reason="lost" quantity="3" unit="character"/> taṭṭa <num value="220">2 <g type="numeral">100</g> 2 <g type="numeral">10</g></num> Ippaṇam Irunūṟṟirupa
+<lb n="10" break="no"/>tukkum Inta Aḻakiyapāṇṭiyatevar pukkoḷiyūrk kuḷaṅ
+<lb n="11" break="no"/>karaiyil Eḻuntaruḷi <gap reason="lost" quantity="4" unit="character"/> ṉa cuntaraṉāyanā<unclear>r</unclear>kku Amutupaṭikkum pala
+<lb n="12" break="no"/><unclear>viñcaṉattu</unclear>kkum I<hi rend="grantha">dha <gap reason="lost" quantity="2" unit="character"/> </hi>�ṇṭumutal Āṇṭu Oṉṟukku Eṅkaḷuri
+<lb n="13" break="no"/> <gap reason="lost" quantity="2" unit="character"/> kolāl<unclear>ai</unclear>y <gap reason="lost" quantity="3" unit="character"/> kalanellu Upaiyam Aḷantu potu �
+<lb n="14" break="no"/> <gap reason="lost" quantity="10" unit="character"/> maṭattār Irupattaiṅkalamum pacāṉam
+<lb n="15"/> <gap reason="lost" quantity="9" unit="character"/> Āka nellu Aimpatiṉ kalamum Uvaccaṟu
+<lb n="16" break="no"/> <gap reason="lost" quantity="3" unit="character"/> paṇṭārattār vacame Āṇṭutoṟum A
+<lb n="17" break="no"/> <gap reason="lost" quantity="10" unit="character"/> yāl cātaṉam koḷḷa kaṭavomākavum �
+<lb n="18" break="no"/> <gap reason="lost" quantity="2" unit="character"/> lamum Aḷakkumiṭattu Eṅkaḷūr peruyor
+<lb n="19"/><hi rend="grantha"> <gap reason="lost" quantity="10" unit="character"/> śva</hi>ra
+<lb n="20" break="no"/>ma <gap reason="lost" quantity="7" unit="character"/> tta kalane <gap reason="lost" quantity="4" unit="character"/> k <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="21"/>te <gap reason="lost" quantity="2" unit="character"/> viracoḻaccatu<hi rend="grantha">rvve</hi>ti <gap reason="lost" quantity="4" unit="character"/> ttu <hi rend="grantha">sabh</hi>ai�
+<lb n="22" break="no"/> <gap reason="lost" quantity="5" unit="character"/> vom Ippaṭi <gap reason="lost" quantity="4" unit="character"/> <unclear>na</unclear>ru <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="23"/><hi rend="grantha"> <gap reason="lost" quantity="2" unit="character"/> śva</hi>ra <gap reason="lost" quantity="2" unit="character"/> ka <gap reason="lost" quantity="3" unit="character"/> vi caṅkara <gap reason="lost" quantity="4" unit="character"/> paṭṭaṉ ciṟṟampa
+<lb n="24" break="no"/> <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="25"/> <gap reason="lost" quantity="7" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 26.193 by <bibl><ptr target="bib:Srinivasan1990_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Srinivasan1990_01"/>
+			<citedRange unit="page">125-126</citedRange>
+			<citedRange unit="item">193</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

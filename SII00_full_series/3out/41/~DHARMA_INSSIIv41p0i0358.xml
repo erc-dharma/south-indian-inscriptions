@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 41.358: original edition by S. Rajagopal</title>
+				<title type="alt">No. 358. (A.R. No. 573 of 1905.) Vijayamaṅgalam, Erode Taluk, Coimbatore District. On the south wall of the maṇḍapa in front of the central shrine in the Nāgēśvarasvāmi temple in Vijayamaṅgalam.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv41p0i0358</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Koṅgu, Abhimāna Rājādhirāja, Year 10+1, Śaka 1022 = 1080 A.D.</hi></p>						
+
+						<p>Unfinished. Gift of a lamp by the king (?).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> ko<hi rend="grantha">a<unclear>pi</unclear>mā</hi>ṉa <hi rend="grantha">śrīrāj<unclear>ādhi</unclear>rāja</hi>ṉeṉ Emakkuc cellāṉiṉṟa yāṇṭu pa <gap reason="lost" quantity="3" unit="character"/> vataṟketirām yāṇṭu <hi rend="grantha">śaka</hi>raiyāṇ
+<lb n="2" break="no"/>ṭu Āyirattirupattiraṇṭu kuṟuppu ṉā<unclear>ṭ</unclear>ṭu vicaiyamaṅkalattu Āḷuṭaiyār tirunāki<hi rend="grantha"><unclear>śva</unclear>ra</hi>muṭaiyāṟkut tirunantā viḷakku vai<supplied reason="omitted">t</supplied>ta viḷakkoṉ <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 41.358 by <bibl><ptr target="bib:Rajagopal2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Rajagopal2019_01"/>
+			<citedRange unit="page">362</citedRange>
+			<citedRange unit="item">358</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

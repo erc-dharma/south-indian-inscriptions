@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.746: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 746. (A.R. No. 379 of 1915.) ON A BROKEN PILLAR IN FRONT OF THE TEMPLE OF CHENNAKĒŚAVASVĀMI AT KŌLALAPŪḌI, NARASARAOPETA TALUK, GUNTUR DISTRICT. Ś. 1487 (Akshaya).</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0746</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Records that <hi rend="bold">Kōllapūṇḍi Śiṅgarāju</hi> consecrated the central shrine and <hi rend="italic">antarāḷa</hi> of Ādi-Kēśava, a Garuḍa-pillar and the temple of Nīlakaṇṭhēśvara.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti jayābhyudaya 
+<lb n="2" break="no"/>śālivāhanaśakava¨rṣaṁbu 
+<lb n="3" break="no"/>lu 1487 Agu nēṁṭi[Akṣa] 
+<lb n="4" break="no"/>yasaṁvatsara māgha śu 12 
+<lb n="5"/>śu <g type="danda">.</g> śrīkōlapūṁḍi Ādikēśava 
+<lb n="6" break="no"/>vuniki <g type="danda">.</g> <unclear>śrīvatsa</unclear>gōtra Āpastaṁ 
+<lb n="7" break="no"/>bbasūtra yajuśākhādhyā 
+<lb n="8" break="no"/>yu laina <unclear>ko</unclear>llapūṁḍi <gap reason="lost" quantity="1" unit="character"/> su 
+<lb n="9"/>rāju mallamarāju ko<unclear>mā</unclear> 
+<lb n="10" break="no"/><unclear>ru</unclear>ṁḍu śiṁggarāju <g type="danda">.</g> Ādi 
+<lb n="11" break="no"/>kēśavuniki ga¨rbhagṛhaṁ Aṁ 
+<lb n="12" break="no"/>tarāḷikālunnu bhū 
+<lb n="13" break="no"/>dēvi lakṣmīdēviki garuḍakaṁ 
+<lb n="14" break="no"/>bhamunnu nīlakaṁṭhēśva 
+<lb n="15" break="no"/>runi guḍi<unclear>ni</unclear> tamataṁḍri ma 
+<lb n="16" break="no"/>llamarājukuṁnnu tamata 
+<lb n="17" break="no"/>lli gaṁggamaṁgārikinniṁ bu 
+<lb n="18" break="no"/>ṇyamugānu Anaṁta 
+<lb n="19" break="no"/>mu laina daṁḍamulu sa 
+<lb n="20" break="no"/>ma[¨rpiṁ]cci pratiṣṭa śēśenu <g type="ddanda">.</g> 
+<lb n="21"/>śrīśrīśrīṁ jēyanu <g type="danda">.</g> śrī 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.746 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">389</citedRange>
+			<citedRange unit="item">746</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

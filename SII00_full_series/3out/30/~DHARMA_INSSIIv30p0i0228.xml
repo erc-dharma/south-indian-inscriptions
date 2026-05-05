@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 30.228: original edition by N. Marxia Gandhi, A. Padmavathy and S. Swaminathan</title>
+				<title type="alt">No. 228. (A.R. No. 579 of 1915.) Dārukāpuram, Sankaranayinar koyil Taluk, Tirunelveli District. Madhyasthanātha temple—at the entrance into the mukha-maṇḍapa: left side Kulasēkara-Pāṇḍya: year 13+9: 13th c. A.D. </title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv30p0i0228</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Incomplete. It registers a gift for a twilight lamp to the temple of Piṇakk[arukk*]um Nāyanār at Malaiyaḍikkuṟichchi, a southern hamlet of Śri Parāntakach-chaturvēḍimaṅgalam, a <hi rend="italic">brahmadēya</hi> in Āri-nāḍu by Nārāyaṉaṉ Mādhavaṉ, a native of a village in Purisaināḍu, a subdivision of Malai-maṇḍalam.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kulace<hi rend="grantha">kha</hi>ra <hi rend="grantha">de</hi>vaṟku yāṇṭu <num value="13"><g type="numeral">10</g> 3</num> vatiṉ Etir Oṉpatā
+<lb n="2" break="no"/>vatu Ārināṭṭu <hi rend="grantha">brahmadeśa</hi><supplied reason="omitted">m</supplied> <hi rend="grantha">śrīprā</hi>ntakacatu<hi rend="grantha">rvedi</hi>maṅkalattu teṉpiṭākai malaiaṭikkuṟicci Uṭaiyā<supplied reason="omitted">r</supplied>
+<lb n="3"/>piṇak<supplied reason="omitted">kaṟuk</supplied>kum nāya(ṉ)ṉāṟkum malaimaṇṭalattu puricaināṭṭu puṟattu nārāyaṇaṉ mātavaṉ<unclear>ṉeṉ</unclear> nāṭa<unclear>ṉ</unclear>vait
+<lb n="4" break="no"/>ta cantiyātipam Oṉṟukku Akanāḻikai potu <hi rend="grantha">[śi</hi>va<hi rend="grantha">]brāhma</hi>ṇarom <gap reason="lost" quantity="5" unit="character"/> cantirātittavaṟ celuttuvomāka kaikkoṇṭa Ā <gap reason="lost" quantity="4" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 30.228 by <bibl><ptr target="bib:MarxiaGandhi+al2011_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:MarxiaGandhi+al2011_01"/>
+			<citedRange unit="page">207-208</citedRange>
+			<citedRange unit="item">228</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.483: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 483. (A.R. No. B 54 of 1942-43.) Śrīśailaṁ, Nandikotkur Taluk, Kurnool District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0483</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>A mutilated slab lying in the Mallikārjuna guṇḍam, inside the Mallikārjuna temple.</p>						
+
+						<p>This undated epigraph may be assigned to the 13th century, on the basis of palaeography.</p>						
+
+						<p>Damaged and fragmentary. It records the founding of a village called Gaṇapavuram in the name of his mother and making a gift of it to god Śrīgirinātha (i.e., Mallikārjuna at Śrīśailam) by the general Kāchaya Reḍḍi who bore the epithet, Mahārāyasthapanā-chārya (the establisher of the great king) and who is said to have vanquished the Muhammadan ruler that had penetrated into the Telugu country after conquering the Gauḷa, Gūrjara, Māḷava, Mahārāshṭra and other provinces. He is stated to be the son of Mailaya Reḍḍi who placed on a firm footing the Kākita throne <hi rend="italic">(Piṭha).</hi> A number of food-items have been mentioned the levies on which items was transferred to the village authorities.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<!--<h4>First. Face.</h4>-->
+
+<p>
+<lb n="1"/>paṭṭaṇamaṁdu prudhvīrājyaṁbusēyu 
+<lb n="2"/>cuṁḍaṁgānu vārisēnāpatulai <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="3"/> <gap reason="lost" quantity="10" unit="character"/> kākita <unclear>pīṭhakamunu</unclear> 
+<lb n="4"/>nilisina mailamaraḍḍivāri ko 
+<lb n="5" break="no"/>ḍukulu <supplied reason="undefined"><g type="ddanda">.</g></supplied> svasti śrīmanuma 
+<lb n="6" break="no"/>hārāyastāpanācā¨ryyu 
+<lb n="7" break="no"/>lai <g type="danda">.</g> gauḷa <g type="danda">.</g> gū¨rjara <g type="danda">.</g> māḷava 
+<lb n="8"/>mahārāṣṭrādi dēśālu sā 
+<lb n="9" break="no"/>dhiṁci teluṁgudēśamu <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="10"/><unclear>diretti</unclear> vaccina turakarāyavi 
+<lb n="11"/>bāhaṁ<unclear>ḍa</unclear>yina kācayaraḍḍi 
+<lb n="12"/>vāru kannāṁṭilōnu tamatalli 
+<lb n="13"/>pēriṁṭanu kaṭiṁcina gaṇa<unclear>pā</unclear>ma 
+<lb n="14" break="no"/><unclear>raṁ</unclear> <g type="danda">.</g> śrīgirinādhuniki Aṣṭabhō 
+<lb n="15" break="no"/>gatējasaṁmyasahitamai Ara 
+<lb n="16" break="no"/>sumaṭhamu guridēvara I 
+<lb n="17" break="no"/>śvara śivācā¨ryula cētanu 
+<lb n="18"/>dhāravōsi Icina kramamu <g type="danda">.</g> 
+<lb n="19"/> <gap reason="lost" quantity="10" unit="character"/> Upahāraṁ 
+<lb n="20"/> <gap reason="lost" quantity="5" unit="character"/> biyyamu naṁdi tū 
+</p>
+
+<!--<h4>Second face.</h4>-->
+
+<p>
+<lb n="21"/> <gap reason="lost" quantity="1" unit="character"/> na Inavuki 
+<lb n="22"/> <gap reason="lost" quantity="2" unit="character"/> 18 gōdhumalu 
+<lb n="23"/> <gap reason="lost" quantity="3" unit="character"/> ga 128 pesa <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="24"/> <gap reason="lost" quantity="2" unit="character"/> na - <g type="ddanda">.</g> <gap reason="lost" quantity="2" unit="character"/> ga 1é = 8 <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="25"/> <gap reason="lost" quantity="1" unit="character"/> ga Ñ na - É5 Uppu 
+<lb n="26"/> <gap reason="lost" quantity="5" unit="character"/> É6 <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="27"/> <gap reason="lost" quantity="1" unit="character"/> tulūnu <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="28"/> <gap reason="lost" quantity="3" unit="character"/> nu É6 viḍi <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="29"/> <gap reason="lost" quantity="2" unit="character"/> pōṁkalu 
+<lb n="30"/> <gap reason="lost" quantity="5" unit="character"/> É <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="31"/>kulu <gap reason="lost" quantity="2" unit="character"/> lekhanu 
+<lb n="32"/> <gap reason="lost" quantity="5" unit="character"/> nityaga 5 <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="33"/>tya <gap reason="lost" quantity="2" unit="character"/> battula <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="34"/>stū dīni <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="35"/>kha nu ga 
+<lb n="36"/>ku <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="37"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="38"/>ga 87é2 A <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="39"/>vāru <unclear>gha</unclear> ṁ 
+<lb n="40"/>¨rtivēṁdrān <g type="danda">.</g> 
+<lb n="41"/>bhūyōbhū 
+<lb n="42" break="no"/>yō yācatē 
+<lb n="43"/>rāmacaṁdraḥ <g type="ddanda">.</g> 
+<lb n="44"/>svadattāṁ parada 
+<lb n="45" break="no"/>ttāṁ vā Ō<unclear>yō</unclear> ha 
+<lb n="46" break="no"/>rēta vasuṁddarāṁ 
+<lb n="47"/>ṣaṣṭi¨rvaruṣa sa 
+<lb n="48" break="no"/>hasrāṇi viṣṭā 
+<lb n="49" break="no"/>yāṁ jāya 
+<lb n="50" break="no"/>tē krimi <g type="ddanda">.</g> maṁga 
+<lb n="51" break="no"/>ḷamahā śrī śrī 
+<lb n="52"/>śrī 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.483 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">416-418</citedRange>
+			<citedRange unit="item">483</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

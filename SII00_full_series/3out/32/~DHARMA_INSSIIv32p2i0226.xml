@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 32, part 2, no. 226: original edition by S. Swaminathan</title>
+				<title type="alt">No. 226. (A.R. No. 219 of 1965.) EŚAIYAṈŪR, WALAJAPET TALUK, NORTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv32p2i0226</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Tiers of the southern wall, Akhilāṇḍēśvara temple.</p>						
+
+						<p><hi rend="bold">Year: 1[.]</hi></p>						
+
+						<p>Damaged and incomplete. Seems to record an agreement by the <hi rend="italic">ūrār</hi> of E[śaya]ṉūr-nāḍu in Dāmar-kōṭṭam in respect of a grant of land made tax-free to provide five drummers and food offerings for <hi rend="italic">śrībali</hi> during the <hi rend="italic">paḷḷieḻuchchi</hi> service to the god.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><unclear>kop</unclear>parakecari <num value="13"><g type="numeral">10</g> 3</num>ku yāṇṭu <num value="10"><g type="numeral">10</g></num> Āvatu tāmar koṭṭattu E <gap reason="lost" quantity="2" unit="character"/> ṉūr nāṭṭu E <gap reason="lost" quantity="3" unit="character"/> ṉūr <unclear>Ū</unclear>rom Eṅkaḷur [keya?] <gap reason="lost" quantity="2" unit="character"/> <hi rend="grantha">śvara <gap reason="lost" quantity="1" unit="character"/> ma <gap reason="lost" quantity="1" unit="character"/> </hi> <gap reason="lost" quantity="6" unit="character"/> ntirā<hi rend="grantha">di</hi>tava<hi rend="grantha"> <gap reason="lost" quantity="1" unit="character"/> </hi>
+<lb n="2"/> <gap reason="lost" quantity="3" unit="character"/> ḷie<unclear>ḻi</unclear>cciyum Aiñcāḷ koṇṭu <hi rend="grantha">śrī</hi>palikoṭṭa vaitta nilamāvatu <gap reason="lost" quantity="6" unit="character"/> kiḻai <gap reason="lost" quantity="4" unit="character"/> m paḷḷam mukkālum <gap reason="lost" quantity="8" unit="character"/> <unclear>ko</unclear>ṭṭa vaitte
+<lb n="3"/> <gap reason="lost" quantity="3" unit="character"/> lame <gap reason="lost" quantity="3" unit="character"/> ṉa kiḻai kālum vaṭatoṅkettam ce<unclear>yyu</unclear> mukkālumāka Iraṇṭu vaṭṭiyum <hi rend="grantha">śrī</hi> palipokam Iṟaiyiliyāka Ūrom 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 32, part 2, no. 226 by <bibl><ptr target="bib:Swaminathan2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2012_01"/>
+			<citedRange unit="page">366</citedRange>
+			<citedRange unit="item">226</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

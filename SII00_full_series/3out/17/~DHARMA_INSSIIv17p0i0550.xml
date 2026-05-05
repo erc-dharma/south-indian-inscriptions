@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.550: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 550. (A.R. No. 507 of 1904.) AGATTIYĀṈPAḶḶI, TIRUTTURAIPPUNDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0550</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north base of the central shrine in Agastyēśvara temple.</p>						
+
+						<p>Māṟavarmaṉ Kulaśēkhara I. Year 5: 1273 A.D.</p>						
+
+						<p>This inscription is dated, year 5, Tai 21. Palaeographically this inscription may be assigned to the 13th century.</p>						
+
+						<p>This records the gift of 150 <hi rend="italic">paṇam</hi> by Gautaman Āṇḍāṉ Kuṉṟameṟindār, for <hi rend="italic">Śrī Māhēśvarapūjai</hi> in Agattiyadēvar <hi rend="italic">tirumaḍam</hi> in the same place, out of the income accruing from the gift-money either by investing it in tax-free land or by lending it out for interest. The money was entrusted to the <hi rend="italic">tāṉattār</hi> in the temple of Tiruvagattiyāṉpaḷḷi-uḍaiyār.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> komāṟapaṉmar tiri<unclear>pu</unclear>vaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>kulacekaratevaṟku yāṇṭu <hi rend="grantha"><unclear>5</unclear></hi> vatu tai mātam <hi rend="grantha"><unclear>2</unclear>1</hi>tiyati nāḷ Uṭaiyār tiruvakattiyāṉpaḷḷi Uṭaiyār koyil tāṉattār vacam Ivūr Akattiyatevar tirumaṭattil <hi rend="grantha">śrī</hi> mā<hi rend="grantha">hośva</hi>ra
+<lb n="2" break="no"/>pūcaikku kāṇikoṇṭu Iṟaiyili ceytu koṇṭātal mutal niṉṟu po<supplied reason="omitted">n</supplied>ta palicaiyāluḷḷa mutal koṇṭātal cantirātittavar naṭatta tirupper Oṉṟukku Amutukku <hi rend="grantha">gau</hi>ta<hi rend="grantha">man</hi> Āṇṭāṉ kuṉṟa meṟintār tanta <hi rend="grantha">�<num value="150"><g type="numeral">100</g> 5 <g type="numeral">10</g></num></hi> paṇam nūṟṟu Aimpatukkum
+<lb n="3"/>Ippaṭik<unclear>ku Ivay</unclear>
+<lb n="4"/>kūttarāya<supplied reason="omitted">ṉ</supplied> vīti
+<lb n="5" break="no"/>pontāṉeṉ <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.550 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">230</citedRange>
+			<citedRange unit="item">550</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 29.19: original edition by P. N. Narasimha Murthy</title>
+				<title type="alt">No. 19. (A.R. No. B. 541 of 1961-62.) BALLAṬGI, MANVI TALUK, RAICHUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv29p0i0019</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab near the Girijavvana Gadduge.</p>						
+
+						<p><hi rend="bold">Jagadēkamalla [Jayasiṁha II] 11th century A.D.</hi></p>						
+
+						<p>The record in the 11th century A.D. characters, states that <hi rend="italic">mahāsāmanta</hi> Lōkarasa of the Haihaya family made a land grant to the sculptor Nēmōja at Moṟaba. Lōkarasa is described as the son of Chālukya king Jagadēkamalla.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>śrī svasti gaṁgājaḷa dhautavastra nirmmaḷa parama <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="1" unit="character"/> māṁgeyage(ḷva) (prē)ma <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="3"/>paṁca mahāśabda mahāsāmantaṁ <gap reason="lost" quantity="2" unit="character"/> sāmantavētāḷa <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="2" unit="character"/> śūdraka vīrāvatāraṁ pratyakṣa pāḷakā(nipuṇa) <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="5"/>kāpusūcaḷa hayavatsarāja sarasvatī tiḷakā
+<lb n="6" break="no"/>yamānaṁ bhṛgumatācāryya nacaḷata dhai
+<lb n="7" break="no"/>ryyana hihaya vaṁśōdbhavaṁ vairībhasiṁgaṁ siṁ
+<lb n="8" break="no"/>gana garuḍaṁ śrī majjagadēka malladēvara <unclear>ma</unclear>
+<lb n="9"/>gaṁ śrī manmahāsāmantaṁ lōkarasa
+<lb n="10"/>sūtradhari nēmōjaṁge moṟabada mū
+<lb n="11" break="no"/>lade biṭṭa kariyanela mattara <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+<p>[Rest in broken and lost]. </p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 29.19 by <bibl><ptr target="bib:NarasimhaMurthy2022_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:NarasimhaMurthy2022_01"/>
+			<citedRange unit="page">17</citedRange>
+			<citedRange unit="item">19</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

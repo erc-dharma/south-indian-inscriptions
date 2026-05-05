@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.47: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 47. (A.R. No. B 431 of 1938-39.) Vallūru, Cuddapah Taluk, Cuddapah District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0047</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab set up in front of the Śiva temple.</p>						
+
+						<p>Vijayanagara: Sadāśiva 1553 A.D.</p>						
+
+						<p>This is dated <hi rend="bold">Śaka 1475, Pramādi, Āshāḍha śu. 10,</hi> corresponding to 1553 A.D., June 21, Wednesday.</p>						
+
+						<p>It records the grant of <hi rend="italic">dommari-pannu,</hi> due from the village Vallūru <hi rend="italic">alias</hi> Timmasamudram, by <hi rend="italic">dommari,</hi> Kāki Padmarāju and others (names given) to the gods Hari and Hara of Pedavallūru <hi rend="italic">alias</hi> Timmasamudram situated to the south of the Pennā and included in the Pushpagiri region of Gaṇḍikōṭa-sīma in Udayagiri-rājya. The gift is stated to have been made for the merit of the 24 communities of the <hi rend="italic">dommaris.</hi></p>						
+
+						<p>[Published in <hi rend="italic">Inscriptions of Andhra Pradesh;</hi> Cuddapah District, Part II, No. 228.]</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>Avighnamastu <g type="ddanda">.</g> 
+<lb n="2"/>svasti śrī jayābhyudaya śālivā 
+<lb n="3" break="no"/>hana śakava¨rṣaṁbulu 1475 Agunē 
+<lb n="4" break="no"/>ṭi pramādhi saṁvuccara Āṣāḍha śu 10 lu <g type="ddanda">.</g> 
+<lb n="5"/>śrīmadrājādhirāja rājaparamēśvara śrīvī 
+<lb n="6" break="no"/>rapratāpa śrī sadāsivadēva mahārāyalu 
+<lb n="7"/>vijayanagaramaṁddu vajrasiṁhvāsanārūḍhuṁ 
+<lb n="8" break="no"/>ḍai pṛthvi sāṁmrājyaṁ śēyi<unclear>yu</unclear>cuṁḍḍaṁgānu 
+<lb n="9"/>vudayagiri rājyānu<unclear>na</unclear>ku cellē gaṁḍikōṭa 
+<lb n="10"/>sīmalōnu puṣpagiri prāṁtyaṁ peṁnaku da 
+<lb n="11" break="no"/>kṣaṇaṁ pedavallūriki pratināmamaina 
+<lb n="12"/>tiṁmasamudraṁ Agrahārānu ha 
+<lb n="13" break="no"/>riharādulu doṁmmari kāki paṁ 
+<lb n="14" break="no"/>dmarāju doṁmmari mīsaragaṁḍani 
+<lb n="15"/>ponāreḍḍi dommari mīsaragaṁ 
+<lb n="16" break="no"/>ḍḍani tipparājunu dommari turukā 
+<lb n="17" break="no"/>ṇyaṁ basvarājuṁnnu voḍapōtināyiḍu 
+<lb n="18"/>Iccina dhaṁ¨rmmaśāsanaṁ mākiccē dhoṁmma 
+<lb n="19" break="no"/>ripannu doṁmmari kā<unclear>ki</unclear> paṁdmarājunu mī 
+<lb n="20" break="no"/>saragaṁḍani poṁnāreḍḍini mīsaragaṁḍani 
+<lb n="21"/>basvarājuṁnnu doṁmari voḍapōti nā 
+<lb n="22" break="no"/><unclear>yaṁ</unclear>ḍunnutama doṁmmari yiravainālu 
+<lb n="23" break="no"/>gu kulālavārikiṁnni puṇyaṁgānu A 
+<lb n="24" break="no"/>kṣatadhiya puṁṇyakālamaṁdu vollū 
+<lb n="25" break="no"/>rki pratināmamaina tiṁmmasamudrānu 
+<lb n="26"/>tama doṁmmarivāriki Iccē paṁnnutama 
+<lb n="27"/>doṁmmarivāru yiravainālugu kulā 
+<lb n="28" break="no"/>lavārikiṁnni puṁṇyaṁgānu Ācaṁdrā 
+<lb n="29" break="no"/>rkhastāIgānu hariharādulu dhāravō 
+<lb n="30" break="no"/>siyistiṁ yīdhaṁ¨rmānaku tama doṁ<unclear>ma</unclear> 
+<lb n="31" break="no"/>rivāru yavvaru tappinānu gaṁgaka <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="32"/>gōvuṁ brāṁhmala vadhiṁccina pā <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="33"/>vuvāru Iṭani yīdhaṁ¨rmmaśāsa <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="34"/> <gap reason="lost" quantity="1" unit="character"/> kaṁgānu yāṁbhaiyāru <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="35"/> <gap reason="lost" quantity="1" unit="character"/> <unclear>naḍipē</unclear> <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.47 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">36-37</citedRange>
+			<citedRange unit="item">47</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

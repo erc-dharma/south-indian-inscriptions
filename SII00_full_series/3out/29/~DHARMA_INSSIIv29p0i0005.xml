@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 29.5: original edition by P. N. Narasimha Murthy</title>
+				<title type="alt">No. 5. (A.R. No. 39 of 1961-62.) GAṄGĀPURAM, MAHABUBNAGAR TALUK AND DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv29p0i0005</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Three sides of a slab by the side of Benakayya-guḍi in front of the Chennakēśava temple.</p>						
+
+						<p><hi rend="bold">Tailapa II 10th century A.D.</hi></p>						
+
+						<p>Top portion of the slab is broken and lost. This partially damaged record refers to the construction of a Jina-griha and the consecration of the image of Chenna Pārśvanātha there in by <hi rend="italic">mahāvaḍḍa-vyavahāri maṇigāra</hi> Kāḷiseṭṭi of Tūbāḷa and to a gift of income from levies on commodities such as areca etc., for the worship and offerings to the Jina Pārśvanātha.</p>						
+
+						<p>It refers to the Chālukya dynasty of whom Tailapa is mentioned and contains an eulogy of Nayakīrtidēva who was probably the recipient of the gift. There is a description of the city Gangāpuram where the Jina-griha was built. Also it mentions officers like <hi rend="italic">sunkādhikāri</hi> and <hi rend="italic">aḍḍasuṅkad-adhikāri.</hi></p>						
+
+						<p>Information regarding the date is partially lost as the top portion of the slab is broken and lost• The extant portion of it provides [Śrī]mukha, Phālguṇa śu • • Brihaspativāra, uttarāyaṇa saṁkrānti. It is in characters of the 10th century A.D. [Tentatively the cyclic year Śrīmukha can be equated with Śaka 895 on the basis of only Tailapa being mentioned in the record].</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>First Face-Top portion is broken and lost.</h4>-->
+
+<p>
+<lb n="1"/><unclear>pu</unclear>ṭṭi bhavya <gap reason="lost" quantity="5" unit="character"/> doḷindu <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2"/>seṭṭi paramārthava<unclear>ḍe</unclear>da puṇameni (svaruci) <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="3"/>ya dānama nanavarataṁ naḍeyisidaṁ <gap reason="lost" quantity="2" unit="character"/> ḍida(mayiṁ) <gap reason="lost" quantity="2" unit="character"/> (du)
+<lb n="4"/>mā<unclear>dudu</unclear> vismayamenesalu jinagrihamaṁ māḍisidaṁ <gap reason="lost" quantity="1" unit="character"/> (dana vidō)
+<lb n="5"/>(ḷte nū) <gap reason="lost" quantity="2" unit="character"/> kāḷiseṭṭi baḷḷaṁgoḷadoḷu <g type="ddanda">.</g> Āvibhuge kā <gap reason="lost" quantity="3" unit="character"/> cauladē
+<lb n="6" break="no"/>vi jagajjana vinūtanabhavita bhūpādadira (bhū)dēvabā <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="7"/>mādēvi tānenaludārate <gap reason="lost" quantity="2" unit="character"/> jinanāptaṁ nayakīrttidēva muni
+<lb n="8" break="no"/>paṁ rāddhānta cakrēśvaraṁ jinavaṁ <gap reason="lost" quantity="5" unit="character"/> tataṁ <unclear>śrī</unclear>kalidēvaśrēṣṭirāyaṁ
+<lb n="9"/>kīrtiyaṁkasiṁhaṁ śruta (talabhūpa) bhayavalu bhūsiradā <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="10"/>divriṁda nidānaṁ vibhu <unclear>kāḷa</unclear>seṭṭiya <gap reason="lost" quantity="3" unit="character"/> dhanyaṁ peṟardhanyarē <g type="ddanda">.</g> <unclear>Eṁ</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="11"/>varṇisuttire jagaṁ puṭṭidanagaṇya puṇyavānuḷitavasurita gōtra (niṁ)
+<lb n="12" break="no"/>drananūḷvirata(nvaya) <gap reason="lost" quantity="3" unit="character"/> marjjunaṁganāḍudararāda
+<lb n="13"/><unclear>nu</unclear>tvaḷa (nudāri kāḷapaseṭṭi) <gap reason="lost" quantity="5" unit="character"/> gānaṁdade māḍisalke
+<lb n="14"/>bagedaṁ <gap reason="lost" quantity="10" unit="character"/> bhū <gap reason="lost" quantity="1" unit="character"/> daḍe divya <gap reason="lost" quantity="1" unit="character"/> bhōgā(rtha)
+<lb n="15"/>bhūvaḷeyadoḷu <gap reason="lost" quantity="5" unit="character"/> tā(ramaṁ) taḷaṁ (pā)usavirehi
+<lb n="16" break="no"/>māppsunghuhama <gap reason="lost" quantity="10" unit="character"/> nādi kaṇgoḷikukapa
+<lb n="17" break="no"/>ra nādhadindra(ri)ṁda sāḷōpa(rivā)jya <gap reason="lost" quantity="1" unit="character"/> tā <gap reason="lost" quantity="1" unit="character"/> lu tadadōrdda
+<lb n="18" break="no"/>ppuda sūna sau <gap reason="lost" quantity="5" unit="character"/> <unclear>gō</unclear> puraṁ saṁtataṁ <g type="ddanda">.</g> na(da)
+<lb n="19"/>dyōtkara paṁkajakararppa <gap reason="lost" quantity="10" unit="character"/> dirppā vāṭadi nudvā (nadi)
+<lb n="20"/>dgha saraḷīda nadō <gap reason="lost" quantity="5" unit="character"/> (vikṣitri)da (pi)nu naṁdabaka
+<lb n="21" break="no"/>ḷikaradaḷahāri <gap reason="lost" quantity="1" unit="character"/> nā <gap reason="lost" quantity="5" unit="character"/> dya tadanāgēṣvādavaḥ kṣē
+<lb n="22" break="no"/>tāmara puraṁ gaṁgāpuraṁ <g type="ddanda">.</g> dā(rā)ya(tkā)pududdaṇḍanārāma (śrī)
+<lb n="23"/>ramya harmya chāyādi divyāṁganā <gap reason="lost" quantity="2" unit="character"/> saṁpadinu (piḍi) samasta divasa(dā)
+<lb n="24"/>nīraṁgaḷiṁ dānamāvarggayānvēkādya (kāḷādivana) <gap reason="lost" quantity="2" unit="character"/> ryyadayve <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="25"/>kaḷiṁda paṁcēṟu(ha vakṣasa)ṁpadaṁ <gap reason="lost" quantity="2" unit="character"/> ṇimana <gap reason="lost" quantity="2" unit="character"/> ka <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="26"/>ddiṁ palakālada pratimāṇi yyādipadi habbada bā <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="27"/>ra latikādātraṁ caḷukyānvaya mābhyudaya nudāmaldā <gap reason="lost" quantity="1" unit="character"/> (ḻā)rā
+<lb n="28"/>drihara(hā)sa svarṇādhikāṟi saṁpadakīrtti pramadādi nārā <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="29"/> <gap reason="lost" quantity="1" unit="character"/> ḷuṁ puki(lā)lapaṁ tailapaṁ <gap reason="lost" quantity="5" unit="character"/> nitinudidarma(vaṁ mārakārege)
+<lb n="30"/> <gap reason="lost" quantity="1" unit="character"/> ṇi karṇṇaḷikalāvaṇa menisiddā vibhutalapradavaṁ janādrapattāre ja <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="31"/>nalliṁ baḷiya <gap reason="lost" quantity="1" unit="character"/> bāḷakuḷa muṁḍana <gap reason="lost" quantity="1" unit="character"/> ka <gap reason="lost" quantity="3" unit="character"/> (dvayaraṇa)
+<lb n="32"/> <gap reason="lost" quantity="2" unit="character"/> subrājana tākṣilōla naradayabhyudayā <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="33"/>varu <gap reason="lost" quantity="3" unit="character"/> madrā <gap reason="lost" quantity="2" unit="character"/> yū <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+<!--<h4>Second Face-[Top portion broken and lost].</h4>-->
+
+<p>
+<lb n="34"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="35"/> <gap reason="lost" quantity="10" unit="character"/> nisida tapa <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="36"/> <gap reason="lost" quantity="5" unit="character"/> samanilla tamage <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="37"/>kāvyakaḷācatura caturmmukha
+<lb n="38" break="no"/>ntī kṣitiyoḷe nayakīrttidē
+<lb n="39" break="no"/>va munipaṁ negaḷda <g type="ddanda">.</g> Avarādiyā
+<lb n="40" break="no"/>ge sanmunivakāhāra dānamaṁ jinapaṁ
+<lb n="41" break="no"/>bōtsavamuṁ salenelontiralavā
+<lb n="42" break="no"/>ryya śauryyarparāṁganārati dū
+<lb n="43" break="no"/>rura vitaraṇanidigoḷu saraṇā
+<lb n="44"/>gatarakṣaṇa dakṣaranrita dūra <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="45"/>kritakalikāla kaḷaṁkakrita kri
+<lb n="46" break="no"/>tyarnnarapuli(lo)yiṁḍayā <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="47"/>rtvara <g type="ddanda">.</g> Idanintī kramadiṁ
+<lb n="48"/>pāḷisuveṁbarggehi kāva <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="49"/>tri kābhyudayaṁ niścaya <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="50"/>kku <gap reason="lost" quantity="2" unit="character"/> dijanuttidarmma
+<lb n="51"/>maṁ kaṁḍu kāydudurātma(kā)
+<lb n="52" break="no"/>disalu maneṁdare mahā
+<lb n="53"/>pāpakke pakkāgi bīḷadirapu
+<lb n="54" break="no"/>tra kaḷatra mitranivahānvi <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="55"/>ni goṁdāṁtadoḷu <g type="ddanda">.</g> śrī
+</p>
+
+<!--<h4>Third Face-[Top broken].</h4>-->
+
+<p>
+<lb n="56"/>mukhaṁ saṁvatsarada phālguṇa su <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="57"/>haspati vāradaṁduttarāyaṇa saṁ
+<lb n="58" break="no"/>(krā)nti nimimittavāgi śrīmanmahāvaḍḍavyava(hā)
+<lb n="59" break="no"/>ri tūbāḷa maṇigāṟa kāḷi<unclear>se</unclear>
+<lb n="60" break="no"/>ṭṭiyaru pratiṣṭheya māḍida śrī<unclear>ma</unclear>cenna
+<lb n="61" break="no"/>pārśvanātha dēvaraṁgabhōga nivēdya pūjā
+<lb n="62"/>punaskārakkācaṁdrārkka tāraṁbaraṁ naḍe
+<lb n="63" break="no"/>vantāgi biṭṭaya Ettina Aḍakeya kēṟige Aḍake 20
+<lb n="64"/>Aḍakeya kōṇana kacce mādara Aḍake 20 kattoyva Aḍakeya (ka)
+<lb n="65"/>(vyaduḍake) Aḍa 10 Aḍakeya tale javaḷakke Aḍake 5 Etti
+<lb n="66" break="no"/>(ḷubha) kōṇana meḷasina hēṟiṁge kabbeguḍakevoḷa <unclear>sāgi</unclear>
+<lb n="67"/>da solage 1 kattiya meḷasina kabbegaḍakke Adaṟarddha
+<lb n="68"/> <gap reason="lost" quantity="2" unit="character"/> (me)ḷasina ravēja javaḷakke Aṁtadaṟarddha Ettina maḷavige
+<lb n="69"/> <gap reason="lost" quantity="3" unit="character"/> 1 kattiya maḷave capasāli Alējavakke hāga
+<lb n="70"/>(sūradiṁ) jīrage Eleya (nā)ga meḷasinopādiyanū
+<lb n="71" break="no"/>rppatti gaṁḍesigaṁ talaṁdiyāgi suṁkadadhikārigaḷge
+<lb n="72"/><unclear>ti</unclear>ṁgaḷige paṇa 1 <g type="ddanda">.</g> Aḍḍa karmmada Adhikārigaḷu tiṁgaḷiṁge
+<lb n="73"/>haṇa 1 Intī dharmmamaṁ pratipāḷisidavaru śrīvāraṇāsi
+<lb n="74"/>yalu sāvira kavileya <gap reason="lost" quantity="1" unit="character"/> sāvira brāhmaṇarige koṭṭa pha
+<lb n="75" break="no"/>lavakku kādharmma mēlādanpuke bājanaru Ā vāraṇāsiya
+<lb n="76"/>lu sāyira kavileyaṁ sāyira brāhmaṇarddaṁ (sā)la
+<lb n="77" break="no"/>mmaṁ (konda) pāpavaneyda <gap reason="lost" quantity="2" unit="character"/> ru <g type="ddanda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 29.5 by <bibl><ptr target="bib:NarasimhaMurthy2022_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:NarasimhaMurthy2022_01"/>
+			<citedRange unit="page">3-5</citedRange>
+			<citedRange unit="item">5</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

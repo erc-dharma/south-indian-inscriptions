@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.211: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 211. (A.R. No. 189 of 1904.) TIRUVAKKARAI, VILUPPURAM TALUK, SOUTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0211</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the west and south bases of the <hi rend="italic">maṇḍapa</hi> inside the first <hi rend="italic">prākāra</hi> of Chandramauḷīśvara temple.</p>						
+
+						<p>Kṛishṇadēvarāya. Ś. 1437: 1515 A.D.</p>						
+
+						<p>The details of date given, viz., Śaka 1437, Bhāva, Āḍi 9, correspond to 1515 A.D. July 8. The Śaka year quoted was current.</p>						
+
+						<p>This inscription records the grant of 2 pieces of land to a Śaiva-maṭha presided over by Tiruvakkarai Tirukkāḷatti Pichchan MeññAṉa(<hi rend="italic">MeyjñAṉa</hi>)-māmuṉi for <hi rend="italic">māhēśvarapUjā</hi>, by Tirumalai NAyaka,<note n="76-1">Compare <hi rend="italic">A.R. Ep.</hi>, 1924, No. 145.</note>and the <hi rend="italic">śrIbhaṇḍArattār</hi> of the temple.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śu</hi>va<hi rend="grantha">sti</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">śrī</hi>maṉ <hi rend="grantha">śrī</hi>vīrakiṣṇa<supplied reason="omitted">yirāyark</supplied>ku cellāniṉṟa cakāttam <num value="1430"><g type="numeral">1000</g> 4 <g type="numeral">100</g> 3 <g type="numeral">10</g></num>eṉ mel pāva<supplied reason="omitted">va</supplied>ru<hi rend="grantha">ṣa</hi>m Āṭimātam <hi rend="grantha">9�śrī</hi>matu tirumalai
+<lb n="2" break="no"/>nāya<unclear>kka</unclear>rum tiruvakka<unclear>rai</unclear> Uṭaiya nayiṉār [<hi rend="grantha">śrī</hi>pa]ṇṭārattārum cilālekai paṇṇik kuṭuttapaṭi <unclear>ti</unclear>ru<unclear>va</unclear>kka<unclear>rai tiruk</unclear>kāḷatti<unclear>piccan</unclear>
+<lb n="3"/>meññāṉa māmuṉiyaḷ peril caivamaṭattukku <hi rend="grantha">mā</hi>ye<hi rend="grantha">śva</hi>rapūcaikkup putuppākkam Eri kiḻ <gap reason="lost" quantity="1" unit="character"/> kaṭṭukkaraikku teṟku pirāyam paḷḷa Uṭaippukku kiḻakku
+<lb n="4"/>vaṭakku Ural piḷikaikku meṟku Itukku Uḷpaṭṭa kuṇṭil <hi rend="grantha"><num value="27">2 <g type="numeral">10</g> 7</num>� <num value="24">2 <g type="numeral">10</g> 4</num></hi> Aṭikkolāl nañcey kuḻi<note n="76-2">1 <hi rend="italic">kuḻi</hi>=27'X24'.</note> <num value="500">5 <g type="numeral">100</g></num> koraikeṇiyil
+<lb n="5"/>piṟivāṉa kāṅkayaṉentalil vaṭamelai mūlaiyil Ayyanār koyil tākkil <num value="24">2 <g type="numeral">10</g> 4</num> Aṭiyil kuḻi<num value="500">5 <g type="numeral">100</g></num> Āka kuḻi <num value="1000"><g type="numeral">1000</g></num> Inta
+<lb n="6"/>kuḻi Āyiramum Intac caiva maṭattukkuc cantiṟātitta varaiyum caṟuvamāṉṉiyamāka naṭakkakkaṭa vatāka<unclear>vu</unclear>m I<unclear>tukku</unclear>
+<lb n="7"/>Akitam paṇṇiṉavan<note n="76-3">The Imprecatory portion of this inscription is lost.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.211 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">76</citedRange>
+			<citedRange unit="item">211</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

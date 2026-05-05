@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 29.70: original edition by P. N. Narasimha Murthy</title>
+				<title type="alt">No. 70. (A.R. No. B. 790 of 1962-63.) HOLKUNDA, GULBARGA TALUK AND DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv29p0i0070</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab in a locality called Khaṇḍāri.</p>						
+
+						<p><hi rend="bold">Tribhuvanamalla [Vikramāditya VI] 1113 A.D.</hi></p>						
+
+						<p>This, a little damaged record, speaks of the rule of Chālukya Tribhuvanamalla. It records the grant of 35 <hi rend="italic">mattar</hi> of land to the west of the village by the <hi rend="italic">mahājanas</hi> and 40 <hi rend="italic">mattar</hi> of land to the east (of the village) by the queen Chandaladēvi, to the god Kēśavadēva of <hi rend="italic">agrahāra</hi> Poḷagunḍe which is stated to be a bhattagrāma of the queen. </p>						
+
+						<p>The record is dated in the Chālukya Vikrama year 37, Śaka 1035, Vijaya, Bhādrapada, śu. lunar eclipse. It corresponds to 1113 A.D., August. 28 [Thursday]. Lunar eclipse occured on that day.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti śrīmaccāḷukya vikra
+<lb n="2" break="no"/>ma varṣa 37 neya vijaya sa <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="3"/>rada bhādrapada suddha puṇṇami
+<lb n="4"/> <gap reason="lost" quantity="2" unit="character"/> sōmagrahaṇadaṁdu
+<lb n="5"/>śrīmatribhuvanamalla <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="6"/> <gap reason="lost" quantity="2" unit="character"/> ḷa vakṣasthaḷa <gap reason="lost" quantity="3" unit="character"/> niya <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="7"/> <gap reason="lost" quantity="1" unit="character"/> grāma caṁdaladēviya <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="8"/>bhattagrāma Agrahāra poḷa(guṁ)
+<lb n="9" break="no"/>ḍeya śrī kēśavadēvargge mahā
+<lb n="10" break="no"/>janaṁgaḷu Uriṁ paḍuvalu biṭṭa
+<lb n="11"/>dharmmada keyi kālaḍiya
+<lb n="12"/>mattaru 35 Aliṁbaḷika caṁḍala
+<lb n="13"/>dēviyaru mūḍaṇadariya
+<lb n="14"/>male biṭṭa keyi kāḍiya matta
+<lb n="15" break="no"/>ru 40 <g type="danda">.</g> Ī dharmmavakkaḷu(pi)da
+<lb n="16"/>vaṁ bāṇarāsiyalū gōsaha
+<lb n="17" break="no"/>sravanaḷida (pāpakkaṁ)va <gap reason="lost" quantity="2" unit="character"/> <g type="ddanda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 29.70 by <bibl><ptr target="bib:NarasimhaMurthy2022_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:NarasimhaMurthy2022_01"/>
+			<citedRange unit="page">90-91</citedRange>
+			<citedRange unit="item">70</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

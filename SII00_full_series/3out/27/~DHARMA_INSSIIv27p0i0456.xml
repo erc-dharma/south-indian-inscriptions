@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 27.456: original edition by M. D. Sampath, H. K. Narasimhamurthy, Madhav N. Katti and B. R. Gopal</title>
+				<title type="alt">No. 456. (A.R. No. 220 of 1931-32.) NALLŪRUPALLE, (HAMLET OF BAṆḌLAPALLE), PUNGANUR TALUK, CHITTOOR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv27p0i0456</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Stone in the sluice of the tank.</p>						
+
+						<p>This record, in late characters, refers to the allotment of six portions of produce of the land below the tank to god Agatinata (Agastya-nātha) and the remaining one portion to Taṁbiseṭi who constructed the tank at Nalluru-haḷi under the direction of Timmaya Samarasa what was the <hi rend="italic">karaṇika</hi> of the temple. The allotment was made by the latter.</p>						
+
+						<p>It is dated the cyclic year <hi rend="bold">Plavaṅga, Chaitra śu. 5;</hi> the details are insufficient for verification.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/><hi rend="bold">palavaṁga saṁvastarāda</hi>
+<lb n="2"/><hi rend="bold">caitra ssudha 5 lu</hi> śrī
+<lb n="3"/>matu Agattinata dēvara
+<lb n="4"/>karnika tiṁmaya samarasanu
+<lb n="5"/>bayira perāmaḷa maga
+<lb n="6"/>taṁbi seṭṭiyarige nallu
+<lb n="7" break="no"/>ruhaḷiya kuṁṭeyanu
+<lb n="8"/>nā niṁma kaiyalu
+<lb n="9"/>karuṇana kaṭida saṁma
+<lb n="10" break="no"/><unclear>ṁda</unclear> I kuṁṭeya keḷage
+<lb n="11"/>Uṁṭāda gadeyanu A 
+</p>
+
+<!--<h4>Back Side.</h4>-->
+
+<p>
+<lb n="12" break="no"/>gattenata dēvarige A
+<lb n="13" break="no"/>rubaga kaṭugoḍage
+<lb n="14"/>taṁbi seṭige voṁ
+<lb n="15" break="no"/>du bagavanu ninage <unclear>bā</unclear>
+<lb n="16" break="no"/>da surivaruḷaṭṭu kāla
+<lb n="17" break="no"/>lu seḍaseUḷavaru Eṁ
+<lb n="18" break="no"/>du koṭa kaṭagoḍage
+<lb n="19"/>yi kaṭugo
+<lb n="20" break="no"/>ḍage Aru tapidadu
+<lb n="21"/>taṁma tayitaṁdeyanu
+<lb n="22"/>vaṇarasiyalu koṁda
+<lb n="23"/>papadali hōguvaru
+<lb n="24"/>gōvakoṁda papadali hō
+<lb n="25" break="no"/><unclear>guvaru</unclear><note n="594-1">The last line is built</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 27.456 by <bibl><ptr target="bib:Sampath+al2001_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath+al2001_01"/>
+			<citedRange unit="page">593-594</citedRange>
+			<citedRange unit="item">456</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

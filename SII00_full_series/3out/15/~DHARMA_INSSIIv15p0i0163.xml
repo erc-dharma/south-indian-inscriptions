@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 15.163: original edition by P. B. Desai, Dines Chandra Sircar and G. S. Gai</title>
+				<title type="alt">No. 163. (B.K. No. 46 of 1929-30.) NĀGŪR, MUDDEBIHAL TALUK, BIJAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv15p0i0163</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a stone near the Īśvara temple.</p>						
+
+						<p>Siṅghaṇa, 1218-19 A.D.</p>						
+
+						<p>This is dated the cyclic year Bahudhānya in Siṅghaṇa's reign which corresponds to 1218-19 A.D. No other details are given.</p>						
+
+						<p>It records a gift of land to the stone-mason Kētōja by the <hi rend="italic">Gāvuṇḍas</hi> of Nagahura, Kēta-guru and Eight <hi rend="italic">Hiṭṭus</hi> for his masonry work. The details are not stated. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>sa¨rbanama
+<lb n="2" break="no"/>sya<note n="208-1">These two lines are engraved on the top of</note>
+<lb n="1"/>svasti srīma
+<lb n="2" break="no"/><unclear>tu</unclear> si<supplied reason="omitted">ṁ</supplied>gaṇadēva
+<lb n="3" break="no"/>va[¨r*]ṣada bahudhā
+<lb n="4" break="no"/>nya sa<supplied reason="omitted">ṁva</supplied>tsaradalu
+<lb n="5"/> <gap reason="lost" quantity="1" unit="character"/> ṁdiyada kalu
+<lb n="6" break="no"/><unclear>kela</unclear>sake nagahura
+<lb n="7" break="no"/> <gap reason="lost" quantity="5" unit="character"/> <unclear>ca</unclear>gauḍaṁ ga
+<lb n="8" break="no"/> <gap reason="lost" quantity="2" unit="character"/> kētaguruga<unclear>ḷu</unclear>
+<lb n="9"/>Eṁ<unclear>ṭu</unclear> hiṭu sahita<unclear>vā</unclear>
+<lb n="10" break="no"/>gi <supplied reason="omitted">ka</supplied>lukuṭiga kētō<unclear>ja</unclear>
+<lb n="11" break="no"/><unclear>ge</unclear> koṭa keyi matara
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 15.163 by <bibl><ptr target="bib:Desai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Desai1964_01"/>
+			<citedRange unit="page">207-208</citedRange>
+			<citedRange unit="item">163</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

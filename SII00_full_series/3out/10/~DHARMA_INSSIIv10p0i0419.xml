@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.419: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 419. (A.R. No. 828 of 1922.) ON A PILLAR IN THE GARBHAGRIHA OF THE TEMPLE OF MALLĒŚVARA AT VARAGĀNI, BAPATLA TALUK, GUNTUR DISTRICT. Ś. 1189. (Prabhava)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0419</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>States that duties payable on sales and purchases made in <hi rend="bold">Origāṇḍi</hi> are assigned to the temple of Prasanna-Chenna-Mallēśvara of the same village.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrī śubha 
+<lb n="2" break="no"/>śakasaṁvatsa 
+<lb n="3" break="no"/>ramulu 118 
+<lb n="4" break="no"/>9 yagu nēṁṭi 
+<lb n="5"/>prabhava bhā<unclear>lgu</unclear> 
+<lb n="6" break="no"/>ṇa śuddha triti 
+<lb n="7" break="no"/>yyayu śukravā 
+<lb n="8" break="no"/>ramunāṁḍu Ori 
+<lb n="9" break="no"/>gāṁḍi prasannaca 
+<lb n="10" break="no"/>nnamallayadēva 
+<lb n="11"/><unclear>gara</unclear> suṁkamu A 
+<lb n="12" break="no"/>mmina vilcinanu le 
+<lb n="13" break="no"/>kala Eḍḍamare 
+<lb n="14" break="no"/>ḍi koḍku pōtire 
+<lb n="15" break="no"/>ḍḍi manmayanāya 
+<lb n="16" break="no"/>ṁkunikinni tama 
+<lb n="17"/>taṁḍrikiṁ buṇya 
+<lb n="18" break="no"/>mugā viḍlama 
+<lb n="19"/> <gap reason="lost" quantity="1" unit="character"/> ṁ <gap reason="lost" quantity="1" unit="character"/> ḷamahaśrīśrī 
+<lb n="20"/>svadattaṁ dviguṇa 
+<lb n="21" break="no"/>ṁ puṇyaṁ para 
+<lb n="22" break="no"/>dattānupālināṁ 
+<lb n="23"/>paradattāpahā 
+<lb n="24" break="no"/>rēṇa svadattaṁ ni 
+<lb n="25" break="no"/>ṣphalaṁ bhavēt <g type="ddanda">.</g> 
+<lb n="26"/>svadattaṁ parada 
+<lb n="27" break="no"/>ttaṁ vvā yō harē 
+<lb n="28" break="no"/>ti vasuṁdhirāṁ 
+<lb n="29"/>ṣaṣṭi ¨rvva¨rṣasaha 
+<lb n="30" break="no"/>srāṇi viṣṭāyā 
+<lb n="31" break="no"/>ṁ jāyatē krimi 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.419 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">224</citedRange>
+			<citedRange unit="item">419</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

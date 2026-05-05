@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 15.197: original edition by P. B. Desai, Dines Chandra Sircar and G. S. Gai</title>
+				<title type="alt">No. 196. (B.K. No. 16 of 1927-28.) YĀONGAL, RON TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv15p0i0197</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a stone built into the wall of Maḷēvāḍadavara-maṭha.</p>						
+
+						<p>Mahādēva, [1271 A.D.]</p>						
+
+						<p>The damaged date portion of the record contains the letters <hi rend="italic">pati</hi> of the cyclic year, Śrāvaṇa śu. 6, Tuesday. This remnant may be taken to be a part of the full name Prajāpati. This cyclic year, corresponding to Śaka 1193, was the last year of Mahādēva's reign. On this assumption the date may be equated to 1271 A.D., July 14, Tuesday, f.d.t. °08.</p>						
+
+						<p>It seems to register a gift of land to a deity made into the hands of <hi rend="italic">Rājaguru,</hi> Chandrabhūshaṇa-yati. The deity Bhōgēsvarāditya is mentioned while defining the boundaries of the gift land. The inscription is badly damaged.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>© namastuṁgaśiraścuṁbicaṁdracāmaracāravē traiḷōkyanagarāraṁbhamūlastaṁbhāya śaṁbhavē
+<lb n="2"/>© svasti samadhigatapaṁcamahāśabda dvārā<unclear>vatī</unclear>pura <gap reason="lost" quantity="10" unit="character"/> yādava kuḷakamaḷa kaḷikā
+<lb n="3" break="no"/>vikāsabhāskaraṁ yerirāya <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="4"/>teluṁgarāyasthāpanācā¨ryya <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="5"/>va¨rtti śrīvīra mahādēva vi <gap reason="lost" quantity="10" unit="character"/> pati sa<unclear>ṁ</unclear>
+<lb n="6" break="no"/>vatsarada śrāvaṇa suddha 6 maṁggaḷa <gap reason="lost" quantity="10" unit="character"/> rāja<unclear>gu</unclear>
+<lb n="7" break="no"/>ru śrī caṁdrabhūṣaṇa <gap reason="lost" quantity="10" unit="character"/> siri
+<lb n="8" break="no"/>maleyāḷa <gap reason="lost" quantity="10" unit="character"/> yeṁṭu
+<lb n="9" break="no"/>hiṭṭu paṁcamaṭha <gap reason="lost" quantity="10" unit="character"/> <unclear>tanati</unclear>śubha
+<lb n="10" break="no"/>ka¨rmmacaritapravīṇa <gap reason="lost" quantity="10" unit="character"/> miyaṁ yatirā
+<lb n="11" break="no"/>jaṁ <g type="ddanda">.</g> sakaḷajana <gap reason="lost" quantity="3" unit="character"/> dha¨rmma <gap reason="lost" quantity="10" unit="character"/> <unclear>mi</unclear>yakaḷaṁkacari
+<lb n="12" break="no"/>tra caṁdrabhūṣaṇayati <gap reason="lost" quantity="10" unit="character"/> ḍisiye
+<lb n="13"/>paḍedu <unclear>saṁka</unclear>rahu <gap reason="lost" quantity="10" unit="character"/> ḍalu
+<lb n="14"/>paḍe<unclear>da bhū</unclear>mi <gap reason="lost" quantity="10" unit="character"/> koṁḍu <gap reason="lost" quantity="3" unit="character"/> ḷuvaṇige
+<lb n="15"/>ya dāriyiṁ <gap reason="lost" quantity="10" unit="character"/> baḍagalu kāḷana ke
+<lb n="16" break="no"/>ṟe <unclear>ya</unclear> karabhūmiya <gap reason="lost" quantity="10" unit="character"/> vū<unclear>ro</unclear>ḷage bhōgēśvarā
+<lb n="17" break="no"/>dityadēvariṁ paḍuvalu <gap reason="lost" quantity="10" unit="character"/> mūḍalu gavuṁḍa<unclear>na</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="18"/> <gap reason="lost" quantity="10" unit="character"/> gavuḍu mukhya yaṁṭu hiṭṭu paṁ
+<lb n="19" break="no"/><unclear>ca</unclear>maṭha nakhara muṁmuridaṁḍa samasta <unclear>pra</unclear>jegaḷu prati<unclear>pāḷisuvaru</unclear> sa¨rvva mānya vāgi naḍasuvantāgi
+<lb n="20"/>koṭṭaśāsana [<g type="ddanda">.</g>] 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 15.197 by <bibl><ptr target="bib:Desai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Desai1964_01"/>
+			<citedRange unit="page">245</citedRange>
+			<citedRange unit="item">197</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

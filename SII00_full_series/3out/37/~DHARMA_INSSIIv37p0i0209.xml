@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.209: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 209. (A.R. No. E 18 of 1939-40.) Guḍimūla (hamlet of Rāmēśvaram), Rajole Taluk, East Godavari District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0209</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Third pillar in the Rāmēśvara temple.</p>						
+
+						<p>Vishṇuvadrdhana.</p>						
+
+						<p>This is dated <hi rend="bold">Śaka 1010, Uttarāyaṇa-saṁkrāṁti,</hi> may correspond to 1088 A.D. It mentions Rājarāja Brahma Māraya, the <hi rend="italic">senādhipati</hi> of Śrī Kulōttuṅga Chōḷa dēva.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>śakava¨rṣaṁbulu 10<unclear>10</unclear> svasti [sa¨rvva]lōkāśra yaśrī <unclear>viṣṇu</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="2"/><unclear>na</unclear> mahārājula [prava¨rddha]māna vijayarājya <unclear>saṁvatsara</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="3"/>śrī <unclear>kulōttuṁga</unclear>cōḷa dēvara sēnādhipati 
+<lb n="4"/>rājarāja brahmamāraya <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="3" unit="character"/> nuttarāyaṇa saṁkrāṁtti <unclear>nimitta</unclear> 
+<lb n="6" break="no"/>muna <gap reason="lost" quantity="10" unit="character"/> <unclear>ma</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="7"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="8"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="9"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="10"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="11"/> <gap reason="lost" quantity="5" unit="character"/> gala <gap reason="lost" quantity="10" unit="character"/> koḍku 
+<lb n="12"/> <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.209 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">166</citedRange>
+			<citedRange unit="item">209</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

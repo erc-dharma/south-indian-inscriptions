@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.322: original edition by S. Swaminathan</title>
+				<title type="alt">No. 322. (A.R. No. 322 of 1912.) KARSHAṆAPALLE, PUNGANUR TALUK, CHITTOOR DISTRICT. On a pillar in the porch of the maṇḍapa infront of the central shrine, Arkēśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0322</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">King: ••••• Year: ••••</hi></p>						
+
+						<p>Records that Śivaṉāchchāri, son of Vīrararāchāri, a metal smith <hi rend="italic">(karumāṉ)</hi> who possessed <hi rend="italic">kāṇi</hi> in Muttukkūṟ and Selvāchāri, son of Aṅgāchāri, caused the construction of steps <hi rend="italic">(sōpāna).</hi> It is also mentioned that both of them were the carpenters of Kōmūr.</p>						
+
+						<p>This inscription on the grounds of palaeography may be assigned to the 16th century A.D.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+<lb n="2"/>muttukkū
+<lb n="3" break="no"/>ṟ kāṇiyā
+<lb n="4" break="no"/>ḷaṉ karumā
+<lb n="5" break="no"/>ṉ vira<note n="367-1">The letter ‘ra’ is found engraved like e throuṅhout.</note>r<choice><sic>a</sic><corr>ā</corr></choice>cā
+<lb n="6" break="no"/>ri makaṉ civa
+<lb n="7" break="no"/>ṉāccāri<note n="367-1">The letter ‘ra’ is found engraved like e throuṅhout.</note>yum
+<lb n="8"/>Aṅkācāri<note n="367-1">The letter ‘ra’ is found engraved like e throuṅhout.</note>
+<lb n="9"/>makaṉ celvā
+<lb n="10"/>cāri<note n="367-1">The letter ‘ra’ is found engraved like e throuṅhout.</note>yum Ic
+<lb n="11" break="no"/>copaṉañ
+<lb n="12"/>ceyvitto
+<lb n="13" break="no"/>m komur<note n="367-1">The letter ‘ra’ is found engraved like e throuṅhout.</note>tac
+<lb n="14"/>cu taṭṭār<note n="367-1">The letter ‘ra’ is found engraved like e throuṅhout.</note><supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.322 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">367</citedRange>
+			<citedRange unit="item">322</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

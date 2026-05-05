@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 33.7: original edition by K. Munirathnam and T. S. Ravishankar</title>
+				<title type="alt">No. 7. (A.R. No. 113 of 1946.) Alavalapāḍu, Pulivendla Taluk, Cuddapah District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv33p0i0007</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab set up near the Śiva temple in the village.</p>						
+
+						<p>This is dated Ānanda, Mārgaśira ba. 8.</p>						
+
+						<p>Damaged. Seems to record some gift to the potters by the village officials <hi rend="italic">viz.,</hi> Reḍḍis and Karaṇams. In characters of about the 17th century A.D.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>Ānaṁda saṁvatsara mā¨rgasira ba 
+<lb n="2"/>8 lu śrīmatu Aluvalapāḍireḍi (karaṇā)lu A 
+<lb n="3" break="no"/>luvala pāḍipolaṁlō kuṁmaru(ba ḷuru) ḍeṁdu 
+<lb n="4" break="no"/>ku veIṁcina śāsanaṁ (Aṁ)guta 8 <g type="ddanda">.</g> lekhanu ye 
+<lb n="5" break="no"/>nimīdi (yōḍarā) naḍapagala vāraṁ koṁ 
+<lb n="6"/>ma rāmaṁ <gap reason="lost" quantity="3" unit="character"/> (pēṁ)ṭa staḷāru <gap reason="lost" quantity="5" unit="character"/> ti mi 
+<lb n="7"/>kāgalavāraṁ 
+<lb n="8-14"/><ce>lines are wornout</ce>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 33.7 by <bibl><ptr target="bib:Munirathnam2013_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2013_01"/>
+			<citedRange unit="page">5-6</citedRange>
+			<citedRange unit="item">7</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

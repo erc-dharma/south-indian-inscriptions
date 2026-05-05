@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.781: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 781. (A.R. No. 147 of 1921.) ON A ROCK IN THE MAṆIYAGĀR-MĀNYAM TO THE WEST OF PARAVAKKAL, GUDIYATTAM TALUK, NORTH ARCOT DISTRICT. Śaka year not given (Bahudhānya)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0781</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Unintelligible. Seems to record that the agent of the <hi rend="bold">Navāb Sāhib</hi> made a money payment to one <hi rend="bold">Veṅgana</hi> with the consent of the <hi rend="italic">Karaṇam,</hi> etc.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>ba<unclear>hu</unclear>dhānyasaṁvatsara Āninela modaṭi tēdi 
+<lb n="2"/>nabābusahēbulavāri kā[¨rya]ka¨rta layina Aka 
+<lb n="3" break="no"/>laciṁgu<unclear>khapara</unclear> <gap reason="lost" quantity="3" unit="character"/> gana komaruḍuve<unclear>ṁ</unclear>ga naku ka 
+<lb n="4" break="no"/> <gap reason="lost" quantity="2" unit="character"/> <unclear>pa</unclear>rokhālunapatenna ka¨rnaṁvarula sama tina yicina 
+<lb n="5"/> <gap reason="lost" quantity="4" unit="character"/> dhilu 400 mērala yicina mana <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="6"/> <gap reason="lost" quantity="2" unit="character"/> nnabava <gap reason="lost" quantity="1" unit="character"/> yikoni sukāna Uṁḍē<unclear>di</unclear> yidha 
+<lb n="7"/> <gap reason="lost" quantity="3" unit="character"/> ka<unclear>ḍu</unclear>tapitē <unclear>paṁdi</unclear> tinnaṭlu 
+<lb n="8"/>ka¨rnaṭaka tapidi gōvu saṁpinaṭu 
+<lb n="9"/> <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="10"/> <gap reason="lost" quantity="6" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.781 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">409</citedRange>
+			<citedRange unit="item">781</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

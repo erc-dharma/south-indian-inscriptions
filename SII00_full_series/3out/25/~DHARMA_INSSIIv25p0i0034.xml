@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 25.34: original edition by M. D. Sampath</title>
+				<title type="alt">No. 34. (A.R. No. 34 of 1908.) GAṄGAIKOṆḌACHŌḶAPURAM, UDAIYARPALAIYAM TALUK, TIRUCHCHIRAPPALLI DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv25p0i0034</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>East wall of the <hi rend="italic">maṇḍapa</hi> in front of the central shrine in the Bṛihadīśvara temple.</p>						
+
+						<p>This fragmentary inscription may be assigned on palaeographical grounds to the 12th century. Except for the <hi rend="italic">tithi</hi> and the week-day viz., <hi rend="italic">trayōdaśi</hi> and Monday, the other details of date are lost.</p>						
+
+						<p>It seems to record a gift of some villages, which were originally made as <hi rend="italic">dēvadāna,</hi> as tax-free <hi rend="italic">(iṟaiyili)</hi> along with its income from taxes from the date of the record. All other details are lost.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrīḥ <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīmat</hi> kittikku mel <hi rend="grantha">tribhu</hi>vaṉac<note n="49-1">The ends of the lines are mutilated.</note>⎯⎯
+<lb n="2"/><hi rend="grantha">tra</hi>yo<hi rend="grantha">daśi</hi>yum tiṅkaṭkiḻamaiyum peṟṟa tiru⎯⎯
+<lb n="3"/>va(r) tāṉamāka viṭṭa vaṭakarai viru<hi rend="grantha">dha</hi>rā<hi rend="grantha">jabha</hi>yaṅkara⎯⎯
+<lb n="4"/>Uḷḷiṭṭa Ūrkaḷ Iṉṉāḷ mutal mutalaṭaṅka Iṟaiyi⎯⎯ ⎯⎯
+<lb n="5"/>pūvum karuppum kamukum ceṅkaḻinirum vāḻai koḻuntu <gap reason="lost" quantity="11" unit="character"/> kku vaḻutalai⎯⎯
+<lb n="6"/>ṟai taṭṭoli taṭṭārappapāṭṭam veṭṭippāṭṭam I <gap reason="lost" quantity="10" unit="character"/> ṭṭut tevaikaḷ Uṭ⎯⎯
+<lb n="7"/>yap peṟu cantivi<hi rend="grantha">kraha</hi>ppeṟu maṟṟum Eṟperppaṭṭa Uḷ <gap reason="lost" quantity="10" unit="character"/> Iṉṉāḷ <unclear>mutali</unclear> muta <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="8"/>mpilum veṭṭi Ivvūriṉil tiruccūla<hi rend="grantha">stā</hi>paṉam
+<lb n="9-12"/> <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 25.34 by <bibl><ptr target="bib:Sampath2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath2012_01"/>
+			<citedRange unit="page">49</citedRange>
+			<citedRange unit="item">34</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

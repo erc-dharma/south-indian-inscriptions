@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.122: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 122. (A.R. No. E 12 of 1938-39.) Vīravāsaram, Bhimavaram Taluk, West Godavari District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0122</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Nandi pillar (south face) in the Viśvēśvarasvāmi temple.</p>						
+
+						<p>This is dated in <hi rend="bold">Śaka 1113, Chaitra śu. 15, Thursday.</hi> However, the details are irregular.</p>						
+
+						<p>Damaged. Seems to record an endowment of land to the temple of Mahādēva.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrī śakava¨rṣaṁbulu [ 11 
+<lb n="2" break="no"/>13 ] Agunēṁṭi <gap reason="lost" quantity="3" unit="character"/> caitra <unclear>śuddha</unclear> 15 <gap reason="lost" quantity="1" unit="character"/> <unclear>gu</unclear> 
+<lb n="3" break="no"/> <gap reason="lost" quantity="5" unit="character"/> <unclear>ruvāraṁ</unclear> jēkoni <gap reason="lost" quantity="1" unit="character"/> śrīmahadē 
+<lb n="4" break="no"/>vuniki <gap reason="lost" quantity="10" unit="character"/> maṁ <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="5" unit="character"/> nāgireḍḍi koḍuku malire 
+<lb n="6" break="no"/>ḍi koḍuku <gap reason="lost" quantity="5" unit="character"/> taṁḍri 
+<lb n="7"/> <gap reason="lost" quantity="3" unit="character"/> ni <gap reason="lost" quantity="5" unit="character"/> saniki <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="8"/><unclear>mugānu</unclear> Akhaṁḍa dīpānakuṁ<unclear>beṭina</unclear> 
+<lb n="9"/>kṣētramu samā <gap reason="lost" quantity="3" unit="character"/> dakṣiṇa <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="10"/> <gap reason="lost" quantity="10" unit="character"/> tōpuna <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="11"/> <gap reason="lost" quantity="3" unit="character"/> 18 <gap reason="lost" quantity="3" unit="character"/> nana <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="12"/> <gap reason="lost" quantity="1" unit="character"/> dakṣaṇana <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="13"/> <gap reason="lost" quantity="5" unit="character"/> vana <gap reason="lost" quantity="5" unit="character"/> 2 śrī 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.122 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">94-95</citedRange>
+			<citedRange unit="item">122</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

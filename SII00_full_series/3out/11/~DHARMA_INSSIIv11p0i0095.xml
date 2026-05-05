@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 11.95: original edition by C. R. Krishnamacharlu, R. S. Panchamukhi, N. Lakshminaraya Rao and H. K. Narasimhaswami</title>
+				<title type="alt">No. 95. (B.K. No. 228 of 1926-27). SŪḌI, RON TALUK, DHARWAR DISTRICT. ON A STONE SET UP INSIDE THE TEMPLE OF JŌḌUKAḶAŚADĒVA.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv11p0i0095</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The inscription refers itself to the reign of <hi rend="bold">Trailōkyamalladēva (Sōmēśvara I),</hi> and records that Mahāsāmantādhipati <hi rend="bold">Nāgadēvayya</hi> granted the village of <hi rend="bold">Sivaṇūr</hi> in <hi rend="bold">Kisukāḍu Seventy</hi> to Sōmēśvara-Paṇḍitadēva under the royal warrant, when the king was camping at <hi rend="bold">Puḷiyappayaṇavīḍu</hi> in <hi rend="bold">Sindavāḍi-nāḍu.</hi> Nāgadēvayya of this inscription must be identical with the homonymous minister of Sōmēśvara figuring in No. 91 above (B.K. No. 230 of 1926-27).</p>						
+
+						<p>The record is <hi rend="bold">dated Śaka 981, Vikāri, Māgha, puṇṇame, Monday, lunar eclipse.</hi> The intended date must be <hi rend="bold">A.D. 1061, January 8, Monday;</hi> ·77, on which day there was a lunar eclipse. The cyclic year was however Śārvarin (= Śaka 982, expired).<note n="90-1">Dr. in the record.</note></p>						
+
+						<p>(Published in <hi rend="italic">Ep. Ind.</hi> Volume XV., pp. 85 ff.)</p>						
+
+						<p>The following corrections may, however, be noted in the text given here:—</p>						
+
+						<table>
+
+<c1>Line </c1><c2><hi rend="italic">For</hi> </c2><c3><hi rend="italic">Read</hi></c3>
+
+<c1>1 </c1><c2>ºāvishkṛitaṁ </c2><c3>āvishkritam</c3>
+
+<c1> </c1><c2>ºārṇṇavaṁ </c2><c3>ārṇnavaṁ</c3>
+
+<c1>4 </c1><c2>ºārṇṇavāº </c2><c3>ārṇnavāº</c3>
+
+<c1>17 </c1><c2>ºpira-pāṭanº </c2><c3>pīṭha-pāṭanº</c3>
+
+<c1>18 </c1><c2>karṇṇēº </c2><c3>karṇnē</c3>
+
+<c1>22 </c1><c2>vistīrṇṇa </c2><c3>vistīrṇna</c3>
+
+<c1>22 </c1><c2>baṇṇise </c2><c3>baṇnise</c3>
+
+<c1>27 </c1><c2>puṇṇame </c2><c3>puṇname</c3>
+
+<c1>30 </c1><c2>• • </c2><c3>da <hi rend="italic">after</hi> pratibaddha•</c3>
+
+<c1>36 </c1><c2>Jadha(ga) </c2><c3>jagaº</c3>
+
+</table>						
+
+						<p>2 On a stray piece attached to this is the following line. <ka>satrakke naḍeva sunkama [1] vamcisidavaru brāhmaṇara[ṁ] kavileya naḷidavaru <supplied reason="undefined"><g type="danda">.</g></supplied></ka></p>						
+
+						<table>
+
+<c1>Line </c1><c2><hi rend="italic">For</hi> </c2><c3><hi rend="italic">Read</hi></c3>
+
+<c1>38 </c1><c2>chaturāº </c2><c3>chāturāº</c3>
+
+<c1>39 </c1><c2>kiriyakallaº </c2><c3>kariya-kallarmmuº</c3>
+
+<c1>40 </c1><c2>meyya-beḷada </c2><c3>meyya beḷada</c3>
+
+<c1>47 </c1><c2>• • </c2><c3>gi <hi rend="italic">after</hi> modalā</c3>
+
+<c1>53 </c1><c2>ºemba = antuṭane </c2><c3>embantuṭaṇa</c3>
+
+</table>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:undetermined maturity:undetermined">
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 11.95 by <bibl><ptr target="bib:Krishnamacharlu1940_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnamacharlu1940_01"/>
+			<citedRange unit="page">90-91</citedRange>
+			<citedRange unit="item">95</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

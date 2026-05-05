@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.354: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 354. (A.R. No. 113 of 1926.) TIRUVIḶAKKUḌI, MAYURAM TALUK, TANJAVUR DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE, MAṆAVĀḶĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0354</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records the gift of a silver vessal weighing 30 <hi rend="italic">Īḻakkāśu</hi> for offering water to the god during worship, by <hi rend="bold">Aiyaṉ Māraśiṅgaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Vīraśēkhara-Mūvēndavēḷāṉ</hi> the donor mentioned in No. 312 above. <hi rend="bold">Vīraśēkhara</hi> was possibly a title of king <hi rend="bold">Uttama-Chōḷa.</hi> </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha"><g type="ddanda">.</g> svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopparakecaripa<hi rend="grantha">nma</hi>ṟku yāṇṭu <num value="14"><g type="numeral">10</g> 4</num><g type="dash"/>Āvatu vaṭa
+<lb n="2" break="no"/>karai nallāṟṟū<supplied reason="omitted">r</supplied> nāṭṭu kuṇamalappāṭi yuṭaiyāṉ Aiyaṉ māraciṅkaṉāna viracekara muventave
+<lb n="3"/>ḷāṉ Ittevarkku ca<hi rend="grantha">ndrā</hi>tittavaṟ taṇṇiramutu ceyya vaitta veḷḷittaṭṭam 1 Itu <num value="30">3 <g type="numeral">10</g></num> Īḻak
+<lb n="4"/>kāciṉ niṟai Itu <hi rend="grantha">panmāheśva</hi><supplied reason="omitted">ra</supplied>ra<hi rend="grantha">kṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.354 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">181-182</citedRange>
+			<citedRange unit="item">354</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.45: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 45. (A.R. No. B 397 of 1938-39.) Mōyiḷḷakālva, Cuddapah Taluk, Cuddapah District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0045</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab lying in a field about 1 km to the east of the village.</p>						
+
+						<p>Vijayanagara: Sadāśiva.</p>						
+
+						<p>It seems to record the royal grant of land in the village Mogiḷakālava, probably a hamlet of Kalūru <hi rend="italic">alias</hi> Śrīraṅgarāja-samudram to Tirumala-Narahari-Tātāchāryuluṁgāru. The gift is stated to have been made on the banks of the Tuṅgabhadra and in the presence of god Viṭhalēśvara.</p>						
+
+						<p>[Published in <hi rend="italic">Inscriptions of Andhra Pradesh;</hi> Cuddapah District, Part II, No. 269.]</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<note n="35-1">Inscription bears human figure with an umbrella and Kamaṇḍalam in his</note>
+
+<p>
+<lb n="1"/>� śubhamastu <gap reason="lost" quantity="5" unit="character"/> dhirāja 
+<lb n="2" break="no"/>rājaparamē <gap reason="lost" quantity="10" unit="character"/> śrīvīra 
+<lb n="3" break="no"/>satā<unclear>dā</unclear>si <gap reason="lost" quantity="10" unit="character"/> yalu <g type="ddanda">.</g> śrīmatē 
+<lb n="4" break="no"/>rāmānu<unclear>jāyana</unclear>maḥ [<g type="danda">.</g>] śrīmadvēdamā 
+<lb n="5" break="no"/>¨rgga pratiṣṭācāryulaina tirumala nara 
+<lb n="6" break="no"/><unclear>hari tā</unclear>tācāryuluṁgāriki tuṁgabha 
+<lb n="7" break="no"/>drā tīrama<unclear>ṁ</unclear>du śrī viṭhalēśvaruni saṁni 
+<lb n="8" break="no"/>dhini sahiraṁṇyō <gap reason="lost" quantity="3" unit="character"/> dāna dhārāpūrva 
+<lb n="9" break="no"/>kamugānu dhāravōsi yicciri kalūri 
+<lb n="10" break="no"/>ki pratināmamaina śrīraṁgarāja samudraṁlō 
+<lb n="11"/><unclear>ni</unclear>yo<unclear>gi</unclear>ḷa kāluva <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="12"/> <gap reason="lost" quantity="1" unit="character"/> gala polamu <gap reason="lost" quantity="2" unit="character"/> śāsana<unclear>mu</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.45 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">34-35</citedRange>
+			<citedRange unit="item">45</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.437: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 437. (A.R. No. 584 of 1912.) ON A PILLAR IN THE COMPOUND OF THE SUB-COLLECTOR'S OFFICE, PENUKONDA, ANANTAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0437</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is damaged and the date is partly lost with the exception of <hi rend="bold">Śaka 1339 (A. D. 1417-18).</hi> It records the setting up of the lamp-post by a <hi rend="italic">Mahāmaṇḍalēśvara</hi> (name lost).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="4" unit="character"/> varṣa 1339<note n="446-1">The inscription is broken</note>
+<lb n="2"/> <gap reason="lost" quantity="4" unit="character"/> saṁvatsarada
+<lb n="3"/> <gap reason="lost" quantity="4" unit="character"/> 1 bu<supplied reason="omitted">dha</supplied>vārada
+<lb n="4"/> <gap reason="lost" quantity="4" unit="character"/> <unclear>hā</unclear> maṁḍaḷēsvara
+<lb n="5"/> <gap reason="lost" quantity="4" unit="character"/> ṁḍrarāya<unclear>dē</unclear>va
+<lb n="6"/> <gap reason="lost" quantity="4" unit="character"/> ṁḍeya vasaṁ
+<lb n="7"/> <gap reason="lost" quantity="4" unit="character"/> Etisida dīpana <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="8"/> <gap reason="lost" quantity="4" unit="character"/> ko
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.437 by <bibl><ptr target="bib:ShamaShastry+Rao1941_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:ShamaShastry+Rao1941_01"/>
+			<citedRange unit="page">446</citedRange>
+			<citedRange unit="item">437</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

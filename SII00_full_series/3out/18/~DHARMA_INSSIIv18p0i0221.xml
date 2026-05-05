@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.221: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 221. (B.K. No. 129 of 1932-33.) KAḶḶĪHĀḶ, HAVERI TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0221</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Hero-stone set up in the temple of Durgā-Paramēśvari.</hi></p>						
+
+						<p>Siṁghaṇa—A.D. 1236.</p>						
+
+						<p>This inscription is dated in the <hi rend="bold">26th year</hi> of the reign of <hi rend="bold">Siṁghaṇadēva, Manmatha, ba. 10, Tuesday,</hi> corresponding to <hi rend="bold">A.D. 1236, March 4, Tuesday.</hi> The month, which is omitted, was <hi rend="bold">Phālguṇa</hi> as is known from other records mentioning the same incident and bearing the same date. It records the death of <hi rend="bold">Sōvabōva</hi> in an attack on <hi rend="bold">Ajaḍi</hi> by <hi rend="bold">Pōḍiyadēva (Pāṇḍyadēva ?).</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti śrīmatu yādavanārāyaṇa pratāpacakra
+<lb n="2" break="no"/>vartti siṁghaṇadē<supplied reason="omitted">va</supplied>varisada 26 manmate(tha)saṁva<supplied reason="omitted">tsa</supplied>ra
+<lb n="3" break="no"/>da bahuḷa 10 maṁ<supplied reason="omitted">ga</supplied>ḷavaradalu Ajaḍiya-pō
+<lb n="4"/>ḍiyadēva haīdali sōvabōva māhimuriseḷa ma<supplied reason="omitted">ḍi</supplied>pi tā
+<lb n="5"/>suralōkaprāptanāda
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.221 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">295-296</citedRange>
+			<citedRange unit="item">221</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

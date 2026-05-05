@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 24.440: original edition by H. K. Narasimhaswamy</title>
+				<title type="alt">No. 440. (A.R. No. 15 of 1938-39.) II PRĀKĀRA, EAST WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv24p0i0440</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Śaka 1461 (1539 A.D.)</hi></p>						
+
+						<p>States that under orders from <hi rend="bold">Śrīraṅgappa-Nāyaka,</hi> son of <hi rend="bold">Tuḷuva Veṅgaḷa-Nāyaka,</hi> the two verses in Sanskrit composed by <hi rend="bold">Ōduva Tirumalaidēvi Ammaṉ,</hi> the <hi rend="italic">Rāyamahishī,</hi> in honour of her husband, the king, on the occasion of the <hi rend="italic">Tulābhāra mahādāna</hi> performed by him were engraved. The details of the date viz. <hi rend="bold">Śaka 1461, Vikāri, Bhādrapada, śu. 12, Tuesday, Srāvaṇa</hi> correspond regularly to <hi rend="bold">1539, A.D. August 26, Tuesday, ·36, ·72.</hi></p>						
+
+						<p>Published in <hi rend="italic">Ep. Ind. Vol.</hi> XXIV, pp. 285 ff.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:grantha maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">subhamastu <supplied reason="undefined"><g type="ddanda">.</g></supplied> svastiśrī <supplied reason="undefined"><g type="danda">.</g></supplied> śakābdam 1461</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">Itaṉ mel cellā niṉṟa</seg> <hi rend="grantha">vikārisamvatsarattu bhādrapada</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">mā</seg><hi rend="grantha">sa</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tt</seg><hi rend="grantha">u</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">pū</seg><hi rend="grantha">rva</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">pakṣattu tuvā</seg><hi rend="grantha">daśi</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">yu</seg><hi rend="grantha">m</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">maṅkala vāramum peṟṟa tiruvoṇanakṣa</seg><hi rend="grantha"><supplied reason="omitted">tra</supplied></hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ttu ṉāḷ</seg> <hi rend="grantha">śrīmanmahārājādhirāja rāja</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">pa</seg><hi rend="grantha">ramēśvara śrīvirapra</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tāpa</seg> <hi rend="grantha">śrīaccyutarāyamahārā</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">yar tu</seg><hi rend="grantha">lābhāramahā</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tāṉam paṇṇi Aruḷiṉār <supplied reason="undefined"><g type="danda">.</g></supplied> Itukku</seg> <hi rend="grantha">mahārāya</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">Uṭaiya</seg><hi rend="grantha">rājamahi</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṣiyāṉa Otuva tirumalai tevi Ammaṉ Avarkaḷ</seg> <hi rend="grantha">ślōkadvayam</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ceytaruḷiṉār <supplied reason="undefined"><g type="danda">.</g></supplied></seg>
+<lb n="2"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">Inta</seg> <hi rend="grantha"><unclear>tha</unclear>rmmam śrīraṅgādipuṇṇyakṣētraṅkaḷi</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">le</seg> <hi rend="grantha">candrādidya</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">varaiyum</seg> <hi rend="grantha">prasiddhamāka</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">naṭantāl cikkaveṅkaṭātti</seg><hi rend="grantha">rirā</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ya(r)ruṭaiya</seg> <hi rend="grantha">santāna</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ttil Uḷḷavar kaḷ</seg> <hi rend="grantha">sārvabhēlṛmarā</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">y</seg> <hi rend="grantha">pṛthivirājyam</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">paṇṇuvārkaḷ Eṉṟu perumāḷ</seg> <hi rend="grantha">śrīraṅganāthadē</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">var caṉṉatiyile</seg> <hi rend="grantha">śilāśāsa</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">nam paṇṇiṉapaṭi <g type="ddanda">.</g></seg> <hi rend="grantha">śākē camdrarasāmarēmdragaṇitē varṣēvikāryāhvayē pakṣē bhādrapadasya pōṣitavidhau dvādaśyabhi<supplied reason="omitted">kh</supplied>y(ō)tithau <g type="danda">.</g> vārēbhūmisutasya viṣṇvadhipatau tārē cyuta</hi>
+<lb n="3" break="no"/><hi rend="grantha">kṣmāpatirddatvāna</hi><note n="425-1">Read <hi rend="grantha">tvānandam</hi></note> <hi rend="grantha">ntanidhim dvijan dhanadayannāmōdaya mmādhavam <supplied reason="undefined"><g type="ddanda">.</g></supplied> puṇyē<unclear>lṛ</unclear>ghaiḥ paripālitasya paritō bhūtāḷisamv<unclear>ē</unclear>ṣṭitāssadvargaiśśabaḷikṛtasya satatākrāntā bhujaṅgaprajaiḥ prāptasyātinava praśastimadhika prakhyāta śauryyācyutakṣmāpānanta</hi><note n="425-1">Read <hi rend="grantha">tvānandam</hi></note> <hi rend="grantha">nidhērṇavāpi nidhayaḥ kintē labhantē tulām <g type="ddanda">.</g> śubhamastu <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+<lb n="4"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">Inta cuvāmi varakkāṭṭi Aruḷiṉa</seg> <hi rend="grantha">ślō</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">kam Iraṇṭum Accutateva makārāyaruṭaiya pātacevai paṇṇum tuḷuva veṅkaḷanāyakkar makaṉ cīraṅkappaṉāyakkar Atikārattil cilācātanam paṇṇiṉa paṭikku kovilk kaṇakku</seg> <hi rend="grantha">śrīraṅga-</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">nārāyaṇapiṟiyaṉ Eḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied></seg>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 24.440 by <bibl><ptr target="bib:Narasimhaswamy1982_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Narasimhaswamy1982_01"/>
+			<citedRange unit="page">424-425</citedRange>
+			<citedRange unit="item">440</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

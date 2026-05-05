@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 26.655: original edition by P. R. Srinivasan</title>
+				<title type="alt">No. 655. (A.R. No. 614 of 1909.) TIRUCHCHIRAI, KUMBAKONAM TALUK, THANJAVUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv26p0i0655</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>South wall of the central shrine in the same temple.</p>						
+
+						<p><hi rend="bold">Śaka 1566, Tāraṇa, Kārttigai 17, Saturday, Rōhiṇī = 1644 A.D., November 16. The nakshatra was Svātī.</hi></p>						
+
+						<p>This inscription records a gift of 3 and 8 <hi rend="italic">mā</hi> (i.e., 68 <hi rend="italic">mā</hi>) of <hi rend="italic">puñjai</hi> land in Gaṅgādharanallūr providing mask, <hi rend="italic">pītāmbaram,</hi> private bathing and scents to smear with, to the image of the god Sāranāthasvāmi and a gift of 1/2 (10 <hi rend="italic">mā</hi>) of <hi rend="italic">nañjai</hi> land (probably in the same place) in favour of the shrine of Āḻvār, by a certain Gōvindadāsaṉ, for the merit of the ruler Vijayarāghavabhūpālaṉ, It is stated that the gift-land was given away to a certain Sugandam Appaṅgār with the stipulation that he and his progenies should carry out the object of the gift.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śrīsāranādhādhanmaḥ svastiśrī śakābdam <num value="1566"><g type="numeral">1000</g> 5 <g type="numeral">100</g> 6 <g type="numeral">10</g> 6</num></hi> Itiṉmel cellāniṉṟa tāruṇavaru<hi rend="grantha">ṣa</hi>m kāttikai mātam <hi rend="grantha"><num value="17"><g type="numeral">10</g> 7</num> nāḷ</hi> cani <hi rend="grantha">rohi</hi>ṇi ṉāḷ <hi rend="grantha">śrīsāra</hi>nā<hi rend="grantha">thasvāmi</hi>kku <hi rend="grantha">Aṅgi</hi>pītāmpa<hi rend="grantha">ra</hi>mum cāttiviccu Ekānta tirumañcaṉattukkum cāntukāppukkum Āḻvār <hi rend="grantha">sa</hi>nni<hi rend="grantha">dhi</hi>kkum vi<hi rend="grantha">ja</hi>ya<hi rend="grantha">rāgha</hi>va<hi rend="grantha">bhupāla</hi>ṉ puṇṇiyamāka <hi rend="grantha">go</hi>vinta<hi rend="grantha">dāsa</hi>ṉ keṅkāta<hi rend="grantha">ra</hi>nallūril poliviṭṭāka <hi rend="grantha">samarppi</hi>tta puñcainilam muṉṟe Eṭṭumā Āḻvār <hi rend="grantha">sa</hi>nni<hi rend="grantha">dhi</hi>kku <hi rend="grantha">samarppi</hi>tta nañcai nilam Arai Āka nilam
+<lb n="2"/>muṉṟe mukkāle muṉṟu māvum cukantam Appaṅkār pāricamāka kaṭṭaḷaiyiṭṭu <hi rend="grantha">dhārāpūrvvaka</hi>māka <hi rend="grantha">dharmma śāsa</hi>nam paṇṇi <hi rend="grantha">samarppi</hi>tta paṭiyiṉāle Ā<hi rend="grantha">candrārkkasthā</hi>yiyā<hi rend="grantha">putrapautrapara</hi>mparaiyāka <hi rend="grantha">sāra</hi>nā<hi rend="grantha">dhasvāmi</hi>kke <gap reason="lost" quantity="1" unit="character"/> kai<hi rend="grantha">mkaryyam</hi> paṇṇikkoṇṭu cukattile yirukkavum Inta <hi rend="grantha">dharmma</hi>ttukku Ārākilum vi<hi rend="grantha">ghnam</hi> paṇṇiṉāl keṅkaik karaiyile kārām pacuvai koṉṟa <hi rend="grantha">doṣa</hi>ttile pokavum
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 26.655 by <bibl><ptr target="bib:Srinivasan1990_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Srinivasan1990_01"/>
+			<citedRange unit="page">439</citedRange>
+			<citedRange unit="item">655</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

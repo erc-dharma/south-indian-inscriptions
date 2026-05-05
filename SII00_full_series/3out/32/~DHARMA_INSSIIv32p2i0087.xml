@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 32, part 2, no. 87: original edition by S. Swaminathan</title>
+				<title type="alt">No. 87. (A.R. No. 42 of 1897.) KARUNTAṬṬĀṄKUḌI, TANJAVUR TALUK, TANJAVUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv32p2i0087</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south wall, central shrine, Vasishṭēśvara temple.</p>						
+
+						<p><hi rend="bold">Year 10: 981 A.D.</hi></p>						
+
+						<p>The first two lines are published in <hi rend="italic">S.I.I.,</hi> Vol. V No. 1405.</p>						
+
+						<p>Records that Madhurāntakan Gaṇḍarādittaṉ donated ninety-six sheep for burning a perpetual lamp to Mahādēva of Karuntiṭṭaikuḍi, a suburb on the outskirts of Tañjāvūr in Tañjāvūr-kūṟṟam. The shepherd Amaraṉ Kuṟumbaṉ received the sheep and agreed to supply <hi rend="italic">uḷakku</hi> of ghee by the measure <hi rend="italic">Rājakēsari</hi> for that purpose. However as he could not fulfil his obligation, in the eleventh year ie next year (982 A.D.) Amaraṉ Karuvūraṉ received forty-eight sheep from Amaraṉ Kuṟumbaṉ and agreed to supply an <hi rend="italic">āḻākku</hi> of ghee daily by the measure, <hi rend="italic">Rājakēsari.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopparakecaripaṉmaṟkku yāṇṭu pattāvatu tañcāvūrk kūṟṟattu tañcāvūr puṟampaṭik karunti<supplied reason="omitted">ṭ</supplied> 
+<lb n="2" break="no"/>ṭaikuṭi <hi rend="grantha">ma(ā)hāde</hi>varkku maturān=takaṉ kaṇṭarātittaṉ vaitta Āṭu toṇṇūṟṟāṟum koṇṭu neyyaṭṭak kaṭava maṉṟāṭi
+</p>
+
+<p>The following five lines of this inscriptions were copied in 2001-02.</p>
+
+<p>
+<lb n="3"/>Amaraṉ kuṟumpaṉ Irāyeriyāl<note n="203-1">Read irā<hi rend="grantha">ja</hi>kecariyāl</note>non=tā viḷakkoṉṟukku Aṭṭak kaṭava ney
+<lb n="4"/>Uḻakku Ivai cāvāmuvāp perāṭu Ivai paṉ<hi rend="grantha">māheśvara</hi>r <hi rend="grantha">ra</hi>k<hi rend="grantha">kṣai <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g></hi> yāṇṭu <num value="10"><g type="numeral">10</g></num><g type="dash"/>Āvatu Ivviḷakku
+<lb n="5"/>maturāntakaṉ kaṇṭarātittaṉ Iṭai Āṭu toṇṇūṟṟu Āṟu koṇṭu Irācakecariyāl nicatam Uḻakku ney Aṭṭa kaṭava Em<hi rend="grantha">ai</hi>
+<lb n="6"/>yaṉ Amaraṉ kuṟumpaṉ Aṭṭi vārā niṟka Ivvāṇṭu Ivaniṭaiye nāṟpatteṭṭu Āṭuṅkoṇṭu ni<hi rend="grantha">śa</hi>tam Irā<hi rend="grantha">ja</hi>ke<hi rend="grantha">śa</hi>riyāl Āḻākku ney Aṭṭuvaṉāneṉ
+<lb n="7"/>Amaraṉ karuvūraneṉ Ivai cā<supplied reason="omitted">vā</supplied>muvāpperāṭu Ivai panmā<hi rend="grantha">heśvararakṣai</hi><note n="203-2">The entire text is given in <hi rend="italic">Āvaṇam</hi> issue No. I. P. 52.</note><supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 32, part 2, no. 87 by <bibl><ptr target="bib:Swaminathan2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2012_01"/>
+			<citedRange unit="page">202-203</citedRange>
+			<citedRange unit="item">87</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

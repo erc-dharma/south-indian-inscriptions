@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 31.210: original edition by C. A. Padmanabha Sastri and T. S. Ravishankar</title>
+				<title type="alt">No. 210. (A.R. No. B 321 of 1937.) PEDDAPULIVAṞṞU, REPALLE TALUK, GUNTUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv31p0i0210</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the pillar inside the Varadarājaśvāmi temple.</p>						
+
+						<p>1590 A.D.</p>						
+
+						<p>It is dated Śaka 1512, Vijaya, Chaitra, śu. 10, Thursday. The cyclic year is Vīkriti.</p>						
+
+						<p>Records that certain [bi]ṭlum Goravi Gaṁginēmḍu reconsecrated the god Varadarāja (in the temple).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>śrī 
+<lb n="2"/>rāmā 
+<lb n="3"/>śakava¨rṣaṁbulu 
+<lb n="4"/>1512 Agunēṁṭi vi 
+<lb n="5"/>jaya saṁvvatsara cai 
+<lb n="6" break="no"/>tra śu 10 gu varada rā 
+<lb n="7" break="no"/>julanu <unclear>bi</unclear>ṭluṁgoravi 
+<lb n="8"/>gaṁginēṁḍu punaḥ pra 
+<lb n="9" break="no"/>tiṣṭha cēśenu <g type="ddanda">.</g> śrī śrī śrī <g type="ddanda">.</g> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 31.210 by <bibl><ptr target="bib:PadmanabhaSastri2013_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:PadmanabhaSastri2013_01"/>
+			<citedRange unit="page">249</citedRange>
+			<citedRange unit="item">210</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 25.210B: original edition by M. D. Sampath</title>
+				<title type="alt">No. 210B. (A.R. No. 210B of 1908.) KŌVILŪR, PATTUKKOTTAI TALUK, THANJAVUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv25p0i0210B</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>West base of the verandah in the first <hi rend="italic">prākāra</hi> in the Mantrapurīśvara temple.</p>						
+
+						<p>This fragmentary record may be assigned to the 13th century on palaeographical considerations. The writing on the stone in the middle of this record and the record of the 12th year of Rājēndradēva (<hi rend="italic">A.R.Ep</hi> 1908, No. 210), has been erased by chiselling. Therefore, the details of the record are not known. However, from the extant portion of the record, it may be said that it refers to some lands granted by an officer for the purpose of services <hi rend="italic">(tiruppaṇi)</hi> to some deity. One Eyiṉaṅjuḍaiyān is referred to as <hi rend="italic">mudal-kaṇakku</hi> and also as one of the signatories.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>— <gap reason="lost" quantity="2" unit="character"/> Aiñcumā mivin kiḻ Eḻu—
+<lb n="2"/>—ka<unclear>m</unclear>kkoṇṭu cantirātitava—
+<lb n="3"/>—ṭakkuṭaṉe kūṭṭi Ēṟpperpaṭṭak—
+</p>
+
+<p>1. This inscription is written in the stone after No. 210/1908 with a space in between, probably intanded for chiselling a record.</p> 
+
+<p>
+<lb n="4"/>—caiyumttiruppaṇiyum celut—
+<lb n="5"/>—ṭṭi koḷḷa paṇṇuvate Ippaṭi—
+<lb n="6"/>—pallavaraiyan neḻuttu <hi rend="grantha">(7)</hi> Eṉ
+<lb n="7" break="no"/>—tu Eṉṟum Ippaṭikku Ivai mu—
+<lb n="8"/>—talk kaṇakku Eyiṉaṅ kuṭaiyārn—
+<lb n="9"/>—kūrruṭaiyān coḻakaṅka veḷa—
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 25.210B by <bibl><ptr target="bib:Sampath2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath2012_01"/>
+			<citedRange unit="page">311-312</citedRange>
+			<citedRange unit="item">210B</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

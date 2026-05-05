@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.444: original edition by S. Swaminathan</title>
+				<title type="alt">No. 444. (A.R. No. 444 of 1912.) KŌṬṬŪR, MANNARGUDI TALUK, TANJAVUR DISTRICT. On the base, central shrine, Koḻundēśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0444</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">King: Tribhu[vanachakravartin] Rājādhirāja (II) Year ⎯⎯</hi></p>						
+
+						<p>Damaged. Seems to record that the priests of the temple received gift from an individual and agreed to burn the perpetual lamp.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tiri<unclear>puva</unclear>naccakkaravattikaḷ [<hi rend="grantha">śrī</hi>r]ā<hi rend="grantha">jā</hi>tarā<hi rend="grantha">ja</hi>tevarkku yāṇ<unclear>ṭu</unclear> <gap reason="lost" quantity="5" unit="character"/> rā<hi rend="grantha">je</hi>ntira<unclear>coḻava</unclear>ḷanāṭṭu ne <gap reason="lost" quantity="7" unit="character"/> ṭṭu <gap reason="lost" quantity="7" unit="character"/> 
+<lb n="2"/>nāyakapaṭṭaṉ va <gap reason="lost" quantity="4" unit="character"/> <unclear>pārat</unclear>tuvāci Āḷuṭaiyān<unclear>paṭṭan</unclear> <gap reason="lost" quantity="2" unit="character"/> til <gap reason="lost" quantity="3" unit="character"/> tan <gap reason="lost" quantity="6" unit="character"/> kā<hi rend="grantha">śya</hi>pan <gap reason="lost" quantity="5" unit="character"/> ṉ na <gap reason="lost" quantity="7" unit="character"/> kān kaṅkā<unclear>tira</unclear>paṭṭanum
+<lb n="3"/>ke tiṭṭanu mā <gap reason="lost" quantity="10" unit="character"/> nā<hi rend="grantha">bha</hi> paṭṭanum <gap reason="lost" quantity="7" unit="character"/> <unclear>tirucciṟṟampala</unclear>paṭ
+<lb n="4" break="no"/>ṭanum kavuciyaṉ ti <gap reason="lost" quantity="10" unit="character"/> nān komaṅkalan ciraṅkapaṭṭanum Uḷḷiṭṭa Ivvaṉaivo
+<lb n="5" break="no"/>n karuṇākara ce <gap reason="lost" quantity="6" unit="character"/> ṟṟu � <gap reason="lost" quantity="7" unit="character"/> nāṅkaḷ Upaiyamākat tirununtāviḷakku Erikkaikku kaik� <gap reason="lost" quantity="8" unit="character"/> 
+<lb n="6"/>tāviḷakku Oṉṟum <unclear>can</unclear>tirātit<unclear>ta</unclear>vaṟ <unclear>Eri</unclear>kkakkaṭavomānom Ivva<unclear>ṉaivom</unclear> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="7"/> <gap reason="lost" quantity="10" unit="character"/> panniraṇṭāna <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.444 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">512</citedRange>
+			<citedRange unit="item">444</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

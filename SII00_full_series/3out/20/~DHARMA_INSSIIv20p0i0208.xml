@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 20.208: original edition by G. S. Gai</title>
+				<title type="alt">No. 208. (B.K. No. 19 of 1936-37.) DĒVAṆGĀV, SINDGI TALUK, BIJAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv20p0i0208</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Slab set up in the temple of Kallappa.</hi></p>						
+
+						<p>Siṅghaṇa—(Undated).</p>						
+
+						<p>This undated record registers a gift of land to god Kalidēva of <hi rend="bold">Kēsarpaṭi</hi> by <hi rend="italic">Magara-murāri</hi> <hi rend="bold">Sōyidēva-nāyaka</hi> who was a subordinate of king Siṁghaṇa. It also records other gifts of land, oil and taxes to the same deity by the <hi rend="italic">Mahājanas, Mummuridaṇḍas</hi> and others. This gift was made over to [Śiva]dēva, the <hi rend="italic">āchārya</hi> of the temple. Cf. No. 184 above.</p>						
+
+						<p>1) The continuation is lost.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>© svasti śrī<note n="261-1">This is engraved in</note>
+<lb n="2" break="no"/>matu yādavanārāyaṇaṁ pratāpacakravarti siṁghaṇadēvana tatpādapadmō
+<lb n="3" break="no"/>�jīvi magaramurāri sōyidēvanāyakaru kēsarppaṭiya kali<unclear>dē</unclear>varige puḻpake koṭa
+<lb n="4"/><unclear>magara</unclear> sōmanāthadēvara maḷavadiṁ teṁkalu mattaru 1 kuṟubagēriyiṁ mū
+<lb n="5" break="no"/>ḍalu nivēsaṇa caurasa 30 <g type="ddanda">.</g> <unclear>sva</unclear>sti śrīmatu Aśēsamahājanaṁgaḷu kalidēvari
+<lb n="6" break="no"/>ge dhūpadīpanivēdyake <unclear>tuva</unclear> sahita mānyakāṟaru muṁmu<unclear>ri</unclear>daṁḍa A
+<lb n="7" break="no"/>ṟuvatokkalu mukhyavāgi dhānyasahita mēṭivoḷage gāṇake hādake
+<lb n="8"/> <gap reason="lost" quantity="5" unit="character"/> ge hoṁge koṭali koṁḍali mānavata hēṟige E 50 A 2 <g type="ddanda">.</g> kalidēva rācā
+<lb n="9" break="no"/>ryya <unclear>siva</unclear>dēvana kaiyali dhārāpūrvvakaṁ mūḍi koṭṭaru <g type="ddanda">.</g> śrī kōma sarvvādhikāriga<unclear>ḻaṁ</unclear>
+<lb n="10" break="no"/><unclear>kada kuṁbhaya</unclear> <gap reason="lost" quantity="2" unit="character"/> tana paṭeyaṁtu tōṭa bhaṁḍi karituraka <gap reason="lost" quantity="2" unit="character"/> māṟali
+<lb n="11" break="no"/> <gap reason="lost" quantity="2" unit="character"/> koḷali bāhira suṁkavilleṁdu kalidēvage sarbbanamasyavāgi dhārāpūrvva
+<lb n="12" break="no"/>kaṁ māḍi koṭṭaru <g type="ddanda">.</g>
+<lb n="13"/>© śrīmatu dēvaṇagāveyaśēsamahājanaṁgaḷu kēsarppaṭiya kali
+<lb n="14" break="no"/>dēvarige hālumaṁḍagege koṭṭa mattaru 6 tōṭa mattaru keḷagaṇa ma
+<lb n="15" break="no"/>ḻave sahita sarbbanamasyanāgi dhārāpūrvvakaṁ māḍi koṭaru <g type="ddanda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 20.208 by <bibl><ptr target="bib:Gai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Gai1964_01"/>
+			<citedRange unit="page">260-261</citedRange>
+			<citedRange unit="item">208</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

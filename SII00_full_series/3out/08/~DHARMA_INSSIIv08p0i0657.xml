@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 8.657: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 657. (A.R. No. 348 of 1903). ON THE SOUTH WALL OF THE CENTRAL SHRINE IN THE VATATIRTHANATHA TEMPLE AT ANDANALLUR, TRICHINOPOLY TALUK, TRICHINOPOLY DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv08p0i0657</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kopparakecaripaṉma
+<lb n="2" break="no"/>ṟku yāṇṭu <num value="10"><g type="numeral">10</g></num><g type="dash"/>Āvatu kiḷiyū
+<lb n="3" break="no"/>rnāṭṭu Aṉta<unclear>vana</unclear>llūr tiru
+<lb n="4" break="no"/>vālaṉtuṟ<unclear>ai</unclear> <gap reason="lost" quantity="3" unit="character"/> <unclear>tiru</unclear>
+<lb n="5" break="no"/><unclear>nantāviḷa</unclear>kku pakalum Iravum
+<lb n="6"/>Erippatar<supplied reason="omitted">k</supplied>ku cempiyaṉ Irukku
+<lb n="7" break="no"/>veḷāyiṉa pūti parāṉta<supplied reason="omitted">ka</supplied>ṉ te
+<lb n="8" break="no"/>viy<unclear>ā</unclear>r puliyū<supplied reason="omitted">r</supplied>nāṭṭu Aṭikaḷ va
+<lb n="9" break="no"/>cca poṉ veṭelviṭukukal
+<lb n="10" break="no"/>lā<supplied reason="omitted">l</supplied> tuḷaippoṉ muppatiṉka
+<lb n="11" break="no"/>ḻañcu Ippoṉ muppatiṉka
+<lb n="12" break="no"/>ḻañcum U<unclear>ṟai</unclear>yūr<supplied reason="omitted">k</supplied>kūṟṟattu
+<lb n="13"/>nannallūrūrom ko<supplied reason="omitted">ṇ</supplied>ṭu
+<lb n="14"/>Ippoṉṉukku palicai cū
+<lb n="15" break="no"/>la Uḻa<supplied reason="omitted">k</supplied>kiṉāl nicati Uḻakku neyi
+<lb n="16"/>yāṉapaṭi caṉ<hi rend="grantha">trā</hi> tittaval
+<lb n="17"/>Aṭṭuv<unclear>o</unclear>māṉom tiruvā
+<lb n="18" break="no"/>laṉtuṟ<unclear>ai</unclear> para<supplied reason="omitted">m</supplied>e<hi rend="grantha">śva</hi> ra<supplied reason="omitted">rk</supplied>ku nanna
+<lb n="19" break="no"/><unclear>lū</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 8.657 by <bibl><ptr target="bib:SubrahmanyaAiyer1937_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SubrahmanyaAiyer1937_01"/>
+			<citedRange unit="page">334</citedRange>
+			<citedRange unit="item">657</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

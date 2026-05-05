@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 42.26: original edition by C Somasundara Rao</title>
+				<title type="alt">No. 26. (A.R. No. B. 33 of 1953-54.) Ēlūru, Eluru Taluk, West Godavari District, Andhra Pradesh.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv42p0i0026</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On pillar No. 8 in the compound of the Taluk Office.</p>						
+
+						<p>The record is in verse and undated. Written in characters of 12th century A.D.</p>						
+
+						<p>Records a gift of 2 <hi rend="italic">puṭṭis</hi> of land at Kannaripūṁḍi near Bhīmavrōlu for maintaining 12 lamps in the temple of Bhīmēśvara by Maṁgūri Annaya.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<!--<h4>First Face.</h4>-->
+
+<p>
+<lb n="1"/>ghāmanaṁdōgi ḍeṁdulūri tū¨rppu 
+<lb n="2" break="no"/>na bī(bhī)manāthadēvunaku sāndhya(sandhyā)dī 
+<lb n="3" break="no"/>pa dīpadviṣaṣṭiki vṛ<unclear>tti</unclear>bhīmavrō 
+<lb n="4" break="no"/>li kannaripūṁḍi yeḍa bhūmiṁba 
+<lb n="5" break="no"/>ragaṁgu maṁgūri yannaya cēta 
+</p>
+
+<!--<h4>Second Face.</h4>-->
+
+<p>
+<lb n="6" break="no"/>ṁboppāra reṇḍu vuṭla sēneṟi vi 
+<lb n="7" break="no"/>lci yippaṭṭa nālu viṇḍaśēmili 
+<lb n="8"/>vaśamunaṁbbu(ddu?) dha¨rmmatattvavēdi 
+<lb n="9" break="no"/>yai yācaṁdratārakamuga <g type="ddanda">.</g> vigicēta 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 42.26 by <bibl><ptr target="bib:SomasundaraRao2020_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SomasundaraRao2020_01"/>
+			<citedRange unit="page">41</citedRange>
+			<citedRange unit="item">26</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

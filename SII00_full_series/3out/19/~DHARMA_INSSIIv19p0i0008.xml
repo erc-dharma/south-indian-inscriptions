@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.8: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 8. (A.R. No. 251 of 1911.) ON THE SOUTH WALL OF THE SAME SHRINE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0008</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records a gift of 90 sheep by one Kaḍikāvaṉ Kaḷḷāṉ of the <hi rend="bold">Vīraśōḻa-teriñja-Kaikkōḷar</hi> (regiment) for burning a perpetual lamp in the temple of Tirukkaḻ kōṭṭattu-Paramasvāmi at Tirukkuḍamukkil. <hi rend="bold">‘Vīraśōḻa’</hi> was a title of <hi rend="bold">Parāntaka I.</hi> This may be a record of <hi rend="bold">Ariñjaya.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> koppara<hi rend="grantha">kesari</hi>va<hi rend="grantha">rma</hi>ṟku yāṇṭu 2 Ā
+<lb n="2" break="no"/>vatu vaṭakaraip pāmpūrnāṭṭu tevatānam
+<lb n="3"/>tiru<supplied reason="omitted">k</supplied>kuṭamukkil tirukkiḻkoṭṭattu <hi rend="grantha">paramasvā</hi>mi
+<lb n="4" break="no"/>kku tirunontāviḷakku vaitta Uṭaiyār
+<lb n="5"/>viracoḻatteriñca kaikkoḷaril kaṭikāvan
+<lb n="6"/>kaḷḷāṉ <hi rend="grantha">candrāditya</hi>vaṟku vaitta nontā
+<lb n="7" break="no"/>viḷa<supplied reason="omitted">k</supplied>ku<supplied reason="omitted">k</supplied>ku vaitta vāṭu toṇṇūṟu It
+<lb n="8" break="no"/>toṇṇūṟum Ivvūr manṟāṭi kaṇṇaṉ manṟa
+<lb n="9" break="no"/>ṉum caṅkaṉ mātevaṉum vacam vaitta vā
+<lb n="10" break="no"/>ṭu toṇṇūṟu Ivaiyiṟṟiṉāl nicata māḻākkā
+<lb n="11" break="no"/>ka Orontaramun <gap reason="lost" quantity="4" unit="character"/> ka Iruvarumā <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="12"/>ḷ Eḻunāṭuri ney <gap reason="lost" quantity="7" unit="character"/> Ipparitu
+<lb n="13"/><hi rend="grantha">candrāditya</hi>vaṟku vaitteṉ kaṭikāvan ka
+<lb n="14" break="no"/>ḷḷāṉeṉ Itu pa<hi rend="grantha">nmāheśvara ra</hi>
+<lb n="15" break="no"/>[<hi rend="grantha">kṣai</hi>] <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.8 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">4</citedRange>
+			<citedRange unit="item">8</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

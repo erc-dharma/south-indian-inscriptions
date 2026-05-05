@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 4.262: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 262. (A.R. No. 33 of 1889). ON THE SOUTH WALL OF THE KRISHNASVAMIN TEMPLE IN THE SAME VILLAGE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv04p0i0262</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/><note n="58-1">This and the following lines begin with an <hi rend="italic">anusvāra</hi> resembling a <hi rend="italic">circle.</hi></note>svasti <supplied reason="undefined"><g type="danda">.</g></supplied> śrī jayābhyudaya śālivāhanaśakava(ru)¨rṣaṁgaḷu 1455 neya naṁdanasaṁvacharada mā¨rgaśira śuddha 12 sōmavāradalū śrīman®(ṁ)mahārājādhirāja rājaparamēśvara śrīvīrapratāpa śrīvīra Accyutadēvarāyamahārāyarū śrībālakṛṣṇadēvarige gōdvādaśipu(ṁ)ṇyakāladalū sama¨rpisidu kṛṣṇāpurada pēṭheya davasadaṁgaḍigaḷa toḍeyada bageyallū saluva ghaṭivaraha<note n="58-2">Space for about three letters is left blank here.</note>
+<lb n="2"/>prāku dēvara Amṛtapaḍige naḍadubahudu ga 800 <unclear>ke</unclear> śudhavaraha ga<note n="58-2">Space for about three letters is left blank here.</note>kaṁ varadāji dēviA(ṁ)mmanavarū sama¨rpista Avasara 1 kaṁ dina 1 kaṁ saluva<unclear>du</unclear> cakraga 9 hoṁninalū varuṣa 1 kaṁ ga 3240 Accutadēvarāyamahārāyarū sama¨rpista ciṁnada Uyyāleya tirunāḷu 1 kaṁ cakraga 300 muṁnūṟu koḍetirunāḷu 1 kaṁ cakraga 300 muṁnūṟu Aṁttū ga<unclear>3</unclear>840 varadājiAṁmanavarū sama¨rpista Avasarada ni(ṁ)¨rmālyada prasādavanū <supplied reason="omitted">paṁ</supplied>cānāthaparadēsiśrīvaiṣṇava
+<lb n="3" break="no"/>rige pasāpaḍali kāvadū <supplied reason="undefined"><g type="danda">.</g></supplied> yī dha¨r(ṁ)maśāsanake maṁgaḷamahā śrī śrī śrī <supplied reason="undefined"><g type="danda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 4.262 by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1923_01"/>
+			<citedRange unit="page">58</citedRange>
+			<citedRange unit="item">262</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

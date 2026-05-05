@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.121: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 121. (A.R. No. 686 of 1904.) TIRUPPĀṞKAḌAL, WALAJAPET TALUK, NORTH ARCOT DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, KHARAPURĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0121</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is built in the middle. This records an agreement by the <hi rend="italic">mahā-sabhā</hi> of Kāvidippākkam <hi rend="italic">alias</hi> Amaninārāyaṇa-chaturvēdimaṅgalam in Paḍuvūr-kōṭṭam through their <hi rend="bold">Tank Supervision Committee</hi> to burn a perpetual lamp in the local temple of Tirukkarapurattu-Perumānaḍigaḷ and in that of Tiruvagattīśvarattu-Perumānaḍigaḷ at Pākkam. For the former they received a piece of garden-land endowed by one Śivapūdi Āchchanādaṉ son of Mahāsēna-Kramavittar, and for the latter, a gift of 50 <hi rend="italic">(kāśu)</hi> of pure gold from <hi rend="bold">Śembiyaṉ Iḷaṅgōvēḷār Pūdi Ādittar.</hi> This donor was evidently <hi rend="bold">a Koḍumbāḷūr chieftain.</hi> Mention is made of certain <hi rend="italic">aṅgamaṇi-dravya</hi> (cash realised by sale of ornaments) which was the property of the donor's (deceased) mother, out of which he is said to have purchased the land endowed. An executive official servant of the <hi rend="italic">sabhā</hi> called the <hi rend="bold">Śiṟṟūrāṭchikoḷvāṉ</hi> who was appointed for the year, was to look after the maintenence of the gift.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> koparakecaripa<hi rend="grantha">rmma</hi>ṟku yāṇṭu Aiñcāvatu paṭuvūrkoṭṭattu kāvatipākkamākiya Amaṉiṉārāyaṇaccatu<hi rend="grantha">rvve</hi>timaṅkala<unclear>ttu</unclear> <gap reason="lost" quantity="7" unit="character"/> perumakkaḷum <hi rend="grantha"><unclear>bhaṭṭa</unclear></hi>rkaḷum vi<hi rend="grantha">śiṣṭa</hi>rkaḷu<supplied reason="omitted">m</supplied> Uḷḷiṭṭa <hi rend="grantha">mahāsabhai</hi>yom Emmur Aṇaikkiḻ <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="2"/><unclear>k</unclear>aiyār makaṉār <hi rend="grantha">mahāse</hi>na<hi rend="grantha">kki</hi>ramavittar muttanaṅk<hi rend="grantha">ai</hi>yār makaṉār civapūti <unclear>Ā</unclear>ccaṉāta<unclear>ṉu</unclear>kku mutukaṇṇāka <gap reason="lost" quantity="5" unit="character"/> ṉār <hi rend="grantha">mahāse</hi>na<hi rend="grantha">krama</hi>vi<hi rend="grantha"> <gap reason="lost" quantity="9" unit="character"/> </hi>ṉaru<hi rend="grantha">drarki</hi>tti<hi rend="grantha">krama</hi>vittarpakkal tam tāyār koḷḷakka(ṭ)aiva <hi rend="grantha">A</hi><unclear>ṅka</unclear>maṇi <hi rend="grantha">dravya<unclear>vṛtthi</unclear>kk</hi>uk cilavākak kū <gap reason="lost" quantity="9" unit="character"/> ṭṭut toṭṭam ce<unclear>y</unclear>tu nūṟṟumuppat
+<lb n="3" break="no"/>to<unclear>ṉṟa</unclear>rai kuḻiyum koṇṭu Emmur tirukkarapurattu perumāṉaṭikaḷu<hi rend="grantha">kk</hi>u Oru na<hi rend="grantha">ndā</hi>viḷakkum Emmur pāk<unclear>ka</unclear>ttu tiruvakatti<hi rend="grantha">śva</hi>rattu perumāṉaṭika <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="4"/>paṇiyāl Iyyāṭṭai Erivāriyapperumakkaḷom cempiyaṉ Iḷaṅkoveḷār pūti Ātittarpak kal Oṉpatarai māṟi niṟai Aympatiṉ <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="5"/>vāṭṭai Erivāriyapperumakkaḷe muṭṭāme kuṭuppārākavum Inna<hi rend="grantha">ndā</hi>viḷa<hi rend="grantha">kk</hi>u<hi rend="grantha">kk</hi>u Avvavāṇṭu ciṟṟūrāṭcikoḷvāṉaiye koṇṭu nicati <gap reason="lost" quantity="9" unit="character"/> ṉuṅ koḷḷappiṟātār <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.121 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">61</citedRange>
+			<citedRange unit="item">121</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

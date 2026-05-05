@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 41.33: original edition by S. Rajagopal</title>
+				<title type="alt">No. 33. (A.R. No. 32 of 1905.) Tiṇḍivaṉam, Tindivanam Taluk, South Arcot District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv41p0i0033</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>At the entrance into the <hi rend="italic">maṇḍapa</hi> of the Lakshminarasiṁḥa Perumāl temple, right side</p>						
+
+						<p><hi rend="bold">Vijayanagara, Śaka 1453, Kara = 1531 A.D.</hi></p>						
+
+						<p>It seems to record the gift of <hi rend="italic">kuḻi</hi> of land as <hi rend="italic">tirumēni-kaval</hi>, by the trustees and Mallappaṉ, son of Pradhāni Tipparasan, for the God Narasiṅgamūrti.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śva(sta)sti <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīma</hi>ṉ <hi rend="grantha">ma</hi>kāmaṇṭalicura metiṉi<unclear>mi</unclear>curakaṇṭa kaṭṭā<unclear>ri</unclear> cāḷuva Ariya Irāya vipāṭaṉ pū<hi rend="grantha">rvvadakṣa</hi>ṇa<hi rend="grantha"> <gap reason="lost" quantity="5" unit="character"/> </hi>
+<lb n="2"/>makārāyar <unclear>pi</unclear>ṟutivirācciyam paṇṇi Aruḷāniṉṟa cakāṟttam <num value="1453"><g type="numeral">1000</g> 4 <g type="numeral">100</g> 5 <g type="numeral">10</g> 3</num>ṉmel cellā niṉṟa karavaru<hi rend="grantha">ṣa</hi>m <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="3"/><hi rend="grantha">śrī</hi>matu tiṇṭivaṉam perumāḷ naraciṅkamuṟti koyil tāṉattārum piṟatāṉit tirupparacar kumārar mallapparum meṟpaṭi <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="4"/>kiṭaṅkil Ēri Etuvāyp piṟavaṭaiyil vāḻavantāṉ piṟavaṭaiyil tirumeṉi kāvalukkuviṭṭa ku<num value="400">4 <g type="numeral">100</g></num>inta kuḻi nā <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="5"/>k koṇṭu tirumeṉi kāvaluṇṭāṉatu kāttu Uttaram collak kaṭaivarākavum tiṇṭicuramuṭaiya <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="6"/>kāṟtatāṟatu Inta cuvantiramum naṭakkak kaṭaivatākavum §
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 41.33 by <bibl><ptr target="bib:Rajagopal2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Rajagopal2019_01"/>
+			<citedRange unit="page">36</citedRange>
+			<citedRange unit="item">33</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.669: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 669. (A.R. No. 615 of 1904.) TIRUVANDAVĀR, KANCHIPURAM TALUK, CHINGLEPUT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0669</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a slab set up in the village.</p>						
+
+						<p>Achyutarāya. 1536-37 A.D.</p>						
+
+						<p>The details of date, <hi rend="italic">viz.</hi>, Duṉmukhi, daśami, Tiruvōṇam are insufficient for verfication. The cyclic year will however correspond to 1536-37 A.D. falling within the reign of Achyuta.</p>						
+
+						<p>It seems to record the assignment of the income from <hi rend="italic">jōḍi</hi> realised from Tiruvandavāṟu for worship to the local deity (name lost) by Tīttāra Piḷḷai for the merit of the king.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>cuva<hi rend="grantha">sti <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīma</hi>ṉ mak<unclear>āmaṇṭalicuraṉ</unclear>
+<lb n="2"/>kaṇṭakaṭāri cāḷuva Accutayat<unclear>eva</unclear><supplied reason="omitted">r</supplied><note n="305-1">The Sāḷuva title is evidently a mistake of the draftsman.</note>
+<lb n="3"/>taṉmamāka tuṉmukivaru<hi rend="grantha">ṣa</hi>m tecamiyu<hi rend="grantha">m</hi>
+<lb n="4"/>(yu<hi rend="grantha">m)</hi> tiruv<supplied reason="omitted">o</supplied>ṇattu nāḷ tittāra piḷ<unclear>ḷai pa</unclear>
+<lb n="5" break="no"/>ṇṇina tiruvantavāṟuṭaiy<unclear>ār</unclear>
+<lb n="6"/>pūcaikku peruṅkaḻiyile pāti
+<lb n="7"/><unclear>ti</unclear>ruvantavāṟṟile Uḷḷa c<unclear>o</unclear>
+<lb n="8" break="no"/><unclear>ṭi</unclear> paṇamum kaḻittom yin<unclear>ta</unclear>
+<lb n="9"/><unclear>can</unclear>tiṟātittavaraiyum naṭatti
+<lb n="10"/><unclear>va</unclear>ruvum yinta tanmattukku 
+<lb n="11"/>Akitam paṇṇiṉavar
+<lb n="12" break="no"/><unclear>kaṅkai</unclear> karaiyile kārāmpacu
+<lb n="13" break="no"/> <gap reason="lost" quantity="9" unit="character"/> to<hi rend="grantha">ṣa</hi>ttile po <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="14"/> <gap reason="lost" quantity="6" unit="character"/> rākavum <g type="pc"/>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.669 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">305-306</citedRange>
+			<citedRange unit="item">669</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

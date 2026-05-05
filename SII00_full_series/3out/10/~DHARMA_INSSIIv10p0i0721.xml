@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.721: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 721. (A.R. No. 828 of 1917.) ON A SLAB SET UP NEAR THE OUTER ENTRANCE TO THE TEMPLE OF VAṬĒŚVARA, PĀLUR, PĀLUR ZAMINDARI, GANJAM DISTRICT. (2nd year of Aniyaṅka-Bhīma.)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0721</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Records gift of perpetual lamps and she-buffaloes to the temple of Baṭēśvara and of land to god Bīrēśvara.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrī Aniyaṁkabhīmadēvara pra<unclear>vṛddha</unclear>māna 
+<lb n="2" break="no"/>rājya reṁḍagu śrāhi baṭēsvara Akhaṁ <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="3"/>ḍasamayasēnāpati daṁḍapāṇi <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="4"/>konike sa[¨rvā]bha<unclear>ṭlu konike</unclear> Icināṁḍu <unclear>naḍapa</unclear> 
+<lb n="5"/>ni<unclear>tya</unclear> 2 Akhaṁḍamulu rāju Anata 
+<lb n="6" break="no"/>mulu nalugurunu naḍapagalāṁḍu baṭēsvara 
+<lb n="7" break="no"/>śrī<unclear>dē</unclear>vara Enmu 24 sama¨rpiṁccitimi 
+<lb n="8"/><unclear>bī</unclear>rēsvaradēvaraku mā<unclear>ndi</unclear>pōlamuna 
+<lb n="9"/>maya<unclear>stha</unclear>nipatulu <unclear>malimā</unclear>laĀcāri 
+<lb n="10" break="no"/>ki puṭeṁḍu polamu Akaramu Ici<supplied reason="omitted">ti</supplied>mi 
+<lb n="11"/>dēvaraku panisēsi kuḍuvagalavāramu <g type="ddanda">.</g> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.721 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">375</citedRange>
+			<citedRange unit="item">721</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

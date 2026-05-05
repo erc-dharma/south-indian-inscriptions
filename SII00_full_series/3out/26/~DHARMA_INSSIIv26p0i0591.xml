@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 26.591: original edition by P. R. Srinivasan</title>
+				<title type="alt">No. 591.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv26p0i0591</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						<p>On a pillar set up in front of the Doḍḍa Mallēśvara temple.</p>						
+
+						<p><hi rend="bold">Śaka 1224, Śubhakṛit, Vaiśākha śu. [3], Monday = 1302 A.D., April 2.</hi></p>						
+
+						<p>It records that Paiṁḍi Māṟṟeḍḍi, son of Bīra Muttiraḍḍi of Chintapalli set up an image of Muktīśvara in the temple of Doḍḍa Mallināthadēva and planted a <hi rend="italic">kalaśa</hi> in the temple.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svastiśrī śakavaruṣaṁbu
+<lb n="2"/>lu 1224 gunēṁṭi śu<unclear>bhakṛ</unclear>
+<lb n="3"/>tsaṁvatsara vaiśākha śuddha <unclear>3</unclear> sō <supplied reason="undefined"><g type="ddanda">.</g></supplied> ciṁttapa
+<lb n="4"/>lli bīṟa muttiraḍḍi koḍku paiṁ
+<lb n="5"/>ḍi māṟṟeḍḍi tamataṁḍri <unclear>puṁṇyānū</unclear>
+<lb n="6"/>śrī doḍḍamallinātadēvara saṁ
+<lb n="7"/>nnithini muktīśva<unclear>ruṁ</unclear> bratiṣṭha sē
+<lb n="8" break="no"/>si <gap reason="lost" quantity="2" unit="character"/> guḍikalaśa ni[¨rmmā]ṇa
+<lb n="9" break="no"/>mugānu Ettiṁccenu <supplied reason="undefined"><g type="ddanda">.</g></supplied> maṁga<unclear>ḷa</unclear>
+<lb n="10"/>mahā śrīśrīśrī <g type="ddanda">.</g> <unclear>dē</unclear>vara <g type="ddanda">.</g> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 26.591 by <bibl><ptr target="bib:Srinivasan1990_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Srinivasan1990_01"/>
+			<citedRange unit="page">410</citedRange>
+			<citedRange unit="item">591</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

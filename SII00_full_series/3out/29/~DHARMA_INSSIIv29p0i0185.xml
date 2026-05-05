@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 29.185: original edition by P. N. Narasimha Murthy</title>
+				<title type="alt">No. 185. (A.R. No. B. 603 of 1961-62.) MARCHĒḌA, MANVI TALUK, RAICHUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv29p0i0185</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab in the <hi rend="italic">doḍḍi.</hi></p>						
+
+						<p><hi rend="bold">1045 A.D.</hi></p>						
+
+						<p>This damaged record probably refers to a grant and mentions a <hi rend="italic">mahāsāmanta</hi> (name lost), Nanni-Chaḷuki and Bīvayya.</p>						
+
+						<p>It is dated Śaka 96[7] Vaḍḍavāra. The available information is insufficient for verification. However, the Śaka year corresponds to 1045 A.D. The cyclic year was Pārthiva.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>© svasti sakavariṣa 96<unclear>7</unclear> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="3" unit="character"/> pravartise tadvariṣābhyaṁtarada <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="3"/> <gap reason="lost" quantity="1" unit="character"/> vaḍḍavāradandu śrī samadhigatapaṁcama <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="4"/>mahāsāmanta vibudhajananatuḷa <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="3" unit="character"/> kāḷānaḷa vikrama gaṁ <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="6"/> <gap reason="lost" quantity="5" unit="character"/> nanni caḷukki doṟveḍi (dēvarige) ca <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="7"/>va marasaru bīvayyanu ha(ṇṇu)ga bīḍinalu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="8"/>(gra hiḍisi) koṭṭe <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="9"/>pācarasatarjjitu Istila vata <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="10"/> <gap reason="lost" quantity="5" unit="character"/> sāvira kavileyavaṟida (dōśa) <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 29.185 by <bibl><ptr target="bib:NarasimhaMurthy2022_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:NarasimhaMurthy2022_01"/>
+			<citedRange unit="page">210</citedRange>
+			<citedRange unit="item">185</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

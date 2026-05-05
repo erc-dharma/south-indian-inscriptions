@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.541: original edition by S. Swaminathan</title>
+				<title type="alt">No. 541. (A.R. No. 541 of 1912.) TIRUNĪRMALAI, SAIDAPET TALUK, CHINGLEPET DISTRICT. On the south wall, Nīrvaṇṇar shrine, Raṅganātha perumāḷ temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0541</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">King: Tribhuvanachchakkravartti Vīrarājēndrachōḷa Year: <hi rend="italic">Pañchami</hi>, Sunday, <hi rend="italic">uttiram.</hi></hi></p>						
+
+						<p>In characters of the 13th century A.D. This inscription records that a certain Bhaṭṭaṉ Bhaṭṭāla Vēḷāṉ for burning a twilight lamp to the god of Tirunīrmalai gifted one <hi rend="italic">māḍai.</hi> The priests of the temple, Naimiśai. Bhaṭṭa Sōmāśi Śrī Vāśudēva Bhaṭṭaṉ and Śrīdhara Bhaṭṭaṉ received the gift and agreed to burn the lamp perpetually.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tiripuvaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi> vīrarācentira coḻa<hi rend="grantha">de</hi>vaṟ <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2"/>tu <hi rend="grantha">pañca</hi>miyum nāyaṟṟuk kiḻamaiyum peṟṟa Uttirattunāḷ tirunīrmalai nāyana <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="3"/>rk kiḻār kuṭi makkaḷil paṭṭaṉ paṭṭāla veḷāṉ vaitta canti viḷakku 1 Ittiruviḷakkoṉṟukku Ikkoyil nampi
+<lb n="4" break="no"/>māril na<unclear>yi</unclear>micai <hi rend="grantha">śrī</hi> kū <gap reason="lost" quantity="1" unit="character"/> paṭṭa <hi rend="grantha">śo</hi>māci <hi rend="grantha">śrī vāsude</hi>va<hi rend="grantha">bha</hi>ṭṭaṉ <hi rend="grantha">śrīdharabha</hi>ṭṭaṉ kaikkoṇṭa māṭai 1m māṭai Oṉṟuṅ ko
+<lb n="5" break="no"/>ṇṭu Ittiruviḷakku cantirātittavarai celuttakkaṭaveṉ <hi rend="grantha">śrīdharabha</hi>ṭṭaṉeṉ <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.541 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">657</citedRange>
+			<citedRange unit="item">541</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

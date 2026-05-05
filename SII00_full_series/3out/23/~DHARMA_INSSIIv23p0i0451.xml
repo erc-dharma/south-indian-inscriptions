@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 23.451: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 451. (A.R. No. 451 of 1907.) Śiṉṉamaṉūr, Periyakulam Taluk, Madurai District Lakshmīnārāyaṇa temple—on the north, west and south walls Jaṭ. Kulaśēkhara I: year 13+6: 1208-09 A.D.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv23p0i0451</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The stones are out of order and some are lost. The inscription is also damaged. The introduction is the one commencing with the words <hi rend="italic">Pūvīṉ kiḻatti.</hi> This registers a gift of land by the same Śīvallavaṉ Tirunīlakaṇṭaṉ mentioned above who is said to have also got it exempted from <hi rend="italic">kaḍamai</hi> payment.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>—<unclear>pū</unclear>viṉ kiḻatti mevi viṟṟiruppa metiṉi mātu nitiyiṟpuṇara va <gap reason="lost" quantity="3" unit="character"/> pormaṭantai ceyappuyattiruppa ma <gap reason="lost" quantity="4" unit="character"/> kkiṉil viḷaṅka ticai yirunāṉ ku micai nilāveṟippa maṟaineṟi vaḷara maṉuṉeṟi tikaḻa Aṟaneṟica� <gap reason="lost" quantity="7" unit="character"/> cattuva <gap reason="lost" quantity="4" unit="character"/> toḷippa villavar cempiyar virāṭar varāṭar pal lavar <gap reason="lost" quantity="7" unit="character"/> kuṭai niḻaṟṟa ceṅkol naṭappa <gap reason="lost" quantity="3" unit="character"/> ṅkali naṭuṅka ṉeṭumpilat <gap reason="lost" quantity="6" unit="character"/> muṟaimuṟai paṇiya Iruṉemiyaḷavu moru <gap reason="lost" quantity="3" unit="character"/> yoṅka <gap reason="lost" quantity="4" unit="character"/> Iyallicai nāṭaka <gap reason="lost" quantity="4" unit="character"/> maṉṉavarāy
+<lb n="2"/>—ḷaṅkiya vira<hi rend="grantha">siṅhāsa</hi>nattu kaṟpaka niḻalil kalaivallorkiḻ maṉṉavar teviyar vaṇaṅka meṉṉaṭai Avaṉi muḻutuṭaiyāroṭum viṟṟirunta ruḷiya māmutal matikkula<supplied reason="omitted">m</supplied>viḷakkiya komutaṟ koccaṭai <gap reason="lost" quantity="6" unit="character"/> <hi rend="grantha">tribhu</hi> vaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>kulacekara <gap reason="lost" quantity="8" unit="character"/> <num value="13"><g type="numeral">10</g> 3</num>- vatiṉ Etir <gap reason="lost" quantity="6" unit="character"/> kaṇṭaṉāṉa toṇṭaimāṉār <hi rend="grantha">dharmmadā</hi>ṉam paṇṇik <gap reason="lost" quantity="6" unit="character"/> <hi rend="grantha">de</hi>yam Arikecarinallūr ma<hi rend="grantha">hāsa<unclear>bhai</unclear> <gap reason="lost" quantity="4" unit="character"/> da</hi>var <hi rend="grantha">śrī</hi>vallavaṉ tirunila <gap reason="lost" quantity="7" unit="character"/> tu I<hi rend="grantha">dade</hi>vaṟku yāṇṭu muṉṟāvati<unclear>ṉe ti</unclear>rāmāṇṭu patiṉeṭṭaṭikkolāl nilam Oru māvil I
+<lb n="3" break="no"/>—tu muntirikai nilaṅ kaṭamai tavittu niroṭaṭṭi tantu <unclear>piṉpu</unclear> patiṉ muṉṟāvatiṉ Etir Āṟāmāṇṭu <gap reason="lost" quantity="2" unit="character"/> tavintaruḷiṉa patiṉeṭṭaṭik kolāl nilamuntirikaiyum Āka nilam Araikkāṇi Araikkāṇi <gap reason="lost" quantity="4" unit="character"/> tavintaruḷiṉa Ikkaṭamai tavintaruḷiṉa <gap reason="lost" quantity="5" unit="character"/> ṇikkum kaṭamai <gap reason="lost" quantity="3" unit="character"/> tirumukappaṭi kallil veṭṭiṉeṉ Ivvūr cilpāca <gap reason="lost" quantity="9" unit="character"/> m puṉcaiyum Uṭpaṭa muṉpilā <gap reason="lost" quantity="5" unit="character"/> yum <hi rend="grantha"><unclear>d</unclear>ā</hi>nam paṇṇi Aruḷi <gap reason="lost" quantity="5" unit="character"/> koṇṭān colaiyaraicāṉa ti <gap reason="lost" quantity="3" unit="character"/> nāṭṭiyūr vāriyaṉ Eḻuttu <g type="ddanda">.</g><g type="pc"/>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 23.451 by <bibl><ptr target="bib:SrinivasaRao1979_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1979_01"/>
+			<citedRange unit="page">339</citedRange>
+			<citedRange unit="item">451</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

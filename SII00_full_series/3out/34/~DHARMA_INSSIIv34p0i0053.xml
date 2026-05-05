@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 34.53: original edition by Y. Subbarayalu</title>
+				<title type="alt">No. 53. Tiruvaigāvūr, Papanasam Taluk, Thanjavur District. On the south wall of the maṇḍapa in front of the central shrine in the Bilvanātēśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv34p0i0053</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Chōḻa, Parakēsarivarman Rājarāja II, 17th year = A.D. 1163.</p>						
+
+						<p>This is partly built in and records a gift of money (200 <hi rend="italic">kāsu</hi>) for offerings to the image of Nittavinōda-kalyāṇasundara-dēva in the temple of Tiruvaigāvūr. The donor (name lost) is mentioned as a son of the <hi rend="italic">aṇukkiyār</hi> Araṅga-patāgaiyār.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> pūmaru<unclear>viya tirumātum</unclear> puvimātum <hi rend="grantha">ja</hi>yamātum nāmaruviya kalaimātum pukaḻmātum nayantu pulka Arumaṟai vi
+<lb n="2" break="no"/>ti neṟiyaṉaittum <unclear>taḻaippa varumuṟai</unclear> Urimaiyil maṇimuṭicūṭic ceṅkōl ceṉṟu <unclear>ticai t</unclear>ōṟum vaḷaṟppa veṅkali nī
+<lb n="3" break="no"/>kki meyyaṟan taḻaippa <unclear>kaliṅka</unclear>meriyak kaṭalmalai naṭātti valaṅkoḷḷāḻi varaiyāḻi naṭappa Irucuṭaraḷavum Oru kuṭai niḻaṟkīḻ ce
+<lb n="4" break="no"/>m poṉ vīra<hi rend="grantha">siṅhāsa</hi>nattup puvaṉamuḻutuṭaiyāḷōṭum vīṟṟiruntaruḷiya kōpparakēcari <hi rend="grantha">panma</hi>rāṉa <hi rend="grantha">tribhu</hi>vaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">jade</hi>varku 
+<lb n="5"/>yāṇṭu <num value="17"><g type="numeral">10</g> 7</num> vatu vikkiramacōḻa vaḷanāṭṭu Aṇṭāṭṭukkūṟṟattu Uṭaiyār tiruvaikāvuṭaiyārkōyil <hi rend="grantha">śrī</hi>mā<hi rend="grantha">hēśva</hi>ra kaṇkāṇi ceyvārka
+<lb n="6" break="no"/>ḷum <hi rend="grantha">śrī</hi>kāriyam ceyvārkaḷu tēvarkanmikaḷum kōyil kaṇakkaṉum Uḷḷiṭṭa tānattōm Aṇukkiyār Araṅka patākaiyār makaṉ Uṭaiyā
+<lb n="7" break="no"/> <gap reason="lost" quantity="3" unit="character"/> Ikkōyilil Eḻuntaruḷivitta nittavinōta kalliyāṇacuntara tēvaṟkum nācciyārkkum Amutu paṭikkum viñcaṉattukkum
+<lb n="8"/> <gap reason="lost" quantity="3" unit="character"/> Ivaṉ Oṭukkina kācu <num value="200">2 <g type="numeral">100</g></num> Ikkācu Irunūṟum ti <gap reason="lost" quantity="3" unit="character"/> Uṭallāka kaikkoṇṭu <gap reason="lost" quantity="3" unit="character"/> Araikkāl ciṉṉam <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="9"/>yā <gap reason="lost" quantity="1" unit="character"/> mā<hi rend="grantha">sa</hi>moṉṟukku mutallāṅkācu Āṟēkālukkum Akkam <gap reason="lost" quantity="3" unit="character"/> lum niravi (1/2) mā<hi rend="grantha">sa</hi> mutal nāḷ Oṉṟukku <gap reason="lost" quantity="3" unit="character"/> nāḻiyum
+<lb n="10"/> <gap reason="lost" quantity="3" unit="character"/> Aṭaikkāyum Ilaiyamutukaḷum <hi rend="grantha">śrī</hi>paṇṭārattē <gap reason="lost" quantity="3" unit="character"/> cantirāttavaṟ celuttakkaṭavōmāka Ippaṭi Upaiya<unclear>m cey</unclear>tu kuṭuttō <gap reason="lost" quantity="4" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 34.53 by <bibl><ptr target="bib:Subbarayalu2015_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Subbarayalu2015_01"/>
+			<citedRange unit="page">54-55</citedRange>
+			<citedRange unit="item">53</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 32, part 2, no. 80: original edition by S. Swaminathan</title>
+				<title type="alt">No. 80. (A.R. No. 554 of 1920.) UḌAIYĀRKUḌI, CHIDAMBARAM TALUK, SOUTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv32p2i0080</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south wall, central shrine, Anantēśvarasvāmin temple.</p>						
+
+						<p><hi rend="bold">Year 10: 981 A.D.</hi></p>						
+
+						<p>Records a gift of 20 <hi rend="italic">īḻakkāśu</hi> which was deposited with the <hi rend="italic">Saṅkarappāḍiyār</hi> of Tugaḍi in Vīranārāyaṇa-chaturvēdimaṅgalam for the daily supply of an <hi rend="italic">uḻakku</hi> of oil for burning a perpetual lamp in the temple of Tiruvanantīśvarattu-paramasvāmi of the above village by Sembiyaṉ Mūvēndavēḷāṉ of Maruttu Paṉaippākkam in Muṉaippāḍi. He also donated an ornamental lamp for that purpose.</p>						
+
+						<p>Published in <hi rend="italic">S.I.I.,</hi> Vol. XIX No. 263. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopparake<hi rend="grantha">sari</hi>va<hi rend="grantha">rma</hi>maṟ yāṇṭu <num value="10"><g type="numeral">10</g></num><g type="dash"/>Āvatu muṉaippāṭi maruttupaṉaippākkattu <gap reason="lost" quantity="4" unit="character"/> nākiya cempiyaṉ muven=taveḷāṉ <hi rend="grantha">śrī</hi> viranārāyaṇacatu<hi rend="grantha">rvvedi</hi>maṅkalattu tiruvaṉanticuvarattu parama<hi rend="grantha">svā</hi>mikku ca<hi rend="grantha">ntrā</hi>titavaṟ
+<lb n="2"/>Erippatāka vaitta nontā viḷakkoṉṟu Itaṟku Ivūr vaṭakkil tukaṭic caṅkarapāṭiyārun � <gap reason="lost" quantity="4" unit="character"/> taṟki pāṭiyārum vacam ni<unclear>ca</unclear>tam Uḻakkeṇṇai muṭṭāmai Aṭṭak kaṭavārāka kuṭutta Īḻakācu Irupa<unclear>tu</unclear> Iviru(p)patu kācu ko
+<lb n="3" break="no"/>ṇṭu Ipparicu Iveṇṇai Aṭṭuvārānārkaḷ Iviḷakkeriya kuttuviḷakkum Oṉṟu vai <gap reason="lost" quantity="8" unit="character"/> <hi rend="grantha">sabhai rakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 32, part 2, no. 80 by <bibl><ptr target="bib:Swaminathan2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2012_01"/>
+			<citedRange unit="page">197-198</citedRange>
+			<citedRange unit="item">80</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

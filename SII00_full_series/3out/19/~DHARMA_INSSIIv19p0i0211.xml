@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.211: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 211. (A.R. No. 216 of 1926.) KĪḺAPPAḺUVŪR, UDAIYARPALAYAM TALUK, TIRUCHIRAPALLI DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE, PAŚUPATĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0211</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records the sale of 2 <hi rend="italic">mā</hi> of land to Chaṇḍēśvara-Bhaṭāra in the temple of Maṟavaṉīśvara at Śiṟu-Paḻuvūr a <hi rend="italic">brahmadēya</hi> Kuṉṟa-kūṟṟam for 8 <hi rend="italic">kaḻañju</hi> of ‘fire tested pure’ gold by two brothers <hi rend="bold">Iravi Vaḍugaṉ and Iravi-Dattaṉ</hi> of <hi rend="bold">Tirunallūr</hi> a <hi rend="italic">brahmadēya</hi> in Maṟaik-kūṟṟam. The name of the temple is suggestive of its origin to a Paḻavēṭṭaraiyar chief Maṟavaṉ Kaṇḍaṉ in the reign of Parāntaka I whose inscription (No. 278 of 1926) is also found here. In early times the transactions of a Śiva temple were all done in the name of Chaṇḍēśvara.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopparakecaripaṉmaṟku yāṇṭu 8<g type="dash"/>Āvatu vaṭakarai maṟaikkūṟṟa
+<lb n="2" break="no"/>ttu <hi rend="grantha">brahmade</hi>yam tirunallūr vārkkiyaṉ Iravivaṭukaṉum Iravitattaṉum Ivvi
+<lb n="3" break="no"/>ruvom kuṉṟakkūṟṟattu <hi rend="grantha">brahma</hi>t<hi rend="grantha">ai</hi>yañ ciṟupaḻuvūr maṟavaṉi<hi rend="grantha">śva</hi>rattu ca<hi rend="grantha">ṇḍe</hi>
+<lb n="4" break="no"/><hi rend="grantha">śvarabhi</hi>ṭā<supplied reason="omitted">ra</supplied>rkku nāṅkaḷ viṟṟukkuṭutta nilamāvatu ciṟupaḻuvūr ceṅkuḷattu tū 
+<lb n="5" break="no"/>mpiṉkiḻ kiḻkaḻaṉi peruvāykkāliṉ vaṭavā<supplied reason="omitted">y</supplied>kkāl Eṅkaḷ Iraṇṭu māvukku kiḻpāṟ
+<lb n="6" break="no"/>kellai caṅkaraṉiraviyun tampimāru nilattukku meṟkun teṉpāṟkellai puḷḷa
+<lb n="7" break="no"/>maṅkalattu pālāciriyaṉ nārāyaṇa ṉiraviyun tampiyum Aṉu<hi rend="grantha">bha</hi>vikkiṉṟa nilat
+<lb n="8" break="no"/>tukkum peruvāykkālukkum vaṭakkum melpāṟkellai cāttamaṅkalattu pā
+<lb n="9" break="no"/>lāciriyaṉ A<unclear>k</unclear>kiraṉ Aṉu<hi rend="grantha">bha</hi>vikkiṉṟa nilattukkum caṭaiyaṉ kiraṉ Aṉu<hi rend="grantha">bha</hi>vikkiṉṟa
+<lb n="10"/>nilattu<supplied reason="omitted">k</supplied>kuṅ kiḻakkum vaṭapāṟkellai Iccaṭaiyaṉ kiraṉ Aṉu<hi rend="grantha">bha</hi>vikkiṉṟa ni<unclear>la</unclear>ttukku
+<lb n="11"/>vārkkiyaṉ <unclear>Ū</unclear>r ṉilakaṇṭa<hi rend="grantha">somā</hi>ciyār kalattilākiṉṟa nilattu ceṭṭi māṟi <hi rend="grantha">strīdha</hi>nam
+<lb n="12"/>peṟṟuṭaiyarom <unclear>Ā</unclear>ḷkiṉṟa nilattukku teṟkum Ivvicaitta perunāṉkellaiyil Akap
+<lb n="13" break="no"/>paṭṭa nilam Iraṇṭu mā mikutikkuṟaimai Uḷḷaṭaṅka viṟṟukkuṭuttuk koṇṭa vilaipporuḷ tippo
+<lb n="14" break="no"/>kkuccempoṉ Eṇkaḻa<supplied reason="omitted">ñ</supplied>cum kaiyile koṇṭu Eṇka<unclear>ḻa</unclear>ñcukkum vilaikkaṟa viṟṟup poruḷaṟak koṇṭu <unclear>yituve</unclear>
+<lb n="15" break="no"/>vilaiyāvaṇamākavum veṟu poruḷmāvaṟuti poruṭcilavu kāṭṭa kaṭavaraṉṟi viṟ
+<lb n="16" break="no"/>ṟu vilaiyāvaṇañ ceytu kuṭuttom ciṟupaḻuvūr maṟavaṉi<hi rend="grantha">śva<supplied reason="omitted">ra</supplied></hi>ttu <hi rend="grantha">caṇḍeśva</hi>
+<lb n="17" break="no"/><hi rend="grantha">rabhi</hi>ṭā<supplied reason="omitted">ra</supplied>rkku Iravivaṭukaṉum Iravitattaṉum Ivviruvom paṉmāye<hi rend="grantha">śvararakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.211 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">107-108</citedRange>
+			<citedRange unit="item">211</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

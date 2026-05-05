@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.318: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 318. (A.R. No. 320 of 1906.) TIRUMĀLPURAM, WALAJAPET TALUK, NORTH ARCOT DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, RUINED VISHṆU TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0318</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records an endowment of land, 1462(1/2) <hi rend="italic">kuḻi</hi> in extent, by <hi rend="bold">Kōyil Kaṇṇapirāṭṭi</hi> wife of the chief <hi rend="bold">Śāttan Kālaṉ Vē[ḷāṉ] [Ādl]tyaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Mīnavaṉ Mūvēndavēḷāṉ of Pullāli</hi>, for the daily expenses of the <hi rend="italic">ardha-yāma</hi> service in the temple of the Gōvindapāḍi-Niṉṟaruḷiṉa-Perumānaḍigaḷ. This land is stated to have been situated in the <hi rend="italic">dēvadāna-brahmadēya</hi> village Śiṟṟiyāṟṟūr belonging to the <hi rend="italic">sabhā</hi> of Nallimaṅgalam and purchased out of the share owned by Vishṇuchandra Bhūtikramavittaṉ a member of the <hi rend="italic">gaṇam</hi>, his brother and their sister-in-law. The mention of the chief makes the inscription assignable to <hi rend="bold">Uttama-Chōḷa.</hi> (Vide. S.I.I. Vol. III No. 142).</p>						
+
+						<p>Within the body of the inscription are two panels, one containing in relief the figures of two warriors, and the other the figures of a warrior and a woman.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="5" unit="character"/> pparake<hi rend="grantha">sari</hi>va<hi rend="grantha">rmma</hi>ṟki yāṇṭu <num value="13"><g type="numeral">10</g> 3</num><g type="dash"/>Āvatu <gap reason="lost" quantity="2" unit="character"/> lappāṭi pullālic cāttaṅ kālaṉ ve
+<lb n="2" break="no"/> <gap reason="lost" quantity="3" unit="character"/> <unclear>Āti</unclear><hi rend="grantha">tya</hi>ṉāṉ minavanmuventaveḷān maṇavāṭṭiy koyil kaṇṇapirāṭṭiy <hi rend="grantha">śrīgo</hi>vi<hi rend="grantha">nda</hi>pāṭiy
+<lb n="3"/> <gap reason="lost" quantity="4" unit="character"/> mānaṭikaḷukku <hi rend="grantha">Arddha</hi>yā<hi rend="grantha">ma</hi>n=tiruvamutu ceyvataṟkup paḻavarici nāṉāḻiyum neyyamutu
+<lb n="4"/> <gap reason="lost" quantity="4" unit="character"/> tu nāḻiyuṅ kaṟiyamutiraṇṭum Aṭaikkāyamutañcum veṟṟilaiyamutāraṭukkumāka vippaṭi
+<lb n="5"/><hi rend="grantha">śandrāditya</hi> <gap reason="lost" quantity="2" unit="character"/> Amu <gap reason="lost" quantity="5" unit="character"/> ṟku vaiytta nilamāvatu maṇai<unclear>yiṟk</unclear>koṭṭattu melpa <gap reason="lost" quantity="4" unit="character"/> rnāṭṭu nallimaṅka
+<lb n="6" break="no"/>lamyāḷu[ m<hi rend="grantha">ga</hi>] ṇattāru <gap reason="lost" quantity="2" unit="character"/> kā <gap reason="lost" quantity="2" unit="character"/> vi<hi rend="grantha">ṣṇucandrapū</hi>ti<hi rend="grantha">krama</hi>vittaṉum Ivaṉ tampiy ciṟuvaṭi<hi rend="grantha">krama</hi>vittanumiva<unclear>n tam</unclear>piy maticūta<hi rend="grantha">krama</hi>vittan <hi rend="grantha">brahma</hi>ṇi
+<lb n="7"/>Ammātinaṅkaic cānikku Iva<unclear>ḷ</unclear> maittunan Ivvi<hi rend="grantha">ṣṇucandrapū</hi>ti<hi rend="grantha">krama</hi>vittaṉ mutukaṇṇākavu mi <gap reason="lost" quantity="4" unit="character"/> nakku viṟṟut tanta nilam Innallimaṅ
+<lb n="8" break="no"/>kalam yāḷu<hi rend="grantha">m sabhai</hi>yār <hi rend="grantha">de</hi>va<hi rend="grantha">dā <gap reason="lost" quantity="3" unit="character"/> de</hi>yamākap peṟṟuṭaiya ciṟṟiyā<unclear>ṟṟū</unclear>r <hi rend="grantha">rāja</hi> ke<hi rend="grantha">sari</hi>vatikku meṟku <hi rend="grantha">śrīga<unclear>rbha</unclear></hi>vāykkālukku va<unclear>ṭa</unclear>kku kiḻakkuniṉ
+<lb n="9" break="no"/>ṟum nālāṅkaṇṇāṟṟukkut <gap reason="lost" quantity="3" unit="character"/> niṉṟum muṉṟāñcatukkattum nālāñcatukkattumāka Āyirattu nāṉūṟṟu Aṟupattiraṇṭaraik kuḻiyum nān
+<lb n="10"/><unclear>vi</unclear>laike <gap reason="lost" quantity="5" unit="character"/> <hi rend="grantha"><num value="40">4 <g type="numeral">10</g></num> śrī <unclear>gā</unclear>vinda</hi>pāṭi niṉṟaruḷina perumānaṭikaḷukkuk kuṭut <unclear>teṉ</unclear> koyil kaṇṇapirāṭṭiyen Itu <hi rend="grantha">śrī vaiṣṇa</hi>va<hi rend="grantha">rirakṣai <g type="ddanda">.</g></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.318 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">159</citedRange>
+			<citedRange unit="item">318</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

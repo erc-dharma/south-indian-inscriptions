@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.503: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 503. (A.R. No. B 3 of 1943-44.) Ōmkāram, Nandyal Taluk, Kurnool District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0503</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab with the image of Āñjanēya set up under the pipal tree near the tank.</p>						
+
+						<p>The date is expressed by the chronogram <hi rend="bold">vasu-vārāśi-guṇa-indu</hi> in <hi rend="bold">Śaka 1348, Parābhava, Kārttīka śu. 13,</hi> corresponding to 1426 A.D., October 28, Monday.</p>						
+
+						<p>It records the construction of a tank by Hamsanāyaka, son of Purushōttama and Chennamāmba.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrī vasu vārāśi guṇēṁdu śakavatsarē 
+<lb n="2"/>parābhavābda Ū¨rjādi trayōdaśyāṁ hima 
+<lb n="3" break="no"/>dṛtau puruṣōttamabhūpasya putra śrī haṁsa 
+<lb n="4" break="no"/>nāyakaḥ <g type="danda">.</g> vadānyaḥścannamākhyāṁbāga¨rbbhadugdābdi 
+<lb n="5"/>caṁdramāḥ <g type="danda">.</g> śrīśailēnābhidēśētrē <g type="danda">.</g> taṭākaṁ phalaśālinaṁ <supplied reason="undefined"><g type="danda">.</g></supplied> 
+<lb n="6"/>Ācaṁdrā¨rkkaṁ pratiṣṭhāpya dhammasthitiyapāla 
+<lb n="7" break="no"/><unclear>yat</unclear> <g type="danda">.</g> puruṣōttama bhūpālanaṁdanō haṁsanāya 
+<lb n="8"/> <gap reason="lost" quantity="5" unit="character"/> prōccalaccāru vīcīrayya macīkarat <g type="danda">.</g> 
+<lb n="9"/> <gap reason="lost" quantity="5" unit="character"/> caṁdraśakaṁgalgu parābhava vatsaraṁbu 
+<lb n="10"/> <gap reason="lost" quantity="5" unit="character"/> [gā¨rti]kaṁbu <g type="danda">.</g> tōli<unclear>te</unclear>raśiniṁduni vā 
+<lb n="11" break="no"/> <gap reason="lost" quantity="10" unit="character"/> bhūvibhu <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.503 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">434-435</citedRange>
+			<citedRange unit="item">503</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

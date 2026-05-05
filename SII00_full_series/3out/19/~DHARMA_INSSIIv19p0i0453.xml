@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.453: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 453. (A.R. No. 128 of 1911.) TIRUVARĀMĪŚVARAM, MANNARGUDI TALUK, TANJAVUR DISTRICT. ON THE SOUTH WALL OF THE maṇḍapa IN FRONT OF THE CENTRAL SHRINE, RĀMANĀTHĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0453</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records an agreement given by four servants of the temple of Tiruvirāmīśvaram at Madanamañjari-chaturvēdimaṅgalam a <hi rend="italic">brahmadēya</hi> village in Nenmali-nāḍu, to maintain a perpetual lamp in the temple for a landgift of 48 <hi rend="italic">kuḻi</hi> of land at Neḍumaṇal, and a cash payment of 10 <hi rend="italic">kaḻañju</hi> of gold received by them from <hi rend="bold">Ūraṉ Brahma-Kuttaṉ</hi> a merchant residing in the <hi rend="bold">Vīraśōḻaperunderuvu at Tañjāvūr.</hi> Like No. 350. above, this may also be assigned to <hi rend="bold">Uttama-Chōḷa's</hi> reign.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopa<supplied reason="omitted">ra</supplied><unclear>ke</unclear>caripanma<supplied reason="omitted">r</supplied>kku yāṇṭu <gap reason="lost" quantity="5" unit="character"/> ne<hi rend="grantha">nma</hi>lināṭ <hi rend="grantha">brahma</hi>teyam matanamañcaricatu<hi rend="grantha">rvve</hi>tima
+<lb n="2" break="no"/>ṅkalattu tiruvirāmi<hi rend="grantha">śva</hi>rattu tiruko� <gap reason="lost" quantity="7" unit="character"/> makaṉ loccaṉ nampirāṉaṭikaḷ tiruvirāmi<hi rend="grantha">śva</hi>raṉum Ālaca 
+<lb n="3" break="no"/>ṉ can=tiracekaraṉ veṇkāṭatevaṉum pāratāyaṉ <gap reason="lost" quantity="3" unit="character"/> paṉaraka cāttaṉum kaviṇiya<unclear>ṉ</unclear> Āccaṉ caṉtiracekaraṉum
+<lb n="4"/>Iññālvom tañcāvūr viracoḻapperu<unclear>nteru</unclear>vil viyāpāri Ūran <hi rend="grantha">prahma</hi>kuṭṭan Ittiruvirāmi<hi rend="grantha">śva</hi>
+<lb n="5" break="no"/>rattu ma<hi rend="grantha">hāde</hi>varkku Oru ṉontāviḷakku ku <gap reason="lost" quantity="4" unit="character"/> m pon Ivvūrk kallāl patiṉkaḻañcum
+<lb n="6"/>nilam neṭumaṇal natta<supplied reason="omitted">t</supplied>tu rā<hi rend="grantha">ja</hi>kecarivatikku meṟkkum <hi rend="grantha">suprahmaṇya nārā</hi>yattukku <unclear>va</unclear>ṭakku kiḻakkuniṉṟum muṉṟā
+<lb n="7" break="no"/>ñciṟakil teṟkkuniṉṟum Iraṇṭāñcatukkattu vaṭakkaṭaiya <unclear>patiṉā</unclear>ṟu kuḻiyum mu(ṟa)ṉṟā ñcatukkattukku<unclear>ḻi</unclear> muppattiraṇṭum
+<lb n="8"/>Āka kuḻi nāṟppa<unclear>t</unclear>teṭṭu Ikkuḻiyāl vanta nilamum Ippoṉ patiṉkaḻaiñcum nāṅkaḷ koṇṭamaiyil Innilattil
+<lb n="9"/><hi rend="grantha">bhoga</hi>ttālum Ippoṉniṉ palicaiyālum Ittevarkku Oru nontāviḷakku <hi rend="grantha">candrādi</hi>ttaval Ikkoyilil Eṅkaḷ pa<unclear>ṇi</unclear>ye
+<lb n="10"/>yoṟṟiyāka mu<unclear>n</unclear>ti<unclear>ṟo</unclear>mey no<hi rend="grantha">ndā</hi>viḷakkerippomānom Iṉnālvom Itu paṉ<hi rend="grantha">māheśvara</hi>r <hi rend="grantha">rakṣai [<g type="ddanda">.</g>]</hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.453 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">232-233</citedRange>
+			<citedRange unit="item">453</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

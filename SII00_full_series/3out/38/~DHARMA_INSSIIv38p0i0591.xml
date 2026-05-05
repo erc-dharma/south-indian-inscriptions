@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.591: original edition by S. Swaminathan</title>
+				<title type="alt">No. 591.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0591</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						<p><hi rend="bold">King: Priyapiṭṭa[mma] (Pṛithivīpati I) Year ⎯⎯</hi></p>						
+
+						<p>This inscription is in the characters of the 8-9th century A.D. It records a grant of <hi rend="italic">bittulaṭṭa (bittuvaṭṭi)</hi> land, for the maintenance of tanks, by the king. It contains the names of <hi rend="italic">gauṇḍas</hi> and ends with the usual imprecatory verses.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svastiśrī koṅgu A <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="2"/>piriya piṭṭa <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="3"/>ra siriyamma gāvuṇda <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="4"/>cāvayya gāvuṇḍanaṁ mā
+<lb n="5"/>deya gāvuṇdanuṁ vabbaṇna<unclear>ga</unclear>
+<lb n="6"/>vuṇḍanuṁ vintī nālvaruṁ bīrayya
+<lb n="7"/>nuṁ voḍani<unclear>mdi</unclear>yeraḍu keṟe
+<lb n="8"/>ya bittalaṭṭeyuvanera
+<lb n="9"/>ḍu keṟegaṁ naḍeyivonā
+<lb n="10"/>dēvō naḍeyi
+<lb n="11"/>sadava ke<unclear>ṟe</unclear> 
+<lb n="12"/>yamaṁ vāraṇāsiyumaṁ
+<lb n="13"/>kavileyu<note n="696-*">Lines 13 &amp; 14 are written under the word‘vāraṇāsiyumaṁ’ of line 12.</note>
+<lb n="14"/>manaḻidō<unclear>n</unclear><note n="696-*">Lines 13 &amp; 14 are written under the‘vāraṇāsiyumaṁ’ of line 12.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.591 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">695-696</citedRange>
+			<citedRange unit="item">591</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

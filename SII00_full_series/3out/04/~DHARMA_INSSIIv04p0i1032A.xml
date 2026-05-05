@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 4.1032A: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 1032-A. (A.R. No. 205-A of 1893). ON THE SAME WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv04p0i1032A</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1-5"/>Damaged <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="6"/>bhūt <g type="danda">.</g> Ādāya tēnāmaladhīparājadakhaṁ
+<lb n="7" break="no"/>ḍḍava¨rtti¨rvvaravaṁśadīpaḥ <g type="danda">.</g> vyōmanāgē<unclear>śa</unclear>
+<lb n="8"/>śākēbdhē kā¨rttikadvādaśīdinē <g type="danda">.</g> dākṣārā manivā
+<lb n="9" break="no"/>sāya bhīmanāthāya śaṁbhavē <g type="danda">.</g> śakavaru
+<lb n="10" break="no"/>ṣamulu 1180 ṇṭi śrīrājādirājadē
+<lb n="11" break="no"/>vara vijayarājyasaṁvatsaramulu 43
+<lb n="12"/>śrāhi kā¨rttikamāsamuna mahādvāda
+<lb n="13" break="no"/>śi nimittamuna śrīmanmahāmaṁḍḍa
+<lb n="14"/>lēśvara <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="15-20"/>Damaged <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="21"/> <gap reason="lost" quantity="5" unit="character"/> Āḍapuna mruceko
+<lb n="22" break="no"/>mmanabōIni A<unclear>ḍvamunu</unclear>
+<lb n="23" break="no"/>kala Eṟyabhōla <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="24"/>vasamunaṁ beṭṭina mōdā
+<lb n="25" break="no"/>lu 50 ki nityapaḍi Aḍu
+<lb n="26" break="no"/>vagala tribhuvanāṁkuśa <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 4.1032A by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1923_01"/>
+			<citedRange unit="page">339</citedRange>
+			<citedRange unit="item">1032A</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

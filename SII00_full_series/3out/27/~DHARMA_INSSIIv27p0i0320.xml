@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 27.320: original edition by M. D. Sampath, H. K. Narasimhamurthy, Madhav N. Katti and B. R. Gopal</title>
+				<title type="alt">No. 320. (A.R. No. 226 of 1937-38.) ELLĀREḌḌIPALLE, KAMALAPURAM TALUK, CUDDAPAH DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv27p0i0320</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab set up in Survey No. 475 near the canal about three furlongs to the south-west of the village.</p>						
+
+						<p>1207-08 A.D.</p>						
+
+						<p>This badly damaged record refers to mahāmaṇḍalēśvara Sōmēśvaradēva-mahārāja bearing the epithet <hi rend="italic">Trailōkyamalla-Bhujabala-</hi> <hi rend="italic">Vīranārāyaṇa</hi> as governing Muḷiki-300, Honnahaḷi-90 and Peṇḍekal-800 divisions from [Vallū]rapaṭṭaṇa and registers a gift made over to Gōkarṇarāśi-gurudēva disciple (devotee ?) of Kamaḷaśaṅkaradēva. All other details are lost.</p>						
+
+						<p>The extant portion of the record refers to the date as <hi rend="bold">Śaka 1128, Prabhava.</hi> The Śaka year is wrong for 1129 corresponding to 1207-08 A.D.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>First face.</h4>-->
+
+<p>
+<lb n="1-6"/><ce>damaged</ce>
+<lb n="7"/> <gap reason="lost" quantity="5" unit="character"/> Aṣṭama
+<lb n="8" break="no"/>hāsiddhi siddhavaṭa dēvara
+<lb n="9"/>divyaśrīpādhārādhakaṁ para
+<lb n="10" break="no"/>balasādhakaṁ nāmādi sa<unclear>ma</unclear>
+<lb n="11" break="no"/>sta praśasti sahitaṁ śrīmanu
+<lb n="12" break="no"/>mahāmaṁḍaḷēśvaraṁ trai
+<lb n="13" break="no"/>ḷōkyamalla bhujabaḷavīra
+<lb n="14" break="no"/>nārāyaṇa <hi rend="bold">sōmēśvara dē</hi>
+<lb n="15" break="no"/><hi rend="bold">vamahārāja</hi>ru <unclear>mu</unclear>ḷi
+<lb n="16" break="no"/>ki muṁnūṟu hoṁnahaḷi
+<lb n="17"/>toṁbhattu peṁḍekalleṁṭu nū
+<lb n="18" break="no"/>ṟumaṁ duṣṭanigraha śiṣṭa pra
+<lb n="19" break="no"/>tipāḷanaṁ māḍiyāḷuttaṁ va
+<lb n="20" break="no"/><unclear>llū</unclear>rapaṭṭaṇadoḷu sukha saṁ
+<lb n="21" break="no"/>kathā vinōdadiṁ rājyaṁ
+<lb n="22" break="no"/>geyyuttamiralu
+</p>
+
+<!--<h4>Second face.</h4>-->
+
+<p>
+<lb n="23-28"/><ce>damaged</ce>
+<lb n="29"/> <gap reason="lost" quantity="10" unit="character"/> śrīma
+<lb n="30"/> <gap reason="lost" quantity="10" unit="character"/> vīranārāyaṇa
+<lb n="31"/> <gap reason="lost" quantity="10" unit="character"/> sā
+<lb n="32" break="no"/><hi rend="bold">yirada nūṟayippatteṁṭaneya</hi> 
+<lb n="33"/><hi rend="bold">1128 prabhava saṁva <gap reason="lost" quantity="10" unit="character"/> </hi>
+<lb n="34-47"/><ce>damaged</ce>
+<lb n="48"/>kaḷa vidyābitaraṇa cāturyya
+<lb n="49"/>caturāna <supplied reason="omitted">na</supplied>nuṁ śrīmatu kamaḷa
+<lb n="50" break="no"/>śaṁkara dēvara divya pādārā
+<lb n="51" break="no"/>dhakanuṁ śrīmatu pāspatavā<unclear>rdhi</unclear>
+<lb n="52"/>va<unclear>rdhana</unclear> sudhākaranuma
+<lb n="53" break="no"/>ppa gōkarnnarāśi gurudēvarggera[*] kā
+<lb n="54" break="no"/>laṁkarcci dhārāpūrvvakaṁ mā
+<lb n="55" break="no"/>ḍi koṭṭaru svadattaṁ paradattaṁ
+<lb n="56"/>vā yō harēti vasuṁdharā ṣa
+<lb n="57" break="no"/>ṣṭhirvarṣa sahasrāṇi viṣṭheyāṁ
+<lb n="58"/>jāyatē krimi<unclear>ḥ</unclear>
+<lb n="59"/>maṁgaḷa mahā śrī
+<lb n="60"/>śrī śrī
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 27.320 by <bibl><ptr target="bib:Sampath+al2001_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath+al2001_01"/>
+			<citedRange unit="page">433-435</citedRange>
+			<citedRange unit="item">320</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.131: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 131. (A.R. No. 234A of 1911.) KUMBHAKŌṆAM, KUMBHAKONAM TALUK, TANJAVUR DISTRICT. ON THE NORTH AND WEST WALLS OF THE CENTRAL SHRINE, NĀGĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0131</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The details of the date given in this inscription viz. 5th year, Āṉi, [śu.] 5, Mūla, Friday correspond to A.D. 975, June 16, ·85, but with two corrections: weekday being Wednesday and nakshatra Maghā.</p>						
+
+						<p>This records a sale of land a quarter <hi rend="italic">vēli</hi> in extent made by the <hi rend="italic">Mūlaparuḍaipperumakkaḷ</hi> of Tirukkuḍamukkil to Mādēvan Kaṇḍi a servant-woman attached to the <hi rend="bold">Kaṟṟaḷippirāṭṭiyār-Vēḷam at Tañjāvūr</hi> for 20 <hi rend="italic">kāṣu</hi> which was endowed by her for the maintenance of a person who was to supply a pot of water from the Kāvēri river thrice every day for the sacred bath of the god. <hi rend="bold">Kaṟṟaḷippirāṭṭiyār</hi> seems to be the same as the donor figuring in No. 95 above and probably diflerent from her namesake who <hi rend="bold">was the wife of the Koḍumbāḷūr chief Bhūti-Vikramakēsari</hi> the subordinate of <hi rend="bold">Sundara-Chōḷa Parāntaka II.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi>— kopparake<hi rend="grantha">sa</hi>ripa<hi rend="grantha">nma</hi><supplied reason="omitted">r</supplied>kku yāṇṭu 5<g type="dash"/>Āvatu Ivvāṇṭānittiṅkaḷ mati nāṭapakkam pañcami nāḷ mūlattu kiḻa<unclear>m</unclear>ai veḷḷi poḻutu muṉcoṟkuṟi Ituvāṇṭitu tiṅkaḷitu pakkam titu poḻu tituparuvamāka vaṭakaraip pāmpūrnāṭṭut tevatāṉan tirukkuṭa mukkil mulaparaṭaipperumakkaḷoṅ keṭṭa nilavilaiyāva<supplied reason="omitted">ṇan</supplied> tanta Ivvūrk kuṟṟattut tañcārūrk ka
+<lb n="2" break="no"/>ṟṟaḷippirāṭṭiyār veḷattup peṇṭāṭṭi mātevan(ṅ) kaṇṭi tirukkiḻkkoṭṭat tup pa<hi rend="grantha">ramasvā</hi>mikku vaitta tirum(ā)ñcuṇattukku Ivaḷiṭaik koṇṭa kācu <num value="20">2 <g type="numeral">10</g></num> Ikkācu Irupatuṅ koṇṭu Emperumāṉukkuk kāviriyiṉiṉṟum potu kala nir koṇṭu muṉṟu <hi rend="grantha">sandhi</hi> <unclear>yu</unclear>n tirumañ<unclear>ca</unclear>ṉa niraṭṭuvāṉukku <hi rend="grantha">bhoga</hi>māka Āvaṇañ ceytu kuṭutta nilamāvatu kaḻaniyil Ariyalūp patiṟṟuveli
+<lb n="3" break="no"/>yil nāṉmāk kūṟiṭṭil Aḷantu kāṟ cey viṟ<unclear>ṟukkuṭut</unclear>tataṟ kellai kiḻpār<supplied reason="omitted">k</supplied>kellai I<hi rend="grantha"><unclear>ppara</unclear>masvāmi</hi> nilattukkey <hi rend="grantha">me</hi><supplied reason="omitted">ṟ</supplied>kkun <unclear>teṉpāṟ</unclear>kkellai <gap reason="lost" quantity="7" unit="character"/> ṟukkey vaṭakku<unclear>m me</unclear>lpārkkellaiyum pa<hi rend="grantha">rama</hi> <gap reason="lost" quantity="2" unit="character"/> tta <gap reason="lost" quantity="5" unit="character"/> ḻa<supplied reason="omitted">k</supplied>ku <gap reason="lost" quantity="9" unit="character"/> llaiyum para<hi rend="grantha">masvā</hi>mik <gap reason="lost" quantity="4" unit="character"/> teṟkumāka I <gap reason="lost" quantity="4" unit="character"/> tta perunāṉke<supplied reason="omitted">l</supplied>laiyuḷḷaka <gap reason="lost" quantity="5" unit="character"/> Aḷantuvantapaṭi kāṟ ceyyum viṟṟu vilai <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="4"/>ñ ceytukuṭuttu Ik kācirupatu māvaṇakkaḷatte <gap reason="lost" quantity="4" unit="character"/> cellap poruḷaṟak koṇṭu <hi rend="grantha">ca</hi>n=tā<hi rend="grantha">di</hi>ttaval tirumañcaṉa muṭṭāme tiru <gap reason="lost" quantity="7" unit="character"/> Ikkācu Irupatum Emperumāṉ <hi rend="grantha">śrībhaṇḍa</hi>ra ttey vait <gap reason="lost" quantity="9" unit="character"/> poṉta <hi rend="grantha">svā</hi>mi<hi rend="grantha">bhoga</hi>mñ tiru<hi rend="grantha">mañca</hi>na ni<unclear>raṭṭu</unclear>vāṉukkuk kappaṭattukkuṅ ko <gap reason="lost" quantity="4" unit="character"/> kumāka In nilaṅ kālum Āvaṇañ ceytu vi <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="5"/>kkuṭuttom meṟcollappaṭṭa kaṟṟaḷippirāṭṭiyār veḷattup peṇṭāṭṭi <gap reason="lost" quantity="4" unit="character"/> ṇṭikku mūlaparaṭaipperumakkaḷom <gap reason="lost" quantity="9" unit="character"/> tuḷ ḷāvaṇakkiḻapu(va)ruḷ mulaparaṭaip perumakkaḷ paṇiyāl In nilavilaiyāvaṇa meḻutiṉeṉ Ivvūr Ūrkkaṇakkuc ceykinṟa<note n="66-1">The inscription stops here.</note> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.131 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">66</citedRange>
+			<citedRange unit="item">131</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

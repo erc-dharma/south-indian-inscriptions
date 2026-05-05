@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.502: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 502. (A.R. No. 233 of 1905.) ON THE EAST WALL OF THE DARK ROOM IN THE TEMPLE OF TRIPURĀNTAKĒŚVARA, TRIPURĀNTAKAM, MARKAPUR TALUK, KURNOOL DISTRICT. Ś. 1234. (Parīdhāvi)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0502</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>States that the worshippers and all other classes of servants attached to the temple of Tripurāntakadēva entered into a convention agreeing to abide by the orders of the temple Trustee <hi rend="italic">(sthānapati).</hi> The king was <hi rend="bold">Kākatīya Pratāpa-Rudradēva-Mahārāja.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrīmanmahāmaṁḍalēśvarakākatiyyapratāparudradēvamahārājulu sukhasaṁkathāvinō daṁbunaṁ bridhi 
+<lb n="2" break="no"/>virājyamu sēyucuṁḍaṁgānu parīdhāvisaṁvatsara bhādrapada ba 1 śu <g type="danda">.</g> śrītripurāṁtaka śrī manmahādē 
+<lb n="3" break="no"/>vara saṁnidhini svasti śrītripurāṁtakadēvadivyaśrīpādapadmārādhaku laina tripurāṁtaka kṣētra vāsi Asaṁkhyātamahāmāhēśvarulakūnu svasti śrītripurāṁtakadēvadivya 
+<lb n="4"/>śrīpādapadmārādhaku laina śrītripurāṁtakadēvara pūjārulu modalaina ḍebbhayireṁḍu niyōgālavārūnu tamalōna sa 
+<lb n="5" break="no"/>mayamugā peṭṭina śāsa<unclear>na</unclear>paddhati veṭṭinanu <gap reason="lost" quantity="2" unit="character"/> śrītripurāṁtakadēvaranagarānaṁ mā kuṁ gala <gap reason="lost" quantity="3" unit="character"/> ṭhāvulu ce<unclear>trā</unclear>lu tējyama <gap reason="lost" quantity="3" unit="character"/> Anubhaviṁci śrītripurāṁ 
+<lb n="6" break="no"/>takadēvaranagarulō tamacēni <unclear>paṭṭulapani</unclear> sthānāpati paṁcina kramāna naḍaci <gap reason="lost" quantity="3" unit="character"/> nuṁḍaṁ galavāramu <g type="ddanda">.</g> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.502 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">270-271</citedRange>
+			<citedRange unit="item">502</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

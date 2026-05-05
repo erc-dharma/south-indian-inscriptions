@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 15.665: original edition by P. B. Desai, Dines Chandra Sircar and G. S. Gai</title>
+				<title type="alt">No. 665. (B.K. No. 49 of 1927-28.) CHYĀGIRAKĒRI, MUNDARGI TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv15p0i0665</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On one of the two sluices of the tank.</p>						
+
+						<p>1404 A.D.</p>						
+
+						<p>This is dated the cyclic year Tāraṇa, Vaiśākha śu. 5, Monday. As the record may be assigned palaeographically to the 15th century, the date may be equated to 1404 A.D., April 14.</p>						
+
+						<p>It states that the sluice of the tank was set up with due ceremony by Gōpaṇṇa. son of <hi rend="italic">Māsaverggaḍe</hi> Chikkaṇṇa-Upādhya. <hi rend="italic">Sēnabōva</hi> Varadapaiya paid thirty <hi rend="italic">Pratāpa-Varāhas</hi> towards its expenses and it was constructed by the mason Tipōja.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>tāraṇa saṁvacharada vayiśāka suddha paṁcami sōmavāradalu tuṁbu pratiṣṭaya māḍida varu
+<lb n="2"/>māsave¨rggaḍeya cikkaṁṇaupādhyara makkaḷu <unclear>gō</unclear>paṁṇagaḷu Ā tuṁbiṁge hattida<unclear>vara</unclear> muvattu pratāpa Akṣaradalu mu<unclear>va</unclear>
+<lb n="3" break="no"/>ttu pratāpa śrī triṁbaka <g type="danda">.</g> sēnabōva varadapaiyanu <g type="danda">.</g> tuṁbu māḍidāta tipo ja yiṁtu māḍida[U] <g type="danda">.</g> śrī bammadēvaru prati<unclear>ṣṭitu</unclear>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 15.665 by <bibl><ptr target="bib:Desai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Desai1964_01"/>
+			<citedRange unit="page">417</citedRange>
+			<citedRange unit="item">665</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

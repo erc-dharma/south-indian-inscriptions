@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.718: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 718. (A.R. No. 661 of 1904.) RĀMAGIRI, TIRUVALLUR TALUK, CHINGLEPUT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0718</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>At the entrance into the ruined <hi rend="italic">gōpura</hi> in the Vālīśvara temple.</p>						
+
+						<p>Virūpāksha III. 1480 A.D.</p>						
+
+						<p>In the details of date given <hi rend="italic">viz.</hi> Śaka 1 ·17, Śārvari, ba. 7, Monday, the Śaka year does not agree with the cyclic year. The mention of the king Virūpāksha as the son of Gajavēṭṭai-Pratāpa-Dēvarāya and the mention of Narasiṅgarājauḍaiyār who may be identified with the Sāḷuva chief of that name, enables us to identify the king with Virūpāksha III (1465-1485 A.D.) Hence the cyclic year Śārvari may be equated with 1480 A.D.</p>						
+
+						<p>This damaged inscription seems to record a gift for lamp and flower offerings to Vayirava-nayiṉār and other deities in the temple of Tirukkārikarai-uḍaiyār, for the merit of Narasiṅgarāja-udaiyār and Obaḷayarāja.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śubhamasu <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīma</hi>ṉma<hi rend="grantha">hāma</hi>ṇṭale<hi rend="grantha">sura <gap reason="lost" quantity="4" unit="character"/> </hi>
+<lb n="2"/>kkuttappuvarāya kaṇṭa muvarāyara kaṇṭa <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="3"/><hi rend="grantha">sura</hi>ttāṇa kaṇṭaṇāṭu koṇṭu koṇṭaṇā <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="4"/>kuṭāta <hi rend="grantha">gaja</hi>veṭṭaip <hi rend="grantha">pra</hi>tā<hi rend="grantha">pade</hi>varāya ku<unclear>ma</unclear> <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="5"/>r virupā<hi rend="grantha">kṣa</hi>r<choice><sic>a</sic><corr>ā</corr></choice>ya<supplied reason="omitted">r</supplied>kku cellāniṉṟa cakācatam
+<lb n="6"/><hi rend="grantha">1 <gap reason="lost" quantity="1" unit="character"/> <num value="17"><g type="numeral">10</g> 7</num></hi> mel cellāniṉṟa <hi rend="grantha">sārvari samvat sa</hi>rat <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="7"/><hi rend="grantha">pa</hi>ra pa<hi rend="grantha">kṣa</hi>ttu <hi rend="grantha">saptami</hi>yu <hi rend="grantha">soma</hi>vāramum peṟṟa <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="8"/>nāḷ ceyaṅkoṇṭa coḻamaṇṭalat <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="9"/> <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="10"/> <gap reason="lost" quantity="5" unit="character"/> Uṭaiya tirukkārikarai Uṭaiyaṉāyi <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="11"/> <gap reason="lost" quantity="5" unit="character"/> m nayiṉāṟku naraciṅkairāca Uṭaiyāṟkum Opiḷaiyarāca <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="12"/> <gap reason="lost" quantity="5" unit="character"/> mamāka vilaikiṟeyam tirukkārikarai tevarkku nam cirmai Ellā <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="13"/> <gap reason="lost" quantity="7" unit="character"/> varkaḷukku taṉmamāka cam<hi rend="grantha">drā</hi>tittavarai <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="14"/> <gap reason="lost" quantity="1" unit="character"/> taṉ vayiravanayiṉāṟku niṟnaya <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="15"/>viḷakkum Oraṇai tirumālaiyum naṭatta <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="16"/>yinta piṟamātam nāṟpatteṇṇāyira paṭṭaṉum varākaṉ
+<lb n="17"/>mum Opiḷaiyar mā<unclear>ṇa</unclear> <gap reason="lost" quantity="3" unit="character"/> kkamāṭai <gap reason="lost" quantity="9" unit="character"/> pātiyum <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="18"/>Ātittavaraiyum naṭaka<unclear>k</unclear>ka<supplied reason="omitted">k</supplied>ṭavatākavum Ittanmattukku Ayitam niṉaittār
+<lb n="19"/>keṅkai karaiyile <gap reason="lost" quantity="7" unit="character"/> to<hi rend="grantha">ṣa</hi>ttile po
+<lb n="20"/>ka kaṭavatākavum <g type="ddanda">.</g><g type="dashLong">.</g><note n="343-1">The inscription is very badly damaged.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.718 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">342-343</citedRange>
+			<citedRange unit="item">718</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 24.274: original edition by H. K. Narasimhaswamy</title>
+				<title type="alt">No. 274. (A.R. No. 57 of 1892.) NORTH WALL OF THE SECOND PRĀKĀRA.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv24p0i0274</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Registers an endowment of garden-land after having purchased the same from the temple lands by <hi rend="bold">Ponnambalamahādēviyār, sister of Vīra-Rāmanātha,</hi> <hi rend="bold">born to Vīra-Sōmēśvara of Dēvalamahādēvi, a Chāḷukya princess,</hi> (vide. No. 260). From out of the produce, a service of civet ointment, ornaments and other offerings to Periyaperumāḷ on the day of Kārttigai, were to be conducted on behalf of <hi rend="bold">Ekkaḍai Dēvar.</hi> The record is dated in the <hi rend="bold">12th regnal year</hi> of the king.</p>						
+
+						<p>(Published in <hi rend="italic">S.I.I.,</hi> Vol. IV, No. 504.)</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:grantha maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> samastabhuvanāśraya śrīprathvīvallabha mahārājādhirāja paramēśvara dvārava<unclear>ti</unclear>puravarādhirvara yādavakulāmbaradyumaṇi sarvajñacūḍāmaṇi malarājarāja malaparōḷugaṇḍagaṇḍabhēruṇḍa kadanapracaṇḍa Asahāyaśūra Ēkāṅgavira</hi>
+<lb n="2"/><hi rend="grantha">śanivāra siddhi giridurgamalla caladaṅkarāma vairībhakaṇṭhīrava makararājyanirmmūlana pāṇḍyakulasamuddharaṇa cōḷarājyapratiṣṭhācāryya niśśaṅkapratāpacakravartti hōśaḷa śrīvīrasōmēśvara <unclear>su</unclear>dhāsindhōścāḷukyakulakumudavikasana candrikāyām</hi>
+<lb n="3"/><hi rend="grantha">dēvalamahādēvi vēḷāyām sa<unclear>mu</unclear>dbhūtābhinavalakṣmī<unclear>ḥ</unclear> nikhilakṣitipati makuṭa taṭamaṇi marīcinicaya nīrājita caraṇasarasīruhakanakadhārāvarṣa svīkāra parājita parivārasannāha śrīvīrarāmanāthadēvasahōdarī daradaḷi tanaḷina</hi>
+<lb n="4" break="no"/><hi rend="grantha">daḷasadṛkṣa kaṭākṣavikṣēpakṣapita kṣīṇajanakāluṣya kalāpākara sarasiruhavisṛmarakanakamakaranda sandōhānanditavanditakōlamba<unclear>ka</unclear>gīyamānaguṇagaṇaira dvitiyānitarasa dṛśa[na ?*]yanarūpātiśayēna smaramapi</hi>
+<lb n="5"/><hi rend="grantha">vismāpayantī Anuttarēṇa vitaraṇēna cintāmaṇimapi santāpayantī vistṛtēna vibhavēna yakṣādhipatimapyadhikṣipantī pariṇatēva paritōṣēṇa kalpitēva kalyāṇēna pūritēvapuṇyēna viracitēva vinayēna</hi>
+<lb n="6"/><hi rend="grantha">śrīsōmanāthadēva caraṇasarasijasaparyyā paryyāptasāmrājya vibhavā day<choice><sic>a</sic><corr>ā</corr></choice> dānadā<unclear>kṣi</unclear>ṇya<unclear>ty</unclear>āgasatyaśīlādyanēkaguṇara<unclear>tna</unclear> rōhaṇasthalīhimakumu dakundacandanēndusubhagakī<unclear>rtti</unclear>kētakaparimaḷanīcaya</hi>
+<lb n="7" break="no"/><hi rend="grantha">kavacitabhuvanabhavanā</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">śrīpo</seg><hi rend="grantha">nna</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">mpala</seg><hi rend="grantha">mahādē</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">viyār kārttikaimātattu tirukkārttikait tirunāḷil periyaperumāḷ puḻuku neykkāppuc cātti Aruḷavum Iṟṟaināḷil tiruvārā</seg><hi rend="grantha">dha</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">nattukku</seg>
+<lb n="8"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">Amutupaṭi cāttu<unclear>p</unclear></seg><note n="294-1">Originally <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">‘ṭa’</seg> is engraved here.</note> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">paṭi Uḷḷiṭṭu veṇṭuvaṉa<unclear>vai</unclear>yiṟṟukkum</seg> <hi rend="grantha">Alaṅ</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">kāraṅkaḷukkum Uṭalāka Ekkaṭaitevarperil tirukkuṟaip paṟṟil vilaikoṇṭu tirunāmattuk kāṇiyāka śrīvīrarā</seg><hi rend="grantha">ma</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">nā</seg><hi rend="grantha">thadē</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">vaṟku</seg>
+<lb n="9"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">paṉṉiraṇṭāvatu piṉṉāṉi mātattu tiruvaṭikaḷil</seg> <hi rend="grantha">Uda</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">kam paṇṇittanta teṉoḻuku perumpuliyūr cirāmanampi tāyār</seg> <hi rend="grantha">Amśa</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">māṉa tirunantavaṉattukku meṟkut teṉ ṉāṟṟu niroṭukālukku vaṭakku</seg> <hi rend="grantha">dāsa</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṉ <unclear>Aṇai</unclear>nta</seg>
+<lb n="10"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">k<unclear>o</unclear>ḷari</seg> <hi rend="grantha">dāsa</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṉuḷḷiṭṭār tirunantavanattukku kiḻakku tirumuṭikkuṟaikku peru māḷ Eḻuntaruḷukiṟa tiruvitikku <unclear>te</unclear>ṟku naṭuvupaṭṭa tirunantavaṉam kol pattu<unclear>m</unclear> vaṭavoḻuku Iḷaiyatiruttāḻvarai</seg>
+<lb n="11"/><hi rend="grantha">dāsa</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ruḷḷiṭ<unclear>ṭ</unclear>ār</seg> <hi rend="grantha">śrīsē</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">nā</seg><hi rend="grantha">pa</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tip peruvilai koṇṭa tirunantavanattukku meṟku tirumuṭikkuṟaikku perumāḷ Eḻu<unclear>ntaru</unclear>ḷukiṟa tiruvitikku vaṭakku</seg><hi rend="grantha">dāsa</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṉ A<unclear>ṇai</unclear> nta koḷari vetan tamiḻ ceytāṉ</seg> <hi rend="grantha">dāsa</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṉuḷḷiṭṭār</seg> 
+<lb n="12"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tirunantavanattukku kiḻakku vaṭavāṟṟu niroṭukāl <unclear>Ū</unclear>ṟ naṭuvupaṭṭa tirunantavanam kol patiṉ muṉṟaraiyum Āka tirunantavanam kol Irupattu muṉṟaraiyilum Uḷḷa</seg> <hi rend="grantha">Uda</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">yam koṇṭu Ittiruvārā</seg><hi rend="grantha">dha</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">nam</seg>
+<lb n="13"/><hi rend="grantha">Ācandrārkasthā</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">yiyākac cellak kaṭavatu <supplied reason="undefined"><g type="ddanda">.</g></supplied></seg> <hi rend="grantha">dē</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">viyār ceykiṟa</seg> <hi rend="grantha">dharmmam</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tirumaṇaṟtūṇ nampi tirumālai Eṭukkak kaṭavar</seg>
+<lb n="14"/><hi rend="grantha">śubhamastu <supplied reason="undefined"><g type="danda">.</g></supplied> haimañcantrañca pīṭhammaṇi<unclear>makṛtarā</unclear> kañcukāsandhapīṭhī hārōmāṇikka vētramsubhaga</hi><note n="295-1">A small portion at the end of the inscription is lost.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 24.274 by <bibl><ptr target="bib:Narasimhaswamy1982_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Narasimhaswamy1982_01"/>
+			<citedRange unit="page">293-295</citedRange>
+			<citedRange unit="item">274</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

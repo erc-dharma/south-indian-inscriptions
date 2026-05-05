@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 41.226: original edition by S. Rajagopal</title>
+				<title type="alt">No. 226. (A.R. No. 445 of 1905.) Tiruttaṇi, Tiruttani Taluk, Chittoor District. On the north, west and south walls of the central shrine in the Vijayarāghava-Perumāḷ temple at Tiruttaṇi.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv41p0i0226</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Chōḻa, Rajendra Chōḻa I = 1012-1044 A.D.</hi></p>						
+
+						<p>Fragment. Begining missing. Year lost. Sale of land perhaps by the <hi rend="italic">sabhā</hi> of Jananāthachaturvēdimaṅgalam in Mēnmalai-Taṉiyal-nāḍu.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>kaṭalṉaṭuvuḷ palakalañ celutti caṅkirāma vi<hi rend="grantha">ja</hi>yortuṅka <gap reason="lost" quantity="3" unit="character"/> ṭārattaraiyaṉai vākayum <gap reason="lost" quantity="3" unit="character"/> kumpakkariyoṭum Akappaṭutturimaiyiṟ piṟakkiya peru<unclear>ṇe</unclear>tip piṟakkamum Ārttavaṉ naka<unclear>ra</unclear>por
+<lb n="2" break="no"/>toḻil vācalil viccātira toraṇamum moyttoḷir punamaṇi putavamum kanamaṇikkatava<supplied reason="omitted">mum</supplied> niṟaicir vicai<unclear>yamum</unclear> tuṟai nirppannaiyum <gap reason="lost" quantity="3" unit="character"/> n malaiyūreyiṟ ṟoṉmalaiyūru māḻkaṭalakaḻcūḻ māyiruṭi<unclear>ṅkamum</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="3"/>kalāmutir kaṭuntiṟilāmuṟitecamu<supplied reason="omitted">m</supplied> tenakkavārpoḻil mānakka vāramun toṭuka<supplied reason="omitted">ṭaṟ</supplied> kāvaṟ kaṭumuraṭ<unclear>k</unclear> kaṭāramu māp<unclear>poruta</unclear>ṇṭāṟ koṇṭa kopparakecari panmarāna Uṭaiyār <hi rend="grantha">śrī</hi>rā<hi rend="grantha">je</hi>ntiracoḻa tevaṟku yā<supplied reason="omitted">ṇ</supplied>ṭu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="4"/><hi rend="grantha">ja</hi>yaṅkoṇṭacoḻamaṇṭalattu menmalai taṇiyalnāṭṭu <hi rend="grantha">ja</hi>nanāta caruppeti maṅkalattu <hi rend="grantha">sabhai</hi>yom <unclear>ni</unclear>lavilaiyāvaṇak kaiyeḻuttu Emmūr tiruvāna<hi rend="grantha">nda</hi>purattu Eḻu <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 41.226 by <bibl><ptr target="bib:Rajagopal2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Rajagopal2019_01"/>
+			<citedRange unit="page">251</citedRange>
+			<citedRange unit="item">226</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

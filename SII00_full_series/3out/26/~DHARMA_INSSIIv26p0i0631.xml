@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 26.631: original edition by P. R. Srinivasan</title>
+				<title type="alt">No. 631.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv26p0i0631</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						<p>On a slab set up near the same place.</p>						
+
+						<p><hi rend="bold">Śaka 1479, Piṅgaḷa, Śrāvaṇa ba. 5, Thursday = 1557 A.D., August 14; f.d.t. ·02. The week-day was Saturday.</hi></p>						
+
+						<p>It refers to the obeisance of the people, probably to the deity (details lost) and to an image of single stone.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svastiśrī jayābhyu
+<lb n="2"/>daya śālivāhana śa
+<lb n="3" break="no"/>ka va¨rṣaṁbulu 14<unclear>79</unclear>
+<lb n="4"/>Agunēṁṭi piṁgaḷanāma
+<lb n="5" break="no"/>saṁvvatsara śrāvaṇa ba 5 <unclear>gu</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+<lb n="6-7"/>damaged <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="8"/>mahī <gap reason="lost" quantity="5" unit="character"/> nānākula
+<lb n="9"/>dvārā <gap reason="lost" quantity="3" unit="character"/> kāla <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="10"/>na Atu <gap reason="lost" quantity="3" unit="character"/> koṁḍa <unclear>puṭṭi</unclear>
+<lb n="11"/> <gap reason="lost" quantity="3" unit="character"/> yī tī<unclear>ru</unclear>nanu sa<unclear>ka</unclear>
+<lb n="12" break="no"/>lamaina janulu sēvistū vu
+<lb n="13" break="no"/>ṁnnaṁggānu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="14"/>ṁ Aṁdduna svāmi <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="15"/> <gap reason="lost" quantity="5" unit="character"/> yēkaśilārūpa
+<lb n="16" break="no"/>mai vuṁnnaṁgānu yīma
+<lb n="17" break="no"/>hima lōkulaku Āśceryaṁgā
+<lb n="18"/>nu <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 26.631 by <bibl><ptr target="bib:Srinivasan1990_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Srinivasan1990_01"/>
+			<citedRange unit="page">429</citedRange>
+			<citedRange unit="item">631</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

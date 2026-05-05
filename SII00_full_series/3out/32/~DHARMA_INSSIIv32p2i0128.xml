@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 32, part 2, no. 128: original edition by S. Swaminathan</title>
+				<title type="alt">No. 128. (A.R. No. 129 of 1911.) TIRUVIRĀMĒŚVARAM, MANNARGUDI TALUK, TANJAVUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv32p2i0128</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south wall of the <hi rend="italic">maṇḍapa</hi> in front of the central shrine, Rāmanāthēśvara temple.</p>						
+
+						<p><hi rend="bold">Year 13: 984 A.D.</hi></p>						
+
+						<p>This is damaged in the middle and at the end. Records an order issued by Periya Tirumañjuṉappitar taking note of the lands granted by several donors for the provisions of food offerings to the god, Mahādēva of Tiruvirāmēśvaram at Madanamañjarichaturvēdimaṅgalam, a <hi rend="italic">brahmadēyam</hi> in Neṉmali-nāḍu during the three sandhis as <hi rend="italic">(tirumaḍappaḷḷippuṟam).</hi> Provision had also been made for burning six perpetual lamps to the same deity. A <hi rend="italic">maṉai</hi> (shed ?) was also set-apart for storing manure (to be applied to the lands already endowed to the temple). Lastly it is also mentioned that Śrīdhara kramavittar granted a plot of land for half-a-lamp and he also deposited <hi rend="italic">kāśu</hi> in the temple treasury to free land of taxes.</p>						
+
+						<p>Published in <hi rend="italic">S.I.I.,</hi> Vol. XIX No. 322. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopparakecaripaṉmaṟku yāṇṭu <num value="13"><g type="numeral">10</g> 3</num><g type="dash"/>Āvatu nenmalināṭṭu <hi rend="grantha">brahmade</hi>yam matanamañcari<hi rend="grantha">ca</hi>tu<hi rend="grantha">rvve</hi>timaṅkalattu tiruvirā<hi rend="grantha">miśva</hi>rattu <hi rend="grantha">mahāde</hi>var nilaṅkaḷ periya <unclear>tiru</unclear>mañcuṇappittar niyokappaṭi nivantañ ceyta pari <gap reason="lost" quantity="8" unit="character"/> kañ ceṉ<unclear>n</unclear>elarici nāṉāḻiyun tūpparuppu Irunāḻiyum teṅkāy Oṉṟum veṇponakañ ceṉnellarici Aṟunāḻiyum Uccampotai <hi rend="grantha">sandhi</hi>kku <unclear>ceṉ</unclear> nelarici <gap reason="lost" quantity="4" unit="character"/> kuṟu<supplied reason="omitted">ṇi</supplied>
+<lb n="2"/>yiru nāḻiyum <hi rend="grantha">Ardha</hi>yāmattukku ceṉnelarici kuṟuṇi yirunāḻiyum <hi rend="grantha">Aṭhandikāryya</hi>ttukku muḻākkum <hi rend="grantha">kṣetrapāla</hi>ṉukku <unclear>Ay</unclear> Uḻakkum nālu <hi rend="grantha">sandhi</hi>kku neyyamurtu <hi rend="grantha">Aṭhandikāryya</hi>t <gap reason="lost" quantity="8" unit="character"/> toṉoṭokku<supplied reason="omitted">m</supplied> nāḻiyāl nāṉāḻiyum kummāyattukku nāḻip paruppum kummāyamum poṟikkaṟimuṭpaṭa potu nālu kaṟiyamirtum Āḻvārkku Aṭaikkāyamirtu po <gap reason="lost" quantity="4" unit="character"/> ku viṟa
+<lb n="3" break="no"/>kukku muṭpaṭa Iccuṭṭappaṭṭa paṭimāṟṟukku vaiytta nilam vi<hi rend="grantha">reśvara</hi>vāykkālukku kiḻakku mutaṟ kuṭumpil talaippāṭakattu va<hi rend="grantha">sa</hi>mukkāṇiyum mitaṉoṭumaṭaiya Iraṇṭāṅkuṭumpu talaippāṭakattu � Araikkāṇiyu mānattaṅ kallakkūṭina nila <gap reason="lost" quantity="3" unit="character"/> kāṇi <gap reason="lost" quantity="7" unit="character"/> Araiye nāṉku māc <unclear>cin</unclear>namum <unclear>paṟpa</unclear>nā<hi rend="grantha">bha</hi>vāykkālukku meṟku Ittevar toṭṭattukkuk kiḻakku nāṟṟukkāl Oru mākkā(kar)ṇiyum Āṟu kuṭumpil Iraṇṭām pāṭakam kuṇṭur <unclear>ca</unclear>ṉnakumāra <hi rend="grantha">kra</hi>mavittaṉiṭai vilaikoṇṭa nila<unclear>m Ar</unclear>ai
+<lb n="4" break="no"/>kkāṇic ciṉṉamum tirumaṭaippaḷḷippuṟamāka vaittatu Innilattukku Eruvaṭṭa vaiytta manaiyāvana tiruvātiraicceri mi<supplied reason="omitted">y</supplied>ciṟakillaṟai pāṭaka <gap reason="lost" quantity="4" unit="character"/> nālu <gap reason="lost" quantity="3" unit="character"/> nontā viḷakku Āṟukku Iravum pakalum <unclear>Eri</unclear>kka vaitta nilam <hi rend="grantha">panma</hi>nā<hi rend="grantha">bha</hi>vāykkālukku kiḻakku muṉṟāṅ kuṭumpil talaippāṭakattukku kiḻakkaṭaiya kokkarai Amaṉattac comāci paṭṭāla<supplied reason="omitted">kaṉ</supplied> vaitta nilam <gap reason="lost" quantity="8" unit="character"/> 
+<lb n="5"/>pāṭakattu meṟkaṭaiya nilam Araikkālum Āka nilam Eḻumāvaraiyum <hi rend="grantha">(1/2) 8</hi>- ṅ kuṭumpil talaippāṭakam <hi rend="grantha">panma</hi>nā<hi rend="grantha">bha</hi>vāykkāliṉ kiḻai neṭukiṉ <gap reason="lost" quantity="7" unit="character"/> �ṇiyum Āka nilam Eṭṭu mā mukkāṇiyum <gap reason="lost" quantity="3" unit="character"/> Ātittavatikku vaṭakku Iraṇṭāṅkaṇṇāṟṟu <gap reason="lost" quantity="3" unit="character"/> raṇṭāṅ kuṭumpil muṉṟām pāṭakattuk kuṇṭur <hi rend="grantha">śrīdharakrama</hi>vittar Ar<hi rend="grantha">ai</hi> viḷakkukku vaitta nilam tevar <hi rend="grantha">bha</hi>ṇṭārattuk kācu kuṭuttu Iṟaiyiḻittiṉa nilam Oru māvarai <gap reason="lost" quantity="6" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 32, part 2, no. 128 by <bibl><ptr target="bib:Swaminathan2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2012_01"/>
+			<citedRange unit="page">243-244</citedRange>
+			<citedRange unit="item">128</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

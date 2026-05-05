@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.292: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 292. (B.K. No. 6 of 1933-34.) BANKĀPUR, BANKAPUR TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0292</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Stone built into the left wall of the southern entrance into the central shrine of the Nagarēśvara temple.</hi></p>						
+
+						<p>Name lost.</p>						
+
+						<p>This inscription belonging to the reign of a <hi rend="bold">Kadamba</hi> king stops abruptly after giving a portion of the <hi rend="italic">praśasti</hi> of the dynasty.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>© namastuṁgaśiraścuṁbicaṁdracāmaracāravē traiḷōkyanagarā
+<lb n="2" break="no"/>raṁbhamūlastaṁbhāya śaṁbhavē <g type="ddanda">.</g> svasti samadhigatapaṁcamahāśa
+<lb n="3" break="no"/>bda mahāmaṁḍaḷēśvaraṁ banavāsipuravarādhīśvaraṁ jayaṁ
+<lb n="4" break="no"/>timadhukēśvaradēvalabdhavaraprasāda mṛgamadā
+<lb n="5" break="no"/>mōda tryakṣakṣmāsaṁbhavaṁ caturāśītinagarādhiṣṭhi
+<lb n="6" break="no"/>talalāṭalōcanacaturbhbhuja jagadviditāṣṭā
+<lb n="7" break="no"/>daśāśvamēdhayajñadīkṣādīkṣitaṁ himavadgirīṁdraruṁdraśi
+<lb n="8" break="no"/>kharisikharasaṁsthāpitasphaṭikaśiḷāstaṁbhabaddhamadagajamahāma
+<lb n="9" break="no"/>himābhirāma kādaṁbacakrima<note n="375-2">Stops</note> 
+</p>
+
+<!--<h4>THE GUTTAS.</h4>-->
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.292 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">375-376</citedRange>
+			<citedRange unit="item">292</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 5.1006: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 1006. (A.R. No. 141 of 1896). Transcripts of this and other inscriptions in this volume were kindly prepared for me by Mr. G.Ramdas Pantulu, B.A. of Jeypore. ON A PILLAR TO THE RIGHT OF THE SAME ENTRANCE; NORTH FACE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv05p1i1006</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:nāgarī maturity:undetermined">
+
+<!--<h4>TOP.</h4>-->
+
+<p>
+<lb n="1"/>vāmāṅkādhisthite raja
+<lb n="2" break="no"/>tānata <gap reason="lost" quantity="1" unit="character"/> kāsutā [<g type="danda">.</g>]
+<lb n="3"/>ramānāyakadī <gap reason="lost" quantity="1" unit="character"/> kṣaḥ
+<lb n="4"/>bhava <gap reason="lost" quantity="1" unit="character"/> ṅk� <gap reason="lost" quantity="1" unit="character"/> vibhāti [<g type="ddanda">.</g>]
+</p>
+
+<!--<h4>BOTTOM.<note n="384-2">Above this is carved in a counter-sunk niche-like hollow, an image of a man standing to the left and facing the entrance into a shrine.</note></h4>-->
+
+<p>
+<lb n="5"/>vīraśrī gajaptigauḍesvara pratāpa
+<lb n="6" break="no"/>kapilesvarade<unclear>va</unclear>māhārājāṅka
+<lb n="7" break="no"/>ra vijerāje samasta 24 śrā
+<lb n="8" break="no"/>i mīna sukla 13 soma
+<lb n="9" break="no"/>vāre śrīmadhukesvaradeaṅkra
+<lb n="10"/><unclear>dhī</unclear>padhūpūviśā<unclear>ke</unclear> <gap reason="lost" quantity="1" unit="character"/> jarāmra
+<lb n="11"/>pū<unclear>jā</unclear>karī khāiphale da
+<lb n="12" break="no"/>āṭhagaḍadhadi<unclear>kṣī</unclear>ramāi
+<lb n="13"/>jenādhāṅku jārita hā
+<lb n="14" break="no"/>ṅkagāi raaprarāite
+<lb n="15"/>teka <gap reason="lost" quantity="1" unit="character"/> pra <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="16"/>pū 5 <gap reason="lost" quantity="1" unit="character"/> jā <gap reason="lost" quantity="1" unit="character"/> tekāle
+<lb n="17"/>jejñe hoi [<g type="ddanda">.</g>] E<unclear>dhma</unclear>je
+<lb n="18"/>haroi pramesvaraṅku dro
+<lb n="19" break="no"/>haṅkarai <supplied reason="undefined"><g type="ddanda">.</g></supplied> <tlka/>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 5.1006 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1925_01"/>
+			<citedRange unit="page">384</citedRange>
+			<citedRange unit="item">1006</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

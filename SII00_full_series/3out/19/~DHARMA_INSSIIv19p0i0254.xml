@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.254: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 254. (A.R. No. 482 of 1918.) TIRUVEṆKĀḌU, SIRGALI TALUK, TANJAVUR DISTRICT. ON THE WALL OF THE EAST INNER gōpura, ŚVĒTĀRAṆYĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0254</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is probably an inscription of <hi rend="bold">Uttama-Chōḷa.</hi> It records a gift of 25 <hi rend="italic">kaḻañju</hi> of gold for burning a perpetual lamp in the temple of Tiruveṇkāḍu-Dēvar by <hi rend="bold">Śadirayaṉ Uttamaśīliyār, wife of [the chief] Vannāḍuḍaiyār.</hi></p>						
+
+						<p>Above this is a much damaged record with its beginning lost, which seems to record a gift of land made tax-free by the <hi rend="italic">sabhā</hi> of the village. Reference is made to the enacting of a play called <hi rend="bold">Vaigaṟai-āṭṭam</hi> which is also mentioned in another inscription from Tiruviḍaimarudūr (No. 344 below).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopparakecaripa<hi rend="grantha">nma</hi>ṟ
+<lb n="2" break="no"/><hi rend="grantha">kk</hi>u yāṇṭu <num value="10"><g type="numeral">10</g></num><g type="dash"/>Āvatu tiruveṇkā
+<lb n="3" break="no"/>ṭu <hi rend="grantha">de</hi>var<hi rend="grantha">kk</hi>u vaṉṉāṭuṭaiyār
+<lb n="4"/>teviyār catirayaṉ Uttamaciliyār
+<lb n="5"/>ca<hi rend="grantha">ndrādi</hi>ttavaṟ Oru nontāviḷakke
+<lb n="6" break="no"/>riya <supplied reason="omitted">v</supplied>aitta poṉ Irupattaiṅka
+<lb n="7" break="no"/>ḻañcu Itu <hi rend="grantha">rakṣi</hi>kkakaṭavom <hi rend="grantha">sabhai</hi>
+<lb n="8" break="no"/>yom <g type="pc"/>
+</p>
+
+<p>The damaged inscription reads as follows:—</p>
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="3" unit="character"/> teviyār nilam yā
+<lb n="3"/> <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="9" unit="character"/> ṟac ce<supplied reason="omitted">y</supplied>ta <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="9" unit="character"/> pattum <unclear>koṇ</unclear>
+<lb n="6" break="no"/> <gap reason="lost" quantity="9" unit="character"/> <unclear>lai</unclear>yum Uṭpaṭṭa <unclear>ve</unclear>
+<lb n="7" break="no"/> <gap reason="lost" quantity="7" unit="character"/> <unclear>ṟṟuvāy</unclear> mukamuṭpaṭṭa
+<lb n="8"/> <gap reason="lost" quantity="5" unit="character"/> veliyum nikki nikki
+<lb n="9"/> <gap reason="lost" quantity="5" unit="character"/> ttukkuṭutta teṉpiṭāk<unclear>ai</unclear>
+<lb n="10-19"/> <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="20"/> <gap reason="lost" quantity="7" unit="character"/> koṟṟukku mula <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="21"/><unclear>Eḻu</unclear>māvu <gap reason="lost" quantity="4" unit="character"/> Ūre <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="22"/> <gap reason="lost" quantity="3" unit="character"/> ṭam koḷvārākavum <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="23"/><unclear>mu</unclear>ṭṭil Ā<unclear>ḻākkeṇ</unclear>ṇai koḷ 
+<lb n="24"/>vatākavum viṭi vaikaṟai Āṭṭa
+<lb n="25" break="no"/>ttu<hi rend="grantha">kk</hi>u vācikkumpotu muṭṭiṉā<unclear>l</unclear>
+<lb n="26"/>talaippaṟai Uḻa<hi rend="grantha">kk</hi>um kiḻāḷ Ā
+<lb n="27" break="no"/><unclear>ḻā</unclear><hi rend="grantha">kk</hi>um taṇṭam Eṇṇai koḷ
+<lb n="28" break="no"/><unclear>va</unclear>tākavum Itu ca<hi rend="grantha">ntrādi</hi>ttava<unclear>ṟ</unclear> kāṇi
+<lb n="29" break="no"/>yāka kuṭu<supplied reason="omitted">t</supplied>tom <hi rend="grantha">sabhai</hi>yom Ivai
+<lb n="30"/>paṇiyāl Eḻutiṉeṉ peru[ n=tiṇai]
+<lb n="31" break="no"/><unclear>ppi</unclear>rāṅ kāṭaṉ ṉeḻuttu perun=tiṇai
+<lb n="32" break="no"/>māṇi celvaṉ ṉeḻuttu perun=ti<hi rend="grantha"/>
+<lb n="33" break="no"/><unclear>ṇai</unclear> kumiḻi caṭakovaṉ ṉeḻuttu
+<lb n="34"/><unclear>I</unclear>ppaṭi paṇiyāl veṭṭiṉeṉ tacca
+<lb n="35" break="no"/> <gap reason="lost" quantity="9" unit="character"/> y tiruveṇ
+<lb n="36" break="no"/>kāṭṭ<unclear>āc</unclear>āriya<unclear>ṉen</unclear> Eḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.254 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">129-130</citedRange>
+			<citedRange unit="item">254</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

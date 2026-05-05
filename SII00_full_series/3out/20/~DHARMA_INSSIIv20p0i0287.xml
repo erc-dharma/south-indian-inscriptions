@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 20.287: original edition by G. S. Gai</title>
+				<title type="alt">No. 287. (B.K. No. 56 of 1938-39.) JAMKHAṆḌI JAMKHANDI TALUK, BIJAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv20p0i0287</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Broken slab from Olyappa's Maṭha now kept in the house of Mr. W.T. Apte.</hi></p>						
+
+						<p>A.D. 1082.</p>						
+
+						<p>This record is dated in the cyclic year <hi rend="bold">[Dundubhi], Chaitra, ba. 5, Monday, Vishuva-saṁkrānti, Solar eclipse.</hi> Obviously the eclipse could not have occurred on the given <hi rend="italic">tithi.</hi> On grounds of palaeography the date may be equated with <hi rend="bold">A.D. 1082 March 21, Monday.</hi> The <hi rend="italic">saṁkrānti</hi> did not occur on that day.</p>						
+
+						<p>It registers a gift of land to god Uttarēśvara of <hi rend="bold">Jaṁbukhaṇḍi.</hi> The beginning of the record is lost.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>bhisaṁvatsaraṁ pravartthise <unclear>ta</unclear><note n="325-1">A few</note>
+<lb n="2" break="no"/>dvariṣābhyantarada caitra ba
+<lb n="3" break="no"/>huḷa pañcami sōma
+<lb n="4" break="no"/>vāra viṣuva sakrāṁnti vi
+<lb n="5" break="no"/>tīpāta sūryyagraha
+<lb n="6" break="no"/>ṇadandu jaṁbukhaṇḍiya 
+<lb n="7"/>Uttarēsvaradēvargge po
+<lb n="8" break="no"/>ṟaveṭṭadoḷaynūṟu
+<lb n="9"/>mattaraṁ biṭṭaridu ki
+<lb n="10" break="no"/>suvoḻala maḷige baḷa
+<lb n="11" break="no"/>ya Ama <gap reason="lost" quantity="2" unit="character"/> rabara
+<lb n="12"/> <gap reason="lost" quantity="5" unit="character"/> pāṇi
+<lb n="13" break="no"/>grahaṇaṁ <unclear>ge</unclear>ydu koṭṭarida
+<lb n="14" break="no"/>naḻiva bāṇarāsiyo
+<lb n="15" break="no"/>ḷu kavileyuṁ brahma
+<lb n="16" break="no"/>ṇanuvanaḻada pā
+<lb n="17" break="no"/>takaṁ nagibaṁṭṭa bara
+<lb n="18" break="no"/>da maṁgaḷa mahā śrī
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 20.287 by <bibl><ptr target="bib:Gai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Gai1964_01"/>
+			<citedRange unit="page">325-326</citedRange>
+			<citedRange unit="item">287</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

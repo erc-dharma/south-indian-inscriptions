@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 20.223: original edition by G. S. Gai</title>
+				<title type="alt">No. 223. (B.K. No. 72 of 1935-36.) KALKĒRI, HANGAL TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv20p0i0223</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Stone on the tank bund.</hi></p>						
+
+						<p>Rāmachandra—A.D. 1289.</p>						
+
+						<p>This record is dated in the king's regnal <hi rend="bold">year 18, Sarvadhāri, Pushya, s11u. 8, Saturday,</hi> corresponding to <hi rend="bold">A.D. 1289, January 1, Saturday.</hi></p>						
+
+						<p>The inscription records the death, by Jaina rite, of a certain Mādayya, the son of Sāyiseṭṭi and Mādavve, and a disciple of Samantabhadradēva, a Jaina ascetic belonging to Mūla-saṁgha.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>First Section.</h4>-->
+
+<p>
+<lb n="1"/>© svasti śrīmatu yādavanārāyaṇaṁ bhujabaḷa praḍha<note n="272-1">Read prauḍha.</note>
+<lb n="2"/>pratāpa cakrava rtri srī vīrarāmadēva rājyōdayada 18 <unclear>sārbba</unclear>dā<note n="272-2">The letter va is written above the line.</note>
+<lb n="3" break="no"/>ri sauvascharada puṣya sudha 8 vaḍavāradali śrīmatu sāyi
+<lb n="4" break="no"/>seṭi mādauvege puṭṭida
+</p>
+
+<!--<h4>Second Section.</h4>-->
+
+<p>
+<lb n="5"/>putra srī mūlasaṁgada sagaraṇada samaṁtabhadradēvara guḍḍa
+<lb n="6"/>mādaiya <unclear>pajiyiṁ</unclear> muḍipi sidha gatiyaneydida srīvī
+<lb n="7" break="no"/>tarāgāya maṁggaḷa mahā śrī śrī
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 20.223 by <bibl><ptr target="bib:Gai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Gai1964_01"/>
+			<citedRange unit="page">272</citedRange>
+			<citedRange unit="item">223</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 25.182: original edition by M. D. Sampath</title>
+				<title type="alt">No. 182. (A.R. No. 182 of 1908.) KŌVILŪR, PATTUKKOTTAI TALUK, THANJAVUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv25p0i0182</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>East wall of the <hi rend="italic">maṇḍapa</hi> in front of the central shrine in the Mantrapurīśvara temple.</p>						
+
+						<p><hi rend="bold">Tribhº Rājarāja III Year 25: 1202-03 A.D.</hi></p>						
+
+						<p>This inscription does not furnish any <hi rend="italic">praśasti</hi> of the king. The details of date viz., Kaṉṉi śu 5, Monday and Anusha correspond to the 1st September 1242 A.D., f.d.n. 22. On grounds of palaeography the king may be identified with Rājarāja III.</p>						
+
+						<p>It records the order of royal official or chief Araiyaṉ Nāḍuḍaiyāṉ Viḻuppādirāyaṉ, the headman of Śiṟṟārkāḍu in Pāṇḍikulāśani-vaḷanāḍu issued to the officers of the temple of Tiruvuśāttāṉam-uḍaiya-nāyaṉār relating to the grant of one <hi rend="italic">vēli</hi> of land at Sundaraśōḻapuram as <hi rend="italic">tirunāmattukkāṇi</hi> and as <hi rend="italic">ūrkkīḻ-iṟaiyili</hi> for the food-offerings to the diety during the midday worship. The gift land is stated to be the <hi rend="italic">kāṇi</hi> (hereditary right) of the donor (<hi rend="italic">i.e.,</hi> the chief). </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī tribhu</hi>vana<hi rend="grantha">ccakra</hi>vattikaḷ <hi rend="grantha">śrīrājarāja</hi>
+<lb n="2" break="no"/><hi rend="grantha">de</hi>varkku yāṇṭu <num value="26">2 <g type="numeral">10</g> 6</num> Āvati netirāmā
+<lb n="3" break="no"/>ṇṭu kaṉṉiṉāyaṟṟup pū<hi rend="grantha">rvvapakṣa</hi>ttu pañcami
+<lb n="4" break="no"/>yum tiṅkaḷkiḻamaiyum peṟṟa Aniḻattu nāḷ
+<lb n="5"/>pāṇṭi kulācanivaḷanāṭṭuc ciṟṟāṟ kāṭukiḻāṉ Ara
+<lb n="6" break="no"/>yaṉ nāṭuṭaiyāṉ viḻappā<hi rend="grantha">thirāja</hi>ṉ Olai <supplied reason="undefined"><g type="danda">.</g></supplied> Uṭai
+<lb n="7" break="no"/>yār tiruvucāttānamuṭaiyar koyil tāṉatt<choice><sic>a</sic><corr>ā</corr></choice>r kaṇ
+<lb n="8" break="no"/>ṭu cuntaracoḻapurattu Eṉ <unclear>kāṇi</unclear>yāna nilattile I
+<lb n="9" break="no"/>t tiruvucāttānamuṭaiya <supplied reason="omitted">nāya</supplied>nārkku tirunāmattukkāṇi
+<lb n="10"/>Ākak kuṭuttapaṭi nilam veliyum <num value="17"><g type="numeral">10</g> 7</num> vatu mutal
+<lb n="11"/>tirunāmattukkāṇi Ākak kaikkoṇṭu Anupavi
+<lb n="12" break="no"/> <gap reason="lost" quantity="2" unit="character"/> paṇṇuvate <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="13"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="14"/>m Eḻuttu <gap reason="lost" quantity="3" unit="character"/> ta Olaikku Ivar <unclear>pā</unclear>vattu Ivar ma
+<lb n="15" break="no"/>kanār kaṭakkattuppiḷḷaiyāṉa <gap reason="lost" quantity="5" unit="character"/> konārum
+<lb n="16"/>I <gap reason="lost" quantity="5" unit="character"/> ra coḻapu
+<lb n="17" break="no"/>rattu Ūravarum Ūrkaṇakku kuṟukkaiyuṭaiyā
+<lb n="18" break="no"/>r kārai tiruvaraṅkapperumānu<unclear>m</unclear> Eḻuttiṭṭa niyo
+<lb n="19" break="no"/>kappaṭi Ivvūr vaṭavayalil I<unclear>var</unclear> kāṇi Āna nila
+<lb n="20" break="no"/>ttu Innāyanār<supplied reason="omitted">k</supplied>ku Uccic cantiyil nāṭuṭaiyārā
+<lb n="21" break="no"/>na viḻuppā<hi rend="grantha"><unclear>dhi</unclear>rāja</hi>r perāl tirumantiraponakama
+<lb n="22" break="no"/>mutu ceyta<unclear>ru</unclear>ḷakkaṭavatāka Ūrkiḻiṟaiyiliyā
+<lb n="23" break="no"/>ka Iṭṭa <gap reason="lost" quantity="5" unit="character"/> Innilam velikkum vaṭavayali
+<lb n="24" break="no"/>l viṭṭa nilattukku kiḻpāṟkellai nīr <gap reason="lost" quantity="2" unit="character"/> ttu I(ḷa)
+<lb n="25" break="no"/>ṟaiyili nilattukku meṟkum tenpāṟkellai ti
+<lb n="26" break="no"/><unclear>ru</unclear>kkai vaḻakkappaṟṟukkum viyāpāra paṟṟukkum
+<lb n="27" break="no"/> <gap reason="lost" quantity="3" unit="character"/> vaṭakkum melpāṟkellai Āḻvār tiruvi 
+<lb n="28" break="no"/>ṭaiyāṭṭattukku Okkum vaṭapāṟkellai E
+<lb n="29" break="no"/>ṟṟukkulaikkut teṟkkut teṟkum Āka Icai
+<lb n="30" break="no"/>nta perunāṉkellaikkuṭpaṭṭa O <gap reason="lost" quantity="5" unit="character"/> na
+<lb n="31" break="no"/>ṭi taṭipalavāl rūpāy<hi rend="grantha">(1/2)� mukkāl 2</hi> I
+<lb n="32" break="no"/>n nilam Araiye kāṇi Araikkāṇi muntirikai
+<lb n="33" break="no"/>kkiḻ mukkāle Iraṇṭumāvum Akaḷaṅkap perā
+<lb n="34" break="no"/>ṟṟukku meṟkumiṉaṉ Iṟaivāḷeṉṟu pe
+<lb n="35" break="no"/><unclear>r</unclear> kūvappaṭṭa nilattu meṟkaṭaiya rūpāy In
+<lb n="36" break="no"/>nilam mukkāṇic cinnattukkum kiḻpāṟkellai
+<lb n="37" break="no"/><unclear>ā</unclear>ṭu(k)kiṉṟān nilattukku meṟkum tenpāṟkel
+<lb n="38" break="no"/>lai meṟpaṭiyār nilattukku vaṭakkum melpā
+<lb n="39" break="no"/>ṟkellai macānapūmikkup pokiṟa Oḻukkaik
+<lb n="40" break="no"/>ku kiḻakkum vaṭapāṟkellai meṟpaṭikkup po
+<lb n="41" break="no"/>kiṟa Oḻukkaikkut teṟkkum Āka Icainta peru
+<lb n="42"/>nānkellaikku naruvupaṭṭa nilam mukkāṇic cinnamum Ā
+<lb n="43" break="no"/>ka rūpāy <hi rend="grantha">(1/2)�</hi> Innilam Araiye mākkāṇiyil vi
+<lb n="44" break="no"/><unclear>ri</unclear>vinpaṭi rūpāy � li Innilam veliyum Irupat
+<lb n="45" break="no"/>teḻāvatu kār mu<unclear>ta</unclear>l Ūrkeḻ Iṟaiyiliyākavum
+<lb n="46"/>In nilattu tirap <gap reason="lost" quantity="3" unit="character"/> maṭakku Ūrile Eṟṟi Iṟukkavum I
+<lb n="47" break="no"/>n nilattu Antarā<unclear>ya</unclear>m Uṟaināḻi koyiṟṟamap<supplied reason="omitted">pe</supplied>ṟu nakara
+<lb n="48" break="no"/>viniyokam Uḷḷiṭṭa kuṭimaiviṟkaṅkaḷum ninaip
+<lb n="49"/> <gap reason="lost" quantity="5" unit="character"/> vaṟkaṅkaḷum Ūrile Eṟṟi Iṟukka
+<lb n="50"/>kaṭavomākavum Ippaṭi cantirātitavaṟ cel
+<lb n="51" break="no"/>lakkaṭavetākavum Ippaṭi cammatittu Ūrkkiḻaṟai
+<lb n="52" break="no"/>yili ceytu Ippaṭi tirukkaṟṟaḷiyile veṭṭik
+<lb n="53" break="no"/>koḷḷak kaṭavatākavum connom Ippaṭik 
+<lb n="54" break="no"/>ku Ivai ciṟṟampala <gap reason="lost" quantity="10" unit="character"/> yān nakkaṉ <unclear>cā</unclear>
+<lb n="55"/>ttānāna coḻakon Eḻuttu Enṟum Ivai kāliṅkarāyan Eḻuttu Enṟum Ivai Āṉāṅkūr Uṭaiyāṉ periyān nampiyāḻvānāṉa tennava <gap reason="lost" quantity="5" unit="character"/> varayaṉ Eḻuttu Enṟum Ippaṭikku Ivai kānūruḷaṭayā<supplied reason="omitted">ṉ</supplied> vaicirāvaṇan Eḻuttu
+<lb n="56" break="no"/>nṟum Ippaṭikku Ivai Ālaṅkuṭaiyān Irācarācamuventaveḷān Eḻuttu Enṟum Ippaṭikku Ivai kaṇṭiyūr Uṭaiyā<supplied reason="omitted">ṉ</supplied> tirunāṭuṭaiyān tillaimuvāyirattoruvan Eḻuttenṟum § Ippaṭikkiḷava neṭṭuruṭaiyān Uṭaiyān pañca<supplied reason="omitted">va</supplied>n Eḻu
+<lb n="57" break="no"/>ttu Enṟum § Ippaṭikku Ivai Ivvūr karaṇattān kuṟukkaiyuṭaiyān kāraitiruvaraṅkapperumān Eḻuttu Enṟum Eḻutiṉa cātanalpaṭi <hi rend="grantha">svastiśrī</hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 25.182 by <bibl><ptr target="bib:Sampath2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath2012_01"/>
+			<citedRange unit="page">254-257</citedRange>
+			<citedRange unit="item">182</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

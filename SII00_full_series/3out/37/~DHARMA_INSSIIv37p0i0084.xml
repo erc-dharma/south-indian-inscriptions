@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.84: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 84. (A.R. No. 382 of 1938-39.) Gōṭūru, Cuddapah Taluk, Cuddapah District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0084</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Wall of the Vēmalamma shrine in survey No. 344.</p>						
+
+						<p>This is dated <hi rend="bold">Śaka 1588, Parābhava, Śrāvaṇa ba. 5,</hi> corresponding to 1666 A.D., August 10, Friday.</p>						
+
+						<p>It records the obeisance to the goddess Vēmulamma by Śītaya-Peddirāju, son of Mallayagāri-Guruvappagāri-Rāmayya, the <hi rend="italic">karaṇam</hi> of the village Gōṭūru.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrī ja<unclear>yā</unclear>bhyuda<unclear>yaśāli</unclear>vāhanaśakavaruṣaṁbbulu 1588 Agunēṭi parābhava saṁvvatsara 
+<lb n="2"/>śrāvaṇa ba 5 <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīmatu vēmulaṁmmaku gōṭūri grāmakaraṇaṁ mallayagāri 
+<lb n="3"/>guruvappagāri rāmayya komāḷlu śītaya peddirājugāru nitya 
+<lb n="4" break="no"/>śēvā <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrī <supplied reason="undefined"><g type="danda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.84 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">71-72</citedRange>
+			<citedRange unit="item">84</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

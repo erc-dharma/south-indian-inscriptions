@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 40.87: original edition by K. Munirathnam</title>
+				<title type="alt">No. 87. (A.R. No. B. 65 of 1930.) Mandāḍi, Palnad Taluk, Guntur District, Andhra Pradesh.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv40p0i0087</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a slab lying near the Hanumān temple outside the village.</p>						
+
+						<p>This is dated Śaka 1281, Vikāri, Bhādrapada, ba 10, Sunday, corresponding to 1359 A.D., September 17. However the week day was Tuesday.</p>						
+
+						<p>Records the gift of a village Mandāḍi in Palnāṁṭi-sīma for providing midday offerings and conducting services in the temple of Mallikārjunadēva by Sirigiri-Nāyaniṅgāru, son of Taṅgeḍa Māchala-Nāyaniṅgāru.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>Avighnamastu svasti śrī jayā 
+<lb n="2" break="no"/>bhyudaya śālivāhana śakava 
+<lb n="3" break="no"/>ruṣaṁbulu 1281 Agunē 
+<lb n="4" break="no"/>ṁṭi vikāri saṁvatsara bhādrapa 
+<lb n="5" break="no"/>da ba 10 bhānuvāraṁnāṁḍu śrī 
+<lb n="6"/>mallikā¨rjunadēvara ma<unclear>dhyā</unclear>Ahaṇapu 
+<lb n="7"/>Avasarānakunnu Aṁggaraṁggavaibhavā 
+<lb n="8" break="no"/>lakuṁnnu mā <gap reason="lost" quantity="1" unit="character"/> da gōtrapavitryālai 
+<lb n="9" break="no"/>na taṁggeḍa mācalanāyaniṁgāri 
+<lb n="10"/>komāruṁḍḍu śirigiri nāya 
+<lb n="11" break="no"/>niṁgāru palnāṁṭi śīmalōni maṁ 
+<lb n="12" break="no"/>ddāḍigrāmaṁ dāravośi yistimi 
+<lb n="13"/>svadattā dviguṇaṁ paradattānaṁ pā 
+<lb n="14" break="no"/>lanaṁ paradattāpahārēṇa svadattaṁ ni 
+<lb n="15" break="no"/>ṣphalaṁ bhavēttu <g type="danda">.</g> <unclear>sa</unclear> lollikabhaṁ pū¨rrva 
+<lb n="16"/>maiṁḍḍi kilamaitēnu nallapumalla 
+<lb n="17" break="no"/>yya mallikhā¨rjunadēvaraku pu 
+<lb n="18" break="no"/>ṇyaṁgānu kaṁbhaṁ Ettiṁcce 
+<lb n="19" break="no"/>nu śrī śrī śrī 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 40.87 by <bibl><ptr target="bib:Munirathnam2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2019_01"/>
+			<citedRange unit="page">84-85</citedRange>
+			<citedRange unit="item">87</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

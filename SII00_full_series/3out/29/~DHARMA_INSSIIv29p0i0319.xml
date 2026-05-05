@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 29.319: original edition by P. N. Narasimha Murthy</title>
+				<title type="alt">No. 319. (A.R. No. B. 563 of 1961-62.) KALLŪR, MANVI TALUK, RAICHUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv29p0i0319</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab in the maṭha (on two sides). </p>						
+
+						<p><hi rend="bold">1652 A.D.</hi></p>						
+
+						<p>It records a grant of land and certain privileges to Chenna-Virayya of Kallūra-maṭha in the presence of the <hi rend="italic">gauda,</hi> Kulkarni, Seṭṭi, Chaudhari and others.</p>						
+
+						<p>It is dated śaka 1572 [wrong for 1574] Nandana, Vaiśākha, adhika-ashṭami, Wednesday. It corresponds to 1652 A.D., April 21. The month Vaiśākha was adhika.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>Front side.</h4>-->
+
+<p>
+<lb n="1"/>śrī śakhe sālivāha
+<lb n="2" break="no"/>na 1572 neya naṁda
+<lb n="3" break="no"/>nanāma saṁvatsarada
+<lb n="4"/>vaiśākha ba Ādhika Ā
+<lb n="5" break="no"/>ṣṭami budhavāradalū
+<lb n="6"/>śrīmatu kalura maṭhada
+<lb n="7"/>caṁnavirayage (divāli)
+<lb n="8"/>vā gauḍa kulakarṇi vā
+<lb n="9" break="no"/>malagauḍa seṭi (ca)udariga
+<lb n="10" break="no"/>ḷu muṁtāda samasta pra
+<lb n="11" break="no"/>jegaḷu darṁma sākṣi
+<lb n="12" break="no"/>yāgi baradukoṭha
+<lb n="13"/>dāna patrada sāsanau
+<lb n="14"/><unclear>Adake</unclear> nimage māṁnya
+</p>
+
+<!--<h4>Back side.</h4>-->
+
+<p>
+<lb n="15" break="no"/>da hola bijavari
+<lb n="16"/>khaṁ 82 koṭu yidheU
+<lb n="17"/>muṁde staḷa bharitana gu
+<lb n="18" break="no"/> <gap reason="lost" quantity="1" unit="character"/> vaṁdake kha 2 busare bhū
+<lb n="19" break="no"/>vaṁdake kha 6 vidake kha 1 vaṁ
+<lb n="20" break="no"/>dake <gap reason="lost" quantity="2" unit="character"/> dinake yari 50
+<lb n="21"/>yiṣṭu koṭhu yideU yi
+<lb n="22" break="no"/>dake tapidare kāsili gō
+<lb n="23" break="no"/>hatya māḍida dōsake hō
+<lb n="24" break="no"/>haru bhāvi payiṁbhu
+<lb n="25" break="no"/>mi(naṁ) koṭhuyideU
+<lb n="26"/>dharma sākṣi <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 29.319 by <bibl><ptr target="bib:NarasimhaMurthy2022_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:NarasimhaMurthy2022_01"/>
+			<citedRange unit="page">283-284</citedRange>
+			<citedRange unit="item">319</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

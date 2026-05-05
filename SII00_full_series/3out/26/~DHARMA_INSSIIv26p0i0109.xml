@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 26.109: original edition by P. R. Srinivasan</title>
+				<title type="alt">No. 109. (A.R. No. 106 of 1909.) KOMARALIṄGAM, UDUMALAIPET TALUK, COIMBATORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv26p0i0109</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the west wall of the Kāśi-Viśvānātha temple.</p>						
+
+						<p><hi rend="bold">[Vī]rarājēndradēva: Year 20 = 1226—27 A.D.</hi></p>						
+
+						<p>This inscription, of which the beginning of all the lines are lost, records a gift of one <hi rend="italic">achchu</hi> of money by Śōḻan Ilaṅkēśvaradēvaṉ to the temple of Tiruvālandurai-uḍaiyār at Tiruvālandurai in Karaivaḻi-nāḍu, for the decoration <hi rend="italic">(tiru-mēlpūchchu)</hi> of the idol.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha"> <gap reason="lost" quantity="3" unit="character"/> tribhu</hi>vaṉaccakkaravattikaḷ Iraṇ<unclear>ṭu</unclear> koṅkumoṉṟāka Āṇṭaruḷiṉa <hi rend="grantha">śrī</hi>virarācen=ti<hi rend="grantha">rade</hi>vaṟku yāṇṭu <num value="20">2 <g type="numeral">10</g></num>
+<lb n="2"/> <gap reason="lost" quantity="3" unit="character"/> kil coḻaṉ Ilaṅke<hi rend="grantha">śva</hi>ratevaṉeṉ karaivaḻināṭṭu tiruvālantuṟai <unclear>U</unclear>ṭaiyār tiruvālantuṟaiyuṭ<hi rend="grantha">ai</hi>
+<lb n="3" break="no"/> <gap reason="lost" quantity="3" unit="character"/> Ikkoyilil pūcikku<supplied reason="omitted">m</supplied> nampiyār talaiyāka kaḻunir pokaṭṭuvāṉ kaṭai yāka tevaraṭiyār Uḷpaṭa Āṇaimāṟum<unclear>ā</unclear>
+<lb n="4" break="no"/> <gap reason="lost" quantity="3" unit="character"/> ṟum pūcikku<supplied reason="omitted">m</supplied> nampiyār talaiyāka <unclear>kaḻunir</unclear>pokaṭṭuvān kaṭ<hi rend="grantha">ai</hi>yāka I<unclear>va</unclear>r <gap reason="lost" quantity="3" unit="character"/> yile Or<hi rend="grantha">ai</hi>ccu Oṭukkuvārākavum
+<lb n="5"/> <gap reason="lost" quantity="3" unit="character"/> kuvārākavum Immutalkoṇṭu Uṭ<hi rend="grantha">ai</hi>yārkku tirumelpūccu celvatāka nāyanār tirumeṉiyum <gap reason="lost" quantity="8" unit="character"/> 
+<lb n="6"/> <gap reason="lost" quantity="3" unit="character"/> lviyāṇa tirumeniyāka kalveṭṭik kuṭutten Ilaṅke<hi rend="grantha">śva</hi>ratevanen Ittanmam tilainiṟuttuvān kāraliṇṭu<note n="68-1">Stops here.</note> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 26.109 by <bibl><ptr target="bib:Srinivasan1990_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Srinivasan1990_01"/>
+			<citedRange unit="page">68</citedRange>
+			<citedRange unit="item">109</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

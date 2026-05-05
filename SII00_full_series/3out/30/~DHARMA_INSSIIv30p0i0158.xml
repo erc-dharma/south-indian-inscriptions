@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 30.158: original edition by N. Marxia Gandhi, A. Padmavathy and S. Swaminathan</title>
+				<title type="alt">No. 158. (A.R. No. 237 of 1915.) Brahmadēsam, Cheyyar Taluk, North Arcot District. Chandramauḷīśvara temple-on the south wall Rājakēsarivarman: year 20: 891 A.D.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv30p0i0158</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription records an endowment of a piece of land under the tank Tigaittiṟal-ēri by Tiruppōndai-Somāsiyar (Sōmayājiyār) son of Kumāraḍi-Vājapējiār of Maṇarpākkam, a member of the <hi rend="italic">āḷuṅgaṇam</hi> of Rājamallach-chaturvedimaṅgalam of Tiruvēgambapuram in Dāmar-kōṭṭam, for the daily feeding of a brahman at mid-day in the temple Srīpōndaip-perumāṉaḍigal. The gift was entrusted to the <hi rend="italic">gaṇavāriya-perumakkaḷ</hi> of the temple. This is possibly an inscription of Āditya-I.</p>						
+
+						<p>Published in S.I.I. Vol. XIII No. 292</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> korā<hi rend="grantha">ja</hi>ke<hi rend="grantha">sa</hi>riva<hi rend="grantha">rmma</hi>ṟk
+<lb n="2" break="no"/>ku yāṇṭu Irupatāvatu tāmar koṭṭa
+<lb n="3" break="no"/>ttut tiruvekampapuṟattu rā<hi rend="grantha">jama</hi>
+<lb n="4" break="no"/><hi rend="grantha">llacca</hi>tu<hi rend="grantha">rvve</hi>timaṅkalam yāḷumkaṇa
+<lb n="5" break="no"/>ttāruḷ maṇaṟ(p)pākkattuk kumāraṭi <hi rend="grantha">bha</hi>ṭṭa vā<hi rend="grantha">ja</hi>
+<lb n="6" break="no"/><hi rend="grantha">bheji</hi>yār makanār tiruppontaic comā
+<lb n="7" break="no"/>ciyār <hi rend="grantha">śrī</hi> poṉtaip perumā<supplied reason="omitted">ṉa</supplied>ṭikaḷ <hi rend="grantha">śrī</hi>koyi<supplied reason="omitted">li</supplied>
+<lb n="8" break="no"/>l nicati Oru <hi rend="grantha">brāhma</hi>ṇaṉ <hi rend="grantha">madhyā</hi>ṉattu A<hi rend="grantha">gra</hi>mu
+<lb n="9" break="no"/>ṇpataṟku <supplied reason="omitted">v</supplied>aitta tikaittiṟal Eriki
+<lb n="10" break="no"/> <gap reason="lost" quantity="6" unit="character"/> lūrp pārāyaṇaccel <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="11"/> <gap reason="lost" quantity="6" unit="character"/> tiruppon<supplied reason="omitted">tai</supplied> <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="12"/> <gap reason="lost" quantity="6" unit="character"/> Irunūṟṟu Aṟupattu Ira <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="13"/>ṇṭa<unclear>rai</unclear>k kuḻiyālum vanta <hi rend="grantha">bhoga</hi>m ko
+<lb n="14" break="no"/>ṇṭu cantirā<hi rend="grantha">di</hi>ttavaṟ Iy<hi rend="grantha">śrī</hi>koyil ka
+<lb n="15" break="no"/>ṇavāriyap perumakkaḷe ra<hi rend="grantha">kṣi</hi>ppatāka
+<lb n="16"/><supplied reason="omitted">v</supplied>aitteṉ tiruppontaic comāciyeṉ
+<lb n="17"/>I<hi rend="grantha">ddharmmam</hi> ra<hi rend="grantha">kṣi</hi>ppāra<unclear>ṭi Eṉṟalaimeliṉa</unclear> [<g type="ddanda">.</g><g type="dash">.</g>]
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 30.158 by <bibl><ptr target="bib:MarxiaGandhi+al2011_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:MarxiaGandhi+al2011_01"/>
+			<citedRange unit="page">126</citedRange>
+			<citedRange unit="item">158</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.636: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 636. (A.R. No. 587 of 1904.) ŚRĪNIVĀSANALLŪR, MUSIRI TALUK, TIRUCHIRAPPALLI DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0636</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south and east walls of the Kuraṅganātha temple.</p>						
+
+						<p>Parāntaka I. Year 29: 935-36 A.D.</p>						
+
+						<p>This inscription is dated in the reign of Madirai-koṇḍa Parakēsari i.e., Parāntaka I.</p>						
+
+						<p>It records the sale of land as <hi rend="italic">dēvadāna</hi> made free of the taxes <hi rend="italic">iṟai</hi> and <hi rend="italic">veṭṭi</hi> to Śrī Kurakkuttuṟai-pperumāṉaḍigaḷ by the <hi rend="italic">Mūlaparaḍai</hi> of Mahēndramaṅgalam, a <hi rend="italic">brahmadēya</hi> for 156(1/2) <hi rend="italic">kaḻañju</hi> received from Tirukkuṟakkuttuṟai Nambi <hi rend="italic">alias</hi> Pāṉachchaṉ Nārāyaṇañ[chokkaṉ].</p>						
+
+						<p>The name of the <hi rend="italic">madhyasthan</hi> of the <hi rend="italic">paraḍai</hi> is given as Indaṇa Mūvaṇaṉ.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha"><unclear>svastiśrī</unclear></hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> <unclear>matirai koṇṭako</unclear>ppara<unclear>ke</unclear>cari<unclear>va</unclear>ṉmaṟku yāṇṭu <num value="29">2 <g type="numeral">10</g> 9</num> Irupattoṉpatāvatu
+<lb n="2"/><hi rend="grantha"><unclear>brahma</unclear>de</hi>ya ma<hi rend="grantha">hentra</hi>ma<unclear>ṅ</unclear>kalattu tirukkurakkuttuṟai nampiyāṉa pāṉaccaṉ nārāyaṇañ
+<lb n="3" break="no"/><unclear>cokka</unclear>ṉ perumakka<unclear>ḷiṭai</unclear>k koṇṭu ceyvicca tevatāṉam Ivvūr mulaparaṭaiyom <hi rend="grantha">śrī</hi> ku
+<lb n="4" break="no"/>rakkuttuṟaip perumāṉaṭikaḷiṭaip palavakaiyālumākak koṇṭa tuḷaippoṉ kuṭiñai
+<lb n="5"/>kkallāl <num value="156"><g type="numeral">100</g> 5 <g type="numeral">10</g> 6</num>ma<hi rend="grantha">7<unclear>2</unclear></hi> nūṟṟaimpattaṟukaḻañcey Eṭṭu mañcāṭip poṉa nūṟṟaimpa
+<lb n="6" break="no"/>tta<unclear>ṟu</unclear> kaḻañcey Eṭṭumañcāṭip poṉṉukkut tirukkurakkutuṟaip perumāḷukku
+<lb n="7"/><unclear>Iṟaiyili</unclear> <hi rend="grantha">de</hi>vatāṉamākacceytu viṟṟukkuṭutta nilam vayaṉ nilattu
+<lb n="8" break="no"/>ḷ Ālañcey [ <hi rend="grantha">ndha2</hi>pa<hi rend="grantha">ma</hi>] yum ka<unclear>ḷā</unclear>ñcey <hi rend="grantha">�ma�</hi> <unclear>kiḻakku</unclear>2pa Iraṇṭu māveṉṉum piyaru
+<lb n="9" break="no"/><hi rend="grantha">ma <gap reason="lost" quantity="1" unit="character"/> �</hi>yum kiḻpirāṟṟu � yum puṉṉai vākkāliṉ teṉ vāykkā
+<lb n="10" break="no"/>l <hi rend="grantha">�ma</hi>yum Arai<unclear>ca</unclear>ṅkāl 2pa�yum kuṇṭai vaḷḷivā
+<lb n="11" break="no"/>kkāliṉ vaṭavākkāl � yum Āka nilam <hi rend="grantha">1tma�</hi>
+<lb n="12" break="no"/>� Oṉṟey mukkāṇi muntirikaiyarai nilamum
+<lb n="13"/>tirukkurakkuttuṟaip perumāṉaṭikaḷukku Iṟai
+<lb n="14" break="no"/>yili <hi rend="grantha">de</hi>vatāṉamāka viṟṟukkuṭuttu Ivvilai
+<lb n="15" break="no"/>pporuḷ nūṟṟaimpattaṟu kaḻañcey Eṭṭu
+<lb n="16" break="no"/>mañcāṭip poṉṉum Āvaṇakkaḷiyey Aṟa
+<lb n="17" break="no"/>k koṇṭu In nila <hi rend="grantha">1 tma�</hi> Oṉṟey mukkāṇi
+<lb n="18" break="no"/>muntirikaiyarai nilamum <hi rend="grantha">candrāditya</hi><unclear>vat</unclear>
+<lb n="19" break="no"/>iṟaiyili<hi rend="grantha">de</hi>vatāṉamāka viṟṟu vilaiyāvaṇa
+<lb n="20" break="no"/>ñ ceytu kuṭuttom mulapara<unclear>ṭai</unclear>yom tirukkura
+<lb n="21" break="no"/>kkuttuṟaip perumāṉaṭikaḷukku Innilattāl
+<lb n="22" break="no"/>vanta Iṟaiyum veṭṭiyu maṟṟum Ūriṭuvariyā
+<lb n="23" break="no"/>l vantatu Epperppaṭṭatuṅ kāṭṭātatāka
+<lb n="24"/>Iṟaiyiḻittu Iṟaiyili<hi rend="grantha">de</hi>vatāṉamāka viṟ
+<lb n="25" break="no"/>ṟukkuṭuttom mulaparaṭaiyom tirukkurakku
+<lb n="26" break="no"/>ttuṟaip perumāṉaṭikaḷukku paraṭai paṇikka E
+<lb n="27" break="no"/>ḻutiṉeṉ paraṭai <hi rend="grantha">ma<unclear>ddhya</unclear>stha</hi>ṉ Intaṇa muvaṇaṉ
+<lb n="28"/>Ivai Eṉṉeḻuttu [<g type="ddanda">.</g>] 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.636 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">293</citedRange>
+			<citedRange unit="item">636</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

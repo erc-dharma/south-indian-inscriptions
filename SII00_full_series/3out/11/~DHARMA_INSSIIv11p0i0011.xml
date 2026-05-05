@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 11.11: original edition by C. R. Krishnamacharlu, R. S. Panchamukhi, N. Lakshminaraya Rao and H. K. Narasimhaswami</title>
+				<title type="alt">No. 11. (B.K. No. 60 of 1927-28). MĒVUṆḌI, MUNDARGI PETHA, DHARWAR DISTRICT. ON A SLAB SET UP IN FRONT OF THE BASAVAṆṆA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv11p0i0011</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The inscription refers itself to the reign of <hi rend="bold">Amōghavarsha I</hi> and is <hi rend="bold">dated in Śaka [7]86</hi> (= A.D. 865). It mentions <hi rend="bold">Kuppeyarasa</hi> of the <hi rend="bold">Yādava-vaṁśa.</hi> From the Soraṭūr inscription (<hi rend="italic">Ep. Ind.,</hi> Vol. XIII, p. 77) we know that he was ruling the Purigeṟe-nāḍu as a feudatory of the king. It is evident from the present record that ‘Ādava’ the family name of this chief occurring in the Soraṭūr epigraph is only a corruption of ‘Yādava’.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>First face.</h4>-->
+
+<p>
+<lb n="1"/>© svastyamōghavarṣa śrīpṛthuvīvalla
+<lb n="2" break="no"/>bha mahārājādhirājaṁ paramēśvara bhaṭā[*ra]
+<lb n="3" break="no"/>ka<unclear>r</unclear> pṛthuvīrājyaṁgeye svasti pracaṇḍama
+<lb n="4" break="no"/>ṇḍalāgrakhaṇḍitārātimaṇḍalapratāpa<note n="7-1">Some lines seem to have been lost after this.</note>
+</p>
+
+<!--<h4>Second face.</h4>-->
+
+<p>
+<lb n="5"/><unclear>su</unclear>da<unclear>gga</unclear>nuḻedōṁ saḷesu(ṁ)nduḻi<unclear>vō</unclear>ṁ tandeya tāyvirā sa
+<lb n="6" break="no"/>ntāna ma(ṁ)nuḷidu bisuṭōṁ maṟuvārttegoḷḷa<unclear>n</unclear>
+<lb n="7"/>bendiyuṁ kaḷacumāṟa<unclear>ḍi</unclear>yu māgaḷidane kādi
+<lb n="8"/>tannanāḷdāta saye bāḻanārttanna bēḍido
+<lb n="9" break="no"/>ḍe kuḍuguṁ nikkuva <gap reason="lost" quantity="2" unit="character"/> tō<unclear>ṁṭama</unclear>mane
+<lb n="10"/> <gap reason="lost" quantity="1" unit="character"/> nintaṟi su<unclear>ṣṭhu</unclear>ra <gap reason="lost" quantity="2" unit="character"/> <unclear>ḻdō</unclear> <gap reason="lost" quantity="2" unit="character"/> <unclear>n</unclear>
+<lb n="11"/>saṁpanna yādava vaṁśō <gap reason="lost" quantity="5" unit="character"/> <unclear>rvva</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="12"/>dhavaḷa ṣaḍguṇāḷaṁ <gap reason="lost" quantity="5" unit="character"/> di <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="13"/>śrīmatkuppeyarasara <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="14"/>maga naṇḍuga raṭṭiya<unclear>ṇna</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="15"/><unclear>saṁ</unclear> beḷā<unclear>va</unclear>ḍica mēḻemaḍuvi <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="16"/>ḻdu Ara<unclear>sa</unclear>na me<unclear>yge</unclear> karameṁbu<unclear>da</unclear>ṁ kēḷdu <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="17"/>llamundanindu kūḻā toṟadu mūvattu gāvuda <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="18"/>devasadoḷeydi Arasanaṁ jāmisi
+<lb n="19"/>nurivuttiḻdudaṁ kaṇḍu kīḻguṇṭeyāgalku<unclear>ḍa</unclear>du da
+<lb n="20" break="no"/>maṁ kuḍu venendu piḍikhaṇḍa<unclear>ṁ</unclear> goṇḍu desevalige<note n="8-1">The letter ḍu is engraved below the line.</note>
+<lb n="21" break="no"/>ṟapoḻdu ka<unclear>ru</unclear>ḷa bō<unclear>niḍi</unclear>galloḷikki Eḻdi<unclear>ya</unclear>
+<lb n="22" break="no"/>mare pala<unclear>rmmā</unclear>ḍi Ādityaṁgetti Ittakke me
+<lb n="23"/>ḷgellatōṟi bērandaṟiyisi <gap reason="lost" quantity="2" unit="character"/> to<unclear>ṭṭirddu</unclear>taṁbu <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="24"/> <gap reason="lost" quantity="1" unit="character"/> sūṟuguḻdu Ākimārivecca<unclear>ḍe</unclear> rvi <gap reason="lost" quantity="1" unit="character"/> sakava <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="25"/>ṟa Eṇbhattāḻaneya varṣaṁ pōda<unclear>ba</unclear>ḻikke nindudīkallu <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="26"/>purigeṟeyiṁ banda poleyaṇnana śilākarmma<note n="8-2">Lines 26 and 27 are engraved at the top of this face.</note>
+<lb n="27"/>Ara<unclear>ku</unclear>ḷiyana kalluvokallu ©
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 11.11 by <bibl><ptr target="bib:Krishnamacharlu1940_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnamacharlu1940_01"/>
+			<citedRange unit="page">7-8</citedRange>
+			<citedRange unit="item">11</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.25: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 25. (A.R. No. 396 of 1915.) ON A MUTILATED SLAB IN A FIELD IN NĀDIṆḌLA, NĀRASARAOPETA TALUK, GUNTUR DISTRICT. (Chāḷukya Vikrama year 46.)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0025</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Incomplete and damaged. Mentions the <hi rend="italic">Mahāpradhā[na]</hi> <hi rend="bold">Anantapāla.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti samadhigata <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="2"/>sāmaṁtādhipati mahā <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="3"/>kaṁdibudhavaradā <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="4"/>mattennaṁ gōtrapavi <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="5"/>rayarēpantaṁ vairikri <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="6"/>yyanasiṁganāmā <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="7"/>śrīmanmahāpradhā <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="8"/><unclear>da</unclear> daṇḍanāyakanana <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="9"/>vikramakālada 46 <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="10"/><unclear>sa</unclear>ṁkrāntinimittamuna <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="11"/>layēśaśśītāṁśubiṁ <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="12"/>gvibhāguṇḍu śubhācā <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="13"/>nvaya vallabhēṁdravila <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="14"/>staṁbhamanantapālaka <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="15"/>nu <g type="ddanda">.</g> sthitamugada <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="16"/>dēvapūja sāśvata <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="17"/>¨rththamugāga niccenu <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="18"/>ṭaguvuṭlu mayiṁda <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="19"/>laṁbedda beḍaṁgagu pu <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="20"/>rinū kalahayāga <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="21"/> <gap reason="lost" quantity="1" unit="character"/> dvipakuṁbhani¨rddalana <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="22"/> <gap reason="lost" quantity="2" unit="character"/> ṇḍuna yaṁkabhīma <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+<p>Note.—The latter part of the inscription seems to be in Telugu verse but the verses cannot be reconstructed as many words are missing.</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.25 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">10</citedRange>
+			<citedRange unit="item">25</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

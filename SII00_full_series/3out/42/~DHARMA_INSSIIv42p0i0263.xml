@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 42.263: original edition by C Somasundara Rao</title>
+				<title type="alt">No. 263. (A.R. No. 26 of 1956-57.) Nāgārjunakoṇḍa, Palnad Taluk, Guntur District, Andhra Pradesh.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv42p0i0263</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a pillar from site No. 13 (Neg. No. 273/55), preserved at the local museum.</p>						
+
+						<p>Ikshvāku Rudrapurushadatta, regnal year 11.</p>						
+
+						<p>Written in Prakrit language and Brāhmī script of 3rd century A.D. (bears the date: year 11 <hi rend="italic">varshā, paksha</hi> 1, <hi rend="italic">divasa</hi> 8).</p>						
+
+						<p>Memorial pillar for Vaṁmabhaṭa, mother of Rudrapurushadatta.</p>						
+
+						<p>(Published in <hi rend="italic">Ep. Ind.,</hi> Vol. XXXIV, pp. 20 ff).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="pra-Latn" rendition="class:brāhmī maturity:undetermined">
+
+<p>
+<lb n="1"/>Mahārājasa Asamēdha-<unclear>yā</unclear>jisa Anēka-hiraṁna-kōḍi-gō-sa
+<lb n="2" break="no"/>tasahasa-hala-satasahasa-padāyisa svāmi-siri-chaṁtamūlasa
+<lb n="3"/>pasun<unclear>h</unclear>āya mahārājasa <unclear>svāmi</unclear>-siri-Vīrapuri <unclear>sadatāsa</unclear>
+<lb n="4"/>suṁnhāya mahārājasa<unclear>svāmi</unclear>-siri Ehavala Chaṁtamūlasa
+<lb n="5"/>pattiya raño Vāsiṭhīputtasa Ikhākūnaṁ siri-Ruḍa
+<lb n="6" break="no"/>purisadatasa mātūya mahādēvīya mahākhatapa-dhūtūya Ba<unclear>ha</unclear> 
+<lb n="7" break="no"/>phala-sagōtāya siri-Vaṁmabhaṭāya saṁvachharaṁ Ekkāraṁ 10 (+*) 1
+<lb n="8"/>vāsā pakhaṁ pathamaṁ 1 divasaṁ Aṭhamaṁ 8 saga-gatāya chhāya
+<lb n="9"/>Khaṁ<unclear>bhō</unclear>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 42.263 by <bibl><ptr target="bib:SomasundaraRao2020_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SomasundaraRao2020_01"/>
+			<citedRange unit="page">149-150</citedRange>
+			<citedRange unit="item">263</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

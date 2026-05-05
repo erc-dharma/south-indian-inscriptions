@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 42.249: original edition by C Somasundara Rao</title>
+				<title type="alt">No. 249. (A.R. No. 11 of 1956-57.) Narsāpur, Narsapur Taluk, West Godavari District, Andhra Pradesh.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv42p0i0249</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a pillar set up outside the Madanagōpālasvāmin temple.</p>						
+
+						<p>Sarvalōkāśraya Vishṇuvardhana-mahārāja (A.D. 1175).</p>						
+
+						<p>This is dated in the king's regnal year 35 in Śaka 1097, <hi rend="italic">Chaitra, Vishuva-sankrānti,</hi> corresponding to A.D. 1175, March 25.</p>						
+
+						<p>Records a gift of 25 buffaloes for half a perpetual lamp in the temple of Mārkaṇḍīśvaramahādēva by Komari-raḍḍi for the merit of his father Dōrama-raḍḍi. The buffaloes were entrusted to Eṟiyama-bōya, son of Aṁga Kāpana, stipulating the quantity of ghee to be supplied for the lamp at an <hi rend="italic">aḍḍa</hi> every day by the <hi rend="italic">sāniya-māna.</hi> The inscription was written by Naṁganasari (Nanganāchāri ?), who probably incised the inscription.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<!--<h4>First face.</h4>-->
+
+<p>
+<lb n="1"/>svasti śakavaruṣaṁbulu 1097 [Agu] 
+<lb n="2" break="no"/>nēṇḍu svasti sa¨rvvalōkāśraya śrīviṣṇuva 
+<lb n="3" break="no"/>¨rddhana mahārājula prava¨rddhamāna vija 
+<lb n="4" break="no"/>yarājya saṁvatsa<unclear>raṁbulu</unclear> 35 nēṁṭi caitra viṣuvu 
+<lb n="5"/>saṁkrāṁttināṇḍu dōramaraḍḍi koḍuku koma 
+<lb n="6" break="no"/>riraḍḍi tamataṁḍriki śrīmā¨rkkaṇḍēśva 
+<lb n="7" break="no"/>ramahādēvaraku Ācaṁdrā¨rkkamu naḍa 
+<lb n="8" break="no"/>vagāṁbeṭṭina Akhaṇḍa Aradīpamunaku <gap reason="lost" quantity="1" unit="character"/> 
+</p>
+
+<!--<h4>Second face.</h4>-->
+
+<p>
+<lb n="9"/>ga kāpanakoḍuku Eṟiyamabō 
+<lb n="10" break="no"/>yini vasamunaṁ beṭṭina yinupa 
+<lb n="11" break="no"/>yeḍlu 25 vīniṁjēkoni nitya sā 
+<lb n="12" break="no"/>niyamānika A¨rdhamāneṇḍu nē 
+<lb n="13" break="no"/>yi vōyaṁggala<unclear>vāṁḍu</unclear> <supplied reason="undefined"><g type="danda">.</g></supplied> naṁganasari li 
+<lb n="14" break="no"/>ki(khi)tamu [<g type="danda">.</g>] 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 42.249 by <bibl><ptr target="bib:SomasundaraRao2020_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SomasundaraRao2020_01"/>
+			<citedRange unit="page">139</citedRange>
+			<citedRange unit="item">249</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

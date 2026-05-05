@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.196: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 196. (A.R. No. B 361 of 1939-40.) Kālavaguṇṭa, Chittoor Taluk, Chittoor District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0196</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Inner wall of the <hi rend="italic">gōpura,</hi> left side of Mukkaṇtīśvara temple.</p>						
+
+						<p>Much damaged. Seems to record a grant for conducting worship in the temple (name not known). In characters of the 16th century A.D.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="5" unit="character"/> sidhānaku <gap reason="lost" quantity="2" unit="character"/> yāprakārāna 
+<lb n="2"/>Ācaṁdrā¨rkkasthāIgā naḍapaṁgalavāru <g type="ddanda">.</g> Abhiṣēkānaku <gap reason="lost" quantity="5" unit="character"/> <unclear>nimma</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="3"/>[Araṭi]paṁḍlu 10 <gap reason="lost" quantity="10" unit="character"/> kapuraṁ <gap reason="lost" quantity="10" unit="character"/> gōrōcanaṁ 
+<lb n="4"/> <gap reason="lost" quantity="5" unit="character"/> biyyaṁ <gap reason="lost" quantity="3" unit="character"/> hōra pāyasaṁ <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="10" unit="character"/> biyyaṁ <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="6"/> <gap reason="lost" quantity="2" unit="character"/> navāru <gap reason="lost" quantity="10" unit="character"/> galavāru <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="7"/>Akhātaṁ śēśinavāru gaṁgalō gōbrā<unclear>hma</unclear> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.196 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">158</citedRange>
+			<citedRange unit="item">196</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

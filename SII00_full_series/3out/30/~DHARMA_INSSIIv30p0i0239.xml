@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 30.239: original edition by N. Marxia Gandhi, A. Padmavathy and S. Swaminathan</title>
+				<title type="alt">No. 239. (A.R. No. 590 of 1915.) Dārukāpuram, Sankaranayinar koil Taluk, Tirunelveli District. Madhyasthanātha temple-on the second gōpura: right side Jaṭ. Kulasēkhara-Pāṇḍya: Year 13+9: 13th c. A.D.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv30p0i0239</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Incomplete. It records the gift of 2 <hi rend="italic">achchu</hi> for burning 2 twilight lamps by two individuals namely Aḍaṅgaviḷi koṇḍān and Āḷapiṟanta Upādhyāyaṉ of Tiruvīḻimiḻalai to the temple of Pinakkarukkumadēvar of Malaiyaḍikkurichchi, a sourthern hamlet of Sri Parāntakach-chaturvēdimaṅgalam, a <hi rend="italic">brāhmadēya</hi> in Āri-nādu. The Sivabrāhmaṇās of this temple accepted to maintain it after receiving this money.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> ko<supplied reason="omitted">cca</supplied>ṭaiyapaṉmarāṉa tiripuvaṉaccakkarava<supplied reason="omitted">r</supplied>ttikaḷ <hi rend="grantha">śrī</hi>kula<hi rend="grantha">śekhara de</hi>vaṟkku yāṇṭu <num value="13"><g type="numeral">10</g> 3</num> Etir 9patāmāṇ
+<lb n="2" break="no"/>ṭu Ārināṭṭu <hi rend="grantha">brahmadeśam śrī</hi> parāntakacatu<hi rend="grantha">rvedi</hi> maṅkalattu teṉpiṭākai malaiaṭikuṟicciil Uṭaiyār piṇakkaṟukkun te 
+<lb n="3" break="no"/>var(ṟ)kku tiruviḻimiḻalai Aṭaṅka(ka)viḷi koṇṭāṉum tiruviḻimiḷalai Āḷappiṟantap <hi rend="grantha">Upāddhyā</hi>yanum Iṭṭa <hi rend="grantha">sandhyādipa</hi>m I
+<lb n="4" break="no"/>raṇṭukkum Iṭṭa Accu 2 Ivaccu Iraṇṭu <hi rend="grantha">śi</hi>va<hi rend="grantha">brāhma</hi>ṇa<hi rend="grantha"> Ubha</hi>yam Āka kai<supplied reason="omitted">k</supplied>koṇṭu <hi rend="grantha">candrādi</hi>ttavaṟ celuttutom Āka kaikkoṇ
+<lb n="5" break="no"/>ṭom Ippaṭikku <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 30.239 by <bibl><ptr target="bib:MarxiaGandhi+al2011_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:MarxiaGandhi+al2011_01"/>
+			<citedRange unit="page">223-224</citedRange>
+			<citedRange unit="item">239</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

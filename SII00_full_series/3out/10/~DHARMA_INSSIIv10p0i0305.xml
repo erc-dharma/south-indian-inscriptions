@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.305: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 305. (A.R. No. 235 of 1905.) ON THE EAST WALL OF THE DARK ROOM IN THE SAME TEMPLE. Ś. 1168. (Parābhava)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0305</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>States that <hi rend="bold">Chāgi Muppaladēvi</hi> gave 25 cows for a perpetual lamp in the temple of Tripurāntaka-Mahādēva.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti samastaguṇagaṇālaṁkṛta śrīyōgānaṁdanarasiṁ 
+<lb n="2" break="no"/>hyadēva divyaśrīpādapadmārādhaka catu¨rvva¨rgapuraṣā¨rttha 
+<lb n="3"/>sādhaka duṣṭajanama¨rdda<unclear>na</unclear> śrīnarasiṁhava¨rddhana nāmādisamastapra 
+<lb n="4" break="no"/>śastisahitaṁ śrīmanmahāmaṁḍalēśvara cāgimuppaladēvi 
+<lb n="5" break="no"/>Ammaṁgāru svasti śrīśubhaśakavaruṣaṁbulu 1168 Agunēṁ 
+<lb n="6" break="no"/>ṭi parābhavasaṁvatsara caitraśu 6 Ādivāramu viṣuvusaṁ 
+<lb n="7" break="no"/>krāṁtināṁḍu śrītripurāṁtaka śrīmahādēvaraku Akhaṁḍadīpamu 
+<lb n="8" break="no"/>na kiccina modavulu 25 vīniṁ jēkoni cennapaseṭṭi penniseṭṭi <unclear>nitya</unclear>māneṁḍu neyi tana (The Inscription stops here Abruptly) <gap reason="lost" quantity="1" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.305 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">158</citedRange>
+			<citedRange unit="item">305</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

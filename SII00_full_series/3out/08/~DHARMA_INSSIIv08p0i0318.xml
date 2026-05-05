@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 8.318: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 318. (A.R. No. 44 of 1903). ON THE SAME WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv08p0i0318</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī<g type="pc"/></hi> cakalapuvaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>kopperuñciṅ
+<lb n="2" break="no"/>katevaṟku yāṇṭu <num value="16"><g type="numeral">10</g> 6</num><g type="dash"/>Āvatu Irā<hi rend="grantha">jā</hi>tirācavaḷanāṭṭu tirumuṉaip
+<lb n="3" break="no"/>pāṭi kiḻāmurnāṭṭu Ātirācamaṅkaliyapurattu Uṭaiyār tiruviraṭ
+<lb n="4" break="no"/>ṭāṉamuṭaiya ṉāyaṉāṟku paṉaiyūrnāṭṭu viḻuppuram piramatecamāna
+<lb n="5"/><hi rend="grantha">ja</hi>ṉanātaccaruppetimaṅkalattuk kāṇiuṭaiya colaikkoṉ makaṉ
+<lb n="6"/>Aruḷāḷaṉ tiyākaviṉotaṉeṉ Iṉṉāyanāṟku tirinuntāviḷakku Oṉ
+<lb n="7" break="no"/>ṟukku Ivāṇṭaip paṅkuṉimātam(p) piṟanta patiṉāṟāntiyati nāḷmutal nā
+<lb n="8" break="no"/>ṉ viṭṭa pacu <num value="32">3 <g type="numeral">10</g> 2</num>- m I<hi rend="grantha">ṣa</hi>pam 1- m kaikkoṇṭu tirinuntāviḷakkukku
+<lb n="9"/>Atikaināyakaṉ ṉāḻiyāle ṉāḷ 1- kku Uḻakku ney tirumaṭaippa
+<lb n="10" break="no"/>ḷḷip paṇṭārattu cantirātittavarai Aḷakkakkaṭavatākak kaikkoṇṭom I<unclear>v</unclear>ūr maṉṟāṭikkuṭimakkaḷil curakkoṉ caṅkaṉum perāyiramuṭaiyāṉum Ivviruvom <supplied reason="undefined"><g type="danda">.</g></supplied> Itu paṉmā<hi rend="grantha">he</hi>cura ra[<hi rend="grantha">kṣai</hi>] <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 8.318 by <bibl><ptr target="bib:SubrahmanyaAiyer1937_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SubrahmanyaAiyer1937_01"/>
+			<citedRange unit="page">172</citedRange>
+			<citedRange unit="item">318</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.241: original edition by S. Swaminathan</title>
+				<title type="alt">No. 241. (A.R. No. 241 of 1912.) TIRUVOṞṞIYŪR, SAIDAPET TALUK, CHINGLEPUT DISTRICT. On the gōpura, left of entrance Ādhipurīśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0241</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">King: Madhurāntaka-ppottappi chōḷa Year: 2.</hi></p>						
+
+						<p>It records an order of the chief Madhurāntaka-ppottappi chōḷa, addressed to the group incharge of burning the lamps in the temple, confirming that the levies <hi rend="italic">pulvari, magaḻmai</hi> and such old and new taxes as also <hi rend="italic">kārttigai-āḍu</hi> which were originally assigned to them would continue to be appropriated by them for burning five lamps to the deity, Tiruvoṟṟiyūr-uḍaiyā-nāyanār with effect from <hi rend="italic">paṅguni</hi> of second regnal year. The order said that the <hi rend="italic">tānattār</hi> of the temple would also take note of this and duly entered this assignment of these levies as above, in their accounts. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> maturāntakappottappic
+<lb n="2"/>coḻaṉ Olai <supplied reason="undefined"><g type="danda">.</g></supplied> tiruvoṟṟiyūruṭaiya nā
+<lb n="3" break="no"/>yaṉār tiruviḷakkukkuṭimakkaḷ kaṇṭu <unclear>viṭai</unclear>
+<lb n="4"/>taṅkaḷ perkkuk koḷḷum pulvari makaḻmai
+<lb n="5"/>Uṭpaṭa paḻavari putuvari kāttikaiāṭu Uṭpaṭa vari
+<lb n="6" break="no"/>kaḷ tiruvoṟṟiyūruṭaiyanāyaṉārkku tirunun
+<lb n="7" break="no"/>tā viḷakku Aiñcum Iṭa <hi rend="grantha">sarva</hi>māniyamāka
+<lb n="8"/>Iraṇṭāvatu paṅkuṉimāta mutal viṭṭo
+<lb n="9" break="no"/>m Innāyaṉār koyiṟtāṉattā<supplied reason="omitted">r</supplied>k<unclear>ku</unclear>keṟa
+<lb n="10" break="no"/>taṅkaḷperil Aṉaittāyaṅkaḷum cela
+<lb n="11" break="no"/><unclear>va</unclear>ṟuppatākac coṉṉom Ippaṭi ce
+<lb n="12" break="no"/>yvate <hi rend="grantha">mā</hi>navi<hi rend="grantha">ja</hi>ya<hi rend="grantha">sya §</hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.241 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">285-286</citedRange>
+			<citedRange unit="item">241</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 25.2: original edition by M. D. Sampath</title>
+				<title type="alt">No. 2.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv25p0i0002</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						<p>Stone in the Choultry in the village.</p>						
+
+						<p>Damaged. It refers to Udayagiri-rājya and the names of individuals viz., Nāgi-nāyani and Kōsināyani.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>bulagā <gap reason="lost" quantity="1" unit="character"/> [U]dayagiri rājyāsaku <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="5" unit="character"/> cā¨ryya hoṁnanāgi nāyiniku <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="3"/>ku taṁmuḍu gōsināyinki <gap reason="lost" quantity="10" unit="character"/> kōṭi
+<lb n="4" break="no"/> <gap reason="lost" quantity="1" unit="character"/> ṁ cēsi daṁṇayyāku kī[¨rti] <gap reason="lost" quantity="10" unit="character"/> vaṁ ṭi <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="5"/>bāhmaṇa stīlaku <gap reason="lost" quantity="10" unit="character"/> gānu <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="6"/>caṁ dā¨rkka <gap reason="lost" quantity="10" unit="character"/> catu samu
+<lb n="7" break="no"/>duṁnu cellagaladi <gap reason="lost" quantity="10" unit="character"/> kōṭigu
+<lb n="8" break="no"/> <gap reason="lost" quantity="1" unit="character"/> nakulaṁgāna <gap reason="lost" quantity="10" unit="character"/> yavvaru <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="9"/>ppinānu bāhmaṇni <supplied reason="omitted">ca</supplied>ṁpina <gap reason="lost" quantity="5" unit="character"/> gaṁgaka
+<lb n="10" break="no"/>tagōvu caṁpina <gap reason="lost" quantity="10" unit="character"/> <unclear>dvi</unclear>guṇaṁ
+<lb n="11" break="no"/>puṇyaṁ paradattānupālanaṁ <gap reason="lost" quantity="5" unit="character"/> dattaṁ
+<lb n="12" break="no"/>niṣphalaṁ bhavet <g type="ddanda">.</g> maṁgaḷa <gap reason="lost" quantity="1" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 25.2 by <bibl><ptr target="bib:Sampath2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath2012_01"/>
+			<citedRange unit="page">2</citedRange>
+			<citedRange unit="item">2</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

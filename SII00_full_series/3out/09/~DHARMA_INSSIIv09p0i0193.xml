@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.193: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 193. (A.R. No. 700 of 1920.) ON PILLAR OF THE TEMPLE OF ANANTABHOGESVARA AT KOLLUR, TENALI TALUK, GUNTUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0193</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The stone is mutilated and the beginning and the end of the record are lost. It is dated the cyclic year <hi rend="bold">Manmatha, the 40th year of the reign of the Chālukya king Tribhuvanamalladēva,</hi> probably Vikramāditya VI (= <hi rend="bold">A.D. 1115-16</hi>). The record refers to the brave Brāhman general <hi rend="bold">Anantapālayya</hi> and mentions officers such as <hi rend="italic">Mantri, Purōhita, Sēnāpati, Dauvārika, Yuvarāja, Rāshṭrakūṭa</hi> and <hi rend="italic">Kuṭumbin</hi> in whose presence a gift was made by the king. The language of the record is partly Sanskrit.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="2" unit="character"/> prasannaṁ nuḍidumattennaṁ gōtrapavitraṁ pa <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="1" unit="character"/> nāputraṁ turagarēvantaṁ vairikritāntaṁ <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="3"/> <gap reason="lost" quantity="1" unit="character"/> stapraśastisahita śrīmadanaṁtapāladē
+<lb n="4" break="no"/>va tribhuvanamalladēvaścatvāriṁśa
+<lb n="5" break="no"/>rājyasaṁvatsarē manmathasamākhyē U <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="6"/>nayananimitta pauṣyaśuddaikādaśī śa <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="7"/>rē tribhōgābhyantaraṁ sarvvakārapari
+<lb n="8"/> <gap reason="lost" quantity="4" unit="character"/> maṁtripurōhitasēnāpa <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="9"/>dauvārikayuvarājyarāṣṭrakūṭakuṭuṁbi
+<lb n="10" break="no"/>samakṣaṁ tribhuvanamalladēvēna dattamiti vidi<unclear>ta</unclear>
+<lb n="11" break="no"/>mastu catuścatvāriṁśatpramāṇa māna <gap reason="lost" quantity="2" unit="character"/> <note n="188-1">The inscription is broken after this.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.193 by <bibl><ptr target="bib:Shama+Rao1939_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shama+Rao1939_01"/>
+			<citedRange unit="page">188</citedRange>
+			<citedRange unit="item">193</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

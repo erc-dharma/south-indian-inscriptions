@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.599: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 599. (A.R. No. 554 of 1904.) TIRUVĀRŪR, NAGAPATTINAM TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0599</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north wall of the first <hi rend="italic">prākāra</hi> in the Tyāgarājasvāmin temple.</p>						
+
+						<p>Kulōttuṅga III. Year. 24: 1201 A.D.</p>						
+
+						<p>This inscription mentions the 57th day of the 24th year of <hi rend="italic">Tribhuvaṉavīradēva</hi> who is referred to as <hi rend="italic">nam tōḻaṉ</hi> by the god.</p>						
+
+						<p>It records the redistribution of tax-free lands made according to the order of the deity to the 100 <hi rend="italic">āṇḍārs</hi>, serving in the temple at the request of Vīrarājēndrappallavaraiyaṉ and Tirumuttiṉ-śivigai-peṟṟāṉ, by god Śrī Pūrvvārūrvāsi, as the said <hi rend="italic">āṇḍārs</hi> failed to distribute among themselves properly the lands previously allotted to them and quarelling left their land uncultivated. The lands lay in Śōḻa-Kēraḷanallūr in Gēyamāṇikka-vaḷanāḍu, Virudarājabhayaṅkarachcharuppēdimaṅgalam and Kaḷachchāttaṅguḍi in Kulōttuṅgaśōḻa-vaḷanāḍu. <hi rend="italic">Tiruvāykkēḻvi</hi> Aṇukkanambi, <hi rend="italic">tirumandira ōlai</hi> Śrīnandikēśvara-mūvēndavēḷāṉ and <hi rend="italic">tirumandira ōlai</hi> Tyāgavinōda-mūvēndaveḷāṉ figure as signatories in the record.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī % yajjagat<supplied reason="omitted">tra</supplied>yanirmmāṇatrāṇa nirvvāṇakāraṇam <supplied reason="undefined"><g type="danda">.</g></supplied> tadidam śāsanam śambhoḥ śrīpūrvvārūravāsinaḥ <g type="pc"/></hi> nammai <hi rend="grantha">se</hi>vaippaṇṇi kumpiṭṭu Irukku Āṇṭārkaḷ per nūṟṟuvarkkum nam Aṭukkaḷaip puṟaṅkaḷāṉa Ūrkaḷil keyamāṇikka vaḷanāṭṭu coḻakeraḷanallūril Aṭaitta nilam muppate<unclear>mu</unclear>kkāle muṉṟumāviṉ kiḻ muk<unclear>kā</unclear>le Oru māmukkāṇiyum Aruvala 
+<lb n="2" break="no"/>māṉa virutarā<hi rend="grantha">ja</hi>payaṅkarac caruppetima<supplied reason="omitted">ṅ</supplied>kalattu Ūrkiḻ Iṟaiyili p<unclear>o</unclear>ttakappaṭi nilam kālum kulottuṅkacoḻa vaḷanāṭṭu kaḷaccāttaṅkuṭiyi<unclear>l</unclear> Ūrkiḻ Iṟaiyiliyil Aṭaitta nilam mukkāle Orumāvarai muntirikai kiḻ Araiyum Āka nilam muppattoṉ<unclear>ṟe ki</unclear>ḻ<note n="265-1">This empression <hi rend="italic">kIḻ</hi> must be ignored. Otherwise the total cannot be accounted for.</note> mukkāle nāṉmāvaraiye Araikkāṇi kiḻāṟumā mukkāṇiyil nām Ulāppotumiṭattu muṉpu kai
+<lb n="3" break="no"/>ytarum <unclear>ku</unclear>vaḷaiveliuṭaiyāṉ tiruttūḷi Aḻakiyāṉukku Aruvalattu Ūrkiḻ Iṟaiyiliyil pottakappaṭi Aṭaitta nilam kālum coḻakeraḷanallūril Aṭaitta nilam <unclear>I</unclear>rumāvaraiyum vayirākikaḷ Iruvarkku kaḷaccāttaṅkuṭiyil Aṭaitta nilam Araiye Irumāvarai muntirikaiyum nikki per toṇṇūṟṟeḻuvarkkum coḻakeraḷanallūr nilam mu
+<lb n="4" break="no"/>ppate mukkāle Araimāviṉ kiḻ<supplied reason="omitted">muk</supplied>kāle Oru māmukkāṇiyum kaḷaccāttaṅkuṭiyil nilam nālumāviṉ kiḻaraiyum Ivarkaḷukku nāmaṭaitta nāḷmutal nellum nilamum taṅka ḷil O<unclear>k</unclear>ka kūṟiṭāmaiyāle Āṇṭukaḷtoṟum Aḻittu kūṟiṭṭuvarukaiyāle Innilaṅkaḷ Oruvarum Uṟcākam paṇṇāmaiyāle taṭṭuppaṭṭuvārāni<unclear>ṉṟa</unclear> teṉṟum taṅkaḷil nellum nilamum
+<lb n="5"/>Okkaccerttu certtapaṭiye Aṉupavikkapeṟa veṇumeṉṟu virarā<hi rend="grantha">je</hi>n=tirappallavaraiyaṉum tirumut<unclear>ti</unclear>ṉ civikai peṟṟāṉum namakkuc coṉṉamaiyil nam toḻaṉ tiripuvaṉaviraṉukku Irupattu nālāvatu mutal taṅkaḷil nellum nilamum Okkaccerttu Eḻuta virarā<hi rend="grantha">je</hi>ntirap pallavaraiyaṉum tirumuttiṉ civikai peṟṟāṉum Eḻuttiṭṭa kaiyyaṭaiypa<unclear>ṭiye</unclear> Ivarkaḷuk kum Ivar
+<lb n="6" break="no"/>kaḷ vaṟkattāṟkum kāṇiyum Iṟaiyiliyum Ākac coṉṉom tiruvāykkeḻvi Aṇukkanampi viṇṇappattāl Aruḷāl Eḻutiṉāṉ tirumantira Olai <hi rend="grantha">śrī</hi>nantike<hi rend="grantha">śvara</hi>muventa veḷā ṉeṉṟum Ivai virarā<hi rend="grantha">je</hi>ntirap pallavaraiyaṉ Eḻutteṉṟum Ivai tirumuttiṉ civikai peṟṟāṉ Eḻutteṉṟum Ivai tirumantira Olai tiyāka viṉota muventaveḷāṉ Eḻut teṉṟum <g type="pc"/> yāṇṭu Irupattuṉālā
+<lb n="7" break="no"/>vatu ṉāḷ Aimpatteḻiṉāl <hi rend="grantha">prasādam</hi> ceytaruḷittu <g type="ddanda">.</g><g type="pc"/> Ip pe<supplied reason="omitted">r</supplied> ṉūṟṟuvaril Arivalattu nilattāl per Oṉṟum kaḷaccāttaṅ kuṭiyil per Iraṇṭum nikkip per toṇṉūṟ ṟeḻuvarkku coḻakeraḷanallūril nilamum nellum Okkac certtu per Iruvarkku kaiyyaṭai Oṉ<unclear>ṟā</unclear>ka Ivvū<supplied reason="omitted">r</supplied>ka kaṇakku Eyiṉū<supplied reason="omitted">ru</supplied>ṭaiyāṉ Eḻuttāl Eḻuti Ivaṉum virarā<hi rend="grantha">je</hi>ntirap pal<unclear>la</unclear>varaiyaṉum tirumuttiṉci<unclear>vi</unclear>
+<lb n="8" break="no"/>kai peṟṟā<unclear>ṉu</unclear>m Eḻuttiṭṭa kaiyyaṭaippaṭi kaiyyaṭai Oṉṟukku cetta kār maṟu nilam Irumā varaikku māttāl nellu Eṇkalaṉe Iru tūṇippatakkāka Irupattirukalane kuṟuṇiyum Oru pūnilam Oṉpatumā mukkāṇikkum māttāl nellu Aiṅkalaṉepatakku n<choice><sic>a</sic><corr>ā</corr></choice>ṉāḻiyā nellu Aimpatiṉ kalaṉe Iru tūṇi mukkuṟuṇi Aṟunāḻi Āka nilam Araiye Iraṇṭu māk<unclear>kā</unclear>ṇiyāl varicaippa<unclear>ṭi ne</unclear>
+<lb n="9" break="no"/>llu Eḻupattu mukkalaṉe Aṟunāḻi kuṟuṇivāci nellu Aṟukalaṉe kuṟuṇi Āka nellu Eḻupattoṉpatiṉ kalaṉe kuṟuṇi Aṟuṉāḻi celavaḷavu vā<unclear>ci</unclear>nellu Eḻukuṟuṇi Iruṉāḻi neṭṭāḷukku nellu Irutūṇik kuṟuṇi paya<unclear>ṟu</unclear> kalaṉe Iruṉāḻikku nellu Iru kalaṉe nāṉāḻi <unclear>Ūrk</unclear>kaṇakkaṉukku Uṟaināḻikku viṭṭa nilattāl nellu Eḻukuṟuṇi muṉṉāḻi
+<lb n="10"/>taccaṉukku viṭṭa nilattāl nellu patakku nāvicaṉukku viṭṭa ṉilattāl nellu mukkuṟuṇi Oruṉāḻi Āka nellu Eḻupattoṉpatiṉ kalaṉe Eḻukuṟuṇi kaḷaccāttaṅkuṭiyil Opāti nellu Aiṅku<supplied reason="omitted">ṟu</supplied>ṇi Āka per Iruvarkku nellu toṇṇūṟṟuk kalattukku kaiyyaṭai Oṉṟāka Eḻuti Eḻuttiṭṭatu <g type="pc"/>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.599 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">264-265</citedRange>
+			<citedRange unit="item">599</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

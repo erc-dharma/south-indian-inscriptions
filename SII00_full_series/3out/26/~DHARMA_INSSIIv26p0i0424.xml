@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 26.424: original edition by P. R. Srinivasan</title>
+				<title type="alt">No. 424. (A.R. No. 403 of 1909.) SIDDHALIṄGAMAḌAM, TIRUKKOYILUR TALUK, SOUTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv26p0i0424</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>West wall of the same <hi rend="italic">prākāra.</hi></p>						
+
+						<p><hi rend="bold">Tribhº Vikramachōḷadēva: Year 6 = 1123-24 A.D.</hi></p>						
+
+						<p>This inscription is built in at the bottom.</p>						
+
+						<p>It records the sale of 1,500 <hi rend="italic">kuḻi</hi> of land for a sum of 15 <hi rend="italic">Aṉṟāḍu Naṟkāśu,</hi> to the temple of the god Tiruppulippagavadēvar in Śiṟṟiṅgūr, a <hi rend="italic">brahmadēya,</hi> in Kuṟukkaik-kūṟṟam in Malāḍu <hi rend="italic">alias</hi> Jananātha-vaḷanāḍu, by certain people of the same place, named Bhāradvāji Kumārasvāmi Tiruppulipagavaṉ, Āttraiyan Tiruvaṇṇāmalai-uḍaiyān Uyyavandāṉ-bhaṭṭaṉ and Āttraiyan Veṇkāḍudēvan Akalaṅkan.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> tri</hi>(ri)puvaṉaccakkaravarttikaḷ <hi rend="grantha">śrī</hi>vikkiramacoḻatevarkku yāṇṭu 6 Āvatu malāṭāṉa <hi rend="grantha">ja</hi>ṉanātavaḷa
+<lb n="2" break="no"/>nāṭṭuk kuṟukkaikkūṟṟattu <hi rend="grantha">brahma</hi>teyañ ciṟṟiṅkūr <hi rend="grantha">bhāradvāji</hi> kumāra<hi rend="grantha">svā</hi>mi tiruppulippakavaṉum Āt<hi rend="grantha">trai</hi>
+<lb n="3" break="no"/>yan tiruvaṇṇāmalaiuṭaiyān Uy<supplied reason="omitted">ya</supplied>vantāṉpaṭṭaṉum Āt<hi rend="grantha">trai</hi>yan veṇ kāṭutevan Akalaṅkanum
+<lb n="4"/>Ivvaṉaivom nilavilaiyāvaṇam Ivvūr Āḷuṭaiyār tiruppulippakavatevar koyilil Ā<hi rend="grantha">didāsa</hi> Ā<hi rend="grantha">dica</hi>
+<lb n="5" break="no"/><hi rend="grantha">ṇḍeśva</hi>ratevarkku nāṅkaḷ viṟṟukkuṭutta nilamāvatu Ivvūrk kiḻkaḻaniyil veṇkāṭutevaṉ Akalaṅkaṉ
+<lb n="6"/>ceṅkollaiyil kuḻi Aiññūṟum tiruvaṇṇāmalaiyuṭaiyān Uyyavan=tāṉ ceṅkollaiyil kuḻi Aiññūṟu
+<lb n="7" break="no"/>m kumāra<hi rend="grantha">svā</hi>mi tiruppulippakavaṉ Ā<hi rend="grantha">trai</hi>yan Uyyava<hi rend="grantha">nt<choice><sic>a</sic><corr>ā</corr></choice></hi>ṉ nār<choice><sic>a</sic><corr>ā</corr></choice>yaṇa<hi rend="grantha">bha</hi>ṭṭaṉ pakkal parivatticca ceṅko
+<lb n="8" break="no"/>llaiyil kuḻi Aiññūṟum Ākakuḻi Āyirattu Aiññūṟum viṟpataṟkku kiḻpāṟk kellai <hi rend="grantha">sahai</hi>yāravaratukku
+<lb n="9"/>meṟkum teṉpāṟkkellai kaḷar kuṇṭilukku vaṭakkum melpākkellai veṇkāṭu tevaṉ Akala
+<lb n="10" break="no"/>ṅkaṉ Uḷḷiṭṭa ceṅkollaikku kiḻakkum vaṭapāṟkkellai Ūṟukāl vāykālukku teṟkum Āka Iv
+<lb n="11" break="no"/>vicainta nāṟpper Ellaiyuḷ<unclear>ḷa</unclear>kappaṭṭa nilam Uḷnilam Oḻiviṉṟi patiṉaṟu cāṇkolāl kuḻi Āyirattaiññū
+<lb n="12" break="no"/>ṟum viṟṟuk kuṭuttukkoḷḷauṭaiya Emmilicainta vilaipporu(ḷ)ḷaṉṟāṭu naṟkkācu <num value="15"><g type="numeral">10</g> 5</num> Ikkācu pati
+<lb n="13" break="no"/>ṉañcum Āvaṇakkaḷiye ciḻikaiccela Aṟakkoṇṭu veṭṭi muṭṭaiyāḷ Eccoṟu Uḷḷiṭṭa cilliṟai<note n="277-1">Incomplete.</note> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 26.424 by <bibl><ptr target="bib:Srinivasan1990_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Srinivasan1990_01"/>
+			<citedRange unit="page">277</citedRange>
+			<citedRange unit="item">424</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

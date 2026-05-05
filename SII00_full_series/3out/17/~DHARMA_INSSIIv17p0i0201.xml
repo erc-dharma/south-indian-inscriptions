@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.201: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 201. (A.R. No. 180 of 1904.) TIRUVAKKARAI, VILUPPURAM TALUK, SOUTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0201</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the west wall of the <hi rend="italic">maṇḍapa</hi> in front of the central shrine on the Chandramauḷīśvara temple.</p>						
+
+						<p>Vikramachōḷa. Year 3: 1120-21 A.D.</p>						
+
+						<p>This inscription records the assignment of <hi rend="italic">pāḍikāval</hi> collected from the <hi rend="italic">dēvadāna</hi> lands belonging to the god at Tiruvakkarai in Māttūr-nāḍu at the rate of 2 <hi rend="italic">kalam</hi> of paddy per <hi rend="italic">mā</hi> of wet land and 2 <hi rend="italic">kalam</hi> of <hi rend="italic">varagu</hi> per <hi rend="italic">mā</hi> of dry land, by Śeṅgēṇi Ammaiyappan Pāṇḍi <hi rend="italic">alias</hi> Naralōkavīra-ppēraiyan of Muññuṟṟuk-kuḍippaḷḷi in Vijayarājēndra-vaḷanāḍu in Ōymā-nāḍu for the food and other offerings to the Uḍaiyār and Āḻvār at Tiruvakkarai. The amount of paddy to be transformed into rice required for every item is stated to be five units for every two units of rice.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> vikkiramacoḻa<hi rend="grantha">de</hi>var
+<lb n="2" break="no"/>kku yāṇṭu muṉṟāvatu Ō<note n="70-1">See footnote 1 on p. 73.</note>ymānā
+<lb n="3" break="no"/>ṭāṉa vi<hi rend="grantha">jai</hi>ya<hi rend="grantha">rājentra</hi> vaḷanāṭṭu
+<lb n="4"/>muñ nūṟṟukkuṭippaḷḷi ceṅkeṇi A
+<lb n="5" break="no"/>mmaiyappan pāṇṭiyāna naraloka vi
+<lb n="6" break="no"/><unclear>ra</unclear>pperaiyaneṉ māttūr nāṭṭu tiru
+<lb n="7" break="no"/>vakkaraiyuṭaiyār tevatāṉam nirni
+<lb n="8" break="no"/>lamum punceyyum nāṟpālellaiyum pā
+<lb n="9" break="no"/>ṭikāval nirnila māttā liru kala nellum
+<lb n="10"/>punce nila māttā lirukala varaku pāṭikāvalā
+<lb n="11" break="no"/>n peṟu Uṭaiyāṟku Irukūṟum Āḻvārk
+<lb n="12" break="no"/>ku Oru kūṟumāka Amutuceytaruḷa Āḷuṭaiyā
+<lb n="13" break="no"/>ṟku man=tiraponaka marici nāṉāḻiyu n=tiru vartta
+<lb n="14" break="no"/>yāmattukku Arici nāṉāḻiyum Arici kuṟuṇi
+<lb n="15" break="no"/>kku Añciraṇṭāka nel patakku nāṉā ḻiyum kaṟiyamu
+<lb n="16" break="no"/>tukku nel munnāḻiyu n=tayiramutukku nel munnāḻiyu
+<lb n="17" break="no"/>n neyyamutukku nel nāṉāḻiyum Aṭaikkāyamu
+<lb n="18" break="no"/>tilaiyamutukku nel Iru nāḻiyum Ā<supplied reason="omitted">ka</supplied> nāḷonṟu
+<lb n="19" break="no"/>kku nel tūṇiyum Āḻvārar<supplied reason="omitted">k</supplied> kamutu ceytaruḷavu
+<lb n="20" break="no"/>m kaṟiyamutu neyyamutu tayiramu taṭaikkā yamuti
+<lb n="21" break="no"/>laiyamutukku can=ti Onṟukku Arici nānā ḻikkumāka
+<lb n="22"/>nel patakkum Āḷuṭaiyār<supplied reason="omitted">k</supplied>ku U<unclear>cci</unclear> <hi rend="grantha">sandhi</hi><unclear>k</unclear>ku
+<lb n="23"/>man=tirappo
+<lb n="24" break="no"/>nakat
+<lb n="25" break="no"/>tukku mu
+<lb n="26" break="no"/> <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="27"/><unclear>pā</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="28"/>nā <unclear>pa</unclear>
+<lb n="29"/>Um <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="30"/>n=ti<hi rend="grantha"> <gap reason="lost" quantity="4" unit="character"/> </hi>
+<lb n="31"/>tevaṟku <unclear>ca</unclear>
+<lb n="32" break="no"/>n=ti Onṟukku
+<lb n="33"/>Arici nānā
+<lb n="34" break="no"/>ḻiyum Ā
+<lb n="35" break="no"/>ka Arici kuṟu
+<lb n="36" break="no"/>ṇikku Añ
+<lb n="37" break="no"/><unclear>ci</unclear>raṇṭāl
+<lb n="38"/>nellup
+<lb n="39" break="no"/>patakku nā
+<lb n="40"/>nāḻiyum
+<lb n="41"/>Āka Āḷu
+<lb n="42" break="no"/>ṭaiyāṟku
+<lb n="43"/>nāḷ Oṉ
+<lb n="44" break="no"/>ṟukku ne<supplied reason="omitted">l</supplied>lu
+<lb n="45"/>tūṇippa
+<lb n="46" break="no"/>takku nānā
+<lb n="47" break="no"/>ḻi
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.201 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">70</citedRange>
+			<citedRange unit="item">201</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

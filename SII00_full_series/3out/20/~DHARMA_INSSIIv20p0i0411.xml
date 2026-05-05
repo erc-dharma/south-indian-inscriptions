@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 20.411: original edition by G. S. Gai</title>
+				<title type="alt">No. 411. (B.K. No. 107 of 1935-36.) YELLĀPUR, RANEBENNUR TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv20p0i0411</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Stone fixed into the raised platform in the Hanumān temple.</hi></p>						
+
+						<p>A.D. 1676.</p>						
+
+						<p>This record is dated <hi rend="bold">Śaka 1597, Rākshasa, Pushya, ba. 15,</hi> corresponding to <hi rend="bold">A.D., 1676 January 5, Wednesday.</hi></p>						
+
+						<p>The inscription records that Dēśāyi Liṅgapagauḍa of <hi rend="bold">Gutaḷa</hi> made grants (of land) in Maḍatira-sīme which was his <hi rend="italic">uṁbaḷi</hi> to several individuals mentioned.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti śrījayabuda
+<lb n="2"/>saṣalivā<supplied reason="omitted">ḷa</supplied>na śaka
+<lb n="3" break="no"/>varuśa 1597 ne rakṣa
+<lb n="4" break="no"/>sa sa <g type="ddanda">.</g> da pusa ba 15
+<lb n="5"/>ra śrī dēśayi gutaḷada
+<lb n="6"/>liṁgapagauḍaru tama
+<lb n="7"/>Uṁbu<supplied reason="omitted">ḷi</supplied> maḍalera sī
+<lb n="8" break="no"/>me sī<unclear>ma</unclear>lli purada sēnabhōga rē 
+<lb n="9" break="no"/>maṁṇana maga nagapa ttiṁmapa
+<lb n="10"/>tiṁmarasayana maga surapa
+<lb n="11"/>surapana maga duga<unclear>pa</unclear> sēsapa
+<lb n="12" break="no"/>na momaga veṁkapaga <gap reason="lost" quantity="2" unit="character"/> sēsapa
+<lb n="13"/>nu palisikoḍu
+<lb n="14"/>makaḷa para
+<lb n="15"/>ma
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 20.411 by <bibl><ptr target="bib:Gai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Gai1964_01"/>
+			<citedRange unit="page">392-393</citedRange>
+			<citedRange unit="item">411</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

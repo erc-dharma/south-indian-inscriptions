@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.163: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 163. (A.R. No. 349 of 1915.) ON A STONE FORMING THE THRESHOLD OF THE INNER ENTRANCE INTO THE TEMPLE OF RĀMALINGASVĀMI, SĀTULŪRU, NARASARAOPETA TALUK, SAME DISTRICT. Ś. 108-.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0163</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>States that <hi rend="bold">Prōlama</hi> (wife of ?) <hi rend="bold">Pritvina-Bōya</hi> gave 55 sheep to the temple of Rāmēśvaradēva of <hi rend="bold">Chāṁchalūru.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="3" unit="character"/> ma¨rttigaṁḍa<unclear>ḥ</unclear> 
+<lb n="2"/><unclear>paranṛ</unclear> pajīvāpaha 
+<lb n="3" break="no"/>raṇaḥ yemadaṁḍaḥ 
+<lb n="4"/> <gap reason="lost" quantity="3" unit="character"/> karaṁḍaḥ kavija 
+<lb n="5" break="no"/>nasiṣṭēṣṭavanajavanamā 
+<lb n="6" break="no"/>¨rtaṁḍaḥ <g type="ddanda">.</g> svasti śakava 
+<lb n="7" break="no"/>¨rṣaṁbulu 108 <gap reason="lost" quantity="1" unit="character"/> gu 
+<lb n="8"/>nēṁṭi Uttarāya 
+<lb n="9" break="no"/>ṇa saṁkrāṁttinimitta 
+<lb n="10" break="no"/>na pratvinabōyini pa <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="11"/>prōlama dha¨rmmā¨rttamugā 
+<lb n="12" break="no"/>ṁ jāṁcalūri rāmīsvara dēvara 
+<lb n="13" break="no"/>ku Akhaṁḍadīvamuna 
+<lb n="14" break="no"/>kuṁ beṭṭina goṟiyalu 
+<lb n="15"/>55 vīniṁ jēkoni 
+<lb n="16"/>bōyini koḍku mupe 
+<lb n="17" break="no"/>vē putrānupautri <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.163 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">80</citedRange>
+			<citedRange unit="item">163</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

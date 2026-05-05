@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 23.404: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 404. (A.R. No. 404 of 1907.) Peruṅgaruṇai, Mudukulattur Taluk, Ramnad District Varadarāja-Perumāḷ temple—on the door-post of the maṇḍapa in front, right of entrance</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv23p0i0404</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is a fragmentary Grantha inscription probably recording some gift, made by the Madurai Nāyaka Chief Kṛishṇa-Bhūpa, son of Vīra Bhūpa on the day of <hi rend="italic">Amāvāsya</hi> in Makara month of the cyclic year Manmatha, which would correspond to Śaka 1517 (A.D. 1595—96).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:grantha maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">kṛṣṇabhūpō</hi>
+<lb n="2"/><hi rend="grantha">mahārājō</hi>
+<lb n="3"/><hi rend="grantha">virabhupātma</hi>
+<lb n="4" break="no"/><hi rend="grantha">sambhavaḥ <g type="danda">.</g> manma</hi>
+<lb n="5" break="no"/><hi rend="grantha">thē vatsarē</hi>
+<lb n="6"/><hi rend="grantha">māsi makarēkṛ</hi>
+<lb n="7" break="no"/><hi rend="grantha">ṣṇapakṣakē <g type="danda">.</g> A</hi>
+<lb n="8"/><hi rend="grantha">māyām puṇya</hi>
+<lb n="9" break="no"/><hi rend="grantha">kālēsmin</hi>
+<lb n="10"/><hi rend="grantha">s�<unclear>drōdaya</unclear></hi>
+<lb n="11"/><hi rend="grantha">mahōdhayē śrīma</hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 23.404 by <bibl><ptr target="bib:SrinivasaRao1979_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1979_01"/>
+			<citedRange unit="page">307</citedRange>
+			<citedRange unit="item">404</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

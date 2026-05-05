@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.565: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 565. (A.R. No. 195 of 1913.) ON A STONE BUILT INTO A WATER-CHANNEL NEAR THE ANJANEYA TEMPLE AT HAVINAHALU-VIRAPURA, BELLARY TALUK, SAME DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0565</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is damaged and dated <hi rend="bold">Śaka 1455, Jaya, Vaiśākha, śu. 15,</hi> corresponding to <hi rend="bold">A.D. 1534 April 28, Tuesday</hi> (not verifiable), in the reign of <hi rend="bold">Achyutarāya-Mahārāya.</hi> It records that the king erected the <hi rend="italic">siṁhāsana</hi> of the god Bukkēśvara to the west of the temple of Virūpākshadēva and made a gift of the village <hi rend="bold">Doṇḍavaṭi</hi> for the service of the god. The gift is stated to have been made for the merit of his grandfather <hi rend="bold">Īśvara-Nāyaka</hi> and grandmother <hi rend="bold">Bukkāji-amma</hi> and that a copper-plate charter was granted to that effect and <hi rend="italic">liṅgamudre</hi> stones set up on the boundaries of the village. The village was given to <hi rend="bold">Rāmachandra-Dīkshita</hi> for conducting the worship.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="2" unit="character"/> naṁdi
+<lb n="2"/> <gap reason="lost" quantity="2" unit="character"/> kēśvara
+<lb n="3"/>namastuṁgasiracuṁbicaṁdracāmara<unclear>cā</unclear>
+<lb n="4" break="no"/>ravē <g type="danda">.</g> trayalōkyanagarāraṁbhamūlastaṁbhāya śaṁ
+<lb n="5" break="no"/>bhavē (tu) <supplied reason="undefined"><g type="ddanda">.</g></supplied> śvasti śrījayābhyudayaśālivāhana
+<lb n="6" break="no"/>śakhavaruśaṁgaḷ 145<unclear>5</unclear> neya jayasaṁva
+<lb n="7" break="no"/><unclear>tsa</unclear>rada vayiśākha śu 15 lu <unclear>śrī</unclear>manmahā<unclear>rā</unclear>
+<lb n="8" break="no"/>jādhirāja rājaparamēśvara śrī<unclear>vīrapratāpa</unclear> A<unclear>cyu</unclear>tarāya<unclear>mahā</unclear>
+<lb n="9" break="no"/>rāyarū taṁma taṁde narasaṇanāyakara tāyi bu<unclear>kkāji</unclear>
+<lb n="10" break="no"/>Aṁmanavarige pu(ṁ)ṇyavāgabēkeṁdu śrīvirūpākṣadēvara
+<lb n="11"/>guḍiya mēlugaḍeya paḍuvalu sōmaṇanāyakara gōpu
+<lb n="12" break="no"/><unclear>radoḷage</unclear> śrībukkēśvaradēvara si<unclear>ṁ</unclear>vasanavanu pratiṣṭheyanu māḍisi
+<lb n="13"/>Ā bukkēśvaradēvarige kuṟugōḍa sīmeyoḷagaṇa doṁ
+<lb n="14" break="no"/>ḍavaṭiya grāmavanu Aṁgaraṁgavayibōga nayivēdya
+<lb n="15"/>Amrutapaḍige sarvamānya yēkabhōgavāgi catussī
+<lb n="16" break="no"/>mege liṁgamudreya kalanū naṁdiya kalanū hākisi taṁ 
+<lb n="17" break="no"/>ma muttiya �yośvaranāyakaAyanavarigū bukājiA
+<lb n="18" break="no"/>manavarige pu(ṁ)ṇyavāgabēkeṁdu silāsāśanavanu hā
+<lb n="19" break="no"/>kisi koḍahēḷi rāmacaṁdradīkṣitaAyanavarige sama
+<lb n="20" break="no"/>rpisida Apaṇeya nirupavanu cittaisi tāṁbrasaśanavanū ko
+<lb n="21" break="no"/>ṭṭu Ā doṁḍavaṭiya grāmavanu sarvamānyevāgi
+<lb n="22"/>samarpisi biṭṭa doṁḍavaṭiya grāma �yo grāmake
+<lb n="23"/>Āvanānobanu Upahatiya māḍi tapidare mātrugamana
+<lb n="24"/>māḍida dōśakke kōharū <g type="ddanda">.</g> vāgdattaṁ (<g type="danda">.</g>) manōdattaṁ (<g type="danda">.</g>) dhā
+<lb n="25" break="no"/>rādattaṁ (<g type="danda">.</g>) na dīyatē <g type="danda">.</g> ṣeṣṭirverśasahasrāṇi vriṣṭāyāṁ
+<lb n="26"/>jāyatē krimi <supplied reason="omitted">ḥ</supplied> <g type="ddanda">.</g> Ēkaiva bhaginī lōkē sarvēsāṁmōva bhū
+<lb n="27" break="no"/>bhujāṁ <g type="danda">.</g> na bhōjyāna karagrā(ṁ)hyā vipradattāvasuṁdharā <supplied reason="undefined"><g type="ddanda">.</g></supplied> nūnā <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="28"/>dhikākṣara <gap reason="lost" quantity="4" unit="character"/> likhitaṁ pramāṇamiti <g type="ddanda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.565 by <bibl><ptr target="bib:ShamaShastry+Rao1941_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:ShamaShastry+Rao1941_01"/>
+			<citedRange unit="page">585-586</citedRange>
+			<citedRange unit="item">565</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

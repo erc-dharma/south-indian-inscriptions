@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 27.254: original edition by M. D. Sampath, H. K. Narasimhamurthy, Madhav N. Katti and B. R. Gopal</title>
+				<title type="alt">No. 254. (A.R. No. 60 of 1942-43.) ŚRĪŚAILAM, NANDIKOTKUR TALUK, KURNOOL DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv27p0i0254</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Bell hung in a niche in the <hi rend="bold">ghanṭā-maṭham.</hi></p>						
+
+						<p>Piriyarājayyadēva, 1591 A.D.</p>						
+
+						<p>The record states that the bell was the gift by Piriyarājayyadēva, king of Nañjarāyapaṭṭaṇa, son of Śrīkaṇṭharājayya and Vallabhājamma, for their merit and that of Vīrarājayya and all others of the Chaṅgāḷva family. The king is stated to have belonged to Sōma-vaṁśa, Ṛik-śākha and Hārita-gōtra.</p>						
+
+						<p>It is dated <hi rend="bold">Śaka 1512, Vikṛiti, Māgha śu. 15,</hi> the tithi corresponding to <hi rend="bold">1591 A.D., January 29.</hi> The details are not verifiable.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>śubhamastu <supplied reason="undefined"><g type="danda">.</g></supplied> <hi rend="bold">śālivāhana śaka 1512 suda <g type="danda">.</g> vikrutu saṁvatsarada māgha śu 3 llū <g type="danda">.</g></hi> śrīmanmahā dēvadēvō
+<lb n="2" break="no"/>ttama śrīgi(si)riparvatada mallikārjuna
+<lb n="4"/>ya śāsanada vivara <g type="danda">.</g> jaṁgamara prasādaliṁgakke saluUdu <g type="danda">.</g> naṁmataṁde śrī kaṁṭharājayyagaḷu <g type="danda">.</g> vallabhajaṁma
+<lb n="5" break="no"/>navarigu <g type="danda">.</g> piriyarājayyanavarigo <g type="danda">.</g> vīrarājayya navarigū <g type="danda">.</g> kailāsavāgali yeṁdu <g type="danda">.</g> caṁgāḷa vaṁśadavare <g type="danda">.</g>
+<lb n="6"/>llākailāsakke Ayididareṁdu <g type="danda">.</g> pirirājayyanavaru koṭṭa gaṁṭheya sthiraśāsana <g type="ddanda">.</g> jaṁgamada prasāda liṁgake saluUdu <g type="danda">.</g> śrī kaṁṭharāja
+<lb n="7" break="no"/>yyagu <g type="danda">.</g> vallabharājaṁmagū <g type="danda">.</g> piriya rājayyagu jalmamukti vaḍeyitu<note n="399-1">ṭo the right of the inscription are engraved labelled figures of and Vallabhājamma respectively and below them in a horiśontal � that of Piriyarāja.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 27.254 by <bibl><ptr target="bib:Sampath+al2001_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath+al2001_01"/>
+			<citedRange unit="page">399</citedRange>
+			<citedRange unit="item">254</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 31.299: original edition by C. A. Padmanabha Sastri and T. S. Ravishankar</title>
+				<title type="alt">No. 299. (A.R. No. B 212 of 1938.) CHIḌPIRĀLA, KAMALAPURAM TALUK, CUDDAPAH DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv31p0i0299</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a slab set up in the Ānjanēyasvāmi temple.</p>						
+
+						<p>10th-11th century A.D.</p>						
+
+						<p>This undated inscription may be assigned to the 10th-11th century on the basis of palaeography.</p>						
+
+						<p>Damaged and portion of the text written in Telugu verse. Registers, the gift of 50 <hi rend="italic">maruturs</hi> of land by certain Namena peggaḍa got renovated the temple, probably erected by Agasti (Agasthya). It also records on the second side to the value of <hi rend="italic">Dharma</hi> and eulogises the charity of Ammenapeggaḍa.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<!--<h4>FRONT SIDE.</h4>-->
+
+<p>
+<lb n="1"/>svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīmāṁ[?]prastuta<unclear>ṁ</unclear>baynayagi<unclear>sthi</unclear>kā 
+<lb n="2" break="no"/>viṁcinaguḍi <supplied reason="omitted">gāla</supplied>pasanamunaṁ jeḍina dāni<unclear>ne</unclear> 
+<lb n="3" break="no"/>ttiṁceda <gap reason="lost" quantity="3" unit="character"/> yuttama bayyā cadapaṟē 
+<lb n="4" break="no"/>vulanva¨rddhakaṁ Ōsiyaṇḍa na<unclear>me</unclear>ma peggaḍa da 
+<lb n="5" break="no"/>¨rmmiṣṭhi śivunaku śāsanaṁ bayyūṇḍa bhāne bhū 
+<lb n="6" break="no"/>mi yēṁbhadi maṟuttu <gap reason="lost" quantity="3" unit="character"/> veyna <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="7"/>yani <gap reason="lost" quantity="10" unit="character"/> varipolamu <unclear>maṟu</unclear> 
+<lb n="8" break="no"/> <gap reason="lost" quantity="10" unit="character"/> dīniki vakrame<unclear>vva</unclear> 
+<lb n="9" break="no"/> <gap reason="lost" quantity="10" unit="character"/> rēni vāru bāraṇāsi 
+<lb n="10"/> <gap reason="lost" quantity="5" unit="character"/> yamu <gap reason="lost" quantity="2" unit="character"/> bhuva <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="11"/>ceṟuvu kṛndi<unclear>mānya</unclear> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="12"/> <gap reason="lost" quantity="1" unit="character"/> ṟu <gap reason="lost" quantity="5" unit="character"/> <unclear>vittu</unclear> <unclear>1</unclear>ḷli <gap reason="lost" quantity="5" unit="character"/> rai 
+<lb n="13"/> <gap reason="lost" quantity="10" unit="character"/> bāṇarāsi 
+<lb n="14"/> <gap reason="lost" quantity="10" unit="character"/> vayuga 
+<lb n="15"/> <gap reason="lost" quantity="10" unit="character"/> navā <gap reason="lost" quantity="2" unit="character"/> 
+</p>
+
+<!--<h4>BACK SIDE.</h4>-->
+
+<p>
+<lb n="16"/>Amatā¨rdha <gap reason="lost" quantity="5" unit="character"/> yōthala na<unclear>ṁ</unclear> 
+<lb n="17" break="no"/>di takṣaṇa <gap reason="lost" quantity="5" unit="character"/> tatvā¨rddamu 
+<lb n="18"/>gā <gap reason="lost" quantity="5" unit="character"/> bhamu <gap reason="lost" quantity="1" unit="character"/> tāṭaka naraka 
+<lb n="19"/> <gap reason="lost" quantity="2" unit="character"/> dīniviṁrattiṁ guriṁci namma 
+<lb n="20"/> <gap reason="lost" quantity="3" unit="character"/> ka parā[¨rtthamu]nennadu <gap reason="lost" quantity="1" unit="character"/> jadulu 
+<lb n="21"/>ni dha¨rmmā¨rttaṁma <gap reason="lost" quantity="2" unit="character"/> yuṇḍi ma 
+<lb n="22"/>ma jala<unclear>mma</unclear>na peggaḍiyu <gap reason="lost" quantity="1" unit="character"/> dē <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="23"/>vya(pa)mmitō <gap reason="lost" quantity="5" unit="character"/> murānakōnija sē 
+<lb n="24" break="no"/>vyasukha <gap reason="lost" quantity="5" unit="character"/> vā <gap reason="lost" quantity="2" unit="character"/> jama <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="25"/>tōya <gap reason="lost" quantity="5" unit="character"/> kṛya 
+<lb n="26"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="27"/>yana <gap reason="lost" quantity="5" unit="character"/> tibhaya 
+<lb n="28"/> <gap reason="lost" quantity="5" unit="character"/> mu 
+<lb n="29"/> <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+<p>(Incomplete.)</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 31.299 by <bibl><ptr target="bib:PadmanabhaSastri2013_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:PadmanabhaSastri2013_01"/>
+			<citedRange unit="page">316-317</citedRange>
+			<citedRange unit="item">299</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

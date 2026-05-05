@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.290: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 290. (A.R. No. 119 of 1929.) ON THE SAME WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0290</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This registers the sale of a quarter <hi rend="italic">(vēli)</hi> of land to the temple of Mahādēva, exempt from taxes like <hi rend="italic">iṟai, echchōṟu, veṭṭi, vēdinai</hi> and <hi rend="italic">śennīrveṭṭi</hi>, by Tōṇaṉ Ādittapiḍāraṉ of Pudukkuḍi near Karandai in Eyil-nāḍu for 15 <hi rend="italic">kaḻañju</hi> of gold which was endowed to the temple for a perpetual lamp by <hi rend="bold">Ūraṉ Māṟaṉ of Āyirattaḷi</hi> a resident of Aḍuppaḷḷi Niyamam in the same <hi rend="italic">nāḍu.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopparakecaripaṉmaṟkku yāṇṭu <num value="11"><g type="numeral">10</g> 1</num><g type="dash"/>Āvatu Iṭaiyāṟṟu nāṭṭut tiruttavat tuṟai mā<hi rend="grantha">hāde</hi>varkku Eyiynā<unclear>ṭṭu</unclear>
+<lb n="2"/>Aṭuppa<unclear>ḷ</unclear>ḷi niyāmattu <unclear>Ā</unclear>yirattaḷi Ūraṉ māṟieṉ Iravum pakalum Oru nontāttiru viḷakku nicati Uḻakku neyyāl can<hi rend="grantha"><unclear>trā</unclear></hi>titta
+<lb n="3" break="no"/>val Erivataṟku <supplied reason="omitted">v</supplied>aitta poṉ patiṉaiṅkaḻañcu Iñāṭṭu karantaipp<choice><sic>a</sic><corr>ā</corr></choice>l putukkuṭi putuk kuṭāṉ toṇan nātittapiṭāraṉa
+<lb n="4"/>Ippoṉ patiṉaiṅkaḻañcum koṇṭu Ip ponṉukku En kāṇiyil viṟṟukkuṭutta nilamāvatu kaṭippuṟattu kiḻakkaṭaiya
+<lb n="5"/>Iruvaravai kālc ce<supplied reason="omitted">y</supplied>kku Ellai kiḻpāṟkkuellai tiṭalukku me<supplied reason="omitted">ṟ</supplied>kkum tenpāṟkku Ellai paḷḷattil Aṟumāvukku vaṭakkum 
+<lb n="6"/>meṟpāṟkkuellai kāṟcce<supplied reason="omitted">y</supplied>kku kiḻakkum vaṭapāṟkkuellai nallimaṅkalattu toṭṭattukku teṟkkum Ivvicainta peru<supplied reason="omitted">nā</supplied>
+<lb n="7" break="no"/>ṉkuellaiyil Akappaṭṭa nilam Uṇṇilam Oḻiviṉṟi kālcceyyile Iṟaiili viṟṟu vilai yāvaṇam ce<supplied reason="omitted">y</supplied>tu Innilattil vanta Iṟaiyum Ecco
+<lb n="8" break="no"/>ṟum veṭṭi vetiṉaiyum cennir <unclear>veṭṭi</unclear> Uḷppaṭṭatu Epperppaṭṭatum ceyyātitāka Iṟai Ili viṟṟu vilaiyāvaṇam ce<supplied reason="omitted">y</supplied>tu kuṭutten Innilat
+<lb n="9" break="no"/>ttuk <gap reason="lost" quantity="5" unit="character"/> mā<hi rend="grantha">heśvara <gap reason="lost" quantity="4" unit="character"/> </hi>kaḷum <gap reason="lost" quantity="9" unit="character"/> Uḷḷiṭṭu tān veṇṭu koviṉukkup patiṉaiṅkaḻañcu <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="10"/>vāṇai <unclear>maṟu</unclear>tta Oṭampaṭṭu pinnaiyum Iñilam kāttuṭuvennāne<supplied reason="omitted">n</supplied> perumānaṭika(ḷ) ḷukku putukkuṭān<unclear>t</unclear>āṇan Ātitta piṭārane<supplied reason="omitted">n</supplied> pa<hi rend="grantha">nmāheśvararakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.290 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">143-144</citedRange>
+			<citedRange unit="item">290</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

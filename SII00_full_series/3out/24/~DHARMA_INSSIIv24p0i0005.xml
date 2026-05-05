@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 24.5: original edition by H. K. Narasimhaswamy</title>
+				<title type="alt">No. 5. (A.R. No. 345 of 1918.) STONE BUILT INTO THE FLOOR NEAR THE OTTAIKKĀL-MAṆḌAPAM ATTACHED TO THE ŪÑJAL-MAṆḌAPAM.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv24p0i0005</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Damaged and worn out. Refers to the platform (<hi rend="italic">tiṇṇai</hi>) raised for the flag (<hi rend="italic">tirukkoḍi</hi>) by Nārāyaṇaṉ ••• ••• •••• <hi rend="italic">alias</hi> Teṉṉavaṉ-Brahmādhirāyaṉ, the <hi rend="italic">Śrīkāryam</hi> of the temple. The record is dated in the [30]th year (936-37 A.D.) of the king.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha"><unclear>svasti</unclear>śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> matiraiyu miḻamum koṇṭa kopparake<hi rend="grantha">sa</hi>rivarmaṟku yāṇṭu
+<lb n="2"/><hi rend="grantha"><unclear>3</unclear>0</hi>— Āvatu <hi rend="grantha">śrī</hi> parake<hi rend="grantha">sa</hi>ri <gap reason="lost" quantity="2" unit="character"/> māruḷum <gap reason="lost" quantity="2" unit="character"/> ṭṭa <unclear>Olai</unclear> <hi rend="grantha">śrī kāryya</hi>
+<lb n="3" break="no"/> <gap reason="lost" quantity="1" unit="character"/> <unclear>ku</unclear>lattut teṉṉavaṉ <hi rend="grantha">brahmādhirāja-</hi> <unclear>ṉā</unclear>ṉa nārāyaṇaṉi <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="4"/>�ḻappa <gap reason="lost" quantity="2" unit="character"/> <unclear>tti</unclear> <gap reason="lost" quantity="1" unit="character"/> yilatta <gap reason="lost" quantity="7" unit="character"/> Eṭuppitta tirukkoṭit
+<lb n="5" break="no"/><unclear>ti</unclear>ṇṇai [<g type="ddanda">.</g>]—
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 24.5 by <bibl><ptr target="bib:Narasimhaswamy1982_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Narasimhaswamy1982_01"/>
+			<citedRange unit="page">4</citedRange>
+			<citedRange unit="item">5</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

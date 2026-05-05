@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 20.197: original edition by G. S. Gai</title>
+				<title type="alt">No. 197. (B.K. No. 20 of 1937-38.) CHAḌCHAṆ, INDI TALUK, BIJAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv20p0i0197</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Fragment built into the village-gate.</hi></p>						
+
+						<p>Siṅghaṇa—A.D. 1226-27.</p>						
+
+						<p>This fragmentary record is dated in <hi rend="bold">Śaka 1148, [Vyaya], ba. Amāvāsyā, Monday, Saṁkramaṇa.</hi> The names of the month and the saṁkramaṇa are lost. The year given corresponds to <hi rend="bold">A.D. 1226-27.</hi></p>						
+
+						<p>Only a part of the <hi rend="italic">praśasti</hi> of a subordinate (name lost) of the king is preserved in this inscription. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="5" unit="character"/> hoyiśaṇa ballāḷa <gap reason="lost" quantity="1" unit="character"/> <note n="245-1">Few lines in</note>
+<lb n="2"/> <gap reason="lost" quantity="5" unit="character"/> na gaṁdhavāraṇa ka(ṁ)rnnāṭaka
+<lb n="3"/> <gap reason="lost" quantity="5" unit="character"/> rirāya hritsella koṁ
+<lb n="4" break="no"/> <gap reason="lost" quantity="5" unit="character"/> rāya vi<unclear>bhā</unclear>ḍa rāyanārāyaṇa
+<lb n="5"/> <gap reason="lost" quantity="5" unit="character"/> śrī siṁghaṇadēvavijayarā
+<lb n="6" break="no"/> <gap reason="lost" quantity="5" unit="character"/> caṁdrārkkatāraṁbaraṁ salu
+<lb n="7" break="no"/> <gap reason="lost" quantity="5" unit="character"/> matu sakavarṣa 1148 neya bya
+<lb n="8" break="no"/> <gap reason="lost" quantity="5" unit="character"/> bahuḷa Amāvāśe sōma
+<lb n="9" break="no"/> <gap reason="lost" quantity="5" unit="character"/> śaṁkramaṇadaṁdu svasti sama<note n="245-1">Few</note>
+<lb n="10" break="no"/> <gap reason="lost" quantity="5" unit="character"/> śrīmatu sakalalakṣmīpa
+<lb n="11" break="no"/> <gap reason="lost" quantity="5" unit="character"/> bāhattaraniyōgādhipa
+<lb n="12" break="no"/> <gap reason="lost" quantity="5" unit="character"/> patikāryyadhuraṁdhara ma
+<lb n="13" break="no"/> <gap reason="lost" quantity="5" unit="character"/> yativiṣamahayārū
+<lb n="14" break="no"/> <gap reason="lost" quantity="5" unit="character"/> parabaḷakrikāṁta yaritura
+<lb n="15" break="no"/> <gap reason="lost" quantity="5" unit="character"/> gaṇikājanamanassarō<note n="245-2">The stone</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 20.197 by <bibl><ptr target="bib:Gai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Gai1964_01"/>
+			<citedRange unit="page">244-245</citedRange>
+			<citedRange unit="item">197</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

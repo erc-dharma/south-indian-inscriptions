@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.312: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 312. (A.R. No. 112 of 1926.) TIRUVIḶAKKUḌI, MAYURAM TALUK, TANJAVUR DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE, MAṆAVĀḶĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0312</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The details of date correspond to A.D. 980, February 16, Monday in the reign of <hi rend="bold">Uttama-Chōḷa.</hi> This records an endowment of two plots of land after purchase, one for maintaining a perpetual lamp, and the other for the daily supply of 15 pots of water from the river Kāvēri for the sacred bath of the god in the temple of Tiruvēḻvikkuḍi-Mahādēva, by <hi rend="bold">Ayyaṉ Māraśīṅgaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Vīraśēkhara-Mūvēndavēḷāṉ of Guṇamalappāḍi</hi> in Nallāṟṟūr-nāḍu, who got the lands exempt from taxes by payment of a lump sum to the <hi rend="italic">Perunguṟi-perumakkaḷ</hi> (assembly) of <hi rend="bold">Viḍēlviḍugudēvachaturvēdimaṅgalam</hi> in Kuṟukkai-nāḍu.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">—<g type="ddanda">.</g> svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopparakecari<hi rend="grantha">panma</hi><supplied reason="omitted">ṟ</supplied>kku yāṇṭu <num value="12"><g type="numeral">10</g> 2</num><g type="dash"/>Āvatu vaṭakarai
+<lb n="2"/>kuṟukkaiṉāṭṭu <hi rend="grantha">brahmade</hi>yam viṭelviṭuku<hi rend="grantha">de</hi>va<hi rend="grantha">ca</hi>tu<hi rend="grantha">rvedi</hi>maṅkala
+<lb n="3" break="no"/>ttup peruṅkuṟipperumakkaḷom Ivvāṇṭu kum<hi rend="grantha">bha</hi>nāyiṟṟut
+<lb n="4"/>tiṅkaṭkiḻamai peṟṟa tiruvoṇattu nāṉṟu I
+<lb n="5" break="no"/>vūr maṇṭapattey peruṅkuṟi Iruṉtu nallāṟṟu
+<lb n="6" break="no"/>rnāṭṭu kuṇamalappāṭik kuṇamalappāṭiyuṭaiyā
+<lb n="7" break="no"/>ṉ Ayyaṉ māraciṅkaṉāṉa viracekara muve
+<lb n="8" break="no"/>ntaveḷāṉ t<unclear>ā</unclear>ṉ poṉ kuṭuttu vilaikoṇṭuṭaiya nilam Iv
+<lb n="9" break="no"/>vūr mi <gap reason="lost" quantity="2" unit="character"/> melaip paruttivāykkāliṉ miyciṟakil Ivaṉ kuvaṇṭur
+<lb n="10"/><hi rend="grantha">go</hi><unclear>tama</unclear>ccat<hi rend="grantha">urvedi</hi>pakkal vilaikoṇṭu<supplied reason="omitted">ṭ</supplied>aiya ṉilam Iraṇṭumā tiruve
+<lb n="11" break="no"/>ḻvikkuṭi <hi rend="grantha">mahāde</hi>varkku <hi rend="grantha">candrādi</hi>tavat ti<unclear>runon</unclear>tāviḷakku Oṉṟum Ivaṉe <hi rend="grantha">parameśva</hi>
+<lb n="12" break="no"/><hi rend="grantha">ra</hi>vāykkāliṉ miyciṟakiṟ pākaḷūr tiruvaraṅka<hi rend="grantha">krama</hi>vittaṉ<unclear>pakkal</unclear> vilaikoṇṭuṭaiya ṉilam mākāṇiyum I
+<lb n="13" break="no"/><hi rend="grantha">de</hi>varkkut tirumañcuṇamaḷikkum patiṉaiñkalam kāveriyiṉiṉṟu koṭuvantaṭṭakkaṭavatāka kuṭutta ṉila
+<lb n="14" break="no"/>mmāka ṉilam muṉṟu mākkāṇiyālum vanta Iṟaikku meppeṟpaṭṭataṟkum <hi rend="grantha">candrādi</hi>ttava<hi rend="grantha">t</hi> Iṟaiyiliyā
+<lb n="15" break="no"/>ka Ivaṉpakkal <hi rend="grantha">dravya</hi>ṅ koṇṭu Iṟaiyiḻicci Iṟaiyili ceytukuṭuttom <hi rend="grantha">sabh</hi>aiyom Itu paṉ
+<lb n="16" break="no"/><hi rend="grantha">māheśvararakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.312 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">156</citedRange>
+			<citedRange unit="item">312</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 36.218: original edition by P Shanmugam</title>
+				<title type="alt">No. 218. (A.R. No. 218 of 1910.) PĀḌI (Tiruvalidāyam), SAIDAPET TALUK, CHINGLEPUT DISTRICT. On the south wall of the maṇḍapa in front of the central shrine in the Tiruvallīśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv36p0i0218</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Rājarāja III. Year 9: A.D. 1225.</hi></p>						
+
+						<p>Built in at the beginning. Seems to refer an old grant of 1200 <hi rend="italic">kuḻis</hi> of land as <hi rend="italic">dēvadāṉa</hi> in Chintāmaṇipuram to the temple of Tiruvallidāyamuḍaiya Nāyaṉār by Nāḍāḻvāṉ of Chūriyaṉ Paiyyūr. These lands were now regranted by Saḷukki Nārāṇan Yādavarāyan.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="5" unit="character"/> vanac cakkaravattikaḷ <hi rend="grantha">śrī</hi> Irācarācatevaṟku yāṇṭu 9 vatu ceyaṅkoṇṭacoḻa maṇ
+<lb n="2" break="no"/> <gap reason="lost" quantity="3" unit="character"/> ppuḻaṟ koṭṭamāṉa vikkiracoḻa vaḷanāṭṭu Ampattūr nāṭṭu tiruvallitāyattil piṟi
+<lb n="3" break="no"/> <gap reason="lost" quantity="2" unit="character"/> natil cintāmaṇipuram tiruvallitāyamuṭaiya nāyaṉāṟku cūriyaṉpaiyūr nāṭāḻvāṉ Acaṅkā
+<lb n="4"/> <gap reason="lost" quantity="3" unit="character"/> ṉ Ivvūril meviya pūntoṭṭam Iraṇṭum maṉai Iraṇṭum Uṭpaṭṭa kuḻi Āyirattirunūṟu 
+<lb n="5"/> <gap reason="lost" quantity="3" unit="character"/> ttevaṟkut tevatāṉamāka Oṉpatāvatu mutal cantirātittavarai cellakkaṭavatāka vi
+<lb n="6" break="no"/> <gap reason="lost" quantity="5" unit="character"/> vaṉ viṭṭapaṭiye Innāyanāṟku cāḷukki nāraṇan yātavarāyaneṉ viṭṭeṉ
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 36.218 by <bibl><ptr target="bib:Shanmugam2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shanmugam2018_01"/>
+			<citedRange unit="page">179-180</citedRange>
+			<citedRange unit="item">218</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

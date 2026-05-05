@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 11.195: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 195. (B.K. No. 42 of 1929-30.) LŌṬGĒRI, MUDDEBIHĀḶ TALUK, BIJAPUR DISTRICT. ON A MUTILATED STONE STANDING IN A FIELD NEAR THE VILLAGE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv11p0i0195</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This mutilated inscription is dated <hi rend="bold">Chāḷukya-Vikrama year 45, Śārvarī, Mārgaśira, śu. 5 • • • • •</hi> Śārvari corresponds to <hi rend="bold">A.D. 1120-21.</hi> The record registers a gift of land made by the <hi rend="italic">Heggaḍe</hi> <hi rend="bold">Māchaṇa</hi> to a temple (name lost) constructed by <hi rend="bold">Bammaṇa.</hi> </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti śrīmatu cāḷikyavikra
+<lb n="2" break="no"/>mava<unclear>ri</unclear>ṣada 45neya sārvvarisa
+<lb n="3" break="no"/><unclear>ṁ</unclear>vatsarada mārggasira suddha 5 <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="4"/>ra daṁdu <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="5"/>rājyaprava<unclear>rddha</unclear>māna mācaṁdra tārā
+<lb n="6" break="no"/>rkkaṁbaraṁ saluttami<unclear>rddu</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="7"/>lu <gap reason="lost" quantity="5" unit="character"/> yarasa <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="8"/>rājyābhivriddhi <gap reason="lost" quantity="5" unit="character"/> haḷḷiya
+<lb n="9"/> <gap reason="lost" quantity="8" unit="character"/> 
+<lb n="10"/> <gap reason="lost" quantity="1" unit="character"/> na bammaṇa maḍisida <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="11"/>svaradēvargge heggaḍe mācaṇa mukhya <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="12"/>Ūriṁ teṁka korakuṟuvada baṭṭeyiṁ paḍu <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="13"/>lu Eraḍu keṟeyiṁ baḍaga sarvvabādha <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="14"/>rihara <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="15"/> <gap reason="lost" quantity="2" unit="character"/> <unclear>rmmaṁ</unclear> pratipāḷisidevara
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 11.195 by <bibl><ptr target="bib:LakshminarayaRao1952_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayaRao1952_01"/>
+			<citedRange unit="page">250-251</citedRange>
+			<citedRange unit="item">195</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

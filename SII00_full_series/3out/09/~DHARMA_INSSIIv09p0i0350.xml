@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.350: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 350. (A.R. No. 209 of 1918.) ON THE SAME PILLAR. This inscription is written in continuation of No.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0350</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is dated <hi rend="bold">Chitrabhānu, Bhādrapada, amāvāse, Sōmavāra</hi> in the reign of the Hoysaḷa king <hi rend="bold">Vīra-Narasiṁha (III).</hi> The date is irregular. In Chitrabhānu = A.D. 1282, Bhādrapada amāvāsyā fell on Thursday, 6th September. A number of persons (named), along with <hi rend="bold">Masaṇeya-Sāvanta,</hi> are said to have made a gift for the service of the same god as the one mentioned in No. 349 above and for feeding 12 Brāhmans. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīmatu yādavanārāyaṇa pra
+<lb n="2" break="no"/>tāpacakravarti hoysaṇavīranārasiṁgadēvara varṣada citra
+<lb n="3" break="no"/>bhānusaṁvatsarada bhādrapada Amāvāse sōmavāradaṁdu
+<lb n="4"/>Arasumaneyalli sūrabōvana maga mayadabōva saudarebīrabōva he
+<lb n="5" break="no"/>ggaḍemaneya naṁnabōvana maga Ayabōva cigaṭēṟa caṁdabōva kuttaṁ
+<lb n="6" break="no"/>giya saṁgabōvana rāmabōva hoḷaguṁdeya guṁḍabōva kō
+<lb n="7" break="no"/>gaḷiya naṁdibōva sūriyasōmeyasāvantana maga mārayasā
+<lb n="8" break="no"/>vaṁtana ta(ṁ)mma masaṇeyasāvaṁtanuṁ Iṁtinibaruṁ mukhya
+<lb n="9" break="no"/>vāgi śrīmatu beṁṇevūrastaḷadalu mahānāḍāgi neredu Ā vūra
+<lb n="10"/>śrīsvayaṁbhuvirū<supplied reason="omitted">pā</supplied>kṣadēvarigaṁ haṁnirbbaru mahājanaṁgaḷigaṁ ta
+<lb n="11" break="no"/>mma biluvaḍike mukhyavāgi kabbilavaḍike Āvudu baṁdaḍaṁ sarvvanama
+<lb n="12" break="no"/>syavāgi dhārāpūrvvakaṁ māḍikoṭṭu biṭṭa dharmma <g type="ddanda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.350 by <bibl><ptr target="bib:Shama+Rao1939_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shama+Rao1939_01"/>
+			<citedRange unit="page">371-372</citedRange>
+			<citedRange unit="item">350</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

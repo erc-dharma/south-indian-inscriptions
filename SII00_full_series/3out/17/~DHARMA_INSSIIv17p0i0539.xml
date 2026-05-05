@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.539: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 539. (A.R. No. 497 of 1904). VĒDĀRAṆYAM, TIRUTTURAIPPUNDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0539</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north wall of the first <hi rend="italic">prākāra</hi> in the Vēdāraṇyēśvara temple.</p>						
+
+						<p>Rājēndrachōḷa III. Year 2[6]: 1272 A.D.</p>						
+
+						<p>The details of date <hi rend="italic">viz.</hi>, Makara ba. 6, Friday, Chittirai corresponds to 1272 A.D. January 22, Friday, f.d.t., ·18: ·90.</p>						
+
+						<p>This records the gift of 3/4 <hi rend="italic">vēli</hi> of land made tax-free by the <hi rend="italic">ūravar</hi> of Śiṟumuttarai and Pāṟpunaṅkiḻaiyāṉ Karikālaśōḻa-ppallavaraiyaṉ, for food offerings to the deities Āḷuḍaiyār and Nāyakar and their Nāchchiyārs, whose images were set up by Āṇḍanāyakaṉ <hi rend="italic">alias</hi> Piramīśvaramuḍaiyār, the headman of Karaikkaḍaippu Eḻumūr in the western division of Umbaḷa-nāḍu in the temple of Iḷamaṟaikkāḍuḍaiya Nāyaṉār. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> tribhu</hi>va<unclear>ṉaccakkaravatti</unclear>kaḷ <hi rend="grantha">śrī</hi> rā<hi rend="grantha">jendra</hi><unclear>c</unclear>oḻateva<unclear>ṟ</unclear>ku yā<unclear>ṇ</unclear>ṭu <hi rend="grantha">[<num value="26">2 <g type="numeral">10</g> 6</num>]</hi> va<unclear>tu</unclear> makaranā<unclear>yaṟṟu</unclear> Aparapa<hi rend="grantha">kṣa</hi>ttu <hi rend="grantha">ṣaṣṭi</hi>yum veḷḷikkiḻamai<unclear>yu</unclear>m <unclear>cittir</unclear>aiyu<unclear>mā</unclear>ṉa nāḷ rā[<hi rend="grantha">ja</hi>*]rā[<hi rend="grantha">ja</hi>*]ppāṇṭi nāṭṭu ma<unclear>tu</unclear>r<unclear>otaiya</unclear> va<unclear>ḷa</unclear><unclear>nāṭṭu</unclear> <gap reason="lost" quantity="5" unit="character"/> ṟṟūr nāṭṭu <unclear>pā</unclear>ṟpuṉaṅ kiḻaiyān Araiyaṉ <gap reason="lost" quantity="4" unit="character"/> ṉmu <gap reason="lost" quantity="4" unit="character"/> yaṉāṉa karikālacoḻa<unclear>ppa</unclear>llava<unclear>rai</unclear>yaṉum Ivva <gap reason="lost" quantity="7" unit="character"/> vāḻnāṭṭu ciṟumu<unclear>t</unclear>
+<lb n="2" break="no"/>tarai Ūravarum Iṟaiili <hi rend="grantha">pra</hi>māṇa Icaivu tiṭṭu Iv<unclear>vū</unclear>ril Uṭaiyār I<unclear>ḷa</unclear>maṟaikkāṭuṭaiya nāya(nāya)ṉār koyil Āticaṇṭe<hi rend="grantha">śva</hi>ratevarkaṉmi koyil kaṇakkaṉukku Innāṭṭu melai vakai<unclear>yi</unclear>l karaikkaṭaippu Eḻumur kiḻavaṉ Āṇṭanāyaka<unclear>ṉāna</unclear> pi<hi rend="grantha">ra</hi>mi<hi rend="grantha">śva</hi>ramuṭaiyār Ikkoyilil Eḻuntaruḷuvitta Āḷuṭaiyā<unclear>rkkum</unclear> nācciyārkkum nāya
+<lb n="3" break="no"/>karkkum nācciyārkkum Amutupaṭi<unclear>kku Eṅ</unclear>kaḷ Ūril <unclear>Iṟai</unclear> Iṟukka nāṅkaḷ Iṟaiyili ceytu kuṭu<unclear>tta</unclear> ma<unclear>ṟai</unclear>ññāṉavāyil cūṟimu <gap reason="lost" quantity="1" unit="character"/> ḻai nilattukku kiḻpāṟkellai kiḻpāḻi nāṭṭu veḷār ka<unclear>ḷa</unclear>r nilattukku meṟkkum te<unclear>ṉ</unclear>pāṟkellai Iṉnāyaṉār Ūrkki<supplied reason="omitted">ḻ</supplied> Iṟaiyili nilattukku vaṭakkum melpāṟ<unclear>kellai</unclear> <gap reason="lost" quantity="2" unit="character"/> pirāmaṉ vāykkālukku kiḻa
+<lb n="4" break="no"/><unclear>kku</unclear> vaṭapāṟkellai Erikku teṟkum <unclear>naṭu</unclear>vuṭpaṭṭa <unclear>kuḻi</unclear><num value="1000"><g type="numeral">1000</g></num>- ṉāl nilam ṟā Innilam Araiyum Iṅku viṭṭu <unclear>va</unclear>ṭakku Eriyil nirtti<unclear>ṭal c</unclear>eyta nilattukku ki<supplied reason="omitted">ḻ</supplied>pāṟkellai kulot tuṅkaco<supplied reason="omitted">ḻa</supplied> Umpaḷa<unclear>n</unclear>āṭṭukkoṉ payirceykiṟa <unclear>ni</unclear>lattukku teṟkum Āka Icainta Innāṉkellaikku naṭuvupaṭṭa nilam ku <num value="100"><g type="numeral">100</g></num>- ṉāl nilam va <unclear>Innilam kālum</unclear> Āka nilamḷu Innila
+<lb n="5" break="no"/>mu<unclear>kk</unclear>ālu<unclear>m</unclear> Inn<unclear>ā</unclear>ḷ mutal cantirātittava<unclear>raiyum</unclear> Iṟaiyiliyāka Aṉu<unclear>pa</unclear>vi<supplied reason="omitted">kka</supplied>vum Iṉnilattukku Ūrile Eṟṟi Iṟukka kaṭavomākavum Ip<unclear>paṭi</unclear> cammatittu Iṟaiyili <hi rend="grantha">pra</hi>māṇa <unclear>Icai</unclear>vu tiṭṭu kuṭuttom Uṭaiyār Iḷamaṟaikkāṭṭuṭaiyā<unclear>r</unclear> koyil tevar kanmi koyil kaṇakkaṉukku(ṉukku) <supplied reason="omitted">pāṟ</supplied>puṉaṅki<supplied reason="omitted">ḻ</supplied>aiyā<supplied reason="omitted">ṉ</supplied> karikālacoḻa<unclear>p pallavaraiya ṉum</unclear> Āḻkarai Ūravarum Ivva
+<lb n="6" break="no"/><unclear>ṉai</unclear>vom Ippaṭikku Ivai pāṟpuṉaṅkiḻ<unclear>āṉ</unclear> Arumoḻiteva<unclear>ṉ</unclear> karikālaco<supplied reason="omitted">ḻa</supplied> palla varaiyaṉ E<unclear>ḻuttu Ippaṭi</unclear>kku Ivai kulottuṅ<unclear>kacoḻa Umpa</unclear>ḷanāṭṭukko<unclear>n</unclear> Eḻuttu Ip<unclear>paṭi</unclear>kku Ivai <unclear>paraṉ</unclear>paḷḷi Uṭaiyān tamiḻa<unclear>ta</unclear>raiyaṉ Eḻu<unclear>ttu</unclear> Ippaṭikku Ivai ciṟu vāymukamuṭaiyāṉ caññai<supplied reason="omitted">yāṉa</supplied>maikku kiḻ<unclear>mu</unclear>ḻaiyilāṉ rācarāca caruppe<unclear>ti</unclear>maṅkalattu niṉṟaiyil ciraṅkapaṭṭan Eḻu<supplied reason="omitted">ttu</supplied>
+<lb n="7" break="no"/>ippaṭikku Ivai I<supplied reason="omitted">v</supplied>vūrk kaṇakku tūṇūruṭaiyān nār<choice><sic>a</sic><corr>ā</corr></choice>yaṇa tevaṉ Eḻuttu Ippaṭi Aṟiven kuṉṟūr nāṭṭu <unclear>ka</unclear>ṇakku kuṉ<unclear>ṟū</unclear>ruṭaiyāṉ Eḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.539 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">221-222</citedRange>
+			<citedRange unit="item">539</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

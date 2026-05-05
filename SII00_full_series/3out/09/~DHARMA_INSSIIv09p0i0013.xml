@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.13: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 13. (A.R. No. 296 of 1905.) ON A SLAB SET UP IN A FIELD WEST OF THE VILLAGE, BASINIKONDA, MADANAPALLE TALUK, SAME DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0013</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is damaged and not dated. It refers itself to the reign of the <hi rend="bold">Vaidumba-Mahārāja Gaṇḍatriṇētra.</hi> It records the death of Maruvaka, sūramā®paḻi-Rakkasa Manujaradēva, son of <hi rend="bold">Bālūchchoraṇi</hi> who was ruling over <hi rend="bold">Sūramāṟaveḷi,</hi> in the attack made by <hi rend="bold">Bāṇarasa</hi> and others on the <hi rend="bold">Sōremaḍi</hi> fort against <hi rend="bold">Noḻambi, Daḍiga, Rāchamalla</hi> and <hi rend="bold">Maydāḍi.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svastyanēkasamarasaṁghaṭṭaṇōpalabbhajayalakṣmīsamāliṁgita
+<lb n="2" break="no"/>vakṣasta<unclear>la</unclear>gaṇḍatriṇētra śrīvaiyduṁbamahārājar prithivīrājyaṁ
+<lb n="3" break="no"/>geye bālūccoraṇi sūramāṟaveḷi Āḷe Avara maga maṟuvaka
+<lb n="4" break="no"/>sūramā®paḷirakkasa manujarādēva cakrāṅkitasāhasa trisaratadavaḷi 
+<lb n="5" break="no"/>ya mārajaruṁ bāṇarasaru mahārājaru sōremaḍi kōṭeyiḍe noḻaṁbi
+<lb n="6"/>daḍiga rācamalla maydāḍi guṇḍige <gap reason="lost" quantity="2" unit="character"/> vāgi barubaḷisi biḻdaḍe
+<lb n="7"/>poṟagōṭeyiṭṭaḻivalli palarā payaṇada maṟu<supplied reason="omitted">va</supplied>kasūramā
+<lb n="8" break="no"/>®paḍirakasa manujarādēvaniṟidu biḻda <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.13 by <bibl><ptr target="bib:Shama+Rao1939_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shama+Rao1939_01"/>
+			<citedRange unit="page">5-6</citedRange>
+			<citedRange unit="item">13</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

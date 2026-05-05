@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.193: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 193. (A.R. No. B 353 of 1939-40.) Conjeevaram, Conjeevaram Taluk, Chingleput District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0193</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab set up on the roadside near the Taluk office.</p>						
+
+						<p>This is dated cyclic year <hi rend="bold"><hi rend="italic">Prajōtpatti, Kārttīka ba. 1.</hi></hi></p>						
+
+						<p>It records an endowment made for the worship of a deity installed in a Jaṅgamma <hi rend="italic">maṭha</hi> by one Pavāḍada Chikka Vāmppayya and also states that the gift was given to Guṉdi Yellappa. In late characters.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>Ā <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="2"/>pāpāna<supplied reason="omitted">pōvu</supplied>vāru 
+<lb n="3"/>vāraṇāsi <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="6"/>prajōtpatti 
+<lb n="7" break="no"/>nāma saṁvvatsa 
+<lb n="8" break="no"/>ra kā¨rttika ba 1 
+<lb n="9"/>lu <supplied reason="undefined"><g type="ddanda">.</g></supplied> pavāḍada ci 
+<lb n="10" break="no"/>kka vāṁppayya 
+<lb n="11"/>maṭhaṁ guṁḍḍi 
+<lb n="12"/>yallappaku Ayya 
+<lb n="13" break="no"/>ru maṭhaṁ yiccinā 
+<lb n="14" break="no"/>ru guruliṁgga jaṁ 
+<lb n="15" break="no"/>ggama pātha tī¨rdhapra 
+<lb n="16" break="no"/>sādaṁ nityaśāvaku 
+<lb n="17" break="no"/>ḍainayallappa Āma 
+<lb n="18" break="no"/>ṭhāna yēmi dharmaṁ cē 
+<lb n="19" break="no"/>stunārō Ādharmaṁ 
+<lb n="20"/>yallappadi yī ma 
+<lb n="21" break="no"/>ṭhaṁ ya <gap reason="lost" quantity="2" unit="character"/> dhi <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="22"/> <gap reason="lost" quantity="2" unit="character"/> vāṁḍla <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="23"/> <gap reason="lost" quantity="5" unit="character"/> yī dharmaṁ ye 
+<lb n="24" break="no"/>vaḍu <gap reason="lost" quantity="1" unit="character"/> śi <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="25"/>nāḍāvā <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="26"/> <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.193 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">155-156</citedRange>
+			<citedRange unit="item">193</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

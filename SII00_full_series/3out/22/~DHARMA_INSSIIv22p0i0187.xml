@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.187: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 187. (A.R. No. 187 of 1906) SOUTH ARCOT DISTRICT, TIRUKKŌYILŪR TALUK, GRĀMAM. ŚIVALŌKANĀTHA TEMPLE—ON THE SAME WALL. PARĀNTAKA I—31st YEAR (A.D. 937-38).</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0187</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is an incomplete inscription recording a gift of utensils required in connection with the worship in the temple of Śrī-Āṟṟuttaḷi-Perumāṉaḍigaḷ probably by some army men of prince Rājāditya.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> matiraikoṇ
+<lb n="2" break="no"/>ṭa kopparakecaripaṉma
+<lb n="3" break="no"/>ṟku yāṇṭu <num value="31">3 <g type="numeral">10</g> 1</num>- Ā
+<lb n="4" break="no"/>vatu <hi rend="grantha">śrī</hi> Āṟṟuttaḷi <hi rend="grantha">śrī</hi>
+<lb n="5" break="no"/><hi rend="grantha">mūlastā</hi>ṉattup pe<unclear>ru</unclear>
+<lb n="6" break="no"/>māṉa<unclear>ṭi</unclear>kaḷukku piḷḷai
+<lb n="7" break="no"/>yār <hi rend="grantha">rājā</hi>titta<hi rend="grantha">de</hi>var <unclear>paṭai</unclear>
+<lb n="8"/> <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="9"/>tu ceyta Iṭṭa cempiṉā
+<lb n="10" break="no"/>l taḷikai 1 niṟai <num value="122"><g type="numeral">100</g> 2 <g type="numeral">10</g> 2</num>- m
+<lb n="11"/>ve<unclear>ṇ</unclear>kalattiṉāl taḷikai
+<lb n="12"/>1 niṟai <num value="120"><g type="numeral">100</g> 2 <g type="numeral">10</g></num> Ivaiccukku
+<lb n="13"/>Amutu ceyya <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="14"/>vaiykkum cempiṉāl
+<lb n="15"/>A<supplied reason="omitted">ṭ</supplied>ṭa maṇikkāl <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.187 by <bibl><ptr target="bib:SrinivasaRao1983_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1983_01"/>
+			<citedRange unit="page">151</citedRange>
+			<citedRange unit="item">187</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

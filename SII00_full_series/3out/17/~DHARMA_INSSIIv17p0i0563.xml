@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.563: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 563. (A.R. No. 520 of 1904.) TIRUNELLIKKĀVAL, MANNARGUDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0563</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north base of the central shrine in the Āmalakēśvara temple.</p>						
+
+						<p>Rājarāja III. Year 21: 1236-37 A.D.</p>						
+
+						<p>On palaeographical considerations this inscription can be assigned to Rājarāja III.</p>						
+
+						<p>It records a grant of land, made tax-free by the <hi rend="italic">sthānattār</hi> of the temple for burning a lamp at the <hi rend="italic">Kulachchiṟai maTha</hi><note n="237-1">The <hi rend="italic">maTha</hi> and the <hi rend="italic">guhai</hi> had been evidently named after the Pāṇḍya minister Kulachchiṟai. and the saint TiruñAṉasambandhar, both of whom lived in about the 7th century A.D.</note>situated in the <hi rend="italic">tirumaḍaiviḷAgam</hi> to the north of the temple of Tirunellikkā-uḍaiyār. It mentions <hi rend="italic">TiruñAṉasambandan guhai</hi>,<note n="237-1">The <hi rend="italic">maTha</hi> and the <hi rend="italic">guhai</hi> had been evidently named after the Pāṇḍya minister Kulachchiṟai. and the saint TiruñAṉasambandhar, both of whom lived in about the 7th century A.D.</note>which was probably a monastery (See No. 564 below).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tiripuvaṉacakkaravattikaḷ <hi rend="grantha">śrī</hi>rā<hi rend="grantha">ja</hi>rā[<hi rend="grantha">ja</hi>*]tevaṟku yāṇṭu <num value="21">2 <g type="numeral">10</g> 1</num> vatu Uṭaiyār tiru nellikkā Uṭaiyār koyil vaṭaciṟakiṟ tirumaṭaiviḷākattu kiḻ<unclear>talai</unclear>yi<unclear>l</unclear> kūttāṭu(m) māṇṭār Irukkiṟa kulacciṟai maṭam tiripuvanaviricirattu
+<lb n="2"/>1 can=ti viḷakku tarmamāka veṇum me<supplied reason="omitted">ṉ</supplied>ṟu Ū<supplied reason="omitted">r</supplied>potuvāna nilat<unclear>tu</unclear> Iṭṭa <gap reason="lost" quantity="7" unit="character"/> rāna tiripu<supplied reason="omitted">va</supplied>navirapu<unclear>ra</unclear>ttu <gap reason="lost" quantity="3" unit="character"/> nātan
+<lb n="3"/>vatikku kiḻakku Uṭaiyār <hi rend="grantha">śrī</hi>kayilā<unclear>ca</unclear>muṭaiyār tirumaṭaiviḷākattu tiruñ<unclear>ā</unclear>nacampantan <unclear>kukai</unclear> kku talai<unclear>m</unclear>māṟu viṭ<unclear>ṭa nilattu</unclear>kku kiḻa 
+<lb n="4" break="no"/>kkaṭaiy<unclear>ā</unclear>y ni<unclear>ṅka</unclear> viṭṭu nāyanā<unclear>r</unclear> Iṟai<supplied reason="omitted">yi</supplied>liyāka Anupavittu varukiṟa viḷākamum kuḻi <num value="25">2 <g type="numeral">10</g> 5</num> Ivi<unclear>ḷāka</unclear>nilam kuḻi Irupa<supplied reason="omitted">t</supplied>tañcum <unclear>Iṟaiyi</unclear>liyāka
+<lb n="5"/>kaikkoṇṭu māye<hi rend="grantha">śva</hi>ra<unclear>pitiṭ</unclear>ṭaiyāka viṭṭa Innāya<unclear>nār tiru</unclear>maṭaiviḷākattum <gap reason="lost" quantity="6" unit="character"/> muṉaikke kiḻakku ti <gap reason="lost" quantity="4" unit="character"/> lāna kol nūṟukolum Itan Uṭkol Ā <gap reason="lost" quantity="2" unit="character"/> <unclear>kka</unclear>lum Āka <gap reason="lost" quantity="5" unit="character"/> yka viṭṭa kula<unclear>c</unclear>ciṟai maṭa <gap reason="lost" quantity="3" unit="character"/> <hi rend="grantha">[<num value="25">2 <g type="numeral">10</g> 5</num>]</hi>ikkuḻi Iru pa<supplied reason="omitted">t</supplied>tañcum <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="6"/>pitiṭṭaiyāka cantirātittavaraiyum Iṟaiyiliyāka kuṭuttom Ikkoyil <unclear>tāna</unclear>ttārom <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.563 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">237-238</citedRange>
+			<citedRange unit="item">563</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 23.289: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 289. (A.R. No. 289 of 1907.) Tiruviḍaimarudūr, Kumbhakonam Taluk, Tanjavur District Mahāliṅgasvāmi temple—in the same place Kulōttuṅga-Chōḷa III: year 28: 1205-06 A.D.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv23p0i0289</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The inscription is dated on the 114th day of the year quoted. Portions of the record are lost. It registers the order of the king granting ten <hi rend="italic">vēli</hi> of tax-free land as <hi rend="italic">archanā-bhōga</hi>, to meet the expenses of worship and offerings to Āḷuḍaiya-Piḷḷaiyār consecrated in the temple by Vāṇādhirājaṉ (mentioned in No. 288 above) and of the festival in the month of Vaigāśi. Of these 10 <hi rend="italic">vēli</hi> four are stated to have been situated in Kulōttuṅgaśōḻaṉ-Pūṇḍi <hi rend="italic">alias</hi> Vikramaśōḻaṉ-Śūralūr in Tiruvaḻundūr-nāḍu a district in Jayangoṇḍaśōḻa-vaḷanāḍu; two in Virudarājabhayaṅkaranāllūr in Viḷai-nāḍu and four in Arindavanallūr in the same nāḍu. Reference is made to a revenue survey conducted in the 16th year of Kulōttuṅga-Chōḷadēva (I) ‘who abolished the tolls’. The <hi rend="italic">Tirumandiravōlai</hi> who has signed this order was Rājanārayaṇa-Mūvēndavēḷāṉ.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> tribhu</hi>vaṉaccakkaravarttikaḷ maturaiyuṅ karuvūrum Īḻamuṅ koṇṭu pāṇṭiyaṉ muṭittalaiyuṅ koṇṭaruḷiṉa <hi rend="grantha">śrī</hi>kulottuṅka coḻatevaṟku yāṇṭu <num value="28">2 <g type="numeral">10</g> 8</num><g type="dash"/>vatu ḷ <num value="104"><g type="numeral">100</g> 4</num>- ṉāl <hi rend="grantha">prasāda</hi>ñ cey taruḷiṉa tirumukappaṭi <hi rend="grantha">tribhu</hi>vaṉaccakkaravartti koneriṉmaikoṇ ṭāṉ Uyyakkoṇṭārvaḷanāṭṭu Uṭaiyār tiruviṭaimarutuṭai yār koyil patipātamutap paṭṭuṭai pañ<supplied reason="omitted">cā</supplied>cāriyat tevarkaṉmik kum <hi rend="grantha">śrī</hi>māke<hi rend="grantha">śva</hi>rakkaṅkāṇi ceyvārkaḷukkum <hi rend="grantha">śrī</hi>kāriyañ cey vāṉuk <gap reason="lost" quantity="8" unit="character"/> 
+<lb n="2"/>vāṇā<hi rend="grantha">dhi</hi>rā<hi rend="grantha">ja</hi>ṉ Ik koyilil Eḻuntaruḷivitta Āḷuṭaiyapiḷḷai yār<supplied reason="omitted">k</supplied>ku veṇṭum Aṟcaṉaikaḷukkum vaikācimā<hi rend="grantha">sa</hi>ttut tirunāḷ Eḻuntaruḷa veṇṭuvaṉavayiṟṟukkum Iṟuppatāka Aṟcaṉāpoka Iṟaiyili Iṭaccoṉṉa nilam patiṟṟuvelikku <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻavaḷanāṭṭu tiruvaḻuntūrnāṭṭuk kulottuṅkacoḻaṉ pūṇṭiyāṉa vikkirama coḻaṉ cūralūril kācu <gap reason="lost" quantity="3" unit="character"/> ṟukku paṟṟile nālveli nilamum viḷai nāṭṭu <gap reason="lost" quantity="5" unit="character"/> kkuṭi<unclear>y</unclear>āṉa virutarāca payaṅkara nallūril <gap reason="lost" quantity="8" unit="character"/> 
+<lb n="3"/>Iraṇṭekāṇi Araikkāṇikkiḻ muṉṟumākkāṇi Araikkāṇikku cuṅkantavitta kulottuṅkacoḻatevarkku patin<unclear>āṟāva</unclear>tu Aḷantapaṭi niṅkal nikki Iruveli nilamum Ivvūrp piṟinta vaḷavan tañcāvūril karuvili vāṇikaṉ kāṇi nikki niṉṟa nilattukku Iṭukiṟa nilam nāle mukkāṇikkiḻ muṉṟumā mukkāṇikku patināṟāvatu Arintava<unclear>nallūril</unclear> nālveli nilamum Irupatteṭṭāvatu mutal Aṟcaṉāpoka Iṟai yiliyāka <gap reason="lost" quantity="3" unit="character"/> ṭum vikkiramaco<supplied reason="omitted">ḻa</supplied>ṉ cūralūril Iṭṭa nilattukku muṉ Iṟaikaṭṭiṉa<unclear>paṭi</unclear> tavirttu kāṇikka <gap reason="lost" quantity="3" unit="character"/> veli Oṉ<unclear>ṟukku nel</unclear>lu nūṟ ṟuk kalat<unclear>ti</unclear>ṉāl pattāṟākki Aṟupatiṉ <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="4"/>ttukku <gap reason="lost" quantity="8" unit="character"/> nallūril Iṭṭa nilattukku nelluka <gap reason="lost" quantity="5" unit="character"/> lum Antarāyamum nikkivanta kācukkum Irupatiṉ kalappaṭiyāl Iṟuttuvarukiṟa <gap reason="lost" quantity="5" unit="character"/> �ṉai <unclear>kkācā</unclear>ṟukkum nellu <gap reason="lost" quantity="3" unit="character"/> Iṟuk<unclear>kakka</unclear>ṭavatāka Uḷvari tarac coṉ <unclear>ṉo</unclear>m Iṉṉilam <gap reason="lost" quantity="5" unit="character"/> piḷḷai<unclear>yār</unclear>kku Aṟ<unclear>caṉāpoka</unclear> Iṟaiyili<unclear>yākak</unclear> kaikkoṇṭu Aṟcaṉai <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="5"/>ravolai Irācanārāyaṇa muventaveḷāṉ <g type="ddanda">.</g><g type="pc"/>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 23.289 by <bibl><ptr target="bib:SrinivasaRao1979_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1979_01"/>
+			<citedRange unit="page">200-201</citedRange>
+			<citedRange unit="item">289</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

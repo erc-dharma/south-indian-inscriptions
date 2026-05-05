@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 16.308: original edition by H. K. Narasimhaswami and G. S. Gai</title>
+				<title type="alt">No. 308. (A.R. No. 382 of 1920.) MĀRNĒPALLI, GOOTY TALUK, ANANTAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv16p0i0308</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a stone set up near the Āñjanēya temple.</p>						
+
+						<p>Veṅkaṭapati, 1602 A.D.</p>						
+
+						<p>This is dated <hi rend="bold">Śaka 1525 (current), Śubhakṛit, Mārgaśira ba. 7,</hi> corresponding to <hi rend="bold">1602 A.D., November 25.</hi></p>						
+
+						<p>It records gift of the village Marinēpalli in the Pulēṭi-māgāṇi of Gutti-sīma to god Raghunāyaka of Gutti-durgam, by Alluḍu Rāmarājayyadēva-mahārāju, who is said to have obtained Gutti-sīma as his <hi rend="italic">amara-nāyaṅkara</hi> from the king.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svastiśrī jayabudaya śālivāhana ṣkavaru 
+<lb n="2" break="no"/>ṣaṁbulu 1525 AguAnēṭi śubakrutu saṁ 
+<lb n="3" break="no"/>vatsaraṁ mā¨rgaśira ba 7 lu śrīmadrājādhirāja 
+<lb n="4"/>śrī vīrapratapa śrī vīra veṁkaṭapatidēvamaha 
+<lb n="5"/>rāyalugāru vajrasiṁhvāsānarudulayi penugoṁḍa <supplied reason="omitted">nagara</supplied> 
+<lb n="6" break="no"/>maṁdu pṛuthisāṁbrajaṁ cēyucuṁḍāgānu Alluḍu 
+<lb n="7"/>rāmarājayyadēvamahārājulugāru tamaku A<supplied reason="omitted">mara</supplied> 
+<lb n="8"/>nāyaṁkrānaku pāliṁcina guttidu¨rggaṁ raghanāyaku 
+<lb n="9"/>Amrutapaḍiki sama¨rpiṁcina guttisīmalōni pulēṭi māga 
+<lb n="10"/>nu marinēnipallegrāmaṁ darapōsi<supplied reason="omitted">na</supplied> dānapatraṁśāsanaṁ 
+<lb n="11"/>¨rmānaku yavaru ganaka Āsiṁcinānu dēvata drōha 
+<lb n="12"/>gurudrōhulu tamatallitaṁḍrini vāraṇāsilōnu va<supplied reason="omitted">dhi</supplied> 
+<lb n="13" break="no"/>ṁcina pāpāna pōduru <g type="danda">.</g> śrīśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 16.308 by <bibl><ptr target="bib:Narasimhaswami1972_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Narasimhaswami1972_01"/>
+			<citedRange unit="page">315</citedRange>
+			<citedRange unit="item">308</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

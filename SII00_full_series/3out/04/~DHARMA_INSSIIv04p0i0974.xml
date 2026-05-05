@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 4.974: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 974. (A.R. No. 151 of 1893). IN THE SAME MANDAPA.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv04p0i0974</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="5" unit="character"/> madastaṁbha catu¨rttakulavanajavanamā¨rttaṁḍa vēṁgīviṣayaṣōḍaśasahasrāvanīvallabha sahakāravallabha Āhavarakkasa vikramaka¨rkaśa <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="2"/>paraśu<unclear>rā</unclear>ma bhaṁḍanabhīma daḷadaṁkarāmi kāmijanakusumabāṇa śaraṇāgata prāṇatrāṇa pekkaṁḍranokkettugaṁḍa vihitāhitānē<unclear>ka</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="3"/> <gap reason="lost" quantity="5" unit="character"/> kamahārājula talli śrīguṁḍamāṁbikāmahādēvi danaku dhammā¨rtthamugānu śrī śakava¨rṣamulu 1054 gu nēṁṭi Uttarāyanasaṁkrāṁti <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="5" unit="character"/> na Ī Akhaṁḍadīpamulu reṁṭikini nitya Aḍḍeṁḍu neyi vōyaṁgalavāṁḍu Ī kommanabōyuni bautrulu gōmmanabōyu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="5" unit="character"/> danapāliki Ēṁṭāpa<unclear>dē</unclear>ṁdumu pōyu<unclear>vāṁ</unclear>ḍu vīralu Evvarūnu <unclear>ka</unclear>dupuṁ <unclear>baṁ</unclear>cikonaṁbaḍayaru pottuna nā<unclear>ca</unclear> <gap reason="lost" quantity="5" unit="character"/> <note n="318-2">To the proper left of this inscription is found the fragment— 
+
+<l n="4:318:974:1"> <gap reason="lost" quantity="5" unit="character"/> tanmukhātsaṁbabhūvuḥ</l>
+
+<l n="4:318:974:2"> <gap reason="lost" quantity="5" unit="character"/> tatsaṁtatau janitō jaga</l>
+
+<l n="4:318:974:3"> <gap reason="lost" quantity="3" unit="character"/> tā śrīvallabhaprasādaṁ naya</l>
+
+<l n="4:318:974:4"> <gap reason="lost" quantity="5" unit="character"/> ṁAkhaṁḍāya nṛsiṁhākhya-</l></note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 4.974 by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1923_01"/>
+			<citedRange unit="page">318</citedRange>
+			<citedRange unit="item">974</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

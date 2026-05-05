@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.61: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 61. (A.R. No. 61 of 1906) TANJAVUR DISTRICT, MAYURAM TALUK, TIRUMAYĀNAM. BRAHMAPURĪŚVARA TEMPLE—ON THE WEST WALL OF THE SAME MAṆḌAPA. KULŌTTUṄGA (III)—8th YEAR (A.D. 1185-6)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0061</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The king is given the attribute “who was pleased to take Madurai”. This records a gift of 600 <hi rend="italic">kuḻi</hi> or 6 <hi rend="italic">mā</hi> of land at the <hi rend="italic">dēvadāna</hi> village Tirumayānaviḷāgam after reclamation by Tillaināyaka-Perumāḷ of Kiḷiyūr-nāḍu in Pāṇḍikulāśanivaḷanāḍu for burning a perpetual lamp in the temple with the daily supply of an <hi rend="italic">uḻakku</hi> of ghee.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tiri<hi rend="grantha">bhu</hi>vaṉaccakkaravattikaḷ maturaikoṇṭaruḷiṉa <hi rend="grantha">śrī</hi>kulottuṅkaco
+<lb n="2" break="no"/><unclear>ḻa</unclear>tevarkku yāṇṭu 8 <hi rend="grantha">je</hi>yaṅkoṇṭa coḻavaḷanāṭṭu Ākkūrnāṭṭu tirukkaṭavūr Uṭaiya
+<lb n="3"/>tirumai<unclear>yā</unclear>namuṭaiya perumāḷkoyilil tirunantāviḷakku Eriya pāṇṭi kulācaṉivaḷanāṭṭu
+<lb n="4"/>kiḷiyūr na <gap reason="lost" quantity="4" unit="character"/> riraṅkuṭaiyāṉ til<unclear>lai</unclear>nāyakaṉ perumāḷ Ittevar teva tāṉam tirumayānavi
+<lb n="5" break="no"/>ḷākattu maṇṇe <unclear>ṟukol</unclear>laiyil viḷainilam kalliṉa kuḻi <num value="600">6 <g type="numeral">100</g></num> kuḻi Aṟuṉūṟuṉālnilam
+<lb n="6"/>Āṟumā<supplied reason="omitted">vu</supplied>kkum n<choice><sic>a</sic><corr>ā</corr></choice>ḷ 1- kku ney n=ta Uḻa<unclear>kku</unclear> Āka Eṭṭāvatu cittirai mātamutal E<unclear>riya</unclear> Eṟiṉa tirununtā
+<lb n="7" break="no"/>viḷakku 1 Oṉṟu 2
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.61 by <bibl><ptr target="bib:SrinivasaRao1983_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1983_01"/>
+			<citedRange unit="page">59</citedRange>
+			<citedRange unit="item">61</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

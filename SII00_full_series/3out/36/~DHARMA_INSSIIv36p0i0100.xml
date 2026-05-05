@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 36.100: original edition by P Shanmugam</title>
+				<title type="alt">No. 100. (A.R. No. 100 of 1910.) TIRUMĀḶAM (Kōviltirumāḷam), NANNILAM TALUK, TANJORE DISTRICT. On the south wall of the first prākāra in the Māgāḷēśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv36p0i0100</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Vikramachōḻa. Year 10: A.D. 1128.</hi></p>						
+
+						<p>The inscription is a copy of old inscriptions recording grants made during the period of Rājēndra I. The first inscription is about the grant made in the 15th year of Rājēndra I (A.D. 1027) to the goddess Umā Paramēśvari in the Mākāḷamuḍaiyār temple at Ambar for some services. The assembly of Madhurāntaka-chaturvēdimaṅgalam assigned a tax free grant of land on receipt of 30 <hi rend="italic">kaḻañcus</hi> of gold on behalf of Chaṇḍēśvara in the Mākāḷamuḍaiyār temple. The second inscription, also dated in the 15th year of Rājēndra I, records another tax-free grant of land to Umā Paramēśvari by the <hi rend="italic">Nagaram</hi> of Ambar on receipt of eleven <hi rend="italic">kaḻañcus</hi> of gold on behalf of Chaṇḍēśvara in the same temple. Ambar is said to be a <hi rend="italic">brahmadēya</hi> in Ambar-nāḍu, which was a subdivision of Uyyakkoṇḍārvaḷanāḍu.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> pūmātu puṇara puvimātu vaḷara nāmātu viḷaṅka <hi rend="grantha">ja</hi>yamātu malara tantiruppatamalar maṉṉavar cūṭa manniya Urimaiyāl maṇimuṭi cūṭi ceṅkol ce<unclear>nṟu</unclear> ticaitoṟum vaḷarppa veṅka<unclear>li nī</unclear>ṅki meyyaṟan taḻaippa kaliṅkamiriyak kaṭa<unclear>ṟ</unclear>malai <unclear>naṭ</unclear>ātti yi<unclear>ru</unclear> cuṭaraḷavu <gap reason="lost" quantity="10" unit="character"/> <unclear>va</unclear>laṅkoḷāḻi varaiyāḻi naṭātti mukkokkiḻā<unclear>ṉaṭika</unclear>ḷoṭum vīra<hi rend="grantha">simhāsa</hi>nattu vīṟṟiruntaruḷiya kopparakecaripa<hi rend="grantha">nma</hi>rāna <hi rend="grantha">tribhu</hi>vanac cakkaravattikaḷ <hi rend="grantha">śrī</hi> vikkiramacoḻa<hi rend="grantha">de</hi>vaṟku yāṇṭu <num value="10"><g type="numeral">10</g></num> ttāvatu § <hi rend="grantha">rāje</hi>n=tacoḻa<hi rend="grantha">de</hi>vaṟku yāṇṭu <hi rend="grantha"><num value="15"><g type="numeral">10</g> 5</num> kṣatra<supplied reason="omitted">ya</supplied>śi</hi>kāmaṇi vaḷanāṭṭup panayūr nāṭṭu <gap reason="lost" quantity="10" unit="character"/> tāṇṭa mūventa
+<lb n="2" break="no"/>veḷān Uyyakkoṇṭār vaḷanāṭṭu Amparnāṭṭu Ampar Uṭaiyār tirumākāḷamuṭaiyār <hi rend="grantha">śrī</hi> kāmakkoṭṭattu Umāparame<hi rend="grantha">śva</hi>riyārai Eḻuntaruḷuvittu Amutupaṭikkum palapaṇi niman=takkāṟarkkum Ittevar tiripuvana <hi rend="grantha">śa</hi>ṇṭe<hi rend="grantha">śva</hi>ratevakanmikku tirunāmattāl pala Ūrkaḷilum pon kuṭuttu Iṟaiyili ce<unclear>y</unclear> <gap reason="lost" quantity="10" unit="character"/> ṇaṅkaḷ <hi rend="grantha">jīrṇṇi</hi>ttamaiyil <hi rend="grantha">tribhu</hi>vanac cak<hi rend="grantha">ra</hi>vattikaḷ <hi rend="grantha">śrī</hi> vik<hi rend="grantha">ra</hi>macoḻatevaṟku yāṇṭu <num value="10"><g type="numeral">10</g></num> vatu kalveṭṭinapaṭi Uyyakkoṇṭār vaḷanāṭṭu Ampar nāṭṭu piramatecam maturāntakac catu<hi rend="grantha">rvve</hi>timaṅkalattu [<hi rend="grantha">sa</hi>]<hi rend="grantha">bh</hi>aiyom Uṭaiyār tirumākāḷamuṭaiyār <hi rend="grantha">tribhu</hi>vana caṇṭe<hi rend="grantha">śva</hi>ra tevakanmikaḷ pakkal nāṅkaḷ koṇṭa pon muppatin kaḻañcu Ip poṉ muppatin kaḻañcuṅ koṇṭu <gap reason="lost" quantity="10" unit="character"/> ṟu<unclear>k</unclear> kuṭutta nilamāvatu tenpāṟkellai
+<lb n="3"/>nākapurattellaikku vaṭakkum melpāṟkellai tirumākāḷavatikku kiḻakkum vaṭapāṟkellai karukāṭṭaṅkuṭikku teṟkum kīḻp<unclear>ā</unclear>ṟkellai meṟpaṭiyūrellaikku meṟkum Innānkellaikku naṭuvupaṭṭa nila mukkālum Iṅkē tirumākāḷavatikku meṟku nākapurattellaikku vaṭakkum mēlpāṟkellai <gap reason="lost" quantity="10" unit="character"/> kkum vaṭapāṟkellai mēṟpaṭiyūrellaikku teṟkum Innāṉkellaikku naṭuvupaṭṭa nilam kālum Ittevar taḷiccuṟṟu Uṭkiṭanta pirāmaṇakoṭi nilam Araiye kāṇiyum Āka nilam Onṟaraiye kāṇiyum Ittevar tirukkāmak<unclear>oṭ</unclear>ṭattu Umāparame<hi rend="grantha">śva</hi>riyāṟku Iṟaiyili ceytu kuṭuttom maturāntaka catu<hi rend="grantha">rvve</hi>timaṅkalattu <hi rend="grantha">sabh</hi>aiyom <hi rend="grantha">svastiśrī <gap reason="lost" quantity="2" unit="character"/> </hi> <gap reason="lost" quantity="2" unit="character"/> coḻa<hi rend="grantha">de</hi>vaṟku patinañc<unclear>āvatu</unclear> Uyyak koṇ
+<lb n="4" break="no"/>ṭār vaḷanāṭṭu Ampar nāṭṭu Ampar nakarattom tirukkāma koṭṭattu Umāparame<hi rend="grantha">śva</hi>riyār <hi rend="grantha">tri</hi>puvana <hi rend="grantha">śa</hi>ṇṭe<hi rend="grantha">śva</hi>ra <hi rend="grantha">de</hi>vakanmikaḷ pakkal nāṅkaḷ koṇṭa pon <unclear>pa</unclear>tin(o)ṇ kaḻañcu Ip poṉ patineṇkaḻañcuṅ koṇṭu Eṅkaḷ kāṇiyāna nāka <gap reason="lost" quantity="10" unit="character"/> cey <gap reason="lost" quantity="2" unit="character"/> lamāvatu tenpāṟkellai viṟkiṉṟom nilattukku vaṭakkum melpāṟkellai tirumākāḷavatikku kiḻakkum vaṭapāṟkellai tirukkāmak koṭṭattukku maturānta<supplied reason="omitted">ka</supplied>c catu<hi rend="grantha">rve</hi>timaṅkalattār Iṟai<unclear>yi</unclear>li viṟṟa nilattukku teṟkum kīḻpāṟkellai <gap reason="lost" quantity="5" unit="character"/> llaikkum vikkinṟo nilattukku meṟku <gap reason="lost" quantity="10" unit="character"/> <unclear>ti</unclear>rumākāḷavatikku meṟku <gap reason="lost" quantity="5" unit="character"/> <unclear>t</unclear>tu kuṭpaṭṭa nila<supplied reason="omitted">m</supplied>
+<lb n="5"/>mūnṟu mākāṇiyum Āka nilam mukkāle mūnṟu mākāṇiyum Ittirukkāma koṭṭamuṭaiyār kanmikaḷ pakkal pon koṇṭu Iṟaiyili ceytu kuṭuttom Ampar nakarattom
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 36.100 by <bibl><ptr target="bib:Shanmugam2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shanmugam2018_01"/>
+			<citedRange unit="page">79-81</citedRange>
+			<citedRange unit="item">100</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

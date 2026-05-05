@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 27.203: original edition by M. D. Sampath, H. K. Narasimhamurthy, Madhav N. Katti and B. R. Gopal</title>
+				<title type="alt">No. 203. (A.R. No. 296 of 1931-32.) VAḌḌARSĒ, UDIPI TALUK, SOUTH KANARA DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv27p0i0203</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Stone standing in the inner, <hi rend="italic">prākāra</hi> of Mahaliṅgēśvara temple.</p>						
+
+						<p>Āḷuvarasa, circa 7th century.</p>						
+
+						<p>This badly damaged record seems to refers to the reign of Āḷuvarasa and his feudatory Kundavarmmarasa and states that Guṇḍaṇṇa was in charge of the <hi rend="italic">nāṭṭu-mudime</hi> (administration of the <hi rend="italic">nāḍu</hi>) and Ādakappa Viddeṟeya was holding the <hi rend="italic">vara</hi> probably of some land in a subdivision <hi rend="italic">(banna ?)</hi> which was being governed by Sattigāri. It refers to a gift of money (? <hi rend="italic">Kañchu</hi> and <hi rend="italic">Kīḻgañchu</hi>) on the orders of Chiriyaṇṇas. Kanakaśiva wrote the record.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>First Section.</h4>-->
+
+<p>
+<lb n="1"/>kanaka śivanvaredōn
+<lb n="2"/>svasti śrīmatu
+<lb n="3"/>Āḷuvarasarā
+<lb n="4"/>rājyadoḷḷe kundavarma
+<lb n="5" break="no"/>rasarā pāmā<unclear>ṇāḷu</unclear> gu<unclear>ṇḍaṇṇa</unclear>
+<lb n="6" break="no"/>rā nāṭṭumudime U<unclear>ḷ</unclear>
+<lb n="7"/> <gap reason="lost" quantity="2" unit="character"/> <unclear>ba</unclear>nnasattigāri mudi
+<lb n="8" break="no"/>me keye Āḍakappa vi<unclear>dde</unclear>
+<lb n="9" break="no"/>ṟiyanvāra keye vilō <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="10"/>Oḻidu kañcaci kī®gañcu mo <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="11"/> <gap reason="lost" quantity="2" unit="character"/> vu
+</p>
+
+<!--<h4>Second Section.</h4>-->
+
+<p>
+<lb n="12"/>ndi <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="13"/> <gap reason="lost" quantity="2" unit="character"/> tyasaru <gap reason="lost" quantity="3" unit="character"/> Ā<unclear>mbalkeḷayiyā</unclear>
+<lb n="14"/> <gap reason="lost" quantity="2" unit="character"/> tyasaru ga <gap reason="lost" quantity="1" unit="character"/> mēge Appa<unclear>a</unclear>
+<lb n="15" break="no"/>du geU sattigāri banne Ā<unclear>ypavura</unclear>
+<lb n="16"/>ciriyaṇṇa guṇḍaṇṇarā vesadin <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="17"/>padinēḻkañcu kīḻgañcu Ondu saṭṭuga battanoḷu ta
+<lb n="18"/>padineḻbaruṇbārppārvvārāḷappakkennālva <gap reason="lost" quantity="3" unit="character"/> lli <gap reason="lost" quantity="2" unit="character"/> Ondu
+<lb n="19"/>poḍḍa<unclear>rase</unclear> <gap reason="lost" quantity="1" unit="character"/> dumapāḍiyan gōpa<unclear>rasa</unclear> <gap reason="lost" quantity="1" unit="character"/> yara<unclear>ydā</unclear>ya
+<lb n="20"/>Ā <gap reason="lost" quantity="1" unit="character"/> ra <gap reason="lost" quantity="1" unit="character"/> poḍḍara<unclear>se</unclear> <gap reason="lost" quantity="2" unit="character"/> gōpa <gap reason="lost" quantity="2" unit="character"/> paḍuvaḷiyā nāḍoḷa <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="21"/> <gap reason="lost" quantity="2" unit="character"/> ṇṇarirvva<unclear>rppa</unclear>ḍuvaḷi<unclear>yā</unclear> nāṭṭu mudime barasi <gap reason="lost" quantity="3" unit="character"/> ypaḷirppa
+<lb n="22"/> <gap reason="lost" quantity="3" unit="character"/> <unclear>ko</unclear>ṭṭadu panneraḍu kī <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="23"/> <gap reason="lost" quantity="5" unit="character"/> ka <gap reason="lost" quantity="3" unit="character"/> bhūmi koṭṭā <gap reason="lost" quantity="5" unit="character"/> naḻida
+<lb n="24"/> <gap reason="lost" quantity="5" unit="character"/> pātakamakku<unclear>ṁ</unclear> 
+</p>
+
+<!--<h4>Third Section.<note n="341-1">This section is engraved in the between the two</note></h4>-->
+
+<p>
+<lb n="25"/> <gap reason="lost" quantity="5" unit="character"/> nge pa<unclear>ṭu</unclear> Āyāmē®ke Ā
+<lb n="26"/> <gap reason="lost" quantity="5" unit="character"/> pattondiyu naggepāḍiIyā gaṟdi Ā naggepāḍiyan
+<lb n="27"/> <gap reason="lost" quantity="10" unit="character"/> tapattoniIda Avarggilla
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 27.203 by <bibl><ptr target="bib:Sampath+al2001_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath+al2001_01"/>
+			<citedRange unit="page">339-341</citedRange>
+			<citedRange unit="item">203</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

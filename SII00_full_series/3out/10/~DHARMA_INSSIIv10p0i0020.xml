@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.20: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 20. (A.R. No. 529 of 1913.) ON A STONE PLACED IN THE VERANDAH OF THE SUB-REGISTRAR'S OFFICE AT VINUKONDA, VINUKONDA TALUK, GUNTUR DISTRICT. Undated.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0020</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>States that the stone was set up by a local potentate named <hi rend="bold">Paḍavalu Kattirāju,</hi> who bore several <hi rend="italic">birudas</hi> such as <hi rend="bold">Immaḍigaṇḍa, Kalliga-Nārāyaṇa</hi> and <hi rend="bold">[Gh]aṇḍa-Śārdūla.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrīmat Imma 
+<lb n="2" break="no"/>ḍigaṇḍa birudaṁga 
+<lb n="3" break="no"/>ṟudra bhintāmahā 
+<lb n="4" break="no"/><unclear>di</unclear>tyā kalliga 
+<lb n="5" break="no"/>nārayaṇa <unclear>gha</unclear> 
+<lb n="6" break="no"/>ṇḍaśā¨rddūḷa <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="7"/> <gap reason="lost" quantity="1" unit="character"/> ka <unclear>vā</unclear> jyā 
+<lb n="8" break="no"/>bhikama <unclear>ḷa</unclear> dityugu 
+<lb n="9"/>pādaśēvituṇḍu 
+<lb n="10"/><unclear>na</unclear> paḍavalu 
+<lb n="11"/>kattirāju Etti 
+<lb n="12" break="no"/>ñce siriya 
+<lb n="13" break="no"/>ṇḍi cājyali 
+<lb n="14" break="no"/>ki <gap reason="lost" quantity="1" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.20 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">7-8</citedRange>
+			<citedRange unit="item">20</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.435: original edition by S. Swaminathan</title>
+				<title type="alt">No. 435. (A.R. No. 435 of 1912.) TIRUPPĀLATTUṞAI, PAPANASAM TALUK, TANJAVUR DISTRICT. On the slab built into the west floor, first prākāra, Kshīravanēśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0435</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">King: ⎯⎯ Date: <hi rend="italic">Kīlaga, Māśi</hi>, 12.</hi></p>						
+
+						<p>Registers a gift a wet land by the cultivating classes <hi rend="italic">(kuḍiyāṉapēr)</hi> to the Pālavaṉṉāthaśvāmin temple for conducting festivals in the month of <hi rend="italic">Āḍi.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>kīlaka varu<hi rend="grantha">ṣa</hi>m mācimātam
+<lb n="2"/><hi rend="grantha"><num value="10"><g type="numeral">10</g></num>nāḷ</hi> pālavaṉṉāta cuvā
+<lb n="3" break="no"/>mi<hi rend="grantha">kk</hi>u Āṭippūr tiruvi
+<lb n="4" break="no"/>ḻāvu<hi rend="grantha">kk</hi>u kuṭiyāṉape
+<lb n="5" break="no"/>r viṭṭa Upaiyam cip
+<lb n="6" break="no"/>piyaṉkuṇṭu nañcai
+<lb n="7"/>nilam (1/4) Itu<hi rend="grantha">kk</hi>u Ārā
+<lb n="8" break="no"/>kilum vikātam paṇ 
+<lb n="9" break="no"/>ṇiṉavaṉ keṅkai
+<lb n="10" break="no"/><hi rend="grantha">kka</hi>raiyile kārām
+<lb n="11"/>pacuvaikkoṇṇa
+<lb n="12"/>to<hi rend="grantha">ṣa</hi>ttile po
+<lb n="13" break="no"/>vāṉ § �
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.435 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">501-502</citedRange>
+			<citedRange unit="item">435</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

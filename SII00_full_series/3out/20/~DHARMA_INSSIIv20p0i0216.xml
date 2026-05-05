@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 20.216: original edition by G. S. Gai</title>
+				<title type="alt">No. 216. (B.K. No. 54 of 1936-37.) KALKĒRI, SINDGI TALUK, BIJAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv20p0i0216</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Slab in the temple called Mallayyana-guḍi.</hi></p>						
+
+						<p>Kannara—A.D. 1250-51.</p>						
+
+						<p>This record is dated in the king's regnal <hi rend="bold">year 4, Sādhāraṇa, 8, Monday.</hi> The month is not given. The year Sādhāraṇa in Kannara's reign corresponded with <hi rend="bold">A.D. 1250-51.</hi> In the absence of the month, the Christian equivalent of the other details cannot be found out.</p>						
+
+						<p>The inscription records a gift of land made to the temple of Ananta-Tīrthadēva by the <hi rend="italic">Mahājanas</hi> of <hi rend="bold">Kalukere</hi> on the occasion of the birth of a son in the house of one Raṅgarasa.</p>						
+
+						<p>Another gift of income derived from taxes, made to the same temple in the month of Pushva of the same year by Sarbadhara-nāyaka, is also recorded.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti śrīma<note n="266-1">This is engraved in</note>
+<lb n="2" break="no"/>tu yādavanārāyaṇa pratāpacakravartti kaṁnnaradēvarājyābhyudaya 4 neya sādhāraṇa saṁvatsarada 8 sōmavā
+<lb n="3" break="no"/>radaṁdu raṁgarasara maneya putrōtsavadali kalukeṟeya mahājanaṁgaḷu kūrttu Anaṁtatīrtthadēvarige koṭṭa he
+<lb n="4" break="no"/>bbaḷḷada taṭadali mādhavadēvara tōṁṭada <unclear>hatta</unclear> mattaru tōṭa 1 maṁgaḷa mahā śrī mattamā saṁvatsarada puṣya
+<lb n="5" break="no"/>māsadalardhōdayadoḷu rājaśrēṣṭhi pāyiseṭṭiyara dharmmakkanukūla<unclear>vā</unclear>gi mēlāḷikeya sarbbadharanāyakaru kalu
+<lb n="6" break="no"/>keṟeyaśēṣamahājanaṁgaḷa muṁdi� Anaṁtadēvarige hagariṭagemuṁnūṟaṟoḷu hattettina suṁka sarvvamānya
+<lb n="7" break="no"/>vāgi koṭṭa paṭṭeya Aṁgaḍi 10 benakana <gap reason="lost" quantity="2" unit="character"/> yadiṁ baḍagalu jātaṁṇana <gap reason="lost" quantity="2" unit="character"/> maneIṁdaṁ mūḍalu ba
+<lb n="8" break="no"/><unclear>ccha</unclear>vaṭṭigeIṁdaṁ teṁkaluṁ vuṇisaradiṁ paḍuvalu
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 20.216 by <bibl><ptr target="bib:Gai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Gai1964_01"/>
+			<citedRange unit="page">266</citedRange>
+			<citedRange unit="item">216</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

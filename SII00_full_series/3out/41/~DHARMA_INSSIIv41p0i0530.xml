@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 41.530: original edition by S. Rajagopal</title>
+				<title type="alt">No. 530. (A.R. No. 743 of 1905.) Grāmam, Villuppuram Taluk, South Arcot District. On the south wall of the central shrine in the Sivalokanatha temple at Grāmam.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv41p0i0530</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Rāshṭrakūṭa. Kannaradēva, Year 25 = 964 A.D.</hi></p>						
+
+						<p>Records a gift of fifty silver plates <hi rend="italic">(veḷḷittaḷikai)</hi> to the temple of Āṟṟuttaḷi-perumāṉ at Tirumuḍiyūr in Tirumuṉaippāḍi by Vaidumba Mahārājan Tiruvaiyan Śrīkaṇṭar.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śrī</hi>ri kannara tevarkki
+<lb n="2"/>yāṇṭu Irupatañvā
+<lb n="3" break="no"/>vatu tirumuṉaippā
+<lb n="4" break="no"/>ṭit tirumuṭiyūr <hi rend="grantha">śi</hi>ri
+<lb n="5" break="no"/>yāṟṟuttaḷippe
+<lb n="6" break="no"/>rumāṉukku vaitum 
+<lb n="7" break="no"/>pa mārācaṉ tiruvai
+<lb n="8" break="no"/>yaṉ <hi rend="grantha">śi</hi>ri kaṇṭari<unclear>ṭ</unclear>ṭa(ve)
+<lb n="9" break="no"/>ve<supplied reason="omitted">ḷ</supplied>ḷit taḷikai ya
+<lb n="10" break="no"/>mpatu Itu paṉmā
+<lb n="11" break="no"/>yecura I<hi rend="grantha">rakṣ<unclear>ai</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 41.530 by <bibl><ptr target="bib:Rajagopal2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Rajagopal2019_01"/>
+			<citedRange unit="page">482-483</citedRange>
+			<citedRange unit="item">530</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

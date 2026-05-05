@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 5.451: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 451. (A.R. No. 159 of 1894). ON THE NORTH WALL OF THE SMALL SHRINE IN THE SAME TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:reda">
+						<forename>Renato</forename>
+						<surname>Dávalos</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv05p1i0451</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:reda" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> coḻaṉṟalaikoṇṭa kovirapāṇṭiya
+<lb n="2" break="no"/>kakku<note n="173-1">Read rkku.</note>y<unclear>ā</unclear>ṇṭu patiṉaiñcu Itaṉ Etir<choice><sic>a</sic><corr>ā</corr></choice>ṇṭu
+<lb n="3"/><note n="173-2">Read kīḻaº.</note>kilvempanāṭṭu <hi rend="grantha">brahmade</hi> yaṅ kum<unclear>ma</unclear>ṇamaṅka
+<lb n="4" break="no"/>lattu Āttiraiyaṉ mayūravā<hi rend="grantha">ha</hi>ṉañ centaṉ
+<lb n="5"/>tirunelveli(y)uṭaiya perumāṉaṭi(y)kaḷukku
+<lb n="6"/>Iravum pakalum Eri(y)vatāka vaicca tirunontā
+<lb n="7" break="no"/>viḷakku Oṉṟiṉukku vaicca <supplied reason="omitted">cā</supplied>vāmūvāp perāṭu Ampa
+<lb n="8" break="no"/>tu <supplied reason="undefined"><g type="danda">.</g></supplied> Ivvaimpatil Iru<unclear>pat</unclear>taiñcu Āṭu koṇ<unclear>ṭu</unclear> paṭai
+<lb n="9" break="no"/>ttalaivaṉ tirumāl cāttaṉ nicatip<unclear>pa</unclear>ṭi kaṭāra
+<lb n="10" break="no"/>ttu <unclear>cū</unclear>lauḻakkiṉā laṭṭakkaṭava ney Āḻākku
+<lb n="11" break="no"/>ivaṉukkup <unclear>pu</unclear>ṇaippaṭai(y)ttalai(y)vaṉ kuṟuṅ
+<lb n="12" break="no"/>kuṭi(y) kummaṇaviraṉ <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 5.451 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> converted to DHARMA conventions by Renato Dávalos.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1925_01"/>
+			<citedRange unit="page">173</citedRange>
+			<citedRange unit="item">451</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

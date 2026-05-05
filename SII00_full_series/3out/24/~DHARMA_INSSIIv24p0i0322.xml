@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 24.322: original edition by H. K. Narasimhaswamy</title>
+				<title type="alt">No. 322. (A.R. No. 58 of 1938-39.) II PRĀKĀRA, SOUTH WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv24p0i0322</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Śaka 1350 (1428 A.D.)</hi></p>						
+
+						<p>Registers gift of a gold <hi rend="italic">kalaśa</hi> to god Raṅga by <hi rend="bold">Periyaperumāḷ,</hi> the sister of <hi rend="bold">Chakrarāya.</hi><note n="328-3">The remarks against this number in the Report state that the sister's name is not given. Female names having Perumāḷ as their part are not unknown.</note>The record is dated by the chronogram <hi rend="italic">Atmālōka</hi>—<hi rend="bold">Śaka 1350,</hi> <hi rend="bold">KIlaka, ba. 12, Wednesday, Uttiram</hi> which correspond to <hi rend="bold">A.D. 1428, October 6 Wednesday; ·21; ·89.</hi> The month was <hi rend="bold">Tulā.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:grantha maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śubhamastu <supplied reason="undefined"><g type="ddanda">.</g></supplied> Ātmālōkē śakanarapatērhāyanē kīlakōrjē kṛṣṇēpakṣē haribudhadinaprītiyuktōttararkṣē <g type="danda">.</g></hi>
+<lb n="2"/><hi rend="grantha">prādāt bhaktyā pēriyapērumāḷ raṅgiṇē hēmakumbham bhrātā yasyāḥ prathitayaśasāmuttamaścakrarājaḥ <g type="danda">.</g> <supplied reason="omitted">1</supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 24.322 by <bibl><ptr target="bib:Narasimhaswamy1982_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Narasimhaswamy1982_01"/>
+			<citedRange unit="page">328-329</citedRange>
+			<citedRange unit="item">322</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

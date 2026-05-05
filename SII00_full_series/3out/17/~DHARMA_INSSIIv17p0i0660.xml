@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.660: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 660. (A.R. No. 608-A of 1904.) ŚRĪNIVĀSANALLŪR, MUSIRI TALUK, TIRUCHIRAPPALLI DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0660</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south wall of the <hi rend="italic">maṇḍapa</hi> in front of the central shrine in the Rāmanāthasvamin temple.</p>						
+
+						<p>Kulōttuṅga I.</p>						
+
+						<p>Of the three unconnected pieces<note n="302-1">The first two lines of pieces 1 and 2 are engraved in characters different from those of the other lines.</note>below, piece 1 refers to some exchange of land, and piece 2 contains a portion of the <hi rend="italic">praśasti Pugaḻ śUḻnda</hi> etc., of the king.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<!--<h4>Piece 1.</h4>-->
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="2"/>ttu <gap reason="lost" quantity="4" unit="character"/> tamiḻu mun <gap reason="lost" quantity="2" unit="character"/> ru
+<lb n="3"/>Inilam <gap reason="lost" quantity="2" unit="character"/> cca pokamāna mayi <gap reason="lost" quantity="5" unit="character"/> Irāca <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="4"/>kkovirā<hi rend="grantha">ja</hi>ke<hi rend="grantha">sa</hi>rivanmarāna tiripuvana cakkaravattikaḷ
+<lb n="5"/>nilapparivarttaṉai paṇṇina paricāvatu Ivvāḻvāṉ �
+<lb n="6"/>ttu terkkaṭaiya nilam Iṅke 2- catirattu <gap reason="lost" quantity="1" unit="character"/> tarat
+</p>
+
+<!--<h4>Piece 2.</h4>-->
+
+<p>
+<lb n="1"/>ṅkai viṭṭa kai <gap reason="lost" quantity="1" unit="character"/> m muppa <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="1" unit="character"/> yattalaṅkamum p<unclear>o</unclear>na nitta
+<lb n="3"/><unclear>ta</unclear>laivarai kuṟukalar kulaiya koṭṭāṟuṭpaṭa ne
+<lb n="4"/>pola viramum tiyākamum viḷaṅ(ṅ)ka pār to
+<lb n="5"/>kku <gap reason="lost" quantity="4" unit="character"/> ceykiṟa tiruvālica <gap reason="lost" quantity="5" unit="character"/> yārkkum ni
+<lb n="6"/>napaṭi pa<unclear>ṇ</unclear>ṭārakkolāl <gap reason="lost" quantity="4" unit="character"/> <num value="22">2 <g type="numeral">10</g> 2</num> kuḻi ko
+</p>
+
+<!--<h4>Piece 3.</h4>-->
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="2"/><hi rend="grantha">śrī</hi>kolottuṅkacoḻa<hi rend="grantha">d<unclear>e</unclear></hi>va<unclear>ṟ</unclear>kku yāṇ
+<lb n="3" break="no"/>kku kiḻakku rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi> vāykkālukku vaṭakku ma <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="1" unit="character"/> ntāyaṉ tevaṉ tirumāliruñcolai nārāyā
+<lb n="5"/>laciṅka tevaṉ Eḻuttu 2 Ip<supplied reason="omitted">pa</supplied>ṭikku Itu neri <gap reason="lost" quantity="4" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.660 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">302</citedRange>
+			<citedRange unit="item">660</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

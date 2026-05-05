@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 35.143: original edition by D. M. Nagaraju</title>
+				<title type="alt">No. 143. (A.R. No. 40 of 1950-51.) AKKIVAḶḶI, HANGAL TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv35p0i0143</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab standing near the tank close to the village.</p>						
+
+						<p>12th century A.D.</p>						
+
+						<p>This damaged record mentions a <hi rend="italic">Mahāmaṇḍalēśvara</hi> and registers a gift of land and garden; details lost.</p>						
+
+						<p>The characters belong to about 12th century A.D. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="3"/>svasti <gap reason="lost" quantity="5" unit="character"/> <unclear>bhujabaḷa</unclear>cakrava¨rti <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="2" unit="character"/> neya <gap reason="lost" quantity="3" unit="character"/> saṁvatsarada puṣya su 5 sōma
+<lb n="5"/> <gap reason="lost" quantity="2" unit="character"/> bya <gap reason="lost" quantity="3" unit="character"/> śrīmanmahāmaṁḍaḷēśvara
+<lb n="6-10"/><ce>lines are damaged</ce>
+<lb n="11"/> <gap reason="lost" quantity="5" unit="character"/> śvaradēva <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="12"/>holati keṟeya <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="13"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="14"/> <gap reason="lost" quantity="1" unit="character"/> ttaru tōṁṭa Intī dha¨rmmaveṁteṁdaḍe
+<lb n="15"/> <gap reason="lost" quantity="5" unit="character"/> vāraṇāsi ku<unclear>ru</unclear>kṣētra
+<lb n="16"/>yāgeya <gap reason="lost" quantity="2" unit="character"/> sāyiravanu vēda pāragarappa
+<lb n="17"/>brāhmaṇaravaṁ <gap reason="lost" quantity="3" unit="character"/> kavileyaṁ
+<lb n="18"/>koṁda <unclear>pāpakke</unclear> hōharu svadatta paradattā vā
+<lb n="19" break="no"/>yō harēti vasundara ṣaṣṭivaruṣasahasrā
+<lb n="20" break="no"/>ṇi viṣṭāyāṁ jāyatē krimiḥ <g type="ddanda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 35.143 by <bibl><ptr target="bib:Nagaraju2017_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagaraju2017_01"/>
+			<citedRange unit="page">117-118</citedRange>
+			<citedRange unit="item">143</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

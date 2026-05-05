@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 41.66: original edition by S. Rajagopal</title>
+				<title type="alt">No. 66. (A.R. No. 65 of 1905.) Āṉaimalai, Madurai Taluk, Madurai District. On the rock to the right of the entrance into the central shrine of the rock-cut temple of Narasinga-Perumal.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv41p0i0066</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Chōḻapāṇḍya, J. Sundara-chōḻapāṇḍya, Year 21 = c. 1050 A.D.</hi></p>						
+
+						<p>Gift of a perpetual lamp to the deity Narasimha-āḷvār at Tiruvāṉaimalai in Kīḻ-iraṇiya-muṭṭam in Rājēntrachōḻa-vaḷanāḍu in Rājarāja-pāṇḍi-nāḍu by Tattaṉ Chēnti, a brāhamaṇa woman of Iṟaiyāṉaraichūr.</p>						
+
+						<p>[Published in <hi rend="italic">SII</hi>, Vol. XIV, No. 169.]</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi>kOccaṭaiyaṟmmarāṉa Uṭaiyār
+<lb n="2"/><hi rend="grantha">śrī</hi>cuntaracōḻapāṇṭiya<hi rend="grantha">de</hi>vaṟku yāṇṭu Irupat
+<lb n="3" break="no"/>tu Oṉṟāvatu rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>p pāṇṭināṭṭu Irā<hi rend="grantha">jēntra</hi>
+<lb n="4" break="no"/>coḻa vaḷanāṭṭu kiḻ Iraṇiyamuṭṭattu tiruāṉaimalai Eḻuntaruḷi
+<lb n="5"/>Irunta <hi rend="grantha">śrī</hi>naraci<hi rend="grantha">mha</hi> Āḷvārkku Iṟaiyāṉ Araicūr cēntaṉ paṭṭaṉēṉ
+<lb n="6"/><unclear>Ivan</unclear> <hi rend="grantha">brāhma</hi>ṇitattaṉ centivacca tirununtāviḷakku Oṉṟu <gap reason="lost" quantity="2" unit="character"/> Ivviḷakki
+<lb n="7" break="no"/>ṉāle <g type="ddanda">.</g><g type="dashLong">.</g> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 41.66 by <bibl><ptr target="bib:Rajagopal2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Rajagopal2019_01"/>
+			<citedRange unit="page">81</citedRange>
+			<citedRange unit="item">66</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

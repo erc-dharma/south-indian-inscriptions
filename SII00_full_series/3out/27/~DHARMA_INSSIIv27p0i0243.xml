@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 27.243: original edition by M. D. Sampath, H. K. Narasimhamurthy, Madhav N. Katti and B. R. Gopal</title>
+				<title type="alt">No. 243. (A.R. No. 506 of 1928-29.) KŌṬE, UDIPI TALUK, SOUTH KANARA DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv27p0i0243</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab set up in the <hi rend="italic">prākāra</hi> of the Mahāliṅgēśvara temple.</p>						
+
+						<p>[Kulaśēkarāḷva]</p>						
+
+						<p>This record, which is in Kannaḍa language engraved in Malayālam characters, states that the king granted the taxes realised in Śivasahabra[h]maṇavūra (Śivasa-Brahmavūra ?) to (the temple of) the god at Kōṭa for the maintanance of a hand-lamp <hi rend="italic">(kai-veḷaku).</hi> Adambhaṭṭuḍeyarasa also appears to have participated in making the grant.</p>						
+
+						<p>The only details of the date given is that Jupiter was in Kumbha. The record is engraved in characters of about the 14th century. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<note n="382-1">The text is engraved in Malayalam characters and the language is in</note>
+
+<p>
+<lb n="1"/>svastiśrī <g type="ddanda">.</g> kuṁ
+<lb n="2" break="no"/>bhadalli braha
+<lb n="3" break="no"/>spati Iddaṁdu śrī
+<lb n="4" break="no"/>kulaśēkharā
+<lb n="5" break="no"/><unclear>ḷuva</unclear>ruṁ śivasaha
+<lb n="6" break="no"/>brāhmaṇavūra
+<lb n="7"/>bāḷa mēgina
+<lb n="8"/>to(te)ṟeyaṁ
+<lb n="9"/>kōṭada dēva
+<lb n="10" break="no"/>rgge kaiveḷa
+<lb n="11"/>kiṁge <gap reason="lost" quantity="1" unit="character"/> daṁ
+<lb n="12"/>Aggaṁ haṭṭu
+<lb n="13" break="no"/>ḍeyarasaru<unclear>ṁ</unclear>
+<lb n="14"/> <gap reason="lost" quantity="2" unit="character"/> dara beḷa
+<lb n="15" break="no"/>ku sa <gap reason="lost" quantity="1" unit="character"/> di
+<lb n="16" break="no"/>ddandu Abā
+<lb n="17" break="no"/>gu dēvargge
+<lb n="18"/>bi<unclear>ṭṭa</unclear>raṁ <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="19"/>dharmmamaṁ mu
+<lb n="20" break="no"/>ṭe sadava
+<lb n="21" break="no"/>rgge kuru
+<lb n="22" break="no"/>kṣētradalu
+<lb n="23"/>sāsara
+<lb n="24"/>kavile
+<lb n="25"/>gaḷa ko
+<lb n="26" break="no"/>nda pā
+<lb n="27" break="no"/>pama<unclear>kkuṁ</unclear> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 27.243 by <bibl><ptr target="bib:Sampath+al2001_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath+al2001_01"/>
+			<citedRange unit="page">381-382</citedRange>
+			<citedRange unit="item">243</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

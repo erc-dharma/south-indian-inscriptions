@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 15.152: original edition by P. B. Desai, Dines Chandra Sircar and G. S. Gai</title>
+				<title type="alt">No. 152. (B.K. No. 108 of 1929-30.) MUTTIGI, BAGEVADI TALUK, BIJAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv15p0i0152</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a slab near the Rudragaṇṭi-Rāmaliṅga temple.</p>						
+
+						<p>Bhillama, 1192 A.D.</p>						
+
+						<p>This is dated in the 8th regnal year of the king, Paridhāvi, Śrāvaṇa śu. puṇṇami, Thursday, corresponding to 1192 A.D., July 26. The weekday, however, was Sunday. This date pushes back the commencement of Bhillama's reign by three years. </p>						
+
+						<p>It records the gift of income derived from the <hi rend="italic">baṇṇige-deṟe</hi> tax on the god's garden to the god Tikēśvara by the Two Hundred <hi rend="italic">Mahājanas</hi> (of Muttage).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>bhillama dēvavaruṣada 8 neya paridhāvi saṁvatsarada srāva<note n="195-1">The letter ma is written above the line.</note>
+<lb n="2" break="no"/>ṇa sudha puṁṇnami brahaspativāradalu śrī tikēsvaradēvara
+<lb n="3"/>pavitrārōhaṇakke mūnū¨rbbaru baṁdu kuḷḷi¨rdu dēva¨rgge na
+<lb n="4" break="no"/>maskāraṁ māḍi prasāda pavitra vīḷayamaṁ koṁḍu dēvakā¨ryyamaṁ ka<unclear>ṁ</unclear>
+<lb n="5" break="no"/>ḍu karaṁ mecci Ī dēvara tōṁṭada baṁṇnigedeṟe suṁkama sa¨rbbanamasyavāgi dhā
+<lb n="6" break="no"/>rāpū¨rbbakaṁ māḍi koṭṭaru <g type="ddanda">.</g> Ī dha¨rmakidanārittareṁdavare narakakiḷida
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 15.152 by <bibl><ptr target="bib:Desai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Desai1964_01"/>
+			<citedRange unit="page">194-195</citedRange>
+			<citedRange unit="item">152</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

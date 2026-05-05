@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 24.443: original edition by H. K. Narasimhaswamy</title>
+				<title type="alt">No. 443. (A.R. No. 334 of 1950-51.) II PRĀKĀRA, EAST WALL NEAR THE VISHṆU-PĀDA.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv24p0i0443</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Fragmentry. Records a share of the <hi rend="italic">vaḍa</hi> offerings made to god as the <hi rend="italic">viṭṭavaṉ-viḻukkāḍu</hi> of Nāchārama. Also enumerates cetain ornaments such as gold chains, ornaments called <hi rend="italic">Indra-gōpas,</hi> caps worked with gold, bronze plates and torches to god Raṅgarāja by Akkājamma.</p>						
+
+						<p>The date of the record is lost. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="1" unit="character"/> 1 vaḍapaṁnnerālu 100 <unclear>ki</unclear> viṭa<unclear>va</unclear>n viḍukālu <unclear>10</unclear> <g type="danda">.</g> nāṁcā[*ra]mmaṁ gāriki sama¨rppiṁ<unclear>cce</unclear>nu <g type="danda">.</g> baṁgāra <unclear>po</unclear> takamuṁlunnu ka <gap reason="lost" quantity="1" unit="character"/> la <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="2" unit="character"/> <unclear>pū</unclear>vula caṁdra<unclear>puṭālu</unclear>gā 1 sū�puṭāla pēṭa 12 ḍagu 1 pēṭa <gap reason="lost" quantity="2" unit="character"/> vuvvula yiṁdragōpāniki <gap reason="lost" quantity="2" unit="character"/> I 1 Iṁdragōpaṁ <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="3"/> <gap reason="lost" quantity="1" unit="character"/> ku 1 Ā mēlu gulā yi 1 nū¨ryya puṭaṁ nāṭi gulā Ilu 2 kaṁccu taḷigelu <unclear>5</unclear> kaṁccu divakōlu 4 yiṁttavōṭu śrī raṁ <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="1" unit="character"/> gga rājulaku Akājaṁma sama¨rpiṁcenu śrīśrīśrī
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 24.443 by <bibl><ptr target="bib:Narasimhaswamy1982_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Narasimhaswamy1982_01"/>
+			<citedRange unit="page">426-427</citedRange>
+			<citedRange unit="item">443</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 36.166: original edition by P Shanmugam</title>
+				<title type="alt">No. 166. (A.R. No. 166 of 1910.) MUTTŪR, DHARAPURAM TALUK, COIMBATORE DISTRICT. On the north wall of the central shrine in the Chōḻēśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv36p0i0166</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Vīrarājēndradēva. Year 20: A.D. 1226.</hi></p>						
+
+						<p>Damaged. Seems to register a gift of six <hi rend="italic">achchus</hi> by the <hi rend="italic">nagarattār</hi> of Muttūr to the temple of Kulōttuṅgachōḻichcharam Uḍaiyār for some services in the temple. Kuladīpa Bhaṭṭan, a <hi rend="italic">śiva-brāhmaṇa</hi> of the temple holding the right to temple service <hi rend="italic">(kāṇi)</hi> gave an undertaking to the <hi rend="italic">nagarattār</hi> to maintain the grant. (see Nos. 158, 159, 165)</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> vīrarācentiratevaṟkut tiru
+<lb n="2" break="no"/>veḻuttiṭṭuc cellā niṉṟa tirunalli yā
+<lb n="3" break="no"/>ṇṭu Irupatāvatu muttūr nakarattār Ā
+<lb n="4" break="no"/>ḷuṭaiyār kolottuṅkacoḻīccara
+<lb n="5" break="no"/>muṭaiyāṟku tirupputiyitukku Ik koyil kā
+<lb n="6" break="no"/><unclear>ṇi</unclear>yuṭaiya civappirāmaṇan kācya<hi rend="grantha">pa</hi> kottira
+<lb n="7" break="no"/> <gap reason="lost" quantity="11" unit="character"/> 
+<lb n="8"/>ttār pakkal tirupputiyituk <gap reason="lost" quantity="2" unit="character"/> ṇṭa Accu pa
+<lb n="9" break="no"/> <gap reason="lost" quantity="2" unit="character"/> lākai Āṟaccuṅ koṇ <gap reason="lost" quantity="5" unit="character"/> yitukku Āṇ
+<lb n="10" break="no"/>ṭu varai toṭṭaḷakkum nāḻiyāl <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="11"/> <gap reason="lost" quantity="2" unit="character"/> ṇippatakku Amutukku <gap reason="lost" quantity="5" unit="character"/> kavi <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="12"/>tirāttiyaruḷḷaḷavuñ celuttuvomākavum yikko <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="13"/>kuṭamuṅ kucciyuṅ koṇṭu pukuvān celuttuvenā <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="14"/>kal veṭṭik kuṭutten kulatīpa paṭṭanen muttū <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="15"/>rattārkku
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 36.166 by <bibl><ptr target="bib:Shanmugam2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shanmugam2018_01"/>
+			<citedRange unit="page">143-144</citedRange>
+			<citedRange unit="item">166</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

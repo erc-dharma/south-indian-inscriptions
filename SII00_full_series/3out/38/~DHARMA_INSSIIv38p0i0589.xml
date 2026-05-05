@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.589: original edition by S. Swaminathan</title>
+				<title type="alt">No. 589.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0589</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						<p><hi rend="bold">King: ⎯⎯ Year: ⎯⎯</hi></p>						
+
+						<p>In characters of 18-19th century A.D. This Kannada inscription records a tax-free grant of land, under the tank of the village Ūṭukūru, to the <hi rend="italic">Besta-bova</hi> (fishermen community) for attending their traditional work connected with the tank, by the officers Mummaḍi-Raḍḍi, the agent of Pedirājayya and the <hi rend="italic">gauḍas</hi> and <hi rend="italic">sēnabova.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>plava savatsarada kā¨rttika śu 1 llū
+<lb n="2"/>śrīmatu peddirājayana kā¨ryyakkeka
+<lb n="3"/>¨rttarāda muṁmaḍi ṟaḍḍiyarū Ū
+<lb n="4"/>ṭukūra gauḍusēnabōvarū besta bō
+<lb n="5"/>varige śāsana Ūṭukūrali yiruva
+<lb n="6"/>besta bōUgaḷige keṟegeyi <gap reason="lost" quantity="2" unit="character"/> ka <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="7"/>keyiḷa taṁma kulakāyakava māḍi
+<lb n="8"/>koṁḍu sa¨rvamānyavāgi yi
+<lb n="9"/>hudu yidake tapidavaru taṁ
+<lb n="10"/>ma taṁdetāya<unclear>nū</unclear> vāraṇā 
+<lb n="11"/>siyali koṁ<unclear>dapāpa</unclear>ke hōha
+<lb n="12"/>ru gōva<unclear>koṁdapā</unclear>pake hō
+<lb n="13"/>haru śrī <unclear>śrī</unclear> śrī
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.589 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">694-695</citedRange>
+			<citedRange unit="item">589</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

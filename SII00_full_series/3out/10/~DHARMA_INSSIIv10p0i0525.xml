@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.525: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 525. (A.R. No. 599 of 1909.) ON A MUTILATED SLAB SET UP IN THE VILLAGE OF PIḌUGURĀḶḶA, PALNAD TALUK, SAME DISTRICT. Ś. [1240.] (Kālayukta)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0525</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Damaged and illegible. Seems to refer to <hi rend="bold">Pratāpa-Rudradēva</hi> and a certain <hi rend="bold">Leṅka.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="3" unit="character"/> śrīśakavaraṣaṁbulu 1 
+<lb n="2"/> <gap reason="lost" quantity="4" unit="character"/> layukutasaṁvatsa 
+<lb n="3"/> <gap reason="lost" quantity="3" unit="character"/> gu <g type="danda">.</g> nāṁḍu śrīAyō 
+<lb n="4"/> <gap reason="lost" quantity="3" unit="character"/> lakṣumaṇula tiruprati 
+<lb n="5"/> <gap reason="lost" quantity="4" unit="character"/> nappuḍu svasti śrīmanma 
+<lb n="6"/> <gap reason="lost" quantity="3" unit="character"/> nmakoṁḍapuravarādhīśva 
+<lb n="7"/> <gap reason="lost" quantity="4" unit="character"/> ra vīralakṣmīnijēśvara kāka 
+<lb n="8"/> <gap reason="lost" quantity="3" unit="character"/> dēvamahārājulu <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="9"/> <gap reason="lost" quantity="3" unit="character"/> mānamācaṁdrā¨rkkastā<unclear>yi</unclear> 
+<lb n="10"/> <gap reason="lost" quantity="3" unit="character"/> vinōdaṁbulaṁ <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="11"/> <gap reason="lost" quantity="3" unit="character"/> cuṁḍaṁgānu pratā 
+<lb n="12"/> <gap reason="lost" quantity="3" unit="character"/> lakuṁ buṇyamugā 
+<lb n="13"/> <gap reason="lost" quantity="3" unit="character"/> vayileṁkaṁgāri 
+<lb n="14"/> <gap reason="lost" quantity="3" unit="character"/> gārisuputruṁ <gap reason="lost" quantity="3" unit="character"/> (The rest Is much damaged And Illegible <gap reason="lost" quantity="1" unit="character"/> )
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.525 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">283</citedRange>
+			<citedRange unit="item">525</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

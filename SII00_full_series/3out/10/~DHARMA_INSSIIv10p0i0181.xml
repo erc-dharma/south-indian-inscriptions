@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.181: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 181. (A.R. No. 121 of 1917.) ON THE SAME PILLAR. Ś. 1094.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0181</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>States that a certain <hi rend="bold">Bolliraḍḍi</hi> gave 55 sheep for a perpetual lamp in the Śiva temple at <hi rend="bold">Pāmulapāḍu.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>viracitakī¨rttilōluṁ ḍagu 
+<lb n="2"/>vennaparaḍḍikiṁ brōlasāniki nvaranutuṁ ḍai 
+<lb n="3" break="no"/>nabollana dhruvaṁbugaṁ bāmulapāṭaṁ bā 
+<lb n="4" break="no"/>¨rvvatīśvaruna kakhaṇḍadīpakamu saṁdruṁḍu sū 
+<lb n="5" break="no"/>¨ryyuṁḍuṁ galgunaṁtta kādaraṇa veluṁggaṁ beṭṭeṁ 
+<lb n="6"/>danatallikiṁ daṁḍṛki dha¨rmmuvē¨rppaḍanu <g type="danda">.</g> <supplied reason="omitted">1</supplied> ga 
+<lb n="7" break="no"/>tinidhikhēṁdduśakābdapratatiṁ ggā¨rttikamu 
+<lb n="8"/>śuklapaṁcādaśi gōpatidinamuna bollaṇḍa 
+<lb n="9" break="no"/>tulitadīpaṁbunilpe harunaku vēḍkanu <g type="danda">.</g> <supplied reason="omitted">2</supplied> bolli 
+<lb n="10" break="no"/>raḍḍi yakhaṇḍadīpaṁbunakuṁ beṭṭinagoṟi 
+<lb n="11" break="no"/>yalu 55 vīniṁ jēkoni mrā<unclear>nye</unclear>bōyu 
+<lb n="12" break="no"/>nikoḍku prōle tanaputrapautrāni 
+<lb n="13" break="no"/>kamu nityamāneṁḍu neyi vōya 
+<lb n="14" break="no"/>ṁgalavāṁḍu 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.181 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">91</citedRange>
+			<citedRange unit="item">181</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

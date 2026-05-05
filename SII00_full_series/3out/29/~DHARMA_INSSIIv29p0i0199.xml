@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 29.199: original edition by P. N. Narasimha Murthy</title>
+				<title type="alt">No. 199. (A.R. No. 61(?) of 1961-62.) KOLANUPĀKA, BHUVANAGIRI TALUK, NALGONDA DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv29p0i0199</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a pillar in the museum with in the compound of the Sōmēśvara temple. First pillar Museum No. 81.</p>						
+
+						<p><hi rend="bold">11th century A.D.</hi></p>						
+
+						<p>This record though engraved on the other (fourth) face of No. 191 has not been noticed in the Annual Report for the year 1961-62.</p>						
+
+						<p>The top and bottom portion of the record are damaged and the information there in are lost. The extant portion carries a sting of epithets of <hi rend="italic">mahāmaṇḍaḷēśvara</hi> Kāṁbaya. Mentions (Cheru) Bemarasa of Koḷḷipāka.</p>						
+
+						<p>On paleographical grounds the record can be ascribed to the same period as in No. 191.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>Fourth face.</h4>-->
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="1" unit="character"/> puravado
+<lb n="2"/>maṁgaḷa sūtra
+<lb n="3"/>haraṇi vikrama
+<lb n="4"/>(ca)raṇa cāvuṇḍa
+<lb n="5" break="no"/>rāya cāṇaru
+<lb n="6" break="no"/>murāntaka pṛthi
+<lb n="7" break="no"/>vīkāntaru kā
+<lb n="8" break="no"/>ṇḍaga bhaya vaḍa
+<lb n="9" break="no"/>nāḍissūtradhā
+<lb n="10" break="no"/>ra Ēkāṁgavīra cā
+<lb n="11" break="no"/>ḷukya kaṭaka (sō)ma
+<lb n="12"/>(ja mu)koḷvacāra
+<lb n="13"/>sāmanta <gap reason="lost" quantity="1" unit="character"/> koḷva
+<lb n="14"/>gaṇḍaragaṇḍa kada
+<lb n="15" break="no"/>napracaṇḍa gaṇḍa <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="16"/>kaḷānaḷa virōdi <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="17"/>rideyānaḷaṁ sugrā
+<lb n="18" break="no"/>ma vijeyō kali <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="19"/>gaḍi mogada kai <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="20"/>siri cauprami <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="21"/>sājyaru malla <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="22"/>pāda mastakasū
+<lb n="23" break="no"/>(ra) śrī ma
+<lb n="24" break="no"/>nmahāmaṇḍaḷē
+<lb n="25" break="no"/>śvara kāṁbaya
+<lb n="26"/>(ceru) bemarasakoḷḷi
+<lb n="27"/>pākaya <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="28"/> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="29"/> <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 29.199 by <bibl><ptr target="bib:NarasimhaMurthy2022_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:NarasimhaMurthy2022_01"/>
+			<citedRange unit="page">220-221</citedRange>
+			<citedRange unit="item">199</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

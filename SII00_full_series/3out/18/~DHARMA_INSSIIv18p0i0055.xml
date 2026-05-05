@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.55: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 55. (B.K. No. 58 of 1933-34.) KŌṆANATAMBGI, HAVERI TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0055</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Two pieces of a stone lying in the temple of Kalamēśvara.</hi></p>						
+
+						<p>Jayasiṁha II—(Date lost).</p>						
+
+						<p>This fragmentary record refers itself to the reign of <hi rend="bold">Jayasiṁhadeva</hi> and mentions a <hi rend="italic">Mahāmaṇḍalēśvara</hi> (name lost) who had the <hi rend="italic">biruda</hi> ‘lord of Banavāsi.’</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>© namastuṁgaśiraścuṁbicaṁdracāmaracāravē traiḷōkyanagarāraṁbhamūḷastaṁbhāya saṁbhavē <g type="ddanda">.</g> © ©
+<lb n="2"/>© svasti samastabhuvanāśraya śrīprithvīvallabha mahārājādhirāja paramēśvara parama bhaṭṭā
+<lb n="3" break="no"/>rakaṁ satyāśrayakuḷatiḷakaṁ cāḷukyābharaṇaṁ śrīmajjayasiṁhadēvara rājyābhivṛddhipra
+<lb n="4" break="no"/>varddhamānamācaṁdrārkkatāraṁbaraṁ salu <gap reason="lost" quantity="5" unit="character"/> samadhigatapaṁcamahā śabda ma
+<lb n="5" break="no"/>hāmaṇḍaḷēśvaraṁ banavāsīpuravarēśva <gap reason="lost" quantity="10" unit="character"/> ṭakēsari sujana
+<lb n="6"/> <gap reason="lost" quantity="10" unit="character"/> vajrapaṁjaraṁ ripukuṁjarāṁ
+<lb n="7" break="no"/> <gap reason="lost" quantity="10" unit="character"/> vīraṁ vīravidyā <gap reason="lost" quantity="5" unit="character"/> <note n="43-1">The continuation is lost.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.55 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">43</citedRange>
+			<citedRange unit="item">55</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

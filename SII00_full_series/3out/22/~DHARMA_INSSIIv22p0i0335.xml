@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.335: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 335. (A.R. No. 335 of 1906) NORTH ARCOT DISTRICT, WALAJAPET TALUK, TIRUMĀLPURAM. RUINED VISHṆU TEMPLE—ON THE SAME WALL. RĀJARĀJA I—11th YEAR (A.D. 995-96)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0335</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records a gift of 96 sheep by one Māyileṭṭi Veṇkāḍaṉ of Paṭṭam in Āvūr-kūṟṟam in Śoḻanāḍu for burning a perpetual lamp before the image of Anumadēva (Hanūmān) set up by him. The donor is also stated to have endowed 10 <hi rend="italic">kaḻañju</hi> of gold left in charge of the <hi rend="italic">Ūrār</hi> of Vēḷkaḷa Veṇpākkam to provide for the daily offerings to the same deity with 2 <hi rend="italic">nāḻi</hi> of rice.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kā<hi rend="grantha">n</hi>taḷūrccālai ka<unclear>lamaṟut</unclear>ta ko
+<lb n="2" break="no"/><hi rend="grantha">rājarājakesari</hi>va<hi rend="grantha">nma</hi>ṟku yāṇṭu <hi rend="grantha"><unclear>1</unclear>1</hi>- tu
+<lb n="3"/>coṇāṭṭut teṉkarai Āvūrk <unclear>kūṟṟa</unclear>
+<lb n="4" break="no"/>ttup paṭṭamuṭaiyāṉ māyileṭṭi
+<lb n="5"/><unclear>veṇ</unclear>kāṭaṉeṉ toṇṭaināṭṭu <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="6"/><hi rend="grantha">śrī go</hi>vi<hi rend="grantha">n</hi>tapāṭiyil ṉā
+<lb n="7" break="no"/>neḻu<hi rend="grantha">n</hi>taruḷuvitta Anumate
+<lb n="8" break="no"/>varkku vaitta no<hi rend="grantha">n</hi>tā viḷakku O
+<lb n="9" break="no"/>ṉṟiṉukku Āṭu toṇṇūṟṟu
+<lb n="10"/>Āṟu cāvāmuvāp perāṭu
+<lb n="11"/>koṇṭu ca<hi rend="grantha">ntrā</hi>tittavaraiyu[m <hi rend="grantha">śrī</hi>]
+<lb n="12" break="no"/><hi rend="grantha">kārya</hi>m ce<supplied reason="omitted">y</supplied>yu<supplied reason="omitted">m</supplied> nampimāre ce
+<lb n="13" break="no"/>luttuvatākavum Aṉuma<unclear>t</unclear>eva
+<lb n="14" break="no"/>rkku nittamiruṉāḻi Ari<unclear>ci</unclear> Amu
+<lb n="15" break="no"/>toṉṟiṉu<hi rend="grantha">k</hi>ku tāmark koṭṭattu
+<lb n="16"/><hi rend="grantha">śrīgo</hi>vin=tapāṭippuṟattu <unclear>ve</unclear>
+<lb n="17" break="no"/>ḷkaḷa veṇpākkattūrom paṭṭamu<unclear>ṭai</unclear>
+<lb n="18" break="no"/>yār pakkalk koṇṭu kaṭava poṉ tan<hi rend="grantha">ma</hi>k
+<lb n="19" break="no"/>kaṭṭaḷait tuḷainiṟai patiṉkaḻañ
+<lb n="20" break="no"/>cu Ippoṉ koṇṭu kaṭavo 
+<lb n="21" break="no"/>m tāmarkkoṭṭattu <hi rend="grantha">śrī go</hi>vi<hi rend="grantha"/>
+<lb n="22" break="no"/><hi rend="grantha">n</hi>tapāṭippuṟattu veḷkaḷa ve
+<lb n="23" break="no"/>ṇpākkattūrom Ippoṉ
+<lb n="24"/>koṇṭa paricāvatu kaḻañcup
+<lb n="25" break="no"/>poṉṉukku Āṭṭai vaṭṭam Ai <gap reason="lost" quantity="2" unit="character"/> ṟi
+<lb n="26"/> <gap reason="lost" quantity="4" unit="character"/> nāṉāḻiyākap patiṉ <unclear>kaḻañcu</unclear>
+<lb n="27"/><unclear>p</unclear>oṉṉukku <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="28-30"/> <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="31"/>pomāṉom Ūrom <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="32"/><hi rend="grantha">k</hi>ku Iccilālekai veṭṭineṉ Āri <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="33"/>Āṉa <hi rend="grantha">śrī go</hi>vin=tapāṭi <hi rend="grantha">Ā<unclear>śā</unclear> <gap reason="lost" quantity="3" unit="character"/> </hi>
+<lb n="34"/>Eḻuttu Itu <hi rend="grantha">śrī</hi> vai<hi rend="grantha">ṣṇa</hi>va<hi rend="grantha">rrakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.335 by <bibl><ptr target="bib:SrinivasaRao1997_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1997_01"/>
+			<citedRange unit="page">272-273</citedRange>
+			<citedRange unit="item">335</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

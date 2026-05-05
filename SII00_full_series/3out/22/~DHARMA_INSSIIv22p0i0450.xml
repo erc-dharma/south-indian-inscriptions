@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.450: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 450. (A.R. No. 450 of 1906) MADURAI DISTRICT, MADURAI TALUK, KĪḺAḌI near ŚILAIMĀṈ On a stone set up near a channel. Kulaśēkhara, Year 22</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0450</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Records the construction of a channel.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:grantha maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī kulaśēkhara</hi>
+<lb n="2"/><hi rend="grantha"><unclear>bhū</unclear>patēḥ dvāvimśakē va</hi>
+<lb n="3" break="no"/><hi rend="grantha">tsarē <gap reason="lost" quantity="2" unit="character"/> ntaḥpaśyata <unclear>śrī</unclear></hi>
+<lb n="4" break="no"/><hi rend="grantha">mauli <unclear>ma</unclear></hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṇinā</seg><hi rend="grantha">traṇā</hi>
+<lb n="5"/><hi rend="grantha"><unclear>bhā</unclear>nōt bhū</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tinā <gap reason="lost" quantity="1" unit="character"/> </seg> <hi rend="grantha">kalyāṇē</hi>
+<lb n="6" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">nata <gap reason="lost" quantity="1" unit="character"/> </seg> <hi rend="grantha"><unclear>Ē</unclear>kāntabharaṇē</hi>
+<lb n="7"/><hi rend="grantha">śrīku<unclear>nda</unclear>bhāyāḥ- kratā</hi>
+<lb n="8" break="no"/><hi rend="grantha">tyāga <gap reason="lost" quantity="1" unit="character"/> syabṛhanna dī</hi>
+<lb n="9" break="no"/><hi rend="grantha"><unclear>tyabhi hi</unclear>tākulyē vaku</hi>
+<lb n="10" break="no"/><hi rend="grantha">lyāna vāḥ</hi>— <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">Ittiyāka</seg>
+<lb n="11" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ñciriyap perāṟu kaṇ</seg>
+<lb n="12" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṭāṉ Aṇṭanāṭṭu</seg>
+<lb n="13" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ttuṟumur Arayaṉ cū</seg>
+<lb n="14" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">riyatevaṉāṉa tev<unclear>e</unclear></seg>
+<lb n="15"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ntiravallava virā<unclear>ṭa</unclear></seg>
+<lb n="16" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><unclear>r</unclear>āyaṉ <unclear>Ēval</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied></seg>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.450 by <bibl><ptr target="bib:SrinivasaRao1999_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1999_01"/>
+			<citedRange unit="page">380</citedRange>
+			<citedRange unit="item">450</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

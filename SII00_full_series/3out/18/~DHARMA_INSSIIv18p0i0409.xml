@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.409: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 409. (B.K. No. 35 of 1934-35.) IṬGI, RANEBENNUR TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0409</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Sati stone on the tank bund.</hi></p>						
+
+						<p>This inscription records the death by <hi rend="italic">Sahagamana</hi> of <hi rend="bold">Chimmyi,</hi> wife a <hi rend="italic">Harikāra</hi> (name lost) in the cyclic year <hi rend="bold">Bhva, Jyēshṭha ba. 9, [Tuesday].</hi> The Śaka year is not given. The characters belong to the <hi rend="bold">14th century A.D.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/><unclear>bhā</unclear>vasaṁvatsara
+<lb n="2" break="no"/>da jyēṣṭarba <unclear>maṁ</unclear> <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="3"/>śrīmatu <unclear>harikāra</unclear>
+<lb n="4"/>ya <gap reason="lost" quantity="2" unit="character"/> pana ma
+<lb n="5" break="no"/>ga bāva <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="6"/>svargastanāda <g type="ddanda">.</g> [Ā]
+<lb n="7" break="no"/>tana madavaḷige vī
+<lb n="8" break="no"/>ramāsati ciṁmā
+<lb n="9" break="no"/>yi sahagamanava 
+<lb n="10"/>māḍi svargaprāpti
+<lb n="11"/>Adaḷu maṁga
+<lb n="12" break="no"/>ḷa mahāśrī <g type="ddanda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.409 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">476-477</citedRange>
+			<citedRange unit="item">409</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

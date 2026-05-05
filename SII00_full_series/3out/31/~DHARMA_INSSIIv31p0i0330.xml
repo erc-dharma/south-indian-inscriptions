@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 31.330: original edition by C. A. Padmanabha Sastri and T. S. Ravishankar</title>
+				<title type="alt">No. 330. (A.R. No. B 312 of 1936.) ĒṬŪRU, JAMMALAMADUGU TALUK, CUDDAPAH DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv31p0i0330</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>A slab in the Chennakēśava temple.</p>						
+
+						<p>16th century A.D.</p>						
+
+						<p>This damaged inscription can be dated to the 16th century on Palaeographical grounds.</p>						
+
+						<p>Mutilated and damaged. Seems to register some gifts of land in Ghaṇḍikōṭa-sīma and also refers to the digging of canal by Kāmpus.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2-3"/><ce>lines damaged</ce>
+<lb n="4"/> <gap reason="lost" quantity="5" unit="character"/> ratnaśi(si)ṁhvāsanamuṁ 
+<lb n="5-6" break="no"/><ce>lines damaged</ce>
+<lb n="7"/> <gap reason="lost" quantity="5" unit="character"/> śi(si)ṁhva sanamuṁ 
+<lb n="8"/> <gap reason="lost" quantity="10" unit="character"/> vuṁḍi navadhariṁci 
+<lb n="9"/> <gap reason="lost" quantity="10" unit="character"/> ghaṁḍikōṭisīmalōni 
+<lb n="10-11"/><ce>lines damaged</ce>
+<lb n="12"/> <gap reason="lost" quantity="2" unit="character"/> velicēnu <gap reason="lost" quantity="5" unit="character"/> maḍigrāmaṁ 
+<lb n="13"/> <gap reason="lost" quantity="3" unit="character"/> puḍiku <gap reason="lost" quantity="5" unit="character"/> 2 cēnuṁnu <gap reason="lost" quantity="2" unit="character"/> ṭi grāmaṁ 
+<lb n="14"/> <gap reason="lost" quantity="3" unit="character"/> kalanu kha 1 <gap reason="lost" quantity="3" unit="character"/> mu maḍini <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="15-16"/><ce>damaged</ce>
+<lb n="17"/>munu sa¨rvamānyamugānu jēsina dha 
+<lb n="18" break="no"/> <gap reason="lost" quantity="5" unit="character"/> nnu maḍinni kāṁ <gap reason="lost" quantity="3" unit="character"/> kālva tavvana kāṁpulu A<unclear>ṁ</unclear> 
+<lb n="19"/>daruṁnnu mīputra <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="20"/><unclear>caṁ</unclear>drā¨rkastāyigānu <gap reason="lost" quantity="5" unit="character"/> Iruvuṭṭini <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="21"/> <gap reason="lost" quantity="5" unit="character"/> nāmagōbrāṁ<unclear>hani</unclear> caṁppina 
+<lb n="22"/> <gap reason="lost" quantity="10" unit="character"/> bōvuduru <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 31.330 by <bibl><ptr target="bib:PadmanabhaSastri2013_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:PadmanabhaSastri2013_01"/>
+			<citedRange unit="page">338-339</citedRange>
+			<citedRange unit="item">330</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 11.70: original edition by C. R. Krishnamacharlu, R. S. Panchamukhi, N. Lakshminaraya Rao and H. K. Narasimhaswami</title>
+				<title type="alt">No. 70. (B.K. No. 261 of 1927-28). BHAIRANMAṬṬI, BAGALKOT TALUK, BIJAPUR DISTRICT. ON A SLAB LYING IN THE MĀRUTI TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv11p0i0070</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The inscription which is written in characters of about the 11th century A.D. is divided into two parts. The first part tells us that in the time of the Western Chāḷukya king <hi rend="bold">Taila II</hi> in <hi rend="bold">Śaka 911</hi> (mistake for 912) <hi rend="bold">Vikṛita,</hi> there was a <hi rend="bold">Sinda</hi> prince named <hi rend="bold">Pulikāla</hi> who had a son named Mahāsāmanta <hi rend="bold">Nāgatiyarasa.</hi> It registers a grant of land which had been made by Nāgatiyarasa to a priest named Paratraya <hi rend="bold">Siṁharāśi-Bhaṭṭa.</hi> It is added that Nāgatiyarasa's grandson <hi rend="bold">Sēvyarasa</hi> was a vassal of Bhuvanaikamalladēva (<hi rend="bold">Sōmēśvara II</hi><note n="61-1">The record must have</note>). The second part registers a grant which Nāgatiyarasa had made to a priest named <hi rend="bold">Tējōrāśi-Paṇḍita</hi> in the time of <hi rend="bold">Jayasiṁha II</hi> when the latter was reigning at <hi rend="bold">Koḷḷipāke</hi> in <hi rend="bold">Śaka 955, Śrīmukha (= A.D. 1033-34).</hi> This latter gift seems to be identical with the one recorded in the following epigraph.</p>						
+
+						<p>(Published in <hi rend="italic">Ep. Ind.</hi> Vol. III. pp. 230ff).</p>						
+
+						<p>In the readings given here by Dr. Fleet, the following changes may be made:—</p>						
+
+						<table>
+
+<c1><hi rend="italic">Line</hi> </c1><c2><hi rend="italic">Read</hi> </c2><c3><hi rend="italic">for</hi></c3>
+
+<c1>5 </c1><c2>Saṁghaṭṭaṇa </c2><c3>ºna</c3>
+
+<c1>7f </c1><c2>nannig = āsra (śra)ya </c2><c3>ºāshra (śra)ya</c3>
+
+<c1>9 </c1><c2>ēkā(ṁ)ṅga </c2><c3>ēkāṁja</c3>
+
+<c1>15 </c1><c2>Sindu-vishayāº </c2><c3>Sindaº</c3>
+
+<c1>15 </c1><c2>Bharadindaṁ niḍu-dōḷa </c2><c3>Bharadindu = niḍu-ḍōḷa</c3>
+
+<c1>16 </c1><c2>Kaḍambar = adhīśaṁ </c2><c3>ºadhīśa</c3>
+
+<c1>18 </c1><c2>mahībhri (bhṛi)tº </c2><c3>mahiº</c3>
+
+<c1>22 </c1><c2>ºbhūshite </c2><c3>bhūshita</c3>
+
+<c1>26 </c1><c2>maṇḍaḷēº </c2><c3>maṇḍalēº</c3>
+
+<c1>28 </c1><c2>mārttaṁḍanº </c2><c3>mārttaṁdan</c3>
+
+<c1>32 </c1><c2>maṁḍaḷīka </c2><c3>maṁdaḷika</c3>
+
+<c1>33 </c1><c2>vā[g-la]lanā </c2><c3>va • • lanā</c3>
+
+<c1>34 </c1><c2>kaḷahaṁsa </c2><c3>kalahaṁsa</c3>
+
+<c1>41 </c1><c2>paṟeghōshaṇaṁ </c2><c3>ºghōshaṇa</c3>
+
+<c1>44 </c1><c2>bhaṭṭārargge </c2><c3>bhaṭṭarargge</c3>
+
+<c1>47 </c1><c2>hanneraḍuṁ</c2><c3>brahmacharyyamº </c3><c4>hanneraḍu brahmach[ā*]ryyamº</c4>
+
+<c1>51 </c1><c2>Chāḷuky-º </c2><c3>Chāluky-º</c3>
+
+<c1>53 </c1><c2>saṁvatsaraṁ </c2><c3>saṁvatsara</c3>
+
+<c1>54 </c1><c2>mahāsāmaṁta </c2><c3>mahāsāma[ṁ*]ta</c3>
+
+<c1>55 </c1><c2>ºśamuṁ </c2><c3>ºśamu </c3>
+
+</table>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:undetermined maturity:undetermined">
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 11.70 by <bibl><ptr target="bib:Krishnamacharlu1940_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnamacharlu1940_01"/>
+			<citedRange unit="page">61</citedRange>
+			<citedRange unit="item">70</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 29.50: original edition by P. N. Narasimha Murthy</title>
+				<title type="alt">No. 50. (A.R. No. B. 189 of 1962-63.) MADDŪRU, ALAMPUR TALUK, MAHABUBNAGAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv29p0i0050</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab lying in the ruined Fort.</p>						
+
+						<p><hi rend="bold">Tribhuvanamalla [Vikramāditya VI] 1087 A.D.</hi> </p>						
+
+						<p>The top portion of the slab is broken and lost. Writing on the right side of the slab is also badly damaged. The record belongs to the reign period of Chālukya Tribhuvanamalladēva.</p>						
+
+						<p>It registers a gift of income from taxes for maintaining a perpetual lamp in the temple of Chintaka Rēchēśvara of Maddūru by Viṭṭapayya-Billamayya, the <hi rend="italic">kēṇiverggaḍe</hi> of <hi rend="italic">vaḍḍarāvuḷa</hi> and <hi rend="italic">biḷkoḍe</hi> (taxes), Rakkasayya Māchirāja, the <hi rend="italic">perggaḍe</hi> of <hi rend="italic">perjjuṁka,</hi> Chaṭṭimayya and others at the instance of the <hi rend="italic">vaḍḍarāvuḷa daṇḍanāyaka</hi> Mahēśvarayya when <hi rend="italic">daṇḍanāyaka</hi> Rudra-bhaṭṭōpādhyāya was governing over Ayje-300 division.</p>						
+
+						<p>The record is dated in the Chālukya Vikrama year 12, Prabhava, <hi rend="italic">uttarāyaṇa saṁkrānti.</hi> It corresponds to 1087 A.D., December 25 [Saturday].</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>First Face.</h4>-->
+
+<p>
+<lb n="1"/>svasti samasta bhuvanāśraya <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2"/>mahārājādhirāja paramē <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="3"/>satyāśraya kuḷatiḷakaṁ <unclear>cā</unclear> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="4"/>śrīmattribhuvanamalladē <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="5"/>levīḍinalsukha saṁkhathā <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="6"/>geyyuttamire śrīmattri <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="7"/>dhyarappa śrīmadayyaṁga <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="8"/>daṇḍanāyakaṁ śrī rudrabhaṭṭa <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="9"/>ru Ayje 300 maṁ sukhasaṁkathā <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="10"/>dadiṁ rājyaṁgeyyuttumire cāḷakya <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="11"/>ma varṣada 12 neya prabhava saṁvatsarada yu<unclear>tta</unclear>
+<lb n="12"/>rāyaṇa saṁkrānti nimittadiṁ maddūra cintaka
+<lb n="13"/>recēśvara dēvargge naṁdādīvigegeṁdu naḍuva
+<lb n="14" break="no"/>ṇa bhaṭṭiya vaḍḍarāvuḷa daṁḍanāyakaṁ ma
+<lb n="15" break="no"/>hēśvarayyana besadiṁ Ayje 300 vaḍḍarā
+<lb n="16" break="no"/>vuḷada bilkoḍeya kēṇiverggeḍe viṭṭapa
+<lb n="17" break="no"/>yya billamayyanuṁ rakkasayyanuṁ pe
+<lb n="18" break="no"/>rjjuṁkada perggaḍe mācirājanuṁ caṭṭimayyanuṁ
+</p>
+
+<!--<h4>Second Face.</h4>-->
+
+<p>
+<lb n="19"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="20"/> <gap reason="lost" quantity="10" unit="character"/> prayāge
+<lb n="21"/> <gap reason="lost" quantity="1" unit="character"/> mallikhārjjuna do
+<lb n="22" break="no"/>ḷ kavilaigaḷa brā
+<lb n="23" break="no"/>hmaṇaranaḷida pā
+<lb n="24" break="no"/>taka <g type="ddanda">.</g> svadattaṁ para
+<lb n="25" break="no"/>dattaṁ vayō ha
+<lb n="28" break="no"/>rēti vasuṁdharāṁ <supplied reason="undefined"><g type="danda">.</g></supplied> ṣa
+<lb n="29"/>ṣṭirvvarṣa sahasrā
+<lb n="30" break="no"/>ṇi viṣṭhāyāṁ jā
+<lb n="31" break="no"/>yatē krimiḥ <g type="danda">.</g>
+<lb n="32"/>māmā <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="33"/>ṟiṁge Ele <gap reason="lost" quantity="2" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 29.50 by <bibl><ptr target="bib:NarasimhaMurthy2022_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:NarasimhaMurthy2022_01"/>
+			<citedRange unit="page">56-57</citedRange>
+			<citedRange unit="item">50</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

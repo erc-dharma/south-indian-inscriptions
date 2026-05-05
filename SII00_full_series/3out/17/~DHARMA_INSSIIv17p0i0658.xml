@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.658: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 658. (A.R. No. 607 of 1904.) ŚRĪNIVĀSANALLŪR, MUSIRI TALUK, TIRUCHIRAPPALLI DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0658</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>At the entrance into the central shrine in the Rāmanāthasvāmin temple, left side.</p>						
+
+						<p>Rājarāja II. Year 7+1: 1153-54 A.D.</p>						
+
+						<p>For the reason stated above in No. 657 the king of this inscription also may be identified with Rājarāja II.</p>						
+
+						<p>It records a gift of a <hi rend="italic">gōmukha</hi> by one Śiṅgapperumāḷ <hi rend="italic">alias</hi> Tirunīṟṟuchchōḻa-Mūvēnda-vēḷāṉ to god Tāyilunallīśuramuḍaiyār.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> Irā
+<lb n="2"/>carācatevaṟku E
+<lb n="3" break="no"/>ḻāvatuk ketirā
+<lb n="4" break="no"/>māṇṭu mima
+<lb n="5" break="no"/>lai nāṭṭu cimā
+<lb n="6" break="no"/>kecurana<unclear>l</unclear>lū
+<lb n="7" break="no"/>(ā)r kāṇiyu muṭai
+<lb n="8" break="no"/>yar tāyiluna[*l]li
+<lb n="9" break="no"/>curamuṭaiyār
+<lb n="10"/>koyilun tiru<unclear>mu</unclear>
+<lb n="11"/>kkicuramuṭai
+<lb n="12"/>yar koyilun
+<lb n="13"/>taṇṭecurappe
+<lb n="14"/>ruvilai cimāke
+<lb n="15" break="no"/>cara<unclear>r</unclear> pakkal koṇ
+<lb n="16"/>ṭuṭaiya mattiya
+<lb n="17" break="no"/>ttan curāṅkuṭai
+<lb n="18" break="no"/>yān ciṅka
+<lb n="19"/>pperumāḷā
+<lb n="20" break="no"/>ṉa tiruniṟṟuc
+<lb n="21"/>coḻa muventa
+<lb n="22"/>veḷāṉeṉ In
+<lb n="23" break="no"/>nāyaṉāṟkuk
+<lb n="24"/>komukai cevi<unclear>t</unclear>
+<lb n="25" break="no"/>teṉ ciṅka
+<lb n="26" break="no"/>p perumāḷāṉa
+<lb n="27"/><unclear>ti</unclear>runiṟṟuccoḻa mu
+<lb n="28" break="no"/><unclear>ve</unclear>ṉta veḷāṉe
+<lb n="29"/><unclear>ṉ</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.658 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">300-301</citedRange>
+			<citedRange unit="item">658</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

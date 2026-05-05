@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 32, part 1, no. 46: original edition by S. Swaminathan</title>
+				<title type="alt">No. 46. (A.R. No. 143 of 1925.) TIRUVĀḌUTUṞAI, MAYAVARAM TALUK, TANJAVUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv32p1i0046</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the east wall of the central shrine in the Gōmuktīśvara temple.</p>						
+
+						<p><hi rend="bold">M.K. Parakēsarivarman (Parāntaka I) Year 38: 945 A.D.</hi></p>						
+
+						<p>Records that when the King worshipped the deity at Tiruvāvaḍutuṟai in Śāttaṉūr, a <hi rend="italic">brahmadēyam</hi> in Tiraimūr-nāḍu, on seeing that the shrine was being constructed in stone he donated five hundred <hi rend="italic">poṉ</hi> to cover the shrine from <hi rend="italic">Kuḍappaḍai</hi> upwards, in gold. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> matiraikoṇṭa kopparakeca
+<lb n="2" break="no"/>rivaṟma<unclear>ṟ</unclear>kku yāṇṭu <num value="38">3 <g type="numeral">10</g> 8</num> Āvatu [ kaṉṉi nā
+<lb n="3" break="no"/>yaṟṟu] tiraimurnāṭṭu <hi rend="grantha">brahma</hi>teyam cāttaṉūr
+<lb n="4"/><hi rend="grantha">śrī</hi> tiruvāvaṭutuṟai Āḷvārai perumāḷ
+<lb n="5"/>tiruva<unclear>ṭi</unclear>t toḻutu tirukkaṟṟaḷi ceykiṉṟatu ka
+<lb n="6" break="no"/>ṇṭaruḷi tirukka<unclear>ṟ</unclear>ṟaḷi ceyya <hi rend="grantha">Udakapurva</hi>ñ <unclear>ceyta</unclear>
+<lb n="7"/> <gap reason="lost" quantity="5" unit="character"/> Aiññūṟṟuk kaḻañcu Ippoṉ
+<lb n="8"/>koṇṭu kuṭappaṭaiye piṭittu melcey
+<lb n="9" break="no"/>kiṉṟatu <hi rend="grantha">śrī</hi>parāntakatevar poṉṉāl cey
+<lb n="10" break="no"/>kiṉṟa paṇi <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 32, part 1, no. 46 by <bibl><ptr target="bib:Swaminathan2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2012_01"/>
+			<citedRange unit="page">60-61</citedRange>
+			<citedRange unit="item">46</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

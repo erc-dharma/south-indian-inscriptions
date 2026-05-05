@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 40.229: original edition by K. Munirathnam</title>
+				<title type="alt">No. 229. (A.R. No. B. 274 of 1933.) Gaṇapavaram, Sattenapalle Taluk, Guntur District, Andhra Pradesh.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv40p0i0229</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a stone built into the wall of the Paṭṭābhirāmasvāmi temple.</p>						
+
+						<p>Damaged. Seems to refer to the consecration of the temple of Kalyāṇarāya and gift of some land in the year Parīdhāvi. Mentions Reḍḍi Tippa. An inscription on another stone refers to the temples built by Bāpi-Śeṭṭi Peddakagāru of Gārlapāḍu. In characters of the 15th century A.D.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>Damaged.</p>
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="5" unit="character"/> ¨rṣaṁbulu 
+<lb n="2"/> <gap reason="lost" quantity="5" unit="character"/> vatsara mā 
+<lb n="3" break="no"/> <gap reason="lost" quantity="10" unit="character"/> caṁdṛṁḍu 
+<lb n="4"/> <gap reason="lost" quantity="5" unit="character"/> brāhmaṇaṁ 
+<lb n="5" break="no"/> <gap reason="lost" quantity="5" unit="character"/> danāyani <gap reason="lost" quantity="3" unit="character"/> reḍḍi tippa 
+<lb n="6" break="no"/> <gap reason="lost" quantity="3" unit="character"/> camalapa <gap reason="lost" quantity="2" unit="character"/> tima Ācaṁ <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="7"/> <gap reason="lost" quantity="3" unit="character"/> nanu paridhāvī saṁvvatsa <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="8"/> <gap reason="lost" quantity="3" unit="character"/> kaḷyāṇarāyani guḍika <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="9"/> <gap reason="lost" quantity="5" unit="character"/> la samappiṁcenu śrī śrī śrī 
+</p>
+
+<p>On another stone in the same place.</p>
+
+<p>
+<lb n="1"/>gā¨rrapā 
+<lb n="2" break="no"/>ṭi bāpiśeṭi 
+<lb n="3"/>peddakagāru 
+<lb n="4"/>kaṭiṁccina dē 
+<lb n="5" break="no"/>vaḷālu 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 40.229 by <bibl><ptr target="bib:Munirathnam2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2019_01"/>
+			<citedRange unit="page">207-208</citedRange>
+			<citedRange unit="item">229</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

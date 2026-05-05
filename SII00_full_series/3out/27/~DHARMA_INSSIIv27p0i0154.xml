@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 27.154: original edition by M. D. Sampath, H. K. Narasimhamurthy, Madhav N. Katti and B. R. Gopal</title>
+				<title type="alt">No. 154. (A.R. No. 281 of 1931-32.) HOSĀḶA, UDIPI TALUK, SOUTH KANARA DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv27p0i0154</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab standing in a field called Sāleya ‘Subbana gadde’.</p>						
+
+						<p>Bhujabaḷarāya, [Narasiṁha] 1477 A.D.</p>						
+
+						<p>This badly damaged record registers a gift of lands to a maṭha. All other details are lost. The record refers to <hi rend="bold">Bhujabaḷarāya</hi> as the king. He is identical with Sāḷuva Narasiṁha.</p>						
+
+						<p>It is dated <hi rend="bold">Śaka 1399 (1400 current), • • • • • ba. 1, Thursday;</hi> the others details being lost. But in the given year corresponding to 1477 A.D., only in the month of Kārttika did the given <hi rend="italic">tithi</hi> occur on a Thursday; hence <hi rend="bold">1477 A.D. October 23</hi> might be the intended date of the record.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2"/><hi rend="bold"><unclear>śakava</unclear>rṣa 13<unclear>9</unclear>9</hi> saṁdu <hi rend="bold">nānū</hi>[<hi rend="bold">ṟane</hi>ya] <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="3"/><hi rend="bold"> <gap reason="lost" quantity="2" unit="character"/> ba 1 guruvāra</hi>dalu śrīma <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="4"/><hi rend="bold"> <gap reason="lost" quantity="3" unit="character"/> śrī vīra pratāpa bhujabaḷarā</hi>[<hi rend="bold">ya</hi>mahā] <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="6"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="7"/> <gap reason="lost" quantity="3" unit="character"/> ṭiya kaḻaniya nāraṇamē <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="8"/> <gap reason="lost" quantity="5" unit="character"/> kaṭisida maṭhake <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="9-21"/><ce>damaged</ce>
+<lb n="22"/> <gap reason="lost" quantity="5" unit="character"/> ya gaḍiyiṁdaṁ mūḍalu gade muḍe <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="23"/> <gap reason="lost" quantity="2" unit="character"/> ya gade <gap reason="lost" quantity="5" unit="character"/> ḍiya gadeyiṁdaṁ paḍuvalu Aṁṇahebāra gaḍiyiṁ
+<lb n="24"/>daṁ mūḍalu <gap reason="lost" quantity="10" unit="character"/> gaḍiyi
+<lb n="25"/>ṁdaṁ paḍuvalu <gap reason="lost" quantity="5" unit="character"/> mayaragaḍiyiṁdaṁ mūḍalu muḍe <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="26"/><unclear>mu</unclear>ḍamaneya <gap reason="lost" quantity="5" unit="character"/> gaḍiyiṁdaṁ paḍuvalu kruṣṇakāraṁtana gaḍi
+<lb n="27"/>yiṁdaṁ mūḍalu muḍi <unclear>4</unclear> <gap reason="lost" quantity="10" unit="character"/> muḍi Aki teru kaḷadu
+<lb n="28"/>muḍe 10 mattaṁ kāmaya Ayitāḷage <gap reason="lost" quantity="5" unit="character"/> <unclear>gadde</unclear> kōṭinātha <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="29"/> <gap reason="lost" quantity="2" unit="character"/> na gaḍiyiṁdaṁ paḍuvalu nāruseṭiya gaḍiyiṁdaṁ mūḍa
+<lb n="30"/>lu bittuva bhūmi muḍi 11 teru kaḷadu baha Akki muḍi 4¢ mattaṁ
+<lb n="31"/> <gap reason="lost" quantity="3" unit="character"/> kōṭiyappaseṭṭiya <gap reason="lost" quantity="5" unit="character"/> baḷiyavara gaḍiyiṁdaṁ pa 
+<lb n="32"/>ḍuvalu bā <gap reason="lost" quantity="2" unit="character"/> baḷiyavara gaḍiyiṁdaṁ muḍalu bayalu mu 5
+<lb n="33"/> <gap reason="lost" quantity="2" unit="character"/> gadde mu 13 teru davasa kaḷadu naḍasuva Akki muḍi 14 <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="34"/> <gap reason="lost" quantity="5" unit="character"/> vina<unclear>hā</unclear>ḷiyoḷage <gap reason="lost" quantity="2" unit="character"/> nāraṇaseṭṭi navage bi <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="35"/> <gap reason="lost" quantity="2" unit="character"/> biṭi sarvasva <gap reason="lost" quantity="2" unit="character"/> geddeya catusīmeya vivara bōmiya baḷiya
+<lb n="36"/>vara gaḍiyiṁdaṁ paḍuvalu koṭṭiya kēriya halara haḍuva <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="37"/>ḍiyiṁdaṁ mūḍalu bittuva bhūmimuḍi 1 <g type="ddanda">.</g> Adara <unclear>mu</unclear>ḍagā<unclear>ku</unclear>
+<lb n="38"/> <gap reason="lost" quantity="5" unit="character"/> mattaṁ <unclear>hāḍi</unclear>kereya nārāyaṇamayyara gaḍiyi
+<lb n="39"/>ṁdaṁ paḍuvalu <gap reason="lost" quantity="5" unit="character"/> yagaḍiyiṁdaṁ mūḍalu bittuva bhū
+<lb n="40"/>mi muḍi 2¢ mattaṁ <gap reason="lost" quantity="10" unit="character"/> seṭṭiya gaḍiyiṁdaṁ paḍu
+<lb n="41"/>valu bhūmi muḍi 0¢ <unclear>ku</unclear>ṁgana gaḍiya vivara <gap reason="lost" quantity="5" unit="character"/> gaḍiyiṁdaṁ
+<lb n="42"/>paḍuvalu muḍi <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="43"/> <gap reason="lost" quantity="1" unit="character"/> saṁgara gaḍiyiṁdaṁ paḍuvalu muḍi 0¢ mu <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="44"/><unclear>yya</unclear>ra gaḍiyiṁdaṁ paḍuvalu <gap reason="lost" quantity="5" unit="character"/> guḍeya kaṭṭina <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="45"/> <gap reason="lost" quantity="10" unit="character"/> baḷigade vivara <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="46"/><unclear>pa</unclear>ḍuvalu muḍi ¢ <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="47"/> <gap reason="lost" quantity="1" unit="character"/> kāraṁtana gaḍiyiṁdaṁ <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="48"/>yakara gaḍiyiṁdaṁ paḍuvalu <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="49"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="50"/> <gap reason="lost" quantity="5" unit="character"/> <unclear>mayara</unclear> gaḍiyiṁ tenkalu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="51"/> <gap reason="lost" quantity="10" unit="character"/> bayaloḷage <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="52"/> <gap reason="lost" quantity="10" unit="character"/> gaḍiyiṁdaṁ muḍalu muḍi 12 <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="53"/> <gap reason="lost" quantity="10" unit="character"/> baḷiyavara gaḍiyiṁdaṁ mūḍa <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="54"/> <gap reason="lost" quantity="10" unit="character"/> paḍuvalu Aṇamayyara <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="55-58"/><ce>damaged</ce>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 27.154 by <bibl><ptr target="bib:Sampath+al2001_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath+al2001_01"/>
+			<citedRange unit="page">251-252</citedRange>
+			<citedRange unit="item">154</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

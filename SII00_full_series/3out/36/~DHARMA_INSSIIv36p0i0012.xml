@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 36.12: original edition by P Shanmugam</title>
+				<title type="alt">No. 12. (A.R. No. 12 of 1910.) MUḌIGOṆḌAM (Muḍigoṇḍa), KOLLEGAL TALUK, COIMBATORE DISTRICT. On a slab built into the floor of the Śiva temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv36p0i0012</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Vishṇuvardhana. Undated. (A.D. 1110-1152.)</hi></p>						
+
+						<p>Incomplete and mutilated. Contains a list of conquests of the king.</p>						
+
+						<p>Published in <hi rend="italic">E.C.</hi> (n), Vol. IV, No. Kol. 108.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī manmahāma<unclear>ṇḍa</unclear> <gap reason="lost" quantity="5" unit="character"/> </hi>
+<lb n="2"/>van <hi rend="grantha">malla</hi> taḻaikka <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="3"/>naṅkili koyāṟ<unclear>ṟu</unclear>
+<lb n="4" break="no"/><unclear>va</unclear>nava<hi rend="grantha">si</hi> pānaṅka<unclear>l</unclear>
+<lb n="5"/><hi rend="grantha"><unclear>bhu</unclear>jabalasahā</hi>ya<hi rend="grantha"/>
+<lb n="6" break="no"/><hi rend="grantha"><unclear>ga</unclear>malla śrī</hi>vi<hi rend="grantha">[ṣṇu</hi>va<hi rend="grantha">] rddha</hi>na
+<lb n="7" break="no"/><hi rend="grantha">de</hi>van <hi rend="grantha">prathi</hi>vi<hi rend="grantha"><unclear>r</unclear>ā<unclear>jya</unclear>mā</hi>
+<lb n="8" break="no"/><unclear>ḷ</unclear>ā niṟka muṭiko<unclear>ṇ</unclear>ṭa
+<lb n="9" break="no"/><unclear>m</unclear>āna teciyuyyak k<unclear>o</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="10"/><unclear>pa</unclear>ṭṭaṇa <gap reason="lost" quantity="10" unit="character"/> ḷam
+<lb n="11"/>yi<unclear>va</unclear> ḷañ <gap reason="lost" quantity="10" unit="character"/> ci<unclear>ṟa</unclear>
+<lb n="12" break="no"/> <gap reason="lost" quantity="5" unit="character"/> <hi rend="grantha">śrī</hi> vala <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="13"/> <gap reason="lost" quantity="5" unit="character"/> ce <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="14"/> <gap reason="lost" quantity="10" unit="character"/> rāri<unclear>c</unclear> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 36.12 by <bibl><ptr target="bib:Shanmugam2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shanmugam2018_01"/>
+			<citedRange unit="page">11</citedRange>
+			<citedRange unit="item">12</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

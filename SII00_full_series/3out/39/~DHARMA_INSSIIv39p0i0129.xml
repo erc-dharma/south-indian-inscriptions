@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 39.129: original edition by K. Karuppiah</title>
+				<title type="alt">No. 129. (A.R. No. 129 of 1916.) ETTIYĀTTALI, ARANTANGI TALUK, TANJORE DISTRICT. AGASTYĒŚVARA TEMPLE-ON THE SOUTH WALL OF THE SAME MAṆḌAPA.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv39p0i0129</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription refers to the gift of 12 mā of land in Miḻalai nāḍu, a sub-division of Vaḍaveḷḷāṟṟūr nāḍu by the chief of Arantāṅgi for worshipping in the temple of Tiruvagattīśvaramuḍaiya-nāyaṉār. It is signed by Maṅgalarāyar of Māṅguḍi.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">satyam svastiśrī</hi> viḷampi varu<hi rend="grantha">ṣam</hi> ci<supplied reason="omitted">t</supplied>tirai mātam <gap reason="lost" quantity="3" unit="character"/> Aṟantāṅki Aracu niṉṟa <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="2"/>pperumāḷ toṇṭaimāṉārrom Iṭyūrtta<unclear>ḷi</unclear> tiruvakatticuramuṭaiya ṉāyanāṟku
+<lb n="3"/>ciṟukāla cantikku vaṭaveḷḷāṟṟu nāṭṭu miḻalaināṭṭu vayalil viṭṭa nilam <hi rend="grantha"> <gap reason="lost" quantity="1" unit="character"/> <num value="12"><g type="numeral">10</g> 2</num></hi>
+<lb n="4"/>yiṉṉilam paṉṉiraṇṭu māvu<unclear>kku</unclear>perunāṉkellaiyāvatu tirucūlakkallukkaḷu
+<lb n="5"/>kku Uḷpaṭṭa nilam tirun<unclear>ā</unclear>mattukkāṇiyāka cantirātittavaṟ cella Aṉupavikka
+<lb n="6"/>Itukku A<hi rend="grantha">hi</hi>ta<hi rend="grantha">m</hi> paṇṇiṉava<unclear>ṉ</unclear> <hi rend="grantha">gaṅ</hi>kaikkaraiyil kapilaiyaiyum <hi rend="grantha">br<choice><sic>a</sic><corr>ā</corr></choice>hma</hi>ṇaraiyum
+<lb n="7"/>koṉṟa pāvattile p<unclear>o</unclear>v<choice><sic>a</sic><corr>ā</corr></choice>ṉākavum Ippaṭi Uṭaiyavar Aruḷicceyaṟpaṭikku māṅkuṭi
+<lb n="8"/>Āḷuṭaiya nāyaṉār <gap reason="lost" quantity="5" unit="character"/> rāyar Eḻuttu 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 39.129 by <bibl><ptr target="bib:Karuppiah2020_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Karuppiah2020_01"/>
+			<citedRange unit="page">153</citedRange>
+			<citedRange unit="item">129</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

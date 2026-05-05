@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.37: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 37. (A.R. No. 304 of 1904.) TIRUGŌKARṆAM, PUDUKKOTTAI STATE. ON THE SOUTH FACE OF THE FIRST PILLAR (FROM THE RIGHT) IN FRONT OF THE ROCK-CUT CENTRAL SHRINE IN THE GŌKARṆĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0037</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records the gift of a <hi rend="italic">kaḻañju</hi> of gold for burning a lamp during the early morning service, in the temple of Tirugōkarṇattu-Mahādēva in Kaviram (?) a division of Valla-nāḍu by Sāma-Nāyakaṉ Kuḍaiyambaṭāraṉ of Vīraśōḻapuram (No. 39, <hi rend="italic">Pud. Ins.</hi>, Texts).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kopparakecariva
+<lb n="2" break="no"/>ṉma<supplied reason="omitted">r</supplied>kku yāṇṭu 3 Ivāṇṭu va
+<lb n="3" break="no"/>llanāṭṭu kavirapāl tirukkoka
+<lb n="4" break="no"/>raṇattu māteva<supplied reason="omitted">r</supplied>kku viracoḻa<unclear>pu</unclear>
+<lb n="5" break="no"/>rattu cāmanāyaka<unclear>ṉ</unclear> kuṭaiyam
+<lb n="6" break="no"/>paṭāra<supplied reason="omitted">ṉ</supplied> ciṟukālai Oru cantiviḷa
+<lb n="7" break="no"/>kku Erikka vaitta <hi rend="grantha"><unclear>p</unclear>o</hi>ṉ kaḻa
+<lb n="8" break="no"/>ñcu Ippo<unclear>ṉ I</unclear>ttaḷip pāratāya
+<lb n="9" break="no"/>ṉ kāṭam pucaṅkaṉum cāttam
+<lb n="10"/>puca<unclear>ṅ</unclear>kaṉu<supplied reason="omitted">m</supplied>
+<lb n="11"/>maḻapāṭi <unclear>ni</unclear>cca
+<lb n="12" break="no"/>lum Ivvaṉai
+<lb n="13" break="no"/>vomvacam I
+<lb n="14" break="no"/>tu cotiviḷakku
+<lb n="15"/>paṉmā<hi rend="grantha">he</hi>
+<lb n="16" break="no"/><hi rend="grantha">śvararakṣai</hi> ca
+<lb n="17" break="no"/>ntirā<hi rend="grantha">di</hi>ttaval E
+<lb n="18" break="no"/>rippatāka <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.37 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">18</citedRange>
+			<citedRange unit="item">37</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 15.203: original edition by P. B. Desai, Dines Chandra Sircar and G. S. Gai</title>
+				<title type="alt">No. 203. (B.K. No. 81 of 1928-29.) KŌḶŪR, HUNGUND TALUK, BIJAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv15p0i0203</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a pillar in the temple of Komārēśvara.</p>						
+
+						<p>Rāmachandra, 1307 A.D.</p>						
+
+						<p>This is dated Śaka 1229, Plavaṅga, Vaiśākha śu. 10, Thursday, corresponding to 1307 A.D., April 13.</p>						
+
+						<p>It refers to the maintenance of the gift of land made earlier to the god Guṇḍanātha of Bidure. The inscription is partly worn out and appears to be incomplete.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti śrīmatu yādavanārāyaṇaṁ bhujabaḷa
+<lb n="2" break="no"/>prauḍha pratāpa cakrava¨rti śrīrāmacaṁdravijeya
+<lb n="3" break="no"/>rāya rājyōdeyada sakava¨rṣa 1229 na pra(pla)vaṁga saṁ
+<lb n="4" break="no"/>vatsarada vaiśākha suddha 10 mi guruvāra daṁdu
+<lb n="5"/>bidu<unclear>re</unclear>yali guṁḍanātha dēvariṁge hālumaṁḍaga
+<lb n="6"/>12 ḍu mattaru pū¨rvvavādiyāgi biṭaṁtaha keI
+<lb n="7" break="no"/>yyanu taṁmma sajjeyaliṁga śrīguṁḍanāthaṁge ballarsu
+<lb n="8"/>sa¨rvvanamasyavāgi pālisutiddaru Avaru niṁdu
+<lb n="9"/>keṁcarsariṁge paṭṭavādalli vūriṁge pāḷeyava 
+<lb n="10"/>bēḍivaṁmma Eṁmmeya koḷakoṁḍa<unclear>ru</unclear> Eṁdaḍe keṁcarsa
+<lb n="11" break="no"/>ralliṁge hōgi niṁmma bidureya śrīguṁḍanāthadē
+<lb n="12" break="no"/><unclear>vara</unclear> kaygeniṁmma māṁnyakāṟaru pāḷeyava <unclear>bē</unclear>ḍu
+<lb n="13" break="no"/>tidāru muṁna balla<unclear>rsa</unclear>ru maṁnisuva dha
+<lb n="14" break="no"/>¨rmmavanu kaḍsuvudē niṁma sajjeyaliṁ<unclear>ga</unclear><note n="249-1">The record stops here abruptly.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 15.203 by <bibl><ptr target="bib:Desai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Desai1964_01"/>
+			<citedRange unit="page">248-249</citedRange>
+			<citedRange unit="item">203</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

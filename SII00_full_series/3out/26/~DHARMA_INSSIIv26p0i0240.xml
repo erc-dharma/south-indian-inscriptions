@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 26.240: original edition by P. R. Srinivasan</title>
+				<title type="alt">No. 240. (A.R. No. 228 of 1909.) ŚŌḺAMĀDĒVI, UDUMALAIPET TALUK, COIMBATORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv26p0i0240</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Same wall.</p>						
+
+						<p><hi rend="bold">Vīrachōḷadēva: Date lost: c. 12th—13th century.</hi></p>						
+
+						<p>This inscription is damaged and incomplete and the date portion is lost. It appears to record another gift of land to the same deity as figures in No. 239 above, by the king on the request of the same person figuring therein, whose full name, however, was Araiśan Paṟaiyan <hi rend="italic">alias</hi> Śūttira[rāyaṉ] Poyyāttamiḻan.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> viracoḻat(o)vaṟkkut tiruveḻuttiṭṭuc cellā niṉṟa tiru � <gap reason="lost" quantity="5" unit="character"/> �vatu ka� <gap reason="lost" quantity="5" unit="character"/> coḻamātevi <gap reason="lost" quantity="8" unit="character"/> 
+<lb n="2"/>cciyār<unclear>n</unclear>eṟiyiruntamaiyil tiruppaḷḷiaṟainācciyāraiye <gap reason="lost" quantity="10" unit="character"/> paṟaiyanāna cūttirarā <gap reason="lost" quantity="5" unit="character"/> �ta <gap reason="lost" quantity="1" unit="character"/> maḻana <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="3"/>vantu colli pūṅkataṉ kuṭimaiyil viṭuvitta nilattukku Ellaiyāvatu vi <gap reason="lost" quantity="1" unit="character"/> tā <gap reason="lost" quantity="3" unit="character"/> ṟpukkāṇikku meṟkum puṅkāperuṅkavarukku vaṭakkum peruva <gap reason="lost" quantity="3" unit="character"/> kiḻa <gap reason="lost" quantity="6" unit="character"/> na vi<unclear>ṭu</unclear>vitta tiruviḷakkuppuṟattukkut te <gap reason="lost" quantity="7" unit="character"/> 
+<lb n="4"/>n ṉānkellaikkuṭppaṭṭa vitaikalamum Amutupaṭiyāy vaḻinaṭaiccaṭṭi Oṉṟu <gap reason="lost" quantity="4" unit="character"/> vātiraittirune <gap reason="lost" quantity="5" unit="character"/> vitta nilattukku Ellaiyāvatu <gap reason="lost" quantity="6" unit="character"/> ṉattukku peruṅkavarukku � <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 26.240 by <bibl><ptr target="bib:Srinivasan1990_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Srinivasan1990_01"/>
+			<citedRange unit="page">155</citedRange>
+			<citedRange unit="item">240</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

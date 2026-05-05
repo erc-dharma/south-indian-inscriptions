@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.537: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 537. (A.R. No. 578 of 1912.) ON THE ROCKY FLOOR AT THE FOOT OF THE EAST WALL OF THE SECOND PRAKARA OF THE VIRABHADRA TEMPLE AT LEPAKSHI, SAME TALUK AND DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0537</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is dated the cyclic year <hi rend="bold">Khara, Śrāvaṇa, ba. 12</hi> in the reign of the Vijayanagara king <hi rend="bold">Achyutarāya-Mahārāya,</hi> corresponding to <hi rend="bold">A.D. 1531 August 9, Tuesday</hi> (not verifiable). It records the royal order to the <hi rend="italic">Gauḍas</hi> of <hi rend="bold">Cheluviṇḍla</hi> stating that the king made a gift of the village Cheluviṇḍla surnamed <hi rend="bold">Komāra-Veṅkaṭādriyapura</hi> to the god Pāpavināśana and <hi rend="bold">Gaṇapatihaḷḷi</hi> to <hi rend="bold">Virapaṇṇa</hi> of <hi rend="bold">Penugoṇḍa</hi> and that the ownership of both the villages was given to the latter.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>kharasaṁvatsarada śrāvaṇa ba 12 lū śrīmāmahārā<supplied reason="omitted">jā</supplied>dhirājan™ rājaparamēśvara śrīvīrapratāpa śrīvīraAcyutarāyamahārāyaru hāḍulakhayyana hōbaḷiya celuviṁḍla grāmada gauḍaprajegaḷige nirūpa niṁma grāmavanū lēpākṣi pāpavināśanadēvarige komāraveṁkaṭādriyapuraveṁdu penugoṁḍada śrī
+<lb n="2"/>virapaṁṇage gaṇapatihaḷiyanū celuviṁḍlagrāmake pratināmadhēyavāda veṁkaṭādriyapurava pāpavināśalēpākṣada vīrabhadradēvarigū <gap reason="lost" quantity="3" unit="character"/> dāna koṭeU vijenaga<unclear>ra</unclear>da paṭṭaṇada taḷavāṟa virūpaṁṇage śāsanastavāgi pālisideU virupaṁṇana Āṇe Āgnegoḷagāgi naḍaudāda kāraṇa Ā stitiyanu nirūpadi cittayisideU śrī
+<lb n="3"/>virapaṁṇa <g type="ddanda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.537 by <bibl><ptr target="bib:ShamaShastry+Rao1941_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:ShamaShastry+Rao1941_01"/>
+			<citedRange unit="page">556</citedRange>
+			<citedRange unit="item">537</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

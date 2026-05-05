@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 26.153: original edition by P. R. Srinivasan</title>
+				<title type="alt">No. 153. (A.R. No. 145 of 1909.) SAṄGRĀMANALLŪR, UDUMALAIPET TALUK, COIMBATORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv26p0i0153</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>North wall of the same shrine.</p>						
+
+						<p><hi rend="bold">Tribhº Kōṉēriṉmaikoṇḍāṉ (Vikramachōḷa): No date: c. 13th century.</hi></p>						
+
+						<p>This inscription is much damaged and its lower part is not available. It appears to record a gift made by the king of land in Kallāpuram <hi rend="italic">alias</hi> Vikra[ma*]chōḻanallūr in Karaivaḻi-nāḍu, to a certain Kaṇḍan Kāvan <hi rend="italic">alias</hi> Śivapattaṉ (Śivabhaktan).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> tribhu</hi>vanacca<hi rend="grantha">kra</hi>vattikonerin
+<lb n="2"/>maikoṇṭān kaṇṭan kāvanāna civapatta
+<lb n="3"/>ṉukku nam Olai kuṭuttapaṭiyāvatu karaivaḻi
+<lb n="4"/>nāṭṭuk kallāpuramāṉa vi<hi rend="grantha">kra</hi><supplied reason="omitted">ma</supplied>coḻanallū
+<lb n="5" break="no"/>ril nām Ivaṉukku Iṭṭa <gap reason="lost" quantity="4" unit="character"/> Onṟukku ni
+<lb n="6" break="no"/>lamāvatu
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 26.153 by <bibl><ptr target="bib:Srinivasan1990_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Srinivasan1990_01"/>
+			<citedRange unit="page">99</citedRange>
+			<citedRange unit="item">153</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

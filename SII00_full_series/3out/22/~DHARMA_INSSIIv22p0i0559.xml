@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.559: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 559. (A.R. No. 559 of 1906) CHITTOOR DISTRICT, PUNGANUR TALUK, AGASTYAKOṆḌA Agastyēśvara temple-On the base of the west wall Tribh. Vīrarājēndra-Chōḷadēva 14th year</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0559</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records the consecration of the image of Saint Tiruunāvukkaraśudēvar in the temple of Tiruvagattīśvaram-uḍaiya-nāyaṉār by Seyya Nambirāṭṭiyār, the wife of the chief Uttamaśōḻa-Gaṅgan <hi rend="italic">alias</hi> Śelva-Gaṅga who receives the epithets <hi rend="italic">Kuvaḷālapura-paramēśvara Gaṅgakulōttama, Kāvērīvallabha</hi> and <hi rend="italic">Nandagirinātha.</hi> The inscription seems to be one of Kulōttuṅga III.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tiripuvaṉac cakkaravattikaḷ <hi rend="grantha">śrī</hi>virarā<hi rend="grantha">jentra-</hi> coḻa tevaṟku yāṇṭu <num value="14"><g type="numeral">10</g> 4</num><g type="dash"/>Āvatu <hi rend="grantha">ja</hi>yaṅkoṇṭa coḻamaṇṭalattu vaṭapuli <unclear>n</unclear>āṭṭut tiruvakatticcuramuṭaiya nāyaṉārkku kuvalālapura parame<hi rend="grantha">śva</hi>
+<lb n="2" break="no"/>raṉ kaṅkakulottamaṉ kāverivallavaṉ nantakirinātaṉ Uttamacoḻak kaṅkarāṉa celva kaṅkar nampirāṭṭiyār <hi rend="grantha">ja</hi>yaṅkoṇṭa coḻa <hi rend="grantha"><unclear>dev</unclear>entra</hi>ciyarāyar <hi rend="grantha">pra <gap reason="lost" quantity="3" unit="character"/> </hi> yāta<supplied reason="omitted">va</supplied><hi rend="grantha">de</hi>var tirumakaḷār ceyya nampirāṭṭiyār
+<lb n="3"/>Eḻuntaruḷun tevarkaḷil tirunāvukkaracu tevarai Eḻuntaruḷivittu tiru <hi rend="grantha">pra</hi>ti<hi rend="grantha">ṣṭai</hi>yum paṇṇivittār <g type="ddanda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.559 by <bibl><ptr target="bib:SrinivasaRao1999_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1999_01"/>
+			<citedRange unit="page">445</citedRange>
+			<citedRange unit="item">559</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

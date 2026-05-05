@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 28.315: original edition by J. Sundaram</title>
+				<title type="alt">No. 315. (A.R. No. 469 of 1913.) KŪGAḶŪR, GOBICHETTIPALAIYAM TALUK, COIMBATORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv28p0i0315</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Madhyapurīśvara temple, north and east walls.</p>						
+
+						<p><hi rend="bold">Tribhuvanavīra Year 3. 10th day.</hi></p>						
+
+						<p>The writing of the inscription on the stone has been erased and damaged and some stones containing portions of the inscription are also missing. However as the text is a copy of an inscription found at Pāriyūr in the same taluk, and district (No. 185 of 1910) it has been possible to reconstruct the text.</p>						
+
+						<p>It records a royal order exempting several temples from the payment of <hi rend="italic">Voṭṭachchu</hi> as it had proved too burdensome. They were also freed from the obligation to pay the demands of officials and others. Mention is made of 600 <hi rend="italic">achchu</hi> and another 100 <hi rend="italic">achchu</hi> deposited, the latter being the amount diverted from dues payable to Toṇḍaimānār-patuvāra-achchu (?) payable on these said amount of <hi rend="italic">achchus</hi> which was also exempted from payment.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śrīpa</hi>rakecari <supplied reason="undefined"><g type="danda">.</g></supplied> <hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="danda">.</g></supplied> tribhu</hi>vanaca<hi rend="grantha"><unclear>kra</unclear></hi>vatti <hi rend="grantha">ko</hi>neri<hi rend="grantha">mai</hi> koṇṭān vaṭakoṅkil naraiyaṉū<unclear>r</unclear> nāṭu Aṭikkiḻt taḷamāna [rā<hi rend="grantha">ja</hi>]rā<hi rend="grantha">ja</hi>puramum poṅkalū<unclear>kkā</unclear>ṉāṭṭil kiraṉūruḷapaṭa Ū<supplied reason="omitted">r</supplied>kaḷu<unclear>m A</unclear>laṅkayam tanicciṭamum poṅkalūkkā ṉāṭum tenkarai nāṭum Aṇṭanāṭum talaiyūrnāṭum vaṭakarai maṇalū nāṭum A <gap reason="lost" quantity="7" unit="character"/> <note n="511-1">Some space on the stone between a and rai is left inscribed.</note>raiya nāṭum kiḻaṅka nāṭum veṅkala nāṭum taṭṭaiyūr nāṭumiṭaippūḻuti nāṭum kāṅkaiya nāṭum <gap reason="lost" quantity="10" unit="character"/> <note n="511-2">185 of 1910 which has an identical text has viracoḻa vaḷanāṭum paluppukkā nāṭum kuṟuppu nāṭum between kāṅkaiyanāṭum and vaṭaparicāranāṭum • āpparently the stone containing this missing portion has been lost.</note>vaṭaparicāra nāṭum <unclear>kāñcikkūṭal nāṭum pūntuṟai nā</unclear> <gap reason="lost" quantity="9" unit="character"/> <note n="511-3">This portion which is damaged can be restated with the help of 185 of 1910 has the following text viḻ which reads kiḻppānāṭum after pūntuṟai nāṭum and vaṭakaraināṭum</note>vaṭaka <gap reason="lost" quantity="7" unit="character"/> <note n="511-4">185 of 1910 has innāṭukaḷil after vaṭakarai</note> 
+<lb n="2"/><hi rend="grantha">śi</hi>va<hi rend="grantha">brāhma</hi>ṇak <hi rend="grantha">kā</hi>ṇiyāḷarkkum tānattāṟkum tiruppāṇṭi koṭumuṭit tānattāṟkum tirukkaruvūrt tānattāṟkum tirumukūṭat tānattāṟkum tiruveñcamākkūṭat tānattāṟkum tirumuru<unclear>ka</unclear>npūṇṭit tānattāṟkum Avināciyāḷuṭaiyār koyil tānattāṟkum taniyūrt tānattāṟkum nam Olai kuṭu<unclear>t</unclear>tapaṭiyāvatu Inṉāṭukaḷil<note n="512-1">After tiruk� and before koyil tirukkāppu 185 of 1910 has koyilkaḷukku pū<hi rend="grantha">jai</hi>yum kaṟiyamutupaṭiyum naṟtiruk stone continuning this portion of the present inscription is lost.</note>tirukkoyil<unclear>kaḷo</unclear>ṭṭaccum muṇṭu munpu yiṟuttup potukaiyil pinpu tirukke <gap reason="lost" quantity="10" unit="character"/> koyil tirukkāppuk koṇṭu<note n="512-2">This portion of the inscription which is erased can be restored as yiṟaiyāṟṟātu pokaiyil muṉṟāvatu mutal tirukkoyilkaḷiluḷḷa voṭṭa with the help 185 of 1910.</note> <gap reason="lost" quantity="12" unit="character"/> 
+<lb n="3"/>ccu Iḻantom kūttāṭu nāyanāṟkut tāṅkaḷiṭṭuk kuṭutta Amaippin paṭikku nam Olaiyiṭṭut taṇṭak kaṭavatall<choice><sic>a</sic><corr>ā</corr></choice>vākavum nāṭu piṭitta cāmantakaḷukku veṇṭukoḷ kuṭukkak kaṭavarkaḷallavākavum nam Olai Eṭut<note n="512-3">The stone containing the continuation of this line is missing. The missed portion can be restored with the help of 185 of 1910 tu varumavarkaḷukku nammeḻuttiṭṭuk kaḻaittu viṭum olaikku paṇam onṟum nam eḻutiṭṭamai colli viṭum olaikku</note> <gap reason="lost" quantity="10" unit="character"/> ppaṇam Onṟum kuṭuttup povārkaḷākavum nam tūtaṟku vaḻivaravu coṟiṭak kaṭavarkaḷallavākavum Ivarkaḷukku kai<supplied reason="omitted">y</supplied>yarici yerikka kaṭavarkaḷallavākavum Ippaṇamiraṇṭum ku<unclear>ṭuttu</unclear>p potumurkaḷ kuṭuttup potuvārkaḷākavum Ippaṭikku<note n="512-4">After ippaṭikku and before rkaḷ is the next line namakku iva is missing.</note>
+<lb n="4"/>rkaḷ tanta Accu Aṟuṉū<unclear>ṟu</unclear>m toṇṭaimā<unclear>n</unclear>āṟku kāriya vicattukkut tanta Accu nūṟumāka Accu Eḻuṉūṟum nam Olaippaṭi peṟṟāḷaṟk<unclear>ku</unclear>k kuṭukkaiyil Ivvaccukkup patuvār Accu<unclear>t</unclear>tarak kaṭavarkaḷalla<note n="512-5">In continuation before <hi rend="grantha">tribhu</hi>vanavi<hi rend="grantha">ra</hi> 185 of 1910 has vākavum ippaṭikku cempiluñ cilaiyilum veṭṭi koḷvārkaḷākavum ippaṭikkup piṭipāṭāka nam olai kuṭuttom</note> <hi rend="grantha"> <gap reason="lost" quantity="11" unit="character"/> tribhu</hi>naviratevaṟku yāṇṭu munṟāvatu nāṭ pattu § Ivai toṇṭaimān Eḻuttu—ivai kurukularā<unclear>yan</unclear> Eḻuttu—ivai veṇā<unclear>vu</unclear>ṭaiyān Eḻuttu— pa[ nmā<hi rend="grantha">heśva</hi>ra ra<hi rend="grantha">kṣai</hi>] <g type="ddanda">.</g> § 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 28.315 by <bibl><ptr target="bib:Sundaram2010_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sundaram2010_01"/>
+			<citedRange unit="page">511-512</citedRange>
+			<citedRange unit="item">315</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

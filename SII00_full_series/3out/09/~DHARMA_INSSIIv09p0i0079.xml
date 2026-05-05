@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.79: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 79. (A.R. No. 722 of 1922). ON A FRAGMENT OF A SLAB LYING IN FRONT OF THE SIVA TEMPLE AT GONAHALU, NEAR HAMPADEVANAHALLI, HOSPET TALUK, SAME DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0079</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is damaged and dated <hi rend="bold">Śaka 93[6], Śrāvaṇa • • • • •</hi> in the reign of the Chāḷukya king <hi rend="bold">Vikramādityadēva(V)</hi> and mentions <hi rend="bold">Iṟiva-Noḻambādhirāja</hi> and his queen. The god Mahākāḷadēva of <hi rend="bold">Pampā</hi> is also mentioned.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied> samastabhuvanāśraya śrīpri <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="2"/>vallabha mahārājādhirāja paramēsvaraṁ parama <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="3"/>ṭṭārakaṁ satyāśraya<unclear>kuḷatiḷaka</unclear> cāḷukyābhara <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="4"/>śrīmadvikramā<unclear>ditya</unclear> <gap reason="lost" quantity="10" unit="character"/> varu prituvī <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="5"/>jyaṁgeyyuttire <gap reason="lost" quantity="10" unit="character"/> palla <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="6"/>nvaya śrīprithvīvallabha <gap reason="lost" quantity="4" unit="character"/> kavākyaṁ
+<lb n="7"/>kāṁcīpuraparamēśvaraṁ mada <gap reason="lost" quantity="4" unit="character"/> śrīmadi
+<lb n="8" break="no"/>ḻi vanoḻaṁbādhirājara <gap reason="lost" quantity="3" unit="character"/> śrī <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="9"/>vabbarasiyaru svasti sakavarṣa 93<unclear>6</unclear> neya <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="10"/> <gap reason="lost" quantity="4" unit="character"/> tsarada srāvaṇamāsadoḷ paṁpā
+<lb n="11"/> <gap reason="lost" quantity="6" unit="character"/> mahākāḻadēvargge goṭṭa
+<lb n="12"/> <gap reason="lost" quantity="10" unit="character"/> pannasu <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.79 by <bibl><ptr target="bib:Shama+Rao1939_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shama+Rao1939_01"/>
+			<citedRange unit="page">50</citedRange>
+			<citedRange unit="item">79</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 27.393: original edition by M. D. Sampath, H. K. Narasimhamurthy, Madhav N. Katti and B. R. Gopal</title>
+				<title type="alt">No. 393. (A.R. No. 275 of 1931-32.) HOSĀḶA, UDIPI TALUK, SOUTH KANARA DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv27p0i0393</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Broken slab lying in the garden adjoining the tank at Chauḷikēri.</p>						
+
+						<p>Circa 15th century.</p>						
+
+						<p>This badly damaged fragmentary record refers to gift of land the details of which are all lost.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="3"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="10" unit="character"/> bāḷa catussīmeya <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="10" unit="character"/> doraja <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="6"/> <gap reason="lost" quantity="10" unit="character"/> dātana baḷiya <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="7"/> <gap reason="lost" quantity="10" unit="character"/> catussīmeya <unclear>Oḷa</unclear>guḷa baya <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="8"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="9"/> <gap reason="lost" quantity="5" unit="character"/> tettu śuddhagēṇi Akki <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="10"/> <gap reason="lost" quantity="5" unit="character"/> śuddhageṇi ga 50 <gap reason="lost" quantity="3" unit="character"/> teṁka <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="11"/> <gap reason="lost" quantity="5" unit="character"/> yiṁdaṁ paḍuvalu <gap reason="lost" quantity="1" unit="character"/> hara <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="12"/> <gap reason="lost" quantity="5" unit="character"/> yiṁdaṁ baḍagalu Iṁtīcatusīmeya Oḷagu <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="13"/> <gap reason="lost" quantity="5" unit="character"/> yage teṟu <unclear>ga 4</unclear> mattaṁ kuḍukora <gap reason="lost" quantity="1" unit="character"/> vāḍiyalu
+<lb n="14"/> <gap reason="lost" quantity="10" unit="character"/> ya bāḷa
+<lb n="15"/> <gap reason="lost" quantity="5" unit="character"/> ṇa koravi hāne 15 <gap reason="lost" quantity="5" unit="character"/> <note n="521-1">The</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 27.393 by <bibl><ptr target="bib:Sampath+al2001_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath+al2001_01"/>
+			<citedRange unit="page">521</citedRange>
+			<citedRange unit="item">393</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

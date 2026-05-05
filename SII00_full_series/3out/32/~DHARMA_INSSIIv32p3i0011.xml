@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 32, appendix, no. 11: original edition by S. Swaminathan</title>
+				<title type="alt">No. 11. (A.R. No. B 113 of 1895.) KĪLAPPAḺUVŪR, UDAIYARPALAIYAM TALUK, TIRUCHIRAPPALLI DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv32p3i0011</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the east wall of the <hi rend="italic">maṇḍapa</hi> in front of the central shrine, Vaṭamūlēśvara temple.</p>						
+
+						<p><hi rend="bold">Year 13: 984 A.D.</hi></p>						
+
+						<p>Records that Kuṇavaṉ Vaḍavāyil, a merchant, residing at Pāmbuṇi in Pāmbuṇikkūṟṟam made a gift of a copper pot, weighing seventy <hi rend="italic">(palam ?)</hi> to the god, Tiruvālanduṟai-Mahādēva of Śiṟupaḻuvūr, a <hi rend="italic">brahmadēyam</hi> in Kuṉṟa-kkūṟṟam. The temple servants <hi rend="italic">(dēvakanmigaḷ)</hi> received the gift and earmarked it to the god, Gaṇapatiyār.</p>						
+
+						<p>Published in <hi rend="italic">S.I.I.,</hi> Vol. V No. 674.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha"><unclear>sva</unclear>stiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> koppara
+<lb n="2" break="no"/>kecariva<hi rend="grantha">nma</hi>ṟkku yāṇ
+<lb n="3" break="no"/>ṭu <num value="13"><g type="numeral">10</g> 3</num> Āvatu kuṉṟakkū
+<lb n="4" break="no"/>ṟṟattu <hi rend="grantha">brahmade</hi>yam ciṟu
+<lb n="5" break="no"/>paḻuvūrt tiruvālantuṟai
+<lb n="6"/><hi rend="grantha">mahāde</hi>vaṟkku pāmpu
+<lb n="7" break="no"/>ṇikkūṟṟattu pāmpuṇi
+<lb n="8"/>Irukkum <hi rend="grantha">vyā</hi>pāri kuṇa
+<lb n="9" break="no"/>van vaṭavāyi(l)len kuṭutta
+<lb n="10"/>kalayappāṉai niṟai ceruviṭai
+<lb n="11" break="no"/>yāl Eḻupatu ceppu kalaiyappa
+<lb n="12" break="no"/>lai<note n="397-1">Read kalaiyappāṉai</note>Itu pa<supplied reason="omitted">n</supplied><hi rend="grantha">māheśvararakṣai�</hi>
+<lb n="13"/>Ic ceppuk kalacappā<unclear>ṉai vā</unclear>
+<lb n="14" break="no"/>ṅki <hi rend="grantha">ga</hi>ṇa<hi rend="grantha">pa</hi>tiyār <unclear>A</unclear>ṭṭu
+<lb n="15"/>viccom <hi rend="grantha">de</hi>vaka<hi rend="grantha">nmi</hi>ka<unclear>ḷom</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 32, appendix, no. 11 by <bibl><ptr target="bib:Swaminathan2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2012_01"/>
+			<citedRange unit="page">397</citedRange>
+			<citedRange unit="item">11</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

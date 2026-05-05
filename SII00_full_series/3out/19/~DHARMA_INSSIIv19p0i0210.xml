@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.210: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 210. (A.R. No. 204 of 1926.) ON THE WEST WALL OF THE SAME SHRINE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0210</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription fixes the details of daily expenditure in paddy towards the <hi rend="italic">pōnagam</hi> offerings to the god, a <hi rend="italic">dīpamālā</hi> of 16 lamps to be burnt both morning and evening, a rice offering to god Brahmā and a twilight lamp, in the temple of Tirupperunduṟai-Mahādēva to be met out of the 30 <hi rend="italic">kalam</hi> of paddy derived annualy from the <hi rend="italic">dēvadāna</hi> village of Puṉṟagai in Poygai-nāḍu.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kopparake<hi rend="grantha">sa</hi>ripa<hi rend="grantha">nma</hi><supplied reason="omitted">ṟ</supplied>kku yāṇṭu 8- Āva
+<lb n="2" break="no"/>tu Ārkkāṭṭukūṟṟattu <hi rend="grantha">brahmade</hi>yam <hi rend="grantha">ca</hi>
+<lb n="3" break="no"/><hi rend="grantha">ntra</hi>le<supplied reason="omitted">kai</supplied> catu<hi rend="grantha">rve</hi>timaṅkalattu tirupperuntuṟai
+<lb n="4" break="no"/><hi rend="grantha">mahāde</hi>varkku tevatāṉam poykaināṭṭu
+<lb n="5"/>puṉṟakaiyil nel Āḷvār Amutuceyumpaṭi paya
+<lb n="6" break="no"/>ṟṟuppoṉakattukku tiruvamutuarici Irunāḻiyurikku nel
+<lb n="7" break="no"/>lu kuṟuvāḷkūli Eṟṟi Añciraṇṭuvaṇṇattāl Aṟunāḻiuḻa<unclear>k</unclear>
+<lb n="8" break="no"/>kum tū<unclear>p</unclear>paruppu nāṭurikku payaṟu � Iru nāḻikku nellu nāḻi paya
+<lb n="9" break="no"/>ṟṟukku muṉnāḻi Āka nellu Aṟunāḻi ne<supplied reason="omitted">y</supplied>yamutu Āḻākkukku
+<lb n="10"/>nellu nāṉāḻiyum caṟkkaraiamutu Uḻakku nellu Irunāḻi Uriyum po
+<lb n="11" break="no"/>rikkaṟikku nellu muḻākkum viṟakukku nellu nāḻiyum Āka <unclear>ni</unclear>catappaṭi nellu
+<lb n="12" break="no"/>patakku nāṉāḻi Uriāka Orāṭṭaināḷaikku nellu <hi rend="grantha"><num value="7600">7 <g type="numeral">1000</g> 6 <g type="numeral">100</g></num> �</hi> ciṟukā
+<lb n="13" break="no"/>lai<hi rend="grantha">sandhi</hi>yil <hi rend="grantha">di</hi>pamālai <num value="16"><g type="numeral">10</g> 6</num> viḷakkeṟṟa Eṇṇai �yum Antiyam(p)
+<lb n="14" break="no"/>potai <hi rend="grantha">sandhi</hi>yil tipamālai <num value="16"><g type="numeral">10</g> 6</num> viḷakkeṟṟa Eṇṇai �yum Āka nicatam
+<lb n="15" break="no"/>eṇṇai � nāḻikku nellu na tūṇi vaṇṇamāka
+<lb n="16" break="no"/>ōrāṭṭaināḷaikku nellu <num value="120"><g type="numeral">100</g> 2 <g type="numeral">10</g></num>ḷa nūṟṟirupatin kalamum
+<lb n="17" break="no"/><hi rend="grantha">brahma</hi>rkku Oru <hi rend="grantha">sandhi</hi> tiruvamutu Arici 2pa Iru nāḻikku nellu
+<lb n="18" break="no"/><unclear>a</unclear>ññāḻiyum kaṟiyamutukku nellu nāḻiyum <hi rend="grantha">sandhi</hi>vi<hi rend="grantha"/>
+<lb n="19" break="no"/><unclear>ḷa</unclear>k keṟṟa Eṇṇaikku nellu Irunāḻiyum Āka nicatamum
+<lb n="20"/>kuṟuṇiyāka Ōrāṭṭaināḷaikku nellu <num value="30">3 <g type="numeral">10</g></num> ḷa <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.210 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">107</citedRange>
+			<citedRange unit="item">210</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

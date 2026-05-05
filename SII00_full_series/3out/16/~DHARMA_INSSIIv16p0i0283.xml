@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 16.283: original edition by H. K. Narasimhaswami and G. S. Gai</title>
+				<title type="alt">No. 283. (A.R. No. 823 of 1917.) VAḌIGEPALLI, HINDUPUR TALUK, ANANTAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv16p0i0283</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a boulder near the Āñjanēyasvāmin temple.</p>						
+
+						<p>Śrīraṅga I, 1573 A.D.</p>						
+
+						<p>This is dated <hi rend="bold">Śaka 1494, Śrīmukha, Āshāḍha śu. 11.</hi> The Śaka year quoted seems to be wrong for 1495. Āshāḍha was an intercalary month in Śrīmukha and the details probably correspond to <hi rend="bold">1573 A.D., July 10, (Friday)</hi> if the month quoted is taken as <hi rend="bold">Nija-Āshāḍha.</hi></p>						
+
+						<p>It registers the grant of the village Vaḍigepalya as <hi rend="italic">sarvamānya</hi> to Tirumala Komāra Tātāchrāya of Penugoṇḍa by the king for the merit of his mother Veṅggaḷāji-amma.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrīvijayābhyudaya 
+<lb n="2"/>śubhamastu śālivāhana śakava¨rṣaṁbulu 1494 Agunēṭi tadu 
+<lb n="3" break="no"/>pariva¨rtamā<unclear>na</unclear> śrīmukha sa<supplied reason="omitted">ṁ</supplied>va<unclear>tsa</unclear>ra Āṣāḍha śu 11 lu śrīraṁgadēva ma 
+<lb n="4" break="no"/>hārā<supplied reason="omitted">ya</supplied>lugāru tama talli veṁggaḷājiĀṁmmavāriki puṁṇyaṁgānu 
+<lb n="5"/>penugoṁḍa tirumala komāra tātācā(ṁ)ryula Āyavāriki vaḍi<unclear>ge</unclear> 
+<lb n="6" break="no"/>palyagrāmaṁ sa¨rvamānyaAgrahāraṁgānu <unclear>dhā</unclear>rabōsi yicina <unclear>dha</unclear> 
+<lb n="7" break="no"/>¨rmaśāsanaṁ yi dha¨rmānaku yavaru tapinānu tama tali<unclear>ta</unclear>ṁḍrula vāra 
+<lb n="8" break="no"/>ṇāsilōna vadhiyiṁcina pāpāna pōduru yiṣani yicina dha¨rmaśāsanaṁ 
+<lb n="9"/>śrīśrīśrīśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 16.283 by <bibl><ptr target="bib:Narasimhaswami1972_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Narasimhaswami1972_01"/>
+			<citedRange unit="page">288</citedRange>
+			<citedRange unit="item">283</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

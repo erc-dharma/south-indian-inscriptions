@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.106: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 106. (A.R. No. 106 of 1906) SOUTH ARCOT DISTRICT, TIRUKKŌYILŪR TALUK, JAMBAI. JAMBUNĀTHA TEMPLE—ON THE SAME WALL. ACHYUTADĒVA—Śaka 1552 (wrong for 1454)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0106</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The date is given as Nandana, Karkaṭaka, śu. 10, Monday, Rōhiṇi perhaps corresponding to A.D. 1532, September 9, but the month was Kanyā.</p>						
+
+						<p>This records an endowment, free of all taxes, of the village Ākkaippāḍi in Meykuṉṟa-nāḍu <hi rend="italic">alias</hi> Narippari-nāḍu in Magadai-maṇḍalam on the southern bank of the Peṇṇai for the requirements of worship and offerings during the service instituted in the name of the king in the temple of Tāmtōṉṟi-Āḷuḍaiyanayiṉār at Śaṇbai, by Vaiyappa-Nāyakkar. Mention is made of the administration (of the division) by Venkaṭādri-Nāyakkar.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śubhamastu <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> cu<supplied reason="omitted">vas</supplied>tti <hi rend="grantha">śrīma</hi>ṉmakāmaṇṭalecura metiṉi micurakaṇṭa
+<lb n="2"/>kaṭṭāri cāḷuva naraciṅkateva ku<unclear>mā</unclear>ra Accuttaiyatevamakā
+<lb n="3" break="no"/>irāyar piṟuti <supplied reason="omitted">vi</supplied> Irācciyam paṇṇi Aruḷāniṉṟa cakā
+<lb n="4" break="no"/><unclear>p</unclear>ttam <num value="1552"><g type="numeral">1000</g> 5 <g type="numeral">100</g> 5 <g type="numeral">10</g> 2</num> Itaṉmel cellāniṉṟa naṉtaṉa caṅk<supplied reason="omitted">vat</supplied>
+<lb n="5" break="no"/>ca<unclear>ra</unclear>ttu kaṟkaṭaka nāyaṟṟu pūṟuvapakki<hi rend="grantha">ṣa</hi>ttu tecamiyum coma(ma)vāramum
+<lb n="6"/>peṟṟa tiruv<supplied reason="omitted">o</supplied>ṇattu nāḷ <gap reason="lost" quantity="4" unit="character"/> peṇṇaivaṭakarai vā
+<lb n="7" break="no"/>ṇakoppāṭi nāṭṭil caṇpai Uṭaiyār tiruttām toṉṟi Āḷuṭaiya nayiṉā<unclear>ṟ</unclear>
+<lb n="8" break="no"/>ku vaiyyappa nāyakkar Ayyaṉ cūkāmi Accuttaiyateva m(ā)kā Irā<supplied reason="omitted">yar</supplied> cantikku pūcai
+<lb n="9"/>nayivaittiyaṅkaḷ Uṇṭāṉa kaṭṭaḷaipaṭikku kuṟaivara naṭakkattakkatāka veṅkaṭā
+<lb n="10" break="no"/>ttiri nāyakkar Atikārattil Irāvutta nallūr cirmaiyil nāṭṭavar muṉpāka 
+<lb n="11"/>viṭṭa peṇṇai teṉkarai makatai maṇṭalattu meykuṉṟa nāṭu Āṉa
+<lb n="12"/>narippari nāṭṭil Ākkaip p<choice><sic>a</sic><corr>ā</corr></choice>ṭi nañcai puñcai nāṟpāṟ kellaiyum
+<lb n="13"/>yiṉṉayiṉār <supplied reason="omitted">k</supplied>ku caṉtirātittavaraiyum celvatāka caṟuva Aṉait tāyamum
+<lb n="14"/>Iṟai<supplied reason="omitted">yi</supplied>li Āka Inta Ūr kalveṭṭiviṭṭom Ivvūriṟku Ellai kiḻpā<unclear>ṟkel</unclear>
+<lb n="15" break="no"/>lai cipāta nallūr <unclear>E</unclear>llaikku me<supplied reason="omitted">ṟ</supplied>kkum teṉpā<supplied reason="omitted">ṟ</supplied> kellai Arumpu
+<lb n="16" break="no"/>ṭaiyāṉpaṭṭu Ellaikkum māmāntūr Ellaikkum vaṭakku melpār<supplied reason="omitted">k</supplied> kellai
+<lb n="17"/>Ātanūr Ellaikku <unclear>kiḻa</unclear>kku vaṭapā<supplied reason="omitted">ṟ</supplied>kkellai cuttamallikai Ellaikkum taṉmam
+<lb n="18"/>Iṭṭa nallūr Ellaikkum teṟkku yiṉṉānku Ellaikku Uḷpaṭṭatum Iṉṉa
+<lb n="19" break="no"/>yiṉāṟku Iṟaiyili Āka viṭṭom yinta taṉmu<hi rend="grantha">t</hi>tukku Iyātoruvan Akutam paṇ<unclear>ṇi</unclear>
+<lb n="20" break="no"/>navan keṅkaikkaraiyil kārām pacuvaiyum taṉṉiṭaiya tāy takappaṉaiyum taṉ kuru
+<lb n="21" break="no"/>vaiyum koṉṟa pāvattile povāṉākavum <g type="pc"/>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.106 by <bibl><ptr target="bib:SrinivasaRao1983_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1983_01"/>
+			<citedRange unit="page">95-96</citedRange>
+			<citedRange unit="item">106</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.450: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 450. (A.R. No. 804 of 1922.) ON A PILLAR PLANTED IN FRONT OF THE TEMPLE OF SAKALĒŚVARA AT NAṆḌŪRU, BAPATLA TALUK, SAME DISTRICT. Ś. 1202. (Pramādi)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0450</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>States that <hi rend="italic">Mahāpradhāni</hi> <hi rend="bold">Gaṇapaddēva-Mahārāja</hi> made a gift of land to the temples of Kaṇṭharīśvara and Daśamīśvara of <hi rend="bold">Naṇḍūru.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svastiśrīśubha<unclear>śa</unclear> 
+<lb n="2"/>kavaruṣaṁbulu 
+<lb n="3"/>1202 gu nēṁṭi <unclear>pra</unclear> 
+<lb n="4" break="no"/>mādisaṁvatsara 
+<lb n="5" break="no"/>mu Uttarāya 
+<lb n="6" break="no"/>ṇasaṁkrāṁtti ni 
+<lb n="7" break="no"/>mityamugānu 
+<lb n="8"/>svastiśrīmanmahā 
+<lb n="9" break="no"/>prathāni rāyastāpanā 
+<lb n="10" break="no"/>cā¨ryya śrīmatu gaṇa 
+<lb n="11" break="no"/>paddēvamahārāju 
+<lb n="12" break="no"/>lu naṁḍūri ka<unclear>nṭha</unclear> 
+<lb n="13" break="no"/>rīśvaradēvarakū 
+<lb n="14"/>daśamīśvaradēvara 
+<lb n="15" break="no"/>kū niccina kṣētra<unclear>ṁ</unclear> 
+<lb n="16"/>kha 2 <gap reason="lost" quantity="1" unit="character"/> sapaṁggu 
+<lb n="17" break="no"/>kānika mannana 
+<lb n="18"/>Ācaṁdrā¨rkamu 
+<lb n="19"/>gānu 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.450 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">241</citedRange>
+			<citedRange unit="item">450</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

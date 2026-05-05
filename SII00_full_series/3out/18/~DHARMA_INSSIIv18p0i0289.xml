@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.289: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 289. (B.K. No. 82 of 1933-34.) CHANNAPUR, RANEBENNUR TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0289</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Stone near the ruined fort.</hi></p>						
+
+						<p>Tipu Sultān.</p>						
+
+						<p>This record of the <hi rend="bold">18th Century A.D.</hi> states that under the orders of <hi rend="bold">Tipu Sultān,</hi> the village of <hi rend="bold">Chennāpura,</hi> in the <hi rend="bold">Rāṇebennūr</hi> (division) was granted as <hi rend="italic">sarvamānya</hi> to a <hi rend="italic">Jūḍidār</hi> (name not specified) after receiving from him ninety <hi rend="italic">varāhas.</hi> The date of the record is <hi rend="bold">Parābhava, Mārgaśira.</hi></p>						
+
+						<p>The Sun, the Crescent of the Moon and some Urdu letters are engraved at the top. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>ṭipusulatāna bādaśāha
+<lb n="2" break="no"/>navaru paravāne <unclear>va</unclear>risidu
+<lb n="3"/><unclear>svasti</unclear> parābhavanama saṁ <g type="danda">.</g> rada mārgaśiramāsadallu haja
+<lb n="4" break="no"/>rata rāṇebeṁnora keḷaga naḍava ceṁnāpura
+<lb n="5" break="no"/>da grāmavaṁnu ga 90 toṁbha<unclear>ttu</unclear> varahāke sarva
+<lb n="6" break="no"/>māṁneda bhūmi horattu khālasāta bhūmi jūḍi
+<lb n="7" break="no"/>dāra(r)riṁdā baruvaṁ<unclear>tthā</unclear> juḍi khālasāta bhū
+<lb n="8" break="no"/>mi <g type="danda">.</g> bhaisā<unclear>ki</unclear> paṭe jūḍidārariṁda baruva
+<lb n="9"/>jūḍi paṭe sahā toṁbhattu varahā
+<lb n="10"/>pra <g type="ddanda">.</g> yīgrāmavaṁnu yināmu pāla
+<lb n="11" break="no"/>sidu sahi śāśvitabrahmakalpā
+</p>
+
+<p>On the left margin are engraved the following letters:—</p>
+
+<p>
+<lb n="1"/>jamālasi<unclear>si</unclear><note n="371-1"/>
+<lb n="2"/>śāhapa <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="3"/> <gap reason="lost" quantity="2" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.289 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">370-371</citedRange>
+			<citedRange unit="item">289</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

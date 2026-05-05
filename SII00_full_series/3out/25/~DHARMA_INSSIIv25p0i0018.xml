@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 25.18: original edition by M. D. Sampath</title>
+				<title type="alt">No. 18. (A.R. No. 18 of 1908.) DĀRĀŚURAM, KUMBAKONAM TALUK, THANJAVUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv25p0i0018</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>East wall of the first <hi rend="italic">prākāra</hi> in the Airāvatēśvara temple.</p>						
+
+						<p><hi rend="bold">Rājādhirāja II: Year lost.</hi></p>						
+
+						<p>This fragmentary inscription commences with the <hi rend="italic">praśasti, Kaḍalśūḻnda-pārmādarum,</hi> etc., of the king who ascended the throne in c. 1166 A.D.</p>						
+
+						<p>It seems to record a copy of the order of the king <hi rend="italic">(tirumugappaḍi)</hi> and refers to the king Tribhuvanachchakkaravartti Kō[nēriṉmaikoṇḍāṉ*]. The details of the record are lost.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kaṭal cūḻnta pārmātaṟām pūmātarum kalai <unclear>m</unclear>ātarum <unclear>A</unclear>ṭal cūḻnta <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2"/>muṭi puṉaintaruḷi A<unclear>ṟu</unclear>camaiyamu maimpūtamum neṟiyil <gap reason="lost" quantity="3" unit="character"/> tu pā <gap reason="lost" quantity="2" unit="character"/> ppat teṉṉavaruñ ceralaruñ <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="3"/>ḷippac cempo<unclear>n vi</unclear>ra<hi rend="grantha">siṅkhāsa</hi>ṉattu Ulakuṭai muk kokkiḻāṉapaṭikaḷoṭum viṟṟirunta <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="10" unit="character"/> taruḷivanta tirumukappaṭi tiripuvaṉac cakkaravartti ko <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="10" unit="character"/> m Inta <gap reason="lost" quantity="3" unit="character"/> mañcaṇai <gap reason="lost" quantity="10" unit="character"/> <note n="28-1">This inscription is incomplete and damaged.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 25.18 by <bibl><ptr target="bib:Sampath2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath2012_01"/>
+			<citedRange unit="page">27-28</citedRange>
+			<citedRange unit="item">18</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

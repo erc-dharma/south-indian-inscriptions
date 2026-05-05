@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.223: original edition by S. Swaminathan</title>
+				<title type="alt">No. 223. (A.R. No. 223 of 1912.) TIRUVOṞṞIYŪR, SAIDAPET TALUK, CHINGLEPUT DISTRICT. On the east wall, of the maṇḍapa infront of the Naṭarāja shrine, of Ādhipurīśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0223</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">King: Sadāśivarāya ? Year: <hi rend="italic">Śubhakrit, Paṅguni</hi>, 29.</hi></p>						
+
+						<p>Records the assignment of servants including Naṉbañjaṉ Kūttaṉ and also for a lamp to the deity <hi rend="italic">Tiruvoṟṟiyūr-uḍaiya tambirāṉār</hi>, for the merit of the king Śadā śivadēva mahārāyaṟ by Śaṟvaraśa Koṇḍamaśrayar.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>cupakiṟu varu<hi rend="grantha">ṣa</hi>m paṅkuni mātam <num value="29">2 <g type="numeral">10</g> 9</num> tiyati pūṟva<hi rend="grantha">dakṣi</hi>ṇa paccimauttira nālu camuttirātipati yā
+<lb n="2" break="no"/>na <hi rend="grantha">śrī</hi>maṉcatācivatevamakārāyaṟku puṇṇiyamāka caṟvaraca koṇṭamacarayar nayinār nayinārti
+<lb n="3" break="no"/>ruoṟṟiyūruṭ<unclear>ai</unclear>ya tampirānāṟku tiruviḷakkukku<note n="264-1">Read tiruviḷakkukku</note>Eṇṇūrpaṭṭu neyivā<supplied reason="omitted">r</supplied>tā<supplied reason="omitted">r</supplied> naṉpa
+<lb n="4" break="no"/>ñcaṉ kū<unclear>t</unclear>taṉ yivarkaḷ Uḷḷiṭṭ<unclear>ā</unclear>rai<unclear>yu</unclear>m taṉmacātanam paṇṇi kuṭuttom
+<lb n="5"/>yitukku<note n="264-2">Read yitukku</note>cakitam pa<note n="264-3">Incomplete.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.223 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">264</citedRange>
+			<citedRange unit="item">223</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

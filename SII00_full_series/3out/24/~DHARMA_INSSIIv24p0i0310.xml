@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 24.310: original edition by H. K. Narasimhaswamy</title>
+				<title type="alt">No. 310. (A.R. No. 121 of 1937-38.) NĀṈMUGAṈ-VĀŚAL, INNER WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv24p0i0310</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">No date</hi></p>						
+
+						<p>Records a royal order in Kannaḍa written in Grantha, to Śrīraṅga-Nārāyaṇa-Jīyyar, Uttama-Nambi, and the <hi rend="italic">Sthānikas</hi> of the temple that on the representation made to the king by Uttama-Nambi, a royal gift of land in the four villages Śuṇḍakkāyi, Gōvattakkuḍi, Toḍaiyūr and Karuṅguḷam, was made to Uttama-Nambi and his brother Chakrarāya for a service instituted in the temple in the name of Dēvarāya Mahārāya I and the brothers were made the agents (<hi rend="italic">karttas</hi>) of the temple, exempted from the payment of the <hi rend="italic">jōḍi</hi> on the granted lands and remunerated in cash and in kind, in addition to an eighth share in the contributions to the temple from these villages. The record is not dated.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:grantha maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śubhamastu <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīman mahārājādhirāja rājaparamēśvara śrīvīrapratāpa dēva rāyamahārāyarū śrīraṅganārāyaṇajīyari</hi>
+<lb n="2"/><hi rend="grantha">gēū Uttamanambiyarigēū sthānikarigēū <unclear>nirupa</unclear> <supplied reason="undefined"><g type="danda">.</g></supplied> śrīraṅganātha dēvarigē namma hēsaralu naṭapa Avasarakkē Ū <gap reason="lost" quantity="2" unit="character"/> rama hōt</hi>
+<lb n="3" break="no"/><hi rend="grantha">savakēkaū grāmagaḷu kōṭabēkēndu candrēgiriya cāvaḍiyalū śrīraṅganātha dēvarigē kōṭṭa grāmagaḷa jōḍhiyanu kaḷē</hi>
+<lb n="4" break="no"/><hi rend="grantha">yabēkēndu Uttamanamabi bandu nammapāddal</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">li</seg> <hi rend="grantha">bi <gap reason="lost" quantity="3" unit="character"/> mma māḍalāgi śrīraṅga nāthadēvarigē kōṭṭa śuṇḍakkāyi kō</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">vat</seg><hi rend="grantha">ta</hi>
+<lb n="5" break="no"/><hi rend="grantha">kkuḍhi candragiriya cāvaḍhiyalu grāmagaḷa jōḍi<unclear>ka</unclear>ḷada yinnū</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṟa</seg> <hi rend="grantha">Ayivattu hōnnu hiriyadēvarāyamahārāyaru kōṭṭa tō</hi>
+<lb n="6" break="no"/><hi rend="grantha">ḍē</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">yūr</seg> <hi rend="grantha">vijēyarāyamahārāyaru kōṭṭa <gap reason="lost" quantity="3" unit="character"/> vaḍacāvaḍiya karuguḷē <gap reason="lost" quantity="5" unit="character"/> grāmagaḷalū</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">Uttama</seg><hi rend="grantha">nambigē nāu kōṭṭa śu</hi>
+<lb n="7" break="no"/><hi rend="grantha">ṇḍēkāyalū rāyavibhāḍa nālkuvēli nēlanu kōvattakakuḍiyalū rāyavibhāḍa yēraḍu vēli nēlanu tōḍēyūral</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">l</seg><hi rend="grantha">ūrāyavibhā</hi>
+<lb n="8" break="no"/><hi rend="grantha">ḍa nālkuvēli nēlanu candragiriya cāvaḍiyalū nāu jōḍiya kaḷadannūra Ayiva</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ttu</seg> <hi rend="grantha">hōnninōḷagē mūvattu hōnnu paḍavī</hi>
+<lb n="9" break="no"/><hi rend="grantha">ḍa cāvaḍiya ka</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ru</seg><hi rend="grantha">ṅgaḷēyalū hāra hōnnu nēlanu ci</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ttayi</seg><hi rend="grantha">siyidal</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">la</seg><hi rend="grantha">dē</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">Utta</seg><hi rend="grantha">manambi gē śrīraṅganāthadēvara bhaṇḍāradalū Uma</hi>
+<lb n="10" break="no"/><hi rend="grantha">baḷiyāgi varuṣavōṅakēka <gap reason="lost" quantity="5" unit="character"/> ppa</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ttu</seg> <hi rend="grantha">hōnnu sāvirada yinnūru kala nēl</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">l</seg><hi rend="grantha">u yītanatamma cakrarāyagē varuṣavōṅakēka</hi>
+<lb n="11"/><hi rend="grantha">mumruḍavara varāhanūraēppattu hōnnu sāvaradayinnūru kala nēllanu yīśi kōm pahāṅgē ci</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ttayi</seg><hi rend="grantha">sidavāgi hōnnanu</hi>
+<lb n="12"/><hi rend="grantha">nēl</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">la</seg><hi rend="grantha">nu śrīraṅganāthadēvara bhaṇḍāradalū kōḍiśi śrīraṅganātha dēva(m)rigē nāvukōṭṭa grāmagaḷalu namagēbaha</hi>
+<lb n="13"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"> <gap reason="lost" quantity="2" unit="character"/> ṇaṟa</seg> <hi rend="grantha">lōṅu prasāda <unclear>nai</unclear>vēdyavanu</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">I</seg><hi rend="grantha">varigē kōḍiśi Uttamanambi cakrarāyaru Ēl</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">la</seg><hi rend="grantha">ra kaiyalū<unclear>mra</unclear>kōṭṭa grā</hi>
+<lb n="14" break="no"/><hi rend="grantha"> <gap reason="lost" quantity="3" unit="character"/> lū Avaravarigē <gap reason="lost" quantity="5" unit="character"/> nēlagaḷanu kōḍaśi dēvaraguḍhiyalu Avarigē baha � <gap reason="lost" quantity="1" unit="character"/> ṇara lōṅu prasāda naivē</hi> 
+<lb n="15" break="no"/><hi rend="grantha">dyavanu yivarigē kōḍiśi <gap reason="lost" quantity="1" unit="character"/> vara <gap reason="lost" quantity="3" unit="character"/> makakaḷu makakaḷu <gap reason="lost" quantity="3" unit="character"/> lāgi śrīraṅgada <gap reason="lost" quantity="3" unit="character"/> kai karktarāgi śrīraṅganātha dēvara pūja</hi>
+<lb n="16" break="no"/><hi rend="grantha">punaskāravanu naḍaśitha</hi><note n="322-1">for <hi rend="grantha">naḍaśidhavarigē</hi></note> <hi rend="grantha">ravigē <gap reason="lost" quantity="3" unit="character"/> vanikaki nāu māḍhi <gap reason="lost" quantity="5" unit="character"/> ḷē pramāṇina <gap reason="lost" quantity="5" unit="character"/> kō<supplied reason="omitted">m</supplied>bahāṅgē yīpramāṇigē Uttamana</hi>
+<lb n="17" break="no"/><hi rend="grantha">mbigē rāyasavanu cittayisitavāgi <gap reason="lost" quantity="5" unit="character"/> vanu dēvaraguḍi vahiyalū bara <gap reason="lost" quantity="5" unit="character"/> sanavanu baradu nāu kōṭṭa rāyasava</hi>
+<lb n="18" break="no"/><hi rend="grantha">nu dēvara bhaṇḍāradalū hari <gap reason="lost" quantity="10" unit="character"/> §</hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 24.310 by <bibl><ptr target="bib:Narasimhaswamy1982_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Narasimhaswamy1982_01"/>
+			<citedRange unit="page">321-322</citedRange>
+			<citedRange unit="item">310</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

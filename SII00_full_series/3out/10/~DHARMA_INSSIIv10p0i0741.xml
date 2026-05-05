@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.741: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 741. (A.R. No. 54 of 1912.) ON A PILLAR IN THE TEMPLE OF KĒŚAVASVĀMI AT CHŌḌAVARAM, VIRAVALLI TALUK, VIZAGAPATAM DISTRICT. Śaka year not given (Kāḷayukti).</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0741</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Records the consecration of the image of Garutmanta by <hi rend="bold">Boṇḍu Mallayya</hi> for the prosperity etc. of <hi rend="bold">Bhūpatirāvu Vallabharāja-Mahāpātra.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>kālayukti saṁva<unclear>tsa</unclear>ra caitra ba 
+<lb n="2"/>11 bu <gap reason="lost" quantity="1" unit="character"/> trṛēḍā beharā 
+<lb n="3" break="no"/>mahapātra śrībhūpa 
+<lb n="4" break="no"/>tirāvuvīrapratāpa 
+<lb n="5" break="no"/>val<unclear>la</unclear>bharājumahāpā 
+<lb n="6" break="no"/>tṛluṁgāra Āyu [ ¨rdā 
+<lb n="7" break="no"/>yā ] ¨rthaśidhigānunnu 
+<lb n="8"/>putrapautrābhivri 
+<lb n="9" break="no"/>dhigānunnu rājyā 
+<lb n="10" break="no"/>bhivridhigānunnu 
+<lb n="11"/>boṁḍu A<unclear>ppa</unclear>ya komā 
+<lb n="12" break="no"/>ruḍu mallaya ga<unclear>ru</unclear> 
+<lb n="13" break="no"/>tmaṁttunini pradhi 
+<lb n="14" break="no"/>ṣṭha sēyiṁccenu śrī 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.741 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">386</citedRange>
+			<citedRange unit="item">741</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

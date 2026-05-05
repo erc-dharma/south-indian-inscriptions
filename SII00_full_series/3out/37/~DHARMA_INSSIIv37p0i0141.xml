@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.141: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 141. (A.R. No. B 18 of 1940.) Gangapērūru, Siddhavatam Taluk, Cuddapah District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0141</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On two broken slabs lying in Survey No. 186.</p>						
+
+						<p>The beginning lost. It records the gift of taxes <hi rend="italic">(Kanikās)</hi> collected at the Liṅgālatīrtha by the <hi rend="italic">Reḍḍis</hi> and <hi rend="italic">Karnaṇas</hi> of Gaṅgapērūru to the goddess. Gaṇakalidēvi of Māchupali and other deities for the annual worship. In characters of the 15th century A.D.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="10" unit="character"/> lu 
+<lb n="2"/> <gap reason="lost" quantity="10" unit="character"/> śrīvīrapratā 
+<lb n="3" break="no"/> <gap reason="lost" quantity="5" unit="character"/> dēva mahārāyalu vidyānaga 
+<lb n="4" break="no"/> <gap reason="lost" quantity="10" unit="character"/> <g type="danda">.</g> ratna śihvā<unclear>sa</unclear>narūḍhuṁḍai vri<unclear>pṛ</unclear>dhvi 
+<lb n="5"/>sāmrājyaṁ <g type="ddanda">.</g> śēyuccuḍaggānu <g type="danda">.</g> svasti savista 
+<lb n="6"/>yakkala mahāśakti śrī svayaṁbhū <g type="ddanda">.</g> śrī <g type="ddanda">.</g> <unclear>śrī</unclear> 
+<lb n="7"/>maṁnmahāmāya śrīmācupali gaṇa<unclear>kali</unclear> 
+<lb n="8" break="no"/>dēvi<unclear>tana</unclear> tōṁbudugulaina gaṁga pērūri vuṭalaṁ 
+<lb n="9" break="no"/>maku varuṣamahōtsa<supplied reason="omitted">va</supplied>mapailunu tī¨rdhānu ga<unclear>ṁ</unclear> 
+<lb n="10"/>ga<unclear>ṁ</unclear> pērūri liṁgāla tī[¨rdhā]na kānikelu gaṁgapērū 
+<lb n="11" break="no"/>ri pedalu maku yicenu reḍi kariṇi <gap reason="lost" quantity="1" unit="character"/> valu ma <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="12"/>magānu migilina devalakānikalalōnu vuṭla <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="13"/>ṁma ti¨rdhānnu Istinani Icina silāśāśanaṁ <supplied reason="undefined"><g type="ddanda">.</g></supplied> <note n="113-1">na is written below the line.</note> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.141 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">113</citedRange>
+			<citedRange unit="item">141</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 24.480: original edition by H. K. Narasimhaswamy</title>
+				<title type="alt">No. 480. (A.R. No. 325 of 1952-53.) KŪRATTĀḺVĀR SHRINE, TIERS OF THE WEST WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv24p0i0480</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Śaka 1480 (1557 A.D.)</hi></p>						
+
+						<p>Damaged and fragmentary. Records a gift of land by Ēkāṅgi Naraśiṅgayya, a devotee of Bhaṭṭar, for the feeding of the Śrīvaishṇavas. The details of the date viz. <hi rend="bold">Śaka 1480, Piṅgaḷa, Āśvīja ba. 10, Sunday correspond to 1557 A.D., October 17, Sunday ·37., the Saka year quoted being current.</hi> </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>śrīmatē rāmānujāya namaḥ <g type="ddanda">.</g> svastiśrīvijayābhyudaya śālivāhana[śakava¨rṣaṁ bulu]
+<lb n="2"/>1480 Agunaṭṭi piṁgaḷa saṁvatsara Āsvija bahuḷa daśami Ādivāraṁnāḍu śrī
+<lb n="3" break="no"/>bhaṭṭaru śrīpādamaṁdugala yēkāṁgi narasiṁggayya Ammaṁmavāri Ā <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="4"/>śrī vai<unclear>ṣṇa</unclear>vulaku Āragiṁppa <gap reason="lost" quantity="2" unit="character"/> ni sama¨rpiṁcci <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="5"/><unclear>yaparā</unclear>yi kṣētraṁ bhōgyaṁ vaṭṭu Ā kṣētrāna vaccina balānanu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="6"/>gānu naḍapaṁgalavāru <g type="danda">.</g> dānapālanayō¨rmadhyē dānāchrēyō <gap reason="lost" quantity="5" unit="character"/> <note n="460-1">The rest is lost.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 24.480 by <bibl><ptr target="bib:Narasimhaswamy1982_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Narasimhaswamy1982_01"/>
+			<citedRange unit="page">459-460</citedRange>
+			<citedRange unit="item">480</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

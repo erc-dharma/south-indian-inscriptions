@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.213: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 213. (B.K. No. 169 of 1932-33.) SANGŪR, HAVERI TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0213</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Hero-stone in the fort on the way to the Varadā river.</hi></p>						
+
+						<p>Siṁghaṇa—A.D. 1233.</p>						
+
+						<p>This inscription is dated in the <hi rend="bold">25th year</hi> of the reign of <hi rend="bold">Simgaṇadēva, Nandana, Phālguṇa ba. 3, Tuesday,</hi> corresponding to <hi rend="bold">A.D. 1233, February 28.</hi> The week-day was, however, <hi rend="bold">Monday.</hi> It records a grant of land given as <hi rend="italic">nettaru-gey</hi> by <hi rend="bold">Sōva-gauḍa</hi> in memory of the carpenter <hi rend="bold">Sātōja</hi> who fought and died during a cattleraid by <hi rend="bold">Īśvaradēva</hi> when the latter attacked <hi rend="bold">Chaṅgūr</hi> (modern Sangūr). śvaradēva is called <hi rend="bold">Sinda-Gōvinda.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>© svasti śrīmatu yādavanārāyaṇaṁ bhujabaḷapratāpacakravartti
+<lb n="2"/>śrī siṁgaṇadēvavaruṣada 25 neya naṁdanasaṁvacharada phālguṇa ba 3
+<lb n="3"/>maṁgaḷavāradandu śrīmatu siṁdagōvinda [Ī]svaradēva caṁgūraniṟe
+<lb n="4" break="no"/>du tuṟuva koṁḍu hōhalli baḍagi sātōja tāgi taḷtiṟidu tuṟu
+<lb n="5" break="no"/>vaṁ maraḷci suralōkaprāptanādalli <g type="ddanda">.</g> śrīmatu sōgauḍanaṁ samasta pra
+<lb n="6" break="no"/>jegaḷuṁ mukṣavāgi koṭṭa netarugeyi kaṁba 20 kavaḷageṟeyali ga
+<lb n="7" break="no"/>ḍiya holanuṁ <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.213 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">290</citedRange>
+			<citedRange unit="item">213</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

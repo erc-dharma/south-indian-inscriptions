@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.219: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 219. (B.K. No. 127 of 1932-33.) KAḶḶĪHĀḶ, HAVERI TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0219</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Hero-stone set up in the temple of Durgā-Paramēśvari.</hi></p>						
+
+						<p>Siṁghaṇa—A.D. 1236.</p>						
+
+						<p>This inscription referring itself to the reign of <hi rend="bold">Siṁghaṇadēva,</hi> is dated in <hi rend="bold">Śaka 1157, Manmatha, Phālguṇa ba. 10, Tuesday,</hi> corresponding to <hi rend="bold">A.D. 1236, March 4, Tuesday.</hi> It records the death of a carpenter named <hi rend="bold">Lakhkhōja</hi> when <hi rend="bold">Pāṇḍyadēva</hi> of <hi rend="bold">Haluvāgilu</hi> attacked <hi rend="bold">Ajjaḍi.</hi> </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>First Panel.</h4>-->
+
+<p>
+<lb n="1"/>© svasti śrīmatu yādavanārāyaṇa pratāpacakrava
+<lb n="2" break="no"/>rtti siṁghaṇadēva prithvīrājyaṁgeyyuttirdda sakavarśa
+<lb n="3"/>1157 manumathasa[*]vachada phālguṇa bahuḷa 10 ma <g type="danda">.</g> ha<unclear>lu</unclear>
+<lb n="4" break="no"/>vāgila paṁḍyadēva Ajjaḍiyiniṟidalli baḍagi la
+<lb n="5" break="no"/>khkhōja kādida pa<unclear>ri</unclear> <g type="ddanda">.</g> parideyi tāgi bharadiṁ yari
+</p>
+
+<!--<h4>Second Panel.</h4>-->
+
+<p>
+<lb n="6" break="no"/>gaḷa mūdalisi hoyi<unclear>saḷa</unclear>lā <gap reason="lost" quantity="2" unit="character"/> ḷoḷu haīdalu <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="7"/>paribhavisi hōda <gap reason="lost" quantity="5" unit="character"/> palaranu <g type="ddanda">.</g> <gap reason="lost" quantity="2" unit="character"/> Ēriya
+<lb n="8"/> <gap reason="lost" quantity="10" unit="character"/> yara māda <gap reason="lost" quantity="5" unit="character"/> ḍeyo
+<lb n="9"/> <gap reason="lost" quantity="5" unit="character"/> suragaṇikeyaruyyalu kaḍugalitanavoppittu lakhkha
+<lb n="10"/>svargaprāptaṁ <g type="ddanda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.219 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">294-295</citedRange>
+			<citedRange unit="item">219</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

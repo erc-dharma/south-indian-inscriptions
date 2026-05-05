@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 26.742: original edition by P. R. Srinivasan</title>
+				<title type="alt">No. 742. (A.R. No. 691 of 1909.) TIRUNEḌUṄGAḶAM, LALGUDI TALUK, TIRUCHIRAPPALLI DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv26p0i0742</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Same wall.</p>						
+
+						<p><hi rend="bold">Rājarāja-Rājakēsarivarmaṉ: Year 14 = 998-99 A.D.</hi></p>						
+
+						<p>This inscription refers to the king as who destroyed the ships at Śālai, and who took Gaṅgapāḍi, Vēṅgai-nāḍu, Nuḷambapāḍi and Taḍigai-vaḻi.</p>						
+
+						<p>It records the gift of a certain gold ornament (crescent moon) weighing 6 <hi rend="italic">kaḻañju</hi> of <hi rend="italic">poṉ</hi> (gold) to the image of the god Kōḷagai (?) taken out in procession during the <hi rend="italic">Śrībali</hi> service in the temple of the god Tiruneḍuṅgaḷa [. .] Āḻvār of Kavira-nāḍu. It also records another gift of copper-tipped drum by the same donor.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> cālaikalamaṟutta kaṅkapāṭiyum veṅkaināṭum nuḷampapāṭiyum taṭikaivaḻiyum koṇṭa kovirā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>ke<hi rend="grantha">sa</hi>ripa<hi rend="grantha">nma</hi>kku yāṇṭup patinnālāvatu <unclear>kavi</unclear>ranāṭṭu tiruneṭuṅka<unclear>ḷa</unclear> <gap reason="lost" quantity="2" unit="character"/> Āḻvārkku <hi rend="grantha">śrī</hi>pali Eḻun=taruḷum koḷakai te
+<lb n="2" break="no"/>vaṟku cūralūrkkiḻavaṉ kampaṉ maṇiyaṉāna vikkiramaciṅkamuventaveḷānen ceyvittiṭṭa niṟaic cauma poṉ Āṟu kaḻañcu Ivvaṟu kaḻañcum Ivaneyiṭṭa ceppumukku mattaḷikkai <gap reason="lost" quantity="3" unit="character"/> Irupatt<hi rend="grantha">ai</hi>yi<hi rend="grantha"> <gap reason="lost" quantity="2" unit="character"/> </hi>Ivai pan<hi rend="grantha">māheśva</hi>rara<hi rend="grantha">kṣai <g type="ddanda">.</g><g type="dashLong">.</g></hi> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 26.742 by <bibl><ptr target="bib:Srinivasan1990_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Srinivasan1990_01"/>
+			<citedRange unit="page">534</citedRange>
+			<citedRange unit="item">742</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

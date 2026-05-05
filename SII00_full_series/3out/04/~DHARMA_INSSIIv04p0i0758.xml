@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 4.758: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 758. (A.R. No. 305 of 1892). ON ANOTHER STONE IN THE SAME OFFICE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv04p0i0758</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/><note n="248-1">The upper portion of the stone which is broken is missing.</note> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2"/>siṁganabō
+<lb n="3" break="no"/>yuṁḍu pa
+<lb n="4" break="no"/>ḍḍebōyuni
+<lb n="5"/>guṁṭṭa Utta
+<lb n="6" break="no"/>rāna saṁdhya
+<lb n="7" break="no"/>dīpānakaina 5
+<lb n="8"/>Uppalapāṭi Uttarāna na
+<lb n="9" break="no"/>pālapaṟti Īśānyāna kha 5
+<lb n="10"/>vallūripallipaḍmaṭa kha 2 ca
+<lb n="11" break="no"/>vuṭapallipaḍmaṭa kha 3 <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="12"/>naṁddi māriseṭi paṁ <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="13"/>kyanāgara<unclear>hāraṁ</unclear> bō <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="14"/>ni dakṣiṇāna
+<lb n="15"/>pātrabhōgā
+<lb n="16" break="no"/>naku kha 2 na
+<lb n="17"/> <gap reason="lost" quantity="2" unit="character"/> mara <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="18"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="19"/>ṭṭina cēnu na 5 cīḍebōyi
+<lb n="20" break="no"/>nikētana tama tallidda<unclear>ṁ</unclear>ḍriki <unclear>dha</unclear>ṁ
+<lb n="21" break="no"/>¨rmmu<supplied reason="omitted">vu</supplied>gā sa<unclear>ṁ</unclear>dhyadīpamunakuṁ be
+<lb n="22" break="no"/>ṭina modavu<unclear>luṁ</unclear> jēkoni pūjāru
+<lb n="23" break="no"/>lu naḍapaṁgalavārū <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 4.758 by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1923_01"/>
+			<citedRange unit="page">248</citedRange>
+			<citedRange unit="item">758</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 33.18: original edition by K. Munirathnam and T. S. Ravishankar</title>
+				<title type="alt">No. 18. (A.R. No. 124 of 1946.) Inagalūru, Pulivendla Taluk, Cuddapah District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv33p0i0018</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab set up in front of the dilapidated Chennakēśava temple.</p>						
+
+						<p>Sadāśiva 1547 A.D.</p>						
+
+						<p>This is dated <hi rend="bold">Śaka 1469, Plavaṅga, Bhādrapada śu. 12.</hi> corresponding to <hi rend="bold">1547 A.D., August 27, Saturday.</hi></p>						
+
+						<p>Damaged. Seems to record a gift by <hi rend="italic">Mahāmaṇḍalēśvara</hi> Rāmayadēva-Mahārāja and Yaṟaguḍi Tirumaladēva Mahārāja to the god Chennakēśava, who was worshipped by the <hi rend="italic">barber (Mangaḷa)</hi> community.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>śubhamastu <g type="ddanda">.</g> svasti śrī jayā 
+<lb n="2" break="no"/>bhyudaya śālivāhana śa 
+<lb n="3" break="no"/>kavaruṣaṁbulu 1469 A 
+<lb n="4" break="no"/>guneṭi plavaṁga saṁvvatsara bhādra 
+<lb n="5"/>pada śu 12 lu śrī manmahārā 
+<lb n="6" break="no"/>jādhirāja paramēśvara śrī vīra 
+<lb n="7"/>pratāpa śrī sadāsivarāya 
+<lb n="8" break="no"/>mahārāya (dēva) Anatini 
+<lb n="9"/>śrī manmahā ma(ṁ)ḍalēśvara rāma 
+<lb n="10" break="no"/>yadēva mahārāju maha 
+<lb n="11" break="no"/>dēvanu śrī manmahāmaṁ 
+<lb n="12" break="no"/>ḍalēśvara yaraguḍi tiru 
+<lb n="13" break="no"/>mala(ya) dēva mahārāju 
+<lb n="14"/>maṁgaḷavāri ceṁnukēśava na 
+<lb n="15"/>dha¨rmaśāsanaṁ <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="16"/> <gap reason="lost" quantity="10" unit="character"/> mīdha 
+<lb n="17"/> <gap reason="lost" quantity="10" unit="character"/> doṁmari 
+<lb n="18"/> <gap reason="lost" quantity="10" unit="character"/> maḍlu 
+<lb n="19"/> <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 33.18 by <bibl><ptr target="bib:Munirathnam2013_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2013_01"/>
+			<citedRange unit="page">13-14</citedRange>
+			<citedRange unit="item">18</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

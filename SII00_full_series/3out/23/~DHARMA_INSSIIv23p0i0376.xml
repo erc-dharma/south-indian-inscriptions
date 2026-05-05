@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 23.376: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 376. (A.R. No. 376 of 1907.) Māyūram, Mayuram Taluk, Tanjavur District Pañchanadēśvara temple—on the same wall</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv23p0i0376</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is dated in the 300th day of the 19th year of an unspecified king who might probably be Kulōttuṅga-Chōḷa III. The inscription is damaged. It seems to give the extent of lands and their yield in paddy as entered in the <hi rend="italic">uḷvari</hi> taxregisters of the temple by order of the king and attested by the <hi rend="italic">Puravuvari</hi> officers. Mention is made of such lands both tax paying and tax-free as were granted to the temple in the 21st year of Kulōttuṅga-Chōḷa (I) ‘who abolished the tolls’ and of those endowed by one Kuṟṟālamuḍaiyāṉ Tiruchchiṟṟambalamuḍaiyār who is said to have built (or rebuilt ?) the temple of Tiruvaiyāṟuḍaiyār with its courtyard, surrounding streets flower-garden called Vīrarākkadaṉ-tirunandavaṉam and a <hi rend="italic">maṭha</hi> called Vikkiramaśōḻaṉ-maḍam.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>yāṇṭu <num value="19"><g type="numeral">10</g> 9</num> ḷ <num value="300">3 <g type="numeral">100</g></num>- ṉāl niṅkalākkiṉapaṭi
+<lb n="2" break="no"/>kku Uḷvari <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">ja</hi>yaṅkoṇṭa coḻavaḷanā
+<lb n="3" break="no"/>ṭṭut tiruvaḻuntūr nāṭṭu kulot
+<lb n="4" break="no"/>tuṅkacoḻanallūrāṉa kulottuṅ
+<lb n="5" break="no"/>kacoḻaṉ ku<unclear>ṟ</unclear>ṟālam nilam <num value="10"><g type="numeral">10</g></num>li<hi rend="grantha">6�</hi>ṉāl
+<lb n="6"/> <gap reason="lost" quantity="5" unit="character"/> niccayitta <hi rend="grantha">I <num value="600">6 <g type="numeral">100</g></num></hi>
+<lb n="7"/>yuḷ n=ta<hi rend="grantha">2</hi> Uṭaiyār cuṅkan tavittaruḷi
+<lb n="8" break="no"/>ṉa kulottuṅka coḻatevaṟku <num value="210">2 <g type="numeral">100</g> <g type="numeral">10</g></num>
+<lb n="9" break="no"/>vatu Iṟaikkaṭṭiṉa nilattāl <hi rend="grantha">I <num value="6000">6 <g type="numeral">1000</g></num></hi>
+<lb n="10"/>taṅa<hi rend="grantha">ma</hi>ṭan=ta Iṟai kaṭṭāta nilattāl mu
+<lb n="11" break="no"/>ṉpu niccayitta <hi rend="grantha">I <num value="537">5 <g type="numeral">100</g> 3 <g type="numeral">10</g> 7</num></hi> ḷa <hi rend="grantha">I<num value="2000">2 <g type="numeral">1000</g></num></hi> Ā
+<lb n="12" break="no"/><hi rend="grantha">1i<num value="591">5 <g type="numeral">100</g> 9 <g type="numeral">10</g> 1</num></hi>ṅa<hi rend="grantha">kama</hi> Itaṉuḷ kuṟṟālamu
+<lb n="13" break="no"/>ṭaiyāṉ I <gap reason="lost" quantity="3" unit="character"/> tevaṉ tirucciṟṟampa
+<lb n="14" break="no"/>la muṭaiyar <gap reason="lost" quantity="8" unit="character"/> 
+<lb n="15"/> <gap reason="lost" quantity="3" unit="character"/> <unclear>Eḻun</unclear>taruḷuvitta tiruvaiyāṟuṭaiyā <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="16"/> <gap reason="lost" quantity="3" unit="character"/> lun tirumuṟṟamum tiruma<supplied reason="omitted">ṭ</supplied>ai
+<lb n="17" break="no"/>viḷākamum virarākkataṉ tiruna<supplied reason="omitted">n</supplied>tavaṉa <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="18"/>tiruma<supplied reason="omitted">ṭ</supplied>aiviḷākattu Ivar Eṭuppikkiṟa vik
+<lb n="19" break="no"/>kiramacoḻaṉ maṭamum Uḷḷiṭṭaṉavaiyi
+<lb n="20" break="no"/>ṟṟukku kollai nilattu muṉṉuṭaiyā
+<lb n="21" break="no"/>ru<supplied reason="omitted">m</supplied> Iṟaikaṭ<unclear>ṭu</unclear>kkuṭalāy varukiṟapaṭiyu<supplied reason="omitted">m</supplied>
+<lb n="22"/> <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="23"/> <gap reason="lost" quantity="3" unit="character"/> niṅkalāka nikkiṉa <hi rend="grantha">śrī</hi>koyilun ti
+<lb n="24" break="no"/>rumuṟṟamum tirumaṭaiviḷākamum Uḷḷiṭṭa
+<lb n="25"/>vaiyiṟṟukku nilam [ <num value="1001"><g type="numeral">1000</g> 1</num>- li] virarākkataṉ tiru
+<lb n="26" break="no"/>nantavaṉam nilam 4 li Āka nilam ruli ṉāli 
+<lb n="27" break="no"/>l Opātipaṭi Iṟai <hi rend="grantha">I <num value="373">3 <g type="numeral">100</g> 7 <g type="numeral">10</g> 3</num> ? 9</hi>ṅa nilam
+<lb n="28"/>4- ṉāl <gap reason="lost" quantity="5" unit="character"/> tta Opāti <hi rend="grantha">I <num value="300">3 <g type="numeral">100</g></num></hi>ruḷ <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="29"/> <gap reason="lost" quantity="8" unit="character"/> 
+<lb n="30"/>ttuṅkacoḻatevarkku <num value="21">2 <g type="numeral">10</g> 1</num>- ṟāvatu Iṟaika
+<lb n="31" break="no"/>ṭṭiṉa nilattopāti <hi rend="grantha">Iva�<num value="101"><g type="numeral">100</g> 1</num>nta<num value="300">3 <g type="numeral">100</g></num></hi> <gap reason="lost" quantity="5" unit="character"/> Iṟai
+<lb n="32"/>kaṭṭāta nilattāl muṉpu niccayitta vopā
+<lb n="33" break="no"/>ti <hi rend="grantha">I <num value="260">2 <g type="numeral">100</g> 6 <g type="numeral">10</g></num></hi>yaruṟu ḷ Āka <hi rend="grantha">I2</hi>pa <hi rend="grantha">3 <num value="200">2 <g type="numeral">100</g></num> <num value="9400">9 <g type="numeral">1000</g> 4 <g type="numeral">100</g></num>nta9 [<g type="danda">.</g>] nta</hi>
+<lb n="34"/>nikki nilam ruva6ṉāl <hi rend="grantha">ḷa <num value="383">3 <g type="numeral">100</g> 8 <g type="numeral">10</g> 3</num></hi>ḷa 3pa2ṭa <hi rend="grantha">2�nta</hi> ni
+<lb n="35" break="no"/>ccayitta <hi rend="grantha">I <num value="313">3 <g type="numeral">100</g> <g type="numeral">10</g> 3</num> <num value="12"><g type="numeral">10</g> 2</num>nta</hi> Uṭaiyār cuṅkantavi
+<lb n="36" break="no"/>ttaruḷiṉa kulottuṅka coḻatevarkku <num value="21">2 <g type="numeral">10</g> 1</num>- ṟāva
+<lb n="37" break="no"/>tu Iṟaikaṭṭiṉa nilattāl <hi rend="grantha">I<num value="300000">3 <g type="numeral">100000</g></num> <num value="1000"><g type="numeral">1000</g></num></hi>ṅapauṭa3cu I
+<lb n="38" break="no"/> <gap reason="lost" quantity="5" unit="character"/> muṉpu niccayitta <hi rend="grantha">I</hi>
+<lb n="39"/><hi rend="grantha"><num value="300">3 <g type="numeral">100</g></num>�<num value="1213"><g type="numeral">1000</g> 2 <g type="numeral">100</g> <g type="numeral">10</g> 3</num></hi>pa6pa <num value="3000">3 <g type="numeral">1000</g></num>- Āka <hi rend="grantha">I<num value="300">3 <g type="numeral">100</g></num>vākanavanta</hi>
+<lb n="40"/>Ivai puravari cikaraṇa nāyakam pālaiyūr kiḻa
+<lb n="41" break="no"/>vaṉ Eḻuttu Ivai puravari cikaraṇanāyakam
+<lb n="42"/>perunallūruṭaiyāṉ Eḻuttu Ivaipura
+<lb n="43" break="no"/>vari cikaraṇa nāyakam pantaṇai nallūruṭai
+<lb n="44" break="no"/>yāṉeḻuttu Ivai puravari cikaraṇa nāyaka
+<lb n="45" break="no"/> <gap reason="lost" quantity="3" unit="character"/> maluṭaiyāṉ Eḻuttu Ivai puravari cika
+<lb n="46" break="no"/>raṇamukaveṭṭi perumaṅkala muṭai<unclear>yāṉ</unclear>
+<lb n="47"/><unclear>E</unclear>ḻuttu Ivaipuravari cikaraṇa mukaveṭṭi teṟku <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="48"/>ṉeḻuttu Ivai kacciyarāyaṉ Eḻuttu
+<lb n="49"/>Ivai campeṟṟaraiyaṉ Eḻuttu
+<lb n="50"/> <gap reason="lost" quantity="3" unit="character"/> ṉṟaṅkiḻāṉ Eḻuttu Ivai puravari cikaraṇa
+<lb n="51" break="no"/>ttu mukaveṭṭi pantaṇai nallūruṭaiyāṉ
+<lb n="52"/>Eḻuttu Ivai puravaricikaraṇattu mukave
+<lb n="53" break="no"/>ṭṭi U<unclear>ḻu</unclear>ntaiyuṭaiyāṉeḻuttu <g type="ddanda">.</g><g type="dash">.</g>ivai
+<lb n="54"/>veṇāṭṭarayaṉ ṉeḻuttu <g type="danda">.</g>-ivai coḻako
+<lb n="55" break="no"/>ṉ Eḻuttu <g type="ddanda">.</g><g type="dash">.</g>ivai paḻantiyarāya ṉeḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 23.376 by <bibl><ptr target="bib:SrinivasaRao1979_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1979_01"/>
+			<citedRange unit="page">263-264</citedRange>
+			<citedRange unit="item">376</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

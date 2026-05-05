@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 41.298: original edition by S. Rajagopal</title>
+				<title type="alt">No. 298. (A.R. No. 514 of 1905.) Tiruveḷḷaṟai, Tiruchirappalli Taluk, Tiruchirappalli District. On the west wall of the central shrine in Siva (Jambunātha) temple at Tiruveḷḷaṟai.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv41p0i0298</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Chōḻa, Rājakēsarivarmaṉ, Year 2 = c. 10th Century A.D.</hi></p>						
+
+						<p>The inscription records an agreement given by <hi rend="italic">mulaparuḍai</hi> of Thiruveḷḷaṟai to burn a perpetual lamp in the temple of Tiruvānaikkallil-Bhaṭṭārakar with the interest on 25 <hi rend="italic">kaḻañju</hi> of gold endowed by Marudan Āchchan of the <hi rend="italic">sankarappāḍi</hi> in Tiruveḷḷaṟai.</p>						
+
+						<p>[Published in <hi rend="italic">SII</hi>, vol. XIII, No. 4.]</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> korācakecari <hi rend="grantha">pa</hi>ṟ<hi rend="grantha">mma</hi><supplied reason="omitted">r</supplied>kku yāṇṭu 2 <supplied reason="omitted">I</supplied>raṇṭā(ā)vatu tiruveḷḷaṟai caṅkarappāṭi marutan Āccan tiruvāṉaikkal<unclear>li</unclear>l <hi rend="grantha">bha</hi>ṭṭārakaṟkku vai<supplied reason="omitted">t</supplied>ta no<supplied reason="omitted">n</supplied>tāviḷakku 1 Onṟu Itukku vaitta
+<lb n="2"/>poṉ <hi rend="grantha">2<supplied reason="omitted">5</supplied></hi> Irupat<unclear>tu</unclear> Aiṅkaḻaiñcu Itumutalniṟkkappalicaiyāl <hi rend="grantha">candrādi<unclear>tya</unclear></hi>vaṟ Erippommānomivvūr mulaparu
+<lb n="3"/>ruṭaiyom <hi rend="grantha">rakṣai <g type="ddanda">.</g><g type="dashLong">.</g></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 41.298 by <bibl><ptr target="bib:Rajagopal2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Rajagopal2019_01"/>
+			<citedRange unit="page">325</citedRange>
+			<citedRange unit="item">298</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

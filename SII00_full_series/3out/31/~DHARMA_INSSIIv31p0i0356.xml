@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 31.356: original edition by C. A. Padmanabha Sastri and T. S. Ravishankar</title>
+				<title type="alt">No. 356. (A.R. No. B 61 of 1938.) JAṀBUKĒŚVARAM, TRICHINOPOLY TALUK AND DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv31p0i0356</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the west wall of the Śankarālaya in the fourth <hi rend="italic">prākāra.</hi></p>						
+
+						<p>18th century A.D.</p>						
+
+						<p>Contains some of the laudatory verses on God Śiva composed by Sadāśiva Makhīndra.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>śivanāmatrayaṁ śivaśaṁbhō mahādēva <g type="danda">.</g> dhyānaṁ <g type="danda">.</g> 
+<lb n="2"/>dhamā¨rrdhadhaṁ śivannityaṁ kāmadaṁ śuṁbhumēvaca <g type="danda">.</g> mōkṣapradaṁ 
+<lb n="3"/>mahādēvaṁ <g type="danda">.</g> dhyāyetsa¨rvā¨rdhasiddhayē <g type="danda">.</g> phalaśruti <g type="danda">.</g> manōvākkā 
+<lb n="4" break="no"/>yajaṁ pāpaṁ kōṭijanmā¨rjjitaṁ ma¨rhāśivaśaṁbhō mahādēva <g type="danda">.</g> 
+<lb n="5"/>kī¨rttinādēva gacciti śivanāmakayaṁ yastu sakpatpaṁti 
+<lb n="6"/>mānavaḥ <g type="danda">.</g> mahāpātakānāṁ pāka¨rmucyatē nātra saṁśayaḥ <g type="danda">.</g> 
+<lb n="7"/>paṁcākṣara svarūpatyāt nkāmakāṁtta¨rgakuryataḥ 
+<lb n="8"/>Aṣṭākṣara svarūpatvātnnāmatraya mudāhṛtaṁ 
+<lb n="9"/>śaivannāma krayaṁlōke <g type="danda">.</g> jayatisma sanātanaṁ 
+<lb n="10"/>sadāśiva makhīṁdrēṇa guruṇā saṁprakāśitaṁ <g type="ddanda">.</g> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 31.356 by <bibl><ptr target="bib:PadmanabhaSastri2013_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:PadmanabhaSastri2013_01"/>
+			<citedRange unit="page">354-355</citedRange>
+			<citedRange unit="item">356</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

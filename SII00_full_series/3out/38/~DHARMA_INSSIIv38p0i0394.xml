@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.394: original edition by S. Swaminathan</title>
+				<title type="alt">No. 394. (A.R. No. 394 of 1912.) DĒVIKĀPURAM, ARNI TALUK, NORTH ARCOT DISTRICT. On the second gōpura, right of entrance, Bṛihadāmba temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0394</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">King: Achyutadēva Mahārāya Year: Śaka 145[1], <hi rend="italic">Virōdhi, Paṅguṉi, 18.</hi></hi></p>						
+
+						<p>Damaged. Seems to record a gift of eighty <hi rend="italic">(paṇam ?)</hi> by Mallappanāyakkar, an official <hi rend="italic">(aḍaippattu)</hi> of the ruler Achchutayadēva Mahārāya for conducting offerings and worship to the god, Tirumalar-uḍaiyanayiṉār at Dēvukāpuram.</p>						
+
+						<p>The temple accountant Uttaṇḍi figures as signatory.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>cuvatti<hi rend="grantha">śrī</hi> maṉma<hi rend="grantha">hā</hi>ma<hi rend="grantha">ṇḍa</hi>
+<lb n="2" break="no"/><hi rend="grantha">leśva</hi>rametiṉi micura kaṇ
+<lb n="3" break="no"/>ṭakaṭṭāri cāḷuva Accutat<unclear>eva</unclear><hi rend="grantha">mah<unclear>ā</unclear></hi>
+<lb n="4"/>Irāyar <hi rend="grantha">pri<supplied reason="omitted">ti</supplied></hi>virācciyam paṇ<unclear>ṇi</unclear>
+<lb n="5"/>Aruḷā niṉṟa cakātta<unclear>m</unclear> <num value="1151"><g type="numeral">1000</g> <g type="numeral">100</g> 5 <g type="numeral">10</g> 1</num>
+<lb n="6"/>ṉ mel cellā niṉṟa virotivaru<hi rend="grantha">ṣa</hi>m
+<lb n="7"/>paṅkuni mātam <num value="18"><g type="numeral">10</g> 8</num> ceyaṅkoṇṭa
+<lb n="8" break="no"/><unclear>co</unclear>ḻama<unclear>ṇ</unclear>ṭalattu palkuṉṟako
+<lb n="9" break="no"/>ṭṭattu m<unclear>e</unclear>lkuṉṟanāṭu murukamaṅkala
+<lb n="10" break="no"/><unclear>p</unclear>paṟṟu <gap reason="lost" quantity="7" unit="character"/> tevukāpu<hi rend="grantha">ram</hi>nayiṉā
+<lb n="11" break="no"/>r <unclear>tiruma</unclear>lar<unclear>uṭ</unclear>aiya<unclear>na</unclear>yiṉāṟku te <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="12"/> <gap reason="lost" quantity="3" unit="character"/> ru nāḷukku Accutaiyatevamakā
+<lb n="13" break="no"/><unclear>irā</unclear>yar Aṭaippattil <unclear>mallappa</unclear>
+<lb n="14"/> <gap reason="lost" quantity="3" unit="character"/> yakkar Upaiyam pa <gap reason="lost" quantity="7" unit="character"/> 
+<lb n="15"/> <gap reason="lost" quantity="4" unit="character"/> ṭuṅkaḷate <gap reason="lost" quantity="4" unit="character"/> yaṉa
+<lb n="16"/> <gap reason="lost" quantity="6" unit="character"/> Ay <gap reason="lost" quantity="4" unit="character"/> ṉam Eṇpatu
+<lb n="17"/>koyil paṇṭārattile <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="18"/> <gap reason="lost" quantity="8" unit="character"/> tirunāḷ <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="19"/>ṭaivārākavum yin=ta<hi rend="grantha"> <gap reason="lost" quantity="10" unit="character"/> </hi> 
+<lb n="20"/>tukku yātoruvar Akutam paṇṇi
+<lb n="21" break="no"/>ṉavarkaḷ keṅkaikaraiyile
+<lb n="22"/>kārāmpacuvai koṉṟa pāvat
+<lb n="23" break="no"/>tile pokakaṭaivarāka
+<lb n="24" break="no"/>vum Ippaṭikku Inta kalve
+<lb n="25" break="no"/>ṭṭu Eḻutiṉamai[ <hi rend="grantha">kk</hi>u]
+<lb n="26"/>koyilkaṇakku Uttaṇṭi
+<lb n="27"/>Eḻuttu §
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.394 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">453-454</citedRange>
+			<citedRange unit="item">394</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

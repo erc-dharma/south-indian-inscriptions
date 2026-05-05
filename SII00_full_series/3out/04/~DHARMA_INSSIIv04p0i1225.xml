@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 4.1225: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 1225. (A.R. No. 342 of 1893). IN THE SAME PLACE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv04p0i1225</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:grantha maturity:vernacular">
+
+<p>
+<lb n="1"/><note n="423-1">Some lines at the beginning of the inscription are lost.</note> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ppattarāttaṭṭam cantirātittavaṟ ce <gap reason="lost" quantity="1" unit="character"/> vum Uṇṇavu</seg>
+<lb n="2" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">m maṭamaḻivu ceyyum <unclear>ti</unclear>rukkāḷatti Uṭaiyāṉāna palaviḷakku p</seg>
+<lb n="3" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">paricārarvacam Iṭṭoma cā <gap reason="lost" quantity="1" unit="character"/> Ā</seg><hi rend="grantha">sam</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ñai</seg><hi rend="grantha">ḥ bahubhirvasu</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tā</seg> <hi rend="grantha">da</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tt<choice><sic>a</sic><corr>ā</corr></choice></seg> <hi rend="grantha">ba</hi>
+<lb n="4" break="no"/><hi rend="grantha">hubhiścānupālitā <supplied reason="undefined"><g type="danda">.</g></supplied> yasya yasya yadā bhūmi<supplied reason="omitted">ḥ</supplied> tasya tasya tadā palam [*] svada</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">t</seg> 
+<lb n="5" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tā</seg><hi rend="grantha">m paradattām vā yo hareta vasu[(m)ndharām <supplied reason="undefined"><g type="danda">.</g></supplied> ṣa*]ṣṭivaruṣasaha</hi>
+<lb n="6" break="no"/><hi rend="grantha">srāṇi viṣṭāyām jāyate kyami<supplied reason="omitted">ḥ</supplied> <g type="ddanda">.</g></hi> <tlka/>
+<lb n="7"/>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 4.1225 by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1923_01"/>
+			<citedRange unit="page">423-424</citedRange>
+			<citedRange unit="item">1225</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

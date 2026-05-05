@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.374: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 374. (A.R. No. 345 of 1904.) KUḌUMIYĀMALAI, KULATTUR TALUK, TIRUCHIRAPPALLI DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0374</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the east wall of the rock-cut shrine in the Mēlaikōyil temple.</p>						
+
+						<p>Parāntaka I. Year 15: 921-22 A.D.</p>						
+
+						<p>This inscription records the gift of 7 <hi rend="italic">tuḷaippoṉ</hi> by Nakkan Śaṅkaraṉ of Vaḷḷiyūr, in Nallūr-nāḍu, for burning a perpetual lamp to the deity Tirumēṟṟaḷi-perumāṉaḍigaḷ and another gift of 7 <hi rend="italic">tuḷaippoṉ</hi> by Kuḻiyaṉāchchaṉ <hi rend="italic">alias Arikulāntavāraṇappēraraiyaṉ</hi>, the headman of Siñjai in Iḍaiyaḷa-nāḍu for a perpetual lamp to Tirumūlaṭṭāṉattu-pperumāṉaḍigaḷ in Tirunilakkuṉṟam.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> <unclear>matirai</unclear> koṇṭa kopparakecaripaṉmaṟku yāṇṭu
+<lb n="2"/><num value="15"><g type="numeral">10</g> 5</num> Āvatu kuṉṟiyūr nāṭṭut tirunilakkuṉṟattut tirumula
+<lb n="3" break="no"/>ṭṭāṉttup perumāṉaṭikaḷukku Iṭaiyaḷanāṭṭu
+<lb n="4"/><unclear>ci</unclear>ñ<unclear>ca</unclear>l kiḻavaṉ kuḻiyaṉāccaṉāṉa Arikulān
+<lb n="5" break="no"/>tavāraṇapperaraiyaṉ nontā viḷakkoṉṟukku
+<lb n="6"/>vaitta tuḷaippoṉ <hi rend="grantha">7�</hi> Itu paṉmā<hi rend="grantha">heśva</hi>
+<lb n="7" break="no"/>r rira<hi rend="grantha">kṣai śrī</hi> tirumeṟṟaḷip perumāṉaṭikaḷukku no
+<lb n="8" break="no"/>ntā viḷakkerippatāka nallūr nāṭṭu vaḷḷiyūr nakka
+<lb n="9" break="no"/>nñcaṅkaraṉ vaitta tuḷaippoṉ <hi rend="grantha">7 �</hi> Itu paṉ
+<lb n="10"/>mā<hi rend="grantha">heśva</hi>rari ra<hi rend="grantha">kṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.374 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">163</citedRange>
+			<citedRange unit="item">374</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

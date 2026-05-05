@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.383: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 383. (A.R. No. 263 of 1924.) ON A BROKEN PILLAR NEAR THE IMAGE OF ĀNJANĒYA AT KANCHALA, NANDIGAMA TALUK, KRISHNA DISTRICT. Year not given.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0383</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Incomplete. Refers to certain gifts of land made to the temple of Indranātha-Mahādēva by a subordinate of king <hi rend="bold">Gaṇapati.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="3" unit="character"/> yyagaṇapa<unclear>ti</unclear>dēvanipeddi 
+<lb n="2"/> <gap reason="lost" quantity="3" unit="character"/> tulu naṁdigāmateruvu 
+<lb n="3"/> <gap reason="lost" quantity="3" unit="character"/> ḍa <gap reason="lost" quantity="2" unit="character"/> va <gap reason="lost" quantity="2" unit="character"/> kha 1 na 5 sōma 
+<lb n="4"/>vuramu <gap reason="lost" quantity="3" unit="character"/> mērana 10 na jma 
+<lb n="5" break="no"/>cēnunu Iṁdranāthaśrīma 
+<lb n="6" break="no"/>hādēvuniki vi <gap reason="lost" quantity="2" unit="character"/> bejjamapi 
+<lb n="7" break="no"/>nni seṭṭi tamatallidaṁḍrālaku 
+<lb n="8" break="no"/>ṁ buṇyamugānu maṁḍḍapa 
+<lb n="9" break="no"/>ṁbu gaṭṭiṁ<unclear>cenu</unclear> 
+</p>
+
+<!--<h4>Another Face.</h4>-->
+
+<p>
+<lb n="10"/> <gap reason="lost" quantity="3" unit="character"/> ccerapolamera na 10 <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="11"/>ricēta sōmāvuramu tū 
+<lb n="12" break="no"/>¨rppuna na 10 Accōne Ādakṣi 
+<lb n="13" break="no"/><unclear>ṇā</unclear>na Allāḍa peddicētaṁ gonnadi 
+<lb n="14"/>na 8 rāvulapāṭipolāna 
+<lb n="15"/>Ūripeddicēta munne dīpa<unclear>mā</unclear> 
+<lb n="16" break="no"/><unclear>miḍa</unclear>na 5 jammulamaḍkana 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.383 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">199</citedRange>
+			<citedRange unit="item">383</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

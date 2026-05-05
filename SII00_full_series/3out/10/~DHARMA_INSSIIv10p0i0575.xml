@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.575: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 575. (A.R. No. 422 of 1911.) ON A SLAB SET UP NEAR THE ENTRANCE INTO THE TEMPLE OF CHENNAKĒŚAVA, LĒBĀKA, SAME TALUK AND DISTRICT. Ś. 13[30] (?) (Sarvajit)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0575</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Damaged. Refers to some charity made by one <hi rend="bold">Mallā-Reḍḍi</hi> to the temple of Karavēśvaradēva.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="2"/>13<unclear>30</unclear> <gap reason="lost" quantity="4" unit="character"/> savvaji <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="3"/> <gap reason="lost" quantity="3" unit="character"/> grahaṇapuṇya <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="4"/>śrīmatujaganobbagaṁddaraḷa <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="1" unit="character"/> yalanamahā <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="6"/> <gap reason="lost" quantity="2" unit="character"/> Accaya <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="7"/> <gap reason="lost" quantity="7" unit="character"/> 
+<lb n="8"/>ṇapararāyaṇabhuja<unclear>ga</unclear>bhava <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="9"/> <gap reason="lost" quantity="2" unit="character"/> rāya <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="10"/> <gap reason="lost" quantity="8" unit="character"/> 
+<lb n="11"/>nisōmarusamareḍḍi<unclear>pu</unclear>tru laina nu <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="12"/>mmamallāreḍḍingāru tamataṁ <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="13"/> <gap reason="lost" quantity="1" unit="character"/> ceṁnnāreḍḍiṁgāri <unclear>su</unclear>kṛtiṁgā 
+<lb n="14" break="no"/><unclear>nu</unclear> lēṁbākakaravēśvaradēvara <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="15"/> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="16"/> <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="17"/>Ācandrā¨rkasthāIgā <gap reason="lost" quantity="3" unit="character"/> Istaṁ 
+<lb n="18"/> <gap reason="lost" quantity="4" unit="character"/> caṁpinapāpāna <gap reason="lost" quantity="2" unit="character"/> 
+</p>
+
+<p><hi rend="italic">Note:</hi>—The inscription is much damaged.</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.575 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">318-319</citedRange>
+			<citedRange unit="item">575</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

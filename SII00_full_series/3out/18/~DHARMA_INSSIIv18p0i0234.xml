@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.234: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 234. (B.K. No. 162 of 1932-33.) NEGḶŪR, HAVERI TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0234</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Stone set up in the temple of Mallāri.</hi></p>						
+
+						<p>Kannara—A.D. 1251.</p>						
+
+						<p>This inscription on a <hi rend="italic">nishidhi</hi> stone is dated in <hi rend="bold">Virōdhi, Bhādrapada śu. Chaturdaśi, Thursday</hi> of the reign of <hi rend="bold">Kannadhāradēva.</hi> The cyclic year cited is apparently a mistake for <hi rend="italic">Virōdhikṛit</hi> because <hi rend="italic">Virōdhi</hi> did not occur during the reign of Kannara; and the details are regular for <hi rend="italic">Virōdhikṛit,</hi> corresponding to <hi rend="bold">A.D. 1251, August 31, Thursday.</hi></p>						
+
+						<p>It records the death by <hi rend="italic">saṁnyasana</hi> of the <hi rend="italic">Jaina</hi> monk <hi rend="bold">Sakaḷachandradēva.</hi> The inscription is damaged.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>© svasti śrī matu <gap reason="lost" quantity="10" unit="character"/> gragaṇyaru
+<lb n="2"/>Āgaṇyapuṇyaru <unclear>pa</unclear>ramakā<unclear>ru</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="3"/>rttigaḷuṁ <gap reason="lost" quantity="3" unit="character"/> sakaḷa saiyama <gap reason="lost" quantity="2" unit="character"/> gaḷuṁ cāritraka
+<lb n="4" break="no"/>rugaḷuṁ śrutavidyātapōsidhigaḷuṁ <gap reason="lost" quantity="3" unit="character"/> ḷacaṁdrabha
+<lb n="5" break="no"/>ṭṭārakadēvara priyaśiṣya rssakaḷacaṁdradēvaru śrīma
+<lb n="6" break="no"/>tkannadhāradēva<supplied reason="omitted">va</supplied>ruṣada virōdhisaṁvatsarada bhā
+<lb n="7" break="no"/>drapada śuddha caturddaśi brihavāradali sakalasanya
+<lb n="8" break="no"/>sanadinātmabhāvaneyi <gap reason="lost" quantity="2" unit="character"/> rādaru © © ©
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.234 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">310-311</citedRange>
+			<citedRange unit="item">234</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 27.125: original edition by M. D. Sampath, H. K. Narasimhamurthy, Madhav N. Katti and B. R. Gopal</title>
+				<title type="alt">No. 125. (A.R. No. 119 of 1937-38.) ŚRĪRAṄGAM, TRICHINOPOLY TALUK, TRICHINOPOLY DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv27p0i0125</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Inner jamb of the Nānmugaṉ-gōpura, right of entrance.</p>						
+
+						<p>Dēvarāya II.</p>						
+
+						<p>This undated record of Dēvarāya-Mahārāya is in Kannaḍa language engraved in Grantha characters. It registers a royal order <hi rend="italic">(nirūpa)</hi> to Chauḍappa, the executive officer of Tiruchirāppaḷḷi, to restore to Uttamanambi, the <hi rend="italic">sthānika</hi> of Śrīraṅgam, on a representation made by the latter, certain concessions granted to the <hi rend="italic">sthānikas</hi> of the place during the time of Hiriya-Śiruparasa, and in additions, to grant him the village Nōchchagarichi (Nochchikuṟichchi) along with some additional lands in another village as <hi rend="italic">sarvamānya</hi> to be enjoyed by him in the same manner as it was being enjoyed in the days of Hiriya Dēvarāya Mahārāya and Vijayarāya Mahārāya. The order further enjoins the <hi rend="italic">pārupatya</hi> to execute all the directions pertaining to the temple made by Uttamanambi. The present gift of lands was to be added on to an earliest royal gift of villages yielding 300 <hi rend="italic">honnu</hi> made on the occasion of presenting golden horses and chariot (to the god). In recognition of his long service Uttamanambi is said to have been honoured by the king with bracelet, gold necklace and golden pinnacles (kaḷaśa) to his house.</p>						
+
+						<p>This is published in S.I.I. Vol. xxiv, No. 310.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:grantha maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">ṣrīmanmahārājādhirāja rājaparamēśvara ṣrīvīrapratā<unclear>pa</unclear> dēvarāya mahārāyaru ti rucirāpaḷḷiya cēlṛḍappagē nirūpa ṣrīraṅganātha</hi>
+<lb n="2" break="no"/><hi rend="grantha">dēvarasthānika Uttamanambi namma pādda baḷiyal</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">li</seg> <hi rend="grantha">Aph<unclear>āra</unclear> dinatōḍaga sēvēya māḍikōṇḍuyiddhānu nāū Ātananu pālikaḍagavōṅ</hi>
+<lb n="3" break="no"/><hi rend="grantha">galu kaṇṭhamālēyanu cattailṛyaśi Ātana manēgē cinnyāda<unclear>ka</unclear>ḷasavanu cittayi<unclear>śi</unclear> ṣrīraṅganāthadēvara pūjaiyanu cēnnāgi māḍukhahōgē Ātagē</hi>
+<lb n="4"/><hi rend="grantha">nirupakha kōṭṭu kaḷadēvāgi ṣrīraṅganātha dēvara sth<unclear>āna</unclear>ū sarvamānyavāda kāraṇa <unclear>kra</unclear>dēvara nirupaḍayāṭṭakhaṭṭinahaḷḷi gaḷigē nāḍugāṇikē</hi>
+<lb n="5"/><hi rend="grantha">ka</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṅ</seg> <hi rend="grantha">kaḍa <gap reason="lost" quantity="3" unit="character"/> bēgāraulaḍē muntādau <gap reason="lost" quantity="15" unit="character"/> kōḷḷalāga <gap reason="lost" quantity="10" unit="character"/> kkē dēvarāpākrahōgada varanu</hi> 
+<lb n="6"/><hi rend="grantha">dēvara vē <gap reason="lost" quantity="3" unit="character"/> māḍukhahāgē kaṭṭaḷēyamāḍi cittaiyisi dēvara <gap reason="lost" quantity="5" unit="character"/> Aparanu karaśikōḷalāgi ṣrīraṅgada sthānikarigē hiriya śiruvarasa</hi>
+<lb n="7" break="no"/><hi rend="grantha">(sa)nakāladalu <gap reason="lost" quantity="3" unit="character"/> <unclear>ḍijivitavi</unclear>l</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">la</seg> <hi rend="grantha">dēyīga vērggaḷau <unclear>kō</unclear>ḷḷakōḍārēḷu namagē Uttamanambi binnam māḍidamarāgi Āśiruvarasa</hi>
+<lb n="8" break="no"/><hi rend="grantha">nakāladalu <gap reason="lost" quantity="3" unit="character"/> hamaryyādēkal</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">la</seg> <hi rend="grantha"> <gap reason="lost" quantity="2" unit="character"/> vērggaḷavakōḷḷadahāgē <unclear>ka</unclear>ḷēyanu māḍūdu Uttamanambigē <unclear>sarva</unclear> mānyavāgi pālisi <unclear>n</unclear>ōccagu</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṟi</seg>
+<lb n="9" break="no"/><hi rend="grantha">ciyēmba grāmadal</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">l</seg> <hi rend="grantha">U jivitagā</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><unclear>ṟa</unclear></seg> <hi rend="grantha">rigē <gap reason="lost" quantity="15" unit="character"/> dabhinada Āūrigēu</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">pa <gap reason="lost" quantity="2" unit="character"/> </seg> <hi rend="grantha"> <gap reason="lost" quantity="5" unit="character"/> nāgi Ā</hi>
+<lb n="10" break="no"/><hi rend="grantha"> <gap reason="lost" quantity="5" unit="character"/> gē mattōḷam Ūranalu nēlana sēriśi kōṭṭuyitagē Adanu naḍaśibahadu prāku hiriya dēvarāya mahārāyarū vijēya</hi>
+<lb n="11"/><hi rend="grantha">rāya mahārāyara kāla mōdalāgi yindu paryyantara Āsthānahōṅgē mānnyavāgi naḍadu ba</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">n</seg> <hi rend="grantha">ttu Āmar yyādayalē<unclear>khya</unclear> <gap reason="lost" quantity="10" unit="character"/> Uttamanambi</hi>
+<lb n="12"/><hi rend="grantha"> <gap reason="lost" quantity="5" unit="character"/> ja <gap reason="lost" quantity="1" unit="character"/> mānyadalū naḍaśikōṇḍu bahudu <supplied reason="undefined"><g type="danda">.</g></supplied> Ātanu dēvasthānaviṣayavāgi Ēnōndu kēlasakāryya vabannu hēḷidarēvū pārupatya <gap reason="lost" quantity="5" unit="character"/> ḍā</hi>
+<lb n="13"/><hi rend="grantha">pudu hindēnāvū cittaiyista hēmā<unclear>śva</unclear>rathadānapuṇyakāladalū Uttamanambigē varāhamunnū</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṟu</seg> <hi rend="grantha">hōmnnina grāmagaḷanu sarva mānyavāgi yārēyanē</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṟa</seg>
+<lb n="14" break="no"/><hi rend="grantha"> <gap reason="lost" quantity="5" unit="character"/> śāsanavanu cittaiyaśi yigrāmagaḷanu sēriśi kōḍuvahāgē ninagē rāyasavanu cittaisidakkē grāmagaḷanu śēriśi kōṭṭa</hi>
+<lb n="15" break="no"/><hi rend="grantha"> <gap reason="lost" quantity="2" unit="character"/> nimagē nirupa <gap reason="lost" quantity="2" unit="character"/> hammāḍikaḷihidē Āmunnū</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṟu hoḻ</seg> <hi rend="grantha">nuvaniḷaguttagēgē Uttariśi cittayi sidēvāgi Āgrāmagaḷanu naḍavabahudu <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 27.125 by <bibl><ptr target="bib:Sampath+al2001_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath+al2001_01"/>
+			<citedRange unit="page">199-200</citedRange>
+			<citedRange unit="item">125</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

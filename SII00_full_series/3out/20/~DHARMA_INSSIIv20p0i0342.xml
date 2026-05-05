@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 20.342: original edition by G. S. Gai</title>
+				<title type="alt">No. 342. (B.K. No. 19 of 1937-38.) CHAḌCHAṆ, INDI TALUK, BIJAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv20p0i0342</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Fragmentary stone built into the basement of the village gate.</hi></p>						
+
+						<p>13th Century A.D.</p>						
+
+						<p>This damaged record, in characters of about the <hi rend="bold">13th Century A.D.,</hi> contains a portion of <hi rend="italic">Siddarāma-Vachana</hi> dedicated to Kapilasiddha-Mallikārjuna.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>© śrī rāmanātha<unclear>nē śaraṇu</unclear> Ōṁ jaya paramēsvara paramā
+<lb n="2" break="no"/>tmayīsvaranurbbīparvviyaḍaṁgikoṁḍirppanuṁ <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="3"/> <gap reason="lost" quantity="5" unit="character"/> manada kone <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="2" unit="character"/> vriśabhanarūpāgi yajamānanuṁ Ācā <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="1" unit="character"/> tāneyāgi yōgādisaṁpanakhaḷeyaṁgaḷellava <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="6"/> <gap reason="lost" quantity="5" unit="character"/> yōgaramaṇiya kṣētramane sthaḷaviṭṭu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="7"/> <gap reason="lost" quantity="10" unit="character"/> kapilasiddhama <gap reason="lost" quantity="5" unit="character"/> <note n="358-1">The record is broken after this.</note>
+<lb n="8"/> <gap reason="lost" quantity="2" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 20.342 by <bibl><ptr target="bib:Gai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Gai1964_01"/>
+			<citedRange unit="page">358</citedRange>
+			<citedRange unit="item">342</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

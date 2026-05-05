@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.247: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 247. (A.R. No. 225 of 1904.) ŚIṄGAVARAM, GINGEE TALUK, SOUTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0247</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the east base of the <hi rend="italic">maṇḍapa</hi> in front of the central shrine in the Raṅganātha temple.</p>						
+
+						<p>Kulōttuṅga I. Year 30: 1100-01 A.D.</p>						
+
+						<p>This inscription commences with the <hi rend="italic">praśasti, [Pugaḻ]mādu viḷaṅga</hi>, etc., of <hi rend="bold">Kulōttuṅga I.</hi></p>						
+
+						<p>It records the gift of 32 milch cows for a perpetual lamp to god Tiruppaṉṟikkuṉṟāḻvār by••• ra[pi]chchaṉ Vaikundaṉ <hi rend="italic">alias</hi> Jayaśiṅga-kulakāla-periyār, a resident of Arumbūr in Vikramaśōḻa-vaḷanāḍu in Jayaṅgoṇḍaśōḻa-maṇḍalam. It mentions Kāśyapaṉ Ś[r]ī Rāman of Vaikh[ā]nasa-sūtra, who was performing worship in the temple of the Āḻvār.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha"><unclear>sva</unclear>stiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> <unclear>pukaḻ</unclear> mātu viḷaṅka <hi rend="grantha">ja</hi>yamātu virumpa nilamakaḷ nilava malar makaḷ puṇara Urimaiyil ciṟan=ta maṇimuṭi cūṭi villavar kulaitara
+<lb n="2" break="no"/>mīṉavar nilaikeṭa Eṉai maṉṉavar Iḻitaluṟ ṟalamara tikka<supplied reason="omitted">ṉ</supplied>aittu<unclear>n</unclear> tan cakkaram naṭātti vi<hi rend="grantha">ja</hi>y<choice><sic>a</sic><corr>ā</corr></choice><hi rend="grantha">bhiṣe</hi>kam paṇṇi vīra<hi rend="grantha">siṁhāsa</hi>nattu puvanamuḻutuṭai
+<lb n="3" break="no"/>yāḷoṭum viṟṟirun=taruḷiya korā<hi rend="grantha">ja</hi>ke<hi rend="grantha">saripanma</hi>rāṉa <hi rend="grantha">tribhu</hi>vaṉa<hi rend="grantha">cakra</hi>vattikaḷ <hi rend="grantha">śrī</hi>kulot tuṅkacoḻa<hi rend="grantha">de</hi>vaṟku yāṇṭu <num value="30">3 <g type="numeral">10</g></num><g type="dash"/>Āvatu <hi rend="grantha">ja</hi>
+<lb n="4" break="no"/>yaṅkoṇṭacoḻamaṇṭalattu vi[ k<hi rend="grantha">kra</hi>ma] coḻavaḷanāṭṭu Arumpū<unclear>r</unclear> I<unclear>ru</unclear>kku<unclear>m</unclear> <gap reason="lost" quantity="2" unit="character"/> ra<unclear>pi</unclear>c caṉ vaikun=taṉāṉa <hi rend="grantha">ja</hi>yaciṅkakulakāla periyā<unclear>r</unclear> 
+<lb n="5" break="no"/>tiruppaṉṟikkuṉṟāḻv<choice><sic>a</sic><corr>ā</corr></choice>rkku vaitta tirunun=tāviḷakku Oṉṟu Oṉṟukku viṭṭa cāvā muvā perum pacu <num value="32">3 <g type="numeral">10</g> 2</num> Imuppattiraṇṭum kaik
+<lb n="6" break="no"/>koṇṭu can=tirāticcava� <gap reason="lost" quantity="4" unit="character"/> tāka kaikkoṇṭom Ivāḻ(vāḻ)vāṉai tiruvārākaṉai paṇṇum vai<hi rend="grantha">kh<choice><sic>a</sic><corr>ā</corr></choice>nasa sū</hi>
+<lb n="7" break="no"/><hi rend="grantha">ttra</hi>ttu<hi rend="grantha"> kāśya</hi>pan cirāman <gap reason="lost" quantity="9" unit="character"/> ciṅkapirāṉ <gap reason="lost" quantity="5" unit="character"/> <hi rend="grantha"><unclear>kṛṣṇa</unclear></hi> <gap reason="lost" quantity="5" unit="character"/> nampi<hi rend="grantha">māde</hi>van ciṅkapirānu vāmana<hi rend="grantha">n</hi> muḷḷiṭṭom <g type="ddanda">.</g><g type="dashLong">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.247 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">96-97</citedRange>
+			<citedRange unit="item">247</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

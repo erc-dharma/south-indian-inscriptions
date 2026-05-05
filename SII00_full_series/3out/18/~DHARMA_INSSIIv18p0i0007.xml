@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.7: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 7. (B.K. No. 32 of 1933-34.) SIRUGUPPI, HUBLI TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0007</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Stone lying near the temple of Huḍēda Hanumān.</hi></p>						
+
+						<p>Vāṇasatti-Arasa—(Undated).</p>						
+
+						<p>This inscription, engraved in characters of about the <hi rend="bold">6-7th century A.D.,</hi> refers to <hi rend="bold">Vāṇasatti-arasa</hi> and his son governing <hi rend="bold">[Mū]ḷuṅgu[nda]</hi> and <hi rend="bold">Siri[gu*]ppe</hi> respectively and mentions <hi rend="bold">Kundasatti-arasa</hi> and <hi rend="bold">Vākka[ṭa]kaṇadē[vi].</hi> Vāṇasatti and Kundasatti appear to belong to the <hi rend="bold">Sēndraka</hi> family, the names of the princes of which usually end in <hi rend="bold">Satti</hi> (Skt. <hi rend="bold">Śakti</hi>). It is likely that Vāka[ṭ]akaṇadē[vi] belongs to the <hi rend="bold">Vākāṭaka</hi> family.</p>						
+
+						<p>Vāṇasatti-arasa is not known from any other record.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti śrī vāṇasatti Arasarā
+<lb n="2"/><unclear>mū</unclear>ḷuṅgu<unclear>ndā</unclear>ḷe A<unclear>nta</unclear>varmmakkaḷā siri<supplied reason="omitted">gu</supplied>ppe Ā
+<lb n="3" break="no"/>ḷe kundasattiArasa <gap reason="lost" quantity="5" unit="character"/> goḷe kavōḍarā sirigu
+<lb n="4" break="no"/>ppanuṁ siri vākka<unclear>ṭa</unclear>kaṇadēvi <gap reason="lost" quantity="5" unit="character"/> <note n="5-1">The</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.7 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">4-5</citedRange>
+			<citedRange unit="item">7</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

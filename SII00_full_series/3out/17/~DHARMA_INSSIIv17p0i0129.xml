@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.129: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 129. (A.R. No. 111 of 1904.) TIRUCHCHŌPURAM, CUDDALORE TALUK, SOUTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0129</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the east base of the central shrine in the Maṅgaḷapurīśvara temple. <hi rend="bold">Rājarājadēva. Year lost.</hi></p>						
+
+						<p>The regnal year in this inscription is lost. The available details of date, <hi rend="bold">saptami, Thursday, Svāti</hi>, are insufficient to calculate the equivalent.</p>						
+
+						<p>It records the sale of land to the god at Tiruchchōpuram as <hi rend="italic">tirunāmattukkāṇi</hi> by the <hi rend="italic">mahāsabhā</hi> of Tyāgavalli-chaturvēdimaṅgalam in Mēlkānāḍu. Among the boundaries of the land is mentioned the name of a watercourse, <hi rend="italic">pālpāñja peruṅgaḻi.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī 2</hi> tiripuvaṉacakkaravattikaḷ <hi rend="grantha">śrīrājarājade</hi>varkku yāṇṭu <gap reason="lost" quantity="6" unit="character"/> tu <hi rend="grantha">saptami</hi>yum cotiyum peṟṟa viyāḻakkiḻamai nāḷ vi<unclear>ru</unclear>tarā<hi rend="grantha">sa</hi>payaṅparavaḷanāṭṭu melkānāṭṭu kiḻvaḻi tiyākavallic catu<hi rend="grantha">rvve</hi>ti<hi rend="grantha">ma</hi>ṅkalattu <hi rend="grantha">mahāsabhai</hi> <gap reason="lost" quantity="8" unit="character"/> puramuṭaiyār cipaṇṭārattu ciraivomāṉa nellukkum kācukkum Eṅkaḷ kāṇiyāṉa <gap reason="lost" quantity="4" unit="character"/> muṉ navirai viḷaiyum mutumānti nilam Ai(v)<hi rend="grantha">ai</hi>liyum pāl pāñca peruṅkaḻi viḻunta karuppu <unclear>vā</unclear>ikā(l)lukku kiḻakku nir <unclear>pū</unclear>ci nel viḷaiyu <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="2"/>tirappukku vaṭakku pālkāñca peruṅkaḻikku kiḻakku tiyākavallic catu <hi rend="grantha">rvve</hi>timaṅkalattu natta<supplied reason="omitted">t</supplied>tukku meṟku c<supplied reason="omitted">o</supplied>purappaṭṭukkut teṟku naṭuvupaṭṭa nilam cipaṇṭārattil nāṅkaḷ I<unclear>tiru</unclear>c<unclear>c</unclear>opuramuṭaiyā<unclear>r</unclear> tirunāmattu<unclear>k</unclear>kāṇiyāka <unclear>vilai</unclear> kuṭu<unclear>tta</unclear> nilaṅkaḷ Iṉṉāyaṉār nir pūci nel viḷaiyu celkāl nilamu nāppāllellai Iṭaipaṭṭa karampum Āṟiṭu paṭukaiyu<supplied reason="omitted">m</supplied> Ittiruccopurattu vira<unclear>vāṉa</unclear> virivukku teṟku Ellaiyāl kuṉṟu<unclear>kaḷ</unclear> Iṉṉāyaṉār tirunā<supplied reason="omitted">ma</supplied>ttu<supplied reason="omitted">ka</supplied> kāṇiyāka viṟṟu cipaṇṭārattu Eṅkaḷ per kaṭamai ner Iṭṭu kalveṭ<note n="31-1">Continuation lost.</note> <gap reason="lost" quantity="6" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.129 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">31</citedRange>
+			<citedRange unit="item">129</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

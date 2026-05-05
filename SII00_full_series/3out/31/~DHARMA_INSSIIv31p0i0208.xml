@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 31.208: original edition by C. A. Padmanabha Sastri and T. S. Ravishankar</title>
+				<title type="alt">No. 208. (A.R. No. B 223 of 1936.) KŪCHENAPALLI, VINUKONDA TALUK, GUNTUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv31p0i0208</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab set up in front of the ruined temple of Śiva.</p>						
+
+						<p>1576 A.D.</p>						
+
+						<p>It is dated in Śaka 1498, Dhātu, Vaiśākha, su. 10 corresponding to 1576 A.D. April 8, Sunday.</p>						
+
+						<p>It records the consecration of the god Gōpala-kṛishṇamma at Kūchanapalli and the gift of land 3 <hi rend="italic">kuchaḍlu (kunchālu ?)</hi> by Dīpānāyumḍu of Poṭapalli for maintaining the <hi rend="italic">amṛitapaḍi</hi> service to the god. The second side contains three imprecatory verse <hi rend="italic">‘svadattam’.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> jayā 
+<lb n="2" break="no"/>bhyudaya 
+<lb n="3"/>śālivāha 
+<lb n="4" break="no"/>sa śakava¨rṣaṁbulu 1498 
+<lb n="5"/>thātu saṁvatsara vaiśākha 
+<lb n="6"/>su 10 lu Anaṁtakōṭi bra 
+<lb n="7" break="no"/>hmāṁḍa nāyakulaina kū 
+<lb n="8" break="no"/>canapalli gōpālakriṣṇa 
+<lb n="9"/>mmanu poṭlapalli dīpānā 
+<lb n="10" break="no"/>yiṁḍu pratiṣṭasēsi A 
+<lb n="11" break="no"/>mu¨rtapaḍiki Āpūri da 
+<lb n="12" break="no"/>kṣiṇāsaku cellē tū¨rpusa 
+<lb n="13" break="no"/>mūṁḍu ru(kuṁ)caḍlu sa 
+<lb n="14" break="no"/>ma¨rpiṁcenu śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+<!--<h4>SECOND FACE.</h4>-->
+
+<p>
+<lb n="15"/>svadattāṁ 
+<lb n="16"/>dviguṇaṁ 
+<lb n="17"/>puṇyaṁ pa 
+<lb n="18" break="no"/>radattānu pā 
+<lb n="19" break="no"/>lanaṁ para 
+<lb n="20"/>dattāpahā 
+<lb n="21" break="no"/>rēṇa svadatta 
+<lb n="22"/>ṁniṣphalaṁ 
+<lb n="23"/>bhavēt <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrī 
+<lb n="24"/>rāmā <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 31.208 by <bibl><ptr target="bib:PadmanabhaSastri2013_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:PadmanabhaSastri2013_01"/>
+			<citedRange unit="page">247-248</citedRange>
+			<citedRange unit="item">208</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 40.250: original edition by K. Munirathnam</title>
+				<title type="alt">No. 250. (A.R. No. B. 295 of 1933.) Mādala, Sattenapalle Taluk, Guntur District, Andhra Pradesh.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv40p0i0250</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a pillar set up in the compound of the Sakalēśvarasvāmi temple.</p>						
+
+						<p>Velanāṇḍu: Kulōttuṅgachōḷa-Goṅkarāja.</p>						
+
+						<p>This is dated 1073, Māgha, ba. 15, Thursday, Solar eclipse, corresponding to February 7, 1152 A.D. However the cyclic year was Prajāpati.</p>						
+
+						<p>Records the gift of 55 sheep for burning a perpetual lamp to the god Sakalēśvaradēva by Velamuna Rēkama, who was the grand daughter of Pōti Nāyaka of Siri-Buddhāmu, and the favorite servant of the king. The gift was entrusted to Vīrabōya, son of Māḍibōya for supply of ghee to the temple.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śakava¨rṣaṁbulu 1073 gunēṁṭi mā 
+<lb n="2" break="no"/>kha bahala paṁccādaśiyu guruvāramuna sū 
+<lb n="3" break="no"/>¨ryyagrahaṇa nimityamuna sirebuddāmuna pōtinā 
+<lb n="4" break="no"/>yaku manmaṟālu śrīmanmahāmaṁḍalēśvara śrī vēlanā 
+<lb n="5" break="no"/>ṁṭi kulōttuṁgga cōḍagoṁkkarājula Iṣṭavrittyaṟālu 
+<lb n="6"/>vēlamunarēkama tamatallitaṁḍrulaku dha¨rmmagā sakalē 
+<lb n="7" break="no"/>śvaradēvarakakhaṁḍava¨rtti dīpaṁbunakiccina goṟiyalu 
+<lb n="8"/>55 vīniṁjēkoni Iṁddulaku māḍibōyani koḍku 
+<lb n="9"/>vīrabōyuṁḍu dana putrānupautrikamācaṁdra¨rkka 
+<lb n="10" break="no"/>mugā māneṁḍu nēyi vōyaṁgalavāru 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 40.250 by <bibl><ptr target="bib:Munirathnam2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2019_01"/>
+			<citedRange unit="page">229</citedRange>
+			<citedRange unit="item">250</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

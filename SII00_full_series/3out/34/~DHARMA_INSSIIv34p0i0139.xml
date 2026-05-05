@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 34.139: original edition by Y. Subbarayalu</title>
+				<title type="alt">No. 139. Tiruveṟumbūr, Tiruchirappalli Taluk, Tiruchirappalli District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv34p0i0139</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>At the entrance into the kitchen in the Piplikēśvara temple, left side.</p>						
+
+						<p>Chōḻa, Rājakēsarivarman Kulōttuṅga II, 4th year = A.D. 1137</p>						
+
+						<p>Besides the eulogy of the king, only the <hi rend="italic">sabhā</hi> for Śrīkaṇṭa-chaturvēdimaṅgalam is mentioned in the available text.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> pūmEvu vaḷara tiruppoṉmārvu puṇara nāmEvu talaimakaḷ nalam merivi ciṟappa vicaiya māmakaḷ veypuyattiruppa
+<lb n="2"/> <gap reason="lost" quantity="3" unit="character"/> nirupar vantiṟaiñca nīṇila maṭantaiyait tirumaṇam puṇarnteṉa tiruvaḷar tarumam Aṇimuṭi kavitteṉa
+<lb n="3"/> <gap reason="lost" quantity="21" unit="character"/> 
+<lb n="4"/>vāḻi pallūḻi Āḻi naṭappa cempoṉ vīra<hi rend="grantha">si<unclear>ṅ</unclear>hāsa</hi>nattup puvaṉamuḻutuṭaiyāḷōṭum vīṟṟiruntaruḷiya kōvirā<hi rend="grantha">ja</hi>kēcari pa<hi rend="grantha">nma</hi>rāṉa <hi rend="grantha">tribhu</hi>vanac cak
+<lb n="5" break="no"/>karavarttikaḷ <hi rend="grantha">śrī</hi> kulōttuṅka cōḻa<hi rend="grantha">de</hi>vaṟku yāṇṭu 4 Āvatu pāṇṭi kulācaṉi vaḷanāṭṭu mī(koy) kōḻaic cīkaṇṭaccatu<hi rend="grantha">rvve</hi>ti maṅkalattu <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="6"/> <gap reason="lost" quantity="10" unit="character"/> ma<hi rend="grantha">hāsabhai</hi>yōm It <gap reason="lost" quantity="4" unit="character"/> kūṭi <gap reason="lost" quantity="3" unit="character"/> ḷikuṭi <gap reason="lost" quantity="3" unit="character"/> tita 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 34.139 by <bibl><ptr target="bib:Subbarayalu2015_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Subbarayalu2015_01"/>
+			<citedRange unit="page">144</citedRange>
+			<citedRange unit="item">139</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 16.49: original edition by H. K. Narasimhaswami and G. S. Gai</title>
+				<title type="alt">No. 49. (A.R. No. 180 of 1913.) BUKKAPAṬṆAM, PENUGONDA TALUK, ANANTAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv16p0i0049</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a rock near the temple.</p>						
+
+						<p>Kṛishṇarāya, 1512 A.D.</p>						
+
+						<p>This is dated <hi rend="bold">Āṅgīrasa, [Āśvīja] śu. 12, Wednesday.</hi> In the king's reign the cyclic year Āṅgīrasa corresponded with the <hi rend="bold">Śaka year 1434</hi> and so the details may be equated to <hi rend="bold">1512 A.D., September 22.</hi></p>						
+
+						<p>The epigraph is damaged at the beginning. It registers that the <hi rend="italic">dēvadāya</hi> and <hi rend="italic">brahmadāya</hi> lands under the tank Krottacheruvu in Penugoṇḍa-rājya which had been held rent-free <hi rend="italic">(sarvamānya)</hi> from the time of Chikka Oḍeyalu had been re-assessed on account of certain disturbances in the interval. The king, now at Sivanasamudram on state business, ordered that the lands might be restored as before and this was announced on the occasion of the <hi rend="italic">laksha-hōma</hi> ceremony conducted at Penugoṇḍa. Kūnamanāyaḍu had this inscription engraved under orders of Rāyasam Koṇḍamarasayya Dēmarasayya.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="5" unit="character"/> śrī jayābhyudaya śāli<unclear>vā</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="5" unit="character"/> Agunēṭi Āṁgira<unclear>sa</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="3"/>ba śu<unclear>12 bu</unclear> <unclear>śrīmanmahā</unclear>rājādhirāja rājaparamēśvara <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="4"/>ya mahārāyala rāyasaṁ koṁḍamarasayya <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="5"/>lāśāsanakramamu penugoṁ<supplied reason="omitted">ḍa</supplied>rājya krottaceṟuvukiṁda <unclear>dēvadā</unclear> 
+<lb n="6" break="no"/>ya braṁhmadāyālaku kaligina mānyālu ci<unclear>kko</unclear>ḍayala kā 
+<lb n="7" break="no"/>laṁ mōdalugānu sa¨rvamānyamai naḍastāUṁḍagānu ma 
+<lb n="8" break="no"/>dhyē Avāṁtarālai vaccina Avanāyālaina rokhadhānyālu kṛṣṇarāya ma 
+<lb n="9" break="no"/>hārāyalu śivanasamudraṁ rācakāryānaku viccēśi Appuḍu Ānati 
+<lb n="10" break="no"/><unclear>cci</unclear>na kramānanu penugoṁḍalōnu lakṣahōmaṁ śēyiṁci Ā pū¨rṇā 
+<lb n="11" break="no"/>huti samayakālamaṁdu Ī dēvadāya brahmadāyālu pū<note n="55-1">The medial ī is written ña</note>
+<lb n="12" break="no"/>¨rvamariyādane sa¨rvamānyaṁgānu viḍistimi Ī dha¨rmaṁ Ācaṁ<note n="55-1">The medial ī is written ña</note>
+<lb n="13" break="no"/>drā¨rkamai naḍavagaladi Ī dha¨rmamu yavvaru naḍapiri vāru pāla 
+<lb n="14" break="no"/>nādacyutaṁ padaṁ Ani vāru Accutapadamaṁdu Uṁḍagalavā 
+<lb n="15" break="no"/>ru Ī dha¨rmānaku yavvaru tappiri vāru tama mātāpitāḷanu vāra<note n="55-1">The medial ī is written ña</note>
+<lb n="16" break="no"/>ṇāśiyaṁdu caṁppina pāpāna pōduru gaṁgalōna kapila 
+<lb n="17"/>caṁppina pāpāna pōduru tama mātāpitṛlanē caṁpi narakaṁ 
+<lb n="18" break="no"/>lō tōśē pāpāna pōduru Ēkaiva bhaginī lōkē sa¨rvēṣā 
+<lb n="19" break="no"/>mēva bhūbhujāṁ <supplied reason="undefined"><g type="danda">.</g></supplied> na bhōjya na karagrāṁhyā vipradattā 
+<lb n="20"/>vasuṁdharā <supplied reason="undefined"><g type="danda">.</g></supplied> Ani śāstraṁ Uṁnadi gāna tama tōṁbuṭṭuku 
+<lb n="21"/>tāme tappinavāru <supplied reason="undefined"><g type="danda">.</g></supplied> svadattāṁ paradattāṁ vā yō ha 
+<lb n="22" break="no"/><unclear>rē</unclear>ti vasuṁdharāṁ <supplied reason="undefined"><g type="danda">.</g></supplied> ṣaṣṭi¨rva¨rṣasahasrāṇi viṣṭāyāṁ jā 
+<lb n="23" break="no"/>yatē krimiḥ <supplied reason="undefined"><g type="ddanda">.</g></supplied> Anu Ī mariyādaku koṁḍamarasa 
+<lb n="24" break="no"/>yya dēmara<unclear>sa</unclear>yyagāri Ānatini kūnamanāyaḍu 
+<lb n="25"/><unclear>vē</unclear>yiṁcina śilāśāsanaṁ maṁgaḷamahā 
+<lb n="26" break="no"/>śrīśrīśrīśrīśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 16.49 by <bibl><ptr target="bib:Narasimhaswami1972_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Narasimhaswami1972_01"/>
+			<citedRange unit="page">54-55</citedRange>
+			<citedRange unit="item">49</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 8.521: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 521. (A.R. No. 222 of 1903). ON A SLAB SET UP IN FRONT OF THE SAME SHRINE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv08p0i0521</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:doop" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<!--<h4><hi rend="italic">First Face.</hi></h4>-->
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kovirā<hi rend="grantha">ja</hi>ke
+<lb n="2" break="no"/>caripa<hi rend="grantha">nma</hi> ṟku yāṇṭu 4<g type="dash"/>Āvatu
+<lb n="3"/>tiruveṅkaṭakkoṭṭattuc cilai
+<lb n="4" break="no"/>nāṭṭut tiruviṟperumpeṭṭu
+<lb n="5"/><hi rend="grantha">paraśurāmīśvara</hi> ttup perumā
+<lb n="6" break="no"/>ṉaṭikaḷukkut tiruvu<hi rend="grantha">ssa ha</hi>ñce
+<lb n="7" break="no"/>yya maturān=ta kaṉ kaṇṭarāti
+<lb n="8" break="no"/>ttar Eḻun=ta ruḷuvitta kūttappe
+<lb n="9" break="no"/>rumāḷukkut tiruvamirtukkum O
+<lb n="10" break="no"/>ru ṉantāviḷakkum muṉṟu te 
+<lb n="11" break="no"/>cakālattukkum ṉeyyamutu
+<lb n="12" break="no"/>kkum muṉṟu <hi rend="grantha">sandhi</hi> kkun tayiramutu
+<lb n="13" break="no"/>kkum muṉṟu <hi rend="grantha">sandhi</hi> kkuṅ kaṟiyamutuk
+<lb n="14" break="no"/>kum muṉṟu <hi rend="grantha">sandhi</hi> kkuṅ ku
+<lb n="15" break="no"/>mmāyaamutukkum muṉṟu
+<lb n="16"/><hi rend="grantha">sandhi</hi> kkum Aṭaikkāyamutu<supplied reason="omitted">k</supplied>ku
+<lb n="17" break="no"/>m Ivvūr melaikkaḻaṉiyil <hi rend="grantha">bra</hi> r
+<lb n="18" break="no"/><hi rend="grantha">hma</hi> ṇarpakkal vilaikuṭuttu
+<lb n="19"/>vilaikkuk koṇṭa <hi rend="grantha">bhūmi</hi> puḷikai
+<lb n="20" break="no"/>yoṭṭaic ceṟukkaḷil Araiyum
+<lb n="21"/>koṇṭikāvati yericceṟukkaḷil
+<lb n="22"/>Oṉṟaraiyum kaṭikaikkaḷattu patiṉa
+<lb n="23" break="no"/>ṟucāṇkolāl Añpatukuḻiko
+<lb n="24" break="no"/>ṇṭatu Orumāvāka Āyiraṅkuḻiko
+<lb n="25" break="no"/>ṇṭatu Oru paṭṭiyāka vilaikuṭu
+<lb n="26" break="no"/>ttuk koṇṭa ṉilam Iraṇṭu pa
+<lb n="27" break="no"/>ṭṭiyilum pon=ta<hi rend="grantha"> bhoga</hi> m
+<lb n="28"/>ṉellu ṉāṉūṟṟu Eḻu<supplied reason="omitted">pa</supplied>ttue
+<lb n="29" break="no"/>ḻu kāṭi ṉāṉāḻi Iṉṉā<unclear>ṉū</unclear>ṟṟu Eḻu
+<lb n="30" break="no"/>pattueḻukāṭi ṉāṉāḻi ṉellu
+<lb n="31" break="no"/>ṅ koṇṭu nivan=ta ñceytapari
+<lb n="32" break="no"/>cāvatu <supplied reason="undefined"><g type="danda">.</g></supplied> tiruvamirtarici Oru <hi rend="grantha">sandhi</hi> kku
+<lb n="33"/>ṉāṉāḻippaṭi kuttalariciyāka mu
+<lb n="34" break="no"/>ṉṟu <hi rend="grantha">sandhi</hi> kkuṅ kuttalarici panṉi
+<lb n="35" break="no"/>ruṉāḻi kuttalariciyāl Añci
+<lb n="36" break="no"/>raṇṭuvaṇṇam Oru ṉāḷaikku va
+<lb n="37" break="no"/>n=ta ṉellu Eḻutūm piruṉāḻi
+<lb n="38" break="no"/>yum Oru ṉan=tā viḷakkukkum
+<lb n="39"/>muṉṟu <hi rend="grantha">sandhi</hi> kkum Amutukku
+<lb n="40"/>muḻākku ṉeykkum Āka
+</p>
+
+<!--<h4><hi rend="italic">Second Face.</hi></h4>-->
+
+<p>
+<lb n="41"/>Oru ṉāḷaikku ṉey ṉāḻi
+<lb n="42" break="no"/>kku nellu ṉāṟṟūmpum
+<lb n="43"/>munṟu <hi rend="grantha">sandhi</hi> kkum tayiramutu
+<lb n="44"/>muṉṉāḻikku ṉellu muṉ
+<lb n="45" break="no"/>ṉāḻiyum muṉṟu <hi rend="grantha">sandhi</hi> kku
+<lb n="46" break="no"/>m kummāya<unclear>a</unclear>mutukkuc
+<lb n="47"/>ciṟupayaṟṟuparuppu ṉāḻikku
+<lb n="48"/>ṉellu Iruṉāḻiyum munṟu
+<lb n="49"/><hi rend="grantha">sandhi</hi> kkum porikkaṟi Oṉṟu
+<lb n="50" break="no"/>m puḻukkukkaṟi Oṉṟum Āka
+<lb n="51" break="no"/>k kaṟiyamutu Iraṇṭukku Oruṉā
+<lb n="52" break="no"/>ḷaikku ṉellu ṉāḻiyum mun
+<lb n="53" break="no"/>ṟu <hi rend="grantha">sandhi</hi> kkum Aṭaikkā
+<lb n="54" break="no"/>yamutu poḻ tiraṇṭu pā
+<lb n="55" break="no"/>kkum Ilai ṉālumāka Oru ṉāḷaik
+<lb n="56" break="no"/>kup pākku Āṟum Ilai panṉi
+<lb n="57" break="no"/>raṇṭukkum ṉellu ṉica
+<lb n="58" break="no"/>tam ṉāḻiyum Āka Oru ṉāḷai
+<lb n="59" break="no"/>kku ṉellu Orukāṭi muttū
+<lb n="60" break="no"/>m poruṉāḻiyāka Orāṇ
+<lb n="61" break="no"/>ṭu muṉṉūṟ ṟaṟupatu nāḷai
+<lb n="62" break="no"/>kku nivan=ta ñceyta nellu
+<lb n="63"/>ṉāṉūṟṟu Eḻupattuēḻu kā
+<lb n="64" break="no"/>ṭi ṉā<unclear>nā</unclear>ḻi Iṉṉellu ṉā
+<lb n="65" break="no"/>ṉūṟ ṟeḻupatteḻu kāṭi ṉā
+<lb n="66" break="no"/>nāḻi ṉellum maturān=ta ka
+<lb n="67" break="no"/>ṉ kaṇṭarātittar tiruveṅka
+<lb n="68" break="no"/>ṭakkoṭṭattuc cilaiṉāṭ
+<lb n="69" break="no"/>ṭut tiruviṟperumpeṭṭup
+<lb n="70" break="no"/><hi rend="grantha">paraśurāmīśva</hi> rattuppe
+<lb n="71" break="no"/>rumāṉaṭikaḷ tiruvu<hi rend="grantha">ssa ha</hi>t
+<lb n="72" break="no"/>tukku maturān=ta kaṉ kaṇṭarā
+<lb n="73" break="no"/>tittar Eḻun=ta ruḷuvitta kū
+<lb n="74" break="no"/>ttapperumāḷukku Itte
+<lb n="75" break="no"/>var <hi rend="grantha">bhoga</hi> ṅ kaikkoṇ
+<lb n="76" break="no"/>ṭu Iṉṉivantappaṭi Oṉṟu muṭṭāmey celuttuvomāṉom tiruviṟperumpeṭṭuk kāṇiyuṭaiya <hi rend="grantha">śi</hi>
+<lb n="77" break="no"/>va<hi rend="grantha">brāhma</hi> ṇarom Iṉṉivan=ta ppaṭiyil leteṉu moṉṟu muṭṭāmey celuttuvatākavum muṭṭil tiruvāṇai māṟupaṭuvo
+<lb n="78" break="no"/>māṉon tiruviṟperumpeṭṭuk kāṇiyuṭaiya <hi rend="grantha">śi</hi>va<hi rend="grantha">brāhma</hi>ṇa<hi rend="grantha">-</hi> rom <supplied reason="undefined"><g type="danda">.</g></supplied> I[ <hi rend="grantha">bhū</hi> mi] Iraṇṭu paṭṭi ṉilat
+<lb n="79" break="no"/>tālum Ā<unclear>cu</unclear>vippe ṟeṉṟum ṉirvilai yeṉṟum koḷḷappeṟātatākavum <supplied reason="undefined"><g type="danda">.</g></supplied> I<supplied reason="omitted">p</supplied>paricu Oṭṭikkuṭutto
+<lb n="80" break="no"/>m tiruviṟperumpeṭṭu <hi rend="grantha">sabhai-</hi> yom [*] Itu <hi rend="grantha">panmā heśvara rakṣai</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> tiruviṟperumpeṭṭu<hi rend="grantha">sabhai</hi> yom
+<lb n="81"/>Iṉṉilam Iraṇṭu <unclear>paṭ</unclear>
+<lb n="82" break="no"/>ṭi ṉilamum Oṟṟi vaik<unclear>kiṟa</unclear>
+<lb n="83"/>tiruvāṇai Iṟai taṇ
+<lb n="84" break="no"/>ṭappaṭuvomāṉom
+<lb n="85"/>Ivviraṇṭu paṭṭi ṉilattu
+<lb n="86" break="no"/>kkum poṉkoṇṭu Iṟai
+<lb n="87"/>Iḻiccikkuṭuttom <hi rend="grantha">sabhai</hi> yom <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 8.521 by <bibl><ptr target="bib:SubrahmanyaAiyer1937_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SubrahmanyaAiyer1937_01"/>
+			<citedRange unit="page">266-267</citedRange>
+			<citedRange unit="item">521</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

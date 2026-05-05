@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.551: original edition by S. Swaminathan</title>
+				<title type="alt">No. 551. (A.R. No. 551 of 1912.) TIRUNĪRMALAI, SAIDAPET TALUK, CHINGLEPET DISTRICT. On the south wall of the Nīrvaṇṇar perumāḷ shrine, Raṅganātha perumāḷ temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0551</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">King: Tribhuvanachchakkravartti Vīrarājēndra (Rājarāja III) Year 2; <hi rend="italic">Siṁha</hi>, śu. di. 2. <hi rend="italic">Attam</hi>, Friday = 25th August 1245 A.D.</hi></p>						
+
+						<p>Records a gift of 32 cows for burning a perpetual lamp to the god Nīrvaṇṇaṉ of the temple at Tirunīrmalai by four persons, Śārumbam Nandi Pallavaraiyaṉ, Kambakkōṉ Bhaṭṭaṉ <hi rend="italic">alias</hi> Nīlagaṅgaraiyakkōṉ, Eṭṭisipākkadātan and another person (name damaged). Two shepherds, Tiruvagattikkōṉ, (a resident) of Irumbuliyūr and Aṇṇāmalai Añjal <hi rend="italic">alias</hi> Perumāḷ, received 16 cows each and had agreed to measure out 1/4 <hi rend="italic">āḻākku</hi> and 1 <hi rend="italic">uḻakku</hi> of oil daily for burning the perpetual lamp.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tiripuvaṉaccakkaravattikaḷ virarā<hi rend="grantha">jendra</hi>coḻatevaṟku yāṇṭu 2vatu <hi rend="grantha">simha</hi>nāyaṟṟu pū<hi rend="grantha">rvva</hi>pa<hi rend="grantha">kṣa</hi>ttu <hi rend="grantha">dvi</hi>tiyaiyum peṟṟa At<unclear>ta</unclear>
+<lb n="2" break="no"/>tti nāḷ tirunirmalai nāyanār nirvaṇṇanukku tiruvi <gap reason="lost" quantity="10" unit="character"/> nuntā viḷakku + Ittiruviḷakku Oṉṟil kāmakkoṉ makaṉ<note n="665-1">Some over-writing is seen till the end of this line.</note> cārumpaṉ nanti
+<lb n="3"/>nampi pallavaraiyaṉ viḷakku <num value="24">2 <g type="numeral">10</g> 4</num>m kampakkoṉ paṭṭanāṉa nilakaṅkaraiyakko<unclear>ṉ</unclear> viḷakku <num value="24">2 <g type="numeral">10</g> 4</num>m tirumāḷakko<unclear>ṉ</unclear> makaṉ Eṭṭici pākkatātan viḷa<supplied reason="omitted">k</supplied>ku <num value="24">2 <g type="numeral">10</g> 4</num>m <unclear>pā</unclear>ruma
+<lb n="4"/>vaitta viḷakku <hi rend="grantha">ña <num value="24">2 <g type="numeral">10</g> 4</num></hi>m Āka tirunantāviḷakku Oṉṟukku viṭṭa pacu <hi rend="grantha">3<unclear>2</unclear></hi> Ippa<unclear>cu</unclear> muppattiraṇṭil Irumpuliyūril maṉṟāṭi kāmakkoṉ makaṉ tiruvakattik
+<lb n="5"/>koṉ viḷakku 5kku kaikkoṇṭa pacu <num value="16"><g type="numeral">10</g> 6</num>m tirunilaiyil maṉṟāṭi perāyirak ko<unclear>ṉ</unclear> makaṉ Aṇṇāma<unclear>lai</unclear> Añculeṉṟa perumāḷ viḷakku 5kku kaikkoṇṭa pacu
+<lb n="6"/><num value="16"><g type="numeral">10</g> 6</num>m Āka pacu muppattiraṇṭuṅ koṇṭu tirunantāviḷakku +kku nāḷ+kku kāle Uḻakku ney koyilile Aḷakka kaṭavomākavum tevaikuṭimaiyum 
+<lb n="7"/>ceytu Ittirunantāviḷakku cantirātittavarai celuttuvatāka kaikkoṇṭom tiruvakattikkoṉum Añcaleṉṟa perumāḷk koṉum Ivvi
+<lb n="8" break="no"/><unclear>ruv</unclear>om Itti<unclear>ruvaka</unclear>ttikkoṉ kaikkoṇṭa viḷakku 5m I<unclear>añcaleṉṟa peru</unclear>māḷ tampi celvaṉ kaikkoṇṭa viḷakku kāl Ivaṉ tampi vaṭukaṉ
+<lb n="9"/>kaik koṇṭa viḷa<unclear>kku</unclear> kāl<unclear>vekati</unclear> Araiyum kaikkoṇṭu <gap reason="lost" quantity="1" unit="character"/> m Ic <gap reason="lost" quantity="6" unit="character"/> cata <gap reason="lost" quantity="6" unit="character"/> m <unclear>I</unclear>vviruvo<supplied reason="omitted">m</supplied> §
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.551 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">665-666</citedRange>
+			<citedRange unit="item">551</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.480: original edition by S. Swaminathan</title>
+				<title type="alt">No. 480. (A.R. No. 480 of 1912.) TIRUTTUṞAIPPŪṆḌI, TIRUTTURAIPPUNDI TALUK, TANJAVUR DISTRICT. On the west wall, maṇḍapa, infront of the central shrine, Marundīśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0480</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">King: Tribhuvanachakravarttin Rājarāja III Year [3]0, <hi rend="italic">Kanni</hi> śu. di. 5, Sunday, <hi rend="italic">Uttiraṭṭādi</hi> = 1246 A.D. Other details are irregular.</hi></p>						
+
+						<p>Middle portion of the record is damaged. It records that a lady (name lost) deposited 4500 <hi rend="italic">kāśu</hi> in the temple treasury for purchasing land from the temple at Tiruttuṟaippūṇḍi <hi rend="italic">(tirunāmattukkāṇi)</hi> for feeding the wandering ascetics <hi rend="italic">(dēśāndri)</hi> daily with two <hi rend="italic">naḻi</hi> of rice and vegetables.</p>						
+
+						<p>Śrīmāhēśvarappiriyan, the temple accountant <hi rend="italic">(kōyiṟkaṇakku)</hi>, Tiruchchiṟṟambala Bhaṭṭaṉ, the temple official <hi rend="italic">(dēvakaṉmi)</hi>, Villavadaraiyaṉ, the temple servant <hi rend="italic">(śrīkāriyam)</hi> and a certain Śivajñānasambandan figure as signatories. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tiripuvaṉaccakkaravat
+<lb n="2" break="no"/>tikaḷ <hi rend="grantha">śrī</hi> �tevarkku<note n="571-1">Read rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>tevarkku</note>yāṇṭu
+<lb n="3"/><num value="30">3 <g type="numeral">10</g></num> tāvatu kannināyaṟṟu <hi rend="grantha">pūrva</hi>
+<lb n="4"/>pa<hi rend="grantha">kṣa</hi>ttu <hi rend="grantha">pañca</hi>miyum nāyaṟṟu
+<lb n="5"/>kkiḻamaiyum peṟṟa Uttiraṭṭā
+<lb n="6" break="no"/>ti nāḷ Uṭaiyār tiruttaṟai<unclear>p</unclear>pūṇ
+<lb n="7" break="no"/>ṭi U<unclear>ṭ</unclear>aiya <gap reason="lost" quantity="5" unit="character"/> lle cā <gap reason="lost" quantity="3" unit="character"/> yuka
+<lb n="8"/>kuṭiyilirukkum <gap reason="lost" quantity="6" unit="character"/> vuṭaiyā
+<lb n="9" break="no"/>ṉ pāriyai <gap reason="lost" quantity="8" unit="character"/> muṉ Oṭuk
+<lb n="10" break="no"/>ku vaikkappeṟa v<unclear>e</unclear>ṇum<unclear>e</unclear>ṉṟum
+<lb n="11"/>Itukku tirunāmattuk<unclear>kāṇi</unclear> koṇ
+<lb n="12" break="no"/>ṭu viṭa veṇumeṉṟu col<unclear>lu</unclear>kai
+<lb n="13" break="no"/>yil paṟṟum nilam kiṭ<unclear>ṭi</unclear>ṉa Iṭat<unclear>tile</unclear>
+<lb n="14"/>koḷvatāka <hi rend="grantha">śrī</hi>paṇṭārattu Ivaḷ
+<lb n="15"/><unclear>O</unclear>ṭukkiṉa kācu <num value="1500"><g type="numeral">1000</g> 5 <g type="numeral">100</g></num> Ikkācu nālā
+<lb n="16" break="no"/>yirattaññūṟum cipaṇṭārat <gap reason="lost" quantity="1" unit="character"/> kai
+<lb n="17" break="no"/>k koṇṭu Oru tirumuṉoṭukkukaikku
+<lb n="18"/>Irunāḻi Ariciyum kaṟiamutu Uḷḷiṭṭa vi
+<lb n="19" break="no"/>ñcaṉamum kūṭa paṭaittu tecā<supplied reason="omitted">n</supplied>ti<unclear>ri</unclear>kaḷu
+<lb n="20" break="no"/>kku vaḻaṅkakkaṭavatāka Ikkācu Upaiya
+<lb n="21" break="no"/>māka Innāḷ mutal cantirātit<supplied reason="omitted">ta</supplied>varaiy <unclear>O</unclear>
+<lb n="22" break="no"/>ṭukku vaḻaṅkak kaṭavatāka nitaraimaik
+<lb n="23" break="no"/>ku<note n="571-2">Read niccayittamaikku</note>Ivai koyiṟkaṇakku <hi rend="grantha">śrī</hi>ma<hi rend="grantha">heśva</hi>
+<lb n="24" break="no"/>rapiriyaṉ E<supplied reason="omitted">ḻu</supplied>ttu Ivai tevaka<unclear>ṉ</unclear>mi tiru
+<lb n="25" break="no"/>cciṟṟa<supplied reason="omitted">m</supplied>palapa<supplied reason="omitted">ṭ</supplied>ṭaṉ Eḻuttu <hi rend="grantha">śrī</hi>kā<supplied reason="omitted">ri</supplied>yam vil
+<lb n="26" break="no"/>lavatarayaṉe(e)ḻuttu Akāraṇam ci
+<lb n="27" break="no"/>vañāṉacampantaṉe<supplied reason="omitted">ḻu</supplied>ttu <hi rend="grantha">svastiśrī <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g></hi> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.480 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">570-571</citedRange>
+			<citedRange unit="item">480</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

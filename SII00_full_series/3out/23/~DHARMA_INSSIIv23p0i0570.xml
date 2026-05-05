@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 23.570: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 570. (A.R. No. 570 of 1907.) Nandalūru, Rajampet Taluk, Cuddapah District Saumyanātha temple—on the south base of the maṇḍapa in front of the central shrine</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv23p0i0570</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This begins with the Sanskrit introduction <hi rend="italic">Charaṇasarōruha</hi> etc. It records an order of (the Telugu Chōḍa chief) <hi rend="bold">Madhurāntaka Pottappichchōḻa Nallam Siddharasa</hi> to the <hi rend="italic">Mahājanas</hi> of Nirandaṉūr which he calls his <hi rend="italic">brahmapuri</hi>, restoring to them the village within the four boundaries, which had been originally granted to them by Vatsarāja and Siddharasa's ancestors and declaring that the Veḷḷāḷas (probably then in illegal occupation) had no title to the village. The charter of possession is said to have been made by the chief in the presence of god Śokkapperumāḷ. There seems to be some gap in the body of the record.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti cara</hi>ṇa<hi rend="grantha">saroruha vihi</hi>ta<hi rend="grantha"> piloca</hi>na<hi rend="grantha"> triloca</hi>na<hi rend="grantha"> pramukhākhila pṛthviśvarakāri</hi>ta<hi rend="grantha"> kā</hi>ve<hi rend="grantha">ri</hi>ti<hi rend="grantha">ra karikālakularatnapradipāhi</hi>ta<hi rend="grantha"> kumārāmku</hi>
+<lb n="2" break="no"/><hi rend="grantha">śa</hi>yana<hi rend="grantha">siṅha kāñcīpura maheśvara śrīmanmahāmaṇḍaleśvara nma</hi>tu<hi rend="grantha">rā</hi>n=takap pot tappiccoḻa nallam cittaracanen
+<lb n="3"/><hi rend="grantha"> <gap reason="lost" quantity="9" unit="character"/> svasti śrī</hi>maturān=takap pottappiccoḻa nallam cittara<hi rend="grantha">sa</hi>neṉ Eṉ <hi rend="grantha">brahma</hi>puriyāna niran=taṉūr <hi rend="grantha">mahāja</hi>nattukku <hi rend="grantha">śilāśāsa</hi>nam paṇṇik kuṭuttapaṭi muṉpu va<hi rend="grantha">tsa</hi>rā<hi rend="grantha">ja</hi>rum Eṉ va<hi rend="grantha">msa</hi>ttārum kuṭuttapaṭiye nāṉum Eṉpiḷḷaikaḷum Ivvūr catu<hi rend="grantha">ssi</hi>m<hi rend="grantha">ai</hi>kkum naṭuvu <gap reason="lost" quantity="8" unit="character"/> 
+<lb n="4"/>m Ivakaḷukku <hi rend="grantha">sva</hi>mmāka cokkapperumāḷ tirumuṉpe <hi rend="grantha">dhārāpūrvaka</hi> mākak kuṭutteṉ veḷḷāḷa<supplied reason="omitted">ṟ</supplied>kku Ivvūril <hi rend="grantha">prāpti</hi> Illai Ippaṭikku <hi rend="grantha">śi</hi>lā<hi rend="grantha">śāsa</hi>nam paṇṇikkuṭutteṉ Itt(ā)ṉmattukku Aḻivu ceyvār <hi rend="grantha">gaṅgai</hi> Iṭai kumari Iṭai kurālpacu kuttiṉāl pāvattil paṭuvāṉ <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">svada</hi>ttā<hi rend="grantha">m parada</hi>ttā<hi rend="grantha">m vā yo hare</hi>ti<hi rend="grantha"> vasundharām ṣaṣṭim varṣa sahasrā</hi>ṇi <gap reason="lost" quantity="9" unit="character"/> Ivai ketāramuṭaiyā neḻuttu Ivai centāṇṭi Eḻuttu
+<lb n="5"/>Ippaṭikkiv<hi rend="grantha">ai</hi> maturān=takap pottappic coḻa nallañ cittiyaraca neḻuttu Ivai can=tiracūṭi cittaya neḻuttu Ivai ce <gap reason="lost" quantity="3" unit="character"/> neḻuttu Ivai <hi rend="grantha">rāja</hi> niyokattāl <hi rend="grantha">jo</hi>ti<hi rend="grantha">ṣa</hi>p perumā neḻuttu <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 23.570 by <bibl><ptr target="bib:SrinivasaRao1979_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1979_01"/>
+			<citedRange unit="page">390</citedRange>
+			<citedRange unit="item">570</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

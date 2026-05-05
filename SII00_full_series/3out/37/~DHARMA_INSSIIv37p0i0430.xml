@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.430: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 430. (A.R. No. E 24 of 1941-42.) Amarāvati, Sattenapalle Taluk, Guntur District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0430</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Broken pillar behind the Amarēśvara temple.</p>						
+
+						<p>This undated record may be assigned to the 8th century, on the basis of palaeography.</p>						
+
+						<p>It refers to the village Niṭūru and contains the imprecatory portion.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<!--<h4>First Face.</h4>-->
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="3"/><unclear>ya</unclear>vvaru <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="1" unit="character"/> caṁdamuna <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="1" unit="character"/> ṭṭina niṭūri <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="6"/> <gap reason="lost" quantity="5" unit="character"/> niṁjēkoni tamapu 
+<lb n="7"/> <gap reason="lost" quantity="5" unit="character"/> da <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+<!--<h4>Second face.</h4>-->
+
+<p>
+<lb n="8"/>yidamaraṭi <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="9"/>paṁgalavāru 
+<lb n="10"/> <gap reason="lost" quantity="1" unit="character"/> takamusēsi 
+<lb n="11"/> <gap reason="lost" quantity="1" unit="character"/> <unclear>vā</unclear>ru 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.430 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">369-370</citedRange>
+			<citedRange unit="item">430</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

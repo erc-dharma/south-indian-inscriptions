@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.341: original edition by S. Swaminathan</title>
+				<title type="alt">No. 341.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0341</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						<p><hi rend="bold">King: ⎯⎯ Year: <hi rend="italic">Saumya, Āshāḍha śu.</hi> 5.</hi></p>						
+
+						<p>In characters of the 16th century A.D. Records the grant of land with all its appurtenances to the gods Prasanna-Veṅkaṭēśvara and Mallikārjuna of Āvulapalle. Further it also records the excavation of tank in the village by Prekarāyagaru. Mentions one Suguṭṭuru Chikkarāya Timmayyagavuṇigaru.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>savumya saṁvvatsara
+<lb n="2"/>Āṣāḍha śu [5 <gap reason="lost" quantity="1" unit="character"/> ]lu śrī
+<lb n="3" break="no"/>matu suṭūri cikarā
+<lb n="4" break="no"/>ya tiṁmayagavunigā
+<lb n="5" break="no"/>ru Āvulapalle prasanna
+<lb n="6"/>vēṁkaṭēśvarasvāmi śrī
+<lb n="7"/>mallikā¨rjunaku Āneka 
+<lb n="8" break="no"/>ṁṭa vīrayagavunivāru
+<lb n="9"/>yiccina dharmaśāsanaṁ
+<lb n="10"/>yidi Ārabhyaṁgānu yī(ni)ka
+<lb n="11" break="no"/>ṁcēlu ceruvu maḍiṁ manya
+<lb n="12" break="no"/>lu vanagiri modalaina sahagānu
+<lb n="13"/>cenu puṭṭeḍu tūmeṁḍu maḍi
+<lb n="14"/>vāgi vāḍūdi meḍucenu
+<lb n="15"/>yi tiruyiti <gap reason="lost" quantity="1" unit="character"/> ceruvu <gap reason="lost" quantity="1" unit="character"/> si
+<lb n="16" break="no"/>mitasthaliki <gap reason="lost" quantity="5" unit="character"/> śe
+<lb n="17" break="no"/>yiṁcci Icciri śrīraṁganekama
+<lb n="18"/>prekarāyagāru ceruvunu
+<lb n="19"/>gaṭṭi vāri talli jātā <gap reason="lost" quantity="3" unit="character"/> ṁcci
+<lb n="20"/> <gap reason="lost" quantity="2" unit="character"/> dhariṁcci <gap reason="lost" quantity="1" unit="character"/> manappuḍu
+<lb n="21"/>śrīveṁkaṭēśvarula <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.341 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">378-379</citedRange>
+			<citedRange unit="item">341</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

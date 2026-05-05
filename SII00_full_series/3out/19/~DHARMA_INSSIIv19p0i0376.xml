@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.376: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 376. (A.R. No. 433 of 1918.) ON THE SAME WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0376</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The inscription is incomplete. It records an endowment of six pieces of land measuring one <hi rend="italic">(vēli)</hi>, 7 <hi rend="italic">mā</hi> and 1 <hi rend="italic">kāṇi</hi> in all, after purchasing the same from some residents of Kaḍalvāyil, and 1 <hi rend="italic">mā</hi> and 1/2 <hi rend="italic">kāṇi</hi> of his own land together with a house to the temple of Veḷḷaḍai-Āṇḍār at Tirukkurugāvūr in Tiruvāli-nāḍu by the <hi rend="bold">(officer) Śembaṉ Aruḷaṉ Uttamanidhi</hi> <hi rend="italic">alias</hi> <hi rend="bold">Uttamaśōḻa-Mūvēndavēḷār.</hi> This is evidently an inscription of <hi rend="bold">Uttama-Chōḷa.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopparake<hi rend="grantha">sa</hi>ripa<hi rend="grantha">nma</hi><supplied reason="omitted">ṟ</supplied>kki yāṇṭu patiñcāvatu <gap reason="lost" quantity="9" unit="character"/> <hi rend="grantha">de</hi>yam kaṭalvāyil <hi rend="grantha">bhūmi</hi>yuṭaiya pāratāyan <hi rend="grantha">Īśvara</hi>ṉ <hi rend="grantha">brāhma</hi>ṇi nila <gap reason="lost" quantity="7" unit="character"/> pātiriyum Āttiraiyaṉ <hi rend="grantha">de</hi>van ṉilakaṇṭaṉ <hi rend="grantha">brāhma</hi>ṇi nilaṉ koṟṟiyum kaṭalvāyil <hi rend="grantha">bhūmi</hi>yuṭaiya comattiya<unclear>ṉ</unclear>
+<lb n="2" break="no"/>ātittaṉ piṭāruṉum Ivvaṉaivariṭaiyum tiruvāli<unclear>nāṭṭut tirukkurukāvūr veḷ</unclear>ḷaṭai Āṇṭārkku cempan ṉaruḷaṉ ṉuttamanitiyāṉa Utta<unclear>ma</unclear>coḻa muventaveḷār Ivarkaḷiṭai vilaiyum <gap reason="lost" quantity="4" unit="character"/> ku<unclear>mu</unclear>m koṇṭa nilam kaṭalvāyilil melkoṭṭakattu nilat tukku kiḻpārkkellai locca 
+<lb n="3" break="no"/>appiyāṭṭaṉukku Ūrkiḻān pāvaṉittan nāraṇan kan=tan tamma <gap reason="lost" quantity="7" unit="character"/> tu<supplied reason="omitted">k</supplied>ku meṟkum tenpārkkellai Uḷcciṟuvāykkālukku vaṭakku<supplied reason="omitted">m</supplied> me<supplied reason="omitted">l</supplied>pārkkellai Ellai vā<supplied reason="omitted">y</supplied>kkālukku kiḻakkum vaṭapārkkellai kovintavāykkālukku teṟkkum Ivicaitta perunāṉkellaiyilum Akappaṭṭa nilama<unclear>rai</unclear>
+<lb n="4" break="no"/>yum Itu Allatu Araimāvukku kiḻpārkkellai kāppiyan kāḷi kaḻiyanum tampimārun ṉilattukku meṟkum teṉpārkkellai cātta<unclear>n</unclear> nārāyaṇaṉ tiruvaṭikaḷ nilattukku vaṭakku<supplied reason="omitted">m</supplied> melpārkkellai tirumeṟṟaḷitevar nilattukku kiḻakkum vaṭapārk kellai <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="5"/>kkālukkum tirumeṟṟaḷitevar nilattukku teṟkum Ivicaitta perunāṉkel<supplied reason="omitted">laiyi</supplied> lumakappaṭṭa nilamaraimāvum kiḻūr muṉṟumāvukku kiḻpārkkellai Ūrkkiḻān pāvaṉittan kāṭampālai nilattukku meṟkum teṉpārkkellai kunṟa<supplied reason="omitted">p</supplied>poḻanvāykkālukku vaṭakkum melpārkkellai mocinākaṉ vāy <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="6"/>pārkkellai Ūrkkiḻān pāvaṉittan kāṭan kecuvan ṉilattukku teṟkum Ivicaitta perunāṉkellaiyuḷakappaṭṭa nilam muṉṟumāvum koṭṭakattu Iraṇṭu mākkāṇikku kiḻpārkkellai kā<hi rend="grantha">śya</hi>pan ceruvan ṉampaṉ nilattukku meṟkum tenpārkkellai Irumpilivāykkālukku vaṭakkum melpārkkellai Ūrkiḻān <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="7"/>vaṭapārkkellai Ūr<supplied reason="omitted">ki</supplied>ḻān pāvanittaṉ tavaraṉ centaṉ nilattukku teṟkum Ivicaitta perunāṉkellaiyu makappaṭṭa nilam Iraṇṭu mākkāṇiyum Iñce Araikkālukku kiḻpārkkellai Ūrkiḻān pāvanittaṉ nārāyaṇan Irāmatevan nilattukku meṟkum tenpārkkellai Irātitaran ṉārāyaṇan kumaraṉ nilattukku vaṭakkum mel <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="8"/>tukku kiḻakkum vaṭapārkkellai Ūrkiḻān pāvanittan kuṇatiranā<supplied reason="omitted">ra</supplied>ṇan nilattukku teṟkum Ivicaitta perunāṉkellaiyilumakappaṭṭa nilamaraikkālum Ituvallatu Oru māvukku kiḻpārkkellai pālāciriyan tattan cantiracekaraṉ nilattukku meṟkum teṉpārkkellai pāvanittan kāṭampālai nilattukku vaṭakkum melpārkkel <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="9"/>kiḻakkum vaṭapārkkellai Irumpilivāykkālukku teṟkum Ivicaitta perunāṉkellai yilumakappaṭṭa nilam Orumāvum Āka nilam Oṉṟe Eḻumākkāṇi Illa maṉaikku kiḻpārk kellai pāvanittan<unclear>vai</unclear>kuntaṉum tampimārum nilattukku meṟku teṉpārkkellai pāvanittan kāṭan kecuvan nilattukku vaṭakkum mel <gap reason="lost" quantity="7" unit="character"/> 
+<lb n="10"/>nteva nilattukku kiḻakkum vaṭapārkkellai mokiliyan niṉṟān vaṭu<unclear>ka</unclear>n nilattukku teṟkum Ivvicaitta perunāṉkellaiyum Akappaṭṭa Immaṉaiyum <hi rend="grantha">śrī</hi>paḷuvan<hi rend="grantha">mahāde</hi>vi<hi rend="grantha"> ca</hi>tu<hi rend="grantha">rvve</hi>ti<unclear>maṅkala</unclear>ttu karu <gap reason="lost" quantity="5" unit="character"/> kāvatikku meṟkum mulaparuṭaivāykkālukku teṟkum <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="11"/>ṭainta mutal caturam kayvantavāṟṟāl Āttakūr Ātitta piṭāra<hi rend="grantha">krama</hi>vittanuḷḷiṭṭa caturattār<supplied reason="omitted">k</supplied>ku paṭṭa <unclear>munṟu</unclear> māvil vaṭakkaṭaiya nān naṭaittuṭaittu muṭaiyenāta Oru māvaraik kāṇiyum<note n="197-1">The inscription stops here.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.376 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">196-197</citedRange>
+			<citedRange unit="item">376</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 42.147: original edition by C Somasundara Rao</title>
+				<title type="alt">No. 147. (A.R. No. 13 of 1955-56.) Saṅgam, Kovur Taluk, Nellore District, Andhra Pradesh.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv42p0i0147</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the tiers of the entrance to the Saṅgamēśvara temple.</p>						
+
+						<p>Dated Śaka [1149], <hi rend="italic">Chaitra</hi> śu. 7, Thursday, corresponding to A.D. 1227, March 25. The cyclic year is Sarvajit. [The Govt. Epigraphist could not trace the Śaka year on the stone, but NDI, Part II, No. 102 refers to the Śaka year. By the time of the visit of the Epigraphical officer, the stone could have peeled off.]</p>						
+
+						<p>Damaged. Seems to record some gift by Bhaima • • la-sāni for the merit of her husband.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrī śakava¨rṣamulu <unclear>1149</unclear> nēṭi caitra 
+<lb n="2" break="no"/>śuddha saptamiyu guru<unclear>vāramu</unclear> viṣusaṁkrā 
+<lb n="3" break="no"/>ṁttināṁḍu kaṁdamūri bhaima[ <gap reason="lost" quantity="2" unit="character"/> lasāni tana] 
+<lb n="4" break="no"/>penmiṭiki dha¨rmvu(¨rmmu)vugā saṁ<unclear>dhyādīpamu saṁgga</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+<p>Rest of the inscription is lost.</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 42.147 by <bibl><ptr target="bib:SomasundaraRao2020_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SomasundaraRao2020_01"/>
+			<citedRange unit="page">114-115</citedRange>
+			<citedRange unit="item">147</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

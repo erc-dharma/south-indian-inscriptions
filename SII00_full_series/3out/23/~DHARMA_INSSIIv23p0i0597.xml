@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 23.597: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 597. (A.R. No. 597 of 1907.) Nandalūru, Rajampet Taluk, Cuddapah district Saumyanātha temple—In the same place</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv23p0i0597</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is dated in Śaka 1193, Prajāpati (1271-72 A.D.) and records a gift of 32 cows for burning a perpetual lamp in the temple by Perumāṉaḍi Dēvarasa younger brother of Prasādi Tikkarasa a son of <hi rend="bold">Jagadobbagaṇḍa Kāmarasa.</hi> It is not clear whether this Kāmarasa was the same as the chief Jag. Kāmayadēva mentioned in No. 206 of 1894 from Kāvali in the Nellore district.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> cakarai yāṇṭu <num value="1163"><g type="numeral">1000</g> <g type="numeral">100</g> 6 <g type="numeral">10</g> 3</num> ce
+<lb n="2" break="no"/>ṉṟa <hi rend="grantha">prajā</hi>pati<hi rend="grantha">samvaasa</hi>rattu cittiraimā
+<lb n="3" break="no"/><hi rend="grantha">sa</hi>m <hi rend="grantha">je</hi>katoppakaṇṭaṉ kāmaraca
+<lb n="4" break="no"/>r piḷḷaikaḷil <hi rend="grantha">prasādi</hi>t tikkara<hi rend="grantha">sa</hi>r tampiyā
+<lb n="5" break="no"/>r perumāṉaṭi tevara<hi rend="grantha">sa</hi>neṉ niraṉta
+<lb n="6" break="no"/>ṉūrakarattuc cokkapperumāḷu
+<lb n="7" break="no"/>kku ca<hi rend="grantha">ntrādi</hi>ttavarai ṉittam Oru tiru
+<lb n="8" break="no"/>ṉun=tāviḷakkuc cellak kaṭavatā
+<lb n="9" break="no"/>ka Ituk<supplied reason="omitted">ku</supplied> kuṭutta pacu muppattiraṇṭu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 23.597 by <bibl><ptr target="bib:SrinivasaRao1979_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1979_01"/>
+			<citedRange unit="page">418</citedRange>
+			<citedRange unit="item">597</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

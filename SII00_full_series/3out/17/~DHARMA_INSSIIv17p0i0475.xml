@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.475: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 475. (A.R. No. 444 of 1904.) VĒDĀRAṆYAM, TIRUTTURAIPPUNDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0475</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the third pillar in the <hi rend="italic">maṇḍapa</hi> in front of the central shrine in the Vēdāraṇyēśvara temple.</p>						
+
+						<p>Parāntaka I. Year 20: 926-27 A.D.</p>						
+
+						<p>This inscription is dated in the reign of Madiraikoṇḍa Parakēsari.</p>						
+
+						<p>It records the gift of 60 <hi rend="italic">kaḻañju</hi> of gold to god Mahādēva of Tirumaṟaikkāḍu, a <hi rend="italic">perundēvadāṉa</hi> in Umbaḷa-nāḍu for the maintenance (<hi rend="italic">jīvitam</hi>) of one Brāhmaṇa well versed in the <hi rend="italic">vēdas</hi> and <hi rend="italic">archchanāvidhi</hi> serving the god during the 3 <hi rend="italic">sandhis</hi>, by Va.san Dē[var]. Kaḍambaṉ of Māṉanilainallūr, a <hi rend="italic">brahmadēya</hi> in Kaḷakkuḍi-nāḍu in Pāṇḍināḍu. The <hi rend="italic">sābha</hi> of Naṟukaḍambiḍu-chchaturvēdimaṅgalam a <hi rend="italic">mēṟṟuṇi (?) brahmadēya</hi> in the same nāḍu, received the amount and agreed to provide paddy for the purpose, as interest on the amount endowed.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> ma
+<lb n="2" break="no"/>tiraikoṇṭa kop
+<lb n="3" break="no"/>parakecaripa<hi rend="grantha">nma</hi><supplied reason="omitted">r</supplied>kku Iyā
+<lb n="4" break="no"/>ṇṭu Irupatāvatu
+<lb n="5"/>Umpaḷanāṭṭup perun
+<lb n="6" break="no"/>tevatāṉam tiruma
+<lb n="7" break="no"/>ṟaikkāṭṭu <hi rend="grantha">mahāde</hi>
+<lb n="8"/>varkkup pāṇṭi nāṭṭu
+<lb n="9"/>kkaḷakkuṭi nāṭṭu <hi rend="grantha">braha</hi>
+<lb n="10"/><hi rend="grantha">de</hi>ya māṉanilainal
+<lb n="11"/>lūr va <gap reason="lost" quantity="1" unit="character"/> <hi rend="grantha">sa</hi>n te<unclear>var</unclear>
+<lb n="12"/> <gap reason="lost" quantity="1" unit="character"/> kaṭampaṉ Itteva
+<lb n="13" break="no"/>rai muṉṟu <hi rend="grantha">sandhi</hi>yu<unclear>m</unclear>
+<lb n="14"/><hi rend="grantha">candrā<unclear>ditya</unclear></hi>val Ārā
+<lb n="15" break="no"/>tippāṉeru <hi rend="grantha">brāhma</hi>ṇan
+<lb n="16"/><hi rend="grantha"><unclear>veda</unclear>mā</hi>m <hi rend="grantha">�rcci</hi>nāvi<hi rend="grantha">dhi�</hi>
+</p>
+
+<p>1) Māṉanilainallūr is the same as Māṉūr in Tirunelveli District. See <hi rend="italic">Ep. Ind.</hi> XXI, p. 9, Text, lines 6-8.</p> 
+
+<p>
+<lb n="17" break="no"/>m vallāṉokuvaṉu
+<lb n="18" break="no"/>kku <hi rend="grantha">ji</hi>vitamāka vaitta
+<lb n="19"/><unclear>poṉ</unclear> Aṟupatiṉ kaḻañ
+<lb n="20" break="no"/>cu Ippoṉ Aṟupatiṉ
+<lb n="21"/>kaḻañcum Iññāṭṭu me
+<lb n="22" break="no"/>ṟ<unclear>ṟuṇi</unclear> <hi rend="grantha">brahmade</hi>yam <unclear>naṟu</unclear>ka
+<lb n="23" break="no"/>ṭampiṭu<unclear>cca</unclear>tu<hi rend="grantha">rvva</hi>tima<unclear>ṅkalat</unclear>
+<lb n="24" break="no"/><unclear>tu</unclear> <hi rend="grantha">sa<unclear>bh</unclear></hi>aiyom <unclear>koṇṭu Ip</unclear>
+<lb n="25" break="no"/>poṉ Aṟupatiṉ kaḻañcum
+<lb n="26"/>poliyūṭṭāka Āṭ<unclear>ṭai vaṭṭam A</unclear>
+<lb n="27" break="no"/>ṟupatiṉ kala nellu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="28"/>patakku nellāka pūvil <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="29"/>kalanellu E<supplied reason="omitted">ṇ</supplied>ṇāḻikkālāl E
+<lb n="30" break="no"/><unclear>ṅkaḷur</unclear> <unclear>A</unclear>mpalatte Aḷa<hi rend="grantha">n</hi>tu ku
+<lb n="31" break="no"/>ḷattilu nikkik kūṭṭi <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="32"/> <gap reason="lost" quantity="5" unit="character"/> Āṇṭuvarai Aṟupa
+<lb n="33" break="no"/>tiṉ kala nellum Aṟa Aḷa
+<lb n="34" break="no"/>ntu kuṭuppatākavum t<unclear>e</unclear>vaka
+<lb n="35" break="no"/><unclear>n</unclear>mikaḷum paṉ<hi rend="grantha">māheśva</hi>rarum
+<lb n="36"/>pati<unclear>pā</unclear>ta<unclear>mu</unclear>lattārum <hi rend="grantha">sa<unclear>bh</unclear></hi>ai
+<lb n="37" break="no"/>yomukku vetamum <hi rend="grantha">Arcci</hi>nā
+<lb n="38" break="no"/>vi<hi rend="grantha">dhi</hi>yum vallaṉāy yo
+<lb n="39" break="no"/><hi rend="grantha">gya</hi>ṉāy Uḷḷāṉ<unclear>o</unclear>ru<hi rend="grantha">brāhma</hi>
+<lb n="40" break="no"/>ṇarait teṭi nāṅkaḷey <unclear>p</unclear>o
+<lb n="41" break="no"/><hi rend="grantha">ṣi</hi>ttiṭuvatākavum Ipparic<unclear>o</unclear>
+<lb n="42" break="no"/><unclear>ṭ</unclear>ṭiya poṉ Aṟupatiṉ kaḻañ
+<lb n="43" break="no"/>cu <gap reason="lost" quantity="4" unit="character"/> cai <gap reason="lost" quantity="2" unit="character"/> cella <unclear>Aṟu</unclear>
+<lb n="44" break="no"/>patiṉkala
+<lb n="45" break="no"/>mum Āṇṭu varai Aḷa
+<lb n="46" break="no"/>ntu kuṭuppomāṉom
+<lb n="47"/>naṟukaṭampi <hi rend="grantha">ca</hi>tu<hi rend="grantha">rve</hi>ti<hi rend="grantha"/>
+<lb n="48" break="no"/>maṅkalattu <hi rend="grantha">sabhai</hi><unclear>yom</unclear>
+<lb n="49"/><hi rend="grantha">panmāheśva<supplied reason="omitted">ra</supplied> rakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.475 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">195-196</citedRange>
+			<citedRange unit="item">475</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 39.172: original edition by K. Karuppiah</title>
+				<title type="alt">No. 172. (A.R. No. 172 of 1916.) TIRUPPUKKUḺI, CONJEEVERAM TALUK, CHINGLEPUT DISTRICT. VIJAYARĀGHAVA-PERUMĀḶ TEMPLE-ON THE SOUTH WALL OF THE SAME MAṆḌAPA. VĪRAPRATĀPADĒVARĀYAMAHĀRĀYA, SADHĀRAṆA (1430-31 A.D.)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv39p0i0172</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription records the gift of 1310 <hi rend="italic">paṇam</hi> by the king while he was at the temple of the Śri Virupākshadēva located on the banks of the Pampā river. His order was sent to Sirigirināyan at Chandragiri. The gift was meant for the supply of food offerings, conducting festivals and repair works to the temple of Porēṟṟuperumāḷ at Tiruppuṭkuḻi in Dāmaṟ kōṭṭam, in Chandragiri rājya. Śrī Virupāksha is engraved in Telugu at the end of the record.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śrī</hi> man Irā<hi rend="grantha">jā</hi>tirā<hi rend="grantha">ja</hi>ṉ Irāyaparamecuraṉ <hi rend="grantha">śrī</hi> vira<hi rend="grantha">pradā</hi>pa<hi rend="grantha">de</hi>va
+<lb n="2"/>rāya <hi rend="grantha">mahā</hi>rāyar <hi rend="grantha">candragiri śirigiri</hi>na<hi rend="grantha">ndha</hi>nukku nirupam <hi rend="grantha">candragiri</hi>
+<lb n="3"/>rā<hi rend="grantha">jya</hi>ttil tāmalkoṭṭattil tirupuṭkuḻiyil pereṟṟup pe
+<lb n="4"/>rumāḷukku cantirakiri paṇṭārattukku cellum coṭivarākaṉ poṉ
+<lb n="5"/>nūṟṟu muppattu toṉṟum paṇam Āṟekālum Ittile poreṟṟup
+<lb n="6" break="no"/>perumāḷukku nāḷḷoṉṟukku nālu taḷikai tiruppanākamum tiruna <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="7"/>ppaṇiyum nammuṭaiya ta<hi rend="grantha">mmam</hi> yeṉṟu tirupuṭkuḻiyil <hi rend="grantha">stā</hi>nikar <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="8"/>kku viṇṇappañ ceykaiyil nām tiruvuḷḷam paṟṟi <hi rend="grantha">sādhāra</hi>ṇa varu<hi rend="grantha">ṣa</hi>m vai
+<lb n="9"/>kāci mātam <hi rend="grantha">śu</hi>tta<hi rend="grantha">bhaurṇa</hi>miyilum pampātirattil <hi rend="grantha">śrī</hi> virupā<hi rend="grantha">kṣa</hi>teva cannatiyil
+<lb n="10"/><hi rend="grantha">Āśandrarkasthādhi</hi>yāka <hi rend="grantha">sarvamānya</hi>māka Intac coṭip paṇam Ā
+<lb n="11"/>yirattu munnūṟṟu Oru pattu Āṟekāl paṇamum koṇṭu nammuṭaiya <hi rend="grantha">śrī</hi> 
+<lb n="12" break="no"/>nāmattāle poreṟṟup perumāḷ nāḷ Oṉṟukku nālu taḷikai tirup
+<lb n="13"/>panākamum tirunāḷum tiruppaṇiyum naṭakkum<supplied reason="omitted">pa</supplied>ṭi tārai Iṟaittu <hi rend="grantha">rā</hi>ya<hi rend="grantha">sa</hi>m
+<lb n="14"/>Unakku Uttāramum tiruvuḷḷam paṟṟiṉom Inta coṭip paṇam Ā
+<lb n="15"/>yirattu muṉṉūṟṟu Orupattu Āṟekāl paṇamum Itu koṇ
+<lb n="16"/>ṭu nālu taḷikai tiruppanākamum tirun<choice><sic>a</sic><corr>ā</corr></choice>ḷum tiruppaṇiyum nammu<supplied reason="omitted">ṭai</supplied>ya pe
+<lb n="17"/>rāle tinantoṟum naṭakkumpaṭi Uṉṉuṭaiya tiruva<hi rend="grantha">hi</hi>ccīṭṭu<unclear>m</unclear> ku
+<lb n="18"/>ṭuttu caṟuva<hi rend="grantha">manya</hi>m Āka <hi rend="grantha">stā</hi>ni mariyāti naṭattik koṇṭu varavu<supplied reason="omitted">m</supplied> Inta
+<lb n="19"/>mā<hi rend="grantha">nya</hi>ttile naṭattik koṇṭuvaravum Inta <hi rend="grantha">rā<supplied reason="omitted">ya</supplied>sa pra</hi>tinā<unclear>lu</unclear>va
+<lb n="20"/><hi rend="grantha">hi</hi>yilum Eḻutik koṇṭu Irāya<hi rend="grantha">sam stā</hi>nikaṉ kaiyile mīḷa
+<lb n="21"/><hi rend="grantha">śāsa</hi>namāka kuṭukkavum Inta ta<hi rend="grantha">mmam</hi> tappāmal naṭattik koṇṭu varavu <seg xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular"/>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 39.172 by <bibl><ptr target="bib:Karuppiah2020_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Karuppiah2020_01"/>
+			<citedRange unit="page">191-192</citedRange>
+			<citedRange unit="item">172</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

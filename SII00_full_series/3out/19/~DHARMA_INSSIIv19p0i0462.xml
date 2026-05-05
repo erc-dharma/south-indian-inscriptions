@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.462: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 462. (A.R. No. 97 of 1931.) TIRUPPŪNDURUTTI, TANJAVUR TALUK, TANJAVUR DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, PUSHPAVANĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0462</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is a damaged inscription. It seems to record a gift of gold left with the <hi rend="italic">sabhā</hi> of Tirutturutti for burning a perpetual lamp in the temple with an <hi rend="italic">uḻakku</hi> of ghee every day, by <hi rend="bold">Parāntakaṉ Aṟiñjigai</hi> (evidently <hi rend="bold">prince Ariñjaya</hi>). This is assignable to <hi rend="bold">Parāntaka I.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopparake<hi rend="grantha">sa</hi>ri
+<lb n="2" break="no"/><unclear>paṉmaṟ</unclear>kku yāṇṭu <gap reason="lost" quantity="9" unit="character"/> tirutturutti <hi rend="grantha">mahāde</hi>varkkup parān
+<lb n="3" break="no"/> <gap reason="lost" quantity="4" unit="character"/> ṟiñcikai Oru nontā viḷakkerippataṟku vait
+<lb n="4" break="no"/> <gap reason="lost" quantity="4" unit="character"/> tiṉkaḻañcuṅ koṇṭu nicati Uḻakku neyyā
+<lb n="5" break="no"/> <gap reason="lost" quantity="4" unit="character"/> taval Iravum paka<unclear>lu</unclear>m Erippomāy Ippoṉ koṇṭom ti
+<lb n="6" break="no"/><unclear>rutturu</unclear>tti <hi rend="grantha">sabhai</hi>y<unclear>om</unclear> Itu <hi rend="grantha">pa</hi>ṉ<hi rend="grantha">māheśvararirakṣai</hi> <g type="ddanda">.</g><g type="dashLong">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.462 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">236</citedRange>
+			<citedRange unit="item">462</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

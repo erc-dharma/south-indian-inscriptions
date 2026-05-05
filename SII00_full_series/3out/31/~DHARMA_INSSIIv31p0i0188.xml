@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 31.188: original edition by C. A. Padmanabha Sastri and T. S. Ravishankar</title>
+				<title type="alt">No. 188. (A.R. No. B 263 of 1938.) PEDDANAPĀḌU, KAMALAPURAM TALUK, CUDDAPAH DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv31p0i0188</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab set up in front of the Śiva temple.</p>						
+
+						<p>1435 A.D.</p>						
+
+						<p>It is dated in Śaka 1357, Ānanda, Māgha ba. 14, Friday corresponding to January 13, Thursday f.d.t., °85, 1435, A.D.</p>						
+
+						<p>Records the consecration of the image of Śrī Vīrabadradēva by Nāgārāju, the son of Cheṁgūmṭṭa Mallamarāju, of <hi rend="italic">Śaunaka gōtra</hi> and <hi rend="italic">Yajuś-śakha.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>ṁ svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> vijayābhyudaya śa 
+<lb n="2" break="no"/>kavaruṣaṁbulu 1357 Agunēṁ 
+<lb n="3"/>ṭa Ānaṁda saṁvvatsaṁ māṣu ba<unclear>hu</unclear>ḷa 
+<lb n="4"/>15 su <supplied reason="undefined"><g type="danda">.</g></supplied> śaunaka gōtraṁ yajuśmā 
+<lb n="5" break="no"/>khādhyāyulayina ceṁguṁ 
+<lb n="6" break="no"/>ṭṭa mallamarājugāri koḍuku 
+<lb n="7"/>lu nāgarājugāru peddana pā 
+<lb n="8" break="no"/>ṭinu śrīvīrabhadradēvara pratiṣṭha 
+<lb n="9"/>sēIṁcciri <g type="ddanda">.</g> maṁgaḷamahā śrī śrī śrī 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 31.188 by <bibl><ptr target="bib:PadmanabhaSastri2013_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:PadmanabhaSastri2013_01"/>
+			<citedRange unit="page">228-229</citedRange>
+			<citedRange unit="item">188</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

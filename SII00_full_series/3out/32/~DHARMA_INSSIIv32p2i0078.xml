@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 32, part 2, no. 78: original edition by S. Swaminathan</title>
+				<title type="alt">No. 78. (A.R. No. 578 of 1920.) UḌAIYĀRKUḌI, CHIDAMBARAM TALUK, SOUTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv32p2i0078</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the west wall, central shrine, Anantēśvarasvāmin temple.</p>						
+
+						<p><hi rend="bold">Year 10: 981 A.D.</hi></p>						
+
+						<p>It is in Sanskrit language engraved in Grantha characters.</p>						
+
+						<p>Begins with obeisance to Lord Śiva. It records that an individual Nampieṉbāṉ, son of Mahāmati, son of Nakkan, son of Trivikrama, apparently set up a garden and <hi rend="italic">śāla</hi> for feeding one hundred brāhmaṇas daily possibly at the request of his wife Śīlachuḍar. It is also described that the latter belonged to a noble family and was a woman of great beauty. For carrying out this benefaction, the donor Nambieṉbāṉ ceded the village Tuṟaiyūr-kiḷḷikkuḍi.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:grantha maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīrudrasya yadiya pāda yuga ḷāna <gap reason="lost" quantity="8" unit="character"/> �ya tē ya <gap reason="lost" quantity="2" unit="character"/> </hi>
+<lb n="2"/><hi rend="grantha">ṣa surāsurēndramakuṭa <gap reason="lost" quantity="1" unit="character"/> śrīḥ pādapuṣpāya tēyasyā śēṣa jagatbhava</hi>
+<lb n="3"/><hi rend="grantha">harīm paraminīsvarapakṣati <gap reason="lost" quantity="1" unit="character"/> </hi>
+<lb n="4"/><hi rend="grantha">rōgasyāśrayaḥ kēsarikētu <gap reason="lost" quantity="1" unit="character"/> </hi>
+<lb n="5"/><hi rend="grantha">malapara <gap reason="lost" quantity="1" unit="character"/> �ṭuruti <gap reason="lost" quantity="1" unit="character"/> hā cāstra</hi>
+<lb n="6"/><hi rend="grantha"> <gap reason="lost" quantity="2" unit="character"/> <unclear>ph</unclear>ēna <gap reason="lost" quantity="1" unit="character"/> yēṣāmpēti</hi>
+<lb n="7"/><hi rend="grantha"> <gap reason="lost" quantity="2" unit="character"/> saritci</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṟu</seg><hi rend="grantha">rapalu<unclear>r</unclear>grāmaḥ parā</hi>
+<lb n="8" break="no"/><hi rend="grantha">ntaki puṣṭakatā rāṣaṭaṅka <unclear>r</unclear>kkaṇḍā</hi>
+<lb n="9"/><hi rend="grantha">paṭi <unclear>s</unclear>tēṣām kulam varṇṇa<unclear>t</unclear>ē�</hi>
+<lb n="10"/><hi rend="grantha">trivikramōbhavattasminnakakastasya mah<unclear>ā</unclear></hi>
+<lb n="11"/><hi rend="grantha">matiḥ tasya bhāryyā kulināsikkō</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṟṟa</seg>
+<lb n="12"/><hi rend="grantha"> <gap reason="lost" quantity="2" unit="character"/> rāmamsamām <gap reason="lost" quantity="3" unit="character"/> śrī śilacuṭarākhyā cati<unclear>ru</unclear>pu</hi>
+<lb n="13"/><hi rend="grantha"><unclear>kha</unclear> <gap reason="lost" quantity="1" unit="character"/> rvva kāvītīḥ nampi</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">yeṉ</seg><hi rend="grantha">bāniti khyātō jātāḥ ta<unclear>sya</unclear></hi>
+<lb n="14"/><hi rend="grantha"> <gap reason="lost" quantity="1" unit="character"/> mahamatēḥ—dēva<unclear>s</unclear>yōttamacōḷasya daśamē vatsarē sabhā<unclear>m</unclear></hi>
+<lb n="15"/><hi rend="grantha">Aka<supplied reason="omitted">r</supplied>ōdra cārāmam nampi</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">yeṉpān</seg> <hi rend="grantha">guṇālayaḥ śālāṅkratavā gra</hi> 
+<lb n="16"/><hi rend="grantha"> <gap reason="lost" quantity="2" unit="character"/> śāka tribhuvanatilakē viranārāyaṇēsmi</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">n</seg> <hi rend="grantha">śrī mā</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">n śrī</seg> <hi rend="grantha">kāmakōṣṭhēvani</hi>
+<lb n="17"/><hi rend="grantha"><unclear>bhū</unclear>sura śatakasyānvaham bhōjana<unclear>rttha</unclear>m krītvāśālā kṣumālāprarivrata</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tu</seg>
+<lb n="18" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṟaiyūr kiḷḷiku</seg><hi rend="grantha">ṭyā khyakancaprādā</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tu śrīnampi<supplied reason="omitted">y</supplied>eṉpān</seg> <hi rend="grantha">sakalaguṇaga</hi>
+<lb n="19" break="no"/><hi rend="grantha">ṇy<unclear>ō</unclear> vatsarē cātravimānā <g type="danda">.</g>—</hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 32, part 2, no. 78 by <bibl><ptr target="bib:Swaminathan2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2012_01"/>
+			<citedRange unit="page">195-196</citedRange>
+			<citedRange unit="item">78</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 28.95: original edition by J. Sundaram</title>
+				<title type="alt">No. 95. (A.R. No. 250 of 1913.) URAGAḌAM, CHINGLEPUT TALUK, CHINGLEPUT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv28p0i0095</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Kōdaṇḍarāmasvāmin temple, north base.</p>						
+
+						<p><hi rend="bold">••• ••••• Śrīmukha, Vaikāśi 28.</hi></p>						
+
+						<p>This inscription records the endowment of one fourth of his share in the land of Uṟaḍagam alias śrī-Parāṅkuśapuram, for the celebration of the Śrī-Rāma-navami festival for the God Raghunātha-pperumāḷ by Nallārayaṉ, son of Kārambichēṭṭu Varadarājar of the same <hi rend="italic">agaram.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śrī</hi>mukavaru<hi rend="grantha">ṣa</hi>m vaikāci mātam <hi rend="grantha"><num value="28">2 <g type="numeral">10</g> 8</num>�</hi> Akaram Uṟaṭakamāna <hi rend="grantha">śrī</hi>parā
+<lb n="2" break="no"/>ṅkucapurattu rakunātap perumāḷukku cirāma navami ciṟappukku
+<lb n="3"/>yivakarattu karampaceṭṭu varatarācar puttirar nallārayyaṉ tanmacātanam
+<lb n="4"/>pa<supplied reason="omitted">ṇ</supplied>ṇikuṭuttapaṭi nammiṭa paṅku vaḻiyil vañcaṭakopan kaṇṇāṟu mel ka
+<lb n="5" break="no"/>ṇṭa mutal kaṇikālaṭi nālāyi <gap reason="lost" quantity="1" unit="character"/> Araikkāṇiyum Anumān kaṇ
+<lb n="6" break="no"/>ṇāṟu melkaṇṭam vatiṟāvaṭavaṇaṭṭaiyu<hi rend="grantha">m</hi> mel nilattuk kātappūr keṇi 
+<lb n="7"/>kiḻpakutiyil <hi rend="grantha">śrī</hi><unclear>parā</unclear>ṅkuceyaṉ kaṇṇāṟu kiḻkaṇṭam <gap reason="lost" quantity="3" unit="character"/> ttakāṇi
+<lb n="8"/>¬ paṅku kālum rakunāta perumāḷukku cirāmanavami ciṟappukku tan
+<lb n="9"/>ma cātaṉa vācakapaṭiye camaṟpitten Ācantirārkamāka na
+<lb n="10"/>ṭa<unclear>kka</unclear>kaṭaivarākavum yippaṭi cammatittu taṉma cātaṉam paṇṇi
+<lb n="11"/>k kuṭuteṉ cirāmanavami ciṟappukku nallārayyaṉ kayiṅkariya<hi rend="grantha">m</hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 28.95 by <bibl><ptr target="bib:Sundaram2010_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sundaram2010_01"/>
+			<citedRange unit="page">152-153</citedRange>
+			<citedRange unit="item">95</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

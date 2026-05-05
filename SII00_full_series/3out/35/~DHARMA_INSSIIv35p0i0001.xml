@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 35.1: original edition by D. M. Nagaraju</title>
+				<title type="alt">No. 1. (A.R. No. 197 of 1950-51.) SENAGALAGŪḌŪRU, TADPATRI TALUK, ANANTAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv35p0i0001</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Stone in front of the Pārvatī shrine near Śiva temple.</p>						
+
+						<p>Chandiyanna.</p>						
+
+						<p>This inscription refers to the rule of Chandiyanna and solar eclipse.</p>						
+
+						<p>It commences with the <hi rend="italic">praśasti, Sakala-Jagatrayābhivandita, etc.</hi> Records the remission, granted by the chief, of the tax <hi rend="italic">ponna-tere</hi> in favour of the <hi rend="italic">mahājanas</hi> of Paṇukapaḻu. It is in characters of about the 9th century A.D.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti sakala
+<lb n="2"/>jagatrayābhi
+<lb n="3" break="no"/>vandita surāsu
+<lb n="4" break="no"/>rādhīśa paramēśvara
+<lb n="5"/>pratihārikṛta mahā
+<lb n="6" break="no"/>balikulōtbhava
+<lb n="7"/>kṛṣṇadhvajavirā
+<lb n="8" break="no"/>jita vriṣabhalāñca<unclear>na</unclear>
+<lb n="9" break="no"/>niptaśābha paḻakā
+<lb n="10"/>¨rghūṣaṇa <unclear>bā</unclear>ṇakula
+<lb n="11"/>vaṁśōnnata <gap reason="lost" quantity="2" unit="character"/> nāmā
+<lb n="12" break="no"/>nvaya śrīmaccandiyanna
+<lb n="13"/> <gap reason="lost" quantity="1" unit="character"/> rā<unclear>jyaṁ</unclear> geyyutti <unclear>re</unclear>
+<lb n="14"/>sū¨ryyagrahaṇadandu
+<lb n="15"/>paṇutapaḻanu mahājana
+<lb n="16" break="no"/>kkū ponnateṟeya biṭṭu
+<lb n="17"/>nūṟi¨rppattu gaṇḍuga ba<unclear>tta</unclear>
+<lb n="18"/>niṟiśida Idanaḻidano[¨r]gga
+<lb n="19"/>sāśira kavileya kondu bā
+<lb n="20" break="no"/>ranaśi Aḻida papā
+<lb n="21"/>śā¨rgu Ida <unclear>rakṣisida</unclear> mā¨rga
+<lb n="22"/>Aśvamēdha palamakku
+<lb n="23" break="no"/>ṁ hiraṇyaga¨rbhbhada palamakkū [<g type="ddanda">.</g>]
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 35.1 by <bibl><ptr target="bib:Nagaraju2017_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagaraju2017_01"/>
+			<citedRange unit="page">1</citedRange>
+			<citedRange unit="item">1</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.615: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 615. (A.R. No. 569-A of 1904.) TIRUVĀRŪR, NAGAPATTINAM TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0615</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north wall of the Achalēśvara shrine in the south-east corner of the second <hi rend="italic">prākāra</hi> in the Tyāgarājasvāmin temple.</p>						
+
+						<p>The beginning of this inscription is lost. On palaeographical considerations this is assignable to 11-12th centuries A.D.</p>						
+
+						<p>It records the sale of land, that was lying fallow, to the temple for reclamation and utilisation of the produce for the flower-garlands and other services to god Tiruvārūruḍaiyār, by the <hi rend="italic">sabhā</hi> of Vāyaṟṟūr, for a consideration of 60 <hi rend="italic">kāśu.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>kku vāyaṟṟūr <hi rend="grantha">sabh</hi>aiyom Iṉṉilam mu <gap reason="lost" quantity="5" unit="character"/> <unclear>ḷa</unclear>ṟṟa <gap reason="lost" quantity="4" unit="character"/> m ku <gap reason="lost" quantity="4" unit="character"/> tiṭalu<unclear>m I</unclear>k kuḻiyumāy kiṭantamaiyil Iṉṉilan tirutti <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="2" unit="character"/> kappaṭuttu Itaṉāl vanta nel <unclear>k</unclear>ai<supplied reason="omitted">k</supplied>koṇṭu Ittevarukku <unclear>v</unclear>eṇṭu<supplied reason="omitted">m</supplied> nālu tiruppaḷḷittāmattukkuṭpaṭa veṇṭu <gap reason="lost" quantity="1" unit="character"/> ti <gap reason="lost" quantity="7" unit="character"/> 
+<lb n="3"/><unclear>t</unclear>oṟu<unclear>ñ</unclear>ceyyakkaṭavārkaḷākavum Ikkācu Aṟupatuṅkoṇṭu I<unclear>ṉṉi</unclear>lam <gap reason="lost" quantity="1" unit="character"/> <unclear>raiye</unclear> mākāṇiyum viṟṟukkuṭuttom Uṭaiyār ti <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="4"/>ṭaiyārkku vāyaṟṟūr <hi rend="grantha">sabh</hi>aiyom Itu <hi rend="grantha">sabh</hi>ai paṇikka Eḻutineṉ ti<unclear>ruvā</unclear>rur <hi rend="grantha">madhya</hi>ttaṉ tiruvārur kiḻāṉ paravai vitiviṭaṅkaneṉ 
+<lb n="5"/> <gap reason="lost" quantity="2" unit="character"/> Ippaṭi Aṟiveṉ <unclear>pāratāyaṉ</unclear> taṇṭi <hi rend="grantha">śrī<unclear>kṛ</unclear>ṣṇa</hi>neṉ <gap reason="lost" quantity="1" unit="character"/> Ippaṭi <unclear>A</unclear>ṟiveṉ kaucikan cirāmaṉ taṇṭiyeṉ Ippaṭi Aṟi<unclear>ve</unclear> <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="6"/>Ā<hi rend="grantha">tra</hi>yaṉ kūttan <hi rend="grantha"><unclear>Uddā</unclear></hi>lakane<unclear>n</unclear>-ṉ Ippaṭi Aṟiveṉ vai<unclear>k</unclear>ā<hi rend="grantha">sa <gap reason="lost" quantity="1" unit="character"/> </hi>n <hi rend="grantha">bh</hi><unclear>ārat</unclear>vā<hi rend="grantha">ji</hi> muppa<supplied reason="omitted">t</supplied>tiruvan pūvaṇattaṭikaḷeṉ Ippaṭi A<unclear>ṟive</unclear> <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="7"/> <gap reason="lost" quantity="2" unit="character"/> Ivūr tirukkaṉa <gap reason="lost" quantity="2" unit="character"/> nakkaṉ Arumoḻiyeṉ Ippaṭi Aṟiveṉ <gap reason="lost" quantity="3" unit="character"/> <unclear>kuk</unclear> <gap reason="lost" quantity="3" unit="character"/> ta <gap reason="lost" quantity="3" unit="character"/> <unclear>nu</unclear> <gap reason="lost" quantity="1" unit="character"/> riya <gap reason="lost" quantity="2" unit="character"/> taṉmacivaneṉ <gap reason="lost" quantity="3" unit="character"/> Itu <gap reason="lost" quantity="9" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.615 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">281-282</citedRange>
+			<citedRange unit="item">615</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

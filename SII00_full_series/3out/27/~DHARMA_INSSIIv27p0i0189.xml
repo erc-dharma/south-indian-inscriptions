@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 27.189: original edition by M. D. Sampath, H. K. Narasimhamurthy, Madhav N. Katti and B. R. Gopal</title>
+				<title type="alt">No. 189. (A.R. No. 70 of 1943-44.) SAṆḌŪR, SANDUR TALUK, BELLARY DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv27p0i0189</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab (No. 3) lying in the compound of the local court.</p>						
+
+						<p>Sadāśivarāya, 1544 A.D.</p>						
+
+						<p>This records the remission of <hi rend="italic">siddhāya</hi> and <hi rend="italic">kāṇike</hi> taxes, levied on the barbers of the <hi rend="italic">sīme,</hi> to Timmōja and Koṇḍōja of Chippagēri and also Śivanōja of Soṇḍūru-sīme, by <hi rend="italic">mahāmaṇḍalēśvara</hi> <hi rend="bold">Rāmarājadēvamahā-arasu,</hi> at the command of the king.</p>						
+
+						<p>It is dated <hi rend="bold">Śaka 1446, Krōdhi, Chaitra śu. 10,</hi> The Śaka year cited appears to be a mistake for 1466 which corresponded with the cyclic year Krōdhi. The <hi rend="italic">tithi</hi> fell on 1544 A.D., April 3. But in the absence of the weekday the details are insufficient for verification.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>jayābhyudaya <hi rend="bold">śālivāhana śakavaru</hi>
+<lb n="2" break="no"/><hi rend="bold"><unclear>ṣa</unclear> 1446 neya krōdhi saṁvatsarada caitra śu 10</hi>
+<lb n="3"/><hi rend="bold">mi</hi> śrī manmahārājādhirāja rāja paramēsvara śrī vīrapratāpa
+<lb n="4"/><hi rend="bold">vīra sadāsivadēva mahārāya</hi>ra nirūpadiṁdalu <hi rend="bold">śrī manmahā maṁ</hi>
+<lb n="5" break="no"/><hi rend="bold"><unclear>ḍa</unclear>ḷēsvara rāmarāja dēvamahā Arasuga</hi>ḷu naṁmakarisi cippa
+<lb n="6" break="no"/>gēriya tiṁmōja <unclear>koṁ</unclear>ḍōjanavarige meci pālisida viva
+<lb n="7" break="no"/>ra sīmeyoḷage nāyiṁdaru teruva sidāya kāṇike
+<lb n="8"/>Ellavanū sarvamānyavāgi pālisibiṭeU soṁ
+<lb n="9" break="no"/>ḍūra sīme<unclear>ge</unclear> saluva nāyiṁdara sivanōjage
+<lb n="10"/>vaṁśapāraṁpareyalu sarvvamānyayida
+<lb n="11" break="no"/>ku tappikoṁḍare sāluṁ<unclear>da</unclear>ra makkaḷu <g type="danda">.</g> śrī
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 27.189 by <bibl><ptr target="bib:Sampath+al2001_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath+al2001_01"/>
+			<citedRange unit="page">311</citedRange>
+			<citedRange unit="item">189</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

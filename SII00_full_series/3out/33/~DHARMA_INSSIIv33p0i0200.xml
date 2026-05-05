@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 33.200: original edition by K. Munirathnam and T. S. Ravishankar</title>
+				<title type="alt">No. 200. (A.R. No. B 329 of 1951.) Śrīraṅgam, Tiruchinapalli Taluk and District, Tamil Nadu.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv33p0i0200</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Second <hi rend="italic">prākāra,</hi> east wall of the Sēnaimudaliyār shrine, pillar at the proper right of entrance leading to the inner shrine.</p>						
+
+						<p>Śrīraṅgarāyadēva.</p>						
+
+						<p>This is dated <hi rend="bold">Śaka 1492, Pramōdōdūṁta, Vṛiśchika śu [pañcha]mi, Friday, Pūrvāshāḍha.</hi> Irregular.</p>						
+
+						<p>This is a bilingual inscription. The first portion of the record is in Telugu which records the obeisance to the deity Raṅgadhāma. The second portion of the record is in Tamil. Records the obeisance of Tavatīrtta Kōmārachakkaram of Uttamankōyil and Appi, the brother of Rāmānujaṉ and the son of Kōnēri Appaṉ. In late characters. Pub. <hi rend="italic">S.I.I.,</hi> Vol. XXIV, No. 620.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>tama tīta 
+<lb n="2" break="no"/>ru koma 
+<lb n="3" break="no"/>ruḍu cakra 
+<lb n="4" break="no"/>mu raṁga 
+<lb n="5" break="no"/>dhāmuni 
+<lb n="6" break="no"/>sadāśeva <g type="danda">.</g> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 33.200 by <bibl><ptr target="bib:Munirathnam2013_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2013_01"/>
+			<citedRange unit="page">166</citedRange>
+			<citedRange unit="item">200</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

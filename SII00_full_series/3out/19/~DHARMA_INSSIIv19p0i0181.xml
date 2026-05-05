@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.181: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 181. (A.R. No. 234 of 1907.) TIRUVIḌAIMARUDŪR, KUMBHAKONAM TALUK, TANJAVUR DISTRICT. ON THE WEST WALL OF THE CENTRAL SHRINE, MAHĀLIṄGASVĀMI TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0181</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This together with No. 233 of 1907 seems to form a single inscription with some portions lost, and hence with gaps in the continuity of lines. This seems to record an endowment of one <hi rend="italic">vēli</hi> of land at [Viḷa]ṅguḍi in Veṇṇāḍu by a donor (name lost) during the management of <hi rend="bold">Madhurāntaka-Mūvēndavāḷār</hi>, for the maintenance of a musician name Kāśyapaṉ Kaṇḍa••••Eḻupaṇaidēvaṉ who was to sing the dēśi songs before God Tiruviḍaimaruduḍaiyār while seated in <hi rend="italic">ōlakkam</hi> in the hall of the temple. Another two <hi rend="italic">vēli</hi> by the same donor at Vaigal, is said to have been presented after purchase tax-free from the assembly of that place, to gods Mahādēva and Talaikkōli-Viṇṇagar-Vishṇukkaḷ at Tiruviḍaimarudil in the 30th year of Maduraikoṇḍa Parakēsarivarman (Parāntaka I). But the gift came into effect only from the 7th year of Parakēsarivarman, evidently <hi rend="bold">Uttama-Chōḷa.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="9" unit="character"/> viṭai<unclear>marutu</unclear>ṭaiyār <hi rend="grantha">śrī</hi>kā<hi rend="grantha">r</hi>yam<unclear>ceyyum A</unclear>tikārikaḷ maturānta <gap reason="lost" quantity="2" unit="character"/> ventaveḷārum tiruviṭaimarutuṭaiyār tevaka
+<lb n="2" break="no"/><hi rend="grantha"> <gap reason="lost" quantity="9" unit="character"/> sabh</hi>ai <gap reason="lost" quantity="9" unit="character"/> mpirāṭṭiyār <gap reason="lost" quantity="4" unit="character"/> <hi rend="grantha">mābha</hi><unclear> ṭāraki</unclear> yār<supplied reason="omitted">k</supplied> kāy tiruviṭaimarutuṭaiyā<unclear>rk</unclear>ku kaṇkāṇikaṇakku Uṭaiyanampi na
+<lb n="3" break="no"/> <gap reason="lost" quantity="9" unit="character"/> <unclear>y</unclear>ār koyilil <gap reason="lost" quantity="4" unit="character"/> kkūṭattey Iruntu Uṭaiyār tiruvolakkamāy Irukkat teciy pāṭum kā<hi rend="grantha">śya</hi>paṉ kaṇṭa <unclear>ni</unclear> <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="4"/>Eḻupaṇaitevanukku Ivaṉ teciy<unclear>p p</unclear>āṭa teciy pāṭuvāṟku muṉ kalveṭṭiṉa nilam veliyum Ivaṉ Eḻupaṇaitevaṉukkum Ivaṉ <hi rend="grantha">Anva</hi>yattār<supplied reason="omitted">k</supplied>kum
+<lb n="5"/>vaḻivaḻi <hi rend="grantha">candrādi</hi>ttaval Ivaṉukku veli nilam nivan=tam ceytu kuṭukkaveṉṟu �lāl Ivaṉukku nivantañ ceyta nilamāvatu Uṭaiyār tevatā
+<lb n="6" break="no"/>ṉam veṇṇāṭu <unclear>viḷa</unclear>ṅkuṭic coṟuṭaiyāṉ patta<unclear>r</unclear> Uḷ<unclear>ḷi</unclear>ṭṭa veliyum In nilam veliyum Ivaṉātal Ivaṉ <hi rend="grantha">Anva</hi> yattār Ātal Oruvaṉey teciy pāṭiyu<note n="92-2">The continuation of this is lost in a gap of portions of lines 7—14.</note> 
+<lb n="7" break="no"/>nalluḻān <gap reason="lost" quantity="5" unit="character"/> <unclear>vilai</unclear>koṇṭa munṟu māvu mi<supplied reason="omitted">v</supplied>vūr Ivaṉaiccukku <gap reason="lost" quantity="4" unit="character"/> m nāṉ vilaikoṇṭuṭaiya Iruvelicceyyum tiruviṭaimarutil <hi rend="grantha">śrīmūlasthā</hi>
+<lb n="8" break="no"/>ivvūr nān Eṭuppitta <hi rend="grantha">śrī</hi>koyil <unclear>paṭṭar</unclear>kaḷukkum Ākak kuṭutten—kopparake<hi rend="grantha">sa</hi>ripaṉmaṟki yāṇṭu Eḻātuvatuṉā<unclear>ḷ</unclear> vaiykal <hi rend="grantha">sabhai</hi>yāriṭaiya nāṉ Iṟaikāval Uṭaiya para 
+<lb n="9" break="no"/><unclear>kuḷa</unclear>kkālil <unclear>Aṭai</unclear> matiraikoṇṭa kopparake<hi rend="grantha">sa</hi>ripaṉmaṟkki yāṇṭu <num value="30">3 <g type="numeral">10</g></num> tāvatu veṇṇāṭṭu <hi rend="grantha">brahmade</hi>yam vai<unclear>y</unclear>kalil <hi rend="grantha">sabhai</hi>yom tiruvuṭaimarutil perumānaṭikaḷukku O
+<lb n="10" break="no"/> <gap reason="lost" quantity="5" unit="character"/> ricāvatu tiruviṭaimarutil talaikkoli<unclear>kkun</unclear> tiruvi<unclear>ṭai</unclear>maruti<unclear>l</unclear> <hi rend="grantha">mahā de</hi>va<unclear>rkku</unclear>m tiruviṭaimarutil talaikkoli viṇṇakar viṣṇukkaḷukkum <unclear>Āka</unclear> nakkantalai
+<lb n="11" break="no"/>m Iruveli <unclear>nilam</unclear> muppatām Āṇṭinki<unclear>ḻ</unclear> <gap reason="lost" quantity="5" unit="character"/> ttāl Ivviruveli nilattukkum Iṟaiyum Eccoṟum kāttuk kuṭuppomāṉom Ivvūriṭu varippāṭum <unclear>kā</unclear>ttukkuṭuppo
+<lb n="12" break="no"/>lattālum vaikal <hi rend="grantha">sabhai</hi>yom Innilam <gap reason="lost" quantity="4" unit="character"/> Eppeṟppaṭṭa Ūriṭu varippāṭum kāttuk kuṭuppomāṉom Ivvolaimel paṭṭaparice kallil veṭṭikkoḷḷappeṟuvatā
+<lb n="13" break="no"/>ṇaiyaṟuttār paṭum taṇṭappaṭa Oṭṭi Iṭṭukkuṭuttom <hi rend="grantha">sabhai</hi>yom <hi rend="grantha">sabhai</hi> paṇikka Eḻatineṉ <hi rend="grantha">maddhyastha</hi>n nārāyaṇan nakkanen Ivai yenneḻuttu <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g>ippaṭiyaṟiven kamutuva
+<lb n="14" break="no"/><unclear>o</unclear>lai Eḻutiyānum Aṟiveṉ Āttiraiyaṉ nilan caṉtiracekaranen Ippaṭi yaṟi<unclear>v</unclear>en kārttiyan perumāṉ <hi rend="grantha">śrī<unclear>dha</unclear></hi>ranen Ivan colla Eḻutiyānum Aṟiveṉ kamutuvaṉ nā
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.181 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">92-93</citedRange>
+			<citedRange unit="item">181</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

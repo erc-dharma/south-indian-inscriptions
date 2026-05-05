@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 27.193: original edition by M. D. Sampath, H. K. Narasimhamurthy, Madhav N. Katti and B. R. Gopal</title>
+				<title type="alt">No. 193. (A.R. No. 540 of 1929-30.) BAINDŪRU, COONDAPOOR TALUK, SOUTH KANARA DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv27p0i0193</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab built into the compound wall of a private house near the Śayanēśvara temple.</p>						
+
+						<p>Sadāśivarāya, 1559 A.D.</p>						
+
+						<p>This record is dated <hi rend="bold">Śaka 1482, Siddhārthi, Vaiśākha śu. 15,</hi> the given <hi rend="italic">tithi</hi> corresponding to <hi rend="bold">1559 A.D., April 21,</hi> the Śaka year being current. The details are not verifiable.</p>						
+
+						<p>It records a gift of tax-free land by Sēnabōva-seṭṭi, son of Baḷiseṭṭi, the <hi rend="italic">seṭigāra</hi> of Chārabaḷi, to the <hi rend="italic">maṭha</hi> caused to be constructed by him to the west of the Sēnēśvara temple. It states that <hi rend="italic">mahāmaṇḍalēśvara</hi> <hi rend="bold">Chenna-Bayirādēvi</hi> was governing Baidūru and other areas from her capital at <hi rend="bold">Saṅgītapura.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>First side.</h4>-->
+
+<p>
+<lb n="1"/>śrī gaṇādhipatayē namaḥ <supplied reason="undefined"><g type="danda">.</g></supplied> śrī sarasva
+<lb n="2" break="no"/>tyainamaḥ <supplied reason="undefined"><g type="danda">.</g></supplied> śrī gurubhyō <supplied reason="undefined"><g type="danda">.</g></supplied> namaḥ namastu
+<lb n="3" break="no"/>ṁga śirastuṁbi caṁdracāmaracāravē <supplied reason="undefined"><g type="danda">.</g></supplied> trayi
+<lb n="4" break="no"/>lōkya nagarāraṁbha mūlastaṁbhāya śaṁ
+<lb n="5" break="no"/>bhavē <g type="danda">.</g> śrīmadrājādhirāja paramēśvara śrīvīra
+<lb n="6"/>pratapa śrī <hi rend="bold">sadāśivarāya mahārāya<unclear>ra</unclear></hi>
+<lb n="7"/>rājyābhyudayadalli <hi rend="bold">śrī manmahāmaṁḍalēśva</hi> 
+<lb n="8"/><hi rend="bold">raru cennabayirādēvi Aṁmanavaru saṁgī</hi>
+<lb n="9" break="no"/><hi rend="bold">tapura</hi>vararāda saṁdharmakātaprasa<supplied reason="omitted">ṁ</supplied>gavi
+<lb n="10" break="no"/>ddu <gap reason="lost" quantity="2" unit="character"/> bayiduru muttada samasta rājya
+<lb n="11" break="no"/>vanu pratipālisutta<supplied reason="omitted">ṁ</supplied> dina sālivāhana
+<lb n="12"/><hi rend="bold">sakavarusa 1482 neya siṁdhārti saṁtsa</hi>
+<lb n="13" break="no"/><hi rend="bold">rada vai<supplied reason="omitted">śā</supplied> suda 15 lu</hi> śrīmatu <unclear>ba</unclear>
+<lb n="14" break="no"/>ḷise<unclear>ṭi</unclear>yamaga caurabaḷiya seṭigāra
+<lb n="15"/>sēnabōva seṭṭiyu barisida dharma
+<lb n="16" break="no"/>sasanada bage kramaveṁteṁdare nānu śēnē
+<lb n="17"/>śvaradēvāla<supplied reason="omitted">ya</supplied>da paḍuvadikkina kaṭisida ma
+<lb n="18" break="no"/>ṭake bareda bāḷina vivara bayidūra vo
+<lb n="19" break="no"/>ḷage Ariya baḷiyavarā kayyali mū
+<lb n="20" break="no"/>lava koṁḍu guḍeya maneya <unclear>saruva</unclear>
+<lb n="21" break="no"/>sada voḷage navage baṁda halu<unclear>va</unclear>
+<lb n="22"/> <gap reason="lost" quantity="1" unit="character"/> dāmala gaṁde hane 40 ralekka
+</p>
+
+<!--<h4>Second side.</h4>-->
+
+<p>
+<lb n="23"/>dalu muḍi 3 mataṁ goḷa
+<lb n="24"/><unclear>laḍi</unclear> ga<unclear>ṁ</unclear>ḍe māna <gap reason="lost" quantity="1" unit="character"/> Usaru <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="25"/>ne 7 <unclear>A</unclear>nagaṁḍe mataṁ koṇigade
+<lb n="26"/> <gap reason="lost" quantity="1" unit="character"/> bāḷi<supplied reason="omitted">na</supplied>lu sahavāgi hane 60 nema
+<lb n="27"/> <gap reason="lost" quantity="1" unit="character"/> ṁtaṁ hoḍasalagaṁḍe vaḍi 2
+<lb n="28"/>ke ha 70 <gap reason="lost" quantity="2" unit="character"/> nalu vaṁdamuḍi 8 ma
+<lb n="29"/> <gap reason="lost" quantity="1" unit="character"/> ḍi gaṁḍe mataṁ bāsana guḍi hitilu
+<lb n="30"/> <gap reason="lost" quantity="2" unit="character"/> sā<unclear>ta</unclear>vaṇinalu vaḍa mu 2¢
+<lb n="31"/> <gap reason="lost" quantity="1" unit="character"/> ṁ yigade kaṭida gēṇi Akki mu 9 hitti
+<lb n="32"/>lige kaṭida gēṇi ga <g type="danda">.</g> haṇa 7 yega
+<lb n="33"/>gadege Aramanege teru ga <g type="danda">.</g> 6 <g type="danda">.</g> mataṁseṭima
+<lb n="34"/>neya<unclear>sa</unclear>ruvasake kaṭidagēṇi ka<supplied reason="omitted">ṁ</supplied>ji<unclear>hā</unclear> 40
+<lb n="35"/>lekkadalu muḍi 20 matayiI saruvake pa 
+<lb n="36" break="no"/><unclear>ṁ</unclear>gavanu biṭeveṁdu halaru koṭa
+<lb n="37"/>kaṭunu dhanaunettiyamaneyalu
+<lb n="38"/> <gap reason="lost" quantity="1" unit="character"/> Uṭāyi basanagadeyanu kogali
+<lb n="39" break="no"/>nāruva kayali mūlavakoṁḍa sadhana <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="40"/>gēṇi Akkimu 9 kke maṭada gāvalige
+<lb n="41"/>muḍi 6 dēvapuja<unclear>ke</unclear> mu 3 muvara
+<lb n="42"/> <gap reason="lost" quantity="1" unit="character"/> bramaṇa jana dina 1 ke 3 valige va
+<lb n="43" break="no"/>rusa vo<supplied reason="omitted">ṁ</supplied>dake mu 18 mata <gap reason="lost" quantity="2" unit="character"/> raba
+<lb n="44"/>ḍi Ā Ulige biṭa baḷu halaru mula
+<lb n="45" break="no"/>ke <unclear>biṭa</unclear> baḷu sena bhōseṭi Agada paḍuvaṇa
+<lb n="46"/>kaṭe hāne 20 mataṁ madhastara <unclear>kāyyali</unclear>
+<lb n="47"/>Aruvarava maḍi koṁḍa baḷuyeḍa <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="48"/> <gap reason="lost" quantity="1" unit="character"/> takkare voḷage mane bagila gade hane 30 ne
+<lb n="49" break="no"/> <gap reason="lost" quantity="1" unit="character"/> yi dharmavanu nanagattana paraṁ
+<lb n="50" break="no"/>pariyali naḍibaharu yi dharma
+<lb n="51"/>Aru tiṁdare kāsi vāraṇāsi
+<lb n="52"/>yali kayilaya<unclear>ṁ</unclear>
+<lb n="53"/>koṁdavaru
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 27.193 by <bibl><ptr target="bib:Sampath+al2001_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath+al2001_01"/>
+			<citedRange unit="page">316-318</citedRange>
+			<citedRange unit="item">193</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

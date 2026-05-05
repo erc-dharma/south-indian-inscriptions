@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 26.587: original edition by P. R. Srinivasan</title>
+				<title type="alt">No. 587.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv26p0i0587</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						<p>On a pillar in the ‘temple of heroes’ (Vīrula-guḍi).</p>						
+
+						<p><hi rend="bold">Śaka 1346, Krōdhi Kārttika •• 10, Thursday = 1424 A.D., November 2, if the tithi was śukla, or November 16, if the tithi was bahula.</hi></p>						
+
+						<p>It records the installation of a Nandi image and a <hi rend="italic">garuḍa-stambha</hi> set up by Chavu[lāśu]la Vīriseṭi, in the presence of Anuṁgu-maṁḍalēśvara who bore the titles <hi rend="italic">mahāmaṇḍalēśvara</hi> and <hi rend="italic">Ayōdhyāpuravarēśvara.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svastiśrī manmahā ma
+<lb n="2"/>ṁḍalēśvara Ayōdhyāpu
+<lb n="3" break="no"/>ravarādhīśvaru<unclear>laina</unclear> A
+<lb n="4"/>nuṁgu maṁḍalēśvaru
+<lb n="5" break="no"/>ṁḍu sa<unclear>ṁ</unclear>dini cavu<unclear>lośu</unclear>
+<lb n="6"/>la vīriseṭi yettiṁcina <unclear>vī</unclear>
+<lb n="7"/>ru kōṭi Agu naṁdi (?) śa<unclear>ka</unclear>
+<lb n="8"/>va¨rṣaṁbulu 1776 śrōdhi
+<lb n="9"/>saṁvatsara kā¨rttika <unclear>śu</unclear>
+<lb n="10"/>10 gu <supplied reason="undefined"><g type="ddanda">.</g></supplied> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="11"/>nāṁḍu
+<lb n="12"/>pratiṣṭa cē
+<lb n="13"/>sina garu
+<lb n="14"/>ḍagaṁbha
+<lb n="15"/>mu gha
+<lb n="16"/>ṁgaḷa mahā
+<lb n="17"/>śrī śrī śrī <supplied reason="undefined"><g type="danda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 26.587 by <bibl><ptr target="bib:Srinivasan1990_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Srinivasan1990_01"/>
+			<citedRange unit="page">407</citedRange>
+			<citedRange unit="item">587</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

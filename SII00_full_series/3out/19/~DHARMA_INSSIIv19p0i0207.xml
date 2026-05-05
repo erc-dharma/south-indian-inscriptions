@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.207: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 207. (A.R. No. 244 of 1923.) KŌYIL-TĒVARĀYANPĒṬṬAI (NEAR PAṆḌĀRAVĀḌAI), PAPANASAM TALUK, TANJAVUR DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE, MATSYAPURĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0207</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records the gift of a cocoa-nut garden, 3 <hi rend="italic">mā</hi> in extent, to provide for one <hi rend="italic">kāśu</hi> per month for <hi rend="italic">śidāri</hi> fumigation during the 4 services in the day, and four <hi rend="italic">kāśu</hi> per year for the daily supply of sandal-paste, in the temple of Tiruchchēlur-Mahādēva at Rājakēsari-chaturvēdimaṅgalam, by <hi rend="bold">Pūdi (Bhūti) Pallavappēraiyaṉ</hi> <hi rend="italic">alias</hi> <hi rend="bold">Vīrāśikhāmaṇi-Pallavaraiyaṉ.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> ko
+<lb n="2" break="no"/>pparake<hi rend="grantha">sa</hi>
+<lb n="3" break="no"/>ripa<hi rend="grantha">nma</hi><supplied reason="omitted">ṟ</supplied>kku yā
+<lb n="4" break="no"/>ṇṭu 8<g type="dash"/>Āvatu
+<lb n="5"/>teṉkarai <hi rend="grantha">bra</hi>
+<lb n="6" break="no"/><hi rend="grantha">hmade</hi>yam <hi rend="grantha">śrīrā</hi>
+<lb n="7" break="no"/><hi rend="grantha">ja</hi>kecaricca
+<lb n="8" break="no"/>tu<hi rend="grantha">rvedi</hi>maṅ<unclear>ka</unclear>
+<lb n="9" break="no"/>lattut tiruccelūr
+<lb n="10" break="no"/>ma<hi rend="grantha">hāde</hi>vaṟkku pūti pallavap
+<lb n="11" break="no"/>peraiyaṉāṉa vira<hi rend="grantha">śikhā</hi>maṇip pallaraiyaṉ
+<lb n="12"/>can<hi rend="grantha">trādi</hi>ttavaṟ nālupotaikkum citāri ti 
+<lb n="13" break="no"/>ṅkaḷoru kācukkum tiruccantaṇattukku Orāṭṭai
+<lb n="14"/>nāḷaikku nālu kācukkumāka koṇṭu ta<unclear>n</unclear>ta nilamāva
+<lb n="15" break="no"/>tu <hi rend="grantha">ga</hi>ruḷavā<hi rend="grantha">ha</hi>ṉavatikku kiḻakkum teṉpāṟkkellai
+<lb n="16"/>taṇṭulavelikku vaṭakkum vaṭapāṟkkellai kalā
+<lb n="17" break="no"/>karacceri Iḷampūr <hi rend="grantha">śrīkṛṣṇakrama</hi>vittaṉum Akki ko
+<lb n="18" break="no"/>ṟṟaṉ <hi rend="grantha">brāhma</hi>ṇi nārāyaṇa<unclear>ṉ</unclear> muttanaṅkai nilattuk
+<lb n="19" break="no"/>kut teṟkkum kiḻpāṟkellai Ātittavatikku me<supplied reason="omitted">ṟ</supplied>kku 6
+<lb n="20" break="no"/>āṅkaṇ<unclear>ṇā</unclear>ṟṟukku me<supplied reason="omitted">ṟ</supplied>kku Ivvicaitta perunā
+<lb n="21" break="no"/>ṉkellaiyil naṭuvupaṭṭa teṅka
+<lb n="22" break="no"/>ntoṭṭam nilam 3pa Itu <hi rend="grantha">panmā</hi>
+<lb n="23" break="no"/>ye<hi rend="grantha">śvararakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.207 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">105-106</citedRange>
+			<citedRange unit="item">207</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

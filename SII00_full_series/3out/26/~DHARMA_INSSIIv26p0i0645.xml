@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 26.645: original edition by P. R. Srinivasan</title>
+				<title type="alt">No. 645.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv26p0i0645</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						<p>On a pillar lying in front of the Kōdaṇḍarāmaśvāmin temple.</p>						
+
+						<p><hi rend="bold">Śaka 1160, Viḷambi, Uttarāyaṇa-saṅkrānti = 1236 A.D., December 26 (Sunday).</hi></p>						
+
+						<p>It records a gift of 50 (sheep ?) for a lamp to god Prasannakēśavadēva of Mōṭupalli, a <hi rend="italic">dēsiyuyyagoṇḍapaṭṭaṇa</hi> by Periyāṁdi-nāyaka, son of Hermāṁdināyaka, a resident of Echchuvāka in a <hi rend="italic">maṇḍala</hi> (name not clear). The gift was entrusted to the (family of ?) Komarusvāmi who undertook to supply a <hi rend="italic">māna</hi> of ghee daily.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svastiśrī śubha śaka
+<lb n="2"/>va¨rṣaṁbulu 1160
+<lb n="3"/>viḷaṁbi saṁvatsa
+<lb n="4" break="no"/>ra Uttarāyaṇa saṁ
+<lb n="5"/>krāṁti nimittaṁbu
+<lb n="6"/>na svastiśrīmat [tā ?]
+<lb n="7"/>[I] maṁḍalamulōni
+<lb n="8"/>Eccuvāka śāsanulai
+<lb n="9"/>na he¨rmāṁḍi nāya
+<lb n="10" break="no"/>kuṇi suputruṁḍu
+<lb n="11"/>periya <gap reason="lost" quantity="1" unit="character"/> ṁḍināya
+<lb n="12" break="no"/>kuṁḍu tama tallida
+<lb n="13" break="no"/>ṁḍrulaku dha¨rmā¨rtha
+<lb n="14"/>mugā dēśiyuyya
+<lb n="15" break="no"/>goṁḍa paṭṭaṇaṁbai
+<lb n="16" break="no"/>na mōṭṭupalli prasa
+<lb n="17" break="no"/>nna kēśavadēvaraku
+<lb n="18" break="no"/>nakhaṁḍa dīpamu
+<lb n="19" break="no"/>na kiccina <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="20"/>lu 50 vīniṁ <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="21"/>komarusvāmi <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="22"/>muvāri ta<unclear>ma</unclear>
+<lb n="23"/>dēvarāju nitya <unclear>māneṁ</unclear>
+<lb n="24" break="no"/>ḍu nēyi naḍapaṁgala
+<lb n="25"/>nāṁḍu putrānu pau
+<lb n="26"/>trika mā caṁdratārā
+<lb n="27"/>¨rkkamu 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 26.645 by <bibl><ptr target="bib:Srinivasan1990_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Srinivasan1990_01"/>
+			<citedRange unit="page">436</citedRange>
+			<citedRange unit="item">645</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

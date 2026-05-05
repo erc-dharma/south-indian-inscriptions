@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.330: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 330. (A.R. No. 301 of 1904.) KĀḶAHASTI, KALAHASTI TALUK, CHITTOOR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0330</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north wall of the shrine, south of the first <hi rend="italic">prākāra</hi> in the Kāḷahastīśvara temple.</p>						
+
+						<p>Sadāśivadēva-mahārāya. Ś. 1489: 1567 A.D.</p>						
+
+						<p>The details of date given in the record, viz., Śaka 1489, Prabhava, Dhanus, śu 9, Monday corresponds to 1567 A.D., December 10, Wednesday (not Monday). This inscription is very badly damaged and nothing can be made out beyond the date.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śubhamastu svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīman mahārājādirāja rājaparameśvara śrī</hi>vī<hi rend="grantha">rapra</hi>tā<hi rend="grantha">pa śrī</hi>vī<hi rend="grantha">ra</hi>
+<lb n="2"/>catācivatevama<hi rend="grantha">hā</hi>rāyar <hi rend="grantha">prithi</hi>vi<hi rend="grantha">rājyam</hi> paṇṇi Aruḷāniṉṟa <hi rend="grantha">śakābdam <num value="148"><g type="numeral">100</g> 4 <g type="numeral">10</g> 8</num>[*]9</hi>
+<lb n="3"/>meṟ cellāniṉṟa <hi rend="grantha">prabha</hi>va <hi rend="grantha">saṅvatsa</hi>rattu taṉuṉāyaṟṟu pū<hi rend="grantha">rva</hi> pa<hi rend="grantha">kṣa</hi>
+<lb n="4" break="no"/>ttu navamiyum tiṅkaṭkiḻamaiyum peṟṟa <gap reason="lost" quantity="7" unit="character"/> na<hi rend="grantha">kṣa</hi>ttirattu nāḷ tirukkāḷatti teva<note n="154-2">Lines 5 to 19 are badly damaged and are illegible.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.330 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">154</citedRange>
+			<citedRange unit="item">330</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

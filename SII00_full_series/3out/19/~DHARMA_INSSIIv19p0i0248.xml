@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.248: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 248. (A.R. No. 193 of 1907.) TIRUVIḌAIMARUDŪR, KUMBHAKONAM TALUK, TANJAVUR DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE, MAHĀLINGASVĀMI TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0248</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records an endowment of 50 <hi rend="italic">kāśu</hi> deposited with the assembly of Tirunilakkuḍi in Tiraimūr-nāḍu as <hi rend="italic">sabhai-taniśu</hi> by one Kaṟṟaḷi-Paṭṭālākaṉ and invested by them with a merchant of Tiruviḍaimarudil by name Tiruviyalūr-Śāttaṉ of Kōmar (Kōmal). With the interest on this amount an <hi rend="italic">uḻakku</hi> of ghee was to be supplied every day for burning a perpetual lamp in the temple. The <hi rend="italic">nāḍu</hi> is stated to have been under the control <hi rend="italic">(mēnāyakam)</hi> of <hi rend="bold">Śandirāśaṉ</hi> <hi rend="italic">(Chandrāditya)</hi> <hi rend="bold">Śatturugaṇḍaṉ of Varampūśal.</hi> The writing of the inscription is comparatively late pointing to the reign of <hi rend="bold">Rājēndra-Chōḷa I.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kopparakecaripa<hi rend="grantha">nma</hi>ṟku yāṇṭu <num value="10"><g type="numeral">10</g></num><g type="dash"/>Āvatu varampūcalu
+<lb n="2" break="no"/>ṭaiyā<supplied reason="omitted">ṉ</supplied> cantirācaṉ catturukaṇṭaṉ meṉāya <supplied reason="omitted">ka</supplied>ttu tiraimurnāṭṭu tiruni
+<lb n="3" break="no"/>la<supplied reason="omitted">k</supplied>kuṭi <hi rend="grantha">sabhai</hi>yom kaṟṟaḷi paṭṭālakaṉniṭaiy <hi rend="grantha">sabhai</hi>ytaṉicāka koṇṭu
+<lb n="4"/>kaṭava kācu <num value="50">5 <g type="numeral">10</g></num> Ikkācu Ampatukkum Iññāṭṭu tiruviṭaimarutil <hi rend="grantha">vyā</hi>pāri koma
+<lb n="5" break="no"/>ruṭaiyāṉ tiru<supplied reason="omitted">vi</supplied>yalūr cāttaṉniṭaiy koṇṭu kuṭutta kācu <num value="50">5 <g type="numeral">10</g></num> Ikkācu Ampa
+<lb n="6" break="no"/>tu<hi rend="grantha">kk</hi>um palicai(y)yāka tiruviṭaimarutuṭaiyār koyilil Ivaṉ taṉakkāka vai
+<lb n="7" break="no"/>cca nontāviḷa<hi rend="grantha">kk</hi>u Oṉṟinu<hi rend="grantha">kk</hi>u nicatam Uḻa<hi rend="grantha">kke</hi>ṇṇaiy <hi rend="grantha">cantrā</hi>tittava
+<lb n="8" break="no"/>l tiruviṭaimarutuṭaiyār koyilu<hi rend="grantha">kke</hi> koṭuvantu Aṭṭuvomānom
+<lb n="9"/>tirunilakuṭi <hi rend="grantha">sabhai</hi> paṇikka [ I<hi rend="grantha">kka</hi>] lveṭṭu Eḻutiṉeṉ
+<lb n="10"/>Ivvūr <hi rend="grantha">madhyasta</hi>ṉ toṇaṉ Ayyaṉāṉa tiraimur nā
+<lb n="11" break="no"/>ṭṭu peruṅkāviriyeṉ <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.248 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">126-127</citedRange>
+			<citedRange unit="item">248</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

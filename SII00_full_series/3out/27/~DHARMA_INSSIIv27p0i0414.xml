@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 27.414: original edition by M. D. Sampath, H. K. Narasimhamurthy, Madhav N. Katti and B. R. Gopal</title>
+				<title type="alt">No. 414. (A.R. No. 524 of 1928-29.) SHIRTĀḌI, KARKAL TALUK, SOUTH KANARA DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv27p0i0414</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab set up in front of Baidarkal Bhūtanātha.</p>						
+
+						<p>1530 A.D.</p>						
+
+						<p>This record is dated <hi rend="bold">Śaka 1453 Vikṛiti, Mēśa 15, Sunday</hi> corresponding to <hi rend="bold">1530 A.D., April 11</hi> when the Śaka year was current and the weekday Monday.</p>						
+
+						<p>It states that Dēvaṇṇa-arasa alias Koṁna got a new temple (of Sōmanātha 7) constructed at Ārjunāpura and made a gift of 75 <hi rend="bold">varāha-gadyāṇas</hi> to Koṭyaṇa-āḷva for conducting worship in the temple. It also records a gift of tax-free land to the deity by Chennarāja-oḍeya. Ramasēnabōva wrote the record.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>FIRST FACE.</h4>-->
+
+<p>
+<lb n="1"/>ṁ svastiśrīmatu <g type="danda">.</g> vijeyobhyudaya <hi rend="bold">sālivā</hi>
+<lb n="2"/><hi rend="bold">hanasakāvarusa <g type="danda">.</g> saviradā <g type="danda">.</g> nanura Aivattamū</hi>
+<lb n="3" break="no"/><hi rend="bold">reneya <g type="danda">.</g> vartamanada <g type="danda">.</g> yikrutisavacārada <g type="danda">.</g></hi> 
+<lb n="4"/><hi rend="bold">mēsāmāsada <g type="danda">.</g> hadinaidāneya <g type="danda">.</g> Ādivāradaṁdu</hi>
+<lb n="5"/>dēvaṁṇa Ārāsarāda koṁnarā kō <unclear>la</unclear> vāu Uḷi
+<lb n="6" break="no"/>dhaṁ baḷiyā <g type="ddanda">.</g> kōṭyaṁṇa Āḷvage barasikoṭṭu <g type="danda">.</g> si
+<lb n="7"/>la sāśa<supplied reason="omitted">na</supplied>da krama Eṁtiyādare kalliṭṭamūḍe nāḍi bāḷisi
+<lb n="8"/>Ārasu pradha<unclear>ni</unclear> <g type="danda">.</g> mūvaru sāma<supplied reason="omitted">ṁ</supplied>ttaru <g type="danda">.</g> Ānāḍu Āi
+<lb n="9" break="no"/>sarava<unclear>rā</unclear> <g type="danda">.</g> sēnābōva mēnāyā <g type="danda">.</g> sāmasta relāraṟa
+<lb n="10"/>samathadiṁ Ārjināpurada <g type="danda">.</g> dēvālyavanuge
+<lb n="11" break="no"/>yisi hostagi kaṭṭisi prāthiṭṭeyaṁmāḍi <g type="danda">.</g> Āstānakke
+<lb n="12"/>hiḍi honnina veccavarāha ga 75 Akṣaradu E
+<lb n="13" break="no"/>ppattu Aidu <g type="danda">.</g> Ākōṭyaṇa Āḷvaru baḷuva Ākkadalu
+<lb n="14"/>Ārasa �yovaruṣa 1 kaṁ bhata ba <gap reason="lost" quantity="1" unit="character"/> ramūḍe <gap reason="lost" quantity="1" unit="character"/> 2
+<lb n="15"/>nu ceṁnnarāja Oḍeyāru dēvarige dhamātra <gap reason="lost" quantity="1" unit="character"/> va <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="16"/>māḍidaru <g type="danda">.</g> Ā kōṭyaṁṇa Āḷvage kīrtipuṁṇyavanu
+<lb n="17"/>māḍikoṁḍu <g type="danda">.</g> Ātana baḷu <g type="danda">.</g> kapaḷu <g type="danda">.</g> samathyage <g type="danda">.</g> bi
+<lb n="18" break="no"/>ḍisaraku <g type="danda">.</g> biḍarā saladu Eṁdu sarvamānyavanu māḍi
+<lb n="19" break="no"/>koṁḍu <g type="danda">.</g> hākistaṁtā silāśāsanakke baṁnāṇiṁ baḷiyama
+<lb n="20"/>Iṁda heggaḍe Uḷidaṁ baḷiyā Ire caḷvuvasa kudaṁ
+<lb n="21" break="no"/>bilā bhayiraṇa kurikāra kāṁtu mēleṁṭṭaru Iṁtvī
+</p>
+
+<!--<h4>SECOND FACE.</h4>-->
+
+<p>
+<lb n="22" break="no"/>maṁnyavanu maḍikoṁḍu
+<lb n="23"/>hakistaṁta silāsāśanake biṁnā
+<lb n="24" break="no"/>ṇi baḷiya maiṁda hegaḍe <g type="danda">.</g> Uḷidaṁ baḷi
+<lb n="25" break="no"/>yā <g type="danda">.</g> Ire caḷvuvanu kūḍaṁbelā bayiraṇa <g type="danda">.</g> kuri
+<lb n="26" break="no"/>kārakāṁtu mēlaṁṭaru <g type="danda">.</g> Iṁtivara bhayāṁmna
+<lb n="27" break="no"/>thadiṁda <g type="danda">.</g> nāḍastaḷadiṁda <g type="danda">.</g> ramasēnābhōvana baraha
+<lb n="28"/>sōmanāthana saraṇu <g type="danda">.</g> maṁgaḷa mahā
+<lb n="29" break="no"/>śrī śrī śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 27.414 by <bibl><ptr target="bib:Sampath+al2001_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath+al2001_01"/>
+			<citedRange unit="page">545-546</citedRange>
+			<citedRange unit="item">414</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

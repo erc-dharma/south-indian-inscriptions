@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 36.155: original edition by P Shanmugam</title>
+				<title type="alt">No. 155. (A.R. No. 155 of 1910.) BŌḶUMĀMPAṬṬI (Ikkarai Bōḷuvāmpaṭṭi), COIMBATORE TALUK, COIMBATORE DISTRICT. On the wall of the maṇḍapa in front of the Nāgēśvari shrine in the Nāgēśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv36p0i0155</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Vikramachōḻa. Year 3+1+1: A.D. 1260.</hi></p>						
+
+						<p>Incomplete. Built in at the beginning and stones out of order. Gift of four <hi rend="italic">achchu</hi> for sacred food offerings to the deity Tirukkoṭidēvar in the temple of Tirunāgīchchuram Uḍaiyār at Muṭṭam <hi rend="italic">alias</hi> Iravivaṉmachchaturvēdimaṅgalam, by a servant, Kāḷi Bemmaṉ from [A]marabuyaṅgaranallūr. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>vik<hi rend="grantha">ra</hi>macoḻa<hi rend="grantha">de</hi>va<unclear>ṟ</unclear>ku yāṇṭu 3 vatu Etir Etir mu<supplied reason="omitted">ṭ</supplied>ṭamāṉa Iravivaṉmac catu<hi rend="grantha">rvvedi</hi>maṅkalattu Āḷuṭaiyār tirunākīccuramuṭaiyār
+<lb n="2"/> <gap reason="lost" quantity="5" unit="character"/> ṭiyeṟu nāḷ tirukkoṭittevarkkut tiruppāvāṭaiyarici kalattukkum paruppup patakkukku maṟṟumuḷḷa veñcaṉaṅkaḷukkum muṭṭa
+<lb n="3" break="no"/> <gap reason="lost" quantity="5" unit="character"/> <unclear>ma</unclear>rapuyaṅkara nallūrirukkum paṇiceymakaṉ kāḷipemmāṉeṉ Ittaṉmattukku nāyaṉār cipaṇṭārattil Oṭukkiṉa paḻañ
+<lb n="4" break="no"/> <gap reason="lost" quantity="5" unit="character"/> Ivvaccu nālukkum Acciṉvāyp pūvaḻi Irutūṇi nel Upaiyamāka Āṇṭoṉṟukku nel Aiṅkalaṉe tūṇiyuṅ koṭu
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 36.155 by <bibl><ptr target="bib:Shanmugam2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shanmugam2018_01"/>
+			<citedRange unit="page">137-138</citedRange>
+			<citedRange unit="item">155</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

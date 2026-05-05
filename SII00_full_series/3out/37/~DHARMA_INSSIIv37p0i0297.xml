@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.297: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 297. (A.R. No. B 403 of 1940-41.) Vēlpucherla, Jammalamaḍugu Taluk, Cuddapah District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0297</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab in survey No. 283, west of the village.</p>						
+
+						<p>Vijayanagara: Sadāśiva.</p>						
+
+						<p>This is dated <hi rend="bold">Śaka 1468 (expired), Viśvāvasu, Vaiśākha śu. 5,</hi> corresponding to 1545 A.D., April 16, Thursday.</p>						
+
+						<p>It records the grant of the perquisites excluding the <hi rend="italic">Mahārājaprayōjana</hi> etc., that accured in the form of money, rice, betel etc., from the village Vēlpucherla in the Chāṁgalamaṟṟi-sīma, the <hi rend="italic">nāyaṅkara</hi> of Nallam Timmarajayya, Paṭlavāri uppalūru and Varadarājula-Dudyāla in the Ghaṇḍikōṭa-sīma, the <hi rend="italic">nāyaṅkara</hi> of Nandyāla Timmarājayya-Nāraparājayya by the <hi rend="italic">asaṅkhyātas</hi> of the villages to the goddess Aṁkāḷaparamēśvarī of Vēlpucharla for worship and festivals. It also records gift of daily rations to the artisan Timvōju of Vēlpucharla for having engraved this inscription.</p>						
+
+						<p>[Published in <hi rend="italic">Inscriptions of Andhra Pradesh; Cuddapah District.,</hi> Part II, No. 175.]</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<!--<h4>First Face.</h4>-->
+
+<p>
+<lb n="1"/>svasti śrī jayābhyudaya śālivāhana śakava¨rṣaṁbulu 
+<lb n="2"/>1468 Agunēṁṭi viśvāvasu saṁvatsara vaiśākha śu 5 lu <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīmannma 
+<lb n="3" break="no"/>hārājādhirāja rājaparamēśvara vīrapratāpa śrī vīrasadāsivadēvamahārā 
+<lb n="4" break="no"/>yalu pṛthvi sāmrājyaṁ śēyucuṁḍaṁgānu puṣpagiri du¨rggidēvi mukhamaṁḍa 
+<lb n="5" break="no"/>pāna vajrasiṁhvāsanārūḍhulai kū¨rcuṁnna Asaṁkhyādulu <g type="danda">.</g> ghaṁḍikōṭa tameṭaṁ 
+<lb n="6"/>śaṁkaraya pālaṁpalli pāvaṇayadēvināyani Aṁkaya brāṁhmalamuḍiyaṁ pāvaṇa 
+<lb n="7" break="no"/>ya nallaṁballe śaṁkaraya vuruṭūri sidaya cilumakūri pāvaṇaya kōlavalli śaṁkara 
+<lb n="8" break="no"/>ya Aṣṭadikula Asaṁkhyālunnu vēlpuca¨rlla Aṁkkāḷa paramēśvariki sama¨rpiṁcina dha¨rma 
+<lb n="9"/>śāsanaṁ <g type="danda">.</g> nallaṁ dimmarājayyavāri nāyaṁkarānaku cellivaccē cāṁgalamaṟi sīmalōni vēlpuca 
+<lb n="10" break="no"/>¨rllānu naṁdyāla timmarājayya nāraparājayyavāri nāyaṁkarānaku cellivacē ghaṁḍikōṭa sī 
+<lb n="11" break="no"/>malōni paṭlavāri vuppalūrūnnu <g type="danda">.</g> varadarājula dudyēlānu yī mūḍu grāmālanunnu ma 
+<lb n="12" break="no"/>hārāca prayojanāla kaligina svāmyatalalōnu dēvata <g type="danda">.</g> maṇihāri <g type="danda">.</g> paṁbakāṁdu <g type="danda">.</g> dō<unclear>ḷa</unclear>vaṭapu 
+<lb n="13"/>pāriva¨rtanalu pōṁgānu peddalaku vacē rūkalu biyyaṁ pōṁkalu Ākulu staḷa pedala sakaḷa svāmya 
+<lb n="14" break="no"/>talunnu Aṁkāḷaparamēśvariki <g type="danda">.</g> dūpadīpanaivēdyasarapu pāruveṁṭa mahōtsavākuṁgānu 
+<lb n="15"/>rāyalakunnu yī sīmalu yēlē rājulakunu puṇyaṁgānu Ācaṁdrā¨rkka sthāyigānu 
+<lb n="16"/>dhāravōsi Istimi <g type="danda">.</g> yī dha¨rmānaku yavvaru tappinānu tamatalidaṁḍṟlanunnu gō 
+<lb n="17" break="no"/>brāṁhmalānu vāraṇāsilōnu vadhiṁcina pāpānaṁ bōvuvāru śunakamāṁ 
+<lb n="18" break="no"/>sa surāpānālu sēviṁcinavāru <g type="danda">.</g> yiṁduku tappi naḍacinavāni Ā 
+<lb n="19" break="no"/>liki dāravaṭṭapuvāṁḍē mogaṁḍu <g type="danda">.</g> pū¨rvadhāravōṁtta sāgiṁ 
+<lb n="20" break="no"/>cina rāyalakuṁnu rāmarājayaku puṇyaṁgānu vē 
+<lb n="21" break="no"/>yiṁci rāyalakuṁnu rāmarājayaku puṇyaṁgānu vē 
+<lb n="21" break="no"/>yiṁcina dha¨rmaśāsanaṁ <supplied reason="undefined"><g type="ddanda">.</g></supplied> vēlpuca¨rlanu mānyaṁ tūme 
+<lb n="22" break="no"/>ṁḍucēnu kāḷayavrālu śrī śrī śrī jēyunu <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+<!--<h4>Second Face.</h4>-->
+
+<p>
+<lb n="23"/>yī śāsanaṁ malicina vēlpuca¨rla vaḍla 
+<lb n="24"/>kāṇācikāṁḍu tiṁvōjuku mūnāḷa te 
+<lb n="25" break="no"/>veku biyya<supplied reason="omitted">ṁ</supplied> muṁteṁḍu kūragāya kalapu 
+<lb n="26"/>camaru pōṁka Ākulu payidarikaṭṭeḍī <unclear>kāni</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="27"/>ṭi tēvaku yiṁdulō sagaṁ yiṁduku tapinavāra <unclear>naraka</unclear> 
+<lb n="28" break="no"/>muna paḍnivāṁḍu 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.297 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">239-241</citedRange>
+			<citedRange unit="item">297</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

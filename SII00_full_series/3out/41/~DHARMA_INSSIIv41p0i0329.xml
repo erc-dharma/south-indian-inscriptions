@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 41.329: original edition by S. Rajagopal</title>
+				<title type="alt">No. 329. (A.R. No. 545 of 1905.) Vijayamaṅgalam, Erode Taluk, Coimbatore District. On the south base of the central shrine the Kariyamāṇikka Perumāḷ temple at Vijayamaṅgalam.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv41p0i0329</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Kongu, Rajakesarivarman Vira-Pāṇḍyadeva. Śaka 1202 = 1279 A.D.</hi></p>						
+
+						<p>Damaged. Gift of a flower-garden and a lamp by the <hi rend="italic">ūrār</hi> and <hi rend="italic">ūrāḷikaḷ</hi> of Kūḍūr.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> naṉma <gap reason="lost" quantity="10" unit="character"/> ttirunūṟṟu I<unclear>raṇ</unclear>ṭil korā<hi rend="grantha">ja</hi>ke<hi rend="grantha">śari panmarā</hi>ṉa<hi rend="grantha">tribhu</hi>[ vaṉacca<hi rend="grantha">kra</hi>] vattikaḷ <hi rend="grantha">śrī</hi>vīrapā
+<lb n="2" break="no"/>ṇṭiya<hi rend="grantha">de</hi>vaṟku yā <gap reason="lost" quantity="5" unit="character"/> kuṟuppu n<unclear>āṭ</unclear>ṭu <unclear>vic</unclear>aiyamaṅkalattut tirumeṟkoyiṟ cittiṟameḻi viṇṇakaremperumāṉ karumāṇikkā
+<lb n="3" break="no"/>ḻvār tiruviṭaiyā<unclear>ṭṭaṅ</unclear> kūṭur <gap reason="lost" quantity="3" unit="character"/> kaṉe<unclear>ṉ</unclear> yiṉṉāyaṉā<supplied reason="omitted">r</supplied> karumāṇikkāḻvāṟkut tirunantāviḷakku vaikka nāṅkaḷ Utakam paṇ<unclear>ṇi</unclear>ṉa viḷakkoṉṟukku
+<lb n="4"/>mātantoṟum kuṟuppu nāḻiyāl mun <gap reason="lost" quantity="3" unit="character"/> ṇṇaiyi<unclear>ṟ</unclear> koyil <unclear>na</unclear>mpimār <hi rend="grantha">śrī</hi>vai<hi rend="grantha">ṣṇa</hi>var <hi rend="grantha">śrī</hi>kāriyañ ceyvārkaḷ vacam cantirātittavarai makkaḷ makkaḷ A
+<lb n="5" break="no"/>ḷantu potuvomākac cam<supplied reason="omitted">ma</supplied>tittu <gap reason="lost" quantity="5" unit="character"/> kūṭuril Ūrum Ūrāḷikaḷomum <hi rend="grantha">śrī</hi>paṇṭārattukku <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 41.329 by <bibl><ptr target="bib:Rajagopal2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Rajagopal2019_01"/>
+			<citedRange unit="page">344</citedRange>
+			<citedRange unit="item">329</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

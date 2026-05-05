@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 29.132: original edition by P. N. Narasimha Murthy</title>
+				<title type="alt">No. 132. (A.R. No. B. 625 of 1961-62.) KOḌĒRI [hamlet of] KIRIMANJĒŚVARA, COONDAPUR TALUK, SOUTH KANARA DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv29p0i0132</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab setup in front of Hakre-maṭha.</p>						
+
+						<p><hi rend="bold">Bukkaṇṇa Oḍeya I 1358 A.D.</hi></p>						
+
+						<p>It states that when <hi rend="italic">mahāpradhāna</hi> Maleya-daṁṇāyaka was governing the Bārakūru-rajya, Vissaṇṇa, son of Vīraṇṇa made a grant of land called Āneya-bāḷu after purchasing it by paying the prevailing rates, to the god Kiru-manḍilēśvara for feeding 14 brahmanas and burning a perpetual lamp in the temple. The record gives details of boundaries of lands and also details of daily expenditure. It is said that the grant was made on the day of solar eclipse [the previous day after record]. Also the record speaks of a grant made for burning a perpetual lamp (in front of) Kōṭīśvaradēva.</p>						
+
+						<p>Also the record says that Vissaṇṇa got renovated the Hosakēṟi <hi rend="italic">maṭha</hi> at Bayidūru which had been heavily damaged by the floods and made some grants to it. Earlier Kōṭi-seṭṭi of Mangalūru had made some grants to this <hi rend="italic">maṭha.</hi> Since the record is very much damaged details of grants are lost.</p>						
+
+						<p>It is dated Śaka 1280, Viḷambi, Śrāvaṇa, śu. 1, Vaḍḍavāra. It corresponds with 1358 A.D., July 7, Saturday, f.d.t. 01. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>Front side.</h4>-->
+
+<p>
+<lb n="1"/>śrī gaṇādhipatayē nama<supplied reason="omitted">ḥ</supplied> <g type="danda">.</g> śrī sarasvatyeyēṁ namaḥ <supplied reason="undefined"><g type="danda">.</g></supplied>
+<lb n="2"/>namastuṁga śiraścuṁbi caṁdra cāmara cārave
+<lb n="3"/><unclear>trai</unclear>lōkya nagarāraṁba mūlastaṁbāya śaṁbavē [<g type="ddanda">.</g> sva*]
+<lb n="4" break="no"/>sti śrī jayābhyudaya śakavaruśa 1280 neya viḷaṁ
+<lb n="5" break="no"/>bi saṁvatsarada śrāvaṇa śu 1 vaḍavāradaṁdu śrīma
+<lb n="6" break="no"/>nu mahāmaṇḍaḷēśvaraṁ Arirāya vibhāḍa bhāṣegeta
+<lb n="7" break="no"/>ppuvarāyara gaṁḍa śrīvīra bukkaṁṇa voḍeyara ni
+<lb n="8" break="no"/>yāmadiṁ śrīmanumahāpradhānaṁ maleya daṁ
+<lb n="9" break="no"/>ṇāyakaru bārakūra rājyavanāḷuvalli nāgū
+<lb n="10" break="no"/>ra grāma doḷaguḷḷa (naṁda) Eriya ka(ṭṭe)ya bāḷanū Ā
+<lb n="11"/>bāḷina mūligaḷa keyyali tatkālōcita krayadra
+<lb n="12" break="no"/>byava koṭṭu mūlavanu Ā vīraṁṇaṁgaḷa makkaḷu <unclear>vissa</unclear>
+<lb n="13" break="no"/>ṁṇaṁgaḷu dāreyaneṟasikoṁḍu kiṟu maṁḍi
+<lb n="14" break="no"/>lēśvara dēvaralli māḍi <gap reason="lost" quantity="5" unit="character"/> barasida śilā śāsanada
+<lb n="15"/>kramaveṁteṁdaḍe <unclear>Āne</unclear>ya bāḷina catussīme mū
+<lb n="16" break="no"/>ḍaṇa gaḍi hoḷeyiṁdaṁ paḍuvalu teṁkaṇagaḍi <unclear>saṁ</unclear>
+<lb n="17"/><unclear>ni</unclear> viṣṇu Āne saṁteya hebāruva dāmōdara hebāra
+<lb n="18"/> <gap reason="lost" quantity="2" unit="character"/> yiyya<unclear>kki</unclear> bayala nāḍaṇakuṁni birāva yiṁ
+<lb n="19" break="no"/> <gap reason="lost" quantity="1" unit="character"/> Āru prajeya gaḍiyiṁ baḍagalu paḍu
+<lb n="20" break="no"/>valu beṭṭinali vo<unclear>ṇa</unclear>bayala bhīmayya viṣṇu
+<lb n="21" break="no"/>va gaḍiyiṁ mūḍalu baḍagalu hoḷeyiṁ
+<lb n="22" break="no"/>da teṁkalu yiṁtti catussīmege nāgūrali ma(taṁ)ja
+<lb n="23" break="no"/>da<unclear>lū</unclear> voppi yi <gap reason="lost" quantity="2" unit="character"/> gaḍiya kaṭṭiṁda voḷa guḷa ba
+<lb n="24" break="no"/>yalu tōṭa makki mara nokki nidilu Allivuḷaṁ
+<lb n="25" break="no"/>thā samasta svāṁmyavanū kiṟu maṁḍalēśvara
+<lb n="26"/>dēvarali Ā vissaṁṇaṁgaḷu sūriya grahaṇadali
+<lb n="27"/>dāna dhārāpūrbakaṁ māḍida dharmma Ā dēvālya
+<lb n="28" break="no"/>dali Uṁba brāṁhmaru pratidina 1 kkaṁ Uṁba
+<lb n="29"/>brāhmaru jana 12 Ā(a)ḍigeya māḍuva jana 1 <unclear>E</unclear>
+<lb n="30" break="no"/><unclear>kā</unclear>daśiya <unclear>Uḷa</unclear>paḍiya koṁḍu Aḍigeya mā
+<lb n="31" break="no"/>ḍuva jana<unclear>1</unclear> Antū brāhmara jana 14 kkaṁ A
+<lb n="32" break="no"/>kki hāne 12 mēluvecca haṇa 1 ṟalekkadali va
+<lb n="33" break="no"/>ruśa 1 <unclear>ka</unclear>ṁ Akki hāne (30) ṟatikka mūḍe 1kkaṁ
+<lb n="34"/>19 hoṁnu ga 45 haṇa 6 hoṟe kūli Akki <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="35"/>mūḍe 2 hāne 20 kiṟukuḷa veccakke ga 1 ha
+</p>
+
+<!--<h4>Back side.</h4>-->
+
+<p>
+<lb n="36" break="no"/><unclear>ṇa</unclear> 2 Akki mūḍe ga hāne 12
+<lb n="37"/>Ā kiṟumaṁdilēśvara dēvarige naṁ
+<lb n="38" break="no"/>dā veḷaku 1 kkama gā<unclear>3</unclear> kōṭēśvara dēva
+<lb n="39" break="no"/>rige naṁdā veḷaku 1kkaṁ ga(4) hoṁnu maṁgalūra
+<lb n="40"/>kōṭiseṭṭi bayidūra hosakēṟiya maṭhada
+<lb n="41"/>lli māḍida dharmmakke <unclear>yi kēri</unclear> ya bāḷinali (naḍḍūra)
+<lb n="42"/>li voḷaguḷḷa <gap reason="lost" quantity="2" unit="character"/> gadde hoḷe <unclear>kaḷi</unclear> yāgi hō
+<lb n="43" break="no"/>dalli vissaṁṇaṁgaḷu jīrnōddhārava mā<unclear>ḍi</unclear> Ā
+<lb n="44"/>hosa kēṟiya marada chatrakke <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="45"/> <gap reason="lost" quantity="2" unit="character"/> 1 hāne <gap reason="lost" quantity="5" unit="character"/> mūḍe <gap reason="lost" quantity="1" unit="character"/> lekkadali <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="46"/>10 kkaṁ Akke mūḍe <unclear>40</unclear> Aṁntu yi<unclear>kṣē</unclear>tradali
+<lb n="47"/> <gap reason="lost" quantity="10" unit="character"/> ra lekkadali mūḍe 22 <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="48"/> <gap reason="lost" quantity="5" unit="character"/> naṁdā veḷakiṁge <unclear>ga 52</unclear> Ayivatte
+<lb n="49" break="no"/>raḍu hoṁnanū naḍasuvaṁtāgi vissaṁṇagaḷa
+<lb n="50"/>kayyali nāyaru mūlavāgi koṁḍa mū <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="51"/>lu padmanābhana <gap reason="lost" quantity="3" unit="character"/> mādhavaṁge siṁnegēriya <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="52"/> <gap reason="lost" quantity="5" unit="character"/> siṁnegēryya bayala viṣṇuviṁge <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="53"/>gōpināthana kēśavaṁge siṁnegēri sthaḷa kariya gōppaṇa
+<lb n="54"/>na kēśavaṁge siṁne<unclear>ya kēryya</unclear> kēśavaṁge siṁnegēryya
+<lb n="55"/>bayala vāsudēvaṁge <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="56"/>māgi <gap reason="lost" quantity="3" unit="character"/> kēriya gauḍana nāraṇaṁge <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="57"/>Appaṁṇa sēna bōvaṁge <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="58-59"/><ce>-damaged-</ce>
+<lb n="60"/> <gap reason="lost" quantity="10" unit="character"/> Ā Ūralu saluva hāne <gap reason="lost" quantity="1" unit="character"/> saluva <gap reason="lost" quantity="1" unit="character"/> A
+<lb n="61"/>ḷateya <gap reason="lost" quantity="10" unit="character"/> mūḍe <unclear>10</unclear> hāne <gap reason="lost" quantity="3" unit="character"/> Antu
+<lb n="62"/> <gap reason="lost" quantity="5" unit="character"/> dalu naḍeva nāyaru mūlavāgi baḍa
+<lb n="63"/> <gap reason="lost" quantity="10" unit="character"/> vāgi baredu koṭṭa śilāśā
+<lb n="64" break="no"/>sanakke maṁgaḷa mahā śrī śrī śrī śrī śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 29.132 by <bibl><ptr target="bib:NarasimhaMurthy2022_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:NarasimhaMurthy2022_01"/>
+			<citedRange unit="page">174-176</citedRange>
+			<citedRange unit="item">132</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

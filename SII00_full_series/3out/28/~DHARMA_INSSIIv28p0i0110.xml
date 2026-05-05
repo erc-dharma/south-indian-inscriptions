@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 28.110: original edition by J. Sundaram</title>
+				<title type="alt">No. 110. (A.R. No. 265 of 1913.) ŚIṄGĀRATTŌPPU (NEAR CHIDAMBARAM), CHIDAMBARAM TALUK, SOUTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv28p0i0110</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Bhīmēśvara temple, north wall.</p>						
+
+						<p><hi rend="bold">Tribhuvanachchakkaravartti Kulōttuṅga III Year 20, 121st day.</hi></p>						
+
+						<p>Inscribed below No. 109 (264 of 1913) above, it records a grant for a <hi rend="italic">sandhi-viḷakku.</hi> Details have been lost in the damaged line in continuation of the record.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="undefined"><g type="danda">.</g></supplied> tiri<hi rend="grantha">bhu</hi>vaṉaccakkaravattikaḷ maturaiyum Īḻa
+<lb n="2" break="no"/>mum pāṇṭiyaṉ muṭittalaiyuṅ koṇṭaruḷiṉa
+<lb n="3"/><hi rend="grantha">śrī</hi>kulottuṅkacoḻa tevaṟku yāṇṭu Irupatāvatu nāḷ nū
+<lb n="4" break="no"/>ṟṟirupattoṉṟiṉāl Iṉṉāyaṉār koyilil cantirātittavaṟ canti viḷa
+<lb n="5" break="no"/>kku Oṉṟukku paṇṭāratte Eṇṇai viṭṭerikka vācciyaṉ
+<lb n="6" break="no"/> <gap reason="lost" quantity="7" unit="character"/> <unclear>pirāmmaṇi</unclear> <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 28.110 by <bibl><ptr target="bib:Sundaram2010_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sundaram2010_01"/>
+			<citedRange unit="page">177</citedRange>
+			<citedRange unit="item">110</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

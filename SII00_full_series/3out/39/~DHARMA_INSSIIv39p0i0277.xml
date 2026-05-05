@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 39.277: original edition by K. Karuppiah</title>
+				<title type="alt">No. 277. (A.R. No. 277 of 1916.) TIRAKKOL, WANDIWASH TALUK, NORTH ARCOT DISTRICT. •••••••••• ON THE WEST FACE OF THE SAME BOULDER. CHŌḺA, RĀJAKĒSARIVARMAṈ-22ND YEAR.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv39p0i0277</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription is much damaged. It registers a gift made to Jaina temple by Gaṅgaśūrapperumpalli at Rā[jēndra]puram.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> kovirācakecari paṉmaṟku yā <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="2"/>ṇṭu Irupattiraṇṭāvatu <hi rend="grantha">rā<unclear>jendra</unclear></hi>purattu
+<lb n="3"/>maicuttap perumpaḷḷikku micuttappaḷḷic
+<lb n="4"/>cantamāṉavaṟṟukku <hi rend="grantha">śrī</hi> kaṅkaraiyaṉ kaṅkaḷaiccāṇi
+<lb n="5"/> <gap reason="lost" quantity="5" unit="character"/> kaṅkacūṟa perumpaḷḷiku kuṭutta paricāramāvatu Iruṅ
+<lb n="6"/>kaṇṭaṉ <gap reason="lost" quantity="5" unit="character"/> cittarum paḷḷi <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="7"/>ṭṭārum kākka <gap reason="lost" quantity="5" unit="character"/> peṟṟa <gap reason="lost" quantity="10" unit="character"/> campe
+<lb n="8"/> <gap reason="lost" quantity="5" unit="character"/> tārkku <gap reason="lost" quantity="5" unit="character"/> tum paricāramāvatu <gap reason="lost" quantity="5" unit="character"/> tiruviṭai
+<lb n="9"/>kkaḻipaḷḷic cantattukkum <gap reason="lost" quantity="5" unit="character"/> It <gap reason="lost" quantity="5" unit="character"/> patiṉ
+<lb n="10"/>tiṅku veṇṭiṉār <gap reason="lost" quantity="5" unit="character"/> ṉṉum vāḻvo
+<lb n="11"/>mmāyil keṅkaiyiṭai kumariyiṭai Eḻunūṟṟuk kātattum ceytār
+<lb n="12"/>ceyta pāvaṅkoḷvār <gap reason="lost" quantity="1" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 39.277 by <bibl><ptr target="bib:Karuppiah2020_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Karuppiah2020_01"/>
+			<citedRange unit="page">297</citedRange>
+			<citedRange unit="item">277</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

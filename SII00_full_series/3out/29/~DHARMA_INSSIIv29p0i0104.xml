@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 29.104: original edition by P. N. Narasimha Murthy</title>
+				<title type="alt">No. 104. (A.R. No. B. 769 of 1962-63.) AṆADUR, BIDAR TALUK, BIDAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv29p0i0104</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Two faces of a slab lying in the grave yard behind the Hire-maṭha.</p>						
+
+						<p><hi rend="bold">Jagadēkamalla II 1138 A.D.</hi> </p>						
+
+						<p>The record belongs to the first regnal year of the Chālukya king Jagadēkamalla II.</p>						
+
+						<p>It states that a gift of lands, flower gardens, house-sites, income from taxes and oil mills for worship and offerings to god Nāraṇēśvaradēva of Aṇaṁdūr and for feeding Brāhmaṇas and ascetics in the choultry <hi rend="italic">(sattra),</hi> by <hi rend="italic">maṇḍalēśvara</hi> Baddarasa, the <hi rend="italic">manneya,</hi> and <hi rend="italic">mahāpradhāna, maneverggaḍe</hi> Bammaṇayya-daṇḍanāyaka, the <hi rend="italic">sāmantikey-adhikāri</hi> of Ṟaṭṭale [Aṭṭale]-nāḍu under the orders of the king when, he visited the temple of Mahābhairava Maiḷāradēva in the first year of his rule and had the foot prints of the god Śrī Pādagaḷam installed in the temple. The record contains a long genealogical account of Baddarasa and <hi rend="italic">mahāpradhāna</hi> Gopadēva-daṇḍanāyaka.</p>						
+
+						<p>The record is dated Śaka 1059, Kāḷāyukti, Regnal year 1, Pushy śu. 15, <hi rend="italic">uttarāyaṇa saṁkrānti.</hi> The cyclic year Kāḷāyukti occurred in Śaka 1060 and the given tithi corresponds to 1138 A.D., December 18, Sunday.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>Front Side.</h4>-->
+
+<p>
+<lb n="1"/>© namastuṁga śiraścuṁbi caṁdra cāmara cāravē trailōkyana
+<lb n="2" break="no"/>garāraṁbhaṁ mūlastaṁbhāya śaṁbhavē <g type="ddanda">.</g> © svasti samasta bhuva
+<lb n="3" break="no"/>nāśraya śrīpṛthvīvallabha mahārājādhirāja paramēśvara parama bhaṭṭārakaṁ sa
+<lb n="4" break="no"/>tyāśraya kuḷatiḷakaṁ cāḷukyābharaṇaṁ śrīmat pratāpa cakravarti jaga
+<lb n="5" break="no"/>dēkamalladēvaru paṭṭacaṁvōtsavaṁ māḍisikoṁḍu prathama rājyadalu śrī
+<lb n="6"/>manu mahābhairavaṁ maiḷāradēvara śrīpādagaḷaṁ <gap reason="lost" quantity="5" unit="character"/> dēvara
+<lb n="7"/>dēvālyakkeradu <gap reason="lost" quantity="2" unit="character"/> paṇaṁ māḍi Ālagna <gap reason="lost" quantity="2" unit="character"/> Āṇaṁdūra śrī nāraṇēśvaradēva
+<lb n="8"/>ra Aṁgabhōga raṁgabhōga naivēdyakkaṁ brāhmaṇargeṁ tapōdhanarggaṁ Aṁnnadā
+<lb n="9" break="no"/>nadādiyāgiṁ lesava kaṭṭaṁmāḍi mahāpradhānaṁ manerggaḍe ṟaṭṭaḷenāḍa
+<lb n="10"/>sāmaṁtikeyadhikāri bammaṇayya daṁḍanāyakargge vānāḍamaṁneyaṁ maṁ
+<lb n="11" break="no"/>ḍaḷēśvara <gap reason="lost" quantity="1" unit="character"/> baddhara <gap reason="lost" quantity="3" unit="character"/> rasa mmukhā dēśadiṁ besagaleṁtavaru sahitaṁ dā
+<lb n="12" break="no"/>rāpūrvakaṁ māḍidapa <g type="ddanda">.</g> A <gap reason="lost" quantity="1" unit="character"/> tithiyeṁtene sakavarṣaṁ sāsiradayvattoṁbhattaneya 1059
+<lb n="13"/>ttaneya kāḷāyukta saṁvatsarada puṣyada paurṇṇamāsya vyatīpāta Uttarāyaṇa saṁkrāṁti
+<lb n="14"/>yaṁdu biṭṭa datti mattaṁ mahāmaṁḍaḷēśvaraṁ baddarasana vaṁśāvatāramu <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="15"/>madarāpradhānaṁ gōpadēva daṁḍanāyakana vaṁśāvatāra veṁteṁdare — ramanā
+<lb n="16" break="no"/>yaṁ kaṟegoṁkabhūpasutanappa baddagōrvvēra gamanōkārada rājyamaṁ nilisi
+<lb n="17" break="no"/>daṁ nārāyaṇaṁ tatsutaṁ kramamirataṁ mavagaṁdu baddarasaraṁ śrīma
+<lb n="18" break="no"/>llidēvaṁge rājyamane pūrjjitamāge mādanegaḷdaṁ gōpaṁda daṁḍādhipa <g type="ddanda">.</g> kaṁ <g type="ddanda">.</g> calada
+<lb n="19"/>ḻigaṁḍanaṁ nirmmaḷaneriya nāvika dāna ciṁntāmaṇiyaṁ kalikāla karnnaṁ nabhōvaḷe
+<lb n="20" break="no"/>yaṁ dorṇṇipudu gōpadaṁḍādhipana <g type="ddanda">.</g> Innā pogaḷteveḍeda gōpadēva daṁḍanāya
+<lb n="21" break="no"/>ka śathaśārdhatādapunteḷāḍe <g type="ddanda">.</g> vri <g type="ddanda">.</g> śrīlatitāraṇa surēṁdra mahīru
+<lb n="22" break="no"/>hamūrtti viśvavidyallaḷankāricanū bidyāmaṇi dudhṛradhairya mādāpahaṁ jū
+<lb n="23" break="no"/>śvaḷanarakṣa nētṛmaḷa kīrtti(su)dāndharthayōga nidrālasa pakṣalō
+<lb n="24" break="no"/>bhana sarōruhanāgi mukuṁda nirppudu <g type="ddanda">.</g> ka <g type="ddanda">.</g> tadamaḷanābhi sarōṁcadoḷu
+<lb n="25" break="no"/>dayisidaṁ (vi)dma(po)vevi(trō)ji caturvvadana samasta vidyā (sa)danaṁ mudadiṁ
+<lb n="26"/>hiraṇyagarbbhaṁ brahma(ṁ) Enisida hiraṇyagarbbha samānaḥ ssaṁlōjatēnāḷa <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="27"/>pārbuda nikāya meṁti(pi) rūpya janiṟusitene Avaroḷadhikanādi
+<lb n="28" break="no"/>vaḍaśiṣṭha <gap reason="lost" quantity="1" unit="character"/> maniva śi <gap reason="lost" quantity="1" unit="character"/> vināyvanava vaśiṣṭha gōtra mārātra dāḷpviṁ
+<lb n="29" break="no"/>tanupama māśira baḷi <gap reason="lost" quantity="1" unit="character"/> kaṁ <gap reason="lost" quantity="2" unit="character"/> yisidaṁdā śrīpogaḷe bā
+<lb n="30" break="no"/>ṇabhaṭṭa <g type="ddanda">.</g> Ādādyanā bhaṭṭaṁgada bōdhoḷā Aḍita(lidyā) na <gap reason="lost" quantity="1" unit="character"/> dana tiḷakaṁśrī (pi)
+<lb n="31" break="no"/>ya sinereye kīrttha śrībaḷayatuḷābdhi caṁdranogedanupēṁdra <g type="ddanda">.</g> vri <g type="ddanda">.</g>
+<lb n="32"/>tattanujaṁ triḷōbana dharāmaṁnātana sūnubikramā dāltayaśa(dbaḍivēsari) 
+<lb n="33"/>negaḷdaṁ prabhu bammadēvanarōtta manātanagrajanupēṁdrā nupēṁdra ma
+<lb n="34" break="no"/>hādvijaṁge lōkōttamanā mahēśvaranē puṭṭidanaṁtenipa mahēśvara <g type="ddanda">.</g>
+<lb n="35"/>va <g type="ddanda">.</g> Antu pratāparoḷu mahēśvaranenisida mahēśvaraṁga Umādē(vi)
+<lb n="36"/>samānavenisida bhaṁganobbera <g type="ddanda">.</g> vri <g type="ddanda">.</g> Akaḷaṁkā caraṇakkaḷaṁ karaṇamā
+<lb n="37" break="no"/>dārdviṁgaḍappaṁ dupēṁdra kuḷāṁ bō nidhivarddhanarge sasiyoṁdugrāri kāṁtāra
+<lb n="38"/><unclear>pā</unclear>vakaṁ neḍujvaḷa kīrttiyaṁdu guṇiyeṁdi bhūtadaṁ kūrttu baṇṇiku(ṁ) veṁdaṁḍa
+<lb n="39"/>negarttivetta maganā gōvirudādipu <g type="ddanda">.</g> vri <g type="ddanda">.</g> śrīmantabhōga niḷayaṁ vi <gap reason="lost" quantity="1" unit="character"/> ṁ
+<lb n="40"/>gāydaṇa daṁḍanātha cūḍāmaṇigaṁ samasta guṇaśīḷa samanvite pākaṇabbe gaṁpra
+<lb n="41" break="no"/>ma(dē) huṭṭidaṁ negaḷda nāraṇadēvanupēṁdra vaṁśajōddhānu gu<unclear>ṇā</unclear>dhikaṁ <unclear>paḍava dē</unclear>vanu
+<lb n="42"/>śaratara daṇḍanāthanu <g type="ddanda">.</g> ṁ <g type="ddanda">.</g> Avaroḷage <g type="ddanda">.</g> v® <g type="ddanda">.</g>
+</p>
+
+<!--<h4>Back Side.</h4>-->
+
+<p>
+<lb n="43"/>— Ā prathama pratāpana sahāya dhārākramanāśritāśra
+<lb n="44" break="no"/>yaṁ viprakuḷāṁbara dyumaṇi maṁtrisikhāmaṇi pūjitaṁ vaśiṣṭha pra
+<lb n="45" break="no"/>vara prabhūtananavadya caritrananūnadhāna kīrtti priyaneṁduṁ baṇṇi
+<lb n="46" break="no"/>pudiḷāvaḷayaṁ vibhu nāraṇayyana <g type="ddanda">.</g> kaṁ <g type="ddanda">.</g> Ātana kulavadhu
+<lb n="47"/>bhāmagiri dharegaruṁdhati garatige raṁbhege dharaṇī jātege sāvitri
+<lb n="48" break="no"/>ge paḍhi bhūtaḷadoḷu tāne (gi)riya dēviyanippaḷu <g type="ddanda">.</g> va <g type="ddanda">.</g> Anteśauryya
+<lb n="49"/>doḷu nārāyaṇanenisida nārāyaṇaṁ darṁmāta niviśāḷavakṣasthaḷa nivāsini
+<lb n="50"/>yenisida giriyā dēvige <g type="ddanda">.</g> kaṁ <g type="ddanda">.</g> Udaya girīṁdrada sikharadoḷudiyi
+<lb n="51" break="no"/>sudādityanaṁte nijakuḷanaḷinī mudavādave vaṁśavarddhananudayisidaṁ gōpa
+<lb n="52" break="no"/>dēvadaṁḍādhīśa <g type="ddanda">.</g> vri <g type="ddanda">.</g> Ānolleṁ maranāgi (vaḻti)pudaneṁdiṁdrādu
+<lb n="53" break="no"/>masigadiṁ nānoleṁ brugavāganeṁderaḍu voṁmeyyāgi gō
+<lb n="54" break="no"/>viṁdanaṁbenāmaṁ biḍidāvagaṁ manuja rūpāgirdda vāriddaḷuṁtānārbbaṁ bhu
+<lb n="55" break="no"/>ja vikramāṁnatikeyiṁ gōviṁda (daṁ)ḍādhipa <g type="ddanda">.</g> śrī nāraṇēśvara dēvargge
+<lb n="56"/>pūje naivēdya jīrṇṇōddhāra nimittavāgi biṭṭadatti yeṁtene baḍagalu
+<lb n="57"/>gurukuṁdeya sthaḷadalli kebiṭaṇada gaḍiṁ (badalidu) sahitavāgi nigarta
+<lb n="58"/>kōla mattaru Eraḍu 2 Ūriṁ teṁka keṟeya kelagaṇa gadde kōla matta
+<lb n="59" break="no"/>ru Eraḍu 2 Ūriṁ mūḍalu hūdōṭiṁ kōla mattaru mūṟu 3 mattaṁ
+<lb n="60"/>brāhmaṇargge tapōdhanarge bhōjanakke biṭṭa satraveṁteṁdaḍe Ūriṁ paḍuvalu
+<lb n="61"/>giṇigeyereyaliddaḷupahithavāgi nigaraṁ kōlamattaru Era
+<lb n="62" break="no"/>ḍu 2 mattaṁ dēvargge biṭṭakkayadeṁnteṁdaḍe Ūralā māḍida bhūmi
+<lb n="63"/>yalli nigavaṁ (kō)la mattaroṁdake pratyēka draṁmma Era
+<lb n="64" break="no"/>ḍuṁ binugumaḍiyalli pratyēka dramma (1) dēvara muṁntaṇa
+<lb n="65"/>keli Eraḍu gāṇa Eraḍu mattaṁ brāhmaṇa vritti
+<lb n="66"/>Ippattakeṁ 20 biṭṭa dattiyeṁtene pratyēkaṁ nivēśana Agala
+<lb n="67"/>veṁdu niḷaṁ haṁnneraḍu 12 kayyagalu Aṁtā nivēśana
+<lb n="68"/>kke kaṁtidu kōla mattaru Āṟu 6 gadde mattaroṁdu 1 karaṁbi
+<lb n="69" break="no"/>kōla mattaru Ippattu 20 Alliṁ bināṇi basavaṁge karidu
+<lb n="70"/>kōla mattaru Āṟu 6 Ā mattaralu gadde mattaru 1 karaṁba
+<lb n="71"/>ṟa <g type="danda">.</g> 7 <g type="danda">.</g> © svadattaṁ paradattaṁ vāyō harētu vasuṁdharā
+<lb n="72"/>ṣaṣṭirvvarṣa sahasrāṇi viṣṭhāyāṁ jāyatē krimi <g type="danda">.</g>
+<lb n="73"/>© grāmēkaṁ ratni kāmēkaṁ bhūmiradyēka maṁgulaṁ haraṁ
+<lb n="74"/>naraka māpnōti yāvadā bhūta saṁpavaṁ <g type="ddanda">.</g> © © © <g type="ddanda">.</g>
+<lb n="75"/>Iṁta dhammamaṁ rakṣisidāraṁ vāraṇāsiyalu gō saha
+<lb n="76" break="no"/>sra liṁga sahasra brāhmaṇa sahasravaṁ nilisidaṁ Akṣa
+<lb n="77" break="no"/>ya puṇyavaṁ paḍeva Ī dharmmavaṁ keḍisida nappaḍe vāraṇā 
+<lb n="78" break="no"/>siyalu sahasraliṁga bhēdamuṁ sahasra brahmāti
+<lb n="79"/>yuṁ gōvadhe sahasravaṁ māḍida Akṣayanarakavaṁ
+<lb n="80"/>paḍeva maṁgaḷa mahā śrī śrī śrī śrī śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 29.104 by <bibl><ptr target="bib:NarasimhaMurthy2022_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:NarasimhaMurthy2022_01"/>
+			<citedRange unit="page">137-140</citedRange>
+			<citedRange unit="item">104</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

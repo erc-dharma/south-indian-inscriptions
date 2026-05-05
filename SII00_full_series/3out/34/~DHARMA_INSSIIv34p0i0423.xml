@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 34.423: original edition by Y. Subbarayalu</title>
+				<title type="alt">No. 423. Paḷḷimaḍam, hamlet of Tiruchchuḻi, Aruppukkottai Taluk, Ramanathapuram District. On the north base of the Kālanāthasvāmi temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv34p0i0423</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Pāṇḍya, Vīrapāṇḍya, 4+7th year = A.D. 958.</p>						
+
+						<p>This records a gift of 20 sheep for a lamp to a <hi rend="italic">maṭha</hi> of the <hi rend="italic">Mahāvratis</hi> attached to the temple of Paḷḷipaḍai Sundarapāṇḍiya-Īśvaram in Parittikkuḍi-nāḍu. Three shepherds <hi rend="italic">(āyaṉ)</hi> of Maṟukkīḻ in Chōḻa-nāḍu took the sheep in lease for supply of ghee as stipulated.</p>						
+
+						<p>[Published in <hi rend="italic">SII</hi>, Vol. XIV, No. 88.]</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śrī</hi>cōḻaṉṟalai koṇṭa kōvīra pāṇṭiyarkku yāṇṭu nāṉku Itaṉetir Ēḻu Ivvā
+<lb n="2" break="no"/>ṇṭu parittikkuṭi nāṭṭu tēvatāṉan tiruccuḻiyal paḷḷipaṭai cuntarapāṇṭiya Ī<hi rend="grantha">śva</hi>rattu
+<lb n="3"/><hi rend="grantha">śrī</hi>ma<hi rend="grantha">hā</hi>vratikaḷ maṭattiṉukku viḷakku neykku Aṭutta cāvāmūvā pērāṭu Irupatu Ivaṟṟiṉāln
+<lb n="4"/>ney cōḷāntaka nāḻiyāl munnāḻi Ivvāṭu koṇṭu Inney Aṭṭuvāṉāyiṉāṉ cōḻanāṭṭu ma
+<lb n="5" break="no"/>ṟukkīḻ Irukkiṉṟa Āyaṉ tiṇṇāṇiyu maruntiyum kōṭaṉ maṉattāṉum Ineykkum Iva
+<lb n="6" break="no"/>kaḷukkum puṇai It <gap reason="lost" quantity="2" unit="character"/> ruvā ṉācakaṉ nāraṇa nakkaṉ mēṟpaṭiyāṉ Iññāṭṭu peruñcennilakkuṭi pa
+<lb n="7" break="no"/>ṭaittalaivaṉ pakavaṉukkāka kaikkoṇṭa Āṭu pattu cōḷāntaka nāḻiyāl tiṅkaḷ nāḻin ney Ivaṉu
+<lb n="8" break="no"/>kku puṇai tārāṉ kōviñcaṉ <gap reason="lost" quantity="1" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 34.423 by <bibl><ptr target="bib:Subbarayalu2015_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Subbarayalu2015_01"/>
+			<citedRange unit="page">380</citedRange>
+			<citedRange unit="item">423</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

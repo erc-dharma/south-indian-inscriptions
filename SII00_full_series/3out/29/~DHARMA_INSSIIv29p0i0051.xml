@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 29.51: original edition by P. N. Narasimha Murthy</title>
+				<title type="alt">No. 51. (A.R. No. B. 191 of 1962-63.) MADDURU, ALAMPUR TALUK, MAHABUBNAGAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv29p0i0051</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Another slab lying in the ruined Fort.</p>						
+
+						<p><hi rend="bold">Tribhuvanamalla [Vikramāditya VI] 1088 A.D.</hi></p>						
+
+						<p>The top portion of the slab in broken and lost. Perhaps this lost portion contained reference to the rule of Chālukya Tribhuvanamalladēva [Vikramāditya VI].</p>						
+
+						<p>It records the gift of some plots of land mesasured by the <hi rend="italic">Satya ratnākarana kōlu</hi> and made tax free in Maddūru and Rēkalūru to the god Chintaka-Rēchēśvara of <hi rend="italic">rājadhāni</hi> Maddūru situated on the southern banks of the Tuṅgabhadrā in Ayje-300, for worship of the god, maintenance of the musicians and running a choultry by <hi rend="italic">mahāsāmanta</hi> Pallavarasa of Puṇḍūr in the presence of Sōvarasa, Nāgimayya-nāyaka and the <hi rend="italic">pradhānas.</hi> The donor bears such epithets as <hi rend="italic">Muduguṇḍūr puravarēśvara, Alampura-bhujaṁga,</hi> etc. Also it contains another gift of land for the repairs of the temple, annadana etc.</p>						
+
+						<p>The date of the first grant is Chālukya Vikrama year 13, Vibhava, Āśhādha, Lunar eclipse Thursday, corresponding to 1088 A.D., July 6, Thursday. Lunar eclipse occured on that day.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>First face.</h4>-->
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="10" unit="character"/> dhigata paṁcamahāsabda mahāsāmanta <unclear>vijayā</unclear><note n="58-1">The slab is broken at the beginning and lost.</note>
+<lb n="2"/> <gap reason="lost" quantity="10" unit="character"/> ṁ cāḷukya vaṁśōddhavanayōdhya siṁhāsana va
+<lb n="3"/> <gap reason="lost" quantity="10" unit="character"/> ṁ cana muduguṇḍūrppuravarēśvara dēsīyānē
+<lb n="4"/> <gap reason="lost" quantity="5" unit="character"/> vana siṁhāvaḷaṁpūrabhūjaṁga śrī bra
+<lb n="5" break="no"/> <gap reason="lost" quantity="5" unit="character"/> ra dēvapādārādhakaṁ satrubaḷasādhakaṁ
+<lb n="6"/> <gap reason="lost" quantity="2" unit="character"/> disamasta prasasti sahitaṁ śrīmanma
+<lb n="7" break="no"/> <gap reason="lost" quantity="2" unit="character"/> sāmantaṁ puṇḍūra pāllavarasa
+<lb n="8" break="no"/><unclear>rcā</unclear>ḷukya vikrama 13 neya vibhava saṁ<supplied reason="omitted">va</supplied>tsara
+<lb n="9" break="no"/>da Āṣāḍada punname brahaspativā
+<lb n="10" break="no"/>ra sōmagrahaṇa <unclear>nimi</unclear>tyadiṁ Ayije
+<lb n="11"/>300 ṟa baḷiya rājadhāni maddūra teṁka
+<lb n="12"/>ṇa tuṁgabhadrā naditīradali cintaka rēcēśvara
+<lb n="13"/>dēvargge śrīpāllavarasanuṁyanubhavaṇi
+<lb n="14"/>kāṟaruṁ sōvarasanuṁ nāgimayya nāyaka
+<lb n="15"/>nuṁ samastavāda pradhānaru miḷdu dēvaraṁ
+<lb n="16" break="no"/>gabhōgakkaṁ gāndharvvarggaṁ <unclear>bāḷdaygarggaṁ</unclear> satrakkaṁ sa
+<lb n="17" break="no"/>rvvabādhā parihāra māge dhārāpūrvvakaṁ
+<lb n="18"/>māḍikoṭṭa datti satyaratnākaranakōlalu ma
+<lb n="19" break="no"/>ddūra poladoḷage matta 15 rēkulūra pola
+<lb n="20" break="no"/>doḷage matta 20 dēvaraṁga bhōgakke ma
+<lb n="21" break="no"/>ddūra keyimatta 15 <gap reason="lost" quantity="2" unit="character"/> ṟeseṭṭiya <unclear>ma</unclear>
+<lb n="22"/> <gap reason="lost" quantity="10" unit="character"/> ṇakya<note n="58-2">The end is broken and lost.</note>
+</p>
+
+<!--<h4>Second Face.</h4>-->
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="10" unit="character"/> <unclear>jīrnnō</unclear>ddhārakkaṁ A
+<lb n="2" break="no"/>nnadānakkaṁ <unclear>pāvu</unclear>ḷakkaṁ malliya poladoḷage
+<lb n="3"/>satyaratnākarana kōlalu tṛbho 
+<lb n="4" break="no"/>gābhyantara siddhiyiṁ sarvanamaśyamāgi
+<lb n="5"/>dhārāpūrvakaṁ mmāḍi koṭṭa matta 20<note n="59-1">Originally engraved as 15 and then corrected into 20.</note>
+<lb n="6"/>vinti dharmmavaṁ sudharmmadiṁ prati pāḷisuvaru
+<lb n="7"/>vellūra baṭṭiyiṁ mūḍa <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 29.51 by <bibl><ptr target="bib:NarasimhaMurthy2022_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:NarasimhaMurthy2022_01"/>
+			<citedRange unit="page">58-59</citedRange>
+			<citedRange unit="item">51</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

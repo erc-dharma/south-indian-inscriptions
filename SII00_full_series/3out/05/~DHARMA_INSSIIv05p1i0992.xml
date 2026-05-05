@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 5.992: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 992. (A.R. No. 127 of 1896). ON THE WEST WALL OF THE ARULALESVARA SHRINE IN THE SAME VILLAGE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:reda">
+						<forename>Renato</forename>
+						<surname>Dávalos</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv05p1i0992</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:reda" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> pumevu vaḷartirup poṉmārvu puṇara nāmevu kalaimakaḷ nalamperitu ciṟappa vicaiyamāmakaḷ velpuyattiruppa Icaiyuñ celviyu meṇṭicai viḷaṅka nirupar vantiṟaiñca niṇila
+<lb n="2" break="no"/>maṭantaiyait tirumaṇam puṇarntu cirvaḷar taruma maṇimuṭi tavitteṉa maṇimuṭi cūṭi mallaiñālattum palluyi<supplied reason="omitted">r</supplied>k kellām Ellaiyi liṉpa miyalpiṉi leyti veṇkuṭai niḻaṟṟac ceṅko lo
+<lb n="3" break="no"/>cci vāḻi pa<supplied reason="omitted">l</supplied>lūḻi Āḻi naṭappac cempoṉ vira<hi rend="grantha">si</hi> ṅ<hi rend="grantha">hāsa</hi>ṉattup puvaṉamuḻutuṭaiyāḷoṭum viṟṟiruntaruḷiya kovirācakecarivaṟmarāṉa tiripuvaṉaccakkaravarttikaḷ <hi rend="grantha">śrī</hi>kulottuṅkacoḻatevarkku yā
+<lb n="4" break="no"/>ṇṭu nālāvatu <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻamaṇṭalattuk kaḷattūrk koṭṭattut taṉiyūr <hi rend="grantha">śrī</hi>maturāntakaccaruppetimaṅkalattu <hi rend="grantha">mahāsa</hi> paiyom Eḻuttu nammur Akaḷaṅki- <hi rend="grantha">śva</hi> ramuṭaiya <hi rend="grantha">mahāde</hi> var kanmikaḷum <hi rend="grantha">śrī</hi>mā<hi rend="grantha">he</hi>
+<lb n="5" break="no"/><hi rend="grantha">śva</hi> rak kaṇkāṇiceyvārkaḷuṅ kaṇṭu Ivvūrt talappāṭakam viracoḻavāykkālukku vaṭakku 1- kkaṇṇāṟṟu viranārāyaṇavatikkuk kiḻakku O<supplied reason="omitted">ṉ</supplied>patāñ caturattup paka 2- m pattāñ caturattu paka 3- m Ākap paka 5- m It<hi rend="grantha">de</hi><note n="377-2">The inscription stops with this.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 5.992 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> converted to DHARMA conventions by Renato Dávalos.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1925_01"/>
+			<citedRange unit="page">377</citedRange>
+			<citedRange unit="item">992</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

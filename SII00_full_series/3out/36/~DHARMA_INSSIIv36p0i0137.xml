@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 36.137: original edition by P Shanmugam</title>
+				<title type="alt">No. 137. (A.R. No. 137 of 1910.) TEṈKARAI, NILAKKOTTAI TALUK, MADURA DISTRICT. On a slab lying in the maṇḍapa in front of the central shrine in the Mūlasthāṉēśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv36p0i0137</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">No king. Śaka 15[9]5: A.D. 1672.</hi></p>						
+
+						<p>Much damaged and mutilated. Seems to refer to the temple of Mūlasthāṉēśvara. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī śa</hi>kā
+<lb n="2" break="no"/><hi rend="grantha"><num value="15"><g type="numeral">10</g> 5</num><supplied reason="omitted">9</supplied>5</hi> ti<unclear>ṉ</unclear>
+<lb n="3" break="no"/>melc <unclear>ce</unclear>llā<unclear>ni</unclear>
+<lb n="4" break="no"/>ṉṟa paritāpi(ṉā)
+<lb n="5" break="no"/><hi rend="grantha">sam</hi>vat<hi rend="grantha">sa</hi>rattu
+<lb n="6" break="no"/>tai pakuḷapa<hi rend="grantha">kṣam</hi> ka
+<lb n="7" break="no"/> <gap reason="lost" quantity="11" unit="character"/> 
+<lb n="8"/><hi rend="grantha">tra</hi>yota<hi rend="grantha">si</hi> <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="9"/> <gap reason="lost" quantity="11" unit="character"/> 
+<lb n="10"/>mi <hi rend="grantha">śrī</hi> mūlastāṉa
+<lb n="11"/>ya<hi rend="grantha">ma</hi>m
+<lb n="12-41"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="42"/> <gap reason="lost" quantity="3" unit="character"/> Akitam ceyta
+<lb n="43"/>vaṉ keṅkaiyi
+<lb n="44"/>le taṉ mātāpitāk
+<lb n="45"/>kaḷaikkuttiṉa Ip
+<lb n="46"/>pāvāṉākavum
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 36.137 by <bibl><ptr target="bib:Shanmugam2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shanmugam2018_01"/>
+			<citedRange unit="page">123-124</citedRange>
+			<citedRange unit="item">137</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

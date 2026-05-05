@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 29.297: original edition by P. N. Narasimha Murthy</title>
+				<title type="alt">No. 297. (A.R. No. B. 636 of 1961-62.) BEḶAMAÑJE, PUTTUR TALUK, SOUTH KANARA DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv29p0i0297</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Another slab lying out side the Anantēśvara temple.</p>						
+
+						<p><hi rend="bold">15th century A.D.</hi></p>						
+
+						<p>This highly damaged fragment seems to have recorded a land grant probably to the deity of the place; the details of which are lost.</p>						
+
+						<p>It is in characters of the 15th century A.D.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1-6"/><ce>worn out</ce>
+<lb n="7"/> <gap reason="lost" quantity="3" unit="character"/> Āśvīja śu 5 <gap reason="lost" quantity="1" unit="character"/> daṁdu <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="8-11"/><ce>worn out</ce>
+<lb n="12"/> <gap reason="lost" quantity="5" unit="character"/> Aṁntu <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="13"/> <gap reason="lost" quantity="3" unit="character"/> mū 1 <gap reason="lost" quantity="10" unit="character"/> bāgila gadde <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="14"/> <gap reason="lost" quantity="5" unit="character"/> bāḷisuvaru <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="15"/> <gap reason="lost" quantity="10" unit="character"/> dēvara <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="16"/> <gap reason="lost" quantity="5" unit="character"/> dēvarige <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="17"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="18"/> <gap reason="lost" quantity="10" unit="character"/> yanakayiṁdalū <gap reason="lost" quantity="10" unit="character"/> vivara <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="19"/> <gap reason="lost" quantity="10" unit="character"/> Aḍa <gap reason="lost" quantity="1" unit="character"/> mu <gap reason="lost" quantity="2" unit="character"/> <unclear>caruvige</unclear> <gap reason="lost" quantity="5" unit="character"/> bhūmi
+<lb n="20"/> <gap reason="lost" quantity="10" unit="character"/> mu 18 battavanu naḍasu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="21"/> <gap reason="lost" quantity="10" unit="character"/> Agu <gap reason="lost" quantity="1" unit="character"/> naṁ baha baḍḍiyiṁdalū <gap reason="lost" quantity="1" unit="character"/> lasa
+<lb n="22"/> <gap reason="lost" quantity="10" unit="character"/> vivara nāyara <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="23"/> <gap reason="lost" quantity="10" unit="character"/> barada kaṁbaḷa <gap reason="lost" quantity="2" unit="character"/> 
+</p>
+
+<p>Rest is broken and lost.</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 29.297 by <bibl><ptr target="bib:NarasimhaMurthy2022_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:NarasimhaMurthy2022_01"/>
+			<citedRange unit="page">270-271</citedRange>
+			<citedRange unit="item">297</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

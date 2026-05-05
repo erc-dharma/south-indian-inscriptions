@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 40.345: original edition by K. Munirathnam</title>
+				<title type="alt">No. 345. (A.R. No. B. 399 of 1933.) Rajahmundry, Rajahmundry Taluk, East Godavari District, Andhra Pradesh.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv40p0i0345</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a pillar built into the Peddāpuram gate in the Missionary's compound.</p>						
+
+						<p>This is dated Śaka 1125, Mina, śu, 3, Thursday.</p>						
+
+						<p>Damaged. Records the gift of land made by some Brāhmaṇas of Koṇadina village for a perpetual lamp and providing offerings to the god Sōmēśvaradēva of Tilatīrtha at Sūryanārāyaṇapuram.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>śakava¨rṣaṁbulu 1125 gunēṁṭṭi mīna <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="2"/>kla pakṣamuna tritiyyamu brahaspativāramu 
+<lb n="3" break="no"/>ṇḍu śrī sū¨ryyānārāyaṇapuramunavilatī¨rtthamuna 
+<lb n="4"/>sōmīśvaramahādēvaraku konadinamūri śaṁkanapāṁggu koḍku 
+<lb n="5"/>musenapāṁggu nū <gap reason="lost" quantity="10" unit="character"/> pāṁgunu vīri koḍkukainanēmana pāṁ 
+<lb n="6" break="no"/>ggu koṁḍūri tana <gap reason="lost" quantity="5" unit="character"/> gaṭṭadūrupuna baṁggāla <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="7"/>kuṁṭanu Akhaṁḍadīpamunaku peṭṭina sēnu puṭeṁḍu yi 
+<lb n="8" break="no"/> <gap reason="lost" quantity="2" unit="character"/> ¨rmmuvu Āsaṁdrā¨rkkasthāhi <gap reason="lost" quantity="10" unit="character"/> mahājanālunu saṁ 
+<lb n="9" break="no"/>rakṣiṁppagala <gap reason="lost" quantity="10" unit="character"/> mōha 
+<lb n="10-11" break="no"/><ce>lines are damaged</ce>
+<lb n="12"/>yi sēni Aṁnda Aṣṭami satu¨rddaśula nivēdya 
+<lb n="13" break="no"/>pu paḍi tūmeṁḍu prālapayiki muttumu sēnu 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 40.345 by <bibl><ptr target="bib:Munirathnam2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2019_01"/>
+			<citedRange unit="page">319</citedRange>
+			<citedRange unit="item">345</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

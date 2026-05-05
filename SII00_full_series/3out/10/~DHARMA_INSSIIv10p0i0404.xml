@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.404: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 404. (A.R. No. 309 of 1915.) ON A STONE LYING IN A FIELD TO THE EAST OF SANTAMĀGULŪRU, NARASARAOPETA TALUK, SAME DISTRICT. Ś. 1187. (Krōdhana)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0404</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Damaged. Refers to a gift of land to the <hi rend="italic">Arusa-maṭha</hi> of the temple of <hi rend="bold">Mallināthadēva</hi> on the Śrīparvata hill.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>śrī svasti śakavaruṣaṁbulu 
+<lb n="2"/>1187 Agu nēṁṭi krōdhana 
+<lb n="3"/>saṁvatsara kā¨rttibahuḷa pa 
+<lb n="4" break="no"/>ṁccādaśi sōmavāramu 
+<lb n="5"/>nāṁḍu śrīpa¨rvvatamu ma 
+<lb n="6" break="no"/>llinādhadēvara Arusamaṭha 
+<lb n="7" break="no"/>muvāriki māṁgulūri 
+<lb n="8"/>gaṇapasamudramu venaka nā 
+<lb n="9" break="no"/>caṁdrā¨rkkamugānu śrīma 
+</p>
+
+<!--<h4>Next Face.</h4>-->
+
+<p>
+<lb n="10"/> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="11"/> <gap reason="lost" quantity="3" unit="character"/> ru taṁmataṁ <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="12"/> <gap reason="lost" quantity="3" unit="character"/> ṁgāriki puṇya 
+<lb n="13"/> <gap reason="lost" quantity="3" unit="character"/> ṭinacēnu ma 3 <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="14"/> <gap reason="lost" quantity="3" unit="character"/> śvaradēvaraku ma <g type="ddanda">.</g> svada 
+<lb n="15" break="no"/>ttaṁ paradattaṁ vā Ōharēti vanu 
+<lb n="16" break="no"/>ṁdharā ṣaṣṭi ¨rvvaruṣasaha 
+<lb n="17" break="no"/>srāṇi śivalōkaṁ mahi 
+<lb n="18" break="no"/>yyatē <g type="ddanda">.</g> Īdatti Evvarēni tri 
+<lb n="19" break="no"/>ppinavāru gaṁgakaṟuta ka 
+<lb n="20" break="no"/>vilaṁ boḍicināru śrī 
+<lb n="21"/>mahādēvāya namaḥ 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.404 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">214</citedRange>
+			<citedRange unit="item">404</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

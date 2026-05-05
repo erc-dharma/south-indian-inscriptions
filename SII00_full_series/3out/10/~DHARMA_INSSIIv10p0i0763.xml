@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.763: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 763. (A.R. No. 350 of 1909.) ON A SLAB NEAR THE TEMPLE TANK AT KŪVAM, TIRUVALLORE TALUK, CHINGLEPUT DISTRICT. Ś. 1[5]9[2]. (Virōdhikṛit)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0763</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Records that <hi rend="bold">Pemmasāni Kumāra Timmānāyanivāru</hi> planted a plantain <hi rend="italic">tope-</hi> on the tank bund in <hi rend="bold">Kuvvam</hi> which was under his government and dedicated it to Tervikkōlēśvarasvāmi, in the reign of <hi rend="bold">Qutb Shāh</hi> of Gōlkoṇḍa.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrī śālivāhasaśakābdaṁbbulu 1<unclear>5</unclear>9<unclear>2</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="2"/>nēṭi virōdhikṛtusaṁvatsaraṁ māśi māsaṁ te <gap reason="lost" quantity="2" unit="character"/> <unclear>gōla</unclear> 
+<lb n="3" break="no"/>koṁḍḍa kudupuśāhuvāri rājyaṁlōnu kuvvāna 
+<lb n="4"/>pemmasāni kumāra timmānāyanivāru śēyiṁcci 
+<lb n="5" break="no"/>na dha¨rmaśāsanaṁ mā yēlubaḍi AIna kuvvaṁlō 
+<lb n="6"/>tirukuḷaṁgaṭṭanu timmappanāyani Araṭitōpu vē 
+<lb n="7" break="no"/>yiṁstimi ganaka Ātōpu timmappanāyaniki 
+<lb n="8"/>sukṛtaṁggā tervikkōlēśvarasvāmiki sama 
+<lb n="9" break="no"/>¨rpiṁstimi yītōpunnu yītōpulō 
+<lb n="10"/>galigina sakala vṛkṣādula phalādulunnu 
+<lb n="11"/>sūryacaṁdrādulu galaṁttāgālamunnu 
+<lb n="12"/>svāmikaiṁkkaryālaku naḍicēṭaṭṭugā kaṭṭa 
+<lb n="13" break="no"/>ḍaśēśina śāsanamu yīdha¨rmānu ya 
+<lb n="14" break="no"/>vararu vikhātaṁ cēśinā vāru kā 
+<lb n="15" break="no"/>śilō gaṁggātīramaṁduna 
+<lb n="16"/>gōhatya braṁhma<unclear>hatya</unclear> 
+<lb n="17"/>cēśina pāpāna bōduru 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.763 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">400</citedRange>
+			<citedRange unit="item">763</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.413: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 413. (B.K. No. 20 of 1934-35.) HEḌIYĀḶ, RANEBENNUR TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0413</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Sati stone on the bund of Saṇṇakeṟe.</hi></p>						
+
+						<p>A.D. 1404.</p>						
+
+						<p>This inscription dated in <hi rend="bold">Śaka 1326, Tāraṇa, Chaitra s11u. [5], Sunday,</hi> states that <hi rend="bold">Māde-Nāyaka</hi> installed the <hi rend="italic">mahāsati</hi> slab in memory of his mother <hi rend="bold">Malidēvi</hi> who died by the rite of <hi rend="italic">samādhi</hi> on account of the death of her husband (name lost).</p>						
+
+						<p>The details of the date correspond to <hi rend="bold">A.D. 1404, March 16, Sunday.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>© namastuṁgasiraścuṁ
+<lb n="2" break="no"/>bicaṁdra<supplied reason="omitted">cāmara</supplied>cāravē tra
+<lb n="3" break="no"/>yilōkranagarāraṁbha
+<lb n="4" break="no"/>ṁ mūlastaṁbhāya sa<unclear>ṁ</unclear>
+<lb n="5" break="no"/>bhavē <g type="ddanda">.</g> svasti śrī jayā
+<lb n="6" break="no"/>dbhu<supplied reason="omitted">da</supplied>ya śakavaruśa 132
+<lb n="7" break="no"/>6 neya tāraṇasaṁva
+<lb n="8" break="no"/>tsarada cayitra su <unclear>5</unclear>
+<lb n="9"/>Ā vāradalu nā 
+<lb n="10"/>yakara maga he <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="11"/>yālada rāme <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="12"/>yakaru liṁgado <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="13"/>dalli Ātana Ārddhāṁgi
+<lb n="14"/>malidēvi naḍasamādhi
+<lb n="15" break="no"/>yanu hokku dēvaro <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="16"/>gā <gap reason="lost" quantity="2" unit="character"/> gi Avara ma
+<lb n="17" break="no"/>hāsatiya pratu
+<lb n="18" break="no"/>me <unclear>pra</unclear>thiṣṭe māḍi
+<lb n="19" break="no"/>sida maga mā
+<lb n="20" break="no"/>denāya(ṁ) ka
+<lb n="21" break="no"/>nu maṁgaḷa ma
+<lb n="22" break="no"/>hā śrī
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.413 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">478-479</citedRange>
+			<citedRange unit="item">413</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

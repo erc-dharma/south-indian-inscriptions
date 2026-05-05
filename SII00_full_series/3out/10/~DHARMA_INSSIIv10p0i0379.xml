@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.379: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 379. (A.R. No. 303 of 1915.) ON A STONE NEAR THE CULVERT TO THE EAST OF THE VILLAGE, ROMPICHERLA, SAME TALUK AND DISTRICT. Year not given.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0379</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Incomplete and damaged. Refers to grant of land to god Kēśavadēva of <hi rend="bold">Koṇḍamuṭru</hi> for the merit of <hi rend="bold">Gaṇapatidēva-Mahārāja.</hi> The donor appears to have been a <hi rend="bold">Kōṭa</hi> chief.</p>						
+
+						<p>Face A.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="2" unit="character"/> yanaprasā<unclear>dā</unclear> 
+<lb n="2"/><unclear>sā</unclear>dita kriṣṇavē<unclear>ṇī</unclear> 
+<lb n="3" break="no"/><unclear>na</unclear>dīdakṣiṇatīra [ ṣa 
+<lb n="4" break="no"/>ṭsa ] hasrāvanīvalla 
+<lb n="5" break="no"/><unclear>bha</unclear> bhayalōbhadu<unclear>rla</unclear> 
+<lb n="6" break="no"/>bha cōḷacālu 
+<lb n="7" break="no"/>kyasāmaṁttana <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="8"/>vibhavāmarēṁdra 
+<lb n="9"/>śrīmaddamarēśva 
+<lb n="10" break="no"/>radēvara divyaśrī 
+<lb n="11"/> <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+<!--<h4>Face B.</h4>-->
+
+<p>
+<lb n="12"/> <gap reason="lost" quantity="1" unit="character"/> gaṇapaddē<unclear>va</unclear> 
+<lb n="13"/><unclear>ma</unclear>hārājulaku 
+<lb n="14"/>dharṁmmuvugām 
+<lb n="15"/><unclear>ko</unclear>ṁḍamuṭru kē 
+<lb n="16" break="no"/>śavadēvaraku U [ tta 
+<lb n="17"/>rā ] yasaṁkrāṁtti 
+<lb n="18"/>nimittamuna I 
+<lb n="19" break="no"/>ccina datti kha 4 
+<lb n="20"/>ceṟvuvenaka maṟtu 1 
+<lb n="21"/>rāgabhōgālavāriki 
+<lb n="22"/>śrīkā¨ryya <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="23"/> <gap reason="lost" quantity="3" unit="character"/> ceṟvu <gap reason="lost" quantity="3" unit="character"/> (incomplete <gap reason="lost" quantity="1" unit="character"/> ) 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.379 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">197</citedRange>
+			<citedRange unit="item">379</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

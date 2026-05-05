@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 40.337: original edition by K. Munirathnam</title>
+				<title type="alt">No. 337. (A.R. No. B. 386 of 1933.) Talamañchipaṭnām, Jammalamadugu Taluk, Cuddapah District, Andhra Pradesh.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv40p0i0337</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a stone standing in a street at the western end of the village.</p>						
+
+						<p>This is dated Sarvajit, Adhika-Āshāḍha, śu. 7.</p>						
+
+						<p>Records the gift of land by Modalāri Nāyaka, the agent of Aṅkā-Jiyya to Maravāḷa Kōṭaya, son of Śivayōgi-Mallaya, on the occasion of his visit to the <hi rend="italic">tirtha (i.e., jatra)</hi> of the goddess of Paṭṭaṇam (<hi rend="italic">i.e.,</hi> Talamañchipaṭṭaṇam).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>śubhamastu sa¨rvajitu saṁvatsara 
+<lb n="2"/>Adhika Āṣāḍha śu 7 lu śrīmatu Aṁkā 
+<lb n="3" break="no"/>jīyavāri kāryaka¨rta Ayina mōdalā 
+<lb n="4" break="no"/>rināyiṁgāru śidhayōgi malla 
+<lb n="5" break="no"/>ya koḍuku maravāḷakōṭayaku 
+<lb n="6"/>paṭaṇaṁ Amagāri tidumaivaci vīnikisēyapeḍi 
+<lb n="7" break="no"/>cēśi Aṁduku peṭina cēnu vaṁgalavāni cē 
+<lb n="8" break="no"/>ni sthaḷaṁ cēsuka <gap reason="lost" quantity="5" unit="character"/> ceruvu 
+<lb n="9"/>tiṁ yiṁduku yevaru tapina vāraṇāsi 
+<lb n="10" break="no"/>ni gaṁgalō gō <gap reason="lost" quantity="10" unit="character"/> ni tappina dōsanapōdu 
+<lb n="11" break="no"/>ru kolakāni <gap reason="lost" quantity="10" unit="character"/> yicinavāru 
+<lb n="12"/>yi dha¨rma <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 40.337 by <bibl><ptr target="bib:Munirathnam2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2019_01"/>
+			<citedRange unit="page">312</citedRange>
+			<citedRange unit="item">337</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

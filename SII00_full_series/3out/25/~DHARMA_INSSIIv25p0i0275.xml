@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 25.275: original edition by M. D. Sampath</title>
+				<title type="alt">No. 275. (A.R. No. 275 of 1908.) KARIVAḶAMVANDANALLŪR, SANKARANAYINAR KOYIL TALUK, TIRUNELVELI DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv25p0i0275</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Abhirāma Varatuṅga Śaka 1517, Regnal year 10 = 1595 A.D. Vīra Pāṇḍya.</hi></p>						
+
+						<p>The details of date given in the record viz., Maṉmata, Aṟpaśi 25 do not admit for verification. It refers to the institution of <hi rend="italic">abhishēkha-Kaṭṭaḷai</hi> to the deity Tirukkaḷāvuḍaiya-tambirāṉār and mentions a certain Pāṇḍyadēva (name lost).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>cakāttam <num value="1517"><g type="numeral">1000</g> 5 <g type="numeral">100</g> <g type="numeral">10</g> 7</num> ṉmel cellāniṉṟa cuva<hi rend="grantha">stiśrī</hi> kocaṭilavarmarāṉa
+<lb n="2"/>tiripuvaṉaccakkaravatti koṉermaikoṇṭāṉ ciṟi perumāḷ Apirāma 
+<lb n="3"/>varatuṅkarāmaṉāṉa virapāṇṭiya teva<supplied reason="omitted">r</supplied>kku Āṇṭu pattāvatu maṉmata
+<lb n="4"/>varu<hi rend="grantha">ṣa</hi>m Aṟpaci mātam cuvāmiyār tiruccapaivuṭaiya tampirāṉāṟku <unclear>A</unclear>
+<lb n="5"/>pi <hi rend="grantha">ṣe</hi>ka kaṭṭaḷai <gap reason="lost" quantity="10" unit="character"/> nammuṭaiya perāle naṭakkiṟatukku Apirāma <gap reason="lost" quantity="10" unit="character"/> pāṇṭiyateva <gap reason="lost" quantity="7" unit="character"/> 
+<lb n="6"/>nammuṭaiya <gap reason="lost" quantity="5" unit="character"/> kaḷiṭa
+<lb n="7"/>vittu nām koḷḷuṅ komuṟai <gap reason="lost" quantity="13" unit="character"/> 
+<lb n="8"/>vappāṭṭamuntalira<note n="412-1">Incomplete.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 25.275 by <bibl><ptr target="bib:Sampath2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath2012_01"/>
+			<citedRange unit="page">411-412</citedRange>
+			<citedRange unit="item">275</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

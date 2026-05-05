@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.300: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 300. (A.R. No. B 406 of 1940-41.) Vēlpucherla, Jammalamaḍugu Taluk, Cuddapah District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0300</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab in survey No. 298, adjacent to the Sambaśiva temple.</p>						
+
+						<p>This undated epigraph may be assigned to the 9th century, on the basis of palaeography.</p>						
+
+						<p>It registers a grant of 40 <hi rend="italic">maṟuttus</hi> of land at Vēlpucheruvu by Ayitāṇṇa Āribhālavyrēṁgu, son of Kāṟu Vyrēṁgu to Varāsami Bhōḷaśiva Komareya. As witnesses to the transaction are mentioned Cheṅgālu, Enpuḷakālu, Tāraḍlakālu.</p>						
+
+						<p>[Published in <hi rend="italic">Inscription of Andhra Pradesh, Cuddapah District.,</hi> Vol. I, p. 32-33.]</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrī kāṟuvyrēṁgu 
+<lb n="2" break="no"/>ḷa koḍuku Ayitā 
+<lb n="3" break="no"/>ṇṇa Aribhāla vyrēṁgu 
+<lb n="4"/>vēḷpu ceṟuvuna 
+<lb n="5"/>pājaḷkimi praśāda 
+<lb n="6"/>ñcēśē varāsami bhō 
+<lb n="7" break="no"/>ḷaśīva komareyakku 
+<lb n="8"/>candraditya kāllaṁbunāku ni 
+<lb n="9" break="no"/>lpiri saśanaṁbu <unclear>ci</unclear>ciri <g type="danda">.</g> di 
+<lb n="10" break="no"/>niki śakṣi cēṁgālu Enpuḷakā 
+<lb n="11" break="no"/>lu Eḍlakālu mēṣikoṇḍu tāṟa 
+<lb n="12" break="no"/>ḍlākalu kodapu<unclear>nū</unclear>ṟa <unclear>veṭṭu</unclear> 
+<lb n="13"/>rāja manaṁbu nalpadi maṟu<note n="243-1">ja is written below the line.</note>
+<lb n="14" break="no"/>tuḍlu Iciri nēla nilpi 
+<lb n="15" break="no"/>navāriki Asvamēdhaṁbuna 
+<lb n="16"/>palaṁbu vakraṁbu vācuvānṟu 
+<lb n="17"/><unclear>vēgavilaḷu vēgaṁgiyaḷu</unclear> 
+<lb n="18"/>bharānasiyu ṭicina 
+<lb n="19"/><unclear>varu</unclear> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="20"/>sidayaṁbu reṇḍu<unclear>deḷu</unclear> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.300 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">243</citedRange>
+			<citedRange unit="item">300</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

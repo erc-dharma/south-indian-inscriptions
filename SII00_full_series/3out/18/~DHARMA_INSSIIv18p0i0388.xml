@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.388: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 388. (B.K. No. 83 of 1932-33.) HĀVĒRI, HAVERI TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0388</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">North-west pillar in the navaraṅga in the Siddhēśvara temple.</hi></p>						
+
+						<p>This record belonging to the <hi rend="bold">13th century A.D.</hi> is dated in the cyclic year <hi rend="bold">Sarvadhāri, Kārtika Śu. 5, Thursday</hi> and states that, at the instance of <hi rend="italic">Sarvādhikāri</hi> <hi rend="bold">Vikadēvā-Paṇḍita, Chavuḍarasa,</hi> the <hi rend="italic">Mahājanas, Najaras, Ubhayamārga-Tuḷuvas</hi> and other bodies, granted incomes on certain articles, for offerings to god <hi rend="bold">Siddhanāthadēva</hi> (of Hāvēri).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>© svasti śrī sarvadhārisaṁvacharada kārtti<supplied reason="omitted">ka</supplied> su 5 gu svasti śrīma(ṁ)nmahā
+<lb n="2" break="no"/>pradhānaṁ śrīmatu sarvvādhikāri śrī vikadēvapaṁḍitara nirū
+<lb n="3" break="no"/>padiṁ svasti śrī sanihata cavuḍarasaru mahājanaṁgaḷu nagara <unclear>mu</unclear> 
+<lb n="4" break="no"/>ṁmuridaṁḍa vu<unclear>bhe</unclear>mārgga tuḷuvaru vu<unclear>bhe</unclear> nānādēsi samasta halaru
+<lb n="5"/>gavuḍu praje mukhyavāgi sakala sā(ṁ)myavaṁtarū viṣaprahāri śrī
+<lb n="6" break="no"/>siddhanāthadēvara yamrutapaḍige biṭṭayāya bhūsa vidaḷaya
+<lb n="7" break="no"/>ḍake mārgādāya māmūle yettukatteyaṁnade hēṟiṁge
+<lb n="8"/>yadhāga yadhāga sīreyamaḷavake pāya pāyava biṭṭu barasi
+<lb n="9" break="no"/>da śāsana yī dharṁmmavanu mudre hasta mukhyavāgī mahājanaṁga
+<lb n="10" break="no"/>ḷū vu<unclear>bhe</unclear>mārga tuḷuvaru vu<unclear>bhe</unclear> nānādēśi sakala sāmyavaṁ
+<lb n="11" break="no"/>tarū pālisuvaru maṁgaḷa mahāśrī śrī śrī
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.388 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">466-467</citedRange>
+			<citedRange unit="item">388</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

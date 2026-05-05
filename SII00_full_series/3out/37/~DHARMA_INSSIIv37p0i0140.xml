@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.140: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 140. (A.R. No. B 15 of 1940.) Gāṇalapalli (hamlet of Rāvulakollu), Siddhavatam Taluk, Cuddapah District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0140</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a yantra stone in the village.</p>						
+
+						<p>Modern characters.</p>						
+
+						<p>A yantra stone with some incantations.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>subhamastu <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīrāmā <g type="ddanda">.</g> 
+<lb n="2"/> <gap reason="lost" quantity="2" unit="character"/> nadigurumahāśivagurupāda <g type="danda">.</g> 
+<lb n="3"/> <gap reason="lost" quantity="2" unit="character"/> digidigi māyakaṭṭu māyakaṭṭu 
+<lb n="4"/>guru vīrayakaṭi gurugaṭṭulu <g type="danda">.</g> vīrakaṭi <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="5"/>munikaṭi <g type="danda">.</g> nākaṭulu <g type="danda">.</g> toṁkalu <g type="danda">.</g> śelu <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="6"/><g type="danda">.</g> gurukaṭulu <g type="danda">.</g> kala <gap reason="lost" quantity="1" unit="character"/> viraka <g type="danda">.</g> pā 
+<lb n="7" break="no"/>ḍi paśuvulaku <g type="danda">.</g> gurukaṭulu kōralu <g type="danda">.</g> 
+<lb n="8"/>biṁ <gap reason="lost" quantity="1" unit="character"/> kaṭumīdi kōralu <g type="danda">.</g> kaṭaguru <g type="danda">.</g> mahāmu 
+<lb n="9" break="no"/>ni munulu kaṭina kaṭulu <g type="danda">.</g> rāya mahā 
+<lb n="10" break="no"/>muni saṁnyāsi pādamulanu kaṭi kaṭi <g type="danda">.</g> mahā 
+<lb n="11"/>polimēra <g type="danda">.</g> munulu mahāmunulu <g type="danda">.</g> saṁ 
+<lb n="12" break="no"/>nyāsulu kaṭṭina ka 
+<lb n="13" break="no"/>ṭṭulu <gap reason="lost" quantity="3" unit="character"/> gurupra <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.140 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">112-113</citedRange>
+			<citedRange unit="item">140</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

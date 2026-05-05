@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.670: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 670. (A.R. No. 615-A of 1904.) TIRUVANDAVĀR, KANCHIPURAM TALUK, CHINGLEPUT DISTRICT. On the same slab.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0670</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription in modern characters seems to record some gift made for the merit of Kōdaṇḍarāmayaṉ, the agent of••••kkollā Sāyabu (Saheb) in the year Vikāri, Āḍi 17.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śubhama</hi>stu <supplied reason="undefined"><g type="ddanda">.</g></supplied> vikārivaru<hi rend="grantha">ṣa</hi>m Ā<unclear>ṭi</unclear>
+<lb n="2"/>mātam tam <num value="17"><g type="numeral">10</g> 7</num>- <g type="pc"/> <hi rend="grantha">śrī</hi>matu � <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="3"/>�kkollā cāyapu
+<lb n="4"/>kaṟttaṉ kotaṇṭar<choice><sic>a</sic><corr>ā</corr></choice>mayaṉu
+<lb n="5"/>kku pu<supplied reason="omitted">ṇ</supplied>ṇiyamāka tiruvantavāṟu
+<lb n="6"/>ṅka piṟārat <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="7"/> <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="8"/>ṭam meṉṟu <gap reason="lost" quantity="7" unit="character"/> mutta
+<lb n="9"/>yārum vārupattiyamā yiṭa <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="10"/> <gap reason="lost" quantity="2" unit="character"/> yinta ko <gap reason="lost" quantity="5" unit="character"/> ṟaitt<unclear>ā</unclear>
+<lb n="11" break="no"/>lum pacu vilaippaṇam koḷat
+<lb n="12" break="no"/>til poṭ<choice><sic>a</sic><corr>ā</corr></choice>mal poṉālum keṅ
+<lb n="13" break="no"/>kai karaiyil
+<lb n="14"/> <gap reason="lost" quantity="4" unit="character"/> kiraṇakālile pacuvai
+<lb n="15" break="no"/>yum <gap reason="lost" quantity="5" unit="character"/> ṉaiyum <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="16"/> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="17"/> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="18"/> <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.670 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">306</citedRange>
+			<citedRange unit="item">670</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.217: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 217. (B.K. No. 64 of 1934-35.) SARVAND, RANEBENNUR TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0217</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Hero-stone standing near the Īśvara temple.</hi></p>						
+
+						<p>Siṁghaṇa—A.D. 1235.</p>						
+
+						<p>This inscription is dated in the cyclic year <hi rend="bold">[Jaya]</hi> in the reign of <hi rend="bold">Simhaṇadēva,</hi> (regnal year lost), <hi rend="bold">Māgha s11u. 3, Monday.</hi> During the reign of Siṁghaṇa, the cyclic year Jaya coincided with A.D. 1234-35, in which year the details correspond to <hi rend="bold">A.D. 1235, January 22, Monday, f.d.t. ·35.</hi></p>						
+
+						<p>It records the death of a hero named <hi rend="bold">Jakkayya,</hi> son of <hi rend="bold">Bairaḍiya Mādayya,</hi> while rescuing the cattle. The village <hi rend="bold">Sarevūr</hi> is mentioned.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>First Piece.</h4>-->
+
+<p>
+<lb n="1"/>svasti śrīmatu yādavanārāyaṇa pratāpacakravartti vīra<unclear>siṁ</unclear>
+<lb n="2" break="no"/>haṇadēvava<unclear>rṣa</unclear>da <gap reason="lost" quantity="2" unit="character"/> neya <unclear>jaya</unclear>saṁvatsarada māghamāsa su 3 sō<unclear>mavā</unclear> 
+<lb n="3" break="no"/>radaṁdu ha<unclear>lu</unclear> <gap reason="lost" quantity="5" unit="character"/> Ulihaḷḷige dāḷiya baṁdūra suṭṭu
+<lb n="4"/>sūṟegoṁḍu <gap reason="lost" quantity="5" unit="character"/> <unclear>gaṁ</unclear>dada bai<unclear>ra</unclear>ḍiya mādayya
+<lb n="5" break="no"/>na maga jakkayya Apparasana sareŪralokkalāgirdduliha
+</p>
+
+<!--<h4>Second Piece.</h4>-->
+
+<p>
+<lb n="6" break="no"/>ḷḷige vōḍi hōgiddā [Ū]raḷuvina se<unclear>ṟe</unclear>ya <unclear>marada</unclear> tuṟuva hiṁthi
+<lb n="7" break="no"/>kkikoṁḍu <unclear>kō</unclear>lāḷa kolutaṁ baralu kīḷāḷu kāṇaloḍaṁ
+<lb n="8"/>kaimugiyalā <unclear>ka</unclear>ṇadoḷage tāgi taḷtiṟidu suralōkaprā
+<lb n="9" break="no"/>ptanāda <g type="ddanda">.</g> śrī maṁgaḷa mahāśrī śrī <g type="ddanda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.217 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">293-294</citedRange>
+			<citedRange unit="item">217</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

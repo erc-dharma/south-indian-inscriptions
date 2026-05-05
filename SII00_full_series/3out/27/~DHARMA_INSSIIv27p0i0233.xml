@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 27.233: original edition by M. D. Sampath, H. K. Narasimhamurthy, Madhav N. Katti and B. R. Gopal</title>
+				<title type="alt">No. 233. (A.R. No. 527 of 1928-29.) VARĀṄGA, KARKAL TALUK, SOUTH KANARA DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv27p0i0233</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab set up in the southern verandah of the outer <hi rend="italic">prākāra</hi> of Nēmīśvara basti.</p>						
+
+						<p>[Sōmēśvararāya? 1332-33 A.D.]</p>						
+
+						<p>The badly damaged record refers to the rule of Śrī <hi rend="bold">Sōmēśvararāya</hi> of Sōma-vaṁśa, bearing the epithets <hi rend="italic">Paṇḍita-pāṇḍya, Pāṇḍya-dhanaṁjaya, Arirāya-Basavaśaṅkara</hi> etc. The king is identical with <hi rend="bold">Sōyidēva.</hi></p>						
+
+						<p>It is dated <hi rend="bold">Śaka 1[25]4, Āṅgira śu. 10, Thursday,</hi> the name of the month being lost. The year corresponds to <hi rend="bold">1332-33 A.D.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2"/>śrī matparama gaṁbhīra syādvādā
+<lb n="3" break="no"/>mōphalāṁchanaṁ <supplied reason="undefined"><g type="danda">.</g></supplied> jīyātrailōkya nāthasya śā
+<lb n="4" break="no"/>sanaṁ jinaśāsanaṁ <g type="ddanda">.</g> svasti samasta bhuvanā
+<lb n="5" break="no"/><unclear>śraya rājādhirāja</unclear> rāja paramēśvara vīra pra
+<lb n="6"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="7"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="8"/> <gap reason="lost" quantity="3" unit="character"/> ta paṁḍita pāṁḍya pāṁḍya dhanaṁjaya
+<lb n="9"/>Arirāya basavasaṁkara <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="10"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="11"/> <gap reason="lost" quantity="5" unit="character"/> sōmavaṁsa lalāma <hi rend="bold">śrī sō</hi>
+<lb n="12" break="no"/><hi rend="bold">mēśvararā</hi>ya vijayarājyaṁ geyyuttire
+<lb n="13"/><hi rend="bold">sakavarṣa 1<unclear>25</unclear>4 neya Āṁgira saṁvatsa</hi>
+<lb n="14"/> <gap reason="lost" quantity="5" unit="character"/> <hi rend="bold">śu 10 guruvāra <g type="danda">.</g></hi> svasti
+</p>
+
+<p>1) The continuation is badly damaged.</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 27.233 by <bibl><ptr target="bib:Sampath+al2001_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath+al2001_01"/>
+			<citedRange unit="page">370</citedRange>
+			<citedRange unit="item">233</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

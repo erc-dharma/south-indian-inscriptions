@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 30.16: original edition by N. Marxia Gandhi, A. Padmavathy and S. Swaminathan</title>
+				<title type="alt">No. 16. (A.R. No. 94 of 1915.) Tirumurugaṉpūṇḍi, Avinashi Taluk, Coimbatore District Muruganātha temple-on the same wall of the same maṇḍapa Vīrarājēndra: year 40: 1256 A.D. </title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv30p0i0016</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription is built in at the end. It seems to record that Sundaranāḍan, a devotee (<hi rend="italic">ṭiruvēgambaḍiyār</hi>) residing at the temple complex (<hi rend="italic">tirumaḍaiviḷāgam</hi>) deposited certain amount in the temple treasury and the interest accrued out of this amount as millet was to be utilized for providing food offerings and for the procession of the deity.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> virar<choice><sic>a</sic><corr>ā</corr></choice> centira tevaṟku yāṇṭu <num value="40">4 <g type="numeral">10</g></num>vatu Āḷuṭaiyār tirumuruka<unclear>ṉpū</unclear>ṇṭi nāyanār tirumaṭai <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="2"/>ma tiruvekampaṭiyāril cuntaranāṭanen Innāyanār cipaṇṭārattil Oṭukkiṉa ciriyakki paḻañcalākai <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="3"/>paṟum Accinvāy kāṇam Irutūṇip patakkāka Āka kaṇpu<note n="18-1">Read- kampu</note>nāṟkalane patakkum Ikkaṇpu<note n="18-1">Read- kampu</note>kkuḷḷa Aḻiva <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="4"/>yin piṟṟaināḷ nāyakar tiruvitiyil Eḻuntaruḷa Itu cantirātittavarai celvatāka Itu panmā<hi rend="grantha">he</hi> <gap reason="lost" quantity="6" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 30.16 by <bibl><ptr target="bib:MarxiaGandhi+al2011_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:MarxiaGandhi+al2011_01"/>
+			<citedRange unit="page">17-18</citedRange>
+			<citedRange unit="item">16</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

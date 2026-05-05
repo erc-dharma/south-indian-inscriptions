@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 40.17: original edition by K. Munirathnam</title>
+				<title type="alt">No. 17. (A.R. No. B. 537 of 1929.) Mallipūḍi, Tanuku Taluk, West Godavari District, Andhra Pradesh.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv40p0i0017</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a fifth slab found in Vishṇu temple in the village.</p>						
+
+						<p>This is dated Śaka 1225, Uttarāyaṇa-Saṁkrānti.</p>						
+
+						<p>Registers the grant of two perpetual lamps to the temple of Agastyēśvara at Niravadyapura by Kōmana-Peggaḍa and Rāmana-Peggaḍa, the sons of Gaṇanātha-Peggaḍa.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<!--<h4>First Face.</h4>-->
+
+<p>
+<lb n="1"/>svasti śrī śakava¨rṣamulu 
+<lb n="2"/>1225 gu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="3"/>tsara Uttarāyaṇa 
+<lb n="4"/>saṁkrāṁntini niravadya 
+<lb n="5" break="no"/>puramaṁdula Agastyē 
+<lb n="6" break="no"/>śvara śrīmahādēvuni 
+<lb n="7" break="no"/>ki <unclear>ga</unclear>ṇanāthapeggaḍaṁ 
+<lb n="8"/>gāri koḍkulu koma 
+<lb n="9" break="no"/>na peggaḍaṁgāru na 
+</p>
+
+<!--<h4>Second Face.</h4>-->
+
+<p>
+<lb n="10"/>rāmanapeggaḍanu reṁḍu 
+<lb n="11"/>Akhaṁḍadīpamu 
+<lb n="12" break="no"/>lunnu Ācaṁdrā¨rkka 
+<lb n="13" break="no"/>sthāyigānu mu 
+<lb n="14" break="no"/>ṭṭiṁccuvāṁḍu śu 
+<lb n="15" break="no"/>bhamastu śrī 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 40.17 by <bibl><ptr target="bib:Munirathnam2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2019_01"/>
+			<citedRange unit="page">26-27</citedRange>
+			<citedRange unit="item">17</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

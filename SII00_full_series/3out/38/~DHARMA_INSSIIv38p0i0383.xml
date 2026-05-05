@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.383: original edition by S. Swaminathan</title>
+				<title type="alt">No. 383. (A.R. No. 383 of 1912.) DĒVIKĀPURAM, ARNI TALUK, NORTH ARCOT DISTRICT. On the north wall, second prākāra, Bṛihadāmba temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0383</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">King: [Achuyutayyadēva-Mahārāya] Year: Śaka [1464], <hi rend="italic">Subhakṛit, Āṇi.</hi></hi></p>						
+
+						<p>Damaged. Records the gift twelve <hi rend="italic">poṉ</hi> for conducting worship to the god Tirumalaruḍaiyanāyiṉār of Dēvikkāpuram on the day of <hi rend="italic">Uttirat-tirunāḷ</hi> by Nayiṉappa Nāyakkar, an official of <hi rend="italic">Aḍaippattu</hi> Mallappa Nāyakkar, for the merit of Śēvappa Nāyakkar. The temple accountant and Uttaṇḍa piḷḷai, and Dharmarāsan piḷḷai and others figure as signatories.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śrī</hi>va<hi rend="grantha">stiśrī</hi><note n="439-2">Read <hi rend="grantha">svastiśrī</hi></note>manmakāmaṇṭalecuraṉ metiṉi micura <gap reason="lost" quantity="7" unit="character"/> ṭaṉ pā<hi rend="grantha">ṣai</hi>kku tappuvarāyar kaṇṭaṉ <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2"/>kaṇṭan<choice><sic>a</sic><corr>ā</corr></choice>ṭu koṇṭu koṇṭanāṭu kuṭātāṉ tulukka taḷavipāṭa<supplied reason="omitted">ṉ</supplied> Emmaṇṭalamum <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="3"/>pūṟuvate<hi rend="grantha">kṣi</hi>ciṇa paccima Uttara camuttirātipati kecaveṭṭai kaṇṭaruḷiya <hi rend="grantha">śrī</hi>vira<hi rend="grantha">pra</hi>tāpaṉ <gap reason="lost" quantity="3" unit="character"/> Ac <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="4"/>yirācciyam paṇṇi Aruḷā niṉṟa cakāttam <hi rend="grantha">[<num value="1464"><g type="numeral">1000</g> 4 <g type="numeral">100</g> 6 <g type="numeral">10</g> 4</num>]</hi> mel cellā <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="5"/>cupakiru varu<hi rend="grantha">ṣa</hi>m Āṇi <gap reason="lost" quantity="10" unit="character"/> <hi rend="grantha">śrī</hi> matu Aṭaippattu mallappa nāyakkar Ayyaṉ kāriyattukkukaṭaiva <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="6"/>nayiṉappanāyakkar cevappanāyakkar Ayyaṉukku puṇṇiyamāka tevakkāpuram ti<supplied reason="omitted">ru</supplied>malaruṭaiya 
+<lb n="7"/>tampirānāṟku Uttirattirunāḷukku murukamaṅkalappaṟṟu <gap reason="lost" quantity="1" unit="character"/> vaṉa <gap reason="lost" quantity="2" unit="character"/> ttuṟai ka <gap reason="lost" quantity="2" unit="character"/> ceytta <gap reason="lost" quantity="2" unit="character"/> <unclear>teṟku</unclear>
+<lb n="8" break="no"/> <gap reason="lost" quantity="6" unit="character"/> poṉ paṉṉiraṇṭu Inta poṉ paṉṉiraṇṭukku ce<unclear>lla</unclear> piḷḷaiyār makaṉ viraṉ taṭutta <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="9"/>perunāṭṭup paraiyar makaṉ nayin<choice><sic>a</sic><corr>ā</corr></choice>rk kai<unclear>koḷa</unclear> poḷiyūr cetirāyaparaiyaṉ makaṉ <gap reason="lost" quantity="6" unit="character"/> va Eḻuvattariyiraṉ <gap reason="lost" quantity="8" unit="character"/> 
+<lb n="10"/>makaṉ cevvaṇaṉ <hi rend="grantha">[<num value="500">5 <g type="numeral">100</g></num>�2]</hi> viriyār makaṉ cantiraṉ � nañcuṭaiyār makaṉ colai teva Āka Iraṇṭumā<hi rend="grantha"><num value="10"><g type="numeral">10</g></num>kāṇi</hi> kantāya
+<lb n="11"/> <gap reason="lost" quantity="5" unit="character"/> tittavarai celuttakkaṭaivarākavum Inta taṉmattukku Akutam paṇṇiṉavarkaḷ keṅkaikkaraiyile
+<lb n="12"/>kārāmpacuvaikkoṉṟa toḻattile pokakaṭaivarākavu<hi rend="grantha">m</hi> Inta kalveṭṭu Eḻutiṉamaikku koyil kaṇa <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="13"/>ḷaic <gap reason="lost" quantity="3" unit="character"/> viṉ Eḻuttu §
+<lb n="14"/>yippaṭikku Aṟiveṉ ciraṅkanātaṉ � <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="15"/>yippaṭi Aṟiveṉ Uttaṇṭapiḷḷai
+<lb n="16"/>yippaṭi Aṟiveṉ tarmaracar piḷḷai
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.383 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">439-440</citedRange>
+			<citedRange unit="item">383</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

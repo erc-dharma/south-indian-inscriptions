@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.236: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 236. (A.R. No. 393 of 1920.) ON A STONE SET UP IN THE VILLAGE DONEKALLU, GOOTY TALUK, ANANTAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0236</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is dated <hi rend="bold">Chālukya-Vikrama year 65, Durmati, Jyēshṭha, śu. 10, Ādityavāra,</hi> corresponding probably to <hi rend="bold">A.D. 1141 May 17, Saturday,</hi> not Sunday. It refers itself to the reign of the Chālukya king <hi rend="bold">Tribhuvanamalla-Permāḍidēva</hi> ruling from his capital <hi rend="bold">Kalyāṇa. Vijayāditya-Gāvuṇḍa,</hi> son of Ayyapa-Gāvuṇḍa, is stated to have set up the god Vīravijayēśvara and made a grant of 12 <hi rend="italic">mattars</hi> of land, a house, a flower garden and an oil-mill for the service of the god. The record is damaged. The king who was ruling in this year was <hi rend="bold">Jagadēkamalla II.</hi> It is not known whether he had the surname Tribhuvanamalla.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied> samastabhuvanāśraya śrīprithvīvallabha ma
+<lb n="2" break="no"/>hārājādhirājaṁ paramēśvaraṁ paramabhaṭṭārakaṁ satyāśraya
+<lb n="3" break="no"/>kuḷatiḷakaṁ cāḷukyābharaṇaṁ śrīmattribhuvanamallapermāḍidē<supplied reason="omitted">va</supplied>
+<lb n="4" break="no"/>ru kalyāṇapurada nelevīḍinalu sukhasaṁkathāvinōdadiṁ rājyaṁge
+<lb n="5" break="no"/>yyuttamiralu caḷukyavikramavarṣada 65 neya durmmatisaṁvatsara
+<lb n="6" break="no"/>da jēṣṭasuddha dasami Ādityavāradaṁdu Ayyapagāpuṁḍana putraṁ
+<lb n="7"/>vijayādityagāvuṁḍaṁ pratiṣṭhegeyisida vīravijayēsvaradēvarge snānabhō
+<lb n="8" break="no"/>gakke jīrṇnōddhārakkaṁ panneraḍu mattaru <gap reason="lost" quantity="3" unit="character"/> maneya nivēśanamaṁ Oṁdu
+<lb n="9"/>gāṇavuṁ Oṁdu tōṁṭavuṁ <gap reason="lost" quantity="5" unit="character"/> sarvvēsvaraṁge dhārā
+<lb n="10" break="no"/>pūrvvakaṁ māḍi koṭṭaru <gap reason="lost" quantity="3" unit="character"/> paradattaṁ vā yō harēti vasuṁdharāṁ śaṣṭirvvarśa
+<lb n="11" break="no"/>sahaśrāṇi viṣṭāyāṁ [jāyatē krimiḥ <g type="ddanda">.</g>]
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.236 by <bibl><ptr target="bib:Shama+Rao1939_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shama+Rao1939_01"/>
+			<citedRange unit="page">242</citedRange>
+			<citedRange unit="item">236</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

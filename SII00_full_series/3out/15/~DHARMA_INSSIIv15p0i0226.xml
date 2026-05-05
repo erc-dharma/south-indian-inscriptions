@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 15.226: original edition by P. B. Desai, Dines Chandra Sircar and G. S. Gai</title>
+				<title type="alt">No. 226. (A.R. No. 471 of 1926.) AḶNĀVAR, DHARWAR TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv15p0i0226</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a hero-stone lying in the compound of the Baraguṇḍi house.</p>						
+
+						<p>Gūvala.</p>						
+
+						<p>It refers to the king Gōvala, apparently of the Goa Kadamba family, and describes the loyalty and valour of a warrior who seems to have died in a fight. The inscription is much damaged, the details being lost.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>© kṣitipāḷāgraṇi gōvalaṁge piriduṁ kāruṇyadāḷāgi
+<lb n="2"/>māruti yida<unclear>ntara</unclear> meṁbinaṁ patihita <gap reason="lost" quantity="3" unit="character"/> ḷvikramō
+<lb n="3" break="no"/>nnatiyoḷtāna <gap reason="lost" quantity="5" unit="character"/> negaḻda sāmānyane <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="4"/><unclear>sā</unclear> <gap reason="lost" quantity="10" unit="character"/> kaḷpa<unclear>druma</unclear>
+<lb n="5"/>Ātana <gap reason="lost" quantity="10" unit="character"/> pōdanāhavadōḷtannane<unclear>va</unclear>
+<lb n="6"/> <gap reason="lost" quantity="10" unit="character"/> hitāgi taḷtaṟidanappi koṇḍa
+<lb n="7"/> <gap reason="lost" quantity="10" unit="character"/> pōgi divamaṁ kaikoṇḍanutsā<note n="277-1">The continuation is lost.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 15.226 by <bibl><ptr target="bib:Desai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Desai1964_01"/>
+			<citedRange unit="page">277</citedRange>
+			<citedRange unit="item">226</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

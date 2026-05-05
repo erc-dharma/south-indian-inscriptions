@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 26.537: original edition by P. R. Srinivasan</title>
+				<title type="alt">No. 537. (A.R. No. 507 of 1909.) TENKĀŚI, TENKASI TALUK, TIRUNELVELI DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv26p0i0537</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Same place.</p>						
+
+						<p><hi rend="bold">Arikesari Parākrama pāṇḍyan*: Ś. 1369, Mithuṉa (Āṉi) 18, Saturday = 1447 A.D. June 15. The week-day was Thursday.</hi></p>						
+
+						<p>This inscription is damaged in some places, and it is also in Tamil verse.</p>						
+
+						<p>It records that the king visited the temple at Teṉkāśi on Śaka 1368, Vaikāśi 10, śu. 10, Friday, Uttiram = 1446 A.D., May 6 and arranged for the performance of the ceremony of ploughing (<hi rend="italic">kariḷśaṇai</hi> Skt. <hi rend="italic">karshaṇam</hi>). Then on the date quoted above the construction of the central shrine of the Śiva temple at Tenkāśi was completed.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śi</hi>va<hi rend="grantha">mastu §</hi> Aṉpiṉuṭaṉ cakāttamāyirattu muṉṉūṟṟaṟupat
+<lb n="2" break="no"/>teṭṭataṉmel vaikācittiṅkaḷ maṉtiyati yīraintiṟ pūṟu
+<lb n="3" break="no"/>vapakka maruvu tecamiyil veḷḷivāran taṉṉil miṉati cūḻuttirunāḷ
+<lb n="4"/>mīṉattil vākaivelarikecari parākkirama makīpaṉ teṉticaiyiṟ kā
+<lb n="5" break="no"/>cinakarakkoyil kāṇacceṉṟu niṉṟu kariḻcaṇai tāṉ ceyvit
+<lb n="6" break="no"/>tāṉe § Acaivutikaḻ cakāttamāyirattu muṉṉūṟṟaṟupat
+<lb n="7" break="no"/>toṉpatiṉ meṟcol mituṉa ñāyiṟṟiṭai maruvutiyati patiṉe
+<lb n="8" break="no"/>ṭṭiṟpata � <gap reason="lost" quantity="5" unit="character"/> ḷiṟ caṉivārantaṉṉil miṉattil maṭai <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="9"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="10"/>ṭaiya <gap reason="lost" quantity="2" unit="character"/> raitteṉkācic civālaiyattiṉuḷḷamaittu teḷḷamutamuṭ
+<lb n="11"/>ṭiṉāṉe kaikataṟpakavaṉ ka <gap reason="lost" quantity="10" unit="character"/> ṭantu
+<lb n="12"/> <gap reason="lost" quantity="2" unit="character"/> yakkattaku miṉvantuyka 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 26.537 by <bibl><ptr target="bib:Srinivasan1990_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Srinivasan1990_01"/>
+			<citedRange unit="page">366</citedRange>
+			<citedRange unit="item">537</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

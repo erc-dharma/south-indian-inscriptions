@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 24.373: original edition by H. K. Narasimhaswamy</title>
+				<title type="alt">No. 373. (A.R. No. 42 of 1938-39.) II PRĀKĀRA, WEST WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv24p0i0373</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Śaka 1442 (1521 A.D.)</hi></p>						
+
+						<p>Registers a gift by <hi rend="bold">Kandāḍai Mādhavayyaṅgār</hi> of 80 <hi rend="italic">poṉ</hi> of gold, the interest on which is to be spent towards special offerings to god Raṅganātha on the second day of the <hi rend="italic">Brahmōtsava</hi> while he halts at Mādhavayyaṅgār <hi rend="italic">Tiruttōppumaṇḍapa</hi> and on the fifth day of the Māśi festival instituted in the name of Kṛishṇadēva-Mahārāya when the god halts at the garden adjoining <hi rend="italic">Pradhāni</hi> Timmarasar-tōppu. The date of the record <hi rend="bold">Śaka 1442, Mīna, śu, 5, Wednesday, Rōhiṇī</hi> corresponds regularly <hi rend="bold">to 1521, A.D. March 13, Wednesday, ·40, ·89.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śubhamastu <supplied reason="undefined"><g type="ddanda">.</g></supplied> svastiśrī <supplied reason="undefined"><g type="danda">.</g></supplied> śakābdam <num value="1442"><g type="numeral">1000</g> 4 <g type="numeral">100</g> 4 <g type="numeral">10</g> 2</num></hi>- ṉ mel cellāniṉṟa vikkiṟama <hi rend="grantha">samvatsara</hi>ttu minaṉāyaṟṟu <hi rend="grantha">pu</hi>ṟuvapa<hi rend="grantha">kṣa</hi>ttu<hi rend="grantha"> pañca</hi>miyum <hi rend="grantha">budha</hi>vā<hi rend="grantha">ra</hi>mum peṟṟa <hi rend="grantha">rohi</hi>ṇi nāḷ tiruvaraṅkaṉ tiruppati <hi rend="grantha">śrīra</hi>ṅkanārāyaṇa<hi rend="grantha">ji</hi>yarum Aṉaittu kottu tāṉikarum
+<lb n="2"/>Ittiruppati vikkiṟamacoḻaṉ tiruviti teṟkut tiruviti kiḻtuṇṭattil kantāṭai Irām<choice><sic>a</sic><corr>ā</corr></choice>n<hi rend="grantha">uja</hi>yyaṅkār rām<choice><sic>a</sic><corr>ā</corr></choice>ṉu<hi rend="grantha">ja</hi> kūṭattukku kaṟttarāṉa Irāmān<hi rend="grantha">uja</hi>yyaṅkār <hi rend="grantha">śiṣya</hi>r kantāṭai mā<hi rend="grantha">dha</hi>vayyaṅkāṟku poliyūṭṭu cilā<hi rend="grantha">śāsa</hi>nam paṇṇi kuṭuttapaṭi <supplied reason="undefined"><g type="danda">.</g></supplied>
+<lb n="3"/>perumāḷukku tammuṭaiya Upayamāka ciṟappu kaṭṭaḷai paṇṇina Ā<hi rend="grantha">dibrahmā</hi>viṉ tirunāḷ Iraṇṭān tirunāḷil mā<hi rend="grantha">dha</hi>vayyaṅkār tiruttoppu maṇṭapattil Eḻuntaruḷukaiyil ciṟappuk kaṭṭaḷai taḷikai <num value="50">5 <g type="numeral">10</g></num> A<hi rend="grantha">dhirasa</hi>m <num value="300">3 <g type="numeral">100</g></num> vaṭai <num value="300">3 <g type="numeral">100</g></num> poriyamutu <num value="600">6 <g type="numeral">100</g></num> veccamutu kūṉ <num value="50">5 <g type="numeral">10</g></num> Āka Ivva
+<lb n="4" break="no"/>kaikku Amutupaṭi paruppamutu neyyamutu kaṟiyamutu vellam campāram Erikarumpu Aṭaikkāyamutu Ilaiyamutu kaḷva<hi rend="grantha">prasāda</hi> viniyo<hi rend="grantha">gam</hi> parivaṭṭam kaṭṭum vakai Uḷppaṭṭa vakai <hi rend="grantha">śrī</hi> paṇṭārattile viṭṭu naṭattumpaṭikku tām
+<lb n="5"/>poliyūṭṭāka mutaliṭṭa poṉ <num value="40">4 <g type="numeral">10</g></num>— m <hi rend="grantha">pradhā</hi>ni timmara<hi rend="grantha">sa</hi>rtoppu A<hi rend="grantha">śvattha</hi>tī<hi rend="grantha">rttha</hi> tuṟaikku melaittoppu maṇṭapattil <hi rend="grantha">kṛṣṇade</hi>vama<hi rend="grantha">hā</hi>rāyar mācittiruṉāḷ Añcān tiruṉāḷil Eṟi Aruḷukaiyil ciṟappuk kaṭṭaḷai
+<lb n="6"/>taḷikai <num value="50">5 <g type="numeral">10</g></num> Ati <hi rend="grantha">sam <num value="300">3 <g type="numeral">100</g></num></hi> vaṭai <num value="300">3 <g type="numeral">100</g></num> pori Amutu <num value="600">6 <g type="numeral">100</g></num> veccamutu kūṉ <num value="50">5 <g type="numeral">10</g></num>— Āka Ivvakaikku Amutupaṭi paruppamutu neyyamutu kaṟiyamutu campāram Erikarumpu vellam Aṭaikkāyamutu Ilaiyamutu kaḷva<hi rend="grantha">prasāda</hi> viniyo<hi rend="grantha">gam</hi>
+<lb n="7"/>Iḷanir Amutu Uḷppaṭṭa vakaikku poli Ūṭṭāka mutaliṭṭa poṉ <num value="40">4 <g type="numeral">10</g></num> Ākac ciṟappu Iraṇṭukkum poliūṭṭāka Iṟṟaināḷ tāy<note n="369-1">Read tām</note> <hi rend="grantha">śrī</hi>paṇṭārattil mutaliṭṭa poṉ <num value="80">8 <g type="numeral">10</g></num> Intappoṉ Eṇpatiṉ <hi rend="grantha">vṛddhi</hi>kkuc cilavāka
+<lb n="8"/>Intac ciṟappuk kaṭṭaḷaippaṭi <hi rend="grantha">śrī</hi>paṇṭārattilum viṭṭu <hi rend="grantha">Ācandrārkkasthā</hi>yiyāka naṭattak kaṭavutākavum <supplied reason="undefined"><g type="danda">.</g></supplied> <hi rend="grantha">śubhamastu <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 24.373 by <bibl><ptr target="bib:Narasimhaswamy1982_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Narasimhaswamy1982_01"/>
+			<citedRange unit="page">369</citedRange>
+			<citedRange unit="item">373</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

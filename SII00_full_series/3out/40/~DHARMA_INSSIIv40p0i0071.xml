@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 40.71: original edition by K. Munirathnam</title>
+				<title type="alt">No. 71. (A.R. No. B. 49 of 1930.) Dāchēpalle, Palnad Taluk, Guntur District, Andhra Pradesh.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv40p0i0071</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a stone lying in front of the Āṅjañēya temple near the choultry in the village.</p>						
+
+						<p>This is dated Śaka 1711, Saumya, Jyēshṭha, śu. 15.</p>						
+
+						<p>Records the construction of steps to the Nāgulēru (stream) and installation of Subbarāya at Dāchepalli by Pantulavāru, son of Venkanna Pantulu and grandson of Mṛityunjayadīkshita of Harita<hi rend="italic">gōtra.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>Damaged.</p>
+
+<p>
+<lb n="1"/>svasti śrī vijayābhyudaya śālivā <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="2"/>śakavaruṣamulu 1711 Agunēṭi saumya <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="3"/>ma saṁvatsara jēṣṭha śuddha 15 lu dācēpalli 
+<lb n="4"/>haritasa gōtrōdbhavulayina nāgula 
+<lb n="5"/>mṛtyujeyadīkṣitulavāri putrulayi 
+<lb n="6" break="no"/>veṁkannapaṁtulavāri putrulayi 
+<lb n="7"/>paṁtulavāru nāgulēṭiki sōpānālu ga 
+<lb n="8" break="no"/>ṭṭiṁccita <gap reason="lost" quantity="2" unit="character"/> nayulu subbārāya<unclear>ni</unclear> pratiṣṭa 
+<lb n="9" break="no"/>lutma peddalu prītigā yihapara sādhakaṁ 
+<lb n="10" break="no"/>ggā veyiṁccina dharmaśāsanaṁ yiṁdduku saka 
+<lb n="11" break="no"/>la janulu vaccu <unclear>svā</unclear>mulu Abhimānaṁ vuṁ 
+<lb n="12" break="no"/>cci vicāriṁccukovalenū śrī śrī śrī śrī 
+<lb n="13"/>dānapālanayō¨rmadhyē dānāchrē 
+<lb n="14" break="no"/>yōnupālanaṁ <g type="danda">.</g> dānātsva¨rgamavā 
+<lb n="15" break="no"/>pnōti pālanādaccutaṁ padaṁ <g type="ddanda">.</g> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 40.71 by <bibl><ptr target="bib:Munirathnam2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2019_01"/>
+			<citedRange unit="page">70-71</citedRange>
+			<citedRange unit="item">71</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

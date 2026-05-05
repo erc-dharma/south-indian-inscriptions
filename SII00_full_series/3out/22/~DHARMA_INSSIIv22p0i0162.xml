@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.162: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 162. (A.R. No. 162 of 1906) SOUTH ARCOT DISTRICT, TIRUKKŌYILŪR TALUK, ELVĀNĀŚŪR. GRĀMĀRDHANĀTHA TEMPLE—ON THE NORTH WALL OF THE SAME (THIRD) PRĀKĀRA. KAMPAṆA-UḌAIYAR—PRAMĀDI, (KAMPA II)—A.D. 1373-74.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0162</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records a gift of five cows to the temple of Ūrbāgaṅkoṇḍaruḷiya-Nāyanār for the sacred <hi rend="italic">pañchagavya</hi> bath of the god by a certain Kāḷattināthaṉ a son of Kachchiyarāyar (or family ?) of Paruvūr.</p>						
+
+						<p>Close to this is another inscription dated in the cyclic year Śubhakṛit (A.D. 1362-63 ?) which records a gift of two pieces of land measuring together 550 <hi rend="italic">kuḻi</hi> in extent, for a perpetual lamp in the temple, by one Tiruvēgambamuḍaiyān Tirumuḍikkāri of Śīdēvi village adjoining Śīkkāḍu by order of Goppaṇṇa-Uḍaiyar.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrīma</hi>ṉu māmaṇṭalicuraṉ Ari
+<lb n="2" break="no"/>rācavipāṭa pācaikku tappuvarāyar kaṇ
+<lb n="3" break="no"/>ṭa <hi rend="grantha">śrī</hi> kampaṇauṭaiyaṟku tiruvirācciya
+<lb n="4" break="no"/><hi rend="grantha">m</hi> cellāniṉṟa piṟamāti varu<hi rend="grantha">ṣam</hi> Uṭai
+<lb n="5" break="no"/>yār (uṭaiyār) Ūrpākaṅkoṇṭaruḷiya nā
+<lb n="6" break="no"/>yaṉāṟku pañcakevikam Āṭiaruḷa paruvūṟ kacciyarā
+<lb n="7" break="no"/>yar piḷḷaikaḷil kāḷattinātaṉ viṭṭa pacu Iraṇ
+<lb n="8" break="no"/>ṭum kaṉṟu tāyppacu muṉṟum Ākappacu Añ
+<lb n="9" break="no"/>cum cantiṟātittavaraiyum Āṭiaruḷa Itu
+<lb n="10"/>mākecurar <hi rend="grantha">rakṣai</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> (<hi rend="italic">ā <gap reason="lost" quantity="1" unit="character"/> ṟ <gap reason="lost" quantity="1" unit="character"/> ṇo <gap reason="lost" quantity="1" unit="character"/> 162-ā Of 1906</hi>)
+<lb n="1"/>Uṭaiyār Ūrpākaṅkoṇṭaruḷiya nāyaṉāṟku
+<lb n="2"/><hi rend="grantha">śubhakṛt</hi> varu<hi rend="grantha">ṣam</hi> paṅkuṉi mātam <num value="15"><g type="numeral">10</g> 5</num> tiyati koppaṇṇa 
+<lb n="3" break="no"/>uṭaiyar nirupappaṭikku cikkāṭṭuppaṟṟil citeviyil
+<lb n="4"/>vāṇātarāyaṉ Entalil piṟaiuṭaiyāṉ tiruvekam
+<lb n="5" break="no"/>pam Uṭaiyāṉ tirumuṭikkāri kuṭiniṅkāta tiruviḷakku
+<lb n="6" break="no"/>ppuṟa Iṟaiyiliāka viṭṭa tirununtāviḷakku Oṉṟuk<supplied reason="omitted">ku</supplied>
+<lb n="7"/>vāṇātarāyaṉ taṭi Oṉṟu kuḻi <num value="330">3 <g type="numeral">100</g> 3 <g type="numeral">10</g></num>- m piṟaiuṭaiyāṉ
+<lb n="8"/>taṭi Oṉṟu kuḻi <num value="220">2 <g type="numeral">100</g> 2 <g type="numeral">10</g></num>- m vaṭamelai mūlai kiṇaṟum viṭṭe<supplied reason="omitted">ṉ</supplied>
+<lb n="9"/>Itu tirumuṭikkāriyeṉ <hi rend="grantha">panmāheśvara rakṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.162 by <bibl><ptr target="bib:SrinivasaRao1983_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1983_01"/>
+			<citedRange unit="page">132-133</citedRange>
+			<citedRange unit="item">162</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

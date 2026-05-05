@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 40.100: original edition by K. Munirathnam</title>
+				<title type="alt">No. 100. (A.R. No. B. 80 of 1930.) Tērāla, Palnad Taluk, Guntur District, Andhra Pradesh. </title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv40p0i0100</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a slab set up in front of the Siddhēśvara temple in the village.</p>						
+
+						<p>Eastern Chāḷukya: Sarvalōkāśraya Vishṇuvardhana, 5th year.</p>						
+
+						<p>This is dated Bahudhānya, Kārttīka śu. 5, Sunday.</p>						
+
+						<p>Records the gift of 100 <hi rend="italic">gadyāṇas</hi> and 18 <hi rend="italic">puṭṭis</hi> of land to the temple of Siddhēśvara by Kṟomuala Lōkamayya and Jeṭṭimayya of Guṇḍabāḍu. In characters of the 7th century A.D. (Pub: <hi rend="italic">Corpus of Inscriptions in Telangana District,</hi> Part IV, No. 1.)</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<!--<h4>First Face.</h4>-->
+
+<p>
+<lb n="1"/>svasti sa¨rvvalōkaśra 
+<lb n="2" break="no"/>ya śrī viṣṇuva¨rddhana mā 
+<lb n="3" break="no"/>hārājulanu prava[¨rddha]mā 
+<lb n="4" break="no"/>na vijayarājya saṁ 
+<lb n="5" break="no"/>vatsaraṁbuḷaru 
+<lb n="6"/>rājyādi Ēnagu 
+<lb n="7" break="no"/>ṇēṇṭhi bahudhanya ba 
+<lb n="8"/>ṇēṇṭhi kattika māsaṁbu 
+<lb n="9" break="no"/>na suddha pakṣaṁbuna pa 
+<lb n="10" break="no"/>ñcamiyu ghādityavā 
+<lb n="11" break="no"/>raṁbu nāṇḍu siddhīsvara 
+<lb n="12" break="no"/>ṁbuna guṇḍabāḍikṛo 
+<lb n="13" break="no"/>mvala lōkamayya yi 
+<lb n="14" break="no"/>jeṭṭimayyayi vi 
+<lb n="15" break="no"/>ḍicina pasiṇḍi nu 
+<lb n="16" break="no"/>ṟu gadyā<supplied reason="omitted">ṇaṁ</supplied>bulu bra 
+<lb n="17" break="no"/>mpesiṇḍi yicchiṟe 
+</p>
+
+<!--<h4>Second Face.</h4>-->
+
+<p>
+<lb n="18"/>ko <gap reason="lost" quantity="2" unit="character"/> ca <gap reason="lost" quantity="3" unit="character"/> ra 
+<lb n="19"/> <gap reason="lost" quantity="1" unit="character"/> ṟavāli<unclear>ta</unclear>ma 
+<lb n="20" break="no"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="21"/>mi <gap reason="lost" quantity="2" unit="character"/> ṇḍi cēnu 
+<lb n="22"/>padināṟu nimi 
+<lb n="23" break="no"/>di puṭlu yaḍlapā 
+<lb n="24" break="no"/><unclear>ṭi</unclear>ni siddhīsvaraṁ <supplied reason="omitted">bu</supplied> 
+<lb n="25" break="no"/>naku viḍisi nala 
+<lb n="26"/>dīniki Aḍama 
+<lb n="27" break="no"/>yina vāru śrī pa[¨rvva]<supplied reason="omitted">taṁ</supplied> 
+<lb n="28"/>bunu tē<unclear>ṟa</unclear><supplied reason="omitted">ṁ</supplied>bu<unclear>lu</unclear> 
+<lb n="29"/>naḍipinavāru 
+<lb n="30"/><unclear>ta</unclear>ṟamulayaca 
+<lb n="31"/> <gap reason="lost" quantity="5" unit="character"/> koḍuku makali 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 40.100 by <bibl><ptr target="bib:Munirathnam2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2019_01"/>
+			<citedRange unit="page">95-97</citedRange>
+			<citedRange unit="item">100</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

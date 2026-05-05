@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.115: original edition by S. Swaminathan</title>
+				<title type="alt">No. 115. (A.R. No. 115 of 1912.) TIRUVOṞṞIYŪR, SAIDAPET TALUK, CHINGLEPUT DISTRICT. On the west wall, central shrine, Ādhipurīśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0115</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">King: Tribhuvanachakravatti Rājarāja III Year 26, <hi rend="italic">Tula</hi> 23, śu. di. 14 (ba. di. is wrong) <hi rend="italic">Aśvathi</hi> = 1241 A.D. October 20.</hi></p>						
+
+						<p>Records that Vayiraveḷḷāḷaṇ Aḻagiyadēvaṉ Oṟṟiāḻvāṉ <hi rend="italic">alias</hi> Villavarāyan, a native of Vēḷūr, a <hi rend="italic">dēvadāna</hi> village of the temple, donated thirty-two cows, one bull, and two lamp stands in order to burn a perpetual lamp to the deity at Tiruvoṟṟiyūr at Puḻal-nāḍu in Puḻal-koṭṭam (a sub-division of) Jayaṅkoṇḍachōḻa-maṇḍalam.</p>						
+
+						<p>Oṟṟi, the son of Veḍiñjaikoṉ and his brothers Nāgaṉ and Poṉṉaṉ received the above gift and agreed to measure out ninety <hi rend="italic">nāḻi</hi> of ghee per year for burning the lamp.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> tri</hi>puvaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>te
+<lb n="2" break="no"/>varkku yāṇṭu <num value="26">2 <g type="numeral">10</g> 6</num>vatu <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻama
+<lb n="3" break="no"/>ṇṭalattu puḻaṟkoṭṭattu puḻa<supplied reason="omitted">l</supplied>ṉāṭṭu Uṭaiyār tiruv<supplied reason="omitted">o</supplied>
+<lb n="4" break="no"/>ṟṟiyūruṭaiya nāyanāṟku Iṉṉāyanār tevatāṉam peḷur<note n="102-1">Read as veḷur</note>vayiraveḷ
+<lb n="5" break="no"/>ḷāḷaṉ Aḻakiya<hi rend="grantha">d<unclear>e</unclear></hi>vaṉ Oṟṟiāḻvāṉāṉa villavarāyanen ṉāyaṉā<supplied reason="omitted">r</supplied>kku
+<lb n="6"/><unclear>v</unclear>aitta tiruṉuntā viḷakku O<supplied reason="omitted">ṉ</supplied>ṟukku viṭṭa pacu muppattiraṇṭum m <hi rend="grantha">ṛṣabha</hi>m O
+<lb n="7" break="no"/><supplied reason="omitted">ṉ</supplied>ṟum yira<supplied reason="omitted">ṇ</supplied>ṭu nilaikkuttu viḷakku O<supplied reason="omitted">ṉ</supplied>ṟum Ivvāṇṭait tulā nāyiṟṟu A
+<lb n="8" break="no"/>parapa<hi rend="grantha">kṣa</hi>ttu Iru<supplied reason="omitted">pa</supplied>ttu muṉṟāntiyatiyāṉa A<hi rend="grantha">śva</hi>tiyum catu<hi rend="grantha">rddaśi</hi>yum peṟṟa ṉā
+<lb n="9" break="no"/>yiṟṟukkiḻamai nāḷ vaittatu Ippacu muppattiraṇṭum <hi rend="grantha">ṛṣabha</hi>m O
+<lb n="10" break="no"/><supplied reason="omitted">ṉ</supplied>ṟum kaikkoṇṭāṉ veṭiñcaikkoṉ makaṉ Oṟṟiyum Iva<supplied reason="omitted">ṉ</supplied>
+<lb n="11"/>tampi nākaṉum Ivan tampi poṉṉaṉum Immuvom cāvāmu
+<lb n="12" break="no"/>vāp perumāṭākak kaikkoṇṭu Āṇṭu Onṟukku toṇṇūṟ
+<lb n="13" break="no"/>ṟu nāḻi ney ca<supplied reason="omitted">n</supplied><hi rend="grantha">trādi</hi>ttavarai Aḷakkak kaṭavom <hi rend="grantha">pammāhe</hi>
+<lb n="14" break="no"/><hi rend="grantha">śvararakṣaiḥ—</hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.115 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">101-102</citedRange>
+			<citedRange unit="item">115</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

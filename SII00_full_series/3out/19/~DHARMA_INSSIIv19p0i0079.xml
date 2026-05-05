@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.79: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 79. (A.R. No. 40 of 1933.) PĀLŪR, CHINGLEPUT TALUK, CHINGLEPUT DISTRICT. ON A STONE PUT UP ACROSS THE WELL IN THE PATAṄGĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0079</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The top and the bottom of the stone are both built in. This records some provision made for burning a perpetual lamp in the temple of Mahādēvar Tiruppanaṅgāḍ-Uḍaiyār at Perumpālaiyūr in Perumpālaiyūr-nāḍu, a sub-division of Ūṛṛukkāṭṭu-kōṭṭam, by <hi rend="bold">Kāḍavi [daughter of] Tiruppālaiyūr-Kiḻavaṉ</hi> a resident of the village.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="2"/>para<supplied reason="omitted">ke</supplied>caripa
+<lb n="3" break="no"/><hi rend="grantha">nma</hi>ṟki yā
+<lb n="4" break="no"/>ṇṭu 3- Ā
+<lb n="5" break="no"/>vatu Ū
+<lb n="6" break="no"/>ṟṟukkāṭṭu
+<lb n="7" break="no"/>kkoṭṭa
+<lb n="8" break="no"/>ttup
+<lb n="9"/>perumpā
+<lb n="10" break="no"/>laiyūrnāṭṭu
+<lb n="11" break="no"/>p perumpā
+<lb n="12" break="no"/>laiyūr <hi rend="grantha">mā</hi>
+<lb n="13" break="no"/><hi rend="grantha">hāde</hi>var
+<lb n="14"/>tiruppaṉaṅ
+<lb n="15" break="no"/>kāṭuṭaiyār
+<lb n="16" break="no"/>kku Ivvūr
+<lb n="17" break="no"/>t tiruppālai
+<lb n="18" break="no"/>yūr kiḻavan
+<lb n="19"/><unclear>makaḷ</unclear> kāṭali
+<lb n="20"/>v<unclear>aitta</unclear> nan
+<lb n="21" break="no"/>tāvi[ ḷa<hi rend="grantha">kk</hi>u]
+<lb n="22"/><ce>Next few lines built in</ce>
+<lb n="23"/>ñ ca
+<lb n="24" break="no"/>nti
+<lb n="25" break="no"/>rā
+<lb n="26" break="no"/>ti
+<lb n="27" break="no"/>t
+<lb n="28" break="no"/>ta
+<lb n="29" break="no"/>ru
+<lb n="30" break="no"/>ḷ
+<lb n="31" break="no"/>ḷa
+<lb n="32" break="no"/>ṉa
+<lb n="33" break="no"/>vu
+<lb n="34" break="no"/><unclear>m</unclear>
+<lb n="35"/>vai
+<lb n="36" break="no"/>tta
+<lb n="37" break="no"/><unclear>tu</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.79 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">41</citedRange>
+			<citedRange unit="item">79</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

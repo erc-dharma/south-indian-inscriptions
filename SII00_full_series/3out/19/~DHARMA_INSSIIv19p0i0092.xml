@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.92: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 92. (A.R. No. 213 of 1907.) ON THE SAME WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0092</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The inscription is damaged and incomplete. It gives a list of the presents of gold made to the temple of Mūlasthānattu-Perumānaḍigaḷ at [Tiruvi]ḍaimarudil in Tiraimūr-nāḍu on the south bank of the river by several individual donors, each specifying the purpose of the gift, thus; a gift of 22 <hi rend="italic">kaḻañju</hi> and odd of gold made in company with others by <hi rend="bold">Madhurāntaka-Mūvēndavēḷāṉ</hi> the <hi rend="italic">adhikāri</hi> administering the <hi rend="italic">śrīkāryam</hi> of the temple, which was utilised for (the purchase of) some vessels for the sacred bath of the deity: a gift of 20 <hi rend="italic">kaḻañju</hi> by a lady named Guṇavaḍigaḷ for burning two perpetual lamps; a gift of 10 <hi rend="italic">kaḻañju</hi> by one <hi rend="bold">Tiruviḍaippichchi</hi> for two day-lamps; a gift of 25 <hi rend="italic">kaḻañju</hi> by <hi rend="bold">Vīramādēviyār</hi> (mentioned in No. 86 above ?) for a persetual lamp: and 20 <hi rend="italic">kaḻañju</hi> by another lady named <hi rend="bold">Oṟṟiyūr</hi>••••••••• for a perpetual lamp. Items 2 to 4 were entrusted to the owners of an oil-mill of the place, the <hi rend="italic">sabhā</hi> of Tiraimūr and the <hi rend="italic">nagarattār</hi> of Tiruviḍaimarudil.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="3" unit="character"/> kopparakecaripa<hi rend="grantha">nma</hi>ṟki yāṇṭu 4<g type="dash"/>Āvatu teṉkarai tiraimurnāṭṭu <unclear>tiruvi</unclear>ṭai marutil <hi rend="grantha"><unclear>śrīmūlasthā</unclear></hi>nattu perumāṉaṭikaḷ teva <gap reason="lost" quantity="4" unit="character"/> tiraimur <hi rend="grantha">sabhai</hi>yārum tiruviṭaima<unclear>rutil</unclear> <gap reason="lost" quantity="5" unit="character"/> rutuṭaiyār <hi rend="grantha">śrī</hi>kā<hi rend="grantha">rya</hi>m Ārāykiṉṟa Atikāri kaḷ maturāntaka muventaveḷār<supplied reason="omitted">k</supplied>kāy Ittevar <hi rend="grantha">śrī</hi>kā<hi rend="grantha">rya</hi>
+<lb n="2" break="no"/> <gap reason="lost" quantity="3" unit="character"/> <unclear>mu</unclear>ṭaiyāṉ paṭṭaṉ kaṇṇaṉāṉa Iṅkaṇāṭṭup pallavaraiyaṉ ta <gap reason="lost" quantity="9" unit="character"/> ku Ila<hi rend="grantha">kṣa</hi>ṇattāl pokaṭava nākaṉpāṭiuṭaiyāṉ centaṉ taṭ<unclear>ai</unclear>yaṉ <gap reason="lost" quantity="9" unit="character"/> taṉā<unclear>ka</unclear>ṉum ceta takavari payi <gap reason="lost" quantity="2" unit="character"/> kaiccuṭar Umaiyāḷ peraṉum <hi rend="grantha">bha</hi>ttacaṉaṅkaḷ ciṟappu Iṭṭa poṟpūvuñ ciṟukka <gap reason="lost" quantity="4" unit="character"/> ya
+<lb n="3" break="no"/> <gap reason="lost" quantity="3" unit="character"/> <unclear>k</unclear><hi rend="grantha">ai</hi>yālum poṉ Irupattu Irukaḻañcey Eṭṭumañcāṭiyuṅ <gap reason="lost" quantity="4" unit="character"/> poṉ ko<unclear>ṇṭu tiru</unclear>viṭaima<unclear>ru</unclear>til Āḷvāṉey <hi rend="grantha">Abhiṣe <gap reason="lost" quantity="2" unit="character"/> </hi> ceyya <gap reason="lost" quantity="7" unit="character"/> yāḷi <gap reason="lost" quantity="9" unit="character"/> Aṟukaḻañcum <gap reason="lost" quantity="9" unit="character"/> ṇṭikai Oṉṟiṉāl poṉ patiṉ kaḻañcum I<unclear>n</unclear>nāḷ <gap reason="lost" quantity="18" unit="character"/> ceṭṭi <unclear>I</unclear>kkuṇṭikaiyil
+<lb n="4"/> <gap reason="lost" quantity="3" unit="character"/> ṉār makaḷ kuṇavaṭikaḷ Oru nontāviḷakkiṉukku vaicca poṉ <gap reason="lost" quantity="5" unit="character"/> Ippoṉ Irupatiṉ kaḻaiñcum koṇṭu tiraimur cavaiyā raṭṭakkaṭava Eṇṇai Uḻakkiṉāl viḷakku <gap reason="lost" quantity="7" unit="character"/> ppomāṉār nantāviḷakkiṉṉukku <gap reason="lost" quantity="7" unit="character"/> parut <gap reason="lost" quantity="4" unit="character"/> ttār koṇṭa poṉ <hi rend="grantha"><num value="10"><g type="numeral">10</g></num>�2</hi>m Āka <gap reason="lost" quantity="4" unit="character"/> ṇṭu ti <gap reason="lost" quantity="4" unit="character"/> ttārumāy nicati Uḻakkāka Aṭṭakkaṭava Eṇṇai U <gap reason="lost" quantity="4" unit="character"/> l viḷakkukku <hi rend="grantha">4�</hi> <gap reason="lost" quantity="4" unit="character"/> perumāṉār <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="3" unit="character"/> viṭai marutilc cekkālaicceri Irupatiṉkaḻaiñcu poṉ kuṭut <gap reason="lost" quantity="4" unit="character"/> mākac ce kiṭṭu kuṭuttu nicatam Uḻakkāka Aṭṭakkaṭava Eṇṇaiyāl nontāviḷakku <hi rend="grantha">1 �</hi> tiruviṭaippicciyār pakalviḷakkiṉukku vaicca poṉ <gap reason="lost" quantity="5" unit="character"/> ṉil tiraimurac cavaiyāk koṇṭa poṉ <hi rend="grantha">5�</hi> Ippoṉ ṉaiṅkaḻañcum koṇṭu <gap reason="lost" quantity="4" unit="character"/> ṇṇai Oru piṭiyum Itaṉil tiruviṭaimarutil nakarattār koṇṭa poṉ <supplied reason="omitted">ṉai</supplied>ṅkaḻaiñcu Ippoṉ<hi rend="grantha">5�</hi> <gap reason="lost" quantity="5" unit="character"/> r Aṭṭakkaṭava Eṇṇai <gap reason="lost" quantity="3" unit="character"/> cum Oru piṭiyummāka Ira
+<lb n="6" break="no"/> <gap reason="lost" quantity="5" unit="character"/> pakalviḷakku <hi rend="grantha">1—�2</hi>m viramāteviyār nontāviḷakkiṉukku <gap reason="lost" quantity="5" unit="character"/> poṉ <hi rend="grantha"><num value="25">2 <g type="numeral">10</g> 5</num>�</hi> Ippo<supplied reason="omitted">ṉ</supplied> ṉirupattai ṅkaḻaiñcum koṇṭu ti<unclear>ruviṭaima</unclear>rutil nakarattār Aṭṭakkaṭava Eṇṇai nicatam <gap reason="lost" quantity="9" unit="character"/> tevaṉār makaḷ Oṟṟiyūr ppe <gap reason="lost" quantity="7" unit="character"/> tiruviḷakkiṉukku vai<supplied reason="omitted">c</supplied>ca poṉ <hi rend="grantha"><num value="20">2 <g type="numeral">10</g></num>�</hi> Ippoṉ Irupatiṉkaḻaiñcum tiruviṭai <gap reason="lost" quantity="5" unit="character"/> ṭakkaṭava Eṇṇai <gap reason="lost" quantity="4" unit="character"/> kiṉāl viḷakku 2m<note n="47-1">The inscription stops here. On the tiers of the same wall are found three fragmentary inscriptions the connection of which with the above is not clear.</note>
+</p>
+
+<!--<h4>First fragment (on the upper tier)</h4>-->
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="9" unit="character"/> viṭaimaru <gap reason="lost" quantity="5" unit="character"/> Uḷḷiṭṭa <gap reason="lost" quantity="4" unit="character"/> <unclear>Ūro</unclear>m O <gap reason="lost" quantity="4" unit="character"/> ṉṟa <gap reason="lost" quantity="7" unit="character"/> yili mutalum paḻaviṟaiyum tavirntu <hi rend="grantha">Arcca <gap reason="lost" quantity="7" unit="character"/> </hi> coḻamuventaveḷānukku <hi rend="grantha">ja<unclear>nma</unclear></hi>k kāṇiyāy Ivvūr <gap reason="lost" quantity="4" unit="character"/> vaṇṭuvarai <gap reason="lost" quantity="5" unit="character"/> paṅkil nila <gap reason="lost" quantity="3" unit="character"/> nūṟṟuk <gap reason="lost" quantity="4" unit="character"/> ṉal Iv <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="9" unit="character"/> puravuvari <gap reason="lost" quantity="9" unit="character"/> cempiyaṉ Utta<unclear>ra mantiri</unclear>yum <unclear>mi</unclear>vvūr kiḻavaṉnaṭikaḷ na<unclear>nti nampi ya</unclear>raicūruṭaiyāṉ <gap reason="lost" quantity="9" unit="character"/> luṭaiyāṉ <unclear>ceū</unclear>raṉ kaṟpakamāṉa <gap reason="lost" quantity="4" unit="character"/> ṇamuventaveḷān ma <gap reason="lost" quantity="2" unit="character"/> kke<unclear>ḷ</unclear>viyālum keṭṭu nam Olai Eḻutum Amaṇāṉūṭaiyāṉ Uttaramantari paṭṭālakam Eḻuttinālume Olaināyaka<unclear>ṉ</unclear> cikkaruṭai <unclear>yāṉ na</unclear>kkaṉ kaṇiccaṉ nāṉa coḻamuventaveḷā<unclear>ṉ</unclear> <gap reason="lost" quantity="6" unit="character"/> mpakka <gap reason="lost" quantity="9" unit="character"/> leṭutta <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="3"/> <gap reason="lost" quantity="3" unit="character"/> ṟṟukkala nellu Eṇṇā<unclear>ḻi</unclear>ka <gap reason="lost" quantity="9" unit="character"/> nāṉ Iṟaiyili <gap reason="lost" quantity="3" unit="character"/> variyil Iṭṭuk kuṭutta <unclear>taṅkaḷ</unclear> <gap reason="lost" quantity="5" unit="character"/> tu piṭākai naṭappippatāka nakkaṉkuṭi kiḻavaṉ ka<unclear>ṇṇuṭaip perumān</unclear>āṉa Utaiyamārttāṇṭa muventaveḷāṉaiyum puravuvari Iṟaiyāṉkuṭi <gap reason="lost" quantity="8" unit="character"/> maka<unclear>ṉ</unclear> taṇṭi pūtiyāṉa cempiyaṉ Uttaramantiri <gap reason="lost" quantity="9" unit="character"/> timaṅkalattu kuravaceri ke <gap reason="lost" quantity="3" unit="character"/> ntapurapaṭṭaṉaiyum <gap reason="lost" quantity="5" unit="character"/> ntūr <gap reason="lost" quantity="3" unit="character"/> tāṅkaḷum Ivarkaḷḷoṭu niṉṟu <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+<!--<h4>Second fragment (middle tier). [in different and thinner script]</h4>-->
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="2" unit="character"/> Immuṭṭiyālum va <gap reason="lost" quantity="9" unit="character"/> paṅku 6 Ivveṇṇai paṅku Āṟi <gap reason="lost" quantity="7" unit="character"/> makaṉ nakkaṉ Ila <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="2" unit="character"/> li Oru paṅkā l <gap reason="lost" quantity="2" unit="character"/> Aṭṭakkaṭava Eṇṇai tiṅkaḷ nāḻi <gap reason="lost" quantity="9" unit="character"/> makaṉ na<unclear>kkaṉāṉa</unclear> <gap reason="lost" quantity="4" unit="character"/> likku <gap reason="lost" quantity="9" unit="character"/> kkāli Oru paṅku <gap reason="lost" quantity="6" unit="character"/> ṇṭu koṇṭu tiṅkaḷ<unclear>ā la</unclear>ṭṭak kaṭava Eṇṇai nāḻiyum <unclear>mi</unclear>ttaḷit te
+<lb n="3" break="no"/> <gap reason="lost" quantity="4" unit="character"/> Aṭṭakkaṭava Eṇṇai tiṅkaḷ nāḻiyum <gap reason="lost" quantity="9" unit="character"/> ttaḷi tevaṉār makaḷ nakkaṉācci naṅkai<unclear>āṉa Iraṇ</unclear>ṭāyirat talaikkoliyār mā
+</p>
+
+<!--<h4>Third fragment (lower tier).</h4>-->
+
+<p>
+<lb n="1" break="no"/><hi rend="grantha">svasti <gap reason="lost" quantity="9" unit="character"/> </hi> paramācā<hi rend="grantha">rya</hi>ṉ kāṭaṉ paṭṭaṉ tiruviṭaimarutuṭai <gap reason="lost" quantity="5" unit="character"/> tāviḷakkukku vaitta poṉ patiṉaiṅkaḻañcu Ippoṉ
+<lb n="2"/>koṇṭu <gap reason="lost" quantity="9" unit="character"/> yāka Aṭṭakkaṭava neyyāl <unclear>nontāviḷak</unclear>ku Oṉṟu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.92 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">46-48</citedRange>
+			<citedRange unit="item">92</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

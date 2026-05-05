@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.732: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 732. (A.R. No. 675 of 1904.) TIRUMULLAIVĀYAL, SAIDAPET TALUK, CHINGLEPUT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0732</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north wall of the central shrine in Māśilāmaṇīśvara temple.</p>						
+
+						<p>Harihara II. 1388 A.D.</p>						
+
+						<p>The details of date, <hi rend="italic">viz.</hi>, Prabhava, Makara śu. 5, Monday, Aṉiḻam are irregular as the combination of the <hi rend="italic">paksha, tithi</hi> and the star are impossible in the month of Makara. The cyclic year Prabhava fell in Śaka 1309.</p>						
+
+						<p>This inscription records the gift of 400 <hi rend="italic">kuḻi</hi> of land made tax-free by the inhabitants of Ambattūr in Ambattūr-nāḍu to the deity Tirumullaivāyal-uḍaiya-Nāyiṉār, at Kāṉappeṟūr-nāḍu, in Vikkiṟamaśōḻa-vaḷanāḍu <hi rend="italic">alias</hi> Puḻaṟ-kōṭṭam, in Jayaṅgoṇḍaśōḻamaṇḍalam for the conduct of hunting festivals on saṅkrama days (<hi rend="italic">Saṅkramappāḍivēṭṭai</hi>,) taking out the deity to the Ulaguyyakkoṇḍāṉ-ttiruttōppu.</p>						
+
+						<p>The record also mentions the measuring rod <hi rend="italic">muppattiraṇḍaḍikkōl.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīman mahā</hi>maṇṭalī<hi rend="grantha">śvara hari</hi>yarāyavi<hi rend="grantha">bhā</hi>ṭa <hi rend="grantha">bhāṣai</hi>kkut tappu Irāyara<unclear>ka</unclear>ṇṭa <hi rend="grantha">śrī</hi>vi<hi rend="grantha">rapra</hi>tāpa <hi rend="grantha">hari</hi>yarāya ma<hi rend="grantha">hā</hi>rāyaṟku cellāniṉṟa
+<lb n="2"/><hi rend="grantha">prabha</hi>va<hi rend="grantha"> vatsa</hi>rattu makaranāyaṟṟu pū<hi rend="grantha">rvva</hi>pa<hi rend="grantha">kṣa</hi>ttu tiṅkaḷ kiḻamaiyum pañcamiyum peṟṟa Aṉiḻattu nāḷ <hi rend="grantha">ja</hi>yaṅkoṇṭa coḻamaṇṭalattu puḻaṟkoṭṭa
+<lb n="3" break="no"/>m Āṉa vikkiṟamacoḻavaḷanāṭṭu kāṉappeṟūr nāṭṭu Uṭaiyār tirumullaivāyal Uṭaiya nayināṟku Immaṇṭalattu Ikkoṭṭattu Ampattūr nā
+<lb n="4" break="no"/>ṭṭu Ampattūr vallaṅkiḻāṉ coḻappallavataraiy(ā)rkaḷom Uṭaiyār tirumullaivāyal Uṭaiya nāyiṉār caṅkṟamap pāṭiveṭṭaikku Eṅka
+<lb n="5" break="no"/>ḷūril tiruvitiyum Eḻuntaruḷi Ulakuyyak koṇṭāṉ tiruttop<unclear>pil Eṟi</unclear>aruḷukai yil maṇṭapak kuṟ<unclear>aivaṟuppu</unclear>kku Eṅkaḷ Ūril y<unclear>e</unclear>rietir vara<unclear>mpi</unclear>le A<unclear>manippa</unclear>
+<lb n="6"/>ttil Ellaikku kiḻakku Ellai Ācaiyile peraḷavukolāl Inta Upaiyattukku Iṟaiyili māṉya(m)māka viṭṭa<unclear>tu</unclear> kuḻi <num value="400">4 <g type="numeral">100</g></num> Ikkuḻi nāṉūṟum muppattiraṇṭu Aṭikkolāl kai
+<lb n="7" break="no"/>kkoṇṭu maṇṭapakkuṟaiva<unclear>ṟu</unclear>ppāl Uḷḷatu <hi rend="grantha">śrī</hi>paṇṭārattile naṭatti koḷḷak kaṭavarka ḷākavum Inta nilattukku Aṟunir perunīr kūṭai Iṟaittukoḷḷavum
+<lb n="8"/>tīṇir<note n="350-1">Read ‘taṇṇīr’•</note>Uḷḷa Iṭattile kuṭalai turavu Iṭṭu Iṟaittukkoḷḷakkaṭavarkaḷākavum Ippaṭikku tirunāmattilkkāṇi Iṟaiyilimāṉ<unclear>ya</unclear>māka <hi rend="grantha">candrāditya</hi>varai celvatāka cilār<unclear>e</unclear>
+<lb n="9" break="no"/>kai paṇṇik kuṭuttom Uṭaiyār tirumu<supplied reason="omitted">l</supplied>laivāyal Uṭaiya nāyiṉāṟku Ampattūril Ūravarom<g type="pc"/> Ippaṭikku Ivai coḻapallavaraiyarkaḷ kotai Āḻvār Eḻuttu
+<lb n="10"/>Ivai Āṇṭār Eḻuttu Ivai veṅkaṭavar Eḻuttu Ivai Aruḷāḷa nātar Eḻuttu Ivai tirumaṅkai Āḻvār Eḻuttu <g type="pc"/> Ivarkaḷ colla cilārekai paṇṇina<supplied reason="omitted">m</supplied>aikku
+<lb n="11"/>perumuḷaiūr Uṭaiyāṉ vāṉavar Īcar Eḻuttu 2 In=ta Upayattukku Akitam paṇṇi navarkaḷ keṅkai karaiyil kapilaiyai koṉṟa pāvattile poka kaṭavarkaḷ<unclear>ā</unclear>
+<lb n="12" break="no"/>kavum <hi rend="grantha">2 panmāheśvararakṣai <g type="pc"/></hi> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.732 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">350</citedRange>
+			<citedRange unit="item">732</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

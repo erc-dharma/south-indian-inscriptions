@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.293: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 293. (A.R. No. B 399 of 1940-41.) Penikalapāḍu, Jammalamaḍugu Taluk, Cuddapah District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0293</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab built in to the platform, near the shrine of Rāma.</p>						
+
+						<p>This is dated in the cyclic year <hi rend="bold">Nandana, Vaiśakha ba. 5, Sunday.</hi></p>						
+
+						<p>It registers the endownment of a trough <hi rend="italic">(gāḍi)</hi> at Penikalapāḍu by the six sons (names are given) of Tippireḍḍi of Nandavaram, for the merit of their parents. In characters of 17th century A.D.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<!--<h4>First Face.</h4>-->
+
+<p>
+<lb n="1"/>naṁdana saṁvvatsara 
+<lb n="2"/>vayiśākha ba 5 A 
+<lb n="3" break="no"/>penukalapāṁṭi 
+<lb n="4"/>nu naṁdavaraṁ tippireḍḍi koḍukulu kasa 
+<lb n="6" break="no"/>vana pedatippana yeṟa 
+</p>
+
+<!--<h4>Second Face.</h4>-->
+
+<p>
+<lb n="7" break="no"/>dippana nala 
+<lb n="8"/>nāgana cinatippa 
+<lb n="9" break="no"/>na cinanāgana ja 
+<lb n="10" break="no"/>nan tama taṁḍri 
+<lb n="11"/>tippireḍiki tama 
+<lb n="12"/>talli tippasānki 
+<lb n="13" break="no"/>ṁ puṇyamu 
+<lb n="14"/>gāṁ beṭiṁci 
+<lb n="15" break="no"/>na daṁ¨rmmagāḍi 
+<lb n="16"/>maṁgaḷama 
+<lb n="17" break="no"/>hā śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+<!--<h4>Third Face.</h4>-->
+
+<p>
+<lb n="18"/>svadattā dvigu 
+<lb n="19" break="no"/>ṇaṁ puṇyaṁ 
+<lb n="20"/>paradattānupāla 
+<lb n="21" break="no"/>naṁ paradattāpa 
+<lb n="22" break="no"/>hārēṇa sva 
+<lb n="23" break="no"/>dattaṁ niṣphalaṁ 
+<lb n="24"/>bhavēt <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.293 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">235-236</citedRange>
+			<citedRange unit="item">293</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

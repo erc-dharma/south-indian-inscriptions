@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 24.190: original edition by H. K. Narasimhaswamy</title>
+				<title type="alt">No. 190. (A.R. No. 367 of 1953-54.) KOṬṬĀRAM, INNER WALL OF THE STORE-ROOM.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv24p0i0190</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The inscription is in Sanskrit verse written in Grantha and Tamil. Registers a gift of the village MuṇombUTTi <hi rend="italic">alias</hi> ŚrIragganallUr in Paṭṭaiya-nāḍu (mentioned as Maṇōmaṇi in PaṇTarāshTra in the Sanskrit verse) to god Ragganātha by Nallasidharasa <hi rend="italic">alias</hi> Madhurāntaka Pottappich-Chōḷa as <hi rend="italic">tiruviḍaiyāTTam</hi> in Śaka 1126 (<hi rend="italic">rasa-kara-śaśi-bhU</hi> 1204-5 A.D.) The genealogy of the donor is delineated as follows in the Sanskrit verse: ŚrIkānta (i.e. Vishṇu), (from him) Kamalāsana (i.e. Brahma), (from him) the Sun, (then) Manu, (then) RAghava, (in their lineage) Kalikāla-Chōḷa, and in his lineage Dāya-Bhīma, his son Petta; to him Eṟa-Siddhi, and then Tammu-Siddhi (the donor), the younger brother of Manma-Siddhi, born of ŚrIdēvī to Eṟa-Siddhi. At the end of the record it is stated that (a copy of) the record is to be engraved at the entrance into the courtyard <hi rend="italic">(tirumuṟṟam)</hi> of Tiruppāṟkaḍal (i.e. the temple of Vishṇu) at Nellūr.<note n="212-1">There is an exact copy of this inscription in the Raṅganāyakulu Temple at Nellore (<hi rend="italic">N.D.I.</hi> Nellore, No. 75.)</note> </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:grantha maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrīḥ <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrī kāntaḥ kamalāsanastimirabhiddēvō manū rāghavō</hi>
+<lb n="2"/><hi rend="grantha">yatrā<unclear>dy</unclear>āḥ kalikālacōḷanṛpatirvviśvakṣitiśōpyatha <supplied reason="undefined"><g type="danda">.</g></supplied> tadvamśya<unclear>ḥ</unclear>kila dā</hi>
+<lb n="3" break="no"/><hi rend="grantha">yabhīmanṛpatistannandanō pēttabhūn<choice><sic>a</sic><corr>ā</corr></choice>thastajjani rē</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṟa</seg><hi rend="grantha">siddhirajani śrītammu</hi>
+<lb n="4" break="no"/><hi rend="grantha">siddhistataḥ <supplied reason="undefined"><g type="ddanda">.</g></supplied> § svastiśrī śśākavarṣē rasakara śaśibhūsammitē tammusiddhikṣō</hi>
+<lb n="5" break="no"/><hi rend="grantha">ṇīndrō sāndrakirtti ssavitṛ kulavibhurmmanmasiddhānujanmā <supplied reason="undefined"><g type="danda">.</g></supplied> śrīdēvyāmē</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṟa</seg> <hi rend="grantha">siddhēru</hi>
+<lb n="6"/><hi rend="grantha">dita</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">uru</seg><hi rend="grantha">matamṇōmaṇim paṇṭarāṣṭrē grāmam śrīraṅganallūriti punarabhidhandatta</hi>
+<lb n="7"/><hi rend="grantha">vānnraṅgadhāmmē <supplied reason="undefined"><g type="ddanda">.</g></supplied> §</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">maturāntakappottappiccoḻaṉāṉa nalla</seg><hi rend="grantha">siddhara</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">can ci</seg>
+<lb n="8" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">raṅkanātaṟkku tiruviṭaiyāṭṭamāka viṭṭa paṭṭaiyanāṭṭu muṇompūṭṭiyāna ciraṅ</seg>
+<lb n="9" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">kanallūr Ittaṉmattai Iṟakkiṉāruṇṭākil kaṅkaik karaiyil nūṟāyiram ko</seg><hi rend="grantha">brāhmaṇa</hi>
+<lb n="10" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">rai vatitta pāpam koḷvān Ippaṭikku nellūril tiruppāṟkaṭal tirumuṟṟattu</seg>
+<lb n="11"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">tiruvācalile kalveṭṭu<unclear>ka</unclear></seg>
+</p>
+
+<p><hi rend="bold">PĀṆḌYAS.</hi></p>
+
+<p><hi rend="bold">MĀNĀBHARAṆA.</hi></p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 24.190 by <bibl><ptr target="bib:Narasimhaswamy1982_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Narasimhaswamy1982_01"/>
+			<citedRange unit="page">212-213</citedRange>
+			<citedRange unit="item">190</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.351: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 351. (A.R. No. 105-A of 1904.) ON A SLAB SET UP ON THE NORTH SIDE OF THE MALE-MALLAPPA TEMPLE AT BAGALI, SAME TALUK AND DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0351</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The record is dated in the year <hi rend="bold">Nandana, Kārtika, śu. 5 Sōmavāra</hi> in the reign of the Hoysaḷa king <hi rend="bold">Vīra-Narasiṁha (III).</hi> If panchamī is a mistake for paurṇamī the date would correspond to <hi rend="bold">A.D. 1292 October 27</hi> Monday. The <hi rend="italic">Heggaḍe</hi> <hi rend="bold">Chandayya,</hi> son of <hi rend="bold">Beṭṭiya-Nāyaka,</hi> who was the <hi rend="italic">Haṟekāra</hi> of <hi rend="bold">Moguvāḍa-Mācharasa</hi> made a gift of some garden land for the service of the god Nīlēśvaradēva.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrīmatu hoysaḷaśrīvīranārasiṁhadēvavarśada naṁda
+<lb n="2" break="no"/>nasaṁvatsarada kārtika sudda paṁchami sōmavāradaṁdu śrīmatu ha
+<lb n="3" break="no"/>riścaṁdradattiya mahāgrahāraṁ bāguḷiya nīlagiryya nīlēśvara
+<lb n="4" break="no"/>dēvargge moguvāḍamācarasana haṟekāṟa beṭiyanayakana maga
+<lb n="5" break="no"/>nu heggaḍe caṁdayyanu Ā dēvara Aṁgabhōgaraṁgabhōgakke beḷḷeyakaṭṭada tanna
+<lb n="6"/>tōṭagaṭina kaṁbha 100 vaṁ Ā bāguḷiya Aśēṣamahājanaṁgaḷa sa
+<lb n="7" break="no"/>ṁnidhiyalu dhārāpūrvakavaṁ māḍidanu <g type="ddanda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.351 by <bibl><ptr target="bib:Shama+Rao1939_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shama+Rao1939_01"/>
+			<citedRange unit="page">372</citedRange>
+			<citedRange unit="item">351</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

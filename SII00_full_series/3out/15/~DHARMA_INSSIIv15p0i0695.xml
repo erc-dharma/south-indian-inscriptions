@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 15.695: original edition by P. B. Desai, Dines Chandra Sircar and G. S. Gai</title>
+				<title type="alt">No. 695. (B.K. No. 92 of 1926-27.) MUḶGUND, GADAG TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv15p0i0695</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a pillar in the Pārśvanātha temple.</p>						
+
+						<p>Circa 16th century.</p>						
+
+						<p>It states that the Jaina preceptor Sahasrakīrti, disciple of Lalitakīrti, of <hi rend="italic">Desigaṇa, Pustaka-gachchha</hi> and <hi rend="italic">Hanasōge-anvaya,</hi> stayed unshaken inside the Pārśvanātha Jinālaya which was set on fire by the Mohammadans and was burnt to death. He thus vindicated the greatness of the Jaina faith.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>śrīmatpharamagaṁbhīraḥ syādvādāmēphalāṁchanaṁ jīyā
+<lb n="2" break="no"/>trailōkyanāthasya śāsanaṁ jinaśāsanaṁ<note n="433-1">These two lines are engraved in ṇāgari characters.</note>
+<lb n="3"/>siḍilaśrī jinapā¨rśvanāthana mahā
+<lb n="4" break="no"/>caityālayaṁ du[¨r*]mmukha¨rkkaḍumū¨rkkha¨rtturuka
+<lb n="5" break="no"/>¨rssuḍalke tolegaḷkaṁbhaṁgaḷuṁ bhittigaḷke<unclear>ḷa</unclear>ya
+<lb n="6" break="no"/>lkaṁḍu suvajradaṁtkabalupaṁtuṁ tāḷdiralma
+<lb n="7" break="no"/>ḍidaṁ poḍavīkhyāta sahasrakī¨rttiyatipaṁ dēśīga
+<lb n="8" break="no"/>ṇāgrēsaraṁ <g type="ddanda">.</g> 1 <g type="ddanda">.</g> hanasōgānvayajāta pustaka
+<lb n="9" break="no"/>mahāgacchēśvaraṁ satkrusāvanividvajjanaka
+<lb n="10" break="no"/>lpabhūjanabhayaṁ dēśīgaṇāṁbhōdhiva
+<lb n="11" break="no"/>¨rddhanacaṁdraṁ yatiśēkharaṁ lalitakī¨rttyā
+<lb n="12" break="no"/>cā¨ryyasaṁnaṁdanaṁ vinayāṁbōdhi saha
+<lb n="13" break="no"/>srakī¨rttiyatipaṁ mārīcapaṁcānanaṁ <g type="ddanda">.</g> 2 <g type="ddanda">.</g>
+<lb n="14"/><unclear>nala</unclear>viṁ śrījinadha¨rmmamaṁ bhuvanadoḷpratī
+<lb n="15" break="no"/>tiyaṁ māḍi ni¨rmmaḷacāritranivāsanāgi<note n="433-2">The inscription is incomplete.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 15.695 by <bibl><ptr target="bib:Desai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Desai1964_01"/>
+			<citedRange unit="page">433</citedRange>
+			<citedRange unit="item">695</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

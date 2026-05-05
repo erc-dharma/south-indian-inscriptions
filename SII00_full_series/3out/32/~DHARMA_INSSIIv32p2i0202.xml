@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 32, part 2, no. 202: original edition by S. Swaminathan</title>
+				<title type="alt">No. 202. (A.R. No. 369 of 1917.) TIRUVĀṆḌĀRKŌYIL, PONDICHERRY STATE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv32p2i0202</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south wall, <hi rend="italic">ardhamaṇḍapa</hi> and east wall, central shrine, Pañchanadīśvara temple.</p>						
+
+						<p><hi rend="bold">Year 16: 987 A.D.</hi></p>						
+
+						<p>A portion of this inscription was copied in 1917. Recently the other portion also came to light and now the full text of the inscription is available.</p>						
+
+						<p>It records that an individual, Bhāradvāja Śāttan Nīlagrīvan of Śrī Nārāyaṇachchēri <hi rend="italic">alias</hi> Śāttamaṅgalam in Tribhuvanamahādēvi-chaturvēdimaṅgalam, a <hi rend="italic">brahmadēyam</hi> on the northern bank, made a gift of 90 sheep for burning a perpetual lamp to the god Tiruvāṟai-uḍaiya Paramasvāmi of the <hi rend="italic">ūr</hi> (Śāttamaṅgalam) in the 25th regnal year of Kannaradēva (964 A.D.) and now (ie in the 16th regnal year of Uttamachōḷa) he had got this charity engraved on stone.</p>						
+
+						<p>First portion published in <hi rend="italic">S.I.I.,</hi> Vol. XIX No. 396.</p>						
+
+						<p>For full text see Bahour Kuppuswamy, <hi rend="italic">Pondicherry inscriptions No. 49.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> ko<supplied reason="omitted">p</supplied>parake<hi rend="grantha">sa</hi>ripa
+<lb n="2" break="no"/><hi rend="grantha">nmakku</hi> yāṇṭu <num value="16"><g type="numeral">10</g> 6</num> Āvatu vaṭakarai
+<lb n="3"/><hi rend="grantha">brahmade</hi>yam <hi rend="grantha">tribhu</hi>vaṉa<hi rend="grantha">mahāde</hi>vi 
+<lb n="4"/><hi rend="grantha">cca</hi>tu<hi rend="grantha">rvve</hi>timaṅkalattu <hi rend="grantha">śrī</hi>nārā
+<lb n="5" break="no"/>yaṇacceri cāttamaṅ<supplied reason="omitted">ka</supplied>lattu <hi rend="grantha">bhā</hi>
+<lb n="6" break="no"/><hi rend="grantha">radvāji</hi> cāttaṉ nila<hi rend="grantha">gri</hi>vaṉ Ivvūrt
+<lb n="7"/>tiruvāṟai Uṭaiya <hi rend="grantha">paramasvāmi</hi>kaḷukku <hi rend="grantha">śrī</hi>
+<lb n="8" break="no"/>kannara<hi rend="grantha">de</hi>vaṟku yāṇṭu <num value="25">2 <g type="numeral">10</g> 5</num> Āvatu ca<hi rend="grantha">ntrā</hi>tit
+<lb n="9" break="no"/>tavaṟ vaitta tirunontāviḷakku Oṉṟiṉu
+<lb n="10" break="no"/>kku vaitta Āṭu cāvāmuvāp perāṭu <num value="90">9 <g type="numeral">10</g></num> Itto
+<lb n="11" break="no"/>ṇṇūṟu Āṭum I<supplied reason="omitted">k</supplied>ko<supplied reason="omitted">p</supplied>parakecaripanmaṟku yāṇṭu
+<lb n="12"/><num value="16"><g type="numeral">10</g> 6</num> Āvatu <hi rend="grantha">śilā</hi>le<hi rend="grantha">khai</hi> ceytu <hi rend="grantha">I</hi>tu <hi rend="grantha">panmā</hi>
+<lb n="13" break="no"/><hi rend="grantha">heśvara rakṣai I</hi>tam<supplied reason="omitted">mam</supplied> <hi rend="grantha">rakṣi</hi>ppār <hi rend="grantha">śrī</hi>pātam ta
+<lb n="14" break="no"/>lai meliṉa Enṟāṉ nila<hi rend="grantha">gri</hi>vaṉ <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 32, part 2, no. 202 by <bibl><ptr target="bib:Swaminathan2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2012_01"/>
+			<citedRange unit="page">336-337</citedRange>
+			<citedRange unit="item">202</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

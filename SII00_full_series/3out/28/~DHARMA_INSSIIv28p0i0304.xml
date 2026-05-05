@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 28.304: original edition by J. Sundaram</title>
+				<title type="alt">No. 304. (A.R. No. 458 of 1913.) TAḌĀVŪR, ATTUR TALUK, SALEM DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv28p0i0304</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Ēkāmranāthasvāmin temple, south wall.</p>						
+
+						<p><hi rend="bold">Tribhuvanachakravartti Kulōttuṅga III Year 27.</hi></p>						
+
+						<p>This inscription records that the temple of Tiruvēkambam-uḍaiya-nāyanār of Mēl-Gaṅgappāḍi <hi rend="italic">alias</hi> Tiḍāvār in Āṟṟūr-kūṟṟam in Milāḍu <hi rend="italic">alias</hi> Jaṉaṉāthavaḷanāḍu was structured in stone <hi rend="italic">(tirukkaṟṟaḷi-tiruppaṇi)</hi> with the help of gold ornaments of the temple, part of it presented by donors earlier and the rest (20 <hi rend="italic">kaḻañju</hi> in weight) presented (at 10 <hi rend="italic">kaḻañju</hi> each) by Nāyaṉār (the king) and his junior queen <hi rend="italic">(iḷaiya-pīrāṭṭiyār).</hi> The responsibility for this work was undertaken by one individual, who was <hi rend="italic">Śrī-māhēśvara-kkaṇkāṇi-āṇḍār</hi> of the temple, <hi rend="italic">ūrār, dēvakanmi</hi> and accountant of the temple.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">sva<unclear>sti</unclear>śrī</hi> <supplied reason="undefined"><g type="danda">.</g></supplied> tiripuvanaccakkaravaṟtikaḷ maturaiyum pāṇṭi
+<lb n="2" break="no"/>yaṉai muṭittalaiyuṅ koṇṭaruḷiṉa kulottuṅka coḻa
+<lb n="3" break="no"/>tevaṟku yāṇṭu <num value="27">2 <g type="numeral">10</g> 7</num>vatu milāṭākiya <hi rend="grantha">ja</hi>ṉaṉātavaḷanāṭṭu
+<lb n="4"/>Āṟṟūr<unclear>kū</unclear>ṟṟattu melkaṅkappāṭiyāṉa tiṭāvūr Uṭaiyār tiruvekampamuṭai
+<lb n="5" break="no"/>ya nāyanār koyil tirukkaṟṟaḷi tiruppaṇikku yiṉṉāyanār tiruvāparaṇam mā<unclear>na</unclear>
+<lb n="6"/>paṭṭam muṉṉāḷil pirākkaṇapaṭṭam munnāḷil kulottuṅka kova <gap reason="lost" quantity="1" unit="character"/> rāyar Iṭṭa paṭṭa<unclear>m</unclear> 
+<lb n="7"/>Iraṇṭināl kāciṭai poṉ Eṇkaḻañce mukkāleyaraikkālum māṟṟu Āṇikkiḻ E
+<lb n="8" break="no"/>ṭṭum ciṟupuli veḷār coḻiya taraiyar Uḷḷiṭṭār palaru Iṭṭa piṭavārikkā <gap reason="lost" quantity="1" unit="character"/> ḻi Arai
+<lb n="9" break="no"/>kkālu kiḻ <unclear>nāḷ</unclear>pilacilluruvāna poṉ kāciṭai Aiṅkaḻañcey mukkāle muppatumāvum
+<lb n="10"/>māṟṟu Āṇikkiḻ E<unclear>ḻa</unclear>rai Ākappon patiṉnāṟkaḻañce mukkāle mañcāṭiyu miraṇṭu māvum nā
+<lb n="11" break="no"/>yanār Iṭṭa paṭṭam Oṉṟināl kalliṭai pon patinkaḻañcum nampirāṭṭiyāril Iḷaiya nampirā<unclear>ṭṭi</unclear>
+<lb n="12" break="no"/>yār yiṭṭa paṭṭam kalliṭai poṉ pattum Ākappoṉ muppattu ṉāṟkaḻañce mañcāṭiyum I<unclear>raṇ</unclear>
+<lb n="13" break="no"/>ṭu mā Ital
+<lb n="14"/> <gap reason="lost" quantity="3" unit="character"/> ṭai poṉ patiṉāṟ kaḻañce mukkāle pattu māvum tirukkaṟṟaḷi
+<lb n="15"/> <gap reason="lost" quantity="1" unit="character"/> ṭṭu ti piṉpu tirumaṇṭapattukku kalliṭai poṉ Irupatiṉkaḻañcum I
+<lb n="16" break="no"/>ṭṭu tiruppaṇi ceyvittom Ikkoyillil <hi rend="grantha">śrī</hi>mā<hi rend="grantha">he</hi>[ <hi rend="grantha">śva</hi>ra]
+<lb n="17" break="no"/>kkaṇkāṇi Āṇṭār <unclear>Aruvū</unclear>ruṭaiyāṉ pe<unclear>rum</unclear>āḷ civatavanappe
+<lb n="18" break="no"/>rumāḷāna civaṉikkiniyā<unclear>n</unclear> pa <gap reason="lost" quantity="3" unit="character"/> m <gap reason="lost" quantity="1" unit="character"/> Ūrārum Ikkoyilli<unclear>l</unclear> tevakaṉmi ko
+<lb n="19" break="no"/>yil kaṇakkaṉum Ikkoyillil tānattārum yipponniṭṭu I tiruppa
+<lb n="20" break="no"/>ṇi ceyvittom <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 28.304 by <bibl><ptr target="bib:Sundaram2010_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sundaram2010_01"/>
+			<citedRange unit="page">492-493</citedRange>
+			<citedRange unit="item">304</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

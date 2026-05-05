@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 24.323: original edition by H. K. Narasimhaswamy</title>
+				<title type="alt">No. 323. (A.R. No. 55 of 1938-39.) II PRĀKĀRA, SOUTH WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv24p0i0323</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Śaka 1351 (1429 A.D.)</hi></p>						
+
+						<p>Registers a grant of the village Hastichōḷēndramaṅgalam by <hi rend="bold">Vyāsa-Bhārati-Yōgi,</hi> son of Dakshiṇāmūrti and Maratakavalli of Chillamanta and a disciple of <hi rend="bold">Parivrājaka Rāmachandra Sarasvati,</hi> towards offerings to god Raṅganātha. The record which is said to have been composed by the donor himself is in Sanskrit written in Grantha characters. The details of the date viz. <hi rend="bold">Śaka 1351</hi> expressed by the chronogram (<hi rend="italic">yaśōlōkē</hi>), <hi rend="bold">Saumya, Mithuna, ba. 6, Uttiraṭṭādi, Tuesday,</hi> corresponds to <hi rend="bold">A.D. 1429, June 22, Wednesday (not Tuesday), ·42, f.d.n. ·24.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:grantha maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī vijayakṣmāpanandanē lōkanandanē <g type="danda">.</g> pratāpadēvarāyākhyē pārtthivē rakṣati kṣitīm <g type="danda">.</g> <supplied reason="omitted">1</supplied> yaśōlōkē śakasyābdē saumyē mithunagē ravau <supplied reason="undefined"><g type="danda">.</g></supplied> Uttaraprōṣṭa</hi>
+<lb n="2" break="no"/><hi rend="grantha">pāt kṛṣṇaṣaṣṭhī śōbhanaviddinē [<g type="ddanda">.</g>2*] jananī maratakaval</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">lī</seg> <hi rend="grantha">janakō yasya khalu dakṣiṇāmūrttiḥ <g type="danda">.</g> grāmaśca cil</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">la</seg><hi rend="grantha">mantā gōtrābhijanaunitundinimapākhyau <g type="danda">.</g> <supplied reason="omitted">3</supplied> Anēna śrīrāmacandra</hi>
+<lb n="3" break="no"/><hi rend="grantha">sarasvatyabhidhāt gurōḥ <g type="danda">.</g> Avāptapārivrājyēna bhōgavarddhanasamsadā <g type="danda">.</g> <supplied reason="omitted">4</supplied> bhaktyā śrīraṅgarājāya vyāsabhāratiyōginā <g type="danda">.</g> grāmassamarppitōnāmnā</hi>
+<lb n="4"/><hi rend="grantha">hasticōḷēndramaṅgalam <g type="danda">.</g> <supplied reason="omitted">5</supplied> Agratō nivēdanīyamannama</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṅaha</seg><hi rend="grantha">m harēragrimēṣu ṣaṭsu hēmabhājanēṣu ṣaḍrasam <supplied reason="undefined"><g type="danda">.</g></supplied> mālikāyugatrayam varānulēpa</hi>
+<lb n="5" break="no"/><hi rend="grantha">nāmbarē dīpikācatuṣṭayam saṣōḍaśōpacārakam [<g type="danda">.</g>6*] vāsarē tṛtiyayāmmāgatē sadōtsavam vyāsabhāratīvidhātumēvamēva raṅgiṇē [<g type="danda">.</g>]</hi>
+<lb n="6"/><hi rend="grantha">grāmmā <gap reason="lost" quantity="1" unit="character"/> jēśayāya cōḷamaṇḍalīgatam hasticōḷamaṅgalābhidhāna mādarāddāt <g type="danda">.</g> <supplied reason="omitted">7</supplied> vyāsabhāratyāśś</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">l</seg><hi rend="grantha">ōkāḥ śrīraṅgarājārppaṇamastu <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 24.323 by <bibl><ptr target="bib:Narasimhaswamy1982_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Narasimhaswamy1982_01"/>
+			<citedRange unit="page">329</citedRange>
+			<citedRange unit="item">323</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

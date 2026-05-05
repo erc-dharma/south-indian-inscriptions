@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.287: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 287. (B.K. No. 141 of 1933-34.) BIJĀPUR, BIJAPUR TALUK, BIJAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0287</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Stone (No. A-21) in the museum.</hi></p>						
+
+						<p>Sadāśivarāya—A.D. 1559 (?).</p>						
+
+						<p>This inscription referring itself to the reign of <hi rend="bold">Vīrapratāpa Sadāśivarāya</hi> is dated in <hi rend="bold">Śaka 1482, Kāṭayukti, Māgha śu. 12.</hi> The date is wrong. The cyclic year given coincides with Śaka 1480 and not 1482. In that cyclic year, the given details correspond to <hi rend="bold">A.D. 1559, January 20, Friday.</hi></p>						
+
+						<p>It records a remission made by <hi rend="bold">Rāmarāja</hi> of some taxes on barbers.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/><unclear>śu</unclear>bhamastuḥ <g type="ddanda">.</g>
+<lb n="2"/><unclear>śā</unclear>livāhanaśakavaru
+<lb n="3" break="no"/><unclear>ṣa</unclear> 1482 <unclear>ka</unclear>ḷayiktinā
+<lb n="4" break="no"/><unclear>ma</unclear>saṁva<supplied reason="omitted">tsa</supplied>rada māgha śu 12
+<lb n="5"/> <gap reason="lost" quantity="1" unit="character"/> śrīmadrājādhirā
+<lb n="6" break="no"/>ja rājaparamēsvara śrī
+<lb n="7" break="no"/>vīrapratāpa sadāśiva
+<lb n="8" break="no"/>dēvamahārāyaru vi
+<lb n="9" break="no"/>dyānagaradalli prithivī
+<lb n="10" break="no"/><unclear>rā</unclear>jyaṁgeyitiralu
+<lb n="11"/> <gap reason="lost" quantity="1" unit="character"/> ma(ṁ)n mahama
+<lb n="12" break="no"/> <gap reason="lost" quantity="2" unit="character"/> śva<supplied reason="omitted">ra</supplied> rāmarāja
+<lb n="13"/> <gap reason="lost" quantity="2" unit="character"/> mahaArasuga
+<lb n="14" break="no"/> <gap reason="lost" quantity="1" unit="character"/> nāvidarige bāga
+<lb n="15" break="no"/> <gap reason="lost" quantity="1" unit="character"/> <unclear>kō</unclear>ṭige saluva biḷige
+<lb n="16"/><unclear>nāvi</unclear>darige terige pāli
+<lb n="17" break="no"/> <gap reason="lost" quantity="2" unit="character"/> Aṁdu koṭa sā
+<lb n="18" break="no"/> <gap reason="lost" quantity="1" unit="character"/> nā yidake Aru<note n="369-1">The continuation is</note> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.287 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">369</citedRange>
+			<citedRange unit="item">287</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

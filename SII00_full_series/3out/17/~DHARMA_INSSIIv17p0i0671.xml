@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.671: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 671. (A.R. No. 616 of 1904.) TIRUVANDAVĀR, KANCHIPURAM TALUK, CHINGLEPUT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0671</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a slab in a field to the east of the village.</p>						
+
+						<p>Rāmadēva II. Ś. 1547: 1625 A.D.</p>						
+
+						<p>The details of the date, <hi rend="italic">viz.</hi>, Śaka 1547, Krōdhana, Vṛiśchika, śu. 7 are insufficient for verification.</p>						
+
+						<p>It records a gift of land by one Veṅkaṭṭappa-nāyakkar, grandson of Tāmal Veṅkaṭappa-nāyakkar, and son of <hi rend="italic">Rāyasa</hi> Cheṉṉappa, to Pērambala-Paṇḍāram and others for their services to god Chē(Kshē)ttira-īśvarar of Tirukkaḻukkuṉṟam.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+<lb n="2"/><hi rend="grantha">śrīman mahā</hi>maṇṭa
+<lb n="3" break="no"/>licuran <hi rend="grantha">śrī</hi> virappira
+<lb n="4" break="no"/>tāpa <hi rend="grantha">śrī</hi> vīrarāma<hi rend="grantha">de</hi>
+<lb n="5"/>va<hi rend="grantha">mahā</hi>rāyar piṟutivi
+<lb n="6" break="no"/>rācciyam paṇṇi
+<lb n="7"/>Aruḷāniṉṟa cakā<unclear>t</unclear>
+<lb n="8" break="no"/>tam <num value="1547"><g type="numeral">1000</g> 5 <g type="numeral">100</g> 4 <g type="numeral">10</g> 7</num>- kku
+<lb n="9" break="no"/>mel cellā niṉṟa
+<lb n="10"/>kurotaṉa <hi rend="grantha">saṅvassa</hi>rattu
+<lb n="11"/>viṟcika nāyaṟṟup pūṟu
+<lb n="12" break="no"/>vapa<hi rend="grantha">kṣa</hi>ttu captamiyu<supplied reason="omitted">m</supplied>
+<lb n="13" break="no"/> <gap reason="lost" quantity="3" unit="character"/> kiḻamai peṟṟa yiṟṟai
+<lb n="14"/>nāḷ <gap reason="lost" quantity="2" unit="character"/> tāra kottira
+<lb n="15" break="no"/>ttil tāmal veṅka
+<lb n="16" break="no"/>ṭappa nāyakkar pera
+<lb n="17" break="no"/>ṉāṉa <unclear>rā</unclear>yaca ceṉ
+<lb n="18" break="no"/>ṉappa kumāraṉ ve
+<lb n="19" break="no"/>ṅkaṭṭappa nāyakkar
+<lb n="20"/>tirukkaḻukkuṉṟam ce
+<lb n="21" break="no"/>ttirayicurar kayiṅkariya
+<lb n="22" break="no"/>ttukku <unclear>pi</unclear>ṟatāṉa ku<unclear>ṟu</unclear>kula
+<lb n="23" break="no"/>ppaṇṭāramu peram<supplied reason="omitted">pa</supplied>la
+<lb n="24" break="no"/>paṇṭāram Uḷḷiṭṭā
+<lb n="25" break="no"/>ṟku pūtāṉa pattiram
+<lb n="26"/>kuṭuttapaṭi namma <gap reason="lost" quantity="2" unit="character"/> nama <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="27"/>paṭca <gap reason="lost" quantity="4" unit="character"/> tom ku
+<lb n="28" break="no"/>ṇṭala <gap reason="lost" quantity="9" unit="character"/> <note n="306-1">The rest of the inscription is much damaged.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.671 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">306</citedRange>
+			<citedRange unit="item">671</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

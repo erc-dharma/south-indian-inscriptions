@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 23.123: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 123. (A.R. No. 123 of 1907.) Āḷvārkuṟichchi, Ambasamudram Taluk, Tirunelveli District Vaṉṉiyappar temple—on a stone set up at the entrance into the west gōpura, right side</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv23p0i0123</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is dated in Śaka 1534, Kollam 788, Paridhāvi Aṟpaśi, ba. 2, Aśvati (A.D. 1612, October 1). It registers an agreement similar to that mentioned <hi rend="italic">Nāṭṭavar</hi> of Āḷvārkuṟichchi, Puttūr, Ānbūr and Kaḍaiyam making over as <hi rend="italic">sarvamānya</hi>, a gift of what is called the <hi rend="italic">poṟuppu</hi> (responsibility or supervision ?) of the income on all the lands in their <hi rend="italic">māgaṇai</hi>, for the expenses of the festival in the temple, for the merit of the same chief and officer.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śubhamastu vannitppan <g type="pc"/></hi>
+<lb n="2"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> śakābdam <num value="15"><g type="numeral">10</g> 5</num>[<num value="34">3 <g type="numeral">10</g> 4</num>]</hi> 
+<lb n="3"/>yitaṉmel cellāniṉṟa
+<lb n="4"/>kollam <num value="788">7 <g type="numeral">100</g> 8 <g type="numeral">10</g> 8</num> varu<hi rend="grantha">ṣa</hi>m paritā
+<lb n="5" break="no"/>vi varu<hi rend="grantha">ṣa</hi>m teṭcaṇāyaṉattu carattu
+<lb n="6" break="no"/>rituvil Aṟpaci mātam <hi rend="grantha"><unclear>1</unclear>2</hi> Aparapaṭcattu tu
+<lb n="7" break="no"/>tikaiyum kuruvaccirayokamum
+<lb n="8"/>kecakaraṇamum peṟṟa Acupati<unclear>na</unclear>
+<lb n="9" break="no"/>ṭcattirattu nāḷ poṟu<unclear>ppu</unclear>kku ca
+<lb n="10" break="no"/>ṟuvamāṉiyamākap paṇṇikkuṭut
+<lb n="11" break="no"/>ta tāṉappiṟamāṇamāvatu muḷḷinā
+<lb n="12" break="no"/>ṭṭu vaṭamelpiṭākai Āḻvār
+<lb n="13" break="no"/>kuṟicci puttūr <unclear>vā</unclear>ttāṟṟu vaṉ
+<lb n="14" break="no"/>ṉitirttakkaraiyil Eḻunta
+<lb n="15" break="no"/>ruḷiyirukkum nayiṉār tiruvaṉ
+<lb n="16" break="no"/>ṉicuramuṭaiya tampirāṉārk
+<lb n="17" break="no"/>ku melppaṭināṭṭu Āḷvā<supplied reason="omitted">r</supplied>kuṟic
+<lb n="18" break="no"/>ci puttūr cā <gap reason="lost" quantity="1" unit="character"/> viya kaṭṭiṉāpuram Ā
+<lb n="19" break="no"/>ṉpūr coṇāṭu kaṭaiyam Uḷpaṭṭa
+<lb n="20"/><unclear>nāṭṭava</unclear>rom tiruvaṉṉicuramuṭaiya nayiṉār tampirāṉā
+<lb n="21" break="no"/>ṟku tiruviḷā naṭakkumpaṭikku ciṟi
+<lb n="22" break="no"/>matu vicuvaṉātanāyakkar muttu
+<lb n="23"/>virappanāyakkarayyaṉ Avarka
+<lb n="24" break="no"/>ḷukku puṇṇiyamākavum murtti
+<lb n="25"/>ceṭṭiyār cevvanticeṭṭiyār Ayyaṉ A
+<lb n="26" break="no"/>varkaḷukku puṇṇiyamākavum ciṉṉāt
+<lb n="27" break="no"/>tai mutaliyār Avarkaḷukku puṇṇiya<unclear>mākavum</unclear>
+<lb n="28"/>maṇiyam nārāyaṇatevamutaliyār
+<lb n="29"/>Avarkaḷukkum Attān tarma paravi
+<lb n="30" break="no"/>mā <gap reason="lost" quantity="3" unit="character"/> ṉāpiḷḷaiyavarkaḷukku puṇ
+<lb n="31" break="no"/>ṇiyamākavum Attān tarmat<unclear>tai</unclear>
+<lb n="32"/>kkūṭṭuk kaṇakkappi<supplied reason="omitted">ḷ</supplied>ḷaimārk
+<lb n="33" break="no"/>kup puṇṇiyamāka Eṅkaḷ māka
+<lb n="34" break="no"/>ṇaiyil Uḷḷa nilaṅkaḷukkum puñcai
+<lb n="35"/>puṉaikkuḷam veṭṭuttiruttu māva
+<lb n="36" break="no"/>ṭai maravaṭai Ārāmam Ivai mu
+<lb n="37" break="no"/>talāṉa caṟuvappiṟārttikaḷukkum
+<lb n="38"/>poṟuppu caṟuvamāṉiyap piṟamāṇa
+<lb n="39" break="no"/>m paṇṇikkuṭuttom Ituve ca
+<lb n="40" break="no"/>ṟuvamāṉiyamākac cempilum cilaiyi
+<lb n="41" break="no"/>lum veṭṭi cantirātittavarai ti 
+<lb n="42" break="no"/>ruviḻā naṭattikkoṇṭu varuvārkaḷā
+<lb n="43" break="no"/>kavum Inta puṇṇiyattai pari
+<lb n="44" break="no"/>pālaṉam paṇṇi naṭatti varukiṟavar
+<lb n="45" break="no"/>kaḷ keṅkaikaraiyile Acuvame
+<lb n="46" break="no"/>tayākam paṇṇiṉa palattaiyum
+<lb n="47"/>civapiṟatiṭṭai paṇṇiṉa palattai
+<lb n="48"/>yum civacāyucciyamum peṟakkaṭavā
+<lb n="49" break="no"/>rākavum Inta puṇṇiyattukku
+<lb n="50"/>Akutam paṇṇukiṟavarkaḷ keṅkai
+<lb n="51" break="no"/>kkaraiyile kārāmpacuvaik
+<lb n="52"/>koṉṟa toḻattilum piramma
+<lb n="53" break="no"/>[<hi rend="grantha">ha</hi>]ttiyavatai paṇṇiṉa toḻattilu
+<lb n="54" break="no"/>m taṉ mātāpitāvaik koṉṟa to
+<lb n="55" break="no"/>ḻcattilum kuruvaik koṉṟa toḻcat
+<lb n="56" break="no"/>tilum pokakkaṭavārākavum <supplied reason="undefined"><g type="ddanda">.</g></supplied> tāṉapā
+<lb n="57" break="no"/>laṉayor macce tāṉārcceyoṉupā
+<lb n="58" break="no"/>laṉam tāṉārc corkkam mavārppa
+<lb n="59" break="no"/>ṉoti pālaṉā<unclear>t</unclear> Accutam patam <supplied reason="undefined"><g type="ddanda">.</g></supplied> <hi rend="grantha">suda</hi>tta<hi rend="grantha">m</hi>
+<lb n="60"/><hi rend="grantha">parada</hi>ttam vā yo <hi rend="grantha">hare</hi>ti<hi rend="grantha"> vasu</hi>
+<lb n="61" break="no"/><hi rend="grantha">ndharām ṣaṣṭi<supplied reason="omitted">rparṣa</supplied> sahasrā</hi>ṇi<hi rend="grantha"> vi</hi>
+<lb n="62" break="no"/><hi rend="grantha">ṣṭā</hi>yā<hi rend="grantha">m jā</hi>yate <hi rend="grantha">kṛmiḥ <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> vaṉṉiya<supplied reason="omitted">p</supplied>pa
+<lb n="63" break="no"/>r cipātame tuṇai <g type="pc"/>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 23.123 by <bibl><ptr target="bib:SrinivasaRao1979_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1979_01"/>
+			<citedRange unit="page">88-90</citedRange>
+			<citedRange unit="item">123</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

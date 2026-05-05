@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.297: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 297. (A.R. No. 690 of 1904.) TIRUPPĀṞKAḌAI, WALAJAPET TALUK, NORTH ARCOT DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE, KHARAPURĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0297</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is dated on the 120th day which is called <hi rend="italic">koṭṭa-nāḷ</hi> (day of triumpth) in the 12th year of the king, the significance of which is not clear. It records an endowment of 50 <hi rend="italic">kaḻañju</hi> of gold of 9(1/2) <hi rend="italic">māṟi</hi> in fineness, made by <hi rend="bold">Śembiyaṉ Iḷaṅgōvēḷār Pūdi (Bhūti) Ādittar</hi> to provide for the daily supply of a <hi rend="italic">nāḻi</hi> of rice for offerings and an <hi rend="italic">uḻakku</hi> of oil for burning a perpetual lamp in the temple of Tirukkarapurattu-Perumānaḍigaḷ at Kāvadippākkam <hi rend="italic">alias</hi> Amaninārāyaṇa-chaturvēdimaṅgalam in Paḍuvūr- kōṭṭam. The <hi rend="italic">Mahā-sabhā</hi> of the village which received this amount deputed their <hi rend="bold">Annual Tank-supervision Committee</hi> and the headman of the Śiṟṟūṛ (?) for the year respectively to make the supply. Other committees of the assembly are also mentioned incidentally, like the <hi rend="italic">Kuḍumbuvāriyam, Tōṭṭa-vāriyam, Kaḻani-vāriyam</hi> the <hi rend="italic">Bhaṭṭas</hi> and others. The donor is evidently identical with the <hi rend="bold">Koḍumbāḷūr chief Ādityavarman son of Bhūti Vikramakēsari.</hi> (<hi rend="bold">M.E.R.</hi> for 1908, Part II, para. 85). This seems to be assignable to Parāntaka I.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopparake<hi rend="grantha">sa</hi>ripa<hi rend="grantha">nma</hi>ṟ<hi rend="grantha">kk</hi>u yāṇṭu paṉṉiraṇṭāvatu koṭṭanāḷ nūṟṟirupatu paṭuvūrkkoṭṭattu <hi rend="grantha">kkā</hi>vatippā<hi rend="grantha">kka</hi>mākiya Amaṉinārāyaṇa<hi rend="grantha">cca</hi>tu<hi rend="grantha">rvve</hi>timaṅkalattu Iv vāṭṭai kuṭumpuvāriyapperuma<hi rend="grantha">kka</hi>ḷun toṭṭavāriyapperumakkaḷum kaḻaṉivāriyap peruma<hi rend="grantha">kka</hi>ḷum <hi rend="grantha">bha</hi>ṭṭarkaḷum vi<hi rend="grantha">śiṣṭa</hi>rkaḷum Uḷḷiṭṭa ma<hi rend="grantha">hāsabhai</hi>yār paṇiyāl Ivvāṭṭai Erivāriyapperuma<hi rend="grantha">kka</hi>ḷom cempiyaṉ Iḷaṅkoveḷār pūti Ātittarpa<hi rend="grantha">kka</hi>l Oṉpatarai māṟi Aympatiṉ <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="2"/>Oṭa nāyaṉmar<hi rend="grantha">kki</hi>ṭuvataṟ<hi rend="grantha">kk</hi>u mutalākak koṇṭu Ivvaiympatiṉkaḻañcu poṉṉālum van=ta<hi rend="grantha"> vṛtthi</hi>yāley Iccempiyaṉ Iḷaṅkoṭuveḷār pūti Ātittar vaitta<hi rend="grantha"> dhanma</hi>māka Emmur <hi rend="grantha">trikka</hi>ra purattup perumāṉaṭikaḷu<hi rend="grantha">kk</hi>u nicati Oru nā<unclear>ḻi</unclear> tiruvamurtum nicati Oru nantāviḷa<hi rend="grantha">kk</hi>u<hi rend="grantha">kk</hi>u nicati Uḻakkeṇṇaiyum Ā<hi rend="grantha">cantra</hi>kālamum muṭṭāme kuṭuppippomākavum Ittiruvamirtu Avvāṭṭai Erivāriyapperuma<hi rend="grantha">kka</hi>ḷe muṭṭāme kuṭuppārākavum Innan=taviḷa<hi rend="grantha">kk</hi>u<hi rend="grantha">kk</hi>u Avvavāṇṭu ciṟṟūrāṭcikoḷvāṉaiye koṇṭu nicati <gap reason="lost" quantity="9" unit="character"/> luṅ koḷḷappiṟātā
+<lb n="3" break="no"/>kavum ciṟ<unclear>ṟū</unclear>rāṭci kuṭuppārum Ivvuḻakkeṇṇai Uḷḷākavaṉṟi kuṭu<hi rend="grantha">kka</hi>ppiṟātā<unclear>rā</unclear>kavum I<hi rend="grantha">dhanma</hi>m Ā<hi rend="grantha">cantra</hi>kālame muṭṭāme Avvav vāṭṭai Eri<supplied reason="omitted">vāri</supplied>kapperuma<hi rend="grantha">kka</hi>ḷe kaṭai<hi rend="grantha">kka</hi>ṇṭu kuṭuppippārākavum I<hi rend="grantha">dhanma</hi>m <hi rend="grantha">rakṣi</hi>ttār A<hi rend="grantha">śva</hi>me<hi rend="grantha">dha</hi>ñ ceyta <hi rend="grantha">phala</hi>m peṟuvārākavum I<hi rend="grantha">dhanma</hi>ttu<hi rend="grantha">kk</hi>u viro<hi rend="grantha">dha</hi>m ceytār <hi rend="grantha">gaṅgai</hi>yiṭai <gap reason="lost" quantity="9" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.297 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">146-147</citedRange>
+			<citedRange unit="item">297</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

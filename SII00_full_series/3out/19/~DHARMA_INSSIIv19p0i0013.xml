@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.13: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 13. (A.R. No. 545 of 1920.) ON THE SAME WALL.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0013</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records a gift of 12(1/2) <hi rend="italic">kaḻañju</hi> of gold for burning a perpetual lamp with an <hi rend="italic">uḻakku</hi> of ghee every day in the temple, by Dēśavalavaṉ Sūryyaṉ of Vāṉavamaṅgalam in Sindhavāy-nāḍu, a member of the <hi rend="bold">Kōdaṇḍarāma-teriñja-Kaikkōḷar</hi> regiment, which was named probably after a surname of <hi rend="bold">Rājāditya.</hi> Like No. 10 above this may also be assigned either to <hi rend="bold">Ariñjaya</hi> or <hi rend="bold">Āditya II.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kopparakecariva<hi rend="grantha">rmma</hi>rkku yāṇṭu
+<lb n="2"/><g type="pc"/> Āvatu <hi rend="grantha">śrī</hi>viranārāyaṇa<hi rend="grantha">cca</hi>tu<hi rend="grantha">rvvedimaṅkala</hi>
+<lb n="3" break="no"/>ttu tiruvanan=te<hi rend="grantha">śvara</hi>t<unclear>tu</unclear> <hi rend="grantha">de</hi>varkku <hi rend="grantha">cantrāditya</hi>vat Oru no
+<lb n="4" break="no"/>n=tāviḷak kerippataṟku ko<hi rend="grantha">daṇḍa</hi>rāmatteriñca
+<lb n="5"/>kai<hi rend="grantha">kko</hi>ḷaruḷ ci<hi rend="grantha">ndha</hi>vāynāṭṭu vāṉavamaṅkalamuṭaiyā
+<lb n="6" break="no"/>ṉ tecavalavaṉ <hi rend="grantha">sūryya</hi>ṉ kuṭutta poṉ paṉṉi
+<lb n="7" break="no"/>rukaḻañcaraikkum toṇṇū<supplied reason="omitted">ṟ</supplied>ṟāṟāṭu takar 1- m ko
+<lb n="8" break="no"/>ṇṭu nicatam Uḻakku ney Aṭṭuvatāno maṉṟā
+<lb n="9" break="no"/>ṭi kalaṉaiyom Itu pa<hi rend="grantha">nmā <gap reason="lost" quantity="7" unit="character"/> </hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.13 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">6</citedRange>
+			<citedRange unit="item">13</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

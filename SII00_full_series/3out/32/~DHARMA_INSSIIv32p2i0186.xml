@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 32, part 2, no. 186: original edition by S. Swaminathan</title>
+				<title type="alt">No. 186. (A.R. No. 284 of 1951.) TIRUMICHCHIYŪR, NANNILAM TALUK, TANJAVUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv32p2i0186</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a pillar, western second row, <hi rend="italic">maṇḍapa</hi> in front of Sāntanāyagi shrine, Miharāruṇēśvara temple.</p>						
+
+						<p><hi rend="bold">Year 15: 986 A.D.</hi></p>						
+
+						<p>Incomplete. Records that Śōlai Sāttaṉ, a native of Kāñjirikkai-vāralūr in Pāṇḍināḍu made a gift for a drum <hi rend="italic">(timilai)</hi> etc., to the god Mūlaśthānam-uḍaiya mahādēvar in Tirumiyachchūr in Ambar-nāḍu.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+<lb n="2"/>kopparakecari
+<lb n="3"/>pa<hi rend="grantha">nma</hi>ṟku yāṇ
+<lb n="4" break="no"/>ṭu <num value="15"><g type="numeral">10</g> 5</num> Āvatu
+<lb n="5"/>pāṇṭi nāṭṭu
+<lb n="6"/>kāñcirukkai
+<lb n="7"/><unclear>vā</unclear>ralūruṭai
+<lb n="8"/>yāṉ colai cā
+<lb n="9" break="no"/>ttaṉ Ampar
+<lb n="10"/>nāṭṭut tirumi
+<lb n="11" break="no"/>yaccūr <hi rend="grantha">śrīmulasthā</hi>
+<lb n="12" break="no"/>namuṭaiya
+<lb n="13" break="no"/><hi rend="grantha">de</hi>varkku timi
+<lb n="14" break="no"/>lai Oṉṟum 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 32, part 2, no. 186 by <bibl><ptr target="bib:Swaminathan2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2012_01"/>
+			<citedRange unit="page">319</citedRange>
+			<citedRange unit="item">186</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 11.10: original edition by C. R. Krishnamacharlu, R. S. Panchamukhi, N. Lakshminaraya Rao and H. K. Narasimhaswami</title>
+				<title type="alt">No. 10. (B.K. No. 152 of 1926-27). BENTŪR, GADAG TALUK, DHARWAR DISTRICT. ON A HERO-STONE BUILT INTO THE WALL OF ANNADĀNAPPA TUPARI'S HOUSE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv11p0i0010</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The inscription which is <hi rend="bold">dated in Śaka 785, Tāraṇa (= A.D. 864)</hi> belongs to the reign of <hi rend="bold">Amōghavarsha I.</hi> Since a larger portion of the record is seriously damaged, the contents cannot be properly made out. A grant of land seems to have been made to a hero named Chikaṇṇa. Incidentally the record refers to the observance of <hi rend="italic">vratas</hi> and <hi rend="italic">sanyāsana.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>FRONT SIDE.</h4>-->
+
+<p>
+<lb n="1"/>svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied> śakanṛpakālātīta saṁvatsara
+<lb n="2" break="no"/>śataṅgaḷ Eḻnūṟiṇbhattaydaneya tāra
+<lb n="3" break="no"/>ṇa saṁvatsaraṁ pravarttisuttira svastyamōgha
+<lb n="4" break="no"/>varṣa śrīprithuvīvallabha mahārājādhirāja
+<lb n="5"/>paramēśvara paramabhaṭṭārakar prithuvīrā
+<lb n="6" break="no"/>jyaṁgeyye śrīma <gap reason="lost" quantity="5" unit="character"/> ppayyaṁ
+<lb n="7" break="no"/>kuraru <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="8"/>rṣam <gap reason="lost" quantity="1" unit="character"/> ttabāṟuma <gap reason="lost" quantity="1" unit="character"/> sundēḷda <gap reason="lost" quantity="1" unit="character"/> <unclear>go</unclear>ṇḍikka kappaḍamā
+<lb n="9"/><unclear>ne</unclear>llaka<unclear>ṅga</unclear> <gap reason="lost" quantity="2" unit="character"/> namesyanettarogoḍe <unclear>bā</unclear>ḻi maṟuvakka
+<lb n="10"/> <gap reason="lost" quantity="3" unit="character"/> vapaḻayiṅgage<unclear>go</unclear>ṇḍoḍe bāḻinandī vṛta<unclear>ṁ</unclear>gaḷaṁ salisuttu
+<lb n="11"/> <gap reason="lost" quantity="3" unit="character"/> hāva<unclear>ṭa</unclear>ya <gap reason="lost" quantity="2" unit="character"/> na<unclear>ṁ</unclear>taradoḷsanyāsanaṁ geyda ba <gap reason="lost" quantity="1" unit="character"/> khaṇḍago <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="12"/> <gap reason="lost" quantity="2" unit="character"/> ra naḻiyisi pa<unclear>ge</unclear>yaṁ kaḷeyisi <gap reason="lost" quantity="7" unit="character"/> 
+<lb n="13"/> <gap reason="lost" quantity="5" unit="character"/> sāyenendu nuḍidu nuḍidantemuḍipa <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="14"/>nā <gap reason="lost" quantity="5" unit="character"/> sva<unclear>rnna</unclear>ṅgaḷā <gap reason="lost" quantity="5" unit="character"/> ntandaṭṭe <gap reason="lost" quantity="1" unit="character"/> teḷvanaḻti yā
+<lb n="15"/>śra <gap reason="lost" quantity="2" unit="character"/> ḻideneḻdiya sarbbarana<unclear>nvavāya</unclear> <gap reason="lost" quantity="3" unit="character"/> ccaṁcēku gaṇasa vā <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="16"/> <gap reason="lost" quantity="3" unit="character"/> ḻiyaṁ baḻiyānaḻige śata<unclear>dē</unclear> <gap reason="lost" quantity="3" unit="character"/> manusiṁgu mappe <gap reason="lost" quantity="1" unit="character"/> va 
+<lb n="17"/> <gap reason="lost" quantity="10" unit="character"/> mane ci<unclear>nna</unclear> <gap reason="lost" quantity="1" unit="character"/> yaṅgalintiduṭu <unclear>Ā</unclear>rama
+<lb n="18"/> <gap reason="lost" quantity="5" unit="character"/> tanumi<unclear>nnaḻti</unclear>yaṁ ka <gap reason="lost" quantity="2" unit="character"/> meno<unclear>ppaṁ</unclear> biḍaliṁ Aḷirke
+<lb n="19"/> <gap reason="lost" quantity="10" unit="character"/> nimindaṁ <gap reason="lost" quantity="2" unit="character"/> namavaṭige nilisida
+<lb n="20"/> <gap reason="lost" quantity="10" unit="character"/> numaṁ <gap reason="lost" quantity="2" unit="character"/> gamanamaṁ nōrbbaṁnte vilboḻci
+<lb n="21"/> <gap reason="lost" quantity="10" unit="character"/> nīḻdātaneṁdīyā <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="22"/> <gap reason="lost" quantity="10" unit="character"/> ṇḍappa <gap reason="lost" quantity="1" unit="character"/> ggisalkaḍi<unclear>va</unclear>nta<unclear>ppe</unclear>nnamendu
+<lb n="23-29"/><ce>very much damaged</ce>
+</p>
+
+<!--<h4>BACK SIDE.</h4>-->
+
+<!--<h4>First section.</h4>-->
+
+<p>
+<lb n="30"/>mūvattaṟuvarumarasuṁ cika(ṁ)ṇnaṅgi padi
+<lb n="31"/> <gap reason="lost" quantity="5" unit="character"/> goṭṭaralliyaṟu mattarkkeyyaṁ
+<lb n="32"/>Oṁbattugayma <gap reason="lost" quantity="2" unit="character"/> <unclear>te</unclear><unclear>ṟe</unclear>variyara midana
+<lb n="33" break="no"/>ḻi <gap reason="lost" quantity="2" unit="character"/> kavileyanaḻidōn
+</p>
+
+<!--<h4>Second section.</h4>-->
+
+<p>
+<lb n="34"/>Ī kallaṁ cika(ṁ)ṇna <gap reason="lost" quantity="3" unit="character"/> yaṁ pōdiyamma māḍisidōn
+<lb n="35"/>Idu <gap reason="lost" quantity="2" unit="character"/> Iṟivaḍe <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+<!--<h4>Third section.</h4>-->
+
+<p>
+<lb n="36"/> <gap reason="lost" quantity="3" unit="character"/> niḻidu <gap reason="lost" quantity="2" unit="character"/> vannilisi <gap reason="lost" quantity="10" unit="character"/> doḷemaḷivo
+<lb n="37"/>kali <gap reason="lost" quantity="3" unit="character"/> ki<unclear>ccu</unclear>vugumirkkaligaḷi <gap reason="lost" quantity="3" unit="character"/> kaligaḷindaṁ cikaṁ <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 11.10 by <bibl><ptr target="bib:Krishnamacharlu1940_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnamacharlu1940_01"/>
+			<citedRange unit="page">6-7</citedRange>
+			<citedRange unit="item">10</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

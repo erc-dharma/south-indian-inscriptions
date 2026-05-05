@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.284: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 284. (A.R. No. B 390 of 1940-41.) Ponnatōṭa, Jammalamaḍugu Taluk, Cuddapah District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0284</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Stone at a distance of a furlong from the shrine of Āñjaneya.</p>						
+
+						<p>Vijayanagara: Śrī Rangarāya.</p>						
+
+						<p>This is dated <hi rend="bold">Śaka 1496, Bhāva, Jyēshṭa, śu. 15,</hi> corresponding to 1574 A.D., June 18, Friday.</p>						
+
+						<p>Slightly damaged. It mentions a gift of land as <hi rend="italic">dasavanda</hi> for having repaired a breach in the local tank and also mentions Narasiṁharājaya of Nandyāla.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<!--<h4>First Face.</h4>-->
+
+<p>
+<lb n="1"/>śālivāhana śakha<unclear>ka</unclear>varuṣa<unclear>ṁ</unclear> 
+<lb n="2" break="no"/>bulu 1496 Agunēṭi bhā 
+<lb n="3" break="no"/>va saṁvatsara jēṣṭa śu 15 lu <g type="ddanda">.</g> śrī 
+<lb n="4" break="no"/>madrājādhirāja rājapara 
+<lb n="5" break="no"/>mēśvara śrī vīrapratāpa 
+<lb n="6"/>śrīraṁgarāyadēvamahā 
+<lb n="7" break="no"/>rāyalavāru penugoṁḍa pa<unclear>ṭṇa</unclear> 
+<lb n="8" break="no"/>maṁdu vajrasiṁhvāsanārūḍhu 
+<lb n="9" break="no"/>ṁḍai pṛthivi sāṁrājyaṁ <unclear>yē</unclear>lucuṁ 
+<lb n="10" break="no"/>ḍaṁgānu Āpastaṁbha sūtrulu 
+<lb n="11"/>yajuśākhādhyāyu <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="12"/> <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+<!--<h4>Second Face.</h4>-->
+
+<p>
+<lb n="13"/> <gap reason="lost" quantity="10" unit="character"/> laka 
+<lb n="14"/> <gap reason="lost" quantity="5" unit="character"/> ḍa sīmalōni 
+<lb n="15"/>poṁnnatoṁṭa di<unclear>gva</unclear>paṭṇaṁ kriṣṇuniki 
+<lb n="16"/> <gap reason="lost" quantity="2" unit="character"/> tarālaku cellēṭi dēvatā grāmamu 
+<lb n="17"/><unclear>na</unclear>ṁdyēla nārasiṁhvarājayavāru 
+<lb n="18"/> <gap reason="lost" quantity="2" unit="character"/> nāyuniki pāliṁcina grāma 
+<lb n="19" break="no"/>nu ceruvu voḍipitegi khilaṁ 
+<lb n="20"/>vuṁnna nimityaṁ mīru vōḍipi kaṭinaṁ 
+<lb n="21" break="no"/><unclear>du</unclear>ku desevaṁda nakkala miṭṭanu cēnu 
+<lb n="22"/><unclear>kha</unclear> <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g> nu maṁgaḷavāni ciṁta cē 
+<lb n="23" break="no"/><unclear>nu</unclear> <g type="danda">.</g> vubhayaṁ cēnu staḷālu <unclear>nnu</unclear> 
+<lb n="24"/>kha <gap reason="lost" quantity="2" unit="character"/> maḍi cervukiṁdanu moda 
+<lb n="25" break="no"/> <gap reason="lost" quantity="5" unit="character"/> <g type="ddanda">.</g> vubhayaṁ cēnu maḍisa 
+<lb n="26" break="no"/> <gap reason="lost" quantity="1" unit="character"/> 1 <g type="danda">.</g> 2 Akṣarālānu cēnu va 
+<lb n="27" break="no"/> <gap reason="lost" quantity="2" unit="character"/> puṭṭi <gap reason="lost" quantity="2" unit="character"/> yana maṁdumu 
+</p>
+
+<!--<h4>Third Face.</h4>-->
+
+<p>
+<lb n="28"/>putra pavutra pāraṁparyaṁtta Ācaṁdrā 
+<lb n="29" break="no"/>kkaṁgānu Anubhaviṁcēdi yī silā śāsa 
+<lb n="30" break="no"/>naṁ <g type="ddanda">.</g> cēniki maḍiki yavaru ganaka tapi 
+<lb n="31" break="no"/>rā taṁḍḍila gōvula brāṁhmula vāraṇāsilōnu 
+<lb n="32"/>pāpānaṁ bōvuvāru yiṁ<unclear>dku</unclear> yavaru 
+<lb n="33"/>tapināvu paravāni <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.284 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">226-227</citedRange>
+			<citedRange unit="item">284</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

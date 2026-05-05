@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 20.282: original edition by G. S. Gai</title>
+				<title type="alt">No. 282. (B.K. No. 75 of 1937-38.) TAḌAVALGĀ, INDI TALUK, BIJAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv20p0i0282</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Bottom side of the stone now used as door frame of the central shrine of the Hanumān temple.</hi></p>						
+
+						<p>10th Century A.D.</p>						
+
+						<p>This damaged record is dated <hi rend="bold">Śaka 9 • • • Amāvāsyā,</hi> the other details being lost. The date cannot be verified. The characters are of about <hi rend="bold">10th Century A.D.</hi> </p>						
+
+						<p>The inscription mentions Āychapayya and Niṁbadēva-Bhaṭṭa. The details of gift cannot be made out.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="3" unit="character"/> tase gadde sa <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="3"/>ravi mitranu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="4"/>ṁ 20 ka 4 keyda <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="5" unit="character"/> yde bēḍe <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="6"/>kalikāla <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="7"/>daṟoḷ talegō <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="8"/>lu baḷḷēsvaraṁ kṣa <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="9"/>guṇasaṁpannano <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="10"/>ṟiṁgācāryyaṁ na <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="11"/>yanāmādi sa <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="12"/> <gap reason="lost" quantity="2" unit="character"/> nāycapayya <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="13"/>niṁbadēvabhaṭṭara <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="14"/>roḍayanaṇna ma <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="15"/>ka varṣa 9 <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="16"/>damāvāsye <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="17"/><unclear>sa</unclear>ramānyaṁ gōva <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="18"/> <gap reason="lost" quantity="2" unit="character"/> dhārāpūrvva <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="19"/> <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 20.282 by <bibl><ptr target="bib:Gai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Gai1964_01"/>
+			<citedRange unit="page">321-322</citedRange>
+			<citedRange unit="item">282</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

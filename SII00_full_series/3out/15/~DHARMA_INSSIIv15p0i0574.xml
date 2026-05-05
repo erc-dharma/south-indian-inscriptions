@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 15.574: original edition by P. B. Desai, Dines Chandra Sircar and G. S. Gai</title>
+				<title type="alt">No. 574. (B.K. No. 273 of 1927-28.) BANAŚAṄKARI, BADAMI TALUK, BIJAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv15p0i0574</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a pillar lying in the temple of Banaśaṅkari.</p>						
+
+						<p>Circa 12th century.</p>						
+
+						<p>It states that Kēti, son of Sāyama, established charities such as free feedinghouse and educational facilities in places like Savasi, Maḷeyakhēḍa and Naṟugunda, so that religious merit might accrue to him.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>First Piece.</h4>-->
+
+<p>
+<lb n="1-3"/><ce>damaged</ce>
+<lb n="4"/>roḷ niraṁtara dha¨rmmavodala <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="5"/>ḷā viramanivārita satra varavidyādā
+<lb n="6" break="no"/>namiṁtivaṁ māḍisidaṁ pa<unclear>la</unclear>vrikṣaṣō
+<lb n="7" break="no"/>ḍasādi dvijavīthigaḷoḷaṁteyde mu
+<lb n="8" break="no"/>nnāda dha¨rmma kuladha¨rmma koḍe koṇḍa
+<lb n="9"/>savasiya maḷeyakhēḍaṁ mahāgrāma
+<lb n="10" break="no"/>meṁdaḍelepottu bijjesaypeṁ doreko
+<lb n="11" break="no"/>ḷa naṟugundaṁgaḷoḷtanna puṇyaṁ sale kēti mā
+<lb n="12" break="no"/>ḍidaṁ tārage himagiri caṁdrā¨rkkaruḷḷa
+<lb n="13" break="no"/>nna menduṁ sāyamaputraṁ dha¨rmmado
+<lb n="14" break="no"/>ḷagā <gap reason="lost" quantity="1" unit="character"/> kalitanadoḷa bhānujananni
+</p>
+
+<!--<h4>Second Piece.</h4>-->
+
+<p>
+<lb n="15-21"/><ce>completely damaged</ce>
+<lb n="22"/> <gap reason="lost" quantity="3" unit="character"/> niṟikidā caṁdrā
+<lb n="23" break="no"/> <gap reason="lost" quantity="2" unit="character"/> baraṁ gōvindayyaṁ ba
+<lb n="24"/> <gap reason="lost" quantity="2" unit="character"/> maṁgaḷa mahāśrī 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 15.574 by <bibl><ptr target="bib:Desai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Desai1964_01"/>
+			<citedRange unit="page">381</citedRange>
+			<citedRange unit="item">574</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.350: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 350. (B.K. No. 125 of 1933-34.) BIJAPUR, BIJAPUR TALUK, BIJAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0350</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Second pillar at the south entrance to the Ark-killah.</hi></p>						
+
+						<p>A.D. 1192.</p>						
+
+						<p>This inscription is dated in <hi rend="bold">Śaka 1115,</hi> (current) <hi rend="bold">Paridhāvi, Āshāḍha Pūrṇimā, Saturday, Dakshiṇāyana-saṁkrānti,</hi> corresponding to <hi rend="bold">A.D. 1192, June 27, Saturday.</hi> The <hi rend="italic">saṁkrānti</hi> occurred on the previous Friday.</p>						
+
+						<p>It records a grant of land for the worship and offerings of flowers to god <hi rend="bold">Narasiṁhadēva.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<note n="442-1">Written in continuation of B.K. No. 124 of 1933-34.</note>
+
+<p>
+<lb n="1"/>śrīgōyiṁdēśvaradēvara sthānadacāryyaru hiriyasōvarāśi<unclear>jī</unclear>
+<lb n="2" break="no"/>yaru cikkasōvarāśijīyaruṁ <gap reason="lost" quantity="2" unit="character"/> jīyaruṁ heggaḍemallayyanantuĀmā lvaru<note n="442-2">Mistake for nālvaru.</note>
+<lb n="3"/>baṇaveya baṭṭeyiṁ mūḍalu mādiyaṇanāyakana <unclear>brahma</unclear>puriyiṁ
+<lb n="4"/><unclear>teṁ</unclear>kalu śrīnarasiṁhadēvara muṁdina tōṁṭadiṁ paḍuvalu haḷḷadiṁ baḍagalu taṁma tōṁṭava
+<lb n="5"/>śrī narasiṁhadēvargge sakavarṣada 1115 neya paridhāvisaṁvatsarada Āṣāḍhada puṁṇami
+<lb n="6"/>vaḍḍavāra dakṣiṇāyanasaṁkrāṁtiya parvvadalu dhārāpūrvvakaṁ māḍikoṭṭaru Ā dēva
+<lb n="7" break="no"/>ru Ā tōṇṭavaṁ mālagāṟa lakhaṇaṁge <gap reason="lost" quantity="10" unit="character"/> dēvara
+<lb n="8"/>dhūpakke va<unclear>rṣa</unclear> <gap reason="lost" quantity="5" unit="character"/> ttāru paṇaṁ <g type="danda">.</g> divasavahaṁ 12 kaṭṭuhūvaṁ tettu hiṭṭukāṟarā
+<lb n="9"/> <gap reason="lost" quantity="5" unit="character"/> ṁgaḷa mahāśrī śrī 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.350 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">442</citedRange>
+			<citedRange unit="item">350</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

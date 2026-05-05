@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.318: original edition by S. Swaminathan</title>
+				<title type="alt">No. 318.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0318</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						<p><hi rend="bold">King: ⎯⎯ Year: ⎯⎯</hi></p>						
+
+						<p>Fragmentary. This inscription of 7th-8th century records that a battle was fought because of a raid on Puli-nāḍu by a certain Gaṅga king Koṅguṇi, who was also called, Uṇi-arasa and who destroyed the village Koyaṟṟūr in Puli-nāḍu. It is also stated that when Dōsi-arasa and his relatives were involved in war, his nephew Rāman fought bravely and killed many soldiers and the stone was erected in the latter's memory.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>ya pulināḍamēge
+<lb n="2"/><unclear>koṁ</unclear>guṇiya Arasaneḻta 
+<lb n="3"/>ndukoyaṟṟūraneṟeye
+<lb n="4"/>nāḍella pōdō dōsi
+<lb n="5"/>yarasara tammagan rāman
+<lb n="6"/>Āramēra maṟuvakkamā
+<lb n="7"/>Āḷōḷ Eṟidu biṟdi sura <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="8"/> <gap reason="lost" quantity="1" unit="character"/> ṇagi Ādar ḍiṟavan
+<lb n="9"/>bāṇagaṇḍaḻivōn bāṇa masadōn
+<lb n="10"/>pañcamahāpātakanakuṁ paṟeśvarama
+<lb n="11"/>riguṁ kalladha¨rmmakke Āykuḷi <gap reason="lost" quantity="1" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.318 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">363-364</citedRange>
+			<citedRange unit="item">318</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

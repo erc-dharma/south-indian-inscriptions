@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 11.98: original edition by C. R. Krishnamacharlu, R. S. Panchamukhi, N. Lakshminaraya Rao and H. K. Narasimhaswami</title>
+				<title type="alt">No. 98. (B.K. No. 85 of 1929-30). BYĀKŌḌ, BAGEVADI TALUK, BIJAPUR DISTRICT. ON A STONE LYING NEAR THE HANUMĀN TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv11p0i0098</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription belongs to the reign of <hi rend="bold">Traiḷōkyamalladēva (Sōmēśvara I)</hi> and mentions his subordinate <hi rend="bold">[Tai]ḷopadēvarasa</hi> as “ruling the kingdom” in his place. It registers a gift of land made to the gods Sōmēśvaradēva and Mūlasthāna[dēva] and for the upkeep of the tank (at Belkōḍa ?). Sāvaḷavāḍige and Pipparage are mentioned among the boundaries of the gift land.</p>						
+
+						<p>The record is <hi rend="bold">dated Śaka 984, Śubhakṛit, Uttarāyaṇa-saṅkrānti.</hi> The date is not verifiable for want of the week-day. But as can be seen from the previous inscription the corresponding English date would be <hi rend="bold">December 23, A.D. 1062.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>First Side.</h4>-->
+
+<p>
+<lb n="1"/>[©] svasti samastabhuvanāśraya
+<lb n="2" break="no"/>śrīprithvī<unclear>vallabha</unclear> mahā <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="3" break="no"/> <gap reason="lost" quantity="1" unit="character"/> rāja paramēśvara <unclear>paramabhaṭṭāraka</unclear>
+<lb n="4"/>satā śrayaku<unclear>ḷatiḷakaṁ cā</unclear>
+<lb n="5" break="no"/>ḷukyābharaṇaṁ śrīmatraiḷōkya
+<lb n="6" break="no"/>malladēvara <unclear>vijaya</unclear> rājyamu
+<lb n="7" break="no"/>ttarōttarābhivriddhipravarddha
+<lb n="8" break="no"/>mānamācandrārkka<unclear>tāraṁbara</unclear>
+<lb n="9"/>saluttamire tatpādapadmōpa
+<lb n="10" break="no"/>jīvi śrīma<unclear>ttai</unclear>ḷopadēvara<unclear>sa</unclear>
+<lb n="11" break="no"/> <gap reason="lost" quantity="10" unit="character"/> 
+</p>
+
+<!--<h4>Second Side.</h4>-->
+
+<p>
+<lb n="12"/> <gap reason="lost" quantity="2" unit="character"/> saṁkathā vinō<unclear>dadiṁ</unclear>
+<lb n="13"/>rājyaṁgeyyuttu
+<lb n="14" break="no"/>miḻdu sakavarṣa
+<lb n="15"/>984 neya su<unclear>bha</unclear>
+<lb n="16" break="no"/>krat saṁvatsara <unclear>da śrā</unclear>
+<lb n="17" break="no"/>he yuttarā<unclear>yaṇa</unclear>
+<lb n="18" break="no"/>saṁkrāṁti <unclear>yaṁ</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="19"/> <gap reason="lost" quantity="6" unit="character"/> 
+</p>
+
+<!--<h4>Third Side.</h4>-->
+
+<p>
+<lb n="20"/>600 bāḍadaba
+<lb n="21" break="no"/>ḷiya sogile<unclear>gū</unclear> <gap reason="lost" quantity="1" unit="character"/> <unclear>ba</unclear>
+<lb n="22" break="no"/>ḍagaṇa belkōḍaṁ keṟe <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="23"/> <gap reason="lost" quantity="1" unit="character"/> riya sōmēśvaradēva<unclear>rggaṁ</unclear>
+<lb n="24"/>Alliya mūlasthāna <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="25"/><unclear>rgge</unclear> kaṟega<unclear>ṁ</unclear> Ūriṁ baḍaga<unclear>ṇa</unclear>
+<lb n="26"/><unclear>po</unclear>lada sāḷavāḍigeya
+<lb n="27"/> <gap reason="lost" quantity="2" unit="character"/> yiṁ paḍuva pippara<unclear>ge</unclear>
+<lb n="28" break="no"/>ya sīmeyiṁ teṁka sarvva
+<lb n="29" break="no"/><unclear>nama</unclear>śyaṁ biṭṭa kariya
+<lb n="30"/>nela mattar 55 <gap reason="lost" quantity="2" unit="character"/> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 11.98 by <bibl><ptr target="bib:Krishnamacharlu1940_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnamacharlu1940_01"/>
+			<citedRange unit="page">94-95</citedRange>
+			<citedRange unit="item">98</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

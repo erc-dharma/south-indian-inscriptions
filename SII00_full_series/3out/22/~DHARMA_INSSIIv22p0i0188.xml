@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.188: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 188. (A.R. No. 188 of 1906) SOUTH ARCOT DISTRICT, TIRUKKŌYILŪR TALUK, GRĀMAM. ŚIVALŌKANĀTHA TEMPLE—ON THE SAME WALL. KULŌTTUṄGA-CHŌḶA—16th YEAR.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0188</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The inscription is built in at the end of lines. This records a gift of “three fourth” of a perpetual lamp to the temple of [Śrī-Ā]ṟṟuttaḷi-Mahādēva at Parāntaka-chaturvēdimaṅgalam (Grāmam) by one Periyāṉ Kaṇavadi of Sāḷūr in Maṅgala-nāḍu of Vāṇagappāḍi a division of Rājēndraśōḻa-vaḷanāḍu in expiation of his having shot by mistake (while hunting) a resident of Ēnādimaṅgalam (name not clear).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> ci kolottuṅka coḻatevar<supplied reason="omitted">k</supplied>ku yāṇṭu <num value="16"><g type="numeral">10</g> 6</num><g type="dash"/>vatu <hi rend="grantha">rājentra</hi>coḻavaḷanā <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="2"/><unclear>vāṇakap</unclear>pāṭi maṅkalanāṭṭu cāḷur kuṭippaḷḷi periyān kaṇavati Enāti maṅkalattuk kaṭappa <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="3"/>n Āmāttūrai veṭṭaiyil kāṇākkol paṭṭamaiyil <hi rend="grantha">śrī</hi> parān=taka <hi rend="grantha">śa</hi>tu<hi rend="grantha">rve</hi>timaṅ <gap reason="lost" quantity="8" unit="character"/> 
+<lb n="4"/>ṟṟuttaḷi <hi rend="grantha">māhā</hi>tevaṟkku vaitta tiruṉuntāviḷakku mukkāl <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.188 by <bibl><ptr target="bib:SrinivasaRao1983_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1983_01"/>
+			<citedRange unit="page">152</citedRange>
+			<citedRange unit="item">188</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

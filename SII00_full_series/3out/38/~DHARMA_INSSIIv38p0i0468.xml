@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.468: original edition by S. Swaminathan</title>
+				<title type="alt">No. 468. (A.R. No. 468 of 1912.) TIRUTTUṞAIPPŪṆḌI, TIRUTTURAIPPUNDI TALUK, TANJAVUR DISTRICT. On the north wall, maṇḍapa infront of the central shrine, of Marundīśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0468</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">King: Tribhuvanachakkaravarttin Rājarāja [III] Year 28 <hi rend="italic">Āṉi</hi>, 1244 A.D.</hi></p>						
+
+						<p>Records the gift of 2060 <hi rend="italic">kāśu</hi> which was deposited in the temple treasury, by Pāḷḷiāḻvī, wife of Śāttaṅkuḍaiyāṉ Tiruchchiṟṟambalamudu-uḍaiyāṉ and her younger sister Tirumagaliyaṅkoṇḍāḷ, for burning two perpetual lamps before the deity. It is also stated that these lamps were to be burnt, out of the interest of the endowed amount.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tiripuvaṉacakkaravattika
+<lb n="2" break="no"/>kaḷ <hi rend="grantha">śrī</hi> �<hi rend="grantha">ja</hi>�<hi rend="grantha">ja</hi><note n="543-1">Read rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi></note>tevaṟku yāṇ
+<lb n="3" break="no"/>ṭu <num value="28">2 <g type="numeral">10</g> 8</num> Āvatu Āṉimātattu cātta
+<lb n="4" break="no"/>ṅkuṭaiyāṉ tirucciṟṟampalamu
+<lb n="5" break="no"/>tuṭaiyāṉ pāriyai paḷḷiyāḻ
+<lb n="6" break="no"/>viyum Ivaḷtaṅkai tirumakali 
+<lb n="7" break="no"/>yaṅ koṇṭāḷum tirumuṉpu E<note n="544-1">There is stroke over the letter ‘e’ which may be iṅnored.</note>riya
+<lb n="8"/>vaitta cantiviḷakku <unclear>I</unclear>raṇṭukku
+<lb n="9" break="no"/>m policai koṇṭu Erikka cipa
+<lb n="10" break="no"/>ṇṭārattu Oṭukkiṉa <unclear>k</unclear>ācu Iraṇ
+<lb n="11" break="no"/>ṭāyirattuaṟupatu Ikkācil po
+<lb n="12" break="no"/>licaiy koṇṭu cantirātitta
+<lb n="13"/>varai Erikka kaṭavatā<unclear>ka</unclear><note n="544-2">Below this a line which runs tevar eriyak kaṭava</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.468 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">543-544</citedRange>
+			<citedRange unit="item">468</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 20.96: original edition by G. S. Gai</title>
+				<title type="alt">No. 96. (B.K. No. 87 of 1938-39.) KUNDGŌḶ, KUNDGOL TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv20p0i0096</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Fragment of a slab built into a wall of Gaṅgādharēśvara temple.</hi></p>						
+
+						<p>[Tribhuvanamalla ?]</p>						
+
+						<p>This fragmentary record refers to the reign of a Chālukya king • • • • • <hi rend="bold">malladēva.</hi> The details of the date, etc., are lost. It mentions a gift to Kāḷōja, son of Bammōja who is called the <hi rend="italic">Sūtradhāri</hi> of God Svayaṁbhū.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="1" unit="character"/> jayatyāviṣkṛtaṁ viṣṇōrvvārāhaṁ kṣōbhitārnnavaṁ dakṣiṇōnnatadaṁṣṭrā
+<lb n="2" break="no"/> <gap reason="lost" quantity="1" unit="character"/> graviśtāntabhuvanaṁ vapuḥ © namastasmaivarāhāya līlayā
+<lb n="3"/> <gap reason="lost" quantity="3" unit="character"/> tē mahī khurāntaragatō yasya mēruḥ khaṇakhaṇāyatē
+<lb n="4"/> <gap reason="lost" quantity="4" unit="character"/> <unclear>ma</unclear>stabhuvanāsraya śrī pṛthvīvallabha mahārājādhirāja paramē <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="4" unit="character"/> <unclear>ma</unclear>bhaṭṭārakaṁ satyāśrayakuḷatiḷakaṁ cāḷukyābharaṇaṁ śrīma <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="6"/> <gap reason="lost" quantity="2" unit="character"/> malladēvara vijayarājya muttarōttarābhivriddhipravarddhamā<unclear>na</unclear><note n="122-1">The slab is broken after this and</note><note n="122-2">The slab is broken after this.</note>
+<lb n="7"/>svayaṁbhūdēvara sūtradhāri bammōjana putraṁ gōtrapavitraṁ sāsi<unclear>rvva</unclear>ra <unclear>bhri</unclear>taṁ bahu<note n="122-3">This and the following line are engraved</note>
+<lb n="8" break="no"/> <gap reason="lost" quantity="1" unit="character"/> vā<unclear>kya</unclear>saṁ<unclear>tōsaṁ</unclear> sarasvatī <gap reason="lost" quantity="5" unit="character"/> dyaṁ kāḷōjaṁge sarvvabādhā parihāra <g type="ddanda">.</g> <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 20.96 by <bibl><ptr target="bib:Gai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Gai1964_01"/>
+			<citedRange unit="page">122</citedRange>
+			<citedRange unit="item">96</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

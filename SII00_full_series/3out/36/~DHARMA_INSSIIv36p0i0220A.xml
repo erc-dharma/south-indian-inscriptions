@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 36.220A: original edition by P Shanmugam</title>
+				<title type="alt">No. 220A. (A.R. No. 220 of 1910.) PĀḌI (Tiruvalidāyam), SAIDAPET TALUK, CHINGLEPUT DISTRICT. On the west and south walls of the central shrine in the Tiruvallīśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv36p0i0220A</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">No king or date. (15th cent. A.D.).</hi></p>						
+
+						<p>In two fragments. Seems to refer to some grant to the temple. The purport of the grant is not clear.</p>						
+
+						<p>I Piece</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>koṭai tirupa <gap reason="lost" quantity="10" unit="character"/> kāṇiāṭci cantirātittavarai cellumpaṭi kuṭuttom <hi rend="grantha">śrī</hi>mā<hi rend="grantha">heśva</hi>rarum
+<lb n="2"/>tāṉattārom Ivai <unclear>vi</unclear>ṭaṅka[ <hi rend="grantha">de</hi>van] Eḻuttu Ivai <unclear>pa</unclear>ṉpanāyaka paṭṭaṉ Ātitta tevaṉ Eḻuttu
+</p>
+
+<p>II Piece</p>
+
+<p>
+<lb n="3" break="no"/> <gap reason="lost" quantity="10" unit="character"/> paṉ kā<hi rend="grantha">śya</hi>pan <gap reason="lost" quantity="1" unit="character"/> <hi rend="grantha"><unclear>g</unclear>ā</hi>vin <gap reason="lost" quantity="1" unit="character"/> <hi rend="grantha">ga</hi>ṭṭa <gap reason="lost" quantity="5" unit="character"/> te taṉā <gap reason="lost" quantity="2" unit="character"/> ḻaka <gap reason="lost" quantity="13" unit="character"/> kala nampi [ <hi rend="grantha">ga</hi>ṭṭaṉ]
+<lb n="4"/>Aḻakiya maṇa<unclear>vā</unclear>ḷap perumāḷ Eḻuttu Ippaṭikku Ivai kārāmpiceṭṭu Irāmaṉ kure <gap reason="lost" quantity="3" unit="character"/> �ruparaṇaṉ Eḻuttu Ippaṭikku Ivai
+<lb n="5"/> <gap reason="lost" quantity="3" unit="character"/> paratāyaṉ Ātikecavap perumāḷ Eḻuttu Ippaṭikku Ivai <gap reason="lost" quantity="3" unit="character"/> ṉṉai Ariya tirukaḻumat <gap reason="lost" quantity="2" unit="character"/> Uṭaiyār
+<lb n="6"/>Eḻuttu Ippaṭikku 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 36.220A by <bibl><ptr target="bib:Shanmugam2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shanmugam2018_01"/>
+			<citedRange unit="page">182</citedRange>
+			<citedRange unit="item">220A</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

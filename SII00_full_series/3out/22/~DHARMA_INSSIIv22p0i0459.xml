@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.459: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 459. (A.R. No. 459 of 1906) MADURAI DISTRICT, MADURAI TALUK, KŌḌIKUḶAM On a stone set up in a field near the Vēdanārāyāṇa-perumāḷ temple</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0459</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription states that the temple of Añjāda-Perumāḷ <hi rend="italic">alias</hi> Vēdanāthar situated on the banks of the Brahmatīrtha in the Tuṅgavaṉam (forest) in Vēlaṅgāl-paṟṟu on the east side of Āṉaimalai, together with its <hi rend="italic">tiruviḍaiyāṭṭam</hi>, its flower gardens and its <hi rend="italic">agarams</hi> (brahmin villages) would be the place of asylum to the <hi rend="italic">nāṭṭār</hi> of Kalavaḻi and the Aiñjunilai-paṟṟu. Aṉaimalai is said to be situated to the north of Tirumōgūr in Teṉpaṟappu-nāḍu.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> teṉpaṟappu
+<lb n="2" break="no"/>nāṭṭut tirumokūr va
+<lb n="3" break="no"/>ṭapāl tiruvāṉaimalaik
+<lb n="4" break="no"/>kkiḻpā<hi rend="grantha">rśva</hi>ttu velaṅ
+<lb n="5" break="no"/>kālpaṟṟil <hi rend="grantha">śrī</hi>tu<hi rend="grantha">ṅga</hi>vaṉa
+<lb n="6" break="no"/><hi rend="grantha">maddhyama</hi>ttu <hi rend="grantha">brahma</hi>tī<hi rend="grantha">rttha</hi>kka
+<lb n="7"/>raiyil nāyiṉār Añcā
+<lb n="8" break="no"/>taperumāḷāṉa ve<hi rend="grantha">da</hi>
+<lb n="9" break="no"/>nā<hi rend="grantha">tha</hi>r koyilum Iva
+<lb n="10" break="no"/>r tiruviṭaiyāṭṭaṅka
+<lb n="11" break="no"/>ḷum tirunantavaṉaṅka
+<lb n="12" break="no"/>ḷum tiruppaṇikaḷum
+<lb n="13"/>Ivar tirunāmattāl
+<lb n="14"/>Eṟiṉa Akaraṅkaḷum ka
+<lb n="15" break="no"/>lavaḻi nāṭṭāṟkum Aiñ
+<lb n="16" break="no"/>cu nilaippaṟṟukkum
+<lb n="17"/><hi rend="grantha">Āśrayam <g type="pc"/></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.459 by <bibl><ptr target="bib:SrinivasaRao1999_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1999_01"/>
+			<citedRange unit="page">385</citedRange>
+			<citedRange unit="item">459</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

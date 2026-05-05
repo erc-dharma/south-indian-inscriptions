@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.611: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 611. (A.R. No. 451 of 1923.) ON A SLAB PRESERVED IN THE TEMPLE OF HANUMAN AT MURADI, RAYADRUG TALUK, BELLARY DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0611</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is dated <hi rend="bold">Śaka 1467, Krōdhi, Śrāvaṇa, ba. 7, Śanivāra</hi> corresponding to <hi rend="bold">A.D. 1544 August 9, Saturday,</hi> in the reign of <hi rend="bold">Sadāśiva-Mahārāya.</hi> It records that, under the orders of the king, <hi rend="bold">Rāmarājaya</hi> granted an order to his barber <hi rend="bold">Koṇḍōja,</hi> exempting the barbers from the tax <hi rend="italic">siddhāya.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>śubhamastu <supplied reason="undefined"><g type="ddanda">.</g></supplied> svasti śrījayābudayaśālivāhana
+<lb n="2" break="no"/>śakavarṣa 1467 krōdhisaṁvatsarada śrāva ba 7 śa lū śrīma
+<lb n="3" break="no"/>drājādhirāja paramēsvara śrīvīrapratāpa sadāsiva
+<lb n="4" break="no"/>mahārāyaru pruthivīrājyaṁ geyivutirdu rāmarājaya
+<lb n="5" break="no"/>na Appaṇe pālisi taṁma kelasanāyiṁda koṁḍōjage taṁma
+<lb n="6"/>sīmeya mēlaṇa nāyaṁdarige sidhāya kaṭṭaḷeya sarva<unclear>mānya</unclear>
+<lb n="7" break="no"/>vāgi pālista silāsāsanā <g type="ddanda">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.611 by <bibl><ptr target="bib:ShamaShastry+Rao1941_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:ShamaShastry+Rao1941_01"/>
+			<citedRange unit="page">618-619</citedRange>
+			<citedRange unit="item">611</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

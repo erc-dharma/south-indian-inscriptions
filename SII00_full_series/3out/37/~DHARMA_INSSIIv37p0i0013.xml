@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.13: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 13. (A.R. No. 449 of 1938-39.) Mācherla, Palnad Taluk, Guntur District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0013</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Broken pillar kept in the Tahsildar's office compound.</p>						
+
+						<p>1135 A.D.</p>						
+
+						<p>This is dated <hi rend="bold">Śaka 1056, Ānanda</hi> (expressed by the chronogram <hi rend="bold"><hi rend="italic">tarka-bāṇa-aṁbara-śaśi,</hi> Pushya ba. 15,</hi> <hi rend="italic">Solar eclipse</hi> corresponding to 1135 A.D., January 16, Wednesday.</p>						
+
+						<p>Incomplete. It records the gift of the village Koppunūru situated in Pallināṇḍu-300, without the let and hindrance, by Mallika, son of Kēśava, for worship and offerings to god Kāḍēśvara. The deity is stated to have been consecrated by Trilōchanapallava at Mahādēvitaṭāka (<hi rend="italic">i.e.,</hi> modern Mācherla).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>ta¨rkkabāṇāṁbaraśaśi saṁkhyā 
+<lb n="2"/>Ānaṁda saṁvatsara pauṣya 
+<lb n="3" break="no"/>ṣṇa paṁcādasyāḥ sū[¨r]yya 
+<lb n="4"/>grahaṇa nimittē mahādēvi 
+<lb n="5"/>taṭākābhyidhānapurē trilōca 
+<lb n="6" break="no"/>napallava pratiṣṭhitāma kā 
+<lb n="7" break="no"/>ḍēśvarākhyāya śivāya <g type="ddanda">.</g> 15 
+<lb n="8"/><g type="ddanda">.</g> kēśava<unclear>pu</unclear>trēṇa mahāma 
+<lb n="9" break="no"/>hēśvarēṇa mallikākhyēna prabhō 
+<lb n="10" break="no"/>dhitātēdvaśaḥ pallināṁḍu dēśa 
+<lb n="11"/>śatatraya va¨rtinaḥ koppunū 
+<lb n="12" break="no"/>ru vākhyaṁ grāmaṁ nivēdhyā 
+<lb n="13" break="no"/>dyupabhōgā¨rtthaṁ sa¨rvvabādhā 
+<lb n="14" break="no"/>parihāraṁ prādāt <g type="danda">.</g> Asmi 
+<lb n="15" break="no"/>n grāmādikē dēvadravyē tva 
+<lb n="16" break="no"/>mēva mallikākhyam Amā 
+<lb n="17" break="no"/>tyatvēna namōya <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.13 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">7-8</citedRange>
+			<citedRange unit="item">13</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

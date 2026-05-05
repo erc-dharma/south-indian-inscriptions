@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.418: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 418. (A.R. No. 388 of 1928.) ON A STONE SET UP IN FRONT OF THE TEMPLE OF SUBRAHMANYA AT SUBRAHMANYA (KUKKE), PUTTUR TALUK, SAME DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0418</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is damaged and dated <hi rend="bold">Śaka 1301, Siddhārthi, Mārgaśira, ba. 10, Va[ḍḍavāra],</hi> corresponding to <hi rend="bold">A.D. 1379 December 4 Saturday,</hi> in the reign of <hi rend="bold">Hariyappa-Voḍeya.</hi> It records that <hi rend="bold">Mādarasa</hi> made a gift of 200 <hi rend="italic">gadyāṇas</hi> for the service of some god (name lost).</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>śrīgaṇādhipataĒ namaḥ <g type="danda">.</g> namastuṁgasiracuṁ
+<lb n="2" break="no"/>bicaṁdracāmaracāravē <g type="danda">.</g> trayilōkyanagarāraṁ
+<lb n="3" break="no"/>bhamūlastaṁbhāya śaṁbhavē <g type="danda">.</g> svasti śakava
+<lb n="4" break="no"/>raśa 1301 neya sidhārthisaṁvatsarada mā
+<lb n="5" break="no"/>rgasira bahuḷa 10 va śrīmaṁmahārājādhirā
+<lb n="6" break="no"/>ja rājaparamēśvara śrīvīrahariyappavoḍeyaru
+<lb n="7"/>pruthvīrājyaṁgeyivalli malappa <gap reason="lost" quantity="4" unit="character"/> voḍeya
+<lb n="8" break="no"/>ra nirūpadiṁ mādarsaru <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="9"/>rdu �yō stanadalli Arasiṁge naḍava <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="10"/>ga 170 kīḷokkaliṁga 30 vubhayaṁ ga 200 teṟuvaru yī
+<lb n="11"/>sthaladi vosage dukha <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="12"/>stānadoḷage Arasina manusage <gap reason="lost" quantity="6" unit="character"/> 
+<lb n="13"/>ḍa mūliga <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="14"/>dēvarige koḍuvaru Arasiṁge <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="15"/>rige Āva Arasu Āva <unclear>kaṭaḷe</unclear> Adhikārigaḷu baṁdare samaṁja<note n="424-1">Two lines after this are much damaged.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.418 by <bibl><ptr target="bib:ShamaShastry+Rao1941_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:ShamaShastry+Rao1941_01"/>
+			<citedRange unit="page">424</citedRange>
+			<citedRange unit="item">418</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

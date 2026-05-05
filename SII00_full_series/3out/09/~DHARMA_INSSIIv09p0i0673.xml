@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.673: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 673. (A.R. No. 385 of 1927.) ON A SLAB SET UP ON THE RIGHT SIDE OF THE ENTRANCE INTO THE KOTESVARA TEMPLE AT KOTESVAR, COONDAPUR TALUK, SOUTH KANARA DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0673</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is damaged and dated <hi rend="bold">Śaka 1484, Dundubhi, Chaitra, śu. 10,</hi> corresponding to <hi rend="bold">A.D. 1562 March 15, Sunday</hi> (not verifiable), in the reign of <hi rend="bold">Sadāśivarāya-Mahārāya</hi> ruling at <hi rend="bold">Vijayanagarī.</hi> It records that, when <hi rend="bold">Sadāśivarāya-Nāyaka</hi> was governing the <hi rend="bold">Tuḷu-rājya</hi> under the king's orders and <hi rend="bold">Kalleya-Yellappa-Voḍeya</hi> was ruling over <hi rend="bold">Bārakūru</hi> under the latter's command, <hi rend="bold">Chituseṭṭi,</hi> son of <hi rend="bold">Gaṇapaseṭṭi</hi> of <hi rend="bold">Basarūru,</hi> caused the construction of a <hi rend="italic">maṭha</hi> and granted land for the service of the god Umāmahēśvara in the <hi rend="italic">maṭha,</hi> for feeding 6 persons daily and for the service of the god Kōṭēśvara, in whose presence the gift was made. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>Ōṁ <supplied reason="undefined"><g type="ddanda">.</g></supplied> namastuṁgaśiraścuṁbi (<g type="danda">.</g>) caṁdracāmaracāravē trailōkyanagarāraṁbhamū
+<lb n="2" break="no"/>lastaṁbhāya śaṁbhavē <supplied reason="undefined"><g type="ddanda">.</g></supplied> śrījayābhyudayaśālivāhanaśakavaruṣa 1484
+<lb n="3"/>saṁdu salu<unclear>va</unclear> duṁdubhisaṁvatsarada caitra śu 10 lu śrīma<supplied reason="omitted">nmahā</supplied>rājādhirāja rājaparamēśvara śrīvī
+<lb n="4" break="no"/>rapratāpa śrīsadāsivarāyamahārāyaru vijayanagariyalu <unclear>sthi</unclear>rarājyaṁgeyivā
+<lb n="5" break="no"/>ga Avara nirūpadiṁda sadāśivarāyanāyakaru tuḷurājyavanu māḍikoṁḍu bā
+<lb n="6" break="no"/>rakūra siṁhāsanadalu kalleya yelappavoḍeyarū rājyavanu pratipālisuva
+<lb n="7"/>kāladalu śrīkōṭīśvaradēvara sa(ṁ)nnidhiyalu basarūra paḍuvakēriya ga
+<lb n="8" break="no"/>ṇapaseṭṭiyara maga holeya baḷiya cituseṭṭiyū śivarātripu
+<lb n="9" break="no"/>ṇyakāladalu māḍida dharmaśāsanada kramaveṁteṁdare kaṭṭisida maṭhada ca
+<lb n="10" break="no"/>tusīme vivara Akasāleya maṭhada gaḍiyiṁdaṁ paḍuvalu maleyāḷa
+<lb n="11"/>voḍeyara maṭhada gaḍiyaṁ baḍagalu dēvālyada madiliṁdaṁ mūḍa
+<lb n="12" break="no"/>lu mūḍa[upparige(ṁ)sarita]diṁda taṁkalu �yo catusīmeyoḷage kaṭida
+<lb n="13"/>maṭhada Umāmahēśvaradēvara naivēdyakke Akki mu <g type="danda">.</g> 10 naṁdādīvige 1 ke E <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="14"/> <gap reason="lost" quantity="1" unit="character"/> mu 4 <g type="ddanda">.</g> nityachatra dina 1 kke jana 6 kke mu <g type="ddanda">.</g> 1 maṭhada pādukege kasava guḍi
+<lb n="15" break="no"/>sidakke mu 1 kōṭīśvaradēvara rudrābhiśēkakke mu 9 Aṁtu mu <unclear>881</unclear> śivarā
+<lb n="16" break="no"/>triya raṁgapūjege ga 3 ¥ 2 yiṁtiṣṭakke biṭa bāḷu haṁgara Adhivāsada
+<lb n="17" break="no"/>lu viṣṇu Āsaraṇara makkaḷu �yośvara <unclear>A</unclear>vara taṁma viṣṇuĀsaraṇana kai
+<lb n="18" break="no"/>yya mūlava koṁḍa bāḷu maneyiṁda mūḍa bayalalu mu 4 <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g> taṁka
+<lb n="19"/>bayalalu mu 2 <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g> 5 Ubhaya mu 7 <g type="ddanda">.</g> 5 teṁka mane baḍaga haṭi <unclear>Aṁ</unclear>ga
+<lb n="20" break="no"/>ḷa kaḷa yi(ṁ)ṣṭakke kōṭīśvaradēvara teru dēvasava tettu naḍava Akki mu 12
+<lb n="21"/>biḍāvā<unclear>ra</unclear> bāḷu viṣṇuĀsaraṇana maga nārāyaṇāsaraṇana
+<lb n="22"/>bāḷu mu 10 ke Ardhaga 86 ge naḍasuva Akki mu 6 kēśavāsaraṇana ma
+<lb n="23" break="no"/>ga nārāyaṇaĀsaraṇana bage gade mu 5 ke Ardhaga 50 naḍuva A
+<lb n="24" break="no"/>kki mu 6 rāyadāsaraṁṇana maga kuṣṇamāsaraṇana bage bāḷu
+<lb n="25"/>gade mu 5 <g type="ddanda">.</g> 5 ge Ardhaga 125 ge naḍasuva Akki mu 6 Aṁtu bage 3 kke
+<lb n="26"/>naḍusuva Akki mu 18 dhanyara mukhāṁtaradalu koṭudu ga 310
+<lb n="27"/>ga haṁdigulliya bāḷu neraṁ baḷiya gaḍiyiṁdaṁ paḍuva
+<lb n="28" break="no"/>lu Āsaraṇakaḷa gaḍiyiṁdaṁ mūḍalu kōṭadhivāsada gaḍi
+<lb n="29" break="no"/>yiṁdaṁ teṁkalu dhanyaru nāraṇasabhāyatana kaiyya mūlava
+<lb n="30"/>koṁḍu bāḷu mu 11 jīkkana bage mu 3 <g type="ddanda">.</g> śaṁkarabhaṭṭara bage ba
+<lb n="31" break="no"/>ḍākareyalu maneya vinaha mu 5 <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g> yere bayalalu chā
+<lb n="32"/> <gap reason="lost" quantity="2" unit="character"/> gaṇiya maneya paḍuvalu dāri Aṁciṁdaṁ mū
+<lb n="33" break="no"/>ḍalu paḍuvalu saha mu 2 <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g> Aṁtu haṁgaḍe baḍākareyiṁ
+<lb n="34" break="no"/>da gaddemu 23 kkenaḍasuva Akki mu 31 mattaṁ dhanyara kaiyya
+<lb n="35"/>mūlava koṁḍa bāḷu saṁkarahorajati maṇi hoṁ
+<lb n="36" break="no"/>ciya bage maneya muṁde voḷabayalu cibāḍiya
+<lb n="37"/>bayalu hiṁdeyabayalu saha mu 81 ga teru kaḷadu naḍa
+<lb n="38" break="no"/>va Akki mu 9 baḍākare nāraṇadhanyana bage vōṇiyiṁda
+<lb n="39"/>mūḍalu dhanyara gaḍi teṁkalu rā<unclear>ja</unclear>ra gaḍi paḍuvalu mū
+<lb n="40" break="no"/>ḍaṇa <gap reason="lost" quantity="6" unit="character"/> dhanyara gaḍi tera <gap reason="lost" quantity="1" unit="character"/> kartara gaḍi paḍuva<note n="665-1">The inscription stops here.</note> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.673 by <bibl><ptr target="bib:ShamaShastry+Rao1941_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:ShamaShastry+Rao1941_01"/>
+			<citedRange unit="page">664-665</citedRange>
+			<citedRange unit="item">673</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

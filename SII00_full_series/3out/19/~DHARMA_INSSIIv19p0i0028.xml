@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.28: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 28. (A.R. No. 192 of 1927.) KĀVĒRIPURAM, BHAVANI TALUK, COIMBATORE DISTRICT. ON THE SOUTH WALL OF THE JALAKAṆṬHĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0028</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records an endowment in gold of 4 <hi rend="italic">kaḻañju</hi> per year, a piece of wet land, a house and a garden, made by the <hi rend="bold">Vaḷañjiyar</hi> (community) of Tuvaḷai, as <hi rend="italic">jīvita</hi> for Araiyaṉ Araiyaṉ and his heirs, for playing on the drum during the <hi rend="italic">śrībali</hi> service in the temple of <hi rend="bold">Nāṭṭīśvara built by</hi> Śāttaṉ Karuvūr <hi rend="italic">alias</hi> <hi rend="bold">Kannaradēva-Māyilaṭṭi</hi> a resident of the same place. This might be an inscription of the Koṅgu king <hi rend="bold">Parakēsari Vikrama-Chōḷa</hi> whose inscription is also found in the same temple.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopparakecaripaṉmaṟku yāṇṭu Iraṇṭāvatu tuvaḷaic cāttaṉ
+<lb n="2"/>karuvūrāṉa kaṉṉarateva māyilaṭṭi Eṭuppitta nāṭṭī<hi rend="grantha">śvara</hi>ttukkut tuvaḷai vaḷañciya
+<lb n="3" break="no"/>roma vaitta pokam <hi rend="grantha">de</hi>varkku <hi rend="grantha">śrī</hi>pali koṭṭu muvaccaṉ Araiya ṉaraiyaṉukkum makkaḷuk kum
+<lb n="4"/>vaitta <hi rend="grantha">ji</hi>vitam Āṇṭuvarai nāṟkaḻañcum muṉṟokku nilamum maṉaiyun toṭṭamum vai<note n="13-2">The inscription stops here.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.28 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">13</citedRange>
+			<citedRange unit="item">28</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

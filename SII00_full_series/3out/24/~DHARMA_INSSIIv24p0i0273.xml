@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 24.273: original edition by H. K. Narasimhaswamy</title>
+				<title type="alt">No. 273. (A.R. No. 372 of 1953-54.) KOṬṬĀRAM; OUTER WALL FACING THE GARUḌA-MAṆḌAPA.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv24p0i0273</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Damaged. Seems to record an endowment of a perpetual lamp for the merit of Vīraya-daṇḍanayāka, a <hi rend="italic">mahāpradhāni</hi> of the king. The record is dated in the <hi rend="bold">10th year</hi> of the king's reign.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śrīmat pra</hi>tā<hi rend="grantha">pa cakra</hi>va<hi rend="grantha">rttika</hi>ḷ po<hi rend="grantha">śa</hi>ḷa <hi rend="grantha">śrī</hi>vī<hi rend="grantha">rarāma</hi>nātatevarkku yāṇṭu <num value="10"><g type="numeral">10</g></num>
+<lb n="2"/><hi rend="grantha"> <gap reason="lost" quantity="3" unit="character"/> <unclear>dh</unclear>ā</hi>nikaḷil <hi rend="grantha">svasti śrīman mahāpradhā</hi>ni<hi rend="grantha"> vīra</hi>ya<hi rend="grantha">daṇḍa</hi>nāyakkarkku
+<lb n="3"/><hi rend="grantha"> <gap reason="lost" quantity="2" unit="character"/> śrīraṅga</hi>nā<hi rend="grantha">tha</hi>ṉukku Oru tirununtā viḷakku Erikkaveṇum
+<lb n="4"/> <gap reason="lost" quantity="3" unit="character"/> viḷakku <gap reason="lost" quantity="5" unit="character"/> tāka niccayittu Itukku <hi rend="grantha">Ubha</hi>yamāka
+<lb n="5"/> <gap reason="lost" quantity="5" unit="character"/> varukiṟa Ā<unclear>ṭṭiṟai</unclear>p <gap reason="lost" quantity="3" unit="character"/> kkuṭimakkaḷil Oṭu<unclear>k</unclear>ki
+<lb n="6"/> <gap reason="lost" quantity="5" unit="character"/> pāmpaṉ namakku <gap reason="lost" quantity="20" unit="character"/> 
+<lb n="7"/> <gap reason="lost" quantity="5" unit="character"/> ṟum kaikkoṇṭu <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="8"/> <gap reason="lost" quantity="5" unit="character"/> mum kūṭa niccayittu<note n="293-1">The rest of the record is lost.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 24.273 by <bibl><ptr target="bib:Narasimhaswamy1982_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Narasimhaswamy1982_01"/>
+			<citedRange unit="page">293</citedRange>
+			<citedRange unit="item">273</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

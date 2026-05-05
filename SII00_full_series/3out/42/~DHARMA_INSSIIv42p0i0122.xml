@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 42.122: original edition by C Somasundara Rao</title>
+				<title type="alt">No. 122. (A.R. No. B. 138 of 1954-55.) Ēlēśvaram, Devarakonda Taluk, Nalgonda District, Andhra Pradesh.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv42p0i0122</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a granite pillar set up in front of the Śiva temple on the bank of the Kṛishṇā.</p>						
+
+						<p>[Kākatīya Gaṇapatidēva-mahārāja].</p>						
+
+						<p>Dated in <hi rend="italic">Saumya, Phālguna,</hi> ba. 11.</p>						
+
+						<p>Seems to record the gift of the village Taḍimaḍa in Kanna-munnūru by Vēgeyadēva, Mandaya and Gaṇapaya, who are styled <hi rend="italic">gandhahasti-gajasāhiṇis</hi> for the merit of Kākatīśvara Gaṇapatidēvamahārāja. The gift-village was entrusted to Bhāvabrahma-gurudēva Sahadēva.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>gaṁdhahasti gajasāhiṇulaina vēgeya 
+<lb n="2" break="no"/>dēva maṁdaya gaṇapayalu śrīmanmahā 
+<lb n="3" break="no"/>maṁḍaḷēśvara kākatīśvara gaṇapaddēva 
+<lb n="4" break="no"/>mahārājulakuṁ buṇyamugā 
+<lb n="5" break="no"/>nu kannamunnūṁti(ṭi)lōnu śrī yē 
+<lb n="6" break="no"/>lēśvaradēvara gosaviṭivirālaku 
+<lb n="7"/>Icina Ūru taḍimaḍa dīniṁ 
+<lb n="8" break="no"/>baḍasinavāriki saumya saṁvatsara phā 
+<lb n="9" break="no"/>lguṇa ba 11 sō śrīmatu bhāva 
+<lb n="10" break="no"/>brahmagurudēvara sahadēvara <unclear>va</unclear> 
+<lb n="11" break="no"/>śānaku <unclear>tripuruṣaṁ</unclear> mallināthadē 
+<lb n="12" break="no"/> <gap reason="lost" quantity="5" unit="character"/> pu naḍapaṁggala<unclear>vāru</unclear> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 42.122 by <bibl><ptr target="bib:SomasundaraRao2020_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SomasundaraRao2020_01"/>
+			<citedRange unit="page">98-99</citedRange>
+			<citedRange unit="item">122</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

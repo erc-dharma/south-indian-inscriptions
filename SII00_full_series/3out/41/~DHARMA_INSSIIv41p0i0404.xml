@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 41.404: original edition by S. Rajagopal</title>
+				<title type="alt">No. 404. (A.R. No. 619 of 1905.) Veḷḷiyyarasal, Erode Taluk, Coimbatore District. On the west wall of the central shrine in the Māndīśvara temple at Veḷḷiyyarasal.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv41p0i0404</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Koṅgu, Vīrarājēndradēva, Year 15+1 = 1223 A.D.</hi></p>						
+
+						<p>An endowment of five <hi rend="italic">paḻañjalākai-achchu</hi>, made by Kaṉakapālaṉ to the temple Mandāniśvaram-uḍaiyār in Vaḷḷi-eṟichchal in Kāngeya-nāḍu, for food offerings and lamps.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> virairā<supplied reason="omitted">j</supplied>e<unclear>n</unclear>tira tevarkku* yāṇṭu patiṉañcāvataṟketirāvatu* kāṅkeyanāṭṭu vaḷ<unclear>ḷi</unclear>eṟiccalil Irācakecaripuramuṭai
+<lb n="2" break="no"/>yār<unclear>k</unclear>ku <unclear>rāca</unclear>yaṉ kaṉakapālaneṉ Āḷuṭaiyār mānatāṉi<hi rend="grantha">śvara</hi>muṭaiyārkkut tirupputiyitukku Oṭukkiṉa paḻaṅkācu calākai Añcumikoyil 
+<lb n="3" break="no"/>kāṇiuṭaiya civa<hi rend="grantha">brāhma</hi>ṇaril kāci<hi rend="grantha">pa</hi> kottirattu paṭṭaṉ Uṭaiyāṉ Āṉa kulatipa paṭṭaṉum Uttamaṉ paṭṭaṉum Ivvaccu kaikkoṇṭu Āṇṭuvarai po <gap reason="lost" quantity="3" unit="character"/> tā <gap reason="lost" quantity="3" unit="character"/> Arici paccai Arici Eḻu kuṟuṇi muṉ
+<lb n="4" break="no"/>ṉāḻi puḻuṅkal Arici nāṉāḻi paruppu miḷakum neyyamutum tiru<supplied reason="omitted">viḷa</supplied>kku neyyum Aṭaikkā<unclear>yamutu</unclear>m yilaiamutukku Arici kuṟuṇi nāṉāḻi Āka Arici patakku muṉṉāḻiyum Āka yimmariya <gap reason="lost" quantity="3" unit="character"/> <hi rend="grantha">heśva</hi>rar I<unclear>ra</unclear><hi rend="grantha">kṣi</hi>kkavum <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 41.404 by <bibl><ptr target="bib:Rajagopal2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Rajagopal2019_01"/>
+			<citedRange unit="page">397-398</citedRange>
+			<citedRange unit="item">404</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

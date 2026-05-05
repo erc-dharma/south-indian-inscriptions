@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.538: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 538. (A.R. No. 687 of 1920.) ON A STONE BUILT INTO THE ROOF OF THE TEMPLE OF AGASTYĒŚVARA, ĪVANI, TENALI TALUK, SAME DISTRICT. The year is missing.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0538</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>States that <hi rend="bold">Sōmidēva-Nāyaṅka</hi> made a gift of land to the temple of Agastīśvara of <hi rend="bold">Īvani</hi> for the merit of <hi rend="bold">Pratāpa-Rudradēva.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/><ce>illegible</ce>
+<lb n="2"/>ṁvatsaramāgha 
+<lb n="3"/>śu 1 gu svastiśrī 
+<lb n="4" break="no"/>manmahāmaṁ 
+<lb n="5" break="no"/>ḍalēśvara kāka 
+<lb n="6" break="no"/>tiyyapratāpa 
+<lb n="7" break="no"/>rudradēvama 
+<lb n="8" break="no"/>harājulaku 
+<lb n="9"/><unclear>dha</unclear>¨rmmu<unclear>vugā</unclear>nu 
+<lb n="10"/>kuncca<unclear>varaṁ</unclear> Aga<unclear>stī</unclear> 
+<lb n="11" break="no"/><unclear>śvaru</unclear> dīpānaku śrīmatsō<note n="291-1">Themat are inserted below the line.</note>
+<lb n="12" break="no"/>midēvanāya 
+<lb n="13" break="no"/>ṁkulu Ivani A 
+<lb n="14" break="no"/>gastīśvara śrīma 
+<lb n="15" break="no"/>hādēvaraku sa¨rvva 
+<lb n="16" break="no"/>mānyamugānu A 
+<lb n="17" break="no"/>ṁgaraṁgabhōgāla 
+<lb n="18" break="no"/>ku Ivani kha <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="19"/><unclear>cōḍāvarāna</unclear> kha 
+<lb n="20"/>1 Eṟakalapūṁḍi 
+<lb n="21"/>kha 1 [du¨rggaṁ]pūṁ 
+<lb n="22" break="no"/>ḍi kha 1 baḍḍapūṁ 
+<lb n="23" break="no"/>ḍi kha 1 Ivanipū 
+<lb n="24" break="no"/>vulatōṭa bhaktuni 
+<lb n="25" break="no"/>ki na 5 Evvaṁḍēni Īdha 
+<lb n="26" break="no"/>¨rmmuvu koni Āḍanivā 
+<lb n="27" break="no"/>ṁḍu gaṁggakaṟita kavile 
+<lb n="28" break="no"/>la<unclear>ṁ</unclear> boḍicinavāṁḍu tana 
+<lb n="29"/>peddakoḍukukapāḷāna 
+<lb n="30"/>guḍicinavāṁḍu <g type="ddanda">.</g> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.538 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">291</citedRange>
+			<citedRange unit="item">538</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

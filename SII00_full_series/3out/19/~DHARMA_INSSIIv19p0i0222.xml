@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.222: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 222. (A.R. No. 177 of 1907.) TIRUPPALĀTTUṞAI, TIRUCHIRAPALLI TALUK, TIRUCHIRAPALLI DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE, ĀDIMŪLEŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0222</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The details of the date viz., Mithuna, Saturday, Chitta, give the possible equivalent A.D. 979, June 7 in the reign of Uttama-Chōḷa.</p>						
+
+						<p>The inscription states that the assembly <hi rend="italic">(peruṅguṟi-sabhai)</hi> of Uttamaśīlichaturvēdimaṅgalam on the southern bank (of the Kāvēri) received 4 <hi rend="italic">mā</hi> of taxfree land within the boundaries of the village, from one <hi rend="bold">Mūrtti Māṉavīraṉ of Pirambil in Paṭṭina-kūṟṟam</hi> for the formation of a <hi rend="italic">maḍaiviḷāgam</hi> (round the temple) in exchange for (a smaller area of) half a <hi rend="italic">mā</hi> of <hi rend="italic">maḍaiviḷāgam</hi> already formed, the income from which was endowed by Māṉavīraṉ for the daily offerings and worship to the image of <hi rend="bold">Sūryadēva</hi> set up by him in the temple. The inscription mentions a hall called <hi rend="bold">Dayāparaṉ-ambalam</hi> in which the assembly met for transacting their business.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopparake<hi rend="grantha">sa</hi>ripa<hi rend="grantha">rmma</hi><supplied reason="omitted">r</supplied>kku yāṇṭu 9<g type="dash"/>Āvatu tenkarai <hi rend="grantha">brahmade</hi>yam <hi rend="grantha">śrī</hi> Utta
+<lb n="2" break="no"/>maciliccatu<hi rend="grantha">rvve</hi>timaṅkalattup peruṅkuṟi<hi rend="grantha">sabhai</hi>yom Ivāṭṭai mi<hi rend="grantha">dhu</hi>ṉanā<supplied reason="omitted">ya</supplied>ṟṟuc caṉi
+<lb n="3"/>kkiḻamai peṟṟa cittiraināṉṟu pakal <hi rend="grantha">day<choice><sic>a</sic><corr>ā</corr></choice></hi>paraṉampalatte <hi rend="grantha">sabhai</hi>yo<hi rend="grantha">m</hi> kūṭi I
+<lb n="4" break="no"/>ru<hi rend="grantha">n</hi>tu paṭṭiṉakkūṟṟattup pirammiluṭaiyāṉ murtti māṉaviraṉoṭu <hi rend="grantha">sa</hi>
+<lb n="5" break="no"/><hi rend="grantha">bhai</hi>yo<hi rend="grantha">m</hi> pariva<hi rend="grantha">rtta</hi>ṉai ceyta paricāvatu Ivvuttamaciliccatu<hi rend="grantha">rvve</hi>tima
+<lb n="6" break="no"/>ṅkalattu vaṭakuṟai vira<hi rend="grantha">śrī</hi>kāmukavatikku me<supplied reason="omitted">r</supplied>kku Uttamacilivā<supplied reason="omitted">y</supplied>kkālukku va
+<lb n="7" break="no"/>ṭakku kiḻakkuniṉṟu 4 kaṇṇuṟṟu mutaṟcatirattu viravalli colaippirāṉ <hi rend="grantha">krama</hi>vitta
+<lb n="8"/>ṉuḷḷiṭṭa catukkattā<unclear>r</unclear>kku<unclear>ṭ pa</unclear>ṭṭa Aiñcāmpāṭakam Iraṇṭu māvil vaṭakkaṭaiya tirumiḻa
+<lb n="9" break="no"/>lai kaviciyaṉ caṭaiyaṉ [ <hi rend="grantha">bha</hi>ṭ] ṭaṉ pakkal Ivaṉ vilaikoṇṭu Uṭaiya nilam 4 cce
+<lb n="10" break="no"/>yyum <hi rend="grantha">sabhai</hi>yommiṭai viḷākattukkuāka Aṟutippariva<hi rend="grantha">rtta</hi>ṉaiyāl koṇṭu Inila
+<lb n="11" break="no"/>m Iṟaikāvalukkuāka Irukaḻañcu poṉ Ivaṉpakkal <hi rend="grantha">sabhai</hi>yom koṇṭu Ippari<unclear>cu</unclear>
+<lb n="12"/>Iṟaiiḻiyttu Ivaṉitāyirunta Inilam 4 māvum Aṟuti parivattaṉaiyāṟ koṇṭu Itaṟ
+<lb n="13" break="no"/>kku talaimāṟuāka murtti māṉaviraṉukku Aṟutipariva<hi rend="grantha">rtta</hi>taṉaiyāl kuṭutta nilamāvatu <hi rend="grantha">śrī</hi> kāmu
+<lb n="14" break="no"/>kavatikku me<unclear>r</unclear>kku Āticcavāykkālukku vaṭakku kiḻakkuniṉṟu nālāṅkaṇṇāṟ<unclear>ṟu te</unclear>ṉ <unclear>m</unclear>āmaṭaivi
+<lb n="15" break="no"/>ḷākamāy kuṭiirukkiṟa nilam Araimāvum Aṟutippariva<hi rend="grantha">rtta</hi>ṉaiyāl kuṭuttu Ini<supplied reason="omitted">la</supplied>m tirup pāṟṟuṟai
+<lb n="16"/>Ivaṉ ṉeḻuntaruḷuvitta <hi rend="grantha">sūryade</hi>varkku Oru nāḻi Araciyāl loru tiruvamitukkum kaṟiya
+<lb n="17" break="no"/>mutukkum muṉṟu <hi rend="grantha">sandhi</hi>yum tiruvārātiṉai ceyuntaṉaip potaikku Iraṇṭu tiruviḷak
+<lb n="18" break="no"/>kukkum Āka Aṟutippariva<hi rend="grantha">rtta</hi>ṉaiyāl kuṭuttu Ipparitu Aṟutippariva<hi rend="grantha">rtta</hi>ṉaiyolai
+<lb n="19"/>ce<supplied reason="omitted">y</supplied>tu kuṭuttom peruṅkuṟi<hi rend="grantha">sabhai</hi>yom Itu Iṟaikāṭṭiṉāraiyum
+<lb n="20"/>Iṟaikāṭṭap paṇiccāraiyu<supplied reason="omitted">m</supplied> kaṇakkar Iṟaikāṭṭa <gap reason="lost" quantity="7" unit="character"/> yaṉṟupatupoṉ <gap reason="lost" quantity="2" unit="character"/> mutuṟa <hi rend="grantha">panmāheśvarare</hi>y <gap reason="lost" quantity="9" unit="character"/> kuṭuttom peruṅkuṟi<hi rend="grantha">sabh</hi>aiyom Itu pa<hi rend="grantha">nmāhe<unclear>śvararakṣai</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.222 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">113</citedRange>
+			<citedRange unit="item">222</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

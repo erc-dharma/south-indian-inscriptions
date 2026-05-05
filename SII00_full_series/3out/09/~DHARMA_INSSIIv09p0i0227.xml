@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.227: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 227. (A.R. No. 395 of 1904.) ON TWO FACES OF A PILLAR SET UP IN A FIELD EAST OF CHILAMKURU, KAMALAPURAM TALUK, CUDDAPAH DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0227</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is dated <hi rend="bold">Chālukya-Vikrama year 56, Parīdhāvi, Kārtika, amāvāse, Budhavāra</hi> corresponding to <hi rend="bold">A.D. 1132 November 9, Wednesday.</hi> It refers itself to the period when the <hi rend="italic">Mahāmaṇḍalēśvara</hi> <hi rend="bold">Traiḷōkyamalla-Mallidēva-Mahārāja</hi> was ruling over <hi rend="bold">Muḷiki three-hundred</hi> and <hi rend="bold">Bhīvarasa</hi> was administering <hi rend="bold">Chiṟmakūru.</hi> It records that Nālikabbe, the mother of Siṅgeya who was the agent of Siṅgarasa, caused the construction of a tank at Chiṟmakūru.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>© svasti śrīmaccāḷukya
+<lb n="2" break="no"/>vikramagālada 56
+<lb n="3" break="no"/>neya parīdhāvi saṁva
+<lb n="4" break="no"/>tsarada kārttikadama
+<lb n="5" break="no"/>vāse budhavāradaṁ
+<lb n="6" break="no"/>du śrīmanmahāmaṁ
+<lb n="7" break="no"/>ḍaḷēśvaraṁ trailōkya ma<note n="232-1">The letterkya is written below the line.</note>
+<lb n="8" break="no"/>llamallidēvama
+<lb n="9" break="no"/>hārājaru muḷi
+<lb n="10" break="no"/>ki mūnūṟanāḷu
+<lb n="11" break="no"/>ttiralu mahāpradhā
+<lb n="12" break="no"/>naṁ saṁdhivigrahi siṁ 
+<lb n="13" break="no"/>garasara kārahaka
+<lb n="14"/>siṁgeyanabbe nālika
+<lb n="15" break="no"/>bbe bhīvarasanāḷke
+<lb n="16" break="no"/>ya ciṟmakūralaga
+<lb n="17" break="no"/>ḷisida keṟe <g type="ddanda">.</g> svada
+<lb n="18" break="no"/>ttaṁ paradattaṁ vā
+<lb n="19"/>yō harēti vasuṁ
+<lb n="20" break="no"/>dharā saṣṭirvvarṣasa<note n="233-1">The inscription stops here.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.227 by <bibl><ptr target="bib:Shama+Rao1939_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shama+Rao1939_01"/>
+			<citedRange unit="page">232-233</citedRange>
+			<citedRange unit="item">227</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

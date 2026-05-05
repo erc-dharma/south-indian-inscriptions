@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 40.96: original edition by K. Munirathnam</title>
+				<title type="alt">No. 96. (A.R. No. B. 75 of 1930.) Pōlepalle, Palnad Taluk, Guntur District, Andhra Pradesh.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv40p0i0096</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a stone called Boḍḍurāyi in the village.</p>						
+
+						<p>Damaged. Containing invocations to some of the local Śakti deities. In late characters.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>bhūlōka śakti <g type="danda">.</g> braṁhmarā 
+<lb n="2" break="no"/>kṣasi <g type="danda">.</g> rēṇuka <g type="danda">.</g> Aṁkāḷa <g type="danda">.</g> grā 
+<lb n="3" break="no"/>ma pōlēri <g type="danda">.</g> kāḷikā <g type="danda">.</g> hu <g type="danda">.</g> re 
+<lb n="4" break="no"/>ṇukā <g type="danda">.</g> huṁ <g type="danda">.</g> nirālāṁba pu 
+<lb n="5" break="no"/>¨rcce <g type="danda">.</g> tappite pāḷakāni <g type="danda">.</g> kaṁ 
+<lb n="6" break="no"/>daḷadānaṁ ceśe <g type="ddanda">.</g> 
+<lb n="7"/>tarivāramulukanugā 
+<lb n="8" break="no"/> <gap reason="lost" quantity="1" unit="character"/> ma¨rtānu <g type="danda">.</g> rā 
+<lb n="9" break="no"/>ṁkenu gajarāju sā 
+<lb n="10" break="no"/>vulō <g type="danda">.</g> punnami 
+<lb n="11"/> <gap reason="lost" quantity="2" unit="character"/> mavuttu bhavattu 
+<lb n="12"/>paramāttu śaṁkhaṁ 
+<lb n="13"/>mēdu kāmarūpiṇi 
+<lb n="14"/>A¨rdakāmarūpiṇi <g type="danda">.</g> śrī kā 
+<lb n="15" break="no"/>marūpiṇi nārennatā <gap reason="lost" quantity="1" unit="character"/> ṁdāṁ 
+<lb n="16" break="no"/>bba <g type="danda">.</g> rājitarajita <g type="danda">.</g> brahmēṁdra 
+<lb n="17"/>bhayaṁkkara tāpatra yōga ba 
+<lb n="18" break="no"/>hu Āvuḷarāya <g type="danda">.</g> sarvatā <gap reason="lost" quantity="1" unit="character"/> vānu 
+<lb n="19"/> <gap reason="lost" quantity="5" unit="character"/> prāyiccikājēlanā 
+<lb n="20-22"/><ce>lines are damaged</ce>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 40.96 by <bibl><ptr target="bib:Munirathnam2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2019_01"/>
+			<citedRange unit="page">92-93</citedRange>
+			<citedRange unit="item">96</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

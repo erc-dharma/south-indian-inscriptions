@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 25.60: original edition by M. D. Sampath</title>
+				<title type="alt">No. 60. (A.R. No. 60 of 1908.) VAḺUVŪR, WANDIWASH TALUK, NORTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv25p0i0060</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the South wall of the <hi rend="italic">maṇḍapa</hi> in front of the central shrine in the Brahmapurīśvara temple.</p>						
+
+						<p><hi rend="bold">Tribhº Kulōttuṅgachōḷadēva, year 17: 1194-95 A.D.</hi></p>						
+
+						<p>This inscription records the gift of <hi rend="italic">dēvadana</hi> lands at Puravarāinallūr for lamps to the deity Tiruvayaṉīśuram-uḍaiya-nāyaṉār of Vaḻugūr in Irumbēḍu-nāḍu in Jayaṅgoṇḍaśoḻa-maṇḍalam by the <hi rend="italic">nyāyattār</hi> including <hi rend="italic">Kuṟuśēkaṟa</hi> Kaḷappāḷa Sāvakanāyaṉ Ammaiappasāvakan.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> tiripuvaṉaccakkaravarttikaḷ ci kulottuṅka coḻa tevaṟku yā
+<lb n="2" break="no"/>ṇṭu <num value="17"><g type="numeral">10</g> 7</num>āvatu <hi rend="grantha">ja</hi>yaṅkoṇṭa coḻamaṇṭalattu Irum peṭunā<supplied reason="omitted">ṭ</supplied>ṭu 
+<lb n="3"/>vaḻukūr nāyaṉār tiruvayaṉiccara(m) muṭaiyār<supplied reason="omitted">k</supplied>ku veṭṭi kuṟucekaṟa kaḷappāḷaccāva<supplied reason="omitted">ka</supplied>
+<lb n="4" break="no"/>ṉ<unclear>ā</unclear>ṉa Ammai Appa cāvakan Uḷḷiṭṭa niyāyatto<supplied reason="omitted">m</supplied> Iṉayinār tiruvayaniccara
+<lb n="5" break="no"/>muṭaiyār<supplied reason="omitted">k</supplied>ku nāṅkaḷvaicca(c) tiruviḷakku Iraṇṭukkum In nāyanār tevatānaṅkaḷ pu
+<lb n="6" break="no"/>ravari nallū<supplied reason="omitted">ri</supplied>lp poruṉi viḷākamum ve<unclear>ṭ</unclear>ṭi Arimukkai<supplied reason="omitted">yum</supplied> viḷakku Iraṇṭukku viṭa tom<note n="73-1">Read ‘viṭṭa tom’</note>
+<lb n="7"/> <gap reason="lost" quantity="1" unit="character"/> <note n="73-2">An expression ‘ittaṉmam iṟakkuvāṉ’ which is wanting here is found written inscription ṇo. 58 of 1908.</note>keṅkai Iṭai kumari Iṭai cetaṉ pāva(ā)m kovārar<note n="73-3">Read ‘ceytāṉ pāvam koḷvār’</note><supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 25.60 by <bibl><ptr target="bib:Sampath2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath2012_01"/>
+			<citedRange unit="page">72-73</citedRange>
+			<citedRange unit="item">60</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

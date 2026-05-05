@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.482: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 482. (A.R. No. 570 of 1909.) ON A SLAB SET UP IN THE COURTYARD OF THE TEMPLE OF VANKĒŚVARA, DURGI, PALNAD TALUK, GUNTUR DISTRICT. Ś. 1219. (Hēviḷambi)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0482</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>States that <hi rend="bold">Goṅgula Pōchi-Nāyaka,</hi> a dependent of General <hi rend="bold">Rudradēva,</hi> made a gift of land to the temple Vaṅkēśvaradēva of <hi rend="bold">Dugya</hi> (Durgi). The general is said to be ruling the land.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrī śakavaruṣaṁbulu 1219 A 
+<lb n="2" break="no"/><unclear>ṁdi</unclear>hēmaḷaṁbisaṁvatsara <g type="danda">.</g> puṣya śudda 1 <unclear>gu</unclear> 
+<lb n="3" break="no"/>ruvāramunāṁḍu makarasaṁkrāṁ<unclear>tipu</unclear> 
+<lb n="4" break="no"/>ṇyakālamu nappuḍu svasti śrī manmahā <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="5"/>sakalasēnādhipati rudradēvaṁḍu prithivi<unclear>rā</unclear> 
+<lb n="6" break="no"/>jyamu sēyucuṁḍagānu tatpā<unclear>dapadmō</unclear> 
+<lb n="7" break="no"/>pajīvi yaina paranārīsahōdara rā <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="8"/>yakadaradamakapāṁcāla svāmidrōhara 
+<lb n="9" break="no"/>gaṁḍa śrīAhōbaḷadēvadivyaśrīpādapadmārā 
+<lb n="10" break="no"/>dhaku ṁḍaina svasti śrīmatu goṁgulapōcināyu 
+<lb n="11" break="no"/>ṁḍu dugya śrīvaṁkēśvaradēvara Aṁgaraṁgabhō 
+<lb n="12" break="no"/>gālaku Iccina vritti dugyapōlaṁlōni nidhinaṁ pāṭi 
+<lb n="13"/>tervu Uttarāna cavuṭa paḍiyala kaḍanu rēgaḍu 
+<lb n="14"/>khā nīrnēla rēvināyini ceṟvu venaka bāvi Uttarā 
+<lb n="15" break="no"/>na pa <g type="danda">.</g> Āpaḍmaṭa pa <g type="danda">.</g> Icēlaku paṁgatappu su 
+<lb n="16" break="no"/><unclear>laga</unclear> suṁkālu sa¨rvvamānyaṁ 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.482 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">261</citedRange>
+			<citedRange unit="item">482</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 36.193: original edition by P Shanmugam</title>
+				<title type="alt">No. 193. (A.R. No. 193 of 1910.) KAḌAGATTŪR, DHARMAPURI TALUK, SALEM DISTRICT. On the south wall of the Chōḻīśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv36p0i0193</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Dēvarāya. Śaka 1352 = A.D. 1430.</hi></p>						
+
+						<p>(Śaka 1352, <hi rend="italic">Sādhāraṇa, Tai, śu.</hi>, 1, Sunday, <hi rend="italic">Tiruvōṇam</hi> = A.D. 1431, January 14, Sunday.).</p>						
+
+						<p>Unfinished. Mentions Kaḍaikkoṭṭūr <hi rend="italic">alias</hi> Dēsi Uyakoṇḍachōḻa-paṭṭaṇam in Tagaḍa-nāḍu, a subdivision of Gaṅgai-nāḍu which was a district of Nigarilichōḻa-maṇḍalam.</p>						
+
+						<p>Published in <hi rend="italic">KRMK.</hi>, No. 122/1974, p. 177.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī manhā maṇḍa</hi>le<hi rend="grantha"><unclear>śva</unclear></hi>
+<lb n="2" break="no"/>ra<hi rend="grantha">n</hi> rā<hi rend="grantha">jādhi</hi>rā<hi rend="grantha">ja</hi> rā<hi rend="grantha">japa</hi>rame
+<lb n="3" break="no"/><hi rend="grantha">śva</hi>ra<hi rend="grantha">n śrī vīrapra</hi>tā<hi rend="grantha">pade</hi>
+<lb n="4" break="no"/>varāya <hi rend="grantha">mahā</hi>rāyaṟku <hi rend="grantha">śa</hi>kā
+<lb n="5" break="no"/><hi rend="grantha">ptam <num value="1352"><g type="numeral">1000</g> 3 <g type="numeral">100</g> 5 <g type="numeral">10</g> 2</num></hi>ṉ me
+<lb n="6" break="no"/>ṟcellāniṉṟa cātāraṇa varu
+<lb n="7" break="no"/><hi rend="grantha">ṣa</hi>ttu tai mā<hi rend="grantha">sa</hi>ttu <hi rend="grantha">pūrva</hi>pa
+<lb n="8" break="no"/><hi rend="grantha">kṣa</hi>ttu <hi rend="grantha">pra</hi>tamaiyum nāyaṟṟukkiḻamai
+<lb n="9"/>yum peṟṟa tiruvoṇattu nāḷ nikarili
+<lb n="10" break="no"/>coḻa maṇṭa<unclear>la</unclear>ttuk kaṅka nāṭṭut takaṭa nāṭṭu kaṭai
+<lb n="11" break="no"/>kkoṭṭūrāṉa teci Uyakkoṇṭacoḻa paṭṭaṇattu
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 36.193 by <bibl><ptr target="bib:Shanmugam2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shanmugam2018_01"/>
+			<citedRange unit="page">161</citedRange>
+			<citedRange unit="item">193</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

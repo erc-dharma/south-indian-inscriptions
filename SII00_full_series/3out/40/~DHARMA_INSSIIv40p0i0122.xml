@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 40.122: original edition by K. Munirathnam</title>
+				<title type="alt">No. 122. (A.R. No. B. 101 of 1930.) Gōpālapuram, Kamalapuram Taluk, Cuddapah District, Andhra Pradesh.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv40p0i0122</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a stone set up near a well to the east of the village.</p>						
+
+						<p>This is dated Śaka 1747, Pārthiva, Jyēshṭha, ba. 5.</p>						
+
+						<p>States that a fourth portion of the land belonging to Sādhu Subbana-Sōmayāji was granted as remuneration to one Gaṅgavaram Timmā-Reḍḍi for a well dug by him in the farmer's land.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrī vijayābhyudaya śālivāhana śakava¨rṣaṁbulu 1747 Agunēṭi 
+<lb n="2"/>cāṁdramānēna pā¨rthiva nāma saṁvatsaraṁ jēṣṭa ba 5 yallūrilō vuṁḍē sā 
+<lb n="3" break="no"/>dhu rābhutabhaṭlavāri naṭṭaṁpaina pāpabhaṭluvāri pautṛlaina ceṁcu sōmayājulavāri pu 
+<lb n="4" break="no"/>trulaina sādhusubbana sōmayājulavāri mānyaṁlō gaṁgavaraṁ tiṁmāreḍḍi bāvi kaṭṭiṁci 
+<lb n="5"/>nā <gap reason="lost" quantity="1" unit="character"/> dhanaṁ bhāvi tīstimi ganuka bhūmilō nāligōpāluda samaṁdhaṁgā bhūmi yiyyagala 
+<lb n="6" break="no"/>vāramu 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 40.122 by <bibl><ptr target="bib:Munirathnam2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2019_01"/>
+			<citedRange unit="page">116</citedRange>
+			<citedRange unit="item">122</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

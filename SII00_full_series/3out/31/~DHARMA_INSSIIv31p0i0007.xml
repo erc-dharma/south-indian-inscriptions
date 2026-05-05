@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 31.7: original edition by C. A. Padmanabha Sastri and T. S. Ravishankar</title>
+				<title type="alt">No. 7. (A.R. No. B 298 of 1938.) VELDURTI, KAMALAPURAM TALUK, CUDDAPAH DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv31p0i0007</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a slab set up in the temple of Chennakēśavasvāmi in the village.</p>						
+
+						<p>PUṆYAKUMĀRA.</p>						
+
+						<p>7th century A.D.</p>						
+
+						<p>This unfinished inscription can be assigned to 7th century A.D. on palaeographical as wall as internal evidences.</p>						
+
+						<p>It seems to record the gift of land by Eṛikal Mutturāju to a brāhmin Pālasarmma on the day of [kārttika]māsāpūrṇṇami when his lord Pumyakumāra [was ruling over the earth]. The title <hi rend="italic">atiśaya raṭṭakuḍi</hi> is mentioned along with other official <hi rend="italic">raṭṭkuḍi.</hi></p>						
+
+						<p>(Pub. <hi rend="italic">Epigraphia Indica.</hi> Vol. XXVII, pp 230 ff.)</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> Erikalśu<unclear>tu</unclear>rāju <unclear>lpi</unclear>tamapallabha puṇyakumāra <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="2"/>Atiśayaraṭṭaḍlakuḍlanu <gap reason="lost" quantity="3" unit="character"/> ku¨rḷa pā <gap reason="lost" quantity="3" unit="character"/> raṭṭakuḍla 
+</p>
+
+<!--<h4>SECOND FACE.</h4>-->
+
+<p>
+<lb n="3"/> <gap reason="lost" quantity="5" unit="character"/> Ēbadi <gap reason="lost" quantity="2" unit="character"/> ma 
+<lb n="4"/> <gap reason="lost" quantity="5" unit="character"/> [kā¨rttika] māsa pū¨rnnami 
+<lb n="5"/> <gap reason="lost" quantity="5" unit="character"/> pālasa¨rmmāriki 
+</p>
+
+<!--<h4>THIRD FACE.</h4>-->
+
+<p>
+<lb n="6"/>dīnikāci kuḍipinanāru bhūmidānaṁbu phalaṁbu 
+<lb n="7"/>vakraṁpaḻakinavāru pañcamahāpātakaṁbupaḍu 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 31.7 by <bibl><ptr target="bib:PadmanabhaSastri2013_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:PadmanabhaSastri2013_01"/>
+			<citedRange unit="page">6</citedRange>
+			<citedRange unit="item">7</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

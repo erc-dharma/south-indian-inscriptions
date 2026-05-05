@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 36.222: original edition by P Shanmugam</title>
+				<title type="alt">No. 222. (A.R. No. 222 of 1910.) PĀḌI (Tiruvalidāyam), SAIDAPET TALUK, CHINGLEPUT DISTRICT. On the west wall of the central shrine in the Tiruvallīśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv36p0i0222</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">(Rājarāja III). Year 33: A.D. 1249.</hi></p>						
+
+						<p>Madurāntaka Pottappichchōḻa mentioned in this inscription could be identified with one of the feudatories of Rājarāja III and the year 33 cited in the inscription perhaps be the regnal year of his overlord (Rājarāja III).</p>						
+
+						<p>Records an order of Madurāntaka Pottappichchōḻa to the <hi rend="italic">Ūrār</hi> granting the income from the village (with the exclusion of old grants assigned as <hi rend="italic">dēvadāṉa iṟaiyili</hi>) of Tiruvallidāyam for undertaking repair in the temple and for feeding the <hi rend="italic">māhēshvaras.</hi> The inscription ends with the signature of Gaṇḍagōpala.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> maturāntaka pottappiccoḻaṉ Olai <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻa maṇṭalattu puḻalk koṭṭattu Am
+<lb n="2" break="no"/>pattūr nāṭṭu tiruvallitāyattu <unclear>Ū</unclear>ravar kaṇṭu taṅkaḷūr Iṟaiyili <hi rend="grantha">de</hi>vatāṉaṅkaḷ nīkki muppat
+<lb n="3" break="no"/>tu mūṉṟāvatu mutal Uṭaiyār tiruvallitāyamuṭaiya nā<supplied reason="omitted">ya</supplied>ṉāṟku tiruppaṇikkup pātiyum <hi rend="grantha">māhe</hi>
+<lb n="4" break="no"/><hi rend="grantha">śvara<supplied reason="omitted">ra</supplied></hi>kku Amutukkup pātiyumāka taṅkaḷūr <hi rend="grantha">sarvamānya</hi>māka <hi rend="grantha">candrādi</hi>ttavarai celvatāka kuṭuttom
+<lb n="5"/>Ippaṭi ceyvate Ivai kaṇṭakopālaṉ Eḻuttu <hi rend="grantha">śrīmāheśvara rakṣai §</hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 36.222 by <bibl><ptr target="bib:Shanmugam2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shanmugam2018_01"/>
+			<citedRange unit="page">183-184</citedRange>
+			<citedRange unit="item">222</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

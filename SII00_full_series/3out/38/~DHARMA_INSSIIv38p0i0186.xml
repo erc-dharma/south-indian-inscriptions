@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.186: original edition by S. Swaminathan</title>
+				<title type="alt">No. 186. (A.R. No. 186 of 1912.) TIRUVOṞṞIYŪR, SAIDAPET TALUK, CHINGLEPUT DISTRICT. On a fourth slab built into the floor of the maṇḍapa infront of the central shrine Ādhipurīśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0186</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">King: [Parāntaka I] Year: 21: 928 A.D.</hi></p>						
+
+						<p>Beginning lost. It records that Mūvēndappallavaraiyaṉ <hi rend="italic">alias</hi> Āditta Piḍāraṉ, son of Vīranārāṇappallavaraiyaṉ, a native of Kūgūr in Vaḍa Paṉaṅgāḍu-nāḍu in Mīkkūṟu (a sub-division) of Chōḷa-nāḍu, made a gift of two Īḻa-lamps and three hundred and sixty sheep to burn two perpetual lamps to the god of Tiruvoṟṟiyūr. He also donated a fly-whisk <hi rend="italic">(chauri)</hi> with a gold handle. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">kk</hi>u yāṇṭu Irupattoṉṟāvatu coḻanā
+<lb n="2" break="no"/>ṭṭu mikkūṟṟu vaṭapaṉaṅkā<unclear>ṭ</unclear>ṭu nā<unclear>ṭ</unclear>ṭu kūkūr viranā<unclear>rā</unclear>
+<lb n="3" break="no"/>ṇappallavaraiyaṉākiya <hi rend="grantha">Aru</hi>ṇm<unclear>o</unclear>
+<lb n="4" break="no"/>ḻi makaṉ muventappallavaraiyaṉā
+<lb n="5" break="no"/><unclear>ki</unclear>ya <hi rend="grantha">Ā</hi>tittapiṭāraṉ tiruvoṟṟiyūr <hi rend="grantha">mahā</hi>
+<lb n="6" break="no"/><hi rend="grantha"><unclear>de</unclear></hi>var<hi rend="grantha">kk</hi>u <hi rend="grantha">Ācandra</hi>tā<hi rend="grantha">ra</hi>mum Iraṇṭu nantāvi
+<lb n="7" break="no"/><unclear>ḷa</unclear>kkeri<unclear>p</unclear>pataṟku vaitta Īḻaviḷakku
+<lb n="8"/>Iraṇṭum Ivviḷakkiṉukku nicati nāḻi
+<lb n="9"/>neyaṭṭi Erippataṟku vaitta cāvāmu
+<lb n="10" break="no"/><unclear>vā</unclear>p perāṭu <unclear>mun</unclear>nūṟṟu<hi rend="grantha">a</hi>ṟupatu Iva
+<lb n="11" break="no"/><unclear>ṉe</unclear>y vaitta <unclear>po</unclear>ṟkaiyyuṭai veṇ
+<lb n="12" break="no"/> <gap reason="lost" quantity="4" unit="character"/> rai Oṉṟu §
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.186 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">215-216</citedRange>
+			<citedRange unit="item">186</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

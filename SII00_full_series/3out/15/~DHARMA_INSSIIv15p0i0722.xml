@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 15.722: original edition by P. B. Desai, Dines Chandra Sircar and G. S. Gai</title>
+				<title type="alt">No. 722. (B.K. No. 216 of 1928-29.) BEḶVAṬIGI, NAVALGUND TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv15p0i0722</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a slab lying in Survey No. 117.</p>						
+
+						<p>Circa 17th century.</p>						
+
+						<p>It speaks of the construction of a tank by several <hi rend="italic">Gauḍas</hi> and others. It also refers to a gift of land and house for the work. <hi rend="italic">Dēsāyi</hi> Nēmaṇa and <hi rend="italic">Dēsa-kulakarani</hi> Gōpaṇa are mentioned.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1-7"/><ce>damaged</ce>
+<lb n="8"/> <gap reason="lost" quantity="5" unit="character"/> <unclear>ma</unclear>llaṇa
+<lb n="9"/> <gap reason="lost" quantity="5" unit="character"/> caṁdrauḷaAna kallu
+<lb n="10"/> <gap reason="lost" quantity="5" unit="character"/> sivadu koṭa ga
+<lb n="11" break="no"/>Uḍagaḷu <gap reason="lost" quantity="5" unit="character"/> gauḍa <unclear>maru</unclear>
+<lb n="12" break="no"/>ḷapagauḍa <gap reason="lost" quantity="5" unit="character"/> gauḍagaḷu
+<lb n="13"/>sēnabōga lakaṇana <unclear>ma</unclear>kaḷu ta
+<lb n="14" break="no"/>U yakattarāgi <gap reason="lost" quantity="5" unit="character"/> keṟe
+<lb n="15"/> <gap reason="lost" quantity="2" unit="character"/> Agisiyadu śrīmattu
+<lb n="16"/>subhamastu <g type="danda">.</g> dēsaya <unclear>nē</unclear>maṇa va baka<unclear>ta</unclear>
+<lb n="17"/>dēsa kulakaraṇi gōpaṇana bata
+<lb n="18" break="no"/>yi kereya kaṭisidake yeraḍu maru hola mana 2
+<lb n="19"/>yeraḍu keregaḍiyiṁda paḍuvalu
+<lb n="20"/><ce>damaged</ce>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 15.722 by <bibl><ptr target="bib:Desai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Desai1964_01"/>
+			<citedRange unit="page">445</citedRange>
+			<citedRange unit="item">722</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

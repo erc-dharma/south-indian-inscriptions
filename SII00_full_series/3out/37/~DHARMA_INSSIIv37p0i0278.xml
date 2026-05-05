@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.278: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 278. (A.R. No. B 384 of 1940-41.) Ghaṇḍikōṭa, Jammalamaḍugu Taluk, Cuddapah District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0278</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab on the threshold at the entrance into the second <hi rend="italic">maṇḍapa</hi> in the Mādhavasvāmi temple.</p>						
+
+						<p>This undated inscription may be assigned to the 16th century, on the basis of palaeography.</p>						
+
+						<p>It records the obeisance of Pāpa Timmarāju and some individuals to god Mādhavarāya by offering a garland <hi rend="italic">(tōmāla).</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="10" unit="character"/> ba <gap reason="lost" quantity="2" unit="character"/> <unclear>lu</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="2"/>gaṁḍrāju kriṣṇamā <gap reason="lost" quantity="1" unit="character"/> kumāruḍu rāmakri 
+<lb n="3" break="no"/>ṣṇaya peṁḍlamu Akkama maṁgama kumāruṁ 
+<lb n="4" break="no"/>ḍu <unclear>ha</unclear>numaṁtu kriṣṇamarāju kriṣṇama kriṣṇama 
+<lb n="5"/>rāju raṁgaveṁkaṭya veṁkaṭamapetipaya cnitipaya 
+<lb n="6"/>pāpa timmarāju cenamabasuvarājuyara Ammaṁkkagā<unclear>rlu</unclear> 
+<lb n="7"/>da<supplied reason="omitted">ṁ</supplied>ḍamulu samara¨rpiṁciri 
+<lb n="8"/>mādavarāyankitōmāla kayiṁkarya<unclear>ṁ</unclear> śēyiṁci<unclear>ri</unclear> <g type="ddanda">.</g> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.278 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">223</citedRange>
+			<citedRange unit="item">278</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

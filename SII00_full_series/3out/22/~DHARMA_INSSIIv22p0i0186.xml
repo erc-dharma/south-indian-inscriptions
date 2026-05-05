@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.186: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 186. (A.R. No. 186 of 1906) SOUTH ARCOT DISTRICT, TIRUKKŌYILŪR TALUK, GRĀMAM. ŚIVALŌKANĀTHA TEMPLE—ON THE SAME WALL. PARĀNTAKA I—32nd YEAR (A.D. 938-39).</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0186</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is damaged in part. It seems to register the gift of a village tax-free (probably with the income specified in paddy and gold) by prince Rājādityadēva for the expenses of worship in the main shrine of the temple of Śrī-Āṟṟuttaḷi at Muḍiyūr. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> <unclear>matirai koṇṭa kopparake</unclear>
+<lb n="2" break="no"/>cari paṉmaṟku yāṇṭu <num value="32">3 <g type="numeral">10</g> 2</num><g type="dash"/>Āvatu
+<lb n="3"/>muṭiyūr <hi rend="grantha">śrī</hi> Āṟṟuttaḷi <hi rend="grantha">śrīmūla</hi>[ <hi rend="grantha">stā</hi>ṉa]
+<lb n="4" break="no"/>ttu <hi rend="grantha">mahāde</hi>varkku piḷḷaiyār <hi rend="grantha"><unclear>rā</unclear>jā</hi>ti
+<lb n="5" break="no"/>tta<hi rend="grantha">de</hi>var ceyta tiruvuṇṇāḻikai<unclear>p pu</unclear>
+<lb n="6" break="no"/><unclear>ṟa</unclear>ttukkuc ceyta Ūr veṇṇai<unclear>na</unclear>l
+<lb n="7" break="no"/>lūrnāṭṭup paṭṭa<supplied reason="omitted">r</supplied>kaḷ Āta <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="8"/> <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="9"/> <gap reason="lost" quantity="5" unit="character"/> nallū <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="10"/>Irupattaiñ kalamum poṉ <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="11"/>tiṉkaḻañcey mukkāl Ivvūr paṉ<hi rend="grantha"><unclear>mā</unclear></hi>
+<lb n="12" break="no"/><hi rend="grantha">heśvara rakṣai</hi> Aṟamaṟavaṟka <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.186 by <bibl><ptr target="bib:SrinivasaRao1983_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1983_01"/>
+			<citedRange unit="page">150-151</citedRange>
+			<citedRange unit="item">186</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

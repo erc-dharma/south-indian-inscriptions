@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.336: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 336. (A.R. No. 252 of 1905.) ON A PILLAR AT THE ENTRANCE TO THE SAME ROOM. Ś. 117[3] (Virōdhikṛit)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0336</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>States that <hi rend="bold">Mēḍapikilla Nūkiseṭṭi</hi> gave 25 cows for a perpetual lamp in the temple of Tripurāntakadēva.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrīśakavaruṣaṁ 
+<lb n="2" break="no"/>bulu 117<unclear>3</unclear> Agu nēṁṭi 
+<lb n="3"/>virōdhakṛt saṁvatsara kā 
+<lb n="4" break="no"/>¨rttikapa¨rvvanimittamuna śrītri 
+<lb n="5" break="no"/>purāṁttakadēvaraku mēḍapikilla nūṁkase 
+<lb n="6" break="no"/>ṭṭi tama taṁḍri būmi seṭṭikiṁ dama talli du 
+<lb n="7" break="no"/>gasānikiṁ dha¨rmmuvugānu Akhaṁḍadīpamu 
+<lb n="8" break="no"/>nakuṁ beṭṭina mōdālu 25 vīniṁ jēko 
+<lb n="9" break="no"/>ni Evuramu Eṟabōyuṁḍu nityamā 
+<lb n="10" break="no"/>neṁḍu neyi tanaputrānupavutrikamu 
+<lb n="11"/>Ācaṁdrā¨rkkamu naḍapaṁgalavāṁḍu <g type="ddanda">.</g> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.336 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">175</citedRange>
+			<citedRange unit="item">336</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

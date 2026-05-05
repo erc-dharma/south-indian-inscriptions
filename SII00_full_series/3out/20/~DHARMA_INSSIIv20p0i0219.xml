@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 20.219: original edition by G. S. Gai</title>
+				<title type="alt">No. 219. (B.K. No. 65 of 1938-39.) TADALBĀGI, JAMKHANDI TALUK, BIJAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv20p0i0219</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Stone-beam in the Ī1śvara temple, called Dēgula, outside the village.</hi></p>						
+
+						<p>Mahādēva—A.D. 1269.</p>						
+
+						<p>This damaged record is dated in the king's <hi rend="bold">regnal year 10, Śukla, Śrāvaṇa, Purṇima Wednesday.</hi> The weekday is wrong. The <hi rend="italic">tithi</hi> corresponds to <hi rend="bold">A.D. 1269, July 15,</hi> which was Monday and not Wednesday.</p>						
+
+						<p>The inscription records a gift of land by Bommarāsi, son of Sōvarāsidēva to a mason (name-lost) as remuneration for the construction of the <hi rend="italic">śikhara</hi> of the temple of Sōmanātha with brick and mortar. The donor was the <hi rend="italic">āchārya</hi> of the temple.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti śrī mahādēvavijayarājyōdayada 10 neya sukula saṁvacharada sravaṇa <unclear>pu</unclear>
+<lb n="2" break="no"/><unclear>ṇa</unclear>mi budhavaradaṁdu tadalabāgeya śrīsvayaṁbhu sōmanāthadēvarācārya sōvarāsidēvara maga boṁmarāsidēvaruṁ sutra<unclear>dhāri ma</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="3"/>vaṁge koṭṭa bhāseya kramaveṁteṁdoḍe © sōmanathadēvara sikharadiṭṭigeya <unclear>naḍi</unclear>si saudha<unclear>va</unclear>nikkuva kelasakke vrittiyāgi <unclear>Ā</unclear> dēvara keya Oḻage sāvaḷige
+<lb n="4"/> <gap reason="lost" quantity="2" unit="character"/> keyiṁ teṁka kēsa vadēvara keya paḍuvalu <unclear>vi</unclear>rana keyiṁ baḍagalu yaṟumā <unclear>ḻa</unclear>na mane <gap reason="lost" quantity="2" unit="character"/> bācaOḍeyara kōlalu sarvvamānya sarvvabādhe pari<note n="268-2">There is space for about five letters between kē and sa.</note>
+<lb n="5" break="no"/> <gap reason="lost" quantity="5" unit="character"/> dhārāpūrvvakaṁ mūḍi koṭa mattaru haṁneraḍu 12 mane kēsavadēva<unclear>ra</unclear> biṭṭa <gap reason="lost" quantity="2" unit="character"/> yaṁ baḍagalu haneraḍu kai 12 <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="6"/> <gap reason="lost" quantity="10" unit="character"/> dīpadi baṟigelasa sodhayana<unclear>ke</unclear>hasarvvaru gurudēvara du <gap reason="lost" quantity="5" unit="character"/> solagaṇadē<unclear>ra</unclear> sakalāṁtavu <gap reason="lost" quantity="2" unit="character"/> sā<unclear>kṣi</unclear> sōmanāthadēvaru <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 20.219 by <bibl><ptr target="bib:Gai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Gai1964_01"/>
+			<citedRange unit="page">268</citedRange>
+			<citedRange unit="item">219</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

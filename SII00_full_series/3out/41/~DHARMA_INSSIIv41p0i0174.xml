@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 41.174: original edition by S. Rajagopal</title>
+				<title type="alt">No. 174. (A.R. No. 392 of 1905.) Kāvēripākkam, Arakkōṇam Taluk, North Arcot District. On the south wall of the maṇḍapa of the Varadarāja perumāḷ Templeat Kāvēripākkam,</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv41p0i0174</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Vijayanagar, Mallikārjunarāyar Śaka 1381, Pramāti, Kanni, Purva, ekadasi, Saturday, Tiruvōṇam = 1459. Sept. 8.</hi></p>						
+
+						<p>A big meeting of the <hi rend="italic">shabā</hi> and accountants of the <hi rend="italic">taṉiyūr</hi> Kavidipākkam decided in the presence of Narasiṅa rāya-uḍaiyār regarding the sharing of the entire village property apportioned into sixty shares <hi rend="italic">(paṅgu).</hi> The conditions of enjoyment of the shares is given in detail. Kavidipākkam <hi rend="italic">alias</hi> Vikkiramachōḻa-chaturvēdimaṅgalam was in Paḍuvūr-koṭṭam of Jayaṅgoṇḍa chōḻamaṇḍalam.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> man mahā</hi>
+<lb n="2" break="no"/>maṇṭale<hi rend="grantha">śva <gap reason="lost" quantity="5" unit="character"/> </hi>
+<lb n="3"/>yavipāṭaṉ pā<hi rend="grantha">ṣai</hi>kkut tappuva
+<lb n="4" break="no"/>rāyar kaṇṭaṉ mūvarāyar kaṇṭaṉ
+<lb n="5"/><hi rend="grantha">pūrva dakṣi</hi>ṉa <hi rend="grantha">pacśi</hi>ma Uttara<hi rend="grantha">sa</hi>
+<lb n="6" break="no"/>mu<hi rend="grantha">drādi</hi>pati <hi rend="grantha">śrī</hi>vīra<hi rend="grantha">pra</hi>tāpa tevarāya <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="7"/>mallikā<hi rend="grantha">rju</hi>na <hi rend="grantha">de</hi>va<hi rend="grantha"> mahā</hi>rāyar <hi rend="grantha">prathi</hi>vī<hi rend="grantha">rājyam</hi>pa 
+<lb n="8" break="no"/>ṇṇi Aruḷāniṉṟa <hi rend="grantha">śakāptam <num value="1381"><g type="numeral">1000</g> 3 <g type="numeral">100</g> 8 <g type="numeral">10</g> 1</num></hi> mel cellā niṉṟa <hi rend="grantha">pramādi</hi>
+<lb n="9"/><hi rend="grantha">sam</hi>vaṟ<hi rend="grantha">sa</hi>rattu <hi rend="grantha">kanni</hi> nāyaṟṟu <hi rend="grantha">purvva pakṣa</hi>ttu <hi rend="grantha">Ekādaśi</hi>yum <supplied reason="omitted">cani</supplied> vāramu pe
+<lb n="10" break="no"/>ṟṟa tiruvoṉattu nāḷ <hi rend="grantha">ja</hi>yaṅkoṇṭa <gap reason="lost" quantity="5" unit="character"/> paṭuvūṟ
+<lb n="11"/>koṭṭattu taṉiyūr kāvirippākkamāṉa vikkiramacoḻac catu
+<lb n="12" break="no"/><hi rend="grantha">rvve</hi>timaṅkalattu <hi rend="grantha">bhaṭṭa</hi>rkaḷum vi<hi rend="grantha">śiṣṭha</hi>rkaḷu muḷḷiṭṭa <hi rend="grantha">mahāsa</hi>
+<lb n="13"/>paiyārum kaṇakkap piḷḷaikaḷum Eṅkaḷil nāṅkaḷ naraciṅkarāca U
+<lb n="14" break="no"/>ṭaiyār tirumuṉpākap paṅkukaṭṭik koṇṭu niṉṟayamiṭṭuk koṇ
+<lb n="15" break="no"/>ṭapaṭi Eṅkaḷ Ūrmaṉaip paṭṭappāḻ toṭṭappaṟṟu kaḻaṉi kollai ṉatta
+<lb n="16" break="no"/>kkollai koṭṭāram kaṟaikkāṟar koṇṭu niṟtiṉa mā<hi rend="grantha">nnya</hi>m maṉai
+<lb n="17"/>kaṭapperi mā<hi rend="grantha">nnya</hi>m karaikkāṟar pervarimā<hi rend="grantha">nnya</hi>m Ūr Uttāram per Uttāram puti
+<lb n="18" break="no"/>cāka viṭṭa kuṭinīṅkā tevatāṉam tiruviṭaiāṭṭa piḷḷaiyār tevatāṉam
+<lb n="19"/>mayilār tevarviṟti piṭāripaṭṭi Ivvakai nila muḷḷatum naraciṅka Irā
+<lb n="20" break="no"/>ca Uṭaiyāṟku <hi rend="grantha">dhamma</hi>māka <hi rend="grantha">Ubhai</hi>ya<hi rend="grantha"> pradhā</hi>niyār <unclear>pul</unclear>veḷuruṭaiya
+<lb n="21"/><hi rend="grantha"> <gap reason="lost" quantity="3" unit="character"/> sti</hi> nātār piḷḷai viṟṟa <hi rend="grantha">bhaṭṭavra</hi>tti kuḻi Oṉpatināyiramumme
+<lb n="22"/>Inta Ūrai ṉokkik karaikkāṟar perai nokkic ceytu koḷkiṟa
+<lb n="23"/>maṉṉavaṉ mā<hi rend="grantha">nnyam</hi> Uḷḷatum Eṅkaḷur Aṟupatu paṅkilum pakuntu
+<lb n="24"/>koṇṭu Eṉṟueṉṟaikkum Aṉupavittukkoḷḷak kaṭavom Ākavu
+<lb n="25" break="no"/>m Inta Aṟupatu paṅkukkuḷḷa <unclear>ni</unclear>la cākuṭi pokuṭi nilaippaṅkile niravik
+<lb n="26"/>koḷḷak kaṭavom Ākavum Iṟaiyiṟuppukku Irācakarttaṟkuṭutta Aṭai
+<lb n="27" break="no"/>yolai matitri payir vaḻiyile Iṟukkak kaṭavomākavum vinivō
+<lb n="28" break="no"/>kamuḷḷatu paṅkileiṟukkak kaṭavomākavum tarutāṉa paṅku Uḷḷūṟ
+<lb n="29" break="no"/>kuḷḷē <hi rend="grantha">sa</hi>paiyāṟkuḷḷum kaṇakkap piḷḷaikaḷukkuḷḷum viṟṟu Ēṟṟi
+<lb n="30"/><hi rend="grantha">pra</hi>ti<hi rend="grantha"> pra</hi>ti<hi rend="grantha">kra</hi>ya<hi rend="grantha">dā</hi>ya<hi rend="grantha"> dā</hi>naṅkaḷukkum Urittāka kaṭavatākavum Ūrā
+<lb n="31"/>Irācatāniyāna Ūr Ākaiyāle Oruvaṉ kaṭṭina maṉaiyai Oruva
+<lb n="32" break="no"/>ṉ toṭṭattai Irācakarattāṉ vāṅkikkoṇṭāl Ūrārku ma
+<lb n="33" break="no"/>ṉṟāṭi viṭuvittukkoḷḷak kaṭavom Ākavum maṉṟāṭṭi vi
+<lb n="34" break="no"/>ṭātapoḻutu Akaṅkaṭṭiṉ neṟ<unclear>ṟi</unclear>yuḷḷatum toṭṭam peṟṟa vi
+<lb n="35" break="no"/>laiyuḷḷatum Ūrile kuṭuttu maṉaikku maṉaiyum nilattukku 
+<lb n="36"/>nilamum viṭakkaṭavatākavum Inta Aṟupatu paṅkum <hi rend="grantha">ca</hi>ntiṟātittavarai
+<lb n="37"/>yum Ituve paṅku Āka naṭakkakkaṭavatākavum yinta paṅkukku Āroruvar A
+<lb n="38" break="no"/><hi rend="grantha">hi</hi>tam paṇṇi Aḻikka Eṉṟu Eṇṇiṉavarkaḷ Uṇṭānāl <hi rend="grantha">grā</hi>mattukku
+<lb n="39"/>kūṭṭu Eṉṟiyile pokakkaṭavaṉākavum <hi rend="grantha">stā</hi>ṉa mā<hi rend="grantha">nnyam pūrvvam</hi> cuṟṟa mati
+<lb n="40" break="no"/>tāri Ippaṭikku <hi rend="grantha">sabhai</hi>yār paṇiyāl Ūṟkaṇakku Uttāṉapeṭu
+<lb n="41"/>Uṭaiyāṉ Ēḻāyira <hi rend="grantha">pri</hi>yaṉ tevakaḷ Aracaṉ Eḻuttu kaṇakkaṉ
+<lb n="42"/>ppaṭṭi kaṇakkaṉpeṟu Ūṟkaṇakku kāṇi maṉai pū<hi rend="grantha">rva</hi>m Aṟṟa matitāri naṭa
+<lb n="43" break="no"/>kkak kaṭavatu Ākavum pulveḷuru <unclear>Uṭai</unclear>yār kāḷattinātar koṇṭu Uṭaim<unclear>ai</unclear>āṉa
+<lb n="44"/>maṉaiyaḷantu [ <gap reason="lost" quantity="1" unit="character"/> kalakka] Ivar niṟkiṟa paṅkukku veṟe maṉai <unclear>pa</unclear>kuntu kuṭukkak kaṭavatākavum
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 41.174 by <bibl><ptr target="bib:Rajagopal2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Rajagopal2019_01"/>
+			<citedRange unit="page">208-210</citedRange>
+			<citedRange unit="item">174</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

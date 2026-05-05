@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 41.344: original edition by S. Rajagopal</title>
+				<title type="alt">No. 344. (A.R. No. 559 of 1905.) Vijayamaṅgalam, Erode Taluk, Coimbatore District. On the east wall of the central shrine in the Nāgēśvarasvāmi temple in Vijayamaṅgalam.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv41p0i0344</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Koṅgu Vīrarājēndra, Year 29+1 = 1237 A.D.</hi></p>						
+
+						<p>Damaged. Gift of a lamp by a member of <hi rend="italic">Veḷḷāḷan Paḍattalaikaḷ</hi> clan.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> virarājentrade</hi>va<hi rend="grantha"/>
+<lb n="2" break="no"/>ṟku yāṇṭirupattoṉpatāvata
+<lb n="3" break="no"/>ṟ ketir Ānittiṅkaḷ mutalākak kuṟup
+<lb n="4" break="no"/>pu nāṭṭil vicaiyaṉmaṅkalattirukkum
+<lb n="5"/>veḷḷāḷaṉ paṭattalaikaḷil tiruvāṉa
+<lb n="6"/> <gap reason="lost" quantity="3" unit="character"/> kaneṉ Āḷuṭaiyār tirunāki<hi rend="grantha">śvara</hi>muṭai
+<lb n="7"/> <gap reason="lost" quantity="11" unit="character"/> 
+<lb n="8"/> <gap reason="lost" quantity="11" unit="character"/> 
+<lb n="9"/> <gap reason="lost" quantity="3" unit="character"/> ttu Āḷavantamāṇikkaṉum Āḷa
+<lb n="10" break="no"/> <gap reason="lost" quantity="3" unit="character"/> māṭala <hi rend="grantha">gotra</hi>ttu Appaṉ <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="11"/><hi rend="grantha"> <gap reason="lost" quantity="3" unit="character"/> tra</hi>ttu Uṭaiyāṉaviṉāciyum Uṭaiyāṉ
+<lb n="12"/> <gap reason="lost" quantity="3" unit="character"/> koyil pukuvār cantiyā<hi rend="grantha">di</hi>pam Oṉṟu
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 41.344 by <bibl><ptr target="bib:Rajagopal2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Rajagopal2019_01"/>
+			<citedRange unit="page">353-354</citedRange>
+			<citedRange unit="item">344</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 41.148: original edition by S. Rajagopal</title>
+				<title type="alt">No. 148. (A.R. No. 147 of 1905.) Veñjamāṅgūḍalūr, Karur Taluk, Tiruchirāppaḷḷi District. On the south wall of the central shrine in the Vikritisvara temple at Veñjamāṅgūḍalūr.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv41p0i0148</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">Kongu-Chōḻa, Rājakēsarivarman Vīrarājēndra Year 41 = 1248 A.D.</hi></p>						
+
+						<p>Gift of a <hi rend="italic">kaḻañju</hi> of gold for a lamp by Māṉāparaṇap-pallavaraiyaṉ Piḷḷaittiru of Tiruvēl in Veṅgāla-nāḍu in Vīrachōḻa-maṇḍalam.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>kovir<unclear>āca</unclear> kecari paṟmarāṉa
+<lb n="2"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tiripuvaṉac cakkaravattika
+<lb n="3" break="no"/>(karavattika)ḷ cirivirarācentira teva
+<lb n="4" break="no"/>ṟku yāṇṭu <num value="41">4 <g type="numeral">10</g> 1</num>vatu vi<supplied reason="omitted">ra</supplied>coḻamaṇ
+<lb n="5" break="no"/>ṭalattu veṅkāla nāṭṭu tiruve
+<lb n="6" break="no"/>ñcamākkūṭalkaṟaṭiveṭṭuvari
+<lb n="7" break="no"/>l māṉāparaṇap pallavaraiyaṉ piḷ
+<lb n="8" break="no"/>ḷait tiruveṉ Uṭaiy<supplied reason="omitted">ār</supplied> tiruveñcamāk
+<lb n="9" break="no"/>kūṭal Āvaṭaiyār vikirataṟku nāṉ vai
+<lb n="10" break="no"/>tta can<unclear>ti</unclear>yātipam Oṉṟukkuk ku
+<lb n="11" break="no"/>ṭu<supplied reason="omitted">t</supplied>ta poṉ kaḻañcu Ippoṉ kaḻai
+<lb n="12" break="no"/>ñcuṅ kaikkoṇṭoṅ kāṇi
+<lb n="13" break="no"/><unclear>yu</unclear>ṭaiya civappirāma<unclear>ṇa</unclear>ṉ nāyakaṉ tiruvāḷaṉāṉa Etirili coḻapaṭṭaṉ Uḷḷi
+<lb n="14" break="no"/>ṭṭārum vaṭukaṉ Āṇṭāṉāṉa tiruñāṉa campantap paṭṭaṉum Ivvaṉai
+<lb n="15" break="no"/>vomuñ cantirātittavarai kuṭaṅkoṭu kuccikoṭu pukuvāṉ Oru viḷakke
+<lb n="16"/>rippat<choice><sic>a</sic><corr>ā</corr></choice>kacammatittu kalveṭṭik kuṭuttom Ivaṉaivomum piḷḷaittiruvukku <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 41.148 by <bibl><ptr target="bib:Rajagopal2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Rajagopal2019_01"/>
+			<citedRange unit="page">186</citedRange>
+			<citedRange unit="item">148</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

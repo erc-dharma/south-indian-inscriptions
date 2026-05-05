@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.734: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 734. (A.R. No. 677 of 1904.) TIRUMULLAIVĀYAL, SAIDAPET TALUK, CHINGLEPUT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0734</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a pillar in the <hi rend="italic">maṇḍapa</hi> in the central shrine in the Māśilāmaṇīśvara temple.</p>						
+
+						<p>Rājēndrachōḷa I: Year 3: 1014-15 A.D.</p>						
+
+						<p>This inscription records the construction of the <hi rend="italic">maṇḍapa</hi>, by Iśakkaṉ Aṟivāḷaṉ a servant of Tirunalluḻān of Śrī Parāntakanallūr <hi rend="italic">alias</hi> Pūśipākkam, in Ūṟṟukkāḍu nāḍu, in Ūṟṟukkāṭṭu-kōṭṭam, in Jayaṅgoṇḍaśōḻa-maṇḍalam.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kopparake<hi rend="grantha">sa</hi>riva<hi rend="grantha">rmma</hi>rāna <hi rend="grantha">śrirā</hi>
+<lb n="2" break="no"/><hi rend="grantha">jendra</hi>coḻa<hi rend="grantha">de</hi>varkku yāṇṭu 3 Āvatu <hi rend="grantha">ja</hi>ya
+<lb n="3" break="no"/>ṅkoṇṭa coḻamaṇṭalattu Ūṟṟukkāṭṭuk
+<lb n="4" break="no"/>koṭṭattu Ūṟṟukkāṭunāṭṭup pūcipākkamāna <hi rend="grantha">śrī</hi>
+<lb n="5" break="no"/>parān=takanallūrān tiruna<supplied reason="omitted">l</supplied>luḻān paṇimakaṉ Ica
+<lb n="6" break="no"/>kkaṉ Aṟivāḷaṉ tirumullaivāyil Ā
+<lb n="7" break="no"/>ṇṭārkku Eṭuppitta maṇṭapam � [� U]
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.734 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">351</citedRange>
+			<citedRange unit="item">734</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

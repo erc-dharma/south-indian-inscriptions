@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.152: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 152. (A.R. No. B 29 of 1940.) Koṇḍūru, Siddhavatam Taluk, Cuddapah District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0152</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Two fragments of a slab lying near the foot-path, east of the village.</p>						
+
+						<p>Fragmentary. It seems to refer to an enquiry into the revenue taxation during the time of Sultān Bahadaru Moga[lāyi][vāru]. In late characters.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<!--<h4>First Face.</h4>-->
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="5" unit="character"/> yā 
+<lb n="2"/> <gap reason="lost" quantity="5" unit="character"/> bōviḷlaya 
+<lb n="3"/> <gap reason="lost" quantity="3" unit="character"/> A <gap reason="lost" quantity="3" unit="character"/> ṁccava <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="2" unit="character"/> kā <gap reason="lost" quantity="2" unit="character"/> ru <gap reason="lost" quantity="1" unit="character"/> lireḍḍī <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="3" unit="character"/> reḍḍi<unclear>mirā</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="6"/> <gap reason="lost" quantity="3" unit="character"/> lō <gap reason="lost" quantity="5" unit="character"/> saṁdu <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="7"/> <gap reason="lost" quantity="1" unit="character"/> vrāśi<unclear>na</unclear> kra<unclear>ma</unclear>ṁ <g type="ddanda">.</g> <gap reason="lost" quantity="1" unit="character"/> <g type="ddanda">.</g> dēni <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="8"/> <gap reason="lost" quantity="1" unit="character"/> cinama<unclear>lu</unclear>reḍḍi vrāsu 
+<lb n="9"/>kuṁnnu vāṁṅmū laṁvalla 
+<lb n="10" break="no"/>nu tannupaimāyiṣi tā 
+<lb n="11" break="no"/>ruvāri yimativvala dā 
+<lb n="12" break="no"/>khilālavallanuṁnnu karaṇā 
+<lb n="13" break="no"/>lu vrāśiyiccina dastayivēju 
+<lb n="14" break="no"/>la vallanuṁnnu mayāṇka sultā 
+<lb n="15" break="no"/>nu bahadarumoga 
+</p>
+
+<!--<h4>Second Face.</h4>-->
+
+<p>
+<lb n="16"/>vā <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="17"/>ruṁ <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="18"/>staḷa <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="19"/>du <unclear>1</unclear> vā <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="20"/>ṁ ce <unclear>vā</unclear> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="21"/>nikara<unclear>ṇā</unclear> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="22"/>yiṣita <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="23"/>le<unclear>kka</unclear>lu <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="24"/>dākhalā<unclear>cē</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="25"/>vrāśiyicci <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="26"/>sahatīsukō <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="27"/>rōdhiṁccagā <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="28"/>va<unclear>ttu</unclear>maddirāyi <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.152 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">120-121</citedRange>
+			<citedRange unit="item">152</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

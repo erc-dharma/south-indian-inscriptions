@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 30.44: original edition by N. Marxia Gandhi, A. Padmavathy and S. Swaminathan</title>
+				<title type="alt">No. 44. (A.R. No. 121 of 1915.) Tirumurugaṉpūṇḍi, Avinashi Taluk, Coimbatore District Muruganātha temple-on the north wall of the same maṇḍapa Vikrama-Chōḻa: year 4: 1277 A.D.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv30p0i0044</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>It records gift of one <hi rend="italic">achchu</hi> by one Jayasiṅgadēvaṉ perumān <hi rend="italic">alias</hi> Aḻagiyapāṇḍyadēvaṉ for burning a twilight lamp to the god at Tirumurugaṉpūṇḍi. The Śivabrāhmaṇas of the temple received the gift and agreed to burn the lamp.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti[śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied> vi]</hi>kkiramacoḻa te
+<lb n="2" break="no"/>vaṟku yāṇṭu nālāvatu Irā
+<lb n="3" break="no"/><unclear>ca</unclear>rācapurattil perumāḷ Uri
+<lb n="4" break="no"/>maiyāril ceyaciṅka tevan
+<lb n="5"/>peru(m)mānāṉa Aḻakiya pāṇṭi
+<lb n="6" break="no"/>ya tevanen Āḷuṭaiyār tiru
+<lb n="7" break="no"/>murukan pūṇṭi nāyanāṟku can
+<lb n="8" break="no"/><unclear>ti</unclear>yā tipam O<unclear>n</unclear>ṟukku yikkoyi
+<lb n="9" break="no"/><unclear>l</unclear> kāṇiyuṭaiya civappirāmaṇan Avi
+<lb n="10" break="no"/><unclear>nā</unclear>ci cikāḻiyānum Avi<unclear>nā</unclear>ci cāntāraikkā
+<lb n="11" break="no"/>ttānum Iruvom Accu Onṟum koṇ
+<lb n="12" break="no"/><unclear>ṭu</unclear> cantirā(tirā)tittavarai kuṭaṅko<unclear>ṇ</unclear>
+<lb n="13" break="no"/><unclear>ṭu</unclear> pukuvā <gap reason="lost" quantity="3" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 30.44 by <bibl><ptr target="bib:MarxiaGandhi+al2011_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:MarxiaGandhi+al2011_01"/>
+			<citedRange unit="page">36</citedRange>
+			<citedRange unit="item">44</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

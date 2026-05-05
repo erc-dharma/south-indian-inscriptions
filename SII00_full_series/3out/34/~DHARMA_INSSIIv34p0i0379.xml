@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 34.379: original edition by Y. Subbarayalu</title>
+				<title type="alt">No. 379. Kuḷattūr, Kulattur Taluk, Pudukkottai District. On the south wall of the ruined Siva temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv34p0i0379</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>•••, 33rd year = c. 13th Century.</p>						
+
+						<p>Fragmentary. Somebody (king ?) ordered that the temple lands that were lying waste owing to breach in the tank be given on permanent tenancy <hi rend="italic">(kuḍinīṅgā-dēvadāna)</hi> for reclamation and cultivation.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="7" unit="character"/> yār cuntaracōḷī<hi rend="grantha">śvara</hi>muṭaiya nā <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="2"/>ṭu <num value="33">3 <g type="numeral">10</g> 3</num> vatu nāḷil tirunāmattukā <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="3"/>vayalum kuḷamum neṭunāḷ paṭa pāḻāy kuḷamu maṭaittu vayalum varam piṟai <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="4"/>pāḻumāy parumarakkāṭumāy pāḻkiṭakkaiyil Iṉṉāḷ mutal kuṭi nīṅ
+<lb n="5" break="no"/>kā tēvatāṉamāka kuḷamum Aṭaittu kāṭum veṭṭi varampum kaṭṭi payirc
+<lb n="6"/>ceyyakkaṭavārkaḷākavum payircceyta nilattukku teṉ ciṟuvāy
+<lb n="7"/>nāṭṭuk kuṭinīṅkāt tēvatāṉap paṟṟukkum Inta <gap reason="lost" quantity="3" unit="character"/> ṭṭil māttāl
+<lb n="8"/>Iṉṉa <gap reason="lost" quantity="12" unit="character"/> Aḷakkiṟa vācippaṭi yiṉṉā <gap reason="lost" quantity="3" unit="character"/> Aḷanta kālālē
+<lb n="9"/>tirumuṟṟap paṇṭārattē Eṭuttu Aḷakka kaṭavarkaḷākavum kācukaṭa
+<lb n="10" break="no"/>maiyum Aṉṉāṭṭi leṟṟa maricāti Iṟukka kaṭavarkaḷākavum Ivva <gap reason="lost" quantity="4" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 34.379 by <bibl><ptr target="bib:Subbarayalu2015_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Subbarayalu2015_01"/>
+			<citedRange unit="page">346</citedRange>
+			<citedRange unit="item">379</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

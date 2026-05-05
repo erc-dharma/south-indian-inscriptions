@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 31.61: original edition by C. A. Padmanabha Sastri and T. S. Ravishankar</title>
+				<title type="alt">No. 61. (A.R. No. B 309 of 1938.) MAILAVARAM, JAMMALAMADUGU TALUK, CUDDAPAH DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv31p0i0061</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Pillar set up in Śiva temple.</p>						
+
+						<p>DĒVARĀYA [I].</p>						
+
+						<p>1409 A.D.</p>						
+
+						<p>This record is issued in the cyclic year, Virōdhi, Vaiśākha, śu. 5, sunday. On the basis of both internal and palaeographical evidences, it can be assigned to Śaka 1331 and corresponds to 1409 A.D., April 20, Saturday f.d.t. °52.</p>						
+
+						<p>Records the construction of <hi rend="italic">bhōgamaṇḍapa</hi> in a land measuring two <hi rend="italic">haṁkaṇas (aṁkanas)</hi> situated on the northern side and gift of wet land measuring one <hi rend="italic">yēdumu</hi> to the god Śanita (śanta) Mallaya by <hi rend="italic">Mahamaṇḍalēśvara</hi> Kāmayarāja [Rā]mayam for the merit of Dēvarāya, his wifes Hannayam (Queen ?) and Sidhayamanga. At the end of the inscription, the name of the god is engraved.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>virōdhikruttusaṁvvasta(tsa)ra vaiśāka(kha) su(śu) 5 Ā <g type="ddanda">.</g> śrī 
+<lb n="2" break="no"/>manumahāmaṁḍḍalēsva(śva)ṭha(ra)ka<supplied reason="omitted">ma</supplied>ya rāja<unclear>rāma</unclear> 
+<lb n="3" break="no"/>yaṁgāru dēvarāya mahārāyaniki ha 
+<lb n="4" break="no"/>nnamaya gāriṁkinni siddhaya maṁga(gā)rikini puṇya 
+<lb n="5" break="no"/>mugānusanitamalla(śāṁtamalla) 
+<lb n="6"/>ya bhōgamaṁḍapamu 
+<lb n="7"/>vuttaramuṁ veyavepuṭlu 
+<lb n="8"/>pulamu haṁkanalu re<supplied reason="omitted">ṁ</supplied>ḍu Ekaṭi 
+<lb n="9"/>jēnu yodamu cēma peṭenu <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+<lb n="10"/>śrīmayila<supplied reason="omitted">va</supplied>rayana<unclear>ṁ</unclear>dunu 
+<lb n="11"/>laya 
+</p>
+
+<!--<h4>(c.f. In. 270.)</h4>-->
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 31.61 by <bibl><ptr target="bib:PadmanabhaSastri2013_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:PadmanabhaSastri2013_01"/>
+			<citedRange unit="page">70-71</citedRange>
+			<citedRange unit="item">61</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

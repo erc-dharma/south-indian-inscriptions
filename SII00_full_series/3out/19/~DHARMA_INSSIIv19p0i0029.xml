@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.29: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 29. (A.R. No. 144 of 1928.) TIRUPPAḺANAM, TANJAVUR TALUK, TANJAVUR DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE, ĀPATSAHĀYĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0029</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is very probably an inscription of <hi rend="bold">Rājēndra-Chōḷa I.</hi> It is damaged in places. It records an endowment of 5 pieces of land at Pēraṅgālakkuḍi after purchase (from the temple) and reclamation for feeding 4 Brāhmaṇas in the temple of Tiruppaḻanam in Miṟai-kūṟṟam, (after the daily midday offerings), by Kaṟṟaḷi-Baṭṭālakaṉ a member of the regiment <hi rend="bold">Arumoḻidēva-teriñja Kaikkōḷar.</hi> </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kopparake<hi rend="grantha">sa</hi>ripaṉmaṟkku yāṇṭu 2 Āvatu miṟaikkūṟṟattu <hi rend="grantha">de</hi>vatāṉam tiru<unclear>ppaḻaṉa</unclear>muṭaiyār koyilile nicati nālavar <hi rend="grantha">brāhma</hi>ṇar
+<lb n="2"/><hi rend="grantha">candrā</hi>titaval Uṇṇa Ivvūr tevatāṉam peraṅkālakkuṭi Eliyūtu puṉcey tiṭal Ivā<unclear>ti</unclear> <hi rend="grantha">caṇḍeśva</hi><unclear>ra</unclear>riṭaiyum patipātamula<supplied reason="omitted">t</supplied>tāriṭaiyum U
+<lb n="3" break="no"/>ṭaiyār Arumoḻitevateriñca kaikoḷaril kaṟṟaḷi paṭṭālakaṉ vilaikoṇṭu mayakkiṉa nilattukku kiḻpār<supplied reason="omitted">k</supplied>ke<supplied reason="omitted">l</supplied>lai peṟṟāṉmayakkalukkum naṅ
+<lb n="4" break="no"/>kāriymayakkalukku meṟkku teṉpār<supplied reason="omitted">k</supplied>ke<supplied reason="omitted">l</supplied>lai naṅkārimayakkalukku vaṭakkum melpāṟke<supplied reason="omitted">l</supplied>lai mātevimayakkalukku pā<supplied reason="omitted">y</supplied>ñca Uḷ<unclear>ciṟu</unclear>vā<supplied reason="omitted">y</supplied>kkālukku <unclear>kiḻa</unclear>
+<lb n="5" break="no"/>kku kiḻpārkke <gap reason="lost" quantity="4" unit="character"/> ttiṭalkkā <gap reason="lost" quantity="4" unit="character"/> kālukku meṟkkum teṉpār <gap reason="lost" quantity="4" unit="character"/> vuṭ ciṟuvā<supplied reason="omitted">y</supplied>kkālu
+<lb n="6" break="no"/>kku vaṭakkum melpā<supplied reason="omitted">ṟ</supplied>kke <gap reason="lost" quantity="5" unit="character"/> kkum vaṭapār<supplied reason="omitted">k</supplied>ke<supplied reason="omitted">l</supplied>lai cāttimayakkalu <gap reason="lost" quantity="7" unit="character"/> Iv<unclear>vicaitta</unclear> pe
+<lb n="7" break="no"/>runāṉkellai <gap reason="lost" quantity="7" unit="character"/> <unclear>ṉu</unclear>m Ivaṉu<supplied reason="omitted">k</supplied>ke viṟṟukkuṭutta nilattukku kiḻ pārkke<unclear>l</unclear>
+<lb n="8" break="no"/>lai mūṉ <gap reason="lost" quantity="8" unit="character"/> lai Oru māvarai<supplied reason="omitted">k</supplied>ku vaṭakkum melpāṟke<supplied reason="omitted">l</supplied>lai Uḷ ciṟuvāykkā
+<lb n="9" break="no"/>lukku kiḻakkum vaṭapāṟke<supplied reason="omitted">l</supplied>lai nā
+<lb n="10" break="no"/>ṟṟukālukku teṟkkum Ivvicaitta
+<lb n="11"/>perunāṉke<supplied reason="omitted">l</supplied>laiyuḷ Akappaṭṭa nila
+<lb n="12" break="no"/>mum Ituva<supplied reason="omitted">l</supplied>latu Iṉṉum I<unclear>va</unclear>ṉu<supplied reason="omitted">k</supplied>ke viṟṟukkuṭut
+<lb n="13" break="no"/>ta nilam ki<supplied reason="omitted">ḻ</supplied>ppār<supplied reason="omitted">k</supplied>ke<supplied reason="omitted">l</supplied>lai ki<unclear>ḻā</unclear>ṉ kāṇikka <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="14"/> <gap reason="lost" quantity="2" unit="character"/> y<unclear>k</unclear>kum meṟkum teṉpār<supplied reason="omitted">k</supplied>kellai pa<unclear>ḻa</unclear>ṅ ceyk
+<lb n="15" break="no"/>ku vaṭakku melpār<supplied reason="omitted">k</supplied>ke<supplied reason="omitted">l</supplied>lai toṭi muṉṟumāvukku kiḻakkum vaṭapāṟke<supplied reason="omitted">l</supplied>lai Oru māvaraik kum tiṭa
+<lb n="16" break="no"/><unclear>lu</unclear>kkum tiruvaṭimayakkalukkum teṟkkum Ivvicaitta perunāṉke<supplied reason="omitted">l</supplied>laiyuḷ ḷakappaṭṭa nila
+<lb n="17" break="no"/>mum Ituvallatu I<supplied reason="omitted">ṉ</supplied>ṉum Ivaṉu<supplied reason="omitted">k</supplied>key maṇṇilaiyāka
+<lb n="18"/>viṟṟukkuṭutta puṉcey tiṭal Iraṇṭu māvum I<note n="14-1">Stops here. The following lines engraved separately may be the continuation of the above: 1 kkāle iraṇṭumā mukkāṇiyum [mikuticu]rukkam uḷḷaṭaṅka uṇṇilam 2 —tu vallatu ivaṉu[k*]ke maṇṇilaiyāka viṟṟukuṭutta vāykkā- 3 liṉ kiḻkaraik kāṇiyum taṭipalavāy vanta nilam mu- 4 •••••• paṭṭa iṟaiyuma••••tita•••• 5 •••••• pātamulattomum itu paṉmā<hi rend="grantha">heśva</hi>rara<hi rend="grantha">kṣai <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi></note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.29 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">13-14</citedRange>
+			<citedRange unit="item">29</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.755: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 755. (A.R. No. 698 of 1904.) TIRUPPĀṞKAḌAL, WALAJAPET TALUK, NORTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0755</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south wall of the first <hi rend="italic">prākāra</hi> of the Kharapurīśvara temple.</p>						
+
+						<p>Kulōttuṅgachōḷa III. Year 30: 1207-08 A.D.</p>						
+
+						<p>This damaged inscription seems to record a gift of land (detailst lost), made free of taxes such as <hi rend="italic">kāśāyam, āśuvikkaḍamai, āḷamañji tēvai</hi> etc., as <hi rend="italic">jīvitam</hi> to Aṅgada-vallavar, at Tiruppāṟkaḍal, a southern hamlet of Kāvirippākkam. The donor's name is lost.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti[śrī <g type="ddanda">.</g>*]</hi> tiripuvaṉaccakkaravattika[ḷ <hi rend="grantha">śrī</hi>] kulottuṅka coḻatevaṟku yāṇṭu muppa<unclear>tāvatu</unclear> <gap reason="lost" quantity="4" unit="character"/> kaṇavirācaṉ <gap reason="lost" quantity="7" unit="character"/> kaya teva <gap reason="lost" quantity="2" unit="character"/> <unclear>neṉ kāvirippākkattu</unclear> teṉ piṭākai
+<lb n="2"/>tiruppāṟkaṭal tevatāṉamum tiruviṉ <gap reason="lost" quantity="7" unit="character"/> kkiṉ <gap reason="lost" quantity="2" unit="character"/> ṟkellaikku naṭuppaṭṭa nañcai puñcai <gap reason="lost" quantity="9" unit="character"/> Ācuvikkaṭamai yuḷḷiṭṭa kācāyamum Āḷ A
+<lb n="3" break="no"/>mañci tevaikaḷum maṟṟum nām koḷḷum kaṭamaikaḷum <gap reason="lost" quantity="4" unit="character"/> m Aṅkatavallavarkku civita māka vi<unclear>ṭṭu kal</unclear>veṭṭik kuṭutte <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="4"/>kil pa<supplied reason="omitted">l</supplied>lavaraiyaṉ cattiyanum Ippaṭi ca<unclear>n</unclear>tirātittavarai ce<supplied reason="omitted">l</supplied>vatākavum Itukku Ilaṅ kaṉam paṇṇuvār keṅkai Iṭai kumari Iṭai kurālpacu ko<unclear>ṉṟavaṉ</unclear> pāvamkoṇṭu <gap reason="lost" quantity="4" unit="character"/> Aṅkata vallava turo<hi rend="grantha">hi</hi>kkum <gap reason="lost" quantity="1" unit="character"/> <note n="360-1">Badly damaged.</note> <gap reason="lost" quantity="4" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.755 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">360</citedRange>
+			<citedRange unit="item">755</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

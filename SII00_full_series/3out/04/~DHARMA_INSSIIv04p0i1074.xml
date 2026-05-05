@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 4.1074: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 1074. (A.R. No. 230-A of 1893). RIGHT OF No. 1073 ABOVE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv04p0i1074</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="1" unit="character"/> ratna <gap reason="lost" quantity="10" unit="character"/> saṁvatsarē <g type="danda">.</g> śrī <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="3"/> <gap reason="lost" quantity="2" unit="character"/> la <gap reason="lost" quantity="10" unit="character"/> <unclear>tma</unclear>jaḥ śrīmadinumaḍirāya
+<lb n="4" break="no"/> <gap reason="lost" quantity="10" unit="character"/> caladalakalājayaśrāvaṇa
+<lb n="5" break="no"/> <gap reason="lost" quantity="10" unit="character"/> cāpapadāt śrībhīmanāthāsya dīpamācaṁ
+<lb n="6" break="no"/> <gap reason="lost" quantity="5" unit="character"/> va¨rṣa 11<unclear>04</unclear> gunēṁṭṭi śrīma<supplied reason="omitted">t</supplied> tribhuvanacakrava¨rtti śrīrājādhirāja
+<lb n="7" break="no"/> <gap reason="lost" quantity="2" unit="character"/> ra vijayarājyasaṁvatsaraṁbulu 61 śrāhi śrāvaṇa śuddha 10 miyu
+<lb n="8"/> <gap reason="lost" quantity="1" unit="character"/> <unclear>vāramunāṁḍu</unclear> maṁdala kēdā <gap reason="lost" quantity="1" unit="character"/> ya Arasama koḍku mokharimaḍgula Ekkalāda
+<lb n="9"/> <gap reason="lost" quantity="3" unit="character"/> lākū divā <gap reason="lost" quantity="3" unit="character"/> Okkaṇṭi tri<unclear>bhu</unclear><supplied reason="omitted">va</supplied>nāṁkkuśā varāha māna 1 ṇṭiki
+<lb n="10"/> <gap reason="lost" quantity="5" unit="character"/> tama lēṁ<unclear>kka</unclear> yaḍudagalō Ēpadimoduvu sa
+<lb n="11" break="no"/> <gap reason="lost" quantity="5" unit="character"/> pūṇṭanā bhīma <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 4.1074 by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1923_01"/>
+			<citedRange unit="page">357</citedRange>
+			<citedRange unit="item">1074</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

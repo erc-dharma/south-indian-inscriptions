@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.170: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 170. (A.R. No. B 49 of 1939-40.) Paṭṭapurāyi, Siddhavatam Taluk, Cuddapah District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0170</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Another broken slab lying on the river bank to the north-east of the village.</p>						
+
+						<p>Tirukālattidēva Chōḍa Mahārāja I.</p>						
+
+						<p>This dated in the cyclic year <hi rend="bold">Vibhava, Chitra śu. 8, Thursday.</hi> In characters of 8th century A.D.</p>						
+
+						<p>Records the gift of land for the worship and offerings to the god Rāmīśvara by certain individual Bhīmi-Nāhiḍu and a gift to another individual Kaṇṭha Jiya.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<!--<h4>First Face.</h4>-->
+
+<p>
+<lb n="1"/>śrīmanu 
+<lb n="2"/>mahāmaṁḍalēsvara ti 
+<lb n="3" break="no"/>rukāttidēva cōḷamahārājula 
+<lb n="4"/><unclear>rāju</unclear> rājyamuna vibhava saṁvatsa 
+<lb n="5" break="no"/>ra caitra su 8 <gap reason="lost" quantity="1" unit="character"/> <supplied reason="omitted">gu</supplied>ruvārāna śrīma<unclear>ṭha</unclear> 
+<lb n="6"/>pesula<unclear>kō</unclear>ṭisulāyna bhīmināhiḍu 
+<lb n="7"/>vināhi<unclear>ḍu</unclear> manapeggaḍa rāmisva 
+<lb n="8" break="no"/> <gap reason="lost" quantity="5" unit="character"/> dūpadīpanaivēdyānaku 
+<lb n="9"/> <gap reason="lost" quantity="5" unit="character"/> ṟvu Icci kaṁṭhajiya 
+<lb n="10"/>la <gap reason="lost" quantity="5" unit="character"/> 
+</p>
+
+<!--<h4>Second Face.</h4>-->
+
+<p>
+<lb n="11"/>krōsōju <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="12"/>¨rvvakamu sēsi viḍcina <unclear>vri</unclear>tti <g type="ddanda">.</g> 
+<lb n="13"/>kinevvarēni vakra <gap reason="lost" quantity="2" unit="character"/> lāynā <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="14"/>ru gaṁgakatti kōṭi <gap reason="lost" quantity="2" unit="character"/> kāma <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="15"/>la vadhiṁcina pāpāla bōyi <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="16"/>vāru dīni kanukūlamainavā 
+<lb n="17" break="no"/>ru dēvara śrīpādamulu 
+<lb n="18"/><unclear>prā</unclear>yaka kolturu si 
+<lb n="19" break="no"/>vamastu śrī śrī <g type="ddanda">.</g> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.170 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">133-134</citedRange>
+			<citedRange unit="item">170</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

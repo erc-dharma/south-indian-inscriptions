@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 20.234: original edition by G. S. Gai</title>
+				<title type="alt">No. 234. (B.K. No. 82 of 1938-39.) KUNDGŌḶ, KUNDGOL TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv20p0i0234</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Stone built into the front wall of the Hanumantadēva temple.</hi></p>						
+
+						<p>Dēvarāya II—A.D. 1444.</p>						
+
+						<p>This record is dated <hi rend="bold">Śaka 1366, Raktākshi, Kārtika, s11u. 5.</hi> The weekday is not given. The <hi rend="italic">tithi</hi> corresponded with <hi rend="bold">A.D. 1444, October 16,</hi> which was <hi rend="bold">Friday.</hi></p>						
+
+						<p>The inscription states that Vallabharāja and Yiḷamadhirāja installed the image of Hanumanta at Kundhāgal (Kundagōḷ). Vallabharāja is stated to be the son of Mahāmaṇḍalēśvara Singarāja, a subordinate of the king. The sculptor was Kallōja, son of Bommavōja.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>© svasti śrī jayādruya śakavaruṣa sāvirada mu<note n="285-1">Read jayābhyudaya.</note>
+<lb n="2" break="no"/>ṁnūṟu Aṟuvattāṟaneya raktākṣi saṁ 
+<lb n="3" break="no"/>vatsarada kārttika śu 5 svasti samastabhuvanāśraya śrīpruthvīva
+<lb n="4" break="no"/>llabha rājādhirāja paramēśvara śrī vīrapratāpa dēvarāya ma
+<lb n="5" break="no"/>hārāyarugaḷa bhajā pratāpa yinakulatilaka gaṁḍara ga<note n="286-1">Read bhuja</note>
+<lb n="6" break="no"/>ṁḍa gaṁḍabhēruṁḍa śrīma(ṁ)nmahāmaṁḍaḷēśvara siṁgarāja
+<lb n="7"/>tanubhavaru vollabharāja ru yiḷamadhirāja<note n="286-2">Read vallabharāja</note>
+<lb n="8" break="no"/>ru kuṁdhāgalladalu śrī hanumāṁ<unclear>nti</unclear>na pratiṣṭheyanu māḍisi<note n="286-3">This is a mistake for hanumantana</note>
+<lb n="9"/>kaṁḍeṟasi māḍahēḷidaru Avara Āgneyali Aṁjanāsūnuvanu
+<lb n="10"/>kaṁḍiṟisidavaru <unclear>brāmaṇanya kali</unclear> Udbhavaru bomarājara
+<lb n="11"/>garbbharatnākararu charāmaṁṇanu ciṁnarājaru māḍi
+<lb n="12" break="no"/>sidaru maṁgaḷa mahā śrī śrī śrī yē <gap reason="lost" quantity="1" unit="character"/> paḍavritti
+<lb n="13"/> <gap reason="lost" quantity="2" unit="character"/> kkavōjā<unclear>ya</unclear>ra kaṁmāṟa boṁmavōjana ma
+<lb n="14" break="no"/>ga kallōjanu māḍida hanumaṁtanu maṁ
+<lb n="15"/>śrī śrī śrī
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 20.234 by <bibl><ptr target="bib:Gai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Gai1964_01"/>
+			<citedRange unit="page">285-286</citedRange>
+			<citedRange unit="item">234</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

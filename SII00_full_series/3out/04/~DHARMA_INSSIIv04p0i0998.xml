@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 4.998: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 998. (A.R. No. 173 of 1893). ON A PILLAR IN THE MANDAPA OF THE MALLESVARA TEMPLE IN THE SAME VILLAGE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv04p0i0998</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="5" unit="character"/> saṁtānakramamuna
+<lb n="3"/>Ācaṁdrā¨rkkamu naḍapa
+<lb n="4" break="no"/>galavāramu vī<unclear>ri ta</unclear>mmu
+<lb n="5" break="no"/><unclear>ḍu</unclear> cōḍapabōyuni va<unclear>sa</unclear>
+<lb n="6" break="no"/>muna Akhaṁḍava¨rttidī
+<lb n="7" break="no"/>pamu 1 ṭikiṁ beṭṭina
+<lb n="8"/>mōdālu <unclear>2</unclear>5 Ī mōdālaṁ <unclear>jē</unclear>
+<lb n="9" break="no"/>koni <gap reason="lost" quantity="10" unit="character"/> <note n="327-1">Near this inscription is found the following fragment:— 
+
+<l n="4:327:998:1">lakuṁ dha¨rṁmmuvugānu śrībhī-</l>
+
+<l n="4:327:998:2">mēśvara śrīmahā <gap reason="lost" quantity="3" unit="character"/> </l>
+
+<l n="4:327:998:3"> <gap reason="lost" quantity="3" unit="character"/> Akhaṁḍavatti</l>
+
+<l n="4:327:998:4">dīpamunaku Iṁdula sānimuṁnū-</l>
+
+<l n="4:327:998:5">¨rvvara vasemunaṁ beṭṭina <unclear>gō</unclear>vulu 25</l></note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 4.998 by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1923_01"/>
+			<citedRange unit="page">327</citedRange>
+			<citedRange unit="item">998</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

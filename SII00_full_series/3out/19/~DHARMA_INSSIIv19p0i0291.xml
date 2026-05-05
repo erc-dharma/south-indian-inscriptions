@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.291: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 291. (A.R. No. 491 of 1930.) VAḶAPPŪRNĀḌU, NAMAKKAL TALUK, SALEM DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE, ARAPPAḶĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0291</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records a decision (probably of the temple authorities), fixing a recurring (annual) payment of a <hi rend="italic">kaḻanju</hi> of gold as remuneration to four persons, for conducting the three daily services in the temple of Tiruvaṟappaḷḷi-Uḍaiyār with twelve <hi rend="italic">naḻi</hi> of rice by the standard measure <hi rend="italic">Tiruveḷḷaṟai-kāṇam</hi>, derived from the (temple) land situated at Veruṇūr. This might be referred to the reign of <hi rend="bold">Uttama-Chōḷa.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śrī</hi> kopparakecari<hi rend="grantha">pa</hi>n<hi rend="grantha">ma</hi>ṟku yā<supplied reason="omitted">ṇ</supplied>ṭu patinoṉṟāvatu tiruvaṟappaḷḷiyuṭaiyārkku
+<lb n="2"/>tiruveḷḷaṟaik kāṇattāl <hi rend="grantha">sandhi</hi> yo<unclear>ro</unclear>vo
+<lb n="3" break="no"/>nṟukku tiruvamurtarici nānāḻiyāka <hi rend="grantha">sandhi</hi> munṟukku Arici panniru nāḻikkum ve
+<lb n="4"/>ruṇūril nilaṅkoṇṭu ceytu varukiṟa māṇikaḷ nālvaṟkku Iṭum
+<lb n="5"/>pon kaḻañcum <hi rend="grantha">cantrā</hi>tittavaṟ celuttuvatāka<unclear>vum</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.291 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">144</citedRange>
+			<citedRange unit="item">291</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

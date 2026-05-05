@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.339: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 339. (A.R. No. 310 of 1904.) TIRUGŌKARṆAM, NEAR PUDUKKOTTAI, TIRUCHIRAPPALLI DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0339</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the south wall of the rock-cut central shrine in the Gōkarṇēśvara temple.</p>						
+
+						<p>Rājarāja I. Year 13: 997-98 A.D.</p>						
+
+						<p>This records that the lands belonging to the Mādēvar at Śrī Gōkarṇam were made tax-free by the <hi rend="italic">nāṭṭār</hi>, who received a lump sum of 20 <hi rend="italic">kāśu</hi> and an annual grant of 5 <hi rend="italic">kāśu</hi> from Adambāruḍaiyāṉ Vēḷāṉ Kāri of Pāmbūr-nāḍu.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti</hi>
+<lb n="2"/><hi rend="grantha">śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> cālai
+<lb n="3"/>kkalamaṟut
+<lb n="4" break="no"/>ta kovirā<hi rend="grantha">ja</hi>
+<lb n="5" break="no"/>rā<hi rend="grantha">ja</hi>kecariyapa
+<lb n="6" break="no"/>ṉmaṟku yāṇṭu <hi rend="grantha"><unclear>1</unclear>3</hi>
+<lb n="7"/>Āvatu pāmpur nā
+<lb n="8" break="no"/>ṭṭu Atampāruṭaiyā
+<lb n="9" break="no"/>ṉ veḷāṉ kāri teṉka
+<lb n="10" break="no"/>vira nāṭṭu veḷḷāṉ <unclear>pa</unclear>
+<lb n="11" break="no"/>la nāṭṭār vacam <hi rend="grantha">de</hi>va<hi rend="grantha">dā</hi>
+<lb n="12" break="no"/>ṉam <hi rend="grantha">śrī</hi> kokarṇattu <hi rend="grantha">mā</hi>
+<lb n="13" break="no"/><hi rend="grantha">de</hi>var Iṟai Iṟukka kaṭava ka*
+<lb n="14"/>ṭamaikku nāṭṭār vacam ve
+<lb n="15"/>ḷāṉ kāri pola Ūṭṭu vaitta
+<lb n="16"/>kācu <num value="20">2 <g type="numeral">10</g></num> I<supplied reason="omitted">k</supplied>kācu Irupatukkum
+<lb n="17"/>Āṭṭai poli Ūṭṭu kācu Ai
+<lb n="18" break="no"/>ñcukkum Ittevariṟai yiṟu<supplied reason="omitted">kkak</supplied> kaṭa
+<lb n="19" break="no"/>va nilattāl van=ta Iṟaiyuḷḷi <supplied reason="omitted">ṭṭa</supplied>tu
+<lb n="20"/>Epperppaṭṭatu<hi rend="grantha">m</hi> nāṭṭoṭe yi
+<lb n="21" break="no"/>ṟai Eṟṟi nāṭṭāre Iṟai Iḻiccu I
+<lb n="22" break="no"/>ttevar<supplied reason="omitted">k</supplied>ku Iṟaiili ceyta nilam
+<lb n="23"/><hi rend="grantha">śrī</hi>kokarṇamum paṉa vayalum putuve
+<lb n="24" break="no"/>ṭṭiyum Im muṉṟu vayalil nālellai
+<lb n="25" break="no"/><unclear>k</unclear>ku naṭuvu paṭṭa nirnilamu miḷanilamu
+<lb n="26" break="no"/>m puṉceyyum <gap reason="lost" quantity="4" unit="character"/> māvu maṟṟu me nokki<unclear>ṉa</unclear>
+<lb n="27"/>maramum Uṭpa<supplied reason="omitted">ṭṭa</supplied> Uṭumpoṭiyāmai <gap reason="lost" quantity="1" unit="character"/> tavaḻnta
+<lb n="28"/>Epperpaṭṭitu <gap reason="lost" quantity="4" unit="character"/> <unclear>te</unclear>varkku Iṟai Iḻittu I
+<lb n="29" break="no"/>cantirātitta <gap reason="lost" quantity="2" unit="character"/> nivan=tañ ceytapaṭi mu�<note n="156-1">Incomplete. The text of this inscription is published in <hi rend="italic">Inscription of Pudukkottai State</hi>, p. 17, No. 36 with some mistakes.</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.339 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">156</citedRange>
+			<citedRange unit="item">339</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

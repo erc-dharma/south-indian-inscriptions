@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.393: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 393. (A.R. No. 328 of 1910.) TIRUMEYJÑĀNAM, KUMBHAKONAM TALUK, TANJAVUR DISTRICT. ON THE NORTH WALL OF THE CENTRAL SHRINE, JÑĀNAPARAMĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0393</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The inscription is damaged in places. It records the sale with exemption of taxes of an areca-garden for 40 <hi rend="italic">kaḻañju</hi> of gold and of a wet land for 13 <hi rend="italic">kaḻañju</hi>, by the <hi rend="italic">mahāsabhā</hi> of Ārūrchchēri a <hi rend="italic">brahmadēya</hi> in Tirunāṟaiyūr-nāḍu to the temple of <hi rend="bold">Tirumayānattudēvar</hi> at Nālūr. Mention is made of an areca-garden belonging to a temple of god <hi rend="bold">[Śam]parēśvarattudēva</hi>, as one of the boundaries of the former. This is probably a record of the reign of <hi rend="bold">Uttama-Chōḷa.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>kopparakecaripa<hi rend="grantha">nma</hi>ṟku yāṇṭu <num value="16"><g type="numeral">10</g> 6</num><g type="dash"/>Āvatu <unclear>tirunaṟaiyū</unclear>rnā<unclear>ṭ</unclear>ṭu <hi rend="grantha">brahma<unclear>de</unclear></hi>yam Ārūrcceri <hi rend="grantha">mahāsabhai</hi>p peruṅkuṟipperumakkaḷom ceṟ <gap reason="lost" quantity="5" unit="character"/> <hi rend="grantha">de</hi>ya<supplied reason="omitted">m</supplied> nālūrt tiru mayāṉattu <gap reason="lost" quantity="4" unit="character"/> lai Iṟaiyi<unclear>li cey</unclear>tu kuṭu <gap reason="lost" quantity="4" unit="character"/> <unclear>tavar kamu</unclear>kantoṭṭamāṉa kamukantoṭṭattukkellai kiḻpā<supplied reason="omitted">ṟ</supplied>k <gap reason="lost" quantity="5" unit="character"/> <hi rend="grantha">reśva</hi>ttu tevar nilattukkum It tevar kamukantoṭṭattukku meṟku<unclear>m</unclear> teṉpāṟkellai peruṅkāl niroṭukālukku vaṭakkum me<supplied reason="omitted">l</supplied>pāṟkellai <hi rend="grantha"><unclear>śa</unclear>mpareśva</hi>ttutevar kamukantoṭṭattukkuk kiḻakkum vaṭapāṟkellai I<unclear>ā</unclear>rū<unclear>rc</unclear>ceri Ūrnatta <gap reason="lost" quantity="4" unit="character"/> key <gap reason="lost" quantity="3" unit="character"/> ḻikkut teṟkum Ivicaitta perunāṉ kellaiyilu makappaṭṭa nilam kaṉṟuṅ <gap reason="lost" quantity="4" unit="character"/> ṟum Āṟiṭupaṭukaiyumuṭpaṭa Iccuṭṭappaṭṭa Iññāṉkellaiyilu <gap reason="lost" quantity="4" unit="character"/> mukantoṭṭa muṟṟum <hi rend="grantha">cantrā</hi>ti<unclear>tta</unclear>vaṟ I<unclear>ṟ</unclear>aiyiliyākac ceytukuṭuttu <hi rend="grantha">sabhai</hi>yoṅ koṇṭa poṉ tiyppokku <gap reason="lost" quantity="4" unit="character"/> ṭuveṭṭic cūṭa karuttu kāyttu <gap reason="lost" quantity="4" unit="character"/> patu paḻaṅkāciṉoṭu <gap reason="lost" quantity="4" unit="character"/> rai� <gap reason="lost" quantity="3" unit="character"/> ppatu Ūrk kallā<unclear>l k</unclear>oṇṭa poṉ <hi rend="grantha"><num value="40">4 <g type="numeral">10</g></num>�</hi> Ippoṉ nāṟpatiṉka<unclear>ḻai</unclear> <gap reason="lost" quantity="4" unit="character"/> <unclear>I</unclear>pparicu kaiyyi ley koṇṭu <gap reason="lost" quantity="5" unit="character"/> <unclear>yiliyākac</unclear> ceytu <gap reason="lost" quantity="4" unit="character"/> tom tirumayāṉamuṭaiya <hi rend="grantha">paramasvāmi</hi>kku Ārurc <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="2"/>pperuṅkuṟip perumakkaḷom Iṉṉam Ittevarkkey Iṟaiyiliyāka <gap reason="lost" quantity="4" unit="character"/> <unclear>va</unclear>rkaḷ ceytukuṭutta nila <gap reason="lost" quantity="3" unit="character"/> pparalaiyiṉ vaṭakkil Aiññūṟṟuvamayakka <gap reason="lost" quantity="5" unit="character"/> kku E<unclear>l</unclear>lai Ūrarinta perunā <gap reason="lost" quantity="4" unit="character"/> ḻpāṟkellai kaviṇiyaṉ Araṅkaṉ māta navaṉitāyan <hi rend="grantha">sabhai</hi>nokkik kiṭanta nilattukku meṟkun teṉpāṟkellai makavāyiṉ ṉiroṭukālukku vaṭakkum melpāṟkellai ceṟṟūrt tirumuttirukkoyiṟ tevar nilattukku <gap reason="lost" quantity="5" unit="character"/> vaṭapāṟkellai Āḻiyvāykā <gap reason="lost" quantity="4" unit="character"/> ṭu kālukkut teṟkkum Ivvicaitta perunāṉ kellaiyilu makappaṭṭa nilam vāykkūṟṟup peruvaḻi vanta Uṇṇilam<unclear>oḻi</unclear>vi<unclear>ṉṟi</unclear> <gap reason="lost" quantity="4" unit="character"/> ṟamai <unclear>Ū</unclear>ro<unclear>ṭu</unclear>ṅ kalanta nirnilam pattu Ippattum Ēṟṟaikkum <hi rend="grantha">cantrā</hi>tittava <gap reason="lost" quantity="4" unit="character"/> ceytukuṭuttuk koṇṭa poṉ ṟuḷaiy <hi rend="grantha"><num value="13"><g type="numeral">10</g> 3</num>�</hi> Ippoṉ patiṉmuk<unclear>kaḻai</unclear>ñcum koṇṭu <hi rend="grantha">cantrā</hi>ti<supplied reason="omitted">t</supplied>taval <gap reason="lost" quantity="4" unit="character"/> kuṭuttom I <hi rend="grantha">sabhai</hi>yom Āka(ka) Ikkamukattoṭṭamum I <gap reason="lost" quantity="7" unit="character"/> ṟaiili ceytukuṭut <gap reason="lost" quantity="9" unit="character"/> Ippoṉ <gap reason="lost" quantity="3" unit="character"/> mukkaḻai <gap reason="lost" quantity="4" unit="character"/> koṇṭu <hi rend="grantha">cantrādi</hi>ttaval Iṟaiyili ceytukuṭuttom Ittirumayāṉattup parama<hi rend="grantha">svā</hi>mikku <gap reason="lost" quantity="5" unit="character"/> <hi rend="grantha">sabhai</hi> <gap reason="lost" quantity="5" unit="character"/> ṅkuṟip <gap reason="lost" quantity="9" unit="character"/> pa<hi rend="grantha">nmāhe <gap reason="lost" quantity="5" unit="character"/> </hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.393 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">206-207</citedRange>
+			<citedRange unit="item">393</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

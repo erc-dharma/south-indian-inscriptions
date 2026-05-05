@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 9.26: original edition by R. Shama Sastry and N. Lakshminarayan Rao</title>
+				<title type="alt">No. 26. (A.R. No. 726 of 1916.) ON A SLAB SET UP IN THE TOPE TO THE NORTH OF THE SAME TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv09p0i0026</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is dated <hi rend="bold">Śaka 872</hi> (= A.D. 950-51) without any other details and refers itself to the reign of the Noḻamba-Pallava king <hi rend="bold">Iṟiva-Noḻamba.</hi> It states that when <hi rend="bold">Mallaṇa Sivari</hi> was in charge of <hi rend="bold">Chirapi twelve,</hi> <hi rend="italic">Gāvunḍa</hi> <hi rend="bold">Kāḍiyaṇṇa</hi> and Paḷḷikāṟa <hi rend="bold">Tuvaṇṇa</hi> were each granted 3 <hi rend="italic">kaṇḍugas</hi> of wet land for repairing the <hi rend="bold">Oḷageṟe</hi> tank. The gift was made in the presence of the inhabitants of the four villages <hi rend="bold">Chirupi, Chintakuṇṭe, Chiṟiyavoḻalu</hi> and <hi rend="bold">Vuḷuvaṭṭu.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>svasti <supplied reason="undefined"><g type="ddanda">.</g></supplied> sakanripakālātītasaṁvatsa
+<lb n="2" break="no"/>rasataṁgaḷeṇṭanūṟa Eḻpatteraḍu
+<lb n="3"/>svasti samadhigatapañcamahāśa
+<lb n="4" break="no"/>bda pallavānvaya śrīpritivīvalla
+<lb n="5" break="no"/>bha pallavarāma palaroḷegaṇḍa
+<lb n="6" break="no"/>nēkavākhyaṁ śrīmatu Īṟivanoḻambha
+<lb n="7"/>pritivīrājyaṅgeyuttire cirapipa
+<lb n="8" break="no"/>nneraḍu mallaṇasivariyāḷe
+<lb n="9"/>Oḷageṟeya kaṭṭi paḍeda sāsana
+<lb n="10"/>cirupiyu cintakuṇṭeyu ci
+<lb n="11" break="no"/>ṟiyavoḻalu vuḷuvaṭṭu
+<lb n="12"/>nālkūrumiḻdu naḍeda kelli
+<lb n="13" break="no"/>goḍaṁgeyoḍḍina keḻage gā
+<lb n="14" break="no"/>vuṇḍakāḍiyaṇnaṅge mūgaṇḍu
+<lb n="15" break="no"/>gaṅgaḻde paḷḷikāṟa tuvaṇnaṅge
+<lb n="16"/>mūgaṇḍugaṅgaḻde Ida salalī
+<lb n="17" break="no"/>yadavaru vāranāsiyuṁ kavi
+<lb n="18" break="no"/>leyumanaḻido <g type="ddanda">.</g> <note n="14-1">Lines 17 and 18 are written</note>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 9.26 by <bibl><ptr target="bib:Shama+Rao1939_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Shama+Rao1939_01"/>
+			<citedRange unit="page">13-14</citedRange>
+			<citedRange unit="item">26</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

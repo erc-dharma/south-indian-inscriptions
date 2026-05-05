@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 30.123: original edition by N. Marxia Gandhi, A. Padmavathy and S. Swaminathan</title>
+				<title type="alt">No. 123. (A.R. No. 201 of 1915.) Brahmadēsam, Cheyyar Taluk, North Arcot District Chandramauḷīśvarā temple-on the north wall Rājēndra-Chōḻa I: year 8: 1020 A.D.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv30p0i0123</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This inscription is much damaged and incomplete. It records gift of paddy to the temple of Śrī Pōnḍai-uḍai[yār] at Parākrama sōḻach-chaturvēdimaṅgalam, a brahmadēya in Dāmar-nāḍu, by certain •••• Nārakkaṉ from Kēraḷānthakach-chaturvēdimaṅgalam, a brahmadēya village of Veṇnāḍu of Uyyakkoṇḍār-vaḷanādu in Chōḷa-maṇdalam for performing sacred bath (<hi rend="italic">abishēka</hi>) to the deity. It also mentions that the water was to be brought from the well called Śrīvaikuntham of this village.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tirumaṉṉi vaḷara Irunila maṭantaiyum po<unclear>ṟ</unclear>cayap pāvaiyum cirtanic celviyum ta <gap reason="lost" quantity="6" unit="character"/> vaṉavāciyum cuḷḷic cūḻ matiṭ
+<lb n="2" break="no"/>koḷḷip pā<hi rend="grantha">kkai</hi>yum naṇṇa<unclear>r</unclear>*k karumuraṇ maṇṇaik kaṭakkamum porukaṭal Īḻattaraicar tam muṭiyum Āṅkavar tevi <gap reason="lost" quantity="4" unit="character"/> ntiraṉāramum teṇṭirai Iḻamaṇ
+<lb n="3" break="no"/>ṭalam muḻuvatum Eṟipaṭai <hi rend="grantha">kke</hi>raḷaṉ muṟaimaiyil cūṭuṅ kulataṉamākiya palar pukaḻ muṭiyum ceṅkatir <gap reason="lost" quantity="8" unit="character"/> ceruviṟciṉavil Irupatto<supplied reason="omitted">ru</supplied> kālaraicukaḷai
+<lb n="4"/><unclear>kaṭṭa</unclear> paracurāmaṉ meva <gap reason="lost" quantity="4" unit="character"/> koṇṭa kopparakecariva<hi rend="grantha">nma</hi>rāṉa <hi rend="grantha">śrī</hi>rā<hi rend="grantha">jentra</hi>co
+<lb n="5" break="no"/><unclear>ḻat</unclear>evaṟkku yāṇṭu Aṭṭā <gap reason="lost" quantity="8" unit="character"/> ttāmar nāṭṭuk karaikkoṭṭu <hi rend="grantha">brahmade</hi>yamāṉa parākkiramacoḻa <unclear>catu</unclear><hi rend="grantha">rvve</hi>timaṅkalattu <hi rend="grantha">śrī</hi>pontai <unclear>yu</unclear>ṭaiya <gap reason="lost" quantity="4" unit="character"/> ṇi <hi rend="grantha">śrī</hi>coḻamaṇṭalattu Uyyakkoṇṭār vaḷanāṭṭu ve
+<lb n="6" break="no"/><unclear>ṇṇā</unclear>ṭṭu <hi rend="grantha">brahmade</hi>yam keraḷāntakaccatu<hi rend="grantha">rvve</hi>ti maṅkalattu <gap reason="lost" quantity="2" unit="character"/> nārakkaṇ <gap reason="lost" quantity="2" unit="character"/> ṉ <hi rend="grantha">śrī</hi> pontai Uṭaiya <hi rend="grantha">mahāde</hi>varkku
+<lb n="7"/><unclear>Iv</unclear>vūr <hi rend="grantha">śrī</hi>vaikuntameṉṉum taṇṇirk kiṇaṟṟu niṉṟum <hi rend="grantha">sandhi <gap reason="lost" quantity="4" unit="character"/> </hi> <gap reason="lost" quantity="1" unit="character"/> kku <gap reason="lost" quantity="4" unit="character"/> Irutūṇik kuṟuṇiyum taṇṇiramutukkuk ku
+<lb n="8" break="no"/><unclear>ṟuṇi</unclear>yumāka <hi rend="grantha">sandhi</hi>nāliṉukkum nicatam mukkalane tūṇi <gap reason="lost" quantity="14" unit="character"/> kalattu <hi rend="grantha">sabhai</hi>yom <hi rend="grantha">śrī</hi>po<hi rend="grantha">nt</hi>ai Ā
+<lb n="9" break="no"/><unclear>ti</unclear><hi rend="grantha">caṇḍeśva</hi>rar kaiyāl yāṅkaḷ koṇṭukaṭava kā <gap reason="lost" quantity="7" unit="character"/> la nellukkalamāka Aṟupatiṉ <gap reason="lost" quantity="6" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 30.123 by <bibl><ptr target="bib:MarxiaGandhi+al2011_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:MarxiaGandhi+al2011_01"/>
+			<citedRange unit="page">101-102</citedRange>
+			<citedRange unit="item">123</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 23.577: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 577. (A.R. No. 577 of 1907.) Nandalūru, Rajampet Taluk, Cuddapah District Saumyanātha temple—on the 2nd, 3rd and 4th tiers of the west base of the same maṇḍapa</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv23p0i0577</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>The inscription comprises three disjointed pieces. This is much damaged. It purports to record a charter given by <hi rend="bold">Bhujabala Vīranārāyaṇa Āhavamalladēva-Mahārāja</hi> to all the <hi rend="italic">mahājanas</hi> of Pottapi-nāḍu, the nature of which is not clear. Mention is made of two families of Śōḻappāḍi supplying oil to the temple for lamps, who seem to have been deprived of some privileges enjoyed since the time of their forebears and hence threatened to commit suicide (?) and were dissuaded from such a step by Āhavamalla himself by restoring them now. We are not vouch-safed the details of this incident by the mutilated state of the record. The record is signed at the end by three officers of the king, two of whom are given as Divyādhikāri Bhāskara-Bhaṭṭōpādhyāya of the [Va]sishṭha-gōtra, son of Nārāyaṇārya and Vāsudēva-Bhaṭṭa, son of Appaṇa-Bhaṭṭōpādhyāya. The third whose name is lost is called the <hi rend="italic">dharmādhikāri</hi> of Āhavamalladēva.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<!--<h4>Second tier</h4>-->
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī</hi>maccāḷikar vi<hi rend="grantha">kra</hi>makālattu cāramākavum <gap reason="lost" quantity="9" unit="character"/> kūṭiṉa nāyaṟṟuk kiḻamai <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="4" unit="character"/> pottappināṭṭu ce<supplied reason="omitted">r</supplied>nta A(ri)<hi rend="grantha">śeṣa</hi> ma<hi rend="grantha">hāja</hi>ṉaṅkaḷukku <gap reason="lost" quantity="9" unit="character"/> Āvatu Ivvūr ma<hi rend="grantha">hāja</hi>naṅkaḷome Ivvūrilirun=ta <gap reason="lost" quantity="4" unit="character"/> kkirāmakkuṭi <gap reason="lost" quantity="8" unit="character"/> kuṭiyum <gap reason="lost" quantity="9" unit="character"/> 
+</p>
+
+<!--<h4>Third tier</h4>-->
+
+<p>
+<lb n="1"/>lai kiḻppakal taṅkaḷukku <gap reason="lost" quantity="6" unit="character"/> ṭiṇaṅka Uṅkaḷukku mulakā <gap reason="lost" quantity="6" unit="character"/> ḷḷutum kaṇattā <gap reason="lost" quantity="9" unit="character"/> <hi rend="grantha">rāja</hi><supplied reason="omitted">r</supplied>kku viṟṟuk <gap reason="lost" quantity="4" unit="character"/> ṉṟu Ivvūr mā<hi rend="grantha">ja</hi>ṉaṅkaḷ <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="2"/>karum viḷakkiraṇṭu kuṭiyu mi<hi rend="grantha">vve</hi>ṇṇai <unclear>yi</unclear>ra<supplied reason="omitted">ṇ</supplied>ṭu kuṭiyu miccoḻap pāṭi <gap reason="lost" quantity="4" unit="character"/> muṉṉāḷ Eṅkaḷ mutātikaḷ <gap reason="lost" quantity="4" unit="character"/> kuṭi<unclear>mu</unclear>lakaḷeṉṟu nāṅkaḷ maḻuveṟukiṟomeṉṟu <hi rend="grantha">śo</hi>lla niṅkaḷ maḻuvetittarāttilai <gap reason="lost" quantity="4" unit="character"/> 
+<lb n="3"/>k kaṭavikoḷeṉṟu Ā[<hi rend="grantha">ha</hi>*]vamalla <gap reason="lost" quantity="4" unit="character"/> yaṉeṉa keḻkaṟu kulattora tomākil In=tanira nūr <gap reason="lost" quantity="3" unit="character"/> yemākilameṉṟu <gap reason="lost" quantity="4" unit="character"/> ttil ma<hi rend="grantha">hā</hi> <gap reason="lost" quantity="7" unit="character"/> 
+</p>
+
+<!--<h4>Fourth tier</h4>-->
+
+<p>
+<lb n="1"/>ṇattil <hi rend="grantha">bhaṭṭa</hi>kaḷum <gap reason="lost" quantity="4" unit="character"/> <hi rend="grantha">pradhā</hi>ṉikaḷum <hi rend="grantha">sa</hi>ma<hi rend="grantha">sta</hi> pari <hi rend="grantha">krāha</hi>mum kāṇa Ivaṉai varom muven=ta(te)rkkum ma<hi rend="grantha">hāja</hi>ṉaṅkaḷ <hi rend="grantha">ja</hi>yitta <gap reason="lost" quantity="2" unit="character"/> yattu Imma<hi rend="grantha">hā ja</hi>ṉaṅkaḷukku Ā<hi rend="grantha">ha</hi>vamalla<hi rend="grantha">de</hi>va ma<hi rend="grantha">hārājā</hi>ṉeṉ <hi rend="grantha">ja</hi> 
+<lb n="2"/> <gap reason="lost" quantity="2" unit="character"/> ttukkuṭuttaṉa Ippaṭikku I<hi rend="grantha">śśi</hi>lā<hi rend="grantha">śāsa</hi>ṉam paṇṇikkuṭutteṉ <hi rend="grantha">bhuja bala</hi>viraṉārāyaṇa Ā<hi rend="grantha">ha</hi>vamalla <hi rend="grantha">de</hi>va<unclear>ma</unclear><hi rend="grantha">hārāja</hi>ṉeṉ <g type="ddanda">.</g><g type="dashLong">.</g>
+<lb n="3"/><hi rend="grantha">siṣṭhagotraja divyādhikāri bhāskarabhaṭṭopādhyā</hi>ya nārāyaṇā<hi rend="grantha">rya sū</hi>nu<hi rend="grantha"> <gap reason="lost" quantity="10" unit="character"/> śrīmadappa</hi>ṇa<hi rend="grantha"> bhaṭṭopādhyā</hi>ya<hi rend="grantha"> sū</hi>nu<hi rend="grantha"> vāsu de</hi>va<hi rend="grantha">bhaṭṭoham</hi>
+<lb n="4"/><hi rend="grantha">śrīmadāha</hi>va<hi rend="grantha">mallade</hi>va<hi rend="grantha"> dharmmādhi <gap reason="lost" quantity="5" unit="character"/> surabhaṭṭopādhyā</hi>ya
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 23.577 by <bibl><ptr target="bib:SrinivasaRao1979_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1979_01"/>
+			<citedRange unit="page">396-397</citedRange>
+			<citedRange unit="item">577</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

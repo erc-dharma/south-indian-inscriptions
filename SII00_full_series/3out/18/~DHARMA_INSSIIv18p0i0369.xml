@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.369: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 369. (B.K. No. 102 of 1933-34.) HŪLIHAḶḶI, RANEBENNUR TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0369</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Hero-stone in front of the Vīrabhadra temple.</hi></p>						
+
+						<p>This damaged inscription commemorating the death of <hi rend="bold">Chikkagavuḍa,</hi> is dated <hi rend="bold">Parābhava, Kārtika ba• Pañchami, Monday.</hi> The <hi rend="bold">Śaka year 11</hi> • • is partly preserved.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>First Panel.</h4>-->
+
+<p>
+<lb n="1"/>© svasti śrīmatu sakavarṣa 11 <gap reason="lost" quantity="2" unit="character"/> parābhavasaṁvatsarada kārttika ba
+<lb n="2" break="no"/>huḷa paṁcami sōma<unclear>vāra</unclear> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="3"/>jiḍuga <gap reason="lost" quantity="2" unit="character"/> cikkagavuḍa <gap reason="lost" quantity="5" unit="character"/> baṭṭe<unclear>ya</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="2" unit="character"/> kāydalli <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="5"/> <gap reason="lost" quantity="10" unit="character"/> <unclear>lō</unclear>ka
+<lb n="6" break="no"/>prāptanāda <g type="ddanda">.</g> <gap reason="lost" quantity="10" unit="character"/> baya mukhya
+<lb n="7" break="no"/>vāgi cikkagavuḍana <gap reason="lost" quantity="10" unit="character"/> niṟi<unclear>sidaru</unclear> <g type="ddanda">.</g>
+</p>
+
+<!--<h4>Second Panel.</h4>-->
+
+<p>
+<lb n="8"/>parideyde tāgi bharadiṁ yarigaḷa mūdalisi poyida <unclear>samarāṁgaḷa</unclear>
+<lb n="9" break="no"/>doḷu kaṁ[ <gap reason="lost" quantity="2" unit="character"/> kkidaṁte] cikkaṁ paribhāvisire koṁdaṁ dhuradoḷu
+<lb n="10"/>palaraṁ yeḍevuḍugada mārvvalavaṁ kaḍikhaṁḍamāḍi
+<lb n="11"/>poyida(ṁ)nāhavadeḍeyoḷu toḍarddu suragaṇike
+<lb n="12" break="no"/>yaroyyalu kaḍukalitanavoppitu cikka<unclear>gavu</unclear>
+<lb n="13" break="no"/>ḍa svarggaprāptaṁ <g type="ddanda">.</g> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.369 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">453</citedRange>
+			<citedRange unit="item">369</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

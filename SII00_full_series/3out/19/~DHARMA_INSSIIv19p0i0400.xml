@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.400: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 400. (A.R. No. 621 of 1920.) UḌAIYĀRKUḌI NEAR KĀṬṬUMANNĀRKŌYIL, CHIDAMBARAM TALUK, SOUTH ARCOT DISTRICT. ON DETACHED STONES IN THE maṇḍapa BEHIND THE NAVAGRAHA IMAGES, ANANTĪŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0400</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Portions of this inscription are lost. It records the purchase of two plots of adjacent lands, one belonging to the <hi rend="italic">sabhā</hi> of Mēl-Ilattūr and the other to that of Mēṟ-Chenninallūr in Veṇṇaiyūr-nāḍu by two merchants, <hi rend="bold">Tiruvaraṅgadēvar</hi> and his brother <hi rend="bold">Aiyaṇattēvar</hi>, who formed them into a unit called Nindādityanallūr after their deceased uncle <hi rend="bold">Daśanāgaṉ Nindan</hi>, and adding thereto another 3 <hi rend="italic">vēli</hi> of land after purchasing the same from the <hi rend="italic">sabhā</hi> of Vīranārāyaṇa-chaturvēdimaṅgalam, thus making an extent of 20(1/2) <hi rend="italic">vēli</hi> and 1 <hi rend="italic">mā</hi> in all, endowed the whole for the daily feeding of 100 persons including 20 Brāhmaṇas, in the hall built by them in the <hi rend="bold">temple of Dvārāpati-Paramasvāmi</hi> in the village in memory of the deceased person. The assembly of Vīranārā- yaṇa-chaturvēdimaṅgalam is stated to have received from the donors, 300 <hi rend="italic">kaḻañju</hi> of gold as <hi rend="italic">tiruttu-vīs11am</hi> for reclaiming for cultivation the three <hi rend="italic">vēli</hi> sold by them. This is probably an inscription of <hi rend="bold">Uttama-Chōḷa's</hi> reign.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopparake<unclear>ca</unclear>riva<hi rend="grantha">rmma</hi>ṟku yāṇṭu <num value="16"><g type="numeral">10</g> 6</num><g type="dash"/>Āvatu vaṭakarai <hi rend="grantha">brahmade</hi>yam <hi rend="grantha">śrī</hi>viranārāyaṇa <hi rend="grantha">śca</hi>tu<hi rend="grantha">rvve</hi>timaṅkalattu <hi rend="grantha">śrīma</hi>t<hi rend="grantha">dvārā</hi>pati <hi rend="grantha">paramasvāmi</hi>uṭaiya koyililey <hi rend="grantha">ca <gap reason="lost" quantity="9" unit="character"/> </hi>
+<lb n="2"/>�kkavāṇiyaṉ <hi rend="grantha">daśa</hi>nākaṉ ni<hi rend="grantha">nda</hi>ṉukkāka Ivaṉ tamaiyaṉmār makkaḷ tiruvaraṅkatevaṉum Aiyyaṇattevaṉum Ivviruvarum Ippara<hi rend="grantha">masvāmi</hi> tirunāmattāl koṇṭu tanta nilamāvaṉa veṇṇaiyūr nāṭṭu <hi rend="grantha">brahmade</hi>yam melilattūr <hi rend="grantha">sabhai</hi>yārpakkal Ivvūr melkaḻani <hi rend="grantha">candrāditya</hi>vat Iṟaiili <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="3"/>rkkellai koṇṭalvāykku meṟkun teṉpārkkellai Iṉṉāṭṭu <hi rend="grantha">brahmade</hi>yam meṟceṉṉi nallūr Ellaikku vaṭakkum melpārkkellai Immeṟceṉṉinallūr Ellaikkey kiḻakkum vaṭapāṟkellai <gap reason="lost" quantity="2" unit="character"/> tuvāykkālukku teṟkum Ivvicainta perunāṉkellaiyilumakappa<supplied reason="omitted">ṭ</supplied>ṭa nilaṉ <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="4"/>ra<hi rend="grantha">masvāmi</hi> tirunāmattāley Ivarkaḷey koṇṭu tan=ta nilaṉ Iṉṉāṭṭu <hi rend="grantha">brahmade</hi>yam meṟceṉṉinallūr <hi rend="grantha">sabhai</hi>yārpakkal Ivvūrkkiḻ kaḻaṉi <hi rend="grantha">candrāditya</hi>vat Iṟaiili vilaikkuk koṇṭa nilam <hi rend="grantha"><num value="50">5 <g type="numeral">10</g></num>�</hi> Iṉṉilam Añcaraiyey Oru māvukku kiḻpārkkellai koṇṭal vāykku meṟkum teṉ <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="5"/>rkkellai centaṉ vāy ceṉṟu <hi rend="grantha">pa</hi>rivattaṉaivā<unclear>kkā</unclear>lukkey pā<supplied reason="omitted">y</supplied>nta ne <gap reason="lost" quantity="2" unit="character"/> kku kiḻakkum vaṭapāṟkkellai Ippa<hi rend="grantha">ramasvāmi</hi> nilattukku teṟkum Ivvicaitta perunāṉkellaiyilu makappaṭṭa nila mikutikkuṟaiyum Uḷḷaṭaṅka nilaṉ 5 �pa Iṉṉilam Añcaraiye Oru māvum Āka nilam <num value="25">2 <g type="numeral">10</g> 5</num> <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="6"/>ni ni<hi rend="grantha">ndāditya</hi>nallūrāvatākavum Iṉni<hi rend="grantha">ndāditya</hi>nallūr koṇṭu <hi rend="grantha">candrāditya</hi>vat nicatamum Ūṭṭakkaṭava kalam <num value="80">8 <g type="numeral">10</g></num> Eṇpatum Ūṭṭak kaṭavomākavum Iyāṇṭu <hi rend="grantha">śrī</hi>viranārāyaṇa<hi rend="grantha">cca</hi>tu<hi rend="grantha">rvvedi-</hi> maṅkalattu <hi rend="grantha">mahāsabhai</hi>yār Ippara<hi rend="grantha">masvāmi</hi> tirunāmattāl viṟṟut tan=ta nilam putuppaṭi muveliyum Immuveli nilattukkum <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="7"/>tāḷkuṭi Ellaikku kiḻakku kuṇṭaiyūrkkup poṉa peruvaḻikku teṟkum maṇṭakappuṟamāṉa nilattukku meṟkumāka Iṉṉaṭuviṭṭa nilaṉ mikutik kuṟaimai Uḷḷaṭaṅka nilaṉ 3li Immuveliyum Itu kollaiyāka Āḻvār <hi rend="grantha">bha</hi>ṇṭārattu Itiṉukku tiruttuvicam Illāmaiyil <hi rend="grantha">daśa</hi>nākaṉ ṉi<hi rend="grantha">nda</hi>n <hi rend="grantha">brāhma</hi>ṇa<hi rend="grantha">bhoja</hi>ṉattu <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="8"/>l tiruttu vicamākak koṇṭa poṉ <hi rend="grantha"><num value="300">3 <g type="numeral">100</g></num>�</hi> Ippoṉ muṉṉūṟṟuk kaḻañcun tiruttuvicamākak koṇṭu Iṉṉilattil <hi rend="grantha">bhoga</hi>ttile Irupatu kalamum <hi rend="grantha">candrāditya</hi>vat Ūṭṭakkaṭavomākavum Iṉṉilattukku Ūnā tiruttam varilum Itin <hi rend="grantha">bhoga</hi>m potilum potāviṭilum Ippara<hi rend="grantha">masvāmi</hi>kku <hi rend="grantha">śrīkāryya</hi>ñ ceykiṉṟāre Irupatu kalamum <hi rend="grantha">candrāditya <gap reason="lost" quantity="9" unit="character"/> </hi>
+<lb n="9"/>ṉṉūṟum Iṉ<hi rend="grantha">nmindā</hi>nallūr nilam Irupataraiyey Orumāvum koṇṭu Emperumāṉ koyilil Iva<supplied reason="omitted">r</supplied>kaḷ Eṭuppitta cālaiyile nicatam Oru nāḻi neyyum ṉālu kaṟiyum veṟṟilai A<unclear>ñcu</unclear>m pākkiraṇṭum Oru kalam nāḻi morumāka nicatam Irunūṟu kalamum <hi rend="grantha">daśa</hi>nākaṉ ni<hi rend="grantha">nda</hi>ṉukkāka <hi rend="grantha">candrāditya</hi>vat Ūṭṭakkaṭavomāka Icaintu Ipparicu kallil � <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="10"/><hi rend="grantha">gā</hi>vi<hi rend="grantha">nda</hi>ṉeṉ <hi rend="grantha">ḷaddharmmammahāsabhai</hi>yār <hi rend="grantha">rakṣai ḷaddharmmam rakṣi</hi>ppār <hi rend="grantha">śrīpādadhūbi</hi> Aṭiyom talaimeliṉa <g type="ddanda">.</g><g type="dashLong">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.400 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">209-210</citedRange>
+			<citedRange unit="item">400</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

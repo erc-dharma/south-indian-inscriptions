@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 10.574: original edition by J. Ramayya Pantulu</title>
+				<title type="alt">No. 574. (A.R. No. 433 of 1911.) ON A SLAB SET UP IN THE COURTYARD OF THE TEMPLE OF KAILĀSANĀTHA, TANGUṬŪRU, RAJAMPET TALUK, CUDDAPAH DISTRICT. Ś. 132[8]. (Vyaya)</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv10p0i0574</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Incomplete. Mentions <hi rend="bold">Annā-Reḍḍi,</hi> son of <hi rend="bold">Maḷḷā-Reḍḍi</hi> and brother of <hi rend="bold">Vēmā-Reḍḍi.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrī śakava¨rṣaṁbulu 
+<lb n="2"/>132<unclear>8</unclear> Agu nēṁṭi vyayasa 
+<lb n="3" break="no"/>ṁvatsara māgha su 10 bu nā 
+<lb n="4" break="no"/>ṁḍu svasti śrī jaganobbagaṁḍḍa 
+<lb n="5"/>kēḷādirāya Ānayamaṁḍḍa 
+<lb n="6" break="no"/><unclear>li</unclear>karagaṁḍa A<unclear>tsa</unclear>giyavaradhasi 
+<lb n="7" break="no"/>ra<unclear>ḥ</unclear>khaṁḍḍana Appayagōpadēnāpa 
+<lb n="8" break="no"/> <gap reason="lost" quantity="1" unit="character"/> ceṁjimalacūrakāṟa Amaravi 
+<lb n="9" break="no"/>taraṇarūpanārāyaṇa bhujabala <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="10"/>mahiṁḍiyarāgaja <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="11"/> <gap reason="lost" quantity="2" unit="character"/> dakkavibhāḷa <gap reason="lost" quantity="3" unit="character"/> vibhā 
+<lb n="12"/> <gap reason="lost" quantity="4" unit="character"/> vīrabasuvaśaṁkara Addanki<unclear>na</unclear> 
+<lb n="13" break="no"/>garasiṁhyāsanādhīśvaruṁḍu <unclear>vē</unclear> 
+<lb n="14" break="no"/><unclear>mā</unclear>reḍḍiṁgāri tammuṁḍuṁ 
+<lb n="15"/><unclear>maḷlā</unclear>reḍḍiṁgāri kumāruṁḍuṁnu 
+<lb n="16"/>Annā<unclear>reḍḍi</unclear>A <gap reason="lost" quantity="4" unit="character"/> (incomplete <gap reason="lost" quantity="1" unit="character"/> )
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 10.574 by <bibl><ptr target="bib:RamayyaPantulu1948_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:RamayyaPantulu1948_01"/>
+			<citedRange unit="page">318</citedRange>
+			<citedRange unit="item">574</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

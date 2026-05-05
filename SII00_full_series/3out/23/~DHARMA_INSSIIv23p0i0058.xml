@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 23.58: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 58. (A.R. No. 58 of 1907.) Kāṇippākkam, Chittoor Taluk, Chittoor District Maṇikaṇṭhēśvara temple—on the south wall of the same shrine</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv23p0i0058</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is dated in the 1[9]th year of a Pāṇḍya king <hi rend="bold">Sundara-Pāṇḍyadeva</hi>, probably <hi rend="bold">Jaṭāvarman</hi> Sundara-Pāṇḍya (<hi rend="italic">acc.</hi> A.D. 1251.). It registers an endowment of some pieces of land as <hi rend="italic">dēvadāna</hi> by the <hi rend="italic">Nāṭṭavar</hi> (assembly) of Tūy-nāḍu, for the celebration of a festival in honour of the <hi rend="italic">Nāyanmārs</hi> in both the temples of Pṛithvīśvaram-uḍaiya-Nāyaṉār and Maṇivarṇīśuram-uḍaiya-Nāyaṉār at Kāvaṇippākkam, and for the expenses of a service called Pallavarāyaṉ-śandi in the latter temple.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>[<hi rend="grantha">śrī</hi>maṟkirttikkumel <hi rend="grantha">śrī</hi>cuntarapā]ṇṭiyatevaṟku yāṇṭu <hi rend="grantha">1<unclear>9</unclear></hi>vatu kāvaṇippākkattu Uṭaiyār <hi rend="grantha">prathi</hi>vi<hi rend="grantha">śvaram U</hi>
+<lb n="2" break="no"/><unclear>ṭaiyanāyaṉārkoyil E</unclear>ḻuntaruḷun nāya<supplied reason="omitted">ṉ</supplied>mārāy Uṭaiyār maṇi va<supplied reason="omitted">r</supplied>ṇicuramuṭaiya nāyaṉār koyilil Eḻuntaruḷiirukki<unclear>ṟa</unclear> Ivar
+<lb n="3" break="no"/>kaḷ tirunāḷ Eḻuntaruḷavum pallavarāyaṉ cantikkum palapaṭinimantat tukkum Ivvūril t<unclear>e</unclear>vatāṉamāyc cellakkiṭanta maṇiva<supplied reason="omitted">r</supplied>ṇa Eriyu 
+<lb n="4" break="no"/>m Erikiḻ nilamum catumukappūṭṭai Iraṇṭum meṉokkiṉa maramuṅ kīḻ <gap reason="lost" quantity="5" unit="character"/> ṇaṟum tevatāṉamāka viṭṭon tūynāṭṭu
+<lb n="5"/>nāṭavarom Itukku Ilaṅkaṉam coṉṉārk keṅkaikaraiyil kurālpacu koṉṟāṉ pāpam koḷvāṉ <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 23.58 by <bibl><ptr target="bib:SrinivasaRao1979_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1979_01"/>
+			<citedRange unit="page">35-36</citedRange>
+			<citedRange unit="item">58</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

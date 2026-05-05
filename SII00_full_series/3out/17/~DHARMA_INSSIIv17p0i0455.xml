@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 17.455: original edition by K. G. Krishnan</title>
+				<title type="alt">No. 455. (A.R. No. 424 of 1904.) VĒDĀRAṆYAM, TIRUTTURAIPPUNDI TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv17p0i0455</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the north wall of the <hi rend="italic">maṇḍapa</hi> in front of the central shrine in the Vēdāraṇyēśvara temple.</p>						
+
+						<p>Rājarāja III. Year 16 + 1: 1232-33 A.D.</p>						
+
+						<p>On palæographical considerations, the king may be identified with Rājarāja III.</p>						
+
+						<p>This inscription records the gift of jewels in gold and silver such as <hi rend="italic">tiruneṟṟimālai</hi> (forehead plate) <hi rend="italic">bāhu-valaiyam</hi> (armlet), <hi rend="italic">tirukkaichchari (bracelet), tirumulaittaḍam</hi> (breast plate), <hi rend="italic">tiruvāram</hi> (necklace), <hi rend="italic">udarabandhanam</hi> (belt), <hi rend="italic">tiruppiṟai</hi> (crescent), etc., to god Maṇavāḷa-nāyaṉār and the goddess Nāchchiyār of Tirumaṟaikkāḍu by Periyāṉ Śelkalāṇḍāṉ of Nelvēli, a merchant of Kulōttuṅgaśōḻappaṭṭiṉam. Also gives the weight of gold and silver for these jewels.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> tiripuvaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi>rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>tevaṟku <supplied reason="omitted">yāṇṭu</supplied> <num value="16"><g type="numeral">10</g> 6</num> n<note n="186-2">Superfluous.</note>vatiṉ Etirāmāṇṭu tirumaṟaikkāṭṭu maṇavāḷa
+<lb n="2" break="no"/>nāyaṉāṟkum nācciyāṟkum cāttiyaruḷak kulottu<unclear>ṅkaco</unclear><note n="186-3">This and the corresponding sections in the following lines are built in.</note>ḻapaṭṭiṉattu viyāpāri nelveli yuṭaiyāṉ pe
+<lb n="3" break="no"/>riyāṉ celkalāṇṭāṉ ceyvitta tiruneṟṟimā<supplied reason="omitted">lai tiru</supplied>vāram Utarapentaṉam tiruppiṟai pākuvalaiyam Ira
+<lb n="4" break="no"/>ṇṭum tirukkaiccari Iraṇṭum māṉu(m) maḻuvukkum <unclear>nācci</unclear>yāṟku tiruvapicekam tiruneṟṟi mālai tiruvāram tiru
+<lb n="5" break="no"/>mulaittaṭattukku <unclear>muṭ</unclear>paṭa poṉ <unclear>Aim</unclear>patte<supplied reason="omitted">ḻu ka</supplied>ḻañce<unclear>muk</unclear>kāle ma<unclear>ñ</unclear>cāṭiyu meḻu mā(k) kuccai
+<lb n="6" break="no"/>kku Iṭṭa veḷ<unclear>ḷi Eṇ</unclear>patt<unclear>ai</unclear>ṅ kaḻañca<supplied reason="omitted">rai</supplied>ye mañcāṭiyum nālu mā 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 17.455 by <bibl><ptr target="bib:Krishnan1964_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Krishnan1964_01"/>
+			<citedRange unit="page">186</citedRange>
+			<citedRange unit="item">455</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

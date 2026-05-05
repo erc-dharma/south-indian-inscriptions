@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 37.509: original edition by S. Nagarjuna and K. Munirathnam</title>
+				<title type="alt">No. 509. (A.R. No. B 9 of 1943-44.) Nandavaram, Banganapalle Taluk, Kurnool District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv37p0i0509</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Slab paved on the floor in the <hi rend="italic">mukha-maṇḍapa</hi> of the Chauḍēśvari temple.</p>						
+
+						<p>This is dated <hi rend="bold">Śaka 1475 Khara, Māgha śu. 15, Thursday.</hi></p>						
+
+						<p>It records that names Pallavali Yallappa and the members of his family who are stated to be ardent devotees of Chauḍēśvari of Nandavaram.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>śrī gaṇādhipatayēnamaḥ <g type="danda">.</g> svasti śrī vijayābhyuda 
+<lb n="2" break="no"/>ya śālivāhana śakavaraṣaṁbbulu <g type="danda">.</g> 1475 Agunēṭi 
+<lb n="3"/>khara saṁvatsara māgha śu 15 guruvāraṁ naṁddavaraṁ 
+<lb n="4"/>cavuḍēśvaraṁmmaku śubhamastu pallavali yalla 
+<lb n="5" break="no"/>ppa komāruḍu rāmaṁnna Ārāmaṁnna ko 
+<lb n="6" break="no"/>māḷlu sūrappa paṭṭābhi laccaya gurva 
+<lb n="7" break="no"/>ppa Ā paṭṭābhi komāruḍu śītārāmuḍu 
+<lb n="8"/>Ā sūrappa komāḷlu subbaya yallama 
+<lb n="9" break="no"/>rsu sārvakālamaṁdu tana hṛdaya daḷaka 
+<lb n="10" break="no"/>¨rṇnikāmadhyamaṁdu baṁgāru puṣpāla 
+<lb n="11" break="no"/>tō pūjacēsuṁnnu yēkāgracittulai bha 
+<lb n="12" break="no"/>ktulai vuṁnnāru <gap reason="lost" quantity="1" unit="character"/> <unclear>bhoṭla</unclear> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 37.509 by <bibl><ptr target="bib:Nagarjuna2018_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Nagarjuna2018_01"/>
+			<citedRange unit="page">440-441</citedRange>
+			<citedRange unit="item">509</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

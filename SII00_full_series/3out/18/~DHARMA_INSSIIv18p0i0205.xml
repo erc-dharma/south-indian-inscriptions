@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.205: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 205. (B.K. No. 3 of 1934-35.) ANTARAVAḶḶI, RANEBENNUR TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0205</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Siṁghaṇa—A.D. 1226.</p>						
+
+						<p>This inscription is dated in the <hi rend="bold">19th year</hi> of the reign of <hi rend="bold">Siṁhaṇadeva, Vyaya, Bhādrapada śu. 1,</hi> corresponding to <hi rend="bold">A.D. 1226, August 25, Tuesday.</hi></p>						
+
+						<p>It commemorates the death of <hi rend="bold">Rāmōja</hi> of <hi rend="bold">Antaravaḷḷi</hi> who died in a fight which took place in the presence of the <hi rend="italic">prabhus</hi> and <hi rend="italic">gāmuṇḍas</hi> of <hi rend="bold">Nūṟuṁbāḍa</hi> and <hi rend="bold">Sattaḷigenāḍu</hi> in connection with the boundary of <hi rend="bold">Halugeṟe</hi> and <hi rend="bold">Beḷugali.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>First Section.</h4>-->
+
+<p>
+<lb n="1"/>© svasti śrīmatu yādavanārāyaṇaṁ pratāpabhujabaḷa
+<lb n="2" break="no"/>cakravartti siṁhaṇadēva<supplied reason="omitted">va</supplied>riśada 19 byuyasa<supplied reason="omitted">ṁ</supplied>vatsarada bhādra
+<lb n="3" break="no"/>pada su <g type="danda">.</g> 1 <unclear>lu</unclear> nuṟuṁbāḍa sattaḷigenāḍa samasta prabhu gā
+<lb n="4" break="no"/>muṁḍagaḷu samasta parivāravuṁ neradu halugeṟeya be
+</p>
+
+<!--<h4>Second Section.</h4>-->
+
+<p>
+<lb n="5" break="no"/>ḷugaliya sīmāsamma<unclear>ṁ</unclear>dhakke kāḷegavādali Antaravaḷḷiya baḍagi gō
+<lb n="6" break="no"/>mōjana maga rāmōja taḷutiṟidu meṟadu suralō
+<lb n="7" break="no"/>kaprāptanāda ma<supplied reason="omitted">ṁ</supplied>gaḷa mahāśrī śrī
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.205 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">285</citedRange>
+			<citedRange unit="item">205</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

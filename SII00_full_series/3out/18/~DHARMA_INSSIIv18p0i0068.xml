@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 18.68: original edition by N. Lakshminarayan Rao</title>
+				<title type="alt">No. 68. (B.K. No. 36 of 1933-34.) YARAGUPPI, HUBLI TALUK, DHARWAR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv18p0i0068</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Slab built into the left wall of the temple of Nārāyaṇadēva.</hi></p>						
+
+						<p>Sōmēs11vara I—A.D. 1062.</p>						
+
+						<p>This inscription referring itself to the reign of <hi rend="bold">Āhavamalladēva</hi> is dated in <hi rend="bold">Śaka 985, Sōbhakṛit, Pushya śu. 5, Sunday, Uttarāyaṇa-Samkrānti,</hi> corresponding <hi rend="bold">to A.D. 1062, December 8, Sunday, f.d.t. 18.</hi> The <hi rend="italic">Saṁkrānti</hi> did not occur on that day. </p>						
+
+						<p>It registers a grant of land made by the <hi rend="bold">Two-hundred</hi> <hi rend="italic">Mahājanas, Aṟuvattokkalu Paṭṭagāṟa-sameya</hi> and others, to the charity well <hi rend="italic">(arabāvi)</hi> constructed by <hi rend="bold">Kēs11imayya</hi> at <hi rend="bold">Eraguppe.</hi> <hi rend="italic">Mahāmaṇḍalēśvara</hi> <hi rend="bold">Mārarasa</hi> is stated to be governing the <hi rend="bold">Two Six-hundreds</hi> (division). <hi rend="italic">Manneya</hi> <hi rend="bold">Indrakēsiyarasa</hi> of <hi rend="bold">Maṇaleyara</hi> family and <hi rend="italic">ūroḍeya</hi> <hi rend="bold">Nākarasa</hi> are mentioned.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="5" unit="character"/> maḥ svasti jayaścābhyudayaśca śrī śrī
+<lb n="2"/>© svasti samastabhuvanāśraya śrīprithvīvallabha mahārājādhirāja paramēśvara parama bhaṭṭārakaṁ satyāśrayakuḷati
+<lb n="3" break="no"/>ḷakaṁ cāḷukyābharaṇaṁ śrīmadāhavamalladēvara rājya(ṁ)muttarōttarābhivṛddhipravarddha mānamācaṁdrārkkatāraṁba
+<lb n="4" break="no"/>raṁ saluttamire <g type="danda">.</g> tatpādapadmōpajīvi samadhigatapaṁcamahāśabda mahāmaṇḍaḷēśvaraṁ bhāvana gandhavāraṇaṁ maiḷala
+<lb n="5" break="no"/>dēviyaṁkakāṟaṁ śrīmanmahāmaṁḍaḷēśvaraṁ mārarasa Eraḍaṟunūṟumaṁ sukha saṁkathāvinōdadināḷuttamire <g type="ddanda">.</g> samadhigata
+<lb n="6" break="no"/>paṁcamahāśabda mahāsāmantaṁ maṇaleyarānvayaprasūta purikarapuravarēśvaraṁ śrīmanmanneyaṁ Iṁdrakēsiya
+<lb n="7" break="no"/>rasa <g type="danda">.</g> sakavarṣa 985 neya sōbhakritsaṁvatsarada pauṣyasuddha 5 Ādityavāra duttarāyaṇasaṁkrānti vyatīpāta
+<lb n="8" break="no"/>dandu <g type="danda">.</g> vṛtta <g type="danda">.</g> vinayāṁbhōnidhi vipravaṁśatiḷakaṁ śrīnāgadēvāryyanātana putraṁ vibhu sōvarājanuditādityaprabhaṁ
+<lb n="9"/>tatsutaṁ vinutōdyadyaśanāśritāmarakujaṁ grāmādhipaṁ śaucasajjanavaṁdyaṁ prabhu nākiyanvayamiḷālōkastu
+<lb n="10" break="no"/>taṁ dhātriyoḷ <g type="ddanda">.</g> kanda <g type="ddanda">.</g> nītividanamaḷacarita<unclear>ṁ</unclear> khyātānvayanabjabhavakuḷāṁbaratigma dyōtiyene negaḻda peṁpiṁ mātēṁ
+<lb n="11"/>grāmādhināyakaṁ nākarasaṁ <g type="danda">.</g> samastaguṇasampannaṁ nuḍidu mattenna<unclear>ṁ</unclear> nāḷge nallātaṁ pusiyilladātaṁ vīrāṁganālalāṭa
+<lb n="12" break="no"/>paṭṭaṁ birudagharaṭṭaṁ satyarādhēyaṁ śaucagāṁgēyaṁ nannikandarppa piridīyalārppa vipuḷacaritraṁ gōtrapavi
+<lb n="13" break="no"/>traṁ birudara tōḷgali śrīmadūroḍeyaṁ nākarasa <g type="ddanda">.</g> kanda <g type="ddanda">.</g> Ajavaṁśōttama pātrarssujanāgraṇigaḷsama
+<lb n="14" break="no"/>staśāstrajñaraghabrajasaṁhārar śiṣṭēṣṭajanādhārarmmahātmaresevinnūrvvar <g type="ddanda">.</g> yama niyamasvādhyā
+<lb n="15" break="no"/>yadhyānadhāraṇamōnānuṣṭhāṇaparāyaṇar viditavēdavidyāpāragar ṣaṭkarmaniratar saptasōmasaṁ
+<lb n="16" break="no"/>sthāvabhṛtāvagāhanapavitrīkṛtōttamāṁgaranēkaśāstrasmṛtipurāṇaṣaṭtarkkavāgvibhūṣaṇa rāśri
+<lb n="17" break="no"/>tajanakaḷpavṛkṣarēkavākyar dvātriṁśatsahaśrasameyāgragaṇyaragaṇyapuṇyamūrttigaḷa
+<lb n="18" break="no"/>ppa śrīmaderaguppeya Innūrvvaru gāvuṇḍu Aṟuvattokkaluṁ <g type="ddanda">.</g> vṛtta <g type="ddanda">.</g> vitatayaśapratāpa
+<lb n="19" break="no"/>rāśritakaḷpamahījarāntaraṁ hatiyipa śūrarunnataguṇāvaśatharssamayāgragaṇya rūrjjita 
+<lb n="20" break="no"/>mahimāspadarssadayadānavinōdaraśēṣaśiṣṭasaṁgatarene peṁpaḍedoreṁto dhāriṇiyoḷ sale paṭṭa
+<lb n="21" break="no"/>gāṟaru <g type="danda">.</g> kandaṁ <g type="danda">.</g> nākadinamarāpage bhūlōkakkavatarisidudu bhagīrathanindeṁbī katheya <unclear>kēḷdu</unclear> kēḷveṁ prā
+<lb n="22" break="no"/>kaṭamāytīgaḷeḷege <unclear>kēsa</unclear>vaninda <g type="danda">.</g> vṛtta <g type="danda">.</g> gaṁgāsindhupravāhaṁ janiyisidudu satpuṇyadiṁ kēsigī
+<lb n="23"/>prōttuṁgakhyātiprabhāvaṁ pasarisuvinegaṁ kūpadākāradindaṁ śringāraṁ betta dharmmē tamanabhinutamaṁ
+<lb n="24"/>vāridhāraughadindaṁ māṁgalyaṁ phoṇmitēṁ celvesududo dharegī sanda dharmmānurāgaṁ kanda <g type="danda">.</g> vitatayaśanarasi
+<lb n="25" break="no"/>mayyaṁge tanūjaṁ māḷimayyavibhuvakhiḷaguṇānvite ta<unclear>tkuḷa</unclear>nāriyarundhatiyenisida māṇikabbe
+<lb n="26"/>vanitāratna <g type="ddanda">.</g> tattaneya kauṇḍilyakuḷōttamanene negaḻda kēśimayyaprabhu sa<unclear>dvṛ</unclear>ttana <unclear>ra</unclear>bāvi
+<lb n="27" break="no"/>yaṁ viḷasattējaṁ parahitārtthamaṁ māḍisidaṁ <g type="danda">.</g> Antūroḍeyapramukhamahājana vinnū
+<lb n="28" break="no"/><unclear>rvva</unclear>ruṁ gāvuṇḍu Aṟuvattokkaluṁ paṭṭagāṟasameya samūhamumiḻdu śrī maderagu
+<lb n="29" break="no"/><unclear>ppe</unclear>ya Arabāvige biṭṭa bhūmiyūriṁ paḍuvalūroḍeyara mānyadiṁ baḍaga beṇneya paḷḷa
+<lb n="30" break="no"/>diṁ mūḍa pāḷapasugeyiṁ teṁkalirppattu gēṇa gaḷeyalirppattaydu mattarmānyadoḷage bāvi
+<lb n="31" break="no"/>ya mūḍaleraḍu mattarantu Irppattēḷu mattarumaṁ sarvvabādhāparihāraṁ gāmuṇḍa gēriyiṁ
+<lb n="32"/>teṁkaṇa taḍada viḷkayya maneyuṁ sarvvanamasyadiṁ kādu pratipāḷisidavargge gaṁge gaṁgā sāgara
+<lb n="33"/>prayāge vāraṇāsiyargghyatīrttha kurukṣētradoḷsāsirvvarbrāhmaṇargge sāsira kavileyuṁ
+<lb n="34"/>sāsira gadyāṇa ponnumaṁ dānaṁ goṭṭa phaḷamumaśvamēdhaṁ geyda phaḷamumakkuṁ <g type="danda">.</g> Idana ḷidaṁga
+<lb n="35" break="no"/>vaḷiye kaḍegaṇisidaṁgā ma<unclear>hā</unclear>tīrtthaṁgaḷoḷ sāsira kavileyuṁ sāsira brāhmaṇarumane
+<lb n="36" break="no"/>ḷkōṭi tapōdhanarumanaḷida pātakanuṁ paṁcamahāpātakanumāgi narakakke gaḷagaḷaniḷiguṁ
+<lb n="37"/>sāmānyōyaṁ dharmmasēturnṛpāṇāṁ kālē kālē pālanīyō bhavadbhiḥ sarvā nētānbhāginaḥ pārtthivēṁdrā
+<lb n="38"/>bhūyō bhūyō yācatē rāmabhadraḥ <g type="danda">.</g> svada<unclear>ttaṁ</unclear> paradattaṁ vāyō harēti vasundha rāṁ ṣaṣṭi
+<lb n="39" break="no"/>rvvarṣasahasrāṇi viṣṭhāyāṁ jāyatē krimiḥ <g type="danda">.</g> baḍagi cāvaṇḍana manegaṁ jīvadhanakkaṁteṟe
+<lb n="40" break="no"/>yarddha dāna <g type="ddanda">.</g> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 18.68 by <bibl><ptr target="bib:LakshminarayanRao1978_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:LakshminarayanRao1978_01"/>
+			<citedRange unit="page">58-60</citedRange>
+			<citedRange unit="item">68</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

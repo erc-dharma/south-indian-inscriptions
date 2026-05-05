@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 25.80: original edition by M. D. Sampath</title>
+				<title type="alt">No. 80. (A.R. No. 80 of 1908.) VEḌĀL, WANDIWASH TALUK, NORTH ARCOT DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv25p0i0080</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On the <hi rend="italic">gōpura</hi> of the Nīlakaṇṭhēśvara temple.</p>						
+
+						<p>This Sanskrit inscription engraved in <hi rend="italic">Grantha</hi> characters of about the 14th century consists of two verses in the <hi rend="italic">Śārdūlavikrīḍita</hi> metre.</p>						
+
+						<p>The first verse is in praise of the deity Nīlakaṇṭha at Vishapura, worshipped by the large Nīlagrīva (<hi rend="italic">i.e.,</hi> Kaṟaikaṇṭhīśvaram-uḍaiya-nāyaṉār of Veḍāl), while the second verse speaks of seven hills in that place, named after seven persons <hi rend="italic">viz.,</hi> Phaṇīpati (i.e., Ādiśēsha), etc., who are stated to have worshipped the Īśvara here.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:grantha maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">gaurīśō girijāpurē kratayugē gaurīsa mārādhitastētāyāma</hi>
+<lb n="2" break="no"/><hi rend="grantha">pi rāmanāmanagarē rāmēśvara stannataḥ skandaśō guha pūjitō guha</hi>
+<lb n="3" break="no"/><hi rend="grantha">purē pādhāt sa vōñcaparē nīlagrīva <unclear>mu</unclear>ni<unclear>ṣṭu</unclear>tō viṣapurē śrī nīla</hi>
+<lb n="4" break="no"/><hi rend="grantha">kaṇṭhaḥ kalau <g type="danda">.</g> <supplied reason="omitted">1</supplied> Ādāvēva sadāśivam phaṇipati śrīkaṇṭhagauri</hi>
+<lb n="5" break="no"/><hi rend="grantha">guhā dhātā viṣṇura vīśvaraḥ viṣupurē cakram</hi><note n="95-1">May be read as <hi rend="grantha">cakra</hi></note> <hi rend="grantha">ssa mārādhanam <g type="danda">.</g></hi>
+<lb n="6"/><hi rend="grantha">tēṣānnāmahirēva sapta mahitā śśailāstadaivābhavan</hi>
+<lb n="7"/><hi rend="grantha">yē kurvvanti ca tān pradakṣiṇammī mucyanta Ēvaina sā <g type="danda">.</g> <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 25.80 by <bibl><ptr target="bib:Sampath2012_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Sampath2012_01"/>
+			<citedRange unit="page">95</citedRange>
+			<citedRange unit="item">80</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

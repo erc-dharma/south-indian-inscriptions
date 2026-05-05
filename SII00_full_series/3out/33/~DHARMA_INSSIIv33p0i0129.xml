@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 33.129: original edition by K. Munirathnam and T. S. Ravishankar</title>
+				<title type="alt">No. 129. (A.R. No. B 232 of 1950.) Bādinēnipalle, Banganapalle Taluk, Kurnool District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv33p0i0129</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Stone set up near the entrance to the Rāmasvāmin temple.</p>						
+
+						<p>Bikramahādityarāja (Vikramāditya).</p>						
+
+						<p>Records a gift of land as <hi rend="italic">pannasa</hi> measured by the royal measure to Ālabōḷa Sabi Śarma at Koṇḍuru by Bikramahādityarāja of Solar race and Kāśyapa-<hi rend="italic">gōtra.</hi> In characters of the 7th-8th century A.D.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<!--<h4>First Side.</h4>-->
+
+<p>
+<lb n="1"/>svasti sū¨rjya vaṁśōdbhavakulatilaka kāśyapagōtra karikālānvaya 
+<lb n="2"/>śrībikramahādityarājul Ālabōḷa sabiśa¨rmmaku koṇḍūri nūganaṟla rāja 
+<lb n="3" break="no"/>mānaṁbu Irugaṇḍugāḍlapaṭupannasa prasādaṁñcēsiri dīnikivakraṁbu 
+<lb n="4"/>vaccuvāru bāranāsiṣjaccina vanṟūgaṅḍi 
+</p>
+
+<!--<h4>Second Side.</h4>-->
+
+<p>
+<lb n="5"/>koḷlu paṁdlu ṟi<unclear>ṣja</unclear>ccina pāpaṁbagu Uttaraṁbuna guḍluvaḷapu 
+<lb n="6" break="no"/>yasyayasyayathābhūmi tasyatasyatathāphalaṁ 
+<lb n="7"/>svadattaṁ paradattaṁ vāyōharēti vasundharā ṣaṣṭiṁvariṣa sa(ha)srāṇi narakēpa¨rnyutētusaḥ 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 33.129 by <bibl><ptr target="bib:Munirathnam2013_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2013_01"/>
+			<citedRange unit="page">106-107</citedRange>
+			<citedRange unit="item">129</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

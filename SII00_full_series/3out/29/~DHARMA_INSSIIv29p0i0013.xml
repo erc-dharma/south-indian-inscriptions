@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 29.13: original edition by P. N. Narasimha Murthy</title>
+				<title type="alt">No. 13. (A.R. No. B. 831 of 1962-63.) TAḌKAL, MANVI TALUK, RAICHUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv29p0i0013</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Fragmentary slab built into the wall of the agasi.</p>						
+
+						<p><hi rend="bold">Jagadēkamalla [Jayasiṁha II] 1033 A.D.</hi></p>						
+
+						<p>This very much damaged record belongs to the reign of Chālukya Jagadēkamalla who was ruling the empire from the capital [Ēta]giri. Probably it recorded grant of 15 <hi rend="italic">mattar</hi> land to some one [name lost] and 12 mattar land to a Bhaṭara [name lost]. Perhaps these grants are to a god and to its <hi rend="italic">sthānapati</hi> respectively.</p>						
+
+						<p>It is dated Śaka 955, Śrīmukha, Chaitra, Amāvāsye, Sunday, <hi rend="italic">sankrānti.</hi> Probably it corresponds to 1033 A.D., April 2 f.d.t. 25, Monday. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<!--<h4>Front side.</h4>-->
+
+<p>
+<lb n="1"/>para <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="2"/>thvīvallabha <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="3"/>paramēśvara <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="4"/>naṁ satyāśraya <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="5"/>cālukyābhara <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="6"/>gadēka malladēva <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="7"/>ttarōttarābhivriddhi <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="8"/>giriya nelevīḍi na <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="9"/>tata vinōdadināca <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="10"/>tāraṁbaraṁ saluttamire <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="11"/>mat jjagadēkamalladē <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="12"/>viśāḷa vakṣōrasthaḻa ni <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="13"/>śiniyarappa śrībijjala
+<lb n="14"/>dēviyarssaka varṣa 955
+<lb n="15"/>neya śrīmukha saṁvatsarada
+<lb n="16"/>caitradamāvāsye Āditya
+<lb n="17" break="no"/>vāraṁ saṁkrāṁti vya <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="18"/>sūryyagrahaṇa kāla <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="19"/>hāraṁ taḍaka <unclear>la</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+</p>
+
+<!--<h4>Back side.</h4>-->
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="5" unit="character"/> variyo
+<lb n="2"/> <gap reason="lost" quantity="2" unit="character"/> matta 15 <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="3"/> <gap reason="lost" quantity="1" unit="character"/> ḷa bhaṭaraṁge biṭṭake
+<lb n="4" break="no"/>yi mattar 12 <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="5"/>sāmānyōyaṁ dharma
+<lb n="6"/>sētu nṛpāṇāṁ
+<lb n="7"/>kālē kālē pālaniyō
+<lb n="8"/><unclear>bha</unclear>vadbhi sarvvānētā
+<lb n="9"/>bhāginaḥ pārtthivēṁdra <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="10"/>bhūyō bhūyō
+<lb n="11"/>yācatē rāmacaṁ
+<lb n="12" break="no"/>dra <g type="ddanda">.</g> svadattaṁ paradattaṁ
+<lb n="13"/>vāyō harēti vasuṁ
+<lb n="14" break="no"/><unclear>dha</unclear>ra ṣaṣṭirvvariṣa sa
+<lb n="15" break="no"/>hasrāṇi miṣṭāyāṁ
+<lb n="16"/>jāyatē krimi<unclear>ḥ</unclear> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 29.13 by <bibl><ptr target="bib:NarasimhaMurthy2022_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:NarasimhaMurthy2022_01"/>
+			<citedRange unit="page">12-13</citedRange>
+			<citedRange unit="item">13</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

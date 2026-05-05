@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 19.348: original edition by G.V. Srinivasa Rao, Dines Chandra Sircar and G.S. Gai</title>
+				<title type="alt">No. 348. (A.R. No. 630 of 1907.) KŌNĒRIRĀJAPURAM, TANJAVUR TALUK, TANJAVUR DISTRICT. ON THE SOUTH WALL OF THE CENTRAL SHRINE, UMĀ-MAHĒŚVARA TEMPLE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv19p0i0348</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This registers an agreement given by five servants of the temple at Tirunallam a <hi rend="italic">brahmadēya</hi> in Veṇṇāḍu to provide specifled offerings and worship to god Gaṇapati-Bhatārar during the three services in the temple, out of an endowment of 7 <hi rend="italic">mā</hi> of land made by a body called the <hi rend="bold">Paramēśvara-Pēriḷamaiyār</hi> of the village. This is probably a record of <hi rend="bold">Uttama-Chōḷa.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi> kopparake<hi rend="grantha">saripa</hi><supplied reason="omitted">n</supplied><hi rend="grantha">ma</hi><supplied reason="omitted">r</supplied><hi rend="grantha">kk</hi>u yāṇṭu <num value="14"><g type="numeral">10</g> 4</num><g type="dash"/>Āvatu veṇṇā<unclear>ṭṭu</unclear> <hi rend="grantha">brahmade</hi>yan tirunallattu <hi rend="grantha">śrī</hi>koyiluṭaiya kaviciyaṉ muṉṉūṟṟuvanakkaṉum kaviciyaṉ cāttaṉ cantira cekaranum kavi<supplied reason="omitted">ci</supplied>yaṉ nakkaṉ tarukkaṉum kaviciyaṉ cāttaṉ cāttaṉum kaviciyaṉ <gap reason="lost" quantity="9" unit="character"/> cāttaṉ nakka<unclear>ṉu</unclear>m Uḷḷiṭṭa <hi rend="grantha">śrī</hi>koyiluṭai<unclear>yom</unclear>
+<lb n="2"/>Ivvūr parame<hi rend="grantha">śva</hi>raperiḷamaiyār <hi rend="grantha">ga</hi>ṇapatiyā<supplied reason="omitted">r</supplied>kkuk kuṭutta nilam Ivvūrk kiḻur nilam Iṉṉilam Aṟumāvukkum Ellai kiḻpāṟkellai tirukkiḻkkoṭṭamuṭaiya <hi rend="grantha">mahāde</hi>var nilat tukku <supplied reason="omitted">meṟku</supplied>m tenpāṟkellai I<hi rend="grantha">de</hi>var nilattukku vaṭakkum melpāṟkellai vāyk kālukku kiḻa<hi rend="grantha">kk</hi>um vaṭapāṟkellai Ānāṟṟukku teṟkum Āka
+<lb n="3"/>vicaitta perunāṉkellaiyilum Akappaṭṭa nilam Aṟumāvum Inṉam kiḻūrt turuttiyil nilam Oru māvukkum Ellai kiḻpālkellai tirunallamuṭaiya <hi rend="grantha">mahāde</hi>var nilattukku meṟkum teṉpā<unclear>ṟkellai</unclear> Āritaṉ cāmi<unclear>ciṅka</unclear>ṉum tampimār nilattukku vaṭakkum melpāṟkel
+<lb n="4" break="no"/>lai kuḷattukku kiḻakkum vaṭapāṟkellai vāykkālukku teṟkum Āka Icaitta perun<unclear>ā</unclear>ṉkellaiyilum Akappaṭṭa nilam Iṉnilam Oru māvum Ākat taṭi Iraṇṭā <gap reason="lost" quantity="4" unit="character"/> Iṉnilam Eḻumāvum I<unclear>vāṭ</unclear>ṭaic cantirātittaval <gap reason="lost" quantity="9" unit="character"/> Iṉṉilam Anupavittu I<hi rend="grantha">ga</hi>ṇa<hi rend="grantha">pa</hi>ti
+<lb n="5" break="no"/><hi rend="grantha">bha</hi>ṭārarkku niccaṟpaṭi ceyyakkaṭava paṭimāṟṟāvatu ciṟukālai<hi rend="grantha">sa</hi>ntiyil tiruvamurtu A<unclear>rici</unclear> nānāḻiyum Ucciyampotai <hi rend="grantha">sa</hi>ntiyil Arici nānāḻiyum Irāvai <hi rend="grantha">sa</hi>ntiyil Arici Irunāḻiyum Ākak kuttalpūri patināḻiyum muṉ[ ṟu <hi rend="grantha">sa</hi>] nti[ <hi rend="grantha">kk</hi>um] Āka neyamutorupiṭiyum nāḻi Uḻakku nelliṉ kaṟiyamutum tai
+<lb n="6" break="no"/>yiramutu nāḻiuriyum Aṭaikkāyamutu Āṟum Āka nicca<unclear>ṟ</unclear>paṭi cantirātittaval Iṉṉilam Eḻu māvum tāṅkaḷ veṇṭumvaṇṇam Anupavittu cantirātittaval Iṉṉivattam ceyvom Ānom Ivvūr tirukkoyiluṭaiyom <hi rend="grantha">pa</hi>[ n<hi rend="grantha">mā</hi>] <hi rend="grantha">heśvararakṣai</hi> <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 19.348 by <bibl><ptr target="bib:SrinivasaRao1967_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1967_01"/>
+			<citedRange unit="page">178</citedRange>
+			<citedRange unit="item">348</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

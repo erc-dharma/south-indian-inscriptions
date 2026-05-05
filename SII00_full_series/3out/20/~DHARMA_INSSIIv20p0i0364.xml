@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 20.364: original edition by G. S. Gai</title>
+				<title type="alt">No. 364. (B.K. No. 22 of 1937-38.) CHIKKA-MASAḶI, INDI TALUK, BIJAPUR DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv20p0i0364</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="italic">Stone standing in front of the Hanumān temple.</hi></p>						
+
+						<p>A.D. 1307.</p>						
+
+						<p>This record is dated <hi rend="bold">Śaka 1229, Plavaṅga, Bhādrapada, Amāvāsyā, Monday,</hi> corresponding to <hi rend="bold">A.D. 1307, August 28,</hi> the month being adhika-Bhādrapada.</p>						
+
+						<p>This inscription records a gift of land to <hi rend="italic">mahāprabhu</hi> Kēśavadēva by Haridēva Rāṇeya.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="kan-Latn" rendition="class:kannada maturity:undetermined">
+
+<p>
+<lb n="1"/>© svasti śrī 1229 palavaṁga saṁ
+<lb n="2" break="no"/>vacharada bhādrapada ba sōmavāra
+<lb n="3"/>Āmāseli śrīkaraṇādhipati mahādē
+<lb n="4" break="no"/>vapaṁḍitara ma<unclear>li</unclear>hanta haridēvarāṇeya
+<lb n="5" break="no"/>ru sa <gap reason="lost" quantity="3" unit="character"/> geya mahāprabhu
+<lb n="6"/>kēsavadēvaṁge teṁkaṇa holadali muli
+<lb n="7" break="no"/>ga<unclear>rasa</unclear> muḍadeseya sīme teṁka<unclear>de</unclear>seya
+<lb n="8" break="no"/>li cikkamosaḷeya sīme paḍuvadeseya
+<lb n="9" break="no"/> <gap reason="lost" quantity="3" unit="character"/> geya <gap reason="lost" quantity="2" unit="character"/> sīme baḍagadeseya
+<lb n="10" break="no"/> <gap reason="lost" quantity="2" unit="character"/> diya nāgu<unclear>ha</unclear>narā sīme yiṁtī ca
+<lb n="11" break="no"/> <gap reason="lost" quantity="3" unit="character"/> paḍada keyanu dhārāpūrvvaka
+<lb n="12" break="no"/><ce>damaged</ce>
+<lb n="13"/>ṁ koṭṭaru maṁgaḷa mahā śrī śrī
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 20.364 by <bibl><ptr target="bib:Gai1964_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Gai1964_01"/>
+			<citedRange unit="page">370</citedRange>
+			<citedRange unit="item">364</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

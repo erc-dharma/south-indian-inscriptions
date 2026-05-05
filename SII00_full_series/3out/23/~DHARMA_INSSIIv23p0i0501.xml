@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 23.501: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 501. (A.R. No. 501 of 1907.) Vijayanagara (Hampi), Hospet Taluk, Bellary District On a rock near the Jaina temples</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv23p0i0501</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records the gift of a <hi rend="italic">dīpamāle</hi> (lights) to a god (name not clear) by Bukkayave the <hi rend="italic">ardhāṅgalakshmi</hi> (queen) of Vīra Harihararāya (Harihara II) for the merit of her spiritual teacher Bhāskaradēvayya. The date is given as Īśvara (Śaka 1319), Mārgaśira śu. [9], Tuesday = A.D. 1397, November 29, Thursday (not Tuesday). </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svastiśrīmatu yisvara saṁvatsarada mā¨rgatira
+<lb n="2"/>suda palunna <gap reason="lost" quantity="1" unit="character"/> nami maṁgaḷavāradalu śrī
+<lb n="3"/>vīra harihararāya<unclear>na</unclear> A¨rbhāṁga lakṣi
+<lb n="4" break="no"/>mi bukkayavegaḷu taṁ<unclear>vā</unclear> śrī guru
+<lb n="5"/><unclear>bhā</unclear>skara dēvayyagaḷige puṇyavāga
+<lb n="6" break="no"/>bē�ṁdu jeḍeya<unclear>śra</unclear>ṁba <gap reason="lost" quantity="1" unit="character"/> dēvarige <unclear>ḍa</unclear>
+<lb n="7" break="no"/>ttisida dīvamāle <gap reason="lost" quantity="5" unit="character"/> <unclear>maṁ</unclear>
+<lb n="8" break="no"/>gaḷa mahā śrī śrī <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 23.501 by <bibl><ptr target="bib:SrinivasaRao1979_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1979_01"/>
+			<citedRange unit="page">380-381</citedRange>
+			<citedRange unit="item">501</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

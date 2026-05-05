@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 38.450: original edition by S. Swaminathan</title>
+				<title type="alt">No. 450. (A.R. No. 450 of 1912.) KŌṬṬŪR, MANNARGUDI TALUK, TANJAVUR DISTRICT. On the south wall, maṇḍapa infront of the central shrine Koḻundīśvara temple.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv38p0i0450</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">King: Tribhuvanachakaravarttigaḷ Rājarāja III Year 8+1: 1225 A.D.</hi></p>						
+
+						<p>Records that Nāgamaṅgalam-uḍaiyāṉ Tiruambalampiriyādān ambalam-kōyil koṇḍāṉ consecrated an image of Tiruñānampeṟṟa-piḷḷaiyār (saint Jñānasambandar) at Koḻundāṇdār temple at Koṭṭūr in Neṉmali-nāḍu (a sub-division) of Rājēndrachōḻa-vaḷanāḍu. It is also stated that the trustees of the temple who received two thousand <hi rend="italic">kāśu</hi> from the same person for providing food offerings to the deity (set up by him) agreed to supply two <hi rend="italic">nāḻi</hi> of rice per day.</p>						
+
+						<p>Further, it is also recorded that Sūrasāraṁbi Kumāravishṇu Bhaṭṭaṉ, his younger brother Tiruttuṟaināyaga Bhaṭṭaṉ and (a lady) Alliyaṅ Kōdai Sāṉi, the wife of Kumāravishṇu Bhaṭṭaṉ, who is described as her guardian, donated land as <hi rend="italic">tirunāmattukkāṇi</hi> to the same deity.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrīḥ tribhu</hi>vana<unclear>c</unclear>cak<unclear>ka</unclear>ra<unclear>va</unclear>ttikaḷ <hi rend="grantha">śrī</hi>i<unclear>r</unclear>ā<hi rend="grantha">ja</hi><unclear>r</unclear>ā<hi rend="grantha">ja</hi>tevarkku yāṇṭu Eṭṭ<unclear>ā</unclear>vatiṉ Etirāmāṇṭu r<unclear>ā</unclear>
+<lb n="2" break="no"/><hi rend="grantha">jentra</hi>coḻavaḷanāṭṭu neṉmalināṭṭuk koṭṭuruṭaiyār koḻuntāṇṭārkoyilukku nākamaṅkalamu
+<lb n="3" break="no"/>ṭaiyāṉ tirua<unclear>mpa</unclear>lampiriyātāṉ Ampalaṅkoyil koṇṭāṉ Eḻuntaruḷuvitta tiruñānampeṟṟa pi
+<lb n="4" break="no"/><unclear>ḷ</unclear>ḷaiyārku Ā<hi rend="grantha">diśa</hi>ṇ<hi rend="grantha">ḍeśva</hi>ratevar tiruaruḷāl Ippiḷḷai<unclear>y</unclear>ārku tiruamutu Aricikku Ikkoyil
+<lb n="5"/>tānattom Ivar pakkal Uṭaiyamāka<note n="518-1">Read upaiyamāka</note>kkaikkoṇṭa <unclear>kā</unclear>cu <num value="2000">2 <g type="numeral">1000</g></num> Ikkācu Iraṇṭāyirattukkum nāḷ
+<lb n="6"/>Oṉṟukku Irunāḻi Arici Ākappalakaippuṟatte cantirātittavarai Aḷakkak kaṭavomāka <hi rend="grantha">sa</hi>m
+<lb n="7" break="no"/>ma<hi rend="grantha">di</hi>ttom Ivvaṉaivom � § Ippiḷḷaiyārku <hi rend="grantha">su</hi>ra<hi rend="grantha">sā</hi>ram<hi rend="grantha">bi</hi> kumāraviṣṇapaṭṭanum Ivaṉ <unclear>ta</unclear>m<unclear>pi</unclear> tiruttuṟaināya
+<lb n="8" break="no"/>ka paṭṭanum Ikkumāraviṣṇapaṭṭaṉai mutukaṇṇāka Uṭaiya Ivaṉ <hi rend="grantha">bhā</hi>ri Alli<unclear>ya</unclear>ṅkotaic cāniyu
+<lb n="9" break="no"/>m tirunāmattukkāṇiāka <hi rend="grantha">dharmma</hi>tānamākak kuṭutta <hi rend="grantha">śrī</hi> kulottuṅka co<unclear>ḻa</unclear>ccatu<hi rend="grantha">rve</hi>ti maṅkala
+<lb n="10" break="no"/> <gap reason="lost" quantity="6" unit="character"/> rā<hi rend="grantha">ja</hi> <gap reason="lost" quantity="4" unit="character"/> ṉan <hi rend="grantha">ḥ</hi> <gap reason="lost" quantity="10" unit="character"/> ṭi nilam Araikkāṇi mun<unclear>ti</unclear>rikaik ki<unclear>ḷ</unclear>
+<lb n="11"/>munṟumākkāṇi Araik<unclear>k</unclear>āṇi <hi rend="grantha">ḥ—</hi> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 38.450 by <bibl><ptr target="bib:Swaminathan2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Swaminathan2019_01"/>
+			<citedRange unit="page">517-518</citedRange>
+			<citedRange unit="item">450</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 40.163: original edition by K. Munirathnam</title>
+				<title type="alt">No. 163. (A.R. No. B. 297 of 1931.) Kambhampāḍu, Palnad Taluk, Guntur District, Andhra Pradesh. </title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv40p0i0163</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a stone set up in a field called Rājanna-chēnu in the village.</p>						
+
+						<p>This is dated Śaka 154[9], Prabhava, Jyeśhṭha, śu. 15, corresponding to 1627 A.D., May 19, Saturday.</p>						
+
+						<p>Records the gift of land at Kaṁbhaṁpāḍu to a certain Rāmarāju Śaṅkana by Veligōṭi Narasappa, who held the <hi rend="italic">ijārati</hi> of the village.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>śrī giri 
+<lb n="2"/>śālivāhana śakava¨rṣaṁbulu 
+<lb n="3"/>1549 Agunēṁṭi prabhava saṁ<unclear>va</unclear> <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="4"/>jēṣṭa śu 1<unclear>5</unclear>lu veligōṭi narasappa 
+<lb n="5" break="no"/>ṁgāru rāmarāju śaṁkanaku I 
+<lb n="6" break="no"/>ccina bhūdāna dharma śāsanaṁ māyi 
+<lb n="7" break="no"/>jaratiki sāgivacce kaṁbhaṁpāṭi pa 
+<lb n="8" break="no"/>ḍamaṭa māce¨rllatōva vuttarāna 
+<lb n="9"/>palle kha <g type="danda">.</g> 7 vittula kṣētraṁ Isti 
+<lb n="10" break="no"/>mi ganaka mīputrapautrapā 
+<lb n="11" break="no"/>raṁparyaṁ Anubhaviṁcci sukhā 
+<lb n="12" break="no"/>na bratikēdi <g type="danda">.</g> śrīrāmā¨rppaṇaṁ 
+<lb n="13" break="no"/>gānu Ācaṁdratārā¨rkkasthāyi 
+<lb n="14" break="no"/>gānu sarvamānyaṁ Istimi ganaka A 
+<lb n="15" break="no"/>nubhaviṁccedi śrī śrī śrī jēyunu 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 40.163 by <bibl><ptr target="bib:Munirathnam2019_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2019_01"/>
+			<citedRange unit="page">149-150</citedRange>
+			<citedRange unit="item">163</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 33.34: original edition by K. Munirathnam and T. S. Ravishankar</title>
+				<title type="alt">No. 34. (A.R. No. 140 of 1946.) Peddajūṭūru, Pulivendla Taluk, Cuddapah District.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv33p0i0034</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Two slabs set up in the Vēṇugōpalasvāmin temple.</p>						
+
+						<p>This is dated <hi rend="bold">Śaka 143[0], Vibhava, Kārttika śu. 15,</hi> corresponding to <hi rend="bold">1508 A.D., December, 7 Thursday.</hi></p>						
+
+						<p>Records the gift of some lands to the god Nāganātha for daily worship and offerings by Raṅganātha, son of Jāvunayāka.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrī jayābhyu 
+<lb n="2" break="no"/>daya śālivāhana śa 
+<lb n="3" break="no"/>ka varuṣaṁbulu 143(0) 
+<lb n="4"/>(vibhava) nāmasaṁvatsara kā¨rti 
+<lb n="5" break="no"/>ka śuda 15 lu śrīmatu nālva 
+<lb n="6"/>jaṁbaragaṁḍa nālvaṁccaraga 
+<lb n="7" break="no"/>ṁḍa putigaṁḍa bayirava 
+<lb n="8"/>baḍanārāyaṇa paṁcavane 
+<lb n="9"/> <gap reason="lost" quantity="10" unit="character"/> rāya rāhu 
+<lb n="10"/>tta <gap reason="lost" quantity="5" unit="character"/> Aneka birudā 
+<lb n="11"/>Eliyana jāvunāyanigā 
+<lb n="12"/>ri raṁganādhayagāru 
+<lb n="13"/>(nā)ganādhadēvuniki daṁḍaṁ 
+<lb n="14"/>(sama)¨rppiṁcina bhūdāna 
+<lb n="15"/> <gap reason="lost" quantity="10" unit="character"/> naivēdyala 
+</p>
+
+<!--<h4>Second Slab.</h4>-->
+
+<p>
+<lb n="16"/> <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="17"/>dēvuni dūpa dīpa 
+<lb n="18"/> <gap reason="lost" quantity="3" unit="character"/> tūni cēnīstaḷamu 
+<lb n="19"/> <gap reason="lost" quantity="2" unit="character"/> cēnutuṁ <g type="ddanda">.</g> <gap reason="lost" quantity="1" unit="character"/> reṁḍu cē 
+<lb n="20"/>lō tuṁ 72 <gap reason="lost" quantity="2" unit="character"/> sayastimi yī 
+<lb n="21"/>dēvuni kṣētranaku yavaru ta(ppi) 
+<lb n="22"/> <gap reason="lost" quantity="2" unit="character"/> naḍupaḍu vāriki ca 
+<lb n="23"/> <gap reason="lost" quantity="3" unit="character"/> hehaparasada 
+<lb n="24"/> <gap reason="lost" quantity="5" unit="character"/> nu yī dēvastana 
+<lb n="25"/> <gap reason="lost" quantity="5" unit="character"/> paṁvīrajala 
+<lb n="26"/>ṁḍasacāna jalakā 
+<lb n="27"/> <gap reason="lost" quantity="2" unit="character"/> śrī 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 33.34 by <bibl><ptr target="bib:Munirathnam2013_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Munirathnam2013_01"/>
+			<citedRange unit="page">24-25</citedRange>
+			<citedRange unit="item">34</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 4.397: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 397. (A.R. No. 73 of 1890). ON THE WALL OF THE SECOND PRAKARA OF THE TYAGARAJASVAMI TEMPLE AT TIRUVARUR, NEGAPATAM TALUK, TANJORE DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv04p0i0397</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="und" rendition="class:grantha maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">śrīmat brahmapurīśa vāgadhipatissvasvāmimitr<choice><sic>a</sic><corr>ā</corr></choice>śca ye tebhyo</hi>
+<lb n="2"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">he</seg><hi rend="grantha">masabhādhināthacaraṇannyāsol</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">la</seg><hi rend="grantha">sanmastakaḥ <supplied reason="undefined"><g type="danda">.</g></supplied> prādāt bhūmihiraṇyakaṁ sara jatānanyāndhanān sottamān śrīyārūradhipasya mūlavasatau devonapā yo nṛpaḥ <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g><supplied reason="omitted">1</supplied> lakṣmyālaye racitadharmmaparānupāla</hi>
+<lb n="3" break="no"/><hi rend="grantha">śīlānnṛpāmghrika<unclear>malāñchira</unclear>sā namāmi <supplied reason="undefined"><g type="danda">.</g></supplied> vyāghrāgrahāravarahemasabhānaṭeśapādāravindamadhu<unclear>yohyanapā</unclear>yanāmā <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g> <supplied reason="omitted">2</supplied></hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">Āḷuṭaiyanampi mātākkaḷ Icai ñāniyār <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g></seg> <hi rend="grantha">jananibhavato</hi><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ñā</seg><hi rend="grantha">naśivācāryya kulebhavat <supplied reason="undefined"><g type="ddanda">.</g></supplied></hi>
+<lb n="4"/><hi rend="grantha">śaive gautamagotresmin</hi> <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ñā</seg><hi rend="grantha">nyākhyā ka<unclear>mala</unclear>āpure <g type="danda">.</g><g type="danda">.</g><g type="danda">.</g><g type="dashLong">.</g><supplied reason="omitted">3</supplied></hi> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 4.397 by <bibl><ptr target="bib:KrishnaSastri1923_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1923_01"/>
+			<citedRange unit="page">119</citedRange>
+			<citedRange unit="item">397</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

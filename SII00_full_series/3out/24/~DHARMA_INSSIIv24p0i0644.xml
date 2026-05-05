@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 24.644: original edition by H. K. Narasimhaswamy</title>
+				<title type="alt">No. 644. (A.R. No. 443 of 1954-55.) STONE NEAR THE BUS STOP CLOSE TO THE RĀYAGŌPURAM LINTEL. AT THE MAIN ENTRANCE INTO THE CHOULTRY</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv24p0i0644</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p><hi rend="bold">No date</hi></p>						
+
+						<p>Records that the eleven free <hi rend="italic">Rāmānujakūṭam</hi> in the Mūṅgikkuttu street at Śrīraṅgam were endowed by the 24 families of the Erumaikāra-Nāyakkar from the eleven places, namely, Kaṇṇanūr, Kuḍagu, Māṉantavāḍi, Nīlagiri, Kaḷḷikkōṭṭai, Pāḷakkāḍu, Paḻani, Tiṇḍukkallu, Madurai, Sevagaṅgai and Kollam The record is in late characters and bears no date.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/> <gap reason="lost" quantity="5" unit="character"/> cikāmācciyammaṉ vaṟappiṟacātattiṉāle piṟanta cāntakulam
+<lb n="2"/><num value="24">2 <g type="numeral">10</g> 4</num> maṇaiyāṟuṭaiya taṟumam ciṟaṅkattil muṅkikuttut teṟuvil
+<lb n="3"/>kaṇṇaṉūr kuṭaku māṉantavāṭi nīlakiṟi kaḷḷikkoṭṭai pālakkāṭu pa
+<lb n="4" break="no"/>ḻaṇi tiṇṭukkallu marutai cevakaṅkai kollam yinta <num value="11"><g type="numeral">10</g> 1</num> Ūṟilirunta
+<lb n="5"/>kappaṭṭa yeṟumakāṟa ṉāyakkaṟkaḷuṭaiya <num value="11"><g type="numeral">10</g> 1</num> taṟmaṟāmāṉuciya kū
+<lb n="6" break="no"/>ṭam yitukku yātāmoruvaṉ yiṭaru caiyitāl makattākiya [to<hi rend="grantha">ṣa</hi>]tti
+<lb n="7" break="no"/>le peravākaṉ mantālu <hi rend="grantha">pam</hi>ṟāku ṉāyakkaṟ kāḷappaṉāyakkaṟ tiṇṭu
+<lb n="8" break="no"/>kkallu marutaiṉāyakkaṟ yinta muṇuperumiruntu kāṟiyu<hi rend="grantha">m</hi> pāttāṟkaḷ
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 24.644 by <bibl><ptr target="bib:Narasimhaswamy1982_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:Narasimhaswamy1982_01"/>
+			<citedRange unit="page">583</citedRange>
+			<citedRange unit="item">644</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

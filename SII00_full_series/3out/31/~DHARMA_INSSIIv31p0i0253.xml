@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 31.253: original edition by C. A. Padmanabha Sastri and T. S. Ravishankar</title>
+				<title type="alt">No. 253. (A.R. No. B 263 of 1936.) PEDDACHINTAKUNTA, SIRUVEL TALUK, KURNOOL DISTRICT.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName>
+						<name>DHARMA team</name>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv31p0i0253</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>On a pillar in the <hi rend="italic">mukha-maṇḍapa</hi> of the Sāmbaśi-vēśvara temple.</p>						
+
+						<p>Śukla</p>						
+
+						<p>It is dated in the cyclic year Śaka, Ashāḍha, śu. 15, Thursday.</p>						
+
+						<p>It refers to the land sale deed. It records the sharing of one-fourth <hi rend="italic">(nālavapōlu)</hi> of the produce of lands belonging to Anna-jiyya to Javemula Naga-Jiyya and further states that the sons of Annajiyya namely Sidda-jiyya, Mara-jiyya and Kampa-jiyya had agreed to continue remit as per stipulation of their father. The transaction was written with the permission of Pochama-reḍḍi, Kasavi-reḍḍi and several others. The record was engraved by Jogirāju and Aubalarāju and prepared by Bairajumalya.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<!--<h4>FIRST FACE.</h4>-->
+
+<p>
+<lb n="1"/>� su(śu)kla saṁvatsara Āṣā 
+<lb n="2" break="no"/>ḍha su(śu) 15 gu� ciṁtakuṁṭa 
+<lb n="3"/>rāmāyadēvara stānaṁ 
+<lb n="4"/>lōsirivrōḍa(la) Aṁnnajiyya 
+<lb n="5"/>la cēla nālavapālu <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="6"/>kāvēmula nāgajiyyalaku 
+<lb n="7"/>krayamugānu I 
+<lb n="8" break="no"/>stimigāna Idi Āṁna 
+<lb n="9" break="no"/>jīyyakoḍukulu si<unclear>ddha</unclear> 
+</p>
+
+<!--<h4>SECOND FACE.</h4>-->
+
+<p>
+<lb n="10"/>jiyya mārajiyya kaṁ 
+<lb n="11" break="no"/>pajiyya sayitaṁ mā 
+<lb n="12"/>taṁḍri mīku Icinakrayaṁ 
+<lb n="13"/>pālu Aṭē celliṁcuvāru <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+<lb n="14"/>Ācaṁdratā¨rkaṁ(tārakaṁ)gāsu Istimi <supplied reason="undefined"><g type="ddanda">.</g></supplied> 
+<lb n="15"/>sākṣi ciṁtakuṁṭa prabhulu 
+<lb n="16"/>pōcemareḍinni kasavireḍinni ma 
+<lb n="17" break="no"/>ṁce bōyinireḍinni mutti 
+<lb n="18"/>nāyani pocenāyiṁḍu stā 
+<lb n="19" break="no"/>napatulu mallajiyya<unclear>prō</unclear> 
+</p>
+
+<!--<h4>THIRD FACE.</h4>-->
+
+<p>
+<lb n="20"/>la jiyyasayitamaina prajala 
+<lb n="21"/> <gap reason="lost" quantity="5" unit="character"/> UnmatamaivrauI 
+<lb n="22" break="no"/>ṁcina sā(śā)śa(sa)namu <supplied reason="undefined"><g type="ddanda">.</g></supplied> vrāsinavāṁḍlu 
+<lb n="23"/>jōgirāju Aubaḷarāju mala 
+<lb n="24" break="no"/>cinavāṁḍu bhairōju malya <supplied reason="undefined"><g type="danda">.</g></supplied> maṁ 
+<lb n="25"/>gaḷa mahā śrī 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 31.253 by <bibl><ptr target="bib:PadmanabhaSastri2013_01"/></bibl> automatically converted to DHARMA conventions.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:PadmanabhaSastri2013_01"/>
+			<citedRange unit="page">286-287</citedRange>
+			<citedRange unit="item">253</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
