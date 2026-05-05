@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 26.69: original edition by P. R. Srinivasan</title>
+                <title type="alt">No. 69. (A.R. No. 66 of 1909.) TIRUKKAḺUKKUṈṞAM, CHINGLEPUT TALUK, CHINGLEPUT DISTRICT.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName>
+                        <name>DHARMA team</name>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv26p0i0069</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>On the first pilaster in the upper verandah of the <hi rend="italic">Orukalmaṇḍapa</hi> on the hill.</p>						
+                            <p>These record the signatures of the Dutch officers who visited the Maṇḍapa in the 17th century.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-05-05" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2026-05-05" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="nld-Latn" rendition="class:latin maturity:undetermined">
+                
+                <p>
+                    <milestone n="A" unit="face" type="pagelike"/><label>South face</label>
+                    <lb n="1"/>C I O P M C U
+                    <lb n="2"/><seg rendition="class:nāgarī maturity:undetermined">śrī</seg>
+                    <lb n="3"/>. I I M M
+                    <lb n="4" style="text-align: right"/><seg rendition="class:nāgarī maturity:undetermined">va</seg>
+                    <lb n="5"/>L : H E M S I N C R
+                    <lb n="6"/>�/m º 18/D
+                    <lb n="7"/>1 6 6 6
+                    <lb n="8"/>D : D E N B A C
+                    <lb n="9"/>I A C O B V O G E L A<note n="44-3">Written above.</note>
+                    <lb n="10"/>9/m : 29/D 1 6 6 7
+                    <lb n="11"/>A B R A H A M V :
+                    <lb n="12"/>M I L
+                    <lb n="13"/>S . C L A V I U S
+                    <lb n="14"/>A . D<note n="44-3">Written above.</note>1 6 7 4
+                
+                    <milestone n="B" unit="face" type="pagelike"/><label>east face</label>
+                    <lb n="15"/>D V C
+                    <lb n="16"/>C V W
+                    <lb n="17"/>1 6 8<unclear>9</unclear>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                <listApp>
+                    <app loc="2">
+                        <lem><seg rendition="class:nāgarī maturity:undetermined">śrī</seg></lem>
+                        <note>Some symbols are there after this letter.</note>
+                    </app>
+                    <app loc="6">
+                        <lem>18/D</lem>
+                        <note>A symbol is engraved here.</note>
+                    </app>
+                </listApp>
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 26.69 by <bibl><ptr target="bib:Srinivasan1990_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Srinivasan1990_01"/>
+                        <citedRange unit="page">44</citedRange>
+                        <citedRange unit="item">69</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

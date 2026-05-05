@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 26.73: original edition by P. R. Srinivasan</title>
+                <title type="alt">No. 73. (A.R. No. 70 of 1909.) TIRUKKAḺUKKUṈṞAM, CHINGLEPUT TALUK, CHINGLEPUT DISTRICT.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>	
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv26p0i0073</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>On the first pillar in the lower verandah of the <hi rend="italic">Orukal-maṇḍapa,</hi> on the hill.</p>						
+                            
+                            <p>These record the signatures of the Dutch officers who visited this <hi rend="italic">maṇḍapa</hi> in the 17th and 18th centuries.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-05-05" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2026-05-05" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="nld-Latn" rendition="class:latin maturity:undetermined">
+                
+                <p>East face.</p>
+                
+                <p>
+                    <lb n="1"/>D H W C
+                    <lb n="2"/>H A M I N C
+                    <lb n="3"/>B V L M N
+                    <lb n="4"/>1/3 M/D 1681
+                    <lb n="5"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><unclear>pa</unclear>ḻuvakaṭ</seg>
+                    <lb n="6" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ṭuvīrar</seg>
+                    <lb n="7" break="no"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">kuvaṉ</seg>
+                    <lb n="8"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">cat<choice><sic>a</sic><corr>ā</corr></choice>cevai</seg>
+                    <lb n="9"/>Alaah
+                    <lb n="10"/> <gap reason="lost" quantity="5" unit="character"/> 
+                    <lb n="11"/>1724
+                </p>
+                
+                <p>South face.</p>
+                
+                <p>
+                    <lb n="1"/>David
+                    <lb n="2"/>Q 8 vick
+                    <lb n="3"/> <gap reason="lost" quantity="2" unit="character"/> 1677
+                    <lb n="4"/>C <gap reason="lost" quantity="1" unit="character"/> B O M H O U T S
+                    <lb n="5"/>1/3 M/D 1681 
+                    <lb n="6"/>F N O<note n="48-1">Some symbols are engraved after this.</note>
+                    <lb n="7"/>R Aty O M S
+                    <lb n="8"/>1674 <gap reason="lost" quantity="1" unit="character"/> n= B =
+                    <lb n="9"/>m = AV =
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 26.73 by <bibl><ptr target="bib:Srinivasan1990_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Srinivasan1990_01"/>
+                        <citedRange unit="page">47-48</citedRange>
+                        <citedRange unit="item">73</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 26.70: original edition by P. R. Srinivasan</title>
+                <title type="alt">No. 70. (A.R. No. 67 of 1909.) TIRUKKAḺUKKUṈṞAM, CHINGLEPUT TALUK, CHINGLEPUT DISTRICT.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>	
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv26p0i0070</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>On the first pillar in the upper verandah of the <hi rend="italic">Orukalmaṇḍapa</hi> on the hill.</p>						
+                            
+                            <p>These record signatures of the Dutch officers who visited this <hi rend="italic">maṇḍapa</hi> in the 17th century.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-05-05" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2026-05-05" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="nld-Latn" rendition="class:latin maturity:undetermined">
+                
+                <p>East face.</p>
+                
+                <p>
+                    <lb n="1"/>M^C^L
+                    <lb n="2"/>I A C O B
+                    <lb n="3"/>S F E E N H C
+                    <lb n="4"/><unclear>8</unclear>/13 A [D= ] 1 6 6 <unclear>2</unclear>
+                    <lb n="5"/>G T= S I R A N I n
+                    <lb n="6"/>D E E H R^0^ A N I_^0^ P A V I
+                    <lb n="7"/>L I O E N _^0^
+                    <lb n="8"/>I O I <gap reason="lost" quantity="1" unit="character"/> H O y s m N=
+                    <lb n="9"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"> <gap reason="lost" quantity="1" unit="character"/> </seg><note n="44-4">Some symbols are engraved in the space preceding this letter.</note>A ṇ D
+                    <lb n="10"/>I_^0^
+                    <lb n="11"/>3/13 1670 A D H 
+                </p>
+                
+                <p>South face.</p>
+                
+                <p>
+                    <lb n="1"/>A B R A H A M
+                    <lb n="2"/>¢ C K E H M A N
+                    <lb n="3"/>C O r n E l I s^8^ 16 <hi rend="grantha">^m^</hi>
+                    <lb n="4"/>V O n c k I
+                    <lb n="5"/>H <gap reason="lost" quantity="1" unit="character"/> S E r D y E r
+                    <lb n="6"/>W V E S <gap reason="lost" quantity="1" unit="character"/> 
+                    <lb n="7"/>I O H <gap reason="lost" quantity="2" unit="character"/> 
+                    <lb n="8"/>D V I H O<note n="45-1">Written above.</note>A
+                    <lb n="9"/>� 166 —
+                    <lb n="10"/>Z <gap reason="lost" quantity="1" unit="character"/> V
+                    <lb n="11"/>H E U S S E n
+                    <lb n="12"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"> <gap reason="lost" quantity="1" unit="character"/> </seg><note n="45-2">A symbol is engraved.</note>
+                    <lb n="13"/>I V A E M O N E
+                </p>
+                
+                <p>West face.</p>
+                
+                <p>
+                    <lb n="1"/>A I O <gap reason="lost" quantity="1" unit="character"/> 5 6/n <gap reason="lost" quantity="1" unit="character"/> 18/1
+                    <lb n="2"/>P _^0^ S C H O M B E R
+                    <lb n="3"/>N : R <gap reason="lost" quantity="1" unit="character"/> y I D
+                    <lb n="4"/>D _^0^ F E <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="5"/>G E E R I
+                    <lb n="6"/>V A N D E R
+                    <lb n="7"/>T O C H E
+                    <lb n="8"/>P I E T E R
+                    <lb n="9"/>H E M S T <gap reason="lost" quantity="1" unit="character"/> 
+                    <lb n="10"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">virā</seg>
+                    <lb n="11"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"> <gap reason="lost" quantity="1" unit="character"/> mata</seg>
+                    <lb n="12"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"> <gap reason="lost" quantity="1" unit="character"/> ku</seg>
+                    <lb n="13"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">ma</seg>
+                    <lb n="14"/>H : H E I E N A
+                    <lb n="15"/>F E M S I N G<note n="45-1">Written above.</note>
+                    <lb n="16"/>1668
+                    <lb n="17"/>20th <gap reason="lost" quantity="2" unit="character"/> y A
+                </p>
+                
+                <p>North face.</p>
+                
+                <p>
+                    <lb n="1"/>D H A R T
+                    <lb n="2"/>M D H A R T
+                    <lb n="3"/>I O H S= P A V I L N=
+                    <lb n="4"/>21/3 1667 _^0^<note n="45-2">A symbol is engraved.</note>
+                    <lb n="5"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"> <gap reason="lost" quantity="1" unit="character"/> </seg><note n="45-2">A symbol is engraved.</note>
+                    <lb n="6"/>A K L E I
+                    <lb n="7"/>D/M — I <gap reason="lost" quantity="1" unit="character"/> /D 1666
+                    <lb n="8"/>E V E R T A A
+                    <lb n="9"/>B U Y R E N
+                    <lb n="10"/>1575 23/1
+                    <lb n="11"/>S <gap reason="lost" quantity="1" unit="character"/> T V R E N I I O V I
+                    <lb n="12"/>L : H E M S I N C K
+                    <lb n="13"/>D E <gap reason="lost" quantity="1" unit="character"/> J O n � c
+                </p>
+                
+                <p>First piece.</p>
+                
+                <p>
+                    <lb n="1"/>C : F <gap reason="lost" quantity="1" unit="character"/> 
+                </p>
+                
+                <p>Second piece.</p>
+                
+                <p>
+                    <lb n="1"/>T N E
+                </p>
+                
+                <p>Third piece.</p>
+                
+                <p>
+                    <lb n="1"/>I A S L O O T
+                    <lb n="2"/>I N C H
+                </p>
+                
+                <p>Fourth piece.</p>
+                
+                <p>
+                    <lb n="1"/>F R <unclear>E</unclear> C O T
+                    <lb n="2"/> <gap reason="lost" quantity="1" unit="character"/> E I <gap reason="lost" quantity="1" unit="character"/> O <gap reason="lost" quantity="1" unit="character"/> 
+                    <lb n="3"/>R C K<note n="45-3">These three letters are written on the side.</note>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 26.70 by <bibl><ptr target="bib:Srinivasan1990_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:Srinivasan1990_01"/>
+                        <citedRange unit="page">44-45</citedRange>
+                        <citedRange unit="item">70</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
