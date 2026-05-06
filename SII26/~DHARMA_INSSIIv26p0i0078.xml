@@ -56,42 +56,59 @@
             
             <div type="edition" xml:lang="nld-Latn" rendition="class:latin maturity:undetermined">
                 
-                <p>First piece; Left side.</p>
+                <div type="textpart" n="A"><head>First piece: Left side</head>
+                    
+                    <p>
+                        <lb n="A1"/>I : A : VAN BRAAM C
+                        <lb n="A2"/>VEDERLD� COMMISS S� C
+                        <lb n="A3"/>XX FEBRY MDCCC XVIII AD
+                    </p>
+                    
+                </div>
                 
-                <p>
-                    <lb n="1"/>I : A : VAN BRAAM C
-                    <lb n="2"/>VEDERLD� COMMISS S� C
-                    <lb n="3"/>XX FEBRY MDCCC XVIII AD
-                </p>
+                <div type="textpart" n="B">
+                    <head>First piece: Right side</head>
+                    
+                    <p>
+                        <seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><lb n="B4"/>kantar
+                            <lb n="B5"/>Amma <gap reason="lost" quantity="1" unit="character"/> ttarma
+                            <lb n="B6"/>t<choice><sic>a</sic><corr>ā</corr></choice>ṉam co</seg>
+                        <lb n="B7"/>I : <unclear>S</unclear> : Pee^A^ IMAN
+                    </p>
+                    
+                </div>
                 
-                <p>First piece: Right side.</p>
+                <div type="textpart" n="C"><head>Second piece</head>
+                    
+                    <p>
+                        <lb n="C1"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular"><g type="numeral">100</g></seg> <gap reason="lost" quantity="5" unit="character"/> LUCAS
+                        <lb n="C2"/>L : HEMSNCK <gap reason="lost" quantity="2" unit="character"/> 8
+                        <lb n="C3"/>8/m <gap reason="lost" quantity="1" unit="character"/> 13/D 1668
+                    </p>
+                    
+                </div>
                 
-                <p>
-                    <lb n="4"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">kantar</seg>
-                    <lb n="5"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">Amma <gap reason="lost" quantity="1" unit="character"/> ttarma</seg>
-                    <lb n="6"/><seg xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">t<choice><sic>a</sic><corr>ā</corr></choice>ṉam co</seg>
-                    <lb n="7"/>I : <unclear>S</unclear> : Pee^A^ IMAN
-                </p>
-                
-                <p>Second piece.</p>
-                
-                <p>
-                    <lb n="1"/> <hi rend="grantha">100</hi> <gap reason="lost" quantity="5" unit="character"/> LUCAS
-                    <lb n="2"/>L : HEMSNCK <gap reason="lost" quantity="2" unit="character"/> 8
-                    <lb n="3"/>8/m <gap reason="lost" quantity="1" unit="character"/> 13/D 1668<note n="51-1"><hi rend="italic">Ōm Dattāttrēya</hi> seems to have been written in Telugu script after this.</note>
-                </p>
-                
-                <p>Third piece.</p>
-                
-                <p>
-                    <lb n="1"/>P : ST= PAUL 1750 C : P : KELLER
-                    <lb n="2"/>C : L : KCVSCI : ^0^
-                </p>
+                <div type="textpart" n="D"><head>Third piece</head>
+                    
+                    <p>
+                        <lb n="D1"/>P : ST= PAUL 1750 C : P : KELLER
+                        <lb n="D2"/>C : L : KCVSCI : ^0^
+                    </p>
+                    
+                </div>
                 
             </div>
             
             <div type="apparatus">
                 
+                <div type="textpart" n="C"><head>Second piece</head>
+                    <listApp>
+                        <app loc="C3">
+                            <lem>1668</lem>
+                            <note><foreign>Ōm Dattāttrēya</foreign> seems to have been written in Telugu script after this.</note>
+                        </app>
+                    </listApp>
+                </div>
             </div>
             
             <div type="commentary">
