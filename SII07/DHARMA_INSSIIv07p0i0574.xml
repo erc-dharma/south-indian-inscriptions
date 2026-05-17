@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 7.574: original edition by K.V. Subrahmanya Aiyer</title>
+                <title type="alt">No. 574. (A.R. No. 344 of 1901). ON THE ROCK CLOSE TO THE POND (NAGARA-BHAVI) ON THE TOP OF THE HILL IN THE SAME VILLAGE.</title>
+                <respStmt>
+                    <resp>author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>	
+            </titleStmt>
+            <publicationStmt>
+                <authority>DHARMA</authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv07p0i0574</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2025-05-17" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2026-05-05" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="san-Latn" rendition="class:nāgarī maturity:undetermined">
+                
+                <p>
+                    <lb n="1"/>śubhamastu <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> namastuṁgaśira<surplus>ḥ</surplus>ścuṁbicaṁdracāmaracārave <g ref="sym:bar" type="punctuation">.</g> trailo<unclear>kya</unclear>nagarāraṁbhamūlastaṁbhāya śaṁbhave <g ref="sym:doubleBar" type="punctuation">.</g>
+                    <lb n="2"/>svasti śrī <unclear>jayā</unclear>bhyudaya śālivāhanasakavaru<unclear>ṣa</unclear>mulu <gap reason="lost" quantity="4" unit="character"/> naguneṭi svabhānusaṁvatsara māgha
+                    <lb n="3" break="no"/>śu 2 gulu śrīmadrājādhirāja <unclear>rājaparame</unclear>svara śrīvīrapratāpa śrīraṁgarāyadevamahārāyalavāru
+                    <lb n="4"/>ratna <gap reason="lost" quantity="12" unit="character"/> 
+                    <lb n="5-12"/> <gap reason="lost" quantity="11" unit="character"/> 
+                    <lb n="13"/>pitāmahaprapitāmahalaku puṇyaṁgānu pratiṣṭhacesina cāsa
+                </p>
+                
+                <p xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+                    
+                    <lb n="14" break="no"/><gap reason="lost" quantity="65" unit="character"/> nama<supplied reason="omitted">ḥ</supplied> śrīnāganāthāya lōkanāthāya vai namaḥ
+                    <lb n="15"/>namaḥ sakalakalyāṇadāyinē <unclear>śaṁbhavē</unclear> namaḥ śrī
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 7.574 by <bibl><ptr target="bib:SubrahmanyaAiyer1932_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SubrahmanyaAiyer1932_01"/>
+                        <citedRange unit="page">342-343</citedRange>
+                        <citedRange unit="item">574</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
