@@ -1,6 +1,6 @@
-1orig = as received from Malten
+1orig = files as received from Malten
 
-2mastercopy = cleaned by Dr. M. Meyer AKA 3M
+2mastercopy = files cleaned by Dr. M. Meyer AKA 3M
 Corrections to encoding to be made here in the individual XMLs (1 XML by volume)
 But not yet adding editorial markup (unclear, supplied, etc.), keeping most of the original annotations by Malten
 
