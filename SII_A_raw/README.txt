@@ -1,12 +1,20 @@
-1orig = files as received from Malten
+SII_A_raw
 
-2mastercopy = files cleaned by Dr. M. Meyer AKA 3M
-Corrections to encoding to be made here in the individual XMLs (1 XML by volume)
-But not yet adding editorial markup (unclear, supplied, etc.), keeping most of the original annotations by Malten
+South Indian Inscriptions, volumes 1-42
+Text encoded for the ERC DHARMA project
 
-3out = individual XMLs (1 XML by inscription) created by Dr. M. Meyer AKA 3M.
-With DHARMA editorial markup as far as possible. But for instance:
---- parentheses from SII in original text should be kept here as it could correspond to <surplus>, <sic> or <orig> (the DHARMA people will update the individual files manually).
---- <ch/> [illegible character or characters in Malten's encoding] converted   [u+FFFD = white question mark in a black square]
-Use these individual XMLs for creating DHARMA edition in the relevant repository, that is, copy from here and paste in the relevant repository.
-⚠️ Don't create or modify files in `3out`, they will be overriden or deleted!
+
+1orig = files as received from the contractor
+
+2mastercopy = files cleaned by Michaël Meyer
+1 XML by volume keeping most of the original annotations by the contractor
+
+3out = individual XMLs 
+1 XML by inscription created by Michaël Meyer
+With DHARMA editorial markup as far as possible
+But:
+--- parentheses in original SII text should kept here as it could correspond to <surplus>, <sic> or <orig>
+--- <ch/> [illegible character or characters in contractor's encoding] converted to [u+FFFD = white question mark in a black square]
+These individual XMLs are to be for creating DHARMA editions in the relevant repository in SII_B_clean
+That is, copy from here and paste in the relevant repository, then check/add markup
+⚠️ That is, don't create or modify files in '3out'.
