@@ -11,7 +11,7 @@
 				<title>SII 2.13: original edition by Eugen Julius Theodor Hultzsch</title>
 				<title type="alt">No. 13. ON THE SOUTH WALL, FIRST TIER.</title>
 				<respStmt>
-					<resp>author of digital edition</resp>
+					<resp key="creator">author of digital edition</resp>
 					<persName ref="part:emfr">
 						<forename>Emmanuel</forename>
 						<surname>Francis</surname>
@@ -19,9 +19,12 @@
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<authority>DHARMA</authority>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
 				<pubPlace>Paris, CEIAS</pubPlace>
-				<idno type="filename">DHARMA_INSSIIv02p0i0013</idno>
+				<idno type="filename">DHARMA_INSSIIv02p0i0013.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
 				<msDesc>
@@ -44,9 +47,12 @@
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
 		<revisionDesc>
 			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-			<change who="part:mime" when="2026-05-05" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-07-21" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:space="preserve">

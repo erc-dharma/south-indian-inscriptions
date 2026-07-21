@@ -662,7 +662,7 @@ def process_inscription(ins, vol_no, part_no, section_no, ins_no):
 			s = sn.data.replace("automatically converted to DHARMA conventions", f"converted to DHARMA conventions by {firstname} {lastname}")
 			if s != sn.data:
 				sn.replace_with(s)
-	if vol_no in (1, 2, 3, 4, 12, 13, 14, 17, 19):
+	if vol_no in (1, 2, 3, 4, 12, 13, 14, 17, 19, 22):
 		assign_volume_to("emfr", "Emmanuel", "Francis")
 	elif vol_no in (7, 6, 8) and lang == "tam":
 		assign_volume_to("doop", "Dorotea", "Operato")
@@ -683,7 +683,7 @@ def process_inscription(ins, vol_no, part_no, section_no, ins_no):
 		summ.append(elem)
 		summ.append("\t" * 6)
 	ins_id = inscription_id(vol_no, section_no, ins_no)
-	out.first("//idno").append(ins_id)
+	out.first("//idno").append(ins_id + ".xml")
 	readable_ins_id = make_readable_ins_id(vol_no, section_no, ins_no)
 	volume_editor = biblio_editors[part_no and f"{vol_no}-{part_no}" or f"{vol_no}"]
 	for s in strings(out.first("//TEI")):
