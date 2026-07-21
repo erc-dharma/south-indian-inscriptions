@@ -11,16 +11,20 @@
 				<title>SII 22.190A: original edition by G.V. Srinivasa Rao</title>
 				<title type="alt">No. 190A. (A.R. No. 190-A of 1906) SOUTH ARCOT DISTRICT, TIRUKKŌYILŪR TALUK, GRĀMAM. ŚIVALŌKANĀTHA TEMPLE—ON THE SAME WALL. KULŌTTUṄGA-CHŌḶADĒVA—10th YEAR.</title>
 				<respStmt>
-					<resp>author of digital edition</resp>
-					<persName>
-						<name>DHARMA team</name>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
 					</persName>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<authority>DHARMA</authority>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
 				<pubPlace>Paris, CEIAS</pubPlace>
-				<idno type="filename">DHARMA_INSSIIv22p0i0190A</idno>
+				<idno type="filename">DHARMA_INSSIIv22p0i0190A.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
 			</publicationStmt>
 			<sourceDesc>
 				<msDesc>
@@ -43,8 +47,12 @@
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
 		<revisionDesc>
-			<change who="part:mime" when="2026-05-05" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-07-21" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:space="preserve">
@@ -75,7 +83,7 @@
 
 <div type="bibliography">
 
-	<p>Digital edition of SII 22.190A by <bibl><ptr target="bib:SrinivasaRao1983_01"/></bibl> automatically converted to DHARMA conventions.</p>
+	<p>Digital edition of SII 22.190A by <bibl><ptr target="bib:SrinivasaRao1983_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
 
 	<listBibl type="primary">
 
