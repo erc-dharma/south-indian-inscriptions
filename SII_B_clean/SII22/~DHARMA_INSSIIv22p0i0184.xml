@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.184: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 184. (A.R. No. 184 of 1906) SOUTH ARCOT DISTRICT, TIRUKKŌYILŪR TALUK, GRĀMAM. ŚIVALŌKANĀTHA TEMPLE—ON THE WEST WALL OF THE CENTRAL SHRINE. PARAKĒSARIVARMAN who took Madurai and Īḻam (PARĀNTAKA I)—41st YEAR (A.D. 947-48).</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0184.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This records a gift of sheep for burning a lamp in the temple of Śrī Āṟṟuttaḷi-[Mahādēva] at Tirumuḍiyūr by Mādēvaṉ Vīśamēḻi, a resident of Kūṟṟamaṅgalam in Maṅgala-nāḍu. </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2026-07-27" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-07-21" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/>matiraiyu miḻamuṅkoṇṭa kopparakecari pa<unclear>ṉ</unclear><supplied reason="omitted">mark</supplied>ki yāṇṭu <num value="41">4 <g type="numeral">10</g> 1</num><g ref="sym:dash" type="punctuation"/>vatu maṅkalanā
+<lb n="2"/>ṭṭu maṅkalattu vaṭaceriyuṭaiyān kūṟṟamaṅkalaṅkiḻān māte<unclear>va</unclear>
+<lb n="3" break="no"/>ṉ(vaṉ) vicameḻi tirumuṭiyūr <hi rend="grantha">śrī</hi> yāṟṟuttaḷi <hi rend="grantha">[vijai</hi>ya<hi rend="grantha">]</hi> <gap reason="lost" quantity="4" unit="character"/> Ūruṭaiya Arumān=taku<unclear>ṭi</unclear>
+<lb n="4"/><supplied reason="omitted">ca</supplied><hi rend="grantha">ntrā</hi>tittavaṟ vaitta Āṭu viḷakku Oṉṟu <hi rend="grantha">panmā<unclear>h</unclear>eśva</hi>ra <hi rend="grantha"><unclear>rakṣ</unclear>ai <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied></hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.184 by <bibl><ptr target="bib:SrinivasaRao1983_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1983_01"/>
+			<citedRange unit="page">149-150</citedRange>
+			<citedRange unit="item">184</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
