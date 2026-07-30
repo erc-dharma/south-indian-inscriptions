@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 22.37: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 37. (A.R. No. 37 of 1906) TANJAVUR DISTRICT, MAYURAM TALUK, TIRUKKAḌAIYŪR. AMṚITAGHAṬĒŚVARA TEMPLE—ON THE SAME WALL. TRIBH. KULŌTTUNGA-CHŌḶA III—9th YEAR (A.D. 1186-7)</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv22p0i0037.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The king is given the epithet ‘who was pleased to take Madurai’. This records yet another gift of the same kind by the reclamation of 700 <hi rend="italic">kuḻi</hi> of land each at the <hi rend="italic">dēvadana</hi> village Erukkāṭṭuchchēri by two persons, one by name Sattivananāyakaṉ <hi rend="italic">alias</hi> Dānavinōda-Pallavaraiyaṉ of Mūlaṅguḍi in Nallāṟṟūr-nāḍu a division of Virudarājabhayankara-vaḷanāḍu and the other called Bārantāṅgināṉ <hi rend="italic">alias</hi> Kalikaḍindaśōḻa-Pallavaraiyaṉ of Magadaiyūr.</p>						
+                            
+                            <p>Below this inscription is an unfinished single line record of the [2]6th year of Tribh. Rājarājadēva stopping with the mention of the <hi rend="italic">dēvakanmis</hi> of the Kālakāladēver temple. </p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-07-27" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2026-07-21" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <div type="textpart" n="A">
+                    <p>
+                    <lb n="A1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> tiripuvanaccakkaravattikaḷ maturaikoṇṭaruḷiṉa <hi rend="grantha">śrī</hi>kulottuṅkacoḻatevaṟku yāṇṭu Oṉpatāvatu <hi rend="grantha">ja</hi>yaṅ<unclear>ko<!--kompu clear-->ṇṭacoḻa</unclear> vaḷanāṭṭu Ākkūrnāṭṭu tirukkaṭavūr Uṭaiyār <hi rend="grantha">śrī</hi>kālakālatevar
+                    <lb n="A2"/>koyilil tirununtāviḷakku Eriya virutarā<hi rend="grantha">ja</hi>payaṅkaravaḷanāṭṭu nallāṟṟūr nāṭṭu mulaṅkuṭiyil kāṇiyuṭaiya Aṇai<unclear>kku</unclear>ṭaiyān cattivananāyakanāna tāna vinotappallavaraiyaṉ Ittevar tevatāṉam
+                    <lb n="A3"/>Erukkāṭṭucceriyil maṇaṟkuṉṟil viḷainilamākak kallina kuḻi <num value="700">7 <g type="numeral">100</g></num> Eḻunūṟṟukkum nāḷ Oṉṟukku ney Uḻakkāka Onpatāvatu Āṉimātamutal cantirātittavaraiyum Erikka <hi rend="check"><g ref="sym:bullet-double" type="punctuation">.</g></hi> makataiyūruṭaiyāṉ p<choice><sic>a</sic><corr>ā</corr></choice>rantāṅkināṉāṉa kalikaṭinta coḻap
+                    <lb n="A4"/>pallavaraiyaṉ vaitta tirununtāviḷakku 1 Oṉṟukkum Ittevar tevatāṉam Erukkāṭṭucceriyil maṇaṟkuṉṟil viḷainilamākak kallina kuḻi <num value="700">7 <g type="numeral">100</g></num> Eḻunūṟṟukkum <unclear>nāḷ</unclear> Oṉṟukku ney Uḻakkāka cantirātittavaraiyum Erikka <hi rend="check"><g ref="sym:bullet-double" type="punctuation">.</g></hi><g ref="sym:tam-pillaiyarCuli" type="punctuation">.</g>
+                </p>
+                </div>
+                
+                <div type="textpart" n="B"><head>Inscription of Rājarāja</head>
+                    <p>
+                    <lb n="B1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> tiripuvaṉaccakkaravattikaḷ <hi rend="grantha">śrī</hi> I<hi rend="grantha">rājarāja</hi>tevarkku yāṇṭu <num value="26"><unclear>2 <g type="numeral">10</g></unclear> 6 ja</num>yaṅkoṇṭacoḻavaḷanāṭṭu Ākkūrnāṭṭu Ampaṉāṭu Uḷpaṭa<unclear>meviya tirukkaṭa</unclear>vūr Uṭaiyār <hi rend="grantha">śrī</hi> kālakālatevar koyil Āticaṇṭe<hi rend="grantha">śva</hi>ra tevarkaṉmikaḷukku I
+                </p>
+                </div>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                <p n="B1"><foreign>tevarkaṉmikaḷukku I</foreign>. Stops here.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 22.37 by <bibl><ptr target="bib:SrinivasaRao1983_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1983_01"/>
+                        <citedRange unit="page">30-31</citedRange>
+                        <citedRange unit="item">37</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

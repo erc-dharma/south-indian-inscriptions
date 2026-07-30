@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 22.38: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 38. (A.R. No. 38 of 1906) TANJAVUR DISTRICT, MAYURAM TALUK, TIRUKKAḌAIYŪR. AMṚITAGHAṬĒŚVARA TEMPLE—ON THE SAME WALL. TRIBH. KULŌTTUṄGA-CHŌḶA III—9th YEAR. (A.D. 1186-7)</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv22p0i0038.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>The king claims to have taken Madurai. This records yet another gift of two perpetul lamps by the reclamation of 1400 <hi rend="italic">kuḻi</hi> of land in the same village by one Arayaṉ Tiruvanantīśaṉ <hi rend="italic">alias</hi> Kēraḷarāyan of Perunallūr in Kīḻvēṅgai-nāḍu a division of Rājarāja-vaḷanāḍu.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-07-27" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2026-07-21" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> tiripuvanaccakkaravarttikaḷ maturai koṇṭaruḷiṉa <hi rend="grantha">śrī</hi>kulottuṅkacoḻatevaṟku yāṇṭu Oṉpatāvatu <hi rend="grantha">ja</hi>yaṅkoṇṭacoḻavaḷanāṭṭu Ākkūrnāṭṭu tirukkaṭavūr Uṭaiyār <hi rend="grantha">śrī</hi>kālakāla<hi rend="grantha"><unclear>d</unclear>e</hi><unclear>va</unclear><hi rend="grantha"></hi>r koyilil tirununtā viḷakku
+                    <lb n="2"/>Eriya <hi rend="grantha">rājarāja</hi>vaḷanāṭṭu kiḻveṅkaināṭṭu perunallūru<surplus>U</surplus>ṭaiyāṉ Arayaṉ tiruvaṉantican<choice><sic>a</sic><corr>ā</corr></choice>rāṉa keraḷarāyaṉ Ittevar tevatāṉam Erukkāṭṭuc ceriyil maṇal kuṉṟil viḷainilam kalliṉa kuḻi <num value="1400"><g type="numeral">1000</g> <unclear>4 <g type="numeral">100</g></unclear></num> Āyira<unclear>ttun</unclear>āṉūṟṟināl nilam Araiye nālu
+                    <lb n="3" break="no"/>māvukku nāḷ Oṉṟukku ney <unclear>Uḻak</unclear>kāka Oṉpatāvatu puraṭṭāti mā<hi rend="grantha">sa</hi>m piṟanta IrupattuAñcāntiyatimutal cantirātittavarai Eriya Ēṟiṉa tirununtāviḷakku Iraṇṭu <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> 
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 22.38 by <bibl><ptr target="bib:SrinivasaRao1983_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1983_01"/>
+                        <citedRange unit="page">31</citedRange>
+                        <citedRange unit="item">38</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
