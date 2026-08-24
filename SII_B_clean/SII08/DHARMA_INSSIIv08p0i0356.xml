@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 8.356: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 356. (A.R. No. 78 of 1903). IN THE SAME PLACE.</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv08p0i0356.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2026-08-24" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-07-21" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">hara</hi>naṉṟāka <g ref="sym:tam-pillaiyarCuli" type="punctuation"/> <hi rend="grantha"><unclear>svasti</unclear></hi> <supplied reason="subaudible"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> <hi rend="grantha">samastabhu</hi>van<hi rend="grantha">aika</hi>vī<hi rend="grantha">ra candrakulamaṅgalapra<unclear>dī</unclear>pa mathurāpura</hi>
+					
+					<lb n="2" break="no"/><hi rend="grantha">mahēndra kēraḷakulakā<unclear>ḷāndhakāradi</unclear></hi><unclear>vā</unclear><hi rend="grantha">kara cōḷa</hi>va<hi rend="grantha">ṁṡa</hi>vā<hi rend="grantha">rirāṡibāḍab<unclear>ā</unclear></hi>na<hi rend="grantha">la laṅkāpa</hi>ti<hi rend="grantha">kāḷa<unclear>kūṭa</unclear>kada</hi>ta<hi rend="grantha">kāḷakaṇṭha karṇāṭakarikaḷabhakaṇṭhī</hi>
+					
+					<lb n="3" break="no"/><hi rend="grantha">ra</hi>va <hi rend="grantha">kṣemāsura</hi>vi<hi rend="grantha">dāra</hi><unclear>ṇana</unclear><hi rend="grantha"><unclear>rasi</unclear>ṁha kāṭha</hi>kava<hi rend="grantha">ṁśa</hi>v<hi rend="grantha">aiśvā</hi>na<hi rend="grantha">ra ja</hi>yan=ta<hi rend="grantha">maṅgalapurādhīśvara</hi> vī<hi rend="grantha">ragaṇḍagopālabhujaṅga</hi>vi<hi rend="grantha">haṅgarāja kāñcī</hi>
+					
+					<lb n="4" break="no"/><hi rend="grantha">pura</hi>vi<hi rend="grantha">raci</hi>ta<hi rend="grantha">sāmmrā<unclear>jya kāka</unclear></hi><unclear>ti</unclear><hi rend="grantha">ga</hi>ṇa<hi rend="grantha">pa</hi>ti<hi rend="grantha">ganḍagajakūṭapākala bahu</hi>vi<hi rend="grantha">dha</hi>v<hi rend="grantha">airidu<unclear>rgga</unclear>bhaṅja</hi>na <hi rend="grantha">pra</hi>ṇata<hi rend="grantha">rājasthāpa</hi>nā<hi rend="grantha"><unclear>cā</unclear>ryya tṛbhu</hi>vana<hi rend="grantha">rā</hi>
+					
+					<lb n="5" break="no"/><hi rend="grantha">jādhirāja parameśvara <unclear>śrī</unclear></hi><unclear>vi</unclear><hi rend="grantha"><unclear>krama</unclear>pāṇḍyade</hi>va<unclear>r</unclear> centamaṅkalattu Uṭaiyār vāṇilaikaṇṭa vī<hi rend="grantha">riśvara</hi>muṭaiya nāyaṉār koyil tā
+					
+					<lb n="6" break="no"/>ṉattāṟku nam perāl <unclear>vaitta</unclear> vi<hi rend="grantha">kramapāṇḍya</hi>ṉ tirunāḷukkum vi<hi rend="grantha">kramapāṇḍyaN sandhi</hi>kkum tāṅkaḷiṭṭa Uṭaṟkoḷ<unclear>paṭi</unclear>kku Iṉṉā
+					
+					<lb n="7" break="no"/>yaṉār tirunāmattu <gap reason="lost" quantity="6" unit="character"/> ppākkam veḷiyaṉpākkattil muṉṉāḷ kā<unclear>r</unclear>pacāṉamum puṉceyum mutalaṭaṅkalu<unclear>m</unclear> viṭum nila
+					
+					<lb n="8" break="no"/>m nikki tiṟappi liṟukkum kār payir<unclear>ceyyum</unclear> nilattil tirunantāviḷakkuppuṟattil kārpayirceyyum nilam nikkiniṉṟa nilatti
+					
+					<lb n="9" break="no"/>le muppatumā nilam tirunāmattukkāṇi Iṟaiyili <hi rend="grantha">candrāditya</hi>va<hi rend="grantha">T</hi> celvatāka nālāvatu mācimātam tantom <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ippa<unclear>ṭik</unclear>ku Iv
+					
+					<lb n="10" break="no"/>volai piṭipāṭākak koṇṭu kallilum cempilum veṭṭikkoḷka <hi rend="grantha">tulyaM</hi> <g ref="sym:tam-pillaiyarCuli" type="punctuation"/> Ivai <unclear>va</unclear>ḻuti<unclear>yata</unclear>r<unclear>ai</unclear>ya ṉeḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai kuḷama
+					
+					<lb n="11" break="no"/>ṅkalamuṭaiyā ṉeḻuttu <g ref="sym:tam-pillaiyarCuli" type="punctuation"/> yāṇṭu nālāvatu nāḷ <num value="239">2 <g type="numeral">100</g> 3 <g type="numeral">10</g> <unclear>9</unclear></num> <supplied reason="subaudible"><g ref="sym:doubleBar" type="punctuation">.</g></supplied>
+				</p>
+				
+			</div>
+			
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 8.356 by <bibl><ptr target="bib:SubrahmanyaAiyer1937_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1937_01"/>
+						<citedRange unit="page">191</citedRange>
+						<citedRange unit="item">356</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
