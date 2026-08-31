@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 22.144: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 144. (A.R. No. 144 of 1906) SOUTH ARCOT DISTRICT, TIRUKKŌYILŪR TALUK, ELVĀNĀŚŪR. GRĀMĀRDHANĀTHA TEMPLE—ON THE SAME WALL. RĀJARĀJADĒVA—19th YEAR.</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv22p0i0144.xml</idno>
+                <availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence></availability>
+                
+                <date from="2019" to="2026">2019-2026</date></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This records a gift of 15 <hi rend="italic">kāśu</hi> deposited with a <hi rend="italic">Śivabrāhmaṇa</hi> of the temple of Ūrbāgaṅkoṇḍaruḷiya-Nāyaṉār, for burning a lamp in the <hi rend="italic">maṇḍapa</hi> on the <hi rend="italic">“tirumalai”</hi> during the evening service of the god, by Mūvāyirattoruvaṉ Śōlaippirāṉ a merchant of Kōmar. The monthly interest on the amount is said to be <g type="numeral">3/8</g> <hi rend="italic">kāśu i.e.</hi>, at the rate of 2<g type="numeral">1/2</g> per cent.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-07-27" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2026-07-21" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> <hi rend="grantha">rājarājade</hi>vaṟk=ku yāṇṭu <num value="11"><g type="numeral">10</g> 1</num>-vatu
+                    <lb n="2"/>malāṭāṉa <hi rend="grantha">ja</hi>ṉaṉāta vaḷanāṭṭu pānūrkūṟṟattu
+                    <lb n="3"/><hi rend="grantha">brahmade</hi>yam Iṟaiyānaraiyūrāna <hi rend="grantha">śrī</hi> coḻakeraḷaccatu
+                    <lb n="4" break="no"/><hi rend="grantha">rvedi</hi>maṅkalattu Uṭaiyār Ūrpākaṅkoṇṭaruḷiya nāyaṉār
+                    <lb n="5"/><supplied reason="omitted">k</supplied>ku Iravaiy<hi rend="grantha">sa</hi>nti Onṟu<supplied reason="omitted">k</supplied>ku I<supplied reason="omitted">n</supplied>nāḷ mutal ca<hi rend="grantha">ntrāditya</hi>vaṟ nāḷto
+                    <lb n="6" break="no"/>ṟum Ināyanār tirumalaimel maṇṭapattile Erivatāka vai<hi rend="grantha"/>
+                    <lb n="7" break="no"/>cca <hi rend="grantha">sa</hi>ntiviḷakku Oṉṟukku vāṇiyaṉ komaruṭ<hi rend="grantha">ai</hi>yā<supplied reason="omitted">ṉ</supplied> muvāyiratto
+                    <lb n="8" break="no"/>ruvan colaippirān Ikkoyilil <hi rend="grantha">stā</hi>napati <hi rend="grantha">śi</hi>va<hi rend="grantha">brāhma<supplied reason="omitted">ṇa</supplied></hi>n ka
+                    <lb n="9" break="no"/>vucikan veṇkāṭutevan Āḷavantānāna kulo<supplied reason="omitted">t</supplied>tuṅkacoḻapaṭṭa
+                    <lb n="10" break="no"/>n vacam kuṭutta kācu <num value="15"><g type="numeral">10</g> 5</num> Ikkācu patinañcu<supplied reason="omitted">k</supplied>kum Imā<hi rend="grantha">sa</hi>m mutal
+                    <lb n="11"/>tiṅkaḷ kāleAraikkāl kācu policaip poliya<supplied reason="omitted">p</supplied>peṟu
+                    <lb n="12"/>vatākavum Ippolicaiyāl ca<hi rend="grantha">ntrāditya</hi>vaṟ kulo<supplied reason="omitted">t</supplied>tuṅkacoḻa pa
+                    <lb n="13" break="no"/>ṭṭan Ikkoyilil mā <gap reason="lost" quantity="6" unit="character"/> tanattu kāṇi tāṉe talaiycā
+                    <lb n="14" break="no"/>ta<unclear>lai</unclear>mā<unclear>ṭ</unclear>āka Iravai<hi rend="grantha">sa</hi>nti viḷakku ni<hi rend="grantha">tya</hi>m Erivutāka kalveṭṭi viṭ
+                    <lb n="15" break="no"/>ṭen vāṇiyan komaruṭaiyān muvāyirattoruvan colaippirā
+                    <lb n="16" break="no"/>nen Itu ca<hi rend="grantha">ntrāditya</hi>vaṟ <unclear>panm</unclear>ā<hi rend="grantha">heśvararakṣai <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied></hi>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 22.144 by <bibl><ptr target="bib:SrinivasaRao1983_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1983_01"/>
+                        <citedRange unit="page">121</citedRange>
+                        <citedRange unit="item">144</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
