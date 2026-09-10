@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 8.441: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 441. (A.R. No. 153 of 1903). ON THE NORTH WALL OF THE SAME SHRINE.</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv08p0i0441.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>as per external metadata</repository>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2026-09-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-09-01" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">E</hi>ta<hi rend="grantha">T trailokya</hi>ni<hi rend="grantha">r<unclear>mm</unclear>ā</hi>ṇa<hi rend="grantha">trā</hi>ṇa<hi rend="grantha">saṁhārakāra</hi>ṇa<hi rend="grantha">M <unclear>śāsa</unclear></hi><unclear>na</unclear><hi rend="grantha"><unclear>M śāśva</unclear></hi><unclear>ta</unclear><hi rend="grantha"><unclear>M</unclear> śambho<supplied reason="omitted">ḥ</supplied> kaṭhoragiri</hi>vā<hi rend="grantha">si</hi>na<hi rend="grantha"><supplied reason="omitted">ḥ</supplied> svasti śakā</hi>t=tam <num value="1500"><g type="numeral">1000</g> 5 <unclear><g type="numeral">100</g></unclear></num><g ref="sym:dash" type="punctuation"></g>ṉ mel cellāniṉṟa vipava<g ref="sym:tam-varusam"/> tai<unclear><g ref="sym:tam-matam"/></unclear> <num value="15"><g type="numeral">10</g> 5</num><g ref="sym:tam-teti"/>
+					
+					<lb n="2"/>kiraṇa puṇṇiyakālat<unclear>tiṟ</unclear> rāyaruṭaiyār kāriyakaṟtarāna Eppulināyakka<unclear>ro</unclear>m tirumalaināṭṭu tirukkoṭuṅkuṉ<unclear>ṟa</unclear>t=tu nallamaṅkai<unclear>p</unclear>ākacuvāmikku t=tiruppaṇi
+					
+					<lb n="3" break="no"/>ppuṟam tiruppaṇi naṭan=tavara tārāpūṟuvam paṇṇik=koṭut=ta kiṟāmam <unclear>c</unclear>oḻaṉvaḷanāṭu centa melūr puravu <unclear>p</unclear>e<unclear>r</unclear>Ellaiyāvatu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> kiḻpāṟkellai tirumeññā<unclear>ṉi</unclear>
+					
+					<lb n="4"/><unclear>pu</unclear>ravu cen=ta ce<unclear>v</unclear>vai<unclear>k=ku</unclear>m ci<unclear>va</unclear>ppirāṉ <gap reason="lost" quantity="3" unit="character"/> lempaluk=ku meṟ<unclear>k=ku</unclear> teṉpāṟkellai tirukko<unclear>ṭ=ṭi</unclear>yūrpuravu cen=ta cevvai<unclear>k=ku</unclear>m para<unclear>ma</unclear>nerice<unclear>ra</unclear> centamaṅkalappuravuce
+					
+					<lb n="5" break="no"/>n=tacevuk=kum nam vayalu<unclear>k=ku</unclear>m vaṭak=ku meṟpāṟ<unclear>k</unclear>ellai nākarai cen=ta cūraikkuṭippuravu<unclear>k=ku kiḻak=ku</unclear> vaṭapāṟkellai vik=kiṟamanallūṟaṉ muṟaiyiṟpuravu cen=ta <gap reason="lost" quantity="4" unit="character"/> teṟku
+					
+					<lb n="6"/>Āka Icain=ta perunāṉkellaik=kuḷpa<unclear>ṭṭa</unclear> puravi<supplied reason="omitted">l</supplied> Uṭkiṭai teyvat<unclear>ānamum</unclear> tirumuḷainayinār tāṉa<unclear>k</unclear>kāṇi cen=ta teyvatāyamum tirumuḷai Em <gap reason="lost" quantity="5" unit="character"/> kuṭiEmpa
+					
+					<lb n="7" break="no"/><unclear>lum</unclear> ciṟukumiḻempalu<unclear>m</unclear> kīḻaiyiḷavāt=ta<unclear>kkuṭi</unclear> Empalum me<unclear>lai</unclear>yiḷavāt=takkuṭiEmpa<unclear>lum</unclear> Ā<unclear>ṇṭi</unclear>Empalu<unclear>m</unclear> ci<unclear>ṟ</unclear>ṟuvaṉeriEmpa<unclear>lum</unclear> kumā<supplied reason="omitted">rā</supplied>t=tak=kuṭi<unclear>Empalum</unclear>periyakumiḻi
+					
+					<lb n="8" break="no"/>Empalum taṇṭuṇiempalu<unclear>m</unclear> taṇṭu <unclear>po</unclear>tāṉEmpalu<unclear>m</unclear> tampiEmpalum Āt=tak=kuṭik=kāṭuEmpa<unclear>l</unclear> paṉṉiraṇṭum Uṭkiṭaiempa <gap reason="lost" quantity="5" unit="character"/> ma cen=ta pu
+					
+					<lb n="9" break="no"/>ñcaipuravum nik=ki cok=kanārāyaṇapperumāḷ tiruviḷaiyāṭṭam caṭaiyaṉempalum kollikuṭiEmpalum Atuṭaṉcen=ta puñcaipuravum nikki
+					
+					<lb n="10"/>maṟṟuṇṭākiya nilam melūrvayalum tiraṇivayalum nallamaṅkaivayalum karuvili<unclear>ma</unclear>ṅkaivaya<unclear>lum</unclear> ve<unclear>ṭa</unclear>ṅkuṭivaya<unclear>lum</unclear>
+					
+					<lb n="11"/>Itu ṭaṉcen=ta nañcai puṉcai māvaṭai maravaṭai nat=tam c<unclear>e</unclear>yt=tiṭal meṭu kiḻnok=kiya kiṇaṟu<unclear>m</unclear> melnok=ki
+					
+					<lb n="12" break="no"/>ya maramum ni<hi rend="grantha"><unclear>dhi</unclear></hi>ni<hi rend="grantha">kṣepa</hi>ṅkaḷum <hi rend="grantha">jala pāṣā</hi>ṇa viniyo<hi rend="grantha">ga</hi> cuvantiraṅkaḷum maṅkaināyakacuvāmi teyvatāyam can=tirātit=tavarai<unclear>k=ku</unclear>m
+					
+					<lb n="13"/>tiruppaṇi <gap reason="lost" quantity="3" unit="character"/> naṭappittu<supplied reason="omitted">k</supplied>koḷvārākavum <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ippaṭi taṉmacātaṉap paṭṭai<unclear>yam</unclear> koṭuttom maṅkaināyakacuvāmi<unclear>k=ku</unclear> Eppulināyak=karom <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> I<unclear>n=ta</unclear> taṉmam yātāmoru
+					
+					<lb n="14" break="no"/>vaṉ paripālaṉampaṇṇinavarkaḷ <unclear>Aṟam</unclear>ceytāṉ ceytāṉ Aṟaṅ kāttāṉ pāta n=tiṟampāmaṟ ceṉṉiyiṉmel vait=tu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> I<unclear>n=ta tar</unclear>mat=tu<unclear>k=ku</unclear> Akitam <unclear>paṇṇinavarkaḷ</unclear>
+					
+					<lb n="15"/>keṅkaik=karaiyile kārāmpacuvaiyum mātāpitāvaiyum koṉṟa to<hi rend="grantha">ṣa</hi>t=tile povārāka<unclear>vum</unclear> <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> In=ta taṉmacātaṉap paṭṭaiyam Eḻuti kallilum cempilum veṭ=ṭiviccukkoṭut=tom <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> vāca <gap reason="lost" quantity="3" unit="character"/> vaṇai kumarapperumāḷ Eḻuttu <g ref="sym:tam-pillaiyarCuli" type="punctuation">.</g>
+				</p>
+				
+			</div>
+			
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 8.441 by <bibl><ptr target="bib:SubrahmanyaAiyer1937_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1937_01"/>
+						<citedRange unit="page">231</citedRange>
+						<citedRange unit="item">441</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
