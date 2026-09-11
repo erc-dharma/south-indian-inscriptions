@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 8.452: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 452. (A.R. Nos. 159 and 160 of 1903). ON THE NORTH AND WEST WALLS OF THE SAME TEMPLE.</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+				<funder>European Research Council (ERC), grant agreement no 809994</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv08p0i0452.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>as per external metadata</repository>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2026-09-11" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-09-09" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> parāntakavaḷanāṭṭu māṟamaṅkalamāṉa <hi rend="grantha">de</hi>venti<hi rend="grantha">ra</hi><unclear>vallapacatu</unclear><hi rend="grantha"><unclear>rvve</unclear></hi>timaṅkalattu <hi rend="grantha">mahāsabhai</hi>yom <gap reason="lost" quantity="5" unit="character"/> maṟke <gap reason="lost" quantity="10" unit="character"/> perumāḷ tiruvaṭippiṭikkum nampimār kaṇṭu <hi rend="grantha">śrī</hi>vira<hi rend="grantha">pāṇḍyade</hi>vaṟku yāṇṭu <num value="11"><g type="numeral">10</g> 1</num><g ref="sym:dash" type="punctuation"/>vatu Aṟ 
+					
+					<lb n="2" break="no"/>pikaimātam Ivvūrt tiruviṭaiyāṭṭam tāṅkaḷ Aṉupavittuvarukiṟa nilattukku Innāḷmutal vari niṅkal <gap reason="lost" quantity="7" unit="character"/> <hi rend="grantha">sāda</hi>ñ ceytaruḷiṉa tirumukattiṉpaṭiy kaittaṭippaṭi Aṟukamaṅkalam cuntarapāṇṭiyaṉ peruvatikku meṟku naraciṅkap
+					
+					<lb n="3" break="no"/>peruvāykkālukkut teṟku mutaṟ<surplus>k</surplus>kaṇṇāṟṟu mutaṟcey vi<hi rend="grantha">ṣu</hi>vayaṉa <hi rend="grantha">saṁkra</hi>mappuṟam Aṉantaṉ colaikoṇ<unclear>ṭi</unclear> <gap reason="lost" quantity="6" unit="character"/> <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ā</seg>ṇi muntirikaiyum puḷiṅkaḷam cuntarapāṇ<unclear>ṭi</unclear>yaṉ peruvatikkuk kiḻakku naraciṅkapperuvāykkālukku teṟku mutaṟkaṇṇāṟṟu Iraṇ
+					
+					<lb n="4" break="no"/>ṭāñ cey tirumañcaṉappuṟam perāḻikoṇṭiṭṭa nilam kāṇi muntirikaiyum muṉṟāṅ kaṇṇāṟṟu Iraṇṭāñ cey <gap reason="lost" quantity="6" unit="character"/> yāṭṭam pokalūr tevāṇṭār koṇṭiṭṭa ni<unclear>la</unclear>m mukkāṇi muntirikaiyum Āṟāñ cey capaiyāriṭṭa nilam meḻimaṭakku nila
+					
+					<lb n="5" break="no"/>m Orumāvum Eḻāñ cey A<hi rend="grantha">rcca</hi>ṉāvirutti meṟpaṭiyār Iṭṭanilam Araimā Araikkāṇiyum Añcāṅ kaṇṇāṟṟu mutaṟ cey capaiyār Iṭṭa nilam villi ce<supplied reason="omitted">y</supplied> nilam Araimā Araikkāṇi kiḻaraiyum Āṟāṅ kaṇṇāṟṟu Ā<unclear>ṟā</unclear>ñcey tirununtāviḷakku<unclear>p</unclear>puṟam puṉitaṉ
+					
+					<lb n="6"/>colai koṇṭiṭṭa nilam mukkāṇiyum Atiravi<unclear>ci</unclear>yāṭuvāṉukkuk kiḻakku mutaṟ kaṇṇāṟṟu Āṟāñcey caṅkavaṭṭakai tiruna<supplied reason="omitted">n</supplied>tavaṉappuṟam <hi rend="grantha">sabhai</hi>yāriṭṭa nilam kāṇi muntirikaiyiṉkālum Iraṇṭāṅ kaṇṇāṟṟu <unclear>E</unclear>ḻāñcey vācalaṟai <hi rend="grantha">sabh</hi>aiyāriṭṭa nilam Araimā
+					
+					<lb n="7"/>muntirikaiyum Itaṉ kiḻakku muṅkiṟkuṭṭam <hi rend="grantha">sabh</hi>aiyāriṭṭa nilam muntirikaiyiṉ kālum muṉṟāṅ kaṇṇāṟṟu Eṭṭāñ ceyum Oṉpatāñ ceyk kuṟaiyum teṟkil vacakkiluṭpaṭa <hi rend="grantha">sabh</hi>aiyāriṭṭa nilam Iraṇṭumāvum Iraṇṭāṅ kaṇṇāṟṟu Āṟāñ cey nilam muntirikaiyu
+					
+					<lb n="8" break="no"/>m nālāṅ kaṇṇāṟṟu Aiñcāñcey koṟṟiyammai koṇṭiṭṭa nilam Araimāvum Eḻāṅ kaṇṇāṟṟu mutaṟcey poṉmuṟi <hi rend="grantha">sabh</hi>aiyāriṭṭa nilam kāṇik kiḻaraiyum caṅkavaṭṭaṉkāral <hi rend="grantha">sabh</hi>aiyāriṭṭa nilam<unclear>n mu</unclear>tirikaiyum Eṭṭāṅ kaṇṇāṟṟu mutaṟceyyum Iraṇṭāñ
+					
+					<lb n="9" break="no"/>ceyyum veṇṇaikkūttaviḷākam mātavāṇṭār koṇṭiṭṭa nilam Orumā Araikkāṇi muntirikaik kiḻarai<supplied reason="omitted">yu</supplied>m va<unclear>ḷḷaip</unclear>pāṭu mutaṟ kaṇṇāṟṟu Iraṇṭāñ ce<supplied reason="omitted">y</supplied> Uyyakkoṇṭāḻvār tiruvi<unclear>ṭai</unclear>yāṭṭam tiruvirāmi<hi rend="grantha">śva</hi>raṉ kecavaṉ koṇṭiṭṭa
+					
+					<lb n="10"/>nilam kāṇi yaraikkāṇiyum puṟaṅkarai cuntarapāṇṭiyaṉ peruvatikkuk kiḻakku muṉṟāṅ kaṇṇāṟṟu nālāñ cey A<unclear>mā</unclear>vā<hi rend="grantha">si</hi>ppuṟam Ariyeṟucuntaraṉ koṇṭiṭṭa nilam mukkāṇi Araikkāṇi muntirikaiyum kulace<unclear>karavi</unclear>ṇṇakar Emperumāṉ tiruviṭaiyāṭṭam puḷiṅkaḷam nālā
+					
+					<lb n="11" break="no"/>ṅ kaṇṇāṟṟu mutaṟcey colaiyaraicu puru<hi rend="grantha">ṣo</hi>ttamaṉ koṇṭiṭṭa nirnilam Oru māvum vaḷḷaippāṭu mutaṟ kaṇṇāṟṟu mutaṟcey meṟpaṭiyār koṇṭiṭṭa nilam Orumāvu<unclear>m</unclear> Iraṇṭāñcey meṟpaṭiyār koṇ<unclear>ṭi</unclear>ṭṭa nilam Araikkāṇiyum Ūrukku kiḻakku tiruvāykkulaviḷā
+					
+					<lb n="12" break="no"/>kam meṟpaṭiyār koṇṭiṭṭa nilam kāṇi yaraikkāṇiyum maturotayaviṇṇakar Emperumāṉ tiruviṭaiyāṭṭam vaḷḷaippāṭu muṉṟāṅ kaṇṇāṟṟu nālāñ cey paṉaiyaṟaināya<supplied reason="omitted">ṉā</supplied>r koṇṭiṭṭa nilam Araikkāṇi muntirikaiyiṉ kiḻaraiyum pattāṅ kaṇṇāṟṟu Aiñcāñce
+					
+					<lb n="13" break="no"/><gap reason="lost" quantity="3" unit="character"/> <hi rend="grantha">sabh</hi>aiyār Iṭṭa nila<unclear>m mu</unclear>kkāṇi yaraikkāṇiyum kuḷattūrvāy nāṟṟaṅkāl nilam kiḻaraiyum Āka nirnilam Araiye nālumā Araikkāṇi muntirikaiyiṉ kiḻ mukkālum Ivvūr vaṭapiṭākai karuñcey kaṉavilvantaperumāḷ nārācattukku vaṭak<unclear>ku cu</unclear>ntarapāṇṭiyaṉ peruvatikku meṟkum kiḻakkum kūttaṉ comaṉātaṉ koṉṭiṭṭa nila<unclear>m I</unclear>raṇṭe nālumāvum kulacekaraviṇṇakar Emperumā<unclear>ṉ tiruvi</unclear>ṭaiyāṭṭa nilam Orumāvum mucalvaḷarcoṭṭaik karuñcey maturotayaviṇṇa <gap reason="lost" quantity="3" unit="character"/> mperumāṉ tiruviṭaiyāṭṭam <unclear>ni</unclear>la<supplied reason="omitted">m</supplied> Oṉṟum Āka nila<supplied reason="omitted">m</supplied> muṉṟe nālu<unclear>mā</unclear>
+		
+					<lb n="14"/>Āka nirnilamuṅ karuñceyum Uṭpaṭa nilam muṉṟe mukkāle muṉṟumā varaikkāṇi muntirikaik kiḻmukkālum vaṇṭuvarāpatinampi koṇṭiṭṭa nilam Oṉṟum Eṅkaḷ kārāṇmai Uṭpaṭa <hi rend="grantha">prasāda</hi>ñceytaruḷiṉa tirumukattiṉpaṭiyile puravilum piṟittukkuṭuttom <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Inniyo<hi rend="grantha">ha</hi>ttiṉ<unclear>paṭi</unclear> <hi rend="grantha"><unclear>ca</unclear>ndrāditya</hi>vaṟ celvatāka nāṉkellaikaḷilum Ittaṭippaṭa tiruvāḻikkallu nāṭṭi<unclear>k</unclear> kallilum cempilum veṭṭikkoḷka <g ref="sym:circleDouble">.</g><g ref="sym:dashLong" type="punctuation">.</g> Ivai Iṟaivāṉaraiyūr colaippirāṉ <unclear>p</unclear>eriyanampiyāṉa Avaṉinārāyaṇa <hi rend="grantha">brahmā</hi>tarāyaṉ <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Eḻuttu Ivai puṇṭa<unclear>va</unclear><hi rend="grantha">rddha</hi>nattu <hi rend="grantha">bṛhaspa</hi>ti <hi rend="grantha">sa</hi>vaiyā<hi rend="grantha">ji</hi>kecavaṉāṉa civakalliyāṇa<unclear>nam</unclear>
+					
+					<lb n="15" break="no"/>pi Eḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai <hi rend="grantha">śrī</hi>pokalūr comaṉātaṉ periyanampiyāṉa Irā<hi rend="grantha">ja</hi>nārāyaṇa <hi rend="grantha">brahmā</hi>tarāyaṉ Eḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai <hi rend="grantha">śrī</hi>pokalūr colaiyaraicu kūttaṉāṉa cuntarapāṇṭiya <hi rend="grantha">brahmā</hi>tarāyaṉ Eḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai Iṟaiv<choice><sic>a</sic><corr>ā</corr></choice>ṉaraiyūr periyanampi puru<hi rend="grantha">ṣo</hi>ttamaṉāṉa vaṇṭu<unclear>varāpa</unclear>timaṉṉaṉ Eḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai <hi rend="grantha">śrī</hi>puṇṭava<hi rend="grantha">ddha</hi>ṉattu <unclear>A</unclear>ḻakar comaṉātaṉāṉa Aṉṉatāṉanampi Eḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai mārāyamaṅkalattu Irāmatevaṉ <unclear>kū</unclear>ttaṉāṉa ceyyapāṇṭiya <hi rend="grantha">brahmā</hi>tarāyaṉ Eḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai <hi rend="grantha">śrī</hi>pokalūr colai<unclear>yaraicu pe</unclear>riyanampiyāṉa kumaranārāyaṇa <hi rend="grantha">brahmā</hi>tarāyaṉ Eḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> I<unclear>v</unclear>ai <hi rend="grantha"><unclear>śrī</unclear></hi>
+					
+					<lb n="16" break="no"/>pokalūr colaiyaraicu karumāṇikkamāṉa tiyākaviṉota <hi rend="grantha">brahmā</hi>tarāyaṉ Eḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai <hi rend="grantha">śrī</hi>pokalūr kūttaṉ periyanampiyāṉa karuṇākaranampi Eḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai Iṟaivāṉaraiyūṟ centāmaraikkaṇṇaṉ cūriyatevaṉāṉa teventirap piramātarāyaṉ Eḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> I<unclear>v</unclear>ai cipokalūr citaraṉ cikaiyilā<hi rend="grantha">sa</hi>muṭaiyāṉāṉa civallapa<supplied reason="omitted">p</supplied>piramātarāyaṉ Eḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai <hi rend="grantha">śrī</hi>po<supplied reason="omitted">ka</supplied>lūr mātavaṉ kūttaṉāṉa poṟkoyilnampi Eḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai ci<unclear>pu</unclear>ṇṭava<hi rend="grantha">rddha</hi>ṉattu kūttaṉ civa<unclear>l</unclear>lavaṉāṉa teṉṉavaṉ piramātarāya<supplied reason="omitted">ṉ Eḻu</supplied>ttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai m<choice><sic>a</sic><corr>ā</corr></choice>rāyamaṅkalattu kūttaṉ vā<hi rend="grantha">sude</hi>vaṉāṉa vāṉavaṉ <hi rend="grantha"><unclear>brahmā</unclear></hi>
+					
+					<lb n="17" break="no"/>ta rāyaṉ Eḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai cipokalūr poṉṉampi poliñcuniṉṟāṉāṉa Ā<unclear>ka</unclear>varā<unclear>ma</unclear>nampi <unclear>E</unclear>ḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai m<choice><sic>a</sic><corr>ā</corr></choice>rācamaṅkalattu maṇavāḷaṉ mātavaṉāṉa mayileṟumperumāḷnampi Eḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai m<choice><sic>a</sic><corr>ā</corr></choice>rāca<unclear>maṅka</unclear>lattu cuvāminampi colaippirāṉāṉa Aruḷāḷapperumāḷnam<unclear>pi Eḻu</unclear>ttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai m<choice><sic>a</sic><corr>ā</corr></choice>rāyamaṅkalattu Irāmatevaṉ mātavaṉāṉa tiruvāta<supplied reason="omitted">vū</supplied>rnampi Eḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai cipokalūr kūttaṉ naṅkaiyāḻvāṉāṉa nāṟpatteṇṇāyiranampi Eḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> <g ref="sym:circleDouble" type="punctuation">.</g><g ref="sym:dashLong" type="punctuation"/> Ivai cipokalūr kaḷḷappirāṉ tiruppūvaṉamu<supplied reason="omitted">ṭ</supplied><hi rend="grantha"><supplied reason="omitted">ai</supplied></hi><supplied reason="omitted">yā</supplied>ṉāṉa tiruñāṉacampan<unclear>tana</unclear>mpi Eḻuttu <g ref="sym:circleDouble" type="punctuation">.</g><g ref="sym:dashLong" type="punctuation"/> Ivai Iṟaivāṉaraiyūr <unclear>puru</unclear>
+					
+					<lb n="18" break="no"/><hi rend="grantha">ṣo</hi>ttamaṉ citaraṉāṉa Aḻaki<unclear>ya</unclear>maṇavāḷanampi Eḻuttu <g ref="sym:tam-pillaiyarCuli" type="punctuation">.</g> Ivai cipokalūr mātavaṉ kūttaṉāṉa tillaimuvāyiranampi Eḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai m<choice><sic>a</sic><corr>ā</corr></choice>rā<hi rend="grantha">ja</hi>maṅkalattu Āṭkoṇṭāṉ centilāṉa viṟṟiruntaperumāḷnampi Eḻuttu <g ref="sym:dashLong" type="punctuation"/> Ivai cipokalūr tiruvikkiramaṉ cikayilā<hi rend="grantha">sa</hi>muṭaiyāṉāṉa tiruUṇṇāḻiynampi E<unclear>ḻuttu</unclear> <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai m<choice><sic>a</sic><corr>ā</corr></choice>rā<hi rend="grantha">ja</hi>maṅkalattu tiruvaraṅkapperumāḷ tāmotaraṉāṉa tirumāliruñcolainampi Eḻuttu <g ref="sym:circleDouble" type="punctuation">.</g><g ref="sym:dashLong" type="punctuation"/> Ivai <hi rend="grantha">śrī</hi>pokalūr Aṉa<unclear>n</unclear>tacayaṉaṉ peri<unclear>ya</unclear>ṉampiyāṉa tiruvārurnampi Eḻuttu <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai cipuṇṭavattaṉattu Aḻakaṉ <unclear>p</unclear>āṇṭiyā <gap reason="lost" quantity="2" unit="character"/> pāṇṭiya piramātarāyaṉ Eḻuttu <g ref="sym:circleDouble" type="punctuation">.</g><g ref="sym:dashLong" type="punctuation"/>
+				</p>
+				
+			</div>
+			
+		
+			
+			<div type="commentary">
+				<p>The stones containing lines 13 to 18 are not in order. The inscription has been read here in proper sequence.</p>
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 8.452 by <bibl><ptr target="bib:SubrahmanyaAiyer1937_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1937_01"/>
+						<citedRange unit="page">239-241</citedRange>
+						<citedRange unit="item">452</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>

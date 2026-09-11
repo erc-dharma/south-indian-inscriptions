@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 8.449: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 449. (A.R. No. 157-D of 1903). ON THE SAME WALLS.</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+				<funder>European Research Council (ERC), grant agreement no 809994</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv08p0i0449.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>as per external metadata</repository>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2026-09-11" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-09-09" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> komāṟapaṉmarāṉa tiripuvaṉacakkaravattikaḷ coṇāṭu <gap reason="lost" quantity="3" unit="character"/> <unclear>ko</unclear>ṇṭacoḻapura<unclear>t</unclear>tu viraA<hi rend="grantha">bhiṣe</hi>kam paṇṇiyaruḷiya <hi rend="grantha">śrī</hi>cuntarapā<supplied reason="omitted">ṇ</supplied>ṭiyatevaṟkku yāṇṭu <num value="17"><g type="numeral">10</g> 7</num><g ref="sym:dash" type="punctuation"/>vatu
+					
+					<lb n="2"/>parāntakavaḷanāṭṭu māṟamaṅkalamāṉa teventiravallavaca<unclear>tu</unclear><hi rend="grantha">rvve</hi> <gap reason="lost" quantity="5" unit="character"/>  lattu ma<hi rend="grantha">hā<unclear>sa</unclear>bh</hi><unclear>ai</unclear>yom Ivvūr Uṭaiyār cantiracekaraīcuvaramuṭaiya nāyaṉār
+					
+					<lb n="3"/>tevatāṉak karuñceyum I<supplied reason="omitted">v</supplied>vūr Aḻakiyapāṇṭiyaviṇṇakar E <gap reason="lost" quantity="4" unit="character"/> ṉ tiruvi<seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ai</seg> <gap reason="lost" quantity="3" unit="character"/> ruñceyum kulacekaraviṇṇakar Emperumāṉ tiruviṭaiyāṭṭa
+					<lb n="4" break="no"/>k karuñceyum maturotaiya viṇṇakar Emperumāṉ tiruviṭai <gap reason="lost" quantity="10" unit="character"/> kam Āka tiramattiṉvāy kā<supplied reason="omitted">l</supplied>t tiramam koṇṭuvarukiṟa tiramam tavuntu
+					<lb n="5"/>Ippaṭi tavunta tiramattukkum karuñcey kaṭamaikkum <gap reason="lost" quantity="10" unit="character"/> <hi rend="grantha">nddhyādi</hi>pam cantirāti<supplied reason="omitted">t</supplied>tavaṟ celvitākavum tirumelkoyil 
+					<lb n="6"/>Aḻakiyapāṇṭiyaviṇṇakar Emperumāṉukku tiramatatiṉ <gap reason="lost" quantity="6" unit="character"/> mamāka vanta <gap reason="lost" quantity="3" unit="character"/> ṉpu mutalāṉa tiruviḷakku nikki Ittiramattukku Eṟṟum <hi rend="grantha">sanddhyā</hi>
+					<lb n="7" break="no"/><hi rend="grantha">di</hi>pam pattum cantirāti<supplied reason="omitted">t</supplied>tavaṟ celvatākavum naṭuviltirumu<supplied reason="omitted">ṟ</supplied>ṟam kula <gap reason="lost" quantity="6" unit="character"/> ṉ kāṇam <gap reason="lost" quantity="6" unit="character"/> ṭaiyāṭṭak karuñceyil tiramattiṉvāy kāl Āka vanta tiramattu
+					<lb n="8" break="no"/>kku muṉpu U<supplied reason="omitted">ḷ</supplied>ḷa tiruviḷakku nikki Ittiramattukku Eṟṟa<supplied reason="omitted">k</supplied>kaṭava <hi rend="grantha">sanddhy<choice><sic>a</sic><corr>ā</corr></choice>dipa</hi>m nālu<unclear>m</unclear> <gap reason="lost" quantity="6" unit="character"/> tavaṟ ce<supplied reason="omitted">l</supplied>la <gap reason="lost" quantity="5" unit="character"/> rotaiyavi<supplied reason="omitted">ṇ</supplied>ṇakar Emperumāṉ tiruviṭaiyāṭṭa<unclear>k ka</unclear>ruñce<supplied reason="omitted">y</supplied>kku cantiyātipa<supplied reason="omitted">m</supplied> nālu
+					<lb n="9" break="no"/>ṅ kaikkoṇṭu nāḷ vaṭṭam Uḻakkup pacuvi ṉa
+					<lb n="10" break="no"/>ṟuneyyāl tirunontāviḷakku Erikka<supplied reason="omitted">k</supplied>kaṭava
+					<lb n="11" break="no"/>rāṉamaikku Upaiyam Ittiruviḷakku panmā
+					<lb n="12" break="no"/>ye<hi rend="grantha">śvara rakṣai</hi> <supplied reason="subaudible"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> Ittan<supplied reason="omitted">mam</supplied> muṭṭāme
+					<lb n="13"/>celuttuvār <hi rend="grantha">śrī</hi>pātam tillaiviṭa
+					<lb n="14" break="no"/>ṅkan cakararnāyakaṉ talaiyi<unclear>ṉ</unclear> <gap reason="lost" quantity="5" unit="character"/> <supplied reason="subaudible"><g ref="sym:doubleBar" type="punctuation">.</g></supplied>
+				</p>
+				
+			</div>
+		
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 8.449 by <bibl><ptr target="bib:SubrahmanyaAiyer1937_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1937_01"/>
+						<citedRange unit="page">238-239</citedRange>
+						<citedRange unit="item">449</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
