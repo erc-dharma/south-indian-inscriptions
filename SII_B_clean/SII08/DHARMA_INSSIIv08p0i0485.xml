@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 8.485: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 485. (A.R. No. 186 of 1903). ON THE SAME BASE.</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+				<funder>European Research Council (ERC), grant agreement no 809994</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv08p0i0485.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>as per external metadata</repository>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2026-09-28" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-09-09" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><gap reason="lost" quantity="5" unit="character"/> <hi rend="grantha">patrāpa śrī</hi>vī<hi rend="grantha">rasa</hi>tā<hi rend="grantha">si</hi>va<hi rend="grantha">de</hi>va<hi rend="grantha">mahārā</hi>yar <hi rend="grantha">pra</hi>tivi<hi rend="grantha">rājya</hi>m paṇṇiAruḷāniṉṟa <hi rend="grantha">s<surplus>ā</surplus></hi>kā<unclear>ttam</unclear> <num value="1475"><g type="numeral">1000</g> 4 <g type="numeral">100</g> 7 <g type="numeral">10</g> 5</num><g ref="sym:dash" type="punctuation"/><hi rend="grantha">Nme</hi>l cellāniṉṟa <hi rend="grantha">pra</hi>mātica<hi rend="grantha">saṁ</hi>va<hi rend="grantha">T</hi>ccarattu miṉṉāyiṟṟu Apa<hi rend="grantha">ra</hi>pa<hi rend="grantha">kṣa</hi>ttu Ē<hi rend="grantha">kādeśi</hi>yum pu<hi rend="grantha">da</hi>vā<hi rend="grantha">ra</hi>mum peṟṟa tiruv<choice><sic>a</sic><corr>o</corr></choice>ṇana<hi rend="grantha">kṣatra</hi>ttu ṉāḷ <hi rend="grantha">je</hi>yaṅko<hi rend="grantha">ṇḍa</hi>coḻama<hi rend="grantha">ṇḍa</hi>lattu Āṟṟūrṉāṭṭu tirukkāḷattiĀṉa mummuṭicoḻapurattu ṉāyaṉār tirukkāḷa<supplied reason="omitted">t</supplied>tuṭaiyaṉāyaṉār koyil <hi rend="grantha">śrī<unclear>bha</unclear>ṇṭāra</hi>kaṅkāṇam ceyvārkaḷom kuṉṟava<hi rend="grantha">rtta</hi>ṉa<supplied reason="omitted">k</supplied>koṭṭat=tu vaṭṭiŪrṉāṭṭu nā<hi rend="grantha">rā</hi>yaṇapurattu kaṇakkapiḷḷai pa<hi rend="grantha">rameśvara</hi>maṅkalamuṭai
+					
+					<lb n="2" break="no"/><gap reason="lost" quantity="8" unit="character"/> mācittiruṉāḷ Eḻāntiruṉāḷil Imaiyorkaḷṉāyakar Amutuceytaruḷum tocaippaṭi Upaiyattukku kuṭutta <g ref="sym:tam-panam"/> <num value="100"><g type="numeral">100</g></num> Intappaṇam ṉūṟum ṉāyaṉār tevatānam <hi rend="grantha">bhaśa</hi>vāpuram Eriyi liṭṭuk kuḻi veṭṭivittu nilam tirutti Inta mutal koṇṭu mācittiruṉāḷ Eḻāntiruṉāḷil Imaiyorkaḷṉāyakar tiruvitikku Eḻuntaruḷi tirukkalliĀṇampaṇṇi tiruvūṭal tintu tirukkoyilvācal pelipiṭattaṇṭaiyil tiruvālattitaṭṭam Eṭutta piṟaku Amutuceyitaruḷum tocaippaṭikku viṭum <hi rend="grantha">śrī</hi>pa<hi rend="grantha">ṇḍāra</hi>kkālāl <hi rend="check">�</hi> <num value="12"><g type="numeral">10</g> 2</num><g ref="sym:tam-pillaiyarCuli" type="punctuation">.</g> Uḻuntu 3<g ref="sym:tam-pillaiyarCuli" type="punctuation">.</g> neyi <hi rend="check">3/20</hi> + 1/20<g ref="sym:dash" type="punctuation"/>immatikāri mācit=tiruṉāḷtoṟum tappāmal naṭattivarak kaṭavomākavum <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> <hi rend="grantha">dharmma</hi>ttuk 
+					
+					<lb n="3" break="no"/><gap reason="lost" quantity="2" unit="character"/> <unclear>ḷḷa</unclear>mutalāka tevapparkurukkaḷ puttiṟar catācivakurukkaḷ peṟṟuvarum tocai 9 koyil<unclear>kaṇakkar</unclear> muṟaiāka peṟṟuvarum tocai 3 Immatikāri taṅkaḷ caṉtānaparamparai ca<hi rend="grantha">ntr<choice><sic>a</sic><corr>ā</corr></choice></hi>tittavaraiyum peṟṟuvara<supplied reason="omitted">k</supplied>kaṭavarākavum <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> Ivai pa<hi rend="grantha">nmāheśvara rakṣai</hi> <g ref="sym:tam-pillaiyarCuli" type="punctuation">.</g>
+				</p>
+				
+			</div>
+			
+			
+			<div type="commentary">
+				<p>The record is partially built in.</p>
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 8.485 by <bibl><ptr target="bib:SubrahmanyaAiyer1937_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1937_01"/>
+						<citedRange unit="page">253</citedRange>
+						<citedRange unit="item">485</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
