@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 8.479: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 479. (A.R. No. 180 of 1903). ON THE NORTH WALL OF THE SAME SHRINE.</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+				<funder>European Research Council (ERC), grant agreement no 809994</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv08p0i0479.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>as per external metadata</repository>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2026-09-28" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-09-09" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">śubhamastu sva</hi>
+					<lb n="2" break="no"/><hi rend="grantha">sti</hi> <supplied reason="subaudible"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> <hi rend="grantha">śrīmaNmahārā</hi>
+					<lb n="3" break="no"/><hi rend="grantha">jādhirāja rājapa</hi>
+					<lb n="4" break="no"/><hi rend="grantha">ramēśvara śrī</hi>vīra<hi rend="grantha">pra</hi>
+					<lb n="5" break="no"/>tā<hi rend="grantha">pa śrī</hi>vī<hi rend="grantha">raca</hi>tā
+					<lb n="6" break="no"/>civa<hi rend="grantha">dē</hi>va<hi rend="grantha">mahārā</hi>
+					<lb n="7" break="no"/>yar <hi rend="grantha"><unclear>pridvi</unclear>rājya</hi>
+					<lb n="8" break="no"/>mpaṇṇi Aruḷā
+					<lb n="9" break="no"/>niṉṟa <hi rend="grantha"><unclear>śakābdaM</unclear></hi>
+					<lb n="10"/><num value="1467"><unclear><g type="numeral">1000</g> 4 <g type="numeral">100</g> 6 <g type="numeral">10</g> 7</unclear></num><g ref="sym:dash" type="punctuation"/>ṉ <hi rend="grantha">m</hi>e
+					<lb n="11" break="no"/>ṟ cellāniṉṟa
+					<lb n="12"/>vi<hi rend="grantha">śvā</hi>va<hi rend="grantha">susaṁ</hi><unclear>va</unclear><hi rend="grantha">T</hi>sa
+					<lb n="13" break="no"/><hi rend="grantha">ra</hi>ttu mīnaṉāyaṟṟu
+					<lb n="14"/>A<hi rend="grantha">parapakṣa</hi>ttu
+					<lb n="15"/><hi rend="grantha">śukravāra</hi>mum <hi rend="grantha">pē</hi>
+					<lb n="16" break="no"/>ṟṟa <hi rend="grantha">rōhi</hi>ṇina<hi rend="grantha">kṣa</hi>
+					<lb n="17" break="no"/>ttiṟattu ṉāḷ <hi rend="grantha">je</hi>ya
+					<lb n="18" break="no"/>ṅkoṇṭacoḻa
+					<lb n="19" break="no"/><hi rend="grantha">maṇḍa</hi>lattu Āṟṟū
+					<lb n="20" break="no"/>rnāṭṭil tirukkā
+					<lb n="21" break="no"/>ḷatti Āna mummuṭi
+					<lb n="22" break="no"/>coḻapurattu>
+				</p>
+				
+			</div>
+			
+			
+			
+			<div type="commentary">
+				<p>The rest of the inscription is much damaged.</p>
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 8.479 by <bibl><ptr target="bib:SubrahmanyaAiyer1937_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1937_01"/>
+						<citedRange unit="page">251</citedRange>
+						<citedRange unit="item">479</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
