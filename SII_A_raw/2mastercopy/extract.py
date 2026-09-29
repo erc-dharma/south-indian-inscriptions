@@ -662,12 +662,12 @@ def process_inscription(ins, vol_no, part_no, section_no, ins_no):
 			s = sn.data.replace("automatically converted to DHARMA conventions", f"converted to DHARMA conventions by {firstname} {lastname}")
 			if s != sn.data:
 				sn.replace_with(s)
-	if vol_no in (1, 2, 3, 4, 12, 13, 14, 17, 19, 22):
+	if vol_no in (1, 2, 3, 4, 5, 12, 13, 14, 17, 19, 22, 23, 24):
 		assign_volume_to("emfr", "Emmanuel", "Francis")
 	elif vol_no in (7, 6, 8) and lang == "tam":
 		assign_volume_to("doop", "Dorotea", "Operato")
-	elif vol_no in (5,) and lang == "tam":
-		assign_volume_to("reda", "Renato", "Dávalos")
+	#elif vol_no in (,) and lang == "tam":
+	#	assign_volume_to("reda", "Renato", "Dávalos")
 	title = out.first("//titleStmt/title[@type='alt']")
 	head = ins.first("head")
 	for elem in head.find(".//*"):
