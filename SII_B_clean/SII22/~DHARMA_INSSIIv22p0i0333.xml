@@ -5,117 +5,117 @@
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>SII 22.333: original edition by G.V. Srinivasa Rao</title>
-				<title type="alt">No. 333. (A.R. No. 333 of 1906) NORTH ARCOT DISTRICT, WALAJAPET TALUK, TIRUMĀLPURAM. RUINED VISHṆU TEMPLE—ON THE SAME WALL. RĀJARĀJA I—10th YEAR (A.D. 994-95)</title>
-				<respStmt>
-					<resp key="creator">author of digital edition</resp>
-					<persName ref="part:emfr">
-						<forename>Emmanuel</forename>
-						<surname>Francis</surname>
-					</persName>
-				</respStmt>
-				<funder>European Research Council (ERC), grant agreement no 809994</funder>
-			</titleStmt>
-			<publicationStmt>
-				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
-				<pubPlace>Paris, CEIAS</pubPlace>
-				<idno type="filename">DHARMA_INSSIIv22p0i0333.xml</idno>
-				<availability>
-					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
-				</availability>
-				<date from="2019" to="2026">2019-2026</date>
-			</publicationStmt>
-			<sourceDesc>
-				<msDesc>
-					<msIdentifier>
-						<repository>as per external metadata</repository>
-					</msIdentifier>
-					<msContents>
-						<summary>
-
-						<p>This records an endowment of 20 <hi rend="italic">kaḻañju</hi> of gold by Arunilai Śrīkṛishṇaṉ <hi rend="italic">alias</hi> Mūvēnda Piḍavūrvēḷār the accountant of Piḍavūr-nāḍu in Śōḻanāḍu, which was invested with the <hi rend="italic">Ūrār</hi> of Vēḷkaḷa Veṇpākkam adjacent to (?) Gōvindapāḍi. The three <hi rend="italic">kaḻañju</hi> collected from them as interest every year was to be utilised by the trustees of the temple, for the recitation of the <hi rend="italic">Tiruppadiyam</hi> hymn beginning with the expression <hi rend="italic">[kōla]naṟkuḻal</hi> composed (?) by the donor's father Kāyāvāṉ Arunilai, on the seventh day of the annual festival in the temple.</p>						
-
-						</summary>
-					</msContents>
-					<physDesc>
-						<handDesc>
-							<p/>
-						</handDesc>
-					</physDesc>
-				</msDesc>
-			</sourceDesc>
-		</fileDesc>
-		<encodingDesc>
-			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
-		</encodingDesc>
-		<revisionDesc>
-			<change who="part:emfr" when="2026-10-01" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-			<change who="part:mime" when="2026-09-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
-		</revisionDesc>
-	</teiHeader>
-	<text xml:space="preserve">
-		<body>
-
-<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
-
-<p>
-<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> kān=taḷūrcālai kalamaṟutta<hi rend="grantha"/>
-<lb n="2" break="no"/><hi rend="grantha">korājarājakesaripanma</hi><supplied reason="omitted">ṟ</supplied>kku yāṇṭu <num value="10"><g type="numeral">10</g></num>- ttāvatu tāma <gap reason="lost" quantity="6" unit="character"/> 
-<lb n="3"/>tu tāmarṉāṭṭu <hi rend="grantha">śrī go</hi>vin=tapāṭi puṟattu veḷkaḷa veṇpā <gap reason="lost" quantity="4" unit="character"/> 
-<lb n="4"/>roṅkaiyeḻut=tu coḻaṉāṭṭu vaṭakaraip piṭavūrnāṭṭuk kaṇakku <gap reason="lost" quantity="4" unit="character"/> 
-<lb n="5"/>ṭaiyāṉ Arunilai <hi rend="grantha">śrī<unclear>kṛ</unclear>ṣṇa</hi>ṉāṉa muven=tappiṭavūr ve
-<lb n="6" break="no"/>ḷār kaiyāl yāṅkaḷ koṇṭu kaṭava cempoṉ tan<hi rend="grantha">ma</hi> ka
-<lb n="7" break="no"/>ṭṭaḷaiyāl tuḷai <num value="20">2 <g type="numeral">10</g></num> Ippoṉ koṇṭa paricāvatu Ivāṭṭai 
-<lb n="8"/>puraṭṭātimutal kaḻañcinvā<supplied reason="omitted">y</supplied> tiṅkaḷiraṇṭumāp policaiyā lorāṭ
-<lb n="9" break="no"/>ṭaikku van=ta pon <hi rend="grantha">3�</hi> Ippoṉṉilivar tamappaṉār kāyāvā naruṉi<unclear>lai</unclear>yā
-<lb n="10" break="no"/>ṉa muven=tappiṭavūr veḷār <hi rend="grantha">śrī go</hi>vin=tapāṭi Āḻvāṉ viṇṇappam ce
-<lb n="11" break="no"/>kola naṟkuḻaleṉum tiruppatiyam Ivāḷvār tiruviḻāvi ṉeḻāṉāḷāl <gap reason="lost" quantity="2" unit="character"/> 
-<lb n="12"/>ṭiyāṭiṉa pari<hi rend="grantha">dai</hi>nāyakaṉmārkku Irukaḻañcuṅ keṭppicca koyil nampimārkku
-<lb n="13"/>kaḻañcum Āka policai mukkaḻañcu po<supplied reason="omitted">ṉ</supplied>ṉum <hi rend="grantha">śantrādi</hi>ttaval Āṭṭāṇṭu toṟumā
-<lb n="14" break="no"/>ḷvār <hi rend="grantha">śrī kārya</hi>ñ ceykiṉṟa nampimāre taṇṭi Iṭu<unclear>vi</unclear>ppatāka<unclear>vum</unclear> Iṭomākil
-<lb n="15"/>tiruvāṇaimaṟaiyum paṭṭu tevakan<hi rend="grantha">mi</hi>kaḷ tāṅkaḷ ve <gap reason="lost" quantity="4" unit="character"/> ttil tāṅkaḷ veṇ<unclear>ṭu</unclear> <gap reason="lost" quantity="3" unit="character"/> 
-<lb n="16"/>taṇṭamiṭap peṟuvārkaḷākavum mivarkaḷiṭṭa taṇṭamiṟuttum Iṉṉivan=ta mippaṭi
-<lb n="17"/>Iṭakkaṭavomākavum Ipparicoṭṭi Iṭṭuk=kuṭutto muventappiṭavūr veḷārkku
-<lb n="18"/>veḷka<supplied reason="omitted">ḷa</supplied>veṇpākkat=turom Ūrār paṇikka I<hi rend="grantha">śilā</hi>lekai veṭṭi ṉeṉ
-<lb n="19"/>Āṟaiyāṉa <hi rend="grantha">śrī go</hi>vin=tapāṭi Ācāriyaneṉ Ivai yeṉ Eḻuttu I
-<lb n="20" break="no"/>tu <hi rend="grantha">śrī vaiṣṇa</hi>var<hi rend="grantha">(ri)rakṣai <g ref="sym:doubleBar" type="punctuation">.</g> <g ref="sym:tam-pillaiyarCuli" type="punctuation">.</g></hi>
-</p>
-
-</div>
-
-<div type="apparatus">
-
-</div>
-
-<div type="commentary">
-
-</div>
-
-<div type="bibliography">
-
-	<p>Digital edition of SII 22.333 by <bibl><ptr target="bib:SrinivasaRao1997_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
-
-	<listBibl type="primary">
-
-		<bibl n="SII">
-			<ptr target="bib:SrinivasaRao1997_01"/>
-			<citedRange unit="page">270-271</citedRange>
-			<citedRange unit="item">333</citedRange>
-		</bibl>
-
-	</listBibl>
-
-	<listBibl type="secondary">
-
-		<bibl/>
-
-	</listBibl>
-
-</div>
-
-	</body>
-</text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 22.333: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 333. (A.R. No. 333 of 1906) NORTH ARCOT DISTRICT, WALAJAPET TALUK, TIRUMĀLPURAM. RUINED VISHṆU TEMPLE—ON THE SAME WALL. RĀJARĀJA I—10th YEAR (A.D. 994-95)</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+                <funder>European Research Council (ERC), grant agreement no 809994</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv22p0i0333.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+                </availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>as per external metadata</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This records an endowment of 20 <hi rend="italic">kaḻañju</hi> of gold by Arunilai Śrīkṛishṇaṉ <hi rend="italic">alias</hi> Mūvēnda Piḍavūrvēḷār the accountant of Piḍavūr-nāḍu in Śōḻanāḍu, which was invested with the <hi rend="italic">Ūrār</hi> of Vēḷkaḷa Veṇpākkam adjacent to (?) Gōvindapāḍi. The three <hi rend="italic">kaḻañju</hi> collected from them as interest every year was to be utilised by the trustees of the temple, for the recitation of the <hi rend="italic">Tiruppadiyam</hi> hymn beginning with the expression <hi rend="italic">[kōla]naṟkuḻal</hi> composed (?) by the donor's father Kāyāvāṉ Arunilai, on the seventh day of the annual festival in the temple.</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-10-01" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2026-09-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> kān=taḷūrcālai kalamaṟutta<hi rend="grantha"/>
+                    <lb n="2" break="no"/><hi rend="grantha">korājarājakesaripanma</hi><supplied reason="omitted">ṟ</supplied>kku yāṇṭu <num value="10"><g type="numeral">10</g></num>- ttāvatu tāma <gap reason="lost" quantity="7" unit="character"/> 
+                    <lb n="3"/>tu tāmarṉāṭṭu <hi rend="grantha">śrī go</hi>vin=tapāṭi puṟattu veḷkaḷa veṇpā <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="4"/>roṅkaiyeḻut=tu coḻaṉāṭṭu vaṭakaraip piṭavūrnāṭṭuk kaṇakku <gap reason="lost" quantity="4" unit="character"/> 
+                    <lb n="5"/>ṭaiyāṉ Arunilai <hi rend="grantha">śrī<unclear>kṛ</unclear>ṣṇa</hi>ṉāṉa muven=tappiṭavūr ve
+                    <lb n="6" break="no"/>ḷār kaiyāl yāṅkaḷ koṇṭu kaṭava cempoṉ tan<hi rend="grantha">ma</hi> ka
+                    <lb n="7" break="no"/>ṭṭaḷaiyāl tuḷai <num value="20">2 <g type="numeral">10</g></num> Ippoṉ koṇṭa paricāvatu Ivāṭṭai 
+                    <lb n="8"/>puraṭṭātimutal kaḻañcinvā<supplied reason="omitted">y</supplied> tiṅkaḷiraṇṭumāp policaiyā lorāṭ
+                    <lb n="9" break="no"/>ṭaikku van=ta pon <hi rend="check">3 1/160</hi> Ippoṉṉilivar tamappaṉār kāyāvā naruṉi<unclear>lai</unclear>yā
+                    <lb n="10" break="no"/>ṉa muven=tappiṭavūr veḷār <hi rend="grantha">śrī go</hi>vin=tapāṭi Āḻvāṉ viṇṇappam ce
+                    <lb n="11" break="no"/>kola naṟkuḻaleṉum tiruppatiyam Ivāḷvār tiruviḻāvi ṉeḻāṉāḷāl <gap reason="lost" quantity="2" unit="character"/> 
+                    <lb n="12"/>ṭiyāṭiṉa pari<hi rend="grantha">dai</hi>nāyakaṉmārkku Irukaḻañcuṅ keṭppicca koyil nampimārkku
+                    <lb n="13"/>kaḻañcum Āka policai mukkaḻañcu po<supplied reason="omitted">ṉ</supplied>ṉum <hi rend="grantha">śantrādi</hi>ttaval Āṭṭāṇṭu toṟumā
+                    <lb n="14" break="no"/>ḷvār <hi rend="grantha">śrī kārya</hi>ñ ceykiṉṟa nampimāre taṇṭi Iṭu<unclear>vi</unclear>ppatāka<unclear>vum</unclear> Iṭomākil
+                    <lb n="15"/>tiruvāṇaimaṟaiyum paṭṭu tevakan<hi rend="grantha">mi</hi>kaḷ tāṅkaḷ ve <gap reason="lost" quantity="4" unit="character"/> ttil tāṅkaḷ veṇ<unclear>ṭu</unclear> <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="16"/>taṇṭamiṭap peṟuvārkaḷākavum mivarkaḷiṭṭa taṇṭamiṟuttum Iṉṉivan=ta mippaṭi
+                    <lb n="17"/>Iṭakkaṭavomākavum Ipparicoṭṭi Iṭṭuk=kuṭutto muventappiṭavūr veḷārkku
+                    <lb n="18"/>veḷka<supplied reason="omitted">ḷa</supplied>veṇpākkat=turom Ūrār paṇikka I<hi rend="grantha">śilā</hi>lekai veṭṭi ṉeṉ
+                    <lb n="19"/>Āṟaiyāṉa <hi rend="grantha">śrī go</hi>vin=tapāṭi Ācāriyaneṉ Ivai yeṉ Eḻuttu I
+                    <lb n="20" break="no"/>tu <hi rend="grantha">śrī vaiṣṇa</hi>var <hi rend="grantha"><surplus>ri</surplus>rakṣai</hi> <g ref="sym:doubleBar" type="punctuation">.</g> <g ref="sym:tam-pillaiyarCuli" type="punctuation">.</g>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 22.333 by <bibl><ptr target="bib:SrinivasaRao1997_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1997_01"/>
+                        <citedRange unit="page">270-271</citedRange>
+                        <citedRange unit="item">333</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
 </TEI>
