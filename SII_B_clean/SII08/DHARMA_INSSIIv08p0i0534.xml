@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 8.534: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 534. (A.R. No. 235 of 1903). ON THE NORTH WALL OF THE CENTRAL SHRINE IN THE SAME TEMPLE.</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+				<funder>European Research Council (ERC), grant agreement no 809994</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv08p0i0534.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>as per external metadata</repository>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2026-10-03" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-09-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+							
+				<!--Still needs major revisions-->
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">śrī</hi>materāmāṉucāya nama<hi rend="grantha">ḥ</hi> koval tivili <gap reason="lost" quantity="2" unit="character"/> Utaiya cālivākaṉa cakavaru<hi rend="grantha">ṣaM</hi> <num value="1521"><g type="numeral">1000</g> 5 <g type="numeral">100</g> 2 <g type="numeral">10</g> 1</num><g ref="sym:dash" type="punctuation"/>k=ku mel cellāniṉṟa vikāricamvaccarattil mitiṉanāyaṟṟil pūṟuvapa<hi rend="grantha">kṣa</hi>ttil tecamiyum cukṟavāramum cuvātina<supplied reason="omitted">k</supplied><hi rend="grantha">ṣa</hi>ttiramum peṟṟa ṉāḷile Irācātirāca rācaparamespara <hi rend="grantha">śrī</hi>virapiṟutāpa <hi rend="grantha">śrī</hi>viraveṅkaṭa<unclear>pati</unclear>teva mākārācayyaṉ Avarkaḷ peruṅkoṇṭai nakarat=tile reṟṉaciṅkātaṉāruṭarāyi
+					
+					<lb n="2"/>piṟuti<unclear>vī</unclear>rācciyam <supplied reason="omitted">paṇ</supplied>ṇiaruḷāniṉṟa <hi rend="grantha">śrī</hi> Akilāṇṭakoṭi piṟamāṇṭaṉāyakarāṉa tiruvallikkeṇi teḷḷiyaciṅkapperumāḷuk=ku <hi rend="grantha">śrī</hi>kāriyaturantararāṉa ceṉamutaliyārum koyiltāṉattārum Atikāri koppūri Oparācayyaṉ muttirai Etirācarum tirumayilāppūril <unclear>I</unclear>ruk=kum nakarattāril paṭṇacuvāmi periyantaikottiram ciṉṉaṉācciyaṇceṭṭi kumāraṉ cikki <gap reason="lost" quantity="2" unit="character"/> yār
+					
+					<lb n="3"/>tampi nācciyaṇaceṭṭiyārum kiṟāmapoliviṭṭu cilācātaṉampaṉṟi kuṭuttom paṇṇikkuṭutta viparam <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> ceyaṅkoṇṭacoḻamaṇṭalattil vikkiramacoḻavaḷaṉāṭṭil cantirakirirācciyattil puḻalko<g ref="sym:tam-panam"/> <gap reason="lost" quantity="2" unit="character"/> ppaṟuṭai lāccipaṭṭu <gap reason="lost" quantity="2" unit="character"/> cirmaikkaḷ naṭuvupaṭṭu <gap reason="lost" quantity="1" unit="character"/> mmaccakkarayār cittirait tiruṉāḷ tirutter Opaiyatnuk=ku maṇṭapattil Amutuceyiṟatuk=ku ceykiṟa ti <gap reason="lost" quantity="1" unit="character"/> tavāri
+					
+					<lb n="4" break="no"/>opaiyattukkup paḻakkāppupiḷa<g ref="sym:tam-panam"/>la 1/80 + 1/2 <gap reason="lost" quantity="3" unit="character"/> camparaṇi <g ref="sym:tam-panam"/> 1/2 neyi k=ku <g ref="sym:tam-panam"/> 3 cūṟāṉā A<hi rend="grantha">piṣe</hi>kattukku <gap reason="lost" quantity="7" unit="character"/> kkāl vellavi<unclear>c</unclear>ai 1<g ref="sym:dash" type="punctuation"/>1/2 <gap reason="lost" quantity="1" unit="character"/> 1 pākku 3<g ref="sym:dash" type="punctuation"/>k=ku 1/80 + 1/2 vācanakarattu <gap reason="lost" quantity="3" unit="character"/> ceyta puḷiyātarai talaikku 2 puḷi vīcai 1 <gap reason="lost" quantity="6" unit="character"/> paṇiyāram <gap reason="lost" quantity="5" unit="character"/> k=ku 1/2 tirukkoṭi yiṟaṅkaiyil paruppu
+					
+					<lb n="5"/>poṅkalukku Arici 1<g ref="sym:dash" type="punctuation"/>2 k=ku <g ref="sym:tam-panam"/> <g ref="sym:tam-pillaiyarCuli" type="punctuation">.</g> payaṟu <g ref="sym:tam-kuruni"/> <hi rend="check">e</hi> <hi rend="check">pu</hi> 1 vella vīcai 1 1/2 k=ku <g ref="sym:tam-panam"/> 1 1/2 neyi <g ref="sym:tam-pillaiyarCuli" type="punctuation">.</g> 2 k=ku puka teṅkāyi <hi rend="check">pu</hi> 2 paḻattu k=ku pu 2 Appattukku Arici 3 pak=ku <hi rend="check">pu</hi> 1 vella vīcai 1 1/2 k=kuEṇṇai <num value="32">3 <g type="numeral">10</g> 2</num><g ref="sym:dash" type="punctuation"/>k=ku <hi rend="check">pu</hi>1 1/2 tocaik=ku Arici 3 <g ref="sym:tam-kuruni"/>k=ku <hi rend="check">pu</hi>1 Uḷun=tu <num value="62">6 <g type="numeral">10</g> 2</num>k=ku <hi rend="check">pu</hi> 1/4 + <num value="24">2 <g type="numeral">10</g> 4</num> Eṇṇai 3/4 k=ku pukā<num value="24">2 <g type="numeral">10</g> 4</num> <supplied reason="omitted">r</supplied>āmaṇi <gap reason="lost" quantity="1" unit="character"/> ku <g ref="sym:tam-panam"/> 1/2 cantaṇam palam <num value="10"><g type="numeral">10</g></num><g ref="sym:dash" type="punctuation"/>k=ku <hi rend="check">pu</hi>5 panta Eṇṇai <hi rend="check">ta</hi> <g ref="sym:tam-kuruni"/> <g ref="sym:tam-kilakku"/> ku <g ref="sym:tam-pon"/> 2 + 1/20E pāk=ku <g ref="sym:tam-pon"/> 1 paḻam <g ref="sym:tam-pon"/> 1 + 1/4 vāṇāttuk=ku <g ref="sym:tam-pon"/> <num value="10"><g type="numeral">10</g></num> Aka tiṟttavārikku <g ref="sym:tam-panam"/><num value="90">9 <g type="numeral">10</g></num>
+					
+					<lb n="6" break="no"/>vacanta tiruṉāḷuk=ku ṉāḷ <hi rend="check">pu</hi> 1 k=ku piḷikku pulu cantaṇat=tuk=ku <hi rend="check">pu</hi> 4 cāmpiṟāṇik=ku <hi rend="check">pu</hi> 1/2 kepūrāvuk=ku <g ref="sym:tam-pon"/>kaḷ<hi rend="grantha">ja</hi> karik=ku <g ref="sym:tam-pon"/> 1/2 makai pūvukku <g ref="sym:tam-pon"/> 1 paṉinir <g ref="sym:tam-pon"/> 1 Eṇṇaik=ku <g ref="sym:tam-pon"/> <hi rend="check">10 8 4 2</hi><g ref="sym:dash" type="punctuation"/>k=ku Uḷuntu <g ref="sym:tam-pon"/> <gap reason="lost" quantity="1" unit="character"/> 1/4 <gap reason="lost" quantity="6" unit="character"/> k=ku 1 + 1/4 k=ku leṟṟilai <g ref="sym:tam-pon"/> 1/2 koḻai 1/80 + <num value="30">3 <g type="numeral">10</g></num> + 1/2 ḷa nirk=ku <g ref="sym:tam-panam"/> 1/2 vā<unclear>ṇā</unclear>t=tu <hi rend="check">pu</hi> 4 Ā <gap reason="lost" quantity="1" unit="character"/> ṉāḷ 1<g ref="sym:dash" type="punctuation"/>k=ku <g ref="sym:tam-pon"/> <num value="34">3 <g type="numeral">10</g> 4</num> Āka nāḷ 9<g ref="sym:dash" type="punctuation"/>k=ku <gap reason="lost" quantity="1" unit="character"/> <num value="30">3 <g type="numeral">10</g></num> <gap reason="lost" quantity="1" unit="character"/> tiruUvūral Eṇṇaik=ku poṉ 6 piḷik=ku pu 1 can=taṇam puḷain=ta
+					
+					<lb n="7"/>kempūrāvukku <hi rend="check">pu</hi> 2 + 1/4 paṉinircempu Iraṇṭuk=ku kālkiṟaiyam ka<unclear>lā</unclear>ri <hi rend="check">pu</hi> 1/2 cāmpiṟāṇi puka tirupāvaṭai <hi rend="check">ṟu</hi> kuḷaku paṭi vakai ṉū <hi rend="check">�</hi> ṉū <num value="66">6 <g type="numeral">10</g> 6</num> <num value="100"><g type="numeral">100</g></num><g ref="sym:dash" type="punctuation"/>k=ku <hi rend="check">pu</hi><num value="25">2 <g type="numeral">10</g> 5</num> pa<unclear>ḻa</unclear><g ref="sym:dash" type="punctuation"/><g ref="sym:tam-kuruni"/> ka<unclear>ḷu</unclear> 3<g ref="sym:dash" type="punctuation"/> ku <hi rend="check">pu</hi> 6 1/2 mākaṟkku <hi rend="check">pu</hi> 6 miḷaku <hi rend="check">pu</hi> 1/4 <gap reason="lost" quantity="6" unit="character"/> mpu 1/2 Uḷuntu <hi rend="check">pu</hi> 1 pākku veṟṟilai <hi rend="check">pu</hi> 1/2 <gap reason="lost" quantity="3" unit="character"/> nir <hi rend="check">pu</hi> 1/2 <gap reason="lost" quantity="3" unit="character"/> vāṇattuku <hi rend="check">pu</hi> <num value="19"><g type="numeral">10</g> 9</num> Ātiruvūṟakaḷapam 3 <hi rend="check">pu</hi> 6 1/2 toppu tiruṇāḷukku ko<num value="500">5 <g type="numeral">100</g></num> <hi rend="check">pu</hi> <num value="30">3 <g type="numeral">10</g></num> cūṭikuṭutta nācciyār tiruṇāḷukku
+					
+					<lb n="8"/>paḻak=kāppu piḷi palam 5 tocai paṭi U <gap reason="lost" quantity="2" unit="character"/> pam <gap reason="lost" quantity="4" unit="character"/> tiruteruk=ku <hi rend="check">pu</hi> 1/4 <gap reason="lost" quantity="2" unit="character"/> teppatiruṉāḷukku <hi rend="check">pu</hi> <num value="50">5 <g type="numeral">10</g></num> <g ref="sym:tam-panam"/>ṇa varuk=ku <hi rend="check">pu</hi> 5 Ā<supplied reason="omitted">ka</supplied> Upaiyat=tuk=ku Ay<unclear>ya</unclear>rākamam tirutuḷā <gap reason="lost" quantity="6" unit="character"/> k=ku <gap reason="lost" quantity="4" unit="character"/> 
+				</p>
+				
+			</div>
+			
+		
+			
+			<div type="commentary">
+				<p>This inscription contains many abbreviations.</p>
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 8.534 by <bibl><ptr target="bib:SubrahmanyaAiyer1937_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1937_01"/>
+						<citedRange unit="page">271</citedRange>
+						<citedRange unit="item">534</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
