@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 22.387A: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 387A. (A.R. No. 387 A of 1906) TIRUCHIRAPALLI DISTRICT, PUDUKKOTTAI STATE, TIRUMAYYAM. ROCK-CUT ŚIVA TEMPLE-IN THE SAME PLACE.</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+                <funder>European Research Council (ERC), grant agreement no 809994</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv22p0i0387A.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+                </availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>as per external metadata</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This is built in at the beginning of lines and is also incomplete. It is a verse inscription in characters of about the 13th century A.D. It seems to be in praise of some merchant community whose members made name and money in such cities as Vāruṇāpati, Vellūr Nellūr, Kāñchī, Pūmpugār, Paḻaiyārai and Teṉ-Madurāpuri. It refers to a gift of lamp to god Śiva at Madurai (Māṉēndiya-Karamuḍai-Marudar).</p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-10-01" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2026-09-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><gap reason="lost"/> ṉūṟu koṭiyeṉṉum pāriṭaiya
+                    <lb n="2" break="no"/><gap reason="lost"/> lvarāki yuṟainiṉṟa ceḻunakarkaḷittāta
+                    <lb n="3" break="no"/><gap reason="lost"/> ttum vāruṇāpati vācattimayarttam
+                    <lb n="4"/><gap reason="lost"/> nantavattaṉa māpotimeyār <gap reason="lost" quantity="2" unit="character"/> 
+                    <lb n="5"/><gap reason="lost"/> vellūrum nellūrum māṭa <gap reason="lost" quantity="3" unit="character"/> 
+                    <lb n="6"/><gap reason="lost"/> pāṟpāruñ cirkāñciyum pūmpukār ⌈
+                    <lb n="7" break="no"/><seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ai</seg> <gap reason="lost"/> <unclear>ḻ</unclear>aiyāṟaiyun teṉmaturāpurinakariyunta
+                    <lb n="8" break="no"/><gap reason="lost"/> māṟumavai <gap reason="lost" quantity="3" unit="character"/> vāṇiyar kaṭaka
+                    <lb n="9"/><gap reason="lost"/> ṭaiyāṟum vaṟṟāta taṟalor vāḻu⌈
+                    <lb n="10" break="no"/><seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ai</seg> <gap reason="lost"/> yāṉai ceyvāraṇamum pūtta malar ⌈
+                    <lb n="11" break="no"/><seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg> <gap reason="lost"/> ṭayāṉāratu viḷaṅkun toṉṟiye
+                    <lb n="12"/><gap reason="lost"/> lu matakkeruṭak koṭip pu⌈
+                    <lb n="13" break="no"/><seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ai</seg>  <gap reason="lost"/> ṭaiññākameṉu muracun teṟ kamalaka
+                    <lb n="14" break="no"/><gap reason="lost"/> ṉu māṇaiyum per periyatevarkaḷālu
+                    <lb n="15" break="no"/><gap reason="lost"/> pareṉṟuṅ kavippareṉṟum viṉaiñare
+                    <lb n="16" break="no"/><gap reason="lost"/> pariya nākareṉṟuñ cirārum perumpuvi ⌈
+                    <lb n="17"/><seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg>  <gap reason="lost"/> ka<unclear>A</unclear>pparice nāṉ mukaṉṟaṉ vaittaruḷum peru
+                    <lb n="18"/><gap reason="lost"/> ka veḷvaḻutiyaic ceṇṭaṭattuk kicaiyā
+                    <lb n="19"/><gap reason="lost"/> m por mukavallaṉākarācaṉṟaṉai veṉṟu vi
+                    <lb n="20"/><gap reason="lost"/> maṉ muṭiyil vaittoraṉpuṟṟa poṉ paṟṟiyū
+                    <lb n="21"/><gap reason="lost"/> vaṉ makaṉai Eḻil vāḷiliṭaiyeṟṟār kāve
+                    <lb n="22"/><gap reason="lost"/> l cempoṉ meyntor muventar pāṭal ko
+                    <lb n="23"/><gap reason="lost"/> ṅ kottatār Āṉaitaṉṉai yiṭaimatittor
+                    <lb n="24"/><gap reason="lost"/> r māṉentiya karamuṭaiya marutaṟku kaṭko
+                    <lb n="25" break="no"/><gap reason="lost"/> pe ka<unclear>ṟṟār</unclear> viḷakku vaittor karuppācam ka
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                <p n="25"><foreign>ka</foreign>. Stops with this.</p>
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 22.387A by <bibl><ptr target="bib:SrinivasaRao1997_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1997_01"/>
+                        <citedRange unit="page">320</citedRange>
+                        <citedRange unit="item">387A</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
