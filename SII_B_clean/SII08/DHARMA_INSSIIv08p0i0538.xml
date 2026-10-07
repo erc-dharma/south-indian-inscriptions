@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 8.538: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 538. (A.R. No. 239 of 1903). ON THE SAME BASE.</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+				<funder>European Research Council (ERC), grant agreement no 809994</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv08p0i0538.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>as per external metadata</repository>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2026-10-07" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-09-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<p>
+					<lb n="1"/><hi rend="grantha">śrīma</hi>te rāmān<hi rend="grantha">ujā</hi>ya na<hi rend="grantha">ma<supplied reason="omitted">ḥ</supplied></hi><supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> <hi rend="grantha">śrī</hi>paṭṭar tiruvaṭikaḷe caraṇa<unclear>m</unclear> <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> <hi rend="grantha">śva<unclear>sti</unclear></hi> <supplied reason="subaudible"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> <hi rend="grantha">śrī</hi>maṉmakāmaṇṭale<hi rend="grantha">śva</hi>ra <hi rend="grantha">śrī</hi>vīrapiṟutāpa catācivatevamakārāyaṟku cellāniṉṟa <hi rend="grantha">saṁ</hi>vaṟ<hi rend="grantha">sara</hi>m <num value="1486"><g type="numeral">1000</g> 4 <unclear><g type="numeral">100</g></unclear> 8 <g type="numeral">10</g> 6</num><g ref="sym:dash" type="punctuation"/>k=ku <unclear>c</unclear>e
+					
+					<lb n="2" break="no"/>llāniṉṟa rattā<hi rend="grantha">kṣi</hi>varu<hi rend="grantha">ṣa</hi> makaranāyaṟṟil pūṟvapa<hi rend="grantha">kṣa</hi>ttil Uttirāṭamum Āti<hi rend="grantha">tya</hi>vāramum peṟṟa nāḷ teḷḷiyaciṅkapperumāḷiṭa tā<hi rend="grantha">sa</hi>ṉ naraciṅkatā<hi rend="grantha">sa</hi>ṉ tecāntiri paṇṇi <gap reason="lost" quantity="3" unit="character"/> kka ka <gap reason="lost" quantity="4" unit="character"/> 
+					
+					<lb n="3"/>yiṅkariyam paḷḷikoṇṭaperumāḷ makāla<hi rend="grantha">kṣmi</hi>yār pū<unclear>mi</unclear>teviy<unclear>ā</unclear>r nāraciṅkapperumāḷ varākaṉārāyaṇapperumāḷ ce<hi rend="grantha">ṣa</hi>ṉ tiruppatiṣṭṭaiyum ki<hi rend="grantha">ṣṇa</hi>ṉ yu<hi rend="grantha">gma</hi>ṇitevi <hi rend="grantha">ba</hi>la <gap reason="lost" quantity="1" unit="character"/> <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ā</seg>ḷ <gap reason="lost" quantity="2" unit="character"/> 
+					
+					<lb n="4"/>mataṉ Aṉuruttiraṉ <hi rend="grantha">sā</hi>ttikaiĀḻvār tiruppati<hi rend="grantha">ṣa</hi>ṭṭaiyu<hi rend="grantha">M</hi> vetavalliṉācciyāṟku Uṟcavavikkiṟakamum paḷḷikoṇṭaperumāḷ koyilum ki<hi rend="grantha">ṣṇa</hi>ṉ ko<unclear>yi</unclear><unclear>lum</unclear> muṉ <gap reason="lost" quantity="3" unit="character"/> 
+					
+					<lb n="5"/>maṇṭapamum vetavallinācciyār koyilu<hi rend="grantha">M</hi> muṉtiruvā<hi rend="grantha">mo</hi>ḻimaṇṭapamum tiru<hi rend="grantha">ma</hi>ṭappaḷḷiyum Aṭaiyavaḷaiñcāntirumatiḷum tiruvāparaṇaṅkaḷum yinta <hi rend="grantha">sa</hi>ṟuva
+					
+					<lb n="6" break="no"/>kayiṅkariyamum <hi rend="grantha">deśā</hi>ntiri nara<hi rend="grantha">siṅka</hi>ya<hi rend="grantha">ṅ</hi>kār k<choice><sic>a</sic><corr>ai</corr></choice>yile teḷḷiya<hi rend="grantha">siṅ</hi>kapperumāḷ koṇṭaruḷiṉār <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> kiṟāmam putuppākkam vepperi ve<hi rend="grantha">ṣā</hi>ṟupāṭi yinta <supplied reason="omitted">kiṟāma</supplied>
+					<lb n="7" break="no"/>ṅkaḷum koṇṭaruḷiṉār <supplied reason="subaudible"><g ref="sym:bar" type="punctuation">.</g></supplied> yinta <hi rend="grantha">sa</hi>kaḷavita kayiṅka<unclear>ri</unclear>yaṅkaḷum cantirātittavaraiy teḷḷiya<hi rend="grantha">śiṅ</hi>kapperumāḷ koṇṭaruḷavum <supplied reason="subaudible"><g ref="sym:doubleBar" type="punctuation">.</g></supplied>
+				</p>
+				
+			</div>
+
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 8.538 by <bibl><ptr target="bib:SubrahmanyaAiyer1937_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1937_01"/>
+						<citedRange unit="page">275</citedRange>
+						<citedRange unit="item">538</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>

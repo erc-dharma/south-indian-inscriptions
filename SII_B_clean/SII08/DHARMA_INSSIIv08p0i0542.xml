@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 8.542: original edition by K.V. Subrahmanya Aiyer</title>
+				<title type="alt">No. 542. (A.R. No. 242-A of 1903). On stray stones found in the same temple.</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:doop">
+						<forename>Dorotea</forename>
+						<surname>Operato</surname>
+					</persName>
+				</respStmt>
+				<funder>European Research Council (ERC), grant agreement no 809994</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv08p0i0542.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>as per external metadata</repository>
+					</msIdentifier>
+					<msContents>
+						<summary></summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:doop" when="2026-10-07" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-09-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+			
+			<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+				
+				<div type="textpart" n="1">
+					<head>I.</head>	
+					
+					<p>
+						<lb n="1"/><hi rend="grantha">svasti</hi><surplus>ta</surplus> <hi rend="grantha">śrī</hi> <supplied reason="subaudible"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> tiripuvaṉaccakkaravatti ke <gap reason="lost" quantity="5" unit="character"/> 
+						<lb n="2"/>yār koyilil tevarkaṉmikaḷukkum mā<hi rend="grantha">he</hi> <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/>ḷum pāraiyūrkiḻāṉ cempiyaṉ puliyūr nila nūṟṟu <gap reason="lost" quantity="5" unit="character"/> 
+						<lb n="4"/>yakkaṭavatākac collik kaṇakki <gap reason="lost" quantity="5" unit="character"/> 
+						<lb n="5"/>ḷka Eḻutināṉ tirumantiraOlai neṟi <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="6"/>nāḷ <num value="27">2 <g type="numeral">10</g> 7</num> Ivai toṇṭaimāṉ <gap reason="lost" quantity="5" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="2">
+					<head>II.</head>	
+					
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="2" unit="character"/> <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ā</seg>ṟ pāṟkellaikku Uṭpaṭṭa nilam <gap reason="lost" quantity="2" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="4" unit="character"/> ttināḷ Eḻuntaruḷa veṇṭum ni <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="4" unit="character"/> l nāyaṉ pañcanativāṇa nilakaṅkaraiya <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="4" unit="character"/> kiṟa kaṭamai kuṭimai cantirātittavarai <gap reason="lost" quantity="4" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="3">
+					<head>III.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="4" unit="character"/> rayu miḻamuṅ karuvūrum <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="4" unit="character"/> ñāṉacampanta kaṭakka <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="4" unit="character"/> rayaṉ vaiytta cantivi <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="4" unit="character"/> ṭā nāyakañ ceyvān <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ai</seg> <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="5"/><gap reason="lost" quantity="4" unit="character"/> kaṇakkoṉ Ācca <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg> <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="6"/><gap reason="lost" quantity="4" unit="character"/> ku pattukkum Arumoḻi<seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg> <gap reason="lost" quantity="3" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="4">
+					<head>IV.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="4" unit="character"/> l tiruvaranampiyum Aruḷāḷaṉum Uḷḷiṭṭom <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="4" unit="character"/> ṭum Āka Uru Irupattāṟukkum Erikka<supplied reason="omitted">k</supplied>kaṭava tirunu <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="4" unit="character"/> kakkaṭavom Ivvuru Irupattāṟuṅ kaikkoṇ <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="4" unit="character"/> m caraṇanāṉa taṇṭippiṭikkoṉ makkaḷil tiruvara <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="5"/><gap reason="lost" quantity="4" unit="character"/> viḷakku Iraṇṭum Eriya Iṭṭa kuttuviḷakku Iraṇ <gap reason="lost" quantity="4" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="5-6">
+					<head>V and VI.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="4" unit="character"/> Uṭaiyāṟkku cāttuppaṭikku mamutupaṭi <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="4" unit="character"/> koyilil Āṇṭu Oṉṟukku nām koḷḷu <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="5" unit="character"/> kkai tiruṉāḷ paricaṭṭattukkum koḷḷum <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="5" unit="character"/> Acuraṉārāyaṇaṉ cantiyāṉa tiruvotta <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="5"/><gap reason="lost" quantity="4" unit="character"/> makkuc collaviṭṭom tāṅkaḷ Iṉṉā <gap reason="lost" quantity="2" unit="character"/> 
+						<lb n="6"/><gap reason="lost" quantity="5" unit="character"/> coṉṉom Ippaṭi ceyvate 
+					</p>
+				</div>
+				
+				<div type="textpart" n="7">
+					<head>VII.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="2" unit="character"/> cakkaravattika
+						<lb n="2"/><hi rend="grantha">sasti śrī</hi> <supplied reason="subaudible"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> caka <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ai</seg> <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="3"/>ṅkatevarkku <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/>lattup puliyūr <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="5"/>kāraināṭṭut tiru <gap reason="lost" quantity="5" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="8">
+					<head>VIII.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="4" unit="character"/> ṉaccakra <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="4" unit="character"/> ṉṟu curattū <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="3" unit="character"/> varkku Ivvūr <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/> <gap reason="lost" quantity="4" unit="character"/> tirumaḻicaiyi <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="5"/><gap reason="lost" quantity="1" unit="line"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="9">
+					<head>IX.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="3" unit="character"/> m nañcai Uḷpaṭa Ivāṇ <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="4" unit="character"/> ṭṭi kuṟṟam kārttikaipaṭcai kā <gap reason="lost" quantity="5" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="4" unit="character"/> yum nāṭṭuvariyum puṟakkalaṉai kuṭi <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="4" unit="character"/> m kāṇikkaipeṟṟu kācum makaḻmai ta <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="5"/><gap reason="lost" quantity="4" unit="character"/> cakku kuṭimakkaḷper cekkukaṭamaiyu <gap reason="lost" quantity="4" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="10">
+					<head>X.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="4" unit="character"/> mai Āyam kācuk <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="4" unit="character"/> poṉvari nāṭṭuvari <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="4" unit="character"/> kaḷ perkaṭamai <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg> <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="4" unit="character"/> ṉaittāyaṅka <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="5"/><gap reason="lost" quantity="3" unit="character"/> <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ā</seg>ṇṭiyaṉ <gap reason="lost" quantity="4" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="11">
+					<head>XI.</head>	
+					<p>
+						<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> tiripuvaṉaccakka <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/>yiṟ kāṇi Uṭaiya civappi <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/>kacivar Eḻuntaruḷuvitta <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="5" unit="character"/> kkūṭa <gap reason="lost" quantity="5" unit="character"/> 
+						<lb n="5"/>ṇṭa paṇam <num value="15"><g type="numeral">10</g> 5</num> Ippaṇa <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="6"/>nti viḷakkum cantirātit <gap reason="lost" quantity="4" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="12">
+					<head>XII.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="3" unit="character"/> vattikaḷ <hi rend="grantha">śrī</hi>cuntarapāṇ<g ref="sym:dashLong" type="punctuation"/> <gap reason="lost" quantity="5" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="2" unit="character"/> kāṭṭam Āṉa cuṟat <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="4" unit="character"/> rattāru Iṉṉāyanār tevatā <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="3" unit="character"/> ttu kāṇi nilamum patiṉoṉṟā <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="5"/><gap reason="lost" quantity="3" unit="character"/> yal Iṉṉilattukku vanta I <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="6"/><gap reason="lost" quantity="1" unit="line"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="13">
+					<head>XIII.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="4" unit="character"/> kaṅ<supplied reason="omitted">ka</supplied>raiyaṉ Olai tiru <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="4" unit="character"/> nilam muṉṟu veliyum <gap reason="lost" quantity="5" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="5" unit="character"/> ruḷiṉa tirumukappaṭiye <hi rend="grantha">ja</hi> <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="4" unit="character"/> rattil varuvaṉavum Ik<seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg> <gap reason="lost" quantity="3" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="14">
+					<head>XIV.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="4" unit="character"/> ṭalmallai tiru <gap reason="lost" quantity="6" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="3" unit="character"/> <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ā</seg>mpūruṭaiyār Eḻu <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="2" unit="character"/> va Uṭaiyāṉ mutaṉā <gap reason="lost" quantity="4" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="15">
+					<head>XV.</head>	
+					<p>
+						<lb n="1"/>paṇiyile ca<hi rend="grantha">ndrā</hi> tit <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/>ḷppaṭi Ittaṉmattu <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/>vaṉākavum keṅkai <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/>makaṉ cūruvaikkoṉ <gap reason="lost" quantity="4" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="16">
+					<head>XVI.</head>	
+					<p>
+						<lb n="1"/>tiripuvaṉaccak <gap reason="lost" quantity="5" unit="character"/> 
+						<lb n="2"/>ratevaṟku yāṇ <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/>Āḷuṭaiyār ciruka <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/>kku Ivvūri lirukku <gap reason="lost" quantity="4" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="17">
+					<head>XVII.</head>	
+					
+					<p>
+						<lb n="1"/>ttār nervāy tiruvācalil ki <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/>tattappārkkak kaṭavarkaḷākavum <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/>kāyilum cuppiramaṇṇiyap <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/>tom palamaṇṭala <hi rend="grantha">śrīmāhe</hi> <gap reason="lost" quantity="4" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="18">
+					<head>XVIII.</head>	
+					<p>
+						<lb n="1"/>puḻalkoṭṭattuk koṭṭurnā <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/>cantirātittavarai cellak <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/>lottuṅkacoḻak kāṅke <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/>ṭaic cittirai mā<supplied reason="omitted">ta</supplied>ttu viṭṭa <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="5"/>ṉṉum Iṉṉāyaṉārkkuc cantira <gap reason="lost" quantity="2" unit="character"/> 
+						<lb n="6"/>ṉ
+					</p>
+				</div>
+				
+				<div type="textpart" n="19">
+					<head>XIX.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="3" unit="character"/> <hi rend="grantha">dvi</hi>tiyaiyum putaṉkiḻamaiyum peṟṟa <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg> <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="3" unit="character"/> <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ā</seg>nattārum kaiykoḷarum Ivaṉai <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="4" unit="character"/> ḷuṭaiyanāyaṉār tirunāmattukkāṇi <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="1" unit="character"/> ḷāṇṭāṟkkum Ivar piḷḷai viṉāyaka<seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg> <gap reason="lost" quantity="2" unit="character"/> 
+						<lb n="5"/><gap reason="lost" quantity="4" unit="character"/> ṟaiyiliyāka vilaikkuṟa viṟṟu Iṟai I <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="6"/><gap reason="lost" quantity="4" unit="character"/> ṇṭu viṟṟu vilaippiramāṇam paṇ <gap reason="lost" quantity="4" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="20">
+					<head>XX.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="3" unit="character"/> kaḷ vicaiyakaṇṭako <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/><hi rend="grantha">laṅkṛta vasuma</hi>tī<hi rend="grantha">rama</hi>ṇa <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/><hi rend="grantha">ra kosalādhipa</hi> ni<hi rend="grantha">khilabhapa</hi> <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="1" unit="character"/> nir<hi rend="grantha">upamaparākrama sakalajaga</hi> <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="5"/><hi rend="grantha">dhīśva</hi>va<hi rend="grantha">ra nāmādi samasta praśasti sa</hi> <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="6"/>paravaināyaṉār koyilt tāṉatta <gap reason="lost" quantity="3" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="21">
+					<head>XXI.</head>	
+					<p>
+						<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="subaudible"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> <hi rend="grantha">tri</hi>puvaṉaca<hi rend="grantha">kra</hi>va<hi rend="grantha"></hi> <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/><hi rend="grantha">si</hi> ṅṅanāyaṟṟu pūrvapa<hi rend="grantha">kṣa</hi> <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="3"/>ṇṭa coḻamaṇṭalattu puliyū <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="4"/>Āḷuṭaiyā<supplied reason="omitted">r</supplied> tiruvānmiyūruṭai <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="5"/>ḷḷaikaḷil kaḻumalavūrarpak <gap reason="lost" quantity="2" unit="character"/> 
+						<lb n="6"/>koṇṭa Anṟāṭu naṟputukā <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="7"/>kac celuttakkaṭavomāka <gap reason="lost" quantity="2" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="22">
+					<head>XXII.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="3" unit="character"/> tu coḻamaṇṭala <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="4" unit="character"/> koṇṭāṉ māṇik <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="4" unit="character"/> renāṭṭut tevatāṉac <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="4" unit="character"/> m vāci U<supplied reason="omitted">ḷ</supplied>ḷaṉa maṟ <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="5"/><gap reason="lost" quantity="3" unit="character"/> m kā<hi rend="grantha">śya</hi>pan cintaii <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="6"/><gap reason="lost" quantity="5" unit="character"/> ṇikkatevaṉpakkal <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="7"/><gap reason="lost" quantity="4" unit="character"/> ṉpakkal koṇṭa kācu <num value="15"><g type="numeral">10</g> 5</num> <gap reason="lost" quantity="4" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="23">
+					<head>XXIII.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="3" unit="character"/> ṭut tiruvāṉmiyūr Ula kāḷuṭaiyanāyaṉārk <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="4" unit="character"/> ṭavatākak kaṭakkaṅkoṇṭāṉ Aḻakiyaparataṉā <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="4" unit="character"/> viṉ vaitta tirununtāviḷakku Oṉṟukku Ivvā <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="4" unit="character"/> pacu muppatum I<hi rend="grantha">ṣa</hi>pam Oṉṟum Āka <num value="25">2 <g type="numeral">10</g> 5</num> muppat <gap reason="lost" quantity="5" unit="character"/> 
+						<lb n="5"/><gap reason="lost" quantity="3" unit="character"/> <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ā</seg>tittavarai tirununtāviḷakku Eri<supplied reason="omitted">kkak</supplied>kaṭavatāka viṭ <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg> <gap reason="lost" quantity="3" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="24">
+					<head>XIV.</head>	
+					<p>
+						<lb n="1"/><hi rend="grantha"><unclear>sva</unclear>stiśrī</hi> <supplied reason="subaudible"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> <hi rend="grantha">tribhu</hi>vaṉacca<hi rend="grantha">kra</hi>va<hi rend="grantha">rtti</hi>kaḷ ma<unclear>tu</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/>coḻa<hi rend="grantha">de</hi>vaṟku yāṇṭu <num value="22">2 <g type="numeral">10</g> 2</num><g ref="sym:dash" type="punctuation"/>Āvatu <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/>nāyanār koyilil tevaraṭiyāḷ <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/>ṇṭalattu puliyūr<supplied reason="omitted">k</supplied>koṭṭattu  <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>e</seg><gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="5"/><hi rend="grantha">gavyaM</hi> ciṟukālaic can<unclear>ti</unclear>yile Āṭi Aru <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="6"/>lum kalacam Oṉṟuṅ kāl Aintu <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="7"/><hi rend="grantha">pañcagavyaM</hi> ĀṭiAruḷuvu <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="8"/>ṉattom I<hi rend="grantha">dravyaM</hi> paṉmā<hi rend="grantha">he</hi> <gap reason="lost" quantity="4" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="25">
+					<head>XXV.</head>		
+					<p>
+						<lb n="1"/><hi rend="grantha">śrī</hi> vira<unclear>rā</unclear><hi rend="grantha"><unclear>jentra</unclear></hi><unclear>coḻa</unclear><hi rend="grantha">de</hi>vaṟkku yāṇṭu <num value="17"><unclear><g type="numeral">10</g> 7</unclear></num> <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="3" unit="character"/> maiyum peṟṟa puṇarpūcattu nāḷ <hi rend="grantha">je</hi>yaṅkoṇṭace <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="4" unit="character"/> ḷaṉāṭṭu curattūrṉāṭṭut taṇṇi Ālattūr kiḻpāṟke <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="4" unit="character"/> purattāṉ Ellaikku vaṭakkum melpāṟkellai paḻam <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="5"/><gap reason="lost" quantity="4" unit="character"/> t teṟkum Iṉṉāṟpāṟkellaikkum Uṭpaṭṭa naṉcai
+					</p>
+				</div>
+				
+				<div type="textpart" n="26">
+					<head>XXVI.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="4" unit="character"/> vā muvāp perāṭu <hi rend="grantha">Adha</hi>
+						<lb n="2"/><gap reason="lost" quantity="4" unit="character"/> tirununtāviḷakku
+						<lb n="3"/><gap reason="lost" quantity="4" unit="character"/> nāṟpattuaiñcum po
+						<lb n="4" break="no"/><gap reason="lost" quantity="4" unit="character"/> koṉ kāraṇavaṉ koṇṭa
+						<lb n="5"/><gap reason="lost" quantity="3" unit="character"/> <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ā</seg>ṭu nāṟpattuaiñcum poli
+						<lb n="6"/><gap reason="lost" quantity="3" unit="character"/> cāvā muvāp perāṭu
+					</p>
+				</div>
+				
+				<div type="textpart" n="27">
+					<head>XXVII.</head>	
+					<p>
+						<lb n="1"/>campantaṉāle
+						<lb n="2"/>ṭavomākavu
+						<lb n="3"/>kkoṇṭucan
+						<lb n="4"/>kāṇiUṭaiya
+						<lb n="5"/>celuttakaṭavo
+					</p>
+				</div>
+				
+				<div type="textpart" n="28">
+					<head>XXVIII.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="4" unit="character"/> kki Ivvūr <hi rend="grantha">śrī</hi>kāñciyil A <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="4" unit="character"/> maiyum Āyamum veṭṭi Arimuk<seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ai</seg> <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="1" unit="character"/> kaṭamaiyum puṟakkalaṉaik kaṭa<seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ai</seg> <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="2" unit="character"/> raicelvatākac coṉṉo <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="5"/><gap reason="lost" quantity="2" unit="character"/> m niṉaippāṉ keṅkaikka <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="6"/><gap reason="lost" quantity="1" unit="character"/> <hi rend="grantha">haśvara rakṣ<unclear>ai</unclear></hi>
+					</p>
+				</div>
+				
+				<div type="textpart" n="29">
+					<head>XXIX.</head>	
+					<p>
+						<lb n="1"/>ka viṭṭa Uppaḷa vāykkāle <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/>vāṭkaḷukku <hi rend="grantha">jī</hi>vitattukku me <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/>ṭṭukkālaipākkamāṉa kaṅ<seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ai</seg> <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="4"/>koṇṭu tirunāmattukkāṇiya <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="5"/>tta nilam veliyum Ippaṭi <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="6"/>cellak kaṭavatāka viṭṭāṉ na <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="7"/>ṉṟāṉāṉa caṉakarā<hi rend="grantha">ja</hi>ṉ I<hi rend="grantha">ddharmmaM</hi> <gap reason="lost" quantity="4" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="30">
+					<head>XXX.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="5" unit="character"/> tikaḷ <hi rend="grantha">śrī</hi>virarā<hi rend="grantha">jendra</hi>coḻate <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="5" unit="character"/> <hi rend="grantha">daśi</hi>yum nāyaṟṟukkiḻamai <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="6" unit="character"/> kulottuṅkacoḻava <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="6" unit="character"/> ṉit tirunāḷ Eḻuntaruḷa <gap reason="lost" quantity="3" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="31">
+					<head>XXXI.</head>
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="4" unit="character"/> Ivar tāṉattār Irā<hi rend="grantha">jaśāsa</hi>ṉamum <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="4" unit="character"/> kum viṟpateṉa Irā<hi rend="grantha">jaśāsa</hi>namum taṉ <gap reason="lost" quantity="2" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="7" unit="character"/> ttilep peṟum Ippiramāṇame <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="5" unit="character"/> Uṭaiyāṉ niṟum kālum tevara <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="5"/><gap reason="lost" quantity="4" unit="character"/> varaiyum piḷḷai Āḻviyāṉa <gap reason="lost" quantity="4" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="32">
+					<head>XXXII.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="4" unit="character"/> ttamāka Uṭaiyār Ulakāḷuṭaiyanāyaṉār tiru
+						<lb n="2" break="no"/><gap reason="lost" quantity="5" unit="character"/> ruttaṇṭicuramuṭaiya nāyaṉār koyil
+						<lb n="3"/><gap reason="lost" quantity="5" unit="character"/> kaiyālum tiruppaṇikku Uṭalillai
+						<lb n="4"/><gap reason="lost" quantity="4" unit="character"/> m pakai<supplied reason="omitted">k</supplied>ku tavinatavaṟkup pariyaṭṭami 
+					</p>
+				</div>
+				
+				<div type="textpart" n="33">
+					<head>XXXIII.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="4" unit="character"/> Ipparicaṭṭa<supplied reason="omitted">t</supplied>tukku poṉ kālum<hi rend="grantha">dirtta</hi>māṭiṉavaṉṟu perun=tiruvamirtu <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="5" unit="character"/> kalam variya nūlukkum Āka poṉ Iraṇṭu mañcāṭiyum <hi rend="grantha">śrī</hi>pali Eḻu <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="4" unit="character"/> mirtu nāḻikku nellu Irunāḻiyum Aṭaikkāy Amirtu pākku Iraṇṭu <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="4" unit="character"/> paruṅkuṭi toppukkuṭa <gap reason="lost" quantity="3" unit="character"/> ṇṭu tirukkāvaṇam Iṭuvutākavum Ip
+					</p>
+				</div>
+				
+				<div type="textpart" n="34">
+					<head>XXXIV.</head>	
+					<p>
+						<lb n="1" break="no"/><gap reason="lost" quantity="3" unit="character"/> puṟattuk kuṇṭil <num value="70">7 <g type="numeral">10</g></num> <gap reason="lost" quantity="5" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="4" unit="character"/> ḷḷam teṉkūṟu <g ref="sym:tam-kuli"/> <num value="238"> 2 <g type="numeral">100</g> <unclear>3 <g type="numeral">10</g></unclear> 8</num> <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="4" unit="character"/> ceṟumūṭṭi <gap reason="lost" quantity="1" unit="character"/> Āka rū <g ref="sym:tam-kuli"/> <num value="4300">4 <g type="numeral">1000</g> 3 <g type="numeral">100</g></num> <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="4" unit="character"/> layā<surplus>ā</surplus>ka viṟṟu tiruvāparaṇa <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="5"/><gap reason="lost" quantity="4" unit="character"/> lam Iṟaiiliyāka Iṟai Iḻi <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="6"/><gap reason="lost" quantity="4" unit="character"/> laikkum tirucceṅkaḻuni <gap reason="lost" quantity="4" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="35">
+					<head>XXXV.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="4" unit="character"/> kkum <gap reason="lost" quantity="5" unit="character"/> tāka veṇṭuvaṉavaiyiṟṟu
+						<lb n="2"/><gap reason="lost" quantity="5" unit="character"/> koṭṭattu veḷicceriyāṉa <unclear>ti</unclear>ṉacintāmaṇicca
+						<lb n="3"/><gap reason="lost" quantity="4" unit="character"/> maṅkalattile Irupotu <gap reason="lost" quantity="2" unit="character"/> lainilam muppattu
+						<lb n="4"/><gap reason="lost" quantity="4" unit="character"/> tu pacāṉa mutal maṭappuṟa Iṟaiyiliyāka Iṭakkaṭava
+						<lb n="5"/><gap reason="lost" quantity="4" unit="character"/> paṟaveṇum Eṉṟu Ivaṉ <supplied reason="omitted">na</supplied>mak<unclear>ku</unclear>c coṉṉa maiyil I
+						<lb n="6" break="no"/><gap reason="lost" quantity="4" unit="character"/> ṭayakkaṭavatākac collik kaṇakkilu miṭṭukkoḷka
+						<lb n="7"/><gap reason="lost" quantity="3" unit="character"/> <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ā</seg>ka varikkūṟu ceyavārkaḷukkuc coṉṉom Iṉni<unclear>la</unclear>k=ku
+						<lb n="8"/><gap reason="lost" quantity="4" unit="character"/> la <gap reason="lost" quantity="6" unit="character"/> mutal maṭappuṟattukku maṭappuṟa Iṟaiyili
+					</p>
+				</div>
+				
+				<div type="textpart" n="36">
+					<head>I.</head>	
+					<p>
+						<lb n="1"/>k koṭṭurnāṭṭu tirumā <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="2"/>piritimāṇikkapurattu vā <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/>cantirātittavarai cel <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/>m māṭai Iraṇṭum <gap reason="lost" quantity="5" unit="character"/> 
+						<lb n="5"/>varai cantiviḷakku <unclear>Eriva</unclear> <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="6"/>kāṇiUṭaiya civappi <gap reason="lost" quantity="4" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="37">
+					<head>XXXVII.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="4" unit="character"/> <num value="490">4 <g type="numeral">100</g> 9 <g type="numeral">10</g></num> maṇali kuḻi 3 <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="4" unit="character"/> <num value="446">4 <g type="numeral">100</g> 4 <g type="numeral">10</g> 6</num> Itaṉ vaṭa <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="4" unit="character"/> <num value="186"><g type="numeral">100</g> 8 <g type="numeral">10</g> 6</num> ci<unclear>va</unclear>ṉceṟu <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="4" unit="character"/> <num value="5759">5 <g type="numeral">1000</g> 7 <g type="numeral">100</g> 5 <g type="numeral">10</g> 9</num> <gap reason="lost" quantity="4" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="38">
+					<head>XXXVIII.</head>	
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="4" unit="character"/> pāṭi pañcanetivāṇaṉ nilattuk <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="4" unit="character"/> kāyil tāṉattār <unclear>kuṭutta</unclear> kaṭamai kuṭi <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="4" unit="character"/> ḷuṭṭa puṟakkalaṉai tiruppaḻai <gap reason="lost" quantity="2" unit="character"/> Uṭpaṭa <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="4" unit="character"/> pañcaneti vāṇanilattu <gap reason="lost" quantity="6" unit="character"/> 
+					</p>
+				</div>
+				
+				<div type="textpart" n="39">
+					<head>XXXIX.</head>		
+					<p>
+						<lb n="1"/><gap reason="lost" quantity="4" unit="character"/> kku yāṇṭu Āṟāvatu mituṉanāyaṟṟu <hi rend="grantha">Apara</hi> <gap reason="lost" quantity="3" unit="character"/> 
+						<lb n="2"/><gap reason="lost" quantity="5" unit="character"/> lāttuṅkacoḻavaḷanāṭṭuk koṭṭurnāṭṭut tiruvā <gap reason="lost" quantity="2" unit="character"/> 
+						<lb n="3"/><gap reason="lost" quantity="4" unit="character"/> ku Oṉṟukkum viṭṭapacu Oṉṟum nāku muṉṟum Āka U <gap reason="lost" quantity="4" unit="character"/> 
+						<lb n="4"/><gap reason="lost" quantity="3" unit="character"/> <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ā</seg>kak kaikkoṇṭu cilālekai ceyvittom Ikko <gap reason="lost" quantity="3" unit="character"/> 
+					</p>
+				</div>
+			</div>
+			
+			
+			<div type="commentary">
+				
+			</div>
+			
+			<div type="bibliography">
+				
+				<p>Digital edition of SII 8.542 by <bibl><ptr target="bib:SubrahmanyaAiyer1937_01"/></bibl> converted to DHARMA conventions by Dorotea Operato.</p>
+				
+				<listBibl type="primary">
+					
+					<bibl n="SII">
+						<ptr target="bib:SubrahmanyaAiyer1937_01"/>
+						<citedRange unit="page">276-280</citedRange>
+						<citedRange unit="item">542</citedRange>
+					</bibl>
+					
+				</listBibl>
+				
+				<listBibl type="secondary">
+					
+					<bibl/>
+					
+				</listBibl>
+				
+			</div>
+			
+		</body>
+	</text>
+</TEI>
