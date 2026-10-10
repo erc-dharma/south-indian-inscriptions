@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.528: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 528. (A.R. No. 528 of 1906) ANANATAPUR DISTRICT, KADIRI TALUK, KADIRI On the base of a big gōpura, right and left sides of Lakshmīnarasiṁhasvāmi temple. Date lost</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+				<funder>European Research Council (ERC), grant agreement no 809994</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0528.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>as per external metadata</repository>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>Mutilated. Gives the genealogy of the first Vijayanagara dynasty. It mentions king Bukka and his minister Viṭṭhalāmātya, the son of Dēvapāmātya of Bhārgavamuni-gōtra and seems to refer to the construction of the <hi rend="italic">gōpura</hi> probably by the latter (Viṭṭhala). </p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2026-10-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-09-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>śriyaṁ pūṣṇātuvaḥ ślāghyāṁ śukalādharaṁ <g ref="sym:bar" type="punctuation">.</g> jananījanaśvābhyāṁ vicalaṁ vimalaṁ mahaḥ <g ref="sym:doubleBar" type="punctuation">.</g> 1 <g ref="sym:doubleBar" type="punctuation">.</g> Avatu bhuvanaṁ varāhaḥ śaśadharadhavaḷasyayasyadaṁṣṭrāgrē <g ref="sym:bar" type="punctuation">.</g> bhāti vasudhā <gap reason="lost" quantity="1" unit="character"/> mādrau jaladhara<unclear>paṭa</unclear>līva śikharaparyyaṁtē <g ref="sym:doubleBar" type="punctuation">.</g> 2 <g ref="sym:doubleBar" type="punctuation">.</g> pāśusavaḥ karipadanō
+<lb n="2"/>vadanēna bhramaraśīlakuṁḍēśa <g ref="sym:bar" type="punctuation">.</g> kucakuṁbharōmarājīsārūpyaṁ vahaśimāśuraniśaṁ yaḥ <g ref="sym:doubleBar" type="punctuation">.</g> 3 <g ref="sym:doubleBar" type="punctuation">.</g> Astitrailōkī sayanābhirāmaṁ tējaḥ paraṁtāpaharaṁ janānāṁ <g ref="sym:bar" type="punctuation">.</g> yadaṣṭamūrttērapi mūrttibhēdaṁ vāmaṁ murārapu nētra
+<lb n="3" break="no"/>muhu<unclear>ḥ</unclear> <g ref="sym:doubleBar" type="punctuation">.</g> 4 <g ref="sym:doubleBar" type="punctuation">.</g> kadaṁnda vāyōbhapadugratējāḥ purūravāḥ pāda sarōnrupāṇāṁ <g ref="sym:bar" type="punctuation">.</g> śakatrakuryyēsadhanurdharēṇa śacīkuca sparśa<supplied reason="omitted">su</supplied>khaṁ vivēda <g ref="sym:doubleBar" type="punctuation">.</g> 5 <g ref="sym:doubleBar" type="punctuation">.</g> vaṁśēśadīyō bala<unclear>bhi</unclear>tsvabhāvō yayātirāsīdari vīrahaṁtā matōpriyaḥ pratyaha mūrji
+<lb n="4"/>karthāsanaṁgō <gap reason="lost" quantity="2" unit="character"/> ri <g ref="sym:doubleBar" type="punctuation">.</g> 6 <g ref="sym:doubleBar" type="punctuation">.</g> yadu <gap reason="lost" quantity="1" unit="character"/> kōbhūduḍu rājakalpaḥ kalpadrumāṇāmiva <gap reason="lost" quantity="1" unit="character"/> ṣṭabōdhaḥ <g ref="sym:bar" type="punctuation">.</g> yasyāvatāra ? yasyaṁtivṛttāṁstridaśēśvarāṇāṁ prastāpanā <gap reason="lost" quantity="2" unit="character"/> jāṁ <g ref="sym:doubleBar" type="punctuation">.</g> 7 <g ref="sym:doubleBar" type="punctuation">.</g> <gap reason="lost" quantity="10" unit="character"/> yadōścaṁdra <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="5"/>mivasmarāri <g ref="sym:bar" type="punctuation">.</g> yatrāpaśīrnnaḥ kilaśājñādhanvācōrnnīkarōti smasurārivargaṁ <g ref="sym:doubleBar" type="punctuation">.</g> 8 <g ref="sym:doubleBar" type="punctuation">.</g> paṁśētasmiṁnnajanirajanīnātha cūḍāṁghri padmadvaṁdvadhyānaprasṛmara sudhāsaṁśamasyaṁ gamōḥ <g ref="sym:doubleBar" type="punctuation">.</g> miṁdraḥ yatpratyarthikṣitipavaniśāka rnnakāṭaṁka lakṣmīkīrtti
+<lb n="6" break="no"/> <gap reason="lost" quantity="3" unit="character"/> mācakurima prauḍha bāhāpta bhāvaḥ <g ref="sym:doubleBar" type="punctuation">.</g> 10 <g ref="sym:doubleBar" type="punctuation">.</g> tasyāśmajōbhūdaraviṁda baṁdhōrmmasuryyathā bukkaṇa bhūmipālaḥ <g ref="sym:bar" type="punctuation">.</g> rājasvatī bhūrajaniṣpayēnatriviṣṭava śrīriva vāsavēna <g ref="sym:doubleBar" type="punctuation">.</g> 1<unclear>1</unclear> <g ref="sym:doubleBar" type="punctuation">.</g> nakharaphaṇāmaṇaucaṭula khaḍgalakāsa<unclear>nē</unclear>
+<lb n="1"/>yasyadōrdaṁḍa pāṁḍitya nirmāṇa paramāṇavaḥ <g ref="sym:bar" type="punctuation">.</g> <gap reason="lost" quantity="15" unit="character"/> <g ref="sym:doubleBar" type="punctuation">.</g> 22 <g ref="sym:doubleBar" type="punctuation">.</g> ghanaśaila <gap reason="lost" quantity="3" unit="character"/> garīyasitridivādastitadīya rājadhānī <g ref="sym:doubleBar" type="punctuation">.</g> bhuvanatraya saurabhūmirurvyāmukuraśrīrivamauktikaiḥ prakluptā <g ref="sym:doubleBar" type="punctuation">.</g> 27 <g ref="sym:doubleBar" type="punctuation">.</g> vudyāna vākṛrudi kairyna
+<lb n="2" break="no"/>dīyyāṁ 1 kruṣṇa bhṛṁgēṣpamaradrumēgha <g ref="sym:bar" type="punctuation">.</g> Abhukta śēṣāṇi surābhilōkē <gap reason="lost" quantity="3" unit="character"/> puṣpāṇyava<unclear>kā</unclear>sayaṁśi <g ref="sym:doubleBar" type="punctuation">.</g> 24 <g ref="sym:doubleBar" type="punctuation">.</g> mahāgajānāṁ madanirbhbarāṇāṁ kuṁbhēgha yaśrāṁkuśakāḍanānāṁ <g ref="sym:bar" type="punctuation">.</g> kṛśōdarīṇāṁ kuca<unclear>kāṁti</unclear>cāryaṁ nimittamaṁnyadvya 
+<lb n="3"/>padēśamātraṁ <g ref="sym:doubleBar" type="punctuation">.</g> 25 <g ref="sym:doubleBar" type="punctuation">.</g> vasaṁsakasyā bhujagēṁdra kalpabhujārjitārāśi vibhūti vargaḥ <g ref="sym:bar" type="punctuation">.</g> vaśīkarōtismavaśaṁ padaśrī Āvāri rāśikṣitimappratīpaḥ <g ref="sym:doubleBar" type="punctuation">.</g> 26 <g ref="sym:doubleBar" type="punctuation">.</g> vijitya pṛthvīvalayaṁ samastamāvarjyamauḷiṁ pratibhūpatīnāṁ <g ref="sym:bar" type="punctuation">.</g> svadōrji
+<lb n="4" break="no"/>yaṁgāvayatēsmabhūmau kīrtyarjunō nirjarakannakābhiḥ <g ref="sym:doubleBar" type="punctuation">.</g> 27 <g ref="sym:doubleBar" type="punctuation">.</g> mauni <unclear>bhā</unclear>rgavanō krō bhūktāsyamaṁ śrīmahāmatiḥ <g ref="sym:bar" type="punctuation">.</g> viṭhalāmātya tilakō dēvapāmātyanaṁdanaḥ <g ref="sym:doubleBar" type="punctuation">.</g> 28 <g ref="sym:doubleBar" type="punctuation">.</g> viṭhalamaṁtri jayaśādbhrū līlāmātra vijita bhūvalayaḥ <g ref="sym:bar" type="punctuation">.</g> gurubudhaka<unclear>vi</unclear> kamalō
+<lb n="5" break="no"/>dbhava pariṣadabhūdyasya kāraṇaṁ kruṣṭēḥ <g ref="sym:doubleBar" type="punctuation">.</g> 29 <g ref="sym:doubleBar" type="punctuation">.</g> Ā saṁbhaya saṁbhramāda <gap reason="lost" quantity="2" unit="character"/> pākurvvārmēyōnēstavaṁ <g ref="sym:bar" type="punctuation">.</g> sō bhūtārāṁsbhujagēṁdra saṁhara <gap reason="lost" quantity="2" unit="character"/> rthē praṁ<unclear>kha</unclear>gēśakṛja <g ref="sym:bar" type="punctuation">.</g> padmabhūṣaṇa <gap reason="lost" quantity="5" unit="character"/> tyājñāvai <gap reason="lost" quantity="10" unit="character"/> 
+<lb n="6"/>kkīrtti mudrāyatē <g ref="sym:doubleBar" type="punctuation">.</g> 30 <g ref="sym:doubleBar" type="punctuation">.</g> sakēna śāsaṁ nikhilāḥ prajāsvādhyarmmāsanasthassura maṁtrikalpaiḥ <g ref="sym:bar" type="punctuation">.</g> vidvadbhirarthānakhilāṁ <gap reason="lost" quantity="5" unit="character"/> maṁnyakārththaṁ varamīśa sēvāṁ <g ref="sym:doubleBar" type="punctuation">.</g> 31 <g ref="sym:doubleBar" type="punctuation">.</g> śarīriṇaṁ vārdira ramāṇāṁ <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="7"/>yama<supplied reason="omitted">rpyō</supplied>cikaṁ svargāmarōktākti vidhaunyayuṁjiṁ <g ref="sym:doubleBar" type="punctuation">.</g> 32 <g ref="sym:doubleBar" type="punctuation">.</g> kadirītināmapuramasti viśrutaṁ narakēsari <gap reason="lost" quantity="5" unit="character"/> sarvvadā <g ref="sym:bar" type="punctuation">.</g> racayēma tatrapura gōpuraṁ vayaṁ paramēśvarōbhavatu naḥ prasannadhīḥ <g ref="sym:doubleBar" type="punctuation">.</g> 33 <g ref="sym:doubleBar" type="punctuation">.</g> <gap reason="lost" quantity="3" unit="character"/> nrukēsari <g ref="sym:bar" type="punctuation">.</g> <gap reason="lost" quantity="2" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.528 by <bibl><ptr target="bib:SrinivasaRao1999_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1999_01"/>
+			<citedRange unit="page">416-418</citedRange>
+			<citedRange unit="item">528</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

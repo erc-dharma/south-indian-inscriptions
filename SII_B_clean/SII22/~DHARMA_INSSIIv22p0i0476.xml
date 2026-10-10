@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.476: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 476.</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+				<funder>European Research Council (ERC), grant agreement no 809994</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0476.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>as per external metadata</repository>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						<p>Registers the gift of land by the <hi rend="italic">mahājanas</hi> of Chavuḍūru to Peda Timmarasayya Kāmarasu, perhaps identical with the person mentioned in inscription No. 475.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2026-10-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-09-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>ṁcavuḍūranu kāmayya pedatiṁmayyaṁ
+<lb n="2" break="no"/>gāriki celle vokavrittikiṁni cavuḍū <gap reason="lost" quantity="2" unit="character"/> hā
+<lb n="3" break="no"/>janālu yiccina śāsana saṁprati <g ref="sym:doubleBar" type="punctuation">.</g> śubhamastu
+<lb n="4"/>svastiśrī jayābhyudaya śālivāhana śakava
+<lb n="5" break="no"/>ruṣaṁbulu 1431 Agunēṁṭi śukla saṁva
+<lb n="6" break="no"/>tsara vayiśākha śu 15 śukravārānanu śrī <gap reason="lost" quantity="2" unit="character"/> Ana
+<lb n="7" break="no"/>ṁtapuraṁ Ani prati nāmamuṁ gala cavaḍūri
+<lb n="8"/>lō [<g ref="sym:bar" type="punctuation">.</g>] Aśēṣavidvaṁnmahājanuluṁnu bhāradvāja
+<lb n="9" break="no"/>gōtraṁ Āśvalāyana sūtraṁ ·ṛk śākhādhyāyu
+<lb n="10" break="no"/>layina kāmayaṁgāri komāḷlu pedati <gap reason="lost" quantity="3" unit="character"/> 
+<lb n="11"/>yyaṁgāriki dhāravōśi yiccina dāna śāsana patra
+<lb n="12"/>krama moṭlaṁnanu gaṁḍikōṭa tūrppuna <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="13"/>peṁnnakuUttarānanu Anaṁtapuraṁ Ani prati
+<lb n="14"/>nāmamuṁgala mā ca <gap reason="lost" quantity="2" unit="character"/> ḍūri Agrahāraṁ ga 
+<lb n="15"/>ṇa saṁkhya vrittulu <gap reason="lost" quantity="2" unit="character"/> Akṣarālānu naluvadi <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="16"/> <gap reason="lost" quantity="5" unit="character"/> gānu vrittiye<unclear>ttiṁ</unclear>cci mīkunu dhā
+<lb n="17" break="no"/>ravōśiyiccina <gap reason="lost" quantity="3" unit="character"/> vritti cavuḍūri sivā
+<lb n="18"/>śēṣa vidvanmahājanāluṁnu bhāradvāja sagō <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="19"/>Āśvalāyana sūtraṁ ṛk śākhādhyāyulai
+<lb n="20"/>na kāmarsuṁgāri komāḷlu pedatiṁmayyagāri
+<lb n="21" break="no"/>ki yīvayiśākha māsa pūrnimanāṁḍu dhāra
+<lb n="22"/>vōśi yiccina <gap reason="lost" quantity="2" unit="character"/> ka vritta yīvrittiki <gap reason="lost" quantity="2" unit="character"/> na
+<lb n="23"/>gṛhārāma kṣētrālu Aṣṭabhōga tēja <unclear>svā</unclear>
+<lb n="24"/>myālu sa <gap reason="lost" quantity="2" unit="character"/> lānu cavuḍūri sivāśēṣa
+<lb n="25"/>vidvanmahājanāluṁnu bhāradvāja sagōtraṁ
+<lb n="26"/>Āśvalāyana sūtraṁ ṛk śākhādhyāyula
+<lb n="27" break="no"/>yina kāmārsuṁgāri komāḷu pedatiṁmarsu
+<lb n="28" break="no"/>yyaṁgāriki yī vayiśākha śu pūrnima nāṁ
+<lb n="29" break="no"/>ḍu sahiraṁṇyōdakadāna dhārāpūrvvakamugā
+<lb n="30"/> <gap reason="lost" quantity="2" unit="character"/> dhāravōsiyistimigāna mī putra pautra pā
+<lb n="31" break="no"/> <gap reason="lost" quantity="3" unit="character"/> gānu Ācaṁdrārkkasthāyigānu <gap reason="lost" quantity="2" unit="character"/> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.476 by <bibl><ptr target="bib:SrinivasaRao1999_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1999_01"/>
+			<citedRange unit="page">392-393</citedRange>
+			<citedRange unit="item">476</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

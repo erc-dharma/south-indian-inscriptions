@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.576: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 576. (A.R. No. 576 of 1906) CHITTOOR DISTRICT, PUNGANUR TALUK, YĀṬAVĀKILI Chandramauḷīśvara temple-On the walls of the temple Rājarāja-Chōḷadēva (III)-29th year, Viśvāvasu (1245 A.D.)</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+				<funder>European Research Council (ERC), grant agreement no 809994</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0576.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>as per external metadata</repository>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This seems to record a gift of some land for repairs (?) to the temple of Irugīśvaram-uḍaiyār by Dēvāṇḍai and Irukkāṇḍai, the descendants of the founder of the temple, who is here called Kumbaḷagāmunḍa. Mention is made of Śelva-Gaṅgar during whose administration this gift was probably made.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2026-10-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-09-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svastiśrī <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied></hi> rā<hi rend="grantha">ja</hi>rā<hi rend="grantha">ja</hi>coḻa<hi rend="grantha">de</hi>vaṟku yāṇṭu Irupattonpatāvatu vi<hi rend="grantha">śvā</hi>va<unclear>cu</unclear> cammacarattu <hi rend="grantha">ja</hi>yaṅkoṇṭa coḻamaṇṭalattup perumpāṇappāṭi vaṭapuliṉāṭṭu Eṭṭārvākkā<unclear>lil</unclear> Iruki<hi rend="grantha">śva</hi>ramuṭaiyaṉāyanār koyil paṇṭu Eṭuppitta kum
+<lb n="2" break="no"/>paḷakāmuṇṭan makkaḷ celvakaṅkar po <gap reason="lost" quantity="10" unit="character"/> tu kaṇṭu putukkuner kumpaḷa kāmiṇṭarkaḷom tevāṇṭaiyum Irukkāṇṭaiyum ceviccom Ivūril cūrapaṭṭarum ca<unclear>pa</unclear>yāru
+<lb n="3" break="no"/>m kottamallaṉum pūṭṭāyāl Oru koṭṭai yiṭom Ittaṉmattai māṟṟuvāṉ <hi rend="grantha">ga</hi><supplied reason="omitted">ṅ</supplied>kai karaiyil pacuvai konṟa <hi rend="grantha">pā <gap reason="lost" quantity="5" unit="character"/> brahmastai <gap reason="lost" quantity="4" unit="character"/> </hi> <gap reason="lost" quantity="1" unit="character"/> Ikkāṇi Uṭaiya tevakanmi <hi rend="grantha">gau</hi>tama ko<hi rend="grantha">tra</hi>m teva<hi rend="grantha">bha</hi>ṭṭa<hi rend="grantha">sya śrīmāheśvara <supplied reason="omitted">ra</supplied>kṣaiḥ</hi>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.576 by <bibl><ptr target="bib:SrinivasaRao1999_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1999_01"/>
+			<citedRange unit="page">460</citedRange>
+			<citedRange unit="item">576</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

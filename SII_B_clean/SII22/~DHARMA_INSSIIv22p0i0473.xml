@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.473: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 473.</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+				<funder>European Research Council (ERC), grant agreement no 809994</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0473.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>as per external metadata</repository>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						<p>Registers the gift of <hi rend="italic">garuḍa-staṁbha</hi> pillar to the temple of Śrī Madanagōpālasvāmi of Taṅgaṭūru by Veṅkaṭa Chinapāpi-reḍḍi.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2026-10-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-09-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> śrī jayābhyudaya śālivā
+<lb n="2" break="no"/>hana śakavarṣaṁbbulu 1656 A
+<lb n="3" break="no"/>gunēṭi pramādi nāma saṁvvatsara śrā
+<lb n="4" break="no"/>vaṇa śu 15 somavāraṁ
+<lb n="5"/>śrīmadakhilāṁḍakōṭi brahmāṁḍa nāyakulaina
+<lb n="6"/>taṁgaṭūri śrīmadanagōpālasvāmiki yellu
+<lb n="7"/>pāpireḍḍiki naptṛlaina liṁgāreḍḍiki pautṛlaina
+<lb n="8"/><unclear>gaṁgireḍḍi</unclear>gāri komārlaina sē<unclear>va</unclear> pāpireḍi sēva
+<lb n="9"/>veṁkaṭa cinapāpireḍḍi cina veṁkaṭagāru ca <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="10"/> <gap reason="lost" quantity="3" unit="character"/> nu samarpiṁcina garuḍastaṁbhamu <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.473 by <bibl><ptr target="bib:SrinivasaRao1999_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1999_01"/>
+			<citedRange unit="page">390</citedRange>
+			<citedRange unit="item">473</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

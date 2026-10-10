@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.475: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 475.</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+				<funder>European Research Council (ERC), grant agreement no 809994</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0475.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>as per external metadata</repository>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						<p>Refers to Kāmarusugāri-Timmayya and Brāhmala Muḍiyam, the ancient name of Peddamuḍiyam in Jammalamadugu, also Nandyāla in Rēnāḍu.</p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2026-10-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-09-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>śrī śubhamastu kappeṁ grāmaṁvāru tama grā
+<lb n="2" break="no"/>mānanu kāmarasu <unclear>peda</unclear>tiṁmayyaṁgā
+<lb n="3" break="no"/>rakiṁ cellemaḍi kha 3 māṁnyāna<unclear>ku</unclear>ṁnu <gap reason="lost" quantity="2" unit="character"/> 
+<lb n="4"/> <gap reason="lost" quantity="3" unit="character"/> kūni tiṁmayyaṁgāriki Iccina
+<lb n="5"/>Avasaṁ pratikṣaya saṁvatsara śrāvaṇa śu 12lu
+<lb n="6"/>śrīmatu kāmarusugāri tiṁmmayyaṁgārki kappela grāmaṁ
+<lb n="7"/> <gap reason="lost" quantity="1" unit="character"/> ma reḍḍi koḍku tiṁmireḍḍi mōṁpūri reḍḍi <gap reason="lost" quantity="2" unit="character"/> kuṁcaṁ
+<lb n="8"/>taṁmmareḍḍi modalaIna reḍḍi prajalu Icina mēra mariyāda
+<lb n="9"/>Āku <gap reason="lost" quantity="5" unit="character"/> grāmanaku Iṁṭakuṁṭe vedarimaḍivenaka
+<lb n="10" break="no"/>la karavunāṁṭi peṁḍikālpa maḍiveṁdu mu
+<lb n="11"/>yī maṇuṁgu yiruvayēḍu puṭla vaḍluṁnu mā
+<lb n="12"/>biḍla karammuṁnu māputrapautra pāraṁpariyamuṁ
+<lb n="13" break="no"/>nu Āceṁdrārkasthāyigānu yī vaḍlu kolacuka vaccu
+<lb n="14"/>vāraṁ Anivoḍaṁbaḍi yiccina Āpayī Āvavrāsi
+<lb n="15" break="no"/>na karaṇaṁ kapelagrāmaṁ karaṇaṁ kriṣṭapavrālu <g ref="sym:bar" type="punctuation">.</g> śrī śrī
+<lb n="16"/>kāmaru stiṁmayyaṁgārkiṁ celye varahālu brā
+<lb n="17" break="no"/>ṁhmala muḍiyāna cēnu kha 3 Akṣarālānu mū
+<lb n="18" break="no"/>ṁḍu puṭlu cēnu rēnaṁṭinaṁdyālanu cēnu kha 4 <g ref="sym:doubleBar" type="punctuation">.</g> 
+</p>
+
+<!--<h4>Back of slab.</h4>-->
+
+<p>
+<lb n="19"/> <gap reason="lost" quantity="1" unit="character"/> ttapināṁṭilōnu vālinicēnaṁ
+<lb n="20"/> <gap reason="lost" quantity="1" unit="character"/> ṭi kuṁṭalu 100 Akṣarālunu
+<lb n="21"/>maḍi kuṁṭalu nūru <g ref="sym:bar" type="punctuation">.</g> voṁṭi miṭṭanu
+<lb n="22"/>koṭṭalu maḍi śu 100
+<lb n="23"/>lu <g ref="sym:bar" type="punctuation">.</g> pottapini kuṁṭṭalu 50 ki cina ti
+<lb n="24" break="no"/>ṁmayyaṁgārki yiccinadi Akṣarālā
+<lb n="25" break="no"/>nu kuṁṭalu yāṁbhai Arunarājya
+<lb n="26" break="no"/>ṁ macina volanu vrittulu 2 Akṣarā
+<lb n="27"/>lanu vrittulu reṁḍḍuṁnu Ara <g ref="sym:doubleBar" type="punctuation">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.475 by <bibl><ptr target="bib:SrinivasaRao1999_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1999_01"/>
+			<citedRange unit="page">391-392</citedRange>
+			<citedRange unit="item">475</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

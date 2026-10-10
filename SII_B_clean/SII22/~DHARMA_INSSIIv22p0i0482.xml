@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 22.482: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 482.</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+				<funder>European Research Council (ERC), grant agreement no 809994</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv22p0i0482.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>as per external metadata</repository>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						<p>Registers the gift of land to the temple of Chennakēśava-perumāḷ at Śeṭipale by the <hi rend="italic">mahāmaṇḍalēśvara</hi> Rāmarāju Rāyanarāju Koṇḍayyadēvamahārāju. The gift was obtained from Aḷiyarāmarāju as <hi rend="italic">uṁbaḷi.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="2026-10-10" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-09-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>śubhamastu <g ref="sym:doubleBar" type="punctuation">.</g> svastiśrī jayābhyudaya śālivāhana śakavarṣaṁbu
+<lb n="2" break="no"/>lu 1480 Agunēṭi kāḷayukti saṁvatsara vaiśākha śu 3 gu śrīmanmahā maṁ
+<lb n="3" break="no"/>ḍalēśvara rāmarāju rāyanarāju koṁḍayya dēvamahārājulu śeṭṭipalle cena
+<lb n="4" break="no"/>kēśava perumāḷaku daṁḍaṁ samarpiṁci Iccina dharmaśāsanaṁ Aḷiyarāmarāju
+<lb n="5" break="no"/>Ayyavāru mākunu vuṁbaḷiki pāliṁci Iccina śeṭipale kēśavaperumāḷaku yīta
+<lb n="6" break="no"/>thātithi puṁṇyakālaṁ tirunāḷa mahōtsava kaiṁkaryālakunu pātra bhōga vaibha
+<lb n="7" break="no"/>vālakunu dhāravōsi Iccinakṣētraṁ pallavāṭi teruvu paḍumaṭa vuppuvāṁgu
+<lb n="8" break="no"/>ku Uttaracēnu kha 2 <g ref="sym:bar" type="punctuation">.</g><g ref="sym:bar" type="punctuation">.</g><g ref="sym:bar" type="punctuation">.</g> nu yēkuvarēga kōnēru seṭikuṁṭa Uttarāna cēnu
+<lb n="9"/>kha 1 nu varimaḍi ceruvu kiṁdaku kha 0/0 vubhayaṁ cēnu maḍi sahā
+<lb n="10"/>nālugu puṭlunu trivācakaṁgānu samarpiṁci Icina dharma
+<lb n="11" break="no"/>śāsanamu yīdharmānaku yevāru tappinā talli daṁḍrādula vāraṇāsilō vadhi ṁcina pāpāna bōduru tama guruvulaku tirumaṇi tirucūrnānaku veli I <gap reason="lost" quantity="2" unit="character"/> vāru maṁgaḷa mahā śrī śrī śrī jēyunū kriṣṇa
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 22.482 by <bibl><ptr target="bib:SrinivasaRao1999_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1999_01"/>
+			<citedRange unit="page">395</citedRange>
+			<citedRange unit="item">482</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
