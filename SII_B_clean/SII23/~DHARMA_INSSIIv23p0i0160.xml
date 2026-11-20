@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 23.160: original edition by G.V. Srinivasa Rao</title>
+				<title type="alt">No. 160. (A.R. No. 160 of 1907.) Pēraiyūr, Tirumayam Taluk, Tiruchirappalli District Nāganāthasvāmi temple—on the same wall Māṟ. Sundara-Pāṅḍya I: year 13: 1228-29 A.D.</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+				<funder>European Research Council (ERC), grant agreement no 809994</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv23p0i0160.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>as per external metadata</repository>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						<p>This is a record of Māṟavarman Sundara-Pāṇḍyadēva (I) ‘who was pleased to present the Chōḷa Country’. It is partly damaged. It seems to register the lease of a waste land (<hi rend="italic">nattappāḻ</hi>) belonging to the temple, for the formation of a street called the Kulaśēkharapperunderuvu with the rental (<hi rend="italic">maṉaiyīṟai</hi>) fixed at 3/8 <hi rend="italic">kāśu</hi> per year on every plot measuring 3 <hi rend="italic">kōl</hi> by 7 by the standard measuring rod known as the <hi rend="italic">Iḍaiyarkōl.</hi></p>						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-09-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> tribhu</hi>vaṉaccakkaravattikaḷ komāṟapaṟmarāṉa coṇāṭu vaḻaṅkiyaruḷiya <hi rend="grantha">śrīsundara</hi>pāṇṭiya tevaṟku yāṇṭu <num value="13"><g type="numeral">10</g> 3</num><g ref="sym:dash" type="punctuation"/>vatu tiru
+<lb n="2" break="no"/>pperaiyūr Uṭaiyār tirunā<hi rend="grantha">gīśva</hi>ramuṭaiya nāyaṉār Āticaṇṭe<hi rend="grantha">śva</hi>ratevar Aruḷāl tevarkaṉmikaḷ <gap reason="lost" quantity="9" unit="character"/> 
+<lb n="3"/>kāṇi cikā<supplied reason="omitted">riya</supplied>ñ ceyvār nāṭṭukkaṇkāṇi <unclear>ceyvā</unclear>rkaḷom I nāyaṉār tevatāṉattu kulacekarapperunteruvāka Eṟa caṇṭe<hi rend="grantha">śva</hi>rap
+<lb n="4" break="no"/>peruvilaiyāka viṟṟa nattattukkellai kiḻpāṟkellai Innāyaṉār teva tāṉam Aruḷcāntanallūrār pakkal caṇṭe<hi rend="grantha">śva</hi>rapperuvilaiyāka
+<lb n="5" break="no"/>k koṇṭu nāṭṭiṉa tiruccūlakkaṟkaḷukku meṟkum teṉpāṟ kellai tiruccūlakkallukku vaṭakkum melpāṟkellai civa<hi rend="grantha">ga</hi>ṅkaikiḻ
+<lb n="6" break="no"/>karaikku kiḻakkum vaṭapāṟkellai kollaṉ Aruḷpeṟṟāṉ vayakkal k<unclear>o</unclear>ttan <unclear>nila</unclear>ttukku teṟkum Āka Icaitta peru
+<lb n="7" break="no"/>nāṉkellaiyuḷḷakappaṭṭa nattapāḻil licainta vilaipporuḷukku caṇ ṭe<hi rend="grantha">śvara</hi> peruvilaiyāka viṟṟukuṭutta Inatta<supplied reason="omitted">t</supplied>tuk
+<lb n="8" break="no"/> <gap reason="lost" quantity="5" unit="character"/> Iṭai<unclear>yaṟ</unclear>kkolāl mukkolukku <unclear>E</unclear>ḻukolāka vanta maṉai Oṉṟukku Āṇṭoṉṟukku maṉaiyiṟai kālearaikka
+<lb n="9" break="no"/> <gap reason="lost" quantity="5" unit="character"/> kācu Arai <gap reason="lost" quantity="3" unit="character"/> c conikki koḷvomākavum Innattattilp piḻaikkac ceytāruṇṭākil tirumaṭai viḷākatte<unclear>y</unclear> taṇ
+</p>
+
+<p>The inscription stops here incomplete. Below this however are four lines in later characters which do not form part of the above record.</p>
+
+<p>
+<lb n="1" break="no"/> <gap reason="lost" quantity="8" unit="character"/> niṉṟu nakarattār coṉ <gap reason="lost" quantity="5" unit="character"/> ṅ koḷvomākavum Innakarattāṟku viparitamākayiruppār tirupperaiyūr nāṉke<unclear>llai</unclear> <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="2"/> <gap reason="lost" quantity="8" unit="character"/> kaṭavarallavākavum <gap reason="lost" quantity="5" unit="character"/> ḷḷiṭṭatellām koyiṟṟamar mukattāl nalpuṭaril <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="3"/> <gap reason="lost" quantity="3" unit="character"/> pokkaṟuppomākavum <unclear>kū</unclear>ṭi cammatittu ku <gap reason="lost" quantity="5" unit="character"/> nakarattāṟku muṉ <gap reason="lost" quantity="5" unit="character"/> peṟṟa tevarkaṉmi <gap reason="lost" quantity="5" unit="character"/> 
+<lb n="4"/><hi rend="grantha"> <gap reason="lost" quantity="5" unit="character"/> heśvara</hi>kaṇkāṇi <hi rend="grantha">śrī</hi> kāriyañ ce <gap reason="lost" quantity="8" unit="character"/> nakaram paṉmā<hi rend="grantha">heśvararakṣai <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied></hi> 
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 23.160 by <bibl><ptr target="bib:SrinivasaRao1979_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:SrinivasaRao1979_01"/>
+			<citedRange unit="page">128</citedRange>
+			<citedRange unit="item">160</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
