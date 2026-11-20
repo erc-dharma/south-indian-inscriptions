@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 23.22: original edition by G.V. Srinivasa Rao</title>
+                <title type="alt">No. 22. (A.R. No. 22 of 1907.) Tiruviśalūr, Kumbhakonam Taluk, Tanjavur District Śivayōganātha temple—on the same wall Parāntaka I: year 27: 933-34 A.D.</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+                <funder>European Research Council (ERC), grant agreement no 809994</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv23p0i0022.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+                </availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>as per external metadata</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            <p>This is damaged. It records a gift of 90 sheep for burning a lamp in the temple by Nakkaṉ Śerumiṟai of Miḻalai-nāḍu. </p>						
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-11-20" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2026-09-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> matiraiko
+                    <lb n="2" break="no"/>ṇṭa kopparakecari pa<hi rend="grantha">nma</hi><supplied reason="omitted">ṟ</supplied>kki yāṇṭu <num value="27"><unclear>2 <g type="numeral">10</g> 7</unclear></num>-vatu <unclear>vaṭaka</unclear>
+                    <lb n="3" break="no"/>rai tevatāṉa <hi rend="grantha">bra <gap reason="lost" quantity="12" unit="character"/> </hi> Iṉiteḻu
+                    <lb n="4" break="no"/>ntaruḷiIru<unclear>nta</unclear> perumāṉaṭikaḷukku vaṭakarai miḻa
+                    <lb n="5" break="no"/>lai nāṭṭu <gap reason="lost" quantity="6" unit="character"/> 
+                    <lb n="6"/>ṭaiyāṉ na
+                    <lb n="7" break="no"/>kkaṉ ceru
+                    <lb n="8" break="no"/>miṟai ca<hi rend="grantha">ntr</hi>
+                    <lb n="9" break="no"/><hi rend="grantha">ā</hi>titaval Eri
+                    <lb n="10" break="no"/>yav<choice><sic>a</sic><corr>ai</corr></choice>tta no
+                    <lb n="11" break="no"/><supplied reason="omitted">n</supplied>tāviḷa<supplied reason="omitted">k</supplied>ku Oṉ
+                    <lb n="12" break="no"/>ṟu Ita<supplied reason="omitted">r</supplied>kku vay
+                    <lb n="13" break="no"/>tta <unclear>Āṭu</unclear> <num value="90"><unclear>9</unclear> 
+                    <lb n="14"/><unclear><g type="numeral">10</g></unclear></num> toṇ
+                    <lb n="15" break="no"/>ṇūṟu It
+                    <lb n="16" break="no"/>toṇṇūṟā
+                    <lb n="17" break="no"/>ṭṭālum ni
+                    <lb n="18"/><gap reason="lost" quantity="12" unit="character"/> 
+                    <lb n="19"/>peru<unclear>ṅ</unclear>kuṟipperumakkaḷum pa<hi rend="grantha">nmāhesva</hi><supplied reason="omitted">ra</supplied>rum <hi rend="grantha">rakṣ<choice><sic>a</sic><corr>ai</corr></choice></hi> <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 23.22 by <bibl><ptr target="bib:SrinivasaRao1979_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:SrinivasaRao1979_01"/>
+                        <citedRange unit="page">11-12</citedRange>
+                        <citedRange unit="item">22</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
