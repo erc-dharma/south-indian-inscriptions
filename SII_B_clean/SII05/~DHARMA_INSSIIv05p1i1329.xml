@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 5.1329: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 1329. (A.R. No. 386-A of 1896). ON THE SAME PILLAR.</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+				<funder>European Research Council (ERC), grant agreement no 809994</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv05p1i1329.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>as per external metadata</repository>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-09-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> śakavarṣaṁbu
+<lb n="2" break="no"/>lu 1104 nēṁṭi
+<lb n="3"/>śrīmadanaṁttava
+<lb n="4" break="no"/>rmadēvara prava
+<lb n="5" break="no"/>rddhamāna vijaya
+<lb n="6" break="no"/>rājyasaṁvatsara
+<lb n="7" break="no"/>ṁbulu 14 śrā <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="8" break="no"/>ṣabha śukla 11 <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="9"/>Ādivāramuna <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="10"/><unclear>rnnakōṭi</unclear> śrīkūrmma<unclear>svā</unclear>
+<lb n="11" break="no"/>midēvaraku prōla
+<lb n="12" break="no"/><unclear>cā</unclear>mināyaku <gap reason="lost" quantity="1" unit="character"/> 
+<lb n="13"/>kupanāyakuṟā
+<lb n="14" break="no"/>li kūṁtuṟu mā<unclear>ṁkka</unclear>
+<lb n="15" break="no"/>manāyakuṟālu
+<lb n="16"/>Āsaṁdrārkka<supplied reason="omitted">ṁ</supplied>bunā
+<lb n="17"/>beṭṭina yakaṁḍa
+<lb n="18" break="no"/>varttidīpa 1 māḍa
+<lb n="19"/>5 dīni naḍapanivā<note n="484-1">We should expect here naḍapeḍivāru.</note>
+<lb n="20"/>ru svadattaparada<unclear>tta</unclear>
+<lb n="21" break="no"/><unclear>ṁ</unclear> vā yō harētu
+<lb n="22"/>vasuṁdara <supplied reason="undefined"><g ref="sym:bar" type="punctuation">.</g></supplied> ṣaṣṭi
+<lb n="23" break="no"/>rvaruṣasahasrāṇi vi
+<lb n="24" break="no"/>ṣṭāyāṁ jāyatē
+<lb n="25"/>krimi <g ref="sym:doubleBar" type="punctuation">.</g>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 5.1329 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1925_01"/>
+			<citedRange unit="page">484</citedRange>
+			<citedRange unit="item">1329</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

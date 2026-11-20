@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 5.1266: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 1266. (A.R. No. 373-C of 1896). IN THE SAME PLACE.</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+				<funder>European Research Council (ERC), grant agreement no 809994</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv05p1i1266.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>as per external metadata</repository>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-09-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti śrī <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> ṣaḍasītyuttarē paruṣē saha
+<lb n="2" break="no"/>srē ca śatōttarē <supplied reason="undefined"><g ref="sym:bar" type="punctuation">.</g></supplied> kavivārē dhanurmmā sē kriṣṇa 
+<lb n="3" break="no"/>vakṣē dvijōttamaḥ <g ref="sym:bar" type="punctuation">.</g> Āgatya ḍimilagrāmā
+<lb n="4" break="no"/>dvēmaṁgōḍāsthitōdhunā <supplied reason="undefined"><g ref="sym:bar" type="punctuation">.</g></supplied> śrīkūrmmanā
+<lb n="5" break="no"/>thamāsādya jātatadbhaktiraṁjasā <supplied reason="undefined"><g ref="sym:bar" type="punctuation">.</g></supplied> sūriśarmmē
+<lb n="6" break="no"/>ti vikhyāta<supplied reason="omitted">ḥ</supplied> svarnnamādhavasatsutaḥ <supplied reason="undefined"><g ref="sym:bar" type="punctuation">.</g></supplied> yājña
+<lb n="7" break="no"/>valkyō mahābuddhiḥ purataḥkamaṭhākṛtēḥ <supplied reason="undefined"><g ref="sym:bar" type="punctuation">.</g></supplied>
+<lb n="8"/>tāṁbrastaṁbbhēna sahitaṁ prādāddīpamakhaṁḍa
+<lb n="9" break="no"/>kaṁ <supplied reason="undefined"><g ref="sym:bar" type="punctuation">.</g></supplied> dharmmārtthaṁ kāmasiddhyartthaṁ yāvacchaṁ
+<lb n="10" break="no"/>dradivākarau <g ref="sym:bar" type="punctuation">.</g> Evaṁ pradīpaṁ vurataḥ kū
+<lb n="11" break="no"/>rmmanāthasya yē janāḥ pālayaṁti mahā
+<lb n="12" break="no"/>puṇyaṁ tēṣāmastvaniśaṁ śubhaṁ <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> śrīśrī
+<lb n="13" break="no"/>śrī <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 5.1266 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1925_01"/>
+			<citedRange unit="page">464-465</citedRange>
+			<citedRange unit="item">1266</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

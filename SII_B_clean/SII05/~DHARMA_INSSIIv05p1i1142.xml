@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 5.1142: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 1142. (A.R. No. 265 of 1896). ON A SLAB TO THE LEFT OF THE SOUTHERN ENTRANCE INTO THE SAME MANDAPA.</title>
+				<respStmt>
+					<resp key="creator">author of digital edition</resp>
+					<persName ref="part:emfr">
+						<forename>Emmanuel</forename>
+						<surname>Francis</surname>
+					</persName>
+				</respStmt>
+				<funder>European Research Council (ERC), grant agreement no 809994</funder>
+			</titleStmt>
+			<publicationStmt>
+				<authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv05p1i1142.xml</idno>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+				</availability>
+				<date from="2019" to="2026">2019-2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>as per external metadata</repository>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+		</encodingDesc>
+		<revisionDesc>
+			<change who="part:emfr" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-09-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+
+<p>
+<lb n="1"/>svasti <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied> śakavarṣaṁbulu
+<lb n="2"/>1114 gunēṁṭṭi śrīmada
+<lb n="3" break="no"/>naṁttavarmmadēvara prava
+<lb n="4" break="no"/>rddhamānavijayarājyasa
+<lb n="5" break="no"/>ṁvatsaraṁbulu 27 śrāhi
+<lb n="6"/>Uttarāyaṇasaṁkrāṁtti
+<lb n="7" break="no"/>yu guruvāramuna naga
+<lb n="8" break="no"/>rāna vīṭi śrīAnayaṁkkabhī
+<lb n="9" break="no"/>mīśvaradēvaraku tolaci sō
+<lb n="10" break="no"/>mināyaku māṁkamanāya
+<lb n="11" break="no"/>kuṟāli koḍuku sūrepra
+<lb n="12" break="no"/>dhāni peṭṭina Akhaṁḍḍavartti
+<lb n="13" break="no"/>dīpa 1 ṭṭiṁki nagarapuvāḍa
+<lb n="14"/>bairavuni guṁḍḍamu kriṁddanu
+<lb n="15" break="no"/>ṁ beṭṭina yēnūṟu guṁṭṭala
+<lb n="16"/>bhūmi puṭṭi 1 ḍuṁ dīni nācaṁ
+<lb n="17" break="no"/>drārkkasthāIgā naḍapaṁggalāru
+<lb n="18"/>svadattāṁ paradattāṁ vā Ōha
+<lb n="19" break="no"/>rēti vasuṁddharā<unclear>ṁ</unclear> ṣaṣṭhiṁ va
+<lb n="20" break="no"/>ruṣasahasrāṇi viṣṭhā
+<lb n="21" break="no"/>yāṁ jāyatē krimi[ḥ <g ref="sym:bar" type="punctuation">.</g>]
+<lb n="22"/>lōkācari bhīmācari vrālu <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 5.1142 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1925_01"/>
+			<citedRange unit="page">417</citedRange>
+			<citedRange unit="item">1142</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
