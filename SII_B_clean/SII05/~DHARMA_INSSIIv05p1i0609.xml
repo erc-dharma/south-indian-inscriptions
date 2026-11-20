@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 5.609: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 609. (A.R. No. 52 of 1895). IN THE SAME PLACE; LEFT SIDE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:reda">
+						<forename>Renato</forename>
+						<surname>Dávalos</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv05p1i0609</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:reda" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> yāṇ
+<lb n="2" break="no"/>ṭu pa<supplied reason="omitted">t</supplied>tāvatu tiruṉe
+<lb n="3" break="no"/>ttāṉattu m<choice><sic>a</sic><corr>ā</corr></choice>te
+<lb n="4" break="no"/>varkku teḷḷāṟṟe
+<lb n="5" break="no"/><supplied reason="omitted">ṟi</supplied>nta na<hi rend="grantha"><unclear>nta</unclear></hi> pottarai
+<lb n="6" break="no"/>yar tiruviḷakku<supplied reason="omitted">k</supplied><unclear>ku</unclear> <supplied reason="omitted">ku</supplied>
+<lb n="7" break="no"/>ṭutta tiyppokku
+<lb n="8"/>cempoṉ Aṟupati
+<lb n="9"/>ṉ kaḻañcu Itaṉāl lā
+<lb n="10" break="no"/>ṇṭuvarai palicai
+<lb n="11"/>ṉel Aṟupatiṉ
+<lb n="12"/>kalam Itaṉā <supplied reason="omitted">la</supplied>llu
+<lb n="13" break="no"/>m pakalumāka ṉica
+<lb n="14" break="no"/>ti Uriy ṉe<supplied reason="omitted">y</supplied> tiru
+<lb n="15" break="no"/>kkoyiluṭaiyā
+<lb n="16" break="no"/>ṉukku Aḷaṉtu ku
+<lb n="17" break="no"/>ṭuttu ṉ<supplied reason="omitted">o</supplied>ṉtāvi
+<lb n="18" break="no"/>ḷakku Erip(p)po
+<lb n="19" break="no"/>māṉom perum
+<lb n="20" break="no"/><unclear>pu</unclear>liyūr <hi rend="grantha">sabhai</hi>
+<lb n="21" break="no"/><unclear>y</unclear>om Itu pa
+<lb n="22" break="no"/><unclear>ṉmā h</unclear>e<hi rend="grantha">śu</hi>va<hi rend="grantha"/>
+<lb n="23" break="no"/><hi rend="grantha">ra kṣai</hi>] <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 5.609 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> converted to DHARMA conventions by Renato Dávalos.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1925_01"/>
+			<citedRange unit="page">243</citedRange>
+			<citedRange unit="item">609</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

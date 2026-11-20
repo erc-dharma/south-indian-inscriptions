@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 5.523: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 523. (A.R. No. 224 of 1894). ON THE WEST WALL OF THE SAME SHRINE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:reda">
+						<forename>Renato</forename>
+						<surname>Dávalos</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv05p1i0523</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:reda" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> ko Irācakecaripa<hi rend="grantha">nma</hi> kku yāṇṭu <num value="10"><g type="numeral">10</g></num> Ā
+<lb n="2" break="no"/>vatu pāṇṭi<unclear>nā</unclear>ṭṭu vaṭavūrveli Iruṅkaṇṭi nila
+<lb n="3" break="no"/><unclear>ṉ</unclear> nārāya<unclear>ṇa</unclear>ṉ tiruvaiyāṟṟu <hi rend="grantha">ma</hi> h<choice><sic>a</sic><corr>ā</corr></choice><hi rend="grantha">de</hi> var paṉaṅkāṭṭil
+<lb n="4"/> <gap reason="lost" quantity="3" unit="character"/> ṟum veṭṭi kalli macakki tiruvaiyāṟṟu vi<hi rend="grantha">ṣṇubha</hi> ṭṭā
+<lb n="5" break="no"/><unclear>rakarkku tiruvamiti</unclear>ṉukku ca<hi rend="grantha">ndrā</hi> titta<unclear>val</unclear> nicati <unclear>A</unclear>ññāḻi
+<lb n="6"/>nellukkum ca<hi rend="grantha">ndrā</hi> tittaval Oru <hi rend="grantha">brāhma</hi>ṇa ṉuṇṇa
+<lb n="7"/>nicati kuṟuṇi nellukkum Amaiyttuk kuṭutta
+<lb n="8"/> <gap reason="lost" quantity="1" unit="character"/> <unclear>nir</unclear> nilam Aṟumākkāṇi Innilattukku Ellai kiḻ
+<lb n="9" break="no"/><unclear>pāṟkellai</unclear> paḻuveṭṭaraiyar macakkalukku mekku te<unclear>ṉ</unclear>
+<lb n="10" break="no"/>pāṟkellai c<unclear>o</unclear>ḻamāteviyār viḷakkiṉukku caṅka
+<lb n="11" break="no"/> <gap reason="lost" quantity="2" unit="character"/> taṉṉopātiyārk kallik kuṭutta <gap reason="lost" quantity="1" unit="character"/> <unclear>mā</unclear>cceykku
+<lb n="12"/>vaṭakku<unclear>m mepāṟ</unclear>kellai <unclear>to</unclear>vi A<unclear>raiya</unclear>rkku taṉṉopā
+<lb n="13" break="no"/><unclear>ti</unclear> <gap reason="lost" quantity="2" unit="character"/> taram paṭāraṉ kallik kuṭutta viḷakkuc cey mu
+<lb n="14" break="no"/><unclear>ṉṟu mā kāṇikku</unclear> kiḻakkum vaṭapāṟkellai paḻave
+<lb n="15" break="no"/>ṭṭaraiyar kumaraṅ kaṇṭaṉ macakkal Aḻiciku
+<lb n="16"/>Apaṭi <gap reason="lost" quantity="2" unit="character"/> kalai <gap reason="lost" quantity="2" unit="character"/> <unclear>vaṭakkum</unclear> <gap reason="lost" quantity="1" unit="character"/> kkuṭi kuṭikku teṟkum Ipperunāṉ kellaiyi lakappaṭṭa nirni<supplied reason="omitted">la</supplied>m Aṟumākkāṇi Itaṭi nālu
+<lb n="17" break="no"/><unclear>m pan</unclear>m<choice><sic>a</sic><corr>ā</corr></choice><hi rend="grantha">heśvara ra kṣai</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 5.523 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> converted to DHARMA conventions by Renato Dávalos.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1925_01"/>
+			<citedRange unit="page">214</citedRange>
+			<citedRange unit="item">523</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>

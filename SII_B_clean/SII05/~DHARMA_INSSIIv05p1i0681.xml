@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SII 5.681: original edition by H. Krishna Sastri</title>
+				<title type="alt">No. 681. (A.R. No. 120 of 1895). ON THE NORTH WALL OF THE SAME SHRINE.</title>
+				<respStmt>
+					<resp>author of digital edition</resp>
+					<persName ref="part:reda">
+						<forename>Renato</forename>
+						<surname>Dávalos</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>DHARMA</authority>
+				<pubPlace>Paris, CEIAS</pubPlace>
+				<idno type="filename">DHARMA_INSSIIv05p1i0681</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>DHARMAbase</repository>
+						<idno/>
+					</msIdentifier>
+					<msContents>
+						<summary>
+
+						</summary>
+					</msContents>
+					<physDesc>
+						<handDesc>
+							<p/>
+						</handDesc>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change who="part:reda" when="0000-00-00" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+			<change who="part:mime" when="2026-03-17" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+		<body>
+
+<div type="edition" xml:lang="tam-Latn" rendition="class:tamil maturity:vernacular">
+
+<p>
+<lb n="1"/><hi rend="grantha">svasti śrī</hi> <supplied reason="undefined"><g type="ddanda">.</g></supplied> kopparakecaripaṉmaṟku yāṇṭu <num value="12"><g type="numeral">10</g> 2</num> Āvatu
+<lb n="2"/>ku<unclear>ṉ</unclear>ṟakū<supplied reason="omitted">ṟ</supplied>ṟattu <hi rend="grantha">brahmade</hi> ya<supplied reason="omitted">m</supplied> ciṟupaḻu<unclear>vū</unclear>r tiruvālantuṟai <hi rend="grantha">ma</hi> h<unclear>ā</unclear>
+<lb n="3" break="no"/><hi rend="grantha">de</hi> varkku Aṭikaḷ paḻuveṭṭaraiyar kaṇṭan cuntiracoḻanā<supplied reason="omitted">r</supplied> va
+<lb n="4" break="no"/>tta <unclear>non</unclear>tāviḷakku Iraṇṭu Iravum pakalum Eriya cantirāti
+<lb n="5" break="no"/>ttavaṟ Eriya nārāyattāl nicatam Uriy ney E
+<lb n="6" break="no"/>rikka vaitta cāvā muvā perāṭu ṉūṟṟu Eṇpatu Erikka va
+<lb n="7" break="no"/>cca nilaiviḷakku Iraṇṭu tirā muvoṭṭai Ucaram niṟai
+<lb n="8"/>kalveṭṭupaṭi tarānilai
+<lb n="9" break="no"/>viḷakku muṉṟum ce
+<lb n="10" break="no"/>ppuk kuṭam 1- ṟum
+<lb n="11"/>Āṭavalāṟai Ā
+<lb n="12" break="no"/>ṭṭukiṉṟa cempo
+<lb n="13" break="no"/>ṟ kūṭam Iṭṭatu <supplied reason="undefined"><g type="ddanda">.</g></supplied>
+</p>
+
+</div>
+
+<div type="apparatus">
+
+</div>
+
+<div type="commentary">
+
+</div>
+
+<div type="bibliography">
+
+	<p>Digital edition of SII 5.681 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> converted to DHARMA conventions by Renato Dávalos.</p>
+
+	<listBibl type="primary">
+
+		<bibl n="SII">
+			<ptr target="bib:KrishnaSastri1925_01"/>
+			<citedRange unit="page">286</citedRange>
+			<citedRange unit="item">681</citedRange>
+		</bibl>
+
+	</listBibl>
+
+	<listBibl type="secondary">
+
+		<bibl/>
+
+	</listBibl>
+
+</div>
+
+	</body>
+</text>
+</TEI>
