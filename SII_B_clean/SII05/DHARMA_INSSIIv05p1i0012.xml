@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SII 5.12: original edition by H. Krishna Sastri</title>
+                <title type="alt">No. 12. (A.R. No. 456 of 1893). ON ANOTHER PILLAR IN THE SAME MANDAPA.</title>
+                <respStmt>
+                    <resp key="creator">author of digital edition</resp>
+                    <persName ref="part:emfr">
+                        <forename>Emmanuel</forename>
+                        <surname>Francis</surname>
+                    </persName>
+                </respStmt>
+                <funder>European Research Council (ERC), grant agreement no 809994</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority><ref target="https://dharmalekha.info">DHARMA</ref></authority>
+                <pubPlace>Paris, CEIAS</pubPlace>
+                <idno type="filename">DHARMA_INSSIIv05p1i0012.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+                </availability>
+                <date from="2019" to="2026">2019-2026</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>as per external metadata</repository>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>
+                            
+                            
+                            
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <p/>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoded in TEI/EpiDoc according to the <ref target="https://hal.science/halshs-02888186">DHARMA Encoding Guide for Documentary Editions, version 2</ref></p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:emfr" when="2026-11-20" status="draft">Further conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+            <change who="part:mime" when="2026-09-29" status="draft">Conversion of digital encoding to DHARMA encoding scheme according to EGD (Encoding Guide for Diplomatic Editions)</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve">
+        <body>
+            
+            <div type="edition" xml:lang="tel-Latn" rendition="class:telugu maturity:vernacular">
+                
+                <p>
+                    <lb n="1"/>svasti <supplied reason="undefined"><g ref="sym:bar" type="punctuation">.</g></supplied> sarvvalōkāśraya śrīviṣṇuvarddhana mahārāju
+                    <lb n="2" break="no"/>la pravarddhamānavijayarājyasaṁvatsaraṁbulu
+                    <lb n="3"/><unclear>mū</unclear>ḍagu śrāhi gaṁggaṁgoṇḍacōḍavalanāṁṭi prōlu
+                    <lb n="4" break="no"/>nāṇṭi śuttamallicaturvvēdimaṁggalamuna śrīpuru
+                    <lb n="5" break="no"/>ṣōttamamuna vīracōḍavi<unclear>nnagarāḷvāriki</unclear> śrīvīrape
+                    <lb n="6" break="no"/>rmmāḍidēvara mahādēvi mīnavammahādēvi peṭṭina A
+                    <lb n="7" break="no"/>khaṇḍavartti diviya yokkaṁṭiki Iṁdula golla <unclear>ma</unclear>
+                    <lb n="8" break="no"/>yabōyuni koḍuku <gap reason="lost" quantity="1" unit="character"/> miyabōyuni vasamu
+                    <lb n="9" break="no"/>na <unclear>be</unclear>ṭṭina Inpayeḍlu 50 lekkanu Inpayeḍu <unclear>Ēṁ</unclear>
+                    <lb n="10" break="no"/>padiṁṭiki nityayapaḍi sāniyaṁbāṭa mānika
+                    <lb n="11"/><unclear>mā</unclear>ne<unclear>ḍu</unclear>neyi saṁttānakramamunā<surplus>ṁ</surplus>cāṁdrā
+                    <lb n="12" break="no"/><unclear>rkkamuṁ</unclear> bōyaṁgalavāru <supplied reason="undefined"><g ref="sym:doubleBar" type="punctuation">.</g></supplied>
+                </p>
+                
+            </div>
+            
+            <div type="apparatus">
+                
+            </div>
+            
+            <div type="commentary">
+                
+            </div>
+            
+            <div type="bibliography">
+                
+                <p>Digital edition of SII 5.12 by <bibl><ptr target="bib:KrishnaSastri1925_01"/></bibl> converted to DHARMA conventions by Emmanuel Francis.</p>
+                
+                <listBibl type="primary">
+                    
+                    <bibl n="SII">
+                        <ptr target="bib:KrishnaSastri1925_01"/>
+                        <citedRange unit="page">5</citedRange>
+                        <citedRange unit="item">12</citedRange>
+                    </bibl>
+                    
+                </listBibl>
+                
+                <listBibl type="secondary">
+                    
+                    <bibl/>
+                    
+                </listBibl>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>
